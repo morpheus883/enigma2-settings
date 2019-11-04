@@ -1089,6 +1089,9 @@ fff8b0f7:0001:ffff
 fff8b0f7:0136:ffff
 	s 12535000:4750000:1:3:-8:2:0:1:2:0:2
 /
+0e080000:0065:0065
+	s 12535000:4750000:1:3:-8:2:0:1:2:0:2
+/
 end
 services
 23fb:011a0000:07f9:0002:1:0
@@ -2564,6 +2567,12 @@ p:BSkyB
 d101:011a0000:0832:0002:1:0
 Studio 66 TV 1
 p:Sky Digital
+d12a:011a0000:0832:0002:1:0
+HUM Masala
+p:BSkyB
+d13e:011a0000:0832:0002:1:0
+HUM News
+p:BSkyB
 d357:011a0000:0830:0002:1:0
 High Street TV 5
 p:Sky Digital
@@ -3179,9 +3188,6 @@ p:BSkyB,c:090102
 5858:011a0000:082e:0002:1:0
 iON TV
 p:BSkyB
-5859:011a0000:082e:0002:1:0
-HUM Masala
-p:BSkyB
 5857:011a0000:082e:0002:1:0
 92 News
 p:BSkyB
@@ -3214,9 +3220,6 @@ The Word Network
 p:BSkyB
 584a:011a0000:082e:0002:1:0
 Channel S TV
-p:BSkyB
-585a:011a0000:082e:0002:1:0
-HUM News
 p:BSkyB
 585b:011a0000:082e:0002:1:0
 Pavers Shoes TV
@@ -7261,6 +7264,9 @@ Sport 1+ HD
 p:SES
 1196:00c00000:0406:0001:25:0
 eSport 1 HD
+p:SES
+1197:00c00000:0406:0001:25:0
+Edge Sport
 p:SES
 21ae:00c00000:0448:0001:201:0
 MOSAIQUE
@@ -16994,9 +17000,18 @@ p:DIGI CJ
 00bf:0e08b0fe:0001:ffff:1:0
 dgi
 p:rcs-rds
+0137:0e08b0fe:0001:ffff:1:0
+B 311 DGI
+p:Digi B
+00bb:0e08b0fe:0001:ffff:1:0
+B 187 DGI
+p:DIGI CJ
 0136:fff8b0f7:0136:ffff:1:0
 digisport
 p:rcs-rds
+0065:0e080000:0065:0065:1:0
+B 101 DGI
+p:RCS-RDS BUCURESTI
 end
 === Compiled with Morpheus883's scripts ===
 Author:=====  by Morpheus883, 2019  =====

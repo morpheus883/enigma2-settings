@@ -369,9 +369,6 @@ transponders
 00a0b115:0001:0001
 	s 12564000:3617000:1:3:160:2:0
 /
-00a00000:01f4:0005
-	s 12643000:12500000:1:3:160:2:0:1:1:0:2
-/
 00a00000:44db:44db
 	s 12680000:334000:0:1:160:2:0
 /
@@ -518,6 +515,9 @@ transponders
 /
 00a0b1ad:0000:0000
 	s 12717000:2400000:1:3:160:2:0:1:2:0:2
+/
+00a0b163:01f4:0005
+	s 12643000:27500000:1:2:160:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -4169,6 +4169,9 @@ p:SES
 1196:00c00000:0406:0001:25:0
 eSport 1 HD
 p:SES
+1197:00c00000:0406:0001:25:0
+Edge Sport
+p:SES
 21ae:00c00000:0448:0001:201:0
 MOSAIQUE
 p:CSAT
@@ -5798,45 +5801,6 @@ p:tring tv
 0001:00a0b115:0001:0001:1:0
 Kanal D Romania
 p:DoganMedia
-0001:00a00000:01f4:0005:1:0
-Prima TV
-p:Freesat
-0002:00a00000:01f4:0005:1:0
-Kanal D Romania
-p:Freesat
-0003:00a00000:01f4:0005:1:0
-National Tv
-p:Freesat
-0005:00a00000:01f4:0005:22:0
-Pro TV
-p:ProTV
-0006:00a00000:01f4:0005:22:0
-Sport Ro
-p:Pro TV
-0007:00a00000:01f4:0005:22:0
-Acasatv
-p:Pro TV
-0008:00a00000:01f4:0005:22:0
-Pro Cinema
-p:Pro TV
-0004:00a00000:01f4:0005:1:0
-Boomerang
-p:
-000a:00a00000:01f4:0005:1:0
-Romania TV
-p:
-000b:00a00000:01f4:0005:1:0
-Neptun TV
-p:,c:091b63
-0065:00a00000:01f4:0005:2:0
-Radio Trinitas
-p:,c:091f41
-0066:00a00000:01f4:0005:2:0
-Radio Reintregirea
-p:,c:091f42
-0009:00a00000:01f4:0005:1:0
-TNT Bulgaria & Romania
-p:
 44db:00a00000:44db:44db:2:0
 JOE FM BU
 p:BNT Uplink
@@ -7702,6 +7666,66 @@ E16a
 p:
 0001:00a0b1ad:0000:0000:22:0
 E16a
+p:
+0015:00a0b163:01f4:0005:1:0
+TVR Cluj
+p:SRTV
+0016:00a0b163:01f4:0005:1:0
+TVR Craiova
+p:SRTV
+0017:00a0b163:01f4:0005:1:0
+TVR Iasi
+p:SRTV
+0018:00a0b163:01f4:0005:1:0
+TVR Timisoara
+p:SRTV
+0019:00a0b163:01f4:0005:1:0
+TVR Tg Mures
+p:SRTV
+00c8:00a0b163:01f4:0005:1:0
+TVR 2 HD
+p:
+0001:00a0b163:01f4:0005:1:0
+Prima TV
+p:Freesat
+0002:00a0b163:01f4:0005:1:0
+Kanal D Romania
+p:Freesat
+0003:00a0b163:01f4:0005:1:0
+National Tv
+p:Freesat
+0004:00a0b163:01f4:0005:1:0
+Boomerang
+p:
+0005:00a0b163:01f4:0005:22:0
+Pro TV
+p:ProTV
+0006:00a0b163:01f4:0005:22:0
+Sport Ro
+p:Pro TV
+0007:00a0b163:01f4:0005:22:0
+Acasatv
+p:Pro TV
+0008:00a0b163:01f4:0005:22:0
+Pro Cinema
+p:Pro TV
+0009:00a0b163:01f4:0005:1:0
+TNT Bulgaria & Romania
+p:
+000a:00a0b163:01f4:0005:1:0
+Romania TV
+p:
+000c:00a0b163:01f4:0005:1:0
+Neptun TV
+p:,c:091b63
+0065:00a0b163:01f4:0005:2:0
+Radio Trinitas
+p:,c:091f41
+0066:00a0b163:01f4:0005:2:0
+Radio Reintregirea
+p:,c:091f42
+000b:00a0b163:01f4:0005:1:0
+Digi 24
 p:
 439f:00820000:2cec:013e:1:0
 BVN - Beste van Vlaanderen en Nederland
