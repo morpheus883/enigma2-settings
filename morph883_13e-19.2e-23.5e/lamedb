@@ -174,6 +174,9 @@ transponders
 00ebb1a7:0000:0000
 	s 12711000:4800000:1:3:235:2:0:1:2:0:2
 /
+00eb2d59:0000:0000
+	s 11609000:4800000:0:3:235:2:0:1:2:0:2
+/
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
 /
@@ -776,9 +779,6 @@ transponders
 /
 00820000:1388:013e
 	s 11727000:29900000:1:3:130:2:0:1:2:0:2
-/
-00820000:2c24:013e
-	s 10775000:29900000:0:7:130:2:0:1:2:0:2
 /
 00820000:2c24:0e26
 	s 10775000:29900000:0:7:130:2:0:1:2:2:2
@@ -1522,6 +1522,9 @@ Doma HD
 p:M7 Group
 3748:00ebaec5:0c8e:0003:2:0
 L1 Radio
+p:M7 Group
+3749:00ebaec5:0c8e:0003:2:0
+Radio 7 CZ
 p:M7 Group
 0302:00eb0000:0c94:0003:25:0
 Nat Geo HD
@@ -2876,6 +2879,9 @@ p:Steiwer
 0001:00ebb1a7:0000:0000:25:0
 MMG-D185 HD Encoder 1
 p:
+0001:00eb2d59:0000:0000:25:0
+POL-50 ENC 2
+p:
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+ (Astra)
@@ -3806,26 +3812,11 @@ p:MTV Networks
 7008:00c00000:0436:0001:1:0
 Nickelodeon/MTV+
 p:MTV Networks
-700a:00c00000:0436:0001:1:0
-Nicktoons Germany
-p:MTV Networks
-700b:00c00000:0436:0001:1:0
-Nicktoons Turkey
-p:MTV Networks Europe,c:0901a7
 7006:00c00000:0436:0001:1:0
 MTV Germany
 p:MTV Networks Europe
-6ff3:00c00000:0436:0001:1:0
-MTV Rocks
-p:MTV Networks Europe
 6ff1:00c00000:0436:0001:1:0
 VH1 Classic
-p:MTV Networks Europe
-6fef:00c00000:0436:0001:1:0
-MTV Dance
-p:MTV Networks Europe
-6fee:00c00000:0436:0001:1:0
-MTV Hits
 p:MTV Networks Europe
 6ff0:00c00000:0436:0001:1:0
 VH1
@@ -4309,9 +4300,6 @@ STEST1
 p:SKY
 0321:00c00000:000c:0085:22:0
 STEST2
-p:SKY
-0075:00c00000:000c:0085:25:0
-Sky Serien & Shows HD
 p:SKY
 23ba:00c00000:044a:0001:192:0
 DOWNLOAD G5 SAMSUNG
@@ -12679,7 +12667,7 @@ RADIO 06 WORLD SERVICE
 p:IRIB
 end
 === Compiled with Morpheus883's scripts ===
-Author:=====  by Morpheus883, 2019  =====
+Author: Morpheus883, 2019
 Notes:Start
 =====  © by Morpheus883, 2019  =====
 Notes:End
