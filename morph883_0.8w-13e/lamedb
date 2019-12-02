@@ -294,6 +294,9 @@ transponders
 00820000:2c24:0e26
 	s 10775000:29900000:0:7:130:2:0:1:2:2:2
 /
+00820000:2c24:013e
+	s 10775000:29900000:0:7:130:2:0:1:2:2:2
+/
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
 /
@@ -551,6 +554,12 @@ fff8b0f7:0001:ffff
 /
 0e080000:00bf:00bf
 	s 12519000:2500000:1:3:-8:2:0:1:2:0:2
+/
+fff8b0e7:010c:ffff
+	s 12519000:2500000:1:3:-8:2:0:1:2:0:2
+/
+fff80000:0065:0065
+	s 12535000:4750000:1:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -4754,6 +4763,12 @@ p:Cyfrowy Polsat S.A
 4284:00820000:2bc0:013e:1:0
 Polsat Games
 p:Cyfrowy Polsat
+4298:00820000:2bc0:013e:1:0
+VOX Music TV
+p:Cyfrowy Polsat S.A.,f:40
+4299:00820000:2bc0:013e:1:0
+Eska Rock
+p:Cyfrowy Polsat S.A.,f:40
 3dcd:00820000:0640:013e:1:0
 TVN HD
 p:Cyfrowy Polsat
@@ -6329,6 +6344,9 @@ p:IRIB
 0632:00820000:2c24:0e26:2:0
 RADIO 06 WORLD SERVICE
 p:IRIB
+05f9:00820000:2c24:013e:1:0
+SAHAR KURDISH
+p:IRIB,f:40
 040a:0e080000:0044:0046:25:0
 TV 2 Sport Premium HD
 p:Canal Digital Nordic
@@ -9650,6 +9668,9 @@ p:Digi B
 0001:fff8b0f7:0001:ffff:1:0
 Digi Sport HD
 p:HUN016
+00bf:fff8b0f7:0001:ffff:1:0
+dgi
+p:rcs-rds,f:40
 00bf:0e08b0fe:0001:ffff:1:0
 dgi
 p:rcs-rds
@@ -9671,6 +9692,12 @@ p:RCS-RDS
 00c0:0e080000:00bf:00bf:1:0
 DIGI 24 HD
 p:RCS-RDS
+010c:fff8b0e7:010c:ffff:1:0
+DIGI24HD B268DGI
+p:RCS-RDS,f:40
+0065:fff80000:0065:0065:1:0
+B 101 DGI
+p:RCS-RDS BUCURESTI,f:40
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2019

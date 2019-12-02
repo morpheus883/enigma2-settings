@@ -606,6 +606,9 @@ transponders
 00820000:2c24:0e26
 	s 10775000:29900000:0:7:130:2:0:1:2:2:2
 /
+00820000:2c24:013e
+	s 10775000:29900000:0:7:130:2:0:1:2:2:2
+/
 end
 services
 7856:00c00000:041a:0001:25:0
@@ -1779,8 +1782,8 @@ p:SES Astra
 EuroNews Français
 p:Globecast
 7094:00c00000:0443:0001:1:0
-VOX CH
-p:RTL
+VOXup
+p:RTL,f:40
 7099:00c00000:0443:0001:1:0
 RTL CH
 p:CBC
@@ -4580,6 +4583,9 @@ p:Kartina Satellite
 1a4a:00c00000:0400:0001:1:0
 1+1 International
 p:Kartina Satellite
+1a4b:00c00000:0400:0001:1:0
+Souz
+p:Kartina Satellite,f:40
 1200:00c00000:03fd:0001:1:0
 TVA Ostbayern
 p:FFmpeg
@@ -8825,6 +8831,12 @@ p:Cyfrowy Polsat S.A
 4284:00820000:2bc0:013e:1:0
 Polsat Games
 p:Cyfrowy Polsat
+4298:00820000:2bc0:013e:1:0
+VOX Music TV
+p:Cyfrowy Polsat S.A.,f:40
+4299:00820000:2bc0:013e:1:0
+Eska Rock
+p:Cyfrowy Polsat S.A.,f:40
 3dcd:00820000:0640:013e:1:0
 TVN HD
 p:Cyfrowy Polsat
@@ -10400,6 +10412,9 @@ p:IRIB
 0632:00820000:2c24:0e26:2:0
 RADIO 06 WORLD SERVICE
 p:IRIB
+05f9:00820000:2c24:013e:1:0
+SAHAR KURDISH
+p:IRIB,f:40
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2019

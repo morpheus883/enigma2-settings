@@ -177,6 +177,27 @@ transponders
 00ebb180:4321:00eb
 	s 12672000:4800000:1:3:235:2:0:1:2:0:2
 /
+00eb2d0a:0001:0001
+	s 11530000:7200000:0:3:235:2:0:1:2:0:2
+/
+00eb2cf5:0001:0001
+	s 11509000:7200000:0:3:235:2:0:1:2:0:2
+/
+00ebb134:0001:ffff
+	s 12596000:4800000:1:3:235:2:0:1:2:0:2
+/
+00ebb0f0:0001:ffff
+	s 12528000:3650000:1:3:235:2:0:1:2:0:2
+/
+00ebb0f5:0001:ffff
+	s 12533000:3650000:1:3:235:2:0:1:2:0:2
+/
+00eb2d95:0001:0001
+	s 11669000:7200000:0:3:235:2:0:1:2:0:2
+/
+00eb2d9e:0001:0001
+	s 11678000:7200000:0:3:235:2:0:1:2:0:2
+/
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
 /
@@ -705,6 +726,12 @@ transponders
 00a030e7:0001:0001
 	s 12519000:3166000:0:2:160:2:0:1:2:0:2
 /
+00a030fa:0001:ffff
+	s 12538000:3166000:0:2:160:2:0:1:2:0:2
+/
+00a0b11a:0001:ffff
+	s 12570000:2450000:1:4:160:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -997,6 +1024,9 @@ transponders
 	s 11727000:29900000:1:3:130:2:0:1:2:0:2
 /
 00820000:2c24:0e26
+	s 10775000:29900000:0:7:130:2:0:1:2:2:2
+/
+00820000:2c24:013e
 	s 10775000:29900000:0:7:130:2:0:1:2:2:2
 /
 end
@@ -3107,6 +3137,27 @@ p:
 0001:00ebb180:4321:00eb:25:0
 D128 Feed1
 p:Betamobil
+0001:00eb2d0a:0001:0001:1:0
+Service 01
+p:Net 1,f:40
+0001:00eb2cf5:0001:0001:1:0
+Service 01
+p:Net 1,f:40
+0001:00ebb134:0001:ffff:1:0
+rt1.tv
+p:rt1.tv,f:40
+0001:00ebb0f0:0001:ffff:1:0
+Tower OB TX3
+p:BT TVOB,f:40
+0001:00ebb0f5:0001:ffff:1:0
+Tower OB TX4
+p:BT TVOB,f:40
+0001:00eb2d95:0001:0001:25:0
+UKI-1852-1
+p:GoingLiveTV.co.uk,f:40
+0003:00eb2d9e:0001:0001:25:0
+UKI-1444 P1
+p:Stryder TV,f:40
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+ (Astra)
@@ -4278,8 +4329,8 @@ p:SES Astra
 EuroNews Français
 p:Globecast
 7094:00c00000:0443:0001:1:0
-VOX CH
-p:RTL
+VOXup
+p:RTL,f:40
 7099:00c00000:0443:0001:1:0
 RTL CH
 p:CBC
@@ -7079,6 +7130,9 @@ p:Kartina Satellite
 1a4a:00c00000:0400:0001:1:0
 1+1 International
 p:Kartina Satellite
+1a4b:00c00000:0400:0001:1:0
+Souz
+p:Kartina Satellite,f:40
 1200:00c00000:03fd:0001:1:0
 TVA Ostbayern
 p:FFmpeg
@@ -7265,6 +7319,12 @@ p:T-HT
 0081:00a00000:0002:0040:22:0
 Da Vinci Learning
 p:T-HT
+009c:00a00000:0002:0040:2:0
+Radio CG.
+p:T-HT,f:40
+009b:00a00000:0002:0040:22:0
+TVCG Sat.
+p:T-HT,f:40
 0022:00a00000:0003:0040:22:0
 Vivid TV
 p:Max TV
@@ -8951,9 +9011,6 @@ p:Total TV
 035a:00a02ccf:c3b4:016e:1:0
 Pop TV Slovenia HD
 p:Total TV
-035f:00a02ccf:c3b4:016e:1:0
-MRT 1
-p:Total TV
 035d:00a02ccf:c3b4:016e:1:0
 TV Slovenija 1
 p:Total TV
@@ -9344,6 +9401,9 @@ p:Total TV
 067d:00a00000:9fc4:016e:1:0
 Pink
 p:Total TV
+067a:00a00000:9fc4:016e:1:0
+MRT 1
+p:Total TV
 0001:00a0b0ff:0001:0001:1:0
 KTV Kohavision HD
 p:,c:090100
@@ -9548,6 +9608,12 @@ p:STN ltd
 03fb:00a02c51:5e24:016e:1:0
 HNL HD
 p:STN ltd
+0401:00a02c51:5e24:016e:1:0
+TVCG Sat
+p:STN Ltd,f:40
+0bbd:00a02c51:5e24:016e:2:0
+Radio CG
+p:STN Ltd,f:40
 030a:00a0abdf:9d08:016e:1:0
 Vavoom
 p:Total TV
@@ -9891,7 +9957,7 @@ p:
 TVR Tg Mures
 p:
 000f:00a0acf8:00c8:0001:1:0
-TVR HD
+TVR 1 HD
 p:SRTV
 0015:00a0acf8:00c8:0001:10:0
 Radio Romania Actualitati
@@ -9917,6 +9983,9 @@ p:
 00c8:00a0acf8:00c8:0001:1:0
 SRTV Feed
 p:SRTV
+0011:00a0acf8:00c8:0001:1:0
+TVR 2 HD
+p:,f:40
 0d49:00a00000:c738:016e:1:0
 HRT 1 HD
 p:OIV
@@ -10043,6 +10112,12 @@ p:TelLink
 0001:00a030e7:0001:0001:25:0
 Ue-tec 3 SL 1
 p:Ue-tec 3 SL 1
+0001:00a030fa:0001:ffff:1:0
+Enex Path 1
+p:Enex,f:40
+0001:00a0b11a:0001:ffff:1:0
+Car 04
+p:Antena Group,f:40
 439f:00820000:2cec:013e:1:0
 BVN - Beste van Vlaanderen en Nederland
 p:RRsat
@@ -14243,6 +14318,12 @@ p:Cyfrowy Polsat S.A
 4284:00820000:2bc0:013e:1:0
 Polsat Games
 p:Cyfrowy Polsat
+4298:00820000:2bc0:013e:1:0
+VOX Music TV
+p:Cyfrowy Polsat S.A.,f:40
+4299:00820000:2bc0:013e:1:0
+Eska Rock
+p:Cyfrowy Polsat S.A.,f:40
 3dcd:00820000:0640:013e:1:0
 TVN HD
 p:Cyfrowy Polsat
@@ -15818,6 +15899,9 @@ p:IRIB
 0632:00820000:2c24:0e26:2:0
 RADIO 06 WORLD SERVICE
 p:IRIB
+05f9:00820000:2c24:013e:1:0
+SAHAR KURDISH
+p:IRIB,f:40
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2019

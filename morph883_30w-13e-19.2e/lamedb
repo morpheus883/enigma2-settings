@@ -606,6 +606,9 @@ transponders
 00820000:2c24:0e26
 	s 10775000:29900000:0:7:130:2:0:1:2:2:2
 /
+00820000:2c24:013e
+	s 10775000:29900000:0:7:130:2:0:1:2:2:2
+/
 fed40000:056c:056c
 	s 10730000:27500000:0:3:-300:2:0:1:2:3:0
 /
@@ -1914,8 +1917,8 @@ p:SES Astra
 EuroNews Français
 p:Globecast
 7094:00c00000:0443:0001:1:0
-VOX CH
-p:RTL
+VOXup
+p:RTL,f:40
 7099:00c00000:0443:0001:1:0
 RTL CH
 p:CBC
@@ -4715,6 +4718,9 @@ p:Kartina Satellite
 1a4a:00c00000:0400:0001:1:0
 1+1 International
 p:Kartina Satellite
+1a4b:00c00000:0400:0001:1:0
+Souz
+p:Kartina Satellite,f:40
 1200:00c00000:03fd:0001:1:0
 TVA Ostbayern
 p:FFmpeg
@@ -8960,6 +8966,12 @@ p:Cyfrowy Polsat S.A
 4284:00820000:2bc0:013e:1:0
 Polsat Games
 p:Cyfrowy Polsat
+4298:00820000:2bc0:013e:1:0
+VOX Music TV
+p:Cyfrowy Polsat S.A.,f:40
+4299:00820000:2bc0:013e:1:0
+Eska Rock
+p:Cyfrowy Polsat S.A.,f:40
 3dcd:00820000:0640:013e:1:0
 TVN HD
 p:Cyfrowy Polsat
@@ -10535,6 +10547,9 @@ p:IRIB
 0632:00820000:2c24:0e26:2:0
 RADIO 06 WORLD SERVICE
 p:IRIB
+05f9:00820000:2c24:013e:1:0
+SAHAR KURDISH
+p:IRIB,f:40
 0003:fed40000:056c:056c:1:0
 RTP 3
 p:,c:0903eb
@@ -12080,6 +12095,9 @@ p:TPA
 27f7:fed40000:1450:22d4:1:0
 Teledeporte
 p:RTVE
+27f6:fed40000:1450:22d4:1:0
+TPA HD
+p:TPA,f:40
 0001:fed4aaaa:0001:0001:1:0
 Bom
 p:BOM,c:050001
@@ -12257,9 +12275,6 @@ p:Pantelio
 000f:0ce40000:012f:162d:1:0
 Boomerang
 p:Pantelio
-0014:0ce40000:012f:162d:22:0
-Ocko
-p:Pantelio
 0029:0ce40000:012f:162d:25:0
 CT D / ART
 p:Pantelio
@@ -12269,9 +12284,6 @@ p:Pantelio
 005a:0ce40000:012f:162d:25:0
 JOJ Cinema HD
 p:Pantelio
-005e:0ce40000:012f:162d:22:0
-AXN CZ
-p:Pantelio
 0062:0ce40000:012f:162d:22:0
 Mnam TV
 p:Pantelio
@@ -12280,12 +12292,6 @@ Eurosport 2 HD
 p:Pantelio
 0067:0ce40000:012f:162d:25:0
 Nova Sport 1 HD
-p:Pantelio
-0075:0ce40000:012f:162d:1:0
-AXN White
-p:Pantelio
-0076:0ce40000:012f:162d:1:0
-AXN Black
 p:Pantelio
 007c:0ce40000:012f:162d:22:0
 Nickelodeon
@@ -12322,6 +12328,18 @@ RTL Gold
 p:Pantelio
 004d:0ce40000:012f:162d:25:0
 Reserved 67
+p:Pantelio
+0014:0ce40000:012f:162d:1:0
+Reserved 27
+p:Pantelio
+005e:0ce40000:012f:162d:1:0
+Reserved 48
+p:Pantelio
+0075:0ce40000:012f:162d:1:0
+Reserved 117
+p:Pantelio
+0076:0ce40000:012f:162d:1:0
+Reserved 118
 p:Pantelio
 02bd:fed40000:0130:162d:1:0
 TV Severka

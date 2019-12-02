@@ -294,6 +294,9 @@ transponders
 00820000:2c24:0e26
 	s 10775000:29900000:0:7:130:2:0:1:2:2:2
 /
+00820000:2c24:013e
+	s 10775000:29900000:0:7:130:2:0:1:2:2:2
+/
 005a0000:14b4:009c
 	s 11785000:27500000:0:2:90:2:0:1:2:0:2
 /
@@ -404,6 +407,9 @@ transponders
 /
 005a0000:005c:0055
 	s 12149000:27500000:1:4:90:2:0:1:2:1:2
+/
+005ab035:0001:ffff
+	s 12341000:31400000:1:4:90:2:0:1:2:0:2:2:262140:1
 /
 end
 services
@@ -4607,6 +4613,12 @@ p:Cyfrowy Polsat S.A
 4284:00820000:2bc0:013e:1:0
 Polsat Games
 p:Cyfrowy Polsat
+4298:00820000:2bc0:013e:1:0
+VOX Music TV
+p:Cyfrowy Polsat S.A.,f:40
+4299:00820000:2bc0:013e:1:0
+Eska Rock
+p:Cyfrowy Polsat S.A.,f:40
 3dcd:00820000:0640:013e:1:0
 TVN HD
 p:Cyfrowy Polsat
@@ -6182,6 +6194,9 @@ p:IRIB
 0632:00820000:2c24:0e26:2:0
 RADIO 06 WORLD SERVICE
 p:IRIB
+05f9:00820000:2c24:013e:1:0
+SAHAR KURDISH
+p:IRIB,f:40
 00cc:005a0000:14b4:009c:1:0
 Channel 21 Shop
 p:Kabelkiosk
@@ -7313,9 +7328,6 @@ p:
 004f:005a0000:0107:217c:0:0
 Servizio 79
 p:
-0063:005a0000:0107:217c:0:0
-Ghost
-p:
 0316:005a0000:0107:217c:1:0
 LA7 on demand
 p:
@@ -7354,6 +7366,9 @@ LA7 HD
 p:
 02f0:005a0000:0107:217c:25:0
 LA7d HD
+p:
+0063:005a0000:0107:217c:0:0
+Ghost
 p:
 0078:005a0000:0065:0012:2:0
 AFN Atlantic Eagle
@@ -7565,6 +7580,9 @@ p:TAG Broadcasting
 0364:005a0000:c35a:009e:25:0
 La Chaîne du Père Noël
 p:TAG Broadcasting
+0363:005a0000:c35a:009e:25:0
+Museum HD
+p:TAG Broadcasting,f:40
 0c1c:005a0000:005d:0055:22:0
 Star Family
 p:XTRA TV
@@ -7664,69 +7682,6 @@ p:OTE
 0458:005a2ea2:0009:00aa:1:0
 NG TEST
 p:OTE
-0001:005a0000:032a:0110:0:0
-Servizio 1
-p:
-0002:005a0000:032a:0110:0:0
-Servizio 2
-p:
-0003:005a0000:032a:0110:0:0
-Servizio 3
-p:
-0004:005a0000:032a:0110:0:0
-Servizio 4
-p:
-0005:005a0000:032a:0110:0:0
-Servizio 5
-p:
-0006:005a0000:032a:0110:0:0
-Servizio 6
-p:
-0007:005a0000:032a:0110:0:0
-Servizio 7
-p:
-0008:005a0000:032a:0110:0:0
-Servizio 8
-p:
-0009:005a0000:032a:0110:0:0
-Servizio 9
-p:
-000a:005a0000:032a:0110:0:0
-Servizio 10
-p:
-1fae:005a0000:032a:0110:25:0
-20 Mediaset HD
-p:
-1fb8:005a0000:032a:0110:1:0
-Mediaset Italia Due
-p:
-1fd0:005a0000:032a:0110:25:0
-Rete 4 HD
-p:
-1fe6:005a0000:032a:0110:1:0
-Mediaset Italia Due
-p:
-1fe7:005a0000:032a:0110:1:0
-Mediaset Italia Due
-p:
-1fa4:005a0000:032a:0110:1:0
-Virgin Radio
-p:
-1fa5:005a0000:032a:0110:1:0
-R101 TV
-p:
-1fa6:005a0000:032a:0110:2:0
-Radio R101
-p:
-1fa7:005a0000:032a:0110:2:0
-RADIO 105
-p:
-1fa8:005a0000:032a:0110:2:0
-VIRGIN RADIO
-p:
-1fa9:005a0000:032a:0110:2:0
-Radio Monte Carlo
-p:
 000b:005a0000:0384:0110:0:0
 Servizio 11
 p:
@@ -7789,6 +7744,21 @@ Mediaset Italia Due
 p:
 1f4f:005a0000:0384:0110:130:0
 HUMAX DOWNLOAD SVC
+p:
+1bbe:005a0000:0384:0110:2:0
+Radio R101
+p:,f:40
+1bbf:005a0000:0384:0110:2:0
+RADIO 105
+p:,f:40
+1bc0:005a0000:0384:0110:2:0
+VIRGIN RADIO
+p:,f:40
+1bc1:005a0000:0384:0110:2:0
+Radio Monte Carlo
+p:,f:40
+0063:005a0000:0384:0110:0:0
+Ghost
 p:
 0472:005a0000:0191:000a:1:0
 TEST 81
@@ -7916,6 +7886,9 @@ p:XTRA TV
 094c:005a0000:005c:0055:22:0
 Boomerang
 p:XTRA TV
+0001:005ab035:0001:ffff:1:0
+Test-
+p:TandbergTV,f:40
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2019
