@@ -681,9 +681,6 @@ transponders
 0208b0a8:0001:0000
 	s 12456000:3358000:1:2:520:2:0:1:2:0:2
 /
-02080000:1d36:1d36
-	s 12226000:27500000:1:2:520:2:0
-/
 02080000:211e:211e
 	s 10887000:27500000:1:2:520:2:0
 /
@@ -1119,9 +1116,6 @@ transponders
 01a4acdf:0001:00eb
 	s 11487000:6800000:1:3:420:2:0:1:2:0:2
 /
-01a40000:0065:005a
-	s 12729000:30000000:1:2:420:2:0:1:2:0:2
-/
 01860000:000d:001c
 	s 12524000:30000000:1:5:390:2:0
 /
@@ -1476,9 +1470,6 @@ transponders
 01682d4c:0001:0001
 	s 11596000:1750000:0:4:360:2:0:1:2:0:2
 /
-01680000:00f5:036e
-	s 11345000:30000000:0:3:360:2:0:1:2:0:2
-/
 01683101:0001:ffff
 	s 12545000:1504000:0:3:360:2:0:1:2:0:2
 /
@@ -1664,6 +1655,12 @@ transponders
 /
 0168ace3:0001:ffff
 	s 11491000:2220000:1:4:360:2:0:1:1:0:2
+/
+0168ada4:0001:ffff
+	s 11684000:5426000:1:4:360:2:0:1:2:0:2
+/
+01682c51:00f5:0001
+	s 11345000:30000000:0:3:360:2:0:1:2:0:2
 /
 014a0000:f001:2268
 	s 12722000:16730000:1:3:330:2:0:1:1:0:2
@@ -3744,6 +3741,9 @@ transponders
 0064ad32:0001:ffff
 	s 11570000:1667000:1:6:100:2:0:1:2:0:2
 /
+0064ad1b:1000:2000
+	s 11547000:1442000:1:3:100:2:0:1:2:0:2
+/
 005a0000:14b4:009c
 	s 11785000:27500000:0:2:90:2:0:1:2:0:2
 /
@@ -5358,8 +5358,8 @@ ffb0904c:355f:00de
 ffb00000:0048:0800
 	s 12562000:27500000:0:4:-80:2:0
 /
-ffb00000:004b:0800
-	s 12728000:27500000:0:3:-80:2:0:1:2:2:2
+0dc00000:004b:0800
+	s 12729000:27500000:0:3:-80:2:0:1:2:2:2
 /
 ffb00000:0004:0800
 	s 11096000:27500000:1:2:-80:2:0:1:2:0:2
@@ -11924,21 +11924,6 @@ p:WNS
 0001:0208b0a8:0001:0000:1:0
 SuperYacht TV
 p:Mobibase
-0002:02080000:1d36:1d36:1:0
-TRT Arabi HD
-p:WNS
-0003:02080000:1d36:1d36:1:0
-TRT World HD
-p:WNS
-0005:02080000:1d36:1d36:1:0
-TRT Avaz
-p:WNS
-0004:02080000:1d36:1d36:1:0
-France 24 HD (in English)
-p:WNS
-0001:02080000:1d36:1d36:1:0
-NHK World Japan
-p:WNS
 0001:02080000:211e:211e:1:0
 WNS
 p:WNS
@@ -11998,6 +11983,9 @@ TRT World HD
 p:WNS
 0014:02080000:211e:211e:1:0
 France 24 HD (in English)
+p:WNS
+0005:02080000:211e:211e:1:0
+XO TV
 p:WNS
 0001:0208b082:0001:0000:1:0
 SuperYacht TV
@@ -14650,6 +14638,9 @@ beIN Sports 2
 p:Digital Platform
 3cb8:01a42bac:4e85:002a:1:0
 beIN Sports 3
+p:Digital Platform
+3ca8:01a42bac:4e85:002a:129:0
+HM9506HD Replacement
 p:Digital Platform
 009d:01a40000:0009:0042:130:0
 iMOVIETURKHDTrigger
@@ -18468,7 +18459,7 @@ p:MCK
 ODS VOD Eng
 p:MCK
 0001:0168ad48:0001:ffff:1:0
-Syria Drama
+Syrian Drama TV
 p:Service Provider
 0002:0168ad48:0001:ffff:1:0
 Syriana TV
@@ -18560,30 +18551,6 @@ p:Titan 3
 0001:01682d4c:0001:0001:1:0
 Alyaum TV
 p:SYR       
-0065:01680000:00f5:036e:1:0
-Nat Geo Wild Europe
-p:VIVACOM
-0066:01680000:00f5:036e:1:0
-BNT World
-p:VIVACOM
-0067:01680000:00f5:036e:25:0
-FOX Greece HD
-p:VIVACOM
-0068:01680000:00f5:036e:25:0
-Fox Life Greece HD
-p:VIVACOM
-006e:01680000:00f5:036e:1:0
-Rybalka i Okhota International
-p:VIVACOM
-0069:01680000:00f5:036e:1:0
-National Geographic HD Greece
-p:VIVACOM
-006a:01680000:00f5:036e:1:0
-Disney XD Greece
-p:VIVACOM
-0079:01680000:00f5:036e:1:0
-InterAz
-p:VIVACOM
 0001:01683101:0001:ffff:1:0
 Al Masar TV Al Oula
 p:Service Provider
@@ -20543,6 +20510,57 @@ p:Service Provider
 0003:0168ace3:0001:ffff:1:0
 Service Name
 p:Service Provider
+0001:0168ada4:0001:ffff:1:0
+Syrian Drama TV
+p:Service Provider
+0002:0168ada4:0001:ffff:1:0
+Syriana TV
+p:Service Provider
+0003:0168ada4:0001:ffff:1:0
+Nour El Sham
+p:Service Provider
+0004:0168ada4:0001:ffff:1:0
+Syria Satellite Channel
+p:Service Provider
+0005:0168ada4:0001:ffff:1:0
+Syrian Education
+p:Service Provider
+006f:01682c51:00f5:0001:1:0
+Friday International
+p:Harmonic
+0070:01682c51:00f5:0001:1:0
+TNT International
+p:Harmonic
+0071:01682c51:00f5:0001:1:0
+TNT4 (THT4) International
+p:Harmonic
+0072:01682c51:00f5:0001:1:0
+TV3 (TB3) International
+p:Harmonic
+0065:01682c51:00f5:0001:1:0
+Nat Geo Wild Europe
+p:VIVACOM
+0066:01682c51:00f5:0001:1:0
+BNT 4
+p:VIVACOM
+0067:01682c51:00f5:0001:25:0
+FOX Greece HD
+p:VIVACOM
+0068:01682c51:00f5:0001:25:0
+Fox Life Greece HD
+p:VIVACOM
+0069:01682c51:00f5:0001:1:0
+National Geographic HD Greece
+p:VIVACOM
+006a:01682c51:00f5:0001:1:0
+Disney XD Greece
+p:VIVACOM
+006e:01682c51:00f5:0001:1:0
+Rybalka i Okhota International
+p:VIVACOM
+0079:01682c51:00f5:0001:1:0
+InterAz
+p:VIVACOM
 0065:014a0000:f001:2268:1:0
 Polsat News
 p:Cyfrowy Polsat
@@ -28076,6 +28094,12 @@ p:Towercom
 1429:00eb0000:0ca2:0003:2:0
 VLNA VS
 p:Towercom
+1336:00eb0000:0ca2:0003:1:0
+Otta - interaktivna sluzba
+p:Towercom
+132f:00eb0000:0ca2:0003:22:0
+TEST
+p:Towercom,C:0000
 52e1:00ebaf61:0c96:0003:25:0
 Eurosport HD NL
 p:M7 Group
@@ -28807,6 +28831,9 @@ p:
 p:
 0c44:00eb2d7b:0000:0001:2:0
 3140 - VOX Poznan
+p:
+0834:00eb2d7b:0000:0001:2:0
+2100 - ESKA Lodz
 p:
 03e8:00ebb167:0001:0001:2:0
 Antenne Düsseldorf 104.2
@@ -42875,6 +42902,30 @@ p:TSA
 0325:00820000:1f40:013e:1:0
 JCTV
 p:OVERON
+0e00:00820000:1f40:013e:2:0
+Radio 5
+p:TSA
+0e01:00820000:1f40:013e:2:0
+Radio Exterior
+p:TSA
+0e02:00820000:1f40:013e:2:0
+Radio 4
+p:TSA
+0dfd:00820000:1f40:013e:2:0
+Radio 1
+p:TSA
+0dfe:00820000:1f40:013e:2:0
+Radio Clasica
+p:TSA
+0dff:00820000:1f40:013e:2:0
+Radio 3
+p:TSA
+0dad:00820000:1f40:013e:25:0
+TVE Internacional HD
+p:RTVE
+0dae:00820000:1f40:013e:25:0
+24 Horas HD
+p:TSA
 0e7f:00820000:3200:013e:1:0
 Anixe TV
 p:MB Satellite
@@ -44051,6 +44102,9 @@ p:TV-Provider
 0001:0064ad32:0001:ffff:1:0
 Dewan TV
 p:ERICSSON Television
+0001:0064ad1b:1000:2000:1:0
+M24 Maroc
+p:Harmonic
 00cc:005a0000:14b4:009c:1:0
 Channel 21 Shop
 p:Kabelkiosk
@@ -49611,7 +49665,7 @@ p:2M
 Radio 2M
 p:2M
 017d:00130000:0009:0003:1:0
-Eurosport
+MTV Rocks
 p:Bulgaria Sat
 017e:00130000:0009:0003:1:0
 Fashion TV
@@ -49687,6 +49741,9 @@ Travel Channel
 p:Bulgaria Sat
 0195:00130000:0009:0003:1:0
 Nickelodeon Serbia
+p:Polaris Media
+0199:00130000:0009:0003:1:0
+Comedy Central Extra
 p:Polaris Media
 01a7:001330a8:000a:0002:1:0
 Belle Amie
@@ -49886,6 +49943,9 @@ p:Bulgaria Sat
 015c:00130000:0008:0003:1:0
 Eurosport 2 HD
 p:Bulgaria Sat
+0155:00130000:0008:0003:1:0
+MTV Dance
+p:Polaris Media,C:0000
 040a:0e080000:0044:0046:25:0
 TV 2 Sport Premium HD
 p:Canal Digital Nordic
@@ -52111,6 +52171,9 @@ Minimax Cz (SVT)
 p:UPC
 7a05:fff80000:02c8:0600:1:0
 Spektrum Home (SVT)
+p:UPC
+79e4:fff80000:02c8:0600:1:0
+Test 31204
 p:UPC
 364d:0e080000:0142:0bbc:2:0
 BBC English (E Af.)
@@ -62069,7 +62132,7 @@ p:Nilesat
 1c27:ffb00000:0048:0800:25:0
 Iraqia Sport HD Test
 p:Nilesat
-1d4d:ffb00000:004b:0800:25:0
+1d4d:0dc00000:004b:0800:25:0
 Nilesat Promo_HD
 p:Nilesat
 01aa:ffb00000:0004:0800:1:0
