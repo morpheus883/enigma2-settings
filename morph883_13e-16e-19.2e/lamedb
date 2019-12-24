@@ -531,6 +531,21 @@ transponders
 00a0b11a:0001:ffff
 	s 12570000:2450000:1:4:160:2:0:1:2:0:2
 /
+00a02acd:1000:2000
+	s 10957000:3333000:0:4:160:2:0:1:2:0:2
+/
+00a02af1:0001:0001
+	s 10993000:2506000:0:4:160:2:0:1:2:0:2
+/
+00a02b3d:0001:0001
+	s 11069000:354000:0:2:160:2:0
+/
+00a0ab7b:ffff:ffff
+	s 11131000:16593000:1:2:160:2:0:1:2:0:2
+/
+00a03196:00a0:ffff
+	s 12694000:2220000:0:4:160:2:0:1:0:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -3359,6 +3374,9 @@ p:RR Media
 1419:00c00000:0403:0001:1:0
 Juvelirochka
 p:
+1406:00c00000:0403:0001:1:0
+Kaufbei.tv
+p:SES
 749a:00c00000:041c:0001:1:0
 Divinity
 p:Movistar+ (Astra)
@@ -5390,14 +5408,11 @@ p:DigitALB
 116c:00a00000:50dc:016e:22:0
 Fox Movies Eastern Europe
 p:DigitALB
-1144:00a00000:50dc:016e:22:40
-T7
-p:DigitALB
-10cc:00a00000:50dc:016e:22:0
-Tele Sport Albania
-p:DigitALB
 0e4c:00a00000:50dc:016e:25:0
 Travel Channel HD
+p:DigitALB
+10cc:00a00000:50dc:016e:22:0
+Fast&FunBox
 p:DigitALB
 0001:00a03119:0001:ffff:1:0
 SIC International
@@ -5519,9 +5534,6 @@ p:TAG Broadcasting
 076f:00a00000:c6d4:016e:22:0
 Nick Jr. Bulgaria
 p:Mtel
-0770:00a00000:c6d4:016e:22:0
-History
-p:Mtel
 0773:00a00000:c6d4:016e:22:0
 Cartoon Network
 p:TAG Broadcasting
@@ -5534,23 +5546,11 @@ p:TAG Broadcasting
 077d:00a00000:c6d4:016e:22:0
 Barely Legal
 p:TAG Broadcasting
-078d:00a00000:c6d4:016e:22:0
-Da Vinci Learning
-p:TAG Broadcasting
 0798:00a00000:c6d4:016e:22:0
 Travel Channel
 p:Mtel
-079b:00a00000:c6d4:016e:22:0
-CNN
-p:Mtel
 0772:00a00000:c6d4:016e:25:0
 TravelXP HD
-p:TAG Broadcasting
-0777:00a00000:c6d4:016e:25:0
-BNT 3 HD
-p:Mtel
-0779:00a00000:c6d4:016e:25:0
-Classica HD
 p:TAG Broadcasting
 0784:00a00000:c6d4:016e:25:0
 HBO HD
@@ -5564,27 +5564,12 @@ p:VIPnet
 0787:00a00000:c6d4:016e:25:0
 Cinemax 2 HD
 p:VIPnet
-078e:00a00000:c6d4:016e:25:0
-HBO HD
-p:Mtel
-078f:00a00000:c6d4:016e:25:0
-HBO 2 HD
-p:Mtel
-0790:00a00000:c6d4:016e:25:0
-Cinemax HD
-p:Mtel
-0791:00a00000:c6d4:016e:25:0
-Cinemax 2 HD
-p:Mtel
 0792:00a00000:c6d4:016e:25:0
 Cinemax 2 HD
 p:TAG Broadcasting
 0796:00a00000:c6d4:016e:25:0
 HBO 3 HD
 p:VIPnet
-0797:00a00000:c6d4:016e:25:0
-HBO 3 HD
-p:Mtel
 079a:00a00000:c6d4:016e:25:0
 Cinemax HD
 p:TAG Broadcasting
@@ -5627,9 +5612,6 @@ p:TAG Broadcasting
 079e:00a00000:c6d4:016e:25:0
 EFB 1
 p:TAG Broadcasting
-077c:00a00000:c6d4:016e:25:0
-MAX Sport 4 HD
-p:A1 BG
 0783:00a00000:c6d4:016e:22:0
 In Life TV
 p:A1 BG
@@ -5675,24 +5657,12 @@ p:VIPnet
 0732:00a00000:c5a8:016e:22:0
 HRT 4 (SLO 4)
 p:VIPNet
-0733:00a00000:c5a8:016e:25:0
-Fight World HD
-p:VIPnet
 070e:00a00000:c5a8:016e:1:0
 Balkanika TV
 p:VIPnet,c:090640
 0711:00a00000:c5a8:016e:25:0
 Hustler HD
 p:VIPnet,c:09076c
-070d:00a00000:c5a8:016e:22:0
-TV 1000 Balkan
-p:Max TV
-070c:00a00000:c5a8:016e:22:0
-Viasat History
-p:Max TV
-070b:00a00000:c5a8:016e:22:0
-Viasat Explore
-p:Max TV
 072c:00a00000:c5a8:016e:22:0
 Mediaset Italia
 p:VIPnet,c:0911f8
@@ -5714,9 +5684,6 @@ p:VIPnet
 0712:00a00000:c5a8:016e:22:0
 Hustler TV
 p:VIPnet
-0719:00a00000:c5a8:016e:1:0
-CBS Reality
-p:Total TV
 073a:00a00000:c5a8:016e:1:0
 The Fight Network
 p:Total TV
@@ -5804,9 +5771,6 @@ p:tring tv
 0097:00a00000:016a:016e:1:0
 Tring International
 p:Tring TV
-007b:00a00000:016a:016e:1:0
-TVSH
-p:Tring tv
 03f7:00a00000:016a:016e:1:0
 FOX Albania
 p:Tring TV
@@ -5819,9 +5783,27 @@ p:TRING TV
 0185:00a00000:016a:016e:1:0
 Muse
 p:tring tv
+007b:00a00000:016a:016e:1:0
+RTSH
+p:Tring TV
 0321:00a00000:016a:016e:1:0
-Tring Kids
-p:tring tv
+Kids
+p:Tring Digital
+126e:00a00000:016a:016e:25:0
+Prince Kids
+p:Tring Digital
+132f:00a00000:016a:016e:25:0
+Artkino 1
+p:Tring Digital
+1335:00a00000:016a:016e:25:0
+Episode
+p:Tring Digital
+177b:00a00000:016a:016e:25:0
+Dukagjini
+p:Tring Digital
+1790:00a00000:016a:016e:1:0
+Alsat-M
+p:Tring Digital
 0001:00a0b115:0001:0001:1:0
 Kanal D Romania
 p:DoganMedia
@@ -5831,131 +5813,11 @@ p:BNT Uplink
 03e7:00a00000:c670:016e:12:0
 A1 BG OTA-Upgrade
 p:A1 BG
-03ba:00a00000:c670:016e:22:0
-The Voice Bulgaria
-p:A1 BG
-03bb:00a00000:c670:016e:22:0
-Magic TV Bulgaria
-p:A1 BG
 03b8:00a00000:c670:016e:25:0
 Fashion TV HD
 p:TAG Broadcasting
-0385:00a00000:c670:016e:22:0
-BNT 1
-p:A1 BG
-038b:00a00000:c670:016e:22:0
-Nova TV
-p:A1 BG
-038c:00a00000:c670:016e:22:0
-Diema
-p:A1 BG
-038e:00a00000:c670:016e:22:0
-Kino Nova
-p:A1 BG
-038f:00a00000:c670:016e:22:0
-FOX Life
-p:A1 BG
-0392:00a00000:c670:016e:22:0
-Bulgaria On Air
-p:A1 BG
-0395:00a00000:c670:016e:22:0
-Sext6Senso
-p:A1 BG
-0396:00a00000:c670:016e:22:0
-Ohota i ribalka
-p:A1 BG
-0386:00a00000:c670:016e:1:0
-bTV Bulgaria
-p:A1 BG
-0387:00a00000:c670:016e:1:0
-bTV Action
-p:A1 BG
-0388:00a00000:c670:016e:1:0
-Nova Sport Bulgaria
-p:A1 BG
-038d:00a00000:c670:016e:1:0
-Ring BG
-p:A1 BG
-03bc:00a00000:c670:016e:25:0
-Diema Sport HD
-p:A1 BG
-0389:00a00000:c670:016e:25:0
-Diema Sport 2 HD
-p:A1 BG
-0397:00a00000:c670:016e:22:0
-Bloomberg TV BG
-p:A1 BG
-0398:00a00000:c670:016e:25:0
-MAX Sport 3 HD
-p:A1 BG
-0394:00a00000:c670:016e:22:0
-Nat Geo Wild
-p:A1 BG
 03e6:00a00000:c670:016e:12:0
 A1 BG SmardTV OTA
-p:A1 BG
-038a:00a00000:c670:016e:22:0
-Alfa TV Bulgaria
-p:A1 BG
-0391:00a00000:c670:016e:22:0
-Animal Planet Eastern Europe
-p:A1 BG
-0393:00a00000:c670:016e:22:0
-AXN Bulgaria
-p:A1 BG
-0399:00a00000:c670:016e:22:0
-AXN White Central Europe
-p:A1 BG
-039a:00a00000:c670:016e:22:0
-AXN Black
-p:A1 BG
-039b:00a00000:c670:016e:22:0
-BG Top Music
-p:A1 BG
-039f:00a00000:c670:016e:22:0
-Box TV Music Channel
-p:A1 BG
-03a0:00a00000:c670:016e:22:0
-City TV
-p:A1 BG
-03a2:00a00000:c670:016e:22:0
-E-Kids
-p:A1 BG
-03a3:00a00000:c670:016e:22:0
-Evrokom
-p:A1 BG
-03a6:00a00000:c670:016e:22:0
-BSTV
-p:A1 BG
-03a7:00a00000:c670:016e:22:0
-Planeta TV
-p:A1 BG
-03a8:00a00000:c670:016e:22:0
-Tiankov TV
-p:A1 BG
-03aa:00a00000:c670:016e:22:0
-Kanal 3
-p:A1 BG
-03ab:00a00000:c670:016e:22:0
-Rodina TV
-p:A1 BG
-0390:00a00000:c670:016e:1:0
-DSTV
-p:A1 BG,c:090898
-03a1:00a00000:c670:016e:25:0
-MAX Sport 1 HD
-p:A1 BG,c:091130
-03a4:00a00000:c670:016e:25:98
-Edge Sport HD
-p:A1 BG
-03ac:00a00000:c670:016e:25:0
-MAX Sport 2 HD
-p:A1 BG
-039c:00a00000:c670:016e:22:0
-Movie Star
-p:A1 BG
-039d:00a00000:c670:016e:22:0
-BH TV
 p:A1 BG
 0006:00a00000:0000:016e:1:0
 Antena International
@@ -5997,7 +5859,7 @@ p:Tring Digital
 Tring Sport News HD
 p:Tring Digital
 0005:00a00000:0168:016e:1:0
-Tring Comedy
+Tring Festa
 p:Tring Digital
 0008:00a00000:0168:016e:1:0
 TIP TV
@@ -6134,15 +5996,12 @@ p:Digit Alb
 14b4:00a02a0a:4f4c:016e:186:0
 V-Data
 p:DigitALB
-05a0:00a02a0a:4f4c:016e:25:0
-Ora News HD
+049c:00a02a0a:4f4c:016e:1:0
+Ora News
 p:DigitALB
 05b4:00a02a0a:4f4c:016e:25:0
 MTV Live HD
 p:DigitALB
-049c:00a02a0a:4f4c:016e:1:0
-Channel One (Albania)
-p:DigitALB,c:050001
 0500:00a02a0a:4f4c:016e:1:0
 ALB UK
 p:DigitALB,c:050001
@@ -6157,6 +6016,9 @@ Seriale Turke
 p:DigitALB
 0604:00a02a0a:4f4c:016e:25:0
 Top Channel HD
+p:DigitALB
+05a0:00a02a0a:4f4c:016e:25:0
+RTV Ora HD
 p:DigitALB
 0007:00a00000:0002:016e:1:0
 OBN
@@ -6389,9 +6251,6 @@ p:DigitALB
 096b:00a02a33:5014:016e:2:0
 NRG Radio
 p:DigitALB
-08b6:00a02a33:5014:016e:1:0
-Klan Plus
-p:DigitALB,c:0908b6
 0866:00a02a33:5014:016e:1:0
 Tema TV
 p:DigitALB
@@ -6465,7 +6324,7 @@ p:TAG Broadcasting
 Eurosport 2 HD CZ
 p:TAG Broadcasting
 04b4:00a00000:76c1:016e:31:0
-CS Film/Horor Film
+CS Film/CS Horror
 p:TAG Broadcasting
 04b7:00a00000:76c1:016e:31:0
 Film Europe
@@ -6518,15 +6377,6 @@ p:TAG Broadcasting,c:090a8c
 04cf:00a00000:76c1:016e:22:0
 Jim Jam
 p:TAG Broadcasting
-04b2:00a00000:76c1:016e:22:0
-AMC Eastern Europe
-p:TAG Broadcasting
-04b5:00a00000:76c1:016e:22:0
-Doma TV
-p:TAG Broadcasting
-04bb:00a00000:76c1:016e:31:0
-JOJ Plus
-p:TAG Broadcasting
 04bc:00a00000:76c1:016e:31:0
 LUX TV
 p:TAG Broadcasting
@@ -6551,27 +6401,12 @@ p:TAG Broadcasting
 04d3:00a00000:76c1:016e:31:0
 CT 2
 p:TAG Broadcasting
-04b3:00a00000:76c1:016e:31:0
-CT 24
-p:TAG Broadcasting
 0513:00a00000:76c1:016e:12:0
 Antik OTA Upgrade
 p:TAG Broadcasting
-04b9:00a00000:76c1:016e:25:0
-Timeless Drama Channel HD
-p:TAG Broadcasting
-04d4:00a00000:76c1:016e:25:0
-Timeless Drama Channel HD
-p:TAG Broadcasting
 04b6:00a00000:76c1:016e:25:0
-Orange Info
+Mnam TV HD
 p:TAG Broadcasting
-04ba:00a00000:76c1:016e:31:0
-Nova 2
-p:TAG Broadcasting
-04d5:00a00000:76c1:016e:25:0
-Timeless Drama Channel HD
-p:A1 HR
 04e4:00a00000:76c1:016e:31:0
 Nova Action
 p:TAG Broadcasting
@@ -6580,6 +6415,21 @@ Nova Cinema
 p:TAG Broadcasting
 04bf:00a00000:76c1:016e:31:0
 Nova Gold
+p:TAG Broadcasting
+04b2:00a00000:76c1:016e:31:0
+Prima Plus HD
+p:TAG Broadcasting
+04b3:00a00000:76c1:016e:31:0
+Nova International HD
+p:TAG Broadcasting
+04b5:00a00000:76c1:016e:31:0
+Fishing & Hunting
+p:TAG Broadcasting
+04ba:00a00000:76c1:016e:31:0
+Arena Sport 2 HD Slovakia
+p:TAG Broadcasting
+04bb:00a00000:76c1:016e:31:0
+Leo TV / Extasy
 p:TAG Broadcasting
 04af:00a0ab2f:76c0:016e:12:0
 Antik OTA Upgrade
@@ -6642,7 +6492,7 @@ p:Total TV
 Telma
 p:Total TV
 054e:00a0aadc:75fb:016e:1:0
-1 TV
+MRT Sobraniski
 p:Total TV
 054f:00a0aadc:75fb:016e:1:0
 Alfa TV Macedonia
@@ -6854,14 +6704,8 @@ p:SNAI LIVE,c:090100
 0002:00a03174:0001:0001:31:0
 Snai Tech HD
 p:,c:090101
-0259:00a0acce:c418:016e:22:0
-Diema Family
-p:Mtel
 025b:00a0acce:c418:016e:25:0
 ID Xtra HD
-p:Test
-025d:00a0acce:c418:016e:22:0
-National Geographic HD
 p:Test
 025e:00a0acce:c418:016e:25:0
 Eurosport 1 HD
@@ -6872,66 +6716,24 @@ p:TAG Broadcasting,c:090640
 0260:00a0acce:c418:016e:25:0
 Planeta HD
 p:Test
-0261:00a0acce:c418:016e:22:0
-TV Evropa
-p:Test
 0262:00a0acce:c418:016e:25:0
 Auto Motor Sport HD
-p:Test
-0263:00a0acce:c418:016e:22:0
-BNT 4
-p:Mtel
-0265:00a0acce:c418:016e:22:0
-Planeta folk
-p:Test
-0267:00a0acce:c418:016e:22:0
-Discovery Channel Bulgaria
 p:Test
 0268:00a0acce:c418:016e:22:0
 Duck TV SAT
 p:VIPnet
-0269:00a0acce:c418:016e:22:0
-Fen TV
-p:Test
 026a:00a0acce:c418:016e:22:0
 Fine Living Network
 p:Mtel
-026b:00a0acce:c418:016e:22:0
-FOX Crime
-p:Test
-026c:00a0acce:c418:016e:22:0
-24Kitchen
-p:Test
 026d:00a0acce:c418:016e:22:0
 Baby TV
 p:Test
 026f:00a0acce:c418:016e:22:0
 Duck TV
 p:Test
-0271:00a0acce:c418:016e:22:0
-FOX
-p:Test
 0272:00a0acce:c418:016e:22:0
 TLC
 p:Test
-0274:00a0acce:c418:016e:22:0
-BNT 2
-p:Mtel
-0275:00a0acce:c418:016e:22:0
-bTV Comedy
-p:Mtel
-0276:00a0acce:c418:016e:22:0
-bTV Cinema
-p:Mtel
-0277:00a0acce:c418:016e:22:0
-bTV Lady
-p:Mtel
-0278:00a0acce:c418:016e:25:0
-Eurosport 1 HD
-p:Mtel
-0279:00a0acce:c418:016e:25:0
-Eurosport 2 HD
-p:Mtel
 027a:00a0acce:c418:016e:1:0
 Fine Living
 p:Digitalb,c:090b30
@@ -6953,9 +6755,6 @@ p:TAG Broadcasting
 0283:00a0acce:c418:016e:25:0
 Eurosport 2 HD
 p:TAG Broadcasting
-0284:00a0acce:c418:016e:22:0
-Bulgaria 24
-p:MTEL
 026e:00a0acce:c418:016e:25:0
 Investigation Discovery HD
 p:TAG Broadcasting,c:0906e2
@@ -6974,60 +6773,27 @@ p:VIPnet
 0286:00a0acce:c418:016e:22:0
 Nickelodeon Bulgaria
 p:VIPnet
-0287:00a0acce:c418:016e:22:0
-Nickelodeon
-p:Mtel
 0289:00a0acce:c418:016e:22:0
 Nat Geo Wild
 p:TAG Broadcasting
 028a:00a0acce:c418:016e:22:0
 Boomerang
 p:VIPnet
-028b:00a0acce:c418:016e:22:0
-Boomerang
-p:Mtel
 0270:00a0acce:c418:016e:22:0
 Food Network
 p:Mtel
-0264:00a0acce:c418:016e:1:0
-Eurosport 2
-p:Mtel,c:09116d
-025a:00a0acce:c418:016e:22:0
-Eurosport
-p:VIPnet
 02ba:00a0acce:c418:016e:22:0
 Fine Living Network
 p:TAG Broadcasting
 02bb:00a0acce:c418:016e:22:0
 Duck TV
 p:TAG Broadcasting
-025c:00a0acce:c418:016e:22:0
-ID Xtra
-p:A1 BG
-0266:00a0acce:c418:016e:22:0
-Fine Living
-p:Tring
-027b:00a0acce:c418:016e:22:0
-TLC
-p:Tring
-028e:00a0acce:c418:016e:22:0
-ID Xtra HD
-p:Tring
-028f:00a0acce:c418:016e:22:0
-Baby TV
-p:Tring
-028c:00a0acce:c418:016e:25:0
-Eurosport 1 HD
-p:Tring
-028d:00a0acce:c418:016e:25:0
-Eurosport 2 HD
-p:Tring
-028d:00a0acce:c418:016e:27:0
-Eurosport 2 HD
-p:Tring
 0288:00a0acce:c418:016e:22:0
 FOX Movies
 p:A1 HR
+0259:00a0acce:c418:016e:31:0
+Extasy 4K
+p:Antik Sat
 0683:00a00000:9fc4:016e:1:0
 Kanal A Slovenia HD
 p:SBB
@@ -7160,14 +6926,8 @@ p:RTSH
 00dc:00a0315f:0001:016e:2:0
 Radio Tirana Jazz
 p:RTSH
-0052:00a0abaa:cb2b:016e:1:0
-Pink Fashion
-p:Pink
 0053:00a0abaa:cb2b:016e:1:0
 Pink Music 2
-p:Pink
-0054:00a0abaa:cb2b:016e:1:0
-Pink Hits 1
 p:Pink
 0055:00a0abaa:cb2b:016e:1:0
 City Play
@@ -7180,9 +6940,6 @@ Pink Classic
 p:Pink
 005c:00a0abaa:cb2b:016e:1:0
 Pink Style
-p:Pink
-005d:00a0abaa:cb2b:016e:1:0
-Bravo Music
 p:Pink
 0062:00a0abaa:cb2b:016e:1:0
 Pink Serije
@@ -7244,24 +7001,21 @@ p:Total TV
 006a:00a0abaa:cb2b:016e:1:0
 Pink Media Montenegro
 p:Total TV
-0018:00a0abaa:cb2b:016e:2:0
-Radio S2
-p:Total TV
-0034:00a0abaa:cb2b:016e:1:0
-
-p:
-0035:00a0abaa:cb2b:016e:1:0
-
-p:
-0036:00a0abaa:cb2b:016e:1:0
-
-p:
-0042:00a0abaa:cb2b:016e:1:0
-Pink & Roll
-p:Pink
 0050:00a0abaa:cb2b:016e:1:0
 Pink Kids
-p:Total TV
+p:Pink
+0042:00a0abaa:cb2b:016e:1:0
+Zadruga Live 1
+p:Pink
+0052:00a0abaa:cb2b:016e:1:0
+Zadruga Live 2
+p:Pink
+0054:00a0abaa:cb2b:016e:1:0
+Zadruga Live 3
+p:Pink
+005d:00a0abaa:cb2b:016e:1:0
+Zadruga Live 4
+p:Pink
 0001:00a03103:0001:0001:1:0
 POL-062
 p:www.btv.bg
@@ -7306,9 +7060,6 @@ Radio CG
 p:STN Ltd
 030a:00a0abdf:9d08:016e:1:0
 Vavoom
-p:Total TV
-02ef:00a0abdf:9d08:016e:1:0
-TV 1 Bosnia
 p:Total TV
 02f0:00a0abdf:9d08:016e:1:0
 Nickelodeon
@@ -7381,6 +7132,9 @@ Pikaboo Slo/Hr
 p:Total TV
 030c:00a0abdf:9d08:016e:1:0
 Happy Channel
+p:Total TV
+02ef:00a0abdf:9d08:016e:1:0
+O Kanal
 p:Total TV
 07d9:00a00000:9e98:016e:22:0
 Ocko TV
@@ -7629,25 +7383,10 @@ p:
 TVR 3
 p:
 0004:00a0acf8:00c8:0001:1:0
-TVR Moldova
+TVR
 p:SRTV
 0006:00a0acf8:00c8:0001:1:0
 TV Romania International
-p:
-0007:00a0acf8:00c8:0001:1:0
-TVR Cluj
-p:
-0008:00a0acf8:00c8:0001:1:0
-TVR Craiova
-p:
-0009:00a0acf8:00c8:0001:1:0
-TVR Iasi
-p:
-000a:00a0acf8:00c8:0001:1:0
-TVR Timisoara
-p:
-000b:00a0acf8:00c8:0001:1:0
-TVR Tg Mures
 p:
 000f:00a0acf8:00c8:0001:1:0
 TVR 1 HD
@@ -7673,9 +7412,6 @@ p:
 001b:00a0acf8:00c8:0001:10:0
 Radio Romania International 3
 p:
-00c8:00a0acf8:00c8:0001:1:0
-SRTV Feed
-p:SRTV
 0011:00a0acf8:00c8:0001:1:0
 TVR 2 HD
 p:
@@ -7808,6 +7544,9 @@ p:Enex
 0001:00a0b11a:0001:ffff:1:0
 Car 04
 p:Antena Group
+0001:00a02acd:1000:2000:25:0
+Al Arabiya
+p:ABP AGENCY
 439f:00820000:2cec:013e:1:0
 BVN - Beste van Vlaanderen en Nederland
 p:RRsat
@@ -8871,7 +8610,7 @@ p:nc+,c:09042b
 pVOD
 p:nc+,c:090097
 3acb:00820000:0514:013e:1:0
-CANAL+ DISCOVERY HD
+CANAL+ DOKUMENT HD
 p:nc+
 3aa0:00820000:0514:013e:1:0
 Food Network SD EMEA
@@ -9398,35 +9137,20 @@ p:Nova
 0133:00820000:157c:013e:1:0
 R8
 p:Nova
-0134:00820000:157c:013e:1:0
-Nova Sports Live Stats Cy
-p:Nova
 013c:00820000:157c:013e:1:0
 Disney XD Greece
-p:Nova
-013d:00820000:157c:013e:1:0
-Nova Cinema 1
 p:Nova
 013e:00820000:157c:013e:1:0
 Nova Christmas
 p:Nova
-013f:00820000:157c:013e:1:0
-Mega Channel
-p:Nova
 0140:00820000:157c:013e:1:0
 ANT 1
-p:Nova
-0141:00820000:157c:013e:1:0
-Star Channel
 p:Nova
 0143:00820000:157c:013e:1:0
 Nova Sports 5 HD
 p:Nova
 0144:00820000:157c:013e:1:0
 R13
-p:Nova
-0145:00820000:157c:013e:1:0
-Alpha TV Greece
 p:Nova
 0146:00820000:157c:013e:1:0
 Skai (ΣΚΑΪ) TV
@@ -9479,12 +9203,27 @@ p:Nova
 0152:00820000:157c:013e:2:0
 Ntsra2
 p:NetMed
-0149:00820000:157c:013e:1:0
-Pink O TV
-p:NetMed
 0151:00820000:157c:013e:1:0
 MUX1S1
 p:NETMED
+0134:00820000:157c:013e:1:0
+MUX1S2
+p:Nova
+013d:00820000:157c:013e:1:0
+MUX1S7
+p:Nova
+013f:00820000:157c:013e:1:0
+Insight TV
+p:Nova
+0141:00820000:157c:013e:1:0
+MUX1S5
+p:Nova
+0145:00820000:157c:013e:1:0
+MUX1S4
+p:Nova
+0149:00820000:157c:013e:25:0
+MUX1S6
+p:Nova
 1e5c:00820000:15e0:fbff:25:0
 Sky Calcio 8 HD
 p:Sky Italia
@@ -10539,7 +10278,7 @@ p:Cyfrowy Polsat S.A.
 ATM Rozrywka TV
 p:Cyfrowy Polsat
 1cbb:00820000:1ce8:0071:1:0
-Blue Hustler
+Vivid Touch
 p:Cyfrowy Polsat
 1cd6:00820000:1ce8:0071:12:0
 HD5000
@@ -11972,9 +11711,6 @@ p:Cyfrowy Polsat S. A.
 4288:00820000:2bc0:013e:1:0
 TVP Rozrywka
 p:Cyfrowy Polsat S.A.
-4277:00820000:2bc0:013e:1:0
-Wellbeing
-p:Cyfrowy Polsat
 427b:00820000:2bc0:013e:1:0
 Stopklatka TV
 p:Cyfrowy Polsat S.A.
@@ -12866,9 +12602,6 @@ p:
 044d:00820000:238c:013e:1:0
 Hot Bird 4K
 p:
-0519:00820000:3d54:013e:1:0
-QVC Italia HD
-p:M-Three satcom,c:0906ea
 051b:00820000:3d54:013e:25:0
 RTL 102.5 TV HD
 p:M-Three satcom,c:090708
@@ -13488,7 +13221,7 @@ p:
 Nejat TV
 p:TBNFARSI
 032a:00820000:1f40:013e:1:0
-Kanal Hayat
+Kanal Hayat / Life Channel
 p:OVERON
 0c83:00820000:1f40:013e:1:0
 TBN Italia (Trinity Broadcasting Network)
@@ -13580,113 +13313,113 @@ p:GLOBECAST
 3349:00820000:1388:013e:2:0
 BBC English Mid_East
 p:GLOBECAST
-05e2:00820000:2c24:0e26:1:0
-IRINN - Iranian News Network
-p:IRIB
-05e4:00820000:2c24:0e26:1:0
-IRIB Quran
-p:IRIB
-05ea:00820000:2c24:0e26:1:0
-iFILM
-p:IRIB
-05f0:00820000:2c24:0e26:1:0
-IRIB Nasim
-p:IRIB
-05f1:00820000:2c24:0e26:1:0
-IRIB 1
-p:IRIB
-05f6:00820000:2c24:0e26:1:0
-SAHAR (FR-BiH)
-p:IRIB
-05f7:00820000:2c24:0e26:1:0
-Sahar Azari TV
-p:IRIB
-05f8:00820000:2c24:0e26:1:0
-Sahar University Network 2
-p:IRIB
-1ef9:00820000:2c24:0e26:1:0
-Sahar Kurdish TV
-p:IRIB
-05fa:00820000:2c24:0e26:1:0
-Al Kawthar
-p:IRIB
-05fb:00820000:2c24:0e26:1:0
-Press TV HD
-p:IRIB
-05fc:00820000:2c24:0e26:1:0
-Hispan TV HD
-p:IRIB
-05fd:00820000:2c24:0e26:1:0
-iFILM English
-p:IRIB
-060f:00820000:2c24:0e26:2:0
-RADIO IRAN
-p:IRIB
-0610:00820000:2c24:0e26:2:0
-RADIO PAYAM
-p:IRIB
-0611:00820000:2c24:0e26:2:0
-RADIO JAVAN
-p:IRIB
-0612:00820000:2c24:0e26:2:0
-RADIO MAAREF
-p:IRIB
-0613:00820000:2c24:0e26:2:0
-RADIO QURAN
-p:IRIB
-0614:00820000:2c24:0e26:2:0
-RADIO FARHANG
-p:IRIB
-0615:00820000:2c24:0e26:2:0
-RADIO SALAMAT
-p:IRIB
-0616:00820000:2c24:0e26:2:0
-RADIO VARZESH
-p:IRIB
-0617:00820000:2c24:0e26:2:0
-RADIO EGHTESAD
-p:IRIB
-0618:00820000:2c24:0e26:2:0
-RADIO TEHRAN
-p:IRIB
-0619:00820000:2c24:0e26:2:0
-RADIO AAVA
-p:IRIB
-061a:00820000:2c24:0e26:2:0
-RADIO NAMAYESH
-p:IRIB
-061b:00820000:2c24:0e26:2:0
-RADIO SABA
-p:IRIB
-061c:00820000:2c24:0e26:2:0
-RADIO 07 WORLD SERVICE
-p:IRIB
-061e:00820000:2c24:0e26:2:0
-RADIO 03 WORLED SERVICE
-p:IRIB
-0621:00820000:2c24:0e26:2:0
-RADIO TELAVAT
-p:IRIB
-0622:00820000:2c24:0e26:2:0
-RADIO GOFTEGOO
-p:IRIB
-062d:00820000:2c24:0e26:2:0
-RADIO 01 WORLD SERVICE
-p:IRIB
-062e:00820000:2c24:0e26:2:0
-RADIO 02 WORLD SERVICE
-p:IRIB
-0630:00820000:2c24:0e26:2:0
-RADIO 04 WORLD SERVICE
-p:IRIB
-0631:00820000:2c24:0e26:2:0
-RADIO 05 WORLD SERVICE
-p:IRIB
-0632:00820000:2c24:0e26:2:0
-RADIO 06 WORLD SERVICE
-p:IRIB
 05f9:00820000:2c24:013e:1:0
 SAHAR KURDISH
+p:IRIB
+05e2:00820000:2c24:013e:1:0
+IRINN - Iranian News Network
+p:IRIB
+05e4:00820000:2c24:013e:1:0
+IRIB Quran
+p:IRIB
+05ea:00820000:2c24:013e:1:0
+iFILM
+p:IRIB
+05f0:00820000:2c24:013e:1:0
+IRIB Nasim
+p:IRIB
+05f1:00820000:2c24:013e:1:0
+IRIB 1
+p:IRIB
+05f6:00820000:2c24:013e:1:0
+SAHAR (FR-BiH)
+p:IRIB
+05f7:00820000:2c24:013e:1:0
+Sahar Azari TV
+p:IRIB
+05f8:00820000:2c24:013e:1:0
+Sahar University Network 2
+p:IRIB
+05fa:00820000:2c24:013e:1:0
+Al Kawthar
+p:IRIB
+05fb:00820000:2c24:013e:1:0
+Press TV HD
+p:IRIB
+05fc:00820000:2c24:013e:1:0
+Hispan TV HD
+p:IRIB
+05fd:00820000:2c24:013e:1:0
+iFILM English
+p:IRIB
+060f:00820000:2c24:013e:2:0
+RADIO IRAN
+p:IRIB
+0610:00820000:2c24:013e:2:0
+RADIO PAYAM
+p:IRIB
+0611:00820000:2c24:013e:2:0
+RADIO JAVAN
+p:IRIB
+0612:00820000:2c24:013e:2:0
+RADIO MAAREF
+p:IRIB
+0613:00820000:2c24:013e:2:0
+RADIO QURAN
+p:IRIB
+0614:00820000:2c24:013e:2:0
+RADIO FARHANG
+p:IRIB
+0615:00820000:2c24:013e:2:0
+RADIO SALAMAT
+p:IRIB
+0616:00820000:2c24:013e:2:0
+RADIO VARZESH
+p:IRIB
+0617:00820000:2c24:013e:2:0
+RADIO EGHTESAD
+p:IRIB
+0618:00820000:2c24:013e:2:0
+RADIO TEHRAN
+p:IRIB
+0619:00820000:2c24:013e:2:0
+RADIO AAVA
+p:IRIB
+061a:00820000:2c24:013e:2:0
+RADIO NAMAYESH
+p:IRIB
+061b:00820000:2c24:013e:2:0
+RADIO SABA
+p:IRIB
+061c:00820000:2c24:013e:2:0
+RADIO 07 WORLD SERVICE
+p:IRIB
+061e:00820000:2c24:013e:2:0
+RADIO 03 WORLED SERVICE
+p:IRIB
+0621:00820000:2c24:013e:2:0
+RADIO TELAVAT
+p:IRIB
+0622:00820000:2c24:013e:2:0
+RADIO GOFTEGOO
+p:IRIB
+062d:00820000:2c24:013e:2:0
+RADIO 01 WORLD SERVICE
+p:IRIB
+062e:00820000:2c24:013e:2:0
+RADIO 02 WORLD SERVICE
+p:IRIB
+0630:00820000:2c24:013e:2:0
+RADIO 04 WORLD SERVICE
+p:IRIB
+0631:00820000:2c24:013e:2:0
+RADIO 05 WORLD SERVICE
+p:IRIB
+0632:00820000:2c24:013e:2:0
+RADIO 06 WORLD SERVICE
+p:IRIB
+1ef9:00820000:2c24:013e:1:0
+Sahar Kurdish TV
 p:IRIB
 0500:00820000:005e:0055:22:0
 BlackSea TV
