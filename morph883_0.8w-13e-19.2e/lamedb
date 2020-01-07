@@ -603,17 +603,11 @@ transponders
 00820000:2c24:013e
 	s 10775000:29900000:0:7:130:2:0:1:2:2:2
 /
-00820000:005e:0055
-	s 11219000:29900000:0:7:130:2:0:1:2:2:2
-/
 00820000:005f:0055
 	s 12437000:29900000:0:3:130:2:0:1:1:0:2
 /
 00822bd3:005e:0055
 	s 11219000:29900000:0:3:130:2:0:1:2:0:2
-/
-00823095:005f:0055
-	s 12437000:29900000:0:7:130:2:0:1:2:0:2
 /
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
@@ -2325,7 +2319,7 @@ p:CSAT
 DATA SYSTEM[98]
 p:CSAT
 23aa:00c00000:044a:0001:201:0
-6PLAY
+6Play M6
 p:CSAT
 23ab:00c00000:044a:0001:201:0
 CANAL VOD
@@ -2358,7 +2352,7 @@ p:CSAT
 CANALPLAY
 p:CSAT
 23d6:00c00000:044a:0001:201:0
-PASS PINK X
+Pass Pink X
 p:CSAT
 2395:00c00000:044a:0001:2:0
 SUD RADIO
@@ -2526,13 +2520,13 @@ p:CSAT
 DATA SERVICE R7
 p:CSAT
 23f2:00c00000:044a:0001:201:0
-FOX PLAY
+FOX Play
 p:CSAT
 23f3:00c00000:044a:0001:12:0
 DATA SERVICE R9
 p:CSAT
 23a2:00c00000:044a:0001:201:0
-DEUTSCHE GRAMMOPHON
+Deutsche Grammophon+
 p:CSAT
 23f4:00c00000:044a:0001:201:0
 INFO TECHNIQUE
@@ -2571,7 +2565,7 @@ p:CSAT
 NETFLIX
 p:CSAT
 23a6:00c00000:044a:0001:201:0
-EVENEMENT
+Evénement
 p:CSAT
 0071:00c00000:000b:0085:25:0
 History Channel HD Germany
@@ -2907,7 +2901,7 @@ p:CSAT,c:0914b4
 Cherie 25
 p:SES ASTRA,c:091518
 2f71:00c00000:0454:0001:1:0
-NRJ 12
+NRJ 12 HD
 p:CSAT
 2f72:00c00000:0454:0001:1:0
 NRJ 12
@@ -4386,7 +4380,7 @@ p:CSAT
 TV5 Monde FBS HD
 p:CSAT
 26b7:00c0af61:043e:0001:201:0
-MULTISPORTS
+Multisports
 p:CSAT
 26b8:00c0af61:043e:0001:25:0
 Planète+ A&E HD
@@ -4455,7 +4449,7 @@ p:CSAT
 Novelas TV HD
 p:CSAT
 19cc:00c00000:0444:0001:25:0
-OCS géants HD
+OCS Géants HD
 p:
 19cd:00c00000:0444:0001:25:0
 Voyage HD
@@ -6215,14 +6209,8 @@ p:Telespazio,c:0907aa
 4241:00820000:3db8:013e:1:0
 TV Romania International
 p:Telespazio
-4222:00820000:3db8:013e:1:0
-Private TV HD
-p:Telespazio
 4246:00820000:3db8:013e:1:0
 Radio Italia Trend TV HD
-p:Telespazio
-422d:00820000:3db8:013e:1:0
-Private TV  HD!
 p:Telespazio
 4266:00820000:3db8:013e:1:0
 Digiquest Promo
@@ -6346,6 +6334,30 @@ Dipre TV2
 p:Telespazio
 4227:00820000:3db8:013e:12:0
 OTA TV Sat
+p:Telespazio
+4206:00820000:3db8:013e:1:0
+Privé
+p:Telespazio
+4208:00820000:3db8:013e:1:0
+Sexto Senso
+p:Telespazio
+4209:00820000:3db8:013e:1:0
+Pink O TV
+p:Telespazio
+420a:00820000:3db8:013e:1:0
+Passion
+p:Telespazio
+421e:00820000:3db8:013e:1:0
+SCT (Satisfaction Channel Television)
+p:Telespazio
+421f:00820000:3db8:013e:1:0
+Platinum TV
+p:Telespazio
+4220:00820000:3db8:013e:1:0
+Diabloxtv
+p:Telespazio
+4221:00820000:3db8:013e:1:0
+Just89 TV
 p:Telespazio
 012d:00820000:3e1c:013f:1:0
 TF1 HD
@@ -8732,6 +8744,9 @@ p:SkyItalia
 38dc:00820000:2648:fbff:2:0
 Radio Montecarlo
 p:SkyItalia
+38f6:00820000:2648:fbff:1:0
+Multipairing
+p:SkyItalia
 019f:00820000:26ac:013f:1:0
 BFM TV
 p:Bis
@@ -9600,7 +9615,7 @@ p:Cyfrowy Polsat S.A.
 Polsat Play HD 
 p:Cyfrowy Polsat S.A.
 33a3:0082ab96:3390:0071:1:0
-TV4 HD 
+TV 4 HD 
 p:Cyfrowy Polsat S.A.
 33a6:0082ab96:3390:0071:1:0
 Polsat Cafe HD
@@ -10481,7 +10496,7 @@ p:Eutelsat
 0650:00820000:2454:013e:1:0
 Algérie 3 (Thalitha TV)
 p:Eutelsat
-0651:00820000:2454:013e:25:0
+0651:00820000:2454:013e:1:0
 TV Art Live
 p:EUTELSAT
 0079:00820000:04b0:0110:25:0
@@ -10787,6 +10802,9 @@ p:IRIB
 1ef9:00820000:2c24:013e:1:0
 Sahar Kurdish TV
 p:IRIB
+0160:00820000:2c24:013e:2:0
+RADIO TEST IRAN
+p:IRIB
 0910:00820000:005f:0055:22:0
 Cartoon Network
 p:XTRA TV
@@ -10981,6 +10999,9 @@ Sportkanalen HD
 p:Telenor
 1bea:0e080000:0030:0046:22:0
 TV 5 Finland
+p:Telenor
+1c29:0e080000:0030:0046:25:0
+TV 2 Sport X
 p:Telenor
 057c:0e080000:000e:0046:25:0
 C More Live 5 HD
@@ -12221,7 +12242,7 @@ p:Telenor
 0efd:0e080000:0014:0046:1:0
 Sky News International
 p:Telenor
-1e86:0e080000:0014:0046:1:0
+1e86:0e080000:0014:0046:25:0
 History Channel HD Romania
 p:
 1e87:0e080000:0014:0046:1:0
@@ -12329,6 +12350,9 @@ p:DigiTV
 0400:0e0831b3:0002:0001:1:0
 Film Cafe
 p:RCSRDS
+0d52:0e0831b3:0002:0001:1:0
+HGTV
+p:Digi TV
 040f:0e080000:0046:0046:25:0
 NRK 1 HD
 p:Canal Digital Nordic
@@ -12767,6 +12791,9 @@ p:Slovak Telekom
 0449:0e080000:0af1:00bb:12:0
 DATA KSTB2096
 p:Slovak Telekom
+03f6:0e080000:0af1:00bb:22:0
+Trojka
+p:Slovak Telekom
 1325:fff82a59:003f:0046:25:0
 C More Max HD
 p:Telenor
@@ -12878,8 +12905,8 @@ p:Telenor
 1c95:fff8aab6:000a:0046:22:0
 TV 3 Puls
 p:Telenor
-1c96:fff8aab6:000a:0046:22:0
-DR 2
+1c96:fff8aab6:000a:0046:25:0
+DR 2 HD
 p:Telenor
 1c97:fff8aab6:000a:0046:22:0
 DR Ultra
@@ -13274,6 +13301,9 @@ p:UPC Direct
 799f:fff80000:02c7:0600:1:0
 TV4.
 p:UPC
+79a0:fff80000:02c7:0600:1:0
+LiChi TV (SVT)
+p:UPC Direct
 1b73:fff8af4f:004e:0046:25:65535
 Viasport 2
 p:Telenor,c:0902d7
@@ -14278,7 +14308,7 @@ B 101 DGI
 p:RCS-RDS BUCURESTI
 end
 === Compiled with Morpheus883's scripts ===
-Author: Morpheus883, 2019
+Author: Morpheus883, 2020
 Notes:Start
-=====  © by Morpheus883, 2019  =====
+=====  © by Morpheus883, 2020  =====
 Notes:End

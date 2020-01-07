@@ -222,6 +222,12 @@ transponders
 00a02acd:1000:2000
 	s 10957000:3333000:0:4:160:2:0:1:2:0:2
 /
+00a030ff:0001:ffff
+	s 12543000:3166000:0:2:160:2:0:1:2:0:2
+/
+00a0b1c1:0000:0000
+	s 12737000:2400000:1:3:160:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -513,17 +519,11 @@ transponders
 00820000:2c24:013e
 	s 10775000:29900000:0:7:130:2:0:1:2:2:2
 /
-00820000:005e:0055
-	s 11219000:29900000:0:7:130:2:0:1:2:2:2
-/
 00820000:005f:0055
 	s 12437000:29900000:0:3:130:2:0:1:1:0:2
 /
 00822bd3:005e:0055
 	s 11219000:29900000:0:3:130:2:0:1:2:0:2
-/
-00823095:005f:0055
-	s 12437000:29900000:0:7:130:2:0:1:2:0:2
 /
 end
 services
@@ -1271,6 +1271,9 @@ p:A1 BG
 076d:00a00000:c6d4:016e:22:0
 VH-1 Classic
 p:A1 HR
+0770:00a00000:c6d4:016e:1:0
+Test X
+p:TAG Broadcasting
 0709:00a00000:c5a8:016e:22:0
 HRT 1 (SLO 1)
 p:VIPnet
@@ -1390,72 +1393,72 @@ BBC First HD
 p:A HR
 038b:00a00000:016a:016e:1:0
 Fox Crime Albania
-p:tring tv
-00d9:00a00000:016a:016e:1:0
-Club TV
-p:tring tv
+p:Tring Digital
 04c9:00a00000:016a:016e:1:0
 Elrodi TV
-p:tring
+p:Tring Digital
 038a:00a00000:016a:016e:1:0
 Fox Life SE Europe
-p:tring tv
+p:Tring Digital
 0ac2:00a00000:016a:016e:1:0
 RTV 21 Plus
 p:Tring Digital
 000f:00a00000:016a:016e:1:0
-Syri Vision
+ABC News
 p:Tring Digital
 0b0e:00a00000:016a:016e:1:0
 Bunga Bunga
-p:tring tv
-0b18:00a00000:016a:016e:1:0
-Bizarre
-p:tring tv
-0391:00a00000:016a:016e:1:0
-Mediaset Italia
-p:TringTV
+p:Tring Digital
 007a:00a00000:016a:016e:1:0
 Click TV
-p:Tring tv
+p:Tring Digital
 0087:00a00000:016a:016e:1:0
 RTK 1 Sat (Kosovo)
-p:tring tv
-0097:00a00000:016a:016e:1:0
-Tring International
-p:Tring TV
+p:Tring Digital
 03f7:00a00000:016a:016e:1:0
 FOX Albania
-p:Tring TV
+p:Tring Digital
 000e:00a00000:016a:016e:1:0
 Klan Kosova
 p:Tring Digital
 0046:00a00000:016a:016e:1:0
 Tring History
-p:TRING TV
-0185:00a00000:016a:016e:1:0
-Muse
-p:tring tv
+p:Tring Digital
 007b:00a00000:016a:016e:1:0
 RTSH
-p:Tring TV
+p:Tring Digital
 0321:00a00000:016a:016e:1:0
 Kids
 p:Tring Digital
-126e:00a00000:016a:016e:25:0
+126e:00a00000:016a:016e:1:0
 Prince Kids
 p:Tring Digital
-132f:00a00000:016a:016e:25:0
+132f:00a00000:016a:016e:1:0
 Artkino 1
 p:Tring Digital
-1335:00a00000:016a:016e:25:0
+1335:00a00000:016a:016e:1:0
 Episode
 p:Tring Digital
-177b:00a00000:016a:016e:25:0
+177b:00a00000:016a:016e:1:0
 Dukagjini
 p:Tring Digital
 1790:00a00000:016a:016e:1:0
 Alsat-M
+p:Tring Digital
+1330:00a00000:016a:016e:1:0
+Artkino 2
+p:Tring Digital
+1331:00a00000:016a:016e:1:0
+Artkino 3
+p:Tring Digital
+1332:00a00000:016a:016e:1:0
+Artdoku 1
+p:Tring Digital
+1333:00a00000:016a:016e:1:0
+Artdoku 2
+p:Tring Digital
+1271:00a00000:016a:016e:1:0
+T7
 p:Tring Digital
 0001:00a0b115:0001:0001:1:0
 Kanal D Romania
@@ -2447,6 +2450,9 @@ p:A1 HR
 0259:00a0acce:c418:016e:31:0
 Extasy 4K
 p:Antik Sat
+025a:00a0acce:c418:016e:22:0
+Test
+p:Antik
 0683:00a00000:9fc4:016e:1:0
 Kanal A Slovenia HD
 p:SBB
@@ -3200,6 +3206,9 @@ p:Antena Group
 0001:00a02acd:1000:2000:25:0
 Al Arabiya
 p:ABP AGENCY
+0001:00a0b1c1:0000:0000:22:0
+E16a
+p:
 439f:00820000:2cec:013e:1:0
 BVN - Beste van Vlaanderen en Nederland
 p:RRsat
@@ -4508,14 +4517,8 @@ p:Telespazio,c:0907aa
 4241:00820000:3db8:013e:1:0
 TV Romania International
 p:Telespazio
-4222:00820000:3db8:013e:1:0
-Private TV HD
-p:Telespazio
 4246:00820000:3db8:013e:1:0
 Radio Italia Trend TV HD
-p:Telespazio
-422d:00820000:3db8:013e:1:0
-Private TV  HD!
 p:Telespazio
 4266:00820000:3db8:013e:1:0
 Digiquest Promo
@@ -4639,6 +4642,30 @@ Dipre TV2
 p:Telespazio
 4227:00820000:3db8:013e:12:0
 OTA TV Sat
+p:Telespazio
+4206:00820000:3db8:013e:1:0
+Privé
+p:Telespazio
+4208:00820000:3db8:013e:1:0
+Sexto Senso
+p:Telespazio
+4209:00820000:3db8:013e:1:0
+Pink O TV
+p:Telespazio
+420a:00820000:3db8:013e:1:0
+Passion
+p:Telespazio
+421e:00820000:3db8:013e:1:0
+SCT (Satisfaction Channel Television)
+p:Telespazio
+421f:00820000:3db8:013e:1:0
+Platinum TV
+p:Telespazio
+4220:00820000:3db8:013e:1:0
+Diabloxtv
+p:Telespazio
+4221:00820000:3db8:013e:1:0
+Just89 TV
 p:Telespazio
 012d:00820000:3e1c:013f:1:0
 TF1 HD
@@ -7025,6 +7052,9 @@ p:SkyItalia
 38dc:00820000:2648:fbff:2:0
 Radio Montecarlo
 p:SkyItalia
+38f6:00820000:2648:fbff:1:0
+Multipairing
+p:SkyItalia
 019f:00820000:26ac:013f:1:0
 BFM TV
 p:Bis
@@ -7893,7 +7923,7 @@ p:Cyfrowy Polsat S.A.
 Polsat Play HD 
 p:Cyfrowy Polsat S.A.
 33a3:0082ab96:3390:0071:1:0
-TV4 HD 
+TV 4 HD 
 p:Cyfrowy Polsat S.A.
 33a6:0082ab96:3390:0071:1:0
 Polsat Cafe HD
@@ -8774,7 +8804,7 @@ p:Eutelsat
 0650:00820000:2454:013e:1:0
 Algérie 3 (Thalitha TV)
 p:Eutelsat
-0651:00820000:2454:013e:25:0
+0651:00820000:2454:013e:1:0
 TV Art Live
 p:EUTELSAT
 0079:00820000:04b0:0110:25:0
@@ -9080,6 +9110,9 @@ p:IRIB
 1ef9:00820000:2c24:013e:1:0
 Sahar Kurdish TV
 p:IRIB
+0160:00820000:2c24:013e:2:0
+RADIO TEST IRAN
+p:IRIB
 0910:00820000:005f:0055:22:0
 Cartoon Network
 p:XTRA TV
@@ -9190,7 +9223,7 @@ Zee TV
 p:XTRA TV
 end
 === Compiled with Morpheus883's scripts ===
-Author: Morpheus883, 2019
+Author: Morpheus883, 2020
 Notes:Start
-=====  © by Morpheus883, 2019  =====
+=====  © by Morpheus883, 2020  =====
 Notes:End

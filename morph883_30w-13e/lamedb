@@ -291,17 +291,11 @@ transponders
 00820000:2c24:013e
 	s 10775000:29900000:0:7:130:2:0:1:2:2:2
 /
-00820000:005e:0055
-	s 11219000:29900000:0:7:130:2:0:1:2:2:2
-/
 00820000:005f:0055
 	s 12437000:29900000:0:3:130:2:0:1:1:0:2
 /
 00822bd3:005e:0055
 	s 11219000:29900000:0:3:130:2:0:1:2:0:2
-/
-00823095:005f:0055
-	s 12437000:29900000:0:7:130:2:0:1:2:0:2
 /
 fed40000:056c:056c
 	s 10730000:27500000:0:3:-300:2:0:1:2:3:0
@@ -437,6 +431,12 @@ fed42d0d:0001:ffff
 /
 0ce431ba:0001:ffff
 	s 12730000:9230000:0:3:-300:2:0:1:2:0:2
+/
+0ce42d20:0001:ffff
+	s 11552000:5000000:0:3:-300:2:0:1:2:0:2
+/
+fed42d02:0001:ffff
+	s 11522000:5000000:0:3:-300:2:0:1:2:0:2
 /
 end
 services
@@ -1748,14 +1748,8 @@ p:Telespazio,c:0907aa
 4241:00820000:3db8:013e:1:0
 TV Romania International
 p:Telespazio
-4222:00820000:3db8:013e:1:0
-Private TV HD
-p:Telespazio
 4246:00820000:3db8:013e:1:0
 Radio Italia Trend TV HD
-p:Telespazio
-422d:00820000:3db8:013e:1:0
-Private TV  HD!
 p:Telespazio
 4266:00820000:3db8:013e:1:0
 Digiquest Promo
@@ -1879,6 +1873,30 @@ Dipre TV2
 p:Telespazio
 4227:00820000:3db8:013e:12:0
 OTA TV Sat
+p:Telespazio
+4206:00820000:3db8:013e:1:0
+Privé
+p:Telespazio
+4208:00820000:3db8:013e:1:0
+Sexto Senso
+p:Telespazio
+4209:00820000:3db8:013e:1:0
+Pink O TV
+p:Telespazio
+420a:00820000:3db8:013e:1:0
+Passion
+p:Telespazio
+421e:00820000:3db8:013e:1:0
+SCT (Satisfaction Channel Television)
+p:Telespazio
+421f:00820000:3db8:013e:1:0
+Platinum TV
+p:Telespazio
+4220:00820000:3db8:013e:1:0
+Diabloxtv
+p:Telespazio
+4221:00820000:3db8:013e:1:0
+Just89 TV
 p:Telespazio
 012d:00820000:3e1c:013f:1:0
 TF1 HD
@@ -4265,6 +4283,9 @@ p:SkyItalia
 38dc:00820000:2648:fbff:2:0
 Radio Montecarlo
 p:SkyItalia
+38f6:00820000:2648:fbff:1:0
+Multipairing
+p:SkyItalia
 019f:00820000:26ac:013f:1:0
 BFM TV
 p:Bis
@@ -5133,7 +5154,7 @@ p:Cyfrowy Polsat S.A.
 Polsat Play HD 
 p:Cyfrowy Polsat S.A.
 33a3:0082ab96:3390:0071:1:0
-TV4 HD 
+TV 4 HD 
 p:Cyfrowy Polsat S.A.
 33a6:0082ab96:3390:0071:1:0
 Polsat Cafe HD
@@ -6014,7 +6035,7 @@ p:Eutelsat
 0650:00820000:2454:013e:1:0
 Algérie 3 (Thalitha TV)
 p:Eutelsat
-0651:00820000:2454:013e:25:0
+0651:00820000:2454:013e:1:0
 TV Art Live
 p:EUTELSAT
 0079:00820000:04b0:0110:25:0
@@ -6319,6 +6340,9 @@ RADIO 06 WORLD SERVICE
 p:IRIB
 1ef9:00820000:2c24:013e:1:0
 Sahar Kurdish TV
+p:IRIB
+0160:00820000:2c24:013e:2:0
+RADIO TEST IRAN
 p:IRIB
 0910:00820000:005f:0055:22:0
 Cartoon Network
@@ -7985,9 +8009,6 @@ p:BOM,c:050001
 000e:fed40000:012d:162d:1:0
 Cartoon Network
 p:Pantelio
-0021:fed40000:012d:162d:1:0
-Nova Gold
-p:Pantelio
 0026:fed40000:012d:162d:1:0
 Leo TV / Extasy
 p:Pantelio
@@ -8044,6 +8065,9 @@ Disney Channel
 p:Pantelio
 01a2:fed40000:012d:162d:1:0
 ProSieben
+p:Pantelio
+0021:fed40000:012d:162d:1:0
+Trojka
 p:Pantelio
 0034:fed40000:012e:162d:1:0
 Rebel 2
@@ -8572,7 +8596,7 @@ G41 VIA 1 HD
 p:TBS
 end
 === Compiled with Morpheus883's scripts ===
-Author: Morpheus883, 2019
+Author: Morpheus883, 2020
 Notes:Start
-=====  © by Morpheus883, 2019  =====
+=====  © by Morpheus883, 2020  =====
 Notes:End
