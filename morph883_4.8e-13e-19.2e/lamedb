@@ -819,6 +819,9 @@ transponders
 00300000:0444:3581
 	s 12645000:256000:1:1:48:2:0
 /
+003031be:0001:0001
+	s 12734000:3600000:0:2:48:2:0:1:2:0:2
+/
 end
 services
 0001:00d8ad61:0001:0001:1:0
@@ -1179,6 +1182,9 @@ p:
 
 p:DIGITAL +
 7599:00c00000:0422:0001:2:0
+
+p:
+759a:00c00000:0422:0001:2:0
 
 p:
 7789:00c00000:0424:0001:1:0
@@ -1875,14 +1881,14 @@ p:MTV Networks Europe
 Nick_Jr.
 p:MTV Networks Europe
 006f:00c00000:000d:0085:25:0
-Disney Cinemagic HD Germany
-p:Kabelkiosk
+Sky Cinema Special HD Germany
+p:SKY
 0070:00c00000:000d:0085:25:0
 National Geographic HD Germany
-p:Kabelkiosk
+p:SKY
 0072:00c00000:000d:0085:25:0
 Sky Sport HD 2 Germany
-p:Kabelkiosk
+p:SKY
 006e:00c00000:000d:0085:25:0
 Sky Atlantic HD
 p:SKY
@@ -2037,7 +2043,7 @@ p:RTL World
 RTL Bremen & Land Niedersachsen
 p:RTL World
 2ee6:00c00000:0441:0001:1:0
-RTL FS
+RTL Bayern
 p:RTL World
 2ef4:00c00000:0441:0001:1:0
 RTL 2
@@ -4553,6 +4559,9 @@ p:CSAT
 21fe:00c00000:044c:0001:25:0
 RMC Sport 3 HD
 p:CSAT
+21ff:00c00000:044c:0001:25:0
+ES1 HD
+p:CSAT,C:0000
 2336:00c00000:0442:0001:25:0
 C News HD
 p:CSAT
@@ -4640,6 +4649,9 @@ p:CSAT
 1f4f:00c00000:042e:0001:25:0
 Trace Latina HD
 p:CSAT
+1f42:00c00000:042e:0001:25:0
+Olympia TV HD
+p:CSAT,C:0000
 226e:00c00000:0438:0001:25:0
 OCS MAX HD
 p:CSAT
@@ -4833,7 +4845,7 @@ p:Kartina Satellite
 STS International (CTCi)
 p:Kartina Satellite
 1a40:00c00000:0400:0001:1:0
-Planeta HD
+Planeta
 p:Kartina Satellite
 1a30:00c00000:0400:0001:1:0
 Mult
@@ -5168,9 +5180,6 @@ p:Globecast UK
 1d2e:00820000:2fa8:013e:1:0
 Sat 7 Pars
 p:Globecast UK
-1d28:00820000:2fa8:013e:1:0
-Al Fady
-p:Globecast UK
 1d25:00820000:2fa8:013e:1:0
 Brazzers TV Europe
 p:Nova
@@ -5198,12 +5207,6 @@ p:Globecast,c:0916a6
 1d27:00820000:2fa8:013e:1:0
 CNBC Europe
 p:Globecast UK
-1cf1:00820000:2fa8:013e:1:0
-JSTV 1 (Japan Satellite TV)
-p:Globecast
-1cf2:00820000:2fa8:013e:1:0
-JSTV 2 (Japan Satellite TV)
-p:Globecast
 4331:00820000:300c:013e:25:0
 SRF 1 HD
 p:SSR/SRG
@@ -5294,9 +5297,6 @@ p:GlobeCast
 06d7:00820000:3138:013e:2:0
 Chaine 1
 p:GlobeCast
-06ab:00820000:3138:013e:1:0
-STS International
-p:GLOBECAST
 06b6:00820000:3138:013e:1:0
 TV 8 Russia
 p:GLOBECAST
@@ -5309,7 +5309,7 @@ p:GLOBECAST
 06a8:00820000:3138:013e:1:0
 112 Ukraine SD
 p:GLOBECAST
-06b0:00820000:3138:013e:1:0
+06ab:00820000:3138:013e:1:0
 TV Rus
 p:GLOBECAST
 1f60:00820000:319c:013e:1:0
@@ -5825,9 +5825,6 @@ p:Telespazio
 44e5:00820000:0258:013e:1:0
 HCTV - Horn Cable TV
 p:Telespazio
-44e6:00820000:0258:013e:1:0
-Somali Cable
-p:
 0590:00820000:0320:fbff:1:0
 Nick Junior Italia
 p:Sky Italia
@@ -12365,6 +12362,21 @@ p:
 1e1a:00300000:002c:0055:1:0
 Nicktoons Russia
 p:
+1e1b:00300000:002c:0055:1:0
+Plus Plus.
+p:,C:0000
+1e1c:00300000:002c:0055:1:0
+Bigudi.
+p:,C:0000
+1e1d:00300000:002c:0055:1:0
+Unian TV.
+p:Harmonic,C:0000
+1e2b:00300000:002c:0055:1:0
+Plus Plus.
+p:
+1e2c:00300000:002c:0055:1:0
+Unian TV.
+p:
 09c4:00300000:0018:0044:1:0
 Sony Sci-Fi Ukraine
 p:VisionTV,c:0909c4
@@ -13127,18 +13139,6 @@ p:TANDBERG Television
 0001:00308f0d:ffff:ffff:25:0
 Western TV
 p:
-0004:00300000:0104:0045:2:0
-Micul Samaritean
-p:JurnalTV
-0001:00300000:0104:0045:1:0
-Jurnal TV Moldova
-p:DVLab
-0002:00300000:0104:0045:1:0
-RTR Moldova
-p:Scopus,c:0900c8
-0003:00300000:0104:0045:2:0
-Jurnal FM
-p:DVLab
 0001:0030b191:0001:ffff:1:0
 POL-098_PATH-1
 p:Telecast 1
@@ -13322,6 +13322,18 @@ p:INTER +
 00a1:00300000:0444:3581:2:0
 NRJ
 p:TOWERCAST
+0001:003031be:0001:0001:25:0
+Jurnal TV Moldova HD
+p:JurnalTV
+0002:003031be:0001:0001:1:0
+RTR Moldova
+p:JurnalTV,c:0900c8
+0003:003031be:0001:0001:2:0
+Jurnal FM
+p:JurnalTV
+0004:003031be:0001:0001:2:0
+Micul Samaritean
+p:JurnalTV
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2020

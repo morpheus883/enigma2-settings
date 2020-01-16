@@ -34,7 +34,7 @@ transponders
 	s 11778000:27500000:1:2:282:2:0
 /
 011a0000:07d8:0002
-	s 11856000:29500000:1:6:282:2:0:1:1:0:2
+	s 11856000:27500000:1:2:282:2:0:1:2:0:2
 /
 011a0000:07f3:0002
 	s 12382000:27500000:0:4:282:2:0
@@ -138,8 +138,8 @@ transponders
 011a0000:07ec:0002
 	s 12246000:27500000:1:2:282:2:0:1:2:0:2
 /
-011a2dee:07d3:0002
-	s 11758000:29500000:0:6:282:2:0:1:1:0:2
+011a0000:07d3:0002
+	s 11758000:27500000:0:2:282:2:0:1:2:0:2
 /
 011a0000:07eb:0002
 	s 12226000:27500000:0:2:282:2:0:1:2:0:2
@@ -1292,6 +1292,12 @@ p:BSkyB,c:090105
 1e33:011a0000:0809:0002:1:0
 Spike +1
 p:BSkyB
+1e50:011a0000:0809:0002:1:0
+Paramount Network
+p:BSkyB
+1e51:011a0000:0809:0002:1:0
+Paramount Network +1
+p:BSkyB
 52d0:011a0000:0814:0002:25:0
 Channel 4 HD
 p:Freesat
@@ -2267,6 +2273,9 @@ p:BSkyB
 d75b:011a0000:082f:0002:2:0
 LBC News
 p:BSkyB
+d769:011a0000:082f:0002:1:0
+Celebration TV
+p:BSkyB
 c6d7:011a0000:0840:0002:1:0
 CBS Drama
 p:BSkyB
@@ -2351,12 +2360,6 @@ p:BSkyB
 d877:011a0000:0833:0002:25:0
 Al Jazeera English HD
 p:Freesat
-d868:011a0000:0833:0002:25:0
-Iran International HD
-p:BSkyB,c:050001
-d86d:011a0000:0833:0002:25:0
-LoveWorld HD
-p:BSkyB
 1966:011a0000:07e6:0002:1:0
 Eden
 p:Sky Digital
@@ -2546,25 +2549,25 @@ p:BSkyB
 0fa7:011a0000:07ec:0002:25:0
 Disney Junior UK HD
 p:Sky Digital
-2328:011a2dee:07d3:0002:31:0
+2328:011a0000:07d3:0002:31:0
 Ultra HD
 p:BSkyB
-232e:011a2dee:07d3:0002:31:0
+232e:011a0000:07d3:0002:31:0
 U1
 p:BSkyB
-1034:011a2dee:07d3:0002:4:0
+1034:011a0000:07d3:0002:4:0
 Anytime
 p:BSkyB
-0c1d:011a2dee:07d3:0002:25:0
+0c1d:011a0000:07d3:0002:25:0
 Sky Insider HD
 p:BSkyB
-0fc0:011a2dee:07d3:0002:25:0
+0fc0:011a0000:07d3:0002:25:0
 Star Gold HD
 p:BSkyB
-235b:011a2dee:07d3:0002:31:0
+235b:011a0000:07d3:0002:31:0
 Ultra HD
 p:BSkyB
-0c1c:011a2dee:07d3:0002:25:0
+0c1c:011a0000:07d3:0002:25:0
 3100
 p:BSkyB
 0e2c:011a0000:07eb:0002:25:0
@@ -2738,6 +2741,9 @@ p:BSkyB
 cd55:011a0000:0844:0002:25:0
 S4C HD
 p:BSkyB,c:090101
+cd69:011a0000:0844:0002:25:0
+LaLigaTV HD
+p:BSkyB,C:0000
 d219:011a0000:0841:0002:25:0
 BT Sport 2 HD
 p:BSkyB
@@ -2842,9 +2848,6 @@ High Street TV 3
 p:BSkyB
 c4eb:011a2b68:0813:0002:1:0
 Gems TV
-p:BSkyB
-c535:011a2b68:0813:0002:1:0
-Chat Box
 p:BSkyB
 0fa3:011a0000:07ed:0002:25:0
 Sky Sports Main Events HD
@@ -3025,9 +3028,6 @@ Foodxp
 p:BSkyB
 d089:011aac2b:083e:0002:1:0
 Sony Crime
-p:BSkyB
-d08e:011aac2b:083e:0002:1:0
-Sony Crime+1
 p:BSkyB
 d048:011aac2b:083e:0002:1:0
 Sony Christmas
@@ -3602,9 +3602,6 @@ p:Globecast UK
 1d2e:00820000:2fa8:013e:1:0
 Sat 7 Pars
 p:Globecast UK
-1d28:00820000:2fa8:013e:1:0
-Al Fady
-p:Globecast UK
 1d25:00820000:2fa8:013e:1:0
 Brazzers TV Europe
 p:Nova
@@ -3632,12 +3629,6 @@ p:Globecast,c:0916a6
 1d27:00820000:2fa8:013e:1:0
 CNBC Europe
 p:Globecast UK
-1cf1:00820000:2fa8:013e:1:0
-JSTV 1 (Japan Satellite TV)
-p:Globecast
-1cf2:00820000:2fa8:013e:1:0
-JSTV 2 (Japan Satellite TV)
-p:Globecast
 4331:00820000:300c:013e:25:0
 SRF 1 HD
 p:SSR/SRG
@@ -3728,9 +3719,6 @@ p:GlobeCast
 06d7:00820000:3138:013e:2:0
 Chaine 1
 p:GlobeCast
-06ab:00820000:3138:013e:1:0
-STS International
-p:GLOBECAST
 06b6:00820000:3138:013e:1:0
 TV 8 Russia
 p:GLOBECAST
@@ -3743,7 +3731,7 @@ p:GLOBECAST
 06a8:00820000:3138:013e:1:0
 112 Ukraine SD
 p:GLOBECAST
-06b0:00820000:3138:013e:1:0
+06ab:00820000:3138:013e:1:0
 TV Rus
 p:GLOBECAST
 1f60:00820000:319c:013e:1:0
@@ -4259,9 +4247,6 @@ p:Telespazio
 44e5:00820000:0258:013e:1:0
 HCTV - Horn Cable TV
 p:Telespazio
-44e6:00820000:0258:013e:1:0
-Somali Cable
-p:
 0590:00820000:0320:fbff:1:0
 Nick Junior Italia
 p:Sky Italia

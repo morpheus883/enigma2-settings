@@ -507,6 +507,9 @@ transponders
 00300000:0444:3581
 	s 12645000:256000:1:1:48:2:0
 /
+003031be:0001:0001
+	s 12734000:3600000:0:2:48:2:0:1:2:0:2
+/
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
 /
@@ -770,6 +773,9 @@ fff8b0e7:010c:ffff
 /
 fff80000:0065:0065
 	s 12535000:4750000:1:3:-8:2:0:1:2:0:2
+/
+fff8b0e7:0309:0309
+	s 12519000:2500000:1:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -1094,9 +1100,6 @@ p:Globecast UK
 1d2e:00820000:2fa8:013e:1:0
 Sat 7 Pars
 p:Globecast UK
-1d28:00820000:2fa8:013e:1:0
-Al Fady
-p:Globecast UK
 1d25:00820000:2fa8:013e:1:0
 Brazzers TV Europe
 p:Nova
@@ -1124,12 +1127,6 @@ p:Globecast,c:0916a6
 1d27:00820000:2fa8:013e:1:0
 CNBC Europe
 p:Globecast UK
-1cf1:00820000:2fa8:013e:1:0
-JSTV 1 (Japan Satellite TV)
-p:Globecast
-1cf2:00820000:2fa8:013e:1:0
-JSTV 2 (Japan Satellite TV)
-p:Globecast
 4331:00820000:300c:013e:25:0
 SRF 1 HD
 p:SSR/SRG
@@ -1220,9 +1217,6 @@ p:GlobeCast
 06d7:00820000:3138:013e:2:0
 Chaine 1
 p:GlobeCast
-06ab:00820000:3138:013e:1:0
-STS International
-p:GLOBECAST
 06b6:00820000:3138:013e:1:0
 TV 8 Russia
 p:GLOBECAST
@@ -1235,7 +1229,7 @@ p:GLOBECAST
 06a8:00820000:3138:013e:1:0
 112 Ukraine SD
 p:GLOBECAST
-06b0:00820000:3138:013e:1:0
+06ab:00820000:3138:013e:1:0
 TV Rus
 p:GLOBECAST
 1f60:00820000:319c:013e:1:0
@@ -1751,9 +1745,6 @@ p:Telespazio
 44e5:00820000:0258:013e:1:0
 HCTV - Horn Cable TV
 p:Telespazio
-44e6:00820000:0258:013e:1:0
-Somali Cable
-p:
 0590:00820000:0320:fbff:1:0
 Nick Junior Italia
 p:Sky Italia
@@ -8291,6 +8282,21 @@ p:
 1e1a:00300000:002c:0055:1:0
 Nicktoons Russia
 p:
+1e1b:00300000:002c:0055:1:0
+Plus Plus.
+p:,C:0000
+1e1c:00300000:002c:0055:1:0
+Bigudi.
+p:,C:0000
+1e1d:00300000:002c:0055:1:0
+Unian TV.
+p:Harmonic,C:0000
+1e2b:00300000:002c:0055:1:0
+Plus Plus.
+p:
+1e2c:00300000:002c:0055:1:0
+Unian TV.
+p:
 09c4:00300000:0018:0044:1:0
 Sony Sci-Fi Ukraine
 p:VisionTV,c:0909c4
@@ -9053,18 +9059,6 @@ p:TANDBERG Television
 0001:00308f0d:ffff:ffff:25:0
 Western TV
 p:
-0004:00300000:0104:0045:2:0
-Micul Samaritean
-p:JurnalTV
-0001:00300000:0104:0045:1:0
-Jurnal TV Moldova
-p:DVLab
-0002:00300000:0104:0045:1:0
-RTR Moldova
-p:Scopus,c:0900c8
-0003:00300000:0104:0045:2:0
-Jurnal FM
-p:DVLab
 0001:0030b191:0001:ffff:1:0
 POL-098_PATH-1
 p:Telecast 1
@@ -9248,6 +9242,18 @@ p:INTER +
 00a1:00300000:0444:3581:2:0
 NRJ
 p:TOWERCAST
+0001:003031be:0001:0001:25:0
+Jurnal TV Moldova HD
+p:JurnalTV
+0002:003031be:0001:0001:1:0
+RTR Moldova
+p:JurnalTV,c:0900c8
+0003:003031be:0001:0001:2:0
+Jurnal FM
+p:JurnalTV
+0004:003031be:0001:0001:2:0
+Micul Samaritean
+p:JurnalTV
 040a:0e080000:0044:0046:25:0
 TV 2 Sport Premium HD
 p:Canal Digital Nordic
@@ -9794,6 +9800,9 @@ p:UPC
 7597:0e080000:02bd:0600:1:0
 JimJam HU
 p:UPC
+75b5:0e080000:02bd:0600:1:0
+JimJam HU.
+p:UPC
 03ec:0e082de3:0005:1111:1:0
 TV Paprika
 p:Focus Sat
@@ -10115,6 +10124,9 @@ p:UPC Direct
 7807:0e080000:02c3:0600:1:0
 STORY 4.
 p:UPC Direct
+7808:0e080000:02c3:0600:1:0
+JimJam.
+p:UPC Direct
 76c1:0e080000:02c0:0600:1:0
 Antena 3 Romania
 p:Focus Sat
@@ -10189,6 +10201,9 @@ Auto Motor Sport( SVT)
 p:UPC
 76d1:0e080000:02c0:0600:1:0
 TEST
+p:UPC Direct
+76dd:0e080000:02c0:0600:1:0
+AMC RO.
 p:UPC Direct
 106a:0e080000:0029:0046:25:0
 History Channel HD Nordic
