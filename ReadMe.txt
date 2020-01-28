@@ -1,0 +1,187 @@
+
+      ===========########
+     ======  Enigma 2 #####
+    ====== HD Settings #####
+     == © by Morpheus883 ##
+      ===========########
+
+Morpheus883's Site: http://morpheus883.altervista.org/
+GitHub Repository: https://github.com/morpheus883/
+and available on the main Sat Sites
+
+Enigma2 Settings 27th January 2020, © by Morpheus883
+
+Settings for Images based on Enigma 2.4:
+
+Statistics:
+# Satellites: 88 (C-Ku Bands)
+# Ordered Provider Lists: 60+
+# Services: 21.388 (TV-Radio-Data)
+# Packages: 23 (TV-Radio-Data):
+
+MONOFeed (13°E)
+DUALFeed (13°E + 19.2°E)
+HISPASAT 30W DUALFeed (30°W + 13°E)
+HISPASAT 30W TRIALFeed (30°W + 13°E + 19.2°E)
+THOR 5/6/7 DUALFeed (0.8°W + 13°E)
+THOR 5/6/7 TRIALFeed (0.8°W + 13°E + 19.2°E)
+ASTRA 4 DUALFeed (4.8°E + 13°E)
+ASTRA 4 TRIALFeed (4.8°E + 13°E + 19.2°E)
+EUTELSAT 9 DUALFeed (9°E + 13°E)
+EUTELSAT 9 TRIALFeed (9°E + 13°E + 19.2°E)
+EUTELSAT 16 DUALFeed (13°E + 16°E)
+EUTELSAT 16 TRIALFeed (13°E + 16°E + 19.2°E)
+ASTRA 3B DUALFeed (13°E + 23.5°E)
+ASTRA 3B TRIALFeed (13°E + 19.2°E + 23.5°E)
+ASTRA 2E/2F/2G DUALFeed (13°E + 28.2°E)
+ASTRA 2E/2F/2G TRIALFeed (13°E + 19.2°E + 28.2°E)
+TURKSAT 3A/4A DUALFeed (13°E + 42°E)
+TURKSAT 3A/4A TRIALFeed (13°E + 19.2°E + 42°E)
+THOR 5/6/7 ASTRA 4 TRIALFeed (0.8°W + 4.8°E + 13°E) Special Edition
+THOR 5/6/7 ASTRA 2E/2F/2G QUADFeed (0.8°W + 13°E + 19.2°E + 28.2°E) Special Edition
+EUTELSAT 16 ASTRA 3B QUADFeed (13°E + 16°E + 19.2°E + 23.5°E) Special Edition
+ASTRA 3B/2E/2F/2G QUADFeed (13°E + 19.2°E + 23.5°E + 28.2°E) Special Edition
+Motor - FULLFeed (45.0°W - 76.5°E)
+OTHER PACKAGES AVAILABLE ON REQUEST
+ 
+[47.5 W] ===== SES 14 - NSS 806 =====
+[45.0 W] ===== INTELSAT 14 =====
+[43.0 W] ==C== INTELSAT 11 =====
+[40.5 W] ==C== SES 6 =====
+[37.5 W] ===== NSS 10 TELSTAR 11N =====
+[36.0 W] ===== HISPASAT 36W-1 =====
+[34.5 W] ===== INTELSAT 35e =====
+[33.5 W]  =====  HYLAS 1/4  =====
+[31.5 W] ===== INTELSAT 25 =====
+[30.0 W] ===== HISPASAT 30W ===M=
+[30.0 W] Meo
+[30.0 W] Nos
+[27.5 W] ===== INTELSAT 907 =====
+[24.5 W] ===== INTELSAT 905 =====
+[22.0 W] ===== SES 4 =====
+[20.0 W] ===== NSS 7 =====
+[18.0 W] ===== INTELSAT 37e =====
+[15.0 W] ===== TELSTAR 12 =====
+[14.0 W] =====  EXPRESS AM8  =====
+[12.5 W] ===== EUTELSAT 12 WEST B =====
+[11.0 W] ===== EXPRESS AM44 =====
+[8.0 W] ===== EUTELSAT 8 WEST B =====
+[7.0 W] ===== EUTELSAT 7 WEST A =====
+[7.0 W] Add
+[7.0 W] Nilesat
+[7.0 W] Noorsat
+[7.0 W] Orbit Showtime Network
+[5.0 W] ===== EUTELSAT 5 WEST A =====
+[5.0 W] Bis / Orange / Fransat
+[4.0 W] ===== AMOS 3/7 =====
+[4.0 W] Magio TV
+[0.8 W] ===== INTELSAT 10-02 THOR 5/6/7 ===M=
+[0.8 W] Canal Digital Nordic
+[0.8 W] Focus Sat
+[0.8 W] RCS DigiTV
+[0.8 W] UPC Direct
+[1.9 E] ===== BULGARIASAT-1 =====
+[3.0 E] ===== EUTELSAT 3B RASCOM QAF1R =====
+[4.8 E] ===== ASTRA 4A SES 5 ===M=
+[4.8 E] Viasat
+[4.8 E] VisionTV
+[7.0 E] ===== EUTELSAT 7A/7B =====
+[7.0 E] Digitürk
+[9.0 E] ===== EUTELSAT 9B ===M=
+[9.0 E] Joyne
+[9.0 E] Kabelkiosk
+[9.0 E] OTE
+[10.0 E] ===== EUTELSAT 10A =====
+[10.0 E] Startimes
+[13.0 E] ===== HOT BIRD 13B/13C/13E ===M=
+[13.0 E] BIS/Orange FR
+[13.0 E] Cyfrowy Polsat
+[13.0 E] NC+/Orange PL
+[13.0 E] Nova
+[13.0 E] RAI/Mediaset/TivùSat
+[13.0 E] Sky Italia
+[16.0 E] ===== EUTELSAT 16A ===M=
+[16.0 E] Digit Alb
+[16.0 E] Max TV
+[16.0 E] Total TV
+[19.2 E] ===== ASTRA 1KR/1L/1M/1N ===M=
+[19.2 E] CanalSat
+[19.2 E] Orange FR
+[19.2 E] Movistar+
+[19.2 E] HD +/Sky D/ARD
+[19.2 E] Canal Digitaal/TV Vlaanderen
+[20.0 E] ==C== ARABSAT 5C =====
+[21.6 E] ===== EUTELSAT 21B =====
+[23.5 E] ===== ASTRA 3B ===M=
+[23.5 E] Canal Digitaal/TV Vlaanderen
+[23.5 E] CS Link/SkyLink
+[25.5 E] ===== ES'HAIL 1 ===N=
+[26.0 E] ===== BADR 4/5/6/7 =====
+[26.0 E] Al Jazeera
+[26.0 E] Arabsat
+[26.0 E] JMC - Jordan Media City
+[26.0 E] MBC - Middle East Broadcasting Center
+[28.2 E] ===== ASTRA 2E/2F/2G ===M=
+[28.2 E] BBC
+[28.2 E] Freesat
+[28.2 E] Sky Digital
+[30.5 E] ===== ARABSAT 5A =====
+[30.8 E]  =====  EUTELSAT 31A  =====
+[31.5 E] ===== ASTRA 5B =====
+[31.5 E] MagtiSat
+[31.5 E] Orange Romania
+[33.0 E] ===== EUTELSAT 33E - INTELSAT 28 =====
+[36.0 E] ===== EUTELSAT 36B/AMU1 =====
+[36.0 E] DStv Multichoice Africa
+[38.0 E] ==C== PAKSAT 1R =====
+[39.0 E] ===== HELLAS SAT 2/3 =====
+[39.0 E] Bulsatcom
+[39.0 E] Dolce TV
+[40.0 E] ===== EXPRESS AM7 =====
+[42.0 E] ===== TURKSAT 3A/4A ===M=
+[42.0 E] D-Smart
+[42.0 E] Digitürk
+[42.0 E] Filbox
+[42.0 E] Tivibu (East Beam)
+[42.0 E] Türksat
+[45.0 E] ===== INTELSAT 12/904 - GALAXY 11 =====
+[45.0 E] Vivacom/NURTS
+[46.0 E] ===== AZERSPACE-1 =====
+[47.5 E] ===== INTELSAT 10 =====
+[49.0 E] ==C== YAMAL 202 =====
+[50.0 E] ===== TURKSAT 4B =====
+[51.5 E] ===== BELINTERSAT 1 =====
+[52.0 E] =====  TURKMENÄLEM/MONACOSAT  =====
+[52.5 E] ===== AL YAH 1 =====
+[53.0 E] ===== EXPRESS AM6 =====
+[55.0 E] ===== YAMAL 402 =====
+[57.0 E] ===== NSS 12 =====
+[62.0 E] ===== INTELSAT 902 =====
+[64.2 E] ==C== INTELSAT 906 =====
+[65.0 E] ===== AMOS 4 =====
+[66.0 E] ===== INTELSAT 17 =====
+[68.5 E] ===== INTELSAT 20 =====
+[70.5 E] ===== EUTELSAT 70B =====
+[75.0 E] ===== ABS-2 ===N=
+[76.5 E] ===== APSTAR 7 =====
+[ C Band ]
+
++ Radios
+
+=== Compiled with Morpheus883's scripts ===
+ ======== © by Morpheus883, 2020 ========
+ 
+
+The only settings with BlindMarke®
+
+BlindMarke®s are services specifically created for difficult/unexplored constellations, useful for pointing dish to difficult sats with the USALS/DiSEqC 1.2 support.
+
+Easy instructions:
+1. Open "Sat Pointer" folder
+2. Select the BlindMarke® you desire in order to move your dish on the desired orbital position
+3. Once achieved, you can start blindscan or switch to C tuner
+
+You can find everything and much more on:
+Morpheus883's Site: http://morpheus883.altervista.org/
+
+For an auto-update, you can add a link to https://github.com/morpheus883/enigma2-settings to your favourite E2 setting loader (ready with standard indexer)
