@@ -694,19 +694,19 @@ fed4aaaa:0001:0001
 	s 10922000:1667000:1:9:-300:2:0:1:2:3:1
 /
 fed40000:012d:162d
-	s 11771000:30000000:1:3:-300:2:0:1:2:0:2:0:1:0
+	s 11771000:30000000:1:4:-300:2:0:1:2:0:2:0:1:0
 /
 fed40000:012e:162d
-	s 11811000:30000000:1:3:-300:2:0:1:2:0:2:0:1:0
+	s 11811000:30000000:1:4:-300:2:0:1:2:0:2:0:1:0
 /
-0ce40000:012f:162d
-	s 11931000:30000000:1:3:-300:2:0:1:2:0:2:0:1:0
+fed40000:012f:162d
+	s 11931000:30000000:1:4:-300:2:0:1:2:0:2:0:1:0
 /
 fed40000:0130:162d
-	s 11851000:30000000:1:3:-300:2:0:1:2:2:2:0:1:0
+	s 11851000:30000000:1:4:-300:2:0:1:2:2:2:0:1:0
 /
 fed40000:0131:162d
-	s 11891000:30000000:1:3:-300:2:0:1:2:0:2:0:1:0
+	s 11891000:30000000:1:4:-300:2:0:1:2:0:2:0:1:0
 /
 fed4abfe:03e8:03e9
 	s 11262000:30000000:1:3:-300:2:0:1:2:0:2
@@ -715,13 +715,13 @@ fed43048:0026:0036
 	s 12360000:27500000:0:3:-300:2:0:1:2:2:2
 /
 fed40000:0132:162d
-	s 11731000:30000000:1:3:-300:2:0:1:2:0:2
+	s 11731000:30000000:1:4:-300:2:0:1:2:0:2
 /
 0ce42ab2:000d:ff00
 	s 10930000:30000000:0:3:-300:2:0:1:2:0:2
 /
 fed40000:0001:22d4
-	s 11491000:7522000:1:6:-300:2:0:1:2:0:2:0:133460:0
+	s 11491000:7522000:1:6:-300:2:0:1:2:2:2:0:133460:0
 /
 fed40000:03e9:22d4
 	s 11330000:9140000:0:3:-300:2:0:1:2:0:2:0:174526:1
@@ -3347,6 +3347,15 @@ p:GLOBECAST
 18f0:00c00000:03f4:0001:1:0
 Extremadura TV
 p:GLOBECAST,c:050001
+18f1:00c00000:03f4:0001:1:0
+Galicia TV HD
+p:GLOBECAST
+18f2:00c00000:03f4:0001:2:0
+RADIO GALEGA
+p:GLOBECAST
+18f3:00c00000:03f4:0001:2:0
+RADIO GALEGA MUSICA
+p:GLOBECAST
 7a48:00c00000:0410:0001:1:0
 Telesur
 p:Telefonica Servicios Audiovisuales
@@ -5588,6 +5597,9 @@ p:Telespazio
 44e5:00820000:0258:013e:1:0
 HCTV - Horn Cable TV
 p:Telespazio
+44e8:00820000:0258:013e:1:0
+Hadi TV 3
+p:
 0590:00820000:0320:fbff:1:0
 Nick Junior Italia
 p:Sky Italia
@@ -6808,6 +6820,9 @@ Sky Cinema Suspense
 p:SkyItalia
 2b9e:00820000:19c8:fbff:25:0
 Info2
+p:SkyItalia
+2ba6:00820000:19c8:fbff:2:0
+INBLU2000
 p:SkyItalia
 2dc6:00820000:1a2c:fbff:1:0
 Sky Uno
@@ -8532,7 +8547,7 @@ p:Bis
 Chasse et Pêche
 p:Bis
 01c8:00820000:26ac:013f:1:0
-Paramount Channel France
+TV Breizh
 p:Bis
 01c9:00820000:26ac:013f:1:0
 Crime District
@@ -8991,7 +9006,7 @@ p:NetMed
 E! Entertainment TV
 p:Nova
 1bbf:00822ea2:17d4:013e:1:0
-The History Channel
+Viasat History
 p:Nova
 1bc0:00822ea2:17d4:013e:1:0
 Nova Cinema 2
@@ -11010,7 +11025,7 @@ p:CNBC
 Globo Premium
 p:SID Globo Premium
 0529:0ce40000:0067:0053:1:0
-MCM POP
+MCM Pop
 p:
 0173:0ce40000:0067:0053:1:0
 MCM Pop
@@ -11448,7 +11463,7 @@ p:Sport TV + ,c:090331
 TV5 Monde Europe
 p:TV5MONDE
 138d:0ce40000:0030:0036:1:0
-SPORT TV +
+Sport TV +
 p:Meo,c:090331
 139d:0ce40000:0030:0036:1:0
 TV5 Monde
@@ -11520,7 +11535,7 @@ p:
 Hispasat 4K
 p:
 01f7:0ce40000:0069:0053:31:0
-SPORT TV 4K
+Sport TV 4K
 p:,c:090103
 0064:fed42c26:ea76:0001:2:0
 R1_NACION_PRADO
@@ -12246,10 +12261,10 @@ p:Pantelio
 Barrandov TV
 p:Pantelio
 02bc:fed40000:012d:162d:25:0
-Pantelio Info HD
+Fotelka Info HD
 p:Pantelio
 000b:fed40000:012d:162d:1:0
-RiK HD
+Jojko HD
 p:Pantelio
 0054:fed40000:012d:162d:1:0
 Disney Junior
@@ -12353,91 +12368,103 @@ p:Pantelio
 008b:fed40000:012e:162d:25:0
 Reserved 50
 p:Pantelio
-0016:0ce40000:012f:162d:25:0
-CT 2 HD
-p:Pantelio
-006b:0ce40000:012f:162d:25:0
-Arena Sport 1 HD
-p:Pantelio
-0015:0ce40000:012f:162d:25:0
-CT 1 HD
-p:Pantelio
-0017:0ce40000:012f:162d:25:0
-CT Sport HD
-p:Pantelio
-004c:0ce40000:012f:162d:25:0
-National Geographic HD
-p:Pantelio
-0065:0ce40000:012f:162d:25:0
-Eurosport 1 HD
-p:Pantelio
-000f:0ce40000:012f:162d:1:0
+000f:fed40000:012e:162d:1:0
 Boomerang
 p:Pantelio
-0029:0ce40000:012f:162d:25:0
-CT D / ART
-p:Pantelio
-0039:0ce40000:012f:162d:1:0
+0039:fed40000:012e:162d:1:0
 RAI 1
 p:Pantelio
-005a:0ce40000:012f:162d:25:0
-JOJ Cinema HD
-p:Pantelio
-0062:0ce40000:012f:162d:22:0
+0062:fed40000:012e:162d:1:0
 Mnam TV
 p:Pantelio
-0066:0ce40000:012f:162d:25:0
-Eurosport 2 HD
-p:Pantelio
-0067:0ce40000:012f:162d:25:0
-Nova Sport 1 HD
-p:Pantelio
-007c:0ce40000:012f:162d:22:0
-Nickelodeon
-p:Pantelio
-007e:0ce40000:012f:162d:1:0
-Nick Junior
-p:Pantelio
-0191:0ce40000:012f:162d:25:0
-M1 HD
-p:Pantelio
-0192:0ce40000:012f:162d:25:0
-M2 HD
-p:Pantelio
-0196:0ce40000:012f:162d:25:0
-Duna TV HD
-p:Pantelio
-0197:0ce40000:012f:162d:1:0
+0197:fed40000:012e:162d:1:0
 Duna World
 p:Pantelio
-0072:0ce40000:012f:162d:1:0
+0016:fed40000:012f:162d:25:0
+CT 2 HD
+p:Pantelio
+006b:fed40000:012f:162d:25:0
+Arena Sport 1 HD
+p:Pantelio
+0015:fed40000:012f:162d:25:0
+CT 1 HD
+p:Pantelio
+0017:fed40000:012f:162d:25:0
+CT Sport HD
+p:Pantelio
+004c:fed40000:012f:162d:25:0
+National Geographic HD
+p:Pantelio
+0065:fed40000:012f:162d:25:0
+Eurosport 1 HD
+p:Pantelio
+000f:fed40000:012f:162d:1:0
+Boomerang
+p:Pantelio
+0029:fed40000:012f:162d:25:0
+CT D / Art HD
+p:Pantelio
+0039:fed40000:012f:162d:1:0
+RAI 1
+p:Pantelio
+005a:fed40000:012f:162d:25:0
+JOJ Cinema HD
+p:Pantelio
+0062:fed40000:012f:162d:22:0
+Mnam TV
+p:Pantelio
+0066:fed40000:012f:162d:25:0
+Eurosport 2 HD
+p:Pantelio
+0067:fed40000:012f:162d:25:0
+Nova Sport 1 HD
+p:Pantelio
+007c:fed40000:012f:162d:22:0
+Nickelodeon
+p:Pantelio
+007e:fed40000:012f:162d:1:0
+Nick Junior
+p:Pantelio
+0191:fed40000:012f:162d:25:0
+M1 HD
+p:Pantelio
+0192:fed40000:012f:162d:25:0
+M2 HD
+p:Pantelio
+0196:fed40000:012f:162d:25:0
+Duna TV HD
+p:Pantelio
+0197:fed40000:012f:162d:1:0
+Duna World
+p:Pantelio
+0072:fed40000:012f:162d:1:0
 Reserved SH
 p:Pantelio
-0081:0ce40000:012f:162d:1:0
+0081:fed40000:012f:162d:1:0
 JOJ Family
 p:Pantelio
-0193:0ce40000:012f:162d:1:0
+0193:fed40000:012f:162d:1:0
 M3
 p:Pantelio
-019d:0ce40000:012f:162d:1:0
+019d:fed40000:012f:162d:1:0
 Story 5
 p:Pantelio
-019f:0ce40000:012f:162d:1:0
+019f:fed40000:012f:162d:1:0
 RTL Gold
 p:Pantelio
-004d:0ce40000:012f:162d:25:0
+004d:fed40000:012f:162d:25:0
 Reserved 67
 p:Pantelio
-0014:0ce40000:012f:162d:1:0
+0014:fed40000:012f:162d:1:0
 Reserved 27
 p:Pantelio
-005e:0ce40000:012f:162d:1:0
+005e:fed40000:012f:162d:1:0
 Reserved 48
 p:Pantelio
-0075:0ce40000:012f:162d:1:0
+0075:fed40000:012f:162d:1:0
 Reserved 117
 p:Pantelio
-0076:0ce40000:012f:162d:1:0
+0076:fed40000:012f:162d:1:0
 Reserved 118
 p:Pantelio
 02bd:fed40000:0130:162d:1:0
@@ -12545,7 +12572,7 @@ p:Pantelio
 002c:fed40000:0131:162d:25:0
 Travel Channel HD
 p:Pantelio
-0063:fed40000:0131:162d:25:0
+0057:fed40000:0131:162d:25:0
 Food Network
 p:Pantelio
 006d:fed40000:0131:162d:25:0
@@ -12554,7 +12581,7 @@ p:Pantelio
 007d:fed40000:0131:162d:25:0
 Fine Living HD
 p:Pantelio
-0057:fed40000:0131:162d:1:0
+0063:fed40000:0131:162d:1:0
 ID Xtra
 p:Pantelio
 0031:fed40000:0131:162d:1:0
@@ -12692,11 +12719,53 @@ p:Pantelio
 002f:fed40000:0132:162d:1:0
 Reserved 47
 p:Pantelio
-002d:fed40000:0132:162d:31:0
+002d:fed40000:0132:162d:25:0
 TravelXP 4K
 p:Pantelio
 002e:fed40000:0132:162d:1:0
 Test IV
+p:Pantelio
+007c:fed40000:0132:162d:1:0
+Nickelodeon
+p:Pantelio
+007e:fed40000:0132:162d:1:0
+Nick Junior
+p:Pantelio
+0015:fed40000:0132:162d:25:0
+CT 1 HD
+p:Pantelio
+0016:fed40000:0132:162d:25:0
+CT 2 HD
+p:Pantelio
+0017:fed40000:0132:162d:25:0
+CT Sport HD
+p:Pantelio
+0029:fed40000:0132:162d:25:0
+CT D / Art HD
+p:Pantelio
+004c:fed40000:0132:162d:25:0
+National Geographic HD
+p:Pantelio
+005a:fed40000:0132:162d:25:0
+JOJ Cinema HD
+p:Pantelio
+0065:fed40000:0132:162d:25:0
+Eurosport 1 HD
+p:Pantelio
+0066:fed40000:0132:162d:25:0
+Eurosport 2 HD
+p:Pantelio
+0067:fed40000:0132:162d:25:0
+Nova Sport 1 HD
+p:Pantelio
+006b:fed40000:0132:162d:25:0
+Arena Sport 1 HD
+p:Pantelio
+0191:fed40000:0132:162d:25:0
+M1 HD
+p:Pantelio
+0192:fed40000:0132:162d:25:0
+M2 HD
 p:Pantelio
 051e:0ce42ab2:000d:ff00:31:0
 FunBox 4K
