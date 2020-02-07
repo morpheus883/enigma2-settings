@@ -354,9 +354,6 @@ transponders
 00eb317f:0000:0000
 	s 12671000:7200000:0:3:235:2:0:1:2:0:2
 /
-00ebb1b8:0001:0001
-	s 12728000:7200000:1:3:235:2:0:1:2:0:2
-/
 00ebb1c2:0001:ffff
 	s 12738000:7200000:1:3:235:2:0:1:2:0:2
 /
@@ -446,6 +443,9 @@ transponders
 /
 00ebacec:0001:0001
 	s 11500000:7200000:1:3:235:2:0:1:2:0:2
+/
+00ebb1b8:0000:0001
+	s 12728000:7200000:1:3:235:2:0:1:2:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -2351,9 +2351,6 @@ p:BSkyB,c:090110
 c486:011a2b4a:0811:0002:1:0
 Jewellery Maker
 p:Sky Digital
-c481:011a2b4a:0811:0002:1:0
-Showcase
-p:BSkyB,c:090100
 c49f:011a2b4a:0811:0002:1:0
 Sikh Channel
 p:BSkyB
@@ -3185,6 +3182,9 @@ p:Sky Digital
 585c:011a0000:082e:0002:1:0
 Channel 44
 p:BSkyB
+5856:011a0000:082e:0002:1:0
+Showcase
+p:BSkyB,c:090100
 571d:011a0000:082b:0002:1:0
 QVC Extra
 p:QVC
@@ -5969,9 +5969,6 @@ p:ZDF
 0001:00eb317f:0000:0000:25:0
 SWR
 p:
-0001:00ebb1b8:0001:0001:1:0
-D488 MDR EL SA1
-p:Satcom GmbH
 0001:00ebb1c2:0001:ffff:1:0
 SNG 3 Hesselberg
 p:D-202
@@ -6077,6 +6074,9 @@ p:TVP POL34,C:0000
 0001:00ebacec:0001:0001:25:0
 DIAGEO
 p:LINKS BROADCAST
+0001:00ebb1b8:0000:0001:25:0
+Stratos TV D-339
+p:Stratos TV
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+ (Astra)
@@ -8933,6 +8933,9 @@ p:MX1
 1090:00c0ac18:03ee:0001:1:0
 D7 TV
 p:Harmonic
+107d:00c0ac18:03ee:0001:1:0
+CBNN
+p:Harmonic
 427c:00c0affd:0446:0001:25:0
 AB Moteurs HD
 p:Bis
@@ -11325,7 +11328,7 @@ p:Telespazio
 Vivid Red HD
 p:Telespazio
 4239:00820000:3db8:013e:1:0
-Record Tv Europa
+Record TV Europa
 p:Telespazio
 422e:00820000:3db8:013e:1:0
 Vivid Red HD!
@@ -11421,7 +11424,7 @@ p:Telespazio
 Diabloxtv
 p:Telespazio
 4221:00820000:3db8:013e:1:0
-Just89 TV
+Penthouse Black
 p:Telespazio
 420b:00820000:3db8:013e:1:0
 NITEGATE DTT 1
@@ -14435,15 +14438,18 @@ p:Arqiva LTD
 0004:00822c46:02bc:013e:1:0
 Armenia 1 TV
 p:Globecast
+0011:00822c46:02bc:013e:1:0
+Hot Bird 4K
+p:
 4205:00820000:2f44:013e:1:0
 Dorcel TV HD
 p:Bis
 0032:00820000:2f44:013e:1:0
 Shant TV Premium HD
 p:Shant TV,c:0901f4
-06c3:00820000:2f44:013e:25:0
-HSE 24 HD
-p:Persidera
+06c3:00820000:2f44:013e:22:0
+HSE 24
+p:M-Three satcom
 4214:00820000:2f44:013e:2:0
 Pure FM
 p:M7 Group
@@ -15092,9 +15098,9 @@ p:iKO Media Group
 0450:00820000:238c:013e:1:0
 MyZen 4K
 p:
-044d:00820000:238c:013e:1:0
-Hot Bird 4K
-p:
+0451:00820000:238c:013e:31:0
+Insight TV UHD
+p:Eutelsat
 051b:00820000:3d54:013e:25:0
 RTL 102.5 TV HD
 p:M-Three satcom,c:090708
@@ -15706,6 +15712,9 @@ TVE Internacional HD
 p:RTVE
 0dae:00820000:1f40:013e:25:0
 24 Horas HD
+p:TSA
+0001:00820000:1f40:013e:1:0
+Record TV
 p:TSA
 0e7f:00820000:3200:013e:1:0
 Anixe TV
