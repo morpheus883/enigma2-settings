@@ -1092,9 +1092,6 @@ fff8b0fe:0136:ffff
 fff8b0f7:0001:ffff
 	s 12535000:4750000:1:3:-8:2:0:1:2:0:2
 /
-0e08b0fe:0001:ffff
-	s 12542000:5800000:1:3:-8:2:0:1:2:0:2
-/
 0e080000:0309:0309
 	s 12523000:2400000:1:3:-8:2:0:1:2:0:2
 /
@@ -1106,9 +1103,6 @@ fff8b0f7:0001:ffff
 /
 fff8b0e7:010c:ffff
 	s 12519000:2500000:1:3:-8:2:0:1:2:0:2
-/
-fff80000:0065:0065
-	s 12535000:4750000:1:3:-8:2:0:1:2:0:2
 /
 0e080000:004b:0056
 	s 12399000:30000000:0:2:-8:2:0:1:2:1:2
@@ -17249,6 +17243,15 @@ p:
 0136:fff8b0fe:0136:ffff:1:0
 digisport
 p:rcs-rds
+00bb:fff8b0fe:0136:ffff:1:0
+B 187 DGI
+p:DIGI CJ
+00bf:fff8b0fe:0136:ffff:1:0
+dgi
+p:rcs-rds
+0137:fff8b0fe:0136:ffff:1:0
+B 311 DGI
+p:Digi B
 0137:fff8b0f7:0001:ffff:1:0
 B 311 DGI
 p:Digi B
@@ -17258,15 +17261,9 @@ p:HUN016
 00bf:fff8b0f7:0001:ffff:1:0
 dgi
 p:rcs-rds
-00bf:0e08b0fe:0001:ffff:1:0
-dgi
-p:rcs-rds
-0137:0e08b0fe:0001:ffff:1:0
-B 311 DGI
-p:Digi B
-00bb:0e08b0fe:0001:ffff:1:0
-B 187 DGI
-p:DIGI CJ
+0065:fff8b0f7:0001:ffff:1:0
+B 101 DGI
+p:RCS-RDS BUCURESTI
 0309:0e080000:0309:0309:1:0
 B 777 RCS
 p:DIGI SPORT
@@ -17282,9 +17279,6 @@ p:RCS-RDS
 010c:fff8b0e7:010c:ffff:1:0
 DIGI24HD B268DGI
 p:RCS-RDS
-0065:fff80000:0065:0065:1:0
-B 101 DGI
-p:RCS-RDS BUCURESTI
 1d21:0e080000:004b:0056:22:0
 Test 7457
 p:Telenor

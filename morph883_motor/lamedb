@@ -2196,9 +2196,6 @@ transponders
 01042acc:4321:0000
 	s 10956000:3300000:0:4:260:2:0:1:2:0:2
 /
-01040000:001a:001b
-	s 12523000:27500000:0:2:260:2:0:1:2:0:2
-/
 01040000:0064:006f
 	s 4100000:20000000:2:2:260:2:0:1:2:0:2
 /
@@ -2297,6 +2294,9 @@ transponders
 /
 01040000:1eea:02be
 	s 11010000:27500000:1:3:260:2:0:1:1:0:2
+/
+01040000:7594:077e
+	s 12523000:27500000:0:2:260:2:0:1:2:0:2
 /
 00ff0000:0410:00e0
 	s 11547000:27500000:1:2:255:2:0:1:2:0:2
@@ -4689,9 +4689,6 @@ fff8b0fe:0136:ffff
 fff8b0f7:0001:ffff
 	s 12535000:4750000:1:3:-8:2:0:1:2:0:2
 /
-0e08b0fe:0001:ffff
-	s 12542000:5800000:1:3:-8:2:0:1:2:0:2
-/
 0e080000:0309:0309
 	s 12523000:2400000:1:3:-8:2:0:1:2:0:2
 /
@@ -4703,9 +4700,6 @@ fff8b0f7:0001:ffff
 /
 fff8b0e7:010c:ffff
 	s 12519000:2500000:1:3:-8:2:0:1:2:0:2
-/
-fff80000:0065:0065
-	s 12535000:4750000:1:3:-8:2:0:1:2:0:2
 /
 0e080000:004b:0056
 	s 12399000:30000000:0:2:-8:2:0:1:2:1:2
@@ -7688,53 +7682,35 @@ p:Sentech
 0075:02ad0000:0002:0049:1:0
 ATV
 p:SENTECH
-006b:02ad0000:0002:0049:1:0
-Kwena TV
-p:SENTECH
 0081:02ad0000:0002:0049:1:0
 Charis TV
 p:Sentech
 0087:02ad0000:0002:0049:1:0
 Fano TV
 p:Sentech
-0088:02ad0000:0002:0049:1:0
-Success TV +
-p:Sentech
-007a:02ad0000:0002:0049:1:0
-GNN
-p:Sentech
-007c:02ad0000:0002:0049:1:0
-Possibility TV
-p:Sentech
-00ce:02ad0000:0002:0049:1:0
-DNC TV (Divine Nature of Christ TV)
-p:Sentech
-007b:02ad0000:0002:0049:1:0
-Neema TV
-p:SENTECH
 0089:02ad0000:0002:0049:1:0
 Champions TV Plus
 p:SENTECH
 008a:02ad0000:0002:0049:1:0
 Agape TV
 p:SENTECH
-0073:02ad0000:0002:0049:1:0
-Praise TV
-p:SENTECH
 007d:02ad0000:0002:0049:1:0
 KLN (Kingdom Life Network)
-p:SENTECH
-007e:02ad0000:0002:0049:1:0
-PSS TV
-p:SENTECH
-008b:02ad0000:0002:0049:1:0
-Favour TV
 p:SENTECH
 03e8:02ad0000:0002:0049:141:0
 Sentech
 p:
 00e0:02ad0000:0002:0049:1:0
 Ark Of God TV
+p:SENTECH
+007e:02ad0000:0002:0049:1:0
+COMMEC IS20
+p:SENTECH
+00ce:02ad0000:0002:0049:1:0
+Revival Channel
+p:SENTECH
+0073:02ad0000:0002:0049:1:0
+Praise TV
 p:SENTECH
 0002:02adb11d:0005:0001:1:0
 HC Novo Tempo
@@ -7961,6 +7937,9 @@ p:ViewMedia
 0020:02ad3112:0001:0001:1:0
 Power Line TV
 p:ViewMedia
+0002:02ad3112:0001:0001:1:0
+Heroes TV
+p:ViewMedia
 0009:02ad318a:0004:0001:1:0
 Champions Television
 p:Viewsat
@@ -8015,9 +7994,6 @@ p:ViewMedia
 0002:02ad318a:0004:0001:1:0
 RTM TV
 p:ViewSat
-000e:02ad318a:0004:0001:1:0
-More Grace TV Plus
-p:ViewMedia
 000f:02ad318a:0004:0001:1:0
 Liberation TV
 p:ViewMedia
@@ -8036,21 +8012,18 @@ p:ViewMedia
 001c:02ad318a:0004:0001:1:0
 Remite TV Plus
 p:ViewMedia
-0021:02ad318a:0004:0001:1:0
-Untouchable TV
-p:ViewMedia
 0022:02ad318a:0004:0001:1:0
 Rapha TV
 p:ViewMedia
 0024:02ad318a:0004:0001:1:0
 Ark Of God TV
 p:ViewMedia
-000c:02ad318a:0004:0001:1:0
-HV Moan TV
-p:ViewMedia
 001d:02ad318a:0004:0001:1:0
 Synagogue TV
 p:Harmonic
+0021:02ad318a:0004:0001:1:0
+RCC TV
+p:ViewMedia
 0008:02adb13a:0002:0001:1:0
 Dove Vision
 p:ViewSat
@@ -8069,9 +8042,6 @@ p:ViewSat
 001b:02adb13a:0002:0001:1:0
 Inspiration Network
 p:ViewSat
-000a:02adb13a:0002:0001:1:0
-Gods Chapel TV
-p:ViewSat
 0020:02adb13a:0002:0001:1:0
 LoveWorld Sat
 p:ViewSat
@@ -8081,15 +8051,12 @@ p:ViewSat
 000f:02adb13a:0002:0001:1:0
 WRM TV
 p:ViewSat
-0022:02adb13a:0002:0001:1:0
-SAM TV
-p:ViewSat
 001c:02adb13a:0002:0001:1:0
 Brother Fire TV
 p:ViewSat
 0006:02adb13a:0002:0001:1:0
-Service EF29K
-p:ViewSat
+Faithful City
+p:ViewMedia
 0004:02adb13a:0002:0001:1:0
 StarCross TV
 p:ViewSat
@@ -8099,17 +8066,8 @@ p:ViewSat
 0003:02adb13a:0002:0001:1:0
 Success TV
 p:ViewSat
-0002:02adb13a:0002:0001:1:0
-RCC TV
-p:ViewMedia
 0001:02adb13a:0002:0001:1:0
 Miracle TV
-p:ViewMedia
-000c:02adb13a:0002:0001:1:0
-Bonang TV
-p:ViewMedia
-000e:02adb13a:0002:0001:1:0
-DNC TV (Divine Nature of Christ TV)
 p:ViewMedia
 0021:02adb13a:0002:0001:1:0
 Service EF29K
@@ -11107,7 +11065,7 @@ God is Here TV
 p:
 0064:0226b0ea:0009:055e:2:0
 RU-WAVE
-p:GAZPROM_SS
+p:Harmonic
 0002:0226b0ea:0009:055e:1:0
 Kanal Disney (+2h)
 p:GAZPROM SS
@@ -11124,7 +11082,7 @@ p:GAZPROM_SS,c:09003c
 TB 41
 p:GAZPROM_SS
 0004:0226b0ea:0009:055e:1:0
-GTRK Groznyj
+TEST 1
 p:GAZPROM SS,c:09002d
 006e:0226b0ea:0009:055e:2:0
 FWconrol
@@ -15080,9 +15038,6 @@ p:Scopus Network Technologies
 0064:01a4b171:0000:0001:1:0
 SNG B   
 p:
-3ca5:01a42bac:4e85:002a:1:0
-beIN Sports 1 Turkey
-p:Digital Platform
 3caa:01a42bac:4e85:002a:1:0
 Taraftar SD
 p:Digital Platform
@@ -15101,35 +15056,23 @@ p:DP 1
 3ca4:01a42bac:4e85:002a:129:0
 DT5005-R
 p:Digital Platform
-3c8e:01a42bac:4e85:002a:1:0
-Eurosport 1
+3c9d:01a42bac:4e85:002a:17:0
+Eurosport 1 HD
 p:Digitürk
-3c92:01a42bac:4e85:002a:1:0
-beIN Movies Türk
-p:Digitürk
-3c93:01a42bac:4e85:002a:1:0
-beIN Gurme
+3c97:01a42bac:4e85:002a:17:0
+beIN Movies Action 2 HD
 p:Digital Platform
-3c94:01a42bac:4e85:002a:1:0
-beIN Movies Action
-p:Digitürk
-3c96:01a42bac:4e85:002a:1:0
-beIN Movies Premier
-p:Digital Platform
-3ca6:01a42bac:4e85:002a:1:0
-beIN Sports 2 Turkey
+3c91:01a42bac:4e85:002a:17:0
+beIN Movies Premier 2 HD
 p:Digital Platform
 3cab:01a42bac:4e85:002a:1:0
 Taraftar 2 SD
 p:Digital Platform
-3ca7:01a42bac:4e85:002a:1:0
-beIN Sports 3 Turkey
-p:Digital Platform
 3cac:01a42bac:4e85:002a:1:0
 Taraftar 3 SD
 p:Digital Platform,c:0900f3
-3c90:01a42bac:4e85:002a:1:0
-S Sport
+3c8d:01a42bac:4e85:002a:17:0
+S Sport HD
 p:Digital Platform,c:090031
 3cb4:01a42bac:4e85:002a:129:0
 DVBSSU393
@@ -15137,29 +15080,32 @@ p:Digital Platform
 3cb5:01a42bac:4e85:002a:129:0
 DVBSSU_9104
 p:Digital Platform
-3caf:01a42bac:4e85:002a:1:0
-Ticari beIN Sports 1
-p:Digital Platform
-3cb0:01a42bac:4e85:002a:1:0
-Ticari beIN Sports 2
-p:Digital Platform
-3cb1:01a42bac:4e85:002a:1:0
-Ticari beIN Sports 3
-p:Digital Platform
-3cb6:01a42bac:4e85:002a:1:0
-beIN Sports 1
-p:Digital Platform
-3cb7:01a42bac:4e85:002a:1:0
-beIN Sports 2
-p:Digital Platform
-3cb8:01a42bac:4e85:002a:1:0
-beIN Sports 3
-p:Digital Platform
 3ca8:01a42bac:4e85:002a:129:0
 HM9506HD Replacement
 p:Digital Platform
-3c95:01a42bac:4e85:002a:1:0
-beIN Movies Oscars
+3c8f:01a42bac:4e85:002a:17:0
+beIN Sports Max 2 HD Turkey
+p:Digital Platform
+3c99:01a42bac:4e85:002a:17:0
+History Channel Turkey HD
+p:Digital Platform
+3c9f:01a42bac:4e85:002a:17:0
+National Geographic Turk HD
+p:Digitürk
+3ca2:01a42bac:4e85:002a:17:0
+Disney Junior Turkey HD
+p:Digital Platform
+3c98:01a42bac:4e85:002a:17:0
+beIN Home & Entertainment HD
+p:Digital Platform
+3c9c:01a42bac:4e85:002a:17:0
+GS TV HD
+p:Digitürk
+3ca1:01a42bac:4e85:002a:17:0
+Disney XD Turkey HD
+p:Digital Platform
+3ca3:01a42bac:4e85:002a:17:0
+Nick Junior Turkey HD
 p:Digital Platform
 009d:01a40000:0009:0042:130:0
 iMOVIETURKHDTrigger
@@ -15293,53 +15239,77 @@ p:DOGAN TV
 2812:01a40000:0009:0042:130:0
 iSMARTSPORHDTrigger
 p:DOGAN TV
-371a:01a40000:c5a8:002a:1:0
-beIN Iz
-p:Digitürk
-3725:01a40000:c5a8:002a:1:0
-beIN Sports 1 Turkey HD
+3725:01a40000:c5a8:002a:17:0
+beIN Sports 1 HD Turkey
 p:Digital Platform
-372b:01a40000:c5a8:002a:1:0
-beIN Sports 4 Turkey
+372b:01a40000:c5a8:002a:17:0
+beIN Sports 4 HD Turkey
 p:Digital Platform
-372e:01a40000:c5a8:002a:1:0
-beIN Movies Stars
+3739:01a40000:c5a8:002a:17:0
+Ticari beIN Sports 4 HD
 p:Digital Platform
-3731:01a40000:c5a8:002a:1:0
-beIN Movies Family
-p:Digital Platform,c:091b60
-3732:01a40000:c5a8:002a:1:0
-GS TV
-p:Digitürk
-373c:01a40000:c5a8:002a:1:0
-beIN SPORTS HD 1
-p:Digital Platform
-3739:01a40000:c5a8:002a:1:0
-Ticari beIN Sports 4
-p:Digital Platform
-373e:01a40000:c5a8:002a:1:0
+373e:01a40000:c5a8:002a:17:0
 Ticari beIN Sports 1 HD
 p:Digital Platform
-373f:01a40000:c5a8:002a:1:0
-beIN Sports 4
+3715:01a40000:c5a8:002a:17:0
+beIN Sports 2 HD Turkey
 p:Digital Platform
-3715:01a40000:c5a8:002a:1:0
-beIN Sports 2 Turkey
+3717:01a40000:c5a8:002a:17:0
+Taraftar 2 HD
 p:Digital Platform
-3717:01a40000:c5a8:002a:1:0
-Taraftar 2 SD
+3718:01a40000:c5a8:002a:17:0
+Ticari beIN Sports 2 HD
 p:Digital Platform
-3718:01a40000:c5a8:002a:1:0
-Ticari beIN Sports 2
+371c:01a40000:c5a8:002a:17:0
+beIN Sports 3 HD Turkey
 p:Digital Platform
-371c:01a40000:c5a8:002a:1:0
-beIN Sports 3 Turkey
+371e:01a40000:c5a8:002a:17:0
+Taraftar 3 HD
 p:Digital Platform
-371e:01a40000:c5a8:002a:1:0
-Taraftar 3 SD
+371f:01a40000:c5a8:002a:17:0
+Ticari beIN Sports 3 HD
 p:Digital Platform
-371f:01a40000:c5a8:002a:1:0
-Ticari beIN Sports 3
+373d:01a40000:c5a8:002a:17:0
+Taraftar HD
+p:Digital Platform
+3746:01a40000:c5a8:002a:129:0
+DT 5103
+p:Digital Platform
+3747:01a40000:c5a8:002a:129:0
+DT 9103
+p:Digital Platform
+3748:01a40000:c5a8:002a:129:0
+IRDETO-T
+p:Digital Platform
+3749:01a40000:c5a8:002a:129:0
+IRDETO-T2
+p:Digital Platform
+374a:01a40000:c5a8:002a:129:0
+DT5005-R
+p:Digital Platform
+374b:01a40000:c5a8:002a:129:0
+HM9506HD Replacement
+p:Digital Platform
+374c:01a40000:c5a8:002a:129:0
+DVBSSU test 1
+p:Digital Platform
+374d:01a40000:c5a8:002a:129:0
+DVBSSU_9104
+p:Digital Platform
+374e:01a40000:c5a8:002a:129:0
+T 9504
+p:Digital Platform
+374f:01a40000:c5a8:002a:129:0
+7103
+p:Digital Platform
+3750:01a40000:c5a8:002a:129:0
+DVBSSU 403
+p:Digital Platform
+3726:01a40000:c5a8:002a:1:0
+beIN Sports 1 Turkey
+p:Digital Platform
+3722:01a40000:c5a8:002a:17:0
+beIN Sports Max 1 HD Turkey
 p:Digital Platform
 ceab:01a40000:77ee:042e:1:0
 SRT Sivas
@@ -15386,56 +15356,53 @@ p:TURKSAT
 cf14:01a40000:7aaa:042e:2:0
 DIYALOG RADYO
 p:TURKSAT
-4074:01a40000:9fc5:002a:1:0
-beIN Sports Max 1 Turkey
+4098:01a40000:9fc5:002a:17:0
+Nat Geo Wild HD
 p:Digital Platform
-4075:01a40000:9fc5:002a:1:0
-beIN Sports Max 2 Turkey
+408f:01a40000:9fc5:002a:17:0
+beIN Series Drama HD
 p:Digital Platform
-4076:01a40000:9fc5:002a:1:0
-History Channel Turkey
+408e:01a40000:9fc5:002a:17:0
+beIN Series Vice HD
 p:Digital Platform
-4078:01a40000:9fc5:002a:1:0
-Nat Geo Wild
+408d:01a40000:9fc5:002a:17:0
+beIN Series Comedy HD
 p:Digital Platform
-4077:01a40000:9fc5:002a:1:0
-National Geographic Turk
-p:Digitürk
-4079:01a40000:9fc5:002a:1:0
-beIN Series Drama
+408c:01a40000:9fc5:002a:17:0
+beIN Series Sci-Fi HD
 p:Digital Platform
-407a:01a40000:9fc5:002a:1:0
-beIN Series Vice
-p:Digital Platform
-407b:01a40000:9fc5:002a:1:0
-beIN Series Comedy
-p:Digital Platform
-407c:01a40000:9fc5:002a:1:0
-beIN Series Sci-Fi
-p:Digital Platform
-407d:01a40000:9fc5:002a:1:0
+407d:01a40000:9fc5:002a:17:0
 beIN Movies Premiere HD
 p:Digital Platform
-407e:01a40000:9fc5:002a:1:0
+407e:01a40000:9fc5:002a:17:0
 beIN Movies Action HD
 p:Digital Platform
-407f:01a40000:9fc5:002a:129:0
-T 9504
+4095:01a40000:9fc5:002a:17:0
+beIN İz HD
 p:Digital Platform
-4080:01a40000:9fc5:002a:129:0
-7103
+4097:01a40000:9fc5:002a:17:0
+beIN HD
 p:Digital Platform
-4081:01a40000:9fc5:002a:129:0
-DVBSSU 403
+4099:01a40000:9fc5:002a:17:0
+Nickelodeon Turkey HD
 p:Digital Platform
-4082:01a40000:9fc5:002a:1:0
-beIN Sports Max Turkey
+409b:01a40000:9fc5:002a:17:0
+Boomerang HD
 p:Digital Platform
-4083:01a40000:9fc5:002a:1:0
-beIN Sports Max 2 Turkey
+409c:01a40000:9fc5:002a:17:0
+beIN İz HD
 p:Digital Platform
-409a:01a40000:9fc5:002a:1:0
-Disney Junior Turkey
+4091:01a40000:9fc5:002a:17:0
+beIN Movies Stars HD
+p:Digital Platform
+4093:01a40000:9fc5:002a:17:0
+beIN Movies Family HD
+p:Digital Platform,c:091b60
+4094:01a40000:9fc5:002a:17:0
+beIN Movies Türk HD
+p:Digitürk
+4096:01a40000:9fc5:002a:17:0
+beIN Gurme HD
 p:Digital Platform
 c991:01a40000:7a46:042e:1:0
 RTR Planeta
@@ -26783,66 +26750,6 @@ p:FTV
 0001:01042acc:4321:0000:25:0
 Medi 1 TV Rabat
 p:Medi1 TV
-0001:01040000:001a:001b:1:0
-Kuwait TV 1
-p:KUWAIT BOUQUET
-0002:01040000:001a:001b:1:0
-Kuwait TV 2
-p:KUWAIT BOUQUET
-0003:01040000:001a:001b:1:0
-Kuwait TV 3 Youth Sport (11h-23h CET)
-p:KUWAIT BOUQUET
-0004:01040000:001a:001b:1:0
-Kuwait Sports Plus
-p:KUWAIT BOUQUET
-0005:01040000:001a:001b:1:0
-Kuwait TV Ethraa
-p:KUWAIT BOUQUET
-0006:01040000:001a:001b:1:0
-Kuwait TV Al Arabi
-p:KUWAIT BOUQUET
-0009:01040000:001a:001b:1:0
-Al Majlis
-p:KUWAIT BOUQUET
-000a:01040000:001a:001b:1:0
-Al-Qurain
-p:MOI
-000b:01040000:001a:001b:2:0
-Kuwait Radio 1
-p:KUWAIT BOUQUET
-000c:01040000:001a:001b:2:0
-Kuwait Radio 2
-p:KUWAIT BOUQUET
-000d:01040000:001a:001b:2:0
-Kuwait HolyQuran
-p:KUWAIT BOUQUET
-000e:01040000:001a:001b:2:0
-Kuwait Easy
-p:KUWAIT BOUQUET
-000f:01040000:001a:001b:2:0
-Kuwait FM
-p:KUWAIT BOUQUET
-0010:01040000:001a:001b:2:0
-Kuwait Super
-p:KUWAIT BOUQUET
-0011:01040000:001a:001b:2:0
-Kuwait Classical
-p:KUWAIT BOUQUET
-0012:01040000:001a:001b:2:0
-Kuwait Shaabyia
-p:KUWAIT BOUQUET
-0013:01040000:001a:001b:2:0
-OFM
-p:KUWAIT BOUQUET
-0014:01040000:001a:001b:2:0
-Kuwait_Radio_1
-p:KUWAIT BOUQUET
-0064:01040000:001a:001b:25:0
-Kuwait TV 1 HD
-p:MOI
-006e:01040000:001a:001b:25:0
-Kuwait TV Sport HD
-p:MOI
 0001:01040000:0064:006f:25:0
 Télé Sahel
 p:ORTN
@@ -27914,6 +27821,63 @@ p:ViewMedia
 0009:01040000:1eea:02be:1:0
 Sikapa TV
 p:ViewMedia
+0456:01040000:7594:077e:25:0
+Kuwait Kids HD
+p:MOI
+044d:01040000:7594:077e:25:0
+Kuwait TV 1 HD
+p:MOI
+044e:01040000:7594:077e:25:0
+Kuwait TV 2 HD
+p:MOI
+044f:01040000:7594:077e:25:0
+Kuwait TV 3 Youth Sport HD (11h-23h CET)
+p:MOI
+0450:01040000:7594:077e:25:0
+Kuwait Sports Plus HD
+p:MOI
+0451:01040000:7594:077e:25:0
+Kuwait TV Ethraa HD
+p:MOI
+0452:01040000:7594:077e:25:0
+Kuwait TV Al Arabi HD
+p:MOI
+0453:01040000:7594:077e:25:0
+Al Majlis HD
+p:MOI
+0454:01040000:7594:077e:25:0
+Al-Qurain HD
+p:MOI
+000b:01040000:7594:077e:2:0
+Kuwait Radio 1
+p:Kuwait Radio
+000c:01040000:7594:077e:2:0
+Kuwait Radio 2
+p:Kuwait Radio
+000d:01040000:7594:077e:2:0
+Kuwait HolyQuran
+p:Kuwait Radio
+000e:01040000:7594:077e:2:0
+Kuwait Easy
+p:Kuwait Radio
+000f:01040000:7594:077e:2:0
+Kuwait FM
+p:Kuwait Radio
+0010:01040000:7594:077e:2:0
+Kuwait Super
+p:Kuwait Radio
+0011:01040000:7594:077e:2:0
+Kuwait Classical
+p:Kuwait Radio
+0012:01040000:7594:077e:2:0
+Kuwait Shaabyia
+p:Kuwait Radio
+0013:01040000:7594:077e:2:0
+OFM
+p:Kuwait Radio
+0014:01040000:7594:077e:2:0
+Kuwait_Radio_1
+p:Kuwait Radio
 28a1:00ff0000:0410:00e0:25:0
 beIN Sports 1 HD
 p:beIN
@@ -29618,9 +29582,6 @@ p:Telekom Srbija
 4e31:00eb0000:0c8b:0003:25:0
 Kitchen TV HD
 p:Telekom Srbija
-4e33:00eb0000:0c8b:0003:25:0
-Zenska TV HD
-p:Telekom Srbija
 4e2c:00eb0000:0c8b:0003:1:0
 Star TV
 p:Telekom Srbija
@@ -29689,6 +29650,9 @@ Duna World
 p:Harmonic
 4ef8:00eb0000:0c8b:0003:1:0
 RTL 2 Hungary
+p:Telekom Srbija
+4e33:00eb0000:0c8b:0003:1:0
+Dexy TV
 p:Telekom Srbija
 4e24:00eb0000:0c85:0003:1:0
 Pink TV
@@ -30493,7 +30457,7 @@ Bundeswehr TV
 p:MEDIA BROADCAST,c:050001
 1f7d:00d80000:021b:012d:2:0
 Radio Andernach
-p:MEDIA BROADCAST
+p:MB Satellite
 0001:00d8ad61:0001:0001:1:0
 Al Aoula
 p:SNRT
@@ -47270,8 +47234,8 @@ p:Digital Platform
 192c:00462d4c:c60c:007e:25:0
 EuroNews HD
 p:Digital Platform
-192e:00462d4c:c60c:007e:1:0
-TV 5 Monde Europe
+192e:00462d4c:c60c:007e:17:0
+TV 5 Monde Europe HD
 p:Digital Platform
 1931:00462d4c:c60c:007e:25:0
 CNN International HD
@@ -48773,6 +48737,9 @@ p:Arqiva
 02e4:0030300f:0000:0001:12:0
 BBC AM Dist5
 p:Arqiva
+02bc:0030300f:0000:0001:12:0
+BBC AM Dist1
+p:Arqiva
 001f:00300000:012c:2324:22:0
 Mega
 p:ZEONBUD
@@ -50089,6 +50056,9 @@ Skai
 p:DIGEA
 02bc:001e31b0:0066:212c:1:0
 Star Channel
+p:DIGEA
+0384:001e31b0:0066:212c:1:0
+Mega Channel
 p:DIGEA
 0001:001ead97:0001:ffff:1:0
 Baeynat Satellite Channel
@@ -54092,6 +54062,15 @@ p:
 0136:fff8b0fe:0136:ffff:1:0
 digisport
 p:rcs-rds
+00bb:fff8b0fe:0136:ffff:1:0
+B 187 DGI
+p:DIGI CJ
+00bf:fff8b0fe:0136:ffff:1:0
+dgi
+p:rcs-rds
+0137:fff8b0fe:0136:ffff:1:0
+B 311 DGI
+p:Digi B
 0137:fff8b0f7:0001:ffff:1:0
 B 311 DGI
 p:Digi B
@@ -54101,15 +54080,9 @@ p:HUN016
 00bf:fff8b0f7:0001:ffff:1:0
 dgi
 p:rcs-rds
-00bf:0e08b0fe:0001:ffff:1:0
-dgi
-p:rcs-rds
-0137:0e08b0fe:0001:ffff:1:0
-B 311 DGI
-p:Digi B
-00bb:0e08b0fe:0001:ffff:1:0
-B 187 DGI
-p:DIGI CJ
+0065:fff8b0f7:0001:ffff:1:0
+B 101 DGI
+p:RCS-RDS BUCURESTI
 0309:0e080000:0309:0309:1:0
 B 777 RCS
 p:DIGI SPORT
@@ -54125,9 +54098,6 @@ p:RCS-RDS
 010c:fff8b0e7:010c:ffff:1:0
 DIGI24HD B268DGI
 p:RCS-RDS
-0065:fff80000:0065:0065:1:0
-B 101 DGI
-p:RCS-RDS BUCURESTI
 1d21:0e080000:004b:0056:22:0
 Test 7457
 p:Telenor
