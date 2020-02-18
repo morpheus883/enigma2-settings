@@ -1110,9 +1110,6 @@ transponders
 01a40000:a029:042e
 	s 12079000:6400000:0:4:420:0:0
 /
-01a40000:0001:042e
-	s 11177000:34288000:1:2:420:2:0:1:4:0:2
-/
 01a4b00a:a2e6:042e
 	s 12298000:4800000:1:4:420:2:0
 /
@@ -1160,6 +1157,9 @@ transponders
 /
 01a40000:7a45:042e
 	s 12515000:11666000:0:2:420:2:0
+/
+01a40000:79e1:042e
+	s 11177000:34290000:1:2:420:2:0:1:2:0:2
 /
 01860000:000d:001c
 	s 12524000:30000000:1:5:390:2:0
@@ -3939,6 +3939,9 @@ transponders
 005a0000:0202:001d
 	s 12466000:41950000:1:3:90:2:0:1:2:0:2:34:0:1
 /
+005aaf4f:0389:0110
+	s 12111000:31400000:1:2:90:2:0:1:2:0:2:2:262140:1
+/
 00460000:4e20:0064
 	s 10721000:22000000:0:3:70:2:0
 /
@@ -5014,6 +5017,9 @@ ffce0000:4000:013e
 	s 12627000:35000000:0:2:-50:2:0:1:2:0:2:2:8:0
 /
 0dde0000:03b6:0110
+	s 12627000:35000000:0:2:-50:2:0:1:2:0:2:1:8:0
+/
+ffce0000:032a:0110
 	s 12627000:35000000:0:2:-50:2:0:1:2:0:2:1:8:0
 /
 0dca0000:0022:0800
@@ -12383,6 +12389,9 @@ p:WNS
 0004:0208aa5d:194e:15e3:1:0
 Persiana Junior
 p:WNS
+0002:0208aa5d:194e:15e3:2:0
+Iran International Radio
+p:WNS
 0001:0208b0a8:0001:ff01:1:0
 SuperYacht TV
 p:Mobibase
@@ -15809,9 +15818,6 @@ p:TURKSAT
 2c88:01a40000:a029:042e:1:0
 Evin TV
 p:TURKSAT
-41a0:01a40000:0001:042e:1:0
-Turksat 8K Test
-p:TURKSAT
 40d8:01a4b00a:a2e6:042e:1:65535
 24
 p:TURK MEDYA,c:090020
@@ -16003,6 +16009,9 @@ TURKSAT_TEST2
 p:TURKSAT
 cac1:01a40000:7a45:042e:1:0
 TURKSAT_TEST3
+p:TURKSAT
+41a0:01a40000:79e1:042e:25:0
+Turksat 8K
 p:TURKSAT
 0068:01860000:000d:001c:1:0
 Happy Channel
@@ -22837,6 +22846,9 @@ Sports Active
 p:BSkyB
 1469:011a2f26:07e3:0002:1:0
 Sports Active
+p:BSkyB
+138e:011a2f26:07e3:0002:2:0
+SNR
 p:BSkyB
 0eee:011a0000:07f2:0002:25:0
 Sky Sports Action HD
@@ -36092,6 +36104,9 @@ p:TeamSat
 0010:00a00000:0002:016e:1:0
 Duga Plus
 p:TeamSat
+0011:00a00000:0002:016e:1:0
+DM Sat
+p:TeamSat
 0a94:00a00000:9dd0:016e:22:0
 FilmBox Arthouse
 p:Mtel
@@ -39968,6 +39983,9 @@ p:Telespazio
 02ff:00820000:1b58:013e:2:0
 DimSuono Soft RM
 p:Telespazio
+030c:00820000:1b58:013e:1:0
+QVC Italia
+p:Telespazio
 3c8d:00820000:1bbc:013e:1:0
 novacinema1 HD Cy
 p:Netmed
@@ -40088,6 +40106,9 @@ p:MTHREE SATCOM
 1c39:00820000:1c20:013e:1:0
 Persian Music Channel
 p:MX1
+1c3a:00820000:1c20:013e:1:0
+Al Alam
+p:Service Provider
 015f:00820000:1c84:013e:1:0
 Discovery Channel Greece
 p:Nova
@@ -44306,6 +44327,9 @@ p:Imagine Communications
 0013:0064aca6:0001:0001:25:0
 SUPPONOR RUS 1
 p:OVERON
+0015:0064aca6:0001:0001:25:0
+SUPPONOR AFRICA 1
+p:OVERON
 0001:0064aa4e:0001:ffff:1:0
 Vida TV
 p:SEMBA
@@ -46670,6 +46694,75 @@ p:Persidera
 0078:005a0000:0202:001d:25:0
 Radio Kiss Kiss TV
 p:Persidera
+0015:005aaf4f:0389:0110:0:0
+Servizio 21
+p:
+0017:005aaf4f:0389:0110:0:0
+Servizio 23
+p:
+0018:005aaf4f:0389:0110:0:0
+Servizio 24
+p:
+0019:005aaf4f:0389:0110:0:0
+Servizio 25
+p:
+001a:005aaf4f:0389:0110:0:0
+Servizio 26
+p:
+001b:005aaf4f:0389:0110:0:0
+Servizio 27
+p:
+001c:005aaf4f:0389:0110:0:0
+Servizio 28
+p:
+001d:005aaf4f:0389:0110:0:0
+Servizio 29
+p:
+001e:005aaf4f:0389:0110:0:0
+Servizio 30
+p:
+0063:005aaf4f:0389:0110:0:0
+Ghost
+p:
+0848:005aaf4f:0389:0110:1:0
+20 Mediaset
+p:
+0864:005aaf4f:0389:0110:1:0
+Food Network
+p:
+0865:005aaf4f:0389:0110:1:0
+QVC
+p:
+0866:005aaf4f:0389:0110:1:0
+TOPcrime
+p:
+0867:005aaf4f:0389:0110:1:0
+Focus
+p:,c:0006f4,c:0106f5,c:0306f4
+0868:005aaf4f:0389:0110:1:0
+Cine34
+p:,c:0006e0,c:0106e1,c:0306e0
+0091:005aaf4f:0389:0110:1:0
+Boing
+p:
+0093:005aaf4f:0389:0110:1:0
+Cartoonito
+p:
+07e3:005aaf4f:0389:0110:1:0
+20 Mediaset
+p:
+07e4:005aaf4f:0389:0110:1:0
+20 Mediaset
+p:
+0849:005aaf4f:0389:0110:25:0
+TOPcrime
+p:
+084a:005aaf4f:0389:0110:25:0
+Focus
+p:
+084b:005aaf4f:0389:0110:25:0
+Cine34
+p:
 0001:00460000:4e20:0064:1:0
 BBC Persian
 p:BBC
@@ -46817,7 +46910,7 @@ p:ABS,c:091b8a
 1608:00460000:9efc:007e:1:0
 PTN
 p:
-1626:00460000:9efc:007e:1:0
+164a:00460000:9efc:007e:1:0
 Kanal Yek (One) TV
 p:
 1630:00460000:9efc:007e:1:0
@@ -57972,7 +58065,7 @@ p:
 RCF_BCKUP07
 p:
 00c3:0dde0000:32d2:055f:1:0
-VEOA Occasion
+VEOA-B Occasion
 p:GLOBECAST
 0064:0dde0000:32d2:055f:2:0
 France Bleu 107.1
@@ -58228,6 +58321,36 @@ Sky Sport Uno HD
 p:
 0063:0dde0000:03b6:0110:0:0
 Ghost
+p:
+0007:ffce0000:032a:0110:0:0
+Servizio 7
+p:
+0008:ffce0000:032a:0110:0:0
+Servizio 8
+p:
+0009:ffce0000:032a:0110:0:0
+Servizio 9
+p:
+000a:ffce0000:032a:0110:0:0
+Servizio 10
+p:
+1fa4:ffce0000:032a:0110:1:0
+Virgin Radio TV
+p:
+1fa5:ffce0000:032a:0110:1:0
+R101 TV
+p:
+1fa6:ffce0000:032a:0110:2:0
+Radio R101
+p:
+1fa7:ffce0000:032a:0110:2:0
+RADIO 105
+p:
+1fa8:ffce0000:032a:0110:2:0
+VIRGIN RADIO
+p:
+1fa9:ffce0000:032a:0110:2:0
+Radio Monte Carlo
 p:
 0d4c:0dca0000:0022:0800:1:0
 Al Soyoof
@@ -64136,6 +64259,21 @@ p:
 00c8:ff3830e1:0065:0001:1:0
 Special Events
 p:
+0096:ff3830e1:0065:0001:1:0
+ESPN Caribbean
+p:
+0097:ff3830e1:0065:0001:1:0
+ESPN Caribbean 2
+p:
+0098:ff3830e1:0065:0001:1:0
+ESPN US
+p:
+0099:ff3830e1:0065:0001:1:0
+ESPN2
+p:
+009a:ff3830e1:0065:0001:1:0
+ESPNU
+p:
 0001:0d342b78:0001:0001:1:0
 Reuters TV News
 p:Reuters
@@ -66601,9 +66739,6 @@ A7
 p:TPA
 27f1:fed40000:1450:22d4:1:0
 A8
-p:TPA
-27f6:fed40000:1450:22d4:25:0
-A9 HD
 p:TPA
 27fa:fed40000:1450:22d4:2:0
 R. Langreo
@@ -70238,6 +70373,9 @@ p:Medianext
 0273:eeee0000:23e5:217c:1:0
 OttO fm tv
 p:OttO fm tv
+0127:eeee0000:23e5:217c:1:0
+Sestarete
+p:Beacom
 0001:eeee0000:0050:217c:1:0
 Canale Italia 11
 p:Canale Italia 2
@@ -70323,7 +70461,7 @@ p:Persidera
 CANALE 65
 p:Persidera
 0041:eeee0000:0202:001d:1:0
-ibox.it
+BOM Channel
 p:Persidera
 006e:eeee0000:0202:001d:1:0
 SFERA TV
@@ -70464,7 +70602,7 @@ p:Primantenna
 TELE MANTOVA
 p:TeleMantova
 0010:eeee0000:20d0:217c:1:0
-SOLREGINAPO HD
+VIDEOCREMONA HD
 p:Lombardia TV
 0011:eeee0000:20d0:217c:1:0
 LOMBARDIA TV HD
@@ -70830,10 +70968,10 @@ p:Persidera
 CANALE 259
 p:Persidera
 0127:eeee0000:23e4:217c:1:0
-Amici Animali Lombardia
+Sestarete
 p:
 00d9:eeee0000:23e4:217c:1:0
-Sestarete
+6Rete1 Regione
 p:Beacom
 end
 === Compiled with Morpheus883's scripts ===
