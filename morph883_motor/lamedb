@@ -78,11 +78,14 @@ transponders
 02c1b0f6:0001:ffff
 	s 12534000:2222000:1:4:705:2:0
 /
+02c1b0f8:0064:ffff
+	s 12536000:1600000:1:4:705:2:0
+/
 02c1b0db:0003:ffff
 	s 12507000:2250000:1:3:705:2:0:1:2:0:2
 /
 02c1b0e4:0001:ffff
-	s 12516000:1450000:1:4:705:2:0:1:2:0:2
+	s 12516000:1600000:1:4:705:2:0:1:2:0:2
 /
 02c10000:0000:071d
 	s 11096000:23623000:0:8:705:2:0:1:1:0:2
@@ -588,8 +591,8 @@ transponders
 0212ab99:0001:0001
 	s 11161000:2122000:1:2:530:2:0:1:1:0:0
 /
-0212ab23:0004:1111
-	s 11043000:44950000:1:3:530:2:0
+0212ab4c:000d:1111
+	s 11084000:1808000:1:3:530:2:0
 /
 02120000:0321:054c
 	s 10974000:4850000:0:3:530:2:0
@@ -670,7 +673,7 @@ transponders
 	s 3735000:14990000:2:3:530:2:0:1:2:0:2
 /
 0212b163:0001:ffff
-	s 12643000:1430000:1:3:530:2:0:1:2:0:2
+	s 12643000:1430000:1:4:530:2:0:1:2:0:2
 /
 0212b15c:0001:ffff
 	s 12636000:2170000:1:4:530:2:0
@@ -723,14 +726,11 @@ transponders
 0208aa5d:194e:15e3
 	s 10845000:27500000:1:2:520:2:0
 /
-0208b0a8:0001:ff01
+0208b0a8:0001:0000
 	s 12456000:3358000:1:2:520:2:0:1:2:0:2
 /
 02080000:211e:211e
 	s 10887000:27500000:1:2:520:2:0
-/
-0208b082:0001:0000
-	s 12418000:3360000:1:2:520:2:0:1:2:0:2
 /
 0208b035:0001:0001
 	s 12341000:16532000:1:3:520:2:0:1:2:0:2
@@ -1038,8 +1038,8 @@ transponders
 01a4b171:0000:0001
 	s 12657000:2189000:1:4:420:2:0
 /
-01a42bac:4e85:002a
-	s 11180000:30000000:0:3:420:2:0
+01a40000:4e85:002a
+	s 11180000:30000000:0:4:420:2:0:1:1:0:2
 /
 01a40000:0009:0042
 	s 12188000:27500000:1:4:420:2:0:1:2:3:0
@@ -1160,6 +1160,9 @@ transponders
 /
 01a40000:79e1:042e
 	s 11177000:34290000:1:2:420:2:0:1:2:0:2
+/
+01a4af29:9fc5:002a
+	s 12073000:27500000:1:4:420:2:0:1:2:2:2
 /
 01860000:000d:001c
 	s 12524000:30000000:1:5:390:2:0
@@ -4069,7 +4072,7 @@ transponders
 	s 12525000:6592000:1:2:70:2:0:1:2:0:2
 /
 00300000:000c:0055
-	s 11766000:27500000:0:3:48:2:0
+	s 11766000:27500000:0:3:48:2:0:1:2:0:2
 /
 00300000:000d:0055
 	s 11843000:27500000:0:3:48:2:0
@@ -7589,6 +7592,9 @@ p:
 0001:02c1b0f6:0001:ffff:1:0
 Palestine Today
 p:Service Provider
+0001:02c1b0f8:0064:ffff:1:0
+Beladi Satellite Channel
+p:TandbergTV
 0002:02c1b0db:0003:ffff:1:0
 Al Thabat TV
 p:media
@@ -11246,31 +11252,31 @@ p:TandbergTV
 0001:0212ab99:0001:0001:2:0
 Radio Nadyma
 p:Service Provider
-000f:0212ab23:0004:1111:2:0
+000f:0212ab4c:000d:1111:2:0
 Radio Love
 p:RSCC
-0010:0212ab23:0004:1111:2:0
+0010:0212ab4c:000d:1111:2:0
 Radio Dacha
 p:RSCC
-0035:0212ab23:0004:1111:2:0
+0035:0212ab4c:000d:1111:2:0
 Radio Sputnik
 p:RSCC
-003a:0212ab23:0004:1111:2:0
+003a:0212ab4c:000d:1111:2:0
 RS FM (Rusya’nın Sesi Radyosu)
 p:RSCC
-0036:0212ab23:0004:1111:2:0
+0036:0212ab4c:000d:1111:2:0
 Radio Sputnik v Krymu
 p:RSCC
-0038:0212ab23:0004:1111:2:0
+0038:0212ab4c:000d:1111:2:0
 Radio Sputnik
 p:RSCC
-0039:0212ab23:0004:1111:2:0
+0039:0212ab4c:000d:1111:2:0
 Radio Sputnik
 p:RSCC
-0012:0212ab23:0004:1111:2:0
+0012:0212ab4c:000d:1111:2:0
 Radio 1
 p:RSCC
-0037:0212ab23:0004:1111:2:0
+0037:0212ab4c:000d:1111:2:0
 Radio Sputnik
 p:RSCC
 0002:02120000:0321:054c:2:0
@@ -12398,9 +12404,12 @@ p:WNS
 0002:0208aa5d:194e:15e3:2:0
 Iran International Radio
 p:WNS
-0001:0208b0a8:0001:ff01:1:0
+0005:0208aa5d:194e:15e3:1:0
+Corona Virus Info
+p:WNS
+0001:0208b0a8:0001:0000:1:0
 SuperYacht TV
-p:Mobibase
+p:Profen
 0001:02080000:211e:211e:1:0
 WNS
 p:WNS
@@ -12467,9 +12476,6 @@ p:WNS
 0015:02080000:211e:211e:1:0
 Persiana Music Channel HD
 p:WNS
-0001:0208b082:0001:0000:1:0
-SuperYacht TV
-p:Profen
 0001:0208b035:0001:0001:1:0
 Uzbekistan TV
 p:CRRT
@@ -15059,73 +15065,73 @@ p:Scopus Network Technologies
 0064:01a4b171:0000:0001:1:0
 SNG B   
 p:
-3caa:01a42bac:4e85:002a:1:0
+3caa:01a40000:4e85:002a:1:0
 Taraftar SD
 p:Digital Platform
-3c9a:01a42bac:4e85:002a:129:0
+3c9a:01a40000:4e85:002a:129:0
 DT 5103
 p:Digital Platform
-3c9b:01a42bac:4e85:002a:129:0
+3c9b:01a40000:4e85:002a:129:0
 DT 9103
 p:Digital Platform
-3c9e:01a42bac:4e85:002a:129:0
+3c9e:01a40000:4e85:002a:129:0
 IRDETO-T
 p:Digital Platform
-3ca0:01a42bac:4e85:002a:129:0
+3ca0:01a40000:4e85:002a:129:0
 IRDETO T2
 p:DP 1
-3ca4:01a42bac:4e85:002a:129:0
+3ca4:01a40000:4e85:002a:129:0
 DT5005-R
 p:Digital Platform
-3c9d:01a42bac:4e85:002a:17:0
+3c9d:01a40000:4e85:002a:17:0
 Eurosport 1 HD
 p:Digitürk
-3c97:01a42bac:4e85:002a:17:0
+3c97:01a40000:4e85:002a:17:0
 beIN Movies Action 2 HD
 p:Digital Platform
-3c91:01a42bac:4e85:002a:17:0
+3c91:01a40000:4e85:002a:17:0
 beIN Movies Premier 2 HD
 p:Digital Platform
-3cab:01a42bac:4e85:002a:1:0
+3cab:01a40000:4e85:002a:1:0
 Taraftar 2 SD
 p:Digital Platform
-3cac:01a42bac:4e85:002a:1:0
+3cac:01a40000:4e85:002a:1:0
 Taraftar 3 SD
 p:Digital Platform,c:0900f3
-3c8d:01a42bac:4e85:002a:17:0
+3c8d:01a40000:4e85:002a:17:0
 S Sport HD
 p:Digital Platform,c:090031
-3cb4:01a42bac:4e85:002a:129:0
+3cb4:01a40000:4e85:002a:129:0
 DVBSSU393
 p:Digital Platform
-3cb5:01a42bac:4e85:002a:129:0
+3cb5:01a40000:4e85:002a:129:0
 DVBSSU_9104
 p:Digital Platform
-3ca8:01a42bac:4e85:002a:129:0
+3ca8:01a40000:4e85:002a:129:0
 HM9506HD Replacement
 p:Digital Platform
-3c8f:01a42bac:4e85:002a:17:0
+3c8f:01a40000:4e85:002a:17:0
 beIN Sports Max 2 HD Turkey
 p:Digital Platform
-3c99:01a42bac:4e85:002a:17:0
+3c99:01a40000:4e85:002a:17:0
 History Channel Turkey HD
 p:Digital Platform
-3c9f:01a42bac:4e85:002a:17:0
+3c9f:01a40000:4e85:002a:17:0
 National Geographic Turk HD
 p:Digitürk
-3ca2:01a42bac:4e85:002a:17:0
+3ca2:01a40000:4e85:002a:17:0
 Disney Junior Turkey HD
 p:Digital Platform
-3c98:01a42bac:4e85:002a:17:0
+3c98:01a40000:4e85:002a:17:0
 beIN Home & Entertainment HD
 p:Digital Platform
-3c9c:01a42bac:4e85:002a:17:0
+3c9c:01a40000:4e85:002a:17:0
 GS TV HD
 p:Digitürk
-3ca1:01a42bac:4e85:002a:17:0
+3ca1:01a40000:4e85:002a:17:0
 Disney XD Turkey HD
 p:Digital Platform
-3ca3:01a42bac:4e85:002a:17:0
+3ca3:01a40000:4e85:002a:17:0
 Nick Junior Turkey HD
 p:Digital Platform
 009d:01a40000:0009:0042:130:0
@@ -16025,6 +16031,9 @@ p:TURKSAT
 41a0:01a40000:79e1:042e:25:0
 Turksat 8K
 p:TURKSAT
+409d:01a4af29:9fc5:002a:17:0
+National Geographic Turk HD
+p:Digital Platform
 0068:01860000:000d:001c:1:0
 Happy Channel
 p:Dolce TV
@@ -17290,9 +17299,6 @@ Sudan TV
 p:ARABSAT
 0008:01860000:25e4:02be:1:0
 El Masriyah
-p:ARABSAT
-0009:01860000:25e4:02be:1:0
-Iraqia News
 p:ARABSAT
 0028:01860000:25e4:02be:1:0
 Jordan TV
@@ -27851,6 +27857,9 @@ p:ViewMedia
 0009:01040000:1eea:02be:1:0
 Sikapa TV
 p:ViewMedia
+000a:01040000:1eea:02be:1:0
+Bono TV
+p:ViewMedia
 0456:01040000:7594:077e:25:0
 Kuwait Kids HD
 p:MOI
@@ -36416,8 +36425,8 @@ p:TAG Broadcasting
 0513:00a00000:76c1:016e:12:0
 Antik OTA Upgrade
 p:TAG Broadcasting
-04b6:00a00000:76c1:016e:25:0
-Mnam TV HD
+04b6:00a00000:76c1:016e:22:0
+Mnam TV
 p:TAG Broadcasting
 04e4:00a00000:76c1:016e:31:0
 Nova Action
@@ -42605,6 +42614,9 @@ p:M-Three satcom
 0530:00820000:3d54:013e:22:0
 People TV - Rete 7
 p:People TV-Rete 7
+0520:00820000:3d54:013e:1:0
+AB Channel
+p:M-Three Satcom
 0d4a:00820000:1450:013e:1:0
 Rai 2 HD
 p:Rai,c:09044e
@@ -47210,8 +47222,8 @@ p:Digital Platform
 14ec:00460000:c6d4:007e:130:0
 RADYO 7
 p:Digital Platform
-14f0:00460000:c6d4:007e:1:0
-Baby TV
+14f0:00460000:c6d4:007e:17:0
+Baby TV HD
 p:Digital Platform
 14f1:00460000:c6d4:007e:1:0
 Idman Azerbaycan TV
@@ -47745,6 +47757,9 @@ p:1plus1 Media
 1+1 HD
 p:1plus1 Media
 1810:00300000:000c:0055:22:0
+Dacha
+p:1plus1 Media
+17f4:00300000:000c:0055:22:0
 Dacha
 p:1plus1 Media
 1888:00300000:000d:0055:1:0
@@ -51283,6 +51298,12 @@ JimJam HU
 p:UPC
 75b5:0e080000:02bd:0600:1:0
 JimJam HU.
+p:UPC
+7599:0e080000:02bd:0600:1:0
+M1 - Magyar TV
+p:UPC
+759a:0e080000:02bd:0600:1:0
+Magyar TV 2 / Petofi
 p:UPC
 03ec:0e082de3:0005:1111:1:0
 TV Paprika
@@ -55283,6 +55304,30 @@ p:TWC
 07d2:0dde0000:0003:20fa:2:0
 NOST IDF
 p:TWC
+03f5:0dde0000:0003:20fa:12:0
+DATASYSTEM R7
+p:CNH
+0308:0dde0000:0003:20fa:22:0
+LCI
+p:CNH
+0309:0dde0000:0003:20fa:22:0
+PARIS PREMIERE
+p:CNH
+0301:0dde0000:0003:20fa:25:0
+CANAL+
+p:CNH
+0302:0dde0000:0003:20fa:25:0
+CANAL+ CINEMA
+p:CNH
+0303:0dde0000:0003:20fa:25:0
+CANAL+ SPORT
+p:CNH
+0304:0dde0000:0003:20fa:25:0
+PLANETE+
+p:CNH
+030a:0dde0000:0003:20fa:25:0
+CANAL+
+p:CNH
 2172:0dde0000:0002:013e:1:0
 Rai Sport
 p:RAI
@@ -65225,6 +65270,9 @@ p:Meo
 138a:0ce40000:000d:0028:1:0
 Russia Today Español
 p:Overon
+0011:0ce40000:000d:0028:1:0
+OVERON Occ
+p:OVERON
 0002:0ce4aa8a:000f:0002:1:0
 Canal Parlamento
 p:Telefonica Spain
@@ -70821,7 +70869,7 @@ p:
 Radio Milan Inter TV
 p:
 20d0:eeee0000:2742:217c:1:0
-Radio Mambassa Tv
+Radio Manbassa Tv
 p:
 2134:eeee0000:2742:217c:1:0
 TeleMilano Tele Tv 3
