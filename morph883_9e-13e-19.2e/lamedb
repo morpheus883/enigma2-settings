@@ -297,9 +297,6 @@ transponders
 00c0ae77:0432:0001
 	s 11895000:29700000:1:2:192:2:0:1:2:1:2
 /
-00c00000:0400:0001
-	s 11567000:23000000:1:3:192:2:0:1:2:0:2
-/
 00c00000:03fd:0001
 	s 11523000:22000000:0:4:192:2:0
 /
@@ -1348,6 +1345,9 @@ Servus TV HD Deutschland
 p:
 1334:00c00000:03ef:0001:25:0
 ORF2 N HD
+p:ORF
+1338:00c00000:03ef:0001:2:0
+OE3.
 p:ORF
 7468:00c00000:03f0:0001:1:0
 Fox Life España
@@ -4637,93 +4637,6 @@ p:CSAT
 2077:00c0ae77:0432:0001:25:0
 La Chaîne Météo HD
 p:CSAT
-1a37:00c00000:0400:0001:1:0
-Izvestia
-p:Kartina Satellite
-1a3b:00c00000:0400:0001:1:0
-Kanal 5 Ukraine
-p:Kartina Satellite
-1a32:00c00000:0400:0001:1:0
-TV Centr International (TVCi)
-p:Kartina Satellite
-1a36:00c00000:0400:0001:1:0
-Shanson
-p:Kartina Satellite
-1a2d:00c00000:0400:0001:1:0
-Ren TV International
-p:Kartina Satellite
-1a2f:00c00000:0400:0001:1:0
-Domashniy International
-p:Kartina Satellite
-1a34:00c00000:0400:0001:1:0
-Peretz International
-p:Kartina Satellite
-1a31:00c00000:0400:0001:1:0
-STS International (CTCi)
-p:Kartina Satellite
-1a40:00c00000:0400:0001:1:0
-Planeta
-p:Kartina Satellite
-1a30:00c00000:0400:0001:1:0
-Mult
-p:Kartina Satellite
-1a3a:00c00000:0400:0001:1:0
-Rybalka i Oxota
-p:Kartina Satellite
-1a38:00c00000:0400:0001:1:0
-Mir Seriala
-p:Kartina Satellite
-1a3f:00c00000:0400:0001:1:0
-Detskii Mir
-p:Kartina Satellite
-1a39:00c00000:0400:0001:1:0
-Lyubimoe Kino
-p:Kartina Satellite
-1a3d:00c00000:0400:0001:1:0
-360 Mir
-p:Kartina Satellite
-1a2e:00c00000:0400:0001:1:0
-5 Channel S.Peterburg
-p:Kartina Satellite
-1a43:00c00000:0400:0001:1:0
-Trofey
-p:Kartina Satellite
-1a33:00c00000:0400:0001:1:0
-Dozhd TV
-p:Kartina Satellite
-1a44:00c00000:0400:0001:1:0
-RT Doc
-p:Kartina Satellite
-1a3c:00c00000:0400:0001:1:0
-Inter+
-p:Kartina Satellite
-1a35:00c00000:0400:0001:1:0
-ZTV
-p:Kartina Satellite
-1a3e:00c00000:0400:0001:1:0
-1HD Music
-p:Kartina Satellite
-1a45:00c00000:0400:0001:1:0
-Ukraine 1
-p:Kartina Satellite
-1a46:00c00000:0400:0001:1:0
-Ukraine 2
-p:Kartina Satellite
-1a47:00c00000:0400:0001:1:0
-RTVi Archive
-p:Kartina Satellite
-1a48:00c00000:0400:0001:1:0
-Mir 24
-p:Kartina Satellite
-1a49:00c00000:0400:0001:1:0
-Russian Music Box
-p:Kartina Satellite
-1a4a:00c00000:0400:0001:1:0
-1+1 International
-p:Kartina Satellite
-1a4b:00c00000:0400:0001:1:0
-Souz
-p:Kartina Satellite
 1200:00c00000:03fd:0001:1:0
 TVA Ostbayern
 p:FFmpeg
@@ -5227,6 +5140,15 @@ All In Channel
 p:Telespazio
 1360:00820000:33f4:013e:1:0
 Canale Italia 2
+p:Harmonic
+136e:00820000:33f4:013e:1:0
+Regal TV
+p:Telespazio
+05dc:00820000:33f4:013e:1:0
+Rai Africa
+p:Telespazio
+132f:00820000:33f4:013e:1:0
+Juwelo TV Italia
 p:Harmonic
 125f:00820000:3458:013e:1:0
 Mohabat TV
@@ -5982,7 +5904,7 @@ p:Telespazio
 NITEGATE DTT13
 p:Telespazio
 4256:00820000:3db8:013e:2:0
-Radio Sportiva
+Test Radio Sportiva
 p:Telespazio
 012d:00820000:3e1c:013f:1:0
 TF1 HD
@@ -7069,6 +6991,12 @@ DimSuono Soft RM
 p:Telespazio
 030c:00820000:1b58:013e:1:0
 QVC Italia
+p:Telespazio
+02ef:00820000:1b58:013e:2:0
+Radio Sportiva
+p:Telespazio
+0315:00820000:1b58:013e:1:0
+Juwelo TV Italia
 p:Telespazio
 3c8d:00820000:1bbc:013e:1:0
 novacinema1 HD Cy
@@ -8735,6 +8663,12 @@ p:GLOBECAST,c:090b90
 0831:00820000:22c4:013e:1:0
 Equidia PRO2 HD
 p:GLOBECAST,c:090b9a
+07d5:00820000:22c4:013e:1:0
+2M Monde
+p:GLOBECAST
+0838:00820000:22c4:013e:2:0
+Radio 2M
+p:GLOBECAST
 2db3:00820000:2260:fbff:1:0
 IEPG Data
 p:SkyItalia
@@ -9956,6 +9890,51 @@ p:ETISALAT
 0388:00820000:2134:013e:2:0
 Noor Dubai Radio
 p:Etisalat
+038b:00820000:2134:013e:1:0
+Sudan TV
+p:ETISALAT
+0392:00820000:2134:013e:1:0
+Jordan TV
+p:ETISALAT
+0394:00820000:2134:013e:1:0
+Libya Alwatnya
+p:ETISALAT
+038e:00820000:2134:013e:1:0
+ESC
+p:ETISALAT
+038c:00820000:2134:013e:2:0
+SUDAN R1
+p:ETISALAT
+038d:00820000:2134:013e:2:0
+SUDAN R2
+p:ETISALAT
+038f:00820000:2134:013e:2:0
+ESC R1
+p:ETISALAT
+0393:00820000:2134:013e:2:0
+JORDAN R1
+p:ETISALAT
+0398:00820000:2134:013e:1:0
+Oman TV HD
+p:ETISALAT
+0390:00820000:2134:013e:2:0
+ESC R2
+p:ETISALAT
+0391:00820000:2134:013e:2:0
+ESC R3
+p:ETISALAT
+0399:00820000:2134:013e:2:0
+OMAN R1
+p:ETISALAT
+039a:00820000:2134:013e:2:0
+OMAN R2
+p:ETISALAT
+039b:00820000:2134:013e:2:0
+OMAN R3
+p:ETISALAT
+039c:00820000:2134:013e:2:0
+OMAN HOLY QURAN
+p:ETISALAT
 0001:00820000:1964:013e:1:0
 MTV Live HD
 p:MTV Networks Europe,c:0903f2
@@ -10994,6 +10973,9 @@ p:Arqiva LTD
 0460:005a0000:1af4:009e:1:0
 NTD (New Tang Dynasty) TV
 p:ARQIVA,c:090105
+046a:005a0000:1af4:009e:1:0
+PTV Global
+p:Arqiva
 0268:005a3048:206c:009c:25:0
 Spiegel TV Wissen HD
 p:KabelKiosk
@@ -11094,7 +11076,7 @@ p:Kabelkiosk
 Marco Polo TV D
 p:KabelKiosk
 0b22:005a2f62:1bbc:009c:1:0
-ORT International (Perviy kanal Vsemirnaja set)
+THT (TNT) Russia
 p:Kabelkiosk
 0b86:005a2f62:1bbc:009c:1:0
 Kinowelt TV
@@ -11340,7 +11322,7 @@ p:OTE
 National Geographic +
 p:ΟΤΕ
 0400:005a306f:0006:00aa:1:0
-ΔΙΚΤΥΟ Τηλεόραση
+Mega HD
 p:OTE
 0417:005a306f:0006:00aa:1:0
 Extra Channel
@@ -11971,6 +11953,9 @@ TRT tamil
 p:TAG Broadcasting
 0363:005a0000:c35a:009e:25:0
 Museum HD
+p:TAG Broadcasting
+0364:005a0000:c35a:009e:1:0
+TIN - The Israeli Network
 p:TAG Broadcasting
 0c1c:005a0000:005d:0055:22:0
 Star Family
@@ -12807,7 +12792,7 @@ p:Persidera
 Canale 65
 p:Persidera
 0041:005a0000:0202:001d:1:0
-ibox.it
+BOM Channel
 p:Persidera
 0064:005a0000:0202:001d:1:0
 TV 2000
