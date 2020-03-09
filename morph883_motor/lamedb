@@ -1158,6 +1158,12 @@ transponders
 01a40000:79e1:042e
 	s 11177000:34290000:1:2:420:2:0:1:2:0:2
 /
+01a40000:0004:005a
+	s 11012000:30000000:1:4:420:2:0:1:2:0:2
+/
+01a40000:0009:005a
+	s 12188000:27500000:1:4:420:2:0:1:2:0:2
+/
 01860000:000d:001c
 	s 12524000:30000000:1:5:390:2:0
 /
@@ -7689,7 +7695,7 @@ p:
 Ark Of God TV
 p:SENTECH
 007e:02ad0000:0002:0049:1:0
-COMMEC IS20
+Untouchable TV
 p:SENTECH
 00ce:02ad0000:0002:0049:1:0
 Revival Channel
@@ -7700,9 +7706,6 @@ p:SENTECH
 007b:02ad0000:0002:0049:1:0
 Neema TV
 p:Sentech
-007f:02ad0000:0002:0049:1:0
-Redemption TV
-p:SENTECH
 0083:02ad0000:0002:0049:1:0
 RTM TV
 p:Sentech
@@ -7874,15 +7877,15 @@ p:SENTECH
 00cc:02adb18a:0005:0049:1:0
 Number 1 TV
 p:Sentech
+00dc:02adb18a:0005:0049:1:0
+Redemption TV
+p:SENTECH
 0003:02ad3112:0001:0001:1:0
-Shekina MC TV
-p:Sentech
+Homebase TV
+p:ViewMedia
 000e:02ad3112:0001:0001:1:0
 Adonai TV
 p:ViewMedia
-0013:02ad3112:0001:0001:1:0
-Eagles TV Plus
-p:ViewSat
 000f:02ad3112:0001:0001:1:0
 Abba TV
 p:Harmonic
@@ -7922,23 +7925,23 @@ p:ViewMedia
 0014:02ad3112:0001:0001:1:0
 Coptic TV
 p:ViewMedia
-0020:02ad3112:0001:0001:1:0
-Power Line TV
-p:ViewMedia
 0002:02ad3112:0001:0001:1:0
-Heroes TV
+Catholic Adoration TV
 p:ViewMedia
 0005:02ad3112:0001:0001:1:0
 Weep No More TV
-p:ViewMedia
-0004:02ad3112:0001:0001:1:0
-Gaffa TV
 p:ViewMedia
 0006:02ad3112:0001:0001:1:0
 Manna TV
 p:ViewMedia
 001d:02ad3112:0001:0001:1:0
 AM TV
+p:ViewMedia
+0008:02ad3112:0001:0001:1:0
+Okun TV
+p:ViewMedia
+000b:02ad3112:0001:0001:1:0
+JHS TV
 p:ViewMedia
 0009:02ad318a:0004:0001:1:0
 Champions Television
@@ -7989,7 +7992,7 @@ p:ViewSat
 ACNN
 p:ViewSat
 0003:02ad318a:0004:0001:1:0
-Homebase TV
+Shekina MC TV
 p:ViewMedia
 0002:02ad318a:0004:0001:1:0
 RTM TV
@@ -8027,6 +8030,9 @@ p:ViewMedia
 000c:02ad318a:0004:0001:1:0
 GOD TV Africa
 p:ViewMedia
+000e:02ad318a:0004:0001:1:0
+Oneness TV
+p:ViewMedia
 0008:02adb13a:0002:0001:1:0
 Dove Vision
 p:ViewSat
@@ -8057,26 +8063,17 @@ p:ViewSat
 001c:02adb13a:0002:0001:1:0
 Brother Fire TV
 p:ViewSat
-0006:02adb13a:0002:0001:1:0
-Faithful City
-p:ViewMedia
 0004:02adb13a:0002:0001:1:0
 StarCross TV
 p:ViewSat
 0005:02adb13a:0002:0001:1:0
 Aviation TV
 p:ViewSat
-0003:02adb13a:0002:0001:1:0
-Success TV
-p:ViewSat
 0001:02adb13a:0002:0001:1:0
 Miracle TV
 p:ViewMedia
 0021:02adb13a:0002:0001:1:0
 Service EF29K
-p:ViewMedia
-0002:02adb13a:0002:0001:1:0
-Oneness TV
 p:ViewMedia
 0001:02ad2b48:0001:ffff:1:0
 Rossiya 1 (+1h)
@@ -15593,7 +15590,7 @@ p:KARNAVAL
 0005:01a42ae5:0001:ffff:2:0
 JOY TURK
 p:KARNAVAL
-0006:01a42ae5:0001:ffff:2:0
+0008:01a42ae5:0001:ffff:2:0
 VIRGIN RADIO
 p:KARNAVAL
 0007:01a42ae5:0001:ffff:2:0
@@ -16025,6 +16022,48 @@ p:TURKSAT
 41a0:01a40000:79e1:042e:25:0
 Turksat 8K
 p:TURKSAT
+0005:01a40000:0004:005a:1:0
+Gaziantep Olay TV
+p:DEMIROREN MEDYA
+0006:01a40000:0004:005a:1:0
+MMC
+p:DEMIROREN MEDYA
+0007:01a40000:0004:005a:1:0
+Berat TV
+p:DEMIROREN MEDYA
+0008:01a40000:0004:005a:1:0
+Vizyon 58
+p:DEMIROREN MEDYA
+000a:01a40000:0004:005a:1:0
+Ekin TV
+p:DEMIROREN MEDYA
+0016:01a40000:0004:005a:1:0
+TR 1
+p:DEMIROREN MEDYA
+c350:01a40000:0004:005a:1:0
+Kanal 60
+p:DEMIROREN MEDYA
+c351:01a40000:0004:005a:1:0
+YOL TV
+p:DEMIROREN MEDYA
+c353:01a40000:0004:005a:1:0
+MPL TV
+p:DEMIROREN MEDYA
+c356:01a40000:0004:005a:1:0
+Saudi Quran TV
+p:DEMIROREN MEDYA
+c357:01a40000:0004:005a:1:0
+Saudi Sunnah TV
+p:DEMIROREN MEDYA
+0001:01a40000:0009:005a:25:0
+TRT HD
+p:DEMIROREN MEDYA
+0002:01a40000:0009:005a:25:0
+TRT 1 HD
+p:DEMIROREN MEDYA
+296a:01a40000:0009:005a:25:0
+TRT Haber HD
+p:DEMIROREN MEDYA
 0068:01860000:000d:001c:1:0
 Happy Channel
 p:Dolce TV
@@ -23591,6 +23630,9 @@ p:BSkyB
 d13e:011a0000:0832:0002:1:0
 HUM News
 p:BSkyB
+d14c:011a0000:0832:0002:1:0
+Hum Europe
+p:BSkyB
 d357:011a0000:0830:0002:1:0
 High Street TV 5
 p:Sky Digital
@@ -24139,9 +24181,6 @@ Ahlebait TV
 p:BSkyB
 5850:011a0000:082e:0002:1:0
 KICC TV
-p:Sky Digital
-584d:011a0000:082e:0002:1:0
-Hum Europe
 p:Sky Digital
 5851:011a0000:082e:0002:1:0
 Xpanded TV
@@ -30229,6 +30268,9 @@ Zadruga 4
 p:Telekom Srbija
 4f0c:00eb0000:0c81:0003:1:0
 TV 2 Hungary
+p:Telekom Srbija
+4f0d:00eb0000:0c81:0003:1:0
+Super TV 2
 p:Telekom Srbija
 0001:00ebb135:4321:0001:25:0
 D-514 D-dorf Kirche
@@ -36731,6 +36773,9 @@ p:Antik Sat
 025a:00a0acce:c418:016e:22:0
 Test
 p:Antik
+025c:00a0acce:c418:016e:25:0
+Arena HD
+p:TAG Broadcasting
 0683:00a00000:9fc4:016e:1:0
 Kanal A Slovenia HD
 p:SBB
@@ -38039,6 +38084,9 @@ p:Telespazio
 132f:00820000:33f4:013e:1:0
 Juwelo TV Italia
 p:Harmonic
+135d:00820000:33f4:013e:2:0
+Radio Margherita
+p:Telespazio
 125f:00820000:3458:013e:1:0
 Mohabat TV
 p:RRsat
@@ -51304,6 +51352,9 @@ M1 - Magyar TV
 p:UPC
 759a:0e080000:02bd:0600:1:0
 Magyar TV 2 / Petofi
+p:UPC
+759c:0e080000:02bd:0600:1:0
+TV 1000 Balkan
 p:UPC
 03ec:0e082de3:0005:1111:1:0
 TV Paprika
