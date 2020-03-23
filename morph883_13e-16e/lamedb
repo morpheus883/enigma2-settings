@@ -231,14 +231,17 @@ transponders
 00a0b192:0001:0001
 	s 12690000:4000000:1:2:160:2:0:1:1:0:2
 /
-00a0b197:0001:0001
-	s 12695000:4000000:1:2:160:2:0:1:1:0:2
-/
 00a0310b:0001:0001
 	s 12555000:3166000:0:2:160:2:0:1:2:0:2
 /
+00a0b197:0001:0001
+	s 12695000:4000000:1:2:160:2:0:1:1:0:2
+/
 00a0310f:0001:0001
 	s 12559000:3166000:0:2:160:2:0:1:2:0:2
+/
+00a02d4c:0002:0040
+	s 11596000:29980000:0:6:160:2:0:1:1:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -1883,6 +1886,9 @@ p:DigitALB
 08a2:00a02a33:5014:016e:1:0
 SS_Service2
 p:DigitALB
+0866:00a02a33:5014:016e:1:0
+Fax News
+p:DigitALB
 044f:00a00000:526c:016e:31:0
 Folx TV
 p:TAG Broadcasting
@@ -2149,6 +2155,12 @@ Travel Channel
 p:Total TV
 0549:00a0aadc:75fb:016e:1:0
 Arena Sport 1 Hr
+p:Total TV
+0559:00a0aadc:75fb:016e:1:0
+Uci Doma 1
+p:Total TV
+055a:00a0aadc:75fb:016e:1:0
+Uci Doma 2
 p:Total TV
 0358:00a02ccf:c3b4:016e:1:0
 Federalna TV
@@ -6227,12 +6239,6 @@ p:
 00cb:0082afc1:0065:0001:1:0
 Radioi Ozodi 203
 p:
-00cd:0082afc1:0065:0001:1:0
-Radio Svaboda 205
-p:
-00ce:0082afc1:0065:0001:1:0
-Radio Tavisupleba 206
-p:
 00cf:0082afc1:0065:0001:1:0
 Azatutyun 207
 p:
@@ -6265,9 +6271,6 @@ RL North Caucasus 220
 p:
 00dd:0082afc1:0065:0001:1:0
 Europa Libera 221
-p:
-00de:0082afc1:0065:0001:1:0
-RSE Balkans 222
 p:
 00e3:0082afc1:0065:0001:1:0
 Evropa e Lire 227
@@ -8924,6 +8927,9 @@ p:GLOBECAST
 3349:00820000:1388:013e:2:0
 BBC English Mid_East
 p:GLOBECAST
+332f:00820000:1388:013e:1:0
+Pobeda TV
+p:Harmonic
 05f9:00820000:2c24:013e:1:0
 SAHAR KURDISH
 p:IRIB
