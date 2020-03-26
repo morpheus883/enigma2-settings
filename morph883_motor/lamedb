@@ -856,7 +856,7 @@ transponders
 	s 10992000:2083000:1:4:460:2:0
 /
 01cc2b57:0000:0000
-	s 11095000:27500000:0:4:460:2:0:1:2:0:2
+	s 11095000:30000000:0:4:460:2:0:1:2:0:2
 /
 01cc8eaa:1000:2000
 	s 3754000:1436000:1:3:460:2:0:1:0:0:2
@@ -908,6 +908,9 @@ transponders
 /
 01c2b0e8:0001:00d5
 	s 12520000:30000000:1:4:450:2:0:1:2:2:2
+/
+01c2acd3:0006:00d5
+	s 11475000:30000000:1:0:450:2:0:1:2:0:2
 /
 01a40000:0004:0042
 	s 11012000:30000000:1:4:420:2:0:1:2:3:0
@@ -1527,8 +1530,8 @@ transponders
 0168ace7:0001:ffff
 	s 11495000:2300000:1:3:360:2:0:1:2:0:2
 /
-016831b1:0001:ffff
-	s 12721000:1852000:0:4:360:2:0:1:2:0:2
+0168318b:0001:ffff
+	s 12683000:1852000:0:4:360:2:0:1:2:0:2
 /
 01682d64:0001:ffff
 	s 11620000:1667000:0:6:360:2:0:1:2:0:2
@@ -1898,6 +1901,9 @@ transponders
 /
 011a2f26:07e3:0002
 	s 12070000:27500000:0:4:282:2:0
+/
+011a0000:07e0:0002
+	s 12012000:27500000:1:2:282:2:0:1:2:0:2
 /
 011a0000:07f2:0002
 	s 12363000:27500000:1:2:282:2:0:1:2:0:2
@@ -2529,9 +2535,6 @@ transponders
 00ebb1a7:0000:0000
 	s 12711000:4800000:1:3:235:2:0:1:2:0:2
 /
-00eb2d59:047f:047f
-	s 11609000:4800000:0:3:235:2:0:1:2:0:2
-/
 00eb0000:0000:00eb
 	s 12672000:4800000:1:3:235:2:0:1:2:0:2
 /
@@ -2564,12 +2567,6 @@ transponders
 /
 00ebb1b8:0000:0001
 	s 12728000:7200000:1:3:235:2:0:1:2:0:2
-/
-00eb2d4c:0001:ffff
-	s 11596000:4800000:0:2:235:2:0:1:2:0:2
-/
-00eb2d4c:0000:0000
-	s 11596000:4800000:0:2:235:2:0:1:2:0:2
 /
 00eb2d59:0001:ffff
 	s 11609000:4800000:0:3:235:2:0:1:2:0:2
@@ -2732,9 +2729,6 @@ transponders
 /
 00d80000:021c:012d
 	s 11515000:3990000:0:7:216:2:0:1:1:0:2
-/
-00d80000:0003:0008
-	s 11653000:1600000:1:3:216:2:0:1:1:0:2
 /
 00c80000:0004:0085
 	s 12034000:27500000:0:3:200:2:0
@@ -3063,9 +3057,6 @@ transponders
 00c00000:03e9:0001
 	s 11214000:22000000:0:2:192:2:0:1:2:2:2
 /
-00c00000:03f6:0001
-	s 11406000:22000000:1:2:192:2:0:1:2:0:2
-/
 00a00000:0001:0040
 	s 11512000:30000000:0:3:160:2:0:1:2:0:2
 /
@@ -3300,14 +3291,8 @@ transponders
 00a0310b:0001:0001
 	s 12555000:3166000:0:2:160:2:0:1:2:0:2
 /
-00a0b197:0001:0001
-	s 12695000:4000000:1:2:160:2:0:1:1:0:2
-/
-00a0310f:0001:0001
-	s 12559000:3166000:0:2:160:2:0:1:2:0:2
-/
-00a02d4c:0002:0040
-	s 11596000:29980000:0:6:160:2:0:1:1:0:2
+00a02b3e:4325:0001
+	s 11070000:274000:0:1:160:2:0
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -3835,16 +3820,13 @@ transponders
 	s 11693000:2222000:0:3:100:2:0
 /
 0064ad32:0001:ffff
-	s 11570000:1667000:1:6:100:2:0:1:2:0:2
+	s 11570000:1667000:1:9:100:2:0:1:2:0:2
 /
 0064ad1b:1000:2000
 	s 11547000:1442000:1:3:100:2:0:1:2:0:2
 /
 00642b50:0001:ffff
 	s 11088000:7200000:0:3:100:2:0:1:2:0:2
-/
-00642da5:0001:ffff
-	s 11685000:2500000:0:3:100:2:0
 /
 00642d54:0001:ffff
 	s 11604000:2220000:0:4:100:2:0:1:2:0:2
@@ -4319,9 +4301,6 @@ transponders
 /
 003031be:0001:0001
 	s 12734000:3600000:0:2:48:2:0:1:2:0:2
-/
-00302df6:000c:0055
-	s 11766000:27500000:0:2:48:2:0:1:2:0:2
 /
 001ead41:0000:0001
 	s 11585000:9260000:1:3:30:2:0
@@ -5885,12 +5864,6 @@ fed42d0d:0001:ffff
 /
 0ce431ba:0001:ffff
 	s 12730000:9230000:0:3:-300:2:0:1:2:0:2
-/
-fed42d02:0001:ffff
-	s 11522000:5000000:0:3:-300:2:0:1:2:0:2
-/
-0ce42d08:0000:0000
-	s 11528000:5000000:0:3:-300:2:0:1:2:0:2
 /
 fec5b02f:0001:ffff
 	s 12335000:6427000:1:5:-315:2:0
@@ -8021,17 +7994,44 @@ p:ViewMedia
 001d:02ad3112:0001:0001:1:0
 AM TV
 p:ViewMedia
-0008:02ad3112:0001:0001:1:0
-Okun TV
-p:ViewMedia
 000b:02ad3112:0001:0001:1:0
 JHS TV
 p:ViewMedia
 0026:02ad3112:0001:0001:1:0
 Praise Land TV
 p:ViewMedia
-0004:02ad3112:0001:0001:1:0
-Ukombozi TV
+001e:02ad3112:0001:0001:1:0
+ACNN TV
+p:ViewMedia
+001a:02ad3112:0001:0001:1:0
+BCS StarCross TV
+p:ViewMedia
+0019:02ad3112:0001:0001:1:0
+Brother Fire TV
+p:ViewMedia
+0017:02ad3112:0001:0001:1:0
+Dove TV
+p:ViewMedia
+000d:02ad3112:0001:0001:1:0
+Good News Embassy TV
+p:ViewMedia
+0012:02ad3112:0001:0001:1:0
+ITVN
+p:ViewMedia
+0013:02ad3112:0001:0001:1:0
+LoveWorld Sat
+p:ViewMedia
+001b:02ad3112:0001:0001:1:0
+New Vision TV
+p:ViewMedia
+0020:02ad3112:0001:0001:1:0
+Old Time Faith TV
+p:ViewMedia
+001c:02ad3112:0001:0001:1:0
+Tehilla TV
+p:ViewMedia
+0015:02ad3112:0001:0001:1:0
+WRM TV
 p:ViewMedia
 0009:02ad318a:0004:0001:1:0
 Champions Television
@@ -8081,12 +8081,6 @@ p:ViewSat
 0001:02ad318a:0004:0001:1:0
 ACNN
 p:ViewSat
-0003:02ad318a:0004:0001:1:0
-Shekina MC TV
-p:ViewMedia
-0002:02ad318a:0004:0001:1:0
-RTM TV
-p:ViewSat
 000f:02ad318a:0004:0001:1:0
 Liberation TV
 p:ViewMedia
@@ -8114,9 +8108,6 @@ p:ViewMedia
 001d:02ad318a:0004:0001:1:0
 Synagogue TV
 p:Harmonic
-0021:02ad318a:0004:0001:1:0
-RCC TV
-p:ViewMedia
 000c:02ad318a:0004:0001:1:0
 GOD TV Africa
 p:ViewMedia
@@ -9422,6 +9413,9 @@ p:Ericsson
 0001:02adb16b:0000:0001:25:0
 Btv DSNG Enc2 HD
 p:www.telemedia.co.za
+001f:02adb13a:0002:0001:1:0
+Emirem TV
+p:ViewMedia
 0001:0294313d:0001:ffff:1:0
 Moskva 24
 p:Service Provider
@@ -13085,9 +13079,6 @@ p:Vector A.G
 000c:01cc2b57:0000:0000:1:0
 Kavkasia
 p:
-0017:01cc2b57:0000:0000:1:0
-Islandiya TV
-p:Vector A.G
 0001:01cc8eaa:1000:2000:1:0
 Mountain of Fire and Miracles
 p:Harmonic
@@ -13646,6 +13637,12 @@ p:VIVACOM
 010a:01c20000:0002:00d5:1:0
 The Voice Bulgaria
 p:VIVACOM
+010b:01c20000:0002:00d5:1:0
+TV Centr International
+p:VIVACOM
+010c:01c20000:0002:00d5:1:0
+TV 8 Turkey
+p:VIVACOM
 00de:01c20000:0004:00d5:25:0
 Trace Sports Stars HD
 p:VIVACOM
@@ -13820,6 +13817,18 @@ p:Vivacom
 00e6:01c2b0e8:0001:00d5:1:0
 HBO 2 Central Europe
 p:Vivacom
+0090:01c2b0e8:0001:00d5:1:0
+Russian Travel Guide International
+p:VIVACOM
+13ae:01c2acd3:0006:00d5:1:0
+Kanal 7 Avrupa
+p:VIVACOM
+13af:01c2acd3:0006:00d5:1:0
+Show Max
+p:VIVACOM
+13b0:01c2acd3:0006:00d5:1:0
+Haber Turk TV
+p:VIVACOM
 057a:01a40000:0004:0042:25:0
 Viasat History HD
 p:DOGAN TV
@@ -19008,7 +19017,10 @@ p:GEOSAT
 GEOSAT radio
 p:
 2139:01680000:0001:036e:1:0
-1 TV Georgia
+1 Arkhi
+p:
+0014:01680000:0001:036e:1:0
+1 Arkhi / Ganatleba
 p:
 0001:0168b19c:0001:ffff:1:0
 Al Iraqiya 3 Sports
@@ -19178,7 +19190,7 @@ p:
 0001:0168ace7:0001:ffff:1:0
 Al Mayadeen TV Network
 p:TandbergTV
-0001:016831b1:0001:ffff:1:0
+0001:0168318b:0001:ffff:1:0
 Asia Network TV
 p:Service Provider
 0001:01682d64:0001:ffff:1:0
@@ -23012,6 +23024,33 @@ p:BSkyB
 1904:011a2f26:07e3:0002:1:0
 Sky News
 p:Sky Digital
+0e29:011a0000:07e0:0002:25:0
+Boomerang HD
+p:BSkyB
+0e2a:011a0000:07e0:0002:25:1
+Animal Planet HD
+p:BSkyB
+0ee7:011a0000:07e0:0002:25:2
+Sky Modern Greats HD
+p:BSkyB
+0ee8:011a0000:07e0:0002:25:3
+Sky Drama HD
+p:BSkyB
+0ee9:011a0000:07e0:0002:25:4
+Sky ScFi/Horror HD
+p:BSkyB
+0eeb:011a0000:07e0:0002:25:5
+Sky Comedy HD
+p:BSkyB
+0f3c:011a0000:07e0:0002:25:6
+Sky Disney HD
+p:BSkyB
+0f82:011a0000:07e0:0002:25:7
+TLC HD
+p:BSkyB
+0fa6:011a0000:07e0:0002:25:8
+W HD
+p:BSkyB
 0e2b:011a0000:07f2:0002:25:0
 Disney XD HD
 p:Sky Digital
@@ -24224,6 +24263,9 @@ p:BSkyB
 d32e:011a0000:0836:0002:1:0
 Abu Dhabi TV
 p:Sky Digital
+d32b:011a0000:0836:0002:1:0
+OUT TV
+p:BSkyB
 0f51:011a0000:07ec:0002:25:0
 RTE One HD
 p:BSkyB
@@ -25205,6 +25247,36 @@ p:BSkyB
 0ffc:011a0000:07ee:0002:25:0
 Sky Sp Mix HD
 p:BSkyB,c:090108
+0f0e:011aaf3a:07ee:0002:25:0
+Sky News HD
+p:BSkyB
+0f26:011aaf3a:07ee:0002:25:0
+SkySpCricketHD
+p:BSkyB
+0e2d:011aaf3a:07ee:0002:25:0
+SkySp News HD
+p:BSkyB
+0f4b:011aaf3a:07ee:0002:25:0
+SkySpCricketHD
+p:BSkyB
+0cc9:011aaf3a:07ee:0002:25:0
+SkySp Mix HD
+p:BSkyB
+0eee:011aaf3a:07ee:0002:25:0
+SkySp ActionHD
+p:BSkyB
+0ef0:011aaf3a:07ee:0002:25:0
+SkySp ActionHD
+p:BSkyB
+0efb:011aaf3a:07ee:0002:25:0
+SkySp F1 HD
+p:BSkyB
+0efc:011aaf3a:07ee:0002:25:0
+SkySp F1 HD
+p:BSkyB
+0ffc:011aaf3a:07ee:0002:25:0
+SkySp Mix HD
+p:BSkyB
 0193:01040000:012d:02be:1:0
 Al Kawthar
 p:JMC
@@ -35414,12 +35486,6 @@ p:Total TV
 1168:00a00000:9ca4:016e:1:0
 Nova Sport HD
 p:Total TV,C:0000
-00aa:00a02b3f:4310:0001:2:0
-Slam!    Main
-p:CASTOR BROADCAST
-4310:00a02b3f:4310:0001:2:0
-SLAM! Backup    
-p:CASTOR BROADCAST
 00aa:00a02b40:4300:0001:2:0
 100%NL !
 p:CASTOR BROADCAST
@@ -37565,9 +37631,6 @@ p:Orange TV
 11ad:00a0313d:4289:ff00:22:0
 UP Network
 p:Orange TV
-11ae:00a0313d:4289:ff00:22:0
-TV Romana
-p:
 0001:00a030e2:0001:0001:1:0
 Enex Path 1
 p:Enex
@@ -37755,7 +37818,7 @@ p:
 Romania TV
 p:
 000c:00a0b163:01f4:0005:1:0
-Neptun TV
+Etno TV
 p:,c:091b63
 0065:00a0b163:01f4:0005:2:0
 Radio Trinitas
@@ -37859,6 +37922,12 @@ p:Stryder TV
 0001:00a0310b:0001:0001:25:0
 Ue-tec2 D343
 p:Adtec Digital
+4325:00a02b3e:4325:0001:2:0
+SLAM Backup
+p:CASTOR NETWORKS
+4310:00a02b3e:4325:0001:2:0
+SLAM! FM
+p:CASTOR BROADCAST
 439f:00820000:2cec:013e:1:0
 BVN - Beste van Vlaanderen en Nederland
 p:RRsat
@@ -53203,6 +53272,9 @@ AMC CE HD
 p:Slovak Telekom
 177c:0e080000:0af6:00bb:1:0
 Viasat Nature HD
+p:Slovak Telekom
+177d:0e080000:0af6:00bb:25:0
+CT 3 HD
 p:Slovak Telekom
 1cac:0e080000:004c:0046:1:0
 History
