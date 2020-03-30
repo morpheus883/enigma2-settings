@@ -507,6 +507,9 @@ transponders
 00c00000:03e9:0001
 	s 11214000:22000000:0:2:192:2:0:1:2:2:2
 /
+00c00000:042c:0001
+	s 11778000:29500000:1:9:192:2:0:1:1:1:2
+/
 00a00000:0001:0040
 	s 11512000:30000000:0:3:160:2:0:1:2:0:2
 /
@@ -524,9 +527,6 @@ transponders
 /
 00a00000:9ca4:016e
 	s 11220000:30000000:0:7:160:2:0:1:2:3:0
-/
-00a02b3f:4310:0001
-	s 11071000:274000:0:1:160:2:0
 /
 00a02b40:4300:0001
 	s 11072000:274000:0:1:160:2:0
@@ -775,7 +775,7 @@ transponders
 	s 11137000:27500000:0:3:130:2:0
 /
 00820000:33f4:013e
-	s 11179000:27500000:0:3:130:2:0
+	s 11179000:27500000:0:3:130:2:0:1:2:0:2
 /
 00820000:3458:013e
 	s 11200000:27500000:1:4:130:2:0
@@ -3215,9 +3215,6 @@ p:GoingLiveTV.co.uk
 0003:00eb2d9e:0001:0001:25:0
 UKI-1444 P1
 p:Stryder TV
-0e83:00eb2d3d:0bbf:0003:1:0
-TVP Polonia
-p:TVP S.A.
 0001:00ebacec:0001:0001:25:0
 DIAGEO
 p:LINKS BROADCAST
@@ -7190,6 +7187,12 @@ p:ORF
 3462:00c00000:03e9:0001:31:0
 RTL UHD Austria
 p:ORS
+1646:00c00000:042c:0001:2:0
+VRT Radio 1
+p:SES ASTRA
+1645:00c00000:042c:0001:22:0
+BVN - Beste van Vlaanderen en Nederland
+p:SES ASTRA
 001e:00a00000:0001:0040:22:0
 National Geographic Croatia
 p:Max TV
@@ -7724,9 +7727,6 @@ p:DigitALB
 0001:00a03119:0001:ffff:1:0
 SIC International
 p:TANDBERG
-038f:00a00000:4e84:016e:22:0
-HRT International
-p:OiV Zagreb
 0034:00a00000:cb2c:016e:1:0
 Pink Thriller
 p:pink
@@ -7991,63 +7991,6 @@ p:VIPnet
 0741:00a00000:c5a8:016e:25:0
 BBC First HD
 p:A HR
-04c9:00a00000:016a:016e:1:0
-Elrodi TV
-p:Tring Digital
-000f:00a00000:016a:016e:1:0
-ABC News
-p:Tring Digital
-0b0e:00a00000:016a:016e:1:0
-Bunga Bunga
-p:Tring Digital
-0087:00a00000:016a:016e:1:0
-RTK 1 Sat (Kosovo)
-p:Tring Digital
-000e:00a00000:016a:016e:1:0
-Klan Kosova
-p:Tring Digital
-0046:00a00000:016a:016e:1:0
-Tring History
-p:Tring Digital
-0321:00a00000:016a:016e:1:0
-Kids
-p:Tring Digital
-126e:00a00000:016a:016e:1:0
-Prince Kids
-p:Tring Digital
-132f:00a00000:016a:016e:1:0
-Artkino 1
-p:Tring Digital
-1335:00a00000:016a:016e:1:0
-Episode
-p:Tring Digital
-177b:00a00000:016a:016e:1:0
-Dukagjini
-p:Tring Digital
-1790:00a00000:016a:016e:1:0
-Alsat-M
-p:Tring Digital
-1330:00a00000:016a:016e:1:0
-Artkino 2
-p:Tring Digital
-1331:00a00000:016a:016e:1:0
-Artkino 3
-p:Tring Digital
-1332:00a00000:016a:016e:1:0
-Artdoku 1
-p:Tring Digital
-1333:00a00000:016a:016e:1:0
-Artdoku 2
-p:Tring Digital
-1271:00a00000:016a:016e:1:0
-T7
-p:Tring Digital
-0e86:00a00000:016a:016e:1:0
-Prime Albania
-p:Tring Digital
-f2df:00a00000:016a:016e:1:0
-Gurmania
-p:Tring Digital
 0001:00a0b115:0001:0001:1:0
 Kanal D Romania
 p:DoganMedia
@@ -8213,6 +8156,9 @@ p:Tring TV
 0817:00a00000:0168:016e:12:0
 OTA
 p:INC
+12c0:00a00000:0168:016e:1:0
+Kanal D Drama
+p:Tring TV
 0265:00a02a0a:4f4c:016e:9:0
 KSF-S270HDCO
 p:DigitALB
@@ -10352,9 +10298,6 @@ p:Telespazio
 132e:00820000:33f4:013e:1:0
 Juwelo TV Italia
 p:MEDIA BROADCAST
-132d:00820000:33f4:013e:1:0
-QVC Italia
-p:Harmonic
 132c:00820000:33f4:013e:1:0
 Fashion Tv
 p:Telespazio
@@ -10364,17 +10307,11 @@ p:Telespazio
 136a:00820000:33f4:013e:1:0
 TeleCampione
 p:Telespazio
-1380:00820000:33f4:013e:1:0
-Made In Italy
-p:Telespazio
 1381:00820000:33f4:013e:1:0
 Arte Investimenti
 p:Harmonic
 1382:00820000:33f4:013e:1:0
 Telecupole
-p:Telespazio
-1383:00820000:33f4:013e:1:0
-Viva l`Italia Channel
 p:Telespazio
 1384:00820000:33f4:013e:1:0
 All In Channel
@@ -10385,12 +10322,6 @@ p:Harmonic
 136e:00820000:33f4:013e:1:0
 Regal TV
 p:Telespazio
-05dc:00820000:33f4:013e:1:0
-Rai Africa
-p:Telespazio
-132f:00820000:33f4:013e:1:0
-Juwelo TV Italia
-p:Harmonic
 135d:00820000:33f4:013e:2:0
 Radio Margherita
 p:Telespazio
@@ -15685,9 +15616,6 @@ RADIO 06 WORLD SERVICE
 p:IRIB
 1ef9:00820000:2c24:013e:1:0
 Sahar Kurdish TV
-p:IRIB
-0160:00820000:2c24:013e:2:0
-RADIO TEST IRAN
 p:IRIB
 05f2:00820000:2c24:013e:1:0
 Jame-Jam TV 2

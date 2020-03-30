@@ -303,6 +303,9 @@ transponders
 00c00000:03e9:0001
 	s 11214000:22000000:0:2:192:2:0:1:2:2:2
 /
+00c00000:042c:0001
+	s 11778000:29500000:1:9:192:2:0:1:1:1:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -334,7 +337,7 @@ transponders
 	s 11137000:27500000:0:3:130:2:0
 /
 00820000:33f4:013e
-	s 11179000:27500000:0:3:130:2:0
+	s 11179000:27500000:0:3:130:2:0:1:2:0:2
 /
 00820000:3458:013e
 	s 11200000:27500000:1:4:130:2:0
@@ -4553,6 +4556,12 @@ p:ORF
 3462:00c00000:03e9:0001:31:0
 RTL UHD Austria
 p:ORS
+1646:00c00000:042c:0001:2:0
+VRT Radio 1
+p:SES ASTRA
+1645:00c00000:042c:0001:22:0
+BVN - Beste van Vlaanderen en Nederland
+p:SES ASTRA
 439f:00820000:2cec:013e:1:0
 BVN - Beste van Vlaanderen en Nederland
 p:RRsat
@@ -4982,9 +4991,6 @@ p:Telespazio
 132e:00820000:33f4:013e:1:0
 Juwelo TV Italia
 p:MEDIA BROADCAST
-132d:00820000:33f4:013e:1:0
-QVC Italia
-p:Harmonic
 132c:00820000:33f4:013e:1:0
 Fashion Tv
 p:Telespazio
@@ -4994,17 +5000,11 @@ p:Telespazio
 136a:00820000:33f4:013e:1:0
 TeleCampione
 p:Telespazio
-1380:00820000:33f4:013e:1:0
-Made In Italy
-p:Telespazio
 1381:00820000:33f4:013e:1:0
 Arte Investimenti
 p:Harmonic
 1382:00820000:33f4:013e:1:0
 Telecupole
-p:Telespazio
-1383:00820000:33f4:013e:1:0
-Viva l`Italia Channel
 p:Telespazio
 1384:00820000:33f4:013e:1:0
 All In Channel
@@ -5015,12 +5015,6 @@ p:Harmonic
 136e:00820000:33f4:013e:1:0
 Regal TV
 p:Telespazio
-05dc:00820000:33f4:013e:1:0
-Rai Africa
-p:Telespazio
-132f:00820000:33f4:013e:1:0
-Juwelo TV Italia
-p:Harmonic
 135d:00820000:33f4:013e:2:0
 Radio Margherita
 p:Telespazio
@@ -10315,9 +10309,6 @@ RADIO 06 WORLD SERVICE
 p:IRIB
 1ef9:00820000:2c24:013e:1:0
 Sahar Kurdish TV
-p:IRIB
-0160:00820000:2c24:013e:2:0
-RADIO TEST IRAN
 p:IRIB
 05f2:00820000:2c24:013e:1:0
 Jame-Jam TV 2

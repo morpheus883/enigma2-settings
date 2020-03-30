@@ -747,6 +747,9 @@ transponders
 00c00000:03e9:0001
 	s 11214000:22000000:0:2:192:2:0:1:2:2:2
 /
+00c00000:042c:0001
+	s 11778000:29500000:1:9:192:2:0:1:1:1:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -778,7 +781,7 @@ transponders
 	s 11137000:27500000:0:3:130:2:0
 /
 00820000:33f4:013e
-	s 11179000:27500000:0:3:130:2:0
+	s 11179000:27500000:0:3:130:2:0:1:2:0:2
 /
 00820000:3458:013e
 	s 11200000:27500000:1:4:130:2:0
@@ -1688,28 +1691,28 @@ p:Sky Digital
 0e29:011a0000:07e0:0002:25:0
 Boomerang HD
 p:BSkyB
-0e2a:011a0000:07e0:0002:25:1
+0e2a:011a0000:07e0:0002:25:0
 Animal Planet HD
 p:BSkyB
-0ee7:011a0000:07e0:0002:25:2
+0ee7:011a0000:07e0:0002:25:0
 Sky Modern Greats HD
 p:BSkyB
-0ee8:011a0000:07e0:0002:25:3
+0ee8:011a0000:07e0:0002:25:0
 Sky Drama HD
 p:BSkyB
-0ee9:011a0000:07e0:0002:25:4
+0ee9:011a0000:07e0:0002:25:0
 Sky ScFi/Horror HD
 p:BSkyB
-0eeb:011a0000:07e0:0002:25:5
+0eeb:011a0000:07e0:0002:25:0
 Sky Comedy HD
 p:BSkyB
-0f3c:011a0000:07e0:0002:25:6
+0f3c:011a0000:07e0:0002:25:0
 Sky Disney HD
 p:BSkyB
-0f82:011a0000:07e0:0002:25:7
+0f82:011a0000:07e0:0002:25:0
 TLC HD
 p:BSkyB
-0fa6:011a0000:07e0:0002:25:8
+0fa6:011a0000:07e0:0002:25:0
 W HD
 p:BSkyB
 0e2b:011a0000:07f2:0002:25:0
@@ -3851,93 +3854,36 @@ p:BSkyB
 1f69:011ab0fc:1f69:ffff:1:0
 EDS 804.1 HD
 p:TV3
-0e29:011a2dc8:07e8:0002:25:0
-Boomerang HD
-p:BSkyB
-0e2a:011a2dc8:07e8:0002:25:0
-Animal Planet HD
-p:BSkyB
-0f3c:011a2dc8:07e8:0002:25:0
-Sky Disney HD
-p:BSkyB
-0f82:011a2dc8:07e8:0002:25:0
-TLC HD
-p:BSkyB
-0fa6:011a2dc8:07e8:0002:25:0
-W HD
-p:BSkyB
-0ee7:011a2dc8:07e8:0002:25:0
-Sky Modern Greats HD
-p:BSkyB
-0ee8:011a2dc8:07e8:0002:25:0
-Sky Drama HD
-p:BSkyB
-0ee9:011a2dc8:07e8:0002:25:0
-Sky ScFi/Horror HD
-p:BSkyB
-0eeb:011a2dc8:07e8:0002:25:0
-Sky Comedy HD
-p:BSkyB
-0cc9:011a0000:07ee:0002:25:0
+0cc9:011aaf3a:07ee:0002:25:0
 Sky Sports News HD
 p:BSkyB,c:090107
-0e2d:011a0000:07ee:0002:25:0
+0e2d:011aaf3a:07ee:0002:25:0
 Sky Sports News HD
 p:BSkyB,c:090108
-0eee:011a0000:07ee:0002:25:0
+0eee:011aaf3a:07ee:0002:25:0
 Sky Sports Action HD
 p:Sky Digital
-0ef0:011a0000:07ee:0002:25:0
-SkySp ActionHD
-p:Sky Digital
-0efb:011a0000:07ee:0002:25:0
-Sky Sports F1 HD
-p:Sky Digital
-0efc:011a0000:07ee:0002:25:0
-Sky Spts F1 HD
-p:Sky Digital
-0f0e:011a0000:07ee:0002:25:0
-Sky News Ireland HD
-p:BSkyB
-0f26:011a0000:07ee:0002:25:0
-Sky Sports Cricket HD
-p:BSkyB
-0f4b:011a0000:07ee:0002:25:0
-Sky Sports Cricket HD
-p:BSkyB
-0ffc:011a0000:07ee:0002:25:0
-Sky Sp Mix HD
-p:BSkyB,c:090108
-0f0e:011aaf3a:07ee:0002:25:0
-Sky News HD
-p:BSkyB
-0f26:011aaf3a:07ee:0002:25:0
-SkySpCricketHD
-p:BSkyB
-0e2d:011aaf3a:07ee:0002:25:0
-SkySp News HD
-p:BSkyB
-0f4b:011aaf3a:07ee:0002:25:0
-SkySpCricketHD
-p:BSkyB
-0cc9:011aaf3a:07ee:0002:25:0
-SkySp Mix HD
-p:BSkyB
-0eee:011aaf3a:07ee:0002:25:0
-SkySp ActionHD
-p:BSkyB
 0ef0:011aaf3a:07ee:0002:25:0
 SkySp ActionHD
-p:BSkyB
+p:Sky Digital
 0efb:011aaf3a:07ee:0002:25:0
-SkySp F1 HD
-p:BSkyB
+Sky Sports F1 HD
+p:Sky Digital
 0efc:011aaf3a:07ee:0002:25:0
-SkySp F1 HD
+Sky Spts F1 HD
+p:Sky Digital
+0f0e:011aaf3a:07ee:0002:25:0
+Sky News Ireland HD
+p:BSkyB
+0f26:011aaf3a:07ee:0002:25:0
+Sky Sports Cricket HD
+p:BSkyB
+0f4b:011aaf3a:07ee:0002:25:0
+Sky Sports Cricket HD
 p:BSkyB
 0ffc:011aaf3a:07ee:0002:25:0
 SkySp Mix HD
-p:BSkyB
+p:BSkyB,c:090108
 150e:00eb0000:0c84:0003:31:0
 Astra UHD Demo
 p:SES,c:0904b0
@@ -6113,9 +6059,6 @@ p:GoingLiveTV.co.uk
 0003:00eb2d9e:0001:0001:25:0
 UKI-1444 P1
 p:Stryder TV
-0e83:00eb2d3d:0bbf:0003:1:0
-TVP Polonia
-p:TVP S.A.
 0001:00ebacec:0001:0001:25:0
 DIAGEO
 p:LINKS BROADCAST
@@ -10088,6 +10031,12 @@ p:ORF
 3462:00c00000:03e9:0001:31:0
 RTL UHD Austria
 p:ORS
+1646:00c00000:042c:0001:2:0
+VRT Radio 1
+p:SES ASTRA
+1645:00c00000:042c:0001:22:0
+BVN - Beste van Vlaanderen en Nederland
+p:SES ASTRA
 439f:00820000:2cec:013e:1:0
 BVN - Beste van Vlaanderen en Nederland
 p:RRsat
@@ -10517,9 +10466,6 @@ p:Telespazio
 132e:00820000:33f4:013e:1:0
 Juwelo TV Italia
 p:MEDIA BROADCAST
-132d:00820000:33f4:013e:1:0
-QVC Italia
-p:Harmonic
 132c:00820000:33f4:013e:1:0
 Fashion Tv
 p:Telespazio
@@ -10529,17 +10475,11 @@ p:Telespazio
 136a:00820000:33f4:013e:1:0
 TeleCampione
 p:Telespazio
-1380:00820000:33f4:013e:1:0
-Made In Italy
-p:Telespazio
 1381:00820000:33f4:013e:1:0
 Arte Investimenti
 p:Harmonic
 1382:00820000:33f4:013e:1:0
 Telecupole
-p:Telespazio
-1383:00820000:33f4:013e:1:0
-Viva l`Italia Channel
 p:Telespazio
 1384:00820000:33f4:013e:1:0
 All In Channel
@@ -10550,12 +10490,6 @@ p:Harmonic
 136e:00820000:33f4:013e:1:0
 Regal TV
 p:Telespazio
-05dc:00820000:33f4:013e:1:0
-Rai Africa
-p:Telespazio
-132f:00820000:33f4:013e:1:0
-Juwelo TV Italia
-p:Harmonic
 135d:00820000:33f4:013e:2:0
 Radio Margherita
 p:Telespazio
@@ -15850,9 +15784,6 @@ RADIO 06 WORLD SERVICE
 p:IRIB
 1ef9:00820000:2c24:013e:1:0
 Sahar Kurdish TV
-p:IRIB
-0160:00820000:2c24:013e:2:0
-RADIO TEST IRAN
 p:IRIB
 05f2:00820000:2c24:013e:1:0
 Jame-Jam TV 2
