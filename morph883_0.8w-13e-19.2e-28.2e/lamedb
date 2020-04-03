@@ -231,12 +231,6 @@ transponders
 011ab0fc:1f69:ffff
 	s 12540000:3600000:1:3:282:2:0:1:2:0:2
 /
-011a2dc8:07e8:0002
-	s 11720000:27500000:0:2:282:2:0:1:2:0:2
-/
-011a0000:07ee:0002
-	s 12285000:27500000:1:2:282:2:0:1:2:0:2
-/
 011aaf3a:07ee:0002
 	s 12090000:27500000:1:2:282:2:0:1:2:0:2
 /
@@ -1035,7 +1029,7 @@ fff80000:0af4:00bb
 0e080000:0af3:00bb
 	s 12169000:30000000:0:3:-8:2:0:1:2:1:2
 /
-0e080000:004d:0046
+fff8306f:004b:0046
 	s 12399000:30000000:0:2:-8:2:0:1:2:1:2
 /
 0e080000:004f:0046
@@ -1097,9 +1091,6 @@ fff8b0f7:0001:ffff
 /
 fff8b0e7:010c:ffff
 	s 12519000:2500000:1:3:-8:2:0:1:2:0:2
-/
-0e080000:004b:0056
-	s 12399000:30000000:0:2:-8:2:0:1:2:1:2
 /
 end
 services
@@ -2396,9 +2387,6 @@ p:BSkyB
 c6c2:011a0000:082a:0002:1:0
 CNBC Europe
 p:BSkyB
-c6c3:011a0000:082a:0002:1:0
-PTV Global
-p:BSkyB
 c6c4:011a0000:082a:0002:1:0
 Venus TV
 p:Sky Digital
@@ -2502,7 +2490,7 @@ d138:011a0000:0832:0002:1:0
 SonLife Broadcasting Network
 p:Sky Digital
 d115:011a0000:0832:0002:1:0
-GNTV - Grace Network TV
+Channel 7
 p:BSkyB
 d106:011a0000:0832:0002:1:0
 Channels 24
@@ -2779,6 +2767,9 @@ LBC News
 p:BSkyB
 d769:011a0000:082f:0002:1:0
 Celebration TV
+p:BSkyB
+d76f:011a0000:082f:0002:1:0
+PTV Global
 p:BSkyB
 c6d7:011a0000:0840:0002:1:0
 CBS Drama
@@ -3427,6 +3418,9 @@ SkySp PL HD
 p:BSkyB
 0ff0:011a0000:07ed:0002:25:0
 Manchester United TV HD
+p:BSkyB
+1453:011a0000:07ed:0002:25:0
+SkySp PL HD
 p:BSkyB
 ccb0:011a0000:080e:0002:1:0
 Investigation Discovery Europe
@@ -4918,6 +4912,9 @@ Eurosport360HD 2
 p:SKY
 0031:00c00000:000d:0085:22:0
 Spiegel TV Wissen
+p:SKY
+001b:00c00000:000d:0085:22:0
+Nicktoons Germany
 p:SKY
 4e21:00c00000:043a:0001:1:0
 ProSieben Schweiz
@@ -6797,6 +6794,9 @@ p:GoTV
 3405:00c00000:03ed:0001:22:0
 Melodie TV
 p:-
+3401:00c00000:03ed:0001:22:0
+Krone TV
+p:-
 1078:00c0ac18:03ee:0001:1:0
 RAI News 24
 p:Harmonic,c:0903ef
@@ -7169,8 +7169,8 @@ p:
 0085:00c02dc7:0003:0085:25:0
 Beate-Uhse.TV HD
 p:SKY
-008a:00c02dc7:0003:0085:25:0
-Disney Junior D HD
+008a:00c02dc7:0003:0085:1:0
+Nick Jr.
 p:SKY
 0145:00c02dc7:0003:0085:211:0
 Sky Sport Austria 2
@@ -16670,20 +16670,26 @@ p:Slovak Telekom
 0bc3:0e080000:0af3:00bb:1:0
 Viasat History HD
 p:Slovak Telekom
-2328:0e080000:004d:0046:25:0
+2328:fff8306f:004b:0046:25:0
 TS Sports 1
 p:Telenor
-2329:0e080000:004d:0046:25:0
+2329:fff8306f:004b:0046:25:0
 TS Sports 2
 p:Telenor
-232a:0e080000:004d:0046:25:0
+232a:fff8306f:004b:0046:25:0
 TS Sports 3
 p:Telenor
-232b:0e080000:004d:0046:25:0
+232b:fff8306f:004b:0046:25:0
 TS Sports 4
 p:Telenor
-232c:0e080000:004d:0046:25:0
+232c:fff8306f:004b:0046:25:0
 TS Sports 5
+p:Telenor
+1b90:fff8306f:004b:0046:22:0
+Test 7056
+p:Telenor
+1d21:fff8306f:004b:0046:22:0
+Test 7457
 p:Telenor
 1f1d:0e080000:004f:0046:22:0
 Telia Liiga 5
@@ -17183,12 +17189,6 @@ p:RCS-RDS
 010c:fff8b0e7:010c:ffff:1:0
 DIGI24HD B268DGI
 p:RCS-RDS
-1d21:0e080000:004b:0056:22:0
-Test 7457
-p:Telenor
-1b90:0e080000:004b:0056:22:0
-Test 7056
-p:Telenor
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2020
