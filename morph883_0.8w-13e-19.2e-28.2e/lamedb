@@ -1092,6 +1092,12 @@ fff8b0f7:0001:ffff
 fff8b0e7:010c:ffff
 	s 12519000:2500000:1:3:-8:2:0:1:2:0:2
 /
+0e08b0e7:0136:ffff
+	s 12519000:2500000:1:3:-8:2:0:1:2:0:2
+/
+0e080000:0045:0046
+	s 10903000:25000000:1:3:-8:2:0:1:2:1:2
+/
 end
 services
 23fb:011a0000:07f9:0002:1:0
@@ -9264,16 +9270,13 @@ p:Nova
 R4
 p:Nova
 0132:00820000:157c:013e:1:0
-R5
+Mega HD
 p:Nova
 0133:00820000:157c:013e:1:0
 R8
 p:Nova
 013c:00820000:157c:013e:1:0
 Disney XD Greece
-p:Nova
-013e:00820000:157c:013e:1:0
-Nova Stars
 p:Nova
 0140:00820000:157c:013e:1:0
 ANT 1
@@ -9344,8 +9347,8 @@ p:Nova
 013d:00820000:157c:013e:1:0
 MUX1S7
 p:Nova
-013f:00820000:157c:013e:1:0
-Insight TV
+013f:00820000:157c:013e:25:0
+Insight TV HD
 p:Nova
 0141:00820000:157c:013e:1:0
 MUX1S5
@@ -9356,6 +9359,9 @@ p:Nova
 0149:00820000:157c:013e:1:0
 MUX1S6
 p:Nova
+013e:00820000:157c:013e:25:0
+Nova Cinema Extra HD
+p:NetMed,C:0000
 1e5c:00820000:15e0:fbff:25:0
 Sky Calcio 8 HD
 p:Sky Italia
@@ -10436,9 +10442,6 @@ p:NetMed,c:090107
 0183:00820000:1c84:013e:1:0
 ÅÑÔ3
 p:NetMed,c:09010a
-0164:00820000:1c84:013e:1:0
-NovaSports Extra 2
-p:NetMed,c:09011b
 0160:00820000:1c84:013e:1:0
 testserv100
 p:NetMed
@@ -10454,6 +10457,9 @@ p:NETMED
 0168:00820000:1c84:013e:1:0
 MyZen TV HD
 p:NetMed
+0164:00820000:1c84:013e:1:0
+NR1 HD
+p:NetMed,C:0000
 1c85:00820000:1ce8:0071:1:0
 Polsat Romans
 p:Cyfra +
@@ -12578,9 +12584,6 @@ p:nc+,c:0903fa
 3d63:0082aa2c:2c88:013e:1:0
 EskaROCK TV
 p:TVN
-3d57:0082aa2c:2c88:013e:1:0
-VOX Music TV
-p:TVN
 3d5a:0082aa2c:2c88:013e:1:0
 WP TV
 p:nc+
@@ -12599,6 +12602,9 @@ p:Cyfra +
 3d60:0082aa2c:2c88:013e:1:0
 Puls 2
 p:nc+
+3d57:0082aa2c:2c88:013e:1:0
+TVN 24 Bizness HD
+p:Canal+,C:0000
 37af:00822c93:044c:013e:25:0
 teleTOON+ HD
 p:nc+
@@ -13337,6 +13343,9 @@ p:Eutelsat
 0651:00820000:2454:013e:1:0
 TV Art Live
 p:EUTELSAT
+0652:00820000:2454:013e:1:0
+BYU TV Global
+p:EU: Efi - Ara
 0079:00820000:04b0:0110:25:0
 Italia 1 HD
 p:
@@ -14409,7 +14418,7 @@ p:UPC Direct
 Duna World.
 p:UPC Direct
 75fc:0e080000:02be:0600:1:0
-Test 30204
+Viasat Nature CEE
 p:UPC
 7919:0e080000:02c6:0600:25:0
 Duna HD
@@ -14945,9 +14954,6 @@ p:UPC Direct
 78be:0e080000:02c5:0600:1:0
 Pro TV
 p:UPC Direct
-78c5:0e080000:02c5:0600:1:0
-Antena Stars
-p:Focus Sat
 78c6:0e080000:02c5:0600:1:0
 Duna TV.
 p:UPC Direct,c:090384
@@ -14989,6 +14995,9 @@ SuperTV2 ( SVT)
 p:UPC Direct
 78d2:0e080000:02c5:0600:1:0
 Fem3 HU ( SVT)
+p:UPC Direct
+78c5:0e080000:02c5:0600:1:0
+Food Network
 p:UPC Direct
 0514:0e08b00f:0002:005e:1:0
 Discovery Historia Polska
@@ -17189,6 +17198,9 @@ p:RCS-RDS
 010c:fff8b0e7:010c:ffff:1:0
 DIGI24HD B268DGI
 p:RCS-RDS
+1bcf:0e080000:0045:0046:25:0
+Canal 9 HD Danmark
+p:Telenor
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2020

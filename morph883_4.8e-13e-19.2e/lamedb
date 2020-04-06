@@ -810,6 +810,12 @@ transponders
 003031be:0001:0001
 	s 12734000:3600000:0:2:48:2:0:1:2:0:2
 /
+0030b182:0001:ffff
+	s 12674000:3750000:1:7:48:2:0:1:2:0:2
+/
+00302df6:000c:0055
+	s 11766000:27500000:0:2:48:2:0:1:2:0:2
+/
 end
 services
 0001:00d8ad61:0001:0001:1:0
@@ -6234,16 +6240,13 @@ p:Nova
 R4
 p:Nova
 0132:00820000:157c:013e:1:0
-R5
+Mega HD
 p:Nova
 0133:00820000:157c:013e:1:0
 R8
 p:Nova
 013c:00820000:157c:013e:1:0
 Disney XD Greece
-p:Nova
-013e:00820000:157c:013e:1:0
-Nova Stars
 p:Nova
 0140:00820000:157c:013e:1:0
 ANT 1
@@ -6314,8 +6317,8 @@ p:Nova
 013d:00820000:157c:013e:1:0
 MUX1S7
 p:Nova
-013f:00820000:157c:013e:1:0
-Insight TV
+013f:00820000:157c:013e:25:0
+Insight TV HD
 p:Nova
 0141:00820000:157c:013e:1:0
 MUX1S5
@@ -6326,6 +6329,9 @@ p:Nova
 0149:00820000:157c:013e:1:0
 MUX1S6
 p:Nova
+013e:00820000:157c:013e:25:0
+Nova Cinema Extra HD
+p:NetMed,C:0000
 1e5c:00820000:15e0:fbff:25:0
 Sky Calcio 8 HD
 p:Sky Italia
@@ -7406,9 +7412,6 @@ p:NetMed,c:090107
 0183:00820000:1c84:013e:1:0
 ÅÑÔ3
 p:NetMed,c:09010a
-0164:00820000:1c84:013e:1:0
-NovaSports Extra 2
-p:NetMed,c:09011b
 0160:00820000:1c84:013e:1:0
 testserv100
 p:NetMed
@@ -7424,6 +7427,9 @@ p:NETMED
 0168:00820000:1c84:013e:1:0
 MyZen TV HD
 p:NetMed
+0164:00820000:1c84:013e:1:0
+NR1 HD
+p:NetMed,C:0000
 1c85:00820000:1ce8:0071:1:0
 Polsat Romans
 p:Cyfra +
@@ -9548,9 +9554,6 @@ p:nc+,c:0903fa
 3d63:0082aa2c:2c88:013e:1:0
 EskaROCK TV
 p:TVN
-3d57:0082aa2c:2c88:013e:1:0
-VOX Music TV
-p:TVN
 3d5a:0082aa2c:2c88:013e:1:0
 WP TV
 p:nc+
@@ -9569,6 +9572,9 @@ p:Cyfra +
 3d60:0082aa2c:2c88:013e:1:0
 Puls 2
 p:nc+
+3d57:0082aa2c:2c88:013e:1:0
+TVN 24 Bizness HD
+p:Canal+,C:0000
 37af:00822c93:044c:013e:25:0
 teleTOON+ HD
 p:nc+
@@ -10307,6 +10313,9 @@ p:Eutelsat
 0651:00820000:2454:013e:1:0
 TV Art Live
 p:EUTELSAT
+0652:00820000:2454:013e:1:0
+BYU TV Global
+p:EU: Efi - Ara
 0079:00820000:04b0:0110:25:0
 Italia 1 HD
 p:
@@ -13088,6 +13097,9 @@ p:JurnalTV
 0002:003031be:0001:0001:1:0
 TEST
 p:REFORMA ART
+0020:0030b182:0001:ffff:1:0
+UKR-024
+p:Tandberg
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2020
