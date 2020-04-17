@@ -1167,9 +1167,6 @@ transponders
 01a42b3f:0001:ffff
 	s 11071000:2222000:0:4:420:2:0
 /
-01a42b76:0001:ffff
-	s 11126000:2680000:0:3:420:2:0:1:2:0:2
-/
 01860000:000d:001c
 	s 12524000:30000000:1:5:390:2:0
 /
@@ -1259,9 +1256,6 @@ transponders
 /
 0186aba3:0000:0001
 	s 11171000:7200000:1:3:390:2:0:1:2:0:2
-/
-01860000:0001:02be
-	s 10730000:30000000:0:4:390:2:0:1:2:0:2
 /
 01860000:0002:02be
 	s 10730000:30000000:0:4:390:2:0:1:2:0:2
@@ -2592,6 +2586,9 @@ transponders
 00eb2d59:0000:0000
 	s 11609000:4800000:0:3:235:2:0:1:2:0:2
 /
+00eb2d59:0001:ffff
+	s 11609000:4800000:0:3:235:2:0:1:2:0:2
+/
 00d8ad9e:0005:0001
 	s 11678000:2850000:1:5:216:2:0
 /
@@ -3195,9 +3192,6 @@ transponders
 00a00000:0064:0064
 	s 12717000:7500000:0:3:160:2:0:1:1:0:2
 /
-00a00000:44dd:44dd
-	s 11071000:334000:0:1:160:2:0
-/
 00a00000:9f60:016e
 	s 11366000:30000000:1:2:160:2:0:1:2:0:2
 /
@@ -3266,9 +3260,6 @@ transponders
 /
 00a030f3:0001:ffff
 	s 12531000:3166000:0:0:160:2:0:1:2:0:2
-/
-00a030e7:0001:0001
-	s 12519000:3166000:0:2:160:2:0:1:2:0:2
 /
 00a030fa:0001:ffff
 	s 12538000:3166000:0:2:160:2:0:1:2:0:2
@@ -6387,6 +6378,18 @@ eeee0000:791a:217c
 eeee0000:23e4:217c
 	t 474000000:0:5:5:3:2:4:4:2:0:0:0
 /
+eeee0000:0385:0110
+	t 722000000:0:5:5:3:2:4:4:2:0:0:0
+/
+eeee0000:0385:0110
+	t 722000000:0:5:5:3:2:4:4:2:0:0:0
+/
+eeee0000:0202:001d
+	t 746000000:0:5:5:3:2:4:4:2:0:0:0
+/
+eeee0000:0202:001d
+	t 746000000:0:5:5:3:2:4:4:2:0:0:0
+/
 end
 services
 003c:02fd2d1c:0001:ffdc:1:0
@@ -7934,6 +7937,9 @@ p:SENTECH
 00fa:02adb18a:0005:0049:1:0
 Commec Channel
 p:SENTECH
+00de:02adb18a:0005:0049:1:0
+ACBN
+p:SENTECH
 0003:02ad3112:0001:0001:1:0
 Homebase TV
 p:ViewMedia
@@ -8660,12 +8666,6 @@ p:Tv Today
 0001:02ad0000:0001:00c9:25:0
 Sky News International
 p:
-0101:02ad315e:0000:0000:1:0
-ACBN
-p:ACBN
-0301:02ad315e:0000:0000:1:0
-Foursquare TV
-p:ACBN
 0020:02ad315e:0000:0000:1:0
 12638H SID 0x20
 p:DVB-S2 QPSK 12638H 68.5Â°E
@@ -14282,9 +14282,6 @@ p:GUC TELEKOM MEDYA
 392f:01a40000:a21d:042e:1:0
 Ege TV
 p:GUC TELEKOM
-3930:01a40000:a21d:042e:1:0
-Bahartürk
-p:GUC TELEKOM MEDYA
 3931:01a40000:a21d:042e:1:0
 ERT Sah TV
 p:GUC TELEKOM MEDYA
@@ -14473,6 +14470,9 @@ TarimTürk TV
 p:DEMIROREN MEDYA
 0563:01a4af02:0003:0042:2:0
 SE
+p:DEMIROREN MEDYA
+053d:01a4af02:0003:0042:1:0
+Bahartürk
 p:DEMIROREN MEDYA
 2c24:01a40000:797d:042e:1:0
 Shopping Channel
@@ -23835,7 +23835,7 @@ p:Sky Digital
 History +1
 p:Sky Digital
 15af:011a0000:07d7:0002:1:0
-H2
+History 2
 p:Sky Digital
 15b2:011a0000:07d7:0002:1:0
 Crime & Investigation Network
@@ -23861,6 +23861,9 @@ p:Sky Digital
 0960:011a0000:07d7:0002:1:0
 SyFy UK +1
 p:Sky Digital
+1451:011a0000:07d7:0002:1:0
+Sky Witness
+p:BSkyB
 d110:011a0000:0832:0002:1:0
 Jewellery Ch.
 p:BSkyB
@@ -30815,9 +30818,9 @@ p:Harmonic
 0001:00ebb188:0001:ffff:1:0
 WDR HD-SNG-4 ENC-2
 p:Service Provider
-0001:00eb2d59:0000:0000:25:0
-POL-50 ENC 1
-p:
+0001:00eb2d59:0001:ffff:1:0
+POL - 010 ENC 1
+p:ENCODER 1
 0001:00d8ad9e:0005:0001:1:0
 Alarabiy Alhadath
 p:Samacom
@@ -52892,12 +52895,6 @@ p:Canal Digital Nordic
 4699:0e080000:0018:0046:25:0
 TV3 HD (S) - Text
 p:Canal Digital Nordic
-1ed7:0e080000:0018:0046:22:0
-TST1
-p:Telenor
-1ed8:0e080000:0018:0046:22:0
-TST2
-p:Telenor
 42bc:0e080000:0018:0046:25:0
 Kuukauden kanava
 p:Telenor
@@ -54589,6 +54586,12 @@ Canal 9 HD Danmark
 p:Telenor
 32d2:0e080000:0045:0046:22:0
 Telenor Testcard
+p:Telenor
+1ed7:0e080000:0045:0046:22:0
+TST1
+p:Telenor
+1ed8:0e080000:0045:0046:22:0
+TST2
 p:Telenor
 0001:ffe28f2a:0001:ffff:25:0
 Channels TV
@@ -58395,92 +58398,89 @@ p:Rai
 RCF
 p:
 0097:0dde0000:32d2:055f:2:0
-RCF01_PAYS_DE_L_AIN
+RCF Pays de l'Ain
 p:
 0098:0dde0000:32d2:055f:2:0
-RCF03_ALLIER
+RCF Allier
 p:
 0099:0dde0000:32d2:055f:2:0
-RCF05_HAUTES_ALPES
+RCF Hautes-Alpes
 p:
 009a:0dde0000:32d2:055f:2:0
-RCF10_AUBE
+RCF Aube Haute-Marne
 p:
 009b:0dde0000:32d2:055f:2:0
-RCF11_PAYS_D_AUDE
+RCF Pays d'Aude
 p:
 009c:0dde0000:32d2:055f:2:0
-RCF18_BERRY
+RCF en Berry
 p:
 009d:0dde0000:32d2:055f:2:0
-RCF21
+RCF en Bourgogne
 p:
 009e:0dde0000:32d2:055f:2:0
-RCF25_BESANCON
+RCF Franche-Comté
 p:
 009f:0dde0000:32d2:055f:2:0
-RCF26
+RCF Drôme-Ardèche
 p:
 00a0:0dde0000:32d2:055f:2:0
-RCF33_BORDEAUX
+RCF Bordeaux
 p:
 00a1:0dde0000:32d2:055f:2:0
-RCF35_ALPHA
+RCF Alpha Rennes
 p:
 00a2:0dde0000:32d2:055f:2:0
-RCF37
+RCF Touraine
 p:
 00a3:0dde0000:32d2:055f:2:0
-RCF38_ISERE
+RCF Isère
 p:
 00a4:0dde0000:32d2:055f:2:0
-RCF41
+RCF Loir et Cher
 p:
 00a5:0dde0000:32d2:055f:2:0
-RCF43_LE_PUY_EN_VELAY
+RCF Haute-Loire
 p:
 00a6:0dde0000:32d2:055f:2:0
-RCF49_ANJOU
+RCF Anjou
 p:
 00a7:0dde0000:32d2:055f:2:0
-RCF51
+RCF Coeur de Champagne
 p:
 00a8:0dde0000:32d2:055f:2:0
-RCF51_MARNE_MEUSE
+RCF Reims-Ardennes
 p:
 00a9:0dde0000:32d2:055f:2:0
-RCF69_LYON_FOURVIERE
+RCF Lyon
 p:
 00aa:0dde0000:32d2:055f:2:0
-RCF73_SAVOIE
+RCF Savoie
 p:
 00ab:0dde0000:32d2:055f:2:0
-RCF74_HAUTE_SAVOIE
+RCF Haute-Savoie
 p:
 00ac:0dde0000:32d2:055f:2:0
-RCF76
+RCF Haute-Normandie
 p:
 00ad:0dde0000:32d2:055f:2:0
-RCF84_LUMIERES
+RCF Vaucluse
 p:
 00ae:0dde0000:32d2:055f:2:0
-RCF85_VENDEE
+RCF Vendée
 p:
 00af:0dde0000:32d2:055f:2:0
-RCF86_POITOU
+RCF Poitou
 p:
 00b0:0dde0000:32d2:055f:2:0
-RCF87
+RCF Limousin
 p:
 00b1:0dde0000:32d2:055f:2:0
-RCF_CORREZE
+RCF Corrèze
 p:
 00b2:0dde0000:32d2:055f:2:0
-RCF_JERICO_MOSELLE
+RCF Jerico-Moselle
 p:
-00c3:0dde0000:32d2:055f:1:0
-VEOA-B Occasion
-p:GLOBECAST
 0064:0dde0000:32d2:055f:2:0
 France Bleu 107.1
 p:Radio France
@@ -58634,6 +58634,9 @@ p:Radio France
 00c4:0dde0000:32d2:055f:1:0
 VEOA-B Occasion
 p:GLOBECAST
+00b4:0dde0000:32d2:055f:2:0
+RCF Contribution
+p:
 0001:0dde0000:0385:0110:0:0
 Servizio OTA1
 p:
@@ -66059,12 +66062,6 @@ p:Meo
 0073:0ce40000:0065:0053:1:0
 Canal Hollywood Portugal
 p:Meo
-138a:0ce40000:000d:0028:1:0
-Russia Today Español
-p:Overon
-0011:0ce40000:000d:0028:1:0
-OVERON Occ
-p:OVERON
 0002:0ce4aa8a:000f:0002:1:0
 Canal Parlamento
 p:Telefonica Spain
@@ -66476,7 +66473,7 @@ p:SID BTV 1
 01cb:0ce40000:0068:0053:1:0
 Eleven Sports 2
 p:Canal Eleven Sports 2
-0583:0ce40000:0068:0053:1:0
+01cd:0ce40000:0068:0053:1:0
 TV Festival
 p:
 00c9:0ce40000:0066:0053:1:0
@@ -70001,12 +69998,6 @@ p:
 0006:eeee0000:0385:0110:0:0
 Servizio 6
 p:
-00c1:eeee0000:0385:0110:25:0
-Sky Sport Serie A HD
-p:
-00c2:eeee0000:0385:0110:25:0
-Sky Sport 24 HD
-p:
 00c5:eeee0000:0385:0110:1:0
 Premium Emotion
 p:
@@ -70057,9 +70048,6 @@ Sportitalia
 p:
 1c18:eeee0000:0384:0110:1:0
 PADRE PIO TV
-p:
-1c1b:eeee0000:0384:0110:1:0
-RADIO ZETA
 p:
 000b:eeee0000:0384:0110:0:0
 Servizio 11
@@ -70194,7 +70182,7 @@ p:
 Servizio 8
 p:
 1436:eeee0000:03b6:0110:1:0
-Sky Sport
+Canale di Servizio
 p:
 1439:eeee0000:03b6:0110:1:0
 Sky Sport Uno
@@ -70212,10 +70200,10 @@ p:
 Sky Sport Serie A
 p:
 141a:eeee0000:03b6:0110:1:0
-Sky Sport
+Canale di Servizio
 p:
 141b:eeee0000:03b6:0110:1:0
-Sky Sport
+Canale di Servizio
 p:
 141c:eeee0000:03b6:0110:1:0
 Premium Action
@@ -70527,7 +70515,7 @@ a867:eeee0000:272b:217c:1:0
 TRS 2
 p:Telestar
 a331:eeee0000:272b:217c:2:0
-RadioItaliaRap
+RadioItaliaTrend
 p:RadioItaliaRap
 a091:eeee0000:272b:217c:1:0
 RADIOCITY
@@ -70580,9 +70568,6 @@ p:SVI 74
 b03a:eeee0000:2023:217c:1:0
 PRIMANTENNA
 p:PRIMANTENNA
-051b:eeee0000:2023:217c:1:0
-Auto_Del_Giorno
-p:Telestar
 0010:eeee0000:0204:001d:1:0
 GIALLO
 p:Persidera
@@ -70691,9 +70676,6 @@ p:Persidera
 0266:eeee0000:0200:001d:1:7
 TV8
 p:Persidera
-0028:eeee0000:0200:001d:1:0
-SUPERTENNIS
-p:Persidera
 003c:eeee0000:0200:001d:1:141
 RadioItaliaTV
 p:Persidera
@@ -70753,9 +70735,6 @@ Rai 2 HD
 p:Rai
 2191:eeee0000:0005:013e:25:0
 Rai 3 HD
-p:Rai
-2198:eeee0000:0005:013e:12:0
-OTA _1
 p:Rai
 2172:eeee0000:0002:013e:1:0
 Rai Sport
@@ -70874,9 +70853,6 @@ p:
 0001:eeee0000:27d7:217c:1:0
 RN1TV...
 p:QUENZA
-0003:eeee0000:27d7:217c:1:0
-DI.TV TSM...
-p:QUENZA
 0068:eeee0000:27d7:217c:1:0
 Telepace...
 p:QUENZA
@@ -70910,9 +70886,6 @@ p:QUENZA
 000e:eeee0000:27d7:217c:2:0
 One Dance...
 p:QUENZA
-0017:eeee0000:27d7:217c:1:0
-MARIA VISION...
-p:QUENZA
 0018:eeee0000:27d7:217c:1:0
 TELECUPOLE...
 p:QUENZA
@@ -70923,14 +70896,11 @@ p:QUENZA
 RADIOPACE...
 p:QUENZA
 000b:eeee0000:27d7:217c:1:0
-RN1G...
+SCH687...
 p:QUENZA
 0015:eeee0000:27d7:217c:1:0
 VideoNovara...
 p:QUENZA
-03e8:eeee0000:27d7:217c:1:0
-sportivi
-p:MEDIASPORTl
 0002:eeee0000:23e5:217c:1:1
 RETE 55
 p:RETE VARESE 1
@@ -70974,7 +70944,7 @@ p:
 Radio Popolare TV
 p:Radio Popolare TV
 0289:eeee0000:23e5:217c:1:0
-Radio 4 You TV
+Tele IN
 p:Radio 4 You
 00c2:eeee0000:23e5:217c:1:0
 Radio 4 You TV
@@ -70989,7 +70959,7 @@ p:OttO fm tv
 Sestarete
 p:Beacom
 00d9:eeee0000:23e5:217c:1:0
-BSO Channel
+Sestarete
 p:Beacom
 0001:eeee0000:0050:217c:1:0
 Canale Italia 11
@@ -71011,9 +70981,6 @@ Serenissima
 p:Canale Italia 2
 0008:eeee0000:0050:217c:1:0
 Canale Italia 11
-p:Canale Italia 2
-0009:eeee0000:0050:217c:1:0
-Canale Italia
 p:Canale Italia 2
 000a:eeee0000:0050:217c:1:0
 Italia 154
@@ -71053,15 +71020,6 @@ Radio Canale Italia
 p:Canale Italia 2
 0010:eeee0000:0050:217c:2:0
 Volami Nel Cuore
-p:Canale Italia 2
-0191:eeee0000:0050:217c:1:0
-Nitegate
-p:Canale Italia 2
-0192:eeee0000:0050:217c:22:0
-Sextosenso
-p:Canale Italia 2
-0193:eeee0000:0050:217c:22:0
-Satisfaction
 p:Canale Italia 2
 0032:eeee0000:0202:001d:1:0
 Motor Trend
@@ -71550,7 +71508,7 @@ p:Persidera
 FIRE TV
 p:Persidera
 0060:eeee0000:791a:217c:1:0
-LIFE 120 CHANNEL
+CANALE 61
 p:Persidera
 0061:eeee0000:791a:217c:1:0
 MONDO CALCIO
@@ -71576,9 +71534,18 @@ p:Persidera
 0063:eeee0000:791a:217c:1:0
 CANALE 259
 p:Persidera
-0127:eeee0000:23e4:217c:1:0
-Sestarete
+00c1:eeee0000:0385:0110:1:0
+IoRestoACasa 2
 p:
+00c2:eeee0000:0385:0110:1:0
+IoRestoACasa 1
+p:
+0082:eeee0000:0202:001d:1:0
+RADIO ZETA
+p:Persidera
+0087:eeee0000:0202:001d:1:0
+BABEL-ROMIT TV
+p:Persidera
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2020
