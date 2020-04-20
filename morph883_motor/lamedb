@@ -93,8 +93,8 @@ transponders
 02c10000:0000:071d
 	s 11096000:23623000:0:8:705:2:0:1:1:0:2
 /
-02c12b46:0001:ffff
-	s 11078000:3100000:0:4:705:2:0:1:2:0:2
+02c12b69:0001:ffff
+	s 11113000:3100000:0:4:705:2:0:1:2:0:2
 /
 02c1b0fa:0001:ffff
 	s 12538000:2222000:1:4:705:2:0:1:0:0:2
@@ -105,8 +105,8 @@ transponders
 02c1b116:0001:ffff
 	s 12566000:1500000:1:4:705:2:0:1:2:0:2
 /
-02c1b11c:0001:0001
-	s 12572000:1500000:1:3:705:2:0:1:2:0:2
+02c1b11a:0001:0001
+	s 12570000:1500000:1:3:705:2:0:1:2:0:2
 /
 02c1b0f0:0001:ffff
 	s 12528000:2222000:1:3:705:2:0
@@ -1707,6 +1707,9 @@ transponders
 0168adac:0001:0001
 	s 11692000:1800000:1:4:360:2:0:1:2:0:2
 /
+0168adac:0001:ffff
+	s 11692000:1800000:1:4:360:2:0:1:2:0:2
+/
 014a0000:f001:2268
 	s 12722000:16730000:1:3:330:2:0:1:1:0:2
 /
@@ -2582,9 +2585,6 @@ transponders
 /
 00ebb188:0001:ffff
 	s 12680000:4800000:1:3:235:2:0:1:2:0:2
-/
-00eb2d59:0000:0000
-	s 11609000:4800000:0:3:235:2:0:1:2:0:2
 /
 00eb2d59:0001:ffff
 	s 11609000:4800000:0:3:235:2:0:1:2:0:2
@@ -3827,6 +3827,9 @@ transponders
 /
 00642b1f:0001:ffff
 	s 11039000:3200000:0:3:100:2:0:1:2:0:2
+/
+00642b50:0000:0000
+	s 11088000:7200000:0:3:100:2:0:1:2:0:2
 /
 005a0000:14b4:009c
 	s 11785000:27500000:0:2:90:2:0:1:2:0:2
@@ -5736,9 +5739,6 @@ fed40000:056c:056c
 0ce40000:0065:0053
 	s 12130000:27500000:0:3:-300:2:0:1:2:0:2
 /
-0ce40000:000d:0028
-	s 12092000:27500000:1:3:-300:2:0
-/
 0ce4aa8a:000f:0002
 	s 10890000:27500000:1:3:-300:2:0
 /
@@ -6375,21 +6375,6 @@ eeee0000:2742:217c
 eeee0000:791a:217c
 	t 570000000:0:5:5:3:2:4:4:2:0:0:0
 /
-eeee0000:23e4:217c
-	t 474000000:0:5:5:3:2:4:4:2:0:0:0
-/
-eeee0000:0385:0110
-	t 722000000:0:5:5:3:2:4:4:2:0:0:0
-/
-eeee0000:0385:0110
-	t 722000000:0:5:5:3:2:4:4:2:0:0:0
-/
-eeee0000:0202:001d
-	t 746000000:0:5:5:3:2:4:4:2:0:0:0
-/
-eeee0000:0202:001d
-	t 746000000:0:5:5:3:2:4:4:2:0:0:0
-/
 end
 services
 003c:02fd2d1c:0001:ffdc:1:0
@@ -6812,15 +6797,6 @@ p:SAT
 04be:02ee0000:0008:1e61:22:0
 Шаян ТВ
 p:SAT
-02bd:02ee0000:0001:003d:1:0
-FX HD ME
-p:,c:0902d1
-02be:02ee0000:0001:003d:1:0
-Fox Movies Action HD ME
-p:,c:0902d2
-02bf:02ee0000:0001:003d:1:0
-Fox Family Movies HD ME
-p:,c:0902d3
 0001:02ee0000:0003:1113:1:0
 Fashion TV
 p:
@@ -7682,10 +7658,10 @@ p:
 0069:02c10000:0000:071d:1:0
 ELTR
 p:Harmonic
-0001:02c12b46:0001:ffff:25:0
+0001:02c12b69:0001:ffff:25:0
 iNews TV HD
 p:
-0002:02c12b46:0001:ffff:1:0
+0002:02c12b69:0001:ffff:1:0
 Al Mawqef
 p:
 0002:02c1b0fa:0001:ffff:1:0
@@ -7697,7 +7673,7 @@ p:Service Provider
 0001:02c1b116:0001:ffff:25:0
 Al Naeem TV HD
 p:DTVi
-0001:02c1b11c:0001:0001:1:0
+0001:02c1b11a:0001:0001:1:0
 Thaqalayn TV
 p:Thaqalayn
 0002:02c1b0f0:0001:ffff:1:0
@@ -7940,6 +7916,12 @@ p:SENTECH
 00de:02adb18a:0005:0049:1:0
 ACBN
 p:SENTECH
+00cf:02adb18a:0005:0049:1:0
+DNC TV (Divine Nature of Christ)
+p:Sentech
+00d1:02adb18a:0005:0049:1:0
+Africa TV
+p:Sentech
 0003:02ad3112:0001:0001:1:0
 Homebase TV
 p:ViewMedia
@@ -21299,6 +21281,9 @@ p:Telemedia
 0001:0168adac:0001:0001:25:0
 IMN
 p:IMN
+0065:0168adac:0001:ffff:1:0
+Erbil
+p:Service Provider
 0065:014a0000:f001:2268:1:0
 Polsat News
 p:Cyfrowy Polsat
@@ -23546,20 +23531,11 @@ p:BSkyB
 1290:011aafaf:07ea:0002:1:0
 Sky Two
 p:Sky Digital
-1291:011aafaf:07ea:0002:1:0
-Together
-p:Sky Digital
 1292:011aafaf:07ea:0002:2:0
 SNRNEW
 p:BSkyB
 1fd0:011aafaf:07ea:0002:130:0
 launchpad
-p:BSkyB
-1654:011aafaf:07ea:0002:1:0
-Lifetime
-p:BSkyB
-1653:011aafaf:07ea:0002:1:0
-Sky Witness
 p:BSkyB
 0fff:011aafaf:07ea:0002:1:0
 Sky Sports 5
@@ -23863,6 +23839,12 @@ SyFy UK +1
 p:Sky Digital
 1451:011a0000:07d7:0002:1:0
 Sky Witness
+p:BSkyB
+16f0:011a0000:07d7:0002:1:0
+Together
+p:BSkyB
+14c8:011a0000:07d7:0002:1:0
+Lifetime
 p:BSkyB
 d110:011a0000:0832:0002:1:0
 Jewellery Ch.
@@ -28903,6 +28885,9 @@ TV Paprika
 p:M7 Group
 36e7:00eb0000:0c8c:0003:1:0
 TV Oranje
+p:M7 Group
+36ff:00eb0000:0c8c:0003:25:0
+CNN Prima News HD
 p:M7 Group
 1d2e:00eb0000:0c97:0003:14:0
 Astra2Connect
@@ -37244,6 +37229,9 @@ p:RTSH
 00dc:00a0315f:0001:016e:2:0
 Radio Tirana Jazz
 p:RTSH
+00e6:00a0315f:0001:016e:2:0
+Radio Tirana 3
+p:RTSH
 0053:00a0abaa:cb2b:016e:1:0
 Pink Music 2
 p:Pink
@@ -41318,6 +41306,9 @@ p:STN ltd
 232f:00820000:2328:013e:1:0
 NetViet
 p:STN Ltd.
+2329:00820000:2328:013e:2:0
+Important note
+p:STN
 2c28:00820000:251c:fbff:1:0
 myDeejay
 p:Sky Italia
@@ -44750,6 +44741,9 @@ p:RAI Radio Televisione Italiana
 0001:00642b1f:0001:ffff:1:0
 Gryphon PV-2
 p:DTVi
+0001:00642b50:0000:0000:25:0
+AGIA TRIADA FOR ALPHA MAIN
+p:
 00cc:005a0000:14b4:009c:1:0
 Channel 21 Shop
 p:Kabelkiosk
@@ -54196,6 +54190,9 @@ Mooz Dance HD
 p:UPC
 767c:fff8ae1c:02bf:0600:22:0
 Barandov TV ( SVK)
+p:UPC Direct
+7675:fff8ae1c:02bf:0600:25:0
+CNN Prima News HD
 p:UPC Direct
 0fd6:0e080000:0050:0046:22:0
 Viasat Film Family
@@ -70010,6 +70007,12 @@ p:
 008e:eeee0000:0385:0110:1:0
 National Geographic
 p:
+00c1:eeee0000:0385:0110:1:0
+IoRestoACasa 2
+p:
+00c2:eeee0000:0385:0110:1:0
+IoRestoACasa 1
+p:
 000d:eeee0000:0384:0110:0:0
 Servizio 13
 p:
@@ -71048,6 +71051,12 @@ p:Persidera
 007d:eeee0000:0202:001d:1:0
 Parole di Vita
 p:Persidera
+0082:eeee0000:0202:001d:1:0
+RADIO ZETA
+p:Persidera
+0087:eeee0000:0202:001d:1:0
+BABEL-ROMIT TV
+p:Persidera
 000a:eeee0000:0039:217c:2:0
 Radio Capri
 p:Telecapri
@@ -71533,18 +71542,6 @@ RAINBOW
 p:Persidera
 0063:eeee0000:791a:217c:1:0
 CANALE 259
-p:Persidera
-00c1:eeee0000:0385:0110:1:0
-IoRestoACasa 2
-p:
-00c2:eeee0000:0385:0110:1:0
-IoRestoACasa 1
-p:
-0082:eeee0000:0202:001d:1:0
-RADIO ZETA
-p:Persidera
-0087:eeee0000:0202:001d:1:0
-BABEL-ROMIT TV
 p:Persidera
 end
 === Compiled with Morpheus883's scripts ===
