@@ -201,7 +201,7 @@ transponders
 00eb2d59:0001:ffff
 	s 11609000:4800000:0:3:235:2:0:1:2:0:2
 /
-00eb2d4c:0000:0000
+00eb0000:0bbf:0003
 	s 11596000:4800000:0:2:235:2:0:1:2:0:2
 /
 00c00000:041a:0001
@@ -3209,15 +3209,18 @@ p:Service Provider
 0001:00eb2d59:0001:ffff:1:0
 POL - 010 ENC 1
 p:ENCODER 1
-0481:00eb2d4c:0000:0000:1:0
-pol-053_harm
+0498:00eb0000:0bbf:0003:1:0
+POL 076
 p:Harmonic
-0484:00eb2d4c:0000:0000:1:0
-POL-056 enc2
-p:Service Provider
-0001:00eb2d4c:0000:0000:25:0
+0001:00eb0000:0bbf:0003:25:0
 POL - 054 Kielce
 p:
+0481:00eb0000:0bbf:0003:1:0
+pol-053_harm
+p:Harmonic
+0484:00eb0000:0bbf:0003:1:0
+POL-056 enc2
+p:Service Provider
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+ (Astra)
@@ -7784,6 +7787,9 @@ p:A1 HR
 0770:00a00000:c6d4:016e:1:0
 Test X
 p:TAG Broadcasting
+0777:00a00000:c6d4:016e:22:0
+Aurora TV
+p:A1 Broadcasting
 0709:00a00000:c5a8:016e:22:0
 HRT 1 (SLO 1)
 p:VIPnet
@@ -8897,9 +8903,6 @@ p:TAG Broadcasting
 028b:00a0acce:c418:016e:22:0
 24 Kitchen
 p:A1 HR
-025d:00a0acce:c418:016e:22:0
-Aurora TV
-p:A1 Broadcasting
 0683:00a00000:9fc4:016e:1:0
 Kanal A Slovenia HD
 p:SBB
@@ -9855,7 +9858,7 @@ p:SNRT
 Al Aoula Laayoune
 p:SNRT
 0004:00820000:2e18:00b0:1:0
-Arrabiaa HD
+Athaqafia HD
 p:SNRT
 0005:00820000:2e18:00b0:1:0
 Al Aoula Inter
