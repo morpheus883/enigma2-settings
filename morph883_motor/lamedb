@@ -741,6 +741,9 @@ transponders
 02082a34:1d36:1d36
 	s 10804000:27500000:0:2:520:2:0
 /
+02080000:194e:194e
+	s 10845000:27500000:1:2:520:2:0
+/
 02030000:0002:004d
 	s 11350000:45000000:0:3:515:2:0:1:2:0:2
 /
@@ -2604,6 +2607,9 @@ transponders
 00eb0000:0bbf:0003
 	s 11596000:4800000:0:2:235:2:0:1:2:0:2
 /
+00ebb1c2:0001:0001
+	s 12738000:7200000:1:3:235:2:0:1:2:0:2
+/
 00d8ad9e:0005:0001
 	s 11678000:2850000:1:5:216:2:0
 /
@@ -2617,7 +2623,7 @@ transponders
 	s 11614000:376000:0:3:216:2:0
 /
 00d8ad3e:0001:0001
-	s 11582000:2850000:1:5:216:2:0
+	s 11582000:2850000:1:3:216:2:0:1:1:0:2
 /
 00d8ad50:0001:0000
 	s 11600000:4400000:1:4:216:2:0:1:2:0:2
@@ -3299,6 +3305,9 @@ transponders
 /
 00a00000:5e24:016e
 	s 10721000:30000000:0:3:160:2:0
+/
+00a02d4c:0002:0040
+	s 11596000:29980000:0:6:160:2:0:1:1:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -7943,6 +7952,12 @@ p:Sentech
 00d1:02adb18a:0005:0049:1:0
 Africa TV
 p:Sentech
+00cd:02adb18a:0005:0049:1:0
+Salvation TV
+p:Sentech
+00d8:02adb18a:0005:0049:1:0
+Oneness TV
+p:Sentech
 0003:02ad3112:0001:0001:1:0
 Homebase TV
 p:ViewMedia
@@ -12521,90 +12536,6 @@ p:
 00cf:0208b00f:0001:0001:1:0
 Turkmenistan Sport
 p:
-032d:0208aa5d:194e:15e3:1:0
-Saamen TV
-p:WNS
-0323:0208aa5d:194e:15e3:1:0
-OXIR
-p:WNS
-0324:0208aa5d:194e:15e3:1:0
-WNS
-p:WNS
-0328:0208aa5d:194e:15e3:1:0
-Dunya naw TV - Farah
-p:WNS
-0330:0208aa5d:194e:15e3:1:0
-Navahang
-p:WNS
-0331:0208aa5d:194e:15e3:1:0
-AVA Family
-p:WNS
-02bd:0208aa5d:194e:15e3:1:0
-Mitra TV
-p:WNS
-02c8:0208aa5d:194e:15e3:1:0
-ASR TV
-p:WNS
-02c5:0208aa5d:194e:15e3:2:0
-B Radio
-p:WNS
-02c6:0208aa5d:194e:15e3:1:0
-11 TV
-p:WNS
-02c1:0208aa5d:194e:15e3:1:0
-Iran International
-p:WNS
-000d:0208aa5d:194e:15e3:1:0
-Your Time TV
-p:WNS
-0001:0208aa5d:194e:15e3:1:0
-Towheed TV
-p:WNS
-0015:0208aa5d:194e:15e3:1:0
-AVA Series
-p:WNS
-0329:0208aa5d:194e:15e3:1:0
-Didar TV
-p:WNS
-0003:0208aa5d:194e:15e3:1:0
-Your Time TV HD
-p:WNS
-0004:0208aa5d:194e:15e3:1:0
-DDTV
-p:WNS
-0002:0208aa5d:194e:15e3:2:0
-Iran International Radio
-p:WNS
-0005:0208aa5d:194e:15e3:1:0
-Corona Virus Info
-p:WNS
-0006:0208aa5d:194e:15e3:1:0
-El Sharq
-p:WNS
-0007:0208aa5d:194e:15e3:1:0
-Varzesh TV 4
-p:WNS
-02c7:0208aa5d:194e:15e3:1:0
-Zan TV
-p:WNS
-0008:0208aa5d:194e:15e3:1:0
-Salamat Tube
-p:WNS
-0009:0208aa5d:194e:15e3:1:0
-Persiana 4 TV
-p:WNS
-000b:0208aa5d:194e:15e3:1:0
-Saqi TV
-p:WNS
-000e:0208aa5d:194e:15e3:1:0
-Ariana Afghanistan
-p:WNS
-0017:0208aa5d:194e:15e3:1:0
-Don't ever TINK
-p:WNS
-0018:0208aa5d:194e:15e3:1:0
-Turkmen hemrasy promo
-p:WNS
 0001:0208b0a8:0001:0000:1:0
 SuperYacht TV
 p:Profen
@@ -12719,6 +12650,87 @@ p:Persiana Cast
 000e:02082a34:1d36:1d36:1:0
 Persiana Music SD
 p:Persiana Cast,c:000579,c:01057a,c:030579
+0001:02080000:194e:194e:1:0
+Towheed TV
+p:WNS
+0002:02080000:194e:194e:2:0
+Iran International Radio
+p:WNS
+0003:02080000:194e:194e:1:0
+Your Time TV HD
+p:WNS
+0004:02080000:194e:194e:1:0
+DDTV
+p:WNS
+0006:02080000:194e:194e:1:0
+El Sharq
+p:WNS
+0007:02080000:194e:194e:1:0
+Varzesh TV 4
+p:WNS
+0008:02080000:194e:194e:1:0
+Salamat Tube
+p:WNS
+0009:02080000:194e:194e:1:0
+Persiana 4 TV
+p:WNS
+000b:02080000:194e:194e:1:0
+Saqi TV
+p:WNS
+000d:02080000:194e:194e:1:0
+Your Time TV
+p:WNS
+000e:02080000:194e:194e:1:0
+Ariana Afghanistan
+p:WNS
+0015:02080000:194e:194e:1:0
+AVA Series
+p:WNS
+0018:02080000:194e:194e:1:0
+Turkmen hemrasy promo
+p:WNS
+0019:02080000:194e:194e:1:0
+Mitra TV
+p:WNS
+02c1:02080000:194e:194e:1:0
+Iran International
+p:WNS
+02c5:02080000:194e:194e:2:0
+B Radio
+p:WNS
+02c6:02080000:194e:194e:1:0
+11 TV
+p:WNS
+02c7:02080000:194e:194e:1:0
+Zan TV
+p:WNS
+02c8:02080000:194e:194e:1:0
+ASR TV
+p:WNS
+0323:02080000:194e:194e:1:0
+OXIR
+p:WNS
+0324:02080000:194e:194e:1:0
+WNS
+p:WNS
+0328:02080000:194e:194e:1:0
+Dunya naw TV - Farah
+p:WNS
+0329:02080000:194e:194e:1:0
+Didar TV
+p:WNS
+032d:02080000:194e:194e:1:0
+Saamen TV
+p:WNS
+0330:02080000:194e:194e:1:0
+Navahang
+p:WNS
+0331:02080000:194e:194e:1:0
+AVA Family
+p:WNS
+02bd:02080000:194e:194e:1:0
+Persiana Plus
+p:WNS
 0002:02030000:0002:004d:1:0
 Belintersat Promo HD Fr
 p:Belintersat
@@ -12742,6 +12754,9 @@ NETRADIO
 p:Belintersat
 000e:02030000:0002:004d:1:0
 TZiK
+p:Belintersat
+001f:02030000:0002:004d:1:0
+MTV Lebanon HD
 p:Belintersat
 0001:02038e2e:0001:0001:1:0
 OBN (Oromiya Broadcasting Network)
@@ -14803,6 +14818,9 @@ SE
 p:DEMIROREN MEDYA
 053d:01a4af02:0003:0042:1:0
 Bahartürk
+p:DEMIROREN MEDYA
+0541:01a4af02:0003:0042:1:0
+Anadolu TV
 p:DEMIROREN MEDYA
 2c24:01a40000:797d:042e:1:0
 Shopping Channel
@@ -35846,6 +35864,12 @@ p:T-HT
 00c1:00a00000:0002:0040:22:0
 Vivid Touch
 p:T-HT
+00c2:00a00000:0002:0040:22:0
+OTV Valentino.
+p:T-HT
+00dc:00a00000:0002:0040:2:0
+ORV Valentino.
+p:T-HT
 0022:00a00000:0003:0040:22:0
 Vivid TV
 p:Max TV
@@ -38630,9 +38654,6 @@ p:MB Satellite
 1c86:00820000:332c:013e:1:0
 Bloomberg Europe
 p:Arqiva
-1c9a:00820000:332c:013e:1:0
-TV 5 Monde Europe
-p:TV5MONDE
 1c9f:00820000:332c:013e:1:0
 NHK World
 p:Arqiva
@@ -50984,9 +51005,6 @@ p:Bulgaria Sat
 0191:00130000:0009:0003:1:0
 Animal Planet
 p:Bulgaria Sat
-03fc:00130000:0009:0003:12:0
-DATAP9
-p:Bulgaria Sat
 018e:00130000:0009:0003:1:0
 Planeta TV
 p:Bulgaria Sat
@@ -50998,12 +51016,6 @@ AMC
 p:Bulgaria Sat
 01ad:00130000:0009:0003:1:0
 NatGeo Wild Central Europe
-p:Bulgaria Sat
-0400:00130000:0009:0003:12:0
-MSGP9
-p:Bulgaria Sat
-03fe:00130000:0009:0003:12:0
-CHL9
 p:Bulgaria Sat
 018b:00130000:0009:0003:1:0
 Al Jazeera English
@@ -51023,6 +51035,15 @@ p:Polaris Media
 0199:00130000:0009:0003:1:0
 Comedy Central Extra
 p:Polaris Media
+041b:00130000:0009:0003:12:0
+MSGn 9
+p:neosat
+041e:00130000:0009:0003:12:0
+DATABC29
+p:neosat
+0421:00130000:0009:0003:12:0
+CHLBC29
+p:neosat
 01a7:001330a8:000a:0002:1:0
 Belle Amie
 p:POLARIS
@@ -51041,17 +51062,8 @@ p:POLARIS
 01bb:001330a8:000a:0002:1:0
 AXN Spin Bulgaria
 p:POLARIS
-03fc:001330a8:000a:0002:12:0
-DATAP10
-p:POLARIS
-03fe:001330a8:000a:0002:12:0
-CHL10
-p:POLARIS
 01aa:001330a8:000a:0002:1:0
 TV Duga Plus
-p:POLARIS
-0400:001330a8:000a:0002:12:0
-MSGP10
 p:POLARIS
 01ae:001330a8:000a:0002:1:0
 CineStar TV
@@ -51116,6 +51128,15 @@ p:Neosat
 01ab:001330a8:000a:0002:1:0
 Pinco Club
 p:Neosat,C:0000
+041b:001330a8:000a:0002:12:0
+MSGn10
+p:neosat
+041d:001330a8:000a:0002:12:0
+DATABC110
+p:neosat
+0421:001330a8:000a:0002:12:0
+CHLBC210
+p:neosat
 01cd:0013305c:000b:0001:1:0
 RTS 1
 p:POLARIS
@@ -51182,20 +51203,20 @@ p:POLARIS
 01e3:0013305c:000b:0001:1:0
 SOS Kanal
 p:POLARIS
-0400:0013305c:000b:0001:12:0
-MSGP11
-p:POLARIS
-03fc:0013305c:000b:0001:12:0
-DATA11
-p:POLARIS
-03fe:0013305c:000b:0001:12:0
-CHL11
-p:POLARIS
 01e4:0013305c:000b:0001:1:0
 RTS Kolo
 p:POLARIS
 01e0:0013305c:000b:0001:1:0
 RTS Muzika
+p:POLARIS
+041c:0013305c:000b:0001:12:0
+MSGP11
+p:POLARIS
+041f:0013305c:000b:0001:12:0
+DATA11
+p:POLARIS
+0420:0013305c:000b:0001:12:0
+CHL11
 p:POLARIS
 0156:00130000:0008:0003:1:0
 RTS1 HD
@@ -51539,9 +51560,6 @@ p:Telenor
 1c70:0e080000:0020:0046:22:0
 Vision Sverige
 p:Telenor
-1bb0:0e080000:0020:0046:31:0
-Viasat Ultra HD
-p:Canal Digital Nordic
 1e2d:fff8ac6c:0023:0046:25:0
 TV 2 Charlie HD
 p:Telenor
@@ -53492,6 +53510,9 @@ p:UPC
 79e7:fff80000:02c8:0600:1:0
 Bollywood TV
 p:UPC
+7a06:fff80000:02c8:0600:1:0
+Bollywood TV.
+p:UPC
 364d:0e080000:0142:0bbc:2:0
 BBC English (E Af.)
 p:BBC World Service
@@ -54089,21 +54110,6 @@ p:Slovak Telekom
 0bc3:0e080000:0af3:00bb:1:0
 Viasat History HD
 p:Slovak Telekom
-2328:fff8306f:004b:0046:25:0
-TS Sports 1
-p:Telenor
-2329:fff8306f:004b:0046:25:0
-TS Sports 2
-p:Telenor
-232a:fff8306f:004b:0046:25:0
-TS Sports 3
-p:Telenor
-232b:fff8306f:004b:0046:25:0
-TS Sports 4
-p:Telenor
-232c:fff8306f:004b:0046:25:0
-TS Sports 5
-p:Telenor
 1b90:fff8306f:004b:0046:22:0
 Test 7056
 p:Telenor
@@ -54112,6 +54118,9 @@ Test 7457
 p:Telenor
 2ee2:fff8306f:004b:0046:12:0
 Samsung 680 bootload
+p:Telenor
+1bb0:fff8306f:004b:0046:25:0
+Viasat Ultra HD
 p:Telenor
 1f38:0e080000:004f:0046:25:0
 TV 12 HD
@@ -67673,6 +67682,9 @@ p:Canal NOS
 037b:fed43048:0026:0036:1:0
 TVI Ficção
 p:TVI Ficção
+714d:fed43048:0026:0036:1:0
+Canal NOS
+p:Canal NOS
 051e:0ce42ab2:000d:ff00:31:0
 FunBox 4K
 p:MB Satellite
