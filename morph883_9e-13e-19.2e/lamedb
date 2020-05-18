@@ -600,6 +600,21 @@ transponders
 00820000:005e:0055
 	s 11219000:29900000:0:7:130:2:0:1:2:0:2
 /
+00820000:001b:02c0
+	s 12226000:27500000:1:3:130:2:0
+/
+0082b00f:0002:005e
+	s 12303000:27500000:1:3:130:2:0:1:2:0:2
+/
+008230bc:0050:0046
+	s 12476000:29900000:0:3:130:2:0:1:2:0:2
+/
+00823095:004f:0046
+	s 12437000:29900000:0:7:130:2:0:1:2:0:2
+/
+00823048:0054:0046
+	s 12360000:29900000:0:3:130:2:0:1:2:0:2
+/
 005a0000:14b4:009c
 	s 11785000:27500000:0:2:90:2:0:1:2:0:2
 /
@@ -743,6 +758,9 @@ transponders
 /
 005aaf4f:0389:0110
 	s 12111000:31400000:1:2:90:2:0:1:2:0:2:2:262140:1
+/
+005a0000:032a:0110
+	s 12149000:31400000:1:2:90:2:0:1:2:0:2:3:262140:1
 /
 end
 services
@@ -3248,6 +3266,9 @@ p:RR Media
 1406:00c00000:0403:0001:1:0
 Kaufbei.tv
 p:SES
+1419:00c00000:0403:0001:1:0
+BestMarket TV
+p:GLOBECAST
 749a:00c00000:041c:0001:1:0
 Divinity
 p:Movistar+ (Astra)
@@ -11933,9 +11954,6 @@ p:
 1c18:005a0000:0384:0110:1:0
 Tele Padre Pio
 p:
-1c1b:005a0000:0384:0110:1:0
-Radio Zeta
-p:
 1b9a:005a0000:0384:0110:1:0
 Mediaset Italia Due
 p:
@@ -12101,9 +12119,6 @@ p:XTRA TV
 0910:005a0000:005c:0055:22:0
 Cartoon Network
 p:XTRA TV
-0001:005ab035:0001:ffff:1:0
-Test-
-p:TandbergTV
 0001:005a0000:0385:0110:0:0
 Servizio OTA1
 p:
@@ -12149,11 +12164,11 @@ p:
 00c5:005a0000:0385:0110:1:0
 Premium Emotion
 p:
-00c1:005a0000:0385:0110:25:0
-Sky Sport Serie A HD
+00c1:005a0000:0385:0110:1:0
+Io Resto a Casa 2
 p:
-00c2:005a0000:0385:0110:25:0
-Sky Sport 24 HD
+00c2:005a0000:0385:0110:1:0
+Io Resto a Casa 1
 p:
 0001:005a0000:03ac:0110:0:0
 Servizio OTA
@@ -12355,6 +12370,9 @@ Canale 5 HD
 p:
 0bbe:005a0000:03a2:0110:25:0
 Italia 1 HD
+p:
+0c1e:005a0000:03a2:0110:22:0
+Virgin Radio TV
 p:
 0063:005a0000:03b6:0110:0:0
 Ghost
@@ -12561,7 +12579,7 @@ p:Persidera
 RTL 102.5
 p:Persidera
 00de:005a0000:0204:001d:2:0
-RTL1025radioDOC
+RTL 102.5 VIARADIO DIGITAL
 p:Persidera
 00df:005a0000:0204:001d:2:0
 FRECCIA
@@ -12569,7 +12587,7 @@ p:Persidera
 001e:005a0000:0200:001d:1:0
 Boing Plus
 p:Persidera
-0028:005a0000:0200:001d:1:0
+0028:005a0000:0200:001d:25:0
 SuperTennis
 p:Persidera
 0032:005a0000:0200:001d:1:0
@@ -12621,7 +12639,7 @@ p:Persidera
 Motor Trend
 p:Persidera
 003c:005a0000:0202:001d:1:0
-Canale 65
+Alma TV - Alice & Marcopolo
 p:Persidera
 0041:005a0000:0202:001d:1:0
 BOM Channel
@@ -12649,6 +12667,18 @@ Radio Zeta
 p:Persidera
 0087:005a0000:0202:001d:1:0
 Babel-Romit TV
+p:Persidera
+0046:005a0000:0202:001d:1:0
+Alice
+p:Persidera
+004b:005a0000:0202:001d:1:0
+Case Design Stili
+p:Persidera
+0050:005a0000:0202:001d:1:0
+Marco Polo
+p:Persidera
+0055:005a0000:0202:001d:1:0
+PopEconomy
 p:Persidera
 0015:005aaf4f:0389:0110:0:0
 Servizio 21
@@ -12718,6 +12748,42 @@ Focus
 p:
 084b:005aaf4f:0389:0110:25:0
 Cine34
+p:
+0007:005a0000:032a:0110:0:0
+Servizio 7
+p:
+0008:005a0000:032a:0110:0:0
+Servizio 8
+p:
+0009:005a0000:032a:0110:0:0
+Servizio 9
+p:
+000a:005a0000:032a:0110:0:0
+Servizio 10
+p:
+2009:005a0000:032a:0110:25:0
+Sportitalia HD
+p:,c:050001
+0001:005a0000:032a:0110:0:0
+Servizio 1
+p:
+0002:005a0000:032a:0110:0:1
+Servizio 2
+p:
+0003:005a0000:032a:0110:0:2
+Servizio 3
+p:
+0004:005a0000:032a:0110:0:3
+Servizio 4
+p:
+0005:005a0000:032a:0110:0:4
+Servizio 5
+p:
+0006:005a0000:032a:0110:0:5
+Servizio 6
+p:
+0063:005a0000:032a:0110:0:0
+Ghost
 p:
 end
 === Compiled with Morpheus883's scripts ===

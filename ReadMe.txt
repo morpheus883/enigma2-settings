@@ -9,14 +9,14 @@ Morpheus883's Site: http://morpheus883.altervista.org/
 GitHub Repository: https://github.com/morpheus883/
 and available on the main Sat Sites
 
-Enigma2 Settings 15th May 2020, © by Morpheus883
+Enigma2 Settings 18th May 2020, © by Morpheus883
 
 Settings for Images based on Enigma 2.4:
 
 Statistics:
 # Satellites: 101 (C-Ku Bands)
 # Ordered Provider Lists: 60+
-# Services: 21.660 (TV-Radio-Data)
+# Services: 21.621 (TV-Radio-Data)
 # Packages: 23 (TV-Radio-Data):
 
 MONOFeed (13°E)

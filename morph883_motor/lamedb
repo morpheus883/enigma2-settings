@@ -729,9 +729,6 @@ transponders
 0208b00f:0001:0001
 	s 12304000:27500000:1:2:520:2:0:1:1:3:2
 /
-0208aa5d:194e:15e3
-	s 10845000:27500000:1:2:520:2:0
-/
 0208b0a8:0001:0000
 	s 12456000:3358000:1:2:520:2:0:1:2:0:2
 /
@@ -2607,9 +2604,6 @@ transponders
 00eb0000:0bbf:0003
 	s 11596000:4800000:0:2:235:2:0:1:2:0:2
 /
-00ebb1c2:0001:0001
-	s 12738000:7200000:1:3:235:2:0:1:2:0:2
-/
 00d8ad9e:0005:0001
 	s 11678000:2850000:1:5:216:2:0
 /
@@ -3306,8 +3300,11 @@ transponders
 00a00000:5e24:016e
 	s 10721000:30000000:0:3:160:2:0
 /
-00a02d4c:0002:0040
-	s 11596000:29980000:0:6:160:2:0:1:1:0:2
+00a0313c:0001:0001
+	s 12604000:29980000:0:2:160:2:0:1:2:0:2
+/
+00a0313e:0001:0001
+	s 12606000:30000000:0:3:160:2:0:1:1:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -3602,6 +3599,21 @@ transponders
 /
 00820000:005e:0055
 	s 11219000:29900000:0:7:130:2:0:1:2:0:2
+/
+00820000:001b:02c0
+	s 12226000:27500000:1:3:130:2:0
+/
+0082b00f:0002:005e
+	s 12303000:27500000:1:3:130:2:0:1:2:0:2
+/
+008230bc:0050:0046
+	s 12476000:29900000:0:3:130:2:0:1:2:0:2
+/
+00823095:004f:0046
+	s 12437000:29900000:0:7:130:2:0:1:2:0:2
+/
+00823048:0054:0046
+	s 12360000:29900000:0:3:130:2:0:1:2:0:2
 /
 0064aa58:1000:2000
 	s 10840000:2061000:1:3:100:2:0:1:1:0:2
@@ -3987,6 +3999,9 @@ transponders
 005aaf4f:0389:0110
 	s 12111000:31400000:1:2:90:2:0:1:2:0:2:2:262140:1
 /
+005a0000:032a:0110
+	s 12149000:31400000:1:2:90:2:0:1:2:0:2:3:262140:1
+/
 00460000:4e20:0064
 	s 10721000:22000000:0:3:70:2:0
 /
@@ -4130,6 +4145,9 @@ transponders
 /
 00462b44:0000:0001
 	s 11076000:4936000:0:3:70:2:0:1:2:0:2
+/
+0046313c:0001:0001
+	s 12604000:29981000:0:2:70:2:0:1:2:0:2
 /
 00300000:000c:0055
 	s 11766000:27500000:0:3:48:2:0:1:2:0:2
@@ -5062,10 +5080,10 @@ ffce0000:0384:0110
 	s 12606000:35500000:1:2:-50:2:0:1:2:0:2:2:8:0
 /
 ffce0000:0389:0110
-	s 12522000:35500000:1:2:-50:2:0:1:2:0:2:2:262140:1
+	s 12522000:35500000:1:2:-50:2:0:1:2:0:2:222:262140:1
 /
 ffce0000:03a2:0110
-	s 12522000:35500000:1:2:-50:2:0:1:2:0:2:1:262140:1
+	s 12522000:35500000:1:2:-50:2:0:1:2:0:2:111:262140:1
 /
 0dde0e81:0002:0001
 	s 3713000:4248000:2:4:-50:2:0:1:0:0:2
@@ -5096,6 +5114,12 @@ ffce0000:4000:013e
 /
 ffce0000:032a:0110
 	s 12627000:35000000:0:2:-50:2:0:1:2:0:2:1:8:0
+/
+0dde0000:03a2:0110
+	s 12606000:35500000:1:2:-50:2:0:1:2:2:2:111:262140:1
+/
+0dde0000:0107:217c
+	s 12522000:35500000:1:2:-50:2:0:1:2:2:2:3:262140:1
 /
 0dca0000:0022:0800
 	s 10758000:27500000:1:4:-70:2:0
@@ -14552,9 +14576,6 @@ p:GUC TELEKOM MEDYA
 3916:01a40000:a21d:042e:1:0
 Kanal Firat
 p:GUC TELEKOM MEDYA
-3913:01a40000:a21d:042e:1:0
-TV Den
-p:GUC TELEKOM MEDYA,c:0907d5
 3922:01a40000:a21d:042e:2:0
 POWER POP
 p:GUC TELEKOM MEDYA,c:09011a
@@ -14647,6 +14668,9 @@ Kanal 12
 p:GUC TELEKOM MEDYA
 390f:01a40000:a21d:042e:1:0
 Bitlis TV
+p:GUC TELEKOM MEDYA
+3913:01a40000:a21d:042e:25:0
+Ciftci TV HD
 p:GUC TELEKOM MEDYA
 0001:01a4aee9:0001:ffff:1:0
 Türkmeneli TV HD
@@ -14821,6 +14845,9 @@ Bahartürk
 p:DEMIROREN MEDYA
 0541:01a4af02:0003:0042:1:0
 Anadolu TV
+p:DEMIROREN MEDYA
+0543:01a4af02:0003:0042:1:0
+Vadim TV
 p:DEMIROREN MEDYA
 2c24:01a40000:797d:042e:1:0
 Shopping Channel
@@ -15209,9 +15236,6 @@ p:DEMIROREN MEDYA
 045d:01a40000:0001:0042:1:0
 Park TV (E)
 p:DEMIROREN MEDYA
-0465:01a40000:0001:0042:1:0
-Vadim TV
-p:DEMIROREN MEDYA
 046b:01a40000:0001:0042:1:0
 Shopping Channel
 p:DEMIROREN MEDYA
@@ -15221,17 +15245,11 @@ p:DEMIROREN MEDYA
 046f:01a40000:0001:0042:1:0
 1AN TV
 p:DEMIROREN MEDYA
-0477:01a40000:0001:0042:1:0
-Vadim TV
-p:DEMIROREN MEDYA
 047b:01a40000:0001:0042:1:0
 Yasin TV
 p:DEMIROREN MEDYA
 047d:01a40000:0001:0042:1:0
 1AN TV
-p:DEMIROREN MEDYA
-0481:01a40000:0001:0042:1:0
-Vadim TV
 p:DEMIROREN MEDYA
 0483:01a40000:0001:0042:1:0
 Yasin TV
@@ -15251,23 +15269,11 @@ p:DEMIROREN MEDYA
 049b:01a40000:0001:0042:2:0
 TEK-1
 p:DEMIROREN MEDYA
-0479:01a40000:0001:0042:1:0
-Vadim TV
-p:DEMIROREN MEDYA,c:090541
 0471:01a40000:0001:0042:1:0
 Shopping Channel
 p:DEMIROREN MEDYA,c:090150
-0463:01a40000:0001:0042:1:0
-Vadim TV
-p:DEMIROREN MEDYA
 044f:01a40000:0001:0042:1:0
 Shopping Channel
-p:DEMIROREN MEDYA
-045f:01a40000:0001:0042:1:0
-Vadim TV
-p:DEMIROREN MEDYA
-0469:01a40000:0001:0042:1:0
-Vadim TV
 p:DEMIROREN MEDYA
 048f:01a40000:0001:0042:2:0
 SHOW RADYO
@@ -29987,9 +29993,6 @@ p:M7 Group
 17f2:00ebaddb:0c82:0003:2:0
 Radio Veronica
 p:M7 Group
-17ad:00ebaddb:0c82:0003:25:0
-Be2Can HD
-p:M7 Group
 17ae:00ebaddb:0c82:0003:25:0
 Travel XP HD
 p:M7 Group
@@ -29997,7 +30000,7 @@ p:M7 Group
 Travel XP HD BNL
 p:M7 Group
 17b0:00ebaddb:0c82:0003:25:0
-Ceskoslovensko HD
+Film Europe+ HD
 p:M7 Group
 17f3:00ebaddb:0c82:0003:1:0
 OTA Downl CAM 2
@@ -30008,6 +30011,9 @@ p:M7 Group
 177a:00ebaddb:0c82:0003:22:0
 NPO Politiek
 p:Canal Digitaal
+17eb:00ebaddb:0c82:0003:22:0
+Test HBBTV
+p:M7 Group
 1f42:00eb3037:0ca1:0003:25:0
 CT 2 HD
 p:CESKA TELEVIZE
@@ -34325,6 +34331,9 @@ p:RR Media
 1406:00c00000:0403:0001:1:0
 Kaufbei.tv
 p:SES
+1419:00c00000:0403:0001:1:0
+BestMarket TV
+p:GLOBECAST
 749a:00c00000:041c:0001:1:0
 Divinity
 p:Movistar+ (Astra)
@@ -46472,9 +46481,6 @@ p:
 1c18:005a0000:0384:0110:1:0
 Tele Padre Pio
 p:
-1c1b:005a0000:0384:0110:1:0
-Radio Zeta
-p:
 1b9a:005a0000:0384:0110:1:0
 Mediaset Italia Due
 p:
@@ -46640,9 +46646,6 @@ p:XTRA TV
 0910:005a0000:005c:0055:22:0
 Cartoon Network
 p:XTRA TV
-0001:005ab035:0001:ffff:1:0
-Test-
-p:TandbergTV
 0001:005a0000:0385:0110:0:0
 Servizio OTA1
 p:
@@ -46688,11 +46691,11 @@ p:
 00c5:005a0000:0385:0110:1:0
 Premium Emotion
 p:
-00c1:005a0000:0385:0110:25:0
-Sky Sport Serie A HD
+00c1:005a0000:0385:0110:1:0
+Io Resto a Casa 2
 p:
-00c2:005a0000:0385:0110:25:0
-Sky Sport 24 HD
+00c2:005a0000:0385:0110:1:0
+Io Resto a Casa 1
 p:
 0001:005a0000:03ac:0110:0:0
 Servizio OTA
@@ -46894,6 +46897,9 @@ Canale 5 HD
 p:
 0bbe:005a0000:03a2:0110:25:0
 Italia 1 HD
+p:
+0c1e:005a0000:03a2:0110:22:0
+Virgin Radio TV
 p:
 0063:005a0000:03b6:0110:0:0
 Ghost
@@ -47100,7 +47106,7 @@ p:Persidera
 RTL 102.5
 p:Persidera
 00de:005a0000:0204:001d:2:0
-RTL1025radioDOC
+RTL 102.5 VIARADIO DIGITAL
 p:Persidera
 00df:005a0000:0204:001d:2:0
 FRECCIA
@@ -47108,7 +47114,7 @@ p:Persidera
 001e:005a0000:0200:001d:1:0
 Boing Plus
 p:Persidera
-0028:005a0000:0200:001d:1:0
+0028:005a0000:0200:001d:25:0
 SuperTennis
 p:Persidera
 0032:005a0000:0200:001d:1:0
@@ -47160,7 +47166,7 @@ p:Persidera
 Motor Trend
 p:Persidera
 003c:005a0000:0202:001d:1:0
-Canale 65
+Alma TV - Alice & Marcopolo
 p:Persidera
 0041:005a0000:0202:001d:1:0
 BOM Channel
@@ -47188,6 +47194,18 @@ Radio Zeta
 p:Persidera
 0087:005a0000:0202:001d:1:0
 Babel-Romit TV
+p:Persidera
+0046:005a0000:0202:001d:1:0
+Alice
+p:Persidera
+004b:005a0000:0202:001d:1:0
+Case Design Stili
+p:Persidera
+0050:005a0000:0202:001d:1:0
+Marco Polo
+p:Persidera
+0055:005a0000:0202:001d:1:0
+PopEconomy
 p:Persidera
 0015:005aaf4f:0389:0110:0:0
 Servizio 21
@@ -47257,6 +47275,42 @@ Focus
 p:
 084b:005aaf4f:0389:0110:25:0
 Cine34
+p:
+0007:005a0000:032a:0110:0:0
+Servizio 7
+p:
+0008:005a0000:032a:0110:0:0
+Servizio 8
+p:
+0009:005a0000:032a:0110:0:0
+Servizio 9
+p:
+000a:005a0000:032a:0110:0:0
+Servizio 10
+p:
+2009:005a0000:032a:0110:25:0
+Sportitalia HD
+p:,c:050001
+0001:005a0000:032a:0110:0:0
+Servizio 1
+p:
+0002:005a0000:032a:0110:0:1
+Servizio 2
+p:
+0003:005a0000:032a:0110:0:2
+Servizio 3
+p:
+0004:005a0000:032a:0110:0:3
+Servizio 4
+p:
+0005:005a0000:032a:0110:0:4
+Servizio 5
+p:
+0006:005a0000:032a:0110:0:5
+Servizio 6
+p:
+0063:005a0000:032a:0110:0:0
+Ghost
 p:
 0001:00460000:4e20:0064:1:0
 BBC Persian
@@ -55532,9 +55586,6 @@ p:EUTELSAT
 01a9:0dde0000:4fb0:055f:25:0
 LCP - La Chaîne Parlementaire HD
 p:GR1 B
-1025:0dde0000:4fb0:055f:1:0
-Nouvelle Aquitaine
-p:EUTELSAT
 01aa:0dde0000:4fb0:055f:22:0
 Via Vosges
 p:EUTELSAT
@@ -55543,6 +55594,9 @@ KTO
 p:EUTELSAT
 01ac:0dde0000:4fb0:055f:22:0
 RT France
+p:EUTELSAT
+1025:0dde0000:4fb0:055f:1:0
+France 3 Nouvelle Aquitaine
 p:EUTELSAT
 0bb8:0dde0000:4e84:055f:25:0
 TF1 Séries Films HD
@@ -55760,9 +55814,6 @@ p:EUTELSAT
 0bc8:0dde0000:4e84:055f:22:0
 CANAL SAV
 p:EUTELSAT
-0bc9:0dde0000:4e84:055f:22:0
-Mont Blanc Live
-p:EUTELSAT
 0bca:0dde0000:4e84:055f:22:0
 D!ci TV
 p:EUTELSAT
@@ -55786,27 +55837,6 @@ NOST IDF
 p:TWC
 03f5:0dde0000:0003:20fa:12:0
 DATASYSTEM R7
-p:CNH
-0308:0dde0000:0003:20fa:22:0
-LCI
-p:CNH
-0309:0dde0000:0003:20fa:22:0
-PARIS PREMIERE
-p:CNH
-0301:0dde0000:0003:20fa:25:0
-CANAL+
-p:CNH
-0302:0dde0000:0003:20fa:25:0
-CANAL+ CINEMA
-p:CNH
-0303:0dde0000:0003:20fa:25:0
-CANAL+ SPORT
-p:CNH
-0304:0dde0000:0003:20fa:25:0
-PLANETE+
-p:CNH
-030a:0dde0000:0003:20fa:25:0
-CANAL+
 p:CNH
 2172:0dde0000:0002:013e:1:0
 Rai Sport
@@ -55876,9 +55906,6 @@ Rai 2 HD
 p:Rai,c:050001
 2191:0dde0000:0005:013e:25:0
 Rai 3 HD
-p:Rai
-2198:0dde0000:0005:013e:12:0
-OTA _1
 p:Rai
 0ce7:ffce0000:00d2:0104:1:0
 Rai 3 TGR Campania
@@ -56054,7 +56081,7 @@ p:Rai
 0d52:0dde0000:0001:013e:31:0
 Test HEVC main10
 p:Rai
-0d4b:ffce0000:0001:013e:25:0
+0d4b:ffce0000:0001:013e:1:0
 Rai 3 TGR Lombardia
 p:RAI
 0d4b:0dde0000:7000:013e:1:0
@@ -56249,9 +56276,6 @@ p:towerCast
 03e9:0dde2cc2:03e8:0001:2:0
 NOSTALGIE
 p:EUTELSAT
-0002:0dde2ccc:0001:ffff:1:0
-Service 2
-p:Unnamed
 01f7:ffce0000:5014:055f:1:0
 ETB3
 p:EUTELSAT,c:0905fa
@@ -56270,9 +56294,6 @@ p:Bis
 1024:ffce0000:5014:055f:1:0
 France 3 Via Stella
 p:Bis
-01f5:ffce0000:5014:055f:1:0
-D!ci TV
-p:EUTELSAT
 01f6:ffce0000:5014:055f:1:0
 ETB1
 p:EUTELSAT
@@ -56290,9 +56311,6 @@ France 3 Strasbourg
 p:Bis
 0259:ffce0000:5078:055f:25:0
 TV 5 Monde FBS (France Belgique Suisse)
-p:EUTELSAT
-0a35:ffce0000:5078:055f:1:0
-QVC France
 p:EUTELSAT
 1005:ffce0000:5078:055f:1:0
 France 3 Clermont-Ferrand
@@ -56321,27 +56339,6 @@ p:Bis
 1020:ffce0000:5078:055f:1:0
 France 3 Rennes
 p:Bis
-0001:ffce0000:5078:055f:1:0
-10972V SID 0x01
-p:DVB-S2 8PSK 10972V 355.0Â°E
-0004:ffce0000:5078:055f:1:0
-10972V SID 0x04
-p:DVB-S2 8PSK 10972V 355.0Â°E
-0005:ffce0000:5078:055f:1:0
-10972V SID 0x05
-p:DVB-S2 8PSK 10972V 355.0Â°E
-000a:ffce0000:5078:055f:2:0
-10972V SID 0x0a
-p:DVB-S2 8PSK 10972V 355.0Â°E
-000b:ffce0000:5078:055f:2:0
-10972V SID 0x0b
-p:DVB-S2 8PSK 10972V 355.0Â°E
-000c:ffce0000:5078:055f:2:0
-10972V SID 0x0c
-p:DVB-S2 8PSK 10972V 355.0Â°E
-000d:ffce0000:5078:055f:255:0
-10972V SID 0x0d
-p:DVB-S2 8PSK 10972V 355.0Â°E
 0003:ffcead9f:5140:055f:1:0
 France 3 Sat
 p:EUTELSAT
@@ -56363,9 +56360,6 @@ p:Bis
 1021:ffcead9f:5140:055f:1:0
 France 3 Rouen
 p:Bis
-1025:ffcead9f:5140:055f:1:0
-France 3 Nouvelle Aquitaine
-p:EUTELSAT
 0321:ffcead9f:5140:055f:25:0
 Opsis TV
 p:EUTELSAT
@@ -56633,9 +56627,6 @@ p:EUTELSAT,c:09173e
 0ba0:ffceb114:51a4:055f:2:0
 NOVA
 p:EUTELSAT
-0b89:ffceb114:51a4:055f:22:0
-Mont Blanc Live
-p:EUTELSAT
 0ba5:ffceb114:51a4:055f:22:0
 ...
 p:EUTELSAT
@@ -56696,9 +56687,6 @@ p:EUTELSAT,c:0902c6
 0138:ffcead23:4f4c:055f:25:0
 OCS Max HD
 p:EUTELSAT,c:0902d0
-038a:ffcead23:4f4c:055f:0:0
-SSU Alden
-p:Eutelsat
 037f:ffcead23:4f4c:055f:0:0
 SSU FR1000
 p:Eutelsat
@@ -57185,18 +57173,6 @@ p:Mediaset
 00ad:ffce0000:0385:0110:1:0
 Premium Crime
 p:Mediaset
-00ae:ffce0000:0385:0110:1:0
-Premium Action
-p:Mediaset
-00c4:ffce0000:0385:0110:1:0
-Sky Sport Serie A
-p:
-0099:ffce0000:0385:0110:1:0
-Sky Sport
-p:
-009b:ffce0000:0385:0110:1:0
-Sky Sport
-p:
 0001:ffce0000:0385:0110:0:0
 Servizio OTA1
 p:
@@ -57231,10 +57207,10 @@ p:
 National Geographic
 p:
 00c1:ffce0000:0385:0110:1:0
-IoRestoACasa 2
+Io Resto a Casa 2
 p:
 00c2:ffce0000:0385:0110:1:0
-IoRestoACasa 1
+Io Resto a Casa 1
 p:
 0015:ffce317d:0389:0110:0:0
 Servizio 21
@@ -57462,82 +57438,10 @@ p:,c:0900c8
 TEMPO
 p:,c:09012c
 0fa0:0dde2cc9:0001:0001:2:0
-MAGIC CREUSE
+GRAFFIC
 p:,c:090190
 1388:0dde2cc9:0001:0001:2:0
 ALOUETTE - DAB
-p:
-0046:ffce0000:0107:217c:0:0
-Servizio 70
-p:
-0047:ffce0000:0107:217c:0:0
-Servizio 71
-p:
-0048:ffce0000:0107:217c:0:0
-Servizio 72
-p:
-0049:ffce0000:0107:217c:0:0
-Servizio 73
-p:
-004a:ffce0000:0107:217c:0:0
-Servizio 74
-p:
-004b:ffce0000:0107:217c:0:0
-Servizio 75
-p:
-004c:ffce0000:0107:217c:0:0
-Servizio 76
-p:
-004d:ffce0000:0107:217c:0:0
-Servizio 77
-p:
-004e:ffce0000:0107:217c:0:0
-Servizio 78
-p:
-004f:ffce0000:0107:217c:0:0
-Servizio 79
-p:
-0316:ffce0000:0107:217c:1:0
-La 7 on demand
-p:
-0317:ffce0000:0107:217c:1:0
-La 7d on demand
-p:
-02c7:ffce0000:0107:217c:1:0
-La 7
-p:
-02c8:ffce0000:0107:217c:1:0
-La 7d
-p:
-02d1:ffce0000:0107:217c:1:0
-LA7
-p:
-02d2:ffce0000:0107:217c:1:0
-LA7d
-p:
-02f9:ffce0000:0107:217c:1:0
-LA7 TEST
-p:
-02fa:ffce0000:0107:217c:1:0
-La 7 Servizi on demand
-p:
-02fb:ffce0000:0107:217c:1:0
-LA7 TEST
-p:
-02fc:ffce0000:0107:217c:1:0
-LA7 TEST
-p:
-02fd:ffce0000:0107:217c:1:0
-LA7 TEST
-p:
-02ef:ffce0000:0107:217c:25:0
-La 7 HD
-p:
-02f0:ffce0000:0107:217c:25:0
-La 7d HD
-p:
-0063:ffce0000:0107:217c:0:0
-Ghost
 p:
 06a6:ffceb1bc:7788:055f:31:0
 NASA TV UHD
@@ -57704,8 +57608,8 @@ p:Persidera
 001e:0dde0000:0200:001d:1:0
 Boing Plus
 p:Persidera
-0028:0dde0000:0200:001d:1:0
-Super Tennis
+0028:0dde0000:0200:001d:25:0
+SuperTennis
 p:Persidera
 0032:0dde0000:0200:001d:1:0
 Spike
@@ -57753,7 +57657,7 @@ p:Persidera
 R Italia SMI
 p:Persidera
 003c:0dde0000:0202:001d:1:0
-Canale 65
+Alma TV - Alice & Marcopolo
 p:Persidera
 0041:0dde0000:0202:001d:1:0
 ibox.it
@@ -57784,6 +57688,18 @@ Radio Zeta
 p:Persidera
 0087:0dde0000:0202:001d:1:0
 Babel-Romit TV
+p:Persidera
+0046:0dde0000:0202:001d:1:0
+Alice
+p:Persidera
+004b:0dde0000:0202:001d:1:0
+Case Design Stili
+p:Persidera
+0050:0dde0000:0202:001d:1:0
+Marco Polo
+p:Persidera
+0055:0dde0000:0202:001d:1:0
+PopEconomy
 p:Persidera
 0007:ffce0000:791a:217c:1:0
 ILIKE.TV
@@ -58676,140 +58592,131 @@ p:GLOBECAST
 00b4:0dde0000:32d2:055f:2:0
 RCF Contribution
 p:
-0001:0dde0000:0385:0110:0:0
-Servizio OTA1
+001f:0dde0000:03a2:0110:0:0
+Servizio 31
 p:
-0002:0dde0000:0385:0110:0:0
-Servizio OTA2
+0020:0dde0000:03a2:0110:0:0
+Servizio 32
 p:
-0003:0dde0000:0385:0110:0:0
-Servizio 3
+0021:0dde0000:03a2:0110:0:0
+Servizio 33
 p:
-0004:0dde0000:0385:0110:0:0
-Servizio 4
+0022:0dde0000:03a2:0110:0:0
+Servizio 34
 p:
-0005:0dde0000:0385:0110:0:0
-Servizio 5
+0023:0dde0000:03a2:0110:0:0
+Servizio 35
 p:
-0006:0dde0000:0385:0110:0:0
-Servizio 6
+0024:0dde0000:03a2:0110:0:0
+Servizio 36
 p:
-008c:0dde0000:0385:0110:1:0
-Sky Atlantic
+0025:0dde0000:03a2:0110:0:0
+Servizio 37
 p:
-008d:0dde0000:0385:0110:1:0
-FOX
+0026:0dde0000:03a2:0110:0:0
+Servizio 38
 p:
-008e:0dde0000:0385:0110:1:0
-National Geographic
+0027:0dde0000:03a2:0110:0:0
+Servizio 39
 p:
-00ac:0dde0000:0385:0110:1:0
-Premium Stories
+0c1c:0dde0000:03a2:0110:22:0
+Radio 105
 p:
-00ad:0dde0000:0385:0110:1:0
-Premium Crime
-p:
-00c5:0dde0000:0385:0110:1:0
-Premium Emotion
-p:
-00c1:0dde0000:0385:0110:25:0
-Sky Sport Serie A HD
-p:
-00c2:0dde0000:0385:0110:25:0
-Sky Sport 24 HD
-p:
-000c:0dde0000:0385:0110:0:0
-Servizio 12
-p:
-000d:0dde0000:0385:0110:0:0
-Servizio 13
-p:
-0063:0dde0000:0385:0110:0:0
-Ghost
-p:
-1389:0dde0000:03b6:0110:0:0
-Servizio 1 OTA
-p:
-138a:0dde0000:03b6:0110:0:0
-Servizio 2 OTA
-p:
-138b:0dde0000:03b6:0110:0:0
-Servizio 3
-p:
-138c:0dde0000:03b6:0110:0:0
-Servizio 4
-p:
-138d:0dde0000:03b6:0110:0:0
-Servizio 5
-p:
-138e:0dde0000:03b6:0110:0:0
-Servizio 6
-p:
-138f:0dde0000:03b6:0110:0:0
-Servizio 7
-p:
-1390:0dde0000:03b6:0110:0:0
-Servizio 8
-p:
-1419:0dde0000:03b6:0110:1:0
-Sky Sport Serie A
-p:
-141a:0dde0000:03b6:0110:1:0
-Sky Sport
-p:
-141b:0dde0000:03b6:0110:1:0
-Sky Sport
-p:
-141c:0dde0000:03b6:0110:1:0
-Premium Action
-p:
-1436:0dde0000:03b6:0110:1:0
-Sky Sport
-p:
-1439:0dde0000:03b6:0110:1:0
-Sky Sport Uno
-p:
-143b:0dde0000:03b6:0110:1:0
-Sky Sport 24
-p:
-143c:0dde0000:03b6:0110:1:0
-Sky Uno
-p:
-143a:0dde0000:03b6:0110:25:0
-Sky Sport Uno HD
-p:
-0063:0dde0000:03b6:0110:0:0
-Ghost
-p:
-0007:ffce0000:032a:0110:0:0
-Servizio 7
-p:
-0008:ffce0000:032a:0110:0:0
-Servizio 8
-p:
-0009:ffce0000:032a:0110:0:0
-Servizio 9
-p:
-000a:ffce0000:032a:0110:0:0
-Servizio 10
-p:
-1fa4:ffce0000:032a:0110:1:0
-Virgin Radio TV
-p:
-1fa5:ffce0000:032a:0110:1:0
+0c1d:0dde0000:03a2:0110:22:0
 R101 TV
 p:
-1fa6:ffce0000:032a:0110:2:0
-Radio R101
+0c1e:0dde0000:03a2:0110:22:0
+Virgin Radio TV
 p:
-1fa7:ffce0000:032a:0110:2:0
-RADIO 105
+0c20:0dde0000:03a2:0110:25:0
+Rete 4 HD
 p:
-1fa8:ffce0000:032a:0110:2:0
-VIRGIN RADIO
+0c21:0dde0000:03a2:0110:25:0
+Canale 5 HD
 p:
-1fa9:ffce0000:032a:0110:2:0
-Radio Monte Carlo
+0c22:0dde0000:03a2:0110:25:0
+Italia1 HD
+p:,c:050001
+0bbc:0dde0000:03a2:0110:25:0
+Rete4 HD
+p:
+0bbd:0dde0000:03a2:0110:25:0
+Canale5 HD
+p:
+0bbe:0dde0000:03a2:0110:25:0
+Italia 1 HD
+p:
+0046:0dde0000:0107:217c:0:0
+Servizio 70
+p:
+0047:0dde0000:0107:217c:0:0
+Servizio 71
+p:
+0048:0dde0000:0107:217c:0:0
+Servizio 72
+p:
+0049:0dde0000:0107:217c:0:0
+Servizio 73
+p:
+004a:0dde0000:0107:217c:0:0
+Servizio 74
+p:
+004b:0dde0000:0107:217c:0:0
+Servizio 75
+p:
+004c:0dde0000:0107:217c:0:0
+Servizio 76
+p:
+004d:0dde0000:0107:217c:0:0
+Servizio 77
+p:
+004e:0dde0000:0107:217c:0:0
+Servizio 78
+p:
+004f:0dde0000:0107:217c:0:0
+Servizio 79
+p:
+0063:0dde0000:0107:217c:0:0
+Ghost
+p:
+02c7:0dde0000:0107:217c:1:0
+La 7
+p:
+02c8:0dde0000:0107:217c:1:0
+La 7d
+p:
+02d1:0dde0000:0107:217c:1:0
+LA7
+p:
+02d2:0dde0000:0107:217c:1:0
+LA7d
+p:
+02ef:0dde0000:0107:217c:25:0
+La 7 HD
+p:
+02f0:0dde0000:0107:217c:25:0
+La 7d HD
+p:
+02f9:0dde0000:0107:217c:1:0
+LA7 TEST
+p:
+02fa:0dde0000:0107:217c:1:0
+La 7 Servizi on demand
+p:
+02fb:0dde0000:0107:217c:1:0
+LA7 TEST
+p:
+02fc:0dde0000:0107:217c:1:0
+LA7 TEST
+p:
+02fd:0dde0000:0107:217c:1:0
+LA7 TEST
+p:
+0316:0dde0000:0107:217c:1:0
+La 7 on demand
+p:
+0317:0dde0000:0107:217c:1:0
+La 7d on demand
 p:
 0d4c:0dca0000:0022:0800:1:0
 Al Soyoof
