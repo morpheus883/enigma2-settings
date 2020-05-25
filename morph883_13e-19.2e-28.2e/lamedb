@@ -231,7 +231,7 @@ transponders
 011ab0fc:1f69:ffff
 	s 12540000:3600000:1:3:282:2:0:1:2:0:2
 /
-011aaf3a:07ee:0002
+011a0000:07e4:0002
 	s 12090000:27500000:1:2:282:2:0:1:2:0:2
 /
 00c00000:041a:0001
@@ -691,7 +691,7 @@ transponders
 	s 12418000:29900000:1:3:130:2:0:1:2:0:2
 /
 00820000:2328:013e
-	s 12520000:27500000:1:4:130:2:0
+	s 12520000:27500000:1:2:130:2:0:1:2:0:2
 /
 00820000:251c:fbff
 	s 12616000:29900000:0:4:130:2:0
@@ -2165,6 +2165,9 @@ p:Sky Digital
 c6c6:011a0000:082a:0002:1:0
 XXX Mums
 p:Sky Digital
+c6d1:011a0000:082a:0002:1:0
+A1 TV
+p:BSkyB
 1789:011a0000:07d7:0002:1:0
 Sky Crime+1
 p:Sky Digital
@@ -2339,9 +2342,6 @@ p:Sky Digital
 c7b0:011a0000:0817:0002:1:0
 Racing UK
 p:Sky Digital
-c7ad:011a0000:0817:0002:1:0
-A1 TV
-p:BSkyB
 c7b1:011a0000:0817:0002:1:0
 Cartoon Network
 p:Sky Digital
@@ -3644,34 +3644,34 @@ p:BSkyB
 1f69:011ab0fc:1f69:ffff:1:0
 EDS 804.1 HD
 p:TV3
-0cc9:011aaf3a:07ee:0002:25:0
+0cc9:011a0000:07e4:0002:25:0
 Sky Sports News HD
 p:BSkyB,c:090107
-0e2d:011aaf3a:07ee:0002:25:0
+0e2d:011a0000:07e4:0002:25:0
 Sky Sports News HD
 p:BSkyB,c:090108
-0eee:011aaf3a:07ee:0002:25:0
+0eee:011a0000:07e4:0002:25:0
 Sky Sports Action HD
 p:Sky Digital
-0ef0:011aaf3a:07ee:0002:25:0
+0ef0:011a0000:07e4:0002:25:0
 SkySp ActionHD
 p:Sky Digital
-0efb:011aaf3a:07ee:0002:25:0
+0efb:011a0000:07e4:0002:25:0
 Sky Sports F1 HD
 p:Sky Digital
-0efc:011aaf3a:07ee:0002:25:0
+0efc:011a0000:07e4:0002:25:0
 Sky Spts F1 HD
 p:Sky Digital
-0f0e:011aaf3a:07ee:0002:25:0
+0f0e:011a0000:07e4:0002:25:0
 Sky News Ireland HD
 p:BSkyB
-0f26:011aaf3a:07ee:0002:25:0
+0f26:011a0000:07e4:0002:25:0
 Sky Sports Cricket HD
 p:BSkyB
-0f4b:011aaf3a:07ee:0002:25:0
+0f4b:011a0000:07e4:0002:25:0
 Sky Sports Cricket HD
 p:BSkyB
-0ffc:011aaf3a:07ee:0002:25:0
+0ffc:011a0000:07e4:0002:25:0
 SkySp Mix HD
 p:BSkyB,c:090108
 7856:00c00000:041a:0001:25:0
@@ -6054,7 +6054,7 @@ p:ORF Digital
 RIC
 p:
 32da:00c00000:045d:0001:1:0
-Folx TV
+Volksmusik TV
 p:-
 32d7:00c00000:045d:0001:1:0
 Mei Musi TV
@@ -8181,7 +8181,7 @@ p:Eutelsat
 Russia Today
 p:Arqiva
 32dc:00820000:0190:013e:1:0
-Canal+ HD Polska
+Canal+ Premium HD Polska
 p:Cyfra +
 32de:00820000:0190:013e:1:0
 Canal+ Sport HD Polska
@@ -9758,6 +9758,9 @@ p:Telespazio
 030c:00820000:1b58:013e:1:0
 QVC Italia
 p:Telespazio
+02d5:00820000:1b58:013e:1:0
+New Jerusalem TV
+p:Harmonic
 3c8d:00820000:1bbc:013e:1:0
 novacinema1 HD Cy
 p:Netmed
@@ -11865,7 +11868,7 @@ p:nc+
 Fox Polska
 p:Cyfra +
 13ed:00822ce0:05dc:013e:1:0
-Canal+ 1 HD
+Canal+ Premium HD
 p:Cyfra +
 13f1:00822ce0:05dc:013e:1:0
 Fight Klub HD
@@ -12825,7 +12828,7 @@ p:
 20 Mediaset HD
 p:
 0077:00820000:04b0:0110:22:0
-Virgin Radio TV
+Radio Monte Carlo
 p:,C:0000
 006f:00820000:04b0:0110:22:0
 Cine34
