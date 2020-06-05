@@ -204,9 +204,6 @@ transponders
 00eb0000:0bbf:0003
 	s 11596000:4800000:0:2:235:2:0:1:2:0:2
 /
-00ebacde:0bba:0001
-	s 11486000:3750000:1:3:235:2:0:1:2:0:2
-/
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
 /
@@ -1067,18 +1064,9 @@ p:M7 Group
 1b92:00eb0000:0c88:0003:22:0
 RTL Z
 p:M7 Group
-1b94:00eb0000:0c88:0003:1:0
-Eurosport 2 NL
-p:M7 Group,c:090a00
 1b95:00eb0000:0c88:0003:22:0
 Zes
 p:M7 Group
-1b72:00eb0000:0c88:0003:2:0
-Q-Music
-p:M7 Group
-1b74:00eb0000:0c88:0003:2:0
-Joe FM
-p:M7 Group,c:090a44
 1bfc:00eb0000:0c88:0003:25:0
 FOX Sports 2 HD
 p:M7 Group
@@ -1088,12 +1076,12 @@ p:M7 Group
 1c01:00eb0000:0c88:0003:22:0
 Jim Jam CZ
 p:M7 Group
-1bfe:00eb0000:0c88:0003:25:0
-Eurosport 1 HD
+1bff:00eb0000:0c88:0003:22:0
+RTL Crime NL
 p:M7 Group
-1bff:00eb0000:0c88:0003:25:0
-Eurosport 1 HD BE
-p:M7 Group
+1b94:00eb0000:0c88:0003:22:0
+Nautical Channel
+p:M7 Group,C:0000
 17d5:00eb0000:0c91:0003:25:0
 Unitel Classica HD
 p:SkyLink
@@ -1852,6 +1840,9 @@ Love Nature HD INT
 p:M7 Group
 031b:00eb0000:0c94:0003:25:0
 Love Nature HD BNL
+p:M7 Group
+031c:00eb0000:0c94:0003:25:0
+Eurosport 1 HD
 p:M7 Group
 17e0:00ebaddb:0c82:0003:1:0
 Canal Digital Infokanaal
@@ -10398,8 +10389,8 @@ p:
 Nour TV
 p:iKOMG
 089b:00820000:01f4:013e:1:0
-Kurdsat HD
-p:Service Provider
+Wesal Al Haq
+p:
 08a1:00820000:01f4:013e:1:0
 Ictimai TV
 p:iKOMG
@@ -10409,6 +10400,24 @@ p:iKOMG
 08a2:00820000:01f4:013e:1:0
 Xezer TV
 p:iKOMG
+089d:00820000:01f4:013e:1:0
+Somali National (SNTV)
+p:
+089e:00820000:01f4:013e:1:0
+Somali National 2 (SNTV 2)
+p:
+08a7:00820000:01f4:013e:1:0
+ES TV
+p:
+08a8:00820000:01f4:013e:1:0
+Azadi TV
+p:
+08a9:00820000:01f4:013e:1:0
+Universal Somali/Telefishinka Caalmiga
+p:
+0604:00820000:01f4:013e:2:0
+R Radio
+p:
 44e0:00820000:0258:013e:1:0
 Rusiya Al-Yaum (RT Arab)
 p:Arqiva
@@ -11147,6 +11156,12 @@ p:Sky Italia
 0fc6:00820000:1644:fbff:1:0
 Nick Junior +1 Italia
 p:Sky Italia
+38d0:00820000:1644:fbff:1:0
+Fox Business
+p:SkyItalia
+05bb:00820000:1644:fbff:1:0
+Discovery Science Channel
+p:Sky Italia
 0e39:00820000:16a8:fbff:1:0
 National Geographic Italy
 p:Sky Italia
@@ -11282,6 +11297,9 @@ p:SkyItalia
 0fd9:00820000:1838:fbff:1:0
 History Channel Italia +1
 p:Sky Italia
+38c4:00820000:1838:fbff:1:0
+Nickelodeon +1 Italia
+p:SkyItalia
 1fbc:00820000:189c:fbff:1:0
 Vetrina Primafila
 p:Sky Italia
@@ -11567,6 +11585,12 @@ p:SkyItalia
 0594:00820000:19c8:fbff:1:0
 MTV Music Italia
 p:Sky Italia
+2d56:00820000:19c8:fbff:1:0
+Sky Sport 8
+p:Sky Italia
+2d65:00820000:19c8:fbff:1:0
+Primafila 1
+p:Sky Italia
 2dc6:00820000:1a2c:fbff:1:0
 Sky Uno
 p:Sky Italia
@@ -11654,6 +11678,15 @@ p:Sky Italia
 0fda:00820000:1a2c:fbff:1:0
 National Geographic Italy +1
 p:Sky Italia
+2d5b:00820000:1a2c:fbff:1:0
+Sky Sport NBA
+p:SkyItalia
+1fcb:00820000:1a2c:fbff:1:0
+Fox Crime Italia
+p:Sky Italia
+1fc5:00820000:1a2c:fbff:1:0
+Fox Life Italia
+p:Sky Italia
 2bc5:00820000:1a90:fbff:1:0
 Primafila 10
 p:Sky Italia
@@ -11693,9 +11726,6 @@ p:SkyItalia
 2d5a:00820000:1a90:fbff:1:0
 Sky Sport F1
 p:SkyItalia
-3c01:00820000:1a90:fbff:1:0
-DoveTv
-p:SkyItalia
 3c03:00820000:1a90:fbff:1:0
 Lei
 p:SkyItalia
@@ -11728,6 +11758,12 @@ Wimbledon 6
 p:SkyItalia
 2c0d:00820000:1a90:fbff:1:0
 Wimbledon 4
+p:SkyItalia
+0599:00820000:1a90:fbff:1:0
+Class CNBC
+p:Sky Italia
+38c5:00820000:1a90:fbff:1:0
+Comedy Central +1 Italia
 p:SkyItalia
 0db9:00820000:1af4:fbff:25:0
 History HD Italia
@@ -11889,7 +11925,7 @@ p:NetMed
 testser15
 p:Netmed
 3c9a:00820000:1bbc:013e:1:0
-testchhd
+Food Network HD
 p:NetMed
 3cb4:00820000:1bbc:013e:152:0
 Cobalt Data
@@ -12635,6 +12671,12 @@ p:Wide Network Solution
 39da:00820000:1fa4:013e:1:0
 Iran International
 p:ABS
+39d5:00820000:1fa4:013e:1:0
+Ronahi TV
+p:STN
+39d6:00820000:1fa4:013e:1:0
+Sterk TV
+p:STN
 106a:00820000:2008:fbff:25:0
 Sky Cinema Uno HD
 p:Sky Italia
@@ -13016,6 +13058,15 @@ p:Sky Italia
 1fbf:00820000:251c:fbff:1:0
 Fox
 p:SkyItalia
+3c01:00820000:251c:fbff:1:0
+DoveTv
+p:SkyItalia
+1fcc:00820000:251c:fbff:1:0
+Gambero Rosso
+p:Sky Italia
+0585:00820000:251c:fbff:1:0
+Lei +1
+p:SkyItalia
 2c9d:00820000:2580:fbff:1:0
 Super!
 p:Sky Italia
@@ -13148,15 +13199,6 @@ p:SkyItalia
 38e7:00820000:2648:fbff:1:0
 Offerte e promozioni
 p:SkyItalia
-38c4:00820000:2648:fbff:1:0
-Nickelodeon +1 Italia
-p:SkyItalia
-38c5:00820000:2648:fbff:1:0
-Comedy Central +1 Italia
-p:SkyItalia
-38d0:00820000:2648:fbff:1:0
-Fox Business
-p:SkyItalia
 38c9:00820000:2648:fbff:1:0
 Primafila 20
 p:SkyItalia
@@ -13181,15 +13223,6 @@ p:SkyItalia
 38f6:00820000:2648:fbff:1:0
 Multipairing
 p:SkyItalia
-0599:00820000:2648:fbff:1:0
-Class CNBC
-p:Sky Italia
-1fcb:00820000:2648:fbff:1:0
-Fox Crime Italia
-p:Sky Italia
-1fcc:00820000:2648:fbff:1:0
-Gambero Rosso
-p:Sky Italia
 019f:00820000:26ac:013f:1:0
 BFM TV
 p:Bis
@@ -13319,17 +13352,11 @@ p:Sky Italia
 340d:00820000:2710:fbff:1:0
 Primafila 7
 p:Sky Italia
-05bb:00820000:2710:fbff:1:0
-Discovery Science Channel
-p:Sky Italia
 2d4f:00820000:2774:fbff:1:0
 IEPG Data
 p:SkyItalia
 2d46:00820000:2774:fbff:251:0
 Fusion BGDL 11590
-p:SkyItalia
-0585:00820000:2774:fbff:1:0
-Lei +1
 p:SkyItalia
 2d51:00820000:2774:fbff:1:0
 Primafila 16
@@ -13346,9 +13373,6 @@ p:Sky Italia
 2d57:00820000:2774:fbff:1:0
 Primafila 14
 p:Sky Italia
-2d65:00820000:2774:fbff:1:0
-Primafila 1
-p:Sky Italia
 2d5d:00820000:2774:fbff:1:0
 Sky Sport 9
 p:Sky Italia
@@ -13364,12 +13388,6 @@ p:Sky Italia
 2d63:00820000:2774:fbff:1:0
 Sky Sport 13
 p:Sky Italia
-2d56:00820000:2774:fbff:1:0
-Sky Sport 8
-p:Sky Italia
-2d5b:00820000:2774:fbff:1:0
-Sky Sport NBA
-p:SkyItalia
 0bb8:00820000:2774:fbff:4:0
 PUSH REF SD 3000
 p:SkyItalia
@@ -13382,9 +13400,6 @@ p:SkyItalia
 2d67:00820000:2774:fbff:1:0
 Dawson's Creek 20
 p:SkyItalia
-1fc5:00820000:2774:fbff:1:0
-Fox Life Italia
-p:Sky Italia
 07d1:00820000:22c4:013e:1:0
 RT HD
 p:GlobeCast
@@ -14948,6 +14963,9 @@ p:Cyfrowy Polsat S.A.
 070e:00820000:32c8:013e:1:0
 Polsat Sport Premium PPV6
 p:Cyfrowy Polsat S.A.
+070f:00820000:32c8:013e:1:0
+PPV HD FEN 28 MMA
+p:Cyfrowy Polsat SA
 076d:00820000:012c:013e:22:0
 MBC 1 Europe
 p:Eutelsat
