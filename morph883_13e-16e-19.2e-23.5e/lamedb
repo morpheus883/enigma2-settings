@@ -732,6 +732,9 @@ transponders
 00a00000:5e24:016e
 	s 10721000:30000000:0:3:160:2:0
 /
+00a00000:0002:016e
+	s 11595000:30000000:0:3:160:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -1688,11 +1691,8 @@ p:M7 Group
 526a:00eb0000:0c99:0003:22:0
 Golf Channel
 p:M7 Group
-524c:00eb0000:0c99:0003:25:0
-Discovery Showcase HD CZ
-p:M7 Group
 52b0:00eb0000:0c99:0003:25:0
-Discovery Showcase HD
+BBC First
 p:M7 Group
 524b:00eb0000:0c99:0003:22:0
 Arena Sport Slovakia
@@ -1844,6 +1844,9 @@ p:M7 Group
 031c:00eb0000:0c94:0003:25:0
 Eurosport 1 HD
 p:M7 Group
+031d:00eb0000:0c94:0003:25:0
+Discovery Showcase HD CZ
+p:M7 Group
 17e0:00ebaddb:0c82:0003:1:0
 Canal Digital Infokanaal
 p:M7 Group,c:09099e
@@ -1852,33 +1855,33 @@ TV Vlaanderen Infokanaal
 p:M7 Group,c:09099f
 177f:00ebaddb:0c82:0003:22:0
 192 TV
-p:Canal Digitaal
+p:M7 Group
 178e:00ebaddb:0c82:0003:22:0
 Fox Nederland
-p:Canal Digitaal
+p:M7 Group
 1793:00ebaddb:0c82:0003:22:0
 Boomerang
-p:Canal Digitaal
+p:M7 Group
 1794:00ebaddb:0c82:0003:22:0
 Boomerang CZ
 p:M7 Group
 179d:00ebaddb:0c82:0003:22:0
-Investigation Discovery Europe
-p:Canal Digitaal
+Fightbox BtoB
+p:M7 Group
 17b1:00ebaddb:0c82:0003:22:0
 Disney Channel Benelux
-p:Canal Digitaal
+p:M7 Group
 17c0:00ebaddb:0c82:0003:25:0
 Nederland 2 HD
-p:Canal Digitaal
+p:M7 Group
 17ca:00ebaddb:0c82:0003:25:0
 SBS 6 HD
-p:Canal Digitaal
+p:M7 Group
 17cc:00ebaddb:0c82:0003:25:0
 FOX Sports Eredivisie 1 HD
-p:Canal Digitaal
+p:M7 Group
 17d1:00ebaddb:0c82:0003:22:0
-Discovery Channel NL
+BBC Entertainment
 p:M7 Group
 17b3:00ebaddb:0c82:0003:1:0
 ONS
@@ -1922,17 +1925,14 @@ p:M7 Group
 17b0:00ebaddb:0c82:0003:25:0
 Film Europe+ HD
 p:M7 Group
-17f3:00ebaddb:0c82:0003:1:0
-OTA Downl CAM 2
-p:M7 Group
 17f3:00ebaddb:0c82:0003:129:0
 Downl CAM 2
 p:M7 Group
 177a:00ebaddb:0c82:0003:22:0
 NPO Politiek
-p:Canal Digitaal
+p:M7 Group
 17eb:00ebaddb:0c82:0003:22:0
-Test HBBTV
+Hobby TV
 p:M7 Group
 1f42:00eb3037:0ca1:0003:25:0
 CT 2 HD
@@ -9509,13 +9509,13 @@ p:EPQ
 0016:00a00000:0001:0064:2:0
 Bobar Radio
 p:H
-0004:00a00000:0001:0064:1:0
-BN Sat TV
+0004:00a00000:0001:0064:25:0
+BN Sat TV HD
 p:H
-0005:00a00000:0001:0064:1:0
-BN Music
+0005:00a00000:0001:0064:25:0
+BN Music HD
 p:H
-0007:00a00000:0001:0064:1:0
+0007:00a00000:0001:0064:22:0
 RTRS
 p:H
 0008:00a00000:0001:0064:2:0
@@ -9530,8 +9530,8 @@ p:H
 000b:00a00000:0001:0064:2:0
 Radio BIR
 p:H
-000c:00a00000:0001:0064:1:0
-BN TV (Terrestrial)
+000c:00a00000:0001:0064:25:0
+BN TV HD (Terrestrial)
 p:H
 000d:00a00000:0001:0064:2:0
 Radio BN
@@ -9545,7 +9545,7 @@ p:H
 0010:00a00000:0001:0064:2:0
 Radio Curak
 p:H
-0011:00a00000:0001:0064:1:0
+0011:00a00000:0001:0064:22:0
 RTRS Plus
 p:H
 0012:00a00000:0001:0064:2:0
@@ -9578,40 +9578,40 @@ p:H
 0084:00a00000:0001:0064:2:0
 RM Hungary
 p:H
-0065:00a00000:0001:0064:1:0
+0065:00a00000:0001:0064:25:0
 Al Jazeera Balkans HD
 p:H,c:090030
 0066:00a00000:0001:0064:2:0
 Studio 99
 p:H
-0067:00a00000:0001:0064:1:0
+0067:00a00000:0001:0064:22:0
 Minimax Serbia
 p:H,c:090050
-0068:00a00000:0001:0064:1:0
+0068:00a00000:0001:0064:25:0
 Eurochannel HD
 p:H
-006a:00a00000:0001:0064:1:0
+006a:00a00000:0001:0064:22:0
 YU Planet
 p:H,c:090080
-006b:00a00000:0001:0064:1:0
+006b:00a00000:0001:0064:22:0
 OBN
 p:H
-006c:00a00000:0001:0064:1:0
+006c:00a00000:0001:0064:22:0
 Aurora TV
 p:H
-006d:00a00000:0001:0064:1:0
+006d:00a00000:0001:0064:22:0
 Pro TV International
 p:H
-0074:00a00000:0001:0064:1:0
+0074:00a00000:0001:0064:22:0
 Duga Plus
 p:H
 0076:00a00000:0001:0064:1:0
 AMC Balkan
 p:H
-0079:00a00000:0001:0064:1:0
+0079:00a00000:0001:0064:22:0
 K3 (Bosnia)
 p:H
-0073:00a00000:0001:0064:1:0
+0073:00a00000:0001:0064:25:0
 Fashion TV HD
 p:H
 03e9:00a00000:5e24:016e:1:0
