@@ -1101,6 +1101,15 @@ fff8b0e7:010c:ffff
 0e08b0ee:010c:ffff
 	s 12526000:3300000:1:3:-8:2:0:1:2:0:2
 /
+fff8acf3:0001:ffff
+	s 11507000:7200000:1:3:-8:2:0:1:2:0:2
+/
+fff8acf5:0001:ffff
+	s 11509000:7200000:1:2:-8:2:0:1:2:0:2
+/
+fff80000:0055:0056
+	s 12322000:30000000:0:3:-8:2:0:1:2:1:2
+/
 end
 services
 23fb:011a0000:07f9:0002:1:0
@@ -1951,19 +1960,19 @@ ITV Box Office HD
 p:Sky Digital
 238d:011a2e8a:07db:0002:1:0
 Disney XD UK
-p:Sky Digital
+p:BSkyB
 238e:011a2e8a:07db:0002:1:0
 Disney Channel U.K.
-p:Sky Digital
+p:BSkyB
 238f:011a2e8a:07db:0002:1:0
 Disney Junior UK
-p:Sky Digital
+p:BSkyB
 2390:011a2e8a:07db:0002:1:0
 Disney XD +1 UK
-p:Sky Digital
+p:BSkyB
 2391:011a2e8a:07db:0002:1:0
 Disney Channel +1 UK
-p:Sky Digital
+p:BSkyB
 2392:011a2e8a:07db:0002:1:0
 Disney Junior +1 UK
 p:BSkyB
@@ -1972,10 +1981,10 @@ BabyTV
 p:BSkyB
 15a1:011a2e8a:07db:0002:1:0
 RTÉ One
-p:Sky Digital
+p:BSkyB
 15a2:011a2e8a:07db:0002:1:0
 RTÉ Two
-p:Sky Digital
+p:BSkyB
 15a7:011a2e8a:07db:0002:1:0
 RTE Jr
 p:BSkyB
@@ -1984,7 +1993,7 @@ Oireachtas TV
 p:BSkyB
 15a3:011a2e8a:07db:0002:1:0
 TG4
-p:Sky Digital
+p:BSkyB
 15a4:011a2e8a:07db:0002:1:0
 RTE One +1
 p:BSkyB
@@ -2005,6 +2014,9 @@ RTÉ Lyric fm
 p:BSkyB
 0ff1:011a2e8a:07db:0002:1:0
 Manchester United TV
+p:BSkyB
+16c9:011a2e8a:07db:0002:1:0
+Sky Two
 p:BSkyB
 1325:011a2f74:07e7:0002:1:0
 Sky Atlantic Ireland
@@ -2095,31 +2107,31 @@ Sky Sports Cricket
 p:BSkyB
 158b:011a2f4d:07e5:0002:1:0
 Fox U.K.
-p:Sky Digital
+p:BSkyB
 1794:011a2f4d:07e5:0002:1:0
 Sky Witness Ireland
-p:Sky Digital
+p:BSkyB
 057b:011a2f4d:07e5:0002:1:0
 Sky One +1
 p:BSkyB
 1076:011a2f4d:07e5:0002:1:0
 Sky Sports Main Events
-p:Sky Digital
+p:BSkyB
 1078:011a2f4d:07e5:0002:1:0
 SkySpMainEv
-p:Sky Digital
+p:BSkyB
 107b:011a2f4d:07e5:0002:1:0
 Sky Sports Action
-p:Sky Digital
+p:BSkyB
 119f:011a2f4d:07e5:0002:1:0
 Sky Sports 3
-p:Sky Digital
+p:BSkyB
 051a:011a2f4d:07e5:0002:1:0
 Sky Sports F1
-p:Sky Digital
+p:BSkyB
 051b:011a2f4d:07e5:0002:1:0
 Sky Sports F1
-p:Sky Digital
+p:BSkyB
 125d:011a2f4d:07e5:0002:1:0
 Sky One
 p:BSkyB
@@ -2128,13 +2140,10 @@ Sky1
 p:BSkyB
 1298:011a2f4d:07e5:0002:1:0
 Virgin One
-p:Sky Digital
+p:BSkyB
 1658:011a2f4d:07e5:0002:1:0
 Sky Hits
 p:BSkyB
-17de:011a2f4d:07e5:0002:1:0
-Sky Witness +1 Ireland
-p:Sky Digital
 0eff:011a2f4d:07e5:0002:1:0
 Sky Sports Arena
 p:BSkyB,c:090100
@@ -2147,18 +2156,9 @@ p:BSkyB
 052e:011a2f4d:07e5:0002:1:0
 Sky Sports Premier League
 p:BSkyB
-0f02:011a2f4d:07e5:0002:1:0
-Sky Sports Arena
-p:BSkyB
-106d:011a2f4d:07e5:0002:1:0
-SkySp Arena
-p:BSkyB
 0fd2:011a2f4d:07e5:0002:1:0
 E! Ireland
-p:Sky Digital
-088f:011a2f4d:07e5:0002:1:0
-Universal Channel Ireland
-p:Sky Digital
+p:BSkyB
 1439:011a2f4d:07e5:0002:1:0
 Sky Comedy
 p:BSkyB
@@ -2174,17 +2174,20 @@ p:BSkyB
 144a:011a2f4d:07e5:0002:1:0
 Sky Nature
 p:BSkyB
+1ab9:011a2f4d:07e5:0002:1:0
+Sky Sports Football Ireland
+p:BSkyB,c:090109
+0f0f:011a2f4d:07e5:0002:1:0
+SkySp F'ball
+p:BSkyB,c:090110
+1aa1:011a2f4d:07e5:0002:1:0
+Virgin Three
+p:BSkyB,c:090100
 1262:011aafaf:07ea:0002:1:0
 Sky News Ireland
 p:Sky Digital
 128e:011aafaf:07ea:0002:1:0
 Sky1 
-p:BSkyB
-1290:011aafaf:07ea:0002:1:0
-Sky Two
-p:Sky Digital
-1292:011aafaf:07ea:0002:2:0
-SNRNEW
 p:BSkyB
 1fd0:011aafaf:07ea:0002:130:0
 launchpad
@@ -2198,12 +2201,6 @@ p:BSkyB
 1f8b:011aafaf:07ea:0002:130:0
 SOM Test Bert/Ernie
 p:BSkyB
-0f01:011aafaf:07ea:0002:1:0
-Sky Sports Football
-p:BSkyB,c:090109
-0f0f:011aafaf:07ea:0002:1:0
-SkySp F'ball
-p:BSkyB,c:090110
 159d:011aafaf:07ea:0002:1:0
 Sky Two Ireland
 p:Sky Digital
@@ -2219,20 +2216,11 @@ p:BSkyB
 1f6a:011aafaf:07ea:0002:130:0
 Update Email Address
 p:BSkyB
-159e:011aafaf:07ea:0002:1:0
-Virgin Three
-p:BSkyB,c:090100
-1081:011aafaf:07ea:0002:1:0
-Sky Sports Racing Ireland
-p:BSkyB
 0466:011aafaf:07ea:0002:2:0
 1126
 p:BSkyB
 1f72:011aafaf:07ea:0002:130:0
 Sky Shop
-p:BSkyB
-11df:011aafaf:07ea:0002:2:0
-4575
 p:BSkyB
 10ce:011aae9e:07dc:0002:1:0
 Sky Action
@@ -8105,9 +8093,6 @@ p:Globecast,c:091642
 1cf0:00820000:2fa8:013e:2:0
 WRN Sawt Al Alam
 p:Globecast,c:0916a6
-1d27:00820000:2fa8:013e:1:0
-CNBC Europe
-p:Globecast UK
 1cea:00820000:2fa8:013e:2:0
 Bahai Radio
 p:Globecast
@@ -8936,14 +8921,8 @@ p:Telespazio
 4255:00820000:3db8:013e:2:0
 Radio Number One
 p:Telespazio
-422b:00820000:3db8:013e:1:0
-Life 120 Channel (ARTE E CUCINA)
-p:Telespazio
 421a:00820000:3db8:013e:1:0
 TRM H24
-p:Telespazio
-421d:00820000:3db8:013e:1:0
-Canale Italia
 p:Telespazio
 4229:00820000:3db8:013e:1:0
 La 8
@@ -9010,9 +8989,6 @@ SCT (Satisfaction Channel Television)
 p:Telespazio
 421f:00820000:3db8:013e:1:0
 Just 89
-p:Telespazio
-4256:00820000:3db8:013e:2:0
-Test Radio Sportiva
 p:Telespazio
 012d:00820000:3e1c:013f:1:0
 TF1 HD
@@ -10091,12 +10067,6 @@ p:Telespazio
 02d7:00820000:1b58:013e:1:0
 El Sharq
 p:Telespazio
-02f4:00820000:1b58:013e:1:0
-Canale Italia 83
-p:Telespazio
-02f5:00820000:1b58:013e:1:0
-Canale Italia 84
-p:Telespazio
 0301:00820000:1b58:013e:2:0
 Radio Radio
 p:Telespazio
@@ -10112,9 +10082,6 @@ p:Telespazio
 030c:00820000:1b58:013e:1:0
 QVC Italia
 p:Telespazio
-02d5:00820000:1b58:013e:1:0
-New Jerusalem TV
-p:Harmonic
 3c8d:00820000:1bbc:013e:1:0
 novacinema1 HD Cy
 p:Netmed
@@ -13073,9 +13040,6 @@ p:
 01fc:00820000:0384:013e:1:0
 Kurdistan 24 HD
 p:
-0212:00820000:0384:013e:25:0
-World Fashion Channel HD
-p:DVB
 0214:00820000:0384:013e:1:0
 Tesory Channel
 p:M-Three satcom
@@ -14455,6 +14419,9 @@ Discovery Science ( SVT)
 p:UPC Direct
 77fc:0e080000:02c3:0600:1:0
 ducktv ( SVT)
+p:UPC Direct
+7806:0e080000:02c3:0600:1:0
+Life TV.
 p:UPC Direct
 76c1:0e080000:02c0:0600:1:0
 Antena 3 Romania
