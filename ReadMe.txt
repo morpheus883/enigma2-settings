@@ -9,14 +9,14 @@ Morpheus883's Site: http://morpheus883.altervista.org/
 GitHub Repository: https://github.com/morpheus883/
 and available on the main Sat Sites
 
-Enigma2 Settings 12th June 2020, © by Morpheus883
+Enigma2 Settings 14th June 2020, © by Morpheus883
 
 Settings for Images based on Enigma 2.4:
 
 Statistics:
-# Satellites: 101 (C-Ku Bands)
+# Satellites: 93 (Ku Bands)
 # Ordered Provider Lists: 60+
-# Services: 21.623 (TV-Radio-Data)
+# Services: 18.855 (TV-Radio-Data)
 # Packages: 23 (TV-Radio-Data):
 
 MONOFeed (13°E)
@@ -46,8 +46,6 @@ OTHER PACKAGES AVAILABLE ON REQUEST
  
 [47.5 W] ===== SES 14 - NSS 806 =====
 [45.0 W] ===== INTELSAT 14 =====
-[43.0 W] ==C== INTELSAT 11 =====
-[40.5 W] ==C== SES 6 =====
 [37.5 W] ===== NSS 10 TELSTAR 11N =====
 [36.0 W] ===== HISPASAT 36W-1 =====
 [34.5 W] ===== INTELSAT 35e =====
@@ -110,7 +108,6 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [19.2 E] Movistar+
 [19.2 E] HD +/Sky D/ARD
 [19.2 E] Canal Digitaal/TV Vlaanderen
-[20.0 E] ==C== ARABSAT 5C =====
 [21.6 E] ===== EUTELSAT 21B =====
 [23.5 E] ===== ASTRA 3B ===M=
 [23.5 E] Canal Digitaal/TV Vlaanderen
@@ -133,7 +130,6 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [33.0 E] ===== EUTELSAT 33E - INTELSAT 28 =====
 [36.0 E] ===== EUTELSAT 36B/AMU1 =====
 [36.0 E] DStv Multichoice Africa
-[38.0 E] ==C== PAKSAT 1R =====
 [39.0 E] ===== HELLAS SAT 2/3 =====
 [39.0 E] Bulsatcom
 [39.0 E] Dolce TV
@@ -148,7 +144,6 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [45.0 E] Vivacom/NURTS
 [46.0 E] ===== AZERSPACE-1 =====
 [47.5 E] ===== INTELSAT 10 =====
-[49.0 E] ==C== YAMAL 202 =====
 [50.0 E] ===== TURKSAT 4B =====
 [51.5 E] ===== BELINTERSAT 1 =====
 [52.0 E] =====  TURKMENÄLEM/MONACOSAT  =====
@@ -157,14 +152,11 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [55.0 E] ===== YAMAL 402 =====
 [57.0 E] ===== NSS 12 =====
 [62.0 E] ===== INTELSAT 902 =====
-[64.2 E] ==C== INTELSAT 906 =====
-[65.0 E] ===== AMOS 4 =====
 [66.0 E] ===== INTELSAT 17 =====
 [68.5 E] ===== INTELSAT 20 =====
 [70.5 E] ===== EUTELSAT 70B =====
 [75.0 E] ===== ABS-2 ===N=
 [76.5 E] ===== APSTAR 7 =====
-[ C Band ]
 
 + Radios
 
