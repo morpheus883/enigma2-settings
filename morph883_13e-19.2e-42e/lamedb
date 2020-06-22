@@ -249,6 +249,9 @@ transponders
 01a42b3f:0001:ffff
 	s 11071000:2222000:0:4:420:2:0
 /
+01a40000:a02d:042e
+	s 12084000:13750000:0:2:420:2:0:1:2:0:2
+/
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
 /
@@ -714,9 +717,6 @@ transponders
 00820000:2580:fbff
 	s 12635000:29900000:1:4:130:2:0
 /
-00820000:25e4:02be
-	s 12654000:27500000:0:4:130:2:0
-/
 00820000:2648:fbff
 	s 12673000:29900000:1:4:130:2:0
 /
@@ -848,6 +848,9 @@ transponders
 /
 00820000:005e:0055
 	s 11219000:29900000:0:7:130:2:0:1:2:0:2
+/
+00820000:23f0:013e
+	s 12558000:27500000:1:4:130:2:0:1:2:2:2
 /
 end
 services
@@ -1847,6 +1850,9 @@ p:TURKSAT,f:1
 c41d:01a40000:a4d9:042e:25:0
 TRT Avaz HD (E)
 p:TURKSAT,f:1
+c419:01a40000:a4d9:042e:1:0
+TURKSAT TANITIM
+p:TURKSAT,f:1
 044d:01a40000:0001:0042:1:0
 Kanal D (E)
 p:DEMIROREN MEDYA,f:1
@@ -1927,6 +1933,33 @@ TEK-4
 p:DEMIROREN MEDYA
 2817:01a40000:0001:0042:3:0
 iKANALDTrigger
+p:DEMIROREN MEDYA
+045f:01a40000:0001:0042:1:0
+ALASKA TV
+p:DEMIROREN MEDYA,f:1
+0463:01a40000:0001:0042:1:0
+ARAFAT
+p:DEMIROREN MEDYA,f:1
+0465:01a40000:0001:0042:1:0
+ALASKA TV
+p:DEMIROREN MEDYA,f:1
+0469:01a40000:0001:0042:1:0
+ARAFAT
+p:DEMIROREN MEDYA,f:1
+0477:01a40000:0001:0042:1:0
+ARAFAT
+p:DEMIROREN MEDYA,f:1
+0479:01a40000:0001:0042:1:0
+ALASKA TV
+p:DEMIROREN MEDYA,f:1
+0481:01a40000:0001:0042:1:0
+ALASKA TV
+p:DEMIROREN MEDYA,f:1
+049d:01a40000:0001:0042:2:0
+TEK-2
+p:DEMIROREN MEDYA
+049f:01a40000:0001:0042:2:0
+TEK-3
 p:DEMIROREN MEDYA
 06a8:01a40000:0007:0042:25:0
 MovieSmart Premium HD
@@ -2048,23 +2081,20 @@ p:HABERTURK HD,f:1
 2afa:01a40000:a1b9:042e:1:0
 Bloomberg HT HD
 p:BLOOMBERGHT HD,f:1
-c8d4:01a40000:a411:042e:1:0
-Discovery Channel Mediterranean
-p:Digitürk,f:1
-c8c8:01a40000:a411:042e:1:0
-Maxi TV (T)
-p:TURKSAT,f:1
-c8dc:01a40000:a411:042e:1:0
-beIN Sports Haber HD
-p:TURKSAT,f:1
 c8dd:01a40000:a411:042e:1:0
 beIN Sports Haber
 p:TURKSAT,f:1
-c8c9:01a40000:a411:042e:1:0
+c8d4:01a40000:a411:042e:25:0
+DISCOVERY CHANNEL HD
+p:TURKSAT,f:1
+c8dc:01a40000:a411:042e:25:0
 beIN SPORTS HABER HD
 p:TURKSAT,f:1
-c8ca:01a40000:a411:042e:1:0
-beIN SPORTS HABER
+c8de:01a40000:a411:042e:25:0
+BABY TV HD
+p:TURKSAT,f:1
+c8c8:01a40000:a411:042e:1:0
+SHOPPING CHANNEL
 p:TURKSAT,f:1
 3200:01a40000:a413:042e:1:0
 FOX Türkiye
@@ -3128,30 +3158,45 @@ p:KARNAVAL
 0001:01a42b3f:0001:ffff:1:0
 MMP OOB003
 p:ERICSSON Television,f:1
+cb20:01a40000:a02d:042e:1:0
+UçanKuş HD
+p:TURKSAT,f:1
+cb21:01a40000:a02d:042e:1:0
+TRT Eba TV İlkokul HD
+p:TURKSAT,f:1
+cb22:01a40000:a02d:042e:1:0
+TRT Eba TV Ortaokul HD
+p:TURKSAT,f:1
+cb23:01a40000:a02d:042e:1:0
+TRT Eba TV Lise HD
+p:TURKSAT,f:1
+cb24:01a40000:a02d:042e:22:0
+TURKSAT TANITIM
+p:,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7857:00c00000:041a:0001:25:0
 Movistar Comedia HD
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7859:00c00000:041a:0001:25:0
 LaLiga TV Bar HD
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7854:00c00000:041a:0001:25:0
 Alquiler HD
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 785e:00c00000:041a:0001:25:0
 Alquiler 2 HD
-p:PRISA TV,f:1
+p:Movistar+,f:1
 7863:00c00000:041a:0001:25:0
 LA 1 HD
-p:,f:1
+p:Movistar+,f:1
 7855:00c00000:041a:0001:25:0
 LaLiga 2 HD
 p:Movistar+,c:090405,f:1
 785f:00c00000:041a:0001:25:0
 LaLiga 3 HD
-p:CANAL+,c:09040f,f:1
+p:Movistar+,c:09040f,f:1
 7861:00c00000:041a:0001:25:0
 Liga de Campeones 1 HD
 p:Movistar+,c:090411,f:1
@@ -3208,40 +3253,40 @@ Genius Plus
 p:BetaDigital,f:1
 768e:00c00000:041e:0001:1:0
 Alquiler 1
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 768f:00c00000:041e:0001:1:0
 Alquiler 2
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7692:00c00000:041e:0001:1:0
 Multideporte
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7695:00c00000:041e:0001:1:0
 Alquiler XY
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 769b:00c00000:041e:0001:1:0
 LaLiga 4
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 769c:00c00000:041e:0001:1:0
 LaLiga 3
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 76a3:00c00000:041e:0001:1:0
 MULTIDEPORTE
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7696:00c00000:041e:0001:1:0
 Movistar Series
-p:PRISA TV,f:1
+p:Movistar+,f:1
 7699:00c00000:041e:0001:1:0
 Mezzo
-p:MEZZO,f:1
+p:Movistar+,f:1
 76a4:00c00000:041e:0001:1:0
 Canal Orbe 21
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 76a5:00c00000:041e:0001:1:0
 Sundance Channel
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 76a7:00c00000:041e:0001:1:0
 TEST F1
-p:CANAL+,f:1
+p:Movistar+,f:1
 769f:00c00000:041e:0001:1:0
 Liga de Campeones 2
 p:Movistar+,f:1
@@ -3256,10 +3301,10 @@ Liga de Campeones 4
 p:Movistar+,c:09040f,f:1
 769e:00c00000:041e:0001:1:0
 Multideporte 6
-p:CANAL+,c:090410,f:1
+p:Movistar+,c:090410,f:1
 7697:00c00000:041e:0001:1:0
 Nick Junior Spain
-p:DIGITAL+,c:09040a,f:1
+p:Movistar+,c:09040a,f:1
 76a6:00c00000:041e:0001:1:0
 LALIGATVBAR4
 p:Movistar+,f:1
@@ -3271,22 +3316,28 @@ TEST Z
 p:Movistar+,f:1
 7504:00c00000:0420:0001:25:0
 Fox España HD
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7509:00c00000:0420:0001:25:0
 Movistar Acción HD
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 750b:00c00000:0420:0001:25:0
 Movistar Drama HD
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 750c:00c00000:0420:0001:25:0
 Canal Hollywood HD
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 750f:00c00000:0420:0001:25:0
 LaLiga HD
 p:Movistar+,c:09040e,f:1
 74ff:00c00000:0420:0001:25:0
 LaLiga 1 HD
 p:Movistar+,c:090402,f:1
+7508:00c00000:0420:0001:25:0
+#Vamos HD
+p:Movistar+,f:1
+750a:00c00000:0420:0001:25:0
+#VAMOSHD
+p:Movistar+,f:1
 ef10:00c00000:0421:0001:25:0
 RTL HD
 p:HD +,f:1
@@ -3301,28 +3352,28 @@ RTL II HD
 p:HD +,f:1
 759c:00c00000:0422:0001:1:0
 PORTADA
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 75a9:00c00000:0422:0001:1:0
 GUÍA
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 75b0:00c00000:0422:0001:1:0
 ALQUILER
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 75b2:00c00000:0422:0001:1:0
 ALQUILER
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 75c6:00c00000:0422:0001:1:0
 PORTADA
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7596:00c00000:0422:0001:1:0
 RADIOS
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 75d9:00c00000:0422:0001:1:0
 CONTRATO
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7598:00c00000:0422:0001:2:0
 RADIOS ESP
-p:Movistar+ (Astra)
+p:Movistar+
 75f6:00c00000:0422:0001:1:0
 GUÍA FÁCIL
 p:PRISA TV,f:1
@@ -3394,46 +3445,46 @@ p:,f:1
 p:DIGITAL +,f:1
 7599:00c00000:0422:0001:2:0
 
-p:
+p:Movistar+
 759a:00c00000:0422:0001:2:0
 
-p:
+p:Movistar+
 7789:00c00000:0424:0001:1:0
 Movistar Golf
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 778a:00c00000:0424:0001:1:0
 Odisea
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 778b:00c00000:0424:0001:1:0
 Playboy TV
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 778d:00c00000:0424:0001:1:0
 National Geographic Spain
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 778e:00c00000:0424:0001:1:0
 #VAMOS BAR
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 778f:00c00000:0424:0001:1:0
 Movistar Deportes 1
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7790:00c00000:0424:0001:1:0
 Calle 13
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7795:00c00000:0424:0001:1:0
 Decasa TV
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7796:00c00000:0424:0001:1:0
 SyFy Universal España
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7793:00c00000:0424:0001:1:0
 LaLiga TV Bar
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7797:00c00000:0424:0001:1:0
 LaLiga
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7798:00c00000:0424:0001:1:0
 
-p:,f:1
+p:Movistar+,f:1
 0026:00c00000:000f:0085:1:0
 HGTV
 p:BetaDigital,f:1
@@ -3466,142 +3517,139 @@ p:BetaDigital,f:1
 p:SES,f:1
 7823:00c00000:0428:0001:25:0
 Mezzo Live HD
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7824:00c00000:0428:0001:25:0
 Calle 13 HD
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7820:00c00000:0428:0001:25:0
 Nickelodeon Spain HD
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7829:00c00000:0428:0001:25:0
 National Geographic Spain HD
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7828:00c00000:0428:0001:25:0
 Movistar Deportes 1 HD
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 782d:00c00000:0428:0001:25:0
 Toros HD
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7826:00c00000:0428:0001:25:0
 Eurosport 1 HD
-p:MOVISTAR+,c:090408,f:1
+p:Movistar+,c:090408,f:1
+7825:00c00000:0428:0001:25:0
+SyFy HD España
+p:Movistar+,f:1
 77bc:00c00000:040a:0001:1:0
 Factoria de Ficcion
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 77be:00c00000:040a:0001:1:0
 Clan TVE
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 77bf:00c00000:040a:0001:1:0
 La Sexta
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 77c0:00c00000:040a:0001:1:0
 LA 1 (TVE 1)
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 77c1:00c00000:040a:0001:1:0
 Canal Hollywood
-p:Movistar+ (Astra),f:1
-77c2:00c00000:040a:0001:1:0
-LA 2 (TVE 2)
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 77c3:00c00000:040a:0001:1:0
 Telecinco
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 77c7:00c00000:040a:0001:1:0
 Cuatro
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 77c9:00c00000:040a:0001:1:0
 TNT España
-p:Movistar+ (Astra),f:1
-77d8:00c00000:040a:0001:1:0
-NatGeo Wild Spain
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 77c6:00c00000:040a:0001:1:0
 Movistar Cine Doc & Roll
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 77c4:00c00000:040a:0001:1:0
 
 p:DIGITAL+,f:1
 76c0:00c00000:040e:0001:1:0
 Movistar Estrenos
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 76c7:00c00000:040e:0001:1:0
 TCM Moderno
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 76c8:00c00000:040e:0001:1:0
 Comedy Central España
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 76c9:00c00000:040e:0001:1:0
 Viajar
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 76ca:00c00000:040e:0001:1:0
 Movistar Seriesmania
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 76cc:00c00000:040e:0001:1:0
 Teledeporte
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 76ce:00c00000:040e:0001:1:0
 Canal Cocina
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 76cf:00c00000:040e:0001:1:0
 AMC España
 p:CANAL+,f:1
 76c3:00c00000:040e:0001:1:0
 Disney Channel Spain
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 76c2:00c00000:040e:0001:1:0
 
-p:,f:1
+p:Movistar+,f:1
 76c4:00c00000:040e:0001:1:0
 
-p:,f:1
+p:Movistar+,f:1
 76c5:00c00000:040e:0001:1:0
 LALIGATVBAR1
 p:Movistar+,c:090412,f:1
 7562:00c00000:0412:0001:1:0
 Multi-X
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7563:00c00000:0412:0001:1:0
 Multi-X 2
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7565:00c00000:0412:0001:1:0
 Alquiler 5
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7566:00c00000:0412:0001:1:0
 Alquiler 6
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7568:00c00000:0412:0001:1:0
 Alquiler X
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7569:00c00000:0412:0001:1:0
 Alquiler XX
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 756a:00c00000:0412:0001:1:0
 Alquiler XX Hard
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 756f:00c00000:0412:0001:1:0
 Alquiler 4
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7570:00c00000:0412:0001:1:0
 Toros
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7571:00c00000:0412:0001:1:0
 Multi-X 1
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7572:00c00000:0412:0001:1:0
 Multi-X 3
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7573:00c00000:0412:0001:1:0
 Multideporte 3
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 756c:00c00000:0412:0001:1:0
 #VAMOS BAR1
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 756d:00c00000:0412:0001:1:0
 Multideporte 2
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7567:00c00000:0412:0001:1:0
 Alquiler 3
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 756b:00c00000:0412:0001:1:0
 LaLiga 1
 p:Movistar+,c:09040c,f:1
@@ -3661,13 +3709,13 @@ p:Movistar+,f:1
 p:Movistar+,f:1
 7888:00c00000:0414:0001:25:0
 TNT HD España
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7889:00c00000:0414:0001:25:0
 NatGeo Wild HD Spain
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 788b:00c00000:0414:0001:25:0
 Disney Channel HD Spain
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7885:00c00000:0414:0001:25:0
 TCM HD
 p:,f:1
@@ -3676,40 +3724,43 @@ Movistar Series HD
 p:PRISA TV,f:1
 788c:00c00000:0414:0001:25:0
 #0 HD
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 788d:00c00000:0414:0001:25:0
 Caza y Pesca HD
 p:Movistar+,c:09040b,f:1
+7884:00c00000:0414:0001:25:0
+Viajar HD
+p:DIGITAL+,f:1
 7729:00c00000:0416:0001:1:0
 Canal Sur Andalucia
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 772f:00c00000:0416:0001:1:0
 Discovery Channel Spain & Portugal
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 772b:00c00000:0416:0001:1:0
 Caza y Pesca
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 772d:00c00000:0416:0001:1:0
 Blaze Spain
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7730:00c00000:0416:0001:1:0
 Cosmopolitan TV
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7731:00c00000:0416:0001:1:0
 Canal de Historia
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7736:00c00000:0416:0001:1:0
 Movistar Cine Español
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7738:00c00000:0416:0001:1:0
 Canal 24 Horas
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7739:00c00000:0416:0001:1:0
 Multideporte 1
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7732:00c00000:0416:0001:1:0
 Crimen + Investigación
-p:Movistar+ (Astra),c:09040e,f:1
+p:Movistar+,c:09040e,f:1
 772e:00c00000:0416:0001:1:0
 Nickelodeon Spain
 p:Movistar+,f:1
@@ -3733,63 +3784,54 @@ OE3.
 p:ORF
 7468:00c00000:03f0:0001:1:0
 Fox Life España
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7469:00c00000:03f0:0001:1:0
 Antena Nova
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 746b:00c00000:03f0:0001:1:0
 Disney Junior Spain
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 746c:00c00000:03f0:0001:1:0
 Movistar Acción
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 746d:00c00000:03f0:0001:1:0
 Movistar Comedia
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 746e:00c00000:03f0:0001:1:0
 Movistar Drama
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 746f:00c00000:03f0:0001:1:0
 Fox España
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7471:00c00000:03f0:0001:1:0
 AXN White España
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7477:00c00000:03f0:0001:1:0
 AXN España
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 746a:00c00000:03f0:0001:1:0
 Iberalia
 p:Harmonic,f:1
 7478:00c00000:03f0:0001:1:0
 #0
 p:Movistar+,c:090412,f:1
+7473:00c00000:03f0:0001:1:0
+Aragón TV Int
+p:Movistar+,f:1
+7474:00c00000:03f0:0001:1:0
+LA 2 (TVE 2)
+p:Movistar+,f:1
+7472:00c00000:03f0:0001:1:0
+NatGeo Wild Spain
+p:Movistar+,f:1
 2b66:00c00000:03f3:0001:25:0
 ZDF HD
 p:ZDF Vision,f:1
 2b7a:00c00000:03f3:0001:25:0
 ZDF_neo HD
 p:ZDF Vision,f:1
-74d3:00c00000:03f8:0001:25:0
-Viajar HD
-p:Movistar+ (Astra),f:1
 74d8:00c00000:03f8:0001:25:0
 Movistar Cine Doc & Roll HD
-p:Movistar+ (Astra),f:1
-74d6:00c00000:03f8:0001:25:0
-#VAMOSHD
-p:Movistar+ (Astra),f:1
-74cd:00c00000:03f8:0001:25:0
-SyFy HD España
-p:Movistar+ (Astra),f:1
-74d5:00c00000:03f8:0001:25:0
-Movistar Estrenos HD
-p:Movistar+ (Astra),f:1
-74db:00c00000:03f8:0001:25:0
-AXN White HD España
-p:PRISAT TV,f:1
-74ce:00c00000:03f8:0001:25:0
-#Vamos HD
 p:Movistar+,f:1
 ef74:00c00000:03f9:0001:25:0
 Sat 1 HD
@@ -3904,22 +3946,19 @@ Puls 24 HD
 p:ProSiebenSat.1,f:1
 75fe:00c00000:0408:0001:1:0
 Antena Neox
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 75ff:00c00000:0408:0001:1:0
 Canal Panda
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7601:00c00000:0408:0001:1:0
 Real Madrid TV
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7604:00c00000:0408:0001:1:0
 Antena 3
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 75f9:00c00000:0408:0001:1:0
 Paramount Channel Spain
 p:PRISA TV,f:1
-75fd:00c00000:0408:0001:1:0
-Aragón Sat
-p:Harmonic,f:1
 7602:00c00000:0408:0001:1:0
 Classica
 p:CANAL+,c:09040a,f:1
@@ -3939,7 +3978,7 @@ p:Movistar+,f:1
 .
 p:Movistar+,f:1
 7607:00c00000:0408:0001:1:0
-TEST P
+Disney+ Spain
 p:Movistar+,f:1
 6dca:00c00000:044d:0001:1:0
 Das Erste
@@ -4962,9 +5001,9 @@ p:BetaDigital
 Sonnenklar TV
 p:Sky Deutschland,f:1
 0028:00c00000:0021:0085:1:0
-Home Shopping Europe Deutschland
+Home Shopping Europe (HSE) 24
 p:BetaDigital,f:1
-002f:00c00000:0021:0085:1:0
+002f:00c00000:0021:0085:22:0
 Regio TV
 p:BetaDigital,f:1
 0033:00c00000:0021:0085:1:0
@@ -4993,6 +5032,9 @@ DMAX
 p:BetaDigital,f:1
 002e:00c00000:0021:0085:1:0
 Handystar TV 2
+p:BetaDigital,f:1
+004c:00c00000:0021:0085:22:0
+Baden TV
 p:BetaDigital,f:1
 1000:00c00000:0451:0035:12:0
 Nagra DL DSR7141
@@ -5635,34 +5677,37 @@ BestMarket TV
 p:GLOBECAST,f:1
 749a:00c00000:041c:0001:1:0
 Divinity
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 749b:00c00000:041c:0001:1:0
 Fox News
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 749c:00c00000:041c:0001:1:0
 Baby TV
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 749e:00c00000:041c:0001:1:0
 Boing Spain
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 749f:00c00000:041c:0001:1:0
 Energy
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 74a0:00c00000:041c:0001:1:0
 Barça TV
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 74a2:00c00000:041c:0001:1:0
 MTV España
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 74a3:00c00000:041c:0001:1:0
 Gol
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 74a4:00c00000:041c:0001:1:0
 Movistar Formula1
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 74a1:00c00000:041c:0001:1:0
 Eurosport 1
-p:CANAL+,c:090407,f:1
+p:Movistar+,c:090407,f:1
+749d:00c00000:041c:0001:1:0
+Movistar Fest
+p:Movistar+,f:1
 2b8e:00c00000:03f2:0001:25:0
 3sat HD
 p:ZDF Vision,f:1
@@ -5764,13 +5809,16 @@ Movistar Golf HD
 p:PRISA TV,f:1
 78b8:00c00000:03ec:0001:25:0
 Cosmopolitan HD
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 78c0:00c00000:03ec:0001:25:0
 Comedy Central España HD
 p:PRISA TV,f:1
 78b4:00c00000:03ec:0001:25:0
 Movistar Liga Campeones HD
 p:Movistar+,c:090400,f:1
+78be:00c00000:03ec:0001:25:0
+AXN White HD España
+p:PRISAT TV,f:1
 157c:00c00000:041f:0001:25:0
 Disney Channel HD
 p:HD +,f:1
@@ -5810,9 +5858,6 @@ p:CBC,f:1
 2eaf:00c00000:0411:0001:25:0
 RTL Nitro HD
 p:CBC,f:1
-3070:00c00000:03f5:0001:1:0
-RTL 2 CH
-p:BetaDigital,f:1
 307a:00c00000:03f5:0001:31:0
 RTL UHD
 p:MX1,f:1
@@ -5936,9 +5981,6 @@ p:-,f:1
 1078:00c0ac18:03ee:0001:1:0
 RAI News 24
 p:Harmonic,c:0903ef,f:1
-1081:00c0ac18:03ee:0001:1:0
-Deutschland Vozrozhdenie
-p:SES ASTRA,f:1
 1086:00c0ac18:03ee:0001:31:136
 QVC UHD
 p:MX1,f:1
@@ -6055,25 +6097,28 @@ Insight TV HD Int
 p:SES ASTRA,f:1
 7531:00c00000:0426:0001:25:0
 Movistar Formula 1 HD
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7532:00c00000:0426:0001:25:0
 Multideporte 1 HD
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7533:00c00000:0426:0001:25:0
 AMC HD España
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7534:00c00000:0426:0001:25:0
 Antena 3 HD Spain
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7535:00c00000:0426:0001:25:0
 Cuatro HD
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7536:00c00000:0426:0001:25:0
 Telecinco HD
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
 7537:00c00000:0426:0001:25:0
 La Sexta HD
-p:Movistar+ (Astra),f:1
+p:Movistar+,f:1
+7539:00c00000:0426:0001:25:0
+Movistar Estrenos HD
+p:Movistar+,f:1
 07d0:00c00000:0449:0001:31:0
 Insight UHD
 p:SES ASTRA,f:1
@@ -10487,27 +10532,6 @@ p:SkyItalia,f:1
 2dca:00820000:2580:fbff:25:0
 Food Network HD
 p:SkyItalia,f:1
-0003:00820000:25e4:02be:1:0
-Saudi Channel 1
-p:Arabsat,f:1
-002a:00820000:25e4:02be:1:0
-Al Quran Al Kareem TV
-p:ARABSAT,f:1
-0004:00820000:25e4:02be:22:0
-TEST
-p:ARABSAT,f:1
-0002:00820000:25e4:02be:22:0
-TEST
-p:ARABSAT,f:1
-001d:00820000:25e4:02be:22:0
-TEST
-p:ARABSAT,f:1
-0017:00820000:25e4:02be:2:0
-SAUDI R2
-p:Arabsat
-000d:00820000:25e4:02be:2:0
-SAUDI R1
-p:Arabsat
 38cc:00820000:2648:fbff:1:0
 Sky Radio
 p:Sky Italia,f:1
@@ -11612,6 +11636,45 @@ p:Rai,c:0907c4,f:1
 4532:00820000:30d4:013e:31:0
 Rai 4K
 p:Rai,f:1
+4537:00820000:30d4:013e:2:0
+Rai Radio 1
+p:Rai
+4538:00820000:30d4:013e:2:0
+Rai Radio 2
+p:Rai
+4539:00820000:30d4:013e:2:0
+Rai Radio 3
+p:Rai
+453a:00820000:30d4:013e:2:0
+Rai Radio Classica
+p:Rai
+453b:00820000:30d4:013e:2:0
+Rai GrParlamento
+p:Rai
+453c:00820000:30d4:013e:2:0
+Rai Isoradio
+p:Rai
+453d:00820000:30d4:013e:2:0
+Rai Radio Techete'
+p:Rai
+453e:00820000:30d4:013e:2:0
+Rai Radio Live
+p:Rai
+453f:00820000:30d4:013e:2:0
+Rai Radio Kids
+p:Rai
+4540:00820000:30d4:013e:2:0
+Rai Radio2 Indie
+p:Rai
+4541:00820000:30d4:013e:2:0
+Rai Radio Tutta Italiana
+p:Rai
+4542:00820000:30d4:013e:2:0
+Rai OM Unica
+p:Rai
+4543:00820000:30d4:013e:2:0
+Rai Radio1 Sport
+p:Rai
 1002:00820000:1e14:fbff:1:0
 IEPG Data
 p:Sky Italia,f:1
@@ -12443,6 +12506,9 @@ p:MB Satellite,f:1
 0e83:00820000:3200:013e:1:0
 TVP Polonia
 p:MB Satellite,f:1
+0e81:00820000:3200:013e:1:0
+Folx TV
+p:MB Satellite,f:1
 338c:00820000:1388:013e:1:0
 Test GC 1
 p:GLOBECAST,f:1
@@ -12713,6 +12779,21 @@ p:XTRA TV,f:1
 0604:00820000:005e:0055:22:0
 Zee TV
 p:XTRA TV,f:1
+04b1:00820000:23f0:013e:25:0
+SBC HD
+p:,f:1
+04b2:00820000:23f0:013e:25:0
+Saudi Ch for Sunnah HD
+p:,f:1
+04b3:00820000:23f0:013e:25:0
+Saudi ch for Quran HD
+p:,f:1
+04b4:00820000:23f0:013e:25:0
+Al Ekhbaria HD
+p:,f:1
+04b5:00820000:23f0:013e:25:0
+Saudi TV HD
+p:,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2020

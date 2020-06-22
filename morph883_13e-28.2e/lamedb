@@ -219,9 +219,6 @@ transponders
 011ab10f:0001:0000
 	s 12559000:4800000:1:3:282:2:0:1:2:0:2
 /
-011a2e16:07f7:0002
-	s 11798000:29500000:0:6:282:2:0:1:1:0:2
-/
 011a0000:002b:0800
 	s 11225000:27500000:0:2:282:2:0
 /
@@ -396,9 +393,6 @@ transponders
 00820000:2580:fbff
 	s 12635000:29900000:1:4:130:2:0
 /
-00820000:25e4:02be
-	s 12654000:27500000:0:4:130:2:0
-/
 00820000:2648:fbff
 	s 12673000:29900000:1:4:130:2:0
 /
@@ -530,6 +524,9 @@ transponders
 /
 00820000:005e:0055
 	s 11219000:29900000:0:7:130:2:0:1:2:0:2
+/
+00820000:23f0:013e
+	s 12558000:27500000:1:4:130:2:0:1:2:2:2
 /
 end
 services
@@ -1175,32 +1172,41 @@ p:BSkyB,f:1
 1904:011a2f26:07e3:0002:1:0
 Sky News
 p:Sky Digital,f:1
-0e29:011a0000:07e0:0002:25:0
-Boomerang HD
+0cc6:011a0000:07e0:0002:25:0
+Nick Jr. UK HD
+p:BSkyB,c:090107,f:1
+0eda:011a0000:07e0:0002:25:0
+Sky Sports Main Events HD
+p:BSkyB,c:090100,f:1
+0ef3:011a0000:07e0:0002:25:0
+Sky Sports Golf HD
 p:BSkyB,f:1
-0e2a:011a0000:07e0:0002:25:0
-Animal Planet HD
+0f03:011a0000:07e0:0002:25:0
+Sky Sports Football HD
+p:BSkyB,c:09010b,f:1
+0f25:011a0000:07e0:0002:25:0
+Sky Sports 1 HD
+p:Sky Digital,f:1
+0f2a:011a0000:07e0:0002:25:0
+Sky Sports News HD
+p:BSkyB,c:090103,f:1
+0f4d:011a0000:07e0:0002:25:0
+Sky Sports News HD
+p:BSkyB,c:090105,f:1
+0f56:011a0000:07e0:0002:25:0
+Sky Sports Golf HD
+p:Sky Digital,f:1
+0f63:011a0000:07e0:0002:25:0
+Sky Sports Football HD
+p:BSkyB,c:090109,f:1
+0fc9:011a0000:07e0:0002:25:0
+SkySp PL HD
 p:BSkyB,f:1
-0ee7:011a0000:07e0:0002:25:0
-Sky Modern Greats HD
+0ffe:011a0000:07e0:0002:25:0
+SkySp PL HD
 p:BSkyB,f:1
-0ee8:011a0000:07e0:0002:25:0
-Sky Drama HD
-p:BSkyB,f:1
-0ee9:011a0000:07e0:0002:25:0
-Sky ScFi/Horror HD
-p:BSkyB,f:1
-0eeb:011a0000:07e0:0002:25:0
-Sky Comedy HD
-p:BSkyB,f:1
-0f3c:011a0000:07e0:0002:25:0
-Sky Disney HD
-p:BSkyB,f:1
-0f82:011a0000:07e0:0002:25:0
-TLC HD
-p:BSkyB,f:1
-0fa6:011a0000:07e0:0002:25:0
-W HD
+2330:011a0000:07e0:0002:25:0
+H1Test
 p:BSkyB,f:1
 0e2b:011a0000:07f2:0002:25:0
 Disney XD HD
@@ -1387,9 +1393,6 @@ Disney Channel U.K.
 p:BSkyB,f:1
 238f:011a2e8a:07db:0002:1:0
 Disney Junior UK
-p:BSkyB,f:1
-2390:011a2e8a:07db:0002:1:0
-Disney XD +1 UK
 p:BSkyB,f:1
 2391:011a2e8a:07db:0002:1:0
 Disney Channel +1 UK
@@ -1622,9 +1625,6 @@ p:BSkyB,f:1
 1f8b:011aafaf:07ea:0002:130:0
 SOM Test Bert/Ernie
 p:BSkyB,f:1
-159d:011aafaf:07ea:0002:1:0
-Sky Two Ireland
-p:Sky Digital,f:1
 0520:011aafaf:07ea:0002:1:0
 Sky Sports Premier League Ireland
 p:BSkyB,f:1
@@ -1853,9 +1853,6 @@ p:BSkyB,f:1
 1789:011a0000:07d7:0002:1:0
 Sky Crime+1
 p:Sky Digital,f:1
-178a:011a0000:07d7:0002:1:0
-Challenge +1
-p:Sky Digital,f:1
 178f:011a0000:07d7:0002:1:0
 Challenge
 p:Sky Digital,f:1
@@ -1910,6 +1907,9 @@ p:BSkyB,f:1
 14c8:011a0000:07d7:0002:1:0
 Lifetime
 p:BSkyB,f:1
+16cb:011a0000:07d7:0002:1:0
+Sky Two Ireland
+p:Sky Digital,f:1
 d110:011a0000:0832:0002:1:0
 Jewellery Ch.
 p:BSkyB,f:1
@@ -2059,6 +2059,9 @@ TVX 40+
 p:BSkyB,f:1
 c7ae:011a0000:0817:0002:1:0
 Television X
+p:BSkyB,f:1
+c7ac:011a0000:0817:0002:1:0
+Akaal Channel
 p:BSkyB,f:1
 c5e4:011a0000:0842:0002:25:0
 BT Sport 1 HD
@@ -2390,9 +2393,6 @@ p:BSkyB,f:1
 d329:011a0000:0836:0002:1:0
 Smart Shop TV
 p:Sky Digital,f:1
-d32c:011a0000:0836:0002:1:0
-Akaal Channel
-p:BSkyB,f:1
 d32e:011a0000:0836:0002:1:0
 Abu Dhabi TV
 p:Sky Digital,f:1
@@ -3257,42 +3257,6 @@ p:,f:1
 0001:011ab10f:0001:0000:25:0
 FCBvsSAB 2
 p:,f:1
-0cc6:011a2e16:07f7:0002:25:0
-Nick Jr. UK HD
-p:BSkyB,c:090107,f:1
-0eda:011a2e16:07f7:0002:25:0
-Sky Sports Main Events HD
-p:BSkyB,c:090100,f:1
-0ef3:011a2e16:07f7:0002:25:0
-Sky Sports Golf HD
-p:BSkyB,f:1
-0f03:011a2e16:07f7:0002:25:0
-Sky Sports Football HD
-p:BSkyB,c:09010b,f:1
-0f25:011a2e16:07f7:0002:25:0
-Sky Sports 1 HD
-p:Sky Digital,f:1
-0f2a:011a2e16:07f7:0002:25:0
-Sky Sports News HD
-p:BSkyB,c:090103,f:1
-0f4d:011a2e16:07f7:0002:25:0
-Sky Sports News HD
-p:BSkyB,c:090105,f:1
-0f56:011a2e16:07f7:0002:25:0
-Sky Sports Golf HD
-p:Sky Digital,f:1
-0f63:011a2e16:07f7:0002:25:0
-Sky Sports Football HD
-p:BSkyB,c:090109,f:1
-0fc9:011a2e16:07f7:0002:25:0
-SkySp PL HD
-p:BSkyB,f:1
-0ffe:011a2e16:07f7:0002:25:0
-SkySp PL HD
-p:BSkyB,f:1
-2330:011a2e16:07f7:0002:25:0
-H1Test
-p:BSkyB,f:1
 10d1:011a0000:002b:0800:1:0
 Panorama Film
 p:Nilesat,f:1
@@ -6857,27 +6821,6 @@ p:SkyItalia,f:1
 2dca:00820000:2580:fbff:25:0
 Food Network HD
 p:SkyItalia,f:1
-0003:00820000:25e4:02be:1:0
-Saudi Channel 1
-p:Arabsat,f:1
-002a:00820000:25e4:02be:1:0
-Al Quran Al Kareem TV
-p:ARABSAT,f:1
-0004:00820000:25e4:02be:22:0
-TEST
-p:ARABSAT,f:1
-0002:00820000:25e4:02be:22:0
-TEST
-p:ARABSAT,f:1
-001d:00820000:25e4:02be:22:0
-TEST
-p:ARABSAT,f:1
-0017:00820000:25e4:02be:2:0
-SAUDI R2
-p:Arabsat
-000d:00820000:25e4:02be:2:0
-SAUDI R1
-p:Arabsat
 38cc:00820000:2648:fbff:1:0
 Sky Radio
 p:Sky Italia,f:1
@@ -7982,6 +7925,45 @@ p:Rai,c:0907c4,f:1
 4532:00820000:30d4:013e:31:0
 Rai 4K
 p:Rai,f:1
+4537:00820000:30d4:013e:2:0
+Rai Radio 1
+p:Rai
+4538:00820000:30d4:013e:2:0
+Rai Radio 2
+p:Rai
+4539:00820000:30d4:013e:2:0
+Rai Radio 3
+p:Rai
+453a:00820000:30d4:013e:2:0
+Rai Radio Classica
+p:Rai
+453b:00820000:30d4:013e:2:0
+Rai GrParlamento
+p:Rai
+453c:00820000:30d4:013e:2:0
+Rai Isoradio
+p:Rai
+453d:00820000:30d4:013e:2:0
+Rai Radio Techete'
+p:Rai
+453e:00820000:30d4:013e:2:0
+Rai Radio Live
+p:Rai
+453f:00820000:30d4:013e:2:0
+Rai Radio Kids
+p:Rai
+4540:00820000:30d4:013e:2:0
+Rai Radio2 Indie
+p:Rai
+4541:00820000:30d4:013e:2:0
+Rai Radio Tutta Italiana
+p:Rai
+4542:00820000:30d4:013e:2:0
+Rai OM Unica
+p:Rai
+4543:00820000:30d4:013e:2:0
+Rai Radio1 Sport
+p:Rai
 1002:00820000:1e14:fbff:1:0
 IEPG Data
 p:Sky Italia,f:1
@@ -8813,6 +8795,9 @@ p:MB Satellite,f:1
 0e83:00820000:3200:013e:1:0
 TVP Polonia
 p:MB Satellite,f:1
+0e81:00820000:3200:013e:1:0
+Folx TV
+p:MB Satellite,f:1
 338c:00820000:1388:013e:1:0
 Test GC 1
 p:GLOBECAST,f:1
@@ -9083,6 +9068,21 @@ p:XTRA TV,f:1
 0604:00820000:005e:0055:22:0
 Zee TV
 p:XTRA TV,f:1
+04b1:00820000:23f0:013e:25:0
+SBC HD
+p:,f:1
+04b2:00820000:23f0:013e:25:0
+Saudi Ch for Sunnah HD
+p:,f:1
+04b3:00820000:23f0:013e:25:0
+Saudi ch for Quran HD
+p:,f:1
+04b4:00820000:23f0:013e:25:0
+Al Ekhbaria HD
+p:,f:1
+04b5:00820000:23f0:013e:25:0
+Saudi TV HD
+p:,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2020
