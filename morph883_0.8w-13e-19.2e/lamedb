@@ -849,14 +849,14 @@ fff8b0f7:0001:ffff
 0e080000:00bf:00bf
 	s 12519000:2500000:1:3:-8:2:0:1:2:0:2
 /
-fff8b0e7:010c:ffff
-	s 12519000:2500000:1:3:-8:2:0:1:2:0:2
-/
 0e080000:0045:0046
 	s 10903000:25000000:1:3:-8:2:0:1:2:1:2
 /
 0e08b0ee:010c:ffff
 	s 12526000:3300000:1:3:-8:2:0:1:2:0:2
+/
+0e080000:0000:0040
+	s 12512000:2400000:1:7:-8:2:0:1:2:1:2
 /
 end
 services
@@ -924,7 +924,7 @@ p:HD +,f:1
 Welt HD
 p:HD +,f:1
 5277:00c00000:041d:0001:22:0
-ASTRA Portal
+SES 75
 p:BetaDigital,f:1
 527d:00c00000:041d:0001:25:0
 Comedy Central Austria HD
@@ -992,9 +992,6 @@ p:Movistar+,c:090410,f:1
 7697:00c00000:041e:0001:1:0
 Nick Junior Spain
 p:Movistar+,c:09040a,f:1
-76a6:00c00000:041e:0001:1:0
-LALIGATVBAR4
-p:Movistar+,f:1
 769a:00c00000:041e:0001:1:0
 LALIGATVBAR2
 p:Movistar+,f:1
@@ -3341,9 +3338,6 @@ p:RR Media,f:1
 1406:00c00000:0403:0001:1:0
 Kaufbei.tv
 p:SES,f:1
-1419:00c00000:0403:0001:1:0
-BestMarket TV
-p:GLOBECAST,f:1
 749a:00c00000:041c:0001:1:0
 Divinity
 p:Movistar+,f:1
@@ -4315,12 +4309,6 @@ Comedy Central France HD
 p:CSAT,f:1
 24c5:00c0af3a:043c:0001:25:0
 Colmax TV HD
-p:CSAT,f:1
-24b9:00c0af3a:043c:0001:25:0
-Disney XD HD France
-p:CSAT,f:1
-24ba:00c0af3a:043c:0001:25:0
-Disney Cinema HD
 p:CSAT,f:1
 24bc:00c0af3a:043c:0001:25:0
 OCS Choc HD
@@ -8855,9 +8843,6 @@ p:,f:1
 4205:00820000:2f44:013e:1:0
 Dorcel TV HD
 p:Bis,f:1
-0032:00820000:2f44:013e:1:0
-Shant TV Premium HD
-p:Shant TV,c:0901f4,f:1
 06c3:00820000:2f44:013e:22:0
 HSE 24
 p:M-Three satcom,f:1
@@ -8906,18 +8891,9 @@ p:M7 Group,f:1
 421c:00820000:2f44:013e:22:0
 UA TV
 p:UATV,f:1
-0033:00820000:2f44:013e:1:0
-Shant Music HD
-p:,c:0901fe,f:1
-0034:00820000:2f44:013e:1:0
-Shant Serial HD
-p:TV-Provider,c:090208,f:1
 421d:00820000:2f44:013e:1:0
 Baby TV
 p:MX1,f:1
-0033:00820000:2f44:013e:0:0
-Shant Music HD
-p:
 421e:00820000:2f44:013e:1:0
 Penthouse Black
 p:,f:1
@@ -8936,15 +8912,9 @@ p:M7 Group,f:1
 05e6:00820000:2f44:013e:1:0
 Satisfaction Channel Television
 p:M-Three satcom,f:1
-0032:00820000:2f44:013e:0:0
-Shant premium HD
-p:
 4224:00820000:2f44:013e:22:0
 Penthouse HD
 p:M-Three satcom,f:1
-0034:00820000:2f44:013e:0:0
-Shant Serial HD
-p:
 4222:00820000:2f44:013e:25:0
 Private HD
 p:M7 Group,f:1
@@ -10821,11 +10791,8 @@ p:Telenor
 Vinyl
 p:Telenor
 1790:0e080000:0022:0046:10:0
-Radio 1
+Topp 40
 p:Telenor
-1cbe:0e080000:0022:0046:1:0
-Viasat Sport Extra
-p:Canal Digital Nordic,f:1
 1b5f:fff8ac8b:001c:0046:1:0
 CNN International Europe
 p:Canal Digital Nordic,f:1
@@ -11036,17 +11003,11 @@ p:ESS,f:1
 03fe:0e082de3:0005:1111:2:0
 Radio Chisinau
 p:ESS
-0407:0e082de3:0005:1111:1:0
-Mooz Dance
-p:ESS,f:1
 040a:0e082de3:0005:1111:25:0
 Nat Geo HD Hungary
 p:MX1,f:1
 040b:0e082de3:0005:1111:25:0
 National Geographic Romania HD
-p:MX1,f:1
-0406:0e082de3:0005:1111:1:0
-Mooz Dance SD
 p:MX1,f:1
 75fa:0e080000:02be:0600:1:0
 HBO Czechia & Slovakia
@@ -11809,31 +11770,28 @@ Discovery Central Europe HD
 p:,f:1
 0207:0e080000:0014:0046:1:0
 CGTN
-p:Canal Digital Nordic,f:1
+p:Telenor,f:1
 07ed:0e080000:0014:0046:1:0
 CGTN Documentary
-p:Canal Digital Nordic,f:1
+p:Telenor,f:1
 0395:0e080000:0014:0046:2:0
 Scandinavian Satellite Radio
-p:Canal Digital Nordic
+p:Telenor
 0b60:0e080000:0014:0046:1:0
 Al Jazeera English
-p:Canal Digital Nordic,f:1
+p:Telenor,f:1
 1201:0e080000:0014:0046:1:0
 Brunstad TV
 p:Telenor,f:1
 0efd:0e080000:0014:0046:1:0
 Sky News International
 p:Telenor,f:1
-1e86:0e080000:0014:0046:25:0
-History Channel HD Romania
-p:,f:1
 1e87:0e080000:0014:0046:1:0
 History Channel Eastern Europe
-p:,f:1
+p:Telenor,f:1
 1e88:0e080000:0014:0046:1:0
 Crime & Investigation Network
-p:,f:1
+p:Telenor,f:1
 03e9:0e08318f:0001:0001:1:0
 TVR 1
 p:RCS DigiTV,f:1
@@ -12206,9 +12164,6 @@ p:Canal Digital Nordic,f:1
 4699:0e080000:0018:0046:25:0
 TV3 HD (S) - Text
 p:Canal Digital Nordic,f:1
-42bc:0e080000:0018:0046:25:0
-Kuukauden kanava
-p:Telenor,f:1
 0fd5:fff8ac2d:0002:0046:25:0
 Viasat Film Premiere HD
 p:Telenor,f:1
@@ -12801,10 +12756,10 @@ p:UPC Direct,f:1
 AMC Eastern Europe.
 p:UPC Direct,f:1
 798d:fff80000:02c7:0600:1:0
-Humor+.
+TV2 Comedy
 p:UPC Direct,f:1
 7992:fff80000:02c7:0600:1:0
-Humor+ .
+TV2 Comedy.
 p:UPC Direct,f:1
 7996:fff80000:02c7:0600:1:0
 AMC Eastern Europe.
@@ -13742,20 +13697,11 @@ p:RCS-RDS,f:1
 00c0:0e080000:00bf:00bf:1:0
 DIGI 24 HD
 p:RCS-RDS,f:1
-010c:fff8b0e7:010c:ffff:1:0
+010c:0e080000:00bf:00bf:1:0
 DIGI24HD B268DGI
 p:RCS-RDS,f:1
 1bcf:0e080000:0045:0046:25:0
 Canal 9 HD Danmark
-p:Telenor,f:1
-32d2:0e080000:0045:0046:22:0
-Telenor Testcard
-p:Telenor,f:1
-1ed7:0e080000:0045:0046:22:0
-TST1
-p:Telenor,f:1
-1ed8:0e080000:0045:0046:22:0
-TST2
 p:Telenor,f:1
 1f0f:0e080000:0045:0046:25:0
 Eurosport Pluss 1 HD
@@ -13772,6 +13718,9 @@ p:Telenor,f:1
 010c:0e08b0ee:010c:ffff:1:0
 DIGI24HD B268DGI
 p:RCS-RDS,f:1
+0001:0e080000:0000:0040:25:0
+ECO Channel HD
+p:,c:050001,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2020

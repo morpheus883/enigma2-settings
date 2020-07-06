@@ -300,9 +300,6 @@ transponders
 02260000:000b:2283
 	s 12694000:15284000:1:3:550:2:0:1:2:0:2
 /
-0226b169:03a2:0000
-	s 12649000:5120000:1:3:550:2:0:1:2:0:2
-/
 0212ab99:0001:0001
 	s 11161000:2122000:1:2:530:2:0:1:1:0:0
 /
@@ -809,9 +806,6 @@ transponders
 /
 01860000:0001:212c
 	s 12241000:13381000:0:3:390:2:0:1:1:0:2
-/
-01860000:25e4:02be
-	s 12424000:27500000:0:4:390:2:0
 /
 0186b13c:0037:0001
 	s 12604000:4165000:1:2:390:2:0:1:2:0:2
@@ -2184,6 +2178,9 @@ transponders
 00d80000:021c:012d
 	s 11515000:3990000:0:7:216:2:0:1:1:0:2
 /
+00d82d4f:0001:0000
+	s 11599000:256000:0:3:216:2:0
+/
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
 /
@@ -3322,10 +3319,13 @@ transponders
 	s 12466000:41950000:1:3:90:2:0:1:2:0:2:34:0:1
 /
 005aaf4f:0389:0110
-	s 12111000:31400000:1:2:90:2:0:1:2:0:2:2:262140:1
+	s 12111000:31400000:1:2:90:2:0:1:2:0:2:2:8:0
 /
 005a0000:032a:0110
 	s 12149000:31400000:1:2:90:2:0:1:2:0:2:3:262140:1
+/
+005aaf4f:791a:217c
+	s 12111000:31400000:1:2:90:2:0:1:2:0:2:37:8:0
 /
 00460000:4e20:0064
 	s 10721000:22000000:0:3:70:2:0
@@ -3474,11 +3474,8 @@ transponders
 00462b44:0000:0001
 	s 11076000:4936000:0:3:70:2:0:1:2:0:2
 /
-0046ad7a:0000:0000
-	s 11642000:7500000:1:3:70:2:0:1:2:0:2
-/
-0046ad82:0000:0000
-	s 11650000:7500000:1:3:70:2:0:1:2:0:2
+0046abb5:0001:ffff
+	s 11189000:2666000:1:3:70:2:0:1:1:0:2
 /
 00300000:000c:0055
 	s 11766000:27500000:0:3:48:2:0:1:2:0:2
@@ -3762,9 +3759,6 @@ transponders
 00130000:0012:0003
 	s 12418000:30000000:0:2:19:2:0:1:2:0:2
 /
-00130000:0018:0003
-	s 12188000:30000000:0:2:19:2:0:1:2:0:2
-/
 00130000:000f:0003
 	s 12341000:30000000:0:2:19:2:0:1:2:0:2
 /
@@ -4026,14 +4020,14 @@ fff8b0f7:0001:ffff
 0e080000:00bf:00bf
 	s 12519000:2500000:1:3:-8:2:0:1:2:0:2
 /
-fff8b0e7:010c:ffff
-	s 12519000:2500000:1:3:-8:2:0:1:2:0:2
-/
 0e080000:0045:0046
 	s 10903000:25000000:1:3:-8:2:0:1:2:1:2
 /
 0e08b0ee:010c:ffff
 	s 12526000:3300000:1:3:-8:2:0:1:2:0:2
+/
+0e080000:0000:0040
+	s 12512000:2400000:1:7:-8:2:0:1:2:1:2
 /
 ffe2acc6:0001:0000
 	s 11462000:3062000:1:1:-30:2:0:1:1:0:2
@@ -4809,14 +4803,11 @@ ff0baba0:0441:0000
 ff0bab80:0441:0000
 	s 11136000:30000000:1:1:-245:2:0:1:1:0:2
 /
-ff0b0000:2a94:055e
-	s 12240000:30000000:0:3:-245:2:0
+ff0b2fda:0001:0000
+	s 12250000:12509000:0:3:-245:2:0
 /
-ff0b3050:0002:ffff
-	s 12368000:13333000:0:3:-245:2:0
-/
-ff0b303e:0001:ffff
-	s 12350000:15000000:0:3:-245:2:0
+ff0b2fc8:0001:ffff
+	s 12232000:15910000:0:3:-245:2:0
 /
 0cfdace7:1000:0001
 	s 11495000:44100000:1:9:-275:2:0:1:1:0:2
@@ -7697,33 +7688,21 @@ p:Wide Network Solutions,f:1
 0007:02120000:59d8:013e:1:0
 Radio Javan HD
 p:Wide Network Solutions,f:1
-0006:02120000:59d8:013e:1:0
-Didar Global TV
-p:Wide Network Solutions,f:1
 000c:02120000:59d8:013e:1:43
 Kurdsat
-p:Wide Network Solutions,f:1
-0011:02120000:59d8:013e:1:0
-Payam Aramesh
 p:Wide Network Solutions,f:1
 0013:02120000:59d8:013e:1:0
 Twoheed TV
 p:Wide Network Solutions,f:1
 0002:02120000:59d8:013e:1:0
-Radio Javan SD
+Nour TV
 p:Wide Network Solutions,f:1
-0009:02120000:59d8:013e:1:0
-Azadi Television
-p:,f:1
 0001:02120000:59d8:013e:2:0
 R Radio
 p:
 000b:02120000:59d8:013e:1:0
 Kurdsat News
 p:,f:1
-000f:02120000:59d8:013e:1:0
-Your Time TV
-p:Wide Network Solutions,f:1
 0010:02120000:59d8:013e:1:0
 Tishk TV HD
 p:Wide Network Solutions,f:1
@@ -7733,7 +7712,7 @@ p:Wide Network Solutions,f:1
 0004:02120000:59d8:013e:1:0
 Kentron TV International
 p:Wide Network Solutions,f:1
-0008:02120000:59d8:013e:1:0
+0006:02120000:59d8:013e:1:0
 Rang-A-Rang TV
 p:,f:1
 0005:02120000:59d8:013e:1:0
@@ -8517,7 +8496,7 @@ p:WNS,f:1
 XO TV
 p:WNS,f:1
 000d:02080000:211e:211e:1:0
-20 TV
+PN TV
 p:WNS,f:1
 0015:02080000:211e:211e:1:0
 Poker TV
@@ -10723,12 +10702,6 @@ TKGS DATA
 p:TURKSAT
 c6db:01a40000:778a:042e:1:0
 Kardelen TV
-p:TURKSAT,f:1
-c6da:01a40000:778a:042e:1:0
-Çay TV (Rize)
-p:TURKSAT,f:1
-c4e8:01a40000:7596:042e:1:0
-Ciftci TV
 p:TURKSAT,f:1
 c4ed:01a40000:7596:042e:2:0
 POLIS RADYOSU
@@ -17169,7 +17142,7 @@ p:Cyfrowy Polsat,f:1
 Muzo.fm
 p:Cyfrowy Polsat
 1001:014a0000:f001:2268:2:0
-Moje Polskie Radio
+TEST
 p:Cyfrowy Polsat
 1002:014a0000:f001:2268:2:0
 RMF FM
@@ -17208,7 +17181,7 @@ p:Cyfrowy Polsat S.A.,f:1
 Polsat Play
 p:Cyfrowy Polsat S.A.,f:1
 007d:014a0000:f001:2268:1:0
-TVN Style
+Tele 5 Polska
 p:Cyfrowy Polsat S.A.,f:1
 2000:014a0000:f001:2268:2:0
 B
@@ -21839,9 +21812,6 @@ p:Qatar TV,f:1
 0005:0104af89:0001:0001:1:0
 Qatar Edu1
 p:Qatar TV,f:1
-0001:0104af89:0001:0001:1:0
-Qatar TV
-p:QTV,f:1
 000a:0104af89:0001:0001:2:0
 Sout Alkhaleej 2
 p:Qatar TV
@@ -22137,7 +22107,7 @@ p:,c:090198
 OUS-Sudan
 p:,c:0901aa
 0002:0104b0eb:024e:02be:1:0
-Blue Nile TV
+Noor TV
 p:,f:1
 0006:0104b0eb:024e:02be:1:0
 Neelain Sport
@@ -22160,9 +22130,6 @@ p:
 0022:0104b0eb:024e:02be:2:0
 Sports FM104
 p:
-0029:0104b0eb:024e:02be:2:0
-Albasira Fm
-p:
 0024:0104b0eb:024e:02be:2:0
 Sahiroon
 p:
@@ -22178,9 +22145,6 @@ p:Sudania24 Group,c:090100,f:1
 000a:0104b0eb:024e:02be:1:0
 Ixir TV
 p:,c:09006e,f:1
-0004:0104b0eb:024e:02be:1:0
-Ashorooq TV
-p:du,f:1
 0005:0104b0eb:024e:02be:1:0
 Sudania 24
 p:,f:1
@@ -22188,7 +22152,7 @@ p:,f:1
 Sudan Music
 p:,f:1
 000f:0104b0eb:024e:02be:1:0
-Sudan Sport 2
+Sudan Sport
 p:,f:1
 0020:0104b0eb:024e:02be:2:0
 NOOR RADIO
@@ -22223,9 +22187,6 @@ p:
 005a:0104b0eb:024e:02be:1:0
 Sudan Monwaat
 p:,f:1
-0007:0104b0eb:024e:02be:1:0
-Tayba TV
-p:,f:1
 000b:0104b0eb:024e:02be:1:0
 TEST
 p:,f:1
@@ -22243,9 +22204,6 @@ test
 p:
 0019:0104b0eb:024e:02be:2:0
 Albasira fm
-p:
-001d:0104b0eb:024e:02be:2:0
-ALBASIRA TEST
 p:
 0021:0104b0eb:024e:02be:2:0
 Radio_011
@@ -22265,9 +22223,6 @@ p:
 01f4:0104b0eb:024e:02be:1:0
 Sudania 24 HD
 p:Sudania 24none,f:1
-001f:0104b0eb:024e:02be:2:0
-ALBASERA TEST
-p:
 0001:01043115:0001:ffff:1:0
 Midan
 p:Default Provider,c:090020,f:1
@@ -22826,9 +22781,6 @@ p:
 000b:0104300f:146f:02be:1:0
 Canal Atlas
 p:ARABSAT,c:090137,f:1
-000d:0104300f:146f:02be:1:0
-Dzair TV
-p:Du,c:090138,f:1
 000c:0104300f:146f:02be:22:0
 TEST
 p:ARABSAT,f:1
@@ -22838,17 +22790,11 @@ p:ARABSAT,f:1
 001e:0104300f:146f:02be:22:0
 TEST
 p:ARABSAT,f:1
-001f:0104300f:146f:02be:1:0
-Tele Maroc
-p:ARABSAT,f:1
 019c:01040000:1015:02be:1:0
 Al Istijaba TV
 p:JMC,f:1
 019d:01040000:1015:02be:1:0
 Al Alamia (University of Africa)
-p:JMC,f:1
-019e:01040000:1015:02be:1:0
-Al Gezira TV
 p:JMC,f:1
 019f:01040000:1015:02be:1:0
 Kassala TV
@@ -22862,20 +22808,11 @@ p:JMC,f:1
 01a5:01040000:1015:02be:1:0
 Sudan Sport
 p:JMC,f:1
-01a6:01040000:1015:02be:1:0
-Sudania 24
-p:JMC,f:1
 01a8:01040000:1015:02be:1:0
 Omdurman TV
 p:JMC,f:1
 01b8:01040000:1015:02be:1:0
 Al-Marikh TV
-p:JMC,f:1
-004c:01040000:1015:02be:1:0
-Alaqar (Al Quran Al Kareem TV)
-p:JMC,f:1
-004d:01040000:1015:02be:1:0
-Dongula Radio
 p:JMC,f:1
 01b0:01040000:1015:02be:1:0
 Nile River
@@ -22883,9 +22820,6 @@ p:JMC,f:1
 01b1:01040000:1015:02be:1:0
 Al Alamia 2 TV
 p:JMC,f:1
-0001:01040000:1015:02be:1:0
-TAseti Radio
-p:Harmonic,f:1
 01b9:01040000:1015:02be:1:0
 Sudania 24 HD
 p:JMC,f:1
@@ -23924,9 +23858,6 @@ p:ViewMedia,f:1
 0004:01040000:1eea:02be:1:0
 GL TV
 p:ViewMedia,f:1
-0008:01040000:1eea:02be:1:0
-Virgin TV
-p:ViewMedia,f:1
 000d:01040000:1eea:02be:1:0
 Asare TV
 p:ViewMedia,f:1
@@ -24560,9 +24491,6 @@ p:M7 Group,f:1
 3353:00eb0000:0c93:0003:25:0
 JOJ Cinema +1 HD
 p:M7 Group,f:1
-334c:00eb0000:0c93:0003:22:0
-TLC CZ
-p:M7 Group,f:1
 334d:00eb0000:0c93:0003:22:0
 CS Mystery
 p:M7 Group,f:1
@@ -24760,9 +24688,6 @@ Slagr 2
 p:M7 Group,f:1
 339e:00eb0000:0c89:0003:25:0
 Epic Drama HD
-p:M7 Group,f:1
-339f:00eb0000:0c89:0003:22:0
-Discovery Channel CZ
 p:M7 Group,f:1
 1427:00eb0000:0ca2:0003:2:0
 RADIO VLNA
@@ -25010,9 +24935,6 @@ p:Canal Digitaal,f:1
 5230:00eb0000:0c99:0003:25:0
 Nederland 3 HD
 p:Canal Digitaal,f:1
-524e:00eb0000:0c99:0003:129:0
-Downl CAM 2
-p:M7 Group
 523f:00eb0000:0c99:0003:1:0
 24 Kitchen
 p:M7 Group,c:090ac3,f:1
@@ -25075,9 +24997,6 @@ Rebel TV
 p:M7 Group,f:1
 5249:00eb0000:0c99:0003:22:0
 Relax TV
-p:M7 Group,f:1
-5247:00eb0000:0c99:0003:22:0
-Eurosport 2 BE
 p:M7 Group,f:1
 526a:00eb0000:0c99:0003:22:0
 Golf Channel
@@ -25823,9 +25742,6 @@ p:Telekom Srbija,f:1
 4e32:00eb0000:0c8b:0003:25:0
 Agro TV HD
 p:Telekom Srbija,f:1
-4e84:00eb0000:0c8b:0003:1:0
-B TV
-p:Telekom Srbija,f:1
 5154:00eb0000:0c8b:0003:2:0
 Radio Beograd 1
 p:Telekom Srbija
@@ -25870,9 +25786,6 @@ Viasat 3
 p:Harmonic,f:1
 4ef6:00eb0000:0c8b:0003:1:0
 Story 4
-p:Harmonic,f:1
-4ef7:00eb0000:0c8b:0003:1:0
-Magyar ATV
 p:Harmonic,f:1
 4ef9:00eb0000:0c8b:0003:1:0
 Duna
@@ -26288,12 +26201,6 @@ p:Telekom Srbija,f:1
 4e64:00eb0000:0ca4:0003:1:0
 FOX Crime HD
 p:Telekom Srbija,f:1
-4fb0:00eb0000:0ca4:0003:1:0
-Uci Doma 1
-p:Telekom Srbija,f:1
-4fb1:00eb0000:0ca4:0003:1:0
-Uci Doma 2
-p:Telekom Srbija,f:1
 0480:00eb2d41:0001:ffff:22:0
 POL-52 CM-5000
 p:Telewizja Polska S.A.,f:1
@@ -26452,18 +26359,6 @@ Muszicka TV
 p:Telekom Srbija,f:1
 4f24:00eb0000:0c81:0003:1:0
 Baby TV
-p:Telekom Srbija,f:1
-4ecf:00eb0000:0c81:0003:1:0
-Zadruga 1
-p:Telekom Srbija,f:1
-4ed0:00eb0000:0c81:0003:1:0
-Zadruga 2
-p:Telekom Srbija,f:1
-4ed1:00eb0000:0c81:0003:1:0
-Zadruga 3
-p:Telekom Srbija,f:1
-4ed2:00eb0000:0c81:0003:1:0
-Zadruga 4
 p:Telekom Srbija,f:1
 4f0c:00eb0000:0c81:0003:1:0
 TV 2 Hungary
@@ -26942,6 +26837,12 @@ p:MBS,c:050001,f:1
 1f7d:00d80000:021c:012d:2:0
 Radio Andernach
 p:MBS
+07d0:00d82d4f:0001:0000:2:0
+Radio Chada 100,8 FM
+p:
+03e8:00d82d4f:0001:0000:2:0
+Radio Chada 100,8 FM
+p:
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -27006,7 +26907,7 @@ p:HD +,f:1
 Welt HD
 p:HD +,f:1
 5277:00c00000:041d:0001:22:0
-ASTRA Portal
+SES 75
 p:BetaDigital,f:1
 527d:00c00000:041d:0001:25:0
 Comedy Central Austria HD
@@ -27074,9 +26975,6 @@ p:Movistar+,c:090410,f:1
 7697:00c00000:041e:0001:1:0
 Nick Junior Spain
 p:Movistar+,c:09040a,f:1
-76a6:00c00000:041e:0001:1:0
-LALIGATVBAR4
-p:Movistar+,f:1
 769a:00c00000:041e:0001:1:0
 LALIGATVBAR2
 p:Movistar+,f:1
@@ -29423,9 +29321,6 @@ p:RR Media,f:1
 1406:00c00000:0403:0001:1:0
 Kaufbei.tv
 p:SES,f:1
-1419:00c00000:0403:0001:1:0
-BestMarket TV
-p:GLOBECAST,f:1
 749a:00c00000:041c:0001:1:0
 Divinity
 p:Movistar+,f:1
@@ -30397,12 +30292,6 @@ Comedy Central France HD
 p:CSAT,f:1
 24c5:00c0af3a:043c:0001:25:0
 Colmax TV HD
-p:CSAT,f:1
-24b9:00c0af3a:043c:0001:25:0
-Disney XD HD France
-p:CSAT,f:1
-24ba:00c0af3a:043c:0001:25:0
-Disney Cinema HD
 p:CSAT,f:1
 24bc:00c0af3a:043c:0001:25:0
 OCS Choc HD
@@ -37478,9 +37367,6 @@ p:,f:1
 4205:00820000:2f44:013e:1:0
 Dorcel TV HD
 p:Bis,f:1
-0032:00820000:2f44:013e:1:0
-Shant TV Premium HD
-p:Shant TV,c:0901f4,f:1
 06c3:00820000:2f44:013e:22:0
 HSE 24
 p:M-Three satcom,f:1
@@ -37529,18 +37415,9 @@ p:M7 Group,f:1
 421c:00820000:2f44:013e:22:0
 UA TV
 p:UATV,f:1
-0033:00820000:2f44:013e:1:0
-Shant Music HD
-p:,c:0901fe,f:1
-0034:00820000:2f44:013e:1:0
-Shant Serial HD
-p:TV-Provider,c:090208,f:1
 421d:00820000:2f44:013e:1:0
 Baby TV
 p:MX1,f:1
-0033:00820000:2f44:013e:0:0
-Shant Music HD
-p:
 421e:00820000:2f44:013e:1:0
 Penthouse Black
 p:,f:1
@@ -37559,15 +37436,9 @@ p:M7 Group,f:1
 05e6:00820000:2f44:013e:1:0
 Satisfaction Channel Television
 p:M-Three satcom,f:1
-0032:00820000:2f44:013e:0:0
-Shant premium HD
-p:
 4224:00820000:2f44:013e:22:0
 Penthouse HD
 p:M-Three satcom,f:1
-0034:00820000:2f44:013e:0:0
-Shant Serial HD
-p:
 4222:00820000:2f44:013e:25:0
 Private HD
 p:M7 Group,f:1
@@ -39995,9 +39866,6 @@ p:KabelKiosk,f:1
 0203:005a2ec9:2134:009c:1:0
 Playboy TV (20-06)
 p:KabelKiosk,f:1
-0204:005a2ec9:2134:009c:25:0
-Love Nature HD
-p:BASIS 1,f:1
 012d:005a2fd5:1edc:009c:25:0
 RTL HD
 p:Kabelkiosk,f:1
@@ -40053,7 +39921,7 @@ p:KabelKiosk,f:1
 Heimatkanal
 p:KabelKiosk,f:1
 0672:005a3022:1fa4:009c:25:0
-Animal Planet HD
+RTL Crime HD
 p:KabelKiosk,f:1
 041a:005a3022:1fa4:009c:1:0
 Show Türk
@@ -41264,11 +41132,8 @@ p:,f:1
 00c5:005a0000:0385:0110:1:0
 Premium Emotion
 p:,f:1
-00c1:005a0000:0385:0110:1:0
-Io Resto a Casa 2
-p:,f:1
-00c2:005a0000:0385:0110:1:0
-Io Resto a Casa 1
+00c1:005a0000:0385:0110:25:0
+Sky Sport Serie A HD
 p:,f:1
 0001:005a0000:03ac:0110:0:0
 Servizio OTA
@@ -41888,6 +41753,72 @@ p:
 0063:005a0000:032a:0110:0:0
 Ghost
 p:
+0007:005aaf4f:791a:217c:1:0
+ILIKE.TV
+p:Persidera,f:1
+0008:005aaf4f:791a:217c:1:0
+Canale 162
+p:Persidera,c:050001,f:1
+000f:005aaf4f:791a:217c:1:0
+Juwelo
+p:Persidera,f:1
+0017:005aaf4f:791a:217c:1:0
+Channel 24
+p:Persidera,f:1
+001e:005aaf4f:791a:217c:1:0
+HSE 24 Donna
+p:Persidera,f:1
+001f:005aaf4f:791a:217c:1:0
+Rete Italia
+p:Persidera,f:1
+0020:005aaf4f:791a:217c:1:0
+La 4 Italia
+p:Persidera,f:1
+0021:005aaf4f:791a:217c:1:0
+Gold TV Italia
+p:Persidera,f:1
+0022:005aaf4f:791a:217c:1:0
+Linea GEM
+p:Persidera,f:1
+0023:005aaf4f:791a:217c:1:0
+Linea Italia
+p:Persidera,f:1
+0024:005aaf4f:791a:217c:1:0
+Orler TV
+p:Persidera,f:1
+0025:005aaf4f:791a:217c:1:0
+Air Italia
+p:Persidera,f:1
+0026:005aaf4f:791a:217c:1:0
+HSE 24 Beauty
+p:Persidera,f:1
+0027:005aaf4f:791a:217c:1:0
+Donna Sport TV
+p:Persidera,f:1
+002d:005aaf4f:791a:217c:1:0
+Canale 165
+p:Persidera,f:1
+002e:005aaf4f:791a:217c:1:0
+Rainbow TV
+p:Persidera,f:1
+005f:005aaf4f:791a:217c:1:0
+Fire TV
+p:Persidera,f:1
+0060:005aaf4f:791a:217c:1:0
+Canale 61
+p:Persidera,f:1
+0061:005aaf4f:791a:217c:1:0
+Mondo Calcio
+p:Persidera,f:1
+0062:005aaf4f:791a:217c:1:0
+Canale 232
+p:Persidera,f:1
+006f:005aaf4f:791a:217c:1:0
+Italia Channel
+p:Persidera,f:1
+0070:005aaf4f:791a:217c:1:0
+Pianeta Tv
+p:Persidera,f:1
 0001:00460000:4e20:0064:1:0
 BBC Persian
 p:BBC,f:1
@@ -42881,6 +42812,9 @@ p:EBU Eurovision,f:1
 0001:00462b44:0000:0001:25:0
 ESTVE ENC1
 p:EBU Eurovision,f:1
+0001:0046abb5:0001:ffff:1:0
+Libya Al Ahrar
+p:Service Provider,c:050001,f:1
 17de:00300000:000c:0055:22:0
 TET
 p:1plus1 Media,f:1
@@ -46134,11 +46068,8 @@ p:Telenor
 Vinyl
 p:Telenor
 1790:0e080000:0022:0046:10:0
-Radio 1
+Topp 40
 p:Telenor
-1cbe:0e080000:0022:0046:1:0
-Viasat Sport Extra
-p:Canal Digital Nordic,f:1
 1b5f:fff8ac8b:001c:0046:1:0
 CNN International Europe
 p:Canal Digital Nordic,f:1
@@ -46349,17 +46280,11 @@ p:ESS,f:1
 03fe:0e082de3:0005:1111:2:0
 Radio Chisinau
 p:ESS
-0407:0e082de3:0005:1111:1:0
-Mooz Dance
-p:ESS,f:1
 040a:0e082de3:0005:1111:25:0
 Nat Geo HD Hungary
 p:MX1,f:1
 040b:0e082de3:0005:1111:25:0
 National Geographic Romania HD
-p:MX1,f:1
-0406:0e082de3:0005:1111:1:0
-Mooz Dance SD
 p:MX1,f:1
 75fa:0e080000:02be:0600:1:0
 HBO Czechia & Slovakia
@@ -47122,31 +47047,28 @@ Discovery Central Europe HD
 p:,f:1
 0207:0e080000:0014:0046:1:0
 CGTN
-p:Canal Digital Nordic,f:1
+p:Telenor,f:1
 07ed:0e080000:0014:0046:1:0
 CGTN Documentary
-p:Canal Digital Nordic,f:1
+p:Telenor,f:1
 0395:0e080000:0014:0046:2:0
 Scandinavian Satellite Radio
-p:Canal Digital Nordic
+p:Telenor
 0b60:0e080000:0014:0046:1:0
 Al Jazeera English
-p:Canal Digital Nordic,f:1
+p:Telenor,f:1
 1201:0e080000:0014:0046:1:0
 Brunstad TV
 p:Telenor,f:1
 0efd:0e080000:0014:0046:1:0
 Sky News International
 p:Telenor,f:1
-1e86:0e080000:0014:0046:25:0
-History Channel HD Romania
-p:,f:1
 1e87:0e080000:0014:0046:1:0
 History Channel Eastern Europe
-p:,f:1
+p:Telenor,f:1
 1e88:0e080000:0014:0046:1:0
 Crime & Investigation Network
-p:,f:1
+p:Telenor,f:1
 03e9:0e08318f:0001:0001:1:0
 TVR 1
 p:RCS DigiTV,f:1
@@ -47519,9 +47441,6 @@ p:Canal Digital Nordic,f:1
 4699:0e080000:0018:0046:25:0
 TV3 HD (S) - Text
 p:Canal Digital Nordic,f:1
-42bc:0e080000:0018:0046:25:0
-Kuukauden kanava
-p:Telenor,f:1
 0fd5:fff8ac2d:0002:0046:25:0
 Viasat Film Premiere HD
 p:Telenor,f:1
@@ -48114,10 +48033,10 @@ p:UPC Direct,f:1
 AMC Eastern Europe.
 p:UPC Direct,f:1
 798d:fff80000:02c7:0600:1:0
-Humor+.
+TV2 Comedy
 p:UPC Direct,f:1
 7992:fff80000:02c7:0600:1:0
-Humor+ .
+TV2 Comedy.
 p:UPC Direct,f:1
 7996:fff80000:02c7:0600:1:0
 AMC Eastern Europe.
@@ -49055,20 +48974,11 @@ p:RCS-RDS,f:1
 00c0:0e080000:00bf:00bf:1:0
 DIGI 24 HD
 p:RCS-RDS,f:1
-010c:fff8b0e7:010c:ffff:1:0
+010c:0e080000:00bf:00bf:1:0
 DIGI24HD B268DGI
 p:RCS-RDS,f:1
 1bcf:0e080000:0045:0046:25:0
 Canal 9 HD Danmark
-p:Telenor,f:1
-32d2:0e080000:0045:0046:22:0
-Telenor Testcard
-p:Telenor,f:1
-1ed7:0e080000:0045:0046:22:0
-TST1
-p:Telenor,f:1
-1ed8:0e080000:0045:0046:22:0
-TST2
 p:Telenor,f:1
 1f0f:0e080000:0045:0046:25:0
 Eurosport Pluss 1 HD
@@ -49085,6 +48995,9 @@ p:Telenor,f:1
 010c:0e08b0ee:010c:ffff:1:0
 DIGI24HD B268DGI
 p:RCS-RDS,f:1
+0001:0e080000:0000:0040:25:0
+ECO Channel HD
+p:,c:050001,f:1
 0001:ffe2acc6:0001:0000:1:0
 ABS promo
 p:,f:1
@@ -50771,270 +50684,249 @@ p:Eutelsat
 0143:ffcead23:4f4c:055f:186:0
 G2157A
 p:Eutelsat
-04b0:0dde0000:526c:055e:12:0
-AFP
-p:Eutelsat
-04b1:0dde0000:526c:055e:12:0
-RDS TDF
-p:Eutelsat
-0460:0dde0000:526c:055e:2:0
-FRANCE BLEU 107.1
-p:EUTELSAT
-0461:0dde0000:526c:055e:2:0
-FRANCE BLEU Alsace
-p:EUTELSAT
-0462:0dde0000:526c:055e:2:0
-FRANCE BLEU Armorique
-p:EUTELSAT
-0463:0dde0000:526c:055e:2:0
-FRANCE BLEU Auxerre
-p:EUTELSAT
-0464:0dde0000:526c:055e:2:0
-FRANCE BLEU Azur
-p:EUTELSAT
-0465:0dde0000:526c:055e:2:0
-FRANCE BLEU Basse Normandie
-p:EUTELSAT
-0466:0dde0000:526c:055e:2:0
-FRANCE BLEU Bearn
-p:EUTELSAT
-0467:0dde0000:526c:055e:2:0
-FRANCE BLEU Belfort Montbeliard
-p:EUTELSAT
-0468:0dde0000:526c:055e:2:0
-FRANCE BLEU Berry
-p:EUTELSAT
-0469:0dde0000:526c:055e:2:0
-FRANCE BLEU Besancon
-p:EUTELSAT
-046a:0dde0000:526c:055e:2:0
-FRANCE BLEU Bourgogne
-p:EUTELSAT
-046b:0dde0000:526c:055e:2:0
-FRANCE BLEU Breizh Izel
-p:EUTELSAT
-046c:0dde0000:526c:055e:2:0
-FRANCE BLEU Champagne
-p:EUTELSAT
-046d:0dde0000:526c:055e:2:0
-FRANCE BLEU Cotentin
-p:EUTELSAT
-046e:0dde0000:526c:055e:2:0
-FRANCE BLEU Creuse
-p:EUTELSAT
-046f:0dde0000:526c:055e:2:0
-FRANCE BLEU Drome Ardeche
-p:EUTELSAT
-0470:0dde0000:526c:055e:2:0
-FRANCE BLEU Frequenza Mora
-p:EUTELSAT
-0471:0dde0000:526c:055e:2:0
-FRANCE BLEU Gard Lozere
-p:EUTELSAT
-0472:0dde0000:526c:055e:2:0
-FRANCE BLEU Gascogne
-p:EUTELSAT
-0473:0dde0000:526c:055e:2:0
-FRANCE BLEU Gironde
-p:EUTELSAT
-0474:0dde0000:526c:055e:2:0
-FRANCE BLEU Haute Normandie
-p:EUTELSAT
-0475:0dde0000:526c:055e:2:0
-FRANCE BLEU Herault
-p:EUTELSAT
-0476:0dde0000:526c:055e:2:0
-FRANCE BLEU Isere
-p:EUTELSAT
-0477:0dde0000:526c:055e:2:0
-FRANCE BLEU La Rochelle
-p:EUTELSAT
-0478:0dde0000:526c:055e:2:0
-FRANCE BLEU Limousin
-p:EUTELSAT
-0479:0dde0000:526c:055e:2:0
-FRANCE BLEU Loire Ocean
-p:EUTELSAT
-047a:0dde0000:526c:055e:2:0
-FRANCE BLEU Lorraine Nord
-p:EUTELSAT
-047b:0dde0000:526c:055e:2:0
-FRANCE BLEU Maine
-p:EUTELSAT
-047c:0dde0000:526c:055e:2:0
-FRANCE BLEU Mayenne
-p:EUTELSAT
-047d:0dde0000:526c:055e:2:0
-FRANCE BLEU Nord
-p:EUTELSAT
-047e:0dde0000:526c:055e:2:0
-FRANCE BLEU Orleans
-p:EUTELSAT
-047f:0dde0000:526c:055e:2:0
-FRANCE BLEU Pays Basque
-p:EUTELSAT
-0480:0dde0000:526c:055e:2:0
-France Bleu Pays d Auvergne
-p:EUTELSAT
-0481:0dde0000:526c:055e:2:0
-FRANCE BLEU Pays de Savoie
-p:EUTELSAT
-0482:0dde0000:526c:055e:2:0
-FRANCE BLEU Perigord
-p:EUTELSAT
-0483:0dde0000:526c:055e:2:0
-FRANCE BLEU Picardie
-p:EUTELSAT
-0484:0dde0000:526c:055e:2:0
-FRANCE BLEU Poitou
-p:EUTELSAT
-0485:0dde0000:526c:055e:2:0
-FRANCE BLEU Provence
-p:EUTELSAT
-0486:0dde0000:526c:055e:2:0
-FRANCE BLEU Roussillon
-p:EUTELSAT
-0487:0dde0000:526c:055e:2:0
-FRANCE BLEU Saint Etienne
-p:EUTELSAT
-0488:0dde0000:526c:055e:2:0
-FRANCE BLEU Sud Lorraine
-p:EUTELSAT
-0489:0dde0000:526c:055e:2:0
-FRANCE BLEU Toulouse
-p:EUTELSAT
-048a:0dde0000:526c:055e:2:0
-FRANCE BLEU Touraine
-p:EUTELSAT
-048b:0dde0000:526c:055e:2:0
-FRANCE BLEU Vaucluse
-p:EUTELSAT
-048f:0dde0000:526c:055e:2:0
-FIP Region
-p:EUTELSAT
-0490:0dde0000:526c:055e:2:0
-RF Contrib
-p:EUTELSAT
-0491:0dde0000:526c:055e:2:0
-France Bleu Natio
-p:EUTELSAT
-0495:0dde0000:526c:055e:2:0
-RCF Pays de l'Ain
-p:
-0497:0dde0000:526c:055e:2:0
-RCF Pays d'Aude
-p:
-0498:0dde0000:526c:055e:2:0
-RCF en Berry
-p:
-0499:0dde0000:526c:055e:2:0
-RCF Corrèze
-p:
-049a:0dde0000:526c:055e:2:0
-RCF Drôme-Ardèche
-p:
-049b:0dde0000:526c:055e:2:0
-RCF Loir et Cher
-p:
-049c:0dde0000:526c:055e:2:0
-RCF Savoie
-p:
-049f:0dde0000:526c:055e:2:0
-RCF
-p:
-04a0:0dde0000:526c:055e:2:0
-RCF Lyon
-p:
-04a1:0dde0000:526c:055e:2:0
-RCF Haute-Loire
-p:
-04a2:0dde0000:526c:055e:2:0
-RCF Vaucluse
-p:
-04a3:0dde0000:526c:055e:2:0
-RCF en Bourgogne
-p:
-04a4:0dde0000:526c:055e:2:0
-RCF Touraine
-p:
-04a5:0dde0000:526c:055e:2:0
-RCF Coeur de Champagne
-p:
-04a6:0dde0000:526c:055e:2:0
-RCF Haute-Normandie
-p:
-04a7:0dde0000:526c:055e:2:0
-RCF Haute-Savoie
-p:
-04a8:0dde0000:526c:055e:2:0
-RCF Allier
-p:
-04a9:0dde0000:526c:055e:2:0
-RCF Bordeaux
-p:
-04aa:0dde0000:526c:055e:2:0
-RCF Hautes-Alpes
-p:
-04ab:0dde0000:526c:055e:2:0
-RCF Franche-Comté
-p:
-04ac:0dde0000:526c:055e:2:0
-RCF Aube Haute-Marne
-p:
-04ad:0dde0000:526c:055e:2:0
-RCF Poitou
-p:
-04ae:0dde0000:526c:055e:2:0
-RCF Reims-Ardennes
-p:
-0493:0dde0000:526c:055e:2:0
-Radio Esperance
-p:Eutelsat
-044e:0dde0000:526c:055e:22:0
-Label TV
-p:Eutelsat,f:1
 045e:0dde0000:526c:055e:2:0
 RCF Anjou
 p:
 045f:0dde0000:526c:055e:2:0
 RCF Jerico-Moselle
 p:
-0494:0dde0000:526c:055e:2:0
-RCF Alpha Rennes
-p:
-049d:0dde0000:526c:055e:2:0
-RCF Isère
-p:
 045d:0dde0000:526c:055e:2:0
 RCF Limousin
-p:
-049e:0dde0000:526c:055e:2:0
-RCF Vendée
-p:
-0457:0dde0000:526c:055e:2:0
-RCF_BCKUP02
-p:
-0458:0dde0000:526c:055e:2:0
-RCF_BCKUP03
-p:
-0459:0dde0000:526c:055e:2:0
-RCF_BCKUP04
-p:
-045a:0dde0000:526c:055e:2:0
-RCF_BCKUP05
-p:
-045b:0dde0000:526c:055e:2:0
-RCF_BCKUP06
-p:
-045c:0dde0000:526c:055e:2:0
-RCF_BCKUP07
-p:
-0496:0dde0000:526c:055e:2:0
-RCF Contribution
 p:
 044d:0dde0000:526c:055e:1:0
 VEOA Occasion
 p:GLOBECAST,C:0000,f:1
+0460:0dde0000:526c:055e:2:0
+France Bleu 107.1
+p:Eutelsat
+0461:0dde0000:526c:055e:2:1
+France Bleu Alsace
+p:Eutelsat
+0462:0dde0000:526c:055e:2:2
+France Bleu Armorique
+p:Eutelsat
+0463:0dde0000:526c:055e:2:3
+France Bleu Auxerre
+p:Eutelsat
+0464:0dde0000:526c:055e:2:4
+France Bleu Azur
+p:Eutelsat
+0465:0dde0000:526c:055e:2:5
+France Bleu Basse Normandie
+p:Eutelsat
+0466:0dde0000:526c:055e:2:6
+France Bleu Bearn
+p:Eutelsat
+0467:0dde0000:526c:055e:2:7
+France Bleu Belfort Montbeliard
+p:Eutelsat
+0468:0dde0000:526c:055e:2:8
+France Bleu Berry
+p:Eutelsat
+0469:0dde0000:526c:055e:2:9
+France Bleu Besancon
+p:Eutelsat
+046a:0dde0000:526c:055e:2:10
+France Bleu Bourgogne
+p:Eutelsat
+046b:0dde0000:526c:055e:2:11
+France Bleu Breizh Izel
+p:Eutelsat
+046c:0dde0000:526c:055e:2:12
+France Bleu Champagne
+p:Eutelsat
+046d:0dde0000:526c:055e:2:13
+France Bleu Cotentin
+p:Eutelsat
+046e:0dde0000:526c:055e:2:14
+France Bleu Creuse
+p:Eutelsat
+046f:0dde0000:526c:055e:2:15
+France Bleu Drome Ardeche
+p:Eutelsat
+0470:0dde0000:526c:055e:2:16
+France Bleu Frequenza Mora
+p:Eutelsat
+0471:0dde0000:526c:055e:2:17
+France Bleu Gard Lozere
+p:Eutelsat
+0472:0dde0000:526c:055e:2:18
+France Bleu Gascogne
+p:Eutelsat
+0473:0dde0000:526c:055e:2:19
+France Bleu Gironde
+p:Eutelsat
+0474:0dde0000:526c:055e:2:20
+France Bleu Haute Normandie
+p:Eutelsat
+0475:0dde0000:526c:055e:2:21
+France Bleu Herault
+p:Eutelsat
+0476:0dde0000:526c:055e:2:22
+France Bleu Isere
+p:Eutelsat
+0477:0dde0000:526c:055e:2:23
+France Bleu La Rochelle
+p:Eutelsat
+0478:0dde0000:526c:055e:2:24
+France Bleu Limousin
+p:Eutelsat
+0479:0dde0000:526c:055e:2:25
+France Bleu Loire Ocean
+p:Eutelsat
+047a:0dde0000:526c:055e:2:26
+France Bleu Lorraine Nord
+p:Eutelsat
+047b:0dde0000:526c:055e:2:27
+France Bleu Maine
+p:Eutelsat
+047c:0dde0000:526c:055e:2:28
+France Bleu Mayenne
+p:Eutelsat
+047d:0dde0000:526c:055e:2:29
+France Bleu Nord
+p:Eutelsat
+047e:0dde0000:526c:055e:2:30
+France Bleu Orleans
+p:Eutelsat
+047f:0dde0000:526c:055e:2:31
+France Bleu Pays Basque
+p:Eutelsat
+0480:0dde0000:526c:055e:2:32
+France Bleu Pays d Auvergne
+p:Eutelsat
+0481:0dde0000:526c:055e:2:33
+France Bleu Pays de Savoie
+p:Eutelsat
+0482:0dde0000:526c:055e:2:34
+France Bleu Perigord
+p:Eutelsat
+0483:0dde0000:526c:055e:2:35
+France Bleu Picardie
+p:Eutelsat
+0484:0dde0000:526c:055e:2:36
+France Bleu Poitou
+p:Eutelsat
+0485:0dde0000:526c:055e:2:37
+France Bleu Provence
+p:Eutelsat
+0486:0dde0000:526c:055e:2:38
+France Bleu Roussillon
+p:Eutelsat
+0487:0dde0000:526c:055e:2:39
+France Bleu Saint Etienne
+p:Eutelsat
+0488:0dde0000:526c:055e:2:40
+France Bleu Sud Lorraine
+p:Eutelsat
+0489:0dde0000:526c:055e:2:41
+France Bleu Toulouse
+p:Eutelsat
+048a:0dde0000:526c:055e:2:42
+France Bleu Touraine
+p:Eutelsat
+048b:0dde0000:526c:055e:2:43
+France Bleu Vaucluse
+p:Eutelsat
+048f:0dde0000:526c:055e:2:44
+FIP Region
+p:Eutelsat
+0490:0dde0000:526c:055e:2:45
+RF Contrib
+p:Eutelsat
+0491:0dde0000:526c:055e:2:46
+France Bleu Natio
+p:Eutelsat
+0493:0dde0000:526c:055e:2:47
+Radio Esperance
+p:Eutelsat
+0494:0dde0000:526c:055e:1:48
+RCF Alpha Rennes
+p:,f:1
+0495:0dde0000:526c:055e:1:49
+RCF Pays de l'Ain
+p:,f:1
+0496:0dde0000:526c:055e:1:50
+RCF Contribution
+p:,f:1
+0497:0dde0000:526c:055e:1:51
+RCF Pays d'Aude
+p:,f:1
+0498:0dde0000:526c:055e:1:52
+RCF en Berry
+p:,f:1
+0499:0dde0000:526c:055e:1:53
+RCF Corrèze
+p:,f:1
+049a:0dde0000:526c:055e:1:54
+RCF Drôme-Ardèche
+p:,f:1
+049b:0dde0000:526c:055e:1:55
+RCF Loir et Cher
+p:,f:1
+049c:0dde0000:526c:055e:1:56
+RCF Savoie
+p:,f:1
+049d:0dde0000:526c:055e:1:57
+RCF Isère
+p:,f:1
+049e:0dde0000:526c:055e:1:58
+RCF Vendée
+p:,f:1
+049f:0dde0000:526c:055e:1:59
+RCF
+p:,f:1
+04a0:0dde0000:526c:055e:1:60
+RCF Lyon
+p:,f:1
+04a1:0dde0000:526c:055e:1:61
+RCF Haute-Loire
+p:,f:1
+04a2:0dde0000:526c:055e:1:62
+RCF Vaucluse
+p:,f:1
+04a3:0dde0000:526c:055e:1:63
+RCF en Bourgogne
+p:,f:1
+04a4:0dde0000:526c:055e:1:64
+RCF Touraine
+p:,f:1
+04a5:0dde0000:526c:055e:1:65
+RCF Coeur de Champagne
+p:,f:1
+04a6:0dde0000:526c:055e:1:66
+RCF Haute-Normandie
+p:,f:1
+04a7:0dde0000:526c:055e:1:67
+RCF Haute-Savoie
+p:,f:1
+04a8:0dde0000:526c:055e:1:68
+RCF Allier
+p:,f:1
+04a9:0dde0000:526c:055e:1:69
+RCF Bordeaux
+p:,f:1
+04aa:0dde0000:526c:055e:1:70
+RCF Hautes-Alpes
+p:,f:1
+04ab:0dde0000:526c:055e:1:71
+RCF Franche-Comté
+p:,f:1
+04ac:0dde0000:526c:055e:1:72
+RCF Aube Haute-Marne
+p:,f:1
+04ad:0dde0000:526c:055e:1:73
+RCF Poitou
+p:,f:1
+04ae:0dde0000:526c:055e:1:74
+RCF Reims-Ardennes
+p:,f:1
+04b0:0dde0000:526c:055e:12:75
+AFP
+p:Eutelsat
+04b1:0dde0000:526c:055e:12:76
+RDS TDF
+p:Eutelsat
 044c:0dde0000:2711:0090:2:0
 RTL
 p:FM-DVB TDF RMV
@@ -51155,6 +51047,36 @@ p:,f:1
 0317:ffce0000:0107:217c:1:12
 La 7d on demand
 p:,f:1
+0046:ffce0000:0107:217c:0:0
+Servizio 70
+p:
+0047:ffce0000:0107:217c:0:0
+Servizio 71
+p:
+0048:ffce0000:0107:217c:0:0
+Servizio 72
+p:
+0049:ffce0000:0107:217c:0:0
+Servizio 73
+p:
+004a:ffce0000:0107:217c:0:0
+Servizio 74
+p:
+004b:ffce0000:0107:217c:0:0
+Servizio 75
+p:
+004c:ffce0000:0107:217c:0:0
+Servizio 76
+p:
+004d:ffce0000:0107:217c:0:0
+Servizio 77
+p:
+004e:ffce0000:0107:217c:0:0
+Servizio 78
+p:
+004f:ffce0000:0107:217c:0:0
+Servizio 79
+p:
 0063:ffce0000:03b6:0110:0:0
 Ghost
 p:Mediaset
@@ -51330,7 +51252,7 @@ p:EUTELSAT,f:1
 RMC Sport 3 HD
 p:EUTELSAT,f:1
 0723:ffce0000:2904:055f:25:0
-RMC Sport News HD
+BFM Lyon HD
 p:EUTELSAT,f:1
 071d:ffce0000:2904:055f:25:0
 RMC Sport 4 HD
@@ -51352,9 +51274,6 @@ p:EUTELSAT,f:1
 p:EUTELSAT,f:1
 0727:ffce0000:2904:055f:22:0
 Label TV
-p:EUTELSAT,f:1
-0726:ffce0000:2904:055f:25:0
-Télé Mélody HD
 p:EUTELSAT,f:1
 0001:ffce0000:7918:217c:1:0
 Nove
@@ -51545,72 +51464,6 @@ p:Persidera,f:1
 008c:ffce0000:0202:001d:1:0
 Mediatext.it
 p:Persidera,f:1
-0007:ffce0000:791a:217c:1:0
-ILIKE.TV
-p:Persidera,f:1
-0008:ffce0000:791a:217c:1:0
-Canale 162
-p:Persidera,f:1
-000f:ffce0000:791a:217c:1:0
-Juwelo
-p:Persidera,f:1
-0017:ffce0000:791a:217c:1:0
-Channel 24
-p:Persidera,f:1
-001e:ffce0000:791a:217c:1:0
-HSE 24 Donna
-p:Persidera,f:1
-001f:ffce0000:791a:217c:1:0
-Rete Italia
-p:Persidera,f:1
-0020:ffce0000:791a:217c:1:0
-La 4 Italia
-p:Persidera,f:1
-0021:ffce0000:791a:217c:1:0
-Gold TV Italia
-p:Persidera,f:1
-0022:ffce0000:791a:217c:1:0
-Linea GEM
-p:Persidera,f:1
-0023:ffce0000:791a:217c:1:0
-Linea Italia
-p:Persidera,f:1
-0024:ffce0000:791a:217c:1:0
-Orler TV
-p:Persidera,f:1
-0025:ffce0000:791a:217c:1:0
-Air Italia
-p:Persidera,f:1
-0026:ffce0000:791a:217c:1:0
-Canale 237
-p:Persidera,f:1
-0027:ffce0000:791a:217c:1:0
-Donna Sport TV
-p:Persidera,f:1
-005f:ffce0000:791a:217c:1:0
-Fire TV
-p:Persidera,f:1
-0060:ffce0000:791a:217c:1:0
-Life 120 Channel
-p:Persidera,f:1
-0061:ffce0000:791a:217c:1:0
-Mondo Calcio
-p:Persidera,f:1
-0062:ffce0000:791a:217c:1:0
-Canale 232
-p:Persidera,f:1
-006f:ffce0000:791a:217c:1:0
-Italia Channel
-p:Persidera,f:1
-0070:ffce0000:791a:217c:1:0
-Pianeta Tv
-p:Persidera,f:1
-002d:ffce0000:791a:217c:1:0
-FN Sport
-p:Persidera,f:1
-002e:ffce0000:791a:217c:1:0
-Rainbow TV
-p:PERSIDERA,f:1
 0d49:ffceabab:0001:013e:1:0
 Rai 1
 p:RAI,f:1
@@ -52100,6 +51953,39 @@ p:,f:1
 2009:ffce0000:032a:0110:25:0
 SportItalia HD
 p:,f:1
+0001:ffce0000:032a:0110:0:0
+Servizio 1
+p:
+0002:ffce0000:032a:0110:0:0
+Servizio 2
+p:
+0003:ffce0000:032a:0110:0:0
+Servizio 3
+p:
+0004:ffce0000:032a:0110:0:0
+Servizio 4
+p:
+0005:ffce0000:032a:0110:0:0
+Servizio 5
+p:
+0006:ffce0000:032a:0110:0:0
+Servizio 6
+p:
+0007:ffce0000:032a:0110:0:0
+Servizio 7
+p:
+0008:ffce0000:032a:0110:0:0
+Servizio 8
+p:
+0009:ffce0000:032a:0110:0:0
+Servizio 9
+p:
+000a:ffce0000:032a:0110:0:0
+Servizio 10
+p:
+0063:ffce0000:032a:0110:0:0
+Ghost
+p:
 0fa4:ffce0000:03ac:0110:1:0
 Rete 4
 p:Mediaset,f:1
@@ -52145,6 +52031,39 @@ p:Mediaset,f:1
 1068:ffce0000:03ac:0110:31:0
 Test HEVC Main10
 p:,f:1
+0001:ffce0000:03ac:0110:0:0
+Servizio OTA
+p:
+0063:ffce0000:03ac:0110:0:0
+Ghost
+p:
+03ec:ffce0000:03ac:0110:0:0
+Servizio4
+p:
+03ed:ffce0000:03ac:0110:0:0
+Servizio5
+p:
+03ee:ffce0000:03ac:0110:0:0
+Servizio6
+p:
+03ef:ffce0000:03ac:0110:0:0
+Servizio7
+p:
+03f0:ffce0000:03ac:0110:0:0
+Servizio8
+p:
+03f1:ffce0000:03ac:0110:0:0
+Servizio9
+p:
+03f2:ffce0000:03ac:0110:0:0
+Servizio10
+p:
+03f3:ffce0000:03ac:0110:0:0
+Servizio11
+p:
+03f4:ffce0000:03ac:0110:0:0
+Servizio12
+p:
 0d4c:0dca0000:0022:0800:1:0
 Al Soyoof
 p:NILESAT,f:1
@@ -57320,397 +57239,193 @@ p:DVB-S2 QPSK 11137V 335.5Â°E
 9c40:ff0bab80:0441:0000:100:0
 Data
 p:DVB-S2 QPSK 11137V 335.5Â°E
-0004:ff0b0000:2a94:055e:1:0
-ENTV
-p:TDA,f:1
-0002:ff0b0000:2a94:055e:1:0
-Canal Algérie
-p:TDA,f:1
-0003:ff0b0000:2a94:055e:1:0
-Algérie 3 (Thalitha TV)
-p:TDA,f:1
-001b:ff0b0000:2a94:055e:1:0
-Algérie 4 (TV Tamazight)
-p:TDA,f:1
-001a:ff0b0000:2a94:055e:1:0
-Algérie 5 (TV Coran)
-p:TDA,f:1
-0019:ff0b0000:2a94:055e:25:0
-Algérie 3 HD (Thalitha TV)
-p:TDA DZ,c:050001,f:1
-025d:ff0b0000:2a94:055e:1:0
-APS DATA
-p:,f:1
-0005:ff0b0000:2a94:055e:1:0
-APS DATA
-p:,f:1
-0006:ff0b0000:2a94:055e:2:0
+0006:ff0b2fda:0001:0000:2:0
 RADIO DECROCHAGE
 p:TDA
-0007:ff0b0000:2a94:055e:2:0
+0007:ff0b2fda:0001:0000:2:0
 CHAINE 2
 p:TDA
-0008:ff0b0000:2a94:055e:2:0
+0008:ff0b2fda:0001:0000:2:0
 CHAINE 3
 p:TDA
-0009:ff0b0000:2a94:055e:2:0
+0009:ff0b2fda:0001:0000:2:0
 SAHEL
 p:TDA
-000a:ff0b0000:2a94:055e:2:0
+000a:ff0b2fda:0001:0000:2:0
 Radio Ouargla
 p:TDA
-000b:ff0b0000:2a94:055e:2:0
+000b:ff0b2fda:0001:0000:2:0
 Radio tamanrasset
 p:TDA
-000c:ff0b0000:2a94:055e:2:0
+000c:ff0b2fda:0001:0000:2:0
 Radio Bechar
 p:TDA
-000d:ff0b0000:2a94:055e:2:0
+000d:ff0b2fda:0001:0000:2:0
 Radio Tlemcen
 p:TDA
-000e:ff0b0000:2a94:055e:2:0
+000e:ff0b2fda:0001:0000:2:0
 Radio Adrar
 p:TDA
-000f:ff0b0000:2a94:055e:2:0
+000f:ff0b2fda:0001:0000:2:0
 Radio Ghardaia
 p:TDA
-0010:ff0b0000:2a94:055e:2:0
+0010:ff0b2fda:0001:0000:2:0
 Radio Illizi
 p:TDA
-0011:ff0b0000:2a94:055e:2:0
+0011:ff0b2fda:0001:0000:2:0
 RADIO INTERNATIONALE
 p:TDA
-0012:ff0b0000:2a94:055e:2:0
+0012:ff0b2fda:0001:0000:2:0
 Radio Souf
 p:TDA
-0013:ff0b0000:2a94:055e:2:0
+0013:ff0b2fda:0001:0000:2:0
 Radio Tindouf
 p:TDA
-0014:ff0b0000:2a94:055e:2:0
+0014:ff0b2fda:0001:0000:2:0
 Radio Batna
 p:TDA
-0015:ff0b0000:2a94:055e:2:0
+0015:ff0b2fda:0001:0000:2:0
 Radio Jijel
 p:TDA
-0016:ff0b0000:2a94:055e:2:0
+0016:ff0b2fda:0001:0000:2:0
 Radio Souk Ahras
 p:TDA
-0017:ff0b0000:2a94:055e:2:0
+0017:ff0b2fda:0001:0000:2:0
 Radio Laghouat
 p:TDA
-0018:ff0b0000:2a94:055e:2:0
+0018:ff0b2fda:0001:0000:2:0
 Radio Naama
 p:TDA
-0019:ff0b0000:2a94:055e:2:0
+0019:ff0b2fda:0001:0000:2:0
 CHAINE 1
 p:TDA
-001d:ff0b0000:2a94:055e:2:0
+001d:ff0b2fda:0001:0000:2:0
 Radio Blida
 p:TDA
-001e:ff0b0000:2a94:055e:2:0
+001e:ff0b2fda:0001:0000:2:0
 Radio Taref
 p:TDA
-001f:ff0b0000:2a94:055e:2:0
+001f:ff0b2fda:0001:0000:2:0
 Radio Médéa
 p:TDA
-0020:ff0b0000:2a94:055e:2:0
+0020:ff0b2fda:0001:0000:2:0
 Radio Mila
 p:TDA
-0021:ff0b0000:2a94:055e:2:0
+0021:ff0b2fda:0001:0000:2:0
 Radio Saida
 p:TDA
-0022:ff0b0000:2a94:055e:2:0
+0022:ff0b2fda:0001:0000:2:0
 Radio Skikda
 p:TDA
-0023:ff0b0000:2a94:055e:2:0
+0023:ff0b2fda:0001:0000:2:0
 Radio Mascara
 p:TDA
-0024:ff0b0000:2a94:055e:2:0
+0024:ff0b2fda:0001:0000:2:0
 Radio Guelma
 p:TDA
-0025:ff0b0000:2a94:055e:2:0
+0025:ff0b2fda:0001:0000:2:0
 Radio Ain Timouchent
 p:TDA
-0026:ff0b0000:2a94:055e:2:0
+0026:ff0b2fda:0001:0000:2:0
 Radio Khenchela
 p:TDA
-0027:ff0b0000:2a94:055e:2:0
+0027:ff0b2fda:0001:0000:2:0
 Radio Bejaia
 p:TDA
-0028:ff0b0000:2a94:055e:2:0
+0028:ff0b2fda:0001:0000:2:0
 Radio Bouira
 p:TDA
-0029:ff0b0000:2a94:055e:2:0
+0029:ff0b2fda:0001:0000:2:0
 Radio Relizan
 p:TDA
-002a:ff0b0000:2a94:055e:2:0
+002a:ff0b2fda:0001:0000:2:0
 Radio Annaba
 p:TDA
-002b:ff0b0000:2a94:055e:2:0
+002b:ff0b2fda:0001:0000:2:0
 Radio Tizi Ouzou
 p:TDA
-002c:ff0b0000:2a94:055e:2:0
+002c:ff0b2fda:0001:0000:2:0
 Radio Tessemssilt
 p:TDA
-002d:ff0b0000:2a94:055e:2:0
+002d:ff0b2fda:0001:0000:2:0
 Radio El Bayedh
 p:TDA
-002e:ff0b0000:2a94:055e:2:0
+002e:ff0b2fda:0001:0000:2:0
 Radio Tebessa
 p:TDA
-002f:ff0b0000:2a94:055e:2:0
+002f:ff0b2fda:0001:0000:2:0
 Radio Djelfa
 p:TDA
-0030:ff0b0000:2a94:055e:2:0
+0030:ff0b2fda:0001:0000:2:0
 Radio Ain Defla
 p:TDA
-0031:ff0b0000:2a94:055e:2:0
+0031:ff0b2fda:0001:0000:2:0
 Radio Tipaza
 p:TDA
-0032:ff0b0000:2a94:055e:2:0
+0032:ff0b2fda:0001:0000:2:0
 Radio Boumerdes
 p:TDA
-0033:ff0b0000:2a94:055e:2:0
+0033:ff0b2fda:0001:0000:2:0
 Radio Oran
 p:TDA
-0034:ff0b0000:2a94:055e:2:0
+0034:ff0b2fda:0001:0000:2:0
 Radio Tiaret
 p:TDA
-0035:ff0b0000:2a94:055e:2:0
+0035:ff0b2fda:0001:0000:2:0
 Radio Mostaganem
 p:TDA
-0036:ff0b0000:2a94:055e:2:0
+0036:ff0b2fda:0001:0000:2:0
 Radio M'sila
 p:TDA
-0037:ff0b0000:2a94:055e:2:0
+0037:ff0b2fda:0001:0000:2:0
 Radio Bordj Bou Arreridj
 p:TDA
-0038:ff0b0000:2a94:055e:2:0
+0038:ff0b2fda:0001:0000:2:0
 Radio Setif
 p:TDA
-0039:ff0b0000:2a94:055e:2:0
+0039:ff0b2fda:0001:0000:2:0
 Radio Biskra
 p:TDA
-003a:ff0b0000:2a94:055e:2:0
+003a:ff0b2fda:0001:0000:2:0
 Radio Constantine
 p:TDA
-003b:ff0b0000:2a94:055e:2:0
+003b:ff0b2fda:0001:0000:2:0
 Radio Oum Bouaghi
 p:TDA
-003c:ff0b0000:2a94:055e:2:0
+003c:ff0b2fda:0001:0000:2:0
 Radio Chlef
 p:TDA
-003d:ff0b0000:2a94:055e:2:0
+003d:ff0b2fda:0001:0000:2:0
 Radio Sidi Belabes
 p:TDA
-003f:ff0b0000:2a94:055e:2:0
+003f:ff0b2fda:0001:0000:2:0
 CORAN/CULTURE
 p:TDA
-0296:ff0b0000:2a94:055e:2:0
+0296:ff0b2fda:0001:0000:2:0
 EL BAHDJA
 p:TDA
-0298:ff0b0000:2a94:055e:2:0
+0298:ff0b2fda:0001:0000:2:0
 DECR0CHAGE 2
 p:TDA
-0299:ff0b0000:2a94:055e:2:0
+0299:ff0b2fda:0001:0000:2:0
 RADIO JEUNESSE
 p:TDA
-0005:ff0b3050:0002:ffff:1:0
-SRV_05
-p:,f:1
-0006:ff0b3050:0002:ffff:2:0
-RADIO DECROCHAGE
-p:TDA
-0007:ff0b3050:0002:ffff:2:0
-CHAINE 2
-p:TDA
-0008:ff0b3050:0002:ffff:2:0
-CHAINE 3
-p:TDA
-0009:ff0b3050:0002:ffff:2:0
-SAHEL
-p:TDA
-000a:ff0b3050:0002:ffff:2:0
-Radio Ouargla
-p:TDA
-000b:ff0b3050:0002:ffff:2:0
-Radio tamanrasset
-p:TDA
-000c:ff0b3050:0002:ffff:2:0
-Radio Bechar
-p:TDA
-000d:ff0b3050:0002:ffff:2:0
-Radio Tlemcen
-p:TDA
-000e:ff0b3050:0002:ffff:2:0
-Radio Adrar
-p:TDA
-000f:ff0b3050:0002:ffff:2:0
-Radio Ghardaia
-p:TDA
-0010:ff0b3050:0002:ffff:2:0
-Radio Illizi
-p:TDA
-0011:ff0b3050:0002:ffff:2:0
-RADIO INTERNATIONALE
-p:TDA
-0012:ff0b3050:0002:ffff:2:0
-Radio Souf
-p:TDA
-0013:ff0b3050:0002:ffff:2:0
-Radio Tindouf
-p:TDA
-0014:ff0b3050:0002:ffff:2:0
-Radio Batna
-p:TDA
-0015:ff0b3050:0002:ffff:2:0
-Radio Jijel
-p:TDA
-0016:ff0b3050:0002:ffff:2:0
-Radio Souk Ahras
-p:TDA
-0017:ff0b3050:0002:ffff:2:0
-Radio Laghouat
-p:TDA
-0018:ff0b3050:0002:ffff:2:0
-Radio Naama
-p:TDA
-0019:ff0b3050:0002:ffff:2:0
-CHAINE 1
-p:TDA
-001d:ff0b3050:0002:ffff:2:0
-Radio Blida
-p:TDA
-001e:ff0b3050:0002:ffff:2:0
-Radio Taref
-p:TDA
-001f:ff0b3050:0002:ffff:2:0
-Radio Médéa
-p:TDA
-0020:ff0b3050:0002:ffff:2:0
-Radio Mila
-p:TDA
-0021:ff0b3050:0002:ffff:2:0
-Radio Saida
-p:TDA
-0022:ff0b3050:0002:ffff:2:0
-Radio Skikda
-p:TDA
-0023:ff0b3050:0002:ffff:2:0
-Radio Mascara
-p:TDA
-0024:ff0b3050:0002:ffff:2:0
-Radio Guelma
-p:TDA
-0025:ff0b3050:0002:ffff:2:0
-Radio Ain Timouchent
-p:TDA
-0026:ff0b3050:0002:ffff:2:0
-Radio Khenchela
-p:TDA
-0027:ff0b3050:0002:ffff:2:0
-Radio Bejaia
-p:TDA
-0028:ff0b3050:0002:ffff:2:0
-Radio Bouira
-p:TDA
-0029:ff0b3050:0002:ffff:2:0
-Radio Relizan
-p:TDA
-002a:ff0b3050:0002:ffff:2:0
-Radio Annaba
-p:TDA
-002b:ff0b3050:0002:ffff:2:0
-Radio Tizi Ouzou
-p:TDA
-002c:ff0b3050:0002:ffff:2:0
-Radio Tessemssilt
-p:TDA
-002d:ff0b3050:0002:ffff:2:0
-Radio El Bayedh
-p:TDA
-002e:ff0b3050:0002:ffff:2:0
-Radio Tebessa
-p:TDA
-002f:ff0b3050:0002:ffff:2:0
-Radio Djelfa
-p:TDA
-0030:ff0b3050:0002:ffff:2:0
-Radio Ain Defla
-p:TDA
-0031:ff0b3050:0002:ffff:2:0
-Radio Tipaza
-p:TDA
-0032:ff0b3050:0002:ffff:2:0
-Radio Boumerdes
-p:TDA
-0033:ff0b3050:0002:ffff:2:0
-Radio Oran
-p:TDA
-0034:ff0b3050:0002:ffff:2:0
-Radio Tiaret
-p:TDA
-0035:ff0b3050:0002:ffff:2:0
-Radio Mostaganem
-p:TDA
-0036:ff0b3050:0002:ffff:2:0
-Radio M'sila
-p:TDA
-0037:ff0b3050:0002:ffff:2:0
-Radio Bordj Bou Arreridj
-p:TDA
-0038:ff0b3050:0002:ffff:2:0
-Radio Setif
-p:TDA
-0039:ff0b3050:0002:ffff:2:0
-Radio Biskra
-p:TDA
-003a:ff0b3050:0002:ffff:2:0
-Radio Constantine
-p:TDA
-003b:ff0b3050:0002:ffff:2:0
-Radio Oum Bouaghi
-p:TDA
-003c:ff0b3050:0002:ffff:2:0
-Radio Chlef
-p:TDA
-003d:ff0b3050:0002:ffff:2:0
-Radio Sidi Belabes
-p:TDA
-003f:ff0b3050:0002:ffff:2:0
-CORAN-CULTURE
-p:TDA
-0296:ff0b3050:0002:ffff:2:0
-EL BAHDJA
-p:TDA
-0298:ff0b3050:0002:ffff:2:0
-DECROCHAGE 2
-p:TDA
-0299:ff0b3050:0002:ffff:2:0
-RADIO JEUNESSE
-p:TDA
-0002:ff0b303e:0001:ffff:1:0
+0002:ff0b2fc8:0001:ffff:1:0
 Canal Algérie
 p:TDA,f:1
-0003:ff0b303e:0001:ffff:1:0
+0003:ff0b2fc8:0001:ffff:1:0
 Algérie 3 (Thalitha TV)
 p:TDA,f:1
-0001:ff0b303e:0001:ffff:1:0
+0001:ff0b2fc8:0001:ffff:1:0
 ENTV
 p:TDA,f:1
-001a:ff0b303e:0001:ffff:1:0
+0005:ff0b2fc8:0001:ffff:1:0
 Algérie 5 (TV Coran)
 p:TDA,f:1
-001b:ff0b303e:0001:ffff:1:0
-Algérie 4 (TV Tamazight)
-p:TDA,f:1
-0005:ff0b303e:0001:ffff:1:0
-Algérie 5 (TV Coran)
-p:TDA,f:1
-0006:ff0b303e:0001:ffff:1:0
+0006:ff0b2fc8:0001:ffff:1:0
 TV 6 Algérie
 p:TDA,f:1
-0004:ff0b303e:0001:ffff:1:0
+0004:ff0b2fc8:0001:ffff:1:0
 Algérie 4 (TV Tamazight)
 p:TDA,f:1
 1044:0cfdace7:1000:0001:1:0
