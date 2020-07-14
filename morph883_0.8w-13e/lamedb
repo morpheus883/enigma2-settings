@@ -552,6 +552,9 @@ fff8b0f7:0001:ffff
 0e080000:0000:0040
 	s 12512000:2400000:1:7:-8:2:0:1:2:1:2
 /
+0e080000:0055:0056
+	s 12322000:30000000:0:3:-8:2:0:1:2:0:2
+/
 end
 services
 439f:00820000:2cec:013e:1:0
@@ -4331,6 +4334,9 @@ p:GLOBECAST,f:1
 0838:00820000:22c4:013e:2:0
 Radio 2M
 p:GLOBECAST
+0839:00820000:22c4:013e:2:0
+Sout Al Rayyan
+p:GLOBECAST
 2db3:00820000:2260:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
@@ -6650,9 +6656,6 @@ p:Telenor,f:1
 1d39:fff8ac8b:001c:0046:22:0
 Godare
 p:Telenor,f:1
-42bc:fff8ac8b:001c:0046:22:0
-Kuukauden kanava
-p:Telenor,f:1
 43b3:fff8ac8b:001c:0046:25:0
 Viasat Series HD
 p:Telenor,f:1
@@ -6660,19 +6663,19 @@ p:Telenor,f:1
 SVT2 Norrbotten
 p:Canal Digital Nordic,f:1
 1d98:fff82c9d:002c:0046:1:0
-SVT2 VästerbottenNytt
+SVT2 Västerbotten
 p:Canal Digital Nordic,f:1
 1d99:fff82c9d:002c:0046:1:0
 SVT2 Västernorrland
 p:Canal Digital Nordic,f:1
 1d9b:fff82c9d:002c:0046:1:0
-SVT2 VärmlandsNytt
+SVT2 Värmland
 p:Canal Digital Nordic,f:1
 1d9d:fff82c9d:002c:0046:1:0
-SVT2 VästNytt
+SVT2 Väst
 p:Canal Digital Nordic,f:1
 1d9e:fff82c9d:002c:0046:1:0
-SVT2 ÖstNytt
+SVT2 Öst
 p:Canal Digital Nordic,f:1
 1d9f:fff82c9d:002c:0046:1:0
 SVT2 Jämtland
@@ -6681,19 +6684,19 @@ p:Canal Digital Nordic,f:1
 SVT2 Jönköping
 p:Canal Digital Nordic,f:1
 1d90:fff82c9d:002c:0046:1:0
-SVT1 VästNytt
+SVT1 Väst
 p:Canal Digital Nordic,f:1
 1d91:fff82c9d:002c:0046:1:0
-SVT1 ÖstNytt
+SVT1 Öst
 p:Canal Digital Nordic,f:1
 1d92:fff82c9d:002c:0046:1:0
-SVT1 SmålandsNytt
+SVT1 Småland
 p:Canal Digital Nordic,f:1
 1d93:fff82c9d:002c:0046:1:0
-SVT1 SydNytt
+SVT1 Skåne
 p:Canal Digital Nordic,f:1
 1d94:fff82c9d:002c:0046:1:0
-SVT1 Gävle
+SVT1 Gävleborg
 p:Canal Digital Nordic,f:1
 1d95:fff82c9d:002c:0046:1:0
 SVT1 Jämtland
@@ -7769,7 +7772,7 @@ p:Telenor,c:090360,f:1
 1eb9:0e080000:0046:0046:25:0
 NRK1 Østfold
 p:Telenor,c:090361,f:1
-1eba:0e080000:0046:0046:1:0
+1eba:0e080000:0046:0046:25:0
 NRK Tegnspråk
 p:Telenor,c:090362,f:1
 1ebb:0e080000:0046:0046:2:0
@@ -8245,6 +8248,9 @@ Discovery Science
 p:Telenor,f:1
 4368:fff8ac4d:002b:0046:22:0
 Paramount Network (D)
+p:Telenor,f:1
+42bc:fff8ac4d:002b:0046:22:0
+Kuukauden kanava
 p:Telenor,f:1
 1c8f:fff8aab6:000a:0046:22:0
 Investigation Discovery Denmark
@@ -9473,16 +9479,16 @@ p:,f:1
 0411:0e08b163:0519:0002:1:0
 TV 5 Monde Europe
 p:,f:1
-0412:0e08b163:0519:0002:1:0
+0412:0e08b163:0519:0002:25:0
 TV 5 Monde Europe HD
 p:,f:1
-0413:0e08b163:0519:0002:1:0
+0413:0e08b163:0519:0002:25:0
 TV 5 Monde FBS HD
 p:,f:1
-0414:0e08b163:0519:0002:1:0
+0414:0e08b163:0519:0002:25:0
 TV 5 Monde Orient HD
 p:,f:1
-0416:0e08b163:0519:0002:1:0
+0416:0e08b163:0519:0002:25:0
 TV 5 Monde Style HD
 p:,f:1
 0415:0e08b163:0519:0002:22:0

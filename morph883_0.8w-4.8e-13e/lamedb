@@ -435,17 +435,26 @@ transponders
 0030b182:0001:ffff
 	s 12674000:3750000:1:7:48:2:0:1:2:0:2
 /
-00303035:0136:0000
+00300000:012c:000a
 	s 12341000:30000000:0:3:48:2:0:1:2:0:2:30:1:0
 /
-00302f9c:006e:0000
+00300000:03e8:2324
 	s 12188000:30000000:0:4:48:2:0:1:2:0:2:10:1:0
 /
-00302f9c:00d2:0000
+00300000:00c8:2324
 	s 12188000:30000000:0:4:48:2:0:1:2:0:2:20:1:0
 /
 00300000:0003:0056
 	s 12054000:27500000:1:3:48:2:0
+/
+00300000:0013:0055
+	s 12399000:27500000:1:3:48:2:0
+/
+00302f9c:ffff:ffff
+	s 12188000:30000000:0:3:48:2:0:1:2:0:2
+/
+00303035:ffff:ffff
+	s 12341000:30000000:0:3:48:2:0:1:2:0:2
 /
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
@@ -704,6 +713,9 @@ fff8b0f7:0001:ffff
 /
 0e080000:0000:0040
 	s 12512000:2400000:1:7:-8:2:0:1:2:1:2
+/
+0e080000:0055:0056
+	s 12322000:30000000:0:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -4577,6 +4589,9 @@ p:GLOBECAST,f:1
 0838:00820000:22c4:013e:2:0
 Radio 2M
 p:GLOBECAST
+0839:00820000:22c4:013e:2:0
+Sout Al Rayyan
+p:GLOBECAST
 2db3:00820000:2260:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
@@ -6689,9 +6704,6 @@ p:Viasat,f:1
 1eb8:00300000:001c:0056:1:0
 NRK1 Innlandet
 p:Viasat,f:1
-1eb9:00300000:001c:0056:1:0
-NRK 1 Østfold
-p:Viasat,f:1
 040f:00300000:001c:0056:1:0
 NRK 1
 p:Viasat,f:1
@@ -8003,12 +8015,6 @@ p:Viasat,f:1
 1133:00302e8f:0018:0056:25:0
 TV 3 Puls HD
 p:Viasat,f:1
-1136:00302e8f:0018:0056:1:0
-Barn / SVT24 talande text
-p:Viasat,f:1
-1139:00302e8f:0018:0056:1:0
-TV 8 Sweden
-p:Viasat,f:1
 113c:00302e8f:0018:0056:1:0
 Kunskapskanalen
 p:Viasat,f:1
@@ -8090,6 +8096,12 @@ p:,f:1
 1148:00302e8f:0018:0056:25:0
 C More Golf HD
 p:,c:050001,f:1
+1136:00302e8f:0018:0056:1:0
+SVTB talande text
+p:Viasat,f:1
+1139:00302e8f:0018:0056:1:0
+SVT 24 talande text
+p:Viasat,f:1
 0001:00303124:0001:ffff:1:0
 Mass Channel
 p:MASS CHANNEL,f:1
@@ -8110,139 +8122,139 @@ SAKARYA
 p:Service Provider
 2904:00300000:00cb:0055:1:0
 TV 3 Lietuva
-p:AMB,f:1
+p:TV3 Group,f:1
 2909:00300000:00cb:0055:1:0
 LRT Televizija
-p:AMB,f:1
+p:TV3 Group,f:1
 290e:00300000:00cb:0055:1:0
 LRT Lituanica
-p:AMB,f:1
+p:TV3 Group,f:1
 2913:00300000:00cb:0055:1:0
 Lietuvos Rytas TV
-p:AMB,f:1
+p:TV3 Group,f:1
 2918:00300000:00cb:0055:1:0
 ETV 2
-p:AMB,f:1
+p:TV3 Group,f:1
 291d:00300000:00cb:0055:1:0
 NTV Mir Baltic
-p:AMB,f:1
+p:TV3 Group,f:1
 2922:00300000:00cb:0055:1:0
 PBK Baltic
-p:AMB,f:1
+p:TV3 Group,f:1
 2927:00300000:00cb:0055:1:0
 Ren TV Baltic
-p:AMB,f:1
+p:TV3 Group,f:1
 292c:00300000:00cb:0055:1:0
 Viasat Explore
-p:AMB,f:1
+p:TV3 Group,f:1
 2931:00300000:00cb:0055:1:0
 Viasat History
-p:AMB,f:1
+p:TV3 Group,f:1
 2936:00300000:00cb:0055:1:0
 Viasat Nature
-p:AMB,f:1
+p:TV3 Group,f:1
 2963:00300000:00cb:0055:1:0
 TVPlay SportsX
-p:AMB,c:050001,f:1
+p:TV3 Group,c:050001,f:1
 2940:00300000:00cb:0055:25:0
 TV 1000 Premium HD
-p:AMB,f:1
+p:TV3 Group,f:1
 2945:00300000:00cb:0055:25:0
 TVPlay Sports HD
-p:AMB,f:1
+p:TV3 Group,f:1
 294a:00300000:00cb:0055:25:0
 Epic Drama HD
-p:AMB,f:1
+p:TV3 Group,f:1
 294f:00300000:00cb:0055:25:0
 TV 3 Estonia HD
-p:AMB,f:1
+p:TV3 Group,f:1
 2954:00300000:00cb:0055:25:0
 TV 3 Latvia HD
-p:AMB,f:1
+p:TV3 Group,f:1
 2959:00300000:00cb:0055:25:0
 TV 3 Lithuania HD
-p:AMB,f:1
+p:TV3 Group,f:1
 2963:00300000:00cb:0055:25:0
 TV3 Sport 3
 p:TV3 Group,f:1
-2968:00300000:00cb:0055:25:0
+2968:00300000:00cb:0055:1:0
 ETV+
-p:AMB,f:1
-296d:00300000:00cb:0055:25:0
+p:TV3 Group,f:1
+296d:00300000:00cb:0055:1:0
 Sony Turbo
-p:AMB,f:1
+p:TV3 Group,f:1
 2774:00300000:00c9:0055:1:0
 LTV 1
-p:AMB,f:1
+p:TV3 Group,f:1
 2779:00300000:00c9:0055:1:0
 LTV 7
-p:AMB,f:1
+p:TV3 Group,f:1
 277e:00300000:00c9:0055:1:0
 TV 3 Latvia
-p:AMB,f:1
-2783:00300000:00c9:0055:1:0
-LNT
-p:AMB,f:1
+p:TV3 Group,f:1
 2788:00300000:00c9:0055:1:0
 TV 6 Latvia
-p:AMB,f:1
-278d:00300000:00c9:0055:1:0
-Kanāls 2
-p:AMB,f:1
+p:TV3 Group,f:1
 2792:00300000:00c9:0055:1:0
 3+ Latvija
-p:AMB,c:050001,f:1
+p:TV3 Group,c:050001,f:1
 2797:00300000:00c9:0055:1:0
 TV 8 Lithuania
-p:AMB,f:1
+p:TV3 Group,f:1
 279c:00300000:00c9:0055:1:0
 LNK
-p:AMB,f:1
+p:TV3 Group,f:1
 27a1:00300000:00c9:0055:1:0
 Baltijos televizija
-p:AMB,c:050001,f:1
+p:TV3 Group,c:050001,f:1
 27a6:00300000:00c9:0055:1:0
 TV 1 Lithuania
-p:AMB,f:1
+p:TV3 Group,f:1
 27ab:00300000:00c9:0055:1:0
 STS Baltic
-p:AMB,f:1
+p:TV3 Group,f:1
 27b0:00300000:00c9:0055:1:0
 TV3 Film
-p:AMB,f:1
+p:TV3 Group,f:1
 27b5:00300000:00c9:0055:1:0
 TV3 Sport
-p:AMB,f:1
+p:TV3 Group,f:1
 27ba:00300000:00c9:0055:1:0
 TV 1000
-p:AMB,f:1
+p:TV3 Group,f:1
 27bf:00300000:00c9:0055:1:0
 TV 1000 Russkoe Kino
-p:AMB,f:1
+p:TV3 Group,f:1
 27d8:00300000:00c9:0055:1:0
 MTV Hits
-p:AMB,f:1
+p:TV3 Group,f:1
 27dd:00300000:00c9:0055:1:0
 Kidzone TV
-p:AMB,f:1
+p:TV3 Group,f:1
 27e2:00300000:00c9:0055:1:0
 Kanal 12
-p:AMB,f:1
+p:TV3 Group,f:1
 27e7:00300000:00c9:0055:1:0
 Fox Russia
-p:AMB,f:1
+p:TV3 Group,f:1
 27c4:00300000:00c9:0055:25:0
 National Geographic HD
-p:AMB,f:1
+p:TV3 Group,f:1
 27c9:00300000:00c9:0055:25:0
 Viasat Explore HD
-p:AMB,f:1
+p:TV3 Group,f:1
 27ce:00300000:00c9:0055:25:0
 Viasat History HD
-p:AMB,f:1
+p:TV3 Group,f:1
 27ec:00300000:00c9:0055:25:0
 Sony Channel
-p:AMB,f:1
+p:TV3 Group,f:1
+2783:00300000:00c9:0055:1:0
+TV3 Life
+p:TV3 Group,f:1
+278d:00300000:00c9:0055:1:0
+TV3 Mini
+p:TV3 Group,f:1
 0b63:00300000:0035:0055:22:0
 Football 1
 p:XTRA TV,c:050001,f:1
@@ -8422,76 +8434,76 @@ NHK World
 p:Viasat,f:1
 28c8:00302eb6:00ca:0055:1:0
 NBA TV
-p:AMB,f:1
+p:TV3 Group,f:1
 283c:00302eb6:00ca:0055:1:0
 TV 6 Lithuania
-p:AMB,f:1
+p:TV3 Group,f:1
 2841:00302eb6:00ca:0055:1:0
 TV 3 Estonia
-p:AMB,f:1
+p:TV3 Group,f:1
 2846:00302eb6:00ca:0055:1:0
 TV 6 Estonia
-p:AMB,f:1
+p:TV3 Group,f:1
 284b:00302eb6:00ca:0055:1:0
 ETV
-p:AMB,f:1
+p:TV3 Group,f:1
 2850:00302eb6:00ca:0055:1:0
 Kanal 2
-p:AMB,f:1
+p:TV3 Group,f:1
 2855:00302eb6:00ca:0055:1:0
 Kanal 11
-p:AMB,f:1
+p:TV3 Group,f:1
 285f:00302eb6:00ca:0055:1:0
 TV 1000 Action East
-p:AMB,f:1
+p:TV3 Group,f:1
 2864:00302eb6:00ca:0055:1:0
 Ohota i Rybalka
-p:AMB,f:1
+p:TV3 Group,f:1
 2869:00302eb6:00ca:0055:1:0
 Setanta Sport
-p:AMB,f:1
+p:TV3 Group,f:1
 2873:00302eb6:00ca:0055:1:0
 Disney Channel
-p:AMB,f:1
+p:TV3 Group,f:1
 2878:00302eb6:00ca:0055:1:0
 Disney Junior
-p:AMB,f:1
+p:TV3 Group,f:1
 287d:00302eb6:00ca:0055:1:0
 Disney XD
-p:AMB,f:1
+p:TV3 Group,f:1
 2882:00302eb6:00ca:0055:1:0
 CNN
-p:AMB,f:1
+p:TV3 Group,f:1
 2887:00302eb6:00ca:0055:1:0
 Nickelodeon
-p:AMB,f:1
+p:TV3 Group,f:1
 288c:00302eb6:00ca:0055:1:0
 Nick JR
-p:AMB,f:1
+p:TV3 Group,f:1
 2891:00302eb6:00ca:0055:1:0
 Nicktoons
-p:AMB,f:1
+p:TV3 Group,f:1
 2896:00302eb6:00ca:0055:1:0
 E! Entertainment
 p:AMB,f:1
 289b:00302eb6:00ca:0055:1:0
 BBC World News
-p:AMB,c:050001,f:1
+p:TV3 Group,c:050001,f:1
 28a0:00302eb6:00ca:0055:1:0
 Brazzers TV
-p:AMB,f:1
+p:TV3 Group,f:1
 28a5:00302eb6:00ca:0055:25:0
 TV 3 Sport 2 HD Baltics
-p:AMB,f:1
+p:TV3 Group,f:1
 28aa:00302eb6:00ca:0055:1:0
 VH-1 (Video Hits One)
-p:AMB,f:1
+p:TV3 Group,f:1
 28af:00302eb6:00ca:0055:1:0
 Playboy TV
-p:AMB,f:1
+p:TV3 Group,f:1
 28b4:00302eb6:00ca:0055:1:0
 NHK World Japan
-p:viasat,f:1
+p:TV3 Group,f:1
 1ee6:00300000:002e:0055:1:0
 Inter
 p:,f:1
@@ -8537,85 +8549,85 @@ p:REFORMA ART,f:1
 0020:0030b182:0001:ffff:1:0
 UKR-024
 p:Tandberg,f:1
-0136:00303035:0136:0000:100:0
+0136:00300000:012c:000a:100:0
 Stream 30 T2-MI
 p:ZEONBUD
-001f:00303035:0136:0000:22:0
+001f:00300000:012c:000a:22:0
 Mega
 p:ZEONBUD,f:1
-0020:00303035:0136:0000:22:0
+0020:00300000:012c:000a:22:0
 Pixel
 p:ZEONBUD,f:1
-0021:00303035:0136:0000:22:0
+0021:00300000:012c:000a:22:0
 XSport
 p:ZEONBUD,f:1
-0022:00303035:0136:0000:22:0
+0022:00300000:012c:000a:22:0
 NLO TV
 p:ZEONBUD,f:1
-0023:00303035:0136:0000:22:0
+0023:00300000:012c:000a:22:0
 2+2
 p:ZEONBUD,f:1
-0024:00303035:0136:0000:22:0
+0024:00300000:012c:000a:22:0
 Dobro TV
 p:ZEONBUD,f:1
-0025:00303035:0136:0000:22:0
+0025:00300000:012c:000a:22:0
 Espreso TV
 p:ZEONBUD,f:1
-0026:00303035:0136:0000:22:0
+0026:00300000:012c:000a:22:0
 Business TV (Ukraine)
 p:ZEONBUD,f:1
-006e:00302f9c:006e:0000:100:0
+006e:00300000:03e8:2324:100:0
 Stream 10 PLP 0
 p:ZEONBUD
-000b:00302f9c:006e:0000:22:0
+000b:00300000:03e8:2324:22:0
 Inter (Інтер)
 p:ZEONBUD,f:1
-000c:00302f9c:006e:0000:22:0
+000c:00300000:03e8:2324:22:0
 Ukraina (Україна) Telekanal
 p:ZEONBUD,f:1
-000d:00302f9c:006e:0000:22:0
+000d:00300000:03e8:2324:22:0
 1+1
 p:ZEONBUD,f:1
-000e:00302f9c:006e:0000:22:0
+000e:00300000:03e8:2324:22:0
 NTN (HTH)
 p:ZEONBUD,f:1
-000f:00302f9c:006e:0000:22:0
+000f:00300000:03e8:2324:22:0
 K1
 p:ZEONBUD,f:1
-0010:00302f9c:006e:0000:22:0
+0010:00300000:03e8:2324:22:0
 Pershiy Nacionalniy (УТ-1)
 p:ZEONBUD,f:1
-0011:00302f9c:006e:0000:22:0
+0011:00300000:03e8:2324:22:0
 ICTV
 p:ZEONBUD,f:1
-0012:00302f9c:006e:0000:22:0
+0012:00300000:03e8:2324:22:0
 Enter (фільм)
 p:ZEONBUD,f:1
-00d2:00302f9c:00d2:0000:100:0
+00d2:00300000:00c8:2324:100:0
 Stream 20 PLP 0
 p:ZEONBUD
-0015:00302f9c:00d2:0000:22:0
+0015:00300000:00c8:2324:22:0
 Zoom (Ukraine)
 p:ZEONBUD,f:1
-0016:00302f9c:00d2:0000:22:0
+0016:00300000:00c8:2324:22:0
 Indigo TV
 p:ZEONBUD,f:1
-0017:00302f9c:00d2:0000:22:0
+0017:00300000:00c8:2324:22:0
 Telekanal STB
 p:ZEONBUD,f:1
-0018:00302f9c:00d2:0000:22:0
+0018:00300000:00c8:2324:22:0
 TET
 p:ZEONBUD,f:1
-0019:00302f9c:00d2:0000:22:0
+0019:00300000:00c8:2324:22:0
 K2
 p:ZEONBUD,f:1
-001a:00302f9c:00d2:0000:22:0
+001a:00300000:00c8:2324:22:0
 Novy Kanal
 p:ZEONBUD,f:1
-001b:00302f9c:00d2:0000:22:0
+001b:00300000:00c8:2324:22:0
 M1
 p:ZEONBUD,f:1
-001c:00302f9c:00d2:0000:22:0
+001c:00300000:00c8:2324:22:0
 Pryamiy HD
 p:ZEONBUD,f:1
 03a5:00300000:0003:0056:135:0
@@ -8996,9 +9008,6 @@ p:Telenor,f:1
 1d39:fff8ac8b:001c:0046:22:0
 Godare
 p:Telenor,f:1
-42bc:fff8ac8b:001c:0046:22:0
-Kuukauden kanava
-p:Telenor,f:1
 43b3:fff8ac8b:001c:0046:25:0
 Viasat Series HD
 p:Telenor,f:1
@@ -9006,19 +9015,19 @@ p:Telenor,f:1
 SVT2 Norrbotten
 p:Canal Digital Nordic,f:1
 1d98:fff82c9d:002c:0046:1:0
-SVT2 VästerbottenNytt
+SVT2 Västerbotten
 p:Canal Digital Nordic,f:1
 1d99:fff82c9d:002c:0046:1:0
 SVT2 Västernorrland
 p:Canal Digital Nordic,f:1
 1d9b:fff82c9d:002c:0046:1:0
-SVT2 VärmlandsNytt
+SVT2 Värmland
 p:Canal Digital Nordic,f:1
 1d9d:fff82c9d:002c:0046:1:0
-SVT2 VästNytt
+SVT2 Väst
 p:Canal Digital Nordic,f:1
 1d9e:fff82c9d:002c:0046:1:0
-SVT2 ÖstNytt
+SVT2 Öst
 p:Canal Digital Nordic,f:1
 1d9f:fff82c9d:002c:0046:1:0
 SVT2 Jämtland
@@ -9027,19 +9036,19 @@ p:Canal Digital Nordic,f:1
 SVT2 Jönköping
 p:Canal Digital Nordic,f:1
 1d90:fff82c9d:002c:0046:1:0
-SVT1 VästNytt
+SVT1 Väst
 p:Canal Digital Nordic,f:1
 1d91:fff82c9d:002c:0046:1:0
-SVT1 ÖstNytt
+SVT1 Öst
 p:Canal Digital Nordic,f:1
 1d92:fff82c9d:002c:0046:1:0
-SVT1 SmålandsNytt
+SVT1 Småland
 p:Canal Digital Nordic,f:1
 1d93:fff82c9d:002c:0046:1:0
-SVT1 SydNytt
+SVT1 Skåne
 p:Canal Digital Nordic,f:1
 1d94:fff82c9d:002c:0046:1:0
-SVT1 Gävle
+SVT1 Gävleborg
 p:Canal Digital Nordic,f:1
 1d95:fff82c9d:002c:0046:1:0
 SVT1 Jämtland
@@ -10115,7 +10124,7 @@ p:Telenor,c:090360,f:1
 1eb9:0e080000:0046:0046:25:0
 NRK1 Østfold
 p:Telenor,c:090361,f:1
-1eba:0e080000:0046:0046:1:0
+1eba:0e080000:0046:0046:25:0
 NRK Tegnspråk
 p:Telenor,c:090362,f:1
 1ebb:0e080000:0046:0046:2:0
@@ -10591,6 +10600,9 @@ Discovery Science
 p:Telenor,f:1
 4368:fff8ac4d:002b:0046:22:0
 Paramount Network (D)
+p:Telenor,f:1
+42bc:fff8ac4d:002b:0046:22:0
+Kuukauden kanava
 p:Telenor,f:1
 1c8f:fff8aab6:000a:0046:22:0
 Investigation Discovery Denmark
@@ -11819,16 +11831,16 @@ p:,f:1
 0411:0e08b163:0519:0002:1:0
 TV 5 Monde Europe
 p:,f:1
-0412:0e08b163:0519:0002:1:0
+0412:0e08b163:0519:0002:25:0
 TV 5 Monde Europe HD
 p:,f:1
-0413:0e08b163:0519:0002:1:0
+0413:0e08b163:0519:0002:25:0
 TV 5 Monde FBS HD
 p:,f:1
-0414:0e08b163:0519:0002:1:0
+0414:0e08b163:0519:0002:25:0
 TV 5 Monde Orient HD
 p:,f:1
-0416:0e08b163:0519:0002:1:0
+0416:0e08b163:0519:0002:25:0
 TV 5 Monde Style HD
 p:,f:1
 0415:0e08b163:0519:0002:22:0
