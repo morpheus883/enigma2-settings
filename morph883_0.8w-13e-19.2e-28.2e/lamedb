@@ -234,6 +234,12 @@ transponders
 011a0000:07e5:0002
 	s 12207000:27500000:1:4:282:2:0
 /
+011ab101:0002:ffff
+	s 12545000:3600000:1:3:282:2:0:1:2:0:2
+/
+011a0000:07ea:0002
+	s 12207000:27500000:1:4:282:2:0
+/
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
 /
@@ -1092,8 +1098,8 @@ fff8b0f7:0001:ffff
 0e080000:0000:0040
 	s 12512000:2400000:1:7:-8:2:0:1:2:1:2
 /
-0e080000:0055:0056
-	s 12322000:30000000:0:3:-8:2:0:1:2:1:2
+fff80000:0065:0065
+	s 12542000:5800000:1:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -1790,6 +1796,12 @@ p:BSkyB,f:1
 1f6a:011a0000:07e0:0002:130:0
 Update Email Address
 p:BSkyB,f:1
+17a4:011a0000:07e0:0002:25:0
+Sky News HD
+p:BSkyB,f:1
+1787:011a0000:07e0:0002:25:0
+FOX UK HD
+p:BSkyB,f:1
 0e2b:011a0000:07f2:0002:25:0
 Disney XD HD
 p:Sky Digital,f:1
@@ -1846,6 +1858,9 @@ Paramount Network
 p:BSkyB,f:1
 1e51:011a0000:0809:0002:1:0
 Paramount Network +1
+p:BSkyB,f:1
+1e5a:011a0000:0809:0002:1:0
+Nick Jr Too
 p:BSkyB,f:1
 52d0:011a0000:0814:0002:25:0
 Channel 4 HD
@@ -1927,9 +1942,6 @@ Comedy Central Extra +1
 p:BSkyB,f:1
 c790:011a313b:0815:0002:1:0
 Nick Jr. Ireland
-p:BSkyB,f:1
-c791:011a313b:0815:0002:1:0
-Nick Jr Too
 p:BSkyB,f:1
 c792:011a313b:0815:0002:1:0
 Nick Jr+1
@@ -3404,6 +3416,12 @@ p:BSkyB,f:1
 1453:011a0000:07ed:0002:25:0
 SkySp PL HD
 p:BSkyB,f:1
+1775:011a0000:07ed:0002:25:0
+Discovery HD UK
+p:BSkyB,f:1
+1792:011a0000:07ed:0002:25:0
+Sky Hits HD
+p:BSkyB,f:1
 ccb0:011a0000:080e:0002:1:0
 Investigation Discovery Europe
 p:Sky Digital,f:1
@@ -3596,20 +3614,8 @@ p:BSkyB,f:1
 0f19:011a0000:07e9:0002:25:0
 Sky One HD
 p:BSkyB,f:1
-0e26:011a0000:07e9:0002:25:0
-Discovery HD UK
-p:BSkyB,f:1
 0f58:011a0000:07e9:0002:25:0
 Sky Witness HD
-p:BSkyB,f:1
-0f79:011a0000:07e9:0002:25:0
-Sky News HD
-p:BSkyB,f:1
-0f7a:011a0000:07e9:0002:25:0
-FOX UK HD
-p:BSkyB,f:1
-0f7b:011a0000:07e9:0002:25:0
-Sky Hits HD
 p:BSkyB,f:1
 0f7c:011a0000:07e9:0002:25:0
 Sky Arts 1 HD
@@ -3850,6 +3856,9 @@ Sky Nature HD
 p:BSkyB,f:1
 144b:011a0000:07f1:0002:25:0
 Sky History 2 HD
+p:BSkyB,f:1
+144f:011a0000:07f1:0002:25:0
+Sky Animation HD
 p:BSkyB,f:1
 1f69:011ab0fc:1f69:ffff:1:0
 EDS 804.1 HD
@@ -13511,7 +13520,7 @@ p:XTRA TV,C:0000,f:1
 03fc:00820000:005e:0055:22:0
 Star Family
 p:XTRA TV,C:0000,f:1
-0410:00820000:005e:0055:22:0
+0410:00820000:005e:0055:25:0
 TV 1000
 p:XTRA TV,C:0000,f:1
 0424:00820000:005e:0055:25:0
