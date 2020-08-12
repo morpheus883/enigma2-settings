@@ -54,9 +54,6 @@ transponders
 00c00000:03f3:0001
 	s 11361000:22000000:0:2:192:2:0:1:2:0:2
 /
-00c00000:03f8:0001
-	s 11435000:22000000:1:2:192:2:0:1:2:0:2
-/
 00c00000:03f9:0001
 	s 11464000:22000000:0:2:192:2:0:1:2:0:2
 /
@@ -305,6 +302,9 @@ transponders
 /
 00c00000:042c:0001
 	s 11778000:29500000:1:9:192:2:0:1:1:1:2
+/
+00c00000:03f8:0001
+	s 11435000:22000000:1:2:192:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -1182,7 +1182,7 @@ p:BetaDigital,f:1
 Genius Family
 p:BetaDigital,f:1
 0023:00c00000:000f:0085:1:0
-Zee One
+Schlager Deluxe
 p:BetaDigital,f:1
 0025:00c00000:000f:0085:1:0
 Sky Sport News Germany
@@ -3461,9 +3461,6 @@ p:TSA,f:1
 7a45:00c00000:0410:0001:1:0
 Record TV
 p:Telefonica Servicios Audiovisuales,f:1
-047e:00c00000:0410:0001:1:0
-Russia Today Español
-p:GlobeCast,f:1
 10d6:00c00000:0418:0001:1:0
 TRWAM TV
 p:TV TRWAM,f:1
@@ -4131,7 +4128,7 @@ p:SKY,f:1
 Sky Sport Austria 3 HD
 p:SKY,f:1
 1194:00c00000:0406:0001:25:0
-Sportdigital HD
+Sportdigital Fussball HD
 p:SES,f:1
 1195:00c00000:0406:0001:25:0
 Sport 1+ HD
@@ -4739,6 +4736,9 @@ p:SES ASTRA
 1645:00c00000:042c:0001:22:0
 BVN - Beste van Vlaanderen en Nederland
 p:SES ASTRA,f:1
+74d0:00c00000:03f8:0001:1:0
+Descarga Cisco
+p:Movistar+,f:1
 439f:00820000:2cec:013e:1:0
 BVN - Beste van Vlaanderen en Nederland
 p:RRsat,f:1
@@ -11598,7 +11598,7 @@ p:RCS DigiTV
 SW DL 1120
 p:RCS
 0d2a:0e08318f:0001:0001:1:0
-TVH 2.0
+Eurosport 2 Romania
 p:RCS,f:1
 03fe:0e08318f:0001:0001:1:0
 National Geographic Romania
@@ -12196,6 +12196,12 @@ Paramount Network (D)
 p:Telenor,f:1
 42bc:fff8ac4d:002b:0046:22:0
 Kuukauden kanava
+p:Telenor,f:1
+1ed7:fff8ac4d:002b:0046:1:0
+TST1
+p:Telenor,f:1
+1ed8:fff8ac4d:002b:0046:1:0
+TST2
 p:Telenor,f:1
 1c8f:fff8aab6:000a:0046:22:0
 Investigation Discovery Denmark
@@ -12885,7 +12891,7 @@ p:DigiTV,f:1
 Travel Channel
 p:DigiTV,f:1
 1770:fff82e56:0007:0001:1:0
-Digi Film
+Film Now
 p:DigiTV,f:1
 177a:fff82e56:0007:0001:1:0
 DIGI Animal World

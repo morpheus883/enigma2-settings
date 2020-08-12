@@ -54,9 +54,6 @@ transponders
 00c00000:03f3:0001
 	s 11361000:22000000:0:2:192:2:0:1:2:0:2
 /
-00c00000:03f8:0001
-	s 11435000:22000000:1:2:192:2:0:1:2:0:2
-/
 00c00000:03f9:0001
 	s 11464000:22000000:0:2:192:2:0:1:2:0:2
 /
@@ -305,6 +302,9 @@ transponders
 /
 00c00000:042c:0001
 	s 11778000:29500000:1:9:192:2:0:1:1:1:2
+/
+00c00000:03f8:0001
+	s 11435000:22000000:1:2:192:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -1044,7 +1044,7 @@ p:BetaDigital,f:1
 Genius Family
 p:BetaDigital,f:1
 0023:00c00000:000f:0085:1:0
-Zee One
+Schlager Deluxe
 p:BetaDigital,f:1
 0025:00c00000:000f:0085:1:0
 Sky Sport News Germany
@@ -3323,9 +3323,6 @@ p:TSA,f:1
 7a45:00c00000:0410:0001:1:0
 Record TV
 p:Telefonica Servicios Audiovisuales,f:1
-047e:00c00000:0410:0001:1:0
-Russia Today Español
-p:GlobeCast,f:1
 10d6:00c00000:0418:0001:1:0
 TRWAM TV
 p:TV TRWAM,f:1
@@ -3993,7 +3990,7 @@ p:SKY,f:1
 Sky Sport Austria 3 HD
 p:SKY,f:1
 1194:00c00000:0406:0001:25:0
-Sportdigital HD
+Sportdigital Fussball HD
 p:SES,f:1
 1195:00c00000:0406:0001:25:0
 Sport 1+ HD
@@ -4601,6 +4598,9 @@ p:SES ASTRA
 1645:00c00000:042c:0001:22:0
 BVN - Beste van Vlaanderen en Nederland
 p:SES ASTRA,f:1
+74d0:00c00000:03f8:0001:1:0
+Descarga Cisco
+p:Movistar+,f:1
 439f:00820000:2cec:013e:1:0
 BVN - Beste van Vlaanderen en Nederland
 p:RRsat,f:1
@@ -10122,7 +10122,7 @@ p:Meo,f:1
 Baby TV
 p:Meo,f:1
 0074:0ce40000:0065:0053:1:0
-TVCine 2
+TV Cine Edition
 p:Meo,f:1
 0078:0ce40000:0065:0053:1:0
 ARTV
@@ -10140,7 +10140,7 @@ p:Meo,f:1
 Sport TV 4
 p:Meo,f:1
 0083:0ce40000:0065:0053:1:0
-TVCine 4
+TV Cine Action
 p:Meo,f:1
 0085:0ce40000:0065:0053:1:0
 TVI 24
@@ -10197,7 +10197,7 @@ p:TSA,f:1
 Discovery HD Showcase
 p:Nos,f:1
 0324:0ce43095:002f:0036:1:0
-TVCine 4 HD
+TV Cine Action HD
 p:Nos,f:1
 0328:0ce43095:002f:0036:1:0
 Nickelodeon Portugal
@@ -10206,7 +10206,7 @@ p:Nos,f:1
 Caça & Pesca
 p:Nos,f:1
 03b3:0ce43095:002f:0036:1:0
-TVCine 1 HD
+TV Cine Top HD
 p:Nos,f:1
 051a:0ce43095:002f:0036:1:0
 Motorvision
@@ -10275,7 +10275,7 @@ p:Nos,f:1
 AXN White HD
 p:Nos,f:1
 064a:0ce40000:0027:0036:1:0
-TVCine 2 HD
+TV Cine Edition HD
 p:Nos,f:1
 0649:0ce40000:0027:0036:1:0
 TV Séries HD
@@ -10314,7 +10314,7 @@ p:Meo,f:1
 Fox Crime Portugal HD
 p:Nos,f:1
 0642:0ce40000:0027:0036:1:0
-TVCine 3 HD
+TV Cine Emotion HD
 p:Nos,f:1
 01cb:0ce40000:0027:0036:1:0
 Investigation Discovery
@@ -10602,7 +10602,7 @@ p:Meo,f:1
 Sport TV 3
 p:Meo,f:1
 00d7:0ce40000:0066:0053:1:0
-TVCine 3
+TV Cine Emotion
 p:Meo,f:1
 00e1:0ce40000:0066:0053:1:0
 Disney Channel Portugal
@@ -10611,7 +10611,7 @@ p:Meo,f:1
 DW-TV (Deutsche Welle)
 p:Meo,f:1
 00d6:0ce40000:0066:0053:1:0
-TVCine 1
+TV Cine Top
 p:Meo,f:1
 00e6:0ce40000:0066:0053:1:0
 TVI Ficção

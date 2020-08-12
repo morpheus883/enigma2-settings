@@ -285,9 +285,6 @@ transponders
 00c00000:03f3:0001
 	s 11361000:22000000:0:2:192:2:0:1:2:0:2
 /
-00c00000:03f8:0001
-	s 11435000:22000000:1:2:192:2:0:1:2:0:2
-/
 00c00000:03f9:0001
 	s 11464000:22000000:0:2:192:2:0:1:2:0:2
 /
@@ -536,6 +533,9 @@ transponders
 /
 00c00000:042c:0001
 	s 11778000:29500000:1:9:192:2:0:1:1:1:2
+/
+00c00000:03f8:0001
+	s 11435000:22000000:1:2:192:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -1199,8 +1199,8 @@ p:BSkyB,f:1
 cff3:011a0000:083f:0002:1:0
 Really Ireland
 p:BSkyB,f:1
-2922:011a0000:090b:003b:1:0
-Freesat Info
+2920:011a0000:090b:003b:1:0
+FreesatInformation
 p:Freesat,f:1
 2904:011a0000:090b:003b:12:0
 FreesatHome
@@ -1210,15 +1210,6 @@ FreesatCommonC
 p:Freesat
 2906:011a0000:090b:003b:12:0
 FreesatSSU
-p:Freesat
-291f:011a0000:090b:003b:12:0
-10527 (Freesat 1)
-p:Freesat
-2921:011a0000:090b:003b:12:0
-10529 (Freesat 5)
-p:Freesat
-2922:011a0000:090b:003b:12:0
-Freesat Info
 p:Freesat
 2968:011a0000:090b:003b:1:0
 TRP 1 (The Racing Partnership)
@@ -1234,9 +1225,6 @@ talkSPORT Dist
 p:Arqiva
 2920:011a0000:090b:003b:12:0
 FreesatInformation
-p:Freesat
-2922:011a0000:090b:003b:2:0
-Freesat Info
 p:Freesat
 2954:011a0000:090b:003b:12:0
 BBC NDRA
@@ -3227,9 +3215,6 @@ p:Freesat,f:1
 d075:011aac2b:083e:0002:1:0
 Sony Action +1
 p:BSkyB,f:1
-040b:011a0000:07e9:0002:25:0
-Sky Sports Box Office HD
-p:BSkyB,f:1
 0f15:011a0000:07e9:0002:25:0
 Sky One UK HD
 p:BSkyB,f:1
@@ -3370,6 +3355,12 @@ BT Sport Box Office HD
 p:BSkyB,f:1
 0449:011ab024:07f0:0002:25:0
 BT Sport Box Office 2 HD
+p:BSkyB,f:1
+1034:011ab024:07f0:0002:4:0
+Anytime
+p:BSkyB
+040b:011ab024:07f0:0002:25:0
+Sky Sports Box Office HD
 p:BSkyB,f:1
 1bbe:011a0000:0835:0002:25:0
 Virgin Sport HD
@@ -3945,7 +3936,7 @@ p:BetaDigital,f:1
 Genius Family
 p:BetaDigital,f:1
 0023:00c00000:000f:0085:1:0
-Zee One
+Schlager Deluxe
 p:BetaDigital,f:1
 0025:00c00000:000f:0085:1:0
 Sky Sport News Germany
@@ -6224,9 +6215,6 @@ p:TSA,f:1
 7a45:00c00000:0410:0001:1:0
 Record TV
 p:Telefonica Servicios Audiovisuales,f:1
-047e:00c00000:0410:0001:1:0
-Russia Today Español
-p:GlobeCast,f:1
 10d6:00c00000:0418:0001:1:0
 TRWAM TV
 p:TV TRWAM,f:1
@@ -6894,7 +6882,7 @@ p:SKY,f:1
 Sky Sport Austria 3 HD
 p:SKY,f:1
 1194:00c00000:0406:0001:25:0
-Sportdigital HD
+Sportdigital Fussball HD
 p:SES,f:1
 1195:00c00000:0406:0001:25:0
 Sport 1+ HD
@@ -7502,6 +7490,9 @@ p:SES ASTRA
 1645:00c00000:042c:0001:22:0
 BVN - Beste van Vlaanderen en Nederland
 p:SES ASTRA,f:1
+74d0:00c00000:03f8:0001:1:0
+Descarga Cisco
+p:Movistar+,f:1
 439f:00820000:2cec:013e:1:0
 BVN - Beste van Vlaanderen en Nederland
 p:RRsat,f:1
