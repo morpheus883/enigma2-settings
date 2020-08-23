@@ -129,9 +129,6 @@ transponders
 011a0000:07d3:0002
 	s 11758000:27500000:0:2:282:2:0:1:2:0:2
 /
-011a0000:07eb:0002
-	s 12226000:27500000:0:2:282:2:0:1:2:0:2
-/
 011a0000:082e:0002
 	s 11538000:22000000:1:4:282:2:0
 /
@@ -702,9 +699,6 @@ transponders
 00820000:26ac:013f
 	s 12692000:27500000:0:3:130:2:0:1:2:0:2
 /
-00820000:2710:fbff
-	s 12713000:29900000:1:4:130:2:0
-/
 00820000:2774:fbff
 	s 12731000:29900000:0:4:130:2:0
 /
@@ -830,6 +824,9 @@ transponders
 /
 00820000:23f0:013e
 	s 12558000:27500000:1:4:130:2:0:1:2:2:2
+/
+0082b1a9:2710:fbff
+	s 12713000:29900000:1:3:130:2:0:1:2:0:2
 /
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
@@ -1088,6 +1085,9 @@ fff8b0f7:0001:ffff
 /
 0e080000:0000:0040
 	s 12512000:2400000:1:7:-8:2:0:1:2:1:2
+/
+fff83113:0af7:00bb
+	s 12563000:28800000:0:7:-8:2:0:1:0:0:2
 /
 end
 services
@@ -1538,6 +1538,12 @@ p:BSkyB,c:090100,f:1
 0e27:011a0000:07d8:0002:25:0
 Sky One HD
 p:BSkyB,f:1
+1ae1:011a0000:07d8:0002:25:0
+Virgin One HD
+p:BSkyB,f:1
+13b6:011a0000:07d8:0002:25:0
+Virgin Two HD
+p:BSkyB,f:1
 1839:011a0000:07f3:0002:1:0
 Discovery Channel
 p:Sky Digital,f:1
@@ -1724,9 +1730,6 @@ p:BSkyB,f:1
 1904:011a2f26:07e3:0002:1:0
 Sky News
 p:Sky Digital,f:1
-0cc6:011a0000:07e0:0002:25:0
-Nick Jr. UK HD
-p:BSkyB,c:090107,f:1
 0eda:011a0000:07e0:0002:25:0
 Sky Sports Main Events HD
 p:BSkyB,c:090100,f:1
@@ -1784,14 +1787,8 @@ p:Sky Digital,f:1
 0ef8:011a0000:07f2:0002:25:0
 National Geographic HD UK
 p:Sky Digital,f:1
-0f10:011a0000:07f2:0002:25:0
-Comedy Central HD UK
-p:Sky Digital,f:1
 0f1d:011a0000:07f2:0002:25:0
 Nickelodeon HD
-p:Sky Digital,f:1
-0f40:011a0000:07f2:0002:25:0
-MTV HD UK
 p:Sky Digital,f:1
 0f53:011a0000:07f2:0002:25:0
 Alibi HD
@@ -2567,6 +2564,9 @@ p:BSkyB,f:1
 c5fd:011a0000:0842:0002:25:0
 BTSptBoxOff2HD
 p:BSkyB,f:1
+c5ea:011a0000:0842:0002:25:0
+BT Sport Extra 1 HD
+p:BSkyB,f:1
 c472:011a0000:0837:0002:25:0
 CNN International HD
 p:BSkyB,c:090100,f:1
@@ -2951,18 +2951,6 @@ p:BSkyB,f:1
 1410:011a0000:07d3:0002:25:0
 Sky Documentaries HD
 p:BSkyB,f:1
-0e2c:011a0000:07eb:0002:25:0
-Virgin One HD
-p:BSkyB,f:1
-0fa8:011a0000:07eb:0002:25:0
-Virgin Two HD
-p:BSkyB,f:1
-04bd:011a0000:07eb:0002:25:0
-Sky Crime HD
-p:BSkyB,f:1
-1417:011a0000:07eb:0002:25:0
-Sky Comedy HD
-p:BSkyB,f:1
 584f:011a0000:082e:0002:1:0
 Faith World TV
 p:Sky Digital,f:1
@@ -3058,9 +3046,6 @@ Sky Thriller HD
 p:Sky Digital,f:1
 0f3d:011a0000:07e8:0002:25:0
 Sky Select HD
-p:BSkyB,f:1
-0f3e:011a0000:07e8:0002:25:0
-CNBC Europe HD
 p:BSkyB,f:1
 0fa9:011a0000:07e8:0002:25:0
 Cartoon Network HD
@@ -3692,6 +3677,15 @@ p:Sky Digital,f:1
 1a4c:011a0000:0834:0002:1:0
 Comedy Central Extra
 p:BSkyB,f:1
+1a43:011a0000:0834:0002:25:0
+Comedy Central HD UK
+p:Sky Digital,f:1
+1a42:011a0000:0834:0002:25:0
+MTV HD UK
+p:Sky Digital,f:1
+1a41:011a0000:0834:0002:25:0
+Nick Jr. UK HD
+p:BSkyB,c:090107,f:1
 1c51:011a0000:07de:0002:1:0
 SES 8K Demo Channel
 p:Astra,f:1
@@ -3743,6 +3737,12 @@ p:BSkyB,f:1
 0ffc:011a0000:07e4:0002:25:0
 SkySp Mix HD
 p:BSkyB,c:090108,f:1
+145c:011a0000:07e4:0002:25:0
+Sky Crime HD
+p:BSkyB,f:1
+1418:011a0000:07e4:0002:25:0
+Sky Comedy HD
+p:BSkyB,f:1
 0e29:011a0000:07ee:0002:25:0
 Boomerang HD
 p:BSkyB,f:1
@@ -3766,6 +3766,9 @@ TLC HD
 p:BSkyB,f:1
 0fa6:011a0000:07ee:0002:25:8
 W HD
+p:BSkyB,f:1
+13b7:011a0000:07ee:0002:25:0
+CNBC Europe HD
 p:BSkyB,f:1
 0ccc:011a2f4e:07f1:0002:25:0
 TG4 HD
@@ -9818,6 +9821,9 @@ p:Telespazio,f:1
 02d8:00820000:1b58:013e:1:0
 Awraas TV
 p:Telespazio,f:1
+02db:00820000:1b58:013e:2:0
+Radio Mariam Armenia
+p:Telespazio
 3c8d:00820000:1bbc:013e:1:0
 novacinema1 HD Cy
 p:Netmed,f:1
@@ -11162,21 +11168,6 @@ p:AB Sat
 0464:00820000:26ac:013f:12:0
 Neotion Update Service
 p:AB Sat
-342c:00820000:2710:fbff:1:0
-Playjam
-p:SkyItalia,f:1
-3451:00820000:2710:fbff:1:0
-IEPG Data
-p:SkyItalia,f:1
-344e:00820000:2710:fbff:251:0
-Fusion BGDL 13390
-p:SkyItalia
-3424:00820000:2710:fbff:1:0
-Nat Geo Wild Italia +1
-p:SkyItalia,f:1
-3401:00820000:2710:fbff:130:0
-TG24Elezioni
-p:SkyItalia,f:1
 2d4f:00820000:2774:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
@@ -12197,9 +12188,6 @@ p:Cyfra +,f:1
 10e4:0082ac81:03e8:013e:1:0
 NTL
 p:NC+,f:1
-10e8:0082ac81:03e8:013e:1:0
-TO!TV
-p:TVN,c:090030,f:1
 10e9:0082ac81:03e8:013e:25:0
 Adventure HD
 p:TVN,f:1
@@ -12235,6 +12223,9 @@ Discovery Life Poland HD
 p:TVN,f:1
 10e5:0082ac81:03e8:013e:22:0
 Top Kids
+p:TVN,f:1
+10e8:0082ac81:03e8:013e:25:0
+Gold TV Poland
 p:TVN,f:1
 044e:00820000:238c:013e:31:0
 Fashion TV 4K
@@ -12503,6 +12494,12 @@ p:nc+,f:1
 12c8:00820000:2e7c:013e:1:0
 Playboy TV HD
 p:nc+,f:1
+12d5:00820000:2e7c:013e:1:0
+La Trois
+p:TV Vlaanderen,f:1
+12d6:00820000:2e7c:013e:1:0
+RTL TVI
+p:TV Vlaanderen,f:1
 0387:00820000:2134:013e:1:0
 Sama Dubai HD
 p:Etisalat,f:1
@@ -13232,6 +13229,21 @@ p:,f:1
 04b5:00820000:23f0:013e:25:0
 Saudi TV HD
 p:,f:1
+3401:0082b1a9:2710:fbff:130:0
+TG24Elezioni
+p:SkyItalia,f:1
+3424:0082b1a9:2710:fbff:1:0
+Nat Geo Wild Italia +1
+p:SkyItalia,f:1
+342c:0082b1a9:2710:fbff:1:0
+Playjam
+p:SkyItalia,f:1
+344e:0082b1a9:2710:fbff:251:0
+Fusion BGDL 13390
+p:SkyItalia
+3451:0082b1a9:2710:fbff:1:0
+IEPG Data
+p:SkyItalia,f:1
 040a:0e080000:0044:0046:25:0
 TV 2 Sport Premium HD
 p:Canal Digital Nordic,f:1
@@ -13577,6 +13589,12 @@ p:Telenor
 1790:0e080000:0022:0046:10:0
 Topp 40
 p:Telenor
+1bc8:0e080000:0022:0046:25:0
+BBC Brit HD (Norway)
+p:Canal Digital Nordic,f:1
+1c6a:0e080000:0022:0046:1:0
+Rikstoto Direkte HD
+p:Canal Digital Nordic,f:1
 1b5f:fff8ac8b:001c:0046:1:0
 CNN International Europe
 p:Canal Digital Nordic,f:1
@@ -16164,7 +16182,7 @@ p:UPC Direct,f:1
 Lala TV
 p:UPC,f:1
 767a:fff8ae1c:02bf:0600:1:0
-RiK TV
+Jojko
 p:UPC,f:1
 767b:fff8ae1c:02bf:0600:1:0
 LALA TV ( SVK)
@@ -16508,6 +16526,27 @@ p:RCS-RDS,f:1
 0001:0e080000:0000:0040:25:0
 ECO Channel HD
 p:,c:050001,f:1
+1b63:fff83113:0af7:00bb:1:0
+Epic Drama HD
+p:Digi TV,f:1
+1b64:fff83113:0af7:00bb:1:0
+TV Seznam Zpravy
+p:Slovak Telekom,f:1
+1b65:fff83113:0af7:00bb:1:0
+Prima Love HD
+p:Slovak Telekom,f:1
+1b66:fff83113:0af7:00bb:1:0
+Prima COOL HD
+p:Slovak Telekom,f:1
+1b67:fff83113:0af7:00bb:1:0
+Prima Max HD
+p:Focus Sat,f:1
+1b69:fff83113:0af7:00bb:1:0
+Nova Cinema HD
+p:Focus Sat,f:1
+1b68:fff83113:0af7:00bb:2:0
+Radio DALNICE
+p:Slovak Telekom
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2020
