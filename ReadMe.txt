@@ -14,7 +14,7 @@ Enigma2 Settings 25th August 2020, © by Morpheus883
 Settings for Images based on Enigma 2.4:
 
 Statistics:
-# Satellites: 93 (Ku Band)
+# Satellites: 94 (Ku Band)
 # Ordered Provider Lists: 60+
 # Services: 18.602 (TV-Radio-Data)
 # Packages: 23 (TV-Radio-Data):
