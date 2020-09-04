@@ -204,7 +204,7 @@ transponders
 011a0000:07ee:0002
 	s 12285000:27500000:1:2:282:2:0:1:2:0:2
 /
-011a2f4e:07f1:0002
+011a0000:07e5:0002
 	s 12110000:27500000:0:2:282:2:0:1:2:0:2
 /
 011a0000:07ea:0002
@@ -212,6 +212,9 @@ transponders
 /
 011a0000:07eb:0002
 	s 12226000:27500000:0:2:282:2:0:1:2:0:2
+/
+011a2f4d:07e5:0002
+	s 12109000:27500000:0:2:282:2:0:1:2:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -1478,9 +1481,6 @@ p:BSkyB,f:1
 13b8:011a0000:07e0:0002:25:0
 Sky Nature HD
 p:BSkyB,f:1
-0ef8:011a0000:07f2:0002:25:0
-National Geographic HD UK
-p:Sky Digital,f:1
 0f1d:011a0000:07f2:0002:25:0
 Nickelodeon HD
 p:Sky Digital,f:1
@@ -2165,6 +2165,9 @@ p:BSkyB,f:1
 d382:011a0000:0830:0002:1:0
 Republic Bharat
 p:Sky Digital,f:1
+d37c:011a0000:0830:0002:1:0
+Court TV
+p:BSkyB,f:1
 c7aa:011a0000:0817:0002:2:0
 Newstalk
 p:Sky Digital
@@ -3380,26 +3383,29 @@ p:BSkyB,f:1
 13b7:011a0000:07ee:0002:25:0
 CNBC Europe HD
 p:BSkyB,f:1
-0ccc:011a2f4e:07f1:0002:25:0
+0ccc:011a0000:07e5:0002:25:0
 TG4 HD
 p:BSkyB,c:090104,f:1
-0f2c:011a2f4e:07f1:0002:25:0
+0f2c:011a0000:07e5:0002:25:0
 SyFy HD UK
 p:Sky Digital,f:1
-0f44:011a2f4e:07f1:0002:25:0
+0f44:011a0000:07e5:0002:25:0
 E! HD
 p:BSkyB,f:1
-0f52:011a2f4e:07f1:0002:25:0
+0f52:011a0000:07e5:0002:25:0
 Dave HD
 p:Sky Digital,f:1
-0fa5:011a2f4e:07f1:0002:25:0
+0fa5:011a0000:07e5:0002:25:0
 Sony Max HD
 p:BSkyB,f:1
-144b:011a2f4e:07f1:0002:25:0
+144b:011a0000:07e5:0002:25:0
 Sky History 2 HD
 p:BSkyB,f:1
-144f:011a2f4e:07f1:0002:25:0
+144f:011a0000:07e5:0002:25:0
 Sky Animation HD
+p:BSkyB,f:1
+1793:011a0000:07e5:0002:25:0
+National Geographic HD UK
 p:BSkyB,f:1
 051a:011a0000:07ea:0002:1:0
 Sky Sports F1
@@ -10580,6 +10586,12 @@ p:Sky Italia,f:1
 1fce:00820000:251c:fbff:1:0
 Gambero Rosso
 p:SkyItalia,f:1
+2c29:00820000:251c:fbff:25:0
+SuperTennis HD
+p:SkyItalia,f:1
+2c3e:00820000:251c:fbff:25:0
+SuperTennis HD
+p:SkyItalia,f:1
 2c9d:00820000:2580:fbff:1:0
 Super!
 p:Sky Italia,f:1
@@ -10772,9 +10784,6 @@ p:GlobeCast,f:1
 07d2:00820000:22c4:013e:1:0
 RT Doc HD
 p:Harmonic,f:1
-07d3:00820000:22c4:013e:1:0
-Supertennis HD
-p:GlobeCast,f:1
 07d4:00820000:22c4:013e:1:0
 Telepace HD
 p:GLOBECAST,f:1
@@ -11231,12 +11240,6 @@ p:UATV,f:1
 421d:00820000:2f44:013e:1:0
 Baby TV
 p:MX1,f:1
-421e:00820000:2f44:013e:1:0
-Penthouse Black
-p:,f:1
-421f:00820000:2f44:013e:1:0
-Penthouse 2 HD
-p:Basmedia,f:1
 4221:00820000:2f44:013e:22:0
 Blue Hustler
 p:M7 Group,f:1
@@ -11246,12 +11249,6 @@ p:M7 Group,f:1
 4223:00820000:2f44:013e:25:0
 Hustler HD POL
 p:M7 Group,f:1
-05e6:00820000:2f44:013e:1:0
-Satisfaction Channel Television
-p:M-Three satcom,f:1
-4224:00820000:2f44:013e:22:0
-Penthouse HD
-p:M-Three satcom,f:1
 4222:00820000:2f44:013e:25:0
 Private HD
 p:M7 Group,f:1
@@ -11261,6 +11258,9 @@ p:M7 Group,f:1
 0029:00820000:2f44:013e:1:0
 Kazakh TV HD
 p:,f:1
+4207:00820000:2f44:013e:1:0
+Brazzers HD
+p:ARC/DCM1 TSOIP,f:1
 0001:00820000:1770:0110:1:0
 Italia Uno
 p:Mediaset,f:1
@@ -11873,6 +11873,9 @@ p:M-Three Satcom,f:1
 0520:00820000:3d54:013e:1:0
 Yes Italia
 p:M-Three Satcom,f:1
+0531:00820000:3d54:013e:22:0
+Radio Radio TV
+p:M-Three Satcom Srl,f:1
 0d4a:00820000:1450:013e:1:0
 Rai 2 HD
 p:Rai,c:09044e,f:1
@@ -12044,15 +12047,6 @@ p:nc+,f:1
 12cb:00820000:2e7c:013e:1:0
 StudioMed TV HD
 p:nc+,f:1
-12f9:00820000:2e7c:013e:1:0
-TVP 4K
-p:nc+,f:1
-12e8:00820000:2e7c:013e:2:0
-4840
-p:nc+
-12ed:00820000:2e7c:013e:31:0
-4845
-p:nc+,f:1
 12c2:00820000:2e7c:013e:1:0
 Canal+ Sport 3 HD Polska
 p:nc+,f:1
@@ -12071,6 +12065,48 @@ p:nc+,f:1
 12c8:00820000:2e7c:013e:1:0
 Playboy TV HD
 p:nc+,f:1
+12d5:00820000:2e7c:013e:1:0
+La Trois
+p:CANAL+,f:1
+12d6:00820000:2e7c:013e:1:0
+RTL-TVi HD
+p:CANAL+,f:1
+12d7:00820000:2e7c:013e:1:0
+La Une HD
+p:CANAL+,f:1
+12d8:00820000:2e7c:013e:1:0
+La Deux
+p:CANAL+,f:1
+12d9:00820000:2e7c:013e:1:0
+Club-RTL
+p:CANAL+,f:1
+12da:00820000:2e7c:013e:1:0
+Plug-RTL
+p:CANAL+,f:1
+12dc:00820000:2e7c:013e:2:0
+Pure FM
+p:CANAL+
+12dd:00820000:2e7c:013e:2:0
+Classic21
+p:CANAL+
+12de:00820000:2e7c:013e:2:0
+VivaCite
+p:CANAL+
+12df:00820000:2e7c:013e:2:0
+Musiq 3
+p:CANAL+
+12e0:00820000:2e7c:013e:2:0
+La Premiere
+p:CANAL+
+12e1:00820000:2e7c:013e:2:0
+Mint
+p:CANAL+
+12e2:00820000:2e7c:013e:2:0
+Bel RTL
+p:CANAL+
+12e3:00820000:2e7c:013e:2:0
+Radio Contact
+p:CANAL+
 0387:00820000:2134:013e:1:0
 Sama Dubai HD
 p:Etisalat,f:1
