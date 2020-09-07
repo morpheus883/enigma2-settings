@@ -207,6 +207,12 @@ transponders
 00ebb140:0000:0000
 	s 12608000:7200000:1:3:235:2:0:1:2:0:2
 /
+00ebacff:0000:0000
+	s 11519000:7200000:1:3:235:2:0:1:2:0:2
+/
+00ebacde:0bba:0001
+	s 11486000:3750000:1:3:235:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -500,6 +506,9 @@ transponders
 /
 0082b1a9:2710:fbff
 	s 12713000:29900000:1:3:130:2:0:1:2:0:2
+/
+008231bb:2774:fbff
+	s 12731000:29900000:0:3:130:2:0:1:2:0:2
 /
 end
 services
@@ -2678,6 +2687,18 @@ p:RR Media,f:1
 439e:00820000:2cec:013e:2:0
 VRT Radio1
 p:MX1
+43a1:00820000:2cec:013e:1:0
+KICC TV
+p:SES,f:1
+43a2:00820000:2cec:013e:1:0
+Mohabat
+p:SES,f:1
+43a3:00820000:2cec:013e:2:0
+Radio Mojdeh
+p:SES
+43a4:00820000:2cec:013e:1:25
+MTA 3
+p:SES,f:1
 0e06:00820000:2d50:013e:1:0
 BBC First HD
 p:nc+,f:1
@@ -3926,6 +3947,9 @@ p:SkyItalia,f:1
 37a9:00820000:14b4:fbff:25:0
 CI Crime+Investigation HD
 p:SkyItalia,f:1
+37d7:00820000:14b4:fbff:131:0
+IEPG Data
+p:SkyItalia
 012d:00820000:157c:013e:1:0
 Macedonia TV
 p:Nova,f:1
@@ -4076,6 +4100,9 @@ p:SkyItalia,f:1
 0de6:00820000:15e0:fbff:1:0
 Attiva Sky On Demand e Restart
 p:SkyItalia,f:1
+1e76:00820000:15e0:fbff:131:0
+IEPG Data
+p:SkyItalia
 10e1:00820000:1644:fbff:1:0
 Sky Meteo24
 p:Sky Italia,f:1
@@ -4175,6 +4202,9 @@ p:SkyItalia,f:1
 38fa:00820000:1644:fbff:1:0
 Primafila 21
 p:SkyItalia,f:1
+112e:00820000:1644:fbff:131:0
+IEPG Data
+p:SkyItalia
 0e39:00820000:16a8:fbff:1:0
 National Geographic Italy
 p:Sky Italia,f:1
@@ -4223,6 +4253,9 @@ p:SkyItalia,f:1
 0dcc:00820000:16a8:fbff:25:0
 Sky TG24 HD
 p:SkyItalia,f:1
+0e70:00820000:16a8:fbff:131:0
+IEPG Data
+p:SkyItalia
 2aa8:00820000:1838:fbff:1:0
 Sky Sport 1 Italia
 p:Sky Italia,f:1
@@ -4304,6 +4337,9 @@ p:SkyItalia,f:1
 0fd9:00820000:1838:fbff:1:0
 History Channel Italia +1
 p:Sky Italia,f:1
+2af7:00820000:1838:fbff:131:0
+IEPG Data
+p:SkyItalia
 1fbc:00820000:189c:fbff:1:0
 Vetrina Primafila
 p:Sky Italia,f:1
@@ -4385,6 +4421,9 @@ p:SkyItalia,f:1
 0dcb:00820000:189c:fbff:1:0
 Sky AdSmart
 p:SkyItalia,f:1
+2006:00820000:189c:fbff:131:0
+IEPG Data
+p:SkyItalia
 2b10:00820000:1900:fbff:25:0
 Sky Sport Arena HD
 p:Sky Italia,f:1
@@ -4439,6 +4478,9 @@ p:SkyItalia,f:1
 0dd7:00820000:1900:fbff:25:0
 Blaze HD
 p:SkyItalia,f:1
+2b57:00820000:1900:fbff:131:0
+IEPG Data
+p:SkyItalia
 2b5d:00820000:19c8:fbff:1:0
 Sky Cinema Uno
 p:Sky Italia,f:1
@@ -4511,6 +4553,9 @@ p:SkyItalia,f:1
 38c4:00820000:19c8:fbff:1:0
 Nickelodeon +1 Italia
 p:SkyItalia,f:1
+2bbf:00820000:19c8:fbff:131:0
+IEPG Data
+p:SkyItalia
 2dc6:00820000:1a2c:fbff:1:0
 Sky Uno
 p:Sky Italia,f:1
@@ -4589,6 +4634,9 @@ p:Sky Italia,f:1
 0bb8:00820000:1a2c:fbff:4:0
 PUSH REF SD 3000
 p:SkyItalia
+2e17:00820000:1a2c:fbff:131:0
+IEPG Data
+p:SkyItalia
 2bcf:00820000:1a90:fbff:1:0
 Sky Sport 2
 p:Sky Italia,f:1
@@ -4628,6 +4676,9 @@ p:Sky Italia,f:1
 38c5:00820000:1a90:fbff:1:0
 Comedy Central +1 Italia
 p:SkyItalia,f:1
+2c23:00820000:1a90:fbff:131:0
+IEPG Data
+p:SkyItalia
 0e0e:00820000:1af4:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
@@ -4643,6 +4694,9 @@ p:,f:1
 0deb:00820000:1af4:fbff:1:0
 Match Music
 p:SkyItalia,f:1
+0e0e:00820000:1af4:fbff:131:0
+IEPG Data
+p:SkyItalia
 02c1:00820000:1b58:013e:1:0
 Al Jazeera Documentary
 p:Telespazio,f:1
@@ -5180,6 +5234,9 @@ p:SkyItalia,f:1
 2d6c:00820000:1d4c:fbff:31:0
 Sky 4K HDR
 p:SkyItalia,f:1
+1063:00820000:1d4c:fbff:131:0
+IEPG Data
+p:SkyItalia
 0064:0082afc1:0065:0001:1:0
 Voice of America (VOA) Europe
 p:,f:1
@@ -5570,6 +5627,9 @@ p:Sky Italia,f:1
 2d61:00820000:2008:fbff:1:0
 Sky Sport 11
 p:Sky Italia,f:1
+10ca:00820000:2008:fbff:131:0
+IEPG Data
+p:SkyItalia
 1c29:00820000:206c:fbff:25:0
 Sky Sport Serie A HD
 p:Sky Italia,f:1
@@ -5612,6 +5672,9 @@ p:SkyItalia,f:1
 1c4d:00820000:206c:fbff:25:0
 CNBC Europe HD
 p:SkyItalia,f:1
+1c80:00820000:206c:fbff:131:0
+IEPG Data
+p:SkyItalia
 0c0f:00820000:20d0:013e:2:0
 RFI Francais
 p:GlobeCast
@@ -5729,6 +5792,9 @@ p:Sky Italia,f:1
 2d62:00820000:2198:fbff:1:0
 Sky Sport 12
 p:Sky Italia,f:1
+0f89:00820000:2198:fbff:131:0
+IEPG Data
+p:SkyItalia
 232b:00820000:2328:013e:1:0
 Ronahi TV
 p:STN Ltd,f:1
@@ -5891,6 +5957,9 @@ p:SkyItalia,f:1
 2c3e:00820000:251c:fbff:25:0
 SuperTennis HD
 p:SkyItalia,f:1
+2c87:00820000:251c:fbff:131:0
+IEPG Data
+p:SkyItalia
 2c9d:00820000:2580:fbff:1:0
 Super!
 p:Sky Italia,f:1
@@ -5948,6 +6017,9 @@ p:SkyItalia,f:1
 2dca:00820000:2580:fbff:25:0
 Food Network HD
 p:SkyItalia,f:1
+2ceb:00820000:2580:fbff:131:0
+IEPG Data
+p:SkyItalia
 38cc:00820000:2648:fbff:1:0
 Sky Radio
 p:Sky Italia,f:1
@@ -5984,6 +6056,9 @@ p:SkyItalia,f:1
 38cb:00820000:2648:fbff:1:0
 LEI +1
 p:SkyItalia,f:1
+38ff:00820000:2648:fbff:131:0
+IEPG Data
+p:SkyItalia
 019f:00820000:26ac:013f:1:0
 BFM TV
 p:Bis,f:1
@@ -6185,6 +6260,9 @@ p:SkyItalia,f:1
 38c9:00820000:2260:fbff:1:0
 Primafila 20
 p:SkyItalia,f:1
+2db3:00820000:2260:fbff:131:0
+IEPG Data
+p:SkyItalia
 251a:00820000:170c:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
@@ -6245,6 +6323,9 @@ p:Sky Italia,f:1
 2d63:00820000:170c:fbff:1:0
 Sky Sport 13
 p:Sky Italia,f:1
+251a:00820000:170c:fbff:131:0
+IEPG Data
+p:SkyItalia
 4288:00820000:2bc0:013e:1:0
 TVP Rozrywka
 p:Cyfrowy Polsat S.A.,f:1
@@ -6974,6 +7055,9 @@ p:Rai
 1002:00820000:1e14:fbff:1:0
 IEPG Data
 p:Sky Italia,f:1
+1002:00820000:1e14:fbff:131:0
+IEPG Data
+p:SkyItalia
 36c5:00822d06:06a4:013e:2:0
 SRF 1
 p:Schweizer Radio und Fernsehen
@@ -8150,6 +8234,12 @@ p:SkyItalia
 3451:0082b1a9:2710:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
+3451:0082b1a9:2710:fbff:131:0
+IEPG Data
+p:SkyItalia
+2d4f:008231bb:2774:fbff:131:0
+IEPG Data
+p:SkyItalia
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2020
