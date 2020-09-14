@@ -747,8 +747,11 @@ transponders
 01a40000:a02d:042e
 	s 12084000:13750000:0:2:420:2:0:1:2:0:2
 /
-01a4ad67:0001:ffff
-	s 11623000:4100000:1:4:420:2:0:1:2:0:2
+01a4acc2:0001:ffff
+	s 11458000:3200000:1:3:420:2:0:1:2:0:2
+/
+01a4acc6:0001:ffff
+	s 11462000:3200000:1:3:420:2:0:1:2:0:2
 /
 01860000:000d:001c
 	s 12524000:30000000:1:5:390:2:0
@@ -1353,11 +1356,11 @@ transponders
 0131ab12:0000:0000
 	s 11026000:1667000:1:3:305:2:0:1:2:0:2
 /
-0131aaf1:0000:0000
-	s 10993000:2800000:1:3:305:2:0:1:2:0:2
+0131ab42:0000:0000
+	s 11074000:2800000:1:3:305:2:0:1:2:0:2
 /
 01310000:0005:000a
-	s 10996000:1300000:1:4:305:2:0:1:2:0:2
+	s 11077000:1300000:1:4:305:2:0:1:2:0:2
 /
 0131b0da:0001:0001
 	s 12506000:2220000:1:3:305:2:0
@@ -2049,9 +2052,6 @@ transponders
 00eb0000:0bbf:0003
 	s 11596000:4800000:0:2:235:2:0:1:2:0:2
 /
-00ebb1c2:0000:0000
-	s 12738000:7200000:1:3:235:2:0:1:2:0:2
-/
 00d8ad9e:0005:0001
 	s 11678000:2850000:1:5:216:2:0
 /
@@ -2204,9 +2204,6 @@ transponders
 /
 00d8ad30:0001:ffff
 	s 11568000:4167000:1:3:216:2:0:1:2:0:2
-/
-00d830f4:0001:ffff
-	s 12532000:3333000:0:2:216:2:0:1:1:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -2733,9 +2730,6 @@ transponders
 00a00000:5e24:016e
 	s 10721000:30000000:0:3:160:2:0
 /
-00a02b95:0170:016e
-	s 11157000:45000000:0:2:160:2:0:1:2:2:2
-/
 00a00000:0170:016e
 	s 11158000:45000000:0:7:160:2:0:1:2:0:2
 /
@@ -3225,6 +3219,9 @@ transponders
 0064b140:0001:0000
 	s 12608000:256000:1:1:100:2:0
 /
+00642da5:0001:ffff
+	s 11685000:2500000:0:3:100:2:0
+/
 005a0000:14b4:009c
 	s 11785000:27500000:0:2:90:2:0:1:2:0:2
 /
@@ -3530,6 +3527,9 @@ transponders
 /
 00460000:50dc:007e
 	s 10848000:27500000:0:4:70:2:0:1:1:2:2
+/
+00460000:0001:00c8
+	s 11182000:3674000:1:3:70:2:0:1:2:0:2
 /
 00300000:000c:0055
 	s 11766000:27500000:0:3:48:2:0:1:2:0:2
@@ -4362,6 +4362,9 @@ ffce0000:032a:0110
 ffce2d31:0001:00eb
 	s 11569000:2222000:0:3:-50:2:0:1:1:0:2
 /
+0dde2b17:4321:00eb
+	s 11031000:3600000:0:3:-50:2:0:1:2:0:2
+/
 0dca0000:0022:0800
 	s 10758000:27500000:1:4:-70:2:0
 /
@@ -5001,8 +5004,8 @@ fed42d0d:0001:ffff
 fed42d1a:0001:ffff
 	s 11546000:5000000:0:3:-300:2:0:1:2:0:2
 /
-0ce4af4a:0001:ffff
-	s 12106000:5000000:1:3:-300:2:0:1:2:0:2
+0ce4ad0c:0001:ffff
+	s 11532000:5000000:1:3:-300:2:0:1:2:0:2
 /
 fec5b02f:0001:ffff
 	s 12335000:6427000:1:5:-315:2:0
@@ -5669,12 +5672,6 @@ p:SAT,f:1
 041e:02ee0000:0004:1e61:22:0
 Zhara
 p:SAT,f:1
-0425:02ee0000:0004:1e61:22:0
-Uspeh (Успех)
-p:SAT,f:1
-042e:02ee0000:0004:1e61:22:0
-Prosveshchenie (Просвещение)
-p:SAT,f:1
 0533:02ee0000:0004:1e61:22:0
 Don 24 (Дон 24)
 p:SAT,f:1
@@ -5738,9 +5735,6 @@ p:SAT,f:1
 0409:02ee0000:0004:1e61:31:0
 Nickelodeon Russia
 p:SAT,f:1
-040b:02ee0000:0004:1e61:22:0
-TV XXI
-p:SAT,f:1
 042d:02ee0000:0004:1e61:31:0
 Nicktoons
 p:SAT,f:1
@@ -5764,9 +5758,6 @@ p:SAT,f:1
 p:SAT,f:1
 04c9:02ee0000:0004:1e61:31:0
 Русский бестселлер
-p:SAT,f:1
-04cf:02ee0000:0004:1e61:31:0
-Muzhskoe kino (МУЖСКОЕ КИНО)
 p:SAT,f:1
 04d6:02ee0000:0004:1e61:31:0
 Cinema
@@ -5912,12 +5903,6 @@ p:SAT,f:1
 0516:02ee0000:0006:1e61:31:0
 RT HD
 p:SAT,f:1
-051c:02ee0000:0006:1e61:31:0
-RTG HD
-p:SAT,f:1
-0565:02ee0000:0006:1e61:31:0
-Теледом HD
-p:SAT,f:1
 065e:02ee0000:0006:1e61:31:0
 Ю (+7h)
 p:SAT,f:1
@@ -5987,14 +5972,8 @@ p:SAT,f:1
 0473:02ee0000:0005:1e61:25:0
 Perviy kanal HD (0h)
 p:SAT,f:1
-047b:02ee0000:0005:1e61:25:0
-Fashion One HD
-p:SAT,f:1
 054d:02ee0000:0005:1e61:25:0
 Russian Extreme TV HD
-p:SAT,f:1
-0550:02ee0000:0005:1e61:25:0
-Fine Living HD
 p:SAT,f:1
 0553:02ee0000:0005:1e61:25:0
 H2 HD
@@ -6262,9 +6241,6 @@ Russkij illuzion
 p:RSCC,f:1
 0011:02ee0000:000c:1113:1:0
 Fan
-p:RSCC,f:1
-0012:02ee0000:000c:1113:1:0
-TV TOP SHOP
 p:RSCC,f:1
 0013:02ee0000:000c:1113:1:0
 Telekanal 360
@@ -6551,9 +6527,6 @@ p:
 00e0:02ad0000:0002:0049:1:0
 Ark Of God TV
 p:SENTECH,f:1
-007e:02ad0000:0002:0049:1:0
-Untouchable TV
-p:SENTECH,f:1
 00ce:02ad0000:0002:0049:1:0
 RLW TV
 p:SENTECH,f:1
@@ -6836,12 +6809,6 @@ p:ViewMedia,f:1
 0003:02ad318a:0004:0001:1:0
 ImpactExploit TV
 p:ViewMedia,f:1
-0008:02adb13a:0002:0001:1:0
-Dove Vision
-p:ViewSat,f:1
-0015:02adb13a:0002:0001:1:0
-Mountain of Fire and Miracles
-p:ViewSat,f:1
 000b:02adb13a:0002:0001:1:0
 ViewMedia IS20
 p:ViewSat,f:1
@@ -7109,24 +7076,12 @@ p:CONNECTO.TV
 0066:02940000:0069:0069:1:0
 Tusmo TV
 p:Dalsat Global,f:1
-0068:02940000:0069:0069:1:0
-MCTV Social (Mogadishu Cable TV)
-p:Dalsat Global,f:1
-006a:02940000:0069:0069:1:0
-OMN
-p:Dalsat Global,f:1
 006f:02940000:0069:0069:2:0
 WADNAHA-FM
 p:Dalsat Global
-006c:02940000:0069:0069:1:0
-Zee Aflam
-p:Dalsat Global,f:1
 006d:02940000:0069:0069:1:0
 SNTV (Somali National TV)
 p:Dalsat Global,f:1
-006e:02940000:0069:0069:1:0
-Zee Alwan
-p:Harmonic,f:1
 0001:026c2b23:0001:ffff:1:0
 TANDBERG
 p:TandbergTV,f:1
@@ -7359,7 +7314,7 @@ p:IRIB,f:1
 Radio Nama Payam
 p:IRIB,f:1
 00d0:026cad23:0068:0e26:1:0
-Radio Nama Monasebati Arbaeen
+Radio Nama Baharan
 p:IRIB,f:1
 00d1:026cad23:0068:0e26:1:0
 Radio Nama Saba
@@ -7634,9 +7589,6 @@ p:GAZPROM_SS,f:1
 0008:02260000:0010:055e:25:0
 CHE+0
 p:GAZPROM_SS,f:1
-0009:02260000:0010:055e:25:0
-CTC-A +2
-p:GAZPROM_SS,f:1
 000a:02260000:0010:055e:25:0
 Home+2
 p:GAZPROM_SS,f:1
@@ -7645,9 +7597,6 @@ CHE+2
 p:GAZPROM_SS,f:1
 000c:02260000:0010:055e:25:0
 CTC-LOVE+0
-p:GAZPROM_SS,f:1
-000d:02260000:0010:055e:25:0
-CTC-A +0
 p:GAZPROM_SS,f:1
 000e:02260000:0010:055e:25:0
 Home+0
@@ -7866,10 +7815,10 @@ p:Almasirah,f:1
 Azadi TV
 p:,f:1
 000f:02120000:abe0:1388:1:0
-Simaye TV HD
+Simay Azadi HD
 p:,f:1
 0014:02120000:abe0:1388:1:0
-Simaye TV SD
+Simay Azadi SD
 p:Wide Network Solutions,f:1
 0001:02120000:abe0:1388:2:0
 R Radio
@@ -7882,10 +7831,7 @@ Kentron TV International
 p:Wide Network Solutions,f:1
 0005:02120000:abe0:1388:1:0
 Iran International
-p:,f:1
-0006:02120000:abe0:1388:1:0
-Rang-A-Rang TV
-p:,f:1
+p:Wide Network Solutions,f:1
 0007:02120000:abe0:1388:1:0
 Radio Javan HD
 p:Wide Network Solutions,f:1
@@ -7898,9 +7844,6 @@ p:,f:1
 000c:02120000:abe0:1388:1:43
 Kurdsat
 p:Wide Network Solutions,f:1
-000d:02120000:abe0:1388:2:0
-Rangarang Radio
-p:
 000e:02120000:abe0:1388:1:0
 Nour TV
 p:Wide Network Solutions,c:0903f6,f:1
@@ -7911,35 +7854,23 @@ p:Wide Network Solutions,f:1
 Kurd Channel HD
 p:,f:1
 0013:02120000:abe0:1388:1:0
-Twoheed TV
+Towheed TV
 p:Wide Network Solutions,f:1
 0015:02120000:abe0:1388:1:0
 Hod Hod TV HD
 p:Wide Network Solutions,f:1
+0008:02120000:abe0:1388:1:0
+Huda TV
+p:,f:1
 14c6:020d0000:000e:020d:1:0
 RT Arabic HD
 p:JMC,f:1
-14c7:020d0000:000e:020d:1:0
-RT HD
-p:Yahlive 1,f:1
 001d:020d0000:000e:020d:1:0
 BBC Arabic
 p:Harmonic,c:050001,f:1
 14c8:020d0000:000e:020d:1:0
 RT France HD
 p:yahlive1,c:050001,f:1
-14d2:020d0000:000e:020d:1:0
-Fashion One
-p:Yahlive,c:050001,f:1
-14dc:020d0000:000e:020d:1:0
-Nessma TV
-p:,c:050001,f:1
-14e6:020d0000:000e:020d:1:0
-Lana TV
-p:Harmonic,c:050001,f:1
-000e:020d0000:000e:020d:1:0
-IMHD TV
-p:Harmonic,c:050001,f:1
 14c9:020d0000:000e:020d:1:0
 Rotana HD +
 p:,f:1
@@ -8002,9 +7933,6 @@ Rangikaman
 p:North Telecom,f:1
 0002:020d0000:000d:000d:1:0
 ICC TV (Iranian Cinema Channel)
-p:North Telecom,f:1
-0005:020d0000:000d:000d:1:0
-Tileh TV
 p:North Telecom,f:1
 0006:020d0000:000d:000d:1:1
 Roly TV
@@ -8161,9 +8089,6 @@ BBC Arabic Radio
 p:
 006b:020d0000:0001:020d:1:0
 Iran-e Farda TV
-p:,f:1
-00c9:020d0000:0001:020d:1:0
-Fashion One Europe
 p:,f:1
 00ca:020d0000:0001:020d:1:0
 CNN International
@@ -8555,15 +8480,9 @@ p:North Telecom,f:1
 0034:020daf29:0004:0000:1:0
 MI TV (Mohajer International TV)
 p:North Telecom,f:1
-0035:020daf29:0004:0000:1:0
-Tileh TV
-p:North Telecom,f:1
 0038:020daf29:0004:0000:1:0
 OITN
 p:North Telecom,f:1
-0039:020daf29:0004:0000:2:0
-Pars TV Radio
-p:North Telecom
 005a:020daf29:0004:0000:1:0
 City TV
 p:NorthTelecom,f:1
@@ -8612,9 +8531,6 @@ p:,f:1
 00cf:0208b00f:0001:0001:1:0
 Turkmenistan Sport
 p:,f:1
-0001:0208b0a8:0001:0000:1:0
-SuperYacht TV
-p:Profen,f:1
 0001:02080000:211e:211e:1:0
 WNS
 p:WNS,f:1
@@ -10811,9 +10727,6 @@ p:DOGAN TV
 0535:01a4af02:0003:0042:1:0
 Shopping Channel
 p:DEMIROREN MEDYA,f:1
-0539:01a4af02:0003:0042:1:0
-TVO (Turkey)
-p:DEMIROREN MEDYA,f:1
 052f:01a4af02:0003:0042:1:0
 1AN TV
 p:DOGAN TV,f:1
@@ -10823,9 +10736,6 @@ p:DEMIROREN MEDYA,f:1
 0533:01a4af02:0003:0042:1:0
 Akilli TV
 p:TURKSAT,f:1
-0531:01a4af02:0003:0042:1:0
-Doruk TV
-p:DEMIROREN MEDYA,f:1
 053b:01a4af02:0003:0042:1:0
 Rumeli TV
 p:DEMIROREN MEDYA,f:1
@@ -10837,9 +10747,6 @@ SE
 p:DEMIROREN MEDYA
 053d:01a4af02:0003:0042:1:0
 Bahartürk
-p:DEMIROREN MEDYA,f:1
-0541:01a4af02:0003:0042:1:0
-Anadolu TV
 p:DEMIROREN MEDYA,f:1
 0543:01a4af02:0003:0042:1:0
 Vadim TV
@@ -11472,7 +11379,7 @@ c8de:01a40000:a411:042e:25:0
 BABY TV HD
 p:TURKSAT,f:1
 c8c8:01a40000:a411:042e:1:0
-SHOPPING CHANNEL
+Domino
 p:TURKSAT,f:1
 3200:01a40000:a413:042e:1:0
 FOX Türkiye
@@ -11987,9 +11894,6 @@ p:TURKSAT
 c677:01a40000:7bd6:042e:1:0
 Meltem TV
 p:TURKSAT,f:1
-c67e:01a40000:7bd6:042e:1:0
-Diyar TV
-p:TURKSAT,f:1
 c691:01a40000:7bd6:042e:1:0
 Adana Koza TV
 p:TURKSAT,f:1
@@ -11998,9 +11902,6 @@ Kanal 5
 p:TURKSAT,f:1
 c693:01a40000:7bd6:042e:1:0
 Halk TV
-p:TURKSAT,f:1
-c674:01a40000:7bd6:042e:1:0
-Turkyildizi TV
 p:TURKSAT,f:1
 c692:01a40000:7bd6:042e:1:0
 Kardelen TV
@@ -12464,15 +12365,6 @@ p:ARD Digital,f:1
 41a0:01a40000:79e1:042e:25:0
 Turksat 8K
 p:TURKSAT,f:1
-0001:01a40000:0009:005a:25:0
-TRT HD
-p:DEMIROREN MEDYA,f:1
-0002:01a40000:0009:005a:25:0
-TRT 1 HD
-p:DEMIROREN MEDYA,f:1
-296a:01a40000:0009:005a:25:0
-TRT Haber HD
-p:DEMIROREN MEDYA,f:1
 0003:01a42d13:0001:ffff:2:0
 METRO FM
 p:KARNAVAL
@@ -12509,6 +12401,9 @@ p:TURKSAT,f:1
 cb24:01a40000:a02d:042e:22:0
 TURKSAT TANITIM
 p:,f:1
+0001:01a4acc6:0001:ffff:1:0
+TRT Trabzon
+p:TRT,f:1
 0068:01860000:000d:001c:1:0
 Happy Channel
 p:Dolce TV,f:1
@@ -12830,20 +12725,8 @@ p:Bulsatcom,f:1
 0084:018630af:0005:0001:1:0
 EKids
 p:Bulsatcom,f:1
-0081:018630af:0005:0001:1:0
-Bulgaria 24
-p:Bulsatcom,f:1
 008a:018630af:0005:0001:25:0
 FilmBox
-p:Bulsatcom,f:1
-0087:018630af:0005:0001:1:0
-VH-1 (Video Hits One)
-p:Bulsatcom,f:1
-008b:018630af:0005:0001:1:0
-H2
-p:Bulsatcom,f:1
-00d3:018630af:0005:0001:1:0
-VH-1 Classic
 p:Bulsatcom,f:1
 0085:018630af:0005:0001:25:0
 Ring BG HD
@@ -13316,9 +13199,6 @@ p:A1 BG,f:1
 0456:01860000:0b11:039e:31:0
 Fight Box HD
 p:A1 BG,f:1
-0459:01860000:0b11:039e:31:0
-RING.BG
-p:A1 BG,f:1
 045a:01860000:0b11:039e:31:0
 Viasat TV 1000
 p:A1 BG,f:1
@@ -13391,9 +13271,6 @@ p:A1 BG,f:1
 0473:01860000:0b11:039e:31:0
 Boomerang
 p:A1 BG,f:1
-0474:01860000:0b11:039e:31:0
-France 24 English
-p:A1 BG,f:1
 0475:01860000:0b11:039e:31:0
 Jim Jam
 p:A1 BG,f:1
@@ -13424,7 +13301,7 @@ p:A1 BG,f:1
 047f:01860000:0b11:039e:31:0
 TV 1
 p:A1 BG,f:1
-0480:01860000:0b11:039e:31:0
+0459:01860000:0b11:039e:31:0
 RING.BG HD
 p:A1 BG,f:1
 044d:01860000:0b11:039e:31:0
@@ -14918,33 +14795,6 @@ p:MCK
 0001:01680000:0008:0070:1:0
 TNV Planeta
 p:TANDBERG,f:1
-4e22:01680000:0002:00fd:1:0
-Ника ТВ
-p:TricolorTV,f:1
-4e23:01680000:0002:00fd:1:0
-Ямал-Регион
-p:TricolorTV,f:1
-07d1:01680000:0002:00fd:1:0
-Первый Ярославский (Perviy Yaroslavskiy)
-p:TricolorTV,f:1
-07d7:01680000:0002:00fd:1:0
-Север - Sever
-p:TricolorTV,f:1
-07d8:01680000:0002:00fd:1:0
-НТВ Хит
-p:TricolorTV,f:1
-07db:01680000:0002:00fd:1:0
-Телеканал 360
-p:TricolorTV,f:1
-4e25:01680000:0002:00fd:1:0
-Кубань 24 ОРБИТА
-p:TricolorTV,f:1
-4e27:01680000:0002:00fd:1:0
-Чаваш Ен
-p:TricolorTV,f:1
-4e33:01680000:0002:00fd:1:0
-OTV Ekaterinburg
-p:TricolorTV,f:1
 0a30:01680000:0001:00fd:1:0
 Наука 2.0
 p:TricolorTV,f:1
@@ -14987,9 +14837,6 @@ p:TricolorTV,f:1
 0a2e:01680000:0001:00fd:1:0
 Авто Плюс
 p:TricolorTV,c:050001,f:1
-0a48:01680000:0001:00fd:1:0
-КИНОМИКС (Kinomiks)
-p:TricolorTV,f:1
 0a47:01680000:0001:00fd:1:0
 МАТЧ! НАШ СПОРТ (Match! Strana)
 p:TricolorTV,f:1
@@ -15001,9 +14848,6 @@ p:TricolorTV,c:050001,f:1
 p:TricolorTV,c:050001,f:1
 03ea:01680000:0001:00fd:1:0
 НАШЕ ТВ (Nashe TV)
-p:TricolorTV,c:050001,f:1
-0a37:01680000:0001:00fd:1:0
-РОДНОЕ КИНО (Rodnoe Kino)
 p:TricolorTV,c:050001,f:1
 0a39:01680000:0001:00fd:1:0
 СТС Love
@@ -15236,9 +15080,6 @@ p:,f:1
 0001:0168ace7:0001:ffff:1:0
 Al Mayadeen TV Network
 p:TandbergTV,f:1
-0001:016831c7:0001:ffff:1:0
-Asia Network TV
-p:Service Provider,f:1
 0065:0168b022:0001:0070:22:0
 365 дней (365 dnei) TV
 p:HTB+,c:050001,f:1
@@ -16505,9 +16346,6 @@ p:TricolorTV,f:1
 520e:01682f4f:0015:00fd:1:0
 Shopping Live
 p:TricolorTV,f:1
-5214:01682f4f:0015:00fd:1:0
-ТДК (TDK)
-p:TricolorTV,f:1
 5219:01682f4f:0015:00fd:1:0
 Наша Тема (Nasha Tema)
 p:TricolorTV,f:1
@@ -16522,9 +16360,6 @@ Cinema
 p:TricolorTV,c:050001,f:1
 520a:01682f4f:0015:00fd:1:0
 Камеди (Kamedi)
-p:TricolorTV,f:1
-520b:01682f4f:0015:00fd:1:0
-Тномер (Tnomer)
 p:TricolorTV,f:1
 520d:01682f4f:0015:00fd:1:0
 ЖАР ПТИЦА (Zhar Ptica)
@@ -16720,9 +16555,6 @@ O2 TV HD
 p:TricolorTV,f:1
 88c2:01680000:0023:00fd:1:0
 ТНТ HD
-p:TricolorTV,f:1
-88c4:01680000:0023:00fd:1:0
-Кухня ТВ (Kuhnya TV)
 p:TricolorTV,f:1
 88c6:01680000:0023:00fd:1:0
 НТВ Сериал (NTV Serial)
@@ -17459,18 +17291,6 @@ p:Net 1,f:1
 0001:0168b1a2:0001:ffff:1:0
 IMN-POOL
 p:TandbergTV,f:1
-0001:0168ace3:0001:ffff:1:0
-Al Ahad
-p:Service Provider,f:1
-0001:0168ace3:0001:ffff:2:0
-Radio Al-Ahad
-p:Service Provider
-0002:0168ace3:0001:ffff:1:0
-Service Name
-p:Service Provider,f:1
-0003:0168ace3:0001:ffff:1:0
-Service Name
-p:Service Provider,f:1
 0001:0168ada4:0001:ffff:1:0
 Syrian Drama TV
 p:Service Provider,f:1
@@ -17519,9 +17339,6 @@ p:VIVACOM,f:1
 006e:01682c51:00f5:0001:1:0
 Rybalka i Okhota International
 p:VIVACOM,f:1
-0001:01682d66:0001:ffff:1:0
-Al Masar TV Al Oula
-p:Service Provider,f:1
 0001:0168b1ab:0001:ffff:1:0
 Iraqi Educational TV
 p:Service Provider,f:1
@@ -17741,9 +17558,6 @@ p:NURTS Digital,c:050001,f:1
 0006:014a0000:14b4:2064:1:0
 BNT 3
 p:NURTS Digital,c:050001,f:1
-0008:014a0000:14b4:2064:1:0
-Bulgaria On Air
-p:NURTS Digital,c:050001,f:1
 0001:014aab9f:0001:ffff:1:0
 POL_002_BIALY
 p:POLSAT,f:1
@@ -17822,9 +17636,6 @@ p:,f:1
 1d92:013b0000:1456:0005:1:0
 VTV Romania
 p:,f:1
-1d4c:013b0000:1456:0005:1:0
-DW-TV (Deutsche Welle)
-p:magtisat,c:090fdc,f:1
 1d4d:013b0000:1456:0005:1:0
 Turan TV
 p:,f:1
@@ -18042,7 +17853,7 @@ p:GLOBECAST,f:1
 Muzsika TV
 p:GLOBECAST,f:1
 2072:013b0000:146c:00a7:1:0
-Trace Tropical HD
+Trace Caribbean HD
 p:GlobeCast,f:1
 206f:013b0000:146c:00a7:1:0
 Look Sport 3 HD
@@ -18051,7 +17862,7 @@ p:GLOBECAST,f:1
 TVR 2
 p:GlobeCast,f:1
 219a:013b0000:1478:00a7:1:0
-TVR HD
+TVR 1 HD
 p:GlobeCast,f:1
 219b:013b0000:1478:00a7:1:0
 Realitatea TV
@@ -18364,9 +18175,6 @@ JimJam
 p:Magtisat,f:1
 03fa:013baec5:0001:0001:1:0
 TiJi
-p:Magtisat,f:1
-03fc:013baec5:0001:0001:1:0
-SET Eastern Europe
 p:Magtisat,f:1
 03fd:013baec5:0001:0001:1:0
 Eurosport 1
@@ -18806,10 +18614,10 @@ p:NBC NEWS,f:1
 0001:0131ab12:0000:0000:25:0
 NBN HD
 p:,f:1
-0001:0131aaf1:0000:0000:25:0
+0001:0131ab42:0000:0000:25:0
 LBC International HD
 p:,c:050001,f:1
-02bd:01310000:0005:000a:1:0
+01f5:01310000:0005:000a:1:0
 LBC International
 p:,c:050001,f:1
 002a:0131b0da:0001:0001:1:0
@@ -20066,9 +19874,6 @@ p:BSkyB,f:1
 16cb:011a0000:07d7:0002:1:0
 Sky Two Ireland
 p:Sky Digital,f:1
-d110:011a0000:0832:0002:1:0
-Jewellery Ch.
-p:BSkyB,f:1
 d11a:011a0000:0832:0002:1:0
 Thane
 p:BSkyB,f:1
@@ -20077,9 +19882,6 @@ SonLife Broadcasting Network
 p:Sky Digital,f:1
 d115:011a0000:0832:0002:1:0
 Channel 7
-p:BSkyB,f:1
-d106:011a0000:0832:0002:1:0
-Channels 24
 p:BSkyB,f:1
 d12e:011a0000:0832:0002:1:0
 NOW 80's
@@ -20135,9 +19937,6 @@ p:Freesat,f:1
 d386:011a0000:0830:0002:1:0
 JML Solutions
 p:Freesat,f:1
-d397:011a0000:0830:0002:1:0
-ABP News
-p:BSkyB,f:1
 d39f:011a0000:0830:0002:1:0
 High Street TV 1
 p:BSkyB,f:1
@@ -20348,6 +20147,12 @@ p:BSkyB,f:1
 d76f:011a0000:082f:0002:1:0
 PTV Global
 p:BSkyB,f:1
+d765:011a0000:082f:0002:1:0
+Channels 24
+p:BSkyB,f:1
+d73c:011a0000:082f:0002:1:0
+Jewellery Ch.
+p:BSkyB,f:1
 c6d7:011a0000:0840:0002:1:0
 CBS Drama
 p:BSkyB,f:1
@@ -20519,9 +20324,6 @@ p:Sky Digital,f:1
 d3c3:011a0000:0829:0002:1:0
 PTC Punjabi
 p:BSkyB,f:1
-d329:011a0000:0836:0002:1:0
-Smart Shop TV
-p:Sky Digital,f:1
 0f51:011a0000:07ec:0002:25:0
 RTE One HD
 p:BSkyB,f:1
@@ -21509,27 +21311,6 @@ p:JMC,c:0902c1,f:1
 0002:01040000:012d:02be:2:0
 Almirbad Radio
 p:Harmonic,c:090025
-0003:01040000:012d:02be:2:0
-Iraq Republic Radio
-p:Harmonic
-0004:01040000:012d:02be:1:0
-Hadramout Channel
-p:Harmonic,f:1
-0021:01040000:012d:02be:1:0
-One TV
-p:Harmonic,f:1
-0035:01040000:012d:02be:1:0
-Al Iraqiya 3 Sports
-p:Harmonic,f:1
-0036:01040000:012d:02be:1:0
-Iraqia News
-p:Harmonic,f:1
-0037:01040000:012d:02be:1:0
-Al Turkmenia TV
-p:Harmonic,f:1
-06a8:01040000:012d:02be:1:0
-Al Iraqiya TV
-p:Harmonic,f:1
 01de:01040000:012d:02be:1:0
 ALWESAM TV
 p:Harmonic,f:1
@@ -22328,30 +22109,6 @@ p:MBC,f:1
 013a:01040000:17f8:02be:25:0
 Animal Planet HD
 p:MBC,f:1
-012d:01040000:15e2:02be:25:0
-Rotana Cinema HD
-p:ARABSAT,f:1
-012e:01040000:15e2:02be:25:0
-Rotana Aflam HD
-p:ARABSAT,f:1
-012f:01040000:15e2:02be:25:0
-Rotana Classic HD
-p:ARABSAT,f:1
-0130:01040000:15e2:02be:25:0
-Rotana Khalijeah HD
-p:ARABSAT,f:1
-0131:01040000:15e2:02be:25:0
-Rotana Drama HD
-p:ARABSAT,f:1
-0132:01040000:15e2:02be:25:0
-Rotana Music HD
-p:ARABSAT,f:1
-0133:01040000:15e2:02be:25:0
-LBC  HD
-p:ARABSAT,f:1
-0134:01040000:15e2:02be:25:0
-Ressala HD
-p:ARABSAT,f:1
 03e9:0104ae2f:0005:02be:1:0
 my GMA News TV
 p:my HD,c:090073,f:1
@@ -22361,20 +22118,8 @@ p:my HD,c:090071,f:1
 03ec:0104ae2f:0005:02be:1:0
 my GMA PINOY TV
 p:my HD,c:090072,f:1
-03f0:0104ae2f:0005:02be:1:0
-my Fox Family Movies HD
-p:my HD,f:1
-03f1:0104ae2f:0005:02be:1:0
-my Fox Action Movies HD
-p:my HD,f:1
 03f2:0104ae2f:0005:02be:1:0
 my FX HD
-p:my HD,f:1
-03f3:0104ae2f:0005:02be:1:0
-Nat Geo People Asia HD
-p:my HD,f:1
-03f4:0104ae2f:0005:02be:1:0
-my Baby TV HD
 p:my HD,f:1
 03ee:0104ae2f:0005:02be:2:0
 my DWLS Radio
@@ -22385,27 +22130,6 @@ p:GMA
 0001:01043138:0001:0001:1:0
 Al Bedaya
 p:W-Cam,f:1
-0bb9:01040000:17d5:02be:1:0
-my Star Movies HD
-p:my HD,f:1
-0bba:01040000:17d5:02be:1:0
-my Star World HD
-p:my HD,f:1
-0bbb:01040000:17d5:02be:1:0
-my National Geographic HD
-p:my HD,f:1
-0bbc:01040000:17d5:02be:1:0
-my Nat Geo Wild HD
-p:my HD,f:1
-0bbd:01040000:17d5:02be:1:0
-my Fox Crime HD
-p:my HD,f:1
-0bbe:01040000:17d5:02be:1:0
-my Fox Life HD
-p:my HD,f:1
-0bbf:01040000:17d5:02be:1:0
-my Fox Rewayat HD
-p:my HD,f:1
 006f:01040000:1029:00e0:1:0
 Al Kass Five HD
 p:Al Dawri Al Kass,f:1
@@ -23162,30 +22886,6 @@ p:Encoder,f:1
 019d:0104abde:15e9:02be:25:0
 my Woman TV HD
 p:,f:1
-00c9:0104b048:15ec:02be:25:0
-my ITV Choice HD
-p:Etisalat,f:1
-00ca:0104b048:15ec:02be:25:0
-my HD Showcase
-p:Etisalat,f:1
-00cb:0104b048:15ec:02be:25:0
-my Laab Wa Jad HD
-p:Etisalat,f:1
-00cc:0104b048:15ec:02be:25:0
-my Trace Urban HD
-p:ETISLAT,f:1
-00cd:0104b048:15ec:02be:25:0
-my Trace Sport Stars HD
-p:ETISALAT,f:1
-00ce:0104b048:15ec:02be:25:0
-my ZEN TV
-p:Etisalat,f:1
-00cf:0104b048:15ec:02be:25:0
-my Duck TV
-p:MY HD,f:1
-00d0:0104b048:15ec:02be:25:0
-my Documentary Bil Arabie
-p:Etisalat,f:1
 0065:01040000:0065:0e26:1:0
 IRIB TV1
 p:IRIB,c:050001,f:1
@@ -23281,9 +22981,6 @@ RADIO NAMA TALAVAT
 p:IRIB,f:1
 00cf:01040000:0065:0e26:1:0
 RADIO NAMA PAYAM
-p:IRIB,f:1
-00d0:01040000:0065:0e26:1:0
-RADIO NAMA MONASEBATI
 p:IRIB,f:1
 00d1:01040000:0065:0e26:1:0
 RADIO NAMA SABA
@@ -23528,12 +23225,6 @@ p:IRIB,c:050001,f:1
 02c2:01042fe9:0065:0000:1:0
 IRIB Noor
 p:IRIB,c:050001,f:1
-0004:0104305c:0005:ff05:1:0
-AlWessam
-p:ARABSAT,f:1
-000f:0104305c:0005:ff05:1:0
-MBS Drama
-p:,f:1
 0072:01040000:0064:0e26:1:0
 iFILM
 p:IRIB,f:1
@@ -23809,9 +23500,6 @@ Cartoon Network English
 p:beIN Sports,f:1
 9dd3:01040000:0fc8:00e0:25:2
 CNN HD
-p:beIN Sports,f:1
-9dd4:01040000:0fc8:00e0:25:3
-HLN HD
 p:beIN Sports,f:1
 9dd5:01040000:0fc8:00e0:25:4
 TCM HD
@@ -24098,12 +23786,6 @@ p:EshailSat,f:1
 5016:01040000:0802:00e0:25:0
 SYRIA TV HD
 p:EshialSat,f:1
-501a:01040000:0802:00e0:25:0
-Qatar Edu1
-p:EshailSat,f:1
-501b:01040000:0802:00e0:25:0
-Qatar Edu2
-p:EshailSat,f:1
 0c21:01040000:0065:00e0:1:0
 ALGazera AlKhadra
 p:EshailSat,f:1
@@ -24149,18 +23831,6 @@ p:AMC2
 0c6e:01040000:0065:00e0:2:0
 ALfurgan Radio
 p:AMC2
-006f:01040000:1029:02be:1:0
-Alkass five HD
-p:Al Dawri Al Kass,f:1
-0070:01040000:1029:02be:1:0
-Alkass six HD
-p:Al Dawri Al Kass,f:1
-0071:01040000:1029:02be:1:0
-Alkass seven HD
-p:Al Dawri Al Kass,f:1
-0072:01040000:1029:02be:1:0
-Alkass eight HD
-p:Al Dawri Al Kass,f:1
 9d6d:01040000:0fbe:00e0:25:0
 Jeem HD
 p:beIN Sports,f:1
@@ -24188,9 +23858,6 @@ p:beIN Sports,f:1
 9ca5:01040000:0faa:00e0:25:0
 Extreme Sports
 p:beIN Sports,f:1
-9ca6:01040000:0faa:00e0:25:0
-CBS Reality
-p:beIN SpoBS Re,f:1
 9ca7:01040000:0faa:00e0:25:0
 JIMJAM
 p:beIN Sports,f:1
@@ -47168,6 +46835,9 @@ p:UPC Direct,f:1
 77d0:0e080000:02c2:0600:1:0
 Nicktoons Hungary.
 p:UPC Direct,f:1
+7789:0e080000:02c2:0600:1:0
+TV Paprika RO
+p:UPC,f:1
 01f9:0e080000:001b:02c0:1:0
 Nickelodeon Europe
 p:MTV Networks,f:1
@@ -58659,31 +58329,31 @@ p:RNE,c:09ffff
 R1_VALENC_PRADO
 p:RNE,c:09ffff
 0cc6:fed42c26:ea76:0001:1:0
-Stream 2270 - HS127.70
+Abertis PID 2270
 p:Abertis DTT,c:031fff,C:2600,f:1
 0cc7:fed42c26:ea76:0001:1:0
-Stream 2271 - HS127.71
+Abertis PID 2271
 p:Abertis DTT,c:031fff,C:2600,f:1
 0cc8:fed42c26:ea76:0001:1:0
-Stream 2272 - HS127.72
+Abertis PID 2272
 p:Abertis DTT,c:031fff,C:2600,f:1
 0cc9:fed42c26:ea76:0001:1:0
-Stream 2273 - HS127.73
+Abertis PID 2273
 p:Abertis DTT,c:031fff,C:2600,f:1
 0cca:fed42c26:ea76:0001:1:0
-Stream 2274 - HS127.74
+Abertis PID 2274
 p:Abertis DTT,c:031fff,C:2600,f:1
 0cd1:fed42c26:ea76:0001:1:0
-Stream 2281 - HS127.81
+Abertis PID 2281
 p:Abertis DTT,c:031fff,C:2600,f:1
 0cd2:fed42c26:ea76:0001:1:0
-Stream 2282 - HS127.82
+Abertis PID 2282
 p:Abertis DTT,c:031fff,C:2600,f:1
 0cd3:fed42c26:ea76:0001:1:0
-Stream 2283 - HS127.83
+Abertis PID 2283
 p:Abertis DTT,c:031fff,C:2600,f:1
 0cd4:fed42c26:ea76:0001:1:0
-Stream 2284 - HS127.84
+Abertis PID 2284
 p:Abertis DTT,c:031fff,C:2600,f:1
 0cc6:fed42c26:ea76:0001:100:0
 11302H SID 0xcc6
@@ -58833,31 +58503,31 @@ p:RNE,c:09ffff
 R1_VALENC_PRADO
 p:RNE,c:09ffff
 0dc0:fed42c76:ea79:0001:1:0
-Stream 2520 - HS129.20
+Abertis PID 2520
 p:Abertis DTT,c:031fff,C:2600,f:1
 0dc1:fed42c76:ea79:0001:1:0
-Stream 2521 - HS129.21
+Abertis PID 2521
 p:Abertis DTT,c:031fff,C:2600,f:1
 0dc2:fed42c76:ea79:0001:1:0
-Stream 2522 - HS129.22
+Abertis PID 2522
 p:Abertis DTT,c:031fff,C:2600,f:1
 0dc3:fed42c76:ea79:0001:1:0
-Stream 2523 - HS129.23
+Abertis PID 2523
 p:Abertis DTT,c:031fff,C:2600,f:1
 0dc4:fed42c76:ea79:0001:1:0
-Stream 2524 - HS129.24
+Abertis PID 2524
 p:Abertis DTT,c:031fff,C:2600,f:1
 0dcb:fed42c76:ea79:0001:1:0
-Stream 2531 - HS129.31
+Abertis PID 2531
 p:Abertis DTT,c:031fff,C:2600,f:1
 0dcc:fed42c76:ea79:0001:1:0
-Stream 2532 - HS129.32
+Abertis PID 2532
 p:Abertis DTT,c:031fff,C:2600,f:1
 0dcd:fed42c76:ea79:0001:1:0
-Stream 2533 - HS129.33
+Abertis PID 2533
 p:Abertis DTT,c:031fff,C:2600,f:1
 0dce:fed42c76:ea79:0001:1:0
-Stream 2534 - HS129.34
+Abertis PID 2534
 p:Abertis DTT,c:031fff,C:2600,f:1
 0dc0:fed42c76:ea79:0001:100:0
 11382H SID 0xdc0
@@ -58932,10 +58602,10 @@ p:
 AOL
 p:
 0515:0ce42d85:ea63:0000:1:0
-Stream 301 - HSA88L.1
+Abertis PID 301
 p:Abertis DTT,c:031fff,C:2600,f:1
 0517:0ce42d85:ea63:0000:1:0
-Stream 303 - HSA88L.3
+Abertis PID 303
 p:Abertis DTT,c:031fff,C:2600,f:1
 0515:0ce42d85:ea63:0000:100:0
 11653H SID 0x515
@@ -58947,19 +58617,19 @@ fffe:0ce42d85:ea63:0000:100:2
 11653H SID 0xfffe
 p:DVB-S2 8PSK 11653H 330.0Â°E
 058c:0ce42d9d:ea64:0000:1:0
-Stream 420 - HS88U.20
+Abertis PID 420
 p:Abertis DTT,c:031fff,C:2600,f:1
 058d:0ce42d9d:ea64:0000:1:0
-Stream 421 - HS88U.21
+Abertis PID 421
 p:Abertis DTT,c:031fff,C:2600,f:1
 058f:0ce42d9d:ea64:0000:1:0
-Stream 423 - HS88U.23
+Abertis PID 423
 p:Abertis DTT,c:031fff,C:2600,f:1
 0597:0ce42d9d:ea64:0000:1:0
-Stream 431 - HS88U.31
+Abertis PID 431
 p:Abertis DTT,c:031fff,C:2600,f:1
 0599:0ce42d9d:ea64:0000:1:0
-Stream 433 - HS88U.33
+Abertis PID 433
 p:Abertis DTT,c:031fff,C:2600,f:1
 058c:0ce42d9d:ea64:0000:100:0
 11677H SID 0x58c
@@ -58983,37 +58653,37 @@ fffe:0ce42d9d:ea64:0000:100:0
 11677H SID 0xfffe
 p:DVB-S2 8PSK 11677H 330.0Â°E
 05a0:0ce42d9d:ea64:0000:1:0
-Stream 440 - HS88U.40
+Abertis PID 440
 p:Abertis DTT,c:031fff,C:2600,f:1
 0bd1:0ce42bd6:ea74:0001:1:0
-Stream 2025 - HS125.25
+Abertis PID 2025
 p:Abertis DTT,c:031fff,C:2600,f:1
 0bd2:0ce42bd6:ea74:0001:1:0
-Stream 2026 - HS125.26
+Abertis PID 2026
 p:Abertis DTT,c:031fff,C:2600,f:1
 0bd3:0ce42bd6:ea74:0001:1:0
-Stream 2027 - HS125.27
+Abertis PID 2027
 p:Abertis DTT,c:031fff,C:2600,f:1
 0bd4:0ce42bd6:ea74:0001:1:0
-Stream 2028 - HS125.28
+Abertis PID 2028
 p:Abertis DTT,c:031fff,C:2600,f:1
 0bdb:0ce42bd6:ea74:0001:1:0
-Stream 2035 - HS125.35
+Abertis PID 2035
 p:Abertis DTT,c:031fff,C:2600,f:1
 0bdc:0ce42bd6:ea74:0001:1:0
-Stream 2036 - HS125.36
+Abertis PID 2036
 p:Abertis DTT,c:031fff,C:2600,f:1
 0bdd:0ce42bd6:ea74:0001:1:0
-Stream 2037 - HS125.37
+Abertis PID 2037
 p:Abertis DTT,c:031fff,C:2600,f:1
 0bde:0ce42bd6:ea74:0001:1:0
-Stream 2038 - HS125.38
+Abertis PID 2038
 p:Abertis DTT,c:031fff,C:2600,f:1
 0bea:0ce42bd6:ea74:0001:1:0
-Stream 2050 - HS125.50
+Abertis PID 2050
 p:Abertis DTT,c:031fff,C:2600,f:1
 0bf4:0ce42bd6:ea74:0001:1:0
-Stream 2060 - HS125.60
+Abertis PID 2060
 p:Abertis DTT,c:031fff,C:2600,f:1
 0bd1:0ce42bd6:ea74:0001:100:0
 11222H SID 0xbd1
@@ -59049,13 +58719,13 @@ fffe:0ce42bd6:ea74:0001:100:0
 11222H SID 0xfffe
 p:DVB-S2 8PSK 11222H 330.0Â°E
 03e9:0ce4b157:ea62:0000:1:0
-Stream 8001 - HSA67.1
+Abertis PID 8001
 p:Abertis DTT,c:031fff,C:2600,f:1
 03ea:0ce4b157:ea62:0000:1:0
-Stream 8002 - HSA67.2
+Abertis PID 8002
 p:Abertis DTT,c:031fff,C:2600,f:1
 03eb:0ce4b157:ea62:0000:1:0
-Stream 8003 - HSA67.3
+Abertis PID 8003
 p:Abertis DTT,c:031fff,C:2600,f:1
 03e9:0ce4b157:ea62:0000:100:0
 12631V SID 0x3e9
@@ -59070,13 +58740,13 @@ fffe:0ce4b157:ea62:0000:100:0
 12631V SID 0xfffe
 p:DVB-S2 8PSK 12631V 330.0Â°E
 03ec:0ce4b17f:ea61:0000:1:0
-Stream 8004 - HSA68.1
+Abertis PID 8004
 p:Abertis DTT,c:031fff,C:2600,f:1
 03ed:0ce4b17f:ea61:0000:1:0
-Stream 8005 - HSA68.5
+Abertis PID 8005
 p:Abertis DTT,c:031fff,C:2600,f:1
 03ee:0ce4b17f:ea61:0000:1:0
-Stream 8006 - HSA68.6
+Abertis PID 8006
 p:Abertis DTT,c:031fff,C:2600,f:1
 03ec:0ce4b17f:ea61:0000:100:0
 12671V SID 0x3ec
@@ -59091,13 +58761,13 @@ fffe:0ce4b17f:ea61:0000:100:0
 12671V SID 0xfffe
 p:DVB-S2 8PSK 12671V 330.0Â°E
 06a5:0ce4b104:ea67:0000:1:0
-Stream 701 - HSA65.U1
+Abertis PID 701
 p:Abertis DTT,c:031fff,C:2600,f:1
 06a6:0ce4b104:ea67:0000:1:0
-Stream 702 - HSA65.U2
+Abertis PID 702
 p:Abertis DTT,c:031fff,C:2600,f:1
 06a7:0ce4b104:ea67:0000:1:0
-Stream 703 - HSA65.U3
+Abertis PID 703
 p:Abertis DTT,c:031fff,C:2600,f:1
 06a5:0ce4b104:ea67:0000:100:0
 12548V SID 0x6a5
@@ -59358,25 +59028,25 @@ p:CARTV
 Aragón TV HD
 p:CARTV,f:1
 0ce5:0ce42c53:ea77:0000:1:0
-Stream 2301 - HS128.1
+Abertis PID 2301
 p:Abertis DTT,c:031fff,C:2600,f:1
 0ce6:0ce42c53:ea77:0000:1:0
-Stream 2302 - HS128.2
+Abertis PID 2302
 p:Abertis DTT,c:031fff,C:2600,f:1
 0ce7:0ce42c53:ea77:0000:1:0
-Stream 2303 - HS128.3
+Abertis PID 2303
 p:Abertis DTT,c:031fff,C:2600,f:1
 0ce8:0ce42c53:ea77:0000:1:0
-Stream 2304 - HS128.4
+Abertis PID 2304
 p:Abertis DTT,c:031fff,C:2600,f:1
 0ce9:0ce42c53:ea77:0000:1:0
-Stream 2305 - HS128.5
+Abertis PID 2305
 p:Abertis DTT,c:031fff,C:2600,f:1
 0cea:0ce42c53:ea77:0000:1:0
-Stream 2306 - HS128.6
+Abertis PID 2306
 p:Abertis DTT,c:031fff,C:2600,f:1
 0ceb:0ce42c53:ea77:0000:1:0
-Stream 2307 - HS128.7
+Abertis PID 2307
 p:Abertis DTT,c:031fff,C:2600,f:1
 0ce5:0ce42c53:ea77:0000:100:0
 11347H SID 0xce5
@@ -59414,9 +59084,15 @@ p:TBS,f:1
 0011:0ce42d02:0001:0001:1:0
 OVERON Occ
 p:OVERON,f:1
+0001:0ce42d02:0001:0001:1:0
+SANIDAD
+p:Overon,f:1
 0001:fed42d1a:0001:ffff:1:0
 TBS G-24 E-355 Via 2 HD
 p:Tbs,f:1
+0001:0ce4ad0c:0001:ffff:1:0
+E-274/G-12 Via 1
+p:TBS,f:1
 0001:fec5b02f:0001:ffff:1:0
 ORTM
 p:TandbergTV,f:1
