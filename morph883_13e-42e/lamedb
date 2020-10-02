@@ -225,6 +225,9 @@ transponders
 01a42d13:0001:ffff
 	s 11539000:1666000:0:2:420:2:0
 /
+01a42d23:0001:0000
+	s 11555000:405000:0:4:420:2:0
+/
 01a42b3f:0001:ffff
 	s 11071000:2222000:0:4:420:2:0
 /
@@ -233,6 +236,9 @@ transponders
 /
 01a4acc6:0001:ffff
 	s 11462000:3200000:1:3:420:2:0:1:2:0:2
+/
+01a42d41:0001:ffff
+	s 11585000:2222000:0:4:420:2:0
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -396,9 +402,6 @@ transponders
 00820000:26ac:013f
 	s 12692000:27500000:0:3:130:2:0:1:2:0:2
 /
-00820000:2774:fbff
-	s 12731000:29900000:0:4:130:2:0
-/
 00820000:22c4:013e
 	s 12475000:29900000:0:3:130:2:0:1:2:0:2
 /
@@ -527,6 +530,12 @@ transponders
 /
 008231bb:2774:fbff
 	s 12731000:29900000:0:3:130:2:0:1:2:0:2
+/
+00820000:3264:013e
+	s 11096000:30000000:0:3:130:2:0:1:2:0:2
+/
+00820000:2c24:0e26
+	s 10775000:29900000:0:7:130:2:0:1:2:2:2
 /
 end
 services
@@ -1208,11 +1217,14 @@ p:TURKSAT,f:1
 c739:01a40000:7789:042e:1:0
 Saudi Sunnah TV
 p:TURKSAT,f:1
-c740:01a40000:7789:042e:1:0
+c742:01a40000:7789:042e:1:0
 RTR Planeta
 p:TURKSAT,f:1
 c741:01a40000:7789:042e:1:0
 Russia 24 TV
+p:TURKSAT,f:1
+c740:01a40000:7789:042e:1:0
+Vatan
 p:TURKSAT,f:1
 c545:01a40000:7aa9:042e:1:0
 Kanal 3 (Afyon)
@@ -1336,6 +1348,9 @@ Türksat Tanitim (Promo)
 p:TURKSAT,f:1
 c9f6:01a40000:a926:042e:1:0
 Nehir TV
+p:TURKSAT,f:1
+ca03:01a40000:a926:042e:1:0
+Zarok TV
 p:TURKSAT,f:1
 c864:01a40000:9ca5:042e:1:0
 Kanal B
@@ -1487,6 +1502,9 @@ p:TURKUVAZ,c:090555
 284c:01a40000:9f61:042e:2:0
 INT4
 p:
+284d:01a40000:9f61:042e:2:0
+INT 5
+p:TURKUVAZ
 2b5c:01a40000:a1ba:042e:1:0
 Show TV
 p:SHOW TV,f:1
@@ -1953,7 +1971,7 @@ p:DOGAN TV,f:1
 Discovery HD Showcase
 p:DOGAN TV,f:1
 076e:01a40000:0009:0042:25:0
-Animal Planet HD
+S Sport 2
 p:DOGAN TV,f:1
 076f:01a40000:0009:0042:25:0
 Smart Spor HD
@@ -2208,7 +2226,7 @@ p:TURK MEDYA,c:090023,f:1
 TV 4 Turkey HD
 p:TURK MEDYA,c:090025,f:1
 0003:01a40000:0001:0021:2:0
-RADYO 3
+CUKUROVA 3
 p:TRT CUKUROVA
 0001:01a40000:0001:0021:2:0
 CUKUROVA 1
@@ -2216,12 +2234,6 @@ p:TRT CUKUROVA
 0002:01a40000:0001:0021:2:1
 CUKUROVA 2
 p:TRT CUKUROVA
-0001:01a42d25:0001:0000:2:0
-TRT ANTALYA1
-p:TRT
-0002:01a42d25:0001:0000:2:1
-TRT ANTALYA2
-p:TRT
 c670:01a40000:7bd6:042e:1:0
 Kadirga TV (Trabzon)
 p:TURKSAT,f:1
@@ -2399,6 +2411,9 @@ p:TURKSAT,f:1
 c9d0:01a40000:76c1:042e:2:0
 CEM RADYO
 p:TURKSAT
+c9bb:01a40000:76c1:042e:1:0
+BBNTürk
+p:TURKSAT,f:1
 3b01:01a42e68:a98a:042e:2:0
 RADYO MUTLU
 p:TTNET
@@ -2542,6 +2557,9 @@ TRT TURKU
 p:TRT
 0008:01a42d27:0001:002a:2:0
 RADYO HABER
+p:TRT
+0003:01a42d27:0001:002a:2:0
+RADYO 3
 p:TRT
 0001:01a40000:0001:0019:2:0
 TRTERZURUM1
@@ -2774,6 +2792,12 @@ p:KARNAVAL
 0009:01a42d13:0001:ffff:2:0
 TEST
 p:KARNAVAL
+0001:01a42d23:0001:0000:2:0
+TRT ANTALYA1
+p:TRT
+0002:01a42d23:0001:0000:2:1
+TRT ANTALYA2
+p:TRT
 0001:01a42b3f:0001:ffff:1:0
 MMP OOB003
 p:ERICSSON Television,f:1
@@ -3925,6 +3949,12 @@ Just 89
 p:Telespazio,f:1
 4252:00820000:3db8:013e:1:0
 RDS Relax
+p:Telespazio,f:1
+423d:00820000:3db8:013e:1:0
+Water Planet V1
+p:Telespazio,f:1
+423f:00820000:3db8:013e:1:0
+Novela Tv V1
 p:Telespazio,f:1
 012d:00820000:3e1c:013f:1:0
 TF1 HD
@@ -5412,10 +5442,10 @@ p:
 Radioi Ozodi 203
 p:
 00cd:0082afc1:0065:0001:2:0
-Radio Svaboda 205
+Radio Svaboda ch205
 p:
 00ce:0082afc1:0065:0001:2:0
-Radio Tavisupleba 206
+Radio Tavisupleba ch206
 p:
 00cf:0082afc1:0065:0001:2:0
 Azatutyun 207
@@ -5451,7 +5481,7 @@ p:
 Europa Libera 221
 p:
 00de:0082afc1:0065:0001:2:0
-RSE Balkans 222
+RSE Balkans ch222
 p:
 00df:0082afc1:0065:0001:1:0
 Radio Farda 223
@@ -5924,6 +5954,9 @@ p:STN ltd,f:1
 232f:00820000:2328:013e:1:0
 NetViet
 p:STN Ltd.,f:1
+2330:00820000:2328:013e:1:0
+Deluxe 139
+p:STN,f:1
 2c28:00820000:251c:fbff:1:0
 myDeejay
 p:Sky Italia,f:1
@@ -6212,18 +6245,6 @@ p:AB Sat
 01a3:00820000:26ac:013f:1:0
 franceinfo
 p:Eutelsat,f:1
-2d4f:00820000:2774:fbff:1:0
-IEPG Data
-p:SkyItalia,f:1
-2d46:00820000:2774:fbff:251:0
-Fusion BGDL 11590
-p:SkyItalia
-2d4d:00820000:2774:fbff:25:0
-AdSmart
-p:SkyItalia,f:1
-2d49:00820000:2774:fbff:132:0
-Dl671
-p:SkyItalia
 07d1:00820000:22c4:013e:1:0
 RT HD
 p:GlobeCast,f:1
@@ -7487,6 +7508,12 @@ p:nc+,f:1
 1179:0082a9df:2af8:013e:31:0
 CANAL+ 4K ULTRA HD
 p:nc+,f:1
+1186:0082a9df:2af8:013e:1:0
+Cinemax HD
+p:CANAL+,f:1
+1187:0082a9df:2af8:013e:1:0
+National Geographic Wild HD
+p:CANAL+,f:1
 1315:00820000:2e7c:013e:1:0
 Eurosport 2 HD
 p:nc+,f:1
@@ -7798,6 +7825,9 @@ RT Arabic HD
 p:EUTELSAT,f:1
 0645:00820000:2454:013e:25:0
 Al Alam TV HD
+p:EUTELSAT,f:1
+0653:00820000:2454:013e:1:0
+Church of Jesus Christ (BYU)
 p:EUTELSAT,f:1
 0079:00820000:04b0:0110:25:0
 Italia 1 HD
@@ -8315,9 +8345,18 @@ p:SkyItalia,f:1
 3451:0082b1a9:2710:fbff:131:0
 IEPG Data
 p:SkyItalia
-2d4f:008231bb:2774:fbff:131:0
-IEPG Data
+2d46:008231bb:2774:fbff:251:0
+Fusion BGDL 11590
 p:SkyItalia
+2d49:008231bb:2774:fbff:132:0
+Dl671
+p:SkyItalia
+2d4d:008231bb:2774:fbff:25:0
+AdSmart
+p:SkyItalia,f:1
+2d4f:008231bb:2774:fbff:1:0
+IEPG Data
+p:SkyItalia,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2020

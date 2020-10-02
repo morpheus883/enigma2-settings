@@ -678,9 +678,6 @@ transponders
 00820000:26ac:013f
 	s 12692000:27500000:0:3:130:2:0:1:2:0:2
 /
-00820000:2774:fbff
-	s 12731000:29900000:0:4:130:2:0
-/
 00820000:22c4:013e
 	s 12475000:29900000:0:3:130:2:0:1:2:0:2
 /
@@ -809,6 +806,12 @@ transponders
 /
 008231bb:2774:fbff
 	s 12731000:29900000:0:3:130:2:0:1:2:0:2
+/
+00820000:3264:013e
+	s 11096000:30000000:0:3:130:2:0:1:2:0:2
+/
+00820000:2c24:0e26
+	s 10775000:29900000:0:7:130:2:0:1:2:2:2
 /
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
@@ -972,9 +975,6 @@ fff8af4f:004e:0046
 0e080000:0054:0046
 	s 12360000:30000000:0:3:-8:2:0:1:2:1:2
 /
-0e080000:0af7:00bb
-	s 12687000:28800000:1:7:-8:2:0:1:1:1:2
-/
 fff8aa39:003e:0046
 	s 10809000:25000000:1:3:-8:2:0:1:2:1:2
 /
@@ -1071,20 +1071,8 @@ fff8b0f7:0001:ffff
 fff83113:0af7:00bb
 	s 12563000:28800000:0:7:-8:2:0:1:0:0:2
 /
-0e08b0fe:0001:ffff
-	s 12542000:5800000:1:3:-8:2:0:1:2:0:2
-/
-0e08b0f7:0136:ffff
-	s 12535000:4750000:1:3:-8:2:0:1:2:0:2
-/
-0e080000:0065:0065
-	s 12542000:5800000:1:3:-8:2:0:1:2:0:2
-/
-0e08acce:0001:0001
-	s 11470000:3200000:1:4:-8:2:0:1:2:0:2
-/
-0e08acd7:0001:0001
-	s 11479000:3200000:1:4:-8:2:0:1:2:0:2
+fff8b0eb:00bf:00bf
+	s 12523000:2400000:1:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -1448,6 +1436,9 @@ p:BSkyB,f:1
 cff3:011a0000:083f:0002:1:0
 Really Ireland
 p:BSkyB,f:1
+d02f:011a0000:083f:0002:25:7
+TLC HD
+p:BSkyB,f:1
 2920:011a0000:090b:003b:1:0
 FreesatInformation
 p:Freesat,f:1
@@ -1766,6 +1757,12 @@ p:BSkyB,f:1
 1971:011a0000:07f2:0002:25:0
 GOLD HD
 p:BSkyB,f:1
+13f2:011a0000:07f2:0002:25:0
+ITV 1 Meridian East HD
+p:BSkyB,f:1
+13f3:011a0000:07f2:0002:25:0
+ITV 1 London HD
+p:BSkyB,f:1
 1e15:011a0000:0809:0002:1:0
 Channel 5 South Central
 p:Sky Digital,f:1
@@ -1910,12 +1907,9 @@ p:BSkyB,f:1
 514a:011a0000:0810:0002:25:0
 UTV (Ulster) HD
 p:Freesat,f:1
-5168:011a0000:0810:0002:25:0
-ITV Anglia East HD
-p:BSkyB,c:090102,f:1
-5172:011a0000:0810:0002:25:0
-ITV Central West HD
-p:BSkyB,c:090101,f:1
+5159:011a0000:0810:0002:25:0
+ITV 4 HD
+p:Sky Digital,f:1
 238d:011a2e8a:07db:0002:1:0
 Disney XD UK
 p:BSkyB,f:1
@@ -2255,9 +2249,6 @@ p:BSkyB,f:1
 c6c0:011a0000:082a:0002:1:0
 Babes & Brazzers
 p:BSkyB,f:1
-c6ce:011a0000:082a:0002:1:0
-Climax 3 (22h-6h CET)
-p:Sky Digital,f:1
 c6c9:011a0000:082a:0002:1:0
 CGTN
 p:BSkyB,f:1
@@ -2273,6 +2264,9 @@ p:BSkyB,f:1
 c6cb:011a0000:082a:0002:1:0
 Sangat TV
 p:Sky Digital,f:1
+c6ce:011a0000:082a:0002:1:0
+Television X
+p:BSkyB,f:1
 1789:011a0000:07d7:0002:1:0
 Sky Crime+1
 p:Sky Digital,f:1
@@ -2467,9 +2461,6 @@ Out TV
 p:BSkyB,f:1
 c7a7:011a0000:0817:0002:1:0
 TVX 40+
-p:BSkyB,f:1
-c7ae:011a0000:0817:0002:1:0
-Television X
 p:BSkyB,f:1
 c7ac:011a0000:0817:0002:1:0
 Akaal Channel
@@ -3011,6 +3002,9 @@ p:BSkyB,f:1
 21ab:011a0000:07e8:0002:130:0
 Pending Cancel
 p:BSkyB,f:1
+13f5:011a0000:07e8:0002:25:0
+ITV 1 Central West HD
+p:BSkyB,c:090101,f:1
 cf9b:011aabd9:083a:0002:25:0
 NHK World HD
 p:Freesat,f:1
@@ -3062,24 +3056,24 @@ p:SES ASTRA,f:1
 1cea:011a0000:07f6:0002:31:0
 SES UHD Demo
 p:SES,c:090100,f:1
-5208:011aab59:0812:0002:25:0
-ITV 1 London HD
-p:Freesat,f:1
-521c:011aab59:0812:0002:25:0
-ITV 1 Meridian SE HD
+5212:011aab59:0812:0002:25:0
+ITV 1 Meridian South HD
 p:BSkyB,f:1
-5226:011aab59:0812:0002:25:0
-ITV 1 Central West HD
+5217:011aab59:0812:0002:25:0
+ITV 1 Meridian North HD
+p:BSkyB,f:1
+5258:011aab59:0812:0002:25:0
+ITV 1 Central East HD
 p:BSkyB,f:1
 5230:011aab59:0812:0002:25:0
-ITV 1 Yorkshire West HD
+ITV 1 HD
 p:BSkyB,f:1
 523a:011aab59:0812:0002:25:0
 ITV 3 HD
-p:Sky Digital,f:1
-5244:011aab59:0812:0002:25:0
-ITV 4 HD
-p:Sky Digital,f:1
+p:BSkyB,f:1
+524e:011aab59:0812:0002:25:0
+ITV 1 Anglia West HD
+p:BSkyB,f:1
 c4e0:011a2b68:0813:0002:1:0
 Arise News
 p:BSkyB,f:1
@@ -3644,9 +3638,6 @@ p:BSkyB,f:1
 0f3c:011a0000:07ee:0002:25:6
 Sky Disney HD
 p:BSkyB,f:1
-0f82:011a0000:07ee:0002:25:7
-TLC HD
-p:BSkyB,f:1
 0fa6:011a0000:07ee:0002:25:8
 W HD
 p:BSkyB,f:1
@@ -3887,6 +3878,9 @@ p:Movistar+,f:1
 7691:00c00000:041e:0001:1:0
 TEST Z
 p:Movistar+,f:1
+76a4:00c00000:041e:0001:1:0
+TEST 88
+p:CANAL +,f:1
 7504:00c00000:0420:0001:25:0
 Fox España HD
 p:Movistar+,f:1
@@ -4442,6 +4436,9 @@ p:GlobeCast,f:1
 1b58:00c00000:03fc:0001:12:0
 DATA SYSTEM 76
 p:
+1b64:00c00000:03fc:0001:1:0
+Arirang HD
+p:Globecast,f:1
 1af9:00c00000:03fe:0001:1:0
 France 24 (en Français)
 p:GlobeCast,f:1
@@ -4847,6 +4844,9 @@ p:RTL World,f:1
 2ee9:00c00000:0441:0001:1:0
 RTL HH SH
 p:CBC,f:1
+2f3b:00c00000:0441:0001:2:0
+TOGGO Radio
+p:CBC
 7080:00c00000:0443:0001:1:0
 RTL Austria
 p:RTL,f:1
@@ -7307,6 +7307,9 @@ p:CSAT,f:1
 21ff:00c00000:044c:0001:25:0
 ES1 HD
 p:CSAT,C:0000,f:1
+2200:00c00000:044c:0001:25:0
+Altice Studio
+p:CSAT,f:1
 2336:00c00000:0442:0001:25:0
 C News HD
 p:CSAT,f:1
@@ -8755,6 +8758,12 @@ Just 89
 p:Telespazio,f:1
 4252:00820000:3db8:013e:1:0
 RDS Relax
+p:Telespazio,f:1
+423d:00820000:3db8:013e:1:0
+Water Planet V1
+p:Telespazio,f:1
+423f:00820000:3db8:013e:1:0
+Novela Tv V1
 p:Telespazio,f:1
 012d:00820000:3e1c:013f:1:0
 TF1 HD
@@ -10242,10 +10251,10 @@ p:
 Radioi Ozodi 203
 p:
 00cd:0082afc1:0065:0001:2:0
-Radio Svaboda 205
+Radio Svaboda ch205
 p:
 00ce:0082afc1:0065:0001:2:0
-Radio Tavisupleba 206
+Radio Tavisupleba ch206
 p:
 00cf:0082afc1:0065:0001:2:0
 Azatutyun 207
@@ -10281,7 +10290,7 @@ p:
 Europa Libera 221
 p:
 00de:0082afc1:0065:0001:2:0
-RSE Balkans 222
+RSE Balkans ch222
 p:
 00df:0082afc1:0065:0001:1:0
 Radio Farda 223
@@ -10754,6 +10763,9 @@ p:STN ltd,f:1
 232f:00820000:2328:013e:1:0
 NetViet
 p:STN Ltd.,f:1
+2330:00820000:2328:013e:1:0
+Deluxe 139
+p:STN,f:1
 2c28:00820000:251c:fbff:1:0
 myDeejay
 p:Sky Italia,f:1
@@ -11042,18 +11054,6 @@ p:AB Sat
 01a3:00820000:26ac:013f:1:0
 franceinfo
 p:Eutelsat,f:1
-2d4f:00820000:2774:fbff:1:0
-IEPG Data
-p:SkyItalia,f:1
-2d46:00820000:2774:fbff:251:0
-Fusion BGDL 11590
-p:SkyItalia
-2d4d:00820000:2774:fbff:25:0
-AdSmart
-p:SkyItalia,f:1
-2d49:00820000:2774:fbff:132:0
-Dl671
-p:SkyItalia
 07d1:00820000:22c4:013e:1:0
 RT HD
 p:GlobeCast,f:1
@@ -12317,6 +12317,12 @@ p:nc+,f:1
 1179:0082a9df:2af8:013e:31:0
 CANAL+ 4K ULTRA HD
 p:nc+,f:1
+1186:0082a9df:2af8:013e:1:0
+Cinemax HD
+p:CANAL+,f:1
+1187:0082a9df:2af8:013e:1:0
+National Geographic Wild HD
+p:CANAL+,f:1
 1315:00820000:2e7c:013e:1:0
 Eurosport 2 HD
 p:nc+,f:1
@@ -12628,6 +12634,9 @@ RT Arabic HD
 p:EUTELSAT,f:1
 0645:00820000:2454:013e:25:0
 Al Alam TV HD
+p:EUTELSAT,f:1
+0653:00820000:2454:013e:1:0
+Church of Jesus Christ (BYU)
 p:EUTELSAT,f:1
 0079:00820000:04b0:0110:25:0
 Italia 1 HD
@@ -13145,9 +13154,18 @@ p:SkyItalia,f:1
 3451:0082b1a9:2710:fbff:131:0
 IEPG Data
 p:SkyItalia
-2d4f:008231bb:2774:fbff:131:0
-IEPG Data
+2d46:008231bb:2774:fbff:251:0
+Fusion BGDL 11590
 p:SkyItalia
+2d49:008231bb:2774:fbff:132:0
+Dl671
+p:SkyItalia
+2d4d:008231bb:2774:fbff:25:0
+AdSmart
+p:SkyItalia,f:1
+2d4f:008231bb:2774:fbff:1:0
+IEPG Data
+p:SkyItalia,f:1
 040a:0e080000:0044:0046:25:0
 TV 2 Sport Premium HD
 p:Canal Digital Nordic,f:1
@@ -13171,6 +13189,9 @@ TV 2 HD (N) - Tekst
 p:Telenor,f:1
 1904:0e080000:0044:0046:25:0
 TV 2 Sport 1 HD (N)
+p:Telenor,f:1
+1b9d:0e080000:0044:0046:25:0
+TV 2 Livsstil HD
 p:Telenor,f:1
 0b6c:0e080000:0043:0046:25:0
 Kanal 5 HD (D)
@@ -14135,6 +14156,9 @@ p:Telenor,f:1
 4356:0e080000:0029:0046:25:0
 Nat Geo Wild HD (ST)
 p:Telenor,f:1
+42bc:0e080000:0029:0046:25:0
+Kuukauden kanava
+p:Telenor,f:1
 77a7:0e080000:02c2:0600:1:0
 Nick Jr Czech
 p:UPC Direct,f:1
@@ -14222,6 +14246,9 @@ p:UPC Direct,f:1
 7789:0e080000:02c2:0600:1:0
 TV Paprika RO
 p:UPC,f:1
+778a:0e080000:02c2:0600:1:0
+TV Paprika RO.
+p:UPC Direct,f:1
 01f9:0e080000:001b:02c0:1:0
 Nickelodeon Europe
 p:MTV Networks,f:1
@@ -15233,6 +15260,9 @@ p:Slovak Telekom,f:1
 177d:0e080000:0af6:00bb:1:0
 CT 3
 p:Slovak Telekom,f:1
+177f:0e080000:0af6:00bb:25:0
+TV Lux HD
+p:Slovak Telekom,f:1
 1cac:0e080000:004c:0046:1:0
 History
 p:Telenor,f:1
@@ -15551,27 +15581,6 @@ p:Telenor,f:1
 2331:0e080000:0054:0046:25:0
 TS Sports 10
 p:Telenor,f:1
-1b63:0e080000:0af7:00bb:25:0
-Epic Drama HD
-p:Slovak Telekom,f:1
-1b64:0e080000:0af7:00bb:22:0
-TV Seznam Zpravy
-p:Slovak Telekom,f:1
-1b65:0e080000:0af7:00bb:25:0
-Prima LOVE HD
-p:Slovak Telekom,f:1
-1b66:0e080000:0af7:00bb:25:0
-Prima COOL HD
-p:Slovak Telekom,f:1
-1b67:0e080000:0af7:00bb:25:0
-Prima MAX HD
-p:Slovak Telekom,f:1
-1b68:0e080000:0af7:00bb:2:0
-Radio DALNICE
-p:Slovak Telekom
-1b69:0e080000:0af7:00bb:25:0
-Nova Cinema HD
-p:Slovak Telekom,f:1
 1cfb:fff8aa39:003e:0046:25:0
 TV3 Sport HD
 p:Telenor,f:1

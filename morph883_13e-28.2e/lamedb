@@ -375,9 +375,6 @@ transponders
 00820000:26ac:013f
 	s 12692000:27500000:0:3:130:2:0:1:2:0:2
 /
-00820000:2774:fbff
-	s 12731000:29900000:0:4:130:2:0
-/
 00820000:22c4:013e
 	s 12475000:29900000:0:3:130:2:0:1:2:0:2
 /
@@ -506,6 +503,12 @@ transponders
 /
 008231bb:2774:fbff
 	s 12731000:29900000:0:3:130:2:0:1:2:0:2
+/
+00820000:3264:013e
+	s 11096000:30000000:0:3:130:2:0:1:2:0:2
+/
+00820000:2c24:0e26
+	s 10775000:29900000:0:7:130:2:0:1:2:2:2
 /
 end
 services
@@ -869,6 +872,9 @@ p:BSkyB,f:1
 cff3:011a0000:083f:0002:1:0
 Really Ireland
 p:BSkyB,f:1
+d02f:011a0000:083f:0002:25:7
+TLC HD
+p:BSkyB,f:1
 2920:011a0000:090b:003b:1:0
 FreesatInformation
 p:Freesat,f:1
@@ -1187,6 +1193,12 @@ p:BSkyB,f:1
 1971:011a0000:07f2:0002:25:0
 GOLD HD
 p:BSkyB,f:1
+13f2:011a0000:07f2:0002:25:0
+ITV 1 Meridian East HD
+p:BSkyB,f:1
+13f3:011a0000:07f2:0002:25:0
+ITV 1 London HD
+p:BSkyB,f:1
 1e15:011a0000:0809:0002:1:0
 Channel 5 South Central
 p:Sky Digital,f:1
@@ -1331,12 +1343,9 @@ p:BSkyB,f:1
 514a:011a0000:0810:0002:25:0
 UTV (Ulster) HD
 p:Freesat,f:1
-5168:011a0000:0810:0002:25:0
-ITV Anglia East HD
-p:BSkyB,c:090102,f:1
-5172:011a0000:0810:0002:25:0
-ITV Central West HD
-p:BSkyB,c:090101,f:1
+5159:011a0000:0810:0002:25:0
+ITV 4 HD
+p:Sky Digital,f:1
 238d:011a2e8a:07db:0002:1:0
 Disney XD UK
 p:BSkyB,f:1
@@ -1676,9 +1685,6 @@ p:BSkyB,f:1
 c6c0:011a0000:082a:0002:1:0
 Babes & Brazzers
 p:BSkyB,f:1
-c6ce:011a0000:082a:0002:1:0
-Climax 3 (22h-6h CET)
-p:Sky Digital,f:1
 c6c9:011a0000:082a:0002:1:0
 CGTN
 p:BSkyB,f:1
@@ -1694,6 +1700,9 @@ p:BSkyB,f:1
 c6cb:011a0000:082a:0002:1:0
 Sangat TV
 p:Sky Digital,f:1
+c6ce:011a0000:082a:0002:1:0
+Television X
+p:BSkyB,f:1
 1789:011a0000:07d7:0002:1:0
 Sky Crime+1
 p:Sky Digital,f:1
@@ -1888,9 +1897,6 @@ Out TV
 p:BSkyB,f:1
 c7a7:011a0000:0817:0002:1:0
 TVX 40+
-p:BSkyB,f:1
-c7ae:011a0000:0817:0002:1:0
-Television X
 p:BSkyB,f:1
 c7ac:011a0000:0817:0002:1:0
 Akaal Channel
@@ -2432,6 +2438,9 @@ p:BSkyB,f:1
 21ab:011a0000:07e8:0002:130:0
 Pending Cancel
 p:BSkyB,f:1
+13f5:011a0000:07e8:0002:25:0
+ITV 1 Central West HD
+p:BSkyB,c:090101,f:1
 cf9b:011aabd9:083a:0002:25:0
 NHK World HD
 p:Freesat,f:1
@@ -2483,24 +2492,24 @@ p:SES ASTRA,f:1
 1cea:011a0000:07f6:0002:31:0
 SES UHD Demo
 p:SES,c:090100,f:1
-5208:011aab59:0812:0002:25:0
-ITV 1 London HD
-p:Freesat,f:1
-521c:011aab59:0812:0002:25:0
-ITV 1 Meridian SE HD
+5212:011aab59:0812:0002:25:0
+ITV 1 Meridian South HD
 p:BSkyB,f:1
-5226:011aab59:0812:0002:25:0
-ITV 1 Central West HD
+5217:011aab59:0812:0002:25:0
+ITV 1 Meridian North HD
+p:BSkyB,f:1
+5258:011aab59:0812:0002:25:0
+ITV 1 Central East HD
 p:BSkyB,f:1
 5230:011aab59:0812:0002:25:0
-ITV 1 Yorkshire West HD
+ITV 1 HD
 p:BSkyB,f:1
 523a:011aab59:0812:0002:25:0
 ITV 3 HD
-p:Sky Digital,f:1
-5244:011aab59:0812:0002:25:0
-ITV 4 HD
-p:Sky Digital,f:1
+p:BSkyB,f:1
+524e:011aab59:0812:0002:25:0
+ITV 1 Anglia West HD
+p:BSkyB,f:1
 c4e0:011a2b68:0813:0002:1:0
 Arise News
 p:BSkyB,f:1
@@ -3064,9 +3073,6 @@ Sky Comedy HD
 p:BSkyB,f:1
 0f3c:011a0000:07ee:0002:25:6
 Sky Disney HD
-p:BSkyB,f:1
-0f82:011a0000:07ee:0002:25:7
-TLC HD
 p:BSkyB,f:1
 0fa6:011a0000:07ee:0002:25:8
 W HD
@@ -4315,6 +4321,12 @@ Just 89
 p:Telespazio,f:1
 4252:00820000:3db8:013e:1:0
 RDS Relax
+p:Telespazio,f:1
+423d:00820000:3db8:013e:1:0
+Water Planet V1
+p:Telespazio,f:1
+423f:00820000:3db8:013e:1:0
+Novela Tv V1
 p:Telespazio,f:1
 012d:00820000:3e1c:013f:1:0
 TF1 HD
@@ -5802,10 +5814,10 @@ p:
 Radioi Ozodi 203
 p:
 00cd:0082afc1:0065:0001:2:0
-Radio Svaboda 205
+Radio Svaboda ch205
 p:
 00ce:0082afc1:0065:0001:2:0
-Radio Tavisupleba 206
+Radio Tavisupleba ch206
 p:
 00cf:0082afc1:0065:0001:2:0
 Azatutyun 207
@@ -5841,7 +5853,7 @@ p:
 Europa Libera 221
 p:
 00de:0082afc1:0065:0001:2:0
-RSE Balkans 222
+RSE Balkans ch222
 p:
 00df:0082afc1:0065:0001:1:0
 Radio Farda 223
@@ -6314,6 +6326,9 @@ p:STN ltd,f:1
 232f:00820000:2328:013e:1:0
 NetViet
 p:STN Ltd.,f:1
+2330:00820000:2328:013e:1:0
+Deluxe 139
+p:STN,f:1
 2c28:00820000:251c:fbff:1:0
 myDeejay
 p:Sky Italia,f:1
@@ -6602,18 +6617,6 @@ p:AB Sat
 01a3:00820000:26ac:013f:1:0
 franceinfo
 p:Eutelsat,f:1
-2d4f:00820000:2774:fbff:1:0
-IEPG Data
-p:SkyItalia,f:1
-2d46:00820000:2774:fbff:251:0
-Fusion BGDL 11590
-p:SkyItalia
-2d4d:00820000:2774:fbff:25:0
-AdSmart
-p:SkyItalia,f:1
-2d49:00820000:2774:fbff:132:0
-Dl671
-p:SkyItalia
 07d1:00820000:22c4:013e:1:0
 RT HD
 p:GlobeCast,f:1
@@ -7877,6 +7880,12 @@ p:nc+,f:1
 1179:0082a9df:2af8:013e:31:0
 CANAL+ 4K ULTRA HD
 p:nc+,f:1
+1186:0082a9df:2af8:013e:1:0
+Cinemax HD
+p:CANAL+,f:1
+1187:0082a9df:2af8:013e:1:0
+National Geographic Wild HD
+p:CANAL+,f:1
 1315:00820000:2e7c:013e:1:0
 Eurosport 2 HD
 p:nc+,f:1
@@ -8188,6 +8197,9 @@ RT Arabic HD
 p:EUTELSAT,f:1
 0645:00820000:2454:013e:25:0
 Al Alam TV HD
+p:EUTELSAT,f:1
+0653:00820000:2454:013e:1:0
+Church of Jesus Christ (BYU)
 p:EUTELSAT,f:1
 0079:00820000:04b0:0110:25:0
 Italia 1 HD
@@ -8705,9 +8717,18 @@ p:SkyItalia,f:1
 3451:0082b1a9:2710:fbff:131:0
 IEPG Data
 p:SkyItalia
-2d4f:008231bb:2774:fbff:131:0
-IEPG Data
+2d46:008231bb:2774:fbff:251:0
+Fusion BGDL 11590
 p:SkyItalia
+2d49:008231bb:2774:fbff:132:0
+Dl671
+p:SkyItalia
+2d4d:008231bb:2774:fbff:25:0
+AdSmart
+p:SkyItalia,f:1
+2d4f:008231bb:2774:fbff:1:0
+IEPG Data
+p:SkyItalia,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2020

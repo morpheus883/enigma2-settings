@@ -666,9 +666,6 @@ transponders
 00820000:26ac:013f
 	s 12692000:27500000:0:3:130:2:0:1:2:0:2
 /
-00820000:2774:fbff
-	s 12731000:29900000:0:4:130:2:0
-/
 00820000:22c4:013e
 	s 12475000:29900000:0:3:130:2:0:1:2:0:2
 /
@@ -797,6 +794,12 @@ transponders
 /
 008231bb:2774:fbff
 	s 12731000:29900000:0:3:130:2:0:1:2:0:2
+/
+00820000:3264:013e
+	s 11096000:30000000:0:3:130:2:0:1:2:0:2
+/
+00820000:2c24:0e26
+	s 10775000:29900000:0:7:130:2:0:1:2:2:2
 /
 end
 services
@@ -1271,6 +1274,9 @@ p:Towercom,f:1
 132f:00eb0000:0ca2:0003:22:0
 Trojka
 p:SkyLink,f:1
+1356:00eb0000:0ca2:0003:2:0
+BEAT V
+p:Towercom
 52e1:00ebaf61:0c96:0003:25:0
 Eurosport HD NL
 p:M7 Group,f:1
@@ -2249,6 +2255,12 @@ p:Telekom Srbija,f:1
 4e33:00eb0000:0c8b:0003:1:0
 Dexy TV
 p:Telekom Srbija,f:1
+4fb0:00eb0000:0c8b:0003:1:0
+Uci Doma 2
+p:Telekom Srbija,f:1
+4fb1:00eb0000:0c8b:0003:1:0
+Uci Doma 3
+p:Telekom Srbija,f:1
 4e24:00eb0000:0c85:0003:1:0
 Pink TV
 p:Telekom Srbija,f:1
@@ -3086,6 +3098,9 @@ p:Movistar+,f:1
 7691:00c00000:041e:0001:1:0
 TEST Z
 p:Movistar+,f:1
+76a4:00c00000:041e:0001:1:0
+TEST 88
+p:CANAL +,f:1
 7504:00c00000:0420:0001:25:0
 Fox España HD
 p:Movistar+,f:1
@@ -3641,6 +3656,9 @@ p:GlobeCast,f:1
 1b58:00c00000:03fc:0001:12:0
 DATA SYSTEM 76
 p:
+1b64:00c00000:03fc:0001:1:0
+Arirang HD
+p:Globecast,f:1
 1af9:00c00000:03fe:0001:1:0
 France 24 (en Français)
 p:GlobeCast,f:1
@@ -4046,6 +4064,9 @@ p:RTL World,f:1
 2ee9:00c00000:0441:0001:1:0
 RTL HH SH
 p:CBC,f:1
+2f3b:00c00000:0441:0001:2:0
+TOGGO Radio
+p:CBC
 7080:00c00000:0443:0001:1:0
 RTL Austria
 p:RTL,f:1
@@ -6506,6 +6527,9 @@ p:CSAT,f:1
 21ff:00c00000:044c:0001:25:0
 ES1 HD
 p:CSAT,C:0000,f:1
+2200:00c00000:044c:0001:25:0
+Altice Studio
+p:CSAT,f:1
 2336:00c00000:0442:0001:25:0
 C News HD
 p:CSAT,f:1
@@ -7954,6 +7978,12 @@ Just 89
 p:Telespazio,f:1
 4252:00820000:3db8:013e:1:0
 RDS Relax
+p:Telespazio,f:1
+423d:00820000:3db8:013e:1:0
+Water Planet V1
+p:Telespazio,f:1
+423f:00820000:3db8:013e:1:0
+Novela Tv V1
 p:Telespazio,f:1
 012d:00820000:3e1c:013f:1:0
 TF1 HD
@@ -9441,10 +9471,10 @@ p:
 Radioi Ozodi 203
 p:
 00cd:0082afc1:0065:0001:2:0
-Radio Svaboda 205
+Radio Svaboda ch205
 p:
 00ce:0082afc1:0065:0001:2:0
-Radio Tavisupleba 206
+Radio Tavisupleba ch206
 p:
 00cf:0082afc1:0065:0001:2:0
 Azatutyun 207
@@ -9480,7 +9510,7 @@ p:
 Europa Libera 221
 p:
 00de:0082afc1:0065:0001:2:0
-RSE Balkans 222
+RSE Balkans ch222
 p:
 00df:0082afc1:0065:0001:1:0
 Radio Farda 223
@@ -9953,6 +9983,9 @@ p:STN ltd,f:1
 232f:00820000:2328:013e:1:0
 NetViet
 p:STN Ltd.,f:1
+2330:00820000:2328:013e:1:0
+Deluxe 139
+p:STN,f:1
 2c28:00820000:251c:fbff:1:0
 myDeejay
 p:Sky Italia,f:1
@@ -10241,18 +10274,6 @@ p:AB Sat
 01a3:00820000:26ac:013f:1:0
 franceinfo
 p:Eutelsat,f:1
-2d4f:00820000:2774:fbff:1:0
-IEPG Data
-p:SkyItalia,f:1
-2d46:00820000:2774:fbff:251:0
-Fusion BGDL 11590
-p:SkyItalia
-2d4d:00820000:2774:fbff:25:0
-AdSmart
-p:SkyItalia,f:1
-2d49:00820000:2774:fbff:132:0
-Dl671
-p:SkyItalia
 07d1:00820000:22c4:013e:1:0
 RT HD
 p:GlobeCast,f:1
@@ -11516,6 +11537,12 @@ p:nc+,f:1
 1179:0082a9df:2af8:013e:31:0
 CANAL+ 4K ULTRA HD
 p:nc+,f:1
+1186:0082a9df:2af8:013e:1:0
+Cinemax HD
+p:CANAL+,f:1
+1187:0082a9df:2af8:013e:1:0
+National Geographic Wild HD
+p:CANAL+,f:1
 1315:00820000:2e7c:013e:1:0
 Eurosport 2 HD
 p:nc+,f:1
@@ -11827,6 +11854,9 @@ RT Arabic HD
 p:EUTELSAT,f:1
 0645:00820000:2454:013e:25:0
 Al Alam TV HD
+p:EUTELSAT,f:1
+0653:00820000:2454:013e:1:0
+Church of Jesus Christ (BYU)
 p:EUTELSAT,f:1
 0079:00820000:04b0:0110:25:0
 Italia 1 HD
@@ -12344,9 +12374,18 @@ p:SkyItalia,f:1
 3451:0082b1a9:2710:fbff:131:0
 IEPG Data
 p:SkyItalia
-2d4f:008231bb:2774:fbff:131:0
-IEPG Data
+2d46:008231bb:2774:fbff:251:0
+Fusion BGDL 11590
 p:SkyItalia
+2d49:008231bb:2774:fbff:132:0
+Dl671
+p:SkyItalia
+2d4d:008231bb:2774:fbff:25:0
+AdSmart
+p:SkyItalia,f:1
+2d4f:008231bb:2774:fbff:1:0
+IEPG Data
+p:SkyItalia,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2020

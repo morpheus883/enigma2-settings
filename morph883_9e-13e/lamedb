@@ -162,9 +162,6 @@ transponders
 00820000:26ac:013f
 	s 12692000:27500000:0:3:130:2:0:1:2:0:2
 /
-00820000:2774:fbff
-	s 12731000:29900000:0:4:130:2:0
-/
 00820000:22c4:013e
 	s 12475000:29900000:0:3:130:2:0:1:2:0:2
 /
@@ -293,6 +290,12 @@ transponders
 /
 008231bb:2774:fbff
 	s 12731000:29900000:0:3:130:2:0:1:2:0:2
+/
+00820000:3264:013e
+	s 11096000:30000000:0:3:130:2:0:1:2:0:2
+/
+00820000:2c24:0e26
+	s 10775000:29900000:0:7:130:2:0:1:2:2:2
 /
 005a0000:14b4:009c
 	s 11785000:27500000:0:2:90:2:0:1:2:0:2
@@ -1570,6 +1573,12 @@ Just 89
 p:Telespazio,f:1
 4252:00820000:3db8:013e:1:0
 RDS Relax
+p:Telespazio,f:1
+423d:00820000:3db8:013e:1:0
+Water Planet V1
+p:Telespazio,f:1
+423f:00820000:3db8:013e:1:0
+Novela Tv V1
 p:Telespazio,f:1
 012d:00820000:3e1c:013f:1:0
 TF1 HD
@@ -3057,10 +3066,10 @@ p:
 Radioi Ozodi 203
 p:
 00cd:0082afc1:0065:0001:2:0
-Radio Svaboda 205
+Radio Svaboda ch205
 p:
 00ce:0082afc1:0065:0001:2:0
-Radio Tavisupleba 206
+Radio Tavisupleba ch206
 p:
 00cf:0082afc1:0065:0001:2:0
 Azatutyun 207
@@ -3096,7 +3105,7 @@ p:
 Europa Libera 221
 p:
 00de:0082afc1:0065:0001:2:0
-RSE Balkans 222
+RSE Balkans ch222
 p:
 00df:0082afc1:0065:0001:1:0
 Radio Farda 223
@@ -3569,6 +3578,9 @@ p:STN ltd,f:1
 232f:00820000:2328:013e:1:0
 NetViet
 p:STN Ltd.,f:1
+2330:00820000:2328:013e:1:0
+Deluxe 139
+p:STN,f:1
 2c28:00820000:251c:fbff:1:0
 myDeejay
 p:Sky Italia,f:1
@@ -3857,18 +3869,6 @@ p:AB Sat
 01a3:00820000:26ac:013f:1:0
 franceinfo
 p:Eutelsat,f:1
-2d4f:00820000:2774:fbff:1:0
-IEPG Data
-p:SkyItalia,f:1
-2d46:00820000:2774:fbff:251:0
-Fusion BGDL 11590
-p:SkyItalia
-2d4d:00820000:2774:fbff:25:0
-AdSmart
-p:SkyItalia,f:1
-2d49:00820000:2774:fbff:132:0
-Dl671
-p:SkyItalia
 07d1:00820000:22c4:013e:1:0
 RT HD
 p:GlobeCast,f:1
@@ -5132,6 +5132,12 @@ p:nc+,f:1
 1179:0082a9df:2af8:013e:31:0
 CANAL+ 4K ULTRA HD
 p:nc+,f:1
+1186:0082a9df:2af8:013e:1:0
+Cinemax HD
+p:CANAL+,f:1
+1187:0082a9df:2af8:013e:1:0
+National Geographic Wild HD
+p:CANAL+,f:1
 1315:00820000:2e7c:013e:1:0
 Eurosport 2 HD
 p:nc+,f:1
@@ -5443,6 +5449,9 @@ RT Arabic HD
 p:EUTELSAT,f:1
 0645:00820000:2454:013e:25:0
 Al Alam TV HD
+p:EUTELSAT,f:1
+0653:00820000:2454:013e:1:0
+Church of Jesus Christ (BYU)
 p:EUTELSAT,f:1
 0079:00820000:04b0:0110:25:0
 Italia 1 HD
@@ -5960,35 +5969,20 @@ p:SkyItalia,f:1
 3451:0082b1a9:2710:fbff:131:0
 IEPG Data
 p:SkyItalia
-2d4f:008231bb:2774:fbff:131:0
-IEPG Data
+2d46:008231bb:2774:fbff:251:0
+Fusion BGDL 11590
 p:SkyItalia
-00cc:005a0000:14b4:009c:1:0
-Channel 21 Shop
-p:Kabelkiosk,f:1
-00d5:005a0000:14b4:009c:1:0
-Nickelodeon/MTV+
-p:Kabelkiosk,f:1
+2d49:008231bb:2774:fbff:132:0
+Dl671
+p:SkyItalia
+2d4d:008231bb:2774:fbff:25:0
+AdSmart
+p:SkyItalia,f:1
+2d4f:008231bb:2774:fbff:1:0
+IEPG Data
+p:SkyItalia,f:1
 00d8:005a0000:14b4:009c:1:0
 Comedy Central D
-p:Kabelkiosk,f:1
-00e4:005a0000:14b4:009c:1:0
-HSE24 Extra
-p:Kabelkiosk,f:1
-00f5:005a0000:14b4:009c:1:0
-Servus TV
-p:BASIS 1,f:1
-00f6:005a0000:14b4:009c:1:0
-Deluxe Music
-p:BASIS 1,f:1
-00f0:005a0000:14b4:009c:1:0
-BBC World News
-p:Kabelkiosk,f:1
-00f1:005a0000:14b4:009c:1:0
-Bloomberg Europe
-p:Kabelkiosk,f:1
-00f3:005a0000:14b4:009c:1:0
-Deutsches Musik Fernsehen
 p:Kabelkiosk,f:1
 00c9:005a0000:14b4:009c:25:0
 ProSieben MAXX HD
@@ -6004,6 +5998,15 @@ TC ATV 1
 p:
 00cd:005a0000:14b4:009c:25:0
 Eurosport 1 HD
+p:BASIS 1,f:1
+00cc:005a0000:14b4:009c:25:0
+RTLplus HD
+p:BASIS 1,f:1
+00ce:005a0000:14b4:009c:25:0
+Toggo plus HD
+p:BASIS 1,f:1
+00cf:005a0000:14b4:009c:25:0
+VOXup HD
 p:BASIS 1,f:1
 065e:005a0000:0001:0064:2:0
 Carrefour Iper
@@ -6064,6 +6067,9 @@ Sport 1 Germany HD
 p:BASIS 1,f:1
 00eb:005a0000:1644:009c:25:0
 TLC HD
+p:BASIS 1,f:1
+00ec:005a0000:1644:009c:22:0
+BBC World News
 p:BASIS 1,f:1
 0daf:005a0000:16a8:009c:1:0
 Rai Africa
@@ -6143,6 +6149,9 @@ p:BASIS 1,f:1
 ee48:005a0000:1964:009c:140:0
 TC ATV 2
 p:
+01a5:005a0000:1964:009c:22:0
+Nickelodeon/MTV+
+p:BASIS 1,f:1
 00ca:005a0000:19c8:009e:1:0
 M6 Suisse HD
 p:GlobeCast,f:1
@@ -6448,6 +6457,9 @@ RTL Nitro HD
 p:BASIS 1,f:1
 0133:005a2fd5:1edc:009c:25:0
 n-tv HD
+p:BASIS 1,f:1
+0134:005a2fd5:1edc:009c:22:0
+VOXup SD
 p:BASIS 1,f:1
 0faa:005a2f62:1bbc:009c:25:0
 Sony Entertainment TV HD
