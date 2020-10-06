@@ -516,6 +516,9 @@ transponders
 00c00000:03f8:0001
 	s 11435000:22000000:1:2:192:2:0:1:2:0:2
 /
+00c00000:042a:0001
+	s 11739000:27500000:1:3:192:2:0
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -810,8 +813,17 @@ transponders
 00820000:3264:013e
 	s 11096000:30000000:0:3:130:2:0:1:2:0:2
 /
-00820000:2c24:0e26
-	s 10775000:29900000:0:7:130:2:0:1:2:2:2
+00820000:01bd:005f
+	s 12654000:27500000:0:3:130:2:0
+/
+00820000:25e4:02be
+	s 12654000:27500000:0:4:130:2:0
+/
+00822fd5:1e14:fbff
+	s 12245000:29900000:0:4:130:2:0:1:1:0:2
+/
+0082acce:0578:013e
+	s 11470000:27500000:1:4:130:2:0
 /
 end
 services
@@ -7402,64 +7414,88 @@ MTA 3
 p:SES,f:1
 0e06:00820000:2d50:013e:1:0
 BBC First HD
-p:nc+,f:1
+p:CANAL+,f:1
 0e08:00820000:2d50:013e:1:0
 BBC Earth HD
-p:nc+,f:1
+p:CANAL+,f:1
 0dd7:00820000:2d50:013e:1:0
 HBO 2 HD Polska
-p:nc+,f:1
+p:CANAL+,f:1
 0dd8:00820000:2d50:013e:1:0
 HBO 3 HD Polska
-p:nc+,f:1
+p:CANAL+,f:1
 0db2:00820000:2d50:013e:1:0
 Discovery Historia Polska
-p:nc+,f:1
+p:CANAL+,f:1
 0de8:00820000:2d50:013e:12:0
 Faktura
-p:nc+
+p:CANAL+
 0dae:00820000:2d50:013e:1:0
 Kino Polska Muzyka
-p:nc+,f:1
-0db3:00820000:2d50:013e:1:0
-Zest TV
-p:nc+,f:1
+p:CANAL+,f:1
 0e09:00820000:2d50:013e:1:0
 HBO 2 HD
-p:nc+,f:1
+p:CANAL+,f:1
 0e0a:00820000:2d50:013e:1:0
 HBO 3 HD
-p:nc+,f:1
+p:CANAL+,f:1
 0db1:00820000:2d50:013e:1:0
 TVP Sport HD
-p:nc+,f:1
+p:CANAL+,f:1
 0e0f:00820000:2d50:013e:12:0
 DATA
-p:nc+
+p:CANAL+
 0dd4:00820000:2d50:013e:1:0
 BBC First HD
-p:nc+,c:090410,f:1
+p:CANAL+,c:090410,f:1
 0dd6:00820000:2d50:013e:1:0
 BBC Earth HD
-p:nc+,f:1
+p:CANAL+,f:1
 0de3:00820000:2d50:013e:1:0
 TVP Sport HD
-p:nc+,f:1
+p:CANAL+,f:1
 0daf:00820000:2d50:013e:1:0
 Sport Klub Poland HD
-p:nc+,c:0903eb,f:1
-0db7:00820000:2d50:013e:1:0
-Active Family
-p:nc+,f:1
+p:CANAL+,c:0903eb,f:1
 0db0:00820000:2d50:013e:1:0
 Animal Planet HD
-p:nc+,f:1
+p:CANAL+,f:1
 0db5:00820000:2d50:013e:1:0
 Red Carpet TV
-p:nc+,f:1
+p:CANAL+,f:1
 0db4:00820000:2d50:013e:1:0
 AXN Spin HD
-p:nc+,f:1
+p:CANAL+,f:1
+0e00:00820000:2d50:013e:1:0
+HBO3 HD
+p:CANAL+,f:1
+0dcd:00820000:2d50:013e:1:0
+HBO2 HD
+p:CANAL+,f:1
+0dce:00820000:2d50:013e:1:0
+HBO3 HD
+p:CANAL+,f:1
+0de0:00820000:2d50:013e:1:0
+Kino Polska Muzyka
+p:CANAL+,f:1
+0de2:00820000:2d50:013e:1:0
+Animal Planet HD
+p:CANAL+,f:1
+0de4:00820000:2d50:013e:1:0
+Discovery Historia
+p:CANAL+,f:1
+0de6:00820000:2d50:013e:1:0
+AXN SPIN HD
+p:CANAL+,f:1
+0dfc:00820000:2d50:013e:1:0
+BBC FIRST
+p:CANAL+,f:1
+0dfe:00820000:2d50:013e:1:0
+BBC Earth HD
+p:CANAL+,f:1
+0dff:00820000:2d50:013e:1:0
+HBO2 HD
+p:CANAL+,f:1
 0001:00820000:2e18:00b0:1:0
 Al Maghribia HD
 p:SNRT,f:1
@@ -8429,9 +8465,6 @@ p:Telespazio
 421a:00820000:3db8:013e:1:0
 TRM H24
 p:Telespazio,f:1
-4229:00820000:3db8:013e:1:0
-La 8
-p:Telespazio,f:1
 4244:00820000:3db8:013e:1:0
 Arte Atelier
 p:Telespazio,f:1
@@ -8461,9 +8494,6 @@ Emilia Romagna 24
 p:Telespazio,f:1
 4257:00820000:3db8:013e:1:0
 CIAO
-p:Telespazio,f:1
-4265:00820000:3db8:013e:1:0
-La 9
 p:Telespazio,f:1
 4247:00820000:3db8:013e:1:0
 Suryoyo Sat
@@ -11353,63 +11383,84 @@ p:Mediaset,f:1
 p:,f:1
 1421:00822ce0:05dc:013e:1:0
 DOMO+ HD
-p:nc+,f:1
+p:CANAL+,f:1
 13ef:00822ce0:05dc:013e:1:0
 Domo+ HD
-p:nc+,f:1
+p:CANAL+,f:1
 13f3:00822ce0:05dc:013e:1:0
 Eleven Sports 1 HD
-p:nc+,f:1
+p:CANAL+,f:1
 13f5:00822ce0:05dc:013e:1:0
 Eleven Sports 2 HD
-p:nc+,f:1
+p:CANAL+,f:1
 13f4:00822ce0:05dc:013e:1:0
 Fox Polska
-p:Cyfra +,f:1
+p:CANAL+,f:1
 13ed:00822ce0:05dc:013e:1:0
 Canal+ Premium HD
-p:Cyfra +,f:1
+p:CANAL+,f:1
 13f1:00822ce0:05dc:013e:1:0
 Fight Klub HD
-p:nc+,c:0903ed,f:1
+p:CANAL+,c:0903ed,f:1
 13f8:00822ce0:05dc:013e:1:0
 Eleven Sports 3 HD
-p:nc+,c:0903f4,f:1
+p:CANAL+,c:0903f4,f:1
 142a:00822ce0:05dc:013e:2:0
 TOK FM
-p:nc+,c:090426
+p:CANAL+,c:090426
 1419:00822ce0:05dc:013e:2:0
 JASNA GORA
-p:nc+,c:090415
+p:CANAL+,c:090415
 1414:00822ce0:05dc:013e:2:0
 MUZO.FM
-p:nc+,c:090410
+p:CANAL+,c:090410
 1420:00822ce0:05dc:013e:1:0
 CANAL+ SPORT 2 HD
-p:nc+,f:1
+p:CANAL+,f:1
 13ee:00822ce0:05dc:013e:1:0
 Canal+ Sport 2 HD Polska
-p:nc+,f:1
+p:CANAL+,f:1
 1418:00822ce0:05dc:013e:2:0
-NC+ PR
-p:nc+
+CANAL+ PR
+p:CANAL+
 141a:00822ce0:05dc:013e:2:0
-NC+ RADIO
-p:nc+
+CANAL+ RADIO
+p:CANAL+
 1411:00822ce0:05dc:013e:2:0
 Meloradio
-p:nc+
+p:CANAL+
 1413:00822ce0:05dc:013e:2:0
 Antyradio
-p:nc+
+p:CANAL+
 1410:00822ce0:05dc:013e:2:0
 Radio ZET
-p:nc+
+p:CANAL+
 1412:00822ce0:05dc:013e:2:0
 Chillizet
-p:nc+
+p:CANAL+
 13f2:00822ce0:05dc:013e:1:0
 Kino Polska HD
+p:CANAL+,f:1
+1424:00822ce0:05dc:013e:1:0
+KINO POLSKA HD
+p:CANAL+,f:1
+1425:00822ce0:05dc:013e:1:0
+Eleven Sports 1 HD
+p:CANAL+,f:1
+1427:00822ce0:05dc:013e:1:0
+Eleven Sports 2 HD
+p:CANAL+,f:1
+143e:00822ce0:05dc:013e:1:0
+Eleven Sports 3 HD
+p:CANAL+,f:1
+1448:00822ce0:05dc:013e:1:0
+Eleven Sports 3 HD
+p:CANAL+,f:1
+144d:00822ce0:05dc:013e:1:0
+Eleven Sports 1 HD
+p:CANAL+,f:1
+144f:00822ce0:05dc:013e:1:0
+Eleven Sports 2 HD
 p:CANAL+,f:1
 2907:00822ffc:1edc:0071:1:0
 Nat Geo People PL HD
@@ -11525,62 +11576,134 @@ p:Cyfrowy Polsat S.A.,f:1
 3394:0082ab96:3390:0071:1:0
 TV 6 Polska
 p:Cyfrowy Polsat S.A.,f:1
+3343:0082ab96:3390:0071:1:0
+Polsat News 2
+p:Cyfrowy Polsat S.A.,f:1
+3353:0082ab96:3390:0071:1:0
+Polsat News 2
+p:Cyfrowy Polsat S.A.,f:1
+3363:0082ab96:3390:0071:1:0
+Polsat News 2
+p:Cyfrowy Polsat S.A.,f:1
+33ab:0082ab96:3390:0071:1:0
+Super Polsat
+p:Cyfrowy Polsat SA,f:1
+33b1:0082ab96:3390:0071:1:0
+Polsat HD
+p:Cyfrowy Polsat S.A.,f:1
+33b8:0082ab96:3390:0071:1:0
+Polsat Film HD
+p:Cyfrowy Polsat S.A.,f:1
+33ba:0082ab96:3390:0071:1:0
+Polsat 2 HD
+p:Cyfrowy Polsat S.A.,f:1
+33c2:0082ab96:3390:0071:1:0
+Polsat Play HD
+p:Cyfrowy Polsat S.A.,f:1
+33c6:0082ab96:3390:0071:1:0
+Polsat Cafe HD
+p:Cyfrowy Polsat S.A.,f:1
+33c8:0082ab96:3390:0071:1:0
+Polsat Film HD
+p:Cyfrowy Polsat S.A.,f:1
+33d2:0082ab96:3390:0071:1:0
+Polsat Play HD
+p:Cyfrowy Polsat S.A.,f:1
+33d6:0082ab96:3390:0071:1:0
+Polsat Cafe HD
+p:Cyfrowy Polsat S.A.,f:1
+33d9:0082ab96:3390:0071:1:0
+Polsat News HD
+p:Cyfrowy Polsat S.A.,f:1
+33e2:0082ab96:3390:0071:1:0
+Polsat Play HD
+p:Cyfrowy Polsat S.A.,f:1
+33e6:0082ab96:3390:0071:1:0
+Polsat Cafe HD
+p:Cyfrowy Polsat S.A.,f:1
+33e9:0082ab96:3390:0071:1:0
+Polsat News HD
+p:Cyfrowy Polsat S.A.,f:1
+33f9:0082ab96:3390:0071:1:0
+Polsat News HD
+p:Cyfrowy Polsat S.A.,f:1
 3d59:0082aa2c:2c88:013e:1:0
 TVP Kultura
-p:Cyfra +,f:1
+p:CANAL+,f:1
 3d56:0082aa2c:2c88:013e:1:0
 Discovery Life Poland HD
-p:Cyfra +,f:1
+p:CANAL+,f:1
 3d5c:0082aa2c:2c88:013e:1:0
 TVP Seriale
-p:CYFRA +,f:1
+p:CANAL+,f:1
 3d5e:0082aa2c:2c88:013e:1:0
 National Geographic Polska
-p:Cyfra +,f:1
+p:CANAL+,f:1
 3d61:0082aa2c:2c88:013e:1:0
 Kino TV (Polska)
-p:Cyfra +,f:1
+p:CANAL+,f:1
 3d62:0082aa2c:2c88:013e:1:0
 Filmbox Family
-p:Cyfra +,f:1
+p:CANAL+,f:1
 3d65:0082aa2c:2c88:013e:1:0
 Filmbox Action
-p:CYFRA +,f:1
+p:CANAL+,f:1
 3d5b:0082aa2c:2c88:013e:1:0
 CBS Reality
-p:Cyfra +,f:1
+p:CANAL+,f:1
 3d58:0082aa2c:2c88:013e:1:0
 TVS - TV Silesia
-p:Cyfra +,f:1
+p:CANAL+,f:1
 3d66:0082aa2c:2c88:013e:1:0
 TV Puls HD
-p:nc+,c:0903fa,f:1
+p:CANAL+,c:0903fa,f:1
 3d63:0082aa2c:2c88:013e:1:0
 EskaROCK TV
-p:TVN,f:1
+p:CANAL+,f:1
 3d5a:0082aa2c:2c88:013e:1:0
 WP TV
-p:nc+,f:1
+p:CANAL+,f:1
 3d5f:0082aa2c:2c88:013e:1:0
 TVP ABC
-p:nc+,f:1
+p:CANAL+,f:1
 3d67:0082aa2c:2c88:013e:1:0
 TVP Historia
-p:nc+,f:1
+p:CANAL+,f:1
 3d99:0082aa2c:2c88:013e:1:0
 TVP Historia
-p:nc+,f:1
+p:CANAL+,f:1
 3d68:0082aa2c:2c88:013e:1:0
 Filmbox Extra
-p:Cyfra +,f:1
+p:CANAL+,f:1
 3d60:0082aa2c:2c88:013e:1:0
 Puls 2
-p:nc+,f:1
+p:CANAL+,f:1
 3d57:0082aa2c:2c88:013e:1:0
 TVN 24 Bizness HD
-p:Canal+,C:0000,f:1
+p:CANAL+,C:0000,f:1
 3d5d:0082aa2c:2c88:013e:1:0
 FilmBox Premium HD
+p:CANAL+,f:1
+3d8d:0082aa2c:2c88:013e:1:0
+CBS Reality HD
+p:CANAL+,f:1
+3d8e:0082aa2c:2c88:013e:1:0
+TVP Seriale
+p:CANAL+,f:1
+3d8f:0082aa2c:2c88:013e:1:0
+Filmbox Premium HD
+p:CANAL+,f:1
+3d93:0082aa2c:2c88:013e:1:0
+Kino TV HD
+p:CANAL+,f:1
+3d94:0082aa2c:2c88:013e:1:0
+FilmBox Family
+p:CANAL+,f:1
+3d97:0082aa2c:2c88:013e:1:0
+FilmBox Action
+p:CANAL+,f:1
+3d9a:0082aa2c:2c88:013e:1:0
+FilmBox Extra HD
 p:CANAL+,f:1
 37af:00822c93:044c:013e:25:0
 teleTOON+ HD
@@ -11693,12 +11816,6 @@ p:Rai
 4543:00820000:30d4:013e:2:0
 Rai Radio1 Sport
 p:Rai
-1002:00820000:1e14:fbff:1:0
-IEPG Data
-p:Sky Italia,f:1
-1002:00820000:1e14:fbff:131:0
-IEPG Data
-p:SkyItalia
 36c5:00822d06:06a4:013e:2:0
 SRF 1
 p:Schweizer Radio und Fernsehen
@@ -12905,6 +13022,93 @@ p:SkyItalia,f:1
 2d4f:008231bb:2774:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
+0063:00820000:3264:013e:1:0
+Kabelio Infokanal
+p:KABELIO.CH,f:1
+0064:00820000:3264:013e:1:0
+Kabelio 3+
+p:KABELIO.CH,f:1
+0065:00820000:3264:013e:1:0
+Kabelio 4+
+p:KABELIO.CH,f:1
+0066:00820000:3264:013e:1:0
+Kabelio 5+
+p:KABELIO.CH,f:1
+0067:00820000:3264:013e:1:0
+Kabelio TV24
+p:KABELIO.CH,f:1
+0068:00820000:3264:013e:1:0
+Kabelio TV25
+p:KABELIO.CH,f:1
+0069:00820000:3264:013e:1:0
+Kabelio 6+
+p:KABELIO.CH,f:1
+006a:00820000:3264:013e:1:0
+Kabelio S1
+p:KABELIO.CH,f:1
+006b:00820000:3264:013e:1:0
+Kabelio TeleZueri
+p:KABELIO.CH,f:1
+006c:00820000:3264:013e:1:0
+Kabelio Puls acht
+p:KABELIO.CH,f:1
+006d:00820000:3264:013e:1:0
+Kabelio ORF 1
+p:KABELIO.CH,f:1
+006e:00820000:3264:013e:1:0
+Kabelio ORF 2
+p:KABELIO.CH,f:1
+006f:00820000:3264:013e:1:0
+Kabelio RTL CH
+p:KABELIO.CH,f:1
+0070:00820000:3264:013e:1:0
+Kabelio RTLZWEI CH
+p:KABELIO.CH,f:1
+0071:00820000:3264:013e:1:0
+Kabelio VOX CH
+p:KABELIO.CH,f:1
+0072:00820000:3264:013e:1:0
+Kabelio SAT.1 CH
+p:KABELIO.CH,f:1
+0073:00820000:3264:013e:1:0
+Kabelio ProSieben CH
+p:KABELIO.CH,f:1
+0074:00820000:3264:013e:1:0
+Kabelio Das Erste
+p:KABELIO.CH,f:1
+0075:00820000:3264:013e:1:0
+Kabelio ZDF
+p:KABELIO.CH,f:1
+0076:00820000:3264:013e:1:0
+Kabelio TF1 Suisse
+p:KABELIO.CH,f:1
+0078:00820000:3264:013e:1:0
+Kabelio M6 Suisse
+p:KABELIO.CH,f:1
+0079:00820000:3264:013e:1:0
+Kabelio BBC One
+p:KABELIO.CH,f:1
+007a:00820000:3264:013e:1:0
+Kabelio BBC Two
+p:KABELIO.CH,f:1
+007b:00820000:3264:013e:1:0
+Kabelio ITV One
+p:KABELIO.CH,f:1
+007f:00820000:3264:013e:1:0
+Kabelio KabelEins CH
+p:KABELIO.CH,f:1
+0082:00820000:3264:013e:1:0
+Kabelio Canale 5 ITA
+p:KABELIO.CH,f:1
+0084:00820000:3264:013e:1:0
+Kabelio n.n.
+p:KABELIO.CH,f:1
+1008:00822fd5:1e14:fbff:25:0
+TEST5
+p:SkyItalia,f:1
+1002:00822fd5:1e14:fbff:1:0
+IEPG Data
+p:Sky Italia,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2020
