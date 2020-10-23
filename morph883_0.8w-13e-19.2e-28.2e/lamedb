@@ -210,8 +210,8 @@ transponders
 011a0000:0836:0002
 	s 11656000:22000000:1:4:282:2:0
 /
-011a315a:0001:ffff
-	s 12634000:7200000:0:3:282:2:0:1:2:0:2
+011a2fc2:07ec:0002
+	s 12226000:27500000:0:2:282:2:0:1:2:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -1891,15 +1891,18 @@ STV HD
 p:BSkyB,f:1
 514a:011a0000:0810:0002:25:0
 UTV (Ulster) HD
-p:Freesat,f:1
+p:BSkyB,f:1
 5159:011a0000:0810:0002:25:0
 ITV 4 HD
-p:Sky Digital,f:1
+p:BSkyB,f:1
 5168:011a0000:0810:0002:25:0
 ITV 1 Anglia East HD
 p:BSkyB,f:1
 5172:011a0000:0810:0002:25:0
 ITV 1 Border England HD
+p:BSkyB,f:1
+5154:011a0000:0810:0002:25:0
+ITV 1 Yorkshire East HD
 p:BSkyB,f:1
 17d8:011a2e8a:07db:0002:1:0
 BabyTV
@@ -2766,7 +2769,7 @@ p:Sky Digital,f:1
 NatGeo Wild HD
 p:Sky Digital,f:1
 0f2e:011a0000:07ec:0002:25:0
-History HD
+Sky History HD
 p:Sky Digital,f:1
 0f30:011a0000:07ec:0002:25:0
 Crime & Investigation HD
@@ -3718,6 +3721,69 @@ Sky Sports Football Ireland
 p:BSkyB,c:090109,f:1
 d329:011a0000:0836:0002:1:0
 SmartShop
+p:BSkyB,f:1
+0e28:011a2fc2:07ec:0002:25:0
+RTÉ Two HD
+p:BSkyB,f:1
+0f2d:011a2fc2:07ec:0002:25:0
+NatGeoWild HD
+p:BSkyB,f:1
+0f2e:011a2fc2:07ec:0002:25:0
+Sky History HD
+p:BSkyB,f:1
+0f30:011a2fc2:07ec:0002:25:0
+Crime & Investigation HD
+p:BSkyB,f:1
+0f51:011a2fc2:07ec:0002:25:0
+RTÉ One HD
+p:BSkyB,f:1
+0fbe:011a2fc2:07ec:0002:25:0
+Sony TV HD
+p:BSkyB,f:1
+0edb:011a2fc2:07ec:0002:25:0
+Star Plus HD
+p:BSkyB,f:1
+0ee6:011a2fc2:07ec:0002:25:0
+Sky Action HD
+p:BSkyB,f:1
+210a:011a2fc2:07ec:0002:130:0
+Sky Shop
+p:BSkyB,f:1
+210b:011a2fc2:07ec:0002:130:0
+Get Sky Products
+p:BSkyB,f:1
+204a:011a2fc2:07ec:0002:130:0
+My Account
+p:BSkyB,f:1
+1f4f:011a2fc2:07ec:0002:130:0
+Help and Support
+p:BSkyB,f:1
+1f54:011a2fc2:07ec:0002:130:0
+Program Your Remote
+p:BSkyB,f:1
+1f5e:011a2fc2:07ec:0002:130:0
+My Messages
+p:BSkyB,f:1
+208b:011a2fc2:07ec:0002:130:0
+Help and Support
+p:BSkyB,f:1
+2099:011a2fc2:07ec:0002:130:0
+Reset TV PIN
+p:BSkyB,f:1
+209a:011a2fc2:07ec:0002:130:0
+Reset your PIN
+p:BSkyB,f:1
+13a4:011a2fc2:07ec:0002:130:0
+Browse Shop
+p:BSkyB,f:1
+21a4:011a2fc2:07ec:0002:130:0
+Pending Downgrade
+p:BSkyB,f:1
+21ab:011a2fc2:07ec:0002:130:0
+Pending Cancel
+p:BSkyB,f:1
+1fbf:011a2fc2:07ec:0002:130:0
+My Account
 p:BSkyB,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
@@ -11084,6 +11150,12 @@ p:GLOBECAST
 0839:00820000:22c4:013e:2:0
 Sout Al Rayyan
 p:GLOBECAST
+07e3:00820000:22c4:013e:1:0
+BBC CBeebies
+p:GLOBECAST,f:1
+07e5:00820000:22c4:013e:1:0
+BBC Lifestyle HD
+p:GLOBECAST,f:1
 2db3:00820000:2260:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
@@ -12287,9 +12359,6 @@ p:NC+,f:1
 113b:0082a9df:2af8:013e:1:0
 TVP 3 Warszawa
 p:nc+,c:0903f3,f:1
-1181:0082a9df:2af8:013e:1:0
-STREFA ABONENTA nc+
-p:CYFRA +,f:1
 118f:0082a9df:2af8:013e:1:0
 DATA
 p:nc+,f:1
@@ -12329,9 +12398,6 @@ p:nc+,f:1
 1163:0082a9df:2af8:013e:31:0
 4451
 p:nc+,f:1
-118a:0082a9df:2af8:013e:31:0
-4490
-p:nc+,f:1
 1190:0082a9df:2af8:013e:132:0
 NETFLIX
 p:nc+
@@ -12346,6 +12412,9 @@ Cinemax HD
 p:CANAL+,f:1
 1187:0082a9df:2af8:013e:1:0
 National Geographic Wild HD
+p:CANAL+,f:1
+113f:0082a9df:2af8:013e:1:0
+STREFA ABONENTA
 p:CANAL+,f:1
 1315:00820000:2e7c:013e:1:0
 Eurosport 2 HD
