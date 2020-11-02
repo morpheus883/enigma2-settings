@@ -441,6 +441,12 @@ transponders
 005aaf4f:791a:217c
 	s 12111000:31400000:1:2:90:2:0:1:2:0:2:37:8:0
 /
+005a0000:c544:010e
+	s 11625000:7500000:0:0:90:2:0:1:1:0:2
+/
+005a0000:0c07:010e
+	s 11346000:29000000:1:0:90:2:0:1:1:0:2
+/
 end
 services
 43a0:00820000:2cec:013e:1:0
@@ -3362,6 +3368,9 @@ p:STN,f:1
 39d8:00820000:1fa4:013e:1:0
 Thai TV Global Network
 p:STN,f:1
+39d1:00820000:1fa4:013e:25:0
+BBC Persian HD
+p:BBC World Service,f:1
 106a:00820000:2008:fbff:25:0
 Sky Cinema Uno HD
 p:Sky Italia,f:1
@@ -3904,6 +3913,9 @@ BBC CBeebies
 p:GLOBECAST,f:1
 07e5:00820000:22c4:013e:1:0
 BBC Lifestyle HD
+p:GLOBECAST,f:1
+07e6:00820000:22c4:013e:1:0
+BBC Brit
 p:GLOBECAST,f:1
 2db3:00820000:2260:fbff:1:0
 IEPG Data
@@ -6446,6 +6458,15 @@ p:encoder,f:1
 0072:005a0000:170c:009e:1:0
 Better 4
 p:encoder,f:1
+0015:005a0000:170c:009e:2:0
+TVT Radio 1 (Radio Lome)
+p:
+0016:005a0000:170c:009e:2:0
+TVT Radio 2 (Radio Kara)
+p:
+0014:005a0000:170c:009e:22:0
+TVT International
+p:TVT,f:1
 0451:005a0000:1af4:009e:1:0
 Disney Junior Middle-East & Africa
 p:Arqiva,f:1
@@ -6488,6 +6509,9 @@ p:Arqiva
 0497:005a0000:1af4:009e:12:0
 talkSPORT Dist
 p:
+0488:005a0000:1af4:009e:2:0
+IRN
+p:ARQIVA
 0268:005a3048:206c:009c:25:0
 Spiegel TV Wissen HD
 p:KabelKiosk,f:1
