@@ -198,6 +198,9 @@ transponders
 02940000:0069:0069
 	s 12610000:3000000:1:1:660:2:0:1:1:0:2
 /
+02940000:1000:0070
+	s 11580000:1600000:0:1:660:2:0
+/
 026c2b23:0001:ffff
 	s 11043000:2300000:0:5:620:2:0
 /
@@ -693,9 +696,6 @@ transponders
 01a40000:0001:00eb
 	s 11470000:6800000:1:3:420:2:0:1:2:0:2
 /
-01a40000:a415:042e
-	s 12356000:7100000:0:2:420:2:0:1:2:0:2
-/
 01a42e0d:a8c3:042e
 	s 11789000:20000000:0:3:420:2:0:1:2:2:2
 /
@@ -734,6 +734,15 @@ transponders
 /
 01a4ab76:0001:ffff
 	s 11126000:1666000:1:2:420:2:0
+/
+01a4aad4:0000:ff00
+	s 10964000:14170000:1:4:420:2:0:1:2:0:2
+/
+01a40000:0009:005a
+	s 12188000:27500000:1:4:420:2:0:1:2:0:2
+/
+01a40000:0004:005a
+	s 11012000:30000000:1:4:420:2:0:1:2:0:2
 /
 01860000:000d:001c
 	s 12524000:30000000:1:5:390:2:0
@@ -1230,6 +1239,12 @@ transponders
 014a30ee:0001:0001
 	s 12526000:9600000:0:3:330:2:0:1:2:0:2
 /
+014aaa4e:0001:0001
+	s 10830000:7200000:1:3:330:2:0:1:2:0:2
+/
+014aaa60:0001:0001
+	s 10848000:7200000:1:3:330:2:0:1:2:0:2
+/
 013b0000:1456:0005
 	s 11817000:27500000:1:3:315:2:0
 /
@@ -1274,12 +1289,6 @@ transponders
 /
 013b0000:002d:0055
 	s 12051000:30000000:1:3:315:2:0:1:2:0:2
-/
-013b0000:2bc0:004b
-	s 10758000:27500000:1:0:315:2:0:1:2:0:2
-/
-013b2bb7:0000:0000
-	s 11191000:9600000:0:0:315:2:0:1:2:0:2
 /
 01360000:0001:042e
 	s 10960000:4444000:0:3:310:2:0
@@ -1788,6 +1797,9 @@ transponders
 0104311e:0001:ffff
 	s 12574000:2962000:0:4:260:2:0:1:1:0:2
 /
+01042f02:1015:0001
+	s 12034000:27500000:0:4:260:2:0
+/
 00ff0000:0410:00e0
 	s 11547000:27500000:1:2:255:2:0:1:2:0:2
 /
@@ -2031,6 +2043,9 @@ transponders
 00ebacd7:0000:0000
 	s 11479000:7200000:1:3:235:2:0:1:2:0:2
 /
+00ebb1c2:0001:0001
+	s 12738000:7200000:1:3:235:2:0:1:2:0:2
+/
 00d8ad9e:0005:0001
 	s 11678000:2850000:1:5:216:2:0
 /
@@ -2183,6 +2198,18 @@ transponders
 /
 00d82da9:0001:ffff
 	s 11689000:2200000:0:3:216:2:0
+/
+00d8b1aa:000c:ffff
+	s 12714000:2900000:1:2:216:2:0:1:2:0:2
+/
+00d82d6c:0001:0001
+	s 11628000:3220000:0:4:216:2:0:1:2:0:2
+/
+00d82cdd:0001:ffff
+	s 11485000:2160000:0:4:216:2:0
+/
+00d80000:0003:0008
+	s 11645000:1600000:1:3:216:2:0:1:1:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -3186,17 +3213,14 @@ transponders
 00642da5:0001:ffff
 	s 11685000:2500000:0:3:100:2:0
 /
-00642d13:0001:ffe1
-	s 11539000:7200000:0:4:100:2:0:1:2:0:2
+0064b1be:0001:ffff
+	s 12734000:6666000:1:3:100:2:0:1:2:0:2
+/
+0064b19f:0001:ffff
+	s 12703000:3333000:1:2:100:2:0:1:2:0:2
 /
 00642d25:0001:0001
 	s 11557000:3333000:0:4:100:2:0:1:2:0:2
-/
-0064ab31:0001:ffff
-	s 11057000:9600000:1:0:100:2:0:1:2:0:2
-/
-00642b9f:0000:0000
-	s 11167000:14400000:0:0:100:2:0:1:2:0:2
 /
 005a0000:14b4:009c
 	s 11785000:27500000:0:2:90:2:0:1:2:0:2
@@ -3342,11 +3366,8 @@ transponders
 005aaf4f:791a:217c
 	s 12111000:31400000:1:2:90:2:0:1:2:0:2:37:8:0
 /
-005a0000:c544:010e
-	s 11625000:7500000:0:0:90:2:0:1:1:0:2
-/
-005a0000:0c07:010e
-	s 11346000:29000000:1:0:90:2:0:1:1:0:2
+005aaf9c:791a:217c
+	s 12188000:31400000:1:2:90:2:0:1:2:0:2:37:262140:1
 /
 00460000:4e20:0064
 	s 10721000:22000000:0:3:70:2:0
@@ -3510,11 +3531,8 @@ transponders
 0046b143:0001:ffff
 	s 12611000:5000000:1:3:70:2:0:1:2:0:2
 /
-0046abaa:0001:ffff
-	s 11178000:3674000:1:3:70:2:0:1:2:0:2
-/
-0046b170:0001:0000
-	s 12656000:7200000:1:3:70:2:0:1:2:0:2
+0046ad07:0000:0001
+	s 11527000:7500000:1:3:70:2:0:1:2:0:2
 /
 00300000:000c:0055
 	s 11766000:27500000:0:3:48:2:0:1:2:0:2
@@ -3752,6 +3770,12 @@ transponders
 /
 001e31b9:0001:ffff
 	s 12729000:2220000:0:3:30:2:0
+/
+001e0000:0069:212c
+	s 12737000:15055000:0:3:30:2:0:1:1:0:2
+/
+001eb117:0001:0001
+	s 12567000:2500000:1:3:30:2:0:1:1:0:2
 /
 001330a8:000a:0002
 	s 12456000:30000000:0:2:19:2:0:1:2:0:2
@@ -4062,12 +4086,6 @@ fff83113:0af7:00bb
 0e080000:000c:000a
 	s 12705000:45000000:1:3:-8:2:0:1:2:0:2
 /
-fff8b0e7:0309:0309
-	s 12519000:2500000:1:3:-8:2:0:1:2:0:2
-/
-0e080000:0055:0056
-	s 12322000:30000000:0:3:-8:2:0:1:2:0:2
-/
 ffe2acc6:0000:0000
 	s 11462000:3062000:1:1:-30:2:0:1:1:0:2
 /
@@ -4082,9 +4100,6 @@ ffe20000:0039:217c
 /
 0df2b139:0001:0001
 	s 12601000:10000000:1:7:-30:2:0:1:2:0:2
-/
-0df2305d:0001:ffff
-	s 12381000:4231000:0:0:-30:2:0
 /
 0de8a9e3:0001:0064
 	s 10723000:30000000:1:2:-40:2:0:1:2:0:2
@@ -4713,9 +4728,6 @@ ffb0b0f4:0001:0001
 ffb0b10f:0000:0090
 	s 12559000:4667000:1:3:-80:2:0:1:2:0:2
 /
-0dc0b169:0001:ffff
-	s 12649000:2500000:1:4:-80:2:0:1:2:0:2
-/
 0da2aad0:0001:0000
 	s 10960000:1350000:1:4:-110:2:0
 /
@@ -4751,6 +4763,9 @@ ff922d5c:0001:0001
 /
 0da22cef:0001:0001
 	s 11503000:3500000:0:3:-110:2:0:1:2:0:2
+/
+0da22bb6:0001:ffff
+	s 11190000:9874000:0:3:-110:2:0:1:2:0:2
 /
 0d930000:0d48:00eb
 	s 12582000:2222000:0:3:-125:2:0
@@ -4793,9 +4808,6 @@ ff6aacf1:0001:0001
 /
 ff6a3141:0001:0001
 	s 12609000:7552000:0:3:-150:2:0
-/
-0d7a2adf:0001:ffff
-	s 10975000:2963000:0:0:-150:2:0
 /
 0d7a2d84:0441:0000
 	s 11652000:6000000:0:0:-150:2:0:1:2:0:2
@@ -6614,51 +6626,18 @@ p:Sentech,f:1
 00d6:02adb18a:0005:0049:1:0
 Oracle TV
 p:Sentech,f:1
-00d9:02adb18a:0005:0049:1:0
-Good News TV
-p:Sentech,f:1
-00d0:02adb18a:0005:0049:1:0
-God With Us
-p:SENTECH,f:1
-00dd:02adb18a:0005:0049:1:0
-CHM TV International
-p:Sentech,f:1
-00df:02adb18a:0005:0049:1:0
-New Generation TV
-p:SENTECH,f:1
-00e1:02adb18a:0005:0049:1:0
-Grace TV
-p:SENTECH,f:1
 00cb:02adb18a:0005:0049:1:0
 Celebration TV
 p:SENTECH,f:1
 00d7:02adb18a:0005:0049:1:0
-Celebration TV
+Celebration TV Plus
 p:SENTECH,f:1
-00e4:02adb18a:0005:0049:1:0
-Reigners TV
-p:Sentech,f:1
 00f1:02adb18a:0005:0049:1:0
 Temple TV
-p:SENTECH,f:1
-00d3:02adb18a:0005:0049:1:0
-Verbovivo TV
 p:SENTECH,f:1
 00d4:02adb18a:0005:0049:1:0
 Dunamis TV
 p:SENTECH ,f:1
-00f4:02adb18a:0005:0049:1:0
-Power TV
-p:SENTECH,f:1
-00f6:02adb18a:0005:0049:1:0
-Evangel TV
-p:SENTECH,f:1
-00f8:02adb18a:0005:0049:1:0
-Censers TV
-p:SENTECH,f:1
-00f9:02adb18a:0005:0049:1:0
-CF TV
-p:SENTECH,f:1
 0191:02adb18a:0005:0049:2:0
 SEYATHUTHUKA FM
 p:SENTECH
@@ -6668,41 +6647,26 @@ p:SENTECH,f:1
 00db:02adb18a:0005:0049:1:7
 Eagles TV
 p:SENTECH,f:1
-00d2:02adb18a:0005:0049:1:0
-SCHEKINA MC
-p:Sentech,f:1
 0192:02adb18a:0005:0049:2:0
 Izwelenala FM
 p:SENTECH
 00cc:02adb18a:0005:0049:1:0
 Number 1 TV
 p:Sentech,f:1
-00dc:02adb18a:0005:0049:1:0
-Redemption TV
-p:SENTECH,f:1
 00fa:02adb18a:0005:0049:1:0
 Commec Channel
 p:SENTECH,f:1
 00de:02adb18a:0005:0049:1:0
 New Jerusalem Broadcasts
 p:SENTECH,f:1
-00d1:02adb18a:0005:0049:1:0
-GNF TV
-p:Sentech,f:1
 00e2:02adb18a:0005:0049:1:0
 Bliss TV
-p:Sentech,f:1
-00e6:02adb18a:0005:0049:1:0
-Camnet TV
 p:Sentech,f:1
 007f:02adb18a:0005:0049:1:0
 Izwelenala TV
 p:Sentech,f:1
 0080:02adb18a:0005:0049:1:0
 Favour TV
-p:Sentech,f:1
-00fb:02adb18a:0005:0049:1:0
-La Bourse Media
 p:Sentech,f:1
 00fc:02adb18a:0005:0049:1:0
 Impact TV
@@ -6717,14 +6681,11 @@ p:SENTECH,f:1
 Ebira Unity TV
 p:Sentech,f:1
 00d8:02adb18a:0005:0049:1:0
-Ark TV Plus
+ATV
 p:SENTECH,f:1
 0009:02ad318a:0004:0001:1:0
-Champions Television
+Champions TV
 p:Viewsat,f:1
-000b:02ad318a:0004:0001:1:0
-Chosen TV
-p:Telemedia,f:1
 0015:02ad318a:0004:0001:1:0
 Omega Gospel Channel
 p:,f:1
@@ -6741,11 +6702,8 @@ p:ViewSat,c:090525,f:1
 iFILM English
 p:ViewSat,c:090526,f:1
 0004:02ad318a:0004:0001:2:0
-IRIB Radio
+IRIB 06 WORLD SERVICE
 p:ViewSat,c:090504
-0013:02ad318a:0004:0001:1:0
-Divine Hand TV
-p:ViewSat,c:090519,f:1
 0023:02ad318a:0004:0001:1:0
 Full Life TV
 p:ViewSat,f:1
@@ -6757,9 +6715,6 @@ Bride TV
 p:ViewMedia,f:1
 0005:02ad318a:0004:0001:1:0
 KICC TV
-p:ViewMedia,f:1
-0022:02ad318a:0004:0001:1:0
-Rapha TV
 p:ViewMedia,f:1
 0024:02ad318a:0004:0001:1:0
 Ark Of God TV
@@ -6782,23 +6737,11 @@ p:ViewMedia,f:1
 0001:02ad318a:0004:0001:1:0
 Miracle TV
 p:ViewMedia,f:1
-0003:02ad318a:0004:0001:1:0
-ImpactExploit TV
+0006:02ad318a:0004:0001:1:0
+Dinayen TV
 p:ViewMedia,f:1
-000b:02adb13a:0002:0001:1:0
-ViewMedia IS20
-p:ViewSat,f:1
-0002:02adb13a:0002:0001:1:0
-Service EF29K
-p:ViewMedia,f:1
-001a:02adb13a:0002:0001:1:0
-Talent Sports
-p:ViewMedia,f:1
-0001:02adb13a:0002:0001:1:0
-Grace TV
-p:ViewMedia,f:1
-0005:02adb13a:0002:0001:1:0
-Champions TV HD
+0007:02ad318a:0004:0001:1:0
+Number 1 TV Plus
 p:ViewMedia,f:1
 0001:02ad2b48:0001:ffff:1:0
 Rossiya 1 (+1h)
@@ -6968,14 +6911,23 @@ p:ViewMedia,f:1
 0003:02adb13a:0007:0001:1:0
 Dinayen TV
 p:ViewMedia,f:1
-0004:02adb13a:0007:0001:1:0
-AjrRadioTV
-p:ViewMedia,f:1
-000a:02adb13a:0007:0001:1:0
-Bride TV HD
-p:ViewMedia,f:1
 0007:02adb13a:0007:0001:1:0
 Divine Hand TV HD
+p:ViewMedia,f:1
+0001:02adb13a:0007:0001:1:0
+Grace TV
+p:ViewMedia,f:1
+0002:02adb13a:0007:0001:1:0
+Service EF29K
+p:ViewMedia,f:1
+0005:02adb13a:0007:0001:1:0
+Champions TV HD
+p:ViewMedia,f:1
+000b:02adb13a:0007:0001:1:0
+ViewMedia IS20
+p:ViewSat,f:1
+001a:02adb13a:0007:0001:1:0
+Talent Sports
 p:ViewMedia,f:1
 0001:02ad313e:0001:0001:1:0
 KSO
@@ -7085,6 +7037,12 @@ p:Dalsat Global,f:1
 006f:02940000:0069:0069:2:0
 WADNAHA-FM
 p:Dalsat Global
+0001:02940000:1000:0070:1:0
+Ren TV
+p:Scopus,f:1
+0002:02940000:1000:0070:1:0
+Rossiya 24
+p:Scopus,f:1
 0001:026c2b23:0001:ffff:1:0
 TANDBERG
 p:TandbergTV,f:1
@@ -12118,6 +12076,9 @@ CEM RADYO
 p:TURKSAT
 c9bb:01a40000:76c1:042e:1:0
 BBNTürk
+p:TURKSAT,f:1
+c9bc:01a40000:76c1:042e:25:0
+Roya HD
 p:TURKSAT,f:1
 3b01:01a42e68:a98a:042e:2:0
 RADYO MUTLU
@@ -17735,6 +17696,12 @@ p:TVP,f:1
 0001:014a30ee:0001:0001:25:0
 Entella Reggina
 p:ITA 864 TVS,f:1
+0001:014aaa4e:0001:0001:1:0
+Service 01
+p:Net 1,f:1
+0001:014aaa60:0001:0001:1:0
+SNG8 MA
+p:Net 1,f:1
 1d92:013b0000:1456:0005:1:0
 VTV Romania
 p:,f:1
@@ -18803,6 +18770,9 @@ p:BSkyB,f:1
 276b:011a0000:07fc:0002:1:0
 ITV 1 Anglia East +1
 p:BSkyB,f:1
+277e:011a0000:07fc:0002:1:0
+ITV 1 Wales
+p:BSkyB,f:1
 189d:011a0000:07fd:0002:1:0
 BBC One London
 p:BBC,f:1
@@ -18986,12 +18956,6 @@ p:BSkyB,c:090101,f:1
 2884:011a0000:0800:0002:1:0
 CBBC Channel
 p:BSkyB,f:1
-2788:011a0000:0805:0002:1:0
-ITV 1 Border England
-p:Freesat,f:1
-278d:011a0000:0805:0002:1:0
-ITV 1 Westcountry South +1
-p:Freesat,f:1
 2792:011a0000:0805:0002:1:0
 ITV 1 Tyne Tees TV North
 p:Freesat,f:1
@@ -19015,6 +18979,15 @@ ITV 2 +1
 p:Freesat,f:1
 279b:011a0000:0805:0002:1:0
 ITV Be +1
+p:BSkyB,f:1
+2789:011a0000:0805:0002:1:0
+ITV 1 Border Scotland
+p:BSkyB,f:1
+27a8:011a0000:0805:0002:1:0
+ITV 1 Central East
+p:BSkyB,f:1
+2797:011a0000:0805:0002:1:0
+ITV 1 Westcountry West
 p:BSkyB,f:1
 27d8:011a0000:0806:0002:1:0
 ITV Channel TV
@@ -19450,39 +19423,6 @@ Channel 4 HD
 p:Freesat,f:1
 5302:011a0000:0814:0002:1:0
 4seven
-p:BSkyB,f:1
-2f45:011a0000:080b:0002:1:0
-ITV 1 Meridian N
-p:BSkyB,f:1
-2f4e:011a0000:080b:0002:1:0
-ITV 1 Anglia W
-p:BSkyB,f:1
-2f58:011a0000:080b:0002:1:0
-ITV 1 Yorkshire E
-p:BSkyB,f:1
-2f85:011a0000:080b:0002:1:0
-ITV 1 Yorkshire West +1
-p:BSkyB,f:1
-2f71:011a0000:080b:0002:1:0
-ITV 1 Central East
-p:Sky Digital,f:1
-2f49:011a0000:080b:0002:1:0
-ITV +1 Tyne Tees
-p:Sky Digital,f:1
-2f62:011a0000:080b:0002:1:0
-ITV 1 Border Scotland
-p:BSkyB,f:1
-2f76:011a0000:080b:0002:1:0
-ITV 1 Wales
-p:Freesat,f:1
-2f7b:011a0000:080b:0002:1:0
-ITV 1 Wales +1
-p:Freesat,f:1
-2f8a:011a0000:080b:0002:1:0
-ITV 1 Westcountry West
-p:BSkyB,f:1
-2f8f:011a0000:080b:0002:1:0
-ITV 1 Westcountry West +1
 p:BSkyB,f:1
 22c5:011a0000:080d:0002:25:0
 BBC One Scotland HD
@@ -22862,42 +22802,6 @@ p:ARABSAT,f:1
 001f:0104300f:146f:02be:1:0
 Tele Maroc
 p:Overon,f:1
-019c:01040000:1015:02be:1:0
-Al Istijaba TV
-p:JMC,f:1
-019d:01040000:1015:02be:1:0
-Al Alamia (University of Africa)
-p:JMC,f:1
-019f:01040000:1015:02be:1:0
-Kassala TV
-p:JMC,f:1
-01a1:01040000:1015:02be:1:0
-Red Sea TV
-p:JMC,f:1
-01a4:01040000:1015:02be:1:0
-Sudan Knowledge
-p:JMC,f:1
-01a5:01040000:1015:02be:1:0
-Sudan Sport
-p:JMC,f:1
-01a8:01040000:1015:02be:1:0
-Omdurman TV
-p:JMC,f:1
-01b8:01040000:1015:02be:1:0
-Al-Marikh TV
-p:JMC,f:1
-01b0:01040000:1015:02be:1:0
-Nile River
-p:JMC,f:1
-01b1:01040000:1015:02be:1:0
-Al Alamia 2 TV
-p:JMC,f:1
-01b9:01040000:1015:02be:1:0
-Sudania 24 HD
-p:JMC,f:1
-01bb:01040000:1015:02be:1:0
-Almareefa Education
-p:JMC,f:1
 0001:01040000:1bc0:02be:1:0
 MBC 1
 p:MBC,f:1
@@ -24020,6 +23924,42 @@ p:beIN Sports,f:1
 0001:0104311e:0001:ffff:1:0
 Service-1
 p:Service Provider,f:1
+0001:01042f02:1015:0001:1:0
+Aqar TV
+p:jmc,f:1
+019c:01042f02:1015:0001:1:0
+Al Istijaba TV
+p:JMC,f:1
+019f:01042f02:1015:0001:1:0
+Kassala TV
+p:JMC,f:1
+01a1:01042f02:1015:0001:1:0
+Red Sea TV
+p:JMC,f:1
+01a4:01042f02:1015:0001:1:0
+Sudan Knowledge
+p:JMC,f:1
+01a5:01042f02:1015:0001:1:0
+Sudan Sport
+p:JMC,f:1
+01a8:01042f02:1015:0001:1:0
+Omdurman TV
+p:JMC,f:1
+01b0:01042f02:1015:0001:1:0
+Nile River
+p:JMC,f:1
+01b1:01042f02:1015:0001:1:0
+Al Alamia 2 TV
+p:JMC,f:1
+01b8:01042f02:1015:0001:1:0
+Al-Marikh TV
+p:JMC,f:1
+01b9:01042f02:1015:0001:1:0
+Sudania 24 HD
+p:JMC,f:1
+01bb:01042f02:1015:0001:1:0
+Almareefa Education
+p:JMC,f:1
 28a1:00ff0000:0410:00e0:25:0
 beIN Sports 1 HD
 p:beIN,f:1
@@ -24338,6 +24278,9 @@ p:M7 Group,f:1
 1b94:00eb0000:0c88:0003:22:0
 Nautical Channel
 p:M7 Group,C:0000,f:1
+1c02:00eb0000:0c88:0003:25:0
+eSports One
+p:M7 Group,f:1
 17d5:00eb0000:0c91:0003:25:0
 Unitel Classica HD
 p:SkyLink,f:1
@@ -29453,6 +29396,9 @@ p:Telefonica Servicios Audiovisuales,f:1
 7a4b:00c00000:0410:0001:1:0
 I24 News Français
 p:TSA,f:1
+7a49:00c00000:0410:0001:25:0
+Telesur HD
+p:TSA,f:1
 78b5:00c00000:03ec:0001:25:0
 Fox Life HD España
 p:PRISA TV,f:1
@@ -30932,6 +30878,9 @@ p:T-HT,f:1
 00dc:00a00000:0002:0040:2:0
 ORV Valentino.
 p:T-HT
+0043:00a00000:0002:0040:22:0
+BrazzersTV.
+p:T-HT,f:1
 0022:00a00000:0003:0040:22:0
 Vivid TV
 p:Max TV,f:1
@@ -31506,7 +31455,7 @@ p:TAG Broadcasting,f:1
 Evil Angel HD
 p:TAG Broadcasting,f:1
 0390:00a00000:c670:016e:22:0
-Test X
+Pornhub TV
 p:A1 Broadcasting,f:1
 0391:00a00000:c670:016e:25:0
 Animal Planet HD
@@ -31519,6 +31468,12 @@ Discovery Science HD
 p:A1 Broadcasting,f:1
 0394:00a00000:c670:016e:25:0
 Discovery Showcase HD
+p:A1 Broadcasting,f:1
+0395:00a00000:c670:016e:22:0
+Reality Kings TV
+p:A1 Broadcasting,f:1
+038f:00a00000:c670:016e:25:0
+Travel Channel HD
 p:A1 Broadcasting,f:1
 0006:00a00000:0000:016e:1:0
 Antena International
@@ -33200,6 +33155,12 @@ p:H,f:1
 0082:00a00000:0001:016e:2:0
 RM Kosovo
 p:H
+0079:00a00000:0001:016e:1:0
+K3
+p:,f:1
+0085:00a00000:0001:016e:1:0
+TV 101
+p:H,f:1
 03ec:00a00000:5e24:016e:1:0
 Svet Plus
 p:STN,f:1
@@ -37934,6 +37895,45 @@ p:RAI,f:1
 0d4f:00820000:1450:013e:1:0
 Rai 5 HD
 p:Rai,c:0907bd,f:1
+0d71:00820000:1450:013e:2:0
+Rai Radio 1
+p:Rai
+0d72:00820000:1450:013e:2:0
+Rai Radio 2
+p:Rai
+0d73:00820000:1450:013e:2:0
+Rai Radio 3
+p:Rai
+0d74:00820000:1450:013e:2:0
+Rai Radio3 Classica
+p:Rai
+0d75:00820000:1450:013e:2:0
+Rai GR Parlamento
+p:Rai
+0d76:00820000:1450:013e:2:0
+Rai Isoradio
+p:Rai
+0d77:00820000:1450:013e:2:0
+Rai Radio Techete'
+p:Rai
+0d78:00820000:1450:013e:2:0
+Rai Radio Live
+p:Rai
+0d79:00820000:1450:013e:2:0
+Rai Radio Kids
+p:Rai
+0d7a:00820000:1450:013e:2:0
+Rai Radio2 Indie
+p:Rai
+0d7b:00820000:1450:013e:2:0
+Rai Radio Tutta Italiana
+p:Rai
+0d7c:00820000:1450:013e:2:0
+Rai OM Unica
+p:Rai
+0d7d:00820000:1450:013e:2:0
+Rai Radio1 Sport
+p:Rai
 0cf2:00820000:1518:013e:1:0
 Senato
 p:RAI,f:1
@@ -38536,6 +38536,12 @@ Folx TV
 p:MB Satellite,f:1
 0e84:00820000:3200:013e:1:0
 MyTVplus
+p:MB Satellite,f:1
+0e85:00820000:3200:013e:1:0
+One Music Television
+p:MB Satellite,f:1
+0e86:00820000:3200:013e:1:0
+Zwei Music Television
 p:MB Satellite,f:1
 338c:00820000:1388:013e:1:0
 Test GC 1
@@ -41510,75 +41516,6 @@ p:Persidera,f:1
 0029:005a0000:7918:217c:25:0
 Deejay TV HD
 p:Persidera,f:1
-0007:005a0000:791a:217c:1:0
-ILIKE.TV
-p:Persidera,f:1
-0008:005a0000:791a:217c:1:0
-Canale 162
-p:Persidera,c:050001,f:1
-000f:005a0000:791a:217c:1:0
-Juwelo
-p:Persidera,f:1
-0017:005a0000:791a:217c:1:0
-Channel 24
-p:Persidera,f:1
-001e:005a0000:791a:217c:1:0
-HSE 24 Donna
-p:Persidera,f:1
-001f:005a0000:791a:217c:1:0
-Rete Italia
-p:Persidera,f:1
-0020:005a0000:791a:217c:1:0
-La 4 Italia
-p:Persidera,f:1
-0021:005a0000:791a:217c:1:0
-Gold TV Italia
-p:Persidera,f:1
-0022:005a0000:791a:217c:1:0
-Linea GEM
-p:Persidera,f:1
-0023:005a0000:791a:217c:1:0
-Linea Italia
-p:Persidera,f:1
-0024:005a0000:791a:217c:1:0
-Orler TV
-p:Persidera,f:1
-0025:005a0000:791a:217c:1:0
-Air Italia
-p:Persidera,f:1
-0026:005a0000:791a:217c:1:0
-HSE 24 Beauty
-p:Persidera,f:1
-0027:005a0000:791a:217c:1:0
-Donna Sport TV
-p:Persidera,f:1
-002d:005a0000:791a:217c:1:0
-Canale 165
-p:Persidera,f:1
-002e:005a0000:791a:217c:1:0
-Rainbow Channel TV - RCT
-p:Persidera,f:1
-005f:005a0000:791a:217c:1:0
-Fire TV
-p:Persidera,f:1
-0060:005a0000:791a:217c:1:0
-Life 120 Channel
-p:Persidera,f:1
-0061:005a0000:791a:217c:1:0
-Mondo Calcio
-p:Persidera,f:1
-0062:005a0000:791a:217c:1:0
-Canale 232
-p:Persidera,f:1
-006f:005a0000:791a:217c:1:0
-Italia Channel
-p:Persidera,f:1
-0070:005a0000:791a:217c:1:0
-Pianeta Tv
-p:Persidera,f:1
-002f:005a0000:791a:217c:1:0
-Donna Shopping
-p:Persidera,f:1
 0010:005a0000:0204:001d:1:0
 Giallo
 p:Persidera,f:1
@@ -41696,8 +41633,8 @@ p:Persidera,f:1
 006e:005a0000:0202:001d:1:0
 Sfera TV
 p:Persidera,f:1
-0073:005a0000:0202:001d:1:0
-Radio Cusano Campus
+0073:005a0000:0202:001d:25:0
+Cusano Italia TV
 p:Persidera,f:1
 007d:005a0000:0202:001d:1:0
 Parole di Vita
@@ -41885,6 +41822,9 @@ p:Persidera,f:1
 002e:005aaf4f:791a:217c:1:0
 Rainbow TV
 p:Persidera,f:1
+002f:005aaf4f:791a:217c:1:0
+DONNA SHOPPING
+p:Persidera,f:1
 005f:005aaf4f:791a:217c:1:0
 Fire TV
 p:Persidera,f:1
@@ -41903,8 +41843,74 @@ p:Persidera,f:1
 0070:005aaf4f:791a:217c:1:0
 Pianeta Tv
 p:Persidera,f:1
-002f:005aaf4f:791a:217c:1:0
-DONNA SHOPPING
+0007:005aaf9c:791a:217c:1:0
+ILIKE.TV
+p:Persidera,f:1
+0008:005aaf9c:791a:217c:1:0
+Canale 162
+p:Persidera,c:050001,f:1
+000f:005aaf9c:791a:217c:1:0
+Juwelo
+p:Persidera,f:1
+0017:005aaf9c:791a:217c:1:0
+Channel 24
+p:Persidera,f:1
+001e:005aaf9c:791a:217c:1:0
+HSE 24 Donna
+p:Persidera,f:1
+001f:005aaf9c:791a:217c:1:0
+Rete Italia
+p:Persidera,f:1
+0020:005aaf9c:791a:217c:1:0
+La 4 Italia
+p:Persidera,f:1
+0021:005aaf9c:791a:217c:1:0
+Gold TV Italia
+p:Persidera,f:1
+0022:005aaf9c:791a:217c:1:0
+Linea GEM
+p:Persidera,f:1
+0023:005aaf9c:791a:217c:1:0
+Linea Italia
+p:Persidera,f:1
+0024:005aaf9c:791a:217c:1:0
+Orler TV
+p:Persidera,f:1
+0025:005aaf9c:791a:217c:1:0
+Air Italia
+p:Persidera,f:1
+0026:005aaf9c:791a:217c:1:0
+HSE 24 Beauty
+p:Persidera,f:1
+0027:005aaf9c:791a:217c:1:0
+Donna Sport TV
+p:Persidera,f:1
+002d:005aaf9c:791a:217c:1:0
+Canale 165
+p:Persidera,f:1
+002e:005aaf9c:791a:217c:1:0
+Rainbow Channel TV - RCT
+p:Persidera,f:1
+002f:005aaf9c:791a:217c:1:0
+Donna Shopping
+p:Persidera,f:1
+005f:005aaf9c:791a:217c:1:0
+Fire TV
+p:Persidera,f:1
+0060:005aaf9c:791a:217c:1:0
+Life 120 Channel
+p:Persidera,f:1
+0061:005aaf9c:791a:217c:1:0
+Mondo Calcio
+p:Persidera,f:1
+0062:005aaf9c:791a:217c:1:0
+Canale 232
+p:Persidera,f:1
+006f:005aaf9c:791a:217c:1:0
+Italia Channel
+p:Persidera,f:1
+0070:005aaf9c:791a:217c:1:0
+Pianeta Tv
 p:Persidera,f:1
 0001:00460000:4e20:0064:1:0
 BBC Persian
@@ -44288,6 +44294,9 @@ p:VIASAT,f:1
 0c08:00300000:0018:0044:22:0
 Fine Living
 p:VIASAT,f:1
+0a1e:00300000:0018:0044:22:0
+Viasat History
+p:VIASAT,f:1
 0abe:00300000:001a:0044:25:0
 TV 1000 East HD
 p:VIASAT,c:090abe,f:1
@@ -45161,6 +45170,27 @@ p:Service Provider,f:1
 0001:001e31b9:0001:ffff:1:0
 NEW TR
 p:Service Provider,f:1
+0e10:001e0000:0069:212c:1:0
+Mega
+p:DIGEA,f:1
+0c1c:001e0000:0069:212c:1:0
+Alpha TV Greece
+p:DIGEA,f:1
+0d48:001e0000:0069:212c:1:0
+Open Beyond
+p:DIGEA,f:1
+0e74:001e0000:0069:212c:1:0
+Macedonia TV
+p:DIGEA,f:1
+0c80:001e0000:0069:212c:1:0
+Skai
+p:DIGEA,f:1
+0dac:001e0000:0069:212c:1:0
+Star
+p:DIGEA,f:1
+0ce4:001e0000:0069:212c:1:0
+ANT1
+p:DIGEA,f:1
 01b2:001330a8:000a:0002:1:0
 DM Sat
 p:POLARIS,f:1
