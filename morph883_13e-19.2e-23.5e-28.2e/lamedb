@@ -210,9 +210,6 @@ transponders
 011a2fc2:07ec:0002
 	s 12226000:27500000:0:2:282:2:0:1:2:0:2
 /
-011a0000:080b:0002
-	s 10993000:22000000:0:4:282:2:0
-/
 00eb0000:0c88:0003
 	s 11856000:29900000:1:2:235:2:0:1:2:0:0
 /
@@ -416,6 +413,9 @@ transponders
 /
 00ebacd7:0000:0000
 	s 11479000:7200000:1:3:235:2:0:1:2:0:2
+/
+00ebacde:0bba:0001
+	s 11486000:3750000:1:3:235:2:0:1:2:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -3077,6 +3077,9 @@ p:BSkyB,f:1
 1792:011a0000:07ed:0002:25:0
 Sky Hits HD
 p:BSkyB,f:1
+146f:011a0000:07ed:0002:25:0
+PrimeVideo HD
+p:BSkyB,f:1
 ccb0:011a0000:080e:0002:1:0
 Investigation Discovery Europe
 p:Sky Digital,f:1
@@ -5655,7 +5658,7 @@ p:Telekom Srbija,f:1
 Fight Network
 p:Telekom Srbija,f:1
 4ecb:00eb0000:0c81:0003:1:0
-Trace Sport Stars HD
+FOX News
 p:Telekom Srbija,f:1
 4ecc:00eb0000:0c81:0003:1:0
 Extreme Sports
@@ -10070,33 +10073,6 @@ p:Cyfrowy Polsat S.A.,f:1
 3e30:00820000:2ee0:013e:1:0
 Polsat Seriale HD
 p:Cyfrowy Polsat S.A.,f:1
-1d20:00820000:2fa8:013e:1:0
-Al Hiwar TV
-p:Globecast UK,f:1
-1d25:00820000:2fa8:013e:1:0
-Brazzers TV Europe
-p:Nova,f:1
-1d26:00820000:2fa8:013e:1:0
-EWTN Catholic
-p:Globecast UK,f:1
-1ceb:00820000:2fa8:013e:2:0
-WRN Russkij
-p:Globecast,c:0914b2
-1cec:00820000:2fa8:013e:2:0
-WRN English Europe
-p:Globecast,c:091516
-1cee:00820000:2fa8:013e:2:0
-Radio Jahani
-p:Globecast,c:0915de
-1cef:00820000:2fa8:013e:2:0
-EDM Events
-p:Globecast,c:091642
-1cf0:00820000:2fa8:013e:2:0
-WRN Sawt Al Alam
-p:Globecast,c:0916a6
-1cea:00820000:2fa8:013e:2:0
-Bahai Radio
-p:Globecast
 4331:00820000:300c:013e:25:0
 SRF 1 HD
 p:SSR/SRG,f:1
@@ -10307,15 +10283,15 @@ p:Harmonic,f:1
 1362:00820000:33f4:013e:1:0
 Canale Italia 84
 p:Telespazio,f:1
-1325:00820000:33f4:013e:1:0
-JSTV (Japan Satellite TV)
-p:Telespazio,f:1
-1326:00820000:33f4:013e:1:0
-JSTV Promo
-p:Telespazio,f:1
 135e:00820000:33f4:013e:2:0
 Radio Cusano Campus
 p:Telespazio
+1325:00820000:33f4:013e:1:0
+JSTV 1 (Japan Satellite TV)
+p:Telespazio,f:1
+1326:00820000:33f4:013e:1:0
+JSTV 2 (Japan Satellite TV)
+p:Telespazio,f:1
 35e9:00820000:00c8:013e:1:0
 Eurosport 2
 p:Cyfrowy Polsat,f:1
@@ -10621,9 +10597,6 @@ HCTV - Horn Cable TV
 p:Telespazio,f:1
 44e8:00820000:0258:013e:1:0
 Hadi TV 3
-p:,f:1
-44e6:00820000:0258:013e:1:0
-Somali Cable
 p:,f:1
 05d7:00820000:0320:fbff:1:0
 IEPG Data
@@ -12851,63 +12824,6 @@ p:SkyItalia,f:1
 340d:00820000:206c:fbff:1:0
 Primafila 7
 p:SkyItalia,f:1
-0c0f:00820000:20d0:013e:2:0
-RFI Francais
-p:GlobeCast
-0bba:00820000:20d0:013e:2:0
-Sout Al Rayyan
-p:Harmonic
-0bc6:00820000:20d0:013e:1:0
-Euronews Russian
-p:GLOBECAST,f:1
-0bc7:00820000:20d0:013e:1:0
-Euronews Hungarian
-p:GLOBECAST,f:1
-0c10:00820000:20d0:013e:2:0
-RFI Langues Est
-p:GLOBECAST
-0c11:00820000:20d0:013e:2:0
-RFI Langues Div
-p:GLOBECAST
-0c12:00820000:20d0:013e:2:0
-RFI Afrique
-p:GLOBECAST
-0c13:00820000:20d0:013e:2:0
-RFI Divers 7
-p:GLOBECAST
-0c14:00820000:20d0:013e:2:0
-RFI RMC MO
-p:GLOBECAST
-05ea:00820000:20d0:013e:2:0
-RFI Germany
-p:GLOBECAST
-05eb:00820000:20d0:013e:2:0
-RFI Prague
-p:GLOBECAST
-05ec:00820000:20d0:013e:2:0
-RFI Metropole
-p:GLOBECAST
-05f0:00820000:20d0:013e:2:0
-RFI Bucarest
-p:GLOBECAST
-05f3:00820000:20d0:013e:2:0
-RFI Erevan
-p:GLOBECAST
-05f5:00820000:20d0:013e:2:0
-RFI Chisinau
-p:GLOBECAST
-05f6:00820000:20d0:013e:2:0
-RFI Albania
-p:GLOBECAST
-05f9:00820000:20d0:013e:2:0
-RFI Liban
-p:GLOBECAST
-05fe:00820000:20d0:013e:2:0
-RFI Persian
-p:GLOBECAST
-060d:00820000:20d0:013e:2:0
-RFI Test
-p:GLOBECAST
 0f46:00820000:2198:fbff:25:0
 Sky Sport 5 HD
 p:Sky Italia,f:1
@@ -13442,9 +13358,6 @@ p:Cyfrowy Polsat S.A.,f:1
 4290:00820000:2bc0:013e:1:0
 Epic Drama HD
 p:Cyfrowy Polsat S.A.,f:1
-428b:00820000:2bc0:013e:1:0
-Test 1
-p:Cyfrowy Polsat S.A.,f:1
 4295:00820000:2bc0:013e:1:0
 Boomerang HD
 p:Cyfrowy Polsat S.A.,f:1
@@ -13496,6 +13409,9 @@ p:Cyfrowy Polsat S.A.,f:1
 428e:00820000:2bc0:013e:1:0
 4Fun Kids
 p:Cyfrowy Polsat S.A.,f:1
+428b:00820000:2bc0:013e:1:0
+Polsat 1
+p:Cyfrowy Polsat SA,f:1
 3dcd:00820000:0640:013e:1:0
 TVN HD
 p:Cyfrowy Polsat,f:1
@@ -14783,9 +14699,6 @@ p:Cyfrowy Polsat,f:1
 0044:00820000:1964:013e:1:0
 xxxVOD2
 p:Cyfrowy Polsat,f:1
-0045:00820000:1964:013e:1:0
-Polsat 1
-p:Cyfrowy Polsat SA,f:1
 200c:00820000:24b8:013e:1:0
 BBC World News
 p:Globecast UK,f:1
@@ -14795,12 +14708,6 @@ p:Globecast,f:1
 2011:00820000:24b8:013e:1:0
 CNN International Europe
 p:Cyfra +,f:1
-2015:00820000:24b8:013e:1:0
-JSTV 1 (Japan Satellite TV)
-p:Globecast,f:1
-2016:00820000:24b8:013e:1:0
-JSTV 2 (Japan Satellite TV)
-p:Globecast,f:1
 2023:00820000:24b8:013e:2:0
 Service 8227
 p:Globecast
@@ -15023,15 +14930,6 @@ p:TSA,f:1
 0001:00820000:1f40:013e:1:0
 Record TV
 p:TSA,f:1
-0e7f:00820000:3200:013e:1:0
-Anixe TV
-p:MB Satellite,f:1
-0e7e:00820000:3200:013e:22:0
-Aristo.TV
-p:MB Satellite,f:1
-0e80:00820000:3200:013e:25:0
-Anixe HD
-p:MB Satellite,f:1
 0e83:00820000:3200:013e:1:0
 TVP Polonia
 p:MB Satellite,f:1
@@ -15277,9 +15175,6 @@ Detskiy Mir
 p:XTRA TV,f:1
 080c:00820000:005f:0055:25:0
 History HD
-p:XTRA TV,C:0000,f:1
-0834:00820000:005f:0055:25:0
-Viasat History/Nature HD
 p:XTRA TV,C:0000,f:1
 0848:00820000:005f:0055:25:0
 VIP Premiere HD
