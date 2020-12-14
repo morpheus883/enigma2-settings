@@ -606,9 +606,6 @@ transponders
 00820000:189c:fbff
 	s 11977000:29900000:0:4:130:2:0:1:1:0:2
 /
-00820000:1900:fbff
-	s 11996000:29900000:1:3:130:2:0:1:2:0:2
-/
 00820000:19c8:fbff
 	s 12034000:29900000:1:4:130:2:0
 /
@@ -677,9 +674,6 @@ transponders
 /
 00820000:2260:fbff
 	s 12466000:29900000:1:4:130:2:0:1:1:0:2
-/
-00820000:170c:fbff
-	s 11900000:29900000:0:3:130:2:0:1:2:0:2
 /
 00820000:2bc0:013e
 	s 10758000:27500000:1:3:130:2:0:1:2:0:2
@@ -806,9 +800,6 @@ transponders
 /
 00820000:2db4:013e
 	s 10853000:27000000:0:2:130:2:0:1:1:0:2
-/
-00820000:2c24:0e26
-	s 10775000:29900000:0:7:130:2:0:1:2:2:2
 /
 00822e7c:170c:fbff
 	s 11900000:29900000:0:4:130:2:0:1:1:0:2
@@ -1573,6 +1564,9 @@ Puls 24 HD
 p:ProSiebenSat.1,f:1
 14bd:00c00000:0407:0001:1:0
 Sixx Austria
+p:ProSiebenSat.1,f:1
+14b9:00c00000:0407:0001:25:0
+4mediathek
 p:ProSiebenSat.1,f:1
 75fe:00c00000:0408:0001:1:0
 Antena Neox
@@ -5435,21 +5429,6 @@ p:BNT Uplink
 03e6:00a00000:c670:016e:12:0
 A1 BG SmardTV OTA
 p:A1 BG
-0388:00a00000:c670:016e:22:0
-Box Hits
-p:TAG Broadcasting,f:1
-0389:00a00000:c670:016e:22:0
-Box Africa
-p:TAG Broadcasting,f:1
-038a:00a00000:c670:016e:22:0
-Magic UK
-p:TAG Broadcasting,f:1
-038b:00a00000:c670:016e:22:0
-Kiss TV
-p:TAG Broadcasting,f:1
-038c:00a00000:c670:016e:22:0
-Kerrang!
-p:TAG Broadcasting,f:1
 038d:00a00000:c670:016e:22:0
 Ginx
 p:TAG Broadcasting,f:1
@@ -11656,37 +11635,37 @@ STREFA ABONENTA
 p:CANAL+,f:1
 1315:00820000:2e7c:013e:1:0
 Eurosport 2 HD
-p:nc+,f:1
+p:CANAL+,f:1
 1316:00820000:2e7c:013e:1:0
 Eurosport 2 HD UPC
-p:nc+,f:1
+p:CANAL+,f:1
 12c3:00820000:2e7c:013e:1:0
 Canal+ Sport 4 HD Polska
-p:nc+,f:1
+p:CANAL+,f:1
 12c4:00820000:2e7c:013e:1:0
-TVR
-p:nc+,f:1
+Home TV
+p:CANAL+,f:1
 12cb:00820000:2e7c:013e:1:0
 StudioMed TV HD
-p:nc+,f:1
+p:CANAL+,f:1
 12c2:00820000:2e7c:013e:1:0
 Canal+ Sport 3 HD Polska
-p:nc+,f:1
+p:CANAL+,f:1
 12f4:00820000:2e7c:013e:1:0
 CANAL+ SPORT 3 HD
-p:nc+,f:1
+p:CANAL+,f:1
 12f5:00820000:2e7c:013e:1:0
 CANAL+ SPORT 4 HD
-p:nc+,f:1
+p:CANAL+,f:1
 1312:00820000:2e7c:013e:1:0
 CANAL+ SPORT 3 HD
-p:nc+,f:1
+p:CANAL+,f:1
 1313:00820000:2e7c:013e:1:0
 CANAL+ SPORT 4 HD
-p:nc+,f:1
+p:CANAL+,f:1
 12c8:00820000:2e7c:013e:1:0
 Playboy TV HD
-p:nc+,f:1
+p:CANAL+,f:1
 12d5:00820000:2e7c:013e:1:0
 La Trois
 p:CANAL+,f:1
@@ -12365,6 +12344,9 @@ p:XTRA TV,f:1
 07e4:00820000:005f:0055:25:0
 XSport HD
 p:XTRA TV,C:0000,f:1
+0834:00820000:005f:0055:22:0
+Da Vinci Learning
+p:XTRA TV,C:0000,f:1
 03e8:00820000:005e:0055:22:0
 Dorama
 p:XTRA TV,C:0000,f:1
@@ -12401,9 +12383,6 @@ p:XTRA TV,C:0000,f:1
 04c4:00820000:005e:0055:22:0
 Ukraina 24
 p:XTRA TV,f:1
-0514:00820000:005e:0055:22:0
-Da Vinci Learning
-p:XTRA TV,C:0000,f:1
 053c:00820000:005e:0055:22:0
 National Geographic
 p:XTRA TV,C:0000,f:1

@@ -387,9 +387,6 @@ transponders
 00820000:189c:fbff
 	s 11977000:29900000:0:4:130:2:0:1:1:0:2
 /
-00820000:1900:fbff
-	s 11996000:29900000:1:3:130:2:0:1:2:0:2
-/
 00820000:19c8:fbff
 	s 12034000:29900000:1:4:130:2:0
 /
@@ -458,9 +455,6 @@ transponders
 /
 00820000:2260:fbff
 	s 12466000:29900000:1:4:130:2:0:1:1:0:2
-/
-00820000:170c:fbff
-	s 11900000:29900000:0:3:130:2:0:1:2:0:2
 /
 00820000:2bc0:013e
 	s 10758000:27500000:1:3:130:2:0:1:2:0:2
@@ -587,9 +581,6 @@ transponders
 /
 00820000:2db4:013e
 	s 10853000:27000000:0:2:130:2:0:1:1:0:2
-/
-00820000:2c24:0e26
-	s 10775000:29900000:0:7:130:2:0:1:2:2:2
 /
 00822e7c:170c:fbff
 	s 11900000:29900000:0:4:130:2:0:1:1:0:2
@@ -1615,6 +1606,9 @@ Puls 24 HD
 p:ProSiebenSat.1,f:1
 14bd:00c00000:0407:0001:1:0
 Sixx Austria
+p:ProSiebenSat.1,f:1
+14b9:00c00000:0407:0001:25:0
+4mediathek
 p:ProSiebenSat.1,f:1
 75fe:00c00000:0408:0001:1:0
 Antena Neox
@@ -9292,37 +9286,37 @@ STREFA ABONENTA
 p:CANAL+,f:1
 1315:00820000:2e7c:013e:1:0
 Eurosport 2 HD
-p:nc+,f:1
+p:CANAL+,f:1
 1316:00820000:2e7c:013e:1:0
 Eurosport 2 HD UPC
-p:nc+,f:1
+p:CANAL+,f:1
 12c3:00820000:2e7c:013e:1:0
 Canal+ Sport 4 HD Polska
-p:nc+,f:1
+p:CANAL+,f:1
 12c4:00820000:2e7c:013e:1:0
-TVR
-p:nc+,f:1
+Home TV
+p:CANAL+,f:1
 12cb:00820000:2e7c:013e:1:0
 StudioMed TV HD
-p:nc+,f:1
+p:CANAL+,f:1
 12c2:00820000:2e7c:013e:1:0
 Canal+ Sport 3 HD Polska
-p:nc+,f:1
+p:CANAL+,f:1
 12f4:00820000:2e7c:013e:1:0
 CANAL+ SPORT 3 HD
-p:nc+,f:1
+p:CANAL+,f:1
 12f5:00820000:2e7c:013e:1:0
 CANAL+ SPORT 4 HD
-p:nc+,f:1
+p:CANAL+,f:1
 1312:00820000:2e7c:013e:1:0
 CANAL+ SPORT 3 HD
-p:nc+,f:1
+p:CANAL+,f:1
 1313:00820000:2e7c:013e:1:0
 CANAL+ SPORT 4 HD
-p:nc+,f:1
+p:CANAL+,f:1
 12c8:00820000:2e7c:013e:1:0
 Playboy TV HD
-p:nc+,f:1
+p:CANAL+,f:1
 12d5:00820000:2e7c:013e:1:0
 La Trois
 p:CANAL+,f:1
@@ -10001,6 +9995,9 @@ p:XTRA TV,f:1
 07e4:00820000:005f:0055:25:0
 XSport HD
 p:XTRA TV,C:0000,f:1
+0834:00820000:005f:0055:22:0
+Da Vinci Learning
+p:XTRA TV,C:0000,f:1
 03e8:00820000:005e:0055:22:0
 Dorama
 p:XTRA TV,C:0000,f:1
@@ -10037,9 +10034,6 @@ p:XTRA TV,C:0000,f:1
 04c4:00820000:005e:0055:22:0
 Ukraina 24
 p:XTRA TV,f:1
-0514:00820000:005e:0055:22:0
-Da Vinci Learning
-p:XTRA TV,C:0000,f:1
 053c:00820000:005e:0055:22:0
 National Geographic
 p:XTRA TV,C:0000,f:1
@@ -10763,9 +10757,6 @@ p:UPC Direct,f:1
 7598:0e080000:02bd:0600:1:0
 Sport 1 Hungary
 p:UPC Direct,f:1
-759b:0e080000:02bd:0600:1:0
-Markiza TV
-p:UPC Direct,f:1
 759f:0e080000:02bd:0600:1:0
 Spektrum TV Czechia & Slovakia
 p:UPC Direct,f:1
@@ -10781,9 +10772,6 @@ p:UPC Direct,f:1
 75a2:0e080000:02bd:0600:1:0
 TV Paprika (SVT)
 p:UPC Direct,f:1
-75a5:0e080000:02bd:0600:1:0
-TV Nova
-p:UPC,f:1
 75b0:0e080000:02bd:0600:1:0
 Spiler 2 TV
 p:UPC,f:1
@@ -10871,17 +10859,11 @@ p:MX1,f:1
 040b:0e082de3:0005:1111:25:0
 National Geographic Romania HD
 p:MX1,f:1
-75fa:0e080000:02be:0600:1:0
-HBO Czechia & Slovakia
-p:UPC Direct,f:1
 75fb:0e080000:02be:0600:1:0
 Film +
 p:Focus Sat,f:1
 75fd:0e080000:02be:0600:1:0
 Sport 2 Hungary
-p:UPC Direct,f:1
-75ff:0e080000:02be:0600:1:0
-J@J
 p:UPC Direct,f:1
 7602:0e080000:02be:0600:1:0
 TV 2 (Hungary)
@@ -11149,9 +11131,6 @@ Story 4
 p:UPC Direct,f:1
 7805:0e080000:02c3:0600:1:0
 STORY 4 SVT
-p:UPC Direct,f:1
-7802:0e080000:02c3:0600:1:0
-Jednotka
 p:UPC Direct,f:1
 7807:0e080000:02c3:0600:1:0
 STORY 4.
@@ -13163,9 +13142,6 @@ p:Telenor,f:1
 1d22:0e080000:004f:0046:25:0
 Viasat Sport Extra HD
 p:Telenor,f:1
-766c:fff8ae1c:02bf:0600:22:0
-CT 2
-p:UPC Direct,f:1
 7668:fff8ae1c:02bf:0600:1:0
 Ocko
 p:UPC Direct,f:1
@@ -13181,50 +13157,14 @@ p:UPC Direct,f:1
 765f:fff8ae1c:02bf:0600:22:0
 CS Mini/CS Film/Horor Film
 p:UPC Direct,f:1
-7660:fff8ae1c:02bf:0600:22:0
-Nova Cinema (Cz)
-p:UPC Direct,f:1
 7661:fff8ae1c:02bf:0600:22:0
 Markiza International
 p:UPC Direct,f:1
 7662:fff8ae1c:02bf:0600:22:0
 TA3
 p:UPC Direct,f:1
-7663:fff8ae1c:02bf:0600:22:0
-Dvojka
-p:UPC Direct,f:1
-7664:fff8ae1c:02bf:0600:22:0
-TV Doma
-p:UPC Direct,f:1
-7665:fff8ae1c:02bf:0600:22:0
-Arena Sport Slovakia
-p:UPC Direct,f:1
-766b:fff8ae1c:02bf:0600:22:0
-CT 24
-p:UPC Direct,f:1
-766d:fff8ae1c:02bf:0600:22:0
-Nova Sport
-p:UPC Direct,f:1
-766e:fff8ae1c:02bf:0600:22:0
-CT Sport
-p:UPC Direct,f:1
 766f:fff8ae1c:02bf:0600:22:0
 TV Barrandov
-p:UPC Direct,f:1
-7670:fff8ae1c:02bf:0600:22:0
-Dajto
-p:UPC Direct,f:1
-7666:fff8ae1c:02bf:0600:22:0
-Prima TV
-p:UPC,f:1
-7667:fff8ae1c:02bf:0600:22:0
-CT 1
-p:UPC,f:1
-7671:fff8ae1c:02bf:0600:22:0
-J@J Plus
-p:UPC Direct,f:1
-7677:fff8ae1c:02bf:0600:22:0
-Arena Sport 1 (SVT)
 p:UPC Direct,f:1
 7678:fff8ae1c:02bf:0600:22:0
 CS Mini/CS Film/Horor Film ( SVT)
