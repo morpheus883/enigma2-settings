@@ -9,14 +9,14 @@ Morpheus883's Site: http://morpheus883.altervista.org/
 GitHub Repository: https://github.com/morpheus883/
 and available on the main Sat Sites
 
-Enigma2 Settings 28th December 2020, © by Morpheus883
+Enigma2 Settings 31st December 2020, © by Morpheus883
 
 Settings for Images based on Enigma 2.4:
 
 Statistics:
-# Satellites: 94 (Ku Band)
+# Satellites: 90 (Ku Band)
 # Ordered Provider Lists: 60+
-# Services: 18.303 (TV-Radio-Data)
+# Services: 18.299 (TV-Radio-Data)
 # Packages: 23 (TV-Radio-Data):
 
 MONOFeed (13°E)
@@ -44,24 +44,21 @@ ASTRA 3B/2E/2F/2G QUADFeed (13°E + 19.2°E + 23.5°E + 28.2°E) Special Edition
 Motor - FULLFeed (45.0°W - 76.5°E)
 OTHER PACKAGES AVAILABLE ON REQUEST
  
-[47.5 W] ===== SES 14 - NSS 806 =====
+[47.5 W] ===== SES 14 =====
 [45.0 W] ===== INTELSAT 14 =====
 [37.5 W] ===== NSS 10 TELSTAR 11N =====
-[36.0 W] ===== HISPASAT 36W-1 =====
 [34.5 W] ===== INTELSAT 35e =====
-[33.5 W]  =====  HYLAS 1/4  =====
 [31.5 W] ===== INTELSAT 25 =====
 [30.0 W] ===== HISPASAT 30W ===M=
 [30.0 W] Meo
 [30.0 W] Nos
-[27.5 W] ===== INTELSAT 907 =====
-[24.5 W] ===== INTELSAT 905 =====
+[27.5 W] ===== INTELSAT 901 =====
+[24.5 W]  =====  INTELSAT 905 ALCOMSAT 1  =====
 [22.0 W] ===== SES 4 =====
 [20.0 W] ===== NSS 7 =====
 [18.0 W] ===== INTELSAT 37e =====
 [15.0 W] ===== TELSTAR 12 =====
 [14.0 W] =====  EXPRESS AM8  =====
-[12.5 W] ===== EUTELSAT 12 WEST B =====
 [11.0 W] ===== EXPRESS AM44 =====
 [8.0 W] ===== EUTELSAT 8 WEST B =====
 [7.0 W] ===== EUTELSAT 7 WEST A =====
@@ -69,10 +66,11 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [7.0 W] Nilesat
 [7.0 W] Noorsat
 [7.0 W] Orbit Showtime Network
-[5.0 W] ===== EUTELSAT 5 WEST A =====
+[5.0 W] ===== EUTELSAT 5 WEST A/B =====
 [5.0 W] Bis / Orange / Fransat
 [4.0 W] ===== AMOS 3/7 =====
 [4.0 W] Magio TV
+[3.0 W] ===== ABS-3A =====
 [0.8 W] ===== INTELSAT 10-02 THOR 5/6/7 ===M=
 [0.8 W] Canal Digital Nordic
 [0.8 W] Focus Sat
@@ -83,7 +81,7 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [4.8 E] ===== ASTRA 4A SES 5 ===M=
 [4.8 E] Viasat
 [4.8 E] VisionTV
-[7.0 E] ===== EUTELSAT 7A/7B =====
+[7.0 E] ===== EUTELSAT 7B/7C =====
 [7.0 E] Digitürk
 [9.0 E] ===== EUTELSAT 9B ===M=
 [9.0 E] Joyne
@@ -122,28 +120,25 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [28.2 E] BBC
 [28.2 E] Freesat
 [28.2 E] Sky Digital
-[30.5 E] ===== ARABSAT 5A =====
-[30.8 E]  =====  EUTELSAT 31A  =====
+[30.5 E] ===== ARABSAT 5A/6A =====
 [31.5 E] ===== ASTRA 5B =====
 [31.5 E] MagtiSat
 [31.5 E] Orange Romania
 [33.0 E] ===== EUTELSAT 33E - INTELSAT 28 =====
 [36.0 E] ===== EUTELSAT 36B/AMU1 =====
 [36.0 E] DStv Multichoice Africa
-[39.0 E] ===== HELLAS SAT 2/3 =====
+[39.0 E] ===== HELLAS SAT 3/4 =====
 [39.0 E] Bulsatcom
 [39.0 E] Dolce TV
-[40.0 E] ===== EXPRESS AM7 =====
 [42.0 E] ===== TURKSAT 3A/4A ===M=
 [42.0 E] D-Smart
 [42.0 E] Digitürk
 [42.0 E] Filbox
 [42.0 E] Tivibu (East Beam)
 [42.0 E] Türksat
-[45.0 E] ===== INTELSAT 12/904 - GALAXY 11 =====
+[45.0 E]  =====  AZERSPACE 2/INTELSAT 38  =====
 [45.0 E] Vivacom/NURTS
-[46.0 E] ===== AZERSPACE-1 =====
-[47.5 E] ===== INTELSAT 10 =====
+[46.0 E]  =====  AZERSPACE 1/AFRICASAT-1A  =====
 [50.0 E] ===== TURKSAT 4B =====
 [51.5 E] ===== BELINTERSAT 1 =====
 [52.0 E] =====  TURKMENÄLEM/MONACOSAT  =====
@@ -151,9 +146,10 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [53.0 E] ===== EXPRESS AM6 =====
 [55.0 E] ===== YAMAL 402 =====
 [57.0 E] ===== NSS 12 =====
-[62.0 E] ===== INTELSAT 902 =====
+[60.0 E] ===== INTELSAT 33e =====
+[62.0 E] ===== INTELSAT 39 =====
 [66.0 E] ===== INTELSAT 17 =====
-[68.5 E] ===== INTELSAT 20 =====
+[68.5 E] ===== INTELSAT 20/36 =====
 [70.5 E] ===== EUTELSAT 70B =====
 [75.0 E] ===== ABS-2 ===N=
 [76.5 E] ===== APSTAR 7 =====
