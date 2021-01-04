@@ -9,7 +9,7 @@ Morpheus883's Site: http://morpheus883.altervista.org/
 GitHub Repository: https://github.com/morpheus883/
 and available on the main Sat Sites
 
-Enigma2 Settings 31st December 2020, © by Morpheus883
+Enigma2 Settings 4th January 2021, © by Morpheus883
 
 Settings for Images based on Enigma 2.4:
 
@@ -157,7 +157,7 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 + Radios
 
 === Compiled with Morpheus883's scripts ===
- ======== © by Morpheus883, 2020 ========
+ ======== © by Morpheus883, 2021 ========
  
 
 The only settings with BlindMarke®

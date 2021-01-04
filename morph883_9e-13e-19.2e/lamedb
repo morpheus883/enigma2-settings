@@ -687,9 +687,6 @@ transponders
 005a0000:03a2:0110
 	s 12149000:31400000:1:2:90:2:0:1:2:0:2:1:262140:1
 /
-005a0000:03b6:0110
-	s 12188000:31400000:1:2:90:2:0:1:2:0:2:2:262140:1
-/
 005a0000:7918:217c
 	s 12466000:41950000:1:3:90:2:0:1:2:0:2:36:0:1
 /
@@ -703,22 +700,22 @@ transponders
 	s 12466000:41950000:1:3:90:2:0:1:2:0:2:34:0:1
 /
 005aaf4f:0389:0110
-	s 12111000:31400000:1:2:90:2:0:1:2:0:2:2:8:0
+	s 12111000:31400000:1:2:90:2:0:1:2:0:2:22:8:0
 /
 005a0000:032a:0110
 	s 12149000:31400000:1:2:90:2:0:1:2:0:2:3:262140:1
 /
-005aaf4f:791a:217c
-	s 12111000:31400000:1:2:90:2:0:1:2:0:2:37:8:0
+005a0000:791a:217c
+	s 12111000:31400000:1:2:90:2:0:1:2:0:2:137:8:0
 /
 005aaf9c:791a:217c
 	s 12188000:31400000:1:2:90:2:0:1:2:0:2:37:262140:1
 /
-005a0000:791a:217c
+005aafe9:791a:217c
 	s 12265000:31400000:1:3:90:2:0:1:4:0:2:1:0:1
 /
-005aafe9:791a:217c
-	s 12265000:31400000:1:3:90:2:0:1:4:0:2:2:0:1
+005aafe9:0107:217c
+	s 12265000:31400000:1:3:90:2:0:1:4:0:2:1:262140:1
 /
 end
 services
@@ -11819,7 +11816,7 @@ p:,f:1
 00c5:005a0000:0385:0110:1:0
 Premium Cinema 3
 p:,f:1
-00c1:005a0000:0385:0110:25:0
+00c1:005a0000:0385:0110:1:0
 Sky Sport Serie A HD
 p:,f:1
 0091:005a0000:0385:0110:1:0
@@ -12047,71 +12044,11 @@ p:,f:1
 0bfa:005a0000:03a2:0110:1:0
 Mediaset Italia Due
 p:,f:1
-0063:005a0000:03b6:0110:0:0
-Ghost
-p:
-1389:005a0000:03b6:0110:0:0
-Servizio 1 OTA
-p:
-138a:005a0000:03b6:0110:0:0
-Servizio 2 OTA
-p:
-138b:005a0000:03b6:0110:0:0
-Servizio 3
-p:
-138c:005a0000:03b6:0110:0:0
-Servizio 4
-p:
-138d:005a0000:03b6:0110:0:0
-Servizio 5
-p:
-138e:005a0000:03b6:0110:0:0
-Servizio 6
-p:
-138f:005a0000:03b6:0110:0:0
-Servizio 7
-p:
-1390:005a0000:03b6:0110:0:0
-Servizio 8
-p:
-1419:005a0000:03b6:0110:1:0
-Sky Sport Serie A
-p:,f:1
-141a:005a0000:03b6:0110:1:0
-Sky Sport
-p:,f:1
-141b:005a0000:03b6:0110:1:0
-Sky Sport
-p:,f:1
-141c:005a0000:03b6:0110:1:0
-Premium Action
-p:,f:1
-1436:005a0000:03b6:0110:1:0
-Sky Sport
-p:,f:1
-1439:005a0000:03b6:0110:1:0
-Sky Sport Uno
-p:,f:1
-143b:005a0000:03b6:0110:1:0
-Sky Sport 24
-p:,f:1
-143c:005a0000:03b6:0110:1:0
-Sky Uno
-p:,f:1
-143a:005a0000:03b6:0110:25:0
-Sky Sport Uno HD
-p:,f:1
 0001:005a0000:7918:217c:1:0
 NOVE
 p:Persidera,f:1
-0002:005a0000:7918:217c:1:0
-Cielo
-p:Persidera,f:1
 0003:005a0000:7918:217c:1:0
 Paramount Network
-p:Persidera,f:1
-0005:005a0000:7918:217c:1:0
-Sky TG24
 p:Persidera,f:1
 0014:005a0000:7918:217c:1:0
 NOVE
@@ -12122,9 +12059,6 @@ p:Persidera,f:1
 001d:005a0000:7918:217c:1:0
 NOVE
 p:Persidera,f:1
-001e:005a0000:7918:217c:1:0
-Mediaset Extra
-p:Persidera,f:1
 000c:005a0000:7918:217c:2:0
 Radio Maria
 p:Persidera
@@ -12134,10 +12068,16 @@ p:Persidera,f:1
 0029:005a0000:7918:217c:25:0
 Deejay TV HD
 p:Persidera,f:1
+002d:005a0000:7918:217c:1:0
+Tele Moda 168
+p:Persidera,f:1
+0032:005a0000:7918:217c:1:0
+La 9
+p:Persidera,f:1
 0010:005a0000:0204:001d:1:0
 Giallo
 p:Persidera,f:1
-0015:005a0000:0204:001d:1:0
+0015:005a0000:0204:001d:25:0
 RTL 102.5
 p:Persidera,f:1
 0016:005a0000:0204:001d:1:0
@@ -12158,13 +12098,13 @@ p:Persidera,f:1
 006a:005a0000:0204:001d:1:0
 Super!
 p:Persidera,f:1
-00da:005a0000:0204:001d:1:0
+00da:005a0000:0204:001d:25:0
 RADIOFRECCIA
 p:Persidera,f:1
-00db:005a0000:0204:001d:1:0
+00db:005a0000:0204:001d:25:0
 RTL 102.5 HD
 p:Persidera,f:1
-00dc:005a0000:0204:001d:1:0
+00dc:005a0000:0204:001d:25:0
 RADIOFRECCIA HD
 p:Persidera,f:1
 0009:005a0000:0204:001d:2:0
@@ -12197,18 +12137,6 @@ p:Persidera,f:1
 003c:005a0000:0200:001d:1:0
 RadioItaliaTV
 p:Persidera,f:1
-0266:005a0000:0200:001d:1:0
-TV8
-p:Persidera,f:1
-0267:005a0000:0200:001d:1:0
-TV8
-p:Persidera,f:1
-0271:005a0000:0200:001d:1:0
-TV8 News On Demand
-p:Persidera,f:1
-0272:005a0000:0200:001d:1:0
-TV8 On Demand
-p:Persidera,f:1
 0275:005a0000:0200:001d:1:0
 VH1 On Demand
 p:Persidera,f:1
@@ -12224,9 +12152,6 @@ p:Persidera,f:1
 0092:005a0000:0200:001d:1:0
 Frisbee
 p:Persidera,f:1
-0096:005a0000:0200:001d:1:0
-TV8
-p:Persidera,f:1
 0097:005a0000:0200:001d:1:0
 K2
 p:Persidera,f:1
@@ -12236,6 +12161,9 @@ p:Persidera
 000e:005a0000:0200:001d:2:0
 R Italia SMI
 p:Persidera
+0041:005a0000:0200:001d:1:0
+RadioItaliaTV HD
+p:Persidera,f:1
 0032:005a0000:0202:001d:1:0
 Motor Trend
 p:Persidera,f:1
@@ -12263,7 +12191,7 @@ p:Persidera
 0078:005a0000:0202:001d:25:0
 Radio Kiss Kiss TV
 p:Persidera,f:1
-0082:005a0000:0202:001d:1:0
+0082:005a0000:0202:001d:25:0
 Radio Zeta
 p:Persidera,f:1
 0087:005a0000:0202:001d:1:0
@@ -12286,6 +12214,9 @@ RDS Social TV
 p:Persidera,f:1
 008c:005a0000:0202:001d:1:0
 Mediatext.it
+p:Persidera,f:1
+005a:005a0000:0202:001d:1:0
+Canale 63
 p:Persidera,f:1
 0015:005aaf4f:0389:0110:0:0
 Servizio 21
@@ -12392,73 +12323,73 @@ p:
 0063:005a0000:032a:0110:0:0
 Ghost
 p:
-0007:005aaf4f:791a:217c:1:0
+0007:005a0000:791a:217c:1:0
 ILIKE.TV
 p:Persidera,f:1
-0008:005aaf4f:791a:217c:1:0
+0008:005a0000:791a:217c:1:0
 Canale 162
 p:Persidera,c:050001,f:1
-000f:005aaf4f:791a:217c:1:0
+000f:005a0000:791a:217c:1:0
 Juwelo
 p:Persidera,f:1
-0017:005aaf4f:791a:217c:1:0
+0017:005a0000:791a:217c:1:0
 Channel 24
 p:Persidera,f:1
-001e:005aaf4f:791a:217c:1:0
+001e:005a0000:791a:217c:1:0
 HSE 24 Donna
 p:Persidera,f:1
-001f:005aaf4f:791a:217c:1:0
+001f:005a0000:791a:217c:1:0
 Rete Italia
 p:Persidera,f:1
-0020:005aaf4f:791a:217c:1:0
+0020:005a0000:791a:217c:1:0
 La 4 Italia
 p:Persidera,f:1
-0021:005aaf4f:791a:217c:1:0
+0021:005a0000:791a:217c:1:0
 Gold TV Italia
 p:Persidera,f:1
-0022:005aaf4f:791a:217c:1:0
+0022:005a0000:791a:217c:1:0
 Linea GEM
 p:Persidera,f:1
-0023:005aaf4f:791a:217c:1:0
+0023:005a0000:791a:217c:1:0
 Linea Italia
 p:Persidera,f:1
-0024:005aaf4f:791a:217c:1:0
+0024:005a0000:791a:217c:1:0
 Orler TV
 p:Persidera,f:1
-0025:005aaf4f:791a:217c:1:0
+0025:005a0000:791a:217c:1:0
 Air Italia
 p:Persidera,f:1
-0026:005aaf4f:791a:217c:1:0
+0026:005a0000:791a:217c:1:0
 HSE 24 Beauty
 p:Persidera,f:1
-0027:005aaf4f:791a:217c:1:0
+0027:005a0000:791a:217c:1:0
 Donna Sport TV
 p:Persidera,f:1
-002d:005aaf4f:791a:217c:1:0
+002d:005a0000:791a:217c:1:0
 Canale 165
 p:Persidera,f:1
-002e:005aaf4f:791a:217c:1:0
+002e:005a0000:791a:217c:1:0
 Rainbow TV
 p:Persidera,f:1
-002f:005aaf4f:791a:217c:1:0
+002f:005a0000:791a:217c:1:0
 DONNA SHOPPING
 p:Persidera,f:1
-005f:005aaf4f:791a:217c:1:0
+005f:005a0000:791a:217c:1:0
 Fire TV
 p:Persidera,f:1
-0060:005aaf4f:791a:217c:1:0
+0060:005a0000:791a:217c:1:0
 Canale 61
 p:Persidera,f:1
-0061:005aaf4f:791a:217c:1:0
+0061:005a0000:791a:217c:1:0
 Mondo Calcio
 p:Persidera,f:1
-0062:005aaf4f:791a:217c:1:0
+0062:005a0000:791a:217c:1:0
 Canale 232
 p:Persidera,f:1
-006f:005aaf4f:791a:217c:1:0
+006f:005a0000:791a:217c:1:0
 Italia Channel
 p:Persidera,f:1
-0070:005aaf4f:791a:217c:1:0
+0070:005a0000:791a:217c:1:0
 Pianeta Tv
 p:Persidera,f:1
 0007:005aaf9c:791a:217c:1:0
@@ -12530,75 +12461,6 @@ p:Persidera,f:1
 0070:005aaf9c:791a:217c:1:0
 Pianeta Tv
 p:Persidera,f:1
-0007:005a0000:791a:217c:1:0
-ILIKE.TV
-p:Persidera,f:1
-0008:005a0000:791a:217c:1:1
-Canale 162
-p:Persidera,c:050001,f:1
-000f:005a0000:791a:217c:1:2
-Juwelo
-p:Persidera,f:1
-0017:005a0000:791a:217c:1:3
-Channel 24
-p:Persidera,f:1
-001e:005a0000:791a:217c:1:4
-HSE 24 Donna
-p:Persidera,f:1
-001f:005a0000:791a:217c:1:5
-Rete Italia
-p:Persidera,f:1
-0020:005a0000:791a:217c:1:6
-La 4 Italia
-p:Persidera,f:1
-0021:005a0000:791a:217c:1:7
-Gold TV Italia
-p:Persidera,f:1
-0022:005a0000:791a:217c:1:8
-Linea GEM
-p:Persidera,f:1
-0023:005a0000:791a:217c:1:9
-Linea Italia
-p:Persidera,f:1
-0024:005a0000:791a:217c:1:10
-Orler TV
-p:Persidera,f:1
-0025:005a0000:791a:217c:1:11
-Air Italia
-p:Persidera,f:1
-0026:005a0000:791a:217c:1:12
-HSE 24 Beauty
-p:Persidera,f:1
-0027:005a0000:791a:217c:1:13
-Donna Sport TV
-p:Persidera,f:1
-002d:005a0000:791a:217c:1:14
-Canale 165
-p:Persidera,f:1
-002e:005a0000:791a:217c:1:15
-Rainbow Channel TV - RCT
-p:Persidera,f:1
-002f:005a0000:791a:217c:1:16
-Donna Shopping
-p:Persidera,f:1
-005f:005a0000:791a:217c:1:17
-Fire TV
-p:Persidera,f:1
-0060:005a0000:791a:217c:1:18
-Life 120 Channel
-p:Persidera,f:1
-0061:005a0000:791a:217c:1:19
-Mondo Calcio
-p:Persidera,f:1
-0062:005a0000:791a:217c:1:20
-Canale 232
-p:Persidera,f:1
-006f:005a0000:791a:217c:1:21
-Italia Channel
-p:Persidera,f:1
-0070:005a0000:791a:217c:1:22
-Pianeta Tv
-p:Persidera,f:1
 0007:005aafe9:791a:217c:1:0
 ILIKE.TV
 p:Persidera,f:1
@@ -12653,9 +12515,6 @@ p:Persidera,f:1
 005f:005aafe9:791a:217c:1:17
 Fire TV
 p:Persidera,f:1
-0060:005aafe9:791a:217c:1:18
-Life 120 Channel
-p:Persidera,f:1
 0061:005aafe9:791a:217c:1:19
 Mondo Calcio
 p:Persidera,f:1
@@ -12668,9 +12527,84 @@ p:Persidera,f:1
 0070:005aafe9:791a:217c:1:22
 Pianeta Tv
 p:Persidera,f:1
+0060:005aafe9:791a:217c:1:0
+CANALE 61
+p:Persidera,f:1
+0046:005aafe9:0107:217c:0:0
+Servizio 70
+p:
+0047:005aafe9:0107:217c:0:0
+Servizio 71
+p:
+0048:005aafe9:0107:217c:0:0
+Servizio 72
+p:
+0049:005aafe9:0107:217c:0:0
+Servizio 73
+p:
+004a:005aafe9:0107:217c:0:0
+Servizio 74
+p:
+004b:005aafe9:0107:217c:0:0
+Servizio 75
+p:
+004c:005aafe9:0107:217c:0:0
+Servizio 76
+p:
+004d:005aafe9:0107:217c:0:0
+Servizio 77
+p:
+004e:005aafe9:0107:217c:0:0
+Servizio 78
+p:
+004f:005aafe9:0107:217c:0:0
+Servizio 79
+p:
+0063:005aafe9:0107:217c:0:0
+Ghost
+p:
+0316:005aafe9:0107:217c:1:0
+LA7 on demand
+p:,f:1
+0317:005aafe9:0107:217c:1:0
+LA7d on demand
+p:,f:1
+02c7:005aafe9:0107:217c:1:0
+LA7
+p:,f:1
+02c8:005aafe9:0107:217c:1:0
+LA7d
+p:,f:1
+02d1:005aafe9:0107:217c:1:0
+LA7
+p:,f:1
+02d2:005aafe9:0107:217c:1:0
+LA7d
+p:,f:1
+02f9:005aafe9:0107:217c:1:0
+LA7 TEST
+p:,f:1
+02fa:005aafe9:0107:217c:1:0
+LA7 Servizi on demand
+p:,f:1
+02fb:005aafe9:0107:217c:1:0
+LA7 TEST
+p:,f:1
+02fc:005aafe9:0107:217c:1:0
+LA7 TEST
+p:,f:1
+02fd:005aafe9:0107:217c:1:0
+LA7 TEST
+p:,f:1
+02ef:005aafe9:0107:217c:25:0
+LA7 HD
+p:,f:1
+02f0:005aafe9:0107:217c:25:0
+LA7d HD
+p:,f:1
 end
 === Compiled with Morpheus883's scripts ===
-Author: Morpheus883, 2020
+Author: Morpheus883, 2021
 Notes:Start
-=====  © by Morpheus883, 2020  =====
+=====  © by Morpheus883, 2021  =====
 Notes:End
