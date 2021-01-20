@@ -210,6 +210,9 @@ transponders
 011a30db:0001:ffff
 	s 12507000:7200000:0:3:282:2:0:1:2:0:2
 /
+011a0000:07ec:0002
+	s 12246000:27500000:1:2:282:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -2783,6 +2786,9 @@ p:BSkyB
 040b:011ab024:07f0:0002:25:0
 Sky Sports Box Office HD
 p:BSkyB,f:1
+2669:011ab024:07f0:0002:31:0
+Ultra HD
+p:BSkyB,f:1
 1bbe:011a0000:0835:0002:25:0
 eir Sport 2 HD
 p:BSkyB,f:1
@@ -2853,7 +2859,7 @@ p:Sky Digital,f:1
 Nick Jr. UK HD
 p:BSkyB,c:090107,f:1
 1c51:011a0000:07de:0002:1:0
-SES 8K Demo Channel
+VVC Test Transmission
 p:Astra,f:1
 0cc9:011a0000:07e4:0002:25:0
 Sky Sports Mix HD
@@ -3095,6 +3101,18 @@ p:BSkyB,f:1
 0001:011a30db:0001:ffff:1:0
 EDS806HD.1
 p:CCMA,f:1
+2649:011a0000:07ec:0002:31:0
+Ultra HD
+p:BSkyB,f:1
+264a:011a0000:07ec:0002:31:0
+Ultra HD
+p:BSkyB,f:1
+264b:011a0000:07ec:0002:31:0
+Ultra HD
+p:BSkyB,f:1
+25e5:011a0000:07ec:0002:31:0
+UH1MON
+p:BSkyB,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -3494,6 +3512,9 @@ p:Arqiva,f:1
 1ca5:00820000:332c:013e:1:0
 Bartar TV
 p:Arqiva,f:1
+1c8b:00820000:332c:013e:1:0
+Iran International
+p:ABS,f:1
 133b:00820000:33f4:013e:1:0
 Coptic TV
 p:Harmonic,f:1
@@ -3945,7 +3966,7 @@ p:M-Three satcom,f:1
 VH1
 p:M-Three satcom,f:1
 0e34:00820000:0708:00c8:2:0
-R.BuonConsiglio
+R-BuonConsiglio
 p:M-Three satcom
 0e2b:00820000:0708:00c8:1:0
 Paramount Network
@@ -4011,7 +4032,7 @@ p:,f:1
 Mezzo
 p:Globecast,f:1
 2a0b:00820000:3cf0:013e:2:0
-Radio YAADOUT
+YAADOUT2000
 p:GLOBECAST
 2a0f:00820000:3cf0:013e:2:0
 RADIO ORIENT
@@ -6684,7 +6705,7 @@ p:Mediaset,c:090119
 Radio Monte Carlo
 p:Mediaset,c:09011a
 0067:00820000:1770:0110:2:0
-Radio Monte Carlo 2
+RMC2
 p:Mediaset,c:09011b
 0069:00820000:1770:0110:2:0
 Radio 105
@@ -7236,22 +7257,22 @@ p:Swiss Satellite Radio
 RTS-1ere
 p:Radio Suisse Romande
 36cc:00822d06:06a4:013e:2:0
-SSR-Espace 2
+Espace 2
 p:Radio Suisse Romande
 36cd:00822d06:06a4:013e:2:0
-SSR-Couleur3
+Couleur3
 p:Radio Suisse Romande
 36ce:00822d06:06a4:013e:2:0
-SSR-Option Musique
+Option Musique
 p:Radio Suisse Romande
 36cf:00822d06:06a4:013e:2:0
-SSR-Rete Uno
+Rete Uno
 p:SSR/SRG
 36d0:00822d06:06a4:013e:2:0
-SSR-Rete Due
+Rete Due
 p:SSR/SRG
 36d1:00822d06:06a4:013e:2:0
-SSR-Rete Tre
+Rete Tre
 p:SSR/SRG
 36d7:00822d06:06a4:013e:2:0
 Swiss Classique
@@ -8205,7 +8226,7 @@ p:IRIB
 RADIO GOFTOGOO
 p:IRIB
 062d:00820000:2c24:013e:2:0
-IRIB 01 WORLD SERVICE
+RADIO 01 WORLD SERVICE
 p:IRIB
 062e:00820000:2c24:013e:2:0
 RADIO 02 WORLD SERVICE
