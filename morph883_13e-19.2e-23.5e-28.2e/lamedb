@@ -270,9 +270,6 @@ transponders
 00ebb160:0001:0001
 	s 12640000:940000:1:1:235:2:0
 /
-00eb0000:145c:0005
-	s 12517000:16871000:1:3:235:2:0:1:2:0:0
-/
 00eb2d79:0000:0001
 	s 11641000:6000000:0:3:235:2:0:1:2:0:0
 /
@@ -393,17 +390,11 @@ transponders
 00ebb1b8:0001:ffff
 	s 12728000:7200000:1:3:235:2:0:1:2:0:2
 /
-00ebb188:0001:ffff
-	s 12680000:4800000:1:3:235:2:0:1:2:0:2
-/
 00eb2d59:0bbf:0003
 	s 11609000:4800000:0:3:235:2:0:1:2:0:2
 /
 00eb2d4c:0bbf:0003
 	s 11596000:4800000:0:2:235:2:0:1:2:0:2
-/
-00ebb121:0001:ffff
-	s 12577000:7200000:1:3:235:2:0:1:2:0:2
 /
 00eb0000:0c95:0003
 	s 12110000:29900000:0:2:235:2:0:1:2:0:2
@@ -422,9 +413,6 @@ transponders
 /
 00eb2ced:0002:ffff
 	s 11501000:7200000:0:3:235:2:0:1:2:0:2
-/
-00ebb140:0002:ffff
-	s 12608000:7200000:1:3:235:2:0:1:2:0:2
 /
 00ebacc6:0001:ffff
 	s 11462000:7200000:1:3:235:2:0:1:2:0:2
@@ -981,9 +969,6 @@ transponders
 00822fd5:1e14:fbff
 	s 12245000:29900000:0:4:130:2:0:1:1:0:2
 /
-00820000:2db4:013e
-	s 10853000:27000000:0:2:130:2:0:1:1:0:2
-/
 00822e7c:170c:fbff
 	s 11900000:29900000:0:4:130:2:0:1:1:0:2
 /
@@ -1330,12 +1315,6 @@ BT Sport//ESPN
 p:BSkyB,f:1
 cfdb:011a0000:083f:0002:1:0
 Trace Latina
-p:BSkyB,f:1
-cfe1:011a0000:083f:0002:1:0
-Trace Vault
-p:BSkyB,f:1
-d016:011a0000:083f:0002:1:0
-PBS America
 p:BSkyB,f:1
 cfef:011a0000:083f:0002:1:0
 HGTV+1
@@ -2036,9 +2015,6 @@ p:Sky Digital,f:1
 cba9:011a0000:083c:0002:2:0
 EWTN Catholic
 p:Sky Digital
-cb9e:011a0000:083c:0002:1:0
-Smithsonian Channel UK
-p:BSkyB,f:1
 cb95:011a0000:083c:0002:1:0
 Zee TV
 p:BSkyB,f:1
@@ -2540,6 +2516,12 @@ p:BSkyB,f:1
 d7a8:011a0000:0840:0002:1:0
 CBS Drama Ireland
 p:BSkyB,f:1
+d7aa:011a0000:0840:0002:1:0
+Trace Vault
+p:BSkyB,f:1
+d7ad:011a0000:0840:0002:1:0
+PBS America
+p:BSkyB,f:1
 50fa:011a0000:080f:0002:25:0
 ITV 1 Wales HD
 p:BSkyB,f:1
@@ -2656,6 +2638,9 @@ PTC Punjabi
 p:BSkyB,f:1
 d3c9:011a0000:0829:0002:1:0
 Islam Channel Urdu
+p:BSkyB,f:1
+d3c2:011a0000:0829:0002:1:0
+Smithsonian Channel UK
 p:BSkyB,f:1
 2328:011a0000:07d3:0002:31:0
 Ultra HD
@@ -2801,9 +2786,6 @@ p:BSkyB,f:1
 cf9e:011aabd9:083a:0002:25:0
 Arirang TV HD
 p:BSkyB,c:090104,f:1
-cd5a:011a0000:0844:0002:25:0
-France 24 HD (in English)
-p:Sky Digital,f:1
 cd64:011a0000:0844:0002:25:0
 Quest HD
 p:BSkyB,f:1
@@ -3010,6 +2992,9 @@ Colors HD
 p:BSkyB,f:1
 d809:011a0000:0838:0002:25:0
 Daystar TV HD
+p:BSkyB,f:1
+d80e:011a0000:0838:0002:25:0
+France 24 HD (in English)
 p:BSkyB,f:1
 cb84:011a0000:0831:0002:1:0
 SET Max
@@ -4295,9 +4280,6 @@ p:M7 Group,c:091c4e,f:1
 0315:00eb0000:0c94:0003:1:0
 AXN Czech
 p:Skylink,f:1
-0317:00eb0000:0c94:0003:22:0
-Fishing and Hunting INT
-p:M7 Group,f:1
 0319:00eb0000:0c94:0003:22:0
 Sport 5
 p:M7 Group,f:1
@@ -4514,30 +4496,6 @@ p:MEDIA BROADCAST
 03e8:00ebb160:0001:0001:2:0
 DLF USI2
 p:MEDIA BROADCAST
-fffe:00eb0000:145c:0005:12:0
-PDG Service
-p:ProTV
-1db1:00eb0000:145c:0005:1:0
-Pro TV
-p:Pro TV,c:0907da,f:1
-1db2:00eb0000:145c:0005:1:0
-Pro 2
-p:Pro TV,c:0907e4,f:1
-1db3:00eb0000:145c:0005:1:0
-Pro TV International
-p:Pro TV,c:0907ee,f:1
-1db4:00eb0000:145c:0005:1:0
-Pro Cinema
-p:Pro TV,c:0907f8,f:1
-1db5:00eb0000:145c:0005:1:0
-Pro X
-p:Pro TV,c:090802,f:1
-1db7:00eb0000:145c:0005:1:0
-Pro Gold
-p:Pro TV,c:090816,f:1
-1db6:00eb0000:145c:0005:1:0
-TEST 1
-p:ProTV,f:1
 07f8:00eb2d79:0000:0001:2:0
 2040 - ESKA Gorzow
 p:,c:0907f8
@@ -4986,7 +4944,7 @@ p:Telekom Srbija,f:1
 Studio B
 p:Telekom Srbija,f:1
 4e2b:00eb0000:0c85:0003:1:0
-Pink 3 Info
+Vesti
 p:Telekom Srbija,f:1
 4e2e:00eb0000:0c85:0003:1:0
 Prva MAX
@@ -5259,7 +5217,7 @@ p:Telekom Srbija,f:1
 Discovery ID HD
 p:Telekom Srbija,f:1
 4ea6:00eb0000:0ca4:0003:1:0
-Discovery Showcase HD
+KCN 1
 p:Telekom Srbija,f:1
 4ea7:00eb0000:0ca4:0003:1:0
 DaVinci Learning
@@ -5657,9 +5615,6 @@ p:LINKS BROADCAST,f:1
 0001:00ebb1b8:0001:ffff:25:0
 Stratos TV D-339
 p:Stratos TV,f:1
-0001:00ebb188:0001:ffff:1:0
-WDR HD-SNG-4 ENC-2
-p:Service Provider,f:1
 0001:00eb2d59:0bbf:0003:1:0
 POL - 010 ENC 1
 p:ENCODER 1,f:1
@@ -5672,12 +5627,6 @@ p:,f:1
 0481:00eb2d4c:0bbf:0003:1:0
 pol-053_harm
 p:Harmonic,f:1
-0484:00eb2d4c:0bbf:0003:1:0
-POL-056 enc2
-p:Service Provider,f:1
-0001:00ebb121:0001:ffff:1:0
-rt1.tv
-p:rt1.tv,f:1
 3cf8:00eb0000:0c95:0003:22:0
 Adventure TV
 p:M7 Group,f:1
@@ -5843,9 +5792,6 @@ p:TelLink,f:1
 0001:00eb2ced:0002:ffff:1:0
 D-461 Deichland
 p:Television,f:1
-0001:00ebb140:0002:ffff:1:0
-D 406 1 Chemnitz
-p:Media Broadcast,f:1
 0001:00ebacc6:0001:ffff:1:0
 rt1.tv
 p:rt1.tv,f:1
@@ -9602,6 +9548,9 @@ p:CSAT,f:1
 2079:00c0ae77:0432:0001:25:0
 Nickelodeon Teen HD
 p:CSAT,f:1
+207b:00c0ae77:0432:0001:25:0
+CultureBox
+p:CSAT,f:1
 1200:00c00000:03fd:0001:1:0
 TVA Ostbayern
 p:FFmpeg,f:1
@@ -10121,24 +10070,12 @@ p:Telespazio,f:1
 135c:00820000:33f4:013e:2:0
 RIK3
 p:Telespazio
+135b:00820000:33f4:013e:2:0
+Radio Gamma Stereo Test
+p:Telespazio
 366a:00820000:00c8:013e:1:0
 Noviy Mir
 p:Harmonic,f:1
-3650:00820000:00c8:013e:1:0
-TV 4 Tamazight
-p:TDA,f:1
-3651:00820000:00c8:013e:1:0
-TV 5 Coran
-p:TDA,f:1
-364d:00820000:00c8:013e:2:0
-CHAINE 1
-p:TDA
-364e:00820000:00c8:013e:2:0
-CHAINE 2
-p:TDA
-364f:00820000:00c8:013e:2:0
-CHAINE 3
-p:TDA
 32dc:00820000:0190:013e:1:0
 Canal+ Premium HD Polska
 p:Cyfra +,f:1
@@ -12926,14 +12863,8 @@ p:Nova,f:1
 1bc7:00822ea2:17d4:013e:1:0
 Disney Channel Greece
 p:Nova,f:1
-1bc8:00822ea2:17d4:013e:1:0
-NovaSports 3
-p:Nova,f:1
 1bca:00822ea2:17d4:013e:1:0
 Nova Cinema 2 HD
-p:Nova,f:1
-1bcb:00822ea2:17d4:013e:1:0
-NovaSports 3 Cy
 p:Nova,f:1
 1bcc:00822ea2:17d4:013e:1:0
 NovaSports 6 Cy
@@ -13046,6 +12977,12 @@ p:OIV,f:1
 422c:00820000:2f44:013e:1:0
 ESports Revolution
 p:,f:1
+422d:00820000:2f44:013e:22:0
+Class TV Moda
+p:M-Three Satcom,f:1
+422e:00820000:2f44:013e:25:0
+Horse TV HD
+p:M-Three satcom,f:1
 0001:00820000:1770:0110:1:0
 Italia Uno
 p:Mediaset,f:1
@@ -13724,9 +13661,6 @@ p:BSkyB,f:1
 0527:00820000:3d54:013e:2:0
 VOICE OF CRO
 p:OiV
-0528:00820000:3d54:013e:1:0
-Bethel HD
-p:,f:1
 0529:00820000:3d54:013e:25:0
 Zeta TV HD
 p:,f:1
@@ -14627,18 +14561,24 @@ p:XTRA TV,C:0000,f:1
 0884:00820000:005f:0055:25:0
 Setanta Sports HD
 p:XTRA TV,C:0000,f:1
-08c0:00820000:005f:0055:25:0
-Niki Kids HD
+0988:00820000:005f:0055:22:0
+Discovery
 p:XTRA TV,f:1
-08d4:00820000:005f:0055:25:0
-Niki Junior HD
+099c:00820000:005f:0055:22:0
+Animal Planet
 p:XTRA TV,f:1
-07e4:00820000:005f:0055:25:0
-XSport HD
-p:XTRA TV,C:0000,f:1
-0834:00820000:005f:0055:22:0
-Da Vinci Learning
-p:XTRA TV,C:0000,f:1
+09b0:00820000:005f:0055:22:0
+TLC
+p:XTRA TV,f:1
+0820:00820000:005f:0055:25:0
+Setanta Sports+ HD
+p:XTRA TV,f:1
+0960:00820000:005f:0055:25:0
+Eurosport 1 HD
+p:XTRA TV,f:1
+0974:00820000:005f:0055:25:0
+Eurosport 2 HD
+p:XTRA TV,f:1
 03e8:00820000:005e:0055:22:0
 Dorama
 p:XTRA TV,C:0000,f:1
@@ -14807,27 +14747,6 @@ p:SkyItalia,f:1
 1002:00822fd5:1e14:fbff:1:0
 IEPG Data
 p:Sky Italia,f:1
-4269:00820000:2db4:013e:1:0
-Kabelio SRF 1
-p:KABELIO.CH,f:1
-426a:00820000:2db4:013e:1:0
-Kabelio SRF zwei
-p:KABELIO.CH,f:1
-426b:00820000:2db4:013e:1:0
-Kabelio SRF info
-p:KABELIO.CH,f:1
-426c:00820000:2db4:013e:1:0
-Kabelio RSI LA 1
-p:KABELIO.CH,f:1
-426d:00820000:2db4:013e:1:0
-Kabelio RSI LA 2
-p:KABELIO.CH,f:1
-426e:00820000:2db4:013e:1:0
-Kabelio RTS Un
-p:KABELIO.CH,f:1
-426f:00820000:2db4:013e:1:0
-Kabelio RTS Deux
-p:KABELIO.CH,f:1
 2b68:00822e7c:170c:fbff:1:0
 Informativa privacy e consenso
 p:SkyItalia,f:1

@@ -465,9 +465,6 @@ transponders
 00822fd5:1e14:fbff
 	s 12245000:29900000:0:4:130:2:0:1:1:0:2
 /
-00820000:2db4:013e
-	s 10853000:27000000:0:2:130:2:0:1:1:0:2
-/
 00822e7c:170c:fbff
 	s 11900000:29900000:0:4:130:2:0:1:1:0:2
 /
@@ -854,6 +851,9 @@ p:DEMIROREN MEDYA,f:1
 052f:01a4af02:0003:0042:1:0
 TVO
 p:DEMIROREN MEDYA,f:1
+053d:01a4af02:0003:0042:1:0
+Vatan
+p:DEMIROREN MEDYA,f:1
 2c24:01a40000:797d:042e:1:0
 HM TV
 p:TURKSAT,f:1
@@ -861,10 +861,10 @@ p:TURKSAT,f:1
 Guclu TV
 p:TURKSAT,f:1
 2c26:01a40000:797d:042e:1:0
-SU TV
+Ful TV
 p:TURKSAT,f:1
 2c28:01a40000:797d:042e:1:0
-Guclu TV
+Park TV
 p:TURKSAT,f:1
 2c27:01a40000:797d:042e:1:0
 Guclu TV
@@ -1017,7 +1017,7 @@ ca02:01a40000:a926:042e:1:0
 Türksat Tanitim (Promo)
 p:TURKSAT,f:1
 c9f6:01a40000:a926:042e:1:0
-SU TV
+TV 19
 p:TURKSAT,f:1
 ca03:01a40000:a926:042e:1:0
 Zarok TV
@@ -1431,7 +1431,7 @@ p:Digital Platform,f:1
 beIN Movies Premier 2 HD
 p:Digital Platform,f:1
 3c8f:01a40000:4e85:002a:17:0
-beIN Sports Max 2 HD Turkey
+BBC Earth HD
 p:Digital Platform,f:1
 3c9f:01a40000:4e85:002a:17:0
 National Geographic Turk HD
@@ -2286,7 +2286,7 @@ p:DOGUS
 TLC Turkey
 p:DOGUS,f:1
 3584:01a40000:7dcb:042e:1:0
-Nehir TV
+TV 19
 p:TURKSAT,f:1
 3585:01a40000:7dcb:042e:1:0
 Berat TV
@@ -3023,24 +3023,12 @@ p:Telespazio,f:1
 135c:00820000:33f4:013e:2:0
 RIK3
 p:Telespazio
+135b:00820000:33f4:013e:2:0
+Radio Gamma Stereo Test
+p:Telespazio
 366a:00820000:00c8:013e:1:0
 Noviy Mir
 p:Harmonic,f:1
-3650:00820000:00c8:013e:1:0
-TV 4 Tamazight
-p:TDA,f:1
-3651:00820000:00c8:013e:1:0
-TV 5 Coran
-p:TDA,f:1
-364d:00820000:00c8:013e:2:0
-CHAINE 1
-p:TDA
-364e:00820000:00c8:013e:2:0
-CHAINE 2
-p:TDA
-364f:00820000:00c8:013e:2:0
-CHAINE 3
-p:TDA
 32dc:00820000:0190:013e:1:0
 Canal+ Premium HD Polska
 p:Cyfra +,f:1
@@ -5828,14 +5816,8 @@ p:Nova,f:1
 1bc7:00822ea2:17d4:013e:1:0
 Disney Channel Greece
 p:Nova,f:1
-1bc8:00822ea2:17d4:013e:1:0
-NovaSports 3
-p:Nova,f:1
 1bca:00822ea2:17d4:013e:1:0
 Nova Cinema 2 HD
-p:Nova,f:1
-1bcb:00822ea2:17d4:013e:1:0
-NovaSports 3 Cy
 p:Nova,f:1
 1bcc:00822ea2:17d4:013e:1:0
 NovaSports 6 Cy
@@ -5948,6 +5930,12 @@ p:OIV,f:1
 422c:00820000:2f44:013e:1:0
 ESports Revolution
 p:,f:1
+422d:00820000:2f44:013e:22:0
+Class TV Moda
+p:M-Three Satcom,f:1
+422e:00820000:2f44:013e:25:0
+Horse TV HD
+p:M-Three satcom,f:1
 0001:00820000:1770:0110:1:0
 Italia Uno
 p:Mediaset,f:1
@@ -6626,9 +6614,6 @@ p:BSkyB,f:1
 0527:00820000:3d54:013e:2:0
 VOICE OF CRO
 p:OiV
-0528:00820000:3d54:013e:1:0
-Bethel HD
-p:,f:1
 0529:00820000:3d54:013e:25:0
 Zeta TV HD
 p:,f:1
@@ -7529,18 +7514,24 @@ p:XTRA TV,C:0000,f:1
 0884:00820000:005f:0055:25:0
 Setanta Sports HD
 p:XTRA TV,C:0000,f:1
-08c0:00820000:005f:0055:25:0
-Niki Kids HD
+0988:00820000:005f:0055:22:0
+Discovery
 p:XTRA TV,f:1
-08d4:00820000:005f:0055:25:0
-Niki Junior HD
+099c:00820000:005f:0055:22:0
+Animal Planet
 p:XTRA TV,f:1
-07e4:00820000:005f:0055:25:0
-XSport HD
-p:XTRA TV,C:0000,f:1
-0834:00820000:005f:0055:22:0
-Da Vinci Learning
-p:XTRA TV,C:0000,f:1
+09b0:00820000:005f:0055:22:0
+TLC
+p:XTRA TV,f:1
+0820:00820000:005f:0055:25:0
+Setanta Sports+ HD
+p:XTRA TV,f:1
+0960:00820000:005f:0055:25:0
+Eurosport 1 HD
+p:XTRA TV,f:1
+0974:00820000:005f:0055:25:0
+Eurosport 2 HD
+p:XTRA TV,f:1
 03e8:00820000:005e:0055:22:0
 Dorama
 p:XTRA TV,C:0000,f:1
@@ -7709,27 +7700,6 @@ p:SkyItalia,f:1
 1002:00822fd5:1e14:fbff:1:0
 IEPG Data
 p:Sky Italia,f:1
-4269:00820000:2db4:013e:1:0
-Kabelio SRF 1
-p:KABELIO.CH,f:1
-426a:00820000:2db4:013e:1:0
-Kabelio SRF zwei
-p:KABELIO.CH,f:1
-426b:00820000:2db4:013e:1:0
-Kabelio SRF info
-p:KABELIO.CH,f:1
-426c:00820000:2db4:013e:1:0
-Kabelio RSI LA 1
-p:KABELIO.CH,f:1
-426d:00820000:2db4:013e:1:0
-Kabelio RSI LA 2
-p:KABELIO.CH,f:1
-426e:00820000:2db4:013e:1:0
-Kabelio RTS Un
-p:KABELIO.CH,f:1
-426f:00820000:2db4:013e:1:0
-Kabelio RTS Deux
-p:KABELIO.CH,f:1
 2b68:00822e7c:170c:fbff:1:0
 Informativa privacy e consenso
 p:SkyItalia,f:1

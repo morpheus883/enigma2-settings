@@ -762,9 +762,6 @@ transponders
 00822fd5:1e14:fbff
 	s 12245000:29900000:0:4:130:2:0:1:1:0:2
 /
-00820000:2db4:013e
-	s 10853000:27000000:0:2:130:2:0:1:1:0:2
-/
 00822e7c:170c:fbff
 	s 11900000:29900000:0:4:130:2:0:1:1:0:2
 /
@@ -1366,12 +1363,6 @@ BT Sport//ESPN
 p:BSkyB,f:1
 cfdb:011a0000:083f:0002:1:0
 Trace Latina
-p:BSkyB,f:1
-cfe1:011a0000:083f:0002:1:0
-Trace Vault
-p:BSkyB,f:1
-d016:011a0000:083f:0002:1:0
-PBS America
 p:BSkyB,f:1
 cfef:011a0000:083f:0002:1:0
 HGTV+1
@@ -2072,9 +2063,6 @@ p:Sky Digital,f:1
 cba9:011a0000:083c:0002:2:0
 EWTN Catholic
 p:Sky Digital
-cb9e:011a0000:083c:0002:1:0
-Smithsonian Channel UK
-p:BSkyB,f:1
 cb95:011a0000:083c:0002:1:0
 Zee TV
 p:BSkyB,f:1
@@ -2576,6 +2564,12 @@ p:BSkyB,f:1
 d7a8:011a0000:0840:0002:1:0
 CBS Drama Ireland
 p:BSkyB,f:1
+d7aa:011a0000:0840:0002:1:0
+Trace Vault
+p:BSkyB,f:1
+d7ad:011a0000:0840:0002:1:0
+PBS America
+p:BSkyB,f:1
 50fa:011a0000:080f:0002:25:0
 ITV 1 Wales HD
 p:BSkyB,f:1
@@ -2692,6 +2686,9 @@ PTC Punjabi
 p:BSkyB,f:1
 d3c9:011a0000:0829:0002:1:0
 Islam Channel Urdu
+p:BSkyB,f:1
+d3c2:011a0000:0829:0002:1:0
+Smithsonian Channel UK
 p:BSkyB,f:1
 2328:011a0000:07d3:0002:31:0
 Ultra HD
@@ -2837,9 +2834,6 @@ p:BSkyB,f:1
 cf9e:011aabd9:083a:0002:25:0
 Arirang TV HD
 p:BSkyB,c:090104,f:1
-cd5a:011a0000:0844:0002:25:0
-France 24 HD (in English)
-p:Sky Digital,f:1
 cd64:011a0000:0844:0002:25:0
 Quest HD
 p:BSkyB,f:1
@@ -3046,6 +3040,9 @@ Colors HD
 p:BSkyB,f:1
 d809:011a0000:0838:0002:25:0
 Daystar TV HD
+p:BSkyB,f:1
+d80e:011a0000:0838:0002:25:0
+France 24 HD (in English)
 p:BSkyB,f:1
 cb84:011a0000:0831:0002:1:0
 SET Max
@@ -7340,6 +7337,9 @@ p:CSAT,f:1
 2079:00c0ae77:0432:0001:25:0
 Nickelodeon Teen HD
 p:CSAT,f:1
+207b:00c0ae77:0432:0001:25:0
+CultureBox
+p:CSAT,f:1
 1200:00c00000:03fd:0001:1:0
 TVA Ostbayern
 p:FFmpeg,f:1
@@ -7859,24 +7859,12 @@ p:Telespazio,f:1
 135c:00820000:33f4:013e:2:0
 RIK3
 p:Telespazio
+135b:00820000:33f4:013e:2:0
+Radio Gamma Stereo Test
+p:Telespazio
 366a:00820000:00c8:013e:1:0
 Noviy Mir
 p:Harmonic,f:1
-3650:00820000:00c8:013e:1:0
-TV 4 Tamazight
-p:TDA,f:1
-3651:00820000:00c8:013e:1:0
-TV 5 Coran
-p:TDA,f:1
-364d:00820000:00c8:013e:2:0
-CHAINE 1
-p:TDA
-364e:00820000:00c8:013e:2:0
-CHAINE 2
-p:TDA
-364f:00820000:00c8:013e:2:0
-CHAINE 3
-p:TDA
 32dc:00820000:0190:013e:1:0
 Canal+ Premium HD Polska
 p:Cyfra +,f:1
@@ -10664,14 +10652,8 @@ p:Nova,f:1
 1bc7:00822ea2:17d4:013e:1:0
 Disney Channel Greece
 p:Nova,f:1
-1bc8:00822ea2:17d4:013e:1:0
-NovaSports 3
-p:Nova,f:1
 1bca:00822ea2:17d4:013e:1:0
 Nova Cinema 2 HD
-p:Nova,f:1
-1bcb:00822ea2:17d4:013e:1:0
-NovaSports 3 Cy
 p:Nova,f:1
 1bcc:00822ea2:17d4:013e:1:0
 NovaSports 6 Cy
@@ -10784,6 +10766,12 @@ p:OIV,f:1
 422c:00820000:2f44:013e:1:0
 ESports Revolution
 p:,f:1
+422d:00820000:2f44:013e:22:0
+Class TV Moda
+p:M-Three Satcom,f:1
+422e:00820000:2f44:013e:25:0
+Horse TV HD
+p:M-Three satcom,f:1
 0001:00820000:1770:0110:1:0
 Italia Uno
 p:Mediaset,f:1
@@ -11462,9 +11450,6 @@ p:BSkyB,f:1
 0527:00820000:3d54:013e:2:0
 VOICE OF CRO
 p:OiV
-0528:00820000:3d54:013e:1:0
-Bethel HD
-p:,f:1
 0529:00820000:3d54:013e:25:0
 Zeta TV HD
 p:,f:1
@@ -12365,18 +12350,24 @@ p:XTRA TV,C:0000,f:1
 0884:00820000:005f:0055:25:0
 Setanta Sports HD
 p:XTRA TV,C:0000,f:1
-08c0:00820000:005f:0055:25:0
-Niki Kids HD
+0988:00820000:005f:0055:22:0
+Discovery
 p:XTRA TV,f:1
-08d4:00820000:005f:0055:25:0
-Niki Junior HD
+099c:00820000:005f:0055:22:0
+Animal Planet
 p:XTRA TV,f:1
-07e4:00820000:005f:0055:25:0
-XSport HD
-p:XTRA TV,C:0000,f:1
-0834:00820000:005f:0055:22:0
-Da Vinci Learning
-p:XTRA TV,C:0000,f:1
+09b0:00820000:005f:0055:22:0
+TLC
+p:XTRA TV,f:1
+0820:00820000:005f:0055:25:0
+Setanta Sports+ HD
+p:XTRA TV,f:1
+0960:00820000:005f:0055:25:0
+Eurosport 1 HD
+p:XTRA TV,f:1
+0974:00820000:005f:0055:25:0
+Eurosport 2 HD
+p:XTRA TV,f:1
 03e8:00820000:005e:0055:22:0
 Dorama
 p:XTRA TV,C:0000,f:1
@@ -12545,27 +12536,6 @@ p:SkyItalia,f:1
 1002:00822fd5:1e14:fbff:1:0
 IEPG Data
 p:Sky Italia,f:1
-4269:00820000:2db4:013e:1:0
-Kabelio SRF 1
-p:KABELIO.CH,f:1
-426a:00820000:2db4:013e:1:0
-Kabelio SRF zwei
-p:KABELIO.CH,f:1
-426b:00820000:2db4:013e:1:0
-Kabelio SRF info
-p:KABELIO.CH,f:1
-426c:00820000:2db4:013e:1:0
-Kabelio RSI LA 1
-p:KABELIO.CH,f:1
-426d:00820000:2db4:013e:1:0
-Kabelio RSI LA 2
-p:KABELIO.CH,f:1
-426e:00820000:2db4:013e:1:0
-Kabelio RTS Un
-p:KABELIO.CH,f:1
-426f:00820000:2db4:013e:1:0
-Kabelio RTS Deux
-p:KABELIO.CH,f:1
 2b68:00822e7c:170c:fbff:1:0
 Informativa privacy e consenso
 p:SkyItalia,f:1
@@ -12724,9 +12694,6 @@ TVNorge HD - Tekst
 p:Telenor,f:1
 2b35:0e080000:0043:0046:25:0
 MAX HD - Tekst
-p:Telenor,f:1
-01dc:0e080000:0030:0046:22:0
-Bloomberg Europe
 p:Telenor,f:1
 0fee:0e080000:0030:0046:25:0
 Sportkanalen HD
@@ -13317,7 +13284,7 @@ p:UPC Direct,c:09028a,f:1
 Travel Channel HD
 p:UPCD_Thor,f:1
 7920:0e080000:02c6:0600:22:0
-Prima Comedy Central
+Paramount Network
 p:UPC Direct,f:1
 7925:0e080000:02c6:0600:25:0
 Antena 1 Romania HD
@@ -13631,20 +13598,8 @@ p:Telenor,f:1
 4316:0e080000:0029:0046:25:0
 BBC Earth HD (ST)
 p:Telenor,f:1
-32ca:0e080000:0029:0046:25:0
-Test_13002
-p:Telenor,f:1
-32cb:0e080000:0029:0046:25:0
-Test_13003
-p:Telenor,f:1
-32cc:0e080000:0029:0046:25:0
-Test_13004
-p:Telenor,f:1
 4356:0e080000:0029:0046:25:0
 Nat Geo Wild HD (ST)
-p:Telenor,f:1
-42bc:0e080000:0029:0046:25:0
-Kuukauden kanava
 p:Telenor,f:1
 77a7:0e080000:02c2:0600:1:0
 Nick Jr Czech
@@ -13668,10 +13623,10 @@ p:UPC Direct,f:1
 Nick Jr Czech (ENG)
 p:UPC Direct,f:1
 77ab:0e080000:02c2:0600:1:0
-Spike Hungary
+TeenNick Hungary
 p:UPC Direct,f:1
 77bf:0e080000:02c2:0600:1:0
-Spike Hungary.
+TeenNick Hungary.
 p:UPC Direct,f:1
 77aa:0e080000:02c2:0600:1:0
 Comedy Central Romania
@@ -13689,7 +13644,7 @@ p:UPC Direct,f:1
 MTV Hungary
 p:UPC Direct,f:1
 77af:0e080000:02c2:0600:1:0
-Paramount Channel Hungary & Romania
+TeenNick Romania
 p:UPC Direct,f:1
 77b0:0e080000:02c2:0600:1:0
 Nickelodeon Romania
@@ -13704,7 +13659,7 @@ p:UPC Direct,f:1
 MTV Hungary( SVT)
 p:UPC Direct,f:1
 77c3:0e080000:02c2:0600:1:0
-Paramount Romania.
+TeenNick Romania.
 p:UPC Direct,f:1
 77c4:0e080000:02c2:0600:1:0
 Nickelodeon Romania.
@@ -13880,29 +13835,8 @@ p:UPC Direct,f:1
 0514:0e08b00f:0002:005e:1:0
 Discovery Historia Polska
 p:,f:1
-09c4:0e08b00f:0002:005e:1:0
-Discovery Showcase HD Europe
-p:,f:1
-09c5:0e08b00f:0002:005e:1:0
-Discovery HD Czech/Hun
-p:,f:1
-09c6:0e08b00f:0002:005e:1:0
-Discovery HD Russia
-p:,f:1
-09c7:0e08b00f:0002:005e:1:0
-Discovery HD Czech
-p:,f:1
-09c8:0e08b00f:0002:005e:1:0
-Discovery HD Turkish
-p:,f:1
-09c9:0e08b00f:0002:005e:1:0
-Discovery HD Hungarian
-p:,f:1
 0a28:0e08b00f:0002:005e:1:0
 Animal Planet HD
-p:,f:1
-0a29:0e08b00f:0002:005e:1:0
-Animal Planet HD Polish
 p:,f:1
 0a2a:0e08b00f:0002:005e:1:0
 Animal Planet HD Russian
@@ -13939,9 +13873,6 @@ DTX HD
 p:,f:1
 0a2e:0e08b00f:0002:005e:1:0
 Animal Planet HD
-p:,f:1
-09ca:0e08b00f:0002:005e:1:0
-Discovery Showcase HD Europe
 p:,f:1
 0a8c:0e08b00f:0002:005e:1:0
 ID Xtra Europe HD
@@ -14327,12 +14258,6 @@ p:UPC Direct,f:1
 7730:0e080000:02c1:0600:25:0
 Look Sport 3 HD
 p:UPC Direct,f:1
-1c45:fff82a1a:0042:0046:25:0
-Eurosport HD
-p:Canal Digital Nordic,f:1
-1b66:fff82a1a:0042:0046:25:0
-Eurosport 2 Sweden HD
-p:Telenor,c:0901f1,f:1
 1b76:fff82a1a:0042:0046:25:0
 C More Stars HD
 p:Telenor,c:09014a,f:1
@@ -14561,9 +14486,6 @@ p:Canal Digital Nordic,f:1
 1263:fff82a59:003f:0046:22:0
 TV 2 Bornholm
 p:Canal Digital Nordic,f:1
-1ba0:fff82a59:003f:0046:25:0
-Eurosport 2 Danmark HD
-p:Telenor,f:1
 1bf7:fff82a59:003f:0046:25:0
 C More Hockey HD
 p:Telenor,f:1
@@ -14690,12 +14612,6 @@ p:Telenor,f:1
 1b79:fff82a39:0041:0046:25:0
 Eurosport Norway HD
 p:Telenor,f:1
-1bee:fff82a39:0041:0046:1:0
-DW TV - Deutsche Welle (English)
-p:Telenor,c:090032,f:1
-1453:fff82a39:0041:0046:1:0
-CNBC Europe
-p:Telenor,c:090104,f:1
 1b91:fff82a39:0041:0046:25:0
 TV 3 Danmark HD
 p:Telenor,f:1
@@ -15565,6 +15481,21 @@ Minimax SK
 p:Slovak Telekom,f:1
 1f4d:0e080000:0af8:00bb:22:0
 Spektrum SK
+p:Slovak Telekom,f:1
+1f50:0e080000:0af8:00bb:22:0
+Discovery Science
+p:Slovak Telekom,f:1
+1f51:0e080000:0af8:00bb:22:0
+ID
+p:Slovak Telekom,f:1
+1f4d:0e080000:0af8:00bb:25:0
+Spektrum SK HD
+p:Slovak Telekom,f:1
+1f4e:0e080000:0af8:00bb:25:0
+Animal Planet HD
+p:Slovak Telekom,f:1
+1f4f:0e080000:0af8:00bb:25:0
+Travel Channel HD
 p:Slovak Telekom,f:1
 0001:fff80000:000a:fe01:1:0
 Channel-01
