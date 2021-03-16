@@ -642,6 +642,9 @@ fff8acd2:0001:0001
 0e08b0a8:0519:0002
 	s 12456000:28800000:1:3:-8:2:0:1:2:0:2
 /
+0e080000:0052:0046
+	s 12207000:30000000:0:3:-8:2:0:1:2:1:2
+/
 end
 services
 0001:00d8ad61:0001:0001:1:0
@@ -974,6 +977,93 @@ p:SSR/SRG,f:1
 4335:00820000:300c:013e:25:0
 Test17205
 p:SRG SSR,f:1
+4345:00820000:300c:013e:2:0
+SRF 1
+p:Schweizer Radio und Fernsehen
+4346:00820000:300c:013e:2:0
+SRF 2 Kultur
+p:Schweizer Radio und Fernsehen
+4347:00820000:300c:013e:2:0
+SRF 3
+p:Schweizer Radio und Fernsehen
+4348:00820000:300c:013e:2:0
+SRF Virus
+p:Schweizer Radio und Fernsehen
+4349:00820000:300c:013e:2:0
+SRF Musikwelle
+p:Schweizer Radio und Fernsehen
+434a:00820000:300c:013e:2:0
+Radio RTR
+p:Radio RTR
+434b:00820000:300c:013e:2:0
+RTS-1ere
+p:Radio Television Suisse
+434c:00820000:300c:013e:2:0
+Espace 2
+p:Radio Television Suisse
+434d:00820000:300c:013e:2:0
+Couleur3
+p:Radio Television Suisse
+434e:00820000:300c:013e:2:0
+Option Musique
+p:Radio Television Suisse
+434f:00820000:300c:013e:2:0
+Rete Uno
+p:Radiotelevisione svizzera
+4350:00820000:300c:013e:2:0
+Rete Due
+p:Radiotelevisione svizzera
+4351:00820000:300c:013e:2:0
+Rete Tre
+p:Radiotelevisione svizzera
+4352:00820000:300c:013e:2:0
+Swiss Classic
+p:Swiss Satellite Radio
+4353:00820000:300c:013e:2:0
+Swiss Pop
+p:Swiss Satellite Radio
+4354:00820000:300c:013e:2:0
+Swiss Jazz
+p:Swiss Satellite Radio
+4355:00820000:300c:013e:2:0
+SRF 4 News
+p:Schweizer Radio und Fernsehen
+4357:00820000:300c:013e:2:0
+Swiss Classique
+p:Swiss Satellite Radio
+4358:00820000:300c:013e:2:0
+SRF 1 AG SO
+p:Schweizer Radio und Fernsehen
+4359:00820000:300c:013e:2:0
+SRF 1 BS
+p:Schweizer Radio und Fernsehen
+435a:00820000:300c:013e:2:0
+SRF 1 BE FR VS
+p:Schweizer Radio und Fernsehen
+435b:00820000:300c:013e:2:0
+SRF 1 LU
+p:Schweizer Radio und Fernsehen
+435c:00820000:300c:013e:2:0
+SRF 1 SG
+p:Schweizer Radio und Fernsehen
+435d:00820000:300c:013e:2:0
+SRF 1 ZH SH
+p:Schweizer Radio und Fernsehen
+435e:00820000:300c:013e:2:0
+SRF 1 GR
+p:Schweizer Radio und Fernsehen
+435f:00820000:300c:013e:2:0
+Swiss Classica
+p:Swiss Satellite Radio
+4336:00820000:300c:013e:25:0
+SRF info HD
+p:Schweizer Radio und Fernsehen,f:1
+4337:00820000:300c:013e:25:0
+RSI LA 1 HD
+p:Radiotelevisione svizzera,f:1
+4338:00820000:300c:013e:25:0
+RSI LA 2 HD
+p:Radiotelevisione svizzera,f:1
 2136:00820000:3070:013e:1:0
 Rai Movie
 p:RAI,f:1
@@ -1337,9 +1427,6 @@ p:,f:1
 0604:00820000:01f4:013e:2:0
 R Radio
 p:
-08ca:00820000:01f4:013e:1:0
-Rudaw Kurdistan Pope Visit
-p:Eutelsat,f:1
 3ab7:00820000:0514:013e:1:0
 AMC HD Polska
 p:nc+,f:1
@@ -5948,9 +6035,6 @@ p:
 1ed6:00300000:001c:0056:2:0
 NRK Folkemusikk
 p:Viasat
-196e:00300000:000f:0055:1:0
-News One
-p:News One,f:1
 19be:00300000:000f:0055:1:0
 Natali
 p:SHOPping TV,f:1
@@ -7592,9 +7676,6 @@ p:1plus1 Media,c:0917f2,f:1
 17f4:00302df6:000c:0055:22:0
 Dacha
 p:1plus1 Media,f:1
-17fa:00302df6:000c:0055:12:0
-SK_SW_Viasat
-p:VisionTV
 1806:00302df6:000c:0055:1:0
 Spike
 p:1plus1 Media,f:1
@@ -7621,12 +7702,6 @@ Avers
 p:1plus1 Media,f:1
 1819:00302df6:000c:0055:12:0
 ST_SW_FTA
-p:VisionTV
-181b:00302df6:000c:0055:12:0
-ST_SW_Viasat
-p:VisionTV
-181d:00302df6:000c:0055:12:0
-ST_SW_1CAS
 p:VisionTV
 181f:00302df6:000c:0055:1:0
 Music Box Ukraina
@@ -8921,9 +8996,6 @@ p:Telenor
 0b60:0e080000:0014:0046:1:0
 Al Jazeera English
 p:Telenor,f:1
-1201:0e080000:0014:0046:1:0
-Brunstad TV
-p:Telenor,f:1
 0efd:0e080000:0014:0046:1:0
 Sky News International
 p:Telenor,f:1
@@ -9075,10 +9147,10 @@ p:Telenor,c:09035d,f:1
 NRK1 Sørlandet
 p:Telenor,c:09035e,f:1
 1eb7:0e080000:0046:0046:25:0
-NRK1 Østafjells
+NRK1 Vestfold og Telemark
 p:Telenor,c:09035f,f:1
 1eb8:0e080000:0046:0046:25:0
-NRK1 Østnytt
+NRK1 Innlandet
 p:Telenor,c:090360,f:1
 1eba:0e080000:0046:0046:22:0
 NRK Tegnspråk
@@ -9604,12 +9676,6 @@ Bloomberg
 p:Telenor,f:1
 1c5f:fff8aab6:000a:0046:22:0
 TV 5 Finland
-p:Telenor,f:1
-1b80:fff82a39:0041:0046:25:0
-Eurosport Sweden HD
-p:Telenor,f:1
-1b79:fff82a39:0041:0046:25:0
-Eurosport Norway HD
 p:Telenor,f:1
 1b91:fff82a39:0041:0046:25:0
 TV 3 Danmark HD
@@ -10424,6 +10490,9 @@ p:UPC Direct,f:1
 7664:fff8ae1c:02bf:0600:25:0
 Arena 4 HD
 p:UPC,f:1
+7665:fff8ae1c:02bf:0600:25:0
+Vixen HD
+p:UPC,f:1
 0fd6:0e080000:0050:0046:22:0
 Viasat Film Family
 p:Telenor,f:1
@@ -10844,6 +10913,21 @@ p:,f:1
 0415:0e08b0a8:0519:0002:22:0
 TV 5 Monde Pacifique
 p:,f:1
+2341:0e080000:0052:0046:25:0
+TS Showcase 1
+p:Telenor,f:1
+2342:0e080000:0052:0046:25:0
+TS Showcase 2
+p:Telenor,f:1
+2343:0e080000:0052:0046:25:0
+TS Showcase 3
+p:Telenor,f:1
+2344:0e080000:0052:0046:25:0
+TS Showcase 4
+p:Telenor,f:1
+2345:0e080000:0052:0046:25:0
+TS Showcase 5
+p:Telenor,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2021

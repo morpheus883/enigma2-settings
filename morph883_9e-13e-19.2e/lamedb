@@ -294,6 +294,9 @@ transponders
 00c00000:03f8:0001
 	s 11436000:22000000:1:2:192:2:0:1:2:0:2
 /
+00c00000:0008:0085
+	s 12070000:27500000:0:9:192:2:0:1:1:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -685,13 +688,13 @@ transponders
 	s 12466000:41950000:1:3:90:2:0:1:2:0:2:34:0:1
 /
 005aaf4f:0389:0110
-	s 12111000:31400000:1:2:90:2:0:1:2:0:2:22:8:0
+	s 12111000:31400000:1:4:90:2:0:1:2:0:2:22:8:0
 /
 005a0000:032a:0110
 	s 12149000:31400000:1:2:90:2:0:1:2:0:2:3:262140:1
 /
 005a0000:791a:217c
-	s 12111000:31400000:1:2:90:2:0:1:2:0:2:137:8:0
+	s 12111000:31400000:1:4:90:2:0:1:2:0:2:137:8:0
 /
 005aaf9c:791a:217c
 	s 12188000:31400000:1:2:90:2:0:1:2:0:2:37:262140:1
@@ -1091,6 +1094,12 @@ p:Movistar+,f:1
 77c8:00c00000:040a:0001:1:0
 Multideporte 4
 p:Digital +,c:090413,f:1
+77be:00c00000:040a:0001:1:0
+DAZN 3
+p:Movistar+,f:1
+77c0:00c00000:040a:0001:1:0
+DAZN 4
+p:Movistar+,f:1
 76c0:00c00000:040e:0001:1:0
 Movistar Estrenos
 p:Movistar+,f:1
@@ -1529,18 +1538,6 @@ p:SKY,f:1
 002b:00c00000:0006:0085:22:0
 Sky Cinema +24 Germany
 p:Kabelkiosk,f:1
-0147:00c00000:0006:0085:25:0
-Sky Sport Bundesliga 8 HD
-p:SKY,f:1
-0148:00c00000:0006:0085:25:0
-Sky Sport HD 9 Germany
-p:SKY,f:1
-014a:00c00000:0006:0085:25:0
-Eurosport360HD 7
-p:SKY,f:1
-0149:00c00000:0006:0085:25:0
-Sky Sport Austria 2 HD
-p:SKY,f:1
 0204:00c00000:0006:0085:22:0
 Sky Cinema Classics Germany
 p:SKY,f:1
@@ -3057,7 +3054,7 @@ p:Movistar+,f:1
 Eurosport 1
 p:Movistar+,c:090407,f:1
 749d:00c00000:041c:0001:1:0
-Movistar Fest
+M. Crimen
 p:Movistar+,f:1
 74a6:00c00000:041c:0001:1:0
 La Sexta
@@ -3136,6 +3133,9 @@ RADIO GALEGA MUSICA
 p:GLOBECAST
 18f4:00c00000:03f4:0001:1:0
 Sender Neu Jerusalem
+p:GLOBECAST,f:1
+18f5:00c00000:03f4:0001:1:0
+Rai News 24
 p:GLOBECAST,f:1
 7a48:00c00000:0410:0001:1:0
 Telesur
@@ -3506,6 +3506,21 @@ p:SES,c:090061,f:1
 0002:00c00000:040b:0001:31:0
 UHD1 by ASTRA / HD+
 p:SES ASTRA,c:090060,f:1
+0003:00c00000:040b:0001:31:0
+SES UHD Demo Channel 02
+p:SES,f:1
+0004:00c00000:040b:0001:31:0
+SES UHD Demo Channel 03
+p:SES,f:1
+0005:00c00000:040b:0001:31:0
+SES UHD Demo Channel 04
+p:SES,f:1
+0006:00c00000:040b:0001:31:0
+SES UHD Demo Channel 05
+p:SES,f:1
+0007:00c00000:040b:0001:31:0
+SES UHD Demo Channel 06
+p:SES,f:1
 30d4:00c00000:0413:0001:25:0
 SAT.1 Gold HD
 p:ProSiebenSat.1,f:1
@@ -3629,12 +3644,6 @@ p:Kabel Deutschland,f:1
 0016:00c02dee:0002:0085:1:0
 Heimatkanal
 p:Kabelkiosk,f:1
-014c:00c02dee:0002:0085:211:36
-Sky Sport Bundesliga 9
-p:unknown,f:1
-014d:00c02dee:0002:0085:211:0
-Sky Sport 10 Germany
-p:Sky Deutschland,f:1
 0f8c:00c02dee:0002:0085:12:0
 HUMAX PR-HD3000C
 p:
@@ -3644,18 +3653,6 @@ p:
 0206:00c02dee:0002:0085:22:0
 Romance TV
 p:Kabelkiosk,f:1
-0110:00c02dee:0002:0085:211:0
-Sky Sport Bundesliga 3
-p:,f:1
-0111:00c02dee:0002:0085:211:0
-Sky Sport 4
-p:,f:1
-011a:00c02dee:0002:0085:211:0
-Sky Sport Bundesliga 4
-p:,f:1
-011b:00c02dee:0002:0085:211:0
-Sky Sport 5
-p:,f:1
 008b:00c02dee:0002:0085:25:0
 Sky Cinema Family HD
 p:SKY,f:1
@@ -3670,9 +3667,6 @@ Sky Sport HD 8 Germany
 p:SKY,f:1
 0140:00c02dee:0002:0085:25:0
 Eurosport360HD 6
-p:SKY,f:1
-0150:00c02dee:0002:0085:211:0
-Sky Sport Austria 3
 p:SKY,f:1
 0013:00c02dee:0002:0085:22:0
 Junior
@@ -3689,33 +3683,15 @@ p:Kabelkiosk,f:1
 0009:00c00000:0003:0085:22:0
 Sky Cinema Action Germany
 p:Kabelkiosk,f:1
-00fc:00c00000:0003:0085:1:0
-Sky Sport Bundesliga 10
-p:,f:1
 0107:00c00000:0003:0085:1:0
 Sky Sport 3 Germany
 p:Sky Deutschland,f:1
 0106:00c00000:0003:0085:1:0
 Sky Sport Bundesliga 2
 p:Sky Deutschland,f:1
-0124:00c00000:0003:0085:1:0
-Sky Sport Bundesliga 5
-p:Sky Deutschland,f:1
-0125:00c00000:0003:0085:1:0
-Sky Sport 6 Germany
-p:Sky Deutschland,f:1
-012e:00c00000:0003:0085:1:0
-Sky Sport Bundesliga 6
-p:Sky Deutschland,f:1
-012f:00c00000:0003:0085:211:0
-Sky Sport 7 Germany
-p:Sky Deutschland,f:1
 0fb8:00c00000:0003:0085:12:0
 Pace DS 830 NP
 p:
-00fd:00c00000:0003:0085:1:0
-Sky Sport 11 Germany
-p:Sky Deutschland,f:1
 00c8:00c00000:0003:0085:198:0
 BDL VoD
 p:Sky
@@ -3725,20 +3701,8 @@ p:,f:1
 0139:00c00000:0003:0085:211:0
 Sky Sport 8
 p:,f:1
-0142:00c00000:0003:0085:211:0
-Sky Sport Bundesliga 8
-p:,f:1
-0143:00c00000:0003:0085:211:0
-Sky Sport 9
-p:,f:1
 0085:00c00000:0003:0085:25:0
 Beate-Uhse.TV HD
-p:SKY,f:1
-0145:00c00000:0003:0085:211:0
-Sky Sport Austria 2
-p:SKY,f:1
-00ff:00c00000:0003:0085:211:0
-Sky Sport Austria 4
 p:SKY,f:1
 017d:00c00000:0003:0085:25:0
 Sky Sport HD 12 Germany
@@ -3749,6 +3713,21 @@ p:SKY,f:1
 001c:00c00000:0003:0085:1:0
 Boomerang Germany
 p:Sky Deutschland,f:1
+0011:00c00000:0003:0085:25:0
+Sky Sport F1 HD Germany
+p:,f:1
+0110:00c00000:0003:0085:211:0
+Sky Sport Bundesliga 3
+p:,f:1
+0111:00c00000:0003:0085:211:0
+Sky Sport 4
+p:,f:1
+011a:00c00000:0003:0085:211:0
+Sky Sport Bundesliga 4
+p:,f:1
+011b:00c00000:0003:0085:211:0
+Sky Sport 5
+p:,f:1
 2649:00c0b1b8:0460:0001:1:0
 France 3 Basse-Normandie
 p:CanalSat,f:1
@@ -4478,6 +4457,63 @@ p:Movistar+,c:090411,f:1
 74db:00c00000:03f8:0001:25:0
 Liga de Campeones 2 HD
 p:Movistar+,c:090414,f:1
+74d6:00c00000:03f8:0001:25:0
+DAZN 4 HD
+p:Movistar+,f:1
+74d8:00c00000:03f8:0001:25:0
+DAZN 3 HD
+p:Movistar+,f:1
+00fc:00c00000:0008:0085:1:0
+Sky Sport Bundesliga 10
+p:,f:1
+0124:00c00000:0008:0085:1:0
+Sky Sport Bundesliga 5
+p:Sky Deutschland,f:1
+012e:00c00000:0008:0085:1:0
+Sky Sport Bundesliga 6
+p:Sky Deutschland,f:1
+0142:00c00000:0008:0085:211:0
+Sky Sport Bundesliga 8
+p:,f:1
+00fd:00c00000:0008:0085:1:0
+Sky Sport 11 Germany
+p:Sky Deutschland,f:1
+0125:00c00000:0008:0085:1:0
+Sky Sport 6 Germany
+p:Sky Deutschland,f:1
+012f:00c00000:0008:0085:211:0
+Sky Sport 7 Germany
+p:Sky Deutschland,f:1
+0143:00c00000:0008:0085:211:0
+Sky Sport 9
+p:,f:1
+00ff:00c00000:0008:0085:211:0
+Sky Sport Austria 4
+p:SKY,f:1
+0145:00c00000:0008:0085:211:0
+Sky Sport Austria 2
+p:SKY,f:1
+014c:00c00000:0008:0085:211:36
+Sky Sport Bundesliga 9
+p:unknown,f:1
+014d:00c00000:0008:0085:211:0
+Sky Sport 10 Germany
+p:Sky Deutschland,f:1
+0150:00c00000:0008:0085:211:0
+Sky Sport Austria 3
+p:SKY,f:1
+0147:00c00000:0008:0085:25:0
+Sky Sport Bundesliga 8 HD
+p:SKY,f:1
+0148:00c00000:0008:0085:25:0
+Sky Sport HD 9 Germany
+p:SKY,f:1
+0149:00c00000:0008:0085:25:0
+Sky Sport Austria 2 HD
+p:SKY,f:1
+014a:00c00000:0008:0085:25:0
+Eurosport360HD 7
+p:SKY,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -4715,6 +4751,93 @@ p:SSR/SRG,f:1
 4335:00820000:300c:013e:25:0
 Test17205
 p:SRG SSR,f:1
+4345:00820000:300c:013e:2:0
+SRF 1
+p:Schweizer Radio und Fernsehen
+4346:00820000:300c:013e:2:0
+SRF 2 Kultur
+p:Schweizer Radio und Fernsehen
+4347:00820000:300c:013e:2:0
+SRF 3
+p:Schweizer Radio und Fernsehen
+4348:00820000:300c:013e:2:0
+SRF Virus
+p:Schweizer Radio und Fernsehen
+4349:00820000:300c:013e:2:0
+SRF Musikwelle
+p:Schweizer Radio und Fernsehen
+434a:00820000:300c:013e:2:0
+Radio RTR
+p:Radio RTR
+434b:00820000:300c:013e:2:0
+RTS-1ere
+p:Radio Television Suisse
+434c:00820000:300c:013e:2:0
+Espace 2
+p:Radio Television Suisse
+434d:00820000:300c:013e:2:0
+Couleur3
+p:Radio Television Suisse
+434e:00820000:300c:013e:2:0
+Option Musique
+p:Radio Television Suisse
+434f:00820000:300c:013e:2:0
+Rete Uno
+p:Radiotelevisione svizzera
+4350:00820000:300c:013e:2:0
+Rete Due
+p:Radiotelevisione svizzera
+4351:00820000:300c:013e:2:0
+Rete Tre
+p:Radiotelevisione svizzera
+4352:00820000:300c:013e:2:0
+Swiss Classic
+p:Swiss Satellite Radio
+4353:00820000:300c:013e:2:0
+Swiss Pop
+p:Swiss Satellite Radio
+4354:00820000:300c:013e:2:0
+Swiss Jazz
+p:Swiss Satellite Radio
+4355:00820000:300c:013e:2:0
+SRF 4 News
+p:Schweizer Radio und Fernsehen
+4357:00820000:300c:013e:2:0
+Swiss Classique
+p:Swiss Satellite Radio
+4358:00820000:300c:013e:2:0
+SRF 1 AG SO
+p:Schweizer Radio und Fernsehen
+4359:00820000:300c:013e:2:0
+SRF 1 BS
+p:Schweizer Radio und Fernsehen
+435a:00820000:300c:013e:2:0
+SRF 1 BE FR VS
+p:Schweizer Radio und Fernsehen
+435b:00820000:300c:013e:2:0
+SRF 1 LU
+p:Schweizer Radio und Fernsehen
+435c:00820000:300c:013e:2:0
+SRF 1 SG
+p:Schweizer Radio und Fernsehen
+435d:00820000:300c:013e:2:0
+SRF 1 ZH SH
+p:Schweizer Radio und Fernsehen
+435e:00820000:300c:013e:2:0
+SRF 1 GR
+p:Schweizer Radio und Fernsehen
+435f:00820000:300c:013e:2:0
+Swiss Classica
+p:Swiss Satellite Radio
+4336:00820000:300c:013e:25:0
+SRF info HD
+p:Schweizer Radio und Fernsehen,f:1
+4337:00820000:300c:013e:25:0
+RSI LA 1 HD
+p:Radiotelevisione svizzera,f:1
+4338:00820000:300c:013e:25:0
+RSI LA 2 HD
+p:Radiotelevisione svizzera,f:1
 2136:00820000:3070:013e:1:0
 Rai Movie
 p:RAI,f:1
@@ -5078,9 +5201,6 @@ p:,f:1
 0604:00820000:01f4:013e:2:0
 R Radio
 p:
-08ca:00820000:01f4:013e:1:0
-Rudaw Kurdistan Pope Visit
-p:Eutelsat,f:1
 3ab7:00820000:0514:013e:1:0
 AMC HD Polska
 p:nc+,f:1
@@ -9532,9 +9652,6 @@ Carrefour Market
 p:Link Srl
 0654:005a0000:0001:0064:2:0
 Ros * Ros Selex
-p:MultiProgram
-064a:005a0000:0001:0064:2:0
-Ros * Ros
 p:MultiProgram
 0712:005a0000:0001:0064:1:0
 Sisal TV 1
