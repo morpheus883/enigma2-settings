@@ -639,11 +639,17 @@ fff8acd2:0001:0001
 0e080000:0047:0046
 	s 10716000:25000000:0:3:-8:2:0:1:2:1:2
 /
-0e08b0a8:0519:0002
-	s 12456000:28800000:1:3:-8:2:0:1:2:0:2
-/
 0e080000:0052:0046
 	s 12207000:30000000:0:3:-8:2:0:1:2:1:2
+/
+0e080000:0afb:00bb
+	s 12607000:28800000:1:7:-8:2:0:1:1:1:2
+/
+0e080000:0afa:00bb
+	s 12563000:28800000:1:7:-8:2:0:1:1:1:2
+/
+0e080000:0af9:00bb
+	s 12456000:30000000:1:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -1275,10 +1281,13 @@ p:Telespazio,f:1
 RIK3
 p:Telespazio
 135b:00820000:33f4:013e:2:0
-Radio Gamma Stereo Test
+Radio Gamma Stereo
 p:Telespazio
 1359:00820000:33f4:013e:2:0
 Radio LatteMiele
+p:Telespazio
+1367:00820000:33f4:013e:2:0
+Radio Studio Delta
 p:Telespazio
 366a:00820000:00c8:013e:1:0
 Noviy Mir
@@ -1427,6 +1436,9 @@ p:,f:1
 0604:00820000:01f4:013e:2:0
 R Radio
 p:
+08b2:00820000:01f4:013e:2:0
+Radio Novaya Zhizn
+p:Eutelsat
 3ab7:00820000:0514:013e:1:0
 AMC HD Polska
 p:nc+,f:1
@@ -1523,12 +1535,6 @@ p:M-Three satcom,f:1
 0e25:00820000:0708:00c8:1:0
 Super!
 p:Persidera,f:1
-0e2d:00820000:0708:00c8:25:0
-Horse TV HD
-p:M-Three satcom,f:1
-0e2e:00820000:0708:00c8:1:0
-Class Tv Moda
-p:M-Three Satcom,f:1
 0321:00820000:3bc4:013e:1:0
 Euronews English HD
 p:GLOBECAST,f:1
@@ -1816,27 +1822,30 @@ L´Equipe 21
 p:GlobeCast,f:1
 2526:00820000:13ef:013e:1:0
 Sharqiya HD
-p:DU,f:1
+p:,f:1
 2529:00820000:13ef:013e:1:0
 Al Arabiya
-p:DU,f:1
+p:,f:1
 252c:00820000:13ef:013e:1:0
 Sky News Arabia
-p:Du,f:1
+p:,f:1
 2520:00820000:13ef:013e:1:0
 Al Sharjah
-p:Du,f:1
+p:,f:1
 2523:00820000:13ef:013e:1:0
 Abu Dhabi Sport 1
-p:Du,f:1
+p:,f:1
 2531:00820000:13ef:013e:2:0
 AL SHARJAH RADIO
-p:Du
+p:
 2525:00820000:13ef:013e:1:0
 Zad TV
-p:Du,f:1
+p:,f:1
 252f:00820000:13ef:013e:1:0
 Asharq News Channel HD
+p:,f:1
+0130:00820000:13ef:013e:1:0
+Alaan TV HD
 p:,f:1
 37d7:00820000:14b4:fbff:1:0
 IEPG Data
@@ -2930,9 +2939,6 @@ p:Cyfrowy Polsat S.A.
 1cdf:00820000:1ce8:0071:12:0
 HD3000_NF
 p:Cyfrowy Polsat S.A.
-1cba:00820000:1ce8:0071:1:0
-ATM Rozrywka TV
-p:Cyfrowy Polsat,f:1
 1cbb:00820000:1ce8:0071:1:0
 Vivid Touch
 p:Cyfrowy Polsat,f:1
@@ -3944,6 +3950,9 @@ p:,f:1
 0003:00822c46:02bc:013e:1:0
 Kentron TV
 p:iKO Media Group,f:1
+03e9:00822c46:02bc:013e:1:0
+Vatican Channel
+p:GLOBECAST ITALY,f:1
 4205:00820000:2f44:013e:1:0
 Dorcel TV HD
 p:AB Sat,f:1
@@ -4491,82 +4500,82 @@ p:Rai,c:0907bd,f:1
 UNINETTUNO UNIVERSITY TV
 p:Rai,f:1
 36c5:00822d06:06a4:013e:2:0
-SRF 1
+SRF 1 OLD
 p:Schweizer Radio und Fernsehen
 36c6:00822d06:06a4:013e:2:0
-SRF 2 Kultur
+SRF 2 Kultur OLD
 p:Schweizer Radio und Fernsehen
 36c7:00822d06:06a4:013e:2:0
-SRF 3
+SRF 3 OLD
 p:Schweizer Radio und Fernsehen
 36c8:00822d06:06a4:013e:2:0
-SRF Virus
+SRF Virus OLD
 p:Schweizer Radio und Fernsehen
 36c9:00822d06:06a4:013e:2:0
-SRF Musikwelle
+SRF Musikwelle OLD
 p:Schweizer Radio und Fernsehen
 36ca:00822d06:06a4:013e:2:0
-Radio RTR
+Radio RTR OLD
 p:Radio Rumantsch
 36d2:00822d06:06a4:013e:2:0
-Swiss Classic
+Swiss Classic OLD
 p:Swiss Satellite Radio
 36d3:00822d06:06a4:013e:2:0
-Swiss Pop
+Swiss Pop OLD
 p:Swiss Satellite Radio
 36d4:00822d06:06a4:013e:2:0
-Swiss Jazz
+Swiss Jazz OLD
 p:Swiss Satellite Radio
 36d5:00822d06:06a4:013e:2:0
-SRF 4 News
+SRF 4 News OLD
 p:Schweizer Radio und Fernsehen
 36d8:00822d06:06a4:013e:2:0
-SRF 1 AG SO
+SRF 1 AG SO OLD
 p:Schweizer Radio und Fernsehen
 36d9:00822d06:06a4:013e:2:0
-SRF 1 BS
+SRF 1 BS OLD
 p:Schweizer Radio und Fernsehen
 36da:00822d06:06a4:013e:2:0
-SRF 1 BE FR VS
+SRF 1 BE FR VS OLD
 p:Schweizer Radio und Fernsehen
 36db:00822d06:06a4:013e:2:0
-SRF 1 LU
+SRF 1 LU OLD
 p:Schweizer Radio und Fernsehen
 36dc:00822d06:06a4:013e:2:0
-SRF 1 SG
+SRF 1 SG OLD
 p:Schweizer Radio und Fernsehen
 36dd:00822d06:06a4:013e:2:0
-SRF 1 ZH SH
+SRF 1 ZH SH OLD
 p:Schweizer Radio und Fernsehen
 36de:00822d06:06a4:013e:2:0
-SRF 1 GR
+SRF 1 GR OLD
 p:Schweizer Radio und Fernsehen
 36df:00822d06:06a4:013e:2:0
-Swiss Classica
+Swiss Classica OLD
 p:Swiss Satellite Radio
 36cb:00822d06:06a4:013e:2:0
-RTS-1ere
+RTS-1ere OLD
 p:Radio Suisse Romande
 36cc:00822d06:06a4:013e:2:0
-Espace 2
+Espace 2 OLD
 p:Radio Suisse Romande
 36cd:00822d06:06a4:013e:2:0
-Couleur3
+Couleur 3 OLD
 p:Radio Suisse Romande
 36ce:00822d06:06a4:013e:2:0
-Option Musique
+Option Musique OLD
 p:Radio Suisse Romande
 36cf:00822d06:06a4:013e:2:0
-Rete Uno
+Rete Uno OLD
 p:SSR/SRG
 36d0:00822d06:06a4:013e:2:0
-Rete Due
+Rete Due OLD
 p:SSR/SRG
 36d1:00822d06:06a4:013e:2:0
-Rete Tre
+Rete Tre OLD
 p:SSR/SRG
 36d7:00822d06:06a4:013e:2:0
-Swiss Classique
+Swiss Classique OLD
 p:SSR/SRG
 36e3:00822d06:06a4:013e:25:0
 RSI LA 1 HD
@@ -5060,7 +5069,7 @@ p:ABS,f:1
 01f8:00820000:0384:013e:1:0
 NASA TV HD
 p:,c:050001,f:1
-01fa:00820000:0384:013e:25:0
+01fa:00820000:0384:013e:1:0
 Rudaw HD
 p:iKO Media Group,f:1
 01fc:00820000:0384:013e:1:0
@@ -5128,6 +5137,12 @@ RT Arabic HD
 p:EUTELSAT,f:1
 0645:00820000:2454:013e:25:0
 Al Alam TV HD
+p:EUTELSAT,f:1
+0646:00820000:2454:013e:1:0
+MediaSport Motor TV 2
+p:EUTELSAT,f:1
+0653:00820000:2454:013e:1:0
+Pop Economy
 p:EUTELSAT,f:1
 0079:00820000:04b0:0110:25:0
 Italia 1 HD
@@ -5336,7 +5351,7 @@ p:GLOBECAST,f:1
 338f:00820000:1388:013e:1:0
 Test GC 4
 p:GLOBECAST,f:1
-332d:00820000:1388:013e:1:0
+332d:00820000:1388:013e:25:0
 DW English HD
 p:GLOBECAST,f:1
 3341:00820000:1388:013e:2:0
@@ -5422,9 +5437,6 @@ RFI Test
 p:GLOBECAST
 3330:00820000:1388:013e:1:0
 KBS World HD
-p:GLOBECAST,f:1
-3331:00820000:1388:013e:1:0
-Al Hiwar
 p:GLOBECAST,f:1
 05f9:00820000:2c24:013e:1:0
 SAHAR KURDISH
@@ -5745,7 +5757,7 @@ p:KABELIO.CH,f:1
 Kabelio Canale 5 ITA
 p:KABELIO.CH,f:1
 0084:00820000:3264:013e:1:0
-Kabelio n.n.
+Kabelio Blue ZOOM D
 p:KABELIO.CH,f:1
 0085:00820000:3264:013e:1:0
 Kabelio SWISS1
@@ -9404,6 +9416,12 @@ p:Telenor,f:1
 1c19:fff8aa78:003d:0046:25:0
 Animal Planet HD
 p:Telenor,f:1
+1e0c:fff8aa78:003d:0046:25:0
+TV12 HD
+p:Telenor,f:1
+4a30:fff8aa78:003d:0046:25:0
+TV12 HD - text
+p:Telenor,f:1
 2afa:fff82f3c:000b:1111:1:0
 AXN White
 p:ESS,f:1
@@ -10886,33 +10904,6 @@ p:Telenor,f:1
 1cf7:0e080000:0047:0046:25:0
 TV 2 Fri HD
 p:Telenor,f:1
-040e:0e08b0a8:0519:0002:1:0
-FEED OCCAS HD
-p:,f:1
-040f:0e08b0a8:0519:0002:1:0
-Tivi 5 Monde
-p:,f:1
-0410:0e08b0a8:0519:0002:1:0
-TV 5 Monde Afrique
-p:,f:1
-0411:0e08b0a8:0519:0002:1:0
-TV 5 Monde Europe
-p:,f:1
-0412:0e08b0a8:0519:0002:1:0
-TV 5 Monde Europe HD
-p:,f:1
-0413:0e08b0a8:0519:0002:1:0
-TV 5 Monde FBS HD
-p:,f:1
-0414:0e08b0a8:0519:0002:1:0
-TV 5 Monde Orient HD
-p:,f:1
-0416:0e08b0a8:0519:0002:1:0
-TV 5 Monde Style HD
-p:,f:1
-0415:0e08b0a8:0519:0002:22:0
-TV 5 Monde Pacifique
-p:,f:1
 2341:0e080000:0052:0046:25:0
 TS Showcase 1
 p:Telenor,f:1
@@ -10928,6 +10919,135 @@ p:Telenor,f:1
 2345:0e080000:0052:0046:25:0
 TS Showcase 5
 p:Telenor,f:1
+2b03:0e080000:0afb:00bb:22:0
+Auto Motor Sport
+p:Slovak Telekom,f:1
+2b04:0e080000:0afb:00bb:22:0
+CBS Reality
+p:Slovak Telekom,f:1
+2b05:0e080000:0afb:00bb:22:0
+CNN
+p:Slovak Telekom,f:1
+2b06:0e080000:0afb:00bb:22:0
+Duck TV
+p:Slovak Telekom,f:1
+2b07:0e080000:0afb:00bb:22:0
+FEM3
+p:Slovak Telekom,f:1
+2b09:0e080000:0afb:00bb:22:0
+Filmbox Family
+p:Slovak Telekom,f:1
+2b0a:0e080000:0afb:00bb:22:0
+Filmbox Stars
+p:Slovak Telekom,f:1
+2b0b:0e080000:0afb:00bb:22:0
+JimJam
+p:Slovak Telekom,f:1
+2b0c:0e080000:0afb:00bb:22:0
+Lala TV
+p:Slovak Telekom,f:1
+2b0d:0e080000:0afb:00bb:22:0
+Magyar ATV
+p:Slovak Telekom,f:1
+2b0e:0e080000:0afb:00bb:22:0
+Ocko
+p:Slovak Telekom,f:1
+2b0f:0e080000:0afb:00bb:22:0
+Paramount Network
+p:Slovak Telekom,f:1
+2b10:0e080000:0afb:00bb:22:0
+Sorozat+
+p:Slovak Telekom,f:1
+2b11:0e080000:0afb:00bb:22:0
+Super TV2
+p:Slovak Telekom,f:1
+2b08:0e080000:0afb:00bb:25:0
+Filmbox Extra HD
+p:Slovak Telekom,f:1
+271c:0e080000:0afa:00bb:22:0
+Cool TV
+p:Slovak Telekom,f:1
+271d:0e080000:0afa:00bb:22:0
+CS Film
+p:Slovak Telekom,f:1
+2720:0e080000:0afa:00bb:22:0
+MTV HU
+p:Slovak Telekom,f:1
+2721:0e080000:0afa:00bb:22:0
+Muzsika TV
+p:Slovak Telekom,f:1
+2722:0e080000:0afa:00bb:22:0
+Slager TV
+p:Slovak Telekom,f:1
+2723:0e080000:0afa:00bb:22:0
+TV Barrandov
+p:Slovak Telekom,f:1
+2724:0e080000:0afa:00bb:22:0
+TV Paprika CZ
+p:Slovak Telekom,f:1
+2725:0e080000:0afa:00bb:22:0
+TV Paprika HU
+p:Slovak Telekom,f:1
+271b:0e080000:0afa:00bb:25:0
+CNN Prima News HD
+p:Slovak Telekom,f:1
+271e:0e080000:0afa:00bb:25:0
+CT :D/ CT Art HD
+p:Slovak Telekom,f:1
+271f:0e080000:0afa:00bb:25:0
+M4 Sport HD
+p:Slovak Telekom,f:1
+2335:0e080000:0af9:00bb:22:0
+Disney Channel
+p:Slovak Telekom,f:1
+2337:0e080000:0af9:00bb:22:0
+Duna World
+p:Slovak Telekom,f:1
+2339:0e080000:0af9:00bb:22:0
+M5
+p:Slovak Telekom,f:1
+233a:0e080000:0af9:00bb:22:0
+Mozi+
+p:Slovak Telekom,f:1
+233b:0e080000:0af9:00bb:22:0
+Nick Jr. HU
+p:Slovak Telekom,f:1
+233d:0e080000:0af9:00bb:22:0
+Prime
+p:Slovak Telekom,f:1
+233e:0e080000:0af9:00bb:22:0
+RTL+ HU
+p:Slovak Telekom,f:1
+233f:0e080000:0af9:00bb:22:0
+RTL Gold
+p:Slovak Telekom,f:1
+2343:0e080000:0af9:00bb:22:0
+TV2 Sef
+p:Slovak Telekom,f:1
+2333:0e080000:0af9:00bb:25:0
+Arena Sport HD
+p:Slovak Telekom,f:1
+2334:0e080000:0af9:00bb:25:0
+CT Sport HD
+p:Slovak Telekom,f:1
+2336:0e080000:0af9:00bb:25:0
+Duna HD
+p:Slovak Telekom,f:1
+2338:0e080000:0af9:00bb:25:0
+M2 HD
+p:Slovak Telekom,f:1
+233c:0e080000:0af9:00bb:25:0
+Nova Sport 1 HD
+p:Slovak Telekom,f:1
+2340:0e080000:0af9:00bb:25:0
+RTL Klub HD
+p:Slovak Telekom,f:1
+2341:0e080000:0af9:00bb:25:0
+RTL2 HD
+p:Slovak Telekom,f:1
+2342:0e080000:0af9:00bb:25:0
+Sport 2 Cz HD
+p:Slovak Telekom,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2021
