@@ -556,7 +556,7 @@ transponders
 	s 11595000:30000000:1:4:160:2:0:1:2:0:2
 /
 00a00000:00b0:0064
-	s 12738000:2255000:0:3:160:2:0
+	s 12739000:2255000:0:3:160:2:0
 /
 00a02a0a:4f4c:016e
 	s 10762000:30000000:0:7:160:2:0:1:2:0:2
@@ -621,8 +621,8 @@ transponders
 00a00000:d232:d232
 	s 11069000:354000:0:2:160:2:0
 /
-00a0313d:4289:ff00
-	s 12605000:30000000:0:3:160:2:0:1:1:1:2
+00a0313e:4289:ff00
+	s 12606000:30000000:0:3:160:2:0:1:1:1:2
 /
 00a030e2:0001:0001
 	s 12514000:3165000:0:2:160:2:0:1:2:0:2
@@ -722,6 +722,9 @@ transponders
 /
 00a030fd:0001:ffff
 	s 12541000:3166000:0:2:160:2:0:1:2:0:2
+/
+00a02ab0:526c:016e
+	s 10928000:30000000:0:6:160:2:0:1:1:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -1005,16 +1008,16 @@ p:M7 Group,f:1
 VTM 2 HD
 p:M7 Group,f:1
 1b91:00eb0000:0c88:0003:25:0
-Vier HD
+Play4
 p:M7 Group,f:1
 1b92:00eb0000:0c88:0003:22:0
 RTL Z
 p:M7 Group,f:1
 1b95:00eb0000:0c88:0003:22:0
-Zes
+Play6
 p:M7 Group,f:1
 1bfc:00eb0000:0c88:0003:25:0
-FOX Sports 2 HD
+ESPN 2 HD
 p:M7 Group,f:1
 1bfd:00eb0000:0c88:0003:25:0
 Nautical HD
@@ -1419,10 +1422,10 @@ p:M7 Group,f:1
 Film1 Action
 p:M7 Group,f:1
 51bd:00ebaf61:0c96:0003:22:0
-Ziggo Sport1 Voetbal
+Ziggo Sport Voetbal
 p:M7 Group,f:1
 51c2:00ebaf61:0c96:0003:22:0
-Ziggo Sport1 Golf
+Ziggo Sport Golf
 p:M7 Group,f:1
 51d1:00ebaf61:0c96:0003:22:0
 SBS 9
@@ -1434,7 +1437,7 @@ p:M7 Group,f:1
 Film1 Premiere HD
 p:M7 Group,f:1
 51e0:00ebaf61:0c96:0003:25:0
-Ziggo Sport 1 Select HD
+Ziggo Sport Select HD
 p:M7 Group,f:1
 51e5:00ebaf61:0c96:0003:25:0
 National Geographic HD UK
@@ -1452,7 +1455,7 @@ p:M7 Group,f:1
 (18+) Man-X (00-06)
 p:M7 Group,f:1
 5286:00ebaf61:0c96:0003:22:0
-VIJF
+Play5
 p:M7 Group,f:1
 52da:00ebaf61:0c96:0003:2:0
 MNM
@@ -1477,6 +1480,9 @@ Sky Radio
 p:M7 Group
 52ec:00ebaf61:0c96:0003:22:0
 Eleven Sports Pro League 1 NL
+p:M7 Group,f:1
+5287:00ebaf61:0c96:0003:22:0
+Play7
 p:M7 Group,f:1
 521c:00eb0000:0c99:0003:25:0
 Net 5 HD
@@ -1701,7 +1707,7 @@ p:M7 Group,f:1
 SBS 6 HD
 p:M7 Group,f:1
 17cc:00ebaddb:0c82:0003:25:0
-FOX Sports Eredivisie 1 HD
+ESPN HD
 p:M7 Group,f:1
 17d1:00ebaddb:0c82:0003:22:0
 BBC Entertainment
@@ -1710,7 +1716,7 @@ p:M7 Group,f:1
 ONS
 p:M7 Group,c:090a60,f:1
 17b4:00ebaddb:0c82:0003:25:0
-FOX Sports Eredivisie 4 HD
+ESPN 4 HD
 p:M7 Group,f:1
 17e9:00ebaddb:0c82:0003:22:0
 Cartoon Network
@@ -3564,7 +3570,7 @@ p:CANAL+,c:09041d,f:1
 LaLiga 2
 p:Movistar+,c:09041e,f:1
 77c7:00c00000:040a:0001:1:0
-TEST DIM
+DreamWorks
 p:Movistar+,f:1
 77c9:00c00000:040a:0001:1:0
 LaLiga 4
@@ -4000,6 +4006,9 @@ Sky Cinema +24 Germany
 p:Kabelkiosk,f:1
 0204:00c00000:0006:0085:22:0
 Sky Cinema Classics Germany
+p:SKY,f:1
+000d:00c00000:0006:0085:25:0
+Sky Crime HD
 p:SKY,f:1
 6d66:00c00000:0437:0001:1:0
 ZDF
@@ -6137,6 +6146,9 @@ p:Sky Deutschland,f:1
 0196:00c02dee:0002:0085:22:0
 Kinowelt TV
 p:Sky Deutschland,f:1
+000e:00c02dee:0002:0085:25:0
+Sky Comedy HD
+p:SKY,f:1
 0008:00c00000:0003:0085:22:0
 Sky Cinema Fun Germany
 p:Kabelkiosk,f:1
@@ -6301,6 +6313,9 @@ Edge Sport
 p:SES,f:1
 1198:00c00000:0406:0001:25:0
 Waidwerk
+p:SES,f:1
+119a:00c00000:0406:0001:25:0
+ClipMyHorse.TV
 p:SES,f:1
 21ae:00c00000:0448:0001:201:0
 MOSAIQUE
@@ -6978,10 +6993,10 @@ p:Max TV,f:1
 Sport Klub Start Hr
 p:Max TV,f:1
 006c:00a00000:0001:0040:25:0
-Arena 3 HD
+Arena Sport 3 HD
 p:T-HT,f:1
 00d9:00a00000:0001:0040:25:0
-Arena 4 HD
+Arena Sport 4 HD
 p:T-HT,f:1
 0060:00a00000:0001:0040:22:0
 Sport Klub 3 Ser
@@ -7009,6 +7024,12 @@ Nickelodeon HR.
 p:T-HT,f:1
 003c:00a00000:0001:0040:22:0
 Epic Drama
+p:T-HT,f:1
+0042:00a00000:0001:0040:22:0
+Arena Sport 10 HD
+p:T-HT,f:1
+0052:00a00000:0001:0040:22:0
+Arena Sport 8 HD
 p:T-HT,f:1
 0056:00a00000:0002:0040:22:0
 Sport Klub 1 Ser
@@ -7041,7 +7062,7 @@ p:Max TV
 HRT 1
 p:Max TV,f:1
 0050:00a00000:0002:0040:25:0
-Arena 2 HD
+Arena Sport 2 HD
 p:Max TV,f:1
 00ca:00a00000:0002:0040:2:0
 Narodni.
@@ -7065,7 +7086,7 @@ p:T-HT,f:1
 HRT 2 HD
 p:T-HT,c:090239,f:1
 007f:00a00000:0002:0040:1:0
-Arena 6 HD
+Arena Sport 6 HD
 p:T-HT,c:090221,f:1
 00da:00a00000:0002:0040:2:0
 R. Mediaservis
@@ -7101,7 +7122,7 @@ p:T-HT
 BrazzersTV.
 p:T-HT,f:1
 0051:00a00000:0002:0040:25:0
-AS7.
+Arena Sport 7 HD
 p:T-HT,f:1
 0022:00a00000:0003:0040:22:0
 Vivid TV
@@ -7122,7 +7143,7 @@ p:Max TV,f:1
 Klasik TV
 p:Max TV,f:1
 019c:00a00000:0003:0040:25:0
-Arena 1 HD
+Arena Sport 1 HD
 p:Max TV,f:1
 0123:00a00000:0003:0040:22:0
 RTL Hrvatska
@@ -7152,7 +7173,7 @@ p:T-HT,f:1
 Blue Hustler
 p:Max TV,f:1
 00be:00a00000:0003:0040:25:0
-Arena 5 HD
+Arena Sport 5 HD
 p:HT,f:1
 005b:00a00000:0003:0040:22:0
 Dorcel XXX HD
@@ -7188,7 +7209,7 @@ p:T-HT
 TV Koper Capodistria
 p:T-HT,f:1
 0047:00a00000:0003:0040:22:0
-AS9.
+Arena Sport 9 HD
 p:T-HT,f:1
 0001:00a0b131:0a78:0001:1:0
 DM Sat
@@ -7445,9 +7466,6 @@ p:VIPnet,f:1
 079a:00a00000:c6d4:016e:25:0
 Cinemax HD
 p:TAG Broadcasting,f:1
-0778:00a00000:c6d4:016e:22:0
-havoc
-p:TAG Broadcasting,f:1
 077f:00a00000:c6d4:016e:22:0
 Da Vinci Learning
 p:VIPnet,f:1
@@ -7472,23 +7490,26 @@ p:A1 Broadcasting,f:1
 0770:00a00000:c6d4:016e:22:0
 Super SAT
 p:A1 Broadcasting,f:1
+076d:00a00000:c6d4:016e:22:0
+Toxic TV
+p:A1 HR,f:1
+077b:00a00000:c6d4:016e:22:0
+Arena Fight
+p:A1 HR,f:1
+0778:00a00000:c6d4:016e:22:0
+Toxic Folk
+p:A1 HR,f:1
 0709:00a00000:c5a8:016e:22:0
 HRT 1 (SLO 1)
 p:VIPnet,f:1
 070a:00a00000:c5a8:016e:22:0
 HTV 2 HD
 p:VIPnet,f:1
-0713:00a00000:c5a8:016e:22:0
-Sport Klub 1 Hr
-p:VIPnet,f:1
 0714:00a00000:c5a8:016e:22:0
 HRT 3 (SLO 3)
 p:VIPnet,f:1
 0717:00a00000:c5a8:016e:22:0
 Diva Balkans
-p:VIPnet,f:1
-071a:00a00000:c5a8:016e:22:0
-Sport Klub 3 Hr
 p:VIPnet,f:1
 071b:00a00000:c5a8:016e:22:0
 CineStar Action and Thriller Hr
@@ -7531,9 +7552,6 @@ CBS Reality
 p:VIPnet,f:1
 0723:00a00000:c5a8:016e:22:0
 Kino TV HR
-p:VIPnet,f:1
-0710:00a00000:c5a8:016e:22:0
-Sport Klub 2 Hr
 p:VIPnet,f:1
 0712:00a00000:c5a8:016e:22:0
 Hustler TV
@@ -7586,6 +7604,18 @@ p:A HR,f:1
 076a:00a00000:c5a8:016e:12:0
 A1 HR OTA-Upgrade
 p:A1 HR
+070b:00a00000:c5a8:016e:22:0
+RiC
+p:A1 HR,f:1
+0710:00a00000:c5a8:016e:25:0
+Arena Sport 2 HD
+p:A1 HR,f:1
+0713:00a00000:c5a8:016e:25:0
+Arena Sport 1 HD
+p:A1 HR,f:1
+071a:00a00000:c5a8:016e:25:0
+Arena Sport 3 HD
+p:A1 HR,f:1
 0001:00a0b115:0001:0001:1:0
 Kanal D Romania
 p:DoganMedia,f:1
@@ -7706,6 +7736,9 @@ p:DigitALB,f:1
 027a:00a02a0a:4f4c:016e:9:0
 OTA SMIT MSD
 p:DigitALB
+0438:00a02a0a:4f4c:016e:22:0
+Syri TV
+p:DigitALB,f:1
 0a94:00a00000:9dd0:016e:22:0
 FilmBox Arthouse
 p:Mtel,f:1
@@ -8357,6 +8390,9 @@ p:Total TV,f:1
 0682:00a00000:9fc4:016e:1:0
 Cinemania HD
 p:Total TV,f:1
+0673:00a00000:9fc4:016e:1:0
+Fight Channel
+p:Total TV,f:1
 00aa:00a00000:0001:016e:2:0
 Radio Tirana 1
 p:RTSH
@@ -8708,73 +8744,73 @@ p:BP-TNZ
 03f2:00a00000:d232:d232:2:0
 Radio 10 TNZ
 p:BP-TNZ
-1199:00a0313d:4289:ff00:22:0
+1199:00a0313e:4289:ff00:22:0
 TV 2 HU
 p:Orange TV,f:1
-119a:00a0313d:4289:ff00:22:0
+119a:00a0313e:4289:ff00:22:0
 TV 4
 p:Orange TV,f:1
-119b:00a0313d:4289:ff00:22:0
+119b:00a0313e:4289:ff00:22:0
 Film+ HU
 p:Orange TV,f:1
-119c:00a0313d:4289:ff00:22:0
+119c:00a0313e:4289:ff00:22:0
 Cool TV
 p:Orange TV,f:1
-119d:00a0313d:4289:ff00:22:0
+119d:00a0313e:4289:ff00:22:0
 RTL 2 Hun
 p:Orange TV,f:1
-119e:00a0313d:4289:ff00:22:0
+119e:00a0313e:4289:ff00:22:0
 RTL Klub
 p:Orange TV,f:1
-119f:00a0313d:4289:ff00:22:0
+119f:00a0313e:4289:ff00:22:0
 RTL+
 p:Orange TV,f:1
-11a0:00a0313d:4289:ff00:22:0
+11a0:00a0313e:4289:ff00:22:0
 Sorozat+
 p:Orange TV,f:1
-11a1:00a0313d:4289:ff00:22:0
+11a1:00a0313e:4289:ff00:22:0
 Slager TV HU
 p:Orange TV,f:1
-11a2:00a0313d:4289:ff00:22:0
+11a2:00a0313e:4289:ff00:22:0
 Kino Barrandov
 p:Orange TV,f:1
-11a3:00a0313d:4289:ff00:22:0
+11a3:00a0313e:4289:ff00:22:0
 Barrandov Krimi
 p:Orange TV,f:1
-11a5:00a0313d:4289:ff00:22:0
+11a5:00a0313e:4289:ff00:22:0
 Extreme Sports Channel
 p:Orange TV,f:1
-11a6:00a0313d:4289:ff00:22:0
+11a6:00a0313e:4289:ff00:22:0
 Orange Sport 3 SK
 p:Orange TV,f:1
-11a7:00a0313d:4289:ff00:22:0
+11a7:00a0313e:4289:ff00:22:0
 Orange Sport 4 SK
 p:Orange TV,f:1
-11a8:00a0313d:4289:ff00:22:0
+11a8:00a0313e:4289:ff00:22:0
 Orange Infokanal
 p:Orange TV,f:1
-1195:00a0313d:4289:ff00:25:0
+1195:00a0313e:4289:ff00:25:0
 M1 HD (Europe)
 p:Orange TV,f:1
-1196:00a0313d:4289:ff00:25:0
+1196:00a0313e:4289:ff00:25:0
 M2 HD (Europe)
 p:Orange TV,f:1
-1197:00a0313d:4289:ff00:25:0
+1197:00a0313e:4289:ff00:25:0
 M4 Sport HD (Europe)
 p:Orange TV,f:1
-1198:00a0313d:4289:ff00:25:0
+1198:00a0313e:4289:ff00:25:0
 Duna TV HD (Europe)
 p:Orange TV,f:1
-11aa:00a0313d:4289:ff00:25:0
+11aa:00a0313e:4289:ff00:25:0
 Orange Sport 2 SK
 p:Orange TV,f:1
-11ab:00a0313d:4289:ff00:22:0
+11ab:00a0313e:4289:ff00:22:0
 Trojka
 p:Orange TV,f:1
-11ac:00a0313d:4289:ff00:22:0
+11ac:00a0313e:4289:ff00:22:0
 Lala TV
 p:Orange TV,f:1
-11ad:00a0313d:4289:ff00:22:0
+11ad:00a0313e:4289:ff00:22:0
 UP Network
 p:Orange TV,f:1
 0001:00a030e2:0001:0001:1:0
@@ -8787,10 +8823,10 @@ p:ENEX,f:1
 Enex Path 1
 p:Enex,f:1
 079e:00a03152:0001:ffff:1:0
-TJK ISTANBUL SD
+TJK ADANA SD
 p:TJK,f:1
 079e:00a03157:0001:ffff:1:0
-TJK URFA SD
+TJK ADANA SD
 p:TJK,f:1
 0001:00a03107:0000:ffff:1:0
 UKR - 007
@@ -9227,6 +9263,9 @@ p:,f:1
 0001:00a030fd:0001:ffff:1:0
 Enex Path 1
 p:Enex,f:1
+0453:00a02ab0:526c:016e:25:0
+Epic Drama
+p:A1 Broadcasting,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -9769,6 +9808,9 @@ Radio LatteMiele
 p:Telespazio
 1367:00820000:33f4:013e:2:0
 Radio Studio Delta
+p:Telespazio
+1365:00820000:33f4:013e:2:0
+Radio Dimensione Stereo
 p:Telespazio
 366a:00820000:00c8:013e:1:0
 Noviy Mir
@@ -13631,6 +13673,9 @@ p:EUTELSAT,f:1
 0653:00820000:2454:013e:1:0
 Pop Economy
 p:EUTELSAT,f:1
+064b:00820000:2454:013e:1:0
+BYU TV
+p:Eutelsat,f:1
 0079:00820000:04b0:0110:25:0
 Italia 1 HD
 p:,f:1
