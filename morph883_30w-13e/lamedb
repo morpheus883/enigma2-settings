@@ -321,12 +321,6 @@ fed4b0e7:0001:0001
 0ce42bd6:ea74:0001
 	s 11222000:30000000:0:3:-300:2:0:1:2:0:2
 /
-fed4b15c:ea62:0000
-	s 12636000:30000000:1:3:-300:2:0:1:2:2:2
-/
-fed4b184:ea61:0000
-	s 12676000:30000000:1:3:-300:2:0:1:2:2:2
-/
 0ce4b104:ea67:0000
 	s 12548000:29600000:1:3:-300:2:0:1:2:2:2
 /
@@ -383,6 +377,12 @@ fed4af4a:0001:ffff
 /
 fed40000:00c8:0022
 	s 11382000:30000000:1:3:-300:2:0:1:2:0:2
+/
+0ce4b157:ea62:0000
+	s 12631000:30000000:1:3:-300:2:0:1:2:2:2
+/
+0ce4b17f:ea61:0000
+	s 12671000:30000000:1:3:-300:2:0:1:2:2:2
 /
 end
 services
@@ -606,7 +606,7 @@ p:Cyfrowy Polsat S.A.,f:1
 Eurosport 1 HD
 p:Cyfrowy Polsat S.A.,f:1
 3e30:00820000:2ee0:013e:1:0
-Polsat Seriale HD
+PPV HD
 p:Cyfrowy Polsat S.A.,f:1
 4331:00820000:300c:013e:25:0
 SRF 1 HD
@@ -789,7 +789,7 @@ p:GlobeCast
 TV 8 Russia
 p:GLOBECAST,f:1
 06ad:00820000:3138:013e:1:0
-BestMarket TV
+Jewelleria
 p:GLOBECAST,f:1
 06b1:00820000:3138:013e:1:0
 NTV Mir
@@ -839,9 +839,6 @@ p:MB Satellite,f:1
 1f63:00820000:319c:013e:1:0
 MB Sat - Test 4
 p:MB Satellite,f:1
-025f:00820000:319c:013e:1:0
-Deutsches Musik Fernsehen
-p:MEDIA BROADCAST,f:1
 1f5f:00820000:319c:013e:1:0
 Iran e Aryaee TV
 p:MB Satellite,f:1
@@ -922,9 +919,6 @@ RIK3
 p:Telespazio
 135b:00820000:33f4:013e:2:0
 Radio Gamma Stereo
-p:Telespazio
-1359:00820000:33f4:013e:2:0
-Radio LatteMiele
 p:Telespazio
 1367:00820000:33f4:013e:2:0
 Radio Studio Delta
@@ -1073,15 +1067,15 @@ p:,f:1
 08a8:00820000:01f4:013e:1:0
 Azadi TV
 p:,f:1
-08a9:00820000:01f4:013e:1:0
-Universal Somali/Telefishinka Caalmiga
-p:,f:1
 0604:00820000:01f4:013e:2:0
 R Radio
 p:
 08b2:00820000:01f4:013e:2:0
 Radio Novaya Zhizn
 p:Eutelsat
+08a0:00820000:01f4:013e:1:0
+Hala London
+p:Eutelsat,f:1
 3ab7:00820000:0514:013e:1:0
 AMC HD Polska
 p:nc+,f:1
@@ -1226,21 +1220,6 @@ p:GLOBECAST
 29e3:00820000:3cf0:013e:1:0
 Soyuz TV
 p:RRSat,f:1
-29e7:00820000:3cf0:013e:2:0
-Proto
-p:GLOBECAST
-29e8:00820000:3cf0:013e:2:0
-DEUTERO
-p:GLOBECAST
-29e9:00820000:3cf0:013e:2:0
-Trito
-p:GLOBECAST
-29ea:00820000:3cf0:013e:2:0
-ERA Sport
-p:GLOBECAST
-29eb:00820000:3cf0:013e:2:0
-Voice Of Greece
-p:GLOBECAST
 29cd:00820000:3cf0:013e:1:0
 TV Congo
 p:GLOBECAST,c:0900c9,f:1
@@ -2516,9 +2495,6 @@ p:NetMed,C:0000,f:1
 0161:00820000:1c84:013e:1:0
 ERT World Europe
 p:NetMed,f:1
-1c85:00820000:1ce8:0071:1:0
-Polsat Seriale HD
-p:Cyfra +,f:1
 1c86:00820000:1ce8:0071:1:0
 AXN White Poland
 p:Cyfra +,f:1
@@ -3689,9 +3665,6 @@ p:Mediaset,c:09011d
 0068:00820000:1770:0110:2:0
 Virgin radio
 p:
-006a:00820000:1770:0110:2:0
-Radio Orbital
-p:
 0049:00820000:1770:0110:22:0
 La7 d
 p:,f:1
@@ -3709,9 +3682,6 @@ Eleven Sports 1 HD
 p:CANAL+,f:1
 13f5:00822ce0:05dc:013e:1:0
 Eleven Sports 2 HD
-p:CANAL+,f:1
-13f4:00822ce0:05dc:013e:1:0
-Fox Polska
 p:CANAL+,f:1
 13ed:00822ce0:05dc:013e:1:0
 Canal+ Premium HD
@@ -3778,6 +3748,12 @@ Eleven Sports 1 HD
 p:CANAL+,f:1
 144f:00822ce0:05dc:013e:1:0
 Eleven Sports 2 HD
+p:CANAL+,f:1
+13f6:00822ce0:05dc:013e:1:0
+National Geographic Wild HD
+p:CANAL+,f:1
+13f7:00822ce0:05dc:013e:1:0
+TVP 3
 p:CANAL+,f:1
 2907:00822ffc:1edc:0071:1:0
 Nat Geo People PL HD
@@ -4319,15 +4295,9 @@ p:Telenorba,f:1
 0524:00820000:3d54:013e:25:0
 Eutelsat Promo HD
 p:Eutelsat,c:090762,f:1
-0522:00820000:3d54:013e:22:0
-HRT International
-p:OiV Zagreb,f:1
 0526:00820000:3d54:013e:25:0
 Daystar HD
 p:BSkyB,f:1
-0527:00820000:3d54:013e:2:0
-VOICE OF CRO
-p:OiV
 0529:00820000:3d54:013e:25:0
 Zeta TV HD
 p:,f:1
@@ -4763,12 +4733,6 @@ p:,f:1
 0643:00820000:2454:013e:1:0
 Wine TV
 p:,f:1
-069b:00820000:2454:013e:1:0
-FTA - HbbTV Demo App
-p:EUTELSAT,f:1
-069a:00820000:2454:013e:12:0
-Eutelsat Data 1
-p:EUTELSAT
 064c:00820000:2454:013e:1:0
 CNC World English
 p:EUTELSAT,f:1
@@ -4787,12 +4751,12 @@ p:Eutelsat,f:1
 0651:00820000:2454:013e:1:0
 TV Art Live
 p:EUTELSAT,f:1
-0652:00820000:2454:013e:25:0
+0652:00820000:2454:013e:1:0
 RT Arabic HD
-p:EUTELSAT,f:1
-0645:00820000:2454:013e:25:0
+p:iKO Media Group,f:1
+0645:00820000:2454:013e:1:0
 Al Alam TV HD
-p:EUTELSAT,f:1
+p:SABA GROUP,f:1
 0646:00820000:2454:013e:1:0
 MS MotorTV
 p:EUTELSAT,f:1
@@ -4802,6 +4766,9 @@ p:EUTELSAT,f:1
 064b:00820000:2454:013e:1:0
 Church Of Jesus Christ
 p:Eutelsat,f:1
+069a:00820000:2454:013e:1:0
+Eutelsat Data 1
+p:MIT-xperts GmbH,f:1
 0079:00820000:04b0:0110:25:0
 Italia 1 HD
 p:,f:1
@@ -6860,48 +6827,6 @@ p:DVB-S2 8PSK 11222H 330.0Â°E
 fffe:0ce42bd6:ea74:0001:100:0
 11222H SID 0xfffe
 p:DVB-S2 8PSK 11222H 330.0Â°E
-03e9:fed4b15c:ea62:0000:1:0
-Abertis PID 8001
-p:Abertis DTT,c:031fff,C:2600,f:1
-03ea:fed4b15c:ea62:0000:1:0
-Abertis PID 8002
-p:Abertis DTT,c:031fff,C:2600,f:1
-03eb:fed4b15c:ea62:0000:1:0
-Abertis PID 8003
-p:Abertis DTT,c:031fff,C:2600,f:1
-03e9:fed4b15c:ea62:0000:100:0
-12631V SID 0x3e9
-p:DVB-S2 8PSK 12631V 330.0Â°E
-03ea:fed4b15c:ea62:0000:100:0
-12631V SID 0x3ea
-p:DVB-S2 8PSK 12631V 330.0Â°E
-03eb:fed4b15c:ea62:0000:100:0
-12631V SID 0x3eb
-p:DVB-S2 8PSK 12631V 330.0Â°E
-fffe:fed4b15c:ea62:0000:100:0
-12631V SID 0xfffe
-p:DVB-S2 8PSK 12631V 330.0Â°E
-03ec:fed4b184:ea61:0000:1:0
-Abertis PID 8004
-p:Abertis DTT,c:031fff,C:2600,f:1
-03ed:fed4b184:ea61:0000:1:0
-Abertis PID 8005
-p:Abertis DTT,c:031fff,C:2600,f:1
-03ee:fed4b184:ea61:0000:1:0
-Abertis PID 8006
-p:Abertis DTT,c:031fff,C:2600,f:1
-03ec:fed4b184:ea61:0000:100:0
-12671V SID 0x3ec
-p:DVB-S2 8PSK 12671V 330.0Â°E
-03ed:fed4b184:ea61:0000:100:0
-12671V SID 0x3ed
-p:DVB-S2 8PSK 12671V 330.0Â°E
-03ee:fed4b184:ea61:0000:100:0
-12671V SID 0x3ee
-p:DVB-S2 8PSK 12671V 330.0Â°E
-fffe:fed4b184:ea61:0000:100:0
-12671V SID 0xfffe
-p:DVB-S2 8PSK 12671V 330.0Â°E
 06a5:0ce4b104:ea67:0000:1:0
 Abertis PID 701
 p:Abertis DTT,c:031fff,C:2600,f:1
@@ -7181,6 +7106,9 @@ p:,f:1
 0334:fed43048:0026:0036:1:0
 Promo NOS TV
 p:Promo NOS TV,f:1
+714d:fed43048:0026:0036:1:0
+Canal NOS
+p:Canal NOS,f:1
 051e:0ce42ab2:000d:ff00:31:0
 FunBox 4K
 p:MB Satellite,f:1
@@ -7301,6 +7229,48 @@ p:Hispasat,f:1
 0002:fed40000:00c8:0022:1:0
 Canal HD
 p:Hispasat,f:1
+03e9:0ce4b157:ea62:0000:1:0
+Abertis PID 8001
+p:Abertis DTT,c:031fff,C:2600,f:1
+03e9:0ce4b157:ea62:0000:100:0
+12631V SID 0x3e9
+p:DVB-S2 8PSK 12631V 330.0Â°E
+03ea:0ce4b157:ea62:0000:1:0
+Abertis PID 8002
+p:Abertis DTT,c:031fff,C:2600,f:1
+03ea:0ce4b157:ea62:0000:100:0
+12631V SID 0x3ea
+p:DVB-S2 8PSK 12631V 330.0Â°E
+03eb:0ce4b157:ea62:0000:1:0
+Abertis PID 8003
+p:Abertis DTT,c:031fff,C:2600,f:1
+03eb:0ce4b157:ea62:0000:100:0
+12631V SID 0x3eb
+p:DVB-S2 8PSK 12631V 330.0Â°E
+fffe:0ce4b157:ea62:0000:100:0
+12631V SID 0xfffe
+p:DVB-S2 8PSK 12631V 330.0Â°E
+03ec:0ce4b17f:ea61:0000:1:0
+Abertis PID 8004
+p:Abertis DTT,c:031fff,C:2600,f:1
+03ec:0ce4b17f:ea61:0000:100:0
+12671V SID 0x3ec
+p:DVB-S2 8PSK 12671V 330.0Â°E
+03ed:0ce4b17f:ea61:0000:1:0
+Abertis PID 8005
+p:Abertis DTT,c:031fff,C:2600,f:1
+03ed:0ce4b17f:ea61:0000:100:0
+12671V SID 0x3ed
+p:DVB-S2 8PSK 12671V 330.0Â°E
+03ee:0ce4b17f:ea61:0000:1:0
+Abertis PID 8006
+p:Abertis DTT,c:031fff,C:2600,f:1
+03ee:0ce4b17f:ea61:0000:100:0
+12671V SID 0x3ee
+p:DVB-S2 8PSK 12671V 330.0Â°E
+fffe:0ce4b17f:ea61:0000:100:0
+12671V SID 0xfffe
+p:DVB-S2 8PSK 12671V 330.0Â°E
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2021
