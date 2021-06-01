@@ -225,9 +225,6 @@ transponders
 00820000:32c8:013e
 	s 11117000:27500000:1:3:130:2:0:1:2:0:2
 /
-00820000:012c:013e
-	s 11258000:27500000:0:3:130:2:0:1:2:0:2
-/
 00820000:1f40:013e
 	s 12303000:27500000:1:3:130:2:0:1:2:0:2
 /
@@ -239,9 +236,6 @@ transponders
 /
 00820000:2c24:013e
 	s 10775000:29900000:0:7:130:2:0:1:2:2:2
-/
-00820000:005f:0055
-	s 12437000:29900000:0:7:130:2:0:1:2:0:2
 /
 00820000:005e:0055
 	s 11219000:29900000:0:7:130:2:0:1:2:0:2
@@ -260,6 +254,9 @@ transponders
 /
 0082aedc:1900:fbff
 	s 11996000:29900000:1:4:130:2:0:1:1:0:2
+/
+0082aac5:005f:0055
+	s 10949000:29900000:1:7:130:2:0:1:2:2:2
 /
 fed40000:056c:056c
 	s 10730000:27500000:0:3:-300:2:0:1:2:3:0
@@ -315,8 +312,8 @@ fed4b0e7:0001:0001
 0ce42d85:ea63:0000
 	s 11653000:19680000:0:3:-300:2:0:1:2:2:2
 /
-0ce42d9d:ea64:0000
-	s 11677000:19684000:0:3:-300:2:0:1:2:2:2
+fed42d9d:ea64:0000
+	s 11677000:15750000:0:3:-300:2:0:1:2:2:2
 /
 0ce42bd6:ea74:0001
 	s 11222000:30000000:0:3:-300:2:0:1:2:0:2
@@ -2594,9 +2591,6 @@ p:Cyfrowy Polsat
 1ca0:00820000:1ce8:0071:2:0
 Zlote Przeboje
 p:Cyfrowy Polsat
-1caa:00820000:1ce8:0071:2:0
-Zlote Przeboje
-p:Cyfrowy Polsat
 1c88:00820000:1ce8:0071:1:0
 Dla Abonentow
 p:Cyfrowy Polsat S.A.,f:1
@@ -2660,6 +2654,9 @@ p:Cyfrowy Polsat S.A.,f:1
 1cac:00820000:1ce8:0071:1:0
 Polsat Seriale HD
 p:Cyfrowy Polsat S.A.,f:1
+1caa:00820000:1ce8:0071:2:0
+Zlote Przeboje
+p:Radio ZET Gold
 1063:00820000:1d4c:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
@@ -2984,6 +2981,9 @@ p:,f:1
 39dd:00820000:1fa4:013e:2:0
 Radio Mojdeh
 p:Radio Mojdeh
+39de:00820000:1fa4:013e:2:0
+Mohabat Radio
+p:
 1089:00820000:2008:fbff:25:0
 Sky Sport 3 HD
 p:Sky Italia,f:1
@@ -3160,6 +3160,9 @@ Ganj e Hozour TV
 p:STN,f:1
 232d:00820000:2328:013e:1:0
 Zaytouna Radio & TV
+p:STN,f:1
+2337:00820000:2328:013e:1:0
+NTN
 p:STN,f:1
 019f:00820000:26ac:013f:1:0
 BFM TV
@@ -4469,9 +4472,6 @@ p:CANAL+,f:1
 1187:0082a9df:2af8:013e:1:0
 National Geographic Wild HD
 p:CANAL+,f:1
-113f:0082a9df:2af8:013e:1:0
-STREFA ABONENTA
-p:CANAL+,f:1
 1315:00820000:2e7c:013e:1:0
 Eurosport 2 HD
 p:CANAL+,f:1
@@ -4844,63 +4844,6 @@ p:Cyfrowy Polsat S.A.,f:1
 070e:00820000:32c8:013e:1:0
 Polsat Sport Premium PPV6
 p:Cyfrowy Polsat S.A.,f:1
-076d:00820000:012c:013e:22:0
-MBC 1 Europe
-p:Eutelsat,f:1
-076e:00820000:012c:013e:22:0
-MBC 3 Europe
-p:Eutelsat,f:1
-076f:00820000:012c:013e:22:0
-MBC Masr
-p:Eutelsat,f:1
-0772:00820000:012c:013e:22:0
-MTV Lebanon
-p:Eutelsat,f:1
-0770:00820000:012c:013e:22:0
-Rotana Cinema
-p:Eutelsat,f:1
-0771:00820000:012c:013e:22:0
-Mazzika
-p:Eutelsat,f:1
-0775:00820000:012c:013e:22:0
-MBC Drama
-p:Eutelsat,f:1
-0773:00820000:012c:013e:22:0
-Iqraa International
-p:Eutelsat,f:1
-0776:00820000:012c:013e:22:0
-Zee Alwan
-p:Eutelsat,f:1
-0777:00820000:012c:013e:22:0
-Ennahar TV Algérie
-p:Eutelsat,f:1
-0778:00820000:012c:013e:22:0
-Al Majd Rawda
-p:Eutelsat,f:1
-0779:00820000:012c:013e:22:0
-Rotana Classic
-p:Eutelsat,f:1
-077a:00820000:012c:013e:22:0
-Panorama Food
-p:Eutelsat,f:1
-07c6:00820000:012c:013e:12:0
-SSU DTS3439
-p:Eutelsat
-0774:00820000:012c:013e:22:0
-Gulli Bil Arabi
-p:Eutelsat,f:1
-077b:00820000:012c:013e:22:0
-Lana TV
-p:Eutelsat,f:1
-077c:00820000:012c:013e:22:0
-Hannibal TV
-p:Eutelsat,f:1
-07d0:00820000:012c:013e:18:0
-SMARTBEAM
-p:EUTELSAT
-07cf:00820000:012c:013e:1:0
-Int Table
-p:EUTELSAT,f:1
 0321:00820000:1f40:013e:1:0
 TBN Europe (Trinity Broadcasting Network)
 p:,f:1
@@ -5180,54 +5123,6 @@ p:IRIB,f:1
 05f3:00820000:2c24:013e:1:0
 Jame-Jam TV 3
 p:IRIB,f:1
-0910:00820000:005f:0055:22:0
-Cartoon Network
-p:XTRA TV,f:1
-0938:00820000:005f:0055:22:0
-DuckTV
-p:XTRA TV,f:1
-094c:00820000:005f:0055:22:0
-Boomerang
-p:XTRA TV,f:1
-07d0:00820000:005f:0055:22:0
-Viasat Sport
-p:XTRA TV,C:0000,f:1
-08e8:00820000:005f:0055:22:0
-Baby TV
-p:XTRA TV,f:1
-08fc:00820000:005f:0055:22:0
-Detskiy Mir
-p:XTRA TV,f:1
-080c:00820000:005f:0055:25:0
-History HD
-p:XTRA TV,C:0000,f:1
-0848:00820000:005f:0055:25:0
-VIP Premiere HD
-p:XTRA TV,C:0000,f:1
-085c:00820000:005f:0055:25:0
-VIP Megahit HD
-p:XTRA TV,C:0000,f:1
-0884:00820000:005f:0055:25:0
-Setanta Sports HD
-p:XTRA TV,C:0000,f:1
-0988:00820000:005f:0055:22:0
-Discovery
-p:XTRA TV,f:1
-099c:00820000:005f:0055:22:0
-Animal Planet
-p:XTRA TV,f:1
-09b0:00820000:005f:0055:22:0
-TLC
-p:XTRA TV,f:1
-0820:00820000:005f:0055:25:0
-Setanta Sports+ HD
-p:XTRA TV,f:1
-0960:00820000:005f:0055:25:0
-Eurosport 1 HD
-p:XTRA TV,f:1
-0974:00820000:005f:0055:25:0
-Eurosport 2 HD
-p:XTRA TV,f:1
 03e8:00820000:005e:0055:22:0
 Dorama
 p:XTRA TV,C:0000,f:1
@@ -5489,6 +5384,54 @@ p:SkyItalia,f:1
 0f72:0082aedc:1900:fbff:25:0
 Primafila 12 HD
 p:SkyItalia,f:1
+07d0:0082aac5:005f:0055:22:0
+Viasat Sport
+p:XTRA TV,C:0000,f:1
+080c:0082aac5:005f:0055:25:0
+History HD
+p:XTRA TV,C:0000,f:1
+0820:0082aac5:005f:0055:25:0
+Setanta Sports+ HD
+p:XTRA TV,f:1
+0848:0082aac5:005f:0055:25:0
+VIP Premiere HD
+p:XTRA TV,C:0000,f:1
+085c:0082aac5:005f:0055:25:0
+VIP Megahit HD
+p:XTRA TV,C:0000,f:1
+0884:0082aac5:005f:0055:25:0
+Setanta Sports HD
+p:XTRA TV,C:0000,f:1
+08e8:0082aac5:005f:0055:22:0
+Baby TV
+p:XTRA TV,f:1
+08fc:0082aac5:005f:0055:22:0
+Detskiy Mir
+p:XTRA TV,f:1
+0910:0082aac5:005f:0055:22:0
+Cartoon Network
+p:XTRA TV,f:1
+0938:0082aac5:005f:0055:22:0
+DuckTV
+p:XTRA TV,f:1
+094c:0082aac5:005f:0055:22:0
+Boomerang
+p:XTRA TV,f:1
+0960:0082aac5:005f:0055:25:0
+Eurosport 1 HD
+p:XTRA TV,f:1
+0974:0082aac5:005f:0055:25:0
+Eurosport 2 HD
+p:XTRA TV,f:1
+0988:0082aac5:005f:0055:22:0
+Discovery
+p:XTRA TV,f:1
+099c:0082aac5:005f:0055:22:0
+Animal Planet
+p:XTRA TV,f:1
+09b0:0082aac5:005f:0055:22:0
+TLC
+p:XTRA TV,f:1
 0065:fed40000:056c:056c:1:0
 Feed
 p:RR Media,f:1
@@ -6010,6 +5953,9 @@ EEC Secundário
 p:EEC Secundário,C:0000,f:1
 058f:0ce40000:0068:0053:1:0
 EEC Secundário
+p:,f:1
+0195:0ce40000:0068:0053:1:0
+Panda Kids
 p:,f:1
 1390:0ce40000:0030:0036:1:0
 TVE International
@@ -6731,43 +6677,43 @@ p:DVB-S2 8PSK 11653H 330.0Â°E
 fffe:0ce42d85:ea63:0000:100:2
 11653H SID 0xfffe
 p:DVB-S2 8PSK 11653H 330.0Â°E
-058c:0ce42d9d:ea64:0000:1:0
+058c:fed42d9d:ea64:0000:1:0
 Abertis PID 420
 p:Abertis DTT,c:031fff,C:2600,f:1
-058d:0ce42d9d:ea64:0000:1:0
+058d:fed42d9d:ea64:0000:1:0
 Abertis PID 421
 p:Abertis DTT,c:031fff,C:2600,f:1
-058f:0ce42d9d:ea64:0000:1:0
+058f:fed42d9d:ea64:0000:1:0
 Abertis PID 423
 p:Abertis DTT,c:031fff,C:2600,f:1
-0597:0ce42d9d:ea64:0000:1:0
+0597:fed42d9d:ea64:0000:1:0
 Abertis PID 431
 p:Abertis DTT,c:031fff,C:2600,f:1
-0599:0ce42d9d:ea64:0000:1:0
+0599:fed42d9d:ea64:0000:1:0
 Abertis PID 433
 p:Abertis DTT,c:031fff,C:2600,f:1
-058c:0ce42d9d:ea64:0000:100:0
+058c:fed42d9d:ea64:0000:100:0
 11677H SID 0x58c
 p:DVB-S2 8PSK 11677H 330.0Â°E
-058d:0ce42d9d:ea64:0000:100:0
+058d:fed42d9d:ea64:0000:100:0
 11677H SID 0x58d
 p:DVB-S2 8PSK 11677H 330.0Â°E
-058f:0ce42d9d:ea64:0000:100:0
+058f:fed42d9d:ea64:0000:100:0
 11677H SID 0x58f
 p:DVB-S2 8PSK 11677H 330.0Â°E
-0597:0ce42d9d:ea64:0000:100:0
+0597:fed42d9d:ea64:0000:100:0
 11677H SID 0x597
 p:DVB-S2 8PSK 11677H 330.0Â°E
-0599:0ce42d9d:ea64:0000:100:0
+0599:fed42d9d:ea64:0000:100:0
 11677H SID 0x599
 p:DVB-S2 8PSK 11677H 330.0Â°E
-05a0:0ce42d9d:ea64:0000:100:0
+05a0:fed42d9d:ea64:0000:100:0
 11677H SID 0x5a0
 p:DVB-S2 8PSK 11677H 330.0Â°E
-fffe:0ce42d9d:ea64:0000:100:0
+fffe:fed42d9d:ea64:0000:100:0
 11677H SID 0xfffe
 p:DVB-S2 8PSK 11677H 330.0Â°E
-05a0:0ce42d9d:ea64:0000:1:0
+05a0:fed42d9d:ea64:0000:1:0
 Abertis PID 440
 p:Abertis DTT,c:031fff,C:2600,f:1
 0bd1:0ce42bd6:ea74:0001:1:0
