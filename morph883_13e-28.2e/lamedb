@@ -180,9 +180,6 @@ transponders
 011a0000:083b:0002
 	s 11264000:27500000:0:2:282:2:0
 /
-011a0000:083d:0002
-	s 11307000:27500000:0:4:282:2:0
-/
 011a0000:0834:0002
 	s 11626000:22000000:1:4:282:2:0
 /
@@ -322,7 +319,7 @@ transponders
 	s 12188000:27500000:1:3:130:2:0:1:2:3:0
 /
 00820000:1d4c:fbff
-	s 12207000:29900000:0:3:130:2:0:1:2:0:0
+	s 12207000:29900000:0:4:130:2:0:1:1:0:2
 /
 0082afc2:0065:0001
 	s 12226000:27500000:1:3:130:2:0
@@ -470,6 +467,9 @@ transponders
 /
 0082aac5:005f:0055
 	s 10949000:29900000:1:7:130:2:0:1:2:2:2
+/
+00822fae:1d4c:fbff
+	s 12206000:29900000:0:4:130:2:0:1:1:0:2
 /
 end
 services
@@ -799,6 +799,18 @@ BT Sport Extra 5
 p:BSkyB,f:1
 d016:011a0000:083f:0002:1:0
 BT Sport Extra 6
+p:BSkyB,f:1
+cfd0:011a0000:083f:0002:1:0
+BT Sport Extra 1
+p:BSkyB,f:1
+cfda:011a0000:083f:0002:1:0
+BT Sport Extra 2
+p:BSkyB,f:1
+cff8:011a0000:083f:0002:1:0
+BT Sport Extra 3
+p:BSkyB,f:1
+d01b:011a0000:083f:0002:1:0
+BT Sport Mosaic 2
 p:BSkyB,f:1
 2920:011a0000:090b:003b:1:0
 FreesatInformation
@@ -2735,18 +2747,6 @@ p:Sky Digital,f:1
 1c26:011a0000:083b:0002:1:0
 4Music
 p:BSkyB,f:1
-cbf7:011a0000:083d:0002:1:0
-BT Sport Extra 2
-p:BSkyB,f:1
-cc02:011a0000:083d:0002:1:0
-BT Sport Extra 3
-p:BSkyB,f:1
-cc2f:011a0000:083d:0002:1:0
-BT Sport Mosaic 2
-p:BSkyB,f:1
-cbed:011a0000:083d:0002:1:0
-BT Sport Extra 1
-p:BSkyB,f:1
 1a40:011a0000:0834:0002:1:0
 MTV One U.K.
 p:Sky Digital,f:1
@@ -4133,15 +4133,6 @@ p:,f:1
 252f:00820000:13ef:013e:1:0
 Asharq News Channel HD
 p:,f:1
-253a:00820000:13ef:013e:1:0
-Fatafeat
-p:,f:1
-253b:00820000:13ef:013e:1:0
-Discovery
-p:,f:1
-253c:00820000:13ef:013e:1:0
-Ennahar TV
-p:,f:1
 37d7:00820000:14b4:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
@@ -5042,9 +5033,6 @@ p:M-Three satcom
 0e3b:00820000:1c20:013e:2:0
 RADIO ZETA
 p:MTHREE SATCOM
-1c39:00820000:1c20:013e:1:0
-Persian Music Channel
-p:MX1,f:1
 0e3e:00820000:1c20:013e:2:0
 Radio Radio
 p:M-Three Satcom Srl
@@ -7142,6 +7130,12 @@ p:CANAL+,f:1
 1187:0082a9df:2af8:013e:1:0
 National Geographic Wild HD
 p:CANAL+,f:1
+1166:0082a9df:2af8:013e:1:0
+TVP 4K
+p:CANAL+,f:1
+113e:0082a9df:2af8:013e:31:0
+TVP 4K
+p:CANAL+,f:1
 1315:00820000:2e7c:013e:1:0
 Eurosport 2 HD
 p:CANAL+,f:1
@@ -7217,6 +7211,9 @@ p:CANAL+
 12e3:00820000:2e7c:013e:2:0
 Radio Contact
 p:CANAL+
+12c5:00820000:2e7c:013e:1:0
+Antena
+p:CANAL+,f:1
 0389:00820000:2134:013e:1:0
 Dubai TV HD
 p:ETISALAT,f:1
@@ -7391,9 +7388,6 @@ p:,f:1
 0217:00820000:0384:013e:1:0
 ETV News
 p:,f:1
-01fb:00820000:0384:013e:25:0
-AVA TV HD
-p:none,f:1
 01f6:00820000:0384:013e:1:0
 Emilia Romagna 24
 p:M-Three Satcom,f:1
@@ -8102,6 +8096,15 @@ p:XTRA TV,f:1
 09b0:0082aac5:005f:0055:22:0
 TLC
 p:XTRA TV,f:1
+1069:00822fae:1d4c:fbff:25:0
+Sky Sport Uno HD
+p:SkyItalia,f:1
+106b:00822fae:1d4c:fbff:25:0
+Sky Sport Football HD
+p:SkyItalia,f:1
+109b:00822fae:1d4c:fbff:25:0
+Sky Sport HD
+p:SkyItalia,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2021
