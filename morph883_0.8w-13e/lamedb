@@ -46,7 +46,7 @@ transponders
 	s 11541000:22000000:1:4:130:2:0
 /
 00820000:3bc4:013e
-	s 11565000:29900000:0:3:130:2:0:1:2:0:2
+	s 11566000:29900000:0:3:130:2:0:1:2:0:2
 /
 00820000:3cf0:013e
 	s 11623000:27500000:1:3:130:2:0
@@ -67,7 +67,7 @@ transponders
 	s 11823000:27500000:0:3:130:2:0:1:2:3:0
 /
 00820000:15e0:fbff
-	s 11842000:29900000:1:4:130:2:0:1:1:0:2
+	s 11843000:29900000:1:4:130:2:0:1:1:0:2
 /
 00820000:1644:fbff
 	s 11862000:29900000:0:4:130:2:0:1:1:0:2
@@ -396,9 +396,6 @@ fff82a39:0041:0046
 0e080000:004c:0046
 	s 12149000:28000000:1:5:-8:2:0
 /
-fff82ffc:0056:0046
-	s 12284000:30000000:0:3:-8:2:0:1:2:0:0
-/
 fff80000:0055:0056
 	s 12322000:30000000:0:3:-8:2:0:1:2:0:0
 /
@@ -507,9 +504,6 @@ fff8acd2:0001:0001
 0e080000:0047:0046
 	s 10716000:25000000:0:3:-8:2:0:1:2:1:2
 /
-0e080000:0052:0046
-	s 12207000:30000000:0:3:-8:2:0:1:2:1:2
-/
 0e080000:0afb:00bb
 	s 12607000:28800000:1:7:-8:2:0:1:1:1:2
 /
@@ -521,6 +515,12 @@ fff8acd2:0001:0001
 /
 fff8ad08:0001:0001
 	s 11528000:3200000:1:4:-8:2:0:1:2:0:2
+/
+0e080000:02c9:0600
+	s 12207000:30000000:0:3:-8:2:0:1:2:1:2
+/
+0e080000:02ca:0600
+	s 12284000:30000000:0:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -1223,9 +1223,6 @@ p:
 08b2:00820000:01f4:013e:2:0
 Radio Novaya Zhizn
 p:Eutelsat
-08a0:00820000:01f4:013e:1:0
-Hala London
-p:Eutelsat,f:1
 3ab7:00820000:0514:013e:1:0
 AMC HD Polska
 p:nc+,f:1
@@ -2246,6 +2243,12 @@ p:SkyItalia
 2ba6:00820000:1a2c:fbff:2:0
 INBLU2000
 p:SkyItalia
+1c67:00820000:1a2c:fbff:25:0
+Sky Arte HD
+p:SkyItalia,f:1
+1c68:00820000:1a2c:fbff:25:0
+Sky Arte HD
+p:SkyItalia,f:1
 2c23:00820000:1a90:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
@@ -3087,7 +3090,7 @@ p:Cyfrowy Polsat SA,f:1
 Polsat Sport HD
 p:Cyfrowy Polsat S.A.,f:1
 39d3:00820000:1fa4:013e:1:0
-Detski Mir
+Detskiy Mir - TeleClub
 p:Kabelkiosk,f:1
 39d4:00820000:1fa4:013e:1:0
 Lubimoe Kino
@@ -4916,9 +4919,6 @@ p:EUTELSAT,f:1
 0653:00820000:2454:013e:1:0
 Pop Economy
 p:EUTELSAT,f:1
-064b:00820000:2454:013e:1:0
-Church Of Jesus Christ
-p:Eutelsat,f:1
 069a:00820000:2454:013e:1:0
 Eutelsat Data 1
 p:MIT-xperts GmbH,f:1
@@ -6059,14 +6059,14 @@ p:UPC,f:1
 75b4:0e080000:02bd:0600:1:0
 Spiler2.
 p:UPC,f:1
-75b6:0e080000:02bd:0600:1:0
-TV1000.
-p:UPC,f:1
 759d:0e080000:02bd:0600:1:0
 Pesti TV
 p:UPC,f:1
 759e:0e080000:02bd:0600:1:0
 History Romania
+p:M7,f:1
+75b6:0e080000:02bd:0600:1:0
+TV1000.
 p:M7,f:1
 03f3:0e082de3:0005:1111:1:0
 FilmBox
@@ -6452,6 +6452,9 @@ p:UPC Direct,f:1
 76c9:0e080000:02c0:0600:1:0
 BBC Earth
 p:UPC Direct,f:1
+76de:0e080000:02c0:0600:1:0
+Sport Extra
+p:M7,f:1
 106a:0e080000:0029:0046:25:0
 History Channel HD Nordic
 p:Canal Digital Nordic,f:1
@@ -7601,21 +7604,6 @@ p:Telenor
 063c:0e080000:004c:0046:2:0
 Europe 2
 p:Telenor
-2337:fff82ffc:0056:0046:25:0
-TS Cinema 1
-p:Telenor,c:09177f,f:1
-2338:fff82ffc:0056:0046:25:0
-TS Cinema 2
-p:Telenor,c:091780,f:1
-2339:fff82ffc:0056:0046:25:0
-TS Cinema 3
-p:Telenor,c:091781,f:1
-233a:fff82ffc:0056:0046:25:0
-TS Cinema 4
-p:Telenor,c:091782,f:1
-233b:fff82ffc:0056:0046:25:0
-TS Cinema 5
-p:Telenor,c:091783,f:1
 2332:fff80000:0055:0056:25:0
 TS Sports 11
 p:Telenor,c:09177a,f:1
@@ -7810,9 +7798,6 @@ TV4.
 p:UPC,f:1
 79a0:fff80000:02c7:0600:1:0
 TV2 Sef (SVT)
-p:UPC Direct,f:1
-79a2:fff80000:02c7:0600:1:0
-Investigation Discovery ( SVT)
 p:UPC Direct,f:1
 7988:fff80000:02c7:0600:1:0
 Stingray CMusic
@@ -8357,6 +8342,9 @@ p:Slovak Telekom,f:1
 1f4f:0e080000:0af8:00bb:25:0
 Travel Channel HD
 p:Slovak Telekom,f:1
+1f54:0e080000:0af8:00bb:25:0
+RTVS Sport HD
+p:Slovak Telekom,f:1
 0001:fff80000:000a:fe01:1:0
 Channel-01
 p:,f:1
@@ -8717,21 +8705,6 @@ p:Telenor,f:1
 1cf7:0e080000:0047:0046:25:0
 TV 2 Fri HD
 p:Telenor,f:1
-2341:0e080000:0052:0046:25:0
-TS Showcase 1
-p:Telenor,f:1
-2342:0e080000:0052:0046:25:0
-TS Showcase 2
-p:Telenor,f:1
-2343:0e080000:0052:0046:25:0
-TS Showcase 3
-p:Telenor,f:1
-2344:0e080000:0052:0046:25:0
-TS Showcase 4
-p:Telenor,f:1
-2345:0e080000:0052:0046:25:0
-TS Showcase 5
-p:Telenor,f:1
 2b03:0e080000:0afb:00bb:22:0
 Auto Motor Sport
 p:Slovak Telekom,f:1
@@ -8867,6 +8840,87 @@ p:Adtec Digital,f:1
 0001:fff8ad08:0001:0001:25:0
 STV Elgin
 p:SpectraT.V UKI 1437,f:1
+7a48:0e080000:02c9:0600:22:0
+CT 3
+p:M7,f:1
+7a45:0e080000:02c9:0600:25:0
+CT 1 HD
+p:M7,f:1
+7a46:0e080000:02c9:0600:25:0
+CT 2 HD
+p:M7,f:1
+7a47:0e080000:02c9:0600:25:0
+CT 24 HD
+p:M7,f:1
+7a49:0e080000:02c9:0600:25:0
+Nova HD
+p:M7,f:1
+7a4a:0e080000:02c9:0600:25:0
+Nova 2 HD
+p:M7,f:1
+7a4b:0e080000:02c9:0600:25:0
+Nova Cinema HD
+p:M7,f:1
+7a4c:0e080000:02c9:0600:25:0
+Nova Gold HD
+p:M7,f:1
+7a4d:0e080000:02c9:0600:25:0
+Nova Action HD
+p:M7,f:1
+7a4e:0e080000:02c9:0600:25:0
+Nova Sport 2 HD
+p:M7,f:1
+7a4f:0e080000:02c9:0600:25:0
+Prima HD
+p:M7,f:1
+7a50:0e080000:02c9:0600:25:0
+Prima ZOOM HD
+p:M7,f:1
+7a51:0e080000:02c9:0600:25:0
+Prima Krimi HD
+p:M7,f:1
+7aab:0e080000:02ca:0600:22:0
+Trojka
+p:M7,f:1
+7ab3:0e080000:02ca:0600:22:0
+JOJ Family
+p:M7,f:1
+7ab5:0e080000:02ca:0600:22:0
+Prima PLUS
+p:M7,f:1
+7ab6:0e080000:02ca:0600:22:0
+Nova International
+p:M7,f:1
+7aa9:0e080000:02ca:0600:25:0
+Jednotka HD
+p:M7,f:1
+7aaa:0e080000:02ca:0600:25:0
+Dvojka HD
+p:M7,f:1
+7aac:0e080000:02ca:0600:25:0
+Markiza HD
+p:M7,f:1
+7aad:0e080000:02ca:0600:25:0
+Doma HD
+p:M7,f:1
+7aae:0e080000:02ca:0600:25:0
+Dajto HD
+p:M7,f:1
+7aaf:0e080000:02ca:0600:25:0
+JOJ HD
+p:M7,f:1
+7ab0:0e080000:02ca:0600:25:0
+JOJ Plus HD
+p:M7,f:1
+7ab1:0e080000:02ca:0600:25:0
+Wau HD
+p:M7,f:1
+7ab2:0e080000:02ca:0600:25:0
+JOJ Cinema HD
+p:M7,f:1
+7ab4:0e080000:02ca:0600:25:0
+Prima MAX HD
+p:M7,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2021

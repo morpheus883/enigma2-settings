@@ -343,7 +343,7 @@ transponders
 	s 11541000:22000000:1:4:130:2:0
 /
 00820000:3bc4:013e
-	s 11565000:29900000:0:3:130:2:0:1:2:0:2
+	s 11566000:29900000:0:3:130:2:0:1:2:0:2
 /
 00820000:3cf0:013e
 	s 11623000:27500000:1:3:130:2:0
@@ -364,7 +364,7 @@ transponders
 	s 11823000:27500000:0:3:130:2:0:1:2:3:0
 /
 00820000:15e0:fbff
-	s 11842000:29900000:1:4:130:2:0:1:1:0:2
+	s 11843000:29900000:1:4:130:2:0:1:1:0:2
 /
 00820000:1644:fbff
 	s 11862000:29900000:0:4:130:2:0:1:1:0:2
@@ -570,8 +570,8 @@ fed40000:056c:056c
 0ce43095:002f:0036
 	s 12437000:27500000:0:3:-300:2:0:1:2:2:2
 /
-0ce40000:0027:0036
-	s 12398000:27500000:0:3:-300:2:0:1:2:2:2
+fed40000:0027:0036
+	s 12399000:27500000:0:3:-300:2:0:1:2:2:2
 /
 0ce40000:0068:0053
 	s 12246000:27500000:0:3:-300:2:0:1:2:0:2
@@ -942,9 +942,6 @@ p:,f:1
 
 p:DIGITAL +,f:1
 7599:00c00000:0422:0001:2:0
-
-p:Movistar+
-759a:00c00000:0422:0001:2:0
 
 p:Movistar+
 7789:00c00000:0424:0001:1:0
@@ -2347,7 +2344,7 @@ Baden TV
 p:BetaDigital,f:1
 0381:00c00000:0021:0085:1:0
 Genius Trend
-p:BetaDigital
+p:BetaDigital,f:1
 1000:00c00000:0451:0035:12:0
 Nagra DL DSR7141
 p:Canaldigitaal
@@ -3866,19 +3863,19 @@ p:BMT,f:1
 16ac:00c00000:03ff:0001:25:0
 TV Ingolstadt HD
 p:BMT,f:1
-16ad:00c00000:03ff:0001:25:0
+16ad:00c00000:03ff:0001:1:0
 Lokal TV Portal HD
-p:MIT-xperts GmbH,f:1
+p:BMT,f:1
 16ae:00c00000:03ff:0001:1:0
 BB-MV-LokalTV
 p:HMS GmbH,f:1
-16af:00c00000:03ff:0001:1:0
+16af:00c00000:03ff:0001:25:0
 NiederBayern TV HD
 p:,f:1
 16b0:00c00000:03ff:0001:1:0
 TVA - OTV HD
 p:,f:1
-16b1:00c00000:03ff:0001:1:0
+16b1:00c00000:03ff:0001:25:0
 Franken Plus HD
 p:,f:1
 22d1:00c00000:0434:0001:25:0
@@ -5120,9 +5117,6 @@ p:
 08b2:00820000:01f4:013e:2:0
 Radio Novaya Zhizn
 p:Eutelsat
-08a0:00820000:01f4:013e:1:0
-Hala London
-p:Eutelsat,f:1
 3ab7:00820000:0514:013e:1:0
 AMC HD Polska
 p:nc+,f:1
@@ -6143,6 +6137,12 @@ p:SkyItalia
 2ba6:00820000:1a2c:fbff:2:0
 INBLU2000
 p:SkyItalia
+1c67:00820000:1a2c:fbff:25:0
+Sky Arte HD
+p:SkyItalia,f:1
+1c68:00820000:1a2c:fbff:25:0
+Sky Arte HD
+p:SkyItalia,f:1
 2c23:00820000:1a90:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
@@ -6984,7 +6984,7 @@ p:Cyfrowy Polsat SA,f:1
 Polsat Sport HD
 p:Cyfrowy Polsat S.A.,f:1
 39d3:00820000:1fa4:013e:1:0
-Detski Mir
+Detskiy Mir - TeleClub
 p:Kabelkiosk,f:1
 39d4:00820000:1fa4:013e:1:0
 Lubimoe Kino
@@ -8813,9 +8813,6 @@ p:EUTELSAT,f:1
 0653:00820000:2454:013e:1:0
 Pop Economy
 p:EUTELSAT,f:1
-064b:00820000:2454:013e:1:0
-Church Of Jesus Christ
-p:Eutelsat,f:1
 069a:00820000:2454:013e:1:0
 Eutelsat Data 1
 p:MIT-xperts GmbH,f:1
@@ -9779,103 +9776,103 @@ p:,f:1
 17a6:0ce43095:002f:0036:2:0
 TSF
 p:
-0191:0ce40000:0027:0036:1:0
+0191:fed40000:0027:0036:1:0
 AXN Black HD
 p:Nos,f:1
-0195:0ce40000:0027:0036:1:0
+0195:fed40000:0027:0036:1:0
 Travel Channel HD
 p:Nos,f:1
-0196:0ce40000:0027:0036:1:0
+0196:fed40000:0027:0036:1:0
 AXN White HD
 p:Nos,f:1
-064a:0ce40000:0027:0036:1:0
+064a:fed40000:0027:0036:1:0
 TV Cine Edition HD
 p:Nos,f:1
-0649:0ce40000:0027:0036:1:0
+0649:fed40000:0027:0036:1:0
 Casa e Cozinha HD
 p:Nos,f:1
-0199:0ce40000:0027:0036:1:0
+0199:fed40000:0027:0036:1:0
 Eurosport HD
 p:Nos,f:1
-019a:0ce40000:0027:0036:1:0
+019a:fed40000:0027:0036:1:0
 Fox Life HD Spain & Portugal
 p:Nos,f:1
-0192:0ce40000:0027:0036:1:0
+0192:fed40000:0027:0036:1:0
 24 Kitchen HD
 p:Nos,f:1
-13ab:0ce40000:0027:0036:1:0
+13ab:fed40000:0027:0036:1:0
 Fox Life HD Spain & Portugal
 p:Meo,f:1
-13aa:0ce40000:0027:0036:1:0
+13aa:fed40000:0027:0036:1:0
 Eurosport HD
 p:Meo,f:1
-13a9:0ce40000:0027:0036:1:0
+13a9:fed40000:0027:0036:1:0
 AXN White HD
 p:Meo,f:1
-13a6:0ce40000:0027:0036:1:0
+13a6:fed40000:0027:0036:1:0
 AXN Black HD
 p:Meo,f:1
-13ad:0ce40000:0027:0036:1:0
+13ad:fed40000:0027:0036:1:0
 24 Kitchen HD
 p:Meo,f:1
-13ac:0ce40000:0027:0036:1:0
+13ac:fed40000:0027:0036:1:0
 Fox Crime Portugal HD
 p:Meo,f:1
-0193:0ce40000:0027:0036:1:0
+0193:fed40000:0027:0036:1:0
 Fox Crime Portugal HD
 p:Nos,f:1
-0642:0ce40000:0027:0036:1:0
+0642:fed40000:0027:0036:1:0
 TV Cine Emotion HD
 p:Nos,f:1
-01cb:0ce40000:0027:0036:1:0
+01cb:fed40000:0027:0036:1:0
 Investigation Discovery
 p:ID Investigation Discovery,f:1
-01ce:0ce40000:0027:0036:1:0
+01ce:fed40000:0027:0036:1:0
 Sport TV NBA
 p:SID Sport TV NBA,f:1
-0208:0ce40000:0027:0036:1:0
+0208:fed40000:0027:0036:1:0
 Eleven Sports 1
 p:Eleven Sports 1,f:1
-13ae:0ce40000:0027:0036:1:0
+13ae:fed40000:0027:0036:1:0
 Eleven Sports 1 HD
 p:,f:1
-13b0:0ce40000:0027:0036:1:0
+13b0:fed40000:0027:0036:1:0
 Eleven Sports 4
 p:,f:1
-0209:0ce40000:0027:0036:1:0
+0209:fed40000:0027:0036:1:0
 Eleven Sports 1
 p:Eleven Sports 1,f:1
-020b:0ce40000:0027:0036:1:0
+020b:fed40000:0027:0036:1:0
 Eleven Sports 4
 p:Eleven Sports 4,f:1
-020c:0ce40000:0027:0036:1:0
+020c:fed40000:0027:0036:1:0
 Eleven Sports 5
 p:Eleven Sports 5,f:1
-13b1:0ce40000:0027:0036:1:0
+13b1:fed40000:0027:0036:1:0
 Eleven Sports 5
 p:,f:1
-0138:0ce40000:0027:0036:1:0
+0138:fed40000:0027:0036:1:0
 Eurosport
 p:SID Eurosport 1,f:1
-1796:0ce40000:0027:0036:1:0
+1796:fed40000:0027:0036:1:0
 NBA TV HD
 p:,f:1
-1797:0ce40000:0027:0036:1:0
+1797:fed40000:0027:0036:1:0
 TV Cine Edition HD
 p:,f:1
-1798:0ce40000:0027:0036:1:0
+1798:fed40000:0027:0036:1:0
 TV Cine Emotion HD
 p:,f:1
-1799:0ce40000:0027:0036:1:0
+1799:fed40000:0027:0036:1:0
 National Geographic Wild
 p:,f:1
-179a:0ce40000:0027:0036:1:0
+179a:fed40000:0027:0036:1:0
 Trace Urban
 p:,f:1
-13af:0ce40000:0027:0036:1:0
+13af:fed40000:0027:0036:1:0
 Eleven 1 HD
 p:,f:1
-01cf:0ce40000:0027:0036:1:0
+01cf:fed40000:0027:0036:1:0
 National Geographic WILD
 p:National Geographic WILD,f:1
 057a:0ce40000:0068:0053:1:0

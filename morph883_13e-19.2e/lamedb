@@ -343,7 +343,7 @@ transponders
 	s 11541000:22000000:1:4:130:2:0
 /
 00820000:3bc4:013e
-	s 11565000:29900000:0:3:130:2:0:1:2:0:2
+	s 11566000:29900000:0:3:130:2:0:1:2:0:2
 /
 00820000:3cf0:013e
 	s 11623000:27500000:1:3:130:2:0
@@ -364,7 +364,7 @@ transponders
 	s 11823000:27500000:0:3:130:2:0:1:2:3:0
 /
 00820000:15e0:fbff
-	s 11842000:29900000:1:4:130:2:0:1:1:0:2
+	s 11843000:29900000:1:4:130:2:0:1:1:0:2
 /
 00820000:1644:fbff
 	s 11862000:29900000:0:4:130:2:0:1:1:0:2
@@ -816,9 +816,6 @@ p:,f:1
 
 p:DIGITAL +,f:1
 7599:00c00000:0422:0001:2:0
-
-p:Movistar+
-759a:00c00000:0422:0001:2:0
 
 p:Movistar+
 7789:00c00000:0424:0001:1:0
@@ -2221,7 +2218,7 @@ Baden TV
 p:BetaDigital,f:1
 0381:00c00000:0021:0085:1:0
 Genius Trend
-p:BetaDigital
+p:BetaDigital,f:1
 1000:00c00000:0451:0035:12:0
 Nagra DL DSR7141
 p:Canaldigitaal
@@ -3740,19 +3737,19 @@ p:BMT,f:1
 16ac:00c00000:03ff:0001:25:0
 TV Ingolstadt HD
 p:BMT,f:1
-16ad:00c00000:03ff:0001:25:0
+16ad:00c00000:03ff:0001:1:0
 Lokal TV Portal HD
-p:MIT-xperts GmbH,f:1
+p:BMT,f:1
 16ae:00c00000:03ff:0001:1:0
 BB-MV-LokalTV
 p:HMS GmbH,f:1
-16af:00c00000:03ff:0001:1:0
+16af:00c00000:03ff:0001:25:0
 NiederBayern TV HD
 p:,f:1
 16b0:00c00000:03ff:0001:1:0
 TVA - OTV HD
 p:,f:1
-16b1:00c00000:03ff:0001:1:0
+16b1:00c00000:03ff:0001:25:0
 Franken Plus HD
 p:,f:1
 22d1:00c00000:0434:0001:25:0
@@ -4994,9 +4991,6 @@ p:
 08b2:00820000:01f4:013e:2:0
 Radio Novaya Zhizn
 p:Eutelsat
-08a0:00820000:01f4:013e:1:0
-Hala London
-p:Eutelsat,f:1
 3ab7:00820000:0514:013e:1:0
 AMC HD Polska
 p:nc+,f:1
@@ -6017,6 +6011,12 @@ p:SkyItalia
 2ba6:00820000:1a2c:fbff:2:0
 INBLU2000
 p:SkyItalia
+1c67:00820000:1a2c:fbff:25:0
+Sky Arte HD
+p:SkyItalia,f:1
+1c68:00820000:1a2c:fbff:25:0
+Sky Arte HD
+p:SkyItalia,f:1
 2c23:00820000:1a90:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
@@ -6858,7 +6858,7 @@ p:Cyfrowy Polsat SA,f:1
 Polsat Sport HD
 p:Cyfrowy Polsat S.A.,f:1
 39d3:00820000:1fa4:013e:1:0
-Detski Mir
+Detskiy Mir - TeleClub
 p:Kabelkiosk,f:1
 39d4:00820000:1fa4:013e:1:0
 Lubimoe Kino
@@ -8687,9 +8687,6 @@ p:EUTELSAT,f:1
 0653:00820000:2454:013e:1:0
 Pop Economy
 p:EUTELSAT,f:1
-064b:00820000:2454:013e:1:0
-Church Of Jesus Christ
-p:Eutelsat,f:1
 069a:00820000:2454:013e:1:0
 Eutelsat Data 1
 p:MIT-xperts GmbH,f:1
