@@ -210,6 +210,12 @@ transponders
 011a0000:07ec:0002
 	s 12246000:27500000:1:2:282:2:0:1:2:0:2
 /
+011a0000:07f5:0002
+	s 12421000:27500000:0:2:282:2:0
+/
+011a3151:0000:0000
+	s 12625000:7200000:0:3:282:2:0:1:2:0:2
+/
 00eb0000:0c88:0003
 	s 11856000:29900000:1:2:235:2:0:1:2:0:0
 /
@@ -1967,9 +1973,6 @@ p:BSkyB,f:1
 1f51:011aae9e:07dc:0002:130:0
 Dummy My Sky Service
 p:BSkyB,f:1
-1034:011aae9e:07dc:0002:4:0
-Anytime
-p:BSkyB
 15b4:011aae9e:07dc:0002:1:0
 Sky Crime
 p:Sky Digital,f:1
@@ -1984,6 +1987,9 @@ SkySp PL
 p:BSkyB,f:1
 16bf:011aae9e:07dc:0002:1:0
 Sky Movies Premier+1
+p:BSkyB,f:1
+0f37:011aae9e:07dc:0002:1:0
+Anytime
 p:BSkyB,f:1
 cb96:011a0000:083c:0002:1:0
 PCNE - Phoenix Chinese News & Entertainment
@@ -2633,9 +2639,6 @@ p:BSkyB,f:1
 232e:011a0000:07d3:0002:31:0
 U1
 p:BSkyB,f:1
-1034:011a0000:07d3:0002:4:0
-Anytime
-p:BSkyB
 0fc0:011a0000:07d3:0002:25:0
 Star Gold HD
 p:BSkyB,f:1
@@ -2659,6 +2662,9 @@ Ultra HD
 p:BSkyB,f:1
 265f:011a0000:07d3:0002:31:0
 Ultra HD
+p:BSkyB,f:1
+0ed9:011a0000:07d3:0002:25:0
+Anytime
 p:BSkyB,f:1
 584c:011a0000:082e:0002:1:0
 Xpanded TV 2
@@ -3227,14 +3233,14 @@ p:BSkyB,f:1
 0449:011ab024:07f0:0002:25:0
 BT Sport Box Office 2 HD
 p:BSkyB,f:1
-1034:011ab024:07f0:0002:4:0
-Anytime
-p:BSkyB
 040b:011ab024:07f0:0002:25:0
 Sky Sports Box Office HD
 p:BSkyB,f:1
 2669:011ab024:07f0:0002:31:0
 Ultra HD
+p:BSkyB,f:1
+0f3a:011ab024:07f0:0002:25:0
+Anytime
 p:BSkyB,f:1
 1bbe:011a0000:0835:0002:25:0
 eir Sport 2 HD
@@ -3551,6 +3557,27 @@ p:BSkyB,f:1
 0669:011a0000:07ec:0002:25:0
 RB
 p:BSkyB,f:1
+1a92:011a0000:07f5:0002:1:0
+BBC Red Button 2
+p:BSkyB,f:1
+1a93:011a0000:07f5:0002:1:0
+BBC Red Button 3
+p:BSkyB,f:1
+1a94:011a0000:07f5:0002:1:0
+BBC Red Button 4
+p:BSkyB,f:1
+1a95:011a0000:07f5:0002:1:0
+BBC Red Button 5
+p:BSkyB,f:1
+1a96:011a0000:07f5:0002:1:0
+BBC Red Button 6
+p:BSkyB,f:1
+1a9b:011a0000:07f5:0002:25:0
+BBC Red Button HD
+p:BSkyB,f:1
+0001:011a3151:0000:0000:25:0
+NEP 107
+p:,f:1
 1b6c:00eb0000:0c88:0003:25:0
 RTL 4 HD
 p:M7 Group,f:1
@@ -6107,9 +6134,6 @@ p:CANAL +,f:1
 769b:00c00000:041e:0001:1:0
 Multideporte 5
 p:Movistar+,c:090415,f:1
-769c:00c00000:041e:0001:1:0
-Liga de Campeones 7
-p:Movistar+,f:1
 769e:00c00000:041e:0001:1:0
 LaLiga 3
 p:CANAL+,f:1
@@ -6443,21 +6467,12 @@ p:Movistar+,f:1
 756e:00c00000:0412:0001:1:0
 LaLiga 7
 p:Movistar+,c:09040b,f:1
-7576:00c00000:0412:0001:1:0
-Liga de Campeones 8
-p:Movistar+,c:090414,f:1
 7579:00c00000:0412:0001:1:0
 LaLiga 5
 p:Movistar+,c:090417,f:1
 757b:00c00000:0412:0001:1:0
 Liga de Campeones
 p:Movistar+,c:090419,f:1
-757c:00c00000:0412:0001:1:0
-Liga de Campeones 6
-p:Movistar+,c:09041a,f:1
-757d:00c00000:0412:0001:1:0
-Liga de Campeones 5
-p:Movistar+,c:09041b,f:1
 757e:00c00000:0412:0001:1:0
 LaLiga 6
 p:Movistar+,c:09041c,f:1
@@ -6740,9 +6755,18 @@ p:ProSiebenSat.1,f:1
 14b9:00c00000:0407:0001:25:0
 4mediathek
 p:ProSiebenSat.1,f:1
-75fb:00c00000:0408:0001:1:0
-.
+760a:00c00000:0408:0001:1:0
+Liga de Campeones 7
 p:Movistar+,f:1
+7604:00c00000:0408:0001:1:0
+Liga de Campeones 8
+p:Movistar+,c:090414,f:1
+7601:00c00000:0408:0001:1:0
+Liga de Campeones 6
+p:Movistar+,c:09041a,f:1
+760e:00c00000:0408:0001:1:0
+Liga de Campeones 5
+p:Movistar+,c:09041b,f:1
 6dca:00c00000:044d:0001:1:0
 Das Erste
 p:ARD Digital,f:1
@@ -10274,6 +10298,9 @@ p:Telespazio
 1359:00820000:33f4:013e:2:0
 Radio Sintony
 p:Telespazio
+135a:00820000:33f4:013e:2:0
+Radio Supersound
+p:Telespazio
 366a:00820000:00c8:013e:1:0
 Noviy Mir
 p:Harmonic,f:1
@@ -12365,9 +12392,6 @@ p:Sky Italia,f:1
 2d61:00820000:2008:fbff:1:0
 Sky Sport 11
 p:Sky Italia,f:1
-2da8:00820000:2008:fbff:25:0
-Premium Action HD
-p:SkyItalia,f:1
 1c50:00820000:2008:fbff:25:0
 Sky Sport Football HD
 p:SkyItalia,f:1
@@ -12389,18 +12413,12 @@ p:SkyItalia,f:1
 1036:00820000:206c:fbff:25:0
 Eurosport 2 HD Italy
 p:SkyItalia,f:1
-2d00:00820000:206c:fbff:25:0
-Sky Atlantic +1 HD
-p:SkyItalia,f:1
 1c38:00820000:206c:fbff:25:0
 Sky Cinema Uno +24 HD
 p:SkyItalia,f:1
 0f4f:00820000:206c:fbff:25:0
 Eurosport HD
 p:SkyItalia,f:1
-2da2:00820000:206c:fbff:25:0
-Premium Cinema+24 HD
-p:SkyItalia,c:050001,f:1
 2a97:00820000:206c:fbff:1:0
 Sky Uno+1
 p:SkyItalia,f:1
@@ -12502,6 +12520,9 @@ Zaytouna Radio & TV
 p:STN,f:1
 2337:00820000:2328:013e:1:0
 NTN
+p:STN,f:1
+2332:00820000:2328:013e:1:0
+BogBlagTV
 p:STN,f:1
 019f:00820000:26ac:013f:1:0
 BFM TV
@@ -12635,21 +12656,6 @@ p:SkyItalia,f:1
 2daa:00820000:2260:fbff:251:0
 Fusion BGDL 11690
 p:SkyItalia
-2da1:00820000:2260:fbff:25:0
-Premium Cinema HD
-p:SkyItalia,c:050001,f:1
-2da3:00820000:2260:fbff:25:0
-Premium Energy HD
-p:SkyItalia,c:050001,f:1
-2da5:00820000:2260:fbff:25:0
-Premium Emotion HD
-p:SkyItalia,c:050001,f:1
-2da7:00820000:2260:fbff:25:0
-Premium Stories HD
-p:SkyItalia,f:1
-2da9:00820000:2260:fbff:25:0
-Premium Crime HD
-p:SkyItalia,f:1
 2dae:00820000:2260:fbff:132:0
 Dl821
 p:SkyItalia
@@ -12682,6 +12688,9 @@ Primafila 22
 p:SkyItalia,f:1
 38c9:00820000:2260:fbff:1:0
 Primafila 20
+p:SkyItalia,f:1
+2d00:00820000:2260:fbff:25:0
+Sky Atlantic +1 HD
 p:SkyItalia,f:1
 4288:00820000:2bc0:013e:1:0
 TVP Rozrywka
@@ -14489,15 +14498,6 @@ p:XTRA TV,C:0000,f:1
 044c:00820000:005e:0055:22:0
 TV 1000 World Kino
 p:XTRA TV,C:0000,f:1
-0460:00820000:005e:0055:22:0
-Sony Turbo
-p:XTRA TV,C:0000,f:1
-0474:00820000:005e:0055:22:0
-Sony Entertainment
-p:XTRA TV,C:0000,f:1
-0488:00820000:005e:0055:22:0
-Sony Sci-Fi
-p:XTRA TV,C:0000,f:1
 049c:00820000:005e:0055:22:0
 FOX
 p:XTRA TV,C:0000,f:1
@@ -14530,6 +14530,12 @@ Star Cinema HD
 p:XTRA TV,f:1
 0604:00820000:005e:0055:22:0
 Zee TV
+p:XTRA TV,f:1
+0460:00820000:005e:0055:25:0
+A Classic
+p:XTRA TV,f:1
+0474:00820000:005e:0055:25:0
+A Premier
 p:XTRA TV,f:1
 04b1:00820000:23f0:013e:25:0
 SBC HD
@@ -14639,12 +14645,30 @@ p:KABELIO.CH,f:1
 0085:00820000:3264:013e:1:0
 Kabelio SWISS1
 p:KABELIO.CH,f:1
-1008:00822fd5:1e14:fbff:25:0
-TEST5
-p:SkyItalia,f:1
 1002:00822fd5:1e14:fbff:1:0
 IEPG Data
 p:Sky Italia,f:1
+2da1:00822fd5:1e14:fbff:25:0
+Premium Cinema 1 HD
+p:SkyItalia,c:050001,f:1
+2da3:00822fd5:1e14:fbff:25:0
+Premium Cinema 2 HD
+p:SkyItalia,c:050001,f:1
+2da5:00822fd5:1e14:fbff:25:0
+Premium Cinema 3 HD
+p:SkyItalia,c:050001,f:1
+2da7:00822fd5:1e14:fbff:25:0
+Premium Stories HD
+p:SkyItalia,f:1
+2da9:00822fd5:1e14:fbff:25:0
+Premium Crime HD
+p:SkyItalia,f:1
+2da2:00822fd5:1e14:fbff:25:0
+Premium Cinema 1 +24 HD
+p:SkyItalia,c:050001,f:1
+2da8:00822fd5:1e14:fbff:25:0
+Premium Action HD
+p:SkyItalia,f:1
 2b68:00822e7c:170c:fbff:1:0
 Informativa privacy e consenso
 p:SkyItalia,f:1
@@ -14779,6 +14803,9 @@ Animal Planet
 p:XTRA TV,f:1
 09b0:0082aac5:005f:0055:22:0
 TLC
+p:XTRA TV,f:1
+0870:0082aac5:005f:0055:25:0
+A First Int.
 p:XTRA TV,f:1
 1069:00822fae:1d4c:fbff:25:0
 Sky Sport Uno HD
