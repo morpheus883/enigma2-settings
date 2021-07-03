@@ -1581,32 +1581,8 @@ transponders
 01043035:15e2:02be
 	s 12341000:27500000:0:3:260:2:0:1:2:1:2
 /
-01040000:041a:00e0
-	s 11604000:27500000:0:3:260:2:0
-/
-01040000:0406:00e0
-	s 11566000:27500000:0:2:260:2:0:1:2:0:2
-/
-01040000:07da:00e0
-	s 11180000:27500000:1:2:260:2:0:1:2:1:2
-/
 01040000:0fc8:00e0
 	s 11430000:27500000:1:2:260:2:0:1:2:0:2
-/
-01040000:0438:00e0
-	s 11623000:27500000:1:2:260:2:0:1:2:1:2
-/
-01040000:0424:00e0
-	s 11585000:27500000:1:2:260:2:0:1:2:1:2
-/
-01040000:0410:00e0
-	s 11547000:27500000:1:2:260:2:0:1:2:1:2
-/
-01040000:07f8:00e0
-	s 10850000:27500000:0:2:260:2:0:1:2:0:2
-/
-01040000:042e:00e0
-	s 11642000:27500000:0:2:260:2:0:1:2:1:2
 /
 01042eb6:001a:001a
 	s 11958000:27500000:0:3:260:2:0:1:2:0:2
@@ -2906,9 +2882,6 @@ transponders
 /
 0064aad5:0001:ffff
 	s 10965000:4167000:1:4:100:2:0
-/
-0064aa4f:0001:ffff
-	s 10831000:5000000:1:3:100:2:0
 /
 00642ae9:0001:ffff
 	s 10985000:3123000:0:3:100:2:0
@@ -4409,6 +4382,9 @@ ffb0b109:0000:0090
 /
 0dc00000:0000:0090
 	s 12648000:4800000:1:3:-80:2:0:1:2:0:2
+/
+ffb0b10f:0000:0090
+	s 12559000:4667000:1:3:-80:2:0:1:2:0:2
 /
 0da2aad0:0001:0000
 	s 10960000:1350000:1:4:-110:2:0
@@ -6556,6 +6532,9 @@ Deep Life TV
 p:ViewMedia,f:1
 0001:02ad3112:0001:0001:1:0
 Mercy TV Miracle
+p:ViewMedia,f:1
+0007:02ad3112:0001:0001:1:0
+Hammi Gospel TV
 p:ViewMedia,f:1
 0001:02ad31b2:03e8:0001:1:0
 AfricaXP Promo
@@ -8795,15 +8774,6 @@ p:TVCOM,f:1
 0298:0208b05c:0000:0000:1:0
 TiJi
 p:TVCOM,f:1
-0299:0208b05c:0000:0000:1:0
-Sony SET
-p:TVCOM,f:1
-029a:0208b05c:0000:0000:1:0
-Sony SciFi
-p:TVCOM,f:1
-029b:0208b05c:0000:0000:1:0
-Sony Turbo
-p:TVCOM,f:1
 029c:0208b05c:0000:0000:1:0
 ТНТ (TNT) 4 
 p:TVCOM,f:1
@@ -10028,9 +9998,6 @@ p:Vivacom,f:1
 0074:01c2b0e8:0001:00d5:25:0
 Planeta (Планета) HD
 p:VIVACOM,f:1
-0075:01c2b0e8:0001:00d5:1:0
-Discovery Channel Bulgaria
-p:Vivacom,f:1
 0078:01c2b0e8:0001:00d5:1:0
 Viasat Explore/Brazzers
 p:Vivacom,f:1
@@ -10065,7 +10032,7 @@ p:Vivacom,f:1
 Folklor (Фолклор) TV
 p:Vivacom,f:1
 0088:01c2b0e8:0001:00d5:25:0
-Diema Sport HD
+Diema Sport 1 HD
 p:VIVACOM,f:1
 008b:01c2b0e8:0001:00d5:1:0
 Chasse & Peche
@@ -10105,6 +10072,9 @@ Fen TV (Фен ТВ)
 p:VIVACOM,f:1
 03f3:01c2b0e8:0001:00d5:1:0
 KINO NOVA
+p:VIVACOM,f:1
+0075:01c2b0e8:0001:00d5:25:0
+Diema Sport 3 HD
 p:VIVACOM,f:1
 c60d:01a40000:a3ad:042e:1:0
 Fenerbahçe TV
@@ -19774,7 +19744,7 @@ RTI La Première
 p:RTI C.I,c:090054,f:1
 0023:01040000:01fd:02be:2:0
 Sky News Arabia Radio
-p:ARABSAT
+p:Sky News Arabia
 002f:01040000:01fd:02be:2:0
 BBC Horn of Africa
 p:BBC World Service
@@ -20297,9 +20267,6 @@ p:Al Dawri Al Kass,f:1
 0008:0104b0eb:024e:02be:1:0
 Sudan Drama
 p:,c:09006c,f:1
-001c:0104b0eb:024e:02be:2:0
-Alraba94
-p:,c:090198
 002e:0104b0eb:024e:02be:2:0
 OUS-Sudan
 p:,c:0901aa
@@ -20320,9 +20287,6 @@ Omdurman Radio
 p:
 0018:0104b0eb:024e:02be:2:0
 Darfur FM
-p:
-001b:0104b0eb:024e:02be:2:0
-Alqwat Almosalaha
 p:
 0022:0104b0eb:024e:02be:2:0
 Sports FM104
@@ -21452,60 +21416,6 @@ p:ARABSAT,f:1
 0134:01043035:15e2:02be:25:0
 Ressala HD
 p:ARABSAT,f:1
-2905:01040000:041a:00e0:1:0
-Al Jazeera
-p:Al Jazeera,f:1
-2906:01040000:041a:00e0:1:0
-Al Jazeera Mubasher
-p:Al Jazeera,f:1
-2907:01040000:041a:00e0:1:0
-Al Jazeera English
-p:Al Jazeera,f:1
-2908:01040000:041a:00e0:1:0
-Al Jazeera Documentary
-p:Al Jazeera,f:1
-2909:01040000:041a:00e0:1:0
-Al Jazeera Mubasher 2
-p:Al Jazeera,f:1
-290d:01040000:041a:00e0:1:0
-Qatar TV
-p:Al Jazeera,f:1
-283d:01040000:0406:00e0:25:0
-beIN Sports HD 17
-p:beIN,f:1
-283e:01040000:0406:00e0:25:0
-beIN Sports NBA HD
-p:beIN,f:1
-283f:01040000:0406:00e0:25:0
-beIN Sports HD
-p:beIN,f:1
-2840:01040000:0406:00e0:25:0
-beIN Sports News HD
-p:beIN,f:1
-2842:01040000:0406:00e0:25:0
-beIN Sports MAX HD4
-p:beIN,f:1
-2843:01040000:0406:00e0:25:0
-beIN Movies HD3
-p:beIN SPORTS,f:1
-2846:01040000:0406:00e0:25:0
-Alkass EXTRA two
-p:beIN,f:1
-4e8c:01040000:07da:00e0:1:0
-beIN 4K
-p:beIN,f:1
-4e85:01040000:07da:00e0:25:0
-beIN Gourmet HD
-p:beIN,f:1
-4e86:01040000:07da:00e0:25:0
-beIN Box Office HD1
-p:beIN,f:1
-4e87:01040000:07da:00e0:25:0
-FX HD
-p:beIN,f:1
-4e88:01040000:07da:00e0:25:0
-beIN Drama HD1
-p:beIN,f:1
 9dd1:01040000:0fc8:00e0:25:0
 Boomerang
 p:beIN Sports,f:1
@@ -21527,90 +21437,6 @@ p:beIN Sports,f:1
 9dd8:01040000:0fc8:00e0:25:7
 Dream Works
 p:beIN Sports,f:1
-2a31:01040000:0438:00e0:25:0
-beIN Sports HD9
-p:beIN,f:1
-2a32:01040000:0438:00e0:25:0
-beIN Sports HD 10
-p:beIN,f:1
-2a33:01040000:0438:00e0:25:0
-beIN Sports HD 11
-p:beIN,f:1
-2a34:01040000:0438:00e0:25:0
-beIN Sports HD 12
-p:beIN,f:1
-2a35:01040000:0438:00e0:25:0
-beIN Movies HD4
-p:beIN,f:1
-2a36:01040000:0438:00e0:25:0
-beIN Sports MAX HD2
-p:beIN,f:1
-2969:01040000:0424:00e0:25:0
-beIN Sports HD5
-p:beIN,f:1
-296a:01040000:0424:00e0:25:0
-beIN Sports HD6
-p:beIN,f:1
-296b:01040000:0424:00e0:25:0
-beIN Sports HD7
-p:beIN,f:1
-296c:01040000:0424:00e0:25:0
-beIN Sports HD8
-p:beIN,f:1
-296e:01040000:0424:00e0:25:0
-beIN Series HD1
-p:beIN,f:1
-2971:01040000:0424:00e0:25:0
-beIN Sports MAX HD1
-p:beIN,f:1
-28a1:01040000:0410:00e0:25:0
-beIN Sports HD1
-p:beIN,f:1
-28a2:01040000:0410:00e0:25:0
-beIN Sports HD2
-p:beIN,f:1
-28a3:01040000:0410:00e0:25:0
-beIN Sports HD3
-p:beIN,f:1
-28a4:01040000:0410:00e0:25:0
-beIN Sports HD4
-p:beIN,f:1
-28a6:01040000:0410:00e0:25:0
-beIN Movies HD1
-p:beIN,f:1
-28a7:01040000:0410:00e0:25:0
-beIN Series HD2
-p:beIN,f:1
-4fb1:01040000:07f8:00e0:25:0
-FOX Life HD
-p:beIN,f:1
-4fb2:01040000:07f8:00e0:25:0
-FOX Crime HD
-p:beIN,f:1
-4fb3:01040000:07f8:00e0:25:0
-FOX Rewayat HD
-p:beIN,f:1
-29cd:01040000:042e:00e0:25:0
-beIN Sports HD 13
-p:beIN,f:1
-29ce:01040000:042e:00e0:25:0
-beIN Sports HD 14
-p:beIN,f:1
-29cf:01040000:042e:00e0:25:0
-beIN Sports HD 15
-p:beIN,f:1
-29d0:01040000:042e:00e0:25:0
-beIN Sports HD 16
-p:beIN,f:1
-29d1:01040000:042e:00e0:25:0
-beIN Sports MAX HD3
-p:beIN,f:1
-29d2:01040000:042e:00e0:25:0
-beIN Movies HD2
-p:beIN SPORTS,f:1
-29d6:01040000:042e:00e0:25:0
-Alkass EXTRA one
-p:beIN,f:1
 049c:01042eb6:001a:001a:1:0
 Palestine Live HD
 p:PALSAT,f:1
@@ -29300,23 +29126,8 @@ p:TAG Broadcasting,f:1
 0390:00a00000:c670:016e:22:0
 BabesTV
 p:A1 Broadcasting,f:1
-0391:00a00000:c670:016e:25:0
-Animal Planet HD
-p:A1 Broadcasting,f:1
-0392:00a00000:c670:016e:25:0
-DTX
-p:A1 Broadcasting,f:1
-0393:00a00000:c670:016e:25:0
-Discovery Science HD
-p:A1 Broadcasting,f:1
 0395:00a00000:c670:016e:22:0
 Reality Kings TV
-p:A1 Broadcasting,f:1
-038f:00a00000:c670:016e:25:0
-Travel Channel HD
-p:A1 Broadcasting,f:1
-0396:00a00000:c670:016e:31:0
-Ultra 4K Extreme
 p:A1 Broadcasting,f:1
 0388:00a00000:c670:016e:25:0
 BBC First HD
@@ -32105,9 +31916,6 @@ p:NetMed,f:1
 0133:00820000:157c:013e:1:0
 R8
 p:NetMed,f:1
-013c:00820000:157c:013e:1:0
-Disney XD Greece
-p:NetMed,f:1
 0140:00820000:157c:013e:1:0
 ANT 1
 p:NetMed,f:1
@@ -32169,7 +31977,7 @@ p:NetMed,f:1
 Ntsra2
 p:NetMed
 0151:00820000:157c:013e:1:0
-NovaSports Extra 2 HD
+Alpha HD
 p:NETMED,f:1
 0134:00820000:157c:013e:1:0
 MUX1S2
@@ -32231,6 +32039,9 @@ p:Sky Italia,f:1
 0dec:00820000:15e0:fbff:25:0
 Sky Cinema Due HD
 p:Sky Italia,f:1
+0de7:00820000:15e0:fbff:25:0
+Sky Sport Tennis HD
+p:SkyItalia,f:1
 10e1:00820000:1644:fbff:1:0
 Sky Meteo24
 p:Sky Italia,f:1
@@ -32693,6 +32504,15 @@ p:SkyItalia,f:1
 1c68:00820000:1a2c:fbff:25:0
 Sky Arte HD
 p:SkyItalia,f:1
+2e05:00820000:1a2c:fbff:1:0
+Wimbledon 1
+p:SkyItalia,f:1
+2c08:00820000:1a2c:fbff:1:0
+Wimbledon 2
+p:SkyItalia,f:1
+1c4e:00820000:1a2c:fbff:1:0
+Sky Sport Tennis
+p:SkyItalia,f:1
 2c23:00820000:1a90:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
@@ -32871,7 +32691,7 @@ p:Netmed,f:1
 National Geographic HD UK
 p:Netmed,f:1
 3c91:00820000:1bbc:013e:1:0
-NovaSports Extra 1 HD
+Star HD
 p:Netmed,f:1
 3c93:00820000:1bbc:013e:1:0
 NovaSports 1 HD Cy
@@ -33068,6 +32888,12 @@ p:NetMed,C:0000,f:1
 0161:00820000:1c84:013e:1:0
 ERT World Europe
 p:NetMed,f:1
+0186:00820000:1c84:013e:1:0
+M2_TEST3
+p:NetMed,f:1
+0187:00820000:1c84:013e:1:1
+M2_TEST4
+p:NETMED,f:1
 1c86:00820000:1ce8:0071:1:0
 AXN White Poland
 p:Cyfra +,f:1
@@ -33611,6 +33437,12 @@ p:Sky Italia,f:1
 1c50:00820000:2008:fbff:25:0
 Sky Sport Football HD
 p:SkyItalia,f:1
+0f7a:00820000:2008:fbff:25:0
+Wimbledon 2 HD
+p:SkyItalia,f:1
+10bc:00820000:2008:fbff:25:0
+Wimbledon 3 HD
+p:SkyItalia,f:1
 1c3f:00820000:206c:fbff:25:0
 Sky Cinema Romance HD
 p:Sky Italia,f:1
@@ -33689,6 +33521,12 @@ p:Sky Italia,f:1
 2aa8:00820000:2198:fbff:1:0
 Sky Sport 1 Italia
 p:Sky Italia,f:1
+0f73:00820000:2198:fbff:25:0
+Wimbledon 5 HD
+p:SkyItalia,f:1
+10b6:00820000:2198:fbff:25:0
+Wimbledon 4 HD
+p:SkyItalia,f:1
 232b:00820000:2328:013e:1:0
 Ronahi TV
 p:STN Ltd,f:1
@@ -34136,8 +33974,8 @@ p:GLOBECAST ITALY,f:1
 4205:00820000:2f44:013e:1:0
 Dorcel TV HD
 p:AB Sat,f:1
-06c3:00820000:2f44:013e:22:0
-HSE 24
+06c3:00820000:2f44:013e:1:0
+GM24
 p:M-Three satcom,f:1
 421c:00820000:2f44:013e:22:0
 UA TV
@@ -35217,7 +35055,7 @@ p:MTV Network Europe,c:090078,f:1
 MTV Polska HD
 p:MTV Networks Europe,c:09040f,f:1
 0002:00820000:1964:013e:1:0
-MTV Music Polska
+Nick Music
 p:MTV Networks Europe,f:1
 0008:00820000:1964:013e:1:0
 VH-1 Polska
@@ -35933,6 +35771,9 @@ p:Sky Italia,f:1
 1e60:00822e7c:170c:fbff:25:0
 Primafila 2 HD
 p:Sky Italia,f:1
+0f74:00822e7c:170c:fbff:25:0
+Wimbledon 6 HD
+p:SkyItalia,f:1
 2b10:0082aedc:1900:fbff:25:0
 Sky Sport Arena HD
 p:Sky Italia,f:1
@@ -35971,6 +35812,9 @@ Sky Sport 2 HD
 p:SkyItalia,f:1
 0f72:0082aedc:1900:fbff:25:0
 Primafila 12 HD
+p:SkyItalia,f:1
+0f5b:0082aedc:1900:fbff:25:0
+Wimbledon 1 HD
 p:SkyItalia,f:1
 07d0:0082aac5:005f:0055:22:0
 Viasat Sport
@@ -36275,9 +36119,6 @@ p:,f:1
 0001:0064aad5:0001:ffff:1:0
 AP LDN UPB
 p:AP London,f:1
-0001:0064aa4f:0001:ffff:1:0
-Vida TV
-p:SEMBA,f:1
 0001:00642ae9:0001:ffff:1:0
 IHA-529
 p:IHA,f:1
@@ -43853,6 +43694,9 @@ p:M7,f:1
 76c3:0e080000:02c0:0600:25:0
 HBO HD
 p:M7,f:1
+76df:0e080000:02c0:0600:1:0
+Sport Extra.
+p:M7,f:1
 106a:0e080000:0029:0046:25:0
 History Channel HD Nordic
 p:Canal Digital Nordic,f:1
@@ -44298,7 +44142,7 @@ p:RCS
 Digi Life Hungary
 p:RCS DigiTV,f:1
 0405:0e0831b3:0002:0001:1:0
-Prime
+TLC RO
 p:RCS,c:090b2c,f:1
 0402:0e0831b3:0002:0001:1:0
 Pax TV Hungary
@@ -44552,9 +44396,6 @@ p:Telenor,f:1
 1c66:fff82a1a:0042:0046:25:0
 Sportkanalen HD
 p:Telenor,f:1
-0446:0e080000:0018:0046:25:0
-Fox HD Nordic
-p:Canal Digital Nordic,f:1
 0447:0e080000:0018:0046:25:0
 National Geographic HD Norway
 p:Canal Digital Nordic,f:1
@@ -45750,7 +45591,10 @@ p:Slovak Telekom,f:1
 Travel Channel HD
 p:Slovak Telekom,f:1
 1f54:0e080000:0af8:00bb:25:0
-RTVS Sport HD
+Eurosport 4K
+p:Slovak Telekom,f:1
+1f53:0e080000:0af8:00bb:25:0
+Eurosport 4K
 p:Slovak Telekom,f:1
 0001:fff80000:000a:fe01:1:0
 Channel-01
@@ -46203,7 +46047,7 @@ p:Slovak Telekom,f:1
 Mozi+
 p:Slovak Telekom,f:1
 233b:0e080000:0af9:00bb:22:0
-Nick Jr. HU
+Prima Star
 p:Slovak Telekom,f:1
 233d:0e080000:0af9:00bb:22:0
 Prime
@@ -47937,7 +47781,7 @@ p:Eutelsat
 G2157A
 p:Eutelsat
 0139:ffce0000:4f4c:055f:31:0
-France TV Sport 4K
+Fransat Ultra HD Demo
 p:EUTELSAT,f:1
 0395:ffce0000:4f4c:055f:0:0
 SSU Symp
@@ -52477,6 +52321,9 @@ BERTRAND LCI
 p:,f:1
 00d9:0dc00000:0000:0090:25:0
 FRANCE_3_OCCITANIE
+p:France Televisions,f:1
+0dae:ffb0b10f:0000:0090:25:0
+France3_Rennes_2
 p:France Televisions,f:1
 0002:0da2aad0:0001:0000:1:0
 Al-Sahat TV
