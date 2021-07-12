@@ -216,6 +216,15 @@ transponders
 011a3151:0000:0000
 	s 12625000:7200000:0:3:282:2:0:1:2:0:2
 /
+011ab11b:0001:ffff
+	s 12571000:7200000:1:3:282:2:0:1:2:0:2
+/
+011ab124:0001:ffff
+	s 12580000:7200000:1:3:282:2:0:1:2:0:2
+/
+011ab158:0000:0000
+	s 12632000:7200000:1:3:282:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -1106,9 +1115,6 @@ p:BSkyB,f:1
 17a4:011a0000:07e0:0002:25:0
 Sky News HD
 p:BSkyB,f:1
-1787:011a0000:07e0:0002:25:0
-FOX UK HD
-p:BSkyB,f:1
 13b8:011a0000:07e0:0002:25:0
 Sky Nature HD
 p:BSkyB,f:1
@@ -1325,9 +1331,6 @@ p:Sky Digital,f:1
 1519:011a2f74:07e7:0002:1:0
 Sky Sports Golf
 p:Sky Digital,f:1
-151a:011a2f74:07e7:0002:1:0
-Fox +1 U.K.
-p:Sky Digital,f:1
 151c:011a2f74:07e7:0002:1:0
 SkySp Golf
 p:Sky Digital,f:1
@@ -1498,9 +1501,6 @@ Dunamis TV
 p:BSkyB,f:1
 c4d6:011a0000:0811:0002:1:0
 Inspiration Network International
-p:BSkyB,f:1
-c4db:011a0000:0811:0002:1:0
-Al Jazeera English
 p:BSkyB,f:1
 c4a9:011a0000:0811:0002:1:0
 Hillsong
@@ -2525,6 +2525,9 @@ p:BSkyB
 cb86:011a0000:0831:0002:1:0
 Pitaara
 p:BSkyB,f:1
+cbab:011a0000:0831:0002:1:0
+That's TV Gold
+p:BSkyB,f:1
 d048:011aac2b:083e:0002:1:0
 GREAT! Classic
 p:BSkyB,f:1
@@ -2920,9 +2923,6 @@ Sky Nature
 p:BSkyB,f:1
 1528:011a0000:07ea:0002:1:0
 Sky News Ireland
-p:BSkyB,f:1
-158b:011a0000:07ea:0002:1:0
-Fox U.K.
 p:BSkyB,f:1
 15b5:011a0000:07ea:0002:1:0
 Sky Sports Premier League
@@ -4133,6 +4133,12 @@ p:,f:1
 252f:00820000:13ef:013e:1:0
 Asharq News Channel HD
 p:,f:1
+012d:00820000:13ef:013e:1:0
+AD Sport 3 HD
+p:,f:1
+012e:00820000:13ef:013e:1:0
+AD Sport 4 HD
+p:,f:1
 37d7:00820000:14b4:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
@@ -4939,6 +4945,15 @@ Al Magharibia
 p:Telespazio,f:1
 02db:00820000:1b58:013e:2:0
 Radio Mariam Armenia
+p:Telespazio
+02c9:00820000:1b58:013e:1:0
+RTP International
+p:Telespazio,f:1
+02ca:00820000:1b58:013e:2:0
+RDP Int
+p:Telespazio
+02cb:00820000:1b58:013e:2:0
+Antena1
 p:Telespazio
 3c8d:00820000:1bbc:013e:1:0
 novacinema1 HD Cy
@@ -6950,6 +6965,15 @@ p:,f:1
 0451:00820000:238c:013e:31:0
 Insight TV UHD
 p:Amagi,f:1
+044e:00820000:238c:013e:31:0
+FTV UHD
+p:1,f:1
+044c:00820000:238c:013e:1:0
+FashionTV L'Original
+p:,f:1
+044d:00820000:238c:013e:1:0
+Fashion TV HD
+p:,f:1
 051b:00820000:3d54:013e:25:0
 RTL 102.5 TV HD
 p:M-Three satcom,f:1
@@ -7862,9 +7886,9 @@ p:,f:1
 04b9:00820000:23f0:013e:31:0
 Ultra Nature 4K
 p:Eutelsat,f:1
-04b6:00820000:23f0:013e:25:0
-Abu Dhabi TV HD
-p:DU,f:1
+04b6:00820000:23f0:013e:1:0
+Abu Dhabi TV
+p:Du,f:1
 04b7:00820000:23f0:013e:1:0
 United States of Africa TV
 p:EUTELSAT MENA,f:1
