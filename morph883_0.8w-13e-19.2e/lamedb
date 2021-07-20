@@ -249,9 +249,6 @@ transponders
 00c00000:0440:0001
 	s 12168000:29700000:1:2:192:2:0:1:2:1:2
 /
-00c029da:0419:0001
-	s 10714000:22000000:0:2:192:2:0:1:2:0:2
-/
 00c00000:03ff:0001
 	s 11553000:22000000:0:2:192:2:0:1:2:0:2
 /
@@ -554,6 +551,12 @@ transponders
 /
 00822fae:1d4c:fbff
 	s 12206000:29900000:0:4:130:2:0:1:1:0:2
+/
+00820000:012c:013e
+	s 11258000:27500000:0:3:130:2:0:1:2:0:2
+/
+0082acce:0578:013e
+	s 11470000:27500000:1:4:130:2:0
 /
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
@@ -963,7 +966,7 @@ p:Movistar+,f:1
 #VAMOSHD
 p:Movistar+,f:1
 750d:00c00000:0420:0001:25:0
-TEST S
+DreamWorks HD
 p:Movistar+,f:1
 74ff:00c00000:0420:0001:25:0
 M. Fest
@@ -3923,6 +3926,9 @@ p:SKY,f:1
 0116:00c02dee:0002:0085:25:0
 Sky Sport HD 4 Germany
 p:SKY,f:1
+001e:00c02dee:0002:0085:22:0
+Sky Sport Austria 1
+p:SKY,f:1
 0008:00c00000:0003:0085:22:0
 Sky Cinema Fun Germany
 p:Kabelkiosk,f:1
@@ -4163,24 +4169,6 @@ p:CSAT,f:1
 245e:00c00000:0440:0001:25:0
 Toonami France HD
 p:CSAT,f:1
-170c:00c029da:0419:0001:25:0
-Mainfranken HD
-p:BMT,f:1
-170d:00c029da:0419:0001:25:0
-Franken Fernsehen HD
-p:BMT,f:1
-170e:00c029da:0419:0001:25:0
-TVA Ostbayern HD
-p:BMT,f:1
-170f:00c029da:0419:0001:25:0
-TV Oberfranken HD
-p:BMT,f:1
-1710:00c029da:0419:0001:25:0
-Niederbayern HD
-p:BMT,f:1
-1711:00c029da:0419:0001:25:0
-Oberpfalz TV HD
-p:BMT,f:1
 16a8:00c00000:03ff:0001:25:0
 a.tv HD
 p:BMT,f:1
@@ -4190,18 +4178,12 @@ p:BMT,f:1
 16aa:00c00000:03ff:0001:25:0
 RFO HD Fernsehen Oberbayern
 p:Media Broadcast,f:1
-16ab:00c00000:03ff:0001:25:0
-Ulm-Allgäu HD
-p:BMT,f:1
 16ac:00c00000:03ff:0001:25:0
 TV Ingolstadt HD
 p:BMT,f:1
 16ad:00c00000:03ff:0001:1:0
 Lokal TV Portal HD
 p:BMT,f:1
-16ae:00c00000:03ff:0001:1:0
-BB-MV-LokalTV
-p:HMS GmbH,f:1
 16af:00c00000:03ff:0001:25:0
 NiederBayern TV HD
 p:,f:1
@@ -5210,9 +5192,6 @@ p:ABS,f:1
 1328:00820000:33f4:013e:1:0
 Al Karma TV
 p:Telespazio,f:1
-1349:00820000:33f4:013e:1:0
-Marjaeyat
-p:Telespazio,f:1
 132e:00820000:33f4:013e:1:0
 Juwelo TV Italia
 p:MEDIA BROADCAST,f:1
@@ -5717,6 +5696,9 @@ p:Telespazio,f:1
 424f:00820000:3db8:013e:1:0
 RDS Social TV HD
 p:Teelspazio,f:1
+424c:00820000:3db8:013e:1:0
+Napoli International
+p:Telespazio,f:1
 012d:00820000:3e1c:013f:1:0
 TF1 HD
 p:Bis,f:1
@@ -5964,7 +5946,7 @@ p:SkyItalia,f:1
 NatGeo Wild HD Italia
 p:SkyItalia,f:1
 38bf:00820000:15e0:fbff:1:0
-Primafila 23
+Primafila 10
 p:SkyItalia,f:1
 0de6:00820000:15e0:fbff:1:0
 Attiva Sky On Demand e Restart
@@ -5986,12 +5968,6 @@ Sky Meteo24
 p:Sky Italia,f:1
 10e8:00820000:1644:fbff:1:0
 SkyTG24 PrimoPiano
-p:Sky Italia,f:1
-110a:00820000:1644:fbff:1:0
-SKY TG24
-p:Sky Italia,f:1
-1123:00820000:1644:fbff:1:0
-SkyTG24
 p:Sky Italia,f:1
 10e7:00820000:1644:fbff:130:0
 SkyTG24 Mosaico
@@ -6033,7 +6009,7 @@ p:SkyItalia,f:1
 History HD Italia
 p:SkyItalia,f:1
 38fa:00820000:1644:fbff:1:0
-Primafila 21
+Primafila 8
 p:SkyItalia,f:1
 2b1b:00820000:1644:fbff:25:0
 Sky Sport 24 HD
@@ -6059,9 +6035,6 @@ p:SkyItalia,f:1
 1fa7:00820000:1644:fbff:1:0
 Fox News
 p:SkyItalia,f:1
-2d57:00820000:1644:fbff:1:0
-Primafila 14
-p:Sky Italia,f:1
 0e39:00820000:16a8:fbff:1:0
 National Geographic Italy
 p:Sky Italia,f:1
@@ -6341,15 +6314,6 @@ p:SkyItalia,f:1
 2cc4:00820000:19c8:fbff:1:0
 DeA Kids
 p:Sky Italia,f:1
-3405:00820000:19c8:fbff:1:0
-Primafila 13
-p:Sky Italia,f:1
-38e0:00820000:19c8:fbff:1:0
-Primafila 3
-p:SkyItalia,f:1
-38e1:00820000:19c8:fbff:1:0
-Primafila 5
-p:SkyItalia,f:1
 0fbd:00820000:19c8:fbff:1:0
 Fox +1 Italia
 p:Sky Italia,f:1
@@ -6405,7 +6369,7 @@ p:Sky Italia,f:1
 Sky Cinema Due +24
 p:SkyItalia,f:1
 2dbf:00820000:1a2c:fbff:1:0
-Primafila 19
+Primafila 6
 p:Sky Italia,f:1
 057c:00820000:1a2c:fbff:1:0
 Comedy Central Italia
@@ -6505,9 +6469,6 @@ DeAKids +1
 p:SkyItalia,f:1
 37b5:00820000:1af4:fbff:1:0
 Milan TV
-p:SkyItalia,f:1
-3be3:00820000:1af4:fbff:1:0
-Torino Channel
 p:SkyItalia,f:1
 0fd9:00820000:1af4:fbff:1:0
 History +1
@@ -6734,6 +6695,15 @@ p:MTHREE SATCOM
 0e3e:00820000:1c20:013e:2:0
 Radio Radio
 p:M-Three Satcom Srl
+1c71:00820000:1c20:013e:1:0
+Simaye Azadi SD
+p:M-Three Satcom,f:1
+1c73:00820000:1c20:013e:1:0
+TG Norba 24
+p:Telenorba,f:1
+1c72:00820000:1c20:013e:2:0
+R.BuonConsiglio
+p:M-Three satcom
 015f:00820000:1c84:013e:1:0
 Discovery Channel Greece
 p:Nova,f:1
@@ -7340,12 +7310,6 @@ p:Sky Italia,f:1
 108a:00820000:2008:fbff:25:0
 Sky Sport 4 HD
 p:Sky Italia,f:1
-108b:00820000:2008:fbff:25:0
-Primafila 8 HD
-p:Sky Italia,f:1
-108f:00820000:2008:fbff:25:0
-Primafila 10 HD
-p:Sky Italia,f:1
 10ca:00820000:2008:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
@@ -7358,14 +7322,8 @@ p:SkyItalia
 1092:00820000:2008:fbff:25:0
 Calcio Overlay HD
 p:SkyItalia,f:1
-2d51:00820000:2008:fbff:1:0
-Primafila 16
-p:Sky Italia,f:1
-2d54:00820000:2008:fbff:1:0
-Primafila 17
-p:Sky Italia,f:1
 2d55:00820000:2008:fbff:1:0
-Primafila 18
+Primafila 5
 p:Sky Italia,f:1
 2d5d:00820000:2008:fbff:1:0
 Sky Sport 9
@@ -7378,12 +7336,6 @@ Sky Sport 11
 p:Sky Italia,f:1
 1c50:00820000:2008:fbff:25:0
 Sky Sport Football HD
-p:SkyItalia,f:1
-0f7a:00820000:2008:fbff:25:0
-Wimbledon 2 HD
-p:SkyItalia,f:1
-10bc:00820000:2008:fbff:25:0
-Wimbledon 3 HD
 p:SkyItalia,f:1
 1090:00820000:2008:fbff:25:0
 Sky Serie +1 HD
@@ -7415,9 +7367,6 @@ p:SkyItalia,f:1
 2a97:00820000:206c:fbff:1:0
 Sky Uno+1
 p:SkyItalia,f:1
-340d:00820000:206c:fbff:1:0
-Primafila 7
-p:SkyItalia,f:1
 0f58:00820000:206c:fbff:25:0
 Sky Documentaries +1 HD
 p:SkyItalia,f:1
@@ -7434,7 +7383,7 @@ p:Sky Italia,f:1
 Sky Sport 6 HD
 p:Sky Italia,f:1
 0f4c:00820000:2198:fbff:25:0
-Primafila 6 HD
+Primafila 4 HD
 p:Sky Italia,f:1
 0f89:00820000:2198:fbff:1:0
 IEPG Data
@@ -7443,7 +7392,7 @@ p:SkyItalia,f:1
 Sky Sport 1 HD
 p:SkyItalia,f:1
 0f71:00820000:2198:fbff:25:0
-Primafila 4 HD
+Primafila 3 HD
 p:SkyItalia,f:1
 0f5a:00820000:2198:fbff:130:0
 Calcio1Magaz
@@ -7451,9 +7400,6 @@ p:SkyItalia,f:1
 0f96:00820000:2198:fbff:251:0
 Fusion BGDL 3990
 p:SkyItalia
-10a8:00820000:2198:fbff:25:0
-Roma Channel HD
-p:Sky Italia,f:1
 0f54:00820000:2198:fbff:25:0
 Onboard Mix HD
 p:SkyItalia,f:1
@@ -7466,21 +7412,9 @@ p:SkyItalia
 0f8a:00820000:2198:fbff:132:0
 Dl583
 p:SkyItalia
-2d53:00820000:2198:fbff:1:0
-Primafila 15
-p:Sky Italia,f:1
-2d62:00820000:2198:fbff:1:0
-Sky Sport 12
-p:Sky Italia,f:1
 2aa8:00820000:2198:fbff:1:0
 Sky Sport 1 Italia
 p:Sky Italia,f:1
-0f73:00820000:2198:fbff:25:0
-Wimbledon 5 HD
-p:SkyItalia,f:1
-10b6:00820000:2198:fbff:25:0
-Wimbledon 4 HD
-p:SkyItalia,f:1
 232b:00820000:2328:013e:1:0
 Ronahi TV
 p:STN Ltd,f:1
@@ -7667,35 +7601,29 @@ p:SkyItalia
 2dae:00820000:2260:fbff:132:0
 Dl821
 p:SkyItalia
-3400:00820000:2260:fbff:1:0
-Primafila 9
-p:Sky Italia,f:1
-3402:00820000:2260:fbff:1:0
-Primafila 11
-p:Sky Italia,f:1
 341e:00820000:2260:fbff:1:0
-Primafila 28
+Primafila 15
 p:Sky Italia,f:1
 3421:00820000:2260:fbff:1:0
-Primafila 24
+Primafila 11
 p:Sky Italia,f:1
 3422:00820000:2260:fbff:1:0
-Primafila 26
+Primafila 13
 p:Sky Italia,f:1
 3423:00820000:2260:fbff:1:0
-Primafila 27
+Primafila 14
 p:Sky Italia,f:1
 3427:00820000:2260:fbff:1:0
-Primafila 25
+Primafila 12
 p:Sky Italia,f:1
 3428:00820000:2260:fbff:130:0
 PRIMAFILA HCZ
 p:SkyItalia,f:1
 38c8:00820000:2260:fbff:1:0
-Primafila 22
+Primafila 9
 p:SkyItalia,f:1
 38c9:00820000:2260:fbff:1:0
-Primafila 20
+Primafila 7
 p:SkyItalia,f:1
 2d00:00820000:2260:fbff:25:0
 Sky Atlantic +1 HD
@@ -9125,9 +9053,9 @@ p:EUTELSAT,f:1
 0652:00820000:2454:013e:1:0
 RT Arabic HD
 p:iKO Media Group,f:1
-0645:00820000:2454:013e:1:0
+0645:00820000:2454:013e:25:0
 Al Alam TV HD
-p:SABA GROUP,f:1
+p:,f:1
 0646:00820000:2454:013e:1:0
 MS MotorTV
 p:EUTELSAT,f:1
@@ -9617,27 +9545,6 @@ p:KABELIO.CH,f:1
 0073:00820000:3264:013e:1:0
 Kabelio ProSieben CH
 p:KABELIO.CH,f:1
-0074:00820000:3264:013e:1:0
-Kabelio Das Erste
-p:KABELIO.CH,f:1
-0075:00820000:3264:013e:1:0
-Kabelio ZDF
-p:KABELIO.CH,f:1
-0076:00820000:3264:013e:1:0
-Kabelio TF1 Suisse
-p:KABELIO.CH,f:1
-0078:00820000:3264:013e:1:0
-Kabelio M6 Suisse
-p:KABELIO.CH,f:1
-0079:00820000:3264:013e:1:0
-Kabelio BBC One
-p:KABELIO.CH,f:1
-007a:00820000:3264:013e:1:0
-Kabelio BBC Two
-p:KABELIO.CH,f:1
-007b:00820000:3264:013e:1:0
-Kabelio ITV One
-p:KABELIO.CH,f:1
 007f:00820000:3264:013e:1:0
 Kabelio KabelEins CH
 p:KABELIO.CH,f:1
@@ -9722,9 +9629,6 @@ p:Sky Italia,f:1
 1e60:00822e7c:170c:fbff:25:0
 Primafila 2 HD
 p:Sky Italia,f:1
-0f74:00822e7c:170c:fbff:25:0
-Wimbledon 6 HD
-p:SkyItalia,f:1
 2b10:0082aedc:1900:fbff:25:0
 Sky Sport Arena HD
 p:Sky Italia,f:1
@@ -9760,12 +9664,6 @@ Gambero Rosso HD
 p:SkyItalia,f:1
 0f6f:0082aedc:1900:fbff:25:0
 Sky Sport 2 HD
-p:SkyItalia,f:1
-0f72:0082aedc:1900:fbff:25:0
-Primafila 12 HD
-p:SkyItalia,f:1
-0f5b:0082aedc:1900:fbff:25:0
-Wimbledon 1 HD
 p:SkyItalia,f:1
 07d0:0082aac5:005f:0055:22:0
 Viasat Sport
@@ -9818,21 +9716,36 @@ p:XTRA TV,f:1
 0870:0082aac5:005f:0055:25:0
 A First Int.
 p:XTRA TV,f:1
-1069:00822fae:1d4c:fbff:25:0
-Sky Sport Uno HD
-p:SkyItalia,f:1
-106b:00822fae:1d4c:fbff:25:0
-Sky Sport Football HD
-p:SkyItalia,f:1
-109b:00822fae:1d4c:fbff:25:0
-Sky Sport HD
-p:SkyItalia,f:1
 105e:00822fae:1d4c:fbff:251:0
 Fusion BGDL 4190
 p:SkyItalia
 1063:00822fae:1d4c:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
+012d:00820000:012c:013e:25:0
+Eurosport 3 HD
+p:TVN Discovery Group,f:1
+012e:00820000:012c:013e:25:0
+Eurosport 4 HD
+p:TVN Discovery Group,f:1
+012f:00820000:012c:013e:25:0
+Eurosport 5 HD
+p:TVN DIscpvery Group,f:1
+0130:00820000:012c:013e:25:0
+Eurosport 6 HD
+p:TVN Discovery Group,f:1
+0131:00820000:012c:013e:25:0
+Eurosport 7 HD
+p:TVN Discovery Group,f:1
+0132:00820000:012c:013e:25:0
+Eurosport 8 HD
+p:TVN Discovery Group,f:1
+0133:00820000:012c:013e:25:0
+Eurosport 9 HD
+p:TVN Discovery Group,f:1
+0134:00820000:012c:013e:25:0
+Eurosport 4K
+p:TVN DIscovery Group,f:1
 040a:0e080000:0044:0046:25:0
 TV 2 Sport Premium HD
 p:Canal Digital Nordic,f:1
@@ -12020,9 +11933,6 @@ p:UPC Direct,f:1
 7995:fff80000:02c7:0600:1:0
 TV4 (SVT)
 p:UPC Direct,f:1
-7994:fff80000:02c7:0600:1:0
-Slager TV SVT
-p:UPC Direct,f:1
 7981:fff80000:02c7:0600:1:0
 AMC Eastern Europe.
 p:UPC Direct,f:1
@@ -12059,21 +11969,12 @@ p:UPC Direct,f:1
 798c:fff80000:02c7:0600:1:0
 M5
 p:UPC Direct,f:1
-799c:fff80000:02c7:0600:1:0
-M+( SVT)
-p:UPC Direct,f:1
-799d:fff80000:02c7:0600:1:0
-m5 ( SVT)
-p:UPC Direct,f:1
 799e:fff80000:02c7:0600:1:0
 m5.
 p:UPC Direct,f:1
 799f:fff80000:02c7:0600:1:0
 TV4.
 p:UPC,f:1
-79a0:fff80000:02c7:0600:1:0
-TV2 Sef (SVT)
-p:UPC Direct,f:1
 7988:fff80000:02c7:0600:1:0
 Stingray CMusic
 p:UPC Direct,f:1
