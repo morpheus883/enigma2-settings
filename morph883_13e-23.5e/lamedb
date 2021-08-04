@@ -228,6 +228,9 @@ transponders
 00eb0000:0070:006f
 	s 12688000:7200000:0:3:235:2:0:1:2:0:2
 /
+00eb3190:0001:ffff
+	s 12688000:7200000:0:3:235:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -488,6 +491,9 @@ transponders
 /
 00820000:012c:013e
 	s 11258000:27500000:0:3:130:2:0:1:2:0:2
+/
+00820000:1518:013e
+	s 11804000:29700000:1:3:130:2:0:1:2:0:2
 /
 end
 services
@@ -2657,6 +2663,12 @@ p:M7 Group,f:1
 3b6d:00eb0000:0c8d:0003:25:0
 RTL Klub HD
 p:M7 Group,f:1
+3b75:00eb0000:0c8d:0003:22:0
+Minimax SK
+p:M7 Group,f:1
+3b76:00eb0000:0c8d:0003:22:0
+Film+ SK
+p:M7 Group,f:1
 0001:00eb2d06:0001:ffff:1:0
 Tower OB TX3
 p:BT TVOB,f:1
@@ -3934,6 +3946,9 @@ RDS Social TV HD
 p:Teelspazio,f:1
 424c:00820000:3db8:013e:1:0
 Napoli International
+p:Telespazio,f:1
+423a:00820000:3db8:013e:1:0
+AdventureHD
 p:Telespazio,f:1
 012d:00820000:3e1c:013f:1:0
 TF1 HD
@@ -7324,7 +7339,7 @@ p:,f:1
 p:,f:1
 0077:00820000:04b0:0110:22:0
 Radio Monte Carlo
-p:,C:0000,f:1
+p:,f:1
 006f:00820000:04b0:0110:22:0
 Cine34
 p:,f:1
@@ -7733,7 +7748,7 @@ p:,f:1
 04b9:00820000:23f0:013e:31:0
 Ultra Nature 4K
 p:Eutelsat,f:1
-04b6:00820000:23f0:013e:1:0
+04b6:00820000:23f0:013e:25:0
 Abu Dhabi TV
 p:DU,f:1
 04b7:00820000:23f0:013e:1:0
@@ -7997,6 +8012,24 @@ p:TVN Discovery Group,f:1
 0134:00820000:012c:013e:25:0
 Eurosport 4K
 p:TVN DIscovery Group,f:1
+0191:00820000:1518:013e:1:0
+VH1
+p:NOVA,f:1
+0192:00820000:1518:013e:1:0
+MTV Hits
+p:NOVA,f:1
+0193:00820000:1518:013e:1:0
+E! Entertainment HD
+p:NOVA,f:1
+0194:00820000:1518:013e:1:0
+Travel Channel HD
+p:NOVA,f:1
+0195:00820000:1518:013e:1:0
+Nat Geo Wild HD
+p:NOVA,f:1
+0196:00820000:1518:013e:1:0
+MTV
+p:NOVA,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2021

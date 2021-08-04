@@ -228,6 +228,9 @@ transponders
 00eb0000:0070:006f
 	s 12688000:7200000:0:3:235:2:0:1:2:0:2
 /
+00eb3190:0001:ffff
+	s 12688000:7200000:0:3:235:2:0:1:2:0:2
+/
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
 /
@@ -744,6 +747,9 @@ transponders
 00a03182:0000:0000
 	s 12674000:2930000:0:3:160:2:0
 /
+00a02cf8:0001:016e
+	s 11512000:30000000:0:3:160:2:0:1:2:2:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -1004,6 +1010,9 @@ transponders
 /
 00820000:012c:013e
 	s 11258000:27500000:0:3:130:2:0:1:2:0:2
+/
+00820000:1518:013e
+	s 11804000:29700000:1:3:130:2:0:1:2:0:2
 /
 end
 services
@@ -3173,6 +3182,12 @@ p:M7 Group,f:1
 3b6d:00eb0000:0c8d:0003:25:0
 RTL Klub HD
 p:M7 Group,f:1
+3b75:00eb0000:0c8d:0003:22:0
+Minimax SK
+p:M7 Group,f:1
+3b76:00eb0000:0c8d:0003:22:0
+Film+ SK
+p:M7 Group,f:1
 0001:00eb2d06:0001:ffff:1:0
 Tower OB TX3
 p:BT TVOB,f:1
@@ -3546,7 +3561,7 @@ p:Movistar+,f:1
 MULTIDEPORTE
 p:Movistar+,f:1
 7696:00c00000:041e:0001:1:0
-Movistar Series
+Movistar Series 2
 p:Movistar+,f:1
 7699:00c00000:041e:0001:1:0
 Mezzo
@@ -3864,7 +3879,7 @@ p:Movistar+,f:1
 Viajar
 p:Movistar+,f:1
 76ca:00c00000:040e:0001:1:0
-Movistar Seriesmania
+Movistar Series
 p:Movistar+,f:1
 76cc:00c00000:040e:0001:1:0
 Teledeporte
@@ -3921,7 +3936,7 @@ p:Movistar+,f:1
 LALIGATVBAR3
 p:Movistar+,f:1
 7582:00c00000:0412:0001:1:0
-LaLiga TV Bar 2
+LaLiga TV Bar 4
 p:Movistar+,f:1
 7584:00c00000:0412:0001:1:0
 #VAMOS BAR2
@@ -3938,6 +3953,9 @@ p:PRISA TV,f:1
 757f:00c00000:0412:0001:1:0
 M. Fest
 p:,f:1
+7588:00c00000:0412:0001:1:0
+Movistar Estrenos 2
+p:Movistar+,f:1
 7888:00c00000:0414:0001:25:0
 TNT HD España
 p:Movistar+,f:1
@@ -3951,7 +3969,7 @@ p:Movistar+,f:1
 TCM HD
 p:,f:1
 7882:00c00000:0414:0001:25:0
-Movistar Series HD
+Movistar Series 2 HD
 p:PRISA TV,f:1
 788c:00c00000:0414:0001:25:0
 #0 HD
@@ -5211,7 +5229,7 @@ p:M7 Group
 RTL Lounge
 p:M7 Group,f:1
 0ff5:00c00000:0451:0035:12:0
-MZ-102
+Kaon OTA
 p:M7
 1034:00c00000:0451:0035:22:0
 Eleven Sports Pro League 1 FR
@@ -5630,12 +5648,9 @@ p:,f:1
 33ab:00c00000:03eb:0001:25:0
 Hope Channel Deutsch HD
 p:BetaDigital,f:1
-33a6:00c00000:03eb:0001:1:0
-Volksmusik TV
-p:,f:1
 33a5:00c00000:03eb:0001:1:0
 ORF Sport Plus
-p:Austriasat,f:1
+p:ORF,f:1
 33a7:00c00000:03eb:0001:1:0
 ATV 2 Austria
 p:Austriasat,f:1
@@ -5653,6 +5668,9 @@ Service 13232
 p:ORS,f:1
 33b1:00c00000:03eb:0001:1:0
 Service 13233
+p:ORS,f:1
+33a6:00c00000:03eb:0001:1:0
+StarParadies D
 p:ORS,f:1
 1269:00c00000:03f7:0001:1:0
 Die Neue Zeit TV
@@ -5853,7 +5871,7 @@ p:TSA,f:1
 Fox Life HD España
 p:PRISA TV,f:1
 78b6:00c00000:03ec:0001:25:0
-Movistar Seriesmania HD
+Movistar Series HD
 p:PRISA TV,f:1
 78b7:00c00000:03ec:0001:25:0
 Movistar Golf HD
@@ -6162,7 +6180,7 @@ p:BetaDigital,f:1
 Channel 21 HD
 p:BetaDigital,f:1
 2775:00c00000:0409:0001:25:0
-Zee One HD
+Bild HD
 p:BetaDigital,f:1
 2776:00c00000:0409:0001:25:0
 Handystar TV HD
@@ -6206,9 +6224,6 @@ p:ORS,f:1
 3402:00c00000:03ed:0001:25:0
 oe24.TV HD
 p:ORF,f:1
-3403:00c00000:03ed:0001:1:0
-Starparadies Austria
-p:ORS,f:1
 3404:00c00000:03ed:0001:22:0
 GoTV
 p:GoTV,f:1
@@ -6218,6 +6233,9 @@ p:-,f:1
 3401:00c00000:03ed:0001:22:0
 Krone TV
 p:-,f:1
+3403:00c00000:03ed:0001:22:0
+Volksmusik TV
+p:ORS,f:1
 1086:00c0ac18:03ee:0001:31:136
 QVC UHD
 p:MX1,f:1
@@ -7316,6 +7334,9 @@ p:Movistar+,f:1
 74ce:00c00000:03f8:0001:25:0
 Eurosport 2 HD
 p:,f:1
+74d4:00c00000:03f8:0001:25:0
+Movistar Estrenos 2 HD
+p:Movistar+,f:1
 00fc:00c00000:0008:0085:1:0
 Sky Sport Bundesliga 10
 p:,f:1
@@ -9410,76 +9431,34 @@ p:Ue-tec 3 SL 1,f:1
 0001:00a03196:0001:0001:1:0
 EPQ C1
 p:EPQ,f:1
-0016:00a02bfe:0001:016e:2:0
-Bobar Radio
-p:H
 0004:00a02bfe:0001:016e:25:0
 BN Sat TV HD
 p:H,f:1
-0005:00a02bfe:0001:016e:25:0
+0005:00a02bfe:0001:016e:1:0
 BN Music HD
 p:H,f:1
-0008:00a02bfe:0001:016e:2:0
-Radio Stari Grad
-p:H
-0009:00a02bfe:0001:016e:2:0
-Radio Kalman
-p:H
-000a:00a02bfe:0001:016e:2:0
-VIP Radio
-p:H
-000b:00a02bfe:0001:016e:2:0
-Radio BIR
-p:H
 000c:00a02bfe:0001:016e:25:0
 BN TV HD (Terrestrial)
 p:H,f:1
-000d:00a02bfe:0001:016e:2:0
-Radio BN
-p:H
-000e:00a02bfe:0001:016e:2:0
-Radio MIX
-p:H
-0013:00a02bfe:0001:016e:2:0
-Radio Mir Medjugorje
-p:H
-007c:00a02bfe:0001:016e:2:0
-RM Serbia SRB
-p:H
-007d:00a02bfe:0001:016e:2:0
-RM Serbia HU
-p:H
-007e:00a02bfe:0001:016e:2:0
-RM Romania RO
-p:H
-007f:00a02bfe:0001:016e:2:0
-RM Romania HU
-p:H
-0080:00a02bfe:0001:016e:2:0
-RM Albania
-p:H
-0081:00a02bfe:0001:016e:2:0
-RM BiH
-p:H
 0084:00a02bfe:0001:016e:2:0
 RM Hungary
 p:H
-0065:00a02bfe:0001:016e:25:0
+0065:00a02bfe:0001:016e:1:0
 Al Jazeera Balkans HD
 p:H,f:1
 0066:00a02bfe:0001:016e:2:0
 Studio 99
 p:H
-0067:00a02bfe:0001:016e:22:0
+0067:00a02bfe:0001:016e:1:0
 Minimax Serbia
 p:H,f:1
-0068:00a02bfe:0001:016e:25:0
+0068:00a02bfe:0001:016e:1:0
 Eurochannel HD
 p:H,f:1
 006a:00a02bfe:0001:016e:22:0
 PTV - Production Vienna
 p:H,f:1
-0074:00a02bfe:0001:016e:22:0
+0074:00a02bfe:0001:016e:1:0
 Duga Plus
 p:H,f:1
 0076:00a02bfe:0001:016e:1:0
@@ -9491,9 +9470,6 @@ p:H,f:1
 006c:00a02bfe:0001:016e:22:0
 Supersat TV
 p:H,f:1
-0082:00a02bfe:0001:016e:2:0
-RM Kosovo
-p:H
 0085:00a02bfe:0001:016e:1:0
 TV 101
 p:H,f:1
@@ -9503,6 +9479,51 @@ p:H,f:1
 0087:00a02bfe:0001:016e:22:1
 B1
 p:H,f:1
+0008:00a02bfe:0001:016e:2:0
+Radio Stari Grad
+p:
+0009:00a02bfe:0001:016e:2:0
+Radio Kalman
+p:
+000a:00a02bfe:0001:016e:2:0
+VIP Radio
+p:
+000b:00a02bfe:0001:016e:2:0
+Radio Bir
+p:
+007c:00a02bfe:0001:016e:2:0
+Radio Serbia
+p:
+007d:00a02bfe:0001:016e:2:0
+Radio Serbia HU
+p:
+007e:00a02bfe:0001:016e:2:0
+Radio Romania
+p:
+007f:00a02bfe:0001:016e:2:0
+Radio Romania Hu
+p:
+0080:00a02bfe:0001:016e:2:0
+RM Albania
+p:
+0081:00a02bfe:0001:016e:2:0
+RM BIH
+p:
+0082:00a02bfe:0001:016e:2:0
+RM Armenia
+p:
+000d:00a02bfe:0001:016e:2:0
+Radio BN
+p:
+0012:00a02bfe:0001:016e:2:0
+RTRS RRS
+p:
+0013:00a02bfe:0001:016e:2:0
+R. Medjugorje Mir
+p:
+0016:00a02bfe:0001:016e:2:0
+Bobar Radio
+p:
 0bb9:00a00000:5e24:016e:2:0
 Radio 1
 p:STN
@@ -10651,6 +10672,9 @@ RDS Social TV HD
 p:Teelspazio,f:1
 424c:00820000:3db8:013e:1:0
 Napoli International
+p:Telespazio,f:1
+423a:00820000:3db8:013e:1:0
+AdventureHD
 p:Telespazio,f:1
 012d:00820000:3e1c:013f:1:0
 TF1 HD
@@ -14041,7 +14065,7 @@ p:,f:1
 p:,f:1
 0077:00820000:04b0:0110:22:0
 Radio Monte Carlo
-p:,C:0000,f:1
+p:,f:1
 006f:00820000:04b0:0110:22:0
 Cine34
 p:,f:1
@@ -14450,7 +14474,7 @@ p:,f:1
 04b9:00820000:23f0:013e:31:0
 Ultra Nature 4K
 p:Eutelsat,f:1
-04b6:00820000:23f0:013e:1:0
+04b6:00820000:23f0:013e:25:0
 Abu Dhabi TV
 p:DU,f:1
 04b7:00820000:23f0:013e:1:0
@@ -14714,6 +14738,24 @@ p:TVN Discovery Group,f:1
 0134:00820000:012c:013e:25:0
 Eurosport 4K
 p:TVN DIscovery Group,f:1
+0191:00820000:1518:013e:1:0
+VH1
+p:NOVA,f:1
+0192:00820000:1518:013e:1:0
+MTV Hits
+p:NOVA,f:1
+0193:00820000:1518:013e:1:0
+E! Entertainment HD
+p:NOVA,f:1
+0194:00820000:1518:013e:1:0
+Travel Channel HD
+p:NOVA,f:1
+0195:00820000:1518:013e:1:0
+Nat Geo Wild HD
+p:NOVA,f:1
+0196:00820000:1518:013e:1:0
+MTV
+p:NOVA,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2021

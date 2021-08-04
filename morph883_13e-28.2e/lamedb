@@ -216,6 +216,12 @@ transponders
 011a3151:0000:0000
 	s 12625000:7200000:0:3:282:2:0:1:2:0:2
 /
+011ab158:0001:ffff
+	s 12632000:7200000:1:3:282:2:0:1:2:0:2
+/
+011ab19f:0001:ffff
+	s 12703000:7200000:1:3:282:2:0:1:1:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -476,6 +482,9 @@ transponders
 /
 00820000:012c:013e
 	s 11258000:27500000:0:3:130:2:0:1:2:0:2
+/
+00820000:1518:013e
+	s 11804000:29700000:1:3:130:2:0:1:2:0:2
 /
 end
 services
@@ -1127,11 +1136,11 @@ p:BSkyB,f:1
 13f2:011a0000:07f2:0002:25:0
 ITV 1 Meridian East HD
 p:BSkyB,f:1
-13f3:011a0000:07f2:0002:25:0
-ITV 1 London HD
-p:BSkyB,f:1
 219d:011a0000:07f2:0002:25:0
 Eurosport 7 HD
+p:BSkyB,f:1
+1496:011a0000:07f2:0002:25:0
+RTÉ Two HD
 p:BSkyB,f:1
 1e15:011a0000:0809:0002:1:0
 Channel 5 South Central
@@ -1535,6 +1544,12 @@ p:BSkyB,f:1
 c47d:011a0000:0811:0002:1:0
 BoxNation
 p:BSkyB,f:1
+c4b8:011a0000:0811:0002:1:0
+Sky Sports Racing UK
+p:BSkyB,f:1
+c4b9:011a0000:0811:0002:1:0
+SkySp Racing
+p:BSkyB,f:1
 d7e8:011a0000:082c:0002:25:0
 Racing UK HD
 p:BSkyB,f:1
@@ -1658,21 +1673,6 @@ p:Sky Digital,f:1
 d138:011a0000:0832:0002:1:0
 SonLife Broadcasting Network
 p:Sky Digital,f:1
-d133:011a0000:0832:0002:1:0
-Ideal Extra
-p:Sky Digital,f:1
-d136:011a0000:0832:0002:1:0
-Takbeer TV
-p:Sky Digital,f:1
-d124:011a0000:0832:0002:1:0
-Craft Extra
-p:Sky Digital,f:1
-d142:011a0000:0832:0002:1:0
-Sky Sports Racing UK
-p:BSkyB,f:1
-d143:011a0000:0832:0002:1:0
-SkySp Racing
-p:BSkyB,f:1
 d147:011a0000:0832:0002:1:0
 Get Lucky
 p:BSkyB,f:1
@@ -1704,7 +1704,7 @@ d363:011a0000:0830:0002:1:0
 Russia Today
 p:BSkyB,f:1
 d386:011a0000:0830:0002:1:0
-JML Solutions
+JML Direct
 p:BSkyB,f:1
 d39f:011a0000:0830:0002:1:0
 High Street TV 1
@@ -1733,14 +1733,14 @@ p:BSkyB,f:1
 d36d:011a0000:0830:0002:1:0
 Travelxp
 p:BSkyB,f:1
-d382:011a0000:0830:0002:1:0
-Republic Bharat
-p:BSkyB,f:1
 d37c:011a0000:0830:0002:1:0
 Court TV
 p:BSkyB,f:1
 d39a:011a0000:0830:0002:1:0
 Faith World TV
+p:BSkyB,f:1
+d381:011a0000:0830:0002:1:0
+Takbeer TV
 p:BSkyB,f:1
 c7aa:011a0000:0817:0002:2:0
 Newstalk
@@ -2528,6 +2528,12 @@ p:BSkyB,f:1
 cba7:011a0000:0831:0002:1:0
 Talking Pictures TV
 p:BSkyB,f:1
+cb98:011a0000:0831:0002:1:0
+Craft Extra
+p:BSkyB,f:1
+cbb6:011a0000:0831:0002:1:0
+Ideal Extra
+p:BSkyB,f:1
 d048:011aac2b:083e:0002:1:0
 GREAT! Classic
 p:BSkyB,f:1
@@ -2947,9 +2953,6 @@ Utsav Gold
 p:BSkyB,f:1
 d324:011a0000:0836:0002:1:0
 Utsav Bharat
-p:BSkyB,f:1
-0e28:011a0000:07eb:0002:25:0
-RTÉ Two HD
 p:BSkyB,f:1
 0f2d:011a0000:07eb:0002:25:0
 NatGeoWild HD
@@ -4054,6 +4057,9 @@ RDS Social TV HD
 p:Teelspazio,f:1
 424c:00820000:3db8:013e:1:0
 Napoli International
+p:Telespazio,f:1
+423a:00820000:3db8:013e:1:0
+AdventureHD
 p:Telespazio,f:1
 012d:00820000:3e1c:013f:1:0
 TF1 HD
@@ -7444,7 +7450,7 @@ p:,f:1
 p:,f:1
 0077:00820000:04b0:0110:22:0
 Radio Monte Carlo
-p:,C:0000,f:1
+p:,f:1
 006f:00820000:04b0:0110:22:0
 Cine34
 p:,f:1
@@ -7853,7 +7859,7 @@ p:,f:1
 04b9:00820000:23f0:013e:31:0
 Ultra Nature 4K
 p:Eutelsat,f:1
-04b6:00820000:23f0:013e:1:0
+04b6:00820000:23f0:013e:25:0
 Abu Dhabi TV
 p:DU,f:1
 04b7:00820000:23f0:013e:1:0
@@ -8117,6 +8123,24 @@ p:TVN Discovery Group,f:1
 0134:00820000:012c:013e:25:0
 Eurosport 4K
 p:TVN DIscovery Group,f:1
+0191:00820000:1518:013e:1:0
+VH1
+p:NOVA,f:1
+0192:00820000:1518:013e:1:0
+MTV Hits
+p:NOVA,f:1
+0193:00820000:1518:013e:1:0
+E! Entertainment HD
+p:NOVA,f:1
+0194:00820000:1518:013e:1:0
+Travel Channel HD
+p:NOVA,f:1
+0195:00820000:1518:013e:1:0
+Nat Geo Wild HD
+p:NOVA,f:1
+0196:00820000:1518:013e:1:0
+MTV
+p:NOVA,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2021

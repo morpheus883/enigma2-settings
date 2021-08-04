@@ -222,6 +222,9 @@ transponders
 00a03182:0000:0000
 	s 12674000:2930000:0:3:160:2:0
 /
+00a02cf8:0001:016e
+	s 11512000:30000000:0:3:160:2:0:1:2:2:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -482,6 +485,9 @@ transponders
 /
 00820000:012c:013e
 	s 11258000:27500000:0:3:130:2:0:1:2:0:2
+/
+00820000:1518:013e
+	s 11804000:29700000:1:3:130:2:0:1:2:0:2
 /
 end
 services
@@ -2546,76 +2552,34 @@ p:Ue-tec 3 SL 1,f:1
 0001:00a03196:0001:0001:1:0
 EPQ C1
 p:EPQ,f:1
-0016:00a02bfe:0001:016e:2:0
-Bobar Radio
-p:H
 0004:00a02bfe:0001:016e:25:0
 BN Sat TV HD
 p:H,f:1
-0005:00a02bfe:0001:016e:25:0
+0005:00a02bfe:0001:016e:1:0
 BN Music HD
 p:H,f:1
-0008:00a02bfe:0001:016e:2:0
-Radio Stari Grad
-p:H
-0009:00a02bfe:0001:016e:2:0
-Radio Kalman
-p:H
-000a:00a02bfe:0001:016e:2:0
-VIP Radio
-p:H
-000b:00a02bfe:0001:016e:2:0
-Radio BIR
-p:H
 000c:00a02bfe:0001:016e:25:0
 BN TV HD (Terrestrial)
 p:H,f:1
-000d:00a02bfe:0001:016e:2:0
-Radio BN
-p:H
-000e:00a02bfe:0001:016e:2:0
-Radio MIX
-p:H
-0013:00a02bfe:0001:016e:2:0
-Radio Mir Medjugorje
-p:H
-007c:00a02bfe:0001:016e:2:0
-RM Serbia SRB
-p:H
-007d:00a02bfe:0001:016e:2:0
-RM Serbia HU
-p:H
-007e:00a02bfe:0001:016e:2:0
-RM Romania RO
-p:H
-007f:00a02bfe:0001:016e:2:0
-RM Romania HU
-p:H
-0080:00a02bfe:0001:016e:2:0
-RM Albania
-p:H
-0081:00a02bfe:0001:016e:2:0
-RM BiH
-p:H
 0084:00a02bfe:0001:016e:2:0
 RM Hungary
 p:H
-0065:00a02bfe:0001:016e:25:0
+0065:00a02bfe:0001:016e:1:0
 Al Jazeera Balkans HD
 p:H,f:1
 0066:00a02bfe:0001:016e:2:0
 Studio 99
 p:H
-0067:00a02bfe:0001:016e:22:0
+0067:00a02bfe:0001:016e:1:0
 Minimax Serbia
 p:H,f:1
-0068:00a02bfe:0001:016e:25:0
+0068:00a02bfe:0001:016e:1:0
 Eurochannel HD
 p:H,f:1
 006a:00a02bfe:0001:016e:22:0
 PTV - Production Vienna
 p:H,f:1
-0074:00a02bfe:0001:016e:22:0
+0074:00a02bfe:0001:016e:1:0
 Duga Plus
 p:H,f:1
 0076:00a02bfe:0001:016e:1:0
@@ -2627,9 +2591,6 @@ p:H,f:1
 006c:00a02bfe:0001:016e:22:0
 Supersat TV
 p:H,f:1
-0082:00a02bfe:0001:016e:2:0
-RM Kosovo
-p:H
 0085:00a02bfe:0001:016e:1:0
 TV 101
 p:H,f:1
@@ -2639,6 +2600,51 @@ p:H,f:1
 0087:00a02bfe:0001:016e:22:1
 B1
 p:H,f:1
+0008:00a02bfe:0001:016e:2:0
+Radio Stari Grad
+p:
+0009:00a02bfe:0001:016e:2:0
+Radio Kalman
+p:
+000a:00a02bfe:0001:016e:2:0
+VIP Radio
+p:
+000b:00a02bfe:0001:016e:2:0
+Radio Bir
+p:
+007c:00a02bfe:0001:016e:2:0
+Radio Serbia
+p:
+007d:00a02bfe:0001:016e:2:0
+Radio Serbia HU
+p:
+007e:00a02bfe:0001:016e:2:0
+Radio Romania
+p:
+007f:00a02bfe:0001:016e:2:0
+Radio Romania Hu
+p:
+0080:00a02bfe:0001:016e:2:0
+RM Albania
+p:
+0081:00a02bfe:0001:016e:2:0
+RM BIH
+p:
+0082:00a02bfe:0001:016e:2:0
+RM Armenia
+p:
+000d:00a02bfe:0001:016e:2:0
+Radio BN
+p:
+0012:00a02bfe:0001:016e:2:0
+RTRS RRS
+p:
+0013:00a02bfe:0001:016e:2:0
+R. Medjugorje Mir
+p:
+0016:00a02bfe:0001:016e:2:0
+Bobar Radio
+p:
 0bb9:00a00000:5e24:016e:2:0
 Radio 1
 p:STN
@@ -3787,6 +3793,9 @@ RDS Social TV HD
 p:Teelspazio,f:1
 424c:00820000:3db8:013e:1:0
 Napoli International
+p:Telespazio,f:1
+423a:00820000:3db8:013e:1:0
+AdventureHD
 p:Telespazio,f:1
 012d:00820000:3e1c:013f:1:0
 TF1 HD
@@ -7177,7 +7186,7 @@ p:,f:1
 p:,f:1
 0077:00820000:04b0:0110:22:0
 Radio Monte Carlo
-p:,C:0000,f:1
+p:,f:1
 006f:00820000:04b0:0110:22:0
 Cine34
 p:,f:1
@@ -7586,7 +7595,7 @@ p:,f:1
 04b9:00820000:23f0:013e:31:0
 Ultra Nature 4K
 p:Eutelsat,f:1
-04b6:00820000:23f0:013e:1:0
+04b6:00820000:23f0:013e:25:0
 Abu Dhabi TV
 p:DU,f:1
 04b7:00820000:23f0:013e:1:0
@@ -7850,6 +7859,24 @@ p:TVN Discovery Group,f:1
 0134:00820000:012c:013e:25:0
 Eurosport 4K
 p:TVN DIscovery Group,f:1
+0191:00820000:1518:013e:1:0
+VH1
+p:NOVA,f:1
+0192:00820000:1518:013e:1:0
+MTV Hits
+p:NOVA,f:1
+0193:00820000:1518:013e:1:0
+E! Entertainment HD
+p:NOVA,f:1
+0194:00820000:1518:013e:1:0
+Travel Channel HD
+p:NOVA,f:1
+0195:00820000:1518:013e:1:0
+Nat Geo Wild HD
+p:NOVA,f:1
+0196:00820000:1518:013e:1:0
+MTV
+p:NOVA,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2021
