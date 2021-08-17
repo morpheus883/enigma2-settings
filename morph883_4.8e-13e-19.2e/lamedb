@@ -1136,9 +1136,6 @@ p:Movistar+,f:1
 77c1:00c00000:040a:0001:1:0
 Canal Hollywood
 p:Movistar+,f:1
-77c6:00c00000:040a:0001:1:0
-Movistar Cine Doc & Roll
-p:Movistar+,f:1
 77c3:00c00000:040a:0001:1:0
 Liga de Campeones 1
 p:Movistar+,f:1
@@ -1626,10 +1623,10 @@ p:MTV Networks,f:1
 MTV Germany
 p:MTV Networks Europe,f:1
 6ff1:00c00000:0436:0001:1:0
-VH1 Classic
+MTV 80s
 p:MTV Networks Europe,f:1
 6ff0:00c00000:0436:0001:1:0
-VH1
+MTV 00s
 p:MTV Networks Europe,f:1
 7005:00c00000:0436:0001:1:0
 Nick_Jr..
@@ -2810,9 +2807,9 @@ p:MB Satellite,f:1
 3164:00c00000:0459:0001:2:0
 Schlager Radio
 p:MB Satellite
-313e:00c00000:0459:0001:3:0
+313e:00c00000:0459:0001:1:0
 More Than Sports TV
-p:MB Satellite
+p:MB Satellite,f:1
 332d:00c00000:045b:0001:1:0
 ORF III
 p:ORF Digital,f:1
@@ -3194,9 +3191,6 @@ p:Movistar+,f:1
 78be:00c00000:03ec:0001:25:0
 AXN White HD España
 p:PRISAT TV,f:1
-78bf:00c00000:03ec:0001:25:0
-Movistar Cine Doc & Roll HD
-p:Movistar+,f:1
 157c:00c00000:041f:0001:25:0
 Disney Channel HD
 p:HD +,f:1
@@ -3306,7 +3300,7 @@ p:ARD rbb
 rbbKultur
 p:ARD rbb
 28f6:00c00000:0425:0001:10:0
-Antenne Brandenburg
+Antenne Brbg.
 p:ARD rbb
 28f7:00c00000:0425:0001:10:0
 rbb 88.8
@@ -3844,6 +3838,9 @@ Sky Cinema Thriller HD Germany
 p:SKY,f:1
 0075:00c00000:0004:0085:25:0
 Sky Serien & Shows HD
+p:SKY,f:1
+0155:00c00000:0004:0085:25:0
+Prime Video Sportsbar
 p:SKY,f:1
 0029:00c02dee:0002:0085:1:0
 Sky Cinema Hits Germany
@@ -5795,6 +5792,9 @@ p:Sky Italia,f:1
 1020:00820000:14b4:fbff:25:0
 Crime + Inv. HD
 p:SkyItalia,f:1
+1015:00820000:14b4:fbff:25:0
+Discovery HD Showcase
+p:SkyItalia,f:1
 012d:00820000:157c:013e:1:0
 Macedonia TV
 p:NetMed,f:1
@@ -5814,7 +5814,7 @@ p:NetMed,f:1
 ANT 1
 p:NetMed,f:1
 0143:00820000:157c:013e:1:0
-Nova Sports 5 HD
+NovaSports 5 HD
 p:NetMed,f:1
 0144:00820000:157c:013e:1:0
 R13
@@ -5823,7 +5823,7 @@ p:NetMed,f:1
 Skai (ΣΚΑΪ) TV
 p:NetMed,f:1
 0148:00820000:157c:013e:1:0
-Nova Sports 5 HD Cy
+NovaSports 5 HD Cy
 p:NetMed,f:1
 0135:00820000:157c:013e:2:0
 Love Radio
@@ -5892,7 +5892,7 @@ p:NetMed,f:1
 Smile TV
 p:NetMed,f:1
 013e:00820000:157c:013e:1:0
-NovaStarsHD
+NovalifåxtraHD
 p:NetMed,f:1
 1e5b:00820000:15e0:fbff:25:0
 Primafila 1 HD
@@ -6034,9 +6034,6 @@ Sky TG24 HD
 p:SkyItalia,f:1
 10eb:00820000:16a8:fbff:130:0
 Guida Multilingua
-p:SkyItalia,f:1
-1e58:00820000:16a8:fbff:25:0
-Sky Sport Action HD
 p:SkyItalia,f:1
 2aab:00820000:1838:fbff:130:0
 Sport Active 1
@@ -6672,7 +6669,7 @@ p:Nova,f:1
 NovaSports 4 HD
 p:Nova,f:1
 0163:00820000:1c84:013e:1:0
-NovaSports 4 Cy HD
+NovaSports 4 HD Cy
 p:Nova,f:1
 0165:00820000:1c84:013e:1:0
 R10
@@ -6726,7 +6723,7 @@ p:Nova,f:1
 MTV 00s
 p:Nova,f:1
 016d:00820000:1c84:013e:2:0
-BHMA FM 99,5
+VOICE OF GREECE
 p:Nova
 016c:00820000:1c84:013e:2:0
 REAL FM
@@ -7376,6 +7373,9 @@ p:SkyItalia
 2aa8:00820000:2198:fbff:1:0
 Sky Sport 1 Italia
 p:Sky Italia,f:1
+1e58:00820000:2198:fbff:25:0
+Sky Sport Action HD
+p:SkyItalia,f:1
 232b:00820000:2328:013e:1:0
 Ronahi TV
 p:STN Ltd,f:1
@@ -7764,7 +7764,7 @@ p:Nova,f:1
 Nova Cinema 3 HD
 p:Nova,f:1
 1bc4:00822ea2:17d4:013e:1:0
-NovaSports 24 HD
+NovaSports News HD
 p:Nova,f:1
 1bc5:00822ea2:17d4:013e:1:0
 One Channel HD
@@ -8420,83 +8420,77 @@ p:Rai,f:1
 4536:00820000:30d4:013e:1:0
 UNINETTUNO UNIVERSITY TV
 p:Rai,f:1
-374a:00822d06:06a4:013e:1:0
+374a:00822d06:06a4:013e:25:0
 Kabelio n.n
 p:KABELIO.CH,f:1
-374b:00822d06:06a4:013e:1:0
+374b:00822d06:06a4:013e:25:0
 Kabelio Tele Basel
 p:KABELIO.CH,f:1
-374c:00822d06:06a4:013e:1:0
+374c:00822d06:06a4:013e:25:0
 Kabelio Tele1
 p:KABELIO.CH,f:1
-374d:00822d06:06a4:013e:1:0
+374d:00822d06:06a4:013e:25:0
 Kabelio TVO
 p:KABELIO.CH,f:1
-374e:00822d06:06a4:013e:1:0
+374e:00822d06:06a4:013e:25:0
 Kabelio TV SuedOst
 p:KABELIO.CH,f:1
-3750:00822d06:06a4:013e:1:0
+3750:00822d06:06a4:013e:25:0
 Kabelio TF1 HD
 p:KABELIO.CH,f:1
-3751:00822d06:06a4:013e:1:0
+3751:00822d06:06a4:013e:25:0
 Kabelio M6 HD
 p:KABELIO.CH,f:1
-3755:00822d06:06a4:013e:1:0
+3755:00822d06:06a4:013e:25:0
 Kabelio Das Erste HD
 p:KABELIO.CH,f:1
-3756:00822d06:06a4:013e:1:0
+3756:00822d06:06a4:013e:25:0
 Kabelio ZDF HD
 p:KABELIO.CH,f:1
-375a:00822d06:06a4:013e:1:0
+375a:00822d06:06a4:013e:25:0
 Kabelio BBC One HD
 p:KABELIO.CH,f:1
-375b:00822d06:06a4:013e:1:0
+375b:00822d06:06a4:013e:25:0
 Kabelio BBC Two HD
 p:KABELIO.CH,f:1
-375c:00822d06:06a4:013e:1:0
-Kabelio ITV One HD
+375c:00822d06:06a4:013e:25:0
+Kabelio ITV HD
 p:KABELIO.CH,f:1
-375d:00822d06:06a4:013e:1:0
+375d:00822d06:06a4:013e:25:0
 Kabelio BBC 4-CBBCs
 p:KABELIO.CH,f:1
-375e:00822d06:06a4:013e:1:0
+375e:00822d06:06a4:013e:25:0
 Kabelio Channel 4 HD
 p:KABELIO.CH,f:1
-375f:00822d06:06a4:013e:1:0
+375f:00822d06:06a4:013e:25:0
 Kabelio Channel 5 HD
 p:KABELIO.CH,f:1
-3760:00822d06:06a4:013e:1:0
+3760:00822d06:06a4:013e:25:0
 Kabelio FreeSportsHD
 p:KABELIO.CH,f:1
-3764:00822d06:06a4:013e:1:0
-Kabelio n.n1
+3764:00822d06:06a4:013e:25:0
+Kabelio_TP17_n.n1
 p:KABELIO.CH,f:1
-3765:00822d06:06a4:013e:1:0
-Kabelio n.n2
+3765:00822d06:06a4:013e:25:0
+Kabelio_TP17_n.n2
 p:KABELIO.CH,f:1
-3766:00822d06:06a4:013e:1:0
-Kabelio n.n3
+3766:00822d06:06a4:013e:25:0
+Kabelio_TP17_n.n3
 p:KABELIO.CH,f:1
-36e3:00822d06:06a4:013e:1:0
+36e3:00822d06:06a4:013e:25:0
 Kabelio Tele M1
 p:KABELIO.CH,f:1
-36e4:00822d06:06a4:013e:1:0
+36e4:00822d06:06a4:013e:25:0
 Kabelio Tele Baern
 p:KABELIO.CH,f:1
-36e5:00822d06:06a4:013e:1:0
+36e5:00822d06:06a4:013e:25:0
 Kabelio Info
-p:KABELIO.CH,f:1
-3767:00822d06:06a4:013e:1:0
-Kabelio n.n3
 p:KABELIO.CH,f:1
 10ea:0082ac81:03e8:013e:25:0
 TVN 24 Bizness HD
 p:TVN,f:1
 10e4:0082ac81:03e8:013e:22:0
 TVC
-p:TVN,f:1
-10e9:0082ac81:03e8:013e:25:0
-Adventure HD
 p:TVN,f:1
 10e7:0082ac81:03e8:013e:22:0
 Power TV
@@ -8734,12 +8728,6 @@ Cinemax HD
 p:CANAL+,f:1
 1187:0082a9df:2af8:013e:1:0
 National Geographic Wild HD
-p:CANAL+,f:1
-1166:0082a9df:2af8:013e:1:0
-TVP 4K
-p:CANAL+,f:1
-113e:0082a9df:2af8:013e:31:0
-TVP 4K
 p:CANAL+,f:1
 1315:00820000:2e7c:013e:1:0
 Eurosport 2 HD
@@ -9026,9 +9014,9 @@ p:EUTELSAT,f:1
 0652:00820000:2454:013e:1:0
 RT Arabic HD
 p:iKO Media Group,f:1
-0645:00820000:2454:013e:25:0
+0645:00820000:2454:013e:1:0
 Al Alam TV HD
-p:,f:1
+p:SABA GROUP,f:1
 0646:00820000:2454:013e:1:0
 MS MotorTV
 p:EUTELSAT,f:1
@@ -9461,79 +9449,76 @@ p:,f:1
 04b9:00820000:23f0:013e:31:0
 Ultra Nature 4K
 p:Eutelsat,f:1
-04b6:00820000:23f0:013e:25:0
+04b6:00820000:23f0:013e:1:0
 Abu Dhabi TV
 p:DU,f:1
 04b7:00820000:23f0:013e:1:0
 United States of Africa TV
 p:EUTELSAT MENA,f:1
-0063:00820000:3264:013e:1:0
-Kabelio Infokanal
-p:KABELIO.CH,f:1
-0064:00820000:3264:013e:1:0
+0064:00820000:3264:013e:25:0
 Kabelio 3+
 p:KABELIO.CH,f:1
-0065:00820000:3264:013e:1:0
+0065:00820000:3264:013e:25:0
 Kabelio 4+
 p:KABELIO.CH,f:1
-0066:00820000:3264:013e:1:0
+0066:00820000:3264:013e:25:0
 Kabelio 5+
 p:KABELIO.CH,f:1
-0067:00820000:3264:013e:1:0
+0067:00820000:3264:013e:25:0
 Kabelio TV24
 p:KABELIO.CH,f:1
-0068:00820000:3264:013e:1:0
+0068:00820000:3264:013e:25:0
 Kabelio TV25
 p:KABELIO.CH,f:1
-0069:00820000:3264:013e:1:0
+0069:00820000:3264:013e:25:0
 Kabelio 6+
 p:KABELIO.CH,f:1
-006a:00820000:3264:013e:1:0
+006a:00820000:3264:013e:25:0
 Kabelio S1
 p:KABELIO.CH,f:1
-006b:00820000:3264:013e:1:0
+006b:00820000:3264:013e:25:0
 Kabelio TeleZueri
 p:KABELIO.CH,f:1
-006c:00820000:3264:013e:1:0
+006c:00820000:3264:013e:25:0
 Kabelio Puls Acht
 p:KABELIO.CH,f:1
-006d:00820000:3264:013e:1:0
+006d:00820000:3264:013e:25:0
 Kabelio ORF 1
 p:KABELIO.CH,f:1
-006e:00820000:3264:013e:1:0
-Kabelio ORF 2
+006e:00820000:3264:013e:25:0
+Kabelio ORF 2 Tirol
 p:KABELIO.CH,f:1
-006f:00820000:3264:013e:1:0
+006f:00820000:3264:013e:25:0
 Kabelio RTL CH
 p:KABELIO.CH,f:1
-0070:00820000:3264:013e:1:0
+0070:00820000:3264:013e:25:0
 Kabelio RTLZwei CH
 p:KABELIO.CH,f:1
-0071:00820000:3264:013e:1:0
+0071:00820000:3264:013e:25:0
 Kabelio Vox CH
 p:KABELIO.CH,f:1
-0072:00820000:3264:013e:1:0
+0072:00820000:3264:013e:25:0
 Kabelio Sat.1 CH
 p:KABELIO.CH,f:1
-0073:00820000:3264:013e:1:0
+0073:00820000:3264:013e:25:0
 Kabelio ProSieben CH
 p:KABELIO.CH,f:1
-007f:00820000:3264:013e:1:0
+007f:00820000:3264:013e:25:0
 Kabelio KabelEins CH
 p:KABELIO.CH,f:1
-0082:00820000:3264:013e:1:0
-Kabelio Canale 5 ITA
+0082:00820000:3264:013e:25:0
+Kabelio Canale 5
 p:KABELIO.CH,f:1
-0084:00820000:3264:013e:1:0
+0084:00820000:3264:013e:25:0
 Kabelio Blue Zoom D
 p:KABELIO.CH,f:1
-0085:00820000:3264:013e:1:0
+0085:00820000:3264:013e:25:0
 Kabelio Swiss1
 p:KABELIO.CH,f:1
-0074:00820000:3264:013e:1:0
+0074:00820000:3264:013e:25:0
 Kabelio_TP129_n.n1
 p:KABELIO.CH,f:1
-0075:00820000:3264:013e:1:0
+0075:00820000:3264:013e:25:0
 Kabelio_TP129_n.n2
 p:KABELIO.CH,f:1
 1002:00822fd5:1e14:fbff:1:0
@@ -9565,9 +9550,6 @@ Informativa privacy e consenso
 p:SkyItalia,f:1
 2a99:00822e7c:170c:fbff:1:0
 Informativa privacy e consenso
-p:SkyItalia,f:1
-1015:00822e7c:170c:fbff:25:0
-Discovery HD Showcase
 p:SkyItalia,f:1
 2503:00822e7c:170c:fbff:25:0
 X Factor
@@ -9608,6 +9590,9 @@ p:Sky Italia,f:1
 1e60:00822e7c:170c:fbff:25:0
 Primafila 2 HD
 p:Sky Italia,f:1
+1016:00822e7c:170c:fbff:25:0
+Prime Video Sportsbar
+p:SkyItalia,f:1
 2b10:0082aedc:1900:fbff:25:0
 Sky Sport Arena HD
 p:Sky Italia,f:1
@@ -9719,6 +9704,27 @@ p:NOVA,f:1
 0196:00820000:1518:013e:1:0
 MTV
 p:NOVA,f:1
+0197:00820000:1518:013e:1:0
+NovaSports Prime HD
+p:NOVA,f:1
+0198:00820000:1518:013e:1:0
+NovaSports Prime HD CY
+p:NOVA,f:1
+0199:00820000:1518:013e:1:0
+NovaSports 6 HD
+p:NOVA,f:1
+019a:00820000:1518:013e:1:0
+NovaSports 6 HD Cy
+p:NOVA,f:1
+019b:00820000:1518:013e:1:0
+NovaSports Start HD
+p:NOVA,f:1
+019c:00820000:1518:013e:1:0
+NovaSports Start HD CY
+p:NOVA,f:1
+01ae:00820000:1518:013e:152:0
+Cobalt Data
+p:NOVA
 0fa0:00300000:0006:0056:1:0
 TV Chile
 p:Viasat,f:1
