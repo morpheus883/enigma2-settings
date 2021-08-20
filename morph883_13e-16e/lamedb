@@ -219,6 +219,9 @@ transponders
 00a03182:0000:0000
 	s 12674000:2930000:0:3:160:2:0
 /
+00a02cf8:0001:016e
+	s 11512000:30000000:0:3:160:2:0:1:2:2:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -1022,6 +1025,9 @@ p:A1 Broadcasting,f:1
 076d:00a00000:c6d4:016e:25:0
 CroTV
 p:A1 Broadcasting,f:1
+077e:00a00000:c6d4:016e:2:0
+Hrvatski Radio Frankfurt
+p:A1 Broadcasting
 0709:00a00000:c5a8:016e:22:0
 HRT 1 (SLO 1)
 p:VIPnet,f:1
@@ -2552,7 +2558,7 @@ p:EPQ,f:1
 0004:00a02bfe:0001:016e:25:0
 BN Sat TV HD
 p:H,f:1
-0005:00a02bfe:0001:016e:1:0
+0005:00a02bfe:0001:016e:25:0
 BN Music HD
 p:H,f:1
 000c:00a02bfe:0001:016e:25:0
@@ -2561,7 +2567,7 @@ p:H,f:1
 0084:00a02bfe:0001:016e:2:0
 RM Hungary
 p:H
-0065:00a02bfe:0001:016e:1:0
+0065:00a02bfe:0001:016e:25:0
 Al Jazeera Balkans HD
 p:H,f:1
 0066:00a02bfe:0001:016e:2:0
@@ -2570,7 +2576,7 @@ p:H
 0067:00a02bfe:0001:016e:1:0
 Minimax Serbia
 p:H,f:1
-0068:00a02bfe:0001:016e:1:0
+0068:00a02bfe:0001:016e:25:0
 Eurochannel HD
 p:H,f:1
 006a:00a02bfe:0001:016e:22:0
@@ -2642,6 +2648,9 @@ p:
 0016:00a02bfe:0001:016e:2:0
 Bobar Radio
 p:
+000e:00a02bfe:0001:016e:2:0
+Radio MIX
+p:H
 0001:00a031bb:0000:0000:0:0
 Zadruga uplink
 p:Pink
@@ -2789,9 +2798,9 @@ p:,f:1
 000f:00a00000:012c:0003:1:0
 Credo TV
 p:Djemba ITC,f:1
-0001:00a03182:0000:0000:0:0
-Zadruga uplink
-p:Pink
+0001:00a03182:0000:0000:25:0
+PINK DSNG
+p:RTV Pink,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -2899,6 +2908,9 @@ Cinemax HD
 p:CANAL+,f:1
 0de5:00820000:2d50:013e:1:0
 Cinemax HD
+p:CANAL+,f:1
+0db7:00820000:2d50:013e:1:0
+Music Box Polska
 p:CANAL+,f:1
 0001:00820000:2e18:00b0:1:0
 Al Maghribia HD
@@ -4103,6 +4115,12 @@ p:SkyItalia,f:1
 2b16:00820000:1644:fbff:25:0
 Sky Cinema Comedy HD
 p:SkyItalia,f:1
+0dea:00820000:1644:fbff:25:0
+Sky Sport Bar 2
+p:SkyItalia,f:1
+0ded:00820000:1644:fbff:25:0
+Sky Sport Bar 3
+p:SkyItalia,f:1
 0e39:00820000:16a8:fbff:1:0
 National Geographic Italy
 p:Sky Italia,f:1
@@ -4153,6 +4171,9 @@ Sky TG24 HD
 p:SkyItalia,f:1
 10eb:00820000:16a8:fbff:130:0
 Guida Multilingua
+p:SkyItalia,f:1
+0de9:00820000:16a8:fbff:25:0
+Sky Sport Bar 1
 p:SkyItalia,f:1
 2aab:00820000:1838:fbff:130:0
 Sport Active 1

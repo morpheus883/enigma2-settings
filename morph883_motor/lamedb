@@ -441,6 +441,9 @@ transponders
 02030000:012e:162d
 	s 11290000:45000000:0:6:515:2:0:1:2:0:2
 /
+02032c56:0003:ff00
+	s 11350000:45000000:0:3:515:2:0:1:2:0:2
+/
 01f40000:0005:1f40
 	s 11196000:2220000:1:4:500:2:0
 /
@@ -699,6 +702,9 @@ transponders
 01a4acc2:0001:00eb
 	s 11458000:3200000:1:3:420:2:0:1:2:0:2
 /
+01a4acd6:0000:0001
+	s 11478000:6800000:1:3:420:2:0:1:2:0:2
+/
 01860000:000d:001c
 	s 12524000:30000000:1:5:390:2:0
 /
@@ -809,6 +815,9 @@ transponders
 /
 0186ab9a:0001:ffff
 	s 11162000:5000000:1:3:390:2:0:1:2:0:2
+/
+0186b002:0001:0001
+	s 12290000:30000000:1:5:390:2:0
 /
 01680000:ff86:036e
 	s 11747000:27500000:0:3:360:2:0
@@ -1011,6 +1020,9 @@ transponders
 01683118:0001:ffff
 	s 12568000:2600000:0:3:360:2:0:1:1:0:2
 /
+0168acdf:0001:ffff
+	s 11487000:2600000:1:4:360:2:0
+/
 014a0000:f001:2268
 	s 12722000:16730000:1:3:330:2:0:1:1:0:2
 /
@@ -1095,14 +1107,8 @@ transponders
 014a0000:33f4:004b
 	s 10974000:4800000:0:3:330:2:0:1:1:0:2
 /
-014a2bad:33f4:004b
-	s 11181000:4800000:0:3:330:2:0:1:2:0:2
-/
 014a2ba7:33f4:004b
 	s 11175000:4800000:0:3:330:2:0:1:2:0:2
-/
-014a0000:0000:0003
-	s 11169000:4800000:0:3:330:2:0:1:1:0:2
 /
 014a0000:0bbf:004b
 	s 11187000:4800000:0:3:330:2:0:1:2:0:2
@@ -1132,6 +1138,15 @@ transponders
 	s 11169000:4800000:0:3:330:2:0:1:1:0:2
 /
 014a0000:0085:004b
+	s 11181000:4800000:0:3:330:2:0:1:2:0:2
+/
+014a2ba1:33f4:ffff
+	s 11169000:4800000:0:3:330:2:0:1:1:0:2
+/
+014a2ba7:33f4:ffff
+	s 11175000:4800000:0:3:330:2:0:1:2:0:2
+/
+014a2bad:33f4:004b
 	s 11181000:4800000:0:3:330:2:0:1:2:0:2
 /
 013b0000:1456:0005
@@ -1401,9 +1416,6 @@ transponders
 011ab024:07f0:0002
 	s 12324000:27500000:1:2:282:2:0:1:2:0:2
 /
-011a0000:0835:0002
-	s 11641000:23000000:0:2:282:2:0:1:2:1:2
-/
 011a0000:083b:0002
 	s 11264000:27500000:0:2:282:2:0
 /
@@ -1442,6 +1454,9 @@ transponders
 /
 011a3151:0000:0000
 	s 12625000:7200000:0:3:282:2:0:1:2:0:2
+/
+011ab158:0001:ffff
+	s 12632000:7200000:1:3:282:2:0:1:2:0:2
 /
 01040000:012d:02be
 	s 11747000:27500000:1:3:260:2:0
@@ -2535,6 +2550,9 @@ transponders
 00a03182:0000:0000
 	s 12674000:2930000:0:3:160:2:0
 /
+00a02cf8:0001:016e
+	s 11512000:30000000:0:3:160:2:0:1:2:2:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -2976,6 +2994,9 @@ transponders
 00642aea:0001:ffff
 	s 10986000:7200000:0:3:100:2:0:1:1:0:2
 /
+0064acfc:0001:ffff
+	s 11516000:7200000:1:3:100:2:0:1:2:0:2
+/
 005a0000:14b4:009c
 	s 11785000:27500000:0:2:90:2:0:1:2:0:2
 /
@@ -3276,9 +3297,6 @@ transponders
 00462b29:0000:0001
 	s 11049000:4937000:0:3:70:2:0:1:1:0:2
 /
-0046ad07:0001:0000
-	s 11527000:7500000:1:3:70:2:0:1:2:0:2
-/
 00462b23:0000:0001
 	s 11043000:4937000:0:3:70:2:0:1:1:0:2
 /
@@ -3302,6 +3320,12 @@ transponders
 /
 0046ad07:0000:0000
 	s 11527000:7500000:1:3:70:2:0:1:2:0:2
+/
+0046aaf3:4321:00eb
+	s 10995000:7200000:1:3:70:2:0:1:2:0:2
+/
+00460000:0001:00c8
+	s 11174000:3674000:1:3:70:2:0:1:2:0:2
 /
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
@@ -3810,9 +3834,6 @@ fff8ad08:0001:0001
 0e08acc4:0001:0001
 	s 11460000:2260000:1:2:-8:2:0:1:1:0:2
 /
-0e08b0e6:0001:ffff
-	s 12518000:2080000:1:3:-8:2:0:1:2:0:2
-/
 ffe2acc6:0001:0000
 	s 11462000:3062000:1:1:-30:2:0:1:1:0:2
 /
@@ -3962,9 +3983,6 @@ ffce2d9c:0001:013e
 /
 0dde0000:000a:20fa
 	s 12648000:29500000:1:6:-50:2:0:1:2:0:2:1:121212:1
-/
-ffce2cc2:03e8:0001
-	s 11458000:542000:0:1:-50:2:0
 /
 ffce0000:5014:055f
 	s 11054000:29950000:1:2:-50:2:0:1:2:1:0
@@ -4650,6 +4668,9 @@ fed43159:0001:ffff
 0ce42d2f:0001:ffff
 	s 11567000:3000000:0:3:-300:2:0:1:1:0:2
 /
+0ce42ffb:0069:0000
+	s 12283000:27500000:0:3:-300:2:0:1:2:2:2
+/
 fec5b033:0001:0001
 	s 12339000:8572000:1:4:-315:2:0:1:1:0:2
 /
@@ -5264,9 +5285,6 @@ p:SAT,f:1
 044c:02ee0000:0004:1e61:22:0
 Europa Plus TV
 p:SAT,f:1
-064d:02ee0000:0004:1e61:22:0
-Che Че Telekanal (+4h)
-p:SAT,f:1
 0552:02ee0000:0004:1e61:22:0
 Sovershenno sekretno (Совершенно секретно)
 p:SAT,f:1
@@ -5354,12 +5372,6 @@ p:SAT,f:1
 07cf:02ee0000:0004:1e61:31:0
 МТС-Инфо
 p:SAT,f:1
-0641:02ee0000:0004:1e61:22:0
-Канал Disney (+4)
-p:SAT,f:1
-0642:02ee0000:0004:1e61:22:0
-Канал Disney (+7)
-p:SAT,f:1
 04e0:02ee0000:0004:1e61:22:0
 Juvelirochka (Ювелирочка)
 p:SAT,f:1
@@ -5422,9 +5434,6 @@ AMEDIA HIT HD
 p:SAT,f:1
 055d:02eeaf44:0007:1e61:22:0
 Box TV (Бокс ТВ)
-p:SAT,f:1
-07d4:02eeaf44:0007:1e61:22:0
-World Fashion Channel
 p:SAT,f:1
 0412:02eeaf44:0007:1e61:31:0
 Иллюзион+
@@ -6277,22 +6286,19 @@ Prophet Sbu Mokoena
 p:Sentech,f:1
 0015:02ad318a:0004:0001:1:0
 Omega Gospel Channel
-p:,f:1
+p:ViewMedia,f:1
 001e:02ad318a:0004:0001:1:0
 CVV
-p:,f:1
+p:ViewMedia,f:1
 0019:02ad318a:0004:0001:1:0
 Press TV
-p:ViewSat,f:1
+p:ViewMedia,f:1
 001a:02ad318a:0004:0001:1:0
 iFILM English
-p:ViewSat,f:1
+p:ViewMedia,f:1
 0004:02ad318a:0004:0001:2:0
 IRIB 06 WORLD SERVICE
-p:ViewSat
-000f:02ad318a:0004:0001:1:0
-Liberation TV
-p:ViewMedia,f:1
+p:ViewMedia
 000d:02ad318a:0004:0001:1:0
 Bride TV
 p:ViewMedia,f:1
@@ -6301,7 +6307,7 @@ KICC TV
 p:ViewMedia,f:1
 001d:02ad318a:0004:0001:1:0
 Synagogue TV
-p:Harmonic,f:1
+p:ViewMedia,f:1
 000c:02ad318a:0004:0001:1:0
 GOD TV Africa
 p:ViewMedia,f:1
@@ -6321,28 +6327,13 @@ p:ViewMedia,f:1
 AVO TV
 p:ViewMedia,f:1
 0003:02ad318a:0004:0001:1:0
-ViewMedia Promo
+SpringsNetwork
 p:ViewMedia,f:1
 0008:02ad318a:0004:0001:1:0
 Healing Center TV
 p:ViewMedia,f:1
-0006:02ad318a:0004:0001:1:0
-Noursat English
-p:ViewMedia,f:1
 000a:02ad318a:0004:0001:1:0
-FNN
-p:ViewMedia,f:1
-0012:02ad318a:0004:0001:1:0
-Number 1 Plus TV
-p:ViewMedia,f:1
-0017:02ad318a:0004:0001:1:0
-Prophetic 24/7
-p:ViewMedia,f:1
-0009:02ad318a:0004:0001:1:0
-BBT Channel
-p:ViewMedia,f:1
-0007:02ad318a:0004:0001:1:0
-Nana Poku TV
+Prophet Mboro TV
 p:ViewMedia,f:1
 0001:02ad2b48:0001:ffff:1:0
 Rossiya 1 (+1h)
@@ -7748,9 +7739,6 @@ p:Yahlive 5,f:1
 0656:020d0000:0004:020d:1:0
 Arezo HD
 p:Yahlive 5,f:1
-0659:020d0000:0004:020d:1:0
-Rah-e-Farda TV
-p:yahlive 5,f:1
 065a:020d0000:0004:020d:1:0
 ATN News
 p:Yahlive 5,f:1
@@ -8729,9 +8717,6 @@ p:WNS,f:1
 000f:02080000:2506:2506:1:0
 Afghanistan Intl SD
 p:WNS,f:1
-000a:02030000:0002:004c:1:0
-BTB (VTV) Belarus
-p:Belintersat,f:1
 000a:02030000:012d:162d:1:0
 LUX TV
 p:Fotelka,f:1
@@ -8997,7 +8982,7 @@ p:Fotelka,f:1
 Chuck TV
 p:Fotelka,f:1
 0197:02030000:012e:162d:1:0
-Reserved
+Off TV
 p:Fotelka,f:1
 0191:02030000:012e:162d:1:0
 Kino Barrandov
@@ -9008,6 +8993,9 @@ p:Fotelka,f:1
 007f:02030000:012e:162d:1:0
 Reserved
 p:Fotelka,f:1
+000a:02032c56:0003:ff00:25:0
+BTB (VTV) Belarus
+p:Belintersat,f:1
 0001:01f40000:0005:1f40:1:0
 TURKSAT TANITIM
 p:TURKSAT,f:1
@@ -9224,9 +9212,6 @@ p:Teleimedi,f:1
 0029:01cc2af6:0001:ffff:2:0
 PAL FM
 p:Service Provider
-002c:01cc2af6:0001:ffff:2:0
-PAL DOGA
-p:Service Provider
 0033:01cc2af6:0001:ffff:2:0
 RADYO DORUK
 p:Service Provider
@@ -9242,12 +9227,6 @@ p:Service Provider
 0038:01cc2af6:0001:ffff:2:0
 TATLISES RADYO
 p:Service Provider
-001f:01cc2af6:0001:ffff:1:0
-4Turk Music
-p:AZERCOSMOS,f:1
-0020:01cc2af6:0001:ffff:1:0
-4Turk Billboard
-p:AZERCOSMOS,f:1
 138b:01c20000:0006:00d5:1:0
 CNN
 p:VIVACOM,f:1
@@ -11858,9 +11837,6 @@ p:TTNET,f:1
 39d0:01a42e4d:a989:042e:25:0
 Tivibu Tanitim HD
 p:TTNET,f:1
-39d3:01a42e4d:a989:042e:25:0
-BBC World News
-p:TTNET,f:1
 39d6:01a42e4d:a989:042e:25:0
 Sinema TV HD
 p:TTNET,f:1
@@ -11887,9 +11863,6 @@ Tivibu Spor 2 HD
 p:TTNET,f:1
 39d4:01a42e4d:a989:042e:25:0
 Sinema Aksiyon HD
-p:TTNET,f:1
-39d3:01a42e4d:a989:042e:22:0
-BBC WORLD NEWS
 p:TTNET,f:1
 39d5:01a42e4d:a989:042e:25:0
 HABİTAT TV HD
@@ -11960,24 +11933,6 @@ p:TRT
 000c:01a4ab7c:0001:002a:2:0
 ANK_RAD 2.KANAL
 p:TRT
-0003:01a4ab77:0001:ffff:2:0
-METRO FM
-p:KARNAVAL
-0004:01a4ab77:0001:ffff:2:0
-SUPER FM
-p:KARNAVAL
-0005:01a4ab77:0001:ffff:2:0
-JOY TURK
-p:KARNAVAL
-0007:01a4ab77:0001:ffff:2:0
-JOY FM
-p:KARNAVAL
-0008:01a4ab77:0001:ffff:2:0
-VIRGIN RADIO
-p:KARNAVAL
-0009:01a4ab77:0001:ffff:2:0
-TEST
-p:KARNAVAL
 199b:01a4ad07:0001:0001:1:0
 Tarim Orman
 p:TURKSAT,f:1
@@ -12014,11 +11969,11 @@ p:ALTUS HD/SD SNG,f:1
 0001:01a4ad67:0001:ffff:1:0
 DHA/2 HD
 p:DHA 2 HD,f:1
-0001:01a40000:0001:042e:1:0
-TUR 136 A
-p:TRT,f:1
 0001:01a4acc2:0001:00eb:1:0
 TUR 46
+p:TRT,f:1
+0001:01a4acd6:0000:0001:25:0
+TUR 121-A
 p:TRT,f:1
 0068:01860000:000d:001c:1:0
 Happy Channel
@@ -13628,9 +13583,6 @@ p:A1 BG,f:1
 00fb:01860000:00b2:039e:31:0
 Nicktoons BG
 p:A1 BG,f:1
-0003:01863180:0001:0001:1:0
-ERT World Europe
-p:,f:1
 0002:0186ab9b:0001:0001:1:0
 YSM 019_1
 p:Net 1,f:1
@@ -15443,6 +15395,9 @@ p:Service Provider,f:1
 0002:01683118:0001:ffff:1:0
 SYR-NEWS-CAR2
 p:SD Unnamed,f:1
+0001:0168acdf:0001:ffff:1:0
+GALI KURDSTAN KIRKUK
+p:TandbergTV,f:1
 0065:014a0000:f001:2268:1:0
 Polsat News
 p:Cyfrowy Polsat,f:1
@@ -15560,27 +15515,6 @@ p:,f:1
 0001:014ab1c5:0001:ffff:1:0
 POL_002_BIALY
 p:POLSAT,f:1
-00ca:014a0000:2bc0:004b:31:0
-France 24 English
-p:Eutelsat,f:1
-00cc:014a0000:2bc0:004b:31:0
-Arte FR HD
-p:Eutelsat,f:1
-00cd:014a0000:2bc0:004b:31:0
-Al Aoula International HD
-p:Eutelsat,f:1
-00dc:014a0000:2bc0:004b:12:0
-SSU JIUZHOU
-p:Eutelsat
-012c:014a0000:2bc0:004b:12:0
-Test
-p:Eutelsat
-00cb:014a0000:2bc0:004b:31:0
-Rai Storia HD
-p:Eutelsat,f:1
-00ce:014a0000:2bc0:004b:31:0
-Trace Urban HD
-p:Eutelsat,f:1
 0472:014a0000:0009:00aa:1:0
 TEST 81
 p:OTE,f:1
@@ -15662,12 +15596,6 @@ p:Net 1,f:1
 0001:014aab16:0001:0001:1:0
 Service 01
 p:Net 1,f:1
-0001:014ab0ff:0000:0000:1:0
-Sky TG 24 HD
-p:Skyitalia,f:1
-0002:014ab0ff:0000:0000:1:0
-CTV Vaticano HD
-p:Skyitalia,f:1
 0001:014aab0c:0001:ffff:1:0
 TANDBERG
 p:TANDBERG Television,f:1
@@ -15689,21 +15617,6 @@ p:OPERA,f:1
 0178:014a0000:33f4:004b:1:0
 POL 076
 p:Harmonic,f:1
-015e:014a2ba7:33f4:004b:25:0
-POL-50 ENC 2
-p:,f:1
-0145:014a2ba7:33f4:004b:1:0
-POL-25 ENC1
-p:PLTVP,f:1
-014a:014a2ba7:33f4:004b:1:0
-POL 030
-p:Service Provider,f:1
-017a:014a2ba7:33f4:004b:25:0
-POL-78 ENC 1
-p:,f:1
-015f:014a2ba7:33f4:004b:1:0
-POL 51 KODER1
-p:TVP S.A.,f:1
 33f4:014a0000:0bbf:004b:25:0
 POL-033 OUT1
 p:TVP,f:1
@@ -15917,12 +15830,15 @@ p:,f:1
 0001:014a2bb9:0001:ffff:1:0
 E 413 Main :)
 p:Service Provider,f:1
-0145:014a2ba1:33f4:004b:1:0
+0164:014a2ba1:33f4:ffff:1:0
+POL-056 ENC 1
+p:Service Provider,f:1
+0164:014a2ba7:33f4:ffff:1:0
+POL-056 ENC 1
+p:Service Provider,f:1
+0145:014a2bad:33f4:004b:1:0
 POL-25 ENC1
 p:PLTVP,f:1
-0148:014a0000:0085:004b:1:0
-POL-028
-p:TVP,f:1
 1d92:013b0000:1456:0005:1:0
 VTV Romania
 p:,f:1
@@ -15934,16 +15850,16 @@ DW English HD
 p:SES ASTRA,f:1
 2201:013b0000:1468:00a7:1:0
 Hustler HD
-p:GlobeCast,f:1
+p:GLOBECAST,f:1
 2202:013b0000:1468:00a7:1:0
 Redlight HD
-p:GlobeCast,f:1
+p:GLOBECAST,f:1
 2204:013b0000:1468:00a7:1:0
 Look Plus HD
-p:GlobeCast,f:1
+p:GLOBECAST,f:1
 2205:013b0000:1468:00a7:1:0
 Look Sport HD
-p:GlobeCast,f:1
+p:GLOBECAST,f:1
 2206:013b0000:1468:00a7:1:0
 AXN Black
 p:GLOBECAST,f:1
@@ -15958,13 +15874,10 @@ AXN Spin
 p:GLOBECAST,f:1
 2208:013b0000:1468:00a7:1:0
 BBC World News
-p:GlobeCast,f:1
+p:GLOBECAST,f:1
 220b:013b0000:1468:00a7:1:0
 JimJam EMEA
-p:GlobeCast,f:1
-220e:013b0000:1468:00a7:1:0
-Outdoor EMEA HD
-p:GlobeCast,f:1
+p:GLOBECAST,f:1
 220f:013b0000:1468:00a7:1:0
 Film+
 p:GLOBECAST,f:1
@@ -19388,6 +19301,9 @@ p:BSkyB,f:1
 0001:011a3151:0000:0000:25:0
 NEP 107
 p:,f:1
+0001:011ab158:0001:ffff:1:0
+ITV Snooker Back Up
+p:Service Provider,f:1
 0193:01040000:012d:02be:1:0
 Al Kawthar
 p:JMC,f:1
@@ -20109,7 +20025,7 @@ p:
 Sports FM104
 p:
 0024:0104b0eb:024e:02be:2:0
-SRV_24
+Sahiroon
 p:
 07da:0104b0eb:024e:02be:1:0
 Sudan TV
@@ -20118,8 +20034,8 @@ p:,f:1
 Beladi Sudan
 p:
 0032:0104b0eb:024e:02be:25:0
-Sudania 24 HD
-p:Sudania24 Group,f:1
+Blue Nile TV 2 HD
+p:,f:1
 000a:0104b0eb:024e:02be:1:0
 Ixir TV
 p:,f:1
@@ -20155,9 +20071,9 @@ Radio_028
 p:
 0065:0104b0eb:024e:02be:25:0
 Sudan Sport HD
-p:Sudan Sport,f:1
+p:,f:1
 001e:0104b0eb:024e:02be:2:0
-SRV_1E
+Danga
 p:
 001a:0104b0eb:024e:02be:2:0
 Radio_010
@@ -20201,12 +20117,12 @@ p:,f:1
 01f4:0104b0eb:024e:02be:1:0
 Sudania24HD
 p:Sudania 24none,f:1
-001e:0104b0eb:024e:02be:1:0
-SRV_1E
-p:,f:1
-0024:0104b0eb:024e:02be:1:0
-SRV_24
-p:,f:1
+001b:0104b0eb:024e:02be:2:0
+Alqwat Almosalaha
+p:
+001c:0104b0eb:024e:02be:2:0
+ALRABA94
+p:
 0001:01043115:0001:ffff:1:0
 Midan
 p:Default Provider,f:1
@@ -28841,6 +28757,9 @@ p:A1 Broadcasting,f:1
 076d:00a00000:c6d4:016e:25:0
 CroTV
 p:A1 Broadcasting,f:1
+077e:00a00000:c6d4:016e:2:0
+Hrvatski Radio Frankfurt
+p:A1 Broadcasting
 0709:00a00000:c5a8:016e:22:0
 HRT 1 (SLO 1)
 p:VIPnet,f:1
@@ -30371,7 +30290,7 @@ p:EPQ,f:1
 0004:00a02bfe:0001:016e:25:0
 BN Sat TV HD
 p:H,f:1
-0005:00a02bfe:0001:016e:1:0
+0005:00a02bfe:0001:016e:25:0
 BN Music HD
 p:H,f:1
 000c:00a02bfe:0001:016e:25:0
@@ -30380,7 +30299,7 @@ p:H,f:1
 0084:00a02bfe:0001:016e:2:0
 RM Hungary
 p:H
-0065:00a02bfe:0001:016e:1:0
+0065:00a02bfe:0001:016e:25:0
 Al Jazeera Balkans HD
 p:H,f:1
 0066:00a02bfe:0001:016e:2:0
@@ -30389,7 +30308,7 @@ p:H
 0067:00a02bfe:0001:016e:1:0
 Minimax Serbia
 p:H,f:1
-0068:00a02bfe:0001:016e:1:0
+0068:00a02bfe:0001:016e:25:0
 Eurochannel HD
 p:H,f:1
 006a:00a02bfe:0001:016e:22:0
@@ -30461,6 +30380,9 @@ p:
 0016:00a02bfe:0001:016e:2:0
 Bobar Radio
 p:
+000e:00a02bfe:0001:016e:2:0
+Radio MIX
+p:H
 0001:00a031bb:0000:0000:0:0
 Zadruga uplink
 p:Pink
@@ -30608,9 +30530,9 @@ p:,f:1
 000f:00a00000:012c:0003:1:0
 Credo TV
 p:Djemba ITC,f:1
-0001:00a03182:0000:0000:0:0
-Zadruga uplink
-p:Pink
+0001:00a03182:0000:0000:25:0
+PINK DSNG
+p:RTV Pink,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -30718,6 +30640,9 @@ Cinemax HD
 p:CANAL+,f:1
 0de5:00820000:2d50:013e:1:0
 Cinemax HD
+p:CANAL+,f:1
+0db7:00820000:2d50:013e:1:0
+Music Box Polska
 p:CANAL+,f:1
 0001:00820000:2e18:00b0:1:0
 Al Maghribia HD
@@ -31922,6 +31847,12 @@ p:SkyItalia,f:1
 2b16:00820000:1644:fbff:25:0
 Sky Cinema Comedy HD
 p:SkyItalia,f:1
+0dea:00820000:1644:fbff:25:0
+Sky Sport Bar 2
+p:SkyItalia,f:1
+0ded:00820000:1644:fbff:25:0
+Sky Sport Bar 3
+p:SkyItalia,f:1
 0e39:00820000:16a8:fbff:1:0
 National Geographic Italy
 p:Sky Italia,f:1
@@ -31972,6 +31903,9 @@ Sky TG24 HD
 p:SkyItalia,f:1
 10eb:00820000:16a8:fbff:130:0
 Guida Multilingua
+p:SkyItalia,f:1
+0de9:00820000:16a8:fbff:25:0
+Sky Sport Bar 1
 p:SkyItalia,f:1
 2aab:00820000:1838:fbff:130:0
 Sport Active 1
@@ -36038,6 +35972,9 @@ p:Al-Forat HD1,f:1
 7540:00642aea:0001:ffff:1:0
 GCUK Enc 16
 p:GlobeCast UK,f:1
+0001:0064acfc:0001:ffff:1:0
+Tower OB TX3
+p:BT TVOB,f:1
 00d8:005a0000:14b4:009c:1:0
 Comedy Central D
 p:Kabelkiosk,f:1
@@ -38911,7 +38848,7 @@ Cine Film HD
 p:,f:1
 01ff:00460000:765c:007e:25:0
 Cine Series HD
-p:EUTELSAT,f:1
+p:,f:1
 0201:00460000:765c:007e:1:0
 Iran International HD
 p:ABS,f:1
@@ -39416,16 +39353,10 @@ p:Digital Platform,f:1
 10ff:00460000:c670:007e:17:0
 BBC Earth HD
 p:Digital Platform,f:1
-1104:00460000:c670:007e:25:0
-Ucankus TV
-p:Digital Platform,f:1
 1107:00460000:c670:007e:17:0
 Show Türk HD
 p:Digital Platform,f:1
-1108:00460000:c670:007e:1:0
-TJK TV
-p:Digital Platform,f:1
-1103:00460000:c670:007e:17:0
+1108:00460000:c670:007e:17:0
 TJK TV HD
 p:Digital Platform,f:1
 0001:0046ab31:4321:00eb:25:0
@@ -39659,6 +39590,15 @@ p:ITA832,f:1
 0002:0046ad07:0000:0000:25:0
 DTSNG-2 Main
 p:beIN Sports TURKEY,f:1
+0001:0046aaf3:4321:00eb:25:0
+ASI-EVC-16ch
+p:EBUER,f:1
+753d:00460000:0001:00c8:1:0
+GCUK Enc 13
+p:GlobeCast UK,f:1
+753e:00460000:0001:00c8:1:0
+GCUK Enc 14
+p:GlobeCast UK,f:1
 0fa0:00300000:0006:0056:1:0
 TV Chile
 p:Viasat,f:1
@@ -41527,6 +41467,9 @@ Unian TV
 p:1plus1 Media,f:1
 1832:00300000:000c:0055:1:0
 Кус-Кус
+p:1plus1 Media,f:1
+1834:00300000:000c:0055:22:0
+UTravel
 p:1plus1 Media,f:1
 0005:00302dcf:0001:0001:1:0
 Channel_5
@@ -44621,6 +44564,9 @@ p:Canal Digital Nordic,f:1
 1bf7:fff82a59:003f:0046:25:0
 C More Hockey HD
 p:Telenor,f:1
+1d4e:fff82a59:003f:0046:25:0
+ATG Live HD
+p:Telenor,f:1
 0fe6:fff82e2f:000d:0001:1:0
 Digi Sport 1 HD RO
 p:RCS,f:1
@@ -45065,6 +45011,9 @@ p:Telenor,f:1
 4325:fff8af4f:004e:0046:25:0
 TV6 HD (S)
 p:Telenor,f:1
+1efe:fff8af4f:004e:0046:25:0
+TV 3 HD (N)
+p:Telenor,f:1
 1c71:0e080000:0054:0046:31:0
 NASA TV UHD
 p:Telenor,f:1
@@ -45083,6 +45032,12 @@ p:Telenor,f:1
 1b7d:fff8aa39:003e:0046:25:0
 TV3 MAX HD
 p:Telenor,C:0000,f:1
+1eaa:fff8aa39:003e:0046:25:0
+TV3+ HD
+p:Telenor,f:1
+45ba:fff8aa39:003e:0046:25:0
+TV3+ HD
+p:Telenor,f:1
 1cf3:0e080000:0019:0046:1:0
 Blue Hustler
 p:Canal Digital Nordic,f:1
@@ -45469,6 +45424,21 @@ TV8 HD
 p:Telenor,f:1
 460b:0e080000:004f:0046:25:0
 TV10 HD
+p:Telenor,f:1
+1d05:0e080000:004f:0046:25:0
+V Sport Motor HD
+p:Telenor,f:1
+480e:0e080000:004f:0046:25:0
+TV3 HD (S) - Text
+p:Telenor,f:1
+1d16:0e080000:004f:0046:25:0
+TV 3 HD (S)
+p:Telenor,f:1
+4552:0e080000:004f:0046:25:0
+TV3 HD (S)
+p:Telenor,f:1
+1efc:0e080000:004f:0046:25:0
+V 4 HD
 p:Telenor,f:1
 7668:fff8ae1c:02bf:0600:1:0
 Ocko
