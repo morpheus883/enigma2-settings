@@ -207,9 +207,6 @@ transponders
 00ebb0fb:0001:0001
 	s 12539000:4936000:1:3:235:2:0:1:2:0:2
 /
-00eb2ced:4321:00eb
-	s 11501000:7200000:0:3:235:2:0:1:2:0:2
-/
 00ebad96:0000:0001
 	s 11670000:6000000:1:3:235:2:0:1:2:0:2
 /
@@ -224,6 +221,9 @@ transponders
 /
 00eb0000:0070:006f
 	s 12688000:7200000:0:3:235:2:0:1:2:0:2
+/
+00eb2ced:0002:ffff
+	s 11501000:7200000:0:3:235:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -2717,9 +2717,6 @@ p:Betamobil
 0001:00ebb0fb:0001:0001:25:0
 SLQ-004
 p:SLQ-004,f:1
-0001:00eb2ced:4321:00eb:25:0
-BEL095 MAIN BEBA
-p:VIDEOHOUSE,f:1
 041a:00ebad96:0000:0001:2:0
 1050 - SuperNova Kielce
 p:
@@ -2939,6 +2936,9 @@ p:Studiosat,f:1
 0001:00eb0000:0070:006f:25:0
 F503/1/TDF FEED 1
 p:GLOBECAST,f:1
+0001:00eb2ced:0002:ffff:1:0
+D411 1860 Mchn Magenta
+p:TelLink,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -3169,6 +3169,9 @@ TLC HD
 p:Cyfrowy Polsat S.A.,f:1
 3e2a:00820000:2ee0:013e:1:0
 Eurosport 1 HD
+p:Cyfrowy Polsat S.A.,f:1
+3e30:00820000:2ee0:013e:1:0
+PPV KSW 63
 p:Cyfrowy Polsat S.A.,f:1
 4331:00820000:300c:013e:25:0
 SRF 1 HD
