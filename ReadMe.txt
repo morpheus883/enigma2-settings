@@ -9,14 +9,14 @@ Morpheus883's Site: http://morpheus883.altervista.org/
 GitHub Repository: https://github.com/morpheus883/
 and available on the main Sat Sites
 
-Enigma2 Settings 27th August 2021, © by Morpheus883
+Enigma2 Settings 1st September 2021, © by Morpheus883
 
 Settings for Images based on Enigma 2.4:
 
 Statistics:
 # Satellites: 90 (Ku Band)
 # Ordered Provider Lists: 60+
-# Services: 17.475 (TV-Radio-Data)
+# Services: 17.439 (TV-Radio-Data)
 # Packages: 23 (TV-Radio-Data):
 
 MONOFeed (13°E)
@@ -84,7 +84,6 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [7.0 E] ===== EUTELSAT 7B/7C =====
 [7.0 E] Digitürk
 [9.0 E] ===== EUTELSAT 9B ===M=
-[9.0 E] Joyne
 [9.0 E] Kabelkiosk
 [9.0 E] OTE
 [10.0 E] ===== EUTELSAT 10A =====

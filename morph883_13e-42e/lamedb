@@ -93,7 +93,7 @@ transponders
 01a40000:a414:042e
 	s 12346000:9600000:0:3:420:2:0
 /
-01a42e2e:a4dc:0001
+01a42e2e:0000:0000
 	s 11822000:14166000:0:3:420:2:0:1:2:0:2
 /
 01a40000:a412:042e
@@ -209,6 +209,9 @@ transponders
 /
 01a4acd6:0000:0001
 	s 11478000:6800000:1:3:420:2:0:1:2:0:2
+/
+01a4ad83:0001:0001
+	s 11651000:3333000:1:3:420:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -861,10 +864,10 @@ p:DEMIROREN MEDYA
 363 TV
 p:TURKSAT,f:1
 2c2d:01a40000:797d:042e:1:0
-Fil TV
+MMCTurk
 p:TURKSAT,f:1
 2c27:01a40000:797d:042e:1:0
-Fil TV
+MMCTurk
 p:TURKSAT,f:1
 313a:01a40000:a156:042e:1:0
 TGRT EU
@@ -1391,22 +1394,22 @@ p:MNG TV,f:1
 3269:01a40000:a414:042e:2:0
 TV8Ifb
 p:TV8
-3332:01a42e2e:a4dc:0001:1:0
+3332:01a42e2e:0000:0000:1:0
 Nat Geo Turkey HD
 p:FOX NETWORKS GROUP,f:1
-3334:01a42e2e:a4dc:0001:1:0
+3334:01a42e2e:0000:0000:1:0
 Nat Geo People HD
 p:FOX NETWORKS GROUP,f:1
-3333:01a42e2e:a4dc:0001:1:0
+3333:01a42e2e:0000:0000:1:0
 FX HD Turkey
 p:FOX NETWORKS GROUP,f:1
-3331:01a42e2e:a4dc:0001:1:0
+3331:01a42e2e:0000:0000:1:0
 Fox Crime HD Turkey
 p:FOX NETWORKS GROUP,f:1
-3337:01a42e2e:a4dc:0001:1:0
+3337:01a42e2e:0000:0000:1:0
 Nat Geo Wild HD
 p:FOX NETWORKS GROUP,f:1
-3335:01a42e2e:a4dc:0001:1:0
+3335:01a42e2e:0000:0000:1:0
 24 Kitchen HD
 p:FOX NETWORKS GROUP,f:1
 319c:01a40000:a412:042e:1:0
@@ -1452,7 +1455,7 @@ p:Digital Platform,f:1
 BBC First
 p:Digital Platform,f:1
 3ca8:01a40000:4e85:002a:1:0
-TJK TV
+TJK tv HD
 p:Digital Platform,f:1
 3c8f:01a40000:4e85:002a:17:0
 beIN Sports Max 2 HD Turkey
@@ -2567,6 +2570,9 @@ p:TRT,f:1
 0001:01a4acd6:0000:0001:25:0
 TUR 121-A
 p:TRT,f:1
+0001:01a4ad83:0001:0001:25:0
+IBB TV
+p:ADT,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -3115,6 +3121,12 @@ Radio Sintony
 p:Telespazio
 135a:00820000:33f4:013e:2:0
 Radio Supersound
+p:Telespazio
+1354:00820000:33f4:013e:1:0
+Radio Radio TV
+p:Telespazio,f:1
+1355:00820000:33f4:013e:2:0
+Radio Radio
 p:Telespazio
 366a:00820000:00c8:013e:1:0
 Noviy Mir
@@ -3825,7 +3837,7 @@ p:Sky Italia,f:1
 Sky Sport Tennis HD
 p:SkyItalia,f:1
 1e5c:00820000:15e0:fbff:1:0
-Sky Sport
+Sky Sport 8
 p:SkyItalia,f:1
 2dd2:00820000:15e0:fbff:1:0
 Sky Sport Action
@@ -3984,10 +3996,10 @@ p:SkyItalia,f:1
 Sky Sport 1 HD
 p:SkyItalia,f:1
 1c29:00820000:1838:fbff:25:0
-Sky Sport Serie A HD
+Sky Sport Calcio HD
 p:SkyItalia,f:1
 1c3e:00820000:1838:fbff:25:0
-Sky Sport Serie A HD
+Sky Sport Calcio HD
 p:SkyItalia,f:1
 1fbc:00820000:189c:fbff:1:0
 Vetrina Primafila
@@ -4053,10 +4065,10 @@ p:SkyItalia,f:1
 Sky Sport Arena
 p:SkyItalia,f:1
 2aaa:00820000:189c:fbff:1:0
-Sky Sport Serie A
+Sky Sport Calcio
 p:SkyItalia,f:1
 2aaf:00820000:189c:fbff:1:0
-Sky Sport Serie A
+Sky Sport Calcio
 p:SkyItalia,f:1
 250f:00820000:189c:fbff:25:0
 Inter TV
@@ -6638,6 +6650,9 @@ p:CANAL+,f:1
 1187:0082a9df:2af8:013e:1:0
 National Geographic Wild HD
 p:CANAL+,f:1
+1135:0082a9df:2af8:013e:1:0
+Playboy TV HD
+p:CANAL+,f:1
 1315:00820000:2e7c:013e:1:0
 Eurosport 2 HD
 p:CANAL+,f:1
@@ -7494,7 +7509,7 @@ p:SkyItalia,f:1
 X Factor
 p:SkyItalia,f:1
 1e5f:00822e7c:170c:fbff:25:0
-Sky Sport HD
+Sky Sport 7 HD
 p:Sky Italia,f:1
 1e60:00822e7c:170c:fbff:25:0
 Primafila 2 HD

@@ -294,6 +294,9 @@ transponders
 00c00000:0008:0085
 	s 12070000:27500000:0:9:192:2:0:1:1:0:2
 /
+00c00000:0452:0001
+	s 12522000:22000000:1:2:192:2:0:1:2:2:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -621,12 +624,6 @@ transponders
 005a0000:0008:00aa
 	s 12169000:27500000:0:2:90:2:0:1:2:0:0
 /
-005a0000:c364:009e
-	s 11747000:30000000:0:3:90:2:0:1:2:0:2
-/
-005a0000:c40e:009e
-	s 12074000:30000000:1:3:90:2:0:1:2:0:2
-/
 005a0000:0107:217c
 	s 12341000:31400000:1:4:90:2:0:1:2:0:2:101:262140:1
 /
@@ -707,6 +704,12 @@ transponders
 /
 005a0000:0001:04d2
 	s 11759000:14324000:1:4:90:2:0
+/
+005a0000:c3be:009e
+	s 11919000:30000000:1:3:90:2:0:1:2:2:2
+/
+005a0000:c3aa:009e
+	s 11881000:30000000:1:3:90:2:0:1:2:0:2
 /
 end
 services
@@ -1096,6 +1099,9 @@ DAZN 3
 p:Movistar+,f:1
 77c0:00c00000:040a:0001:1:0
 DAZN 4
+p:Movistar+,f:1
+77c6:00c00000:040a:0001:1:0
+Movistar Clasicos
 p:Movistar+,f:1
 76c0:00c00000:040e:0001:1:0
 Movistar Estrenos
@@ -3119,6 +3125,9 @@ p:Movistar+,f:1
 78be:00c00000:03ec:0001:25:0
 AXN White HD España
 p:PRISAT TV,f:1
+78bf:00c00000:03ec:0001:25:0
+Movistar Clasicos HD
+p:Movistar+,f:1
 157c:00c00000:041f:0001:25:0
 Disney Channel HD
 p:HD +,f:1
@@ -4601,6 +4610,15 @@ p:Sky Deutschland,f:1
 007d:00c00000:0008:0085:25:0
 CNBC HD
 p:SKY,f:1
+1a91:00c00000:0452:0001:1:0
+CGTN News HD
+p:GLOBECAST,f:1
+1a92:00c00000:0452:0001:1:0
+CGTN Documentary HD
+p:GLOBECAST,f:1
+1a93:00c00000:0452:0001:1:0
+CGTN Francais HD
+p:GLOBECAST,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -5149,6 +5167,12 @@ Radio Sintony
 p:Telespazio
 135a:00820000:33f4:013e:2:0
 Radio Supersound
+p:Telespazio
+1354:00820000:33f4:013e:1:0
+Radio Radio TV
+p:Telespazio,f:1
+1355:00820000:33f4:013e:2:0
+Radio Radio
 p:Telespazio
 366a:00820000:00c8:013e:1:0
 Noviy Mir
@@ -5859,7 +5883,7 @@ p:Sky Italia,f:1
 Sky Sport Tennis HD
 p:SkyItalia,f:1
 1e5c:00820000:15e0:fbff:1:0
-Sky Sport
+Sky Sport 8
 p:SkyItalia,f:1
 2dd2:00820000:15e0:fbff:1:0
 Sky Sport Action
@@ -6018,10 +6042,10 @@ p:SkyItalia,f:1
 Sky Sport 1 HD
 p:SkyItalia,f:1
 1c29:00820000:1838:fbff:25:0
-Sky Sport Serie A HD
+Sky Sport Calcio HD
 p:SkyItalia,f:1
 1c3e:00820000:1838:fbff:25:0
-Sky Sport Serie A HD
+Sky Sport Calcio HD
 p:SkyItalia,f:1
 1fbc:00820000:189c:fbff:1:0
 Vetrina Primafila
@@ -6087,10 +6111,10 @@ p:SkyItalia,f:1
 Sky Sport Arena
 p:SkyItalia,f:1
 2aaa:00820000:189c:fbff:1:0
-Sky Sport Serie A
+Sky Sport Calcio
 p:SkyItalia,f:1
 2aaf:00820000:189c:fbff:1:0
-Sky Sport Serie A
+Sky Sport Calcio
 p:SkyItalia,f:1
 250f:00820000:189c:fbff:25:0
 Inter TV
@@ -8672,6 +8696,9 @@ p:CANAL+,f:1
 1187:0082a9df:2af8:013e:1:0
 National Geographic Wild HD
 p:CANAL+,f:1
+1135:0082a9df:2af8:013e:1:0
+Playboy TV HD
+p:CANAL+,f:1
 1315:00820000:2e7c:013e:1:0
 Eurosport 2 HD
 p:CANAL+,f:1
@@ -9528,7 +9555,7 @@ p:SkyItalia,f:1
 X Factor
 p:SkyItalia,f:1
 1e5f:00822e7c:170c:fbff:25:0
-Sky Sport HD
+Sky Sport 7 HD
 p:Sky Italia,f:1
 1e60:00822e7c:170c:fbff:25:0
 Primafila 2 HD
@@ -10067,6 +10094,12 @@ p:Arqiva,f:1
 0483:005a0000:1af4:009e:2:0
 Premier Radio
 p:Arqiva
+04ba:005a0000:1af4:009e:2:0
+1210
+p:
+04bf:005a0000:1af4:009e:2:0
+1215
+p:
 0268:005a3048:206c:009c:25:0
 Spiegel TV Wissen HD
 p:KabelKiosk,f:1
@@ -10568,177 +10601,6 @@ p:OTE,f:1
 0469:005a0000:0008:00aa:1:0
 Al Arabiya
 p:OTE,C:0000,f:1
-01f5:005a0000:c364:009e:25:65535
-NPO 1 HD
-p:Joyne,f:1
-01f6:005a0000:c364:009e:25:65535
-NPO 2 HD
-p:Joyne,f:1
-01f7:005a0000:c364:009e:25:65535
-NPO 3 HD
-p:Joyne,f:1
-01f8:005a0000:c364:009e:25:65535
-RTL 4 HD
-p:Joyne,f:1
-01f9:005a0000:c364:009e:25:65535
-RTL 5 HD
-p:Joyne,f:1
-01fa:005a0000:c364:009e:25:65535
-SBS 6 HD
-p:Joyne,f:1
-01fb:005a0000:c364:009e:25:65535
-RTL 7 HD
-p:Joyne,f:1
-01fc:005a0000:c364:009e:25:65535
-Veronica / Disney XD HD
-p:Joyne,f:1
-01fd:005a0000:c364:009e:25:65535
-Net 5 HD
-p:Joyne,f:1
-01fe:005a0000:c364:009e:25:65535
-RTL 8 HD
-p:Joyne,f:1
-01ff:005a0000:c364:009e:25:65535
-RTL Z HD
-p:Joyne,f:1
-0200:005a0000:c364:009e:25:65535
-SBS 9 HD
-p:Joyne,f:1
-0201:005a0000:c364:009e:1:65535
-Comedy Central NL
-p:Joyne,f:1
-0202:005a0000:c364:009e:1:65535
-Spike 24
-p:Joyne,f:1
-0206:005a0000:c364:009e:1:65535
-National Geographic Benelux
-p:Joyne,f:1
-0207:005a0000:c364:009e:1:65535
-Secret Circle
-p:Joyne,f:1
-0208:005a0000:c364:009e:1:65535
-Meiden van Holland
-p:Joyne,f:1
-020b:005a0000:c364:009e:25:65535
-Penthouse 1 HD
-p:Joyne,f:1
-020d:005a0000:c364:009e:1:65535
-24 Kitchen
-p:Joyne,f:1
-0204:005a0000:c364:009e:25:0
-TV 538 HD
-p:Joyne,f:1
-0209:005a0000:c364:009e:25:0
-BBC First Holland HD
-p:Joyne,f:1
-0191:005a0000:c40e:009e:1:65535
-Nickelodeon NL
-p:Joyne,f:1
-0192:005a0000:c40e:009e:25:65535
-Discovery Channel HD NL
-p:Joyne,f:1
-0193:005a0000:c40e:009e:25:65535
-Investigation Discovery HD
-p:Joyne,f:1
-0194:005a0000:c40e:009e:25:65535
-Eurosport 1 HD
-p:Joyne,f:1
-0195:005a0000:c40e:009e:25:65535
-Eurosport 2 HD
-p:Joyne,f:1
-0197:005a0000:c40e:009e:1:65535
-Xite
-p:Joyne,f:1
-0198:005a0000:c40e:009e:1:65535
-MTV NL
-p:Joyne,f:1
-0199:005a0000:c40e:009e:1:65535
-TV Oranje
-p:Joyne,f:1
-019a:005a0000:c40e:009e:1:65535
-SchlagerTV
-p:Joyne,f:1
-019b:005a0000:c40e:009e:1:65535
-NashvilleTV
-p:Joyne,f:1
-019c:005a0000:c40e:009e:1:65535
-192TV
-p:Joyne,f:1
-019d:005a0000:c40e:009e:1:65535
-NL Provinciaal 1
-p:Joyne,f:1
-019e:005a0000:c40e:009e:1:65535
-NL Provinciaal 2
-p:Joyne,f:1
-019f:005a0000:c40e:009e:25:65535
-Een HD
-p:Joyne,f:1
-01a0:005a0000:c40e:009e:25:65535
-Canvas HD
-p:Joyne,f:1
-01a1:005a0000:c40e:009e:25:65535
-Ketnet HD
-p:Joyne,f:1
-01a2:005a0000:c40e:009e:25:65535
-History HD
-p:Joyne,f:1
-01a4:005a0000:c40e:009e:1:65535
-Crime & Investigation Network
-p:Joyne,f:1
-01a6:005a0000:c40e:009e:1:65535
-Family 7
-p:Joyne,f:1
-01a7:005a0000:c40e:009e:1:65535
-Fox NL
-p:Joyne,f:1
-01a8:005a0000:c40e:009e:25:0
-ESPN 1 HD
-p:Joyne,f:1
-01a9:005a0000:c40e:009e:25:0
-ESPN 2 HD
-p:Joyne,f:1
-01aa:005a0000:c40e:009e:25:0
-ESPN 3 HD
-p:Joyne,f:1
-01af:005a0000:c40e:009e:25:65535
-Travel XP HD
-p:Joyne,f:1
-01bd:005a0000:c40e:009e:1:65535
-Dusk International
-p:Joyne,f:1
-01b1:005a0000:c40e:009e:2:65535
-NPO Radio 1
-p:Joyne
-01b2:005a0000:c40e:009e:2:65535
-NPO Radio 2
-p:Joyne
-01b3:005a0000:c40e:009e:2:65535
-NPO Radio 3
-p:Joyne
-01b4:005a0000:c40e:009e:2:65535
-NPO Radio 4
-p:Joyne
-01b5:005a0000:c40e:009e:2:65535
-NPO Radio 5
-p:Joyne
-01b6:005a0000:c40e:009e:2:65535
-Radio NL
-p:Joyne
-01b7:005a0000:c40e:009e:2:65535
-100% NL
-p:Joyne
-01b8:005a0000:c40e:009e:2:65535
-Sky Radio
-p:Joyne
-01b9:005a0000:c40e:009e:2:65535
-Radio 538
-p:Joyne
-01ba:005a0000:c40e:009e:2:65535
-Veronica
-p:Joyne
-01b0:005a0000:c40e:009e:25:65535
-En-Joy NL HD
-p:Joyne,f:1
 0046:005a0000:0107:217c:0:0
 Servizio 70
 p:
@@ -10928,90 +10790,6 @@ p:,f:1
 0093:005a0000:0065:0012:2:0
 Bahrain
 p:
-0331:005a0000:c35a:009e:2:0
-VRT Radio 1
-p:Joyne
-0332:005a0000:c35a:009e:2:0
-VRT Radio 2
-p:Joyne
-0334:005a0000:c35a:009e:2:0
-MNM
-p:Joyne
-0336:005a0000:c35a:009e:2:0
-Studio Brussel
-p:Joyne
-0337:005a0000:c35a:009e:2:0
-Klara
-p:Joyne
-0328:005a0000:c35a:009e:22:0
-VTM 3
-p:Joyne,f:1
-0329:005a0000:c35a:009e:22:0
-VTM 4
-p:Joyne,f:1
-032a:005a0000:c35a:009e:22:0
-VTM 2
-p:Joyne,f:1
-032b:005a0000:c35a:009e:25:0
-Ment HD
-p:Joyne,f:1
-032d:005a0000:c35a:009e:22:0
-VTM Gold
-p:Joyne,f:1
-0322:005a0000:c35a:009e:25:0
-Ziggo Sport Select HD
-p:Joyne,f:1
-0324:005a0000:c35a:009e:25:0
-VTM HD
-p:Joyne,f:1
-0326:005a0000:c35a:009e:25:0
-VIJF HD
-p:Joyne,f:1
-0327:005a0000:c35a:009e:25:0
-ZES HD
-p:Joyne,f:1
-032e:005a0000:c35a:009e:25:0
-Ziggo Voetbal HD
-p:Joyne,f:1
-032f:005a0000:c35a:009e:22:0
-Ziggo Sport Racing
-p:Joyne,f:1
-0330:005a0000:c35a:009e:22:0
-Ziggo Sport Golf
-p:Joyne,f:1
-0338:005a0000:c35a:009e:2:0
-Klara Continuo
-p:Joyne
-0339:005a0000:c35a:009e:2:0
-Sporza
-p:Joyne
-033a:005a0000:c35a:009e:2:0
-Q Music
-p:Joyne
-033b:005a0000:c35a:009e:2:0
-Joe
-p:Joyne
-033c:005a0000:c35a:009e:2:0
-Nostalgie
-p:Joyne
-0325:005a0000:c35a:009e:25:0
-Vier HD
-p:Joyne,f:1
-0333:005a0000:c35a:009e:2:0
-VRT NWS
-p:Joyne
-0335:005a0000:c35a:009e:2:0
-MNM Hits
-p:Joyne
-033d:005a0000:c35a:009e:2:0
-Radio Continu
-p:Joyne
-033e:005a0000:c35a:009e:2:0
-Groot nieuws Radio
-p:Joyne
-032c:005a0000:c35a:009e:22:0
-VTM Kids
-p:Joyne,f:1
 0365:005a0000:c35a:009e:25:0
 MyZen TV HD
 p:TAG Broadcasting,f:1
@@ -12299,6 +12077,45 @@ p:TELEVISA,f:1
 0006:005a0000:0001:04d2:1:0
 Telenovelas
 p:TELEVISA,f:1
+1900:005a0000:c3be:009e:1:0
+Science Turkey HD
+p:Harmonic,f:1
+1838:005a0000:c3be:009e:1:0
+Discovery Hungary HD
+p:Harmonic,f:1
+189c:005a0000:c3be:009e:1:0
+Discovery Turkey HD
+p:Harmonic,f:1
+17d4:005a0000:c3be:009e:1:0
+TLC Hungary SD
+p:Harmonic,f:1
+1518:005a0000:c3aa:009e:1:0
+Animal Planet Europe HD
+p:Harmonic,f:1
+1644:005a0000:c3aa:009e:1:0
+Science Europe HD
+p:Harmonic,f:1
+1450:005a0000:c3aa:009e:1:0
+TLC Balkans HD
+p:Harmonic,f:1
+157c:005a0000:c3aa:009e:1:0
+ID Xtra Europe HD
+p:Harmonic,f:1
+1388:005a0000:c3aa:009e:1:0
+Travel EMEA HD
+p:Harmonic,f:1
+16a8:005a0000:c3aa:009e:1:0
+TLC Pan Regional SD
+p:Harmonic,f:1
+14b4:005a0000:c3aa:009e:1:0
+Discovery Central Europe HD
+p:Harmonic,f:1
+15e0:005a0000:c3aa:009e:1:0
+Discovery Turbo Xtra HD
+p:Harmonic,f:1
+13ec:005a0000:c3aa:009e:1:0
+HGTV Central Europe HD
+p:Harmonic,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2021
