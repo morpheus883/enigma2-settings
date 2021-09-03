@@ -210,8 +210,20 @@ transponders
 01a4acd6:0000:0001
 	s 11478000:6800000:1:3:420:2:0:1:2:0:2
 /
-01a4ad83:0001:0001
+01a4ad3c:0001:ffff
+	s 11580000:2962000:1:4:420:2:0:1:2:0:2
+/
+01a4ad83:0001:ffff
 	s 11651000:3333000:1:3:420:2:0:1:2:0:2
+/
+01a4acc6:0000:0000
+	s 11462000:3200000:1:3:420:2:0:1:2:0:2
+/
+01a4ad56:0000:0000
+	s 11606000:6200000:1:3:420:2:0:1:2:0:2
+/
+01a4ad47:0000:0001
+	s 11591000:5925000:1:4:420:2:0:1:1:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -2570,9 +2582,21 @@ p:TRT,f:1
 0001:01a4acd6:0000:0001:25:0
 TUR 121-A
 p:TRT,f:1
-0001:01a4ad83:0001:0001:25:0
-IBB TV
-p:ADT,f:1
+0001:01a4ad3c:0001:ffff:1:0
+IHA ANT
+p:IHA,f:1
+0001:01a4ad83:0001:ffff:1:0
+ANKA HABER AJANSI-A
+p:ANKA HABER AJANSI,f:1
+0001:01a4acc6:0000:0000:22:0
+TRT UPLINK
+p:TRT,f:1
+0001:01a4ad56:0000:0000:25:0
+TUR-147 A
+p:,f:1
+0001:01a4ad47:0000:0001:25:0
+TUR 121-A
+p:TRT,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -5971,10 +5995,10 @@ Discovery Science Polska HD
 p:Cyfrowy Polsat S.A.,f:1
 290b:00822ffc:1edc:0071:1:0
 CBS Europa HD
-p:Cyfrowy Polsat,f:1
+p:Cyfrowy Polsat S.A.,f:1
 2938:00822ffc:1edc:0071:1:0
 Disney Junior Middle-East & Africa
-p:Cyfrowy Polsat,f:1
+p:Cyfrowy Polsat S.A.,f:1
 2905:00822ffc:1edc:0071:1:0
 TNT Polska HD
 p:Cyfrowy Polsat S.A.,f:1
@@ -5986,7 +6010,7 @@ HBO HD
 p:Cyfrowy Polsat S.A.,f:1
 290e:00822ffc:1edc:0071:1:0
 HBO HD Polska
-p:Cyfra +,f:1
+p:Cyfrowy Polsat S.A.,f:1
 290c:00822ffc:1edc:0071:1:0
 Eurosport 2 HD
 p:Cyfrowy Polsat S.A.,f:1
@@ -6004,12 +6028,15 @@ Cartoon Network HD
 p:Cyfrowy Polsat S.A.,f:1
 2908:00822ffc:1edc:0071:1:0
 Polsat Viasat Nature HD
-p:Cyfrowy Polsat SA,f:1
+p:Cyfrowy Polsat S.A.,f:1
 292b:00822ffc:1edc:0071:1:0
 Discovery Science HD
 p:Cyfrowy Polsat S.A.,f:1
 292d:00822ffc:1edc:0071:1:0
 TNT HD
+p:Cyfrowy Polsat S.A.,f:1
+292e:00822ffc:1edc:0071:1:0
+Polsat Box Promo
 p:Cyfrowy Polsat S.A.,f:1
 3392:00820000:3390:0071:1:0
 Polsat Play HD
@@ -6236,6 +6263,9 @@ p:nc+,f:1
 3783:00822c93:044c:013e:25:0
 Novelas+
 p:CANAL+,f:1
+3784:00822c93:044c:013e:25:0
+TeenNick
+p:CANAL+,f:1
 11fb:00820000:2b5c:013e:31:0
 TravelXP 4K
 p:,f:1
@@ -6410,17 +6440,8 @@ p:KABELIO.CH,f:1
 10ea:0082ac81:03e8:013e:25:0
 TVN 24 Bizness HD
 p:TVN,f:1
-10e4:0082ac81:03e8:013e:22:0
-TVC
-p:TVN,f:1
-10e7:0082ac81:03e8:013e:22:0
-Power TV
-p:TVN,f:1
 10eb:0082ac81:03e8:013e:25:0
 HGTV HD
-p:TVN,f:1
-10dd:0082ac81:03e8:013e:1:0
-Nuta TV
 p:TVN,f:1
 10ec:0082ac81:03e8:013e:25:0
 Food Network HD EMEA
@@ -6439,9 +6460,6 @@ Discovery Life Poland HD
 p:TVN,f:1
 10e5:0082ac81:03e8:013e:22:0
 Top Kids
-p:TVN,f:1
-10e8:0082ac81:03e8:013e:22:0
-Gold TV Poland
 p:TVN,f:1
 10ee:0082ac81:03e8:013e:25:0
 HGTV Italy HD
@@ -6731,6 +6749,18 @@ p:CANAL+
 12c5:00820000:2e7c:013e:1:0
 Antena
 p:CANAL+,f:1
+12c7:00820000:2e7c:013e:1:0
+Nuta TV
+p:CANAL+,f:1
+12ca:00820000:2e7c:013e:1:0
+TVC
+p:CANAL+,f:1
+12c6:00820000:2e7c:013e:1:0
+Power TV
+p:CANAL+,f:1
+12c9:00820000:2e7c:013e:1:0
+Gold TV Poland
+p:CANAL+,f:1
 0389:00820000:2134:013e:1:0
 Dubai TV HD
 p:ETISALAT,f:1
@@ -7018,6 +7048,9 @@ Polsat Sport Premium PPV5
 p:Cyfrowy Polsat S.A.,f:1
 070e:00820000:32c8:013e:1:0
 Polsat Sport Premium PPV6
+p:Cyfrowy Polsat S.A.,f:1
+070f:00820000:32c8:013e:31:0
+Eleven Sports 1 4K
 p:Cyfrowy Polsat S.A.,f:1
 0321:00820000:1f40:013e:1:0
 TBN Europe (Trinity Broadcasting Network)
