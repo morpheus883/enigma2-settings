@@ -210,11 +210,14 @@ transponders
 011a3151:0000:0000
 	s 12625000:7200000:0:3:282:2:0:1:2:0:2
 /
-011ab158:0001:ffff
-	s 12632000:7200000:1:3:282:2:0:1:2:0:2
-/
 011a0000:2012:233a
 	s 11306000:27500000:0:2:282:2:0
+/
+011a31a8:0001:ffff
+	s 12712000:7200000:0:3:282:2:0:1:2:0:2
+/
+011ab158:0000:0000
+	s 12632000:7200000:1:3:282:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -476,6 +479,9 @@ transponders
 /
 00820000:1518:013e
 	s 11804000:29700000:1:3:130:2:0:1:2:0:2
+/
+0082b176:4321:00eb
+	s 12662000:9705000:1:3:130:2:0:1:2:0:2
 /
 end
 services
@@ -2394,7 +2400,7 @@ p:BSkyB,f:1
 PrimeVideo HD
 p:BSkyB,f:1
 0f49:011a0000:07ed:0002:25:0
-SkyHundredHD
+SkySpCricket HD
 p:BSkyB,f:1
 ccb0:011a0000:080e:0002:1:0
 Investigation Discovery Europe
@@ -3044,9 +3050,6 @@ p:BSkyB,f:1
 0001:011a3151:0000:0000:25:0
 NEP 107
 p:,f:1
-0001:011ab158:0001:ffff:1:0
-ITV Snooker Back Up
-p:Service Provider,f:1
 2100:011a0000:2012:233a:1:0
 E4
 p:,f:1
@@ -3089,6 +3092,12 @@ p:
 2199:011a0000:2012:233a:12:0
 Accessible TV Guide
 p:
+0001:011a31a8:0001:ffff:1:0
+rt1.tv
+p:rt1.tv,f:1
+0001:011ab158:0000:0000:25:0
+NEP 107
+p:,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -3911,45 +3920,6 @@ p:GLOBECAST,f:1
 0322:00820000:3bc4:013e:1:0
 Al Hiwar TV
 p:GLOBECAST,f:1
-29db:00820000:3cf0:013e:1:0
-Arirang TV
-p:,f:1
-29e5:00820000:3cf0:013e:1:0
-Mezzo
-p:Globecast,f:1
-2a0b:00820000:3cf0:013e:2:0
-YAADOUT2000
-p:GLOBECAST
-2a0f:00820000:3cf0:013e:2:0
-RADIO ORIENT
-p:GLOBECAST
-29e3:00820000:3cf0:013e:1:0
-Soyuz TV
-p:RRSat,f:1
-29cd:00820000:3cf0:013e:1:0
-TV Congo
-p:GLOBECAST,f:1
-2905:00820000:3cf0:013e:2:0
-Radio Congo
-p:GLOBECAST
-29d1:00820000:3cf0:013e:1:0
-EWTN English
-p:GLOBECAST,f:1
-29ed:00820000:3cf0:013e:2:0
-WRN Russki
-p:GLOBECAST
-29ee:00820000:3cf0:013e:2:0
-WRN English Europe
-p:GLOBECAST
-29f0:00820000:3cf0:013e:2:0
-Radio Jahani
-p:GLOBECAST
-29f1:00820000:3cf0:013e:2:0
-EDM Events
-p:GLOBECAST
-29f2:00820000:3cf0:013e:2:0
-WRN Sawt Al Alam
-p:GLOBECAST
 4224:00820000:3db8:013e:1:0
 Redlight HD
 p:Telespazio,f:1
@@ -4091,6 +4061,9 @@ p:Telespazio,f:1
 423a:00820000:3db8:013e:1:0
 AdventureHD
 p:Telespazio,f:1
+4256:00820000:3db8:013e:1:0
+Top Kids Junior Music
+p:TELESPAZIO,f:1
 012d:00820000:3e1c:013f:1:0
 TF1 HD
 p:Bis,f:1
@@ -4610,9 +4583,6 @@ p:Sky Italia,f:1
 2b63:00820000:19c8:fbff:1:0
 Sky Cinema Uno +24
 p:Sky Italia,f:1
-2b66:00820000:19c8:fbff:1:0
-Cielo
-p:Sky Italia,f:1
 2b6b:00820000:19c8:fbff:1:0
 Sky Cinema Action
 p:Sky Italia,f:1
@@ -4830,7 +4800,7 @@ p:SkyItalia,f:1
 TV8 HD
 p:SkyItalia,f:1
 2d6c:00820000:1a90:fbff:31:0
-Sky 4K HDR
+Sky Sport 4K
 p:SkyItalia,f:1
 0e0e:00820000:1af4:fbff:1:0
 IEPG Data
@@ -5087,9 +5057,6 @@ p:M-Three satcom
 0e3b:00820000:1c20:013e:2:0
 RADIO ZETA
 p:MTHREE SATCOM
-0e3e:00820000:1c20:013e:2:0
-Radio Radio
-p:M-Three Satcom Srl
 1c71:00820000:1c20:013e:1:0
 Simaye Azadi SD
 p:M-Three Satcom,f:1
@@ -5099,6 +5066,45 @@ p:Telenorba,f:1
 1c72:00820000:1c20:013e:2:0
 R.BuonConsiglio
 p:M-Three satcom
+2905:00820000:1c20:013e:2:0
+Radio Congo
+p:GLOBECAST
+29cd:00820000:1c20:013e:1:0
+TV Congo
+p:GLOBECAST,f:1
+29d1:00820000:1c20:013e:1:0
+EWTN English
+p:GLOBECAST,f:1
+29db:00820000:1c20:013e:1:0
+Arirang TV
+p:,f:1
+29e3:00820000:1c20:013e:1:0
+Soyuz TV
+p:RRSat,f:1
+29e5:00820000:1c20:013e:1:0
+Mezzo
+p:Globecast,f:1
+29ed:00820000:1c20:013e:2:0
+WRN Russki
+p:GLOBECAST
+29ee:00820000:1c20:013e:2:0
+WRN English Europe
+p:GLOBECAST
+29f0:00820000:1c20:013e:2:0
+Radio Jahani
+p:GLOBECAST
+29f1:00820000:1c20:013e:2:0
+EDM Events
+p:GLOBECAST
+29f2:00820000:1c20:013e:2:0
+WRN Sawt Al Alam
+p:GLOBECAST
+2a0b:00820000:1c20:013e:2:0
+YAADOUT2000
+p:GLOBECAST
+2a0f:00820000:1c20:013e:2:0
+RADIO ORIENT
+p:GLOBECAST
 015f:00820000:1c84:013e:1:0
 Discovery Channel Greece
 p:Nova,f:1
@@ -5301,7 +5307,7 @@ p:Cyfrowy Polsat
 RMF MAXXX
 p:Cyfrowy Polsat
 1cbe:00820000:1ce8:0071:1:0
-SuperStacja
+Wydarzenia 24
 p:Cyfra +,f:1
 1c9c:00820000:1ce8:0071:2:0
 Trójka - PR
@@ -6956,6 +6962,9 @@ p:TVN,f:1
 10ee:0082ac81:03e8:013e:25:0
 HGTV Italy HD
 p:TVN,f:1
+10de:0082ac81:03e8:013e:25:0
+TLC Poland HD
+p:TVN Discovery Group,f:1
 044f:00820000:238c:013e:31:0
 Love Nature 4K
 p:iKO Media Group,f:1
@@ -7898,7 +7907,7 @@ p:,f:1
 04b9:00820000:23f0:013e:31:0
 Ultra Nature 4K
 p:Eutelsat,f:1
-04b6:00820000:23f0:013e:25:0
+04b6:00820000:23f0:013e:1:0
 Abu Dhabi TV
 p:DU,f:1
 04b7:00820000:23f0:013e:1:0
@@ -8174,6 +8183,9 @@ p:NOVA,f:1
 01ae:00820000:1518:013e:152:0
 Cobalt Data
 p:NOVA
+0001:0082b176:4321:00eb:1:0
+Fi07FRAMP
+p:EBUER,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2021

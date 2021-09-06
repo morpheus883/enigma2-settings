@@ -46,7 +46,7 @@ transponders
 	s 11156000:22000000:1:4:192:2:0
 /
 00c00000:03ef:0001
-	s 11302000:22000000:0:2:192:2:0:1:2:0:2
+	s 11303000:22000000:0:2:192:2:0:1:2:0:2
 /
 00c00000:03f0:0001
 	s 11318000:22000000:1:4:192:2:0
@@ -558,6 +558,9 @@ transponders
 00820000:1518:013e
 	s 11804000:29700000:1:3:130:2:0:1:2:0:2
 /
+0082b176:4321:00eb
+	s 12662000:9705000:1:3:130:2:0:1:2:0:2
+/
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
 /
@@ -744,7 +747,7 @@ fff8ae1c:02bf:0600
 0e080000:0af8:00bb
 	s 12527000:28800000:0:7:-8:2:0:1:1:0:2
 /
-fff80000:000a:fe01
+fff8313f:0001:0001
 	s 12607000:30000000:0:3:-8:2:0:1:2:0:2
 /
 fff8ace0:0001:ffff
@@ -765,7 +768,7 @@ fff8acd7:0001:0001
 0e08acea:0001:ffff
 	s 11498000:9600000:1:3:-8:2:0:1:4:0:2
 /
-fff83163:0001:ff02
+fff83163:0001:0001
 	s 12643000:30000000:0:5:-8:2:0
 /
 0e08b163:0519:0002
@@ -5564,45 +5567,6 @@ p:GLOBECAST,f:1
 0322:00820000:3bc4:013e:1:0
 Al Hiwar TV
 p:GLOBECAST,f:1
-29db:00820000:3cf0:013e:1:0
-Arirang TV
-p:,f:1
-29e5:00820000:3cf0:013e:1:0
-Mezzo
-p:Globecast,f:1
-2a0b:00820000:3cf0:013e:2:0
-YAADOUT2000
-p:GLOBECAST
-2a0f:00820000:3cf0:013e:2:0
-RADIO ORIENT
-p:GLOBECAST
-29e3:00820000:3cf0:013e:1:0
-Soyuz TV
-p:RRSat,f:1
-29cd:00820000:3cf0:013e:1:0
-TV Congo
-p:GLOBECAST,f:1
-2905:00820000:3cf0:013e:2:0
-Radio Congo
-p:GLOBECAST
-29d1:00820000:3cf0:013e:1:0
-EWTN English
-p:GLOBECAST,f:1
-29ed:00820000:3cf0:013e:2:0
-WRN Russki
-p:GLOBECAST
-29ee:00820000:3cf0:013e:2:0
-WRN English Europe
-p:GLOBECAST
-29f0:00820000:3cf0:013e:2:0
-Radio Jahani
-p:GLOBECAST
-29f1:00820000:3cf0:013e:2:0
-EDM Events
-p:GLOBECAST
-29f2:00820000:3cf0:013e:2:0
-WRN Sawt Al Alam
-p:GLOBECAST
 4224:00820000:3db8:013e:1:0
 Redlight HD
 p:Telespazio,f:1
@@ -5744,6 +5708,9 @@ p:Telespazio,f:1
 423a:00820000:3db8:013e:1:0
 AdventureHD
 p:Telespazio,f:1
+4256:00820000:3db8:013e:1:0
+Top Kids Junior Music
+p:TELESPAZIO,f:1
 012d:00820000:3e1c:013f:1:0
 TF1 HD
 p:Bis,f:1
@@ -6263,9 +6230,6 @@ p:Sky Italia,f:1
 2b63:00820000:19c8:fbff:1:0
 Sky Cinema Uno +24
 p:Sky Italia,f:1
-2b66:00820000:19c8:fbff:1:0
-Cielo
-p:Sky Italia,f:1
 2b6b:00820000:19c8:fbff:1:0
 Sky Cinema Action
 p:Sky Italia,f:1
@@ -6483,7 +6447,7 @@ p:SkyItalia,f:1
 TV8 HD
 p:SkyItalia,f:1
 2d6c:00820000:1a90:fbff:31:0
-Sky 4K HDR
+Sky Sport 4K
 p:SkyItalia,f:1
 0e0e:00820000:1af4:fbff:1:0
 IEPG Data
@@ -6740,9 +6704,6 @@ p:M-Three satcom
 0e3b:00820000:1c20:013e:2:0
 RADIO ZETA
 p:MTHREE SATCOM
-0e3e:00820000:1c20:013e:2:0
-Radio Radio
-p:M-Three Satcom Srl
 1c71:00820000:1c20:013e:1:0
 Simaye Azadi SD
 p:M-Three Satcom,f:1
@@ -6752,6 +6713,45 @@ p:Telenorba,f:1
 1c72:00820000:1c20:013e:2:0
 R.BuonConsiglio
 p:M-Three satcom
+2905:00820000:1c20:013e:2:0
+Radio Congo
+p:GLOBECAST
+29cd:00820000:1c20:013e:1:0
+TV Congo
+p:GLOBECAST,f:1
+29d1:00820000:1c20:013e:1:0
+EWTN English
+p:GLOBECAST,f:1
+29db:00820000:1c20:013e:1:0
+Arirang TV
+p:,f:1
+29e3:00820000:1c20:013e:1:0
+Soyuz TV
+p:RRSat,f:1
+29e5:00820000:1c20:013e:1:0
+Mezzo
+p:Globecast,f:1
+29ed:00820000:1c20:013e:2:0
+WRN Russki
+p:GLOBECAST
+29ee:00820000:1c20:013e:2:0
+WRN English Europe
+p:GLOBECAST
+29f0:00820000:1c20:013e:2:0
+Radio Jahani
+p:GLOBECAST
+29f1:00820000:1c20:013e:2:0
+EDM Events
+p:GLOBECAST
+29f2:00820000:1c20:013e:2:0
+WRN Sawt Al Alam
+p:GLOBECAST
+2a0b:00820000:1c20:013e:2:0
+YAADOUT2000
+p:GLOBECAST
+2a0f:00820000:1c20:013e:2:0
+RADIO ORIENT
+p:GLOBECAST
 015f:00820000:1c84:013e:1:0
 Discovery Channel Greece
 p:Nova,f:1
@@ -6954,7 +6954,7 @@ p:Cyfrowy Polsat
 RMF MAXXX
 p:Cyfrowy Polsat
 1cbe:00820000:1ce8:0071:1:0
-SuperStacja
+Wydarzenia 24
 p:Cyfra +,f:1
 1c9c:00820000:1ce8:0071:2:0
 Trójka - PR
@@ -8609,6 +8609,9 @@ p:TVN,f:1
 10ee:0082ac81:03e8:013e:25:0
 HGTV Italy HD
 p:TVN,f:1
+10de:0082ac81:03e8:013e:25:0
+TLC Poland HD
+p:TVN Discovery Group,f:1
 044f:00820000:238c:013e:31:0
 Love Nature 4K
 p:iKO Media Group,f:1
@@ -9551,7 +9554,7 @@ p:,f:1
 04b9:00820000:23f0:013e:31:0
 Ultra Nature 4K
 p:Eutelsat,f:1
-04b6:00820000:23f0:013e:25:0
+04b6:00820000:23f0:013e:1:0
 Abu Dhabi TV
 p:DU,f:1
 04b7:00820000:23f0:013e:1:0
@@ -9827,6 +9830,9 @@ p:NOVA,f:1
 01ae:00820000:1518:013e:152:0
 Cobalt Data
 p:NOVA
+0001:0082b176:4321:00eb:1:0
+Fi07FRAMP
+p:EBUER,f:1
 040a:0e080000:0044:0046:25:0
 TV 2 Sport Premium HD
 p:Canal Digital Nordic,f:1
@@ -12629,112 +12635,112 @@ p:Slovak Telekom,f:1
 1f53:0e080000:0af8:00bb:25:0
 Eurosport 4K
 p:Slovak Telekom,f:1
-0001:fff80000:000a:fe01:1:0
+0001:fff8313f:0001:0001:1:0
 Channel-01
 p:,f:1
-0002:fff80000:000a:fe01:1:0
+0002:fff8313f:0001:0001:1:0
 Channel-02
 p:,f:1
-0003:fff80000:000a:fe01:1:0
+0003:fff8313f:0001:0001:1:0
 Channel-03
 p:,f:1
-0004:fff80000:000a:fe01:1:0
+0004:fff8313f:0001:0001:1:0
 Channel-04
 p:,f:1
-0005:fff80000:000a:fe01:1:0
+0005:fff8313f:0001:0001:1:0
 Channel-05
 p:,f:1
-0006:fff80000:000a:fe01:1:0
+0006:fff8313f:0001:0001:1:0
 Channel-06
 p:,f:1
-0007:fff80000:000a:fe01:1:0
+0007:fff8313f:0001:0001:1:0
 Channel-07
 p:,f:1
-0008:fff80000:000a:fe01:1:0
+0008:fff8313f:0001:0001:1:0
 Channel-08
 p:,f:1
-0009:fff80000:000a:fe01:1:0
+0009:fff8313f:0001:0001:1:0
 Channel-09
 p:,f:1
-000a:fff80000:000a:fe01:1:0
+000a:fff8313f:0001:0001:1:0
 Channel-10
 p:,f:1
-000b:fff80000:000a:fe01:1:0
+000b:fff8313f:0001:0001:1:0
 Channel-11
 p:,f:1
-000c:fff80000:000a:fe01:1:0
+000c:fff8313f:0001:0001:1:0
 Channel-12
 p:,f:1
-000d:fff80000:000a:fe01:1:0
+000d:fff8313f:0001:0001:1:0
 Channel-13
 p:,f:1
-000e:fff80000:000a:fe01:1:0
+000e:fff8313f:0001:0001:1:0
 Channel-14
 p:,f:1
-000f:fff80000:000a:fe01:1:0
+000f:fff8313f:0001:0001:1:0
 Channel-15
 p:,f:1
-0010:fff80000:000a:fe01:1:0
+0010:fff8313f:0001:0001:1:0
 Channel-16
 p:,f:1
-0011:fff80000:000a:fe01:1:0
+0011:fff8313f:0001:0001:1:0
 Channel-17
 p:,f:1
-0012:fff80000:000a:fe01:1:0
+0012:fff8313f:0001:0001:1:0
 Channel-18
 p:,f:1
-0013:fff80000:000a:fe01:1:0
+0013:fff8313f:0001:0001:1:0
 Channel-19
 p:,f:1
-0014:fff80000:000a:fe01:1:0
+0014:fff8313f:0001:0001:1:0
 Channel-20
 p:,f:1
-0015:fff80000:000a:fe01:1:0
+0015:fff8313f:0001:0001:1:0
 Channel-21
 p:,f:1
-0016:fff80000:000a:fe01:1:0
+0016:fff8313f:0001:0001:1:0
 Channel-22
 p:,f:1
-0017:fff80000:000a:fe01:1:0
+0017:fff8313f:0001:0001:1:0
 Channel-23
 p:,f:1
-0018:fff80000:000a:fe01:1:0
+0018:fff8313f:0001:0001:1:0
 Channel-24
 p:,f:1
-0029:fff80000:000a:fe01:2:0
+0029:fff8313f:0001:0001:2:0
 Radio-01
 p:
-002a:fff80000:000a:fe01:2:0
+002a:fff8313f:0001:0001:2:0
 Radio-02
 p:
-002b:fff80000:000a:fe01:2:0
+002b:fff8313f:0001:0001:2:0
 Radio-03
 p:
-002c:fff80000:000a:fe01:2:0
+002c:fff8313f:0001:0001:2:0
 Radio-04
 p:
-002d:fff80000:000a:fe01:2:0
+002d:fff8313f:0001:0001:2:0
 Radio-05
 p:
-002e:fff80000:000a:fe01:2:0
+002e:fff8313f:0001:0001:2:0
 Radio-06
 p:
-002f:fff80000:000a:fe01:2:0
+002f:fff8313f:0001:0001:2:0
 Radio-07
 p:
-0030:fff80000:000a:fe01:2:0
+0030:fff8313f:0001:0001:2:0
 Radio-08
 p:
-0031:fff80000:000a:fe01:2:0
+0031:fff8313f:0001:0001:2:0
 Radio-09
 p:
-0032:fff80000:000a:fe01:2:0
+0032:fff8313f:0001:0001:2:0
 Radio-10
 p:
-0033:fff80000:000a:fe01:2:0
+0033:fff8313f:0001:0001:2:0
 Radio-11
 p:
-0034:fff80000:000a:fe01:2:0
+0034:fff8313f:0001:0001:2:0
 Radio-12
 p:
 0001:fff8ace0:0001:ffff:1:0
@@ -12761,85 +12767,85 @@ p:Service Provider,f:1
 0001:0e08acea:0001:ffff:1:0
 SNG
 p:Television,f:1
-0019:fff83163:0001:ff02:1:0
+0019:fff83163:0001:0001:1:0
 Channel-25
 p:,f:1
-001a:fff83163:0001:ff02:1:0
+001a:fff83163:0001:0001:1:0
 Channel-26
 p:,f:1
-001b:fff83163:0001:ff02:1:0
+001b:fff83163:0001:0001:1:0
 Channel-27
 p:,f:1
-001c:fff83163:0001:ff02:1:0
+001c:fff83163:0001:0001:1:0
 Channel-28
 p:,f:1
-001d:fff83163:0001:ff02:1:0
+001d:fff83163:0001:0001:1:0
 Channel-29
 p:,f:1
-001e:fff83163:0001:ff02:1:0
+001e:fff83163:0001:0001:1:0
 Channel-30
 p:,f:1
-001f:fff83163:0001:ff02:1:0
+001f:fff83163:0001:0001:1:0
 Channel-31
 p:,f:1
-0020:fff83163:0001:ff02:1:0
+0020:fff83163:0001:0001:1:0
 Channel-32
 p:,f:1
-0021:fff83163:0001:ff02:1:0
+0021:fff83163:0001:0001:1:0
 Channel-33
 p:,f:1
-0022:fff83163:0001:ff02:1:0
+0022:fff83163:0001:0001:1:0
 Channel-34
 p:,f:1
-0023:fff83163:0001:ff02:1:0
+0023:fff83163:0001:0001:1:0
 Channel-35
 p:,f:1
-0024:fff83163:0001:ff02:1:0
+0024:fff83163:0001:0001:1:0
 Channel-36
 p:,f:1
-0025:fff83163:0001:ff02:1:0
+0025:fff83163:0001:0001:1:0
 Channel-37
 p:,f:1
-0026:fff83163:0001:ff02:1:0
+0026:fff83163:0001:0001:1:0
 Channel-38
 p:,f:1
-0027:fff83163:0001:ff02:1:0
+0027:fff83163:0001:0001:1:0
 Channel-39
 p:,f:1
-0028:fff83163:0001:ff02:1:0
+0028:fff83163:0001:0001:1:0
 Channel-40
 p:,f:1
-0035:fff83163:0001:ff02:2:0
+0035:fff83163:0001:0001:2:0
 Radio-13
 p:
-0036:fff83163:0001:ff02:2:0
+0036:fff83163:0001:0001:2:0
 Radio-14
 p:
-0037:fff83163:0001:ff02:2:0
+0037:fff83163:0001:0001:2:0
 Radio-15
 p:
-0039:fff83163:0001:ff02:2:0
+0039:fff83163:0001:0001:2:0
 Radio-17
 p:
-003a:fff83163:0001:ff02:2:0
+003a:fff83163:0001:0001:2:0
 Radio-18
 p:
-003b:fff83163:0001:ff02:2:0
+003b:fff83163:0001:0001:2:0
 Radio-19
 p:
-003c:fff83163:0001:ff02:2:0
+003c:fff83163:0001:0001:2:0
 Radio-20
 p:
-003d:fff83163:0001:ff02:2:0
+003d:fff83163:0001:0001:2:0
 Radio-21
 p:
-003e:fff83163:0001:ff02:2:0
+003e:fff83163:0001:0001:2:0
 Radio-22
 p:
-003f:fff83163:0001:ff02:2:0
+003f:fff83163:0001:0001:2:0
 Radio-23
 p:
-0038:fff83163:0001:ff02:2:0
+0038:fff83163:0001:0001:2:0
 Radio-16
 p:
 040e:0e08b163:0519:0002:1:0
