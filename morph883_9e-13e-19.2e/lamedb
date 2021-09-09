@@ -345,14 +345,8 @@ transponders
 00820000:3bc4:013e
 	s 11566000:29900000:0:3:130:2:0:1:2:0:2
 /
-00820000:3cf0:013e
-	s 11623000:27500000:1:3:130:2:0
-/
 00820000:3db8:013e
 	s 11662000:27500000:1:3:130:2:0:1:2:0:0
-/
-00820000:3e1c:013f
-	s 11681000:27500000:0:3:130:2:0:1:2:0:2
 /
 00820000:13ef:013e
 	s 11747000:27500000:0:3:130:2:0:1:2:0:2
@@ -560,6 +554,9 @@ transponders
 /
 0082b176:4321:00eb
 	s 12662000:9705000:1:3:130:2:0:1:2:0:2
+/
+00823095:3e1c:013f
+	s 12437000:27500000:0:3:130:2:0:1:2:2:2
 /
 005a0000:14b4:009c
 	s 11785000:27500000:0:2:90:2:0:1:2:0:2
@@ -2216,9 +2213,12 @@ p:CSAT
 23a4:00c00000:044a:0001:25:0
 ASSOCIATION MATERIEL
 p:CSAT,f:1
+238d:00c00000:044a:0001:201:0
+Mosaique Ligue Des Champions
+p:CSAT,f:1
 0071:00c00000:000b:0085:25:0
 History Channel HD Germany
-p:Kabelkiosk,f:1
+p:SKY,f:1
 0080:00c00000:000b:0085:25:0
 E! Entertainm. HD
 p:SKY,f:1
@@ -2227,7 +2227,7 @@ TNT Comedy HD
 p:SKY,f:1
 00a8:00c00000:000b:0085:22:0
 Motorvision TV
-p:Kabelkiosk,f:1
+p:SKY,f:1
 0101:00c00000:000b:0085:25:0
 Sky Sport Bundesliga 10 HD
 p:SKY,f:1
@@ -2237,12 +2237,12 @@ p:SKY,f:1
 0104:00c00000:000b:0085:25:0
 Eurosport360HD 9
 p:SKY,f:1
-0192:00c00000:000b:0085:1:0
+0192:00c00000:000b:0085:22:0
 Crime + Investigation Germany
-p:Sky Deutschland,f:1
-0194:00c00000:000b:0085:1:0
+p:SKY,f:1
+0194:00c00000:000b:0085:22:0
 Cartoon Network Germany
-p:Sky Deutschland,f:1
+p:SKY,f:1
 006d:00c00000:000b:0085:25:0
 Eurosport 2 HD Germany
 p:SKY,f:1
@@ -2257,6 +2257,9 @@ Sky Sport Austria 7 HD
 p:SKY,f:1
 0191:00c00000:000b:0085:22:0
 Jukebox
+p:SKY,f:1
+0196:00c00000:000b:0085:22:0
+Kinowelt TV
 p:SKY,f:1
 6e92:00c00000:04b1:0001:1:0
 WDR Studio Bielefeld (19h30-20h CET)
@@ -3794,15 +3797,12 @@ p:SKY,f:1
 0155:00c00000:0004:0085:25:0
 Prime Video Sportsbar
 p:SKY,f:1
-0029:00c02dee:0002:0085:1:0
-Sky Cinema Hits Germany
-p:Kabelkiosk,f:1
 00de:00c02dee:0002:0085:22:0
 Sky Sport 2 Germany
-p:Kabelkiosk,f:1
-0016:00c02dee:0002:0085:1:0
+p:SKY,f:1
+0016:00c02dee:0002:0085:22:0
 Heimatkanal
-p:Kabelkiosk,f:1
+p:SKY,f:1
 0f8c:00c02dee:0002:0085:12:0
 HUMAX PR-HD3000C
 p:
@@ -3811,7 +3811,7 @@ Pace TDC 866 NSDX
 p:
 0206:00c02dee:0002:0085:22:0
 Romance TV
-p:Kabelkiosk,f:1
+p:SKY,f:1
 008b:00c02dee:0002:0085:25:0
 Sky Cinema Family HD
 p:SKY,f:1
@@ -3823,10 +3823,7 @@ Junior
 p:SKY,f:1
 0018:00c02dee:0002:0085:22:0
 Classica
-p:Sky Deutschland,f:1
-0196:00c02dee:0002:0085:22:0
-Kinowelt TV
-p:Sky Deutschland,f:1
+p:SKY,f:1
 000e:00c02dee:0002:0085:25:0
 Sky Comedy HD
 p:SKY,f:1
@@ -3839,54 +3836,36 @@ p:SKY,f:1
 0116:00c02dee:0002:0085:25:0
 Sky Sport HD 4 Germany
 p:SKY,f:1
-001e:00c02dee:0002:0085:22:0
-Sky Sport Austria 1
+000f:00c02dee:0002:0085:25:0
+Sky Nature HD
 p:SKY,f:1
 0008:00c00000:0003:0085:22:0
 Sky Cinema Fun Germany
-p:Kabelkiosk,f:1
+p:SKY,f:1
 0009:00c00000:0003:0085:22:0
 Sky Cinema Action Germany
-p:Kabelkiosk,f:1
-0107:00c00000:0003:0085:1:0
-Sky Sport 3 Germany
-p:Sky Deutschland,f:1
-0106:00c00000:0003:0085:1:0
-Sky Sport Bundesliga 2
-p:Sky Deutschland,f:1
+p:SKY,f:1
 0fb8:00c00000:0003:0085:12:0
 Pace DS 830 NP
-p:
+p:SKY
 00c8:00c00000:0003:0085:198:0
 BDL VoD
-p:Sky
+p:SKY
 0138:00c00000:0003:0085:211:0
 Sky Sport Bundesliga 7
-p:,f:1
+p:SKY,f:1
 0139:00c00000:0003:0085:211:0
 Sky Sport 8
-p:,f:1
+p:SKY,f:1
 0085:00c00000:0003:0085:25:0
 Beate-Uhse.TV HD
 p:SKY,f:1
-001c:00c00000:0003:0085:1:0
+001c:00c00000:0003:0085:22:0
 Boomerang Germany
-p:Sky Deutschland,f:1
+p:SKY,f:1
 0011:00c00000:0003:0085:25:0
 Sky Sport F1 HD Germany
-p:,f:1
-0110:00c00000:0003:0085:211:0
-Sky Sport Bundesliga 3
-p:,f:1
-0111:00c00000:0003:0085:211:0
-Sky Sport 4
-p:,f:1
-011a:00c00000:0003:0085:211:0
-Sky Sport Bundesliga 4
-p:,f:1
-011b:00c00000:0003:0085:211:0
-Sky Sport 5
-p:,f:1
+p:SKY,f:1
 0146:00c00000:0003:0085:25:0
 Sky Sport Austria 5 HD
 p:SKY,f:1
@@ -3907,6 +3886,9 @@ Sky Sport Bundesliga 7 HD
 p:SKY,f:1
 0140:00c00000:0003:0085:25:0
 Eurosport360HD 6
+p:SKY,f:1
+0010:00c00000:0003:0085:25:0
+Sky Documentaries HD
 p:SKY,f:1
 2649:00c0b1b8:0460:0001:1:0
 France 3 Basse-Normandie
@@ -4151,6 +4133,9 @@ p:CSAT,f:1
 22cb:00c00000:0434:0001:25:0
 DJazz TV HD
 p:CSAT,f:1
+22ce:00c00000:0434:0001:25:0
+Canal+Docs
+p:CSAT,f:1
 24c5:00c0af3a:043c:0001:25:0
 Colmax TV HD
 p:CSAT,f:1
@@ -4192,6 +4177,9 @@ Jacquie & Michel TV
 p:CSAT,f:1
 24b9:00c0af3a:043c:0001:25:0
 Événement à la Carte
+p:CSAT,f:1
+24ba:00c0af3a:043c:0001:25:0
+Mosaique Ligue Des Champions
 p:CSAT,f:1
 19d5:00c00000:0444:0001:25:0
 Classica HD
@@ -4511,6 +4499,9 @@ p:CSAT,f:1
 2079:00c0ae77:0432:0001:25:0
 Nickelodeon Teen HD
 p:CSAT,f:1
+207a:00c0ae77:0432:0001:25:0
+A Venir
+p:CSAT,f:1
 6eac:00c00000:03fd:0001:25:0
 WDR HD Köln
 p:ARD,f:1
@@ -4624,6 +4615,24 @@ Sky Sport 10 Germany
 p:Sky Deutschland,f:1
 007d:00c00000:0008:0085:25:0
 CNBC HD
+p:SKY,f:1
+0106:00c00000:0008:0085:1:0
+Sky Sport Bundesliga 2
+p:SKY,f:1
+0107:00c00000:0008:0085:1:0
+Sky Sport 3 Germany
+p:SKY,f:1
+0110:00c00000:0008:0085:211:0
+Sky Sport Bundesliga 3
+p:SKY,f:1
+0111:00c00000:0008:0085:211:0
+Sky Sport 4
+p:SKY,f:1
+011a:00c00000:0008:0085:211:0
+Sky Sport Bundesliga 4
+p:SKY,f:1
+011b:00c00000:0008:0085:211:0
+Sky Sport 5
 p:SKY,f:1
 1a91:00c00000:0452:0001:1:0
 CGTN News HD
@@ -5189,6 +5198,9 @@ p:Telespazio,f:1
 1355:00820000:33f4:013e:2:0
 Radio Radio
 p:Telespazio
+1332:00820000:33f4:013e:1:0
+Bike Channel
+p:Harmonic,f:1
 366a:00820000:00c8:013e:1:0
 Noviy Mir
 p:Harmonic,f:1
@@ -5600,69 +5612,6 @@ p:Telespazio,f:1
 4256:00820000:3db8:013e:1:0
 Top Kids Junior Music
 p:TELESPAZIO,f:1
-012d:00820000:3e1c:013f:1:0
-TF1 HD
-p:Bis,f:1
-012e:00820000:3e1c:013f:1:0
-France 2 HD
-p:Bis,f:1
-012f:00820000:3e1c:013f:1:0
-France 3 Sat
-p:Bis,f:1
-0131:00820000:3e1c:013f:1:0
-France 5
-p:Bis,f:1
-0132:00820000:3e1c:013f:1:0
-M6 HD
-p:Bis,f:1
-0133:00820000:3e1c:013f:1:0
-Arte HD
-p:Bis,f:1
-0134:00820000:3e1c:013f:1:0
-C8
-p:Bis,f:1
-0135:00820000:3e1c:013f:1:0
-W9
-p:Bis,f:1
-0136:00820000:3e1c:013f:1:0
-TMC (Télé Monte Carlo)
-p:Bis,f:1
-0137:00820000:3e1c:013f:1:0
-TFX
-p:Bis,f:1
-0138:00820000:3e1c:013f:1:0
-NRJ 12
-p:Bis,f:1
-0139:00820000:3e1c:013f:1:0
-LCP - La Chaîne Parlementaire
-p:Bis,f:1
-013a:00820000:3e1c:013f:1:0
-France 4
-p:Bis,f:1
-0142:00820000:3e1c:013f:1:0
-6ter
-p:GlobeCast,f:1
-0140:00820000:3e1c:013f:1:0
-TF1 Series Films
-p:GlobeCast,f:1
-0143:00820000:3e1c:013f:1:0
-RMC Story
-p:GlobeCast,f:1
-0144:00820000:3e1c:013f:1:0
-RMC Découverte
-p:GlobeCast,f:1
-0145:00820000:3e1c:013f:1:0
-Cherie 25
-p:GlobeCast,f:1
-013c:00820000:3e1c:013f:1:0
-C News
-p:Orange,f:1
-0146:00820000:3e1c:013f:1:0
-LCI - La Chaîne Info
-p:FT GlobeCast,f:1
-0141:00820000:3e1c:013f:1:0
-L´Equipe 21
-p:GlobeCast,f:1
 2526:00820000:13ef:013e:1:0
 Sharqiya HD
 p:,f:1
@@ -9722,6 +9671,69 @@ p:NOVA
 0001:0082b176:4321:00eb:1:0
 Fi07FRAMP
 p:EBUER,f:1
+012d:00823095:3e1c:013f:1:0
+TF1 HD
+p:Eutelsat,f:1
+012e:00823095:3e1c:013f:1:0
+France 2 HD
+p:Eutelsat,f:1
+012f:00823095:3e1c:013f:1:0
+France 3 Sat
+p:Eutelsat,f:1
+0131:00823095:3e1c:013f:1:0
+France 5
+p:Eutelsat,f:1
+0132:00823095:3e1c:013f:1:0
+M6 HD
+p:Eutelsat,f:1
+0133:00823095:3e1c:013f:1:0
+Arte HD
+p:Eutelsat,f:1
+0134:00823095:3e1c:013f:1:0
+C8
+p:Eutelsat,f:1
+0135:00823095:3e1c:013f:1:0
+W9
+p:Eutelsat,f:1
+0136:00823095:3e1c:013f:1:0
+TMC (Télé Monte Carlo)
+p:Eutelsat,f:1
+0137:00823095:3e1c:013f:1:0
+TFX
+p:Eutelsat,f:1
+0138:00823095:3e1c:013f:1:0
+NRJ 12
+p:Eutelsat,f:1
+0139:00823095:3e1c:013f:1:0
+LCP - La Chaîne Parlementaire
+p:Eutelsat,f:1
+013a:00823095:3e1c:013f:1:0
+France 4
+p:Eutelsat,f:1
+013c:00823095:3e1c:013f:1:0
+C News
+p:Eutelsat,f:1
+0140:00823095:3e1c:013f:1:0
+TF1 Series Films
+p:Eutelsat,f:1
+0141:00823095:3e1c:013f:1:0
+L´Equipe 21
+p:Eutelsat,f:1
+0142:00823095:3e1c:013f:1:0
+6ter
+p:Eutelsat,f:1
+0143:00823095:3e1c:013f:1:0
+RMC Story
+p:Eutelsat,f:1
+0144:00823095:3e1c:013f:1:0
+RMC Découverte
+p:Eutelsat,f:1
+0145:00823095:3e1c:013f:1:0
+Cherie 25
+p:Eutelsat,f:1
+0146:00823095:3e1c:013f:1:0
+LCI - La Chaîne Info
+p:Eutelsat,f:1
 00d8:005a0000:14b4:009c:1:0
 Comedy Central D
 p:Kabelkiosk,f:1
