@@ -219,9 +219,6 @@ transponders
 00ebb149:0000:0000
 	s 12617000:7200000:1:3:235:2:0:1:2:0:2
 /
-00eb0000:0070:006f
-	s 12688000:7200000:0:3:235:2:0:1:2:0:2
-/
 00ebb0f1:0000:0000
 	s 12529000:7200000:1:3:235:2:0:1:2:0:2
 /
@@ -230,6 +227,15 @@ transponders
 /
 00eb2ced:0001:0001
 	s 11501000:7200000:0:3:235:2:0:1:2:0:2
+/
+00eb3190:0000:0000
+	s 12688000:7200000:0:3:235:2:0:1:2:0:2
+/
+00ebad09:0001:ffff
+	s 11529000:7200000:1:3:235:2:0:1:2:0:2
+/
+00ebb1be:4321:00eb
+	s 12734000:4800000:1:3:235:2:0:1:2:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -3473,9 +3479,6 @@ p:Betamobil
 0001:00ebb149:0000:0000:25:0
 Studiosat HD F2
 p:Studiosat,f:1
-0001:00eb0000:0070:006f:25:0
-F503/1/TDF FEED 1
-p:GLOBECAST,f:1
 0001:00ebb0f1:0000:0000:25:0
 POL102 Main
 p:,f:1
@@ -3485,6 +3488,15 @@ p:ZDF-Mainz,f:1
 0001:00eb2ced:0001:0001:25:0
 BMW IAA Munich
 p:MediaBroadcast,f:1
+0001:00eb3190:0000:0000:1:0
+YSM-018 Main
+p:Live Images,f:1
+0001:00ebad09:0001:ffff:1:0
+CZE 001/1
+p:CTV,f:1
+0001:00ebb1be:4321:00eb:25:0
+D128 Path 2
+p:Betamobil,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -6087,7 +6099,7 @@ p:ARD BR
 PULS
 p:ARD BR
 28a8:00c00000:040f:0001:10:0
-BR Heimat
+BR-Heimat
 p:ARD BR
 28ac:00c00000:040f:0001:10:0
 NDR 2 NDS
@@ -10386,13 +10398,13 @@ p:CYFRA +,f:1
 MiniMini+ HD
 p:nc+,f:1
 32fe:00820000:0190:013e:1:0
-MINIMINI+ HD
+MiniMini+ HD
 p:CYFRA+,f:1
 32f0:00820000:0190:013e:1:0
 CANAL+ PREMIUM HD
 p:nc+,f:1
 32fc:00820000:0190:013e:1:0
-CANAL+ SPORT HD
+Canal+ Sport HD
 p:nc+,f:1
 32ce:00820000:0190:013e:1:0
 Eleven Sports 4 HD
@@ -11981,6 +11993,9 @@ p:Cyfrowy Polsat S.A.,f:1
 1caa:00820000:1ce8:0071:2:0
 Zlote Przeboje
 p:Radio ZET Gold
+1cbf:00820000:1ce8:0071:1:0
+Wydarzenia 24
+p:PolastBox,f:1
 0064:0082afc2:0065:0001:1:0
 Voice of America (VOA) Europe
 p:,f:1
@@ -12544,22 +12559,22 @@ franceinfo
 p:Eutelsat,f:1
 07d1:00820000:22c4:013e:1:0
 RT HD
-p:GlobeCast,f:1
+p:GLOBECAST,f:1
 07d2:00820000:22c4:013e:1:0
 RT Doc HD
-p:Harmonic,f:1
+p:GLOBECAST,f:1
 07d4:00820000:22c4:013e:1:0
-Telepace HD
+Vatican Media Europa
 p:GLOBECAST,f:1
 07e0:00820000:22c4:013e:1:0
 BBC Brit Poland HD
 p:GLOBECAST,f:1
 07d6:00820000:22c4:013e:1:0
 BBC Brit Poland
-p:Cyfra +,f:1
+p:GLOBECAST,f:1
 07d9:00820000:22c4:013e:1:0
 BBC CBeebies Poland
-p:N,f:1
+p:GLOBECAST,f:1
 07db:00820000:22c4:013e:1:0
 BBC Lifestyle Poland HD
 p:GLOBECAST,f:1
@@ -12762,7 +12777,7 @@ p:N,f:1
 TVN Turbo HD
 p:TVN,f:1
 3dd1:00820000:0640:013e:1:0
-TVN TURBO HD
+TVN Turbo HD
 p:TVN,f:1
 3dd2:00820000:0640:013e:1:0
 TVN 24 HD
@@ -12987,7 +13002,7 @@ p:,f:1
 La7 HD
 p:,f:1
 1421:00822ce0:05dc:013e:1:0
-CANAL+ DOMO HD
+CANAL+ Domo HD
 p:CANAL+,f:1
 13ef:00822ce0:05dc:013e:1:0
 Canal+ Domo HD
@@ -13017,7 +13032,7 @@ p:CANAL+
 MUZO.FM
 p:CANAL+
 1420:00822ce0:05dc:013e:1:0
-CANAL+ SPORT 2 HD
+Canal+ Sport 2 HD
 p:CANAL+,f:1
 13ee:00822ce0:05dc:013e:1:0
 Canal+ Sport 2 HD Polska
@@ -13320,7 +13335,7 @@ p:CANAL+,f:1
 FilmBox Extra HD
 p:CANAL+,f:1
 37af:00822c93:044c:013e:25:0
-teleTOON+ HD
+TeleToon+ HD
 p:nc+,f:1
 37b0:00822c93:044c:013e:25:0
 Planete+ HD
@@ -13791,10 +13806,10 @@ p:CANAL+,f:1
 Canal+ Sport 3 HD Polska
 p:CANAL+,f:1
 12f4:00820000:2e7c:013e:1:0
-CANAL+ SPORT 3 HD
+Canal+ Sport 3 HD
 p:CANAL+,f:1
 12f5:00820000:2e7c:013e:1:0
-CANAL+ SPORT 4 HD
+Canal+ Sport 4 HD
 p:CANAL+,f:1
 1312:00820000:2e7c:013e:1:0
 CANAL+ SPORT 3 HD
