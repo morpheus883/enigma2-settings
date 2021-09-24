@@ -1119,14 +1119,14 @@ transponders
 014a2bb3:33f4:ffff
 	s 11187000:4800000:0:3:330:2:0:1:2:0:2
 /
-014a2ba7:33f4:004b
-	s 11175000:4800000:0:3:330:2:0:1:2:0:2
-/
 014a2bad:0bbf:0003
 	s 11181000:4800000:0:3:330:2:0:1:2:0:2
 /
 014a2bb9:0000:0000
 	s 11193000:4800000:0:3:330:2:0:1:2:0:2
+/
+014a2ba7:0001:ffff
+	s 11175000:4800000:0:3:330:2:0:1:2:0:2
 /
 013b0000:1456:0005
 	s 11817000:27500000:1:3:315:2:0
@@ -2030,6 +2030,9 @@ transponders
 /
 00d82cd3:0001:0001
 	s 11475000:2200000:0:3:216:2:0:1:1:0:2
+/
+00d82b7f:0001:0001
+	s 11135000:7200000:0:3:216:2:0:1:1:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -3351,9 +3354,6 @@ transponders
 00462b10:0001:ffff
 	s 11024000:4937000:0:3:70:2:0:1:2:0:2
 /
-0046ad07:0001:0000
-	s 11527000:7500000:1:3:70:2:0:1:2:0:2
-/
 0046ad7c:0001:0000
 	s 11644000:2500000:1:3:70:2:0:1:2:0:2
 /
@@ -3365,6 +3365,9 @@ transponders
 /
 0046acec:0000:0000
 	s 11500000:10000000:1:3:70:2:0:1:2:0:2
+/
+0046ad07:0000:0001
+	s 11527000:7500000:1:3:70:2:0:1:2:0:2
 /
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
@@ -6308,6 +6311,9 @@ p:SENTECH,f:1
 0075:02adb18a:0005:0049:1:0
 Flowing Life TV
 p:SENTECH,f:1
+00e3:02adb18a:0005:0049:1:0
+TVET
+p:Sentech,f:1
 0015:02ad318a:0004:0001:1:0
 Omega Gospel Channel
 p:ViewMedia,f:1
@@ -10166,6 +10172,9 @@ p:GUC TELEKOM MEDYA,f:1
 3930:01a40000:a21d:042e:1:0
 Diyar TV
 p:GUC TELEKOM MEDYA,f:1
+3934:01a40000:a21d:042e:1:0
+Kanal Ege
+p:GUC TELEKOM MEDYA,f:1
 0001:01a4aee9:0001:ffff:1:0
 Türkmeneli TV HD
 p:TERT 2  TV,f:1
@@ -10364,6 +10373,9 @@ p:DEMIROREN MEDYA
 056d:01a4af02:0003:0042:2:0
 JOY FM TÜRKİYE
 p:DEMIROREN MEDYA
+0531:01a4af02:0003:0042:1:0
+Lider TV
+p:DEMIROREN MEDYA,f:1
 2c24:01a40000:797d:042e:1:0
 363 TV
 p:TURKSAT,f:1
@@ -13512,7 +13524,7 @@ p:Tring TV,f:1
 Tring Collection HD
 p:Tring TV,f:1
 0eb0:01860000:03f2:039e:1:0
-Tring Novelas
+Tring Novelas HD
 p:Tring TV,f:1
 0a00:01860000:03fc:039e:1:0
 Mediaset Italia
@@ -15959,15 +15971,15 @@ p:,f:1
 0164:014a2bb3:33f4:ffff:1:0
 POL-056 ENC 1
 p:Service Provider,f:1
-0178:014a2ba7:33f4:004b:1:0
-POL 076
-p:Harmonic,f:1
 0481:014a2bad:0bbf:0003:1:0
 pol-053_enc1
 p:Harmonic,f:1
 0001:014a2bb9:0000:0000:25:0
 POL - 054 Kielce
 p:,f:1
+0001:014a2ba7:0001:ffff:1:0
+PLTVP5
+p:TVP,f:1
 1d92:013b0000:1456:0005:1:0
 VTV Romania
 p:,f:1
@@ -24545,6 +24557,9 @@ p:TV-Provider,f:1
 0101:00d82cd3:0001:0001:1:0
 Resafa-4
 p:TV-Provider,f:1
+0001:00d82b7f:0001:0001:1:0
+Service 01
+p:Net 1,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -31854,7 +31869,7 @@ p:SkyItalia,f:1
 Discovery HD Showcase
 p:SkyItalia,f:1
 012d:00820000:157c:013e:1:0
-Macedonia TV
+Makedonia TV HD
 p:NetMed,f:1
 012f:00820000:157c:013e:1:0
 R3
@@ -31869,7 +31884,7 @@ p:NetMed,f:1
 R8
 p:NetMed,f:1
 0140:00820000:157c:013e:1:0
-ANT 1
+ANT 1 HD
 p:NetMed,f:1
 0143:00820000:157c:013e:1:0
 NovaSports 5 HD
@@ -32637,7 +32652,7 @@ p:Netmed,f:1
 Pvod_Service_1
 p:Netmed,f:1
 3c96:00820000:1bbc:013e:1:0
-PDC_Service
+Novasports Prime HD
 p:Netmed,f:1
 3c90:00820000:1bbc:013e:1:0
 NovaSports 2 HD
@@ -32654,6 +32669,9 @@ p:NetMed,f:1
 3cb4:00820000:1bbc:013e:152:0
 Cobalt Data
 p:netmed
+3c9b:00820000:1bbc:013e:1:0
+Novasports Prime HD Cy
+p:Netmed,f:1
 1c22:00820000:1c20:013e:1:0
 TTN - Télévision Tunisienne Nationale
 p:Arabesque,f:1
@@ -37130,6 +37148,9 @@ p:OTE,f:1
 0468:005a0000:0007:00aa:1:0
 TEST 13
 p:OTE,f:1
+040a:005a0000:0007:00aa:1:0
+Panik TV
+p:OTE,f:1
 03f5:005aae43:0001:00aa:1:0
 iConcerts HD
 p:OTE,f:1
@@ -39740,12 +39761,6 @@ p:,f:1
 0001:00462b10:0001:ffff:1:0
 JRTV - JORDAN 1
 p:JRTV,f:1
-0001:0046ad07:0001:0000:25:0
-beIN Sports 1
-p:beIN Sports TURKEY,f:1
-0002:0046ad07:0001:0000:25:0
-DTSNG-2 Main
-p:beIN Sports TURKEY,f:1
 0001:0046ad7c:0001:0000:25:0
 beIN Sports 4
 p:beIN Sports TURKEY,f:1
@@ -39758,6 +39773,15 @@ p:GlobeCast UK,f:1
 0001:0046acec:0000:0000:25:0
 TUR 112 A
 p:MEDİAPRO TURKEY,f:1
+0003:0046ad07:0000:0001:22:0
+beIN SNG 1 Main
+p:beIN SNG 1,f:1
+0001:0046ad07:0000:0001:25:0
+beIN Sports 1
+p:beIN Sports TURKEY,f:1
+0002:0046ad07:0000:0001:25:0
+DTSNG-2 Main
+p:beIN Sports TURKEY,f:1
 0fa0:00300000:0006:0056:1:0
 TV Chile
 p:Viasat,f:1
