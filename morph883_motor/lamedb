@@ -1848,9 +1848,6 @@ transponders
 00eb0000:0c84:0003
 	s 11778000:29900000:1:2:235:2:0:1:2:2:2
 /
-00eb0000:0020:00eb
-	s 12696000:4800000:1:3:235:2:0:1:2:0:2
-/
 00ebb0fb:0001:0001
 	s 12539000:4936000:1:3:235:2:0:1:2:0:2
 /
@@ -1871,9 +1868,6 @@ transponders
 /
 00ebb139:0000:0000
 	s 12601000:4800000:1:3:235:2:0:1:2:0:2
-/
-00eb2ced:0001:0001
-	s 11501000:7200000:0:3:235:2:0:1:2:0:2
 /
 00eb3190:0000:0000
 	s 12688000:7200000:0:3:235:2:0:1:2:0:2
@@ -2045,6 +2039,9 @@ transponders
 /
 00d82b7f:0001:0001
 	s 11135000:7200000:0:3:216:2:0:1:1:0:2
+/
+00d82cd0:0005:ffff
+	s 11472000:2200000:0:3:216:2:0:1:2:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -3327,9 +3324,6 @@ transponders
 0046ab3c:4321:0000
 	s 11068000:9874000:1:3:70:2:0:1:2:0:2
 /
-0046aad2:0001:0001
-	s 10962000:9875000:1:0:70:2:0:1:2:0:2
-/
 0046ad90:0001:0000
 	s 11664000:7200000:1:3:70:2:0:1:2:0:2
 /
@@ -3381,8 +3375,11 @@ transponders
 0046ad07:0000:0001
 	s 11527000:7500000:1:3:70:2:0:1:2:0:2
 /
-0046acec:0001:0001
-	s 11500000:10000000:1:3:70:2:0:1:2:0:2
+0046abb4:0001:00c8
+	s 11188000:3674000:1:3:70:2:0:1:2:0:2
+/
+0046aad2:4321:00eb
+	s 10962000:9875000:1:0:70:2:0:1:2:0:2
 /
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
@@ -4535,9 +4532,6 @@ ff922d5c:0001:0001
 /
 0da22d17:0001:ffff
 	s 11543000:3600000:0:3:-110:2:0:1:2:0:2
-/
-0da22bad:0000:0000
-	s 11181000:7200000:0:3:-110:2:0:1:2:0:2
 /
 0da22d54:0001:ffff
 	s 11604000:3600000:0:2:-110:2:0:1:2:0:2
@@ -6338,6 +6332,15 @@ p:SENTECH,f:1
 00e3:02adb18a:0005:0049:1:0
 TVET
 p:Sentech,f:1
+0067:02adb18a:0005:0049:1:0
+UBN
+p:SENTECH,f:1
+006c:02adb18a:0005:0049:1:0
+Mercy TV
+p:SENTECH,f:1
+0085:02adb18a:0005:0049:1:0
+Master's TV
+p:SENTECH,f:1
 0015:02ad318a:0004:0001:1:0
 Omega Gospel Channel
 p:ViewMedia,f:1
@@ -23714,9 +23717,9 @@ p:Service Provider,f:1
 0001:00ebb194:4321:00eb:1:0
 WDR SNG-5
 p:Service Provider,f:1
-0001:00ebb198:4321:00eb:1:0
-WDR SNG-5
-p:Service Provider,f:1
+0001:00ebb198:4321:00eb:25:0
+D510 feed 1
+p:Betamobil,f:1
 0001:00eb319a:0002:ffff:1:0
 D265 DFW #1
 p:diefernsehwerft,f:1
@@ -23996,9 +23999,6 @@ p:M7 Group,f:1
 3aa6:00eb0000:0c84:0003:22:0
 ATV
 p:M7 Group,f:1
-0001:00eb0000:0020:00eb:0:0
-D233
-p:Betamobil
 0001:00ebb0fb:0001:0001:25:0
 SLQ-004
 p:SLQ-004,f:1
@@ -24473,6 +24473,9 @@ p:Harmonic
 0001:00d82cf5:0001:ffff:1:0
 AL ALAM
 p:TANDBERG Television,f:1
+0002:00d82cf5:0001:ffff:1:0
+Service Name
+p:Service Provider,f:1
 0001:00d830f8:0001:ffff:1:0
 ERICSSON 1
 p:ERICSSON,f:1
@@ -24596,6 +24599,9 @@ p:TV-Provider,f:1
 0001:00d82b7f:0001:0001:1:0
 Service 01
 p:Net 1,f:1
+0001:00d82cd0:0005:ffff:1:0
+SERVICE2
+p:Service Provider,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -24920,6 +24926,9 @@ p:BetaDigital,f:1
 0037:00c00000:000f:0085:25:0
 .
 p:SES,f:1
+0027:00c00000:000f:0085:25:0
+ShopLC HD
+p:BetaDigital,f:1
 7823:00c00000:0428:0001:25:0
 Mezzo Live HD
 p:Movistar+,f:1
@@ -26112,7 +26121,7 @@ p:SKY,f:1
 E! Entertainm. HD
 p:SKY,f:1
 0088:00c00000:000b:0085:25:0
-TNT Comedy HD
+Warner Comedy HD
 p:SKY,f:1
 00a8:00c00000:000b:0085:22:0
 Motorvision TV
@@ -27534,7 +27543,7 @@ p:SKY,f:1
 Sky Cinema Action HD Germany
 p:Kabelkiosk,f:1
 007b:00c00000:0009:0085:25:0
-TNT Serie HD
+Warner Serie HD
 p:SKY,f:1
 0084:00c00000:0009:0085:25:0
 DAZN 1 HD
@@ -27678,7 +27687,7 @@ p:SKY,f:1
 Eurosport360HD 5
 p:SKY,f:1
 008c:00c00000:0004:0085:25:0
-TNT Film HD
+Warner Film HD
 p:SKY,f:1
 000b:00c00000:0004:0085:25:0
 Sky Cinema Thriller HD Germany
@@ -31424,6 +31433,12 @@ p:Telespazio
 1332:00820000:33f4:013e:1:0
 Bike Channel
 p:Harmonic,f:1
+1364:00820000:33f4:013e:1:0
+Canale Italia
+p:Harmonic,f:1
+1366:00820000:33f4:013e:1:0
+Canale Italia 2
+p:Telespazio,f:1
 366a:00820000:00c8:013e:1:0
 Noviy Mir
 p:Harmonic,f:1
@@ -39740,9 +39755,6 @@ p:EBU Eurovision,f:1
 0001:0046ab3c:4321:0000:1:0
 UNI3
 p:EUROVISION,f:1
-0001:0046aad2:0001:0001:1:0
-CLIMB-WC -
-p:AUT23-1,f:1
 0001:0046ad90:0001:0000:25:0
 2Sat HOL318 MAIN
 p:2-SAT Europe,f:1
@@ -39821,6 +39833,12 @@ p:beIN Sports TURKEY,f:1
 0002:0046ad07:0000:0001:25:0
 DTSNG-2 Main
 p:beIN Sports TURKEY,f:1
+753d:0046abb4:0001:00c8:1:0
+GCUK Enc 13
+p:GlobeCast UK,f:1
+0001:0046aad2:4321:00eb:25:0
+D-379 DOTM Feed B Main
+p:CM5000,f:1
 0fa0:00300000:0006:0056:1:0
 TV Chile
 p:Viasat,f:1
@@ -40270,6 +40288,30 @@ CoralTV2
 p:,f:1
 02b0:00303082:0065:0001:1:0
 LTV2
+p:,f:1
+02bc:00303082:0065:0001:1:0
+Temp SIS TWO
+p:,f:1
+02c8:00303082:0065:0001:1:0
+Temp PPTV2
+p:,f:1
+02c9:00303082:0065:0001:1:0
+Temp PPTV1 - IE
+p:,f:1
+02ca:00303082:0065:0001:1:0
+Temp PPTV1 - UK
+p:,f:1
+02cc:00303082:0065:0001:1:0
+PPTV3 Temp
+p:,f:1
+02e0:00303082:0065:0001:1:0
+Temp SIS TWO BTC
+p:,f:1
+02ee:00303082:0065:0001:1:0
+Temp SIS TWO BAR ONE
+p:,f:1
+02fe:00303082:0065:0001:1:0
+Temp LTV1
 p:,f:1
 0532:00300000:001f:0056:25:0
 TV 2 Sport Premium 1 HD
@@ -53882,42 +53924,78 @@ p:RTP Madeira,f:1
 00a9:0ce40000:0065:0053:1:0
 TV Record
 p:TV Record,f:1
-0103:0ce40000:0065:0053:2:0
-Smooth FM
-p:
-0104:0ce40000:0065:0053:2:0
-RFM
-p:
-0108:0ce40000:0065:0053:2:0
-Mega Hits
-p:
-010a:0ce40000:0065:0053:2:0
-Renascença
-p:
-010b:0ce40000:0065:0053:2:0
-Rádio Comercial
-p:
-010c:0ce40000:0065:0053:2:0
-M80
-p:
-010d:0ce40000:0065:0053:2:0
-Cidade FM
-p:
-00fa:0ce40000:0065:0053:2:0
+0460:0ce40000:0065:0053:2:0
 Antena 1
 p:
-00fb:0ce40000:0065:0053:2:0
+0461:0ce40000:0065:0053:2:0
 Antena 2
 p:
-00fc:0ce40000:0065:0053:2:0
+0462:0ce40000:0065:0053:2:0
 Antena 3
 p:
-00fd:0ce40000:0065:0053:2:0
+0463:0ce40000:0065:0053:2:0
 RDP África
 p:
-00ff:0ce40000:0065:0053:2:0
+0464:0ce40000:0065:0053:2:0
 Lusitânia
 p:
+0465:0ce40000:0065:0053:2:0
+Cidade FM
+p:
+0466:0ce40000:0065:0053:2:0
+Smooth FM
+p:
+0467:0ce40000:0065:0053:2:0
+RFM
+p:
+0468:0ce40000:0065:0053:2:0
+Mega Hits
+p:
+0469:0ce40000:0065:0053:2:0
+Renascença
+p:
+046a:0ce40000:0065:0053:2:0
+Rádio Comercial
+p:
+046b:0ce40000:0065:0053:2:0
+M80
+p:
+00aa:0ce40000:0065:0053:2:0
+Antena 1
+p:Antena 1
+00ab:0ce40000:0065:0053:2:0
+Antena 2
+p:Antena 2
+00ac:0ce40000:0065:0053:2:0
+Antena 3
+p:Antena 3
+00ad:0ce40000:0065:0053:2:0
+RDP África
+p:RDP África
+00ae:0ce40000:0065:0053:2:0
+Rádio Lusitânia
+p:Rádio Lusitânia
+00af:0ce40000:0065:0053:2:0
+Cidade FM
+p:Cidade FM
+00b0:0ce40000:0065:0053:2:0
+Smooth FM
+p:Smooth FM
+00b1:0ce40000:0065:0053:2:0
+RFM
+p:RFM
+00b2:0ce40000:0065:0053:2:0
+Mega Hits
+p:Mega Hits
+00b3:0ce40000:0065:0053:2:0
+Renascença
+p:Renascença
+00b4:0ce40000:0065:0053:2:0
+Rádio Comercial
+p:Rádio Comercial
+00b5:0ce40000:0065:0053:2:0
+M80
+p:M80
 0002:0ce4aa8a:000f:0002:1:0
 Canal Parlamento
 p:Telefonica Spain,f:1
