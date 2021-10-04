@@ -126,9 +126,6 @@ transponders
 00ebb194:4321:00eb
 	s 12692000:4800000:1:3:235:2:0:1:2:0:2
 /
-00ebb198:4321:00eb
-	s 12696000:4800000:1:3:235:2:0:1:2:0:2
-/
 00eb319a:0002:ffff
 	s 12698000:7200000:0:3:235:2:0:1:2:0:2
 /
@@ -192,9 +189,6 @@ transponders
 00eb2d06:0001:ffff
 	s 11526000:3650000:0:3:235:2:0:1:2:0:2
 /
-00ebacd7:0002:ffff
-	s 11479000:7200000:1:3:235:2:0:1:2:0:2
-/
 00ebacc6:0001:ffff
 	s 11462000:7200000:1:3:235:2:0:1:2:0:2
 /
@@ -242,6 +236,18 @@ transponders
 /
 00ebb145:0001:0001
 	s 12613000:4936000:1:3:235:2:0:1:2:0:2
+/
+00ebb198:0001:ffff
+	s 12696000:4800000:1:3:235:2:0:1:2:0:2
+/
+00ebacc5:0001:0000
+	s 11461000:7200000:1:3:235:2:0:1:2:0:2
+/
+00eb2d9f:4321:00eb
+	s 11679000:7200000:0:3:235:2:0:1:2:0:2
+/
+00ebacd7:0000:0000
+	s 11479000:7200000:1:3:235:2:0:1:2:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -2981,9 +2987,6 @@ p:Service Provider,f:1
 0001:00ebb194:4321:00eb:1:0
 WDR SNG-5
 p:Service Provider,f:1
-0001:00ebb198:4321:00eb:25:0
-D510 feed 1
-p:Betamobil,f:1
 0001:00eb319a:0002:ffff:1:0
 D265 DFW #1
 p:diefernsehwerft,f:1
@@ -3209,9 +3212,6 @@ p:M7 Group,f:1
 0001:00eb2d06:0001:ffff:1:0
 Tower OB TX3
 p:BT TVOB,f:1
-0001:00ebacd7:0002:ffff:1:0
-D-413#1 3.Liga Duisburg
-p:TelLink,f:1
 0001:00ebacc6:0001:ffff:1:0
 rt1.tv
 p:rt1.tv,f:1
@@ -3509,6 +3509,18 @@ p:AKK D560,f:1
 0001:00ebb145:0001:0001:25:0
 Cunovo
 p:SLQ-005,f:1
+0001:00ebb198:0001:ffff:1:0
+WDR mCut1 D-489
+p:WDR,f:1
+0001:00ebacc5:0001:0000:25:0
+2SAT HOL319 M30 MAIN
+p:2-SAT Europe,f:1
+0001:00eb2d9f:4321:00eb:25:0
+GCR/F525/1/ ROUBAIX FTV
+p:Globecast,f:1
+0001:00ebacd7:0000:0000:25:0
+D-446
+p:,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -8699,6 +8711,9 @@ p:Total TV,f:1
 05b3:00a0ab03:75fc:016e:1:0
 TV Vijesti
 p:Total TV,f:1
+05b4:00a0ab03:75fc:016e:1:0
+Gradska TV
+p:Total TV,f:1
 06db:00a00000:c544:016e:1:0
 OBN
 p:Total TV,f:1
@@ -10924,6 +10939,9 @@ Smile TV
 p:NetMed,f:1
 013e:00820000:157c:013e:1:0
 NovalifåxtraHD
+p:NetMed,f:1
+013c:00820000:157c:013e:1:0
+Junior SD
 p:NetMed,f:1
 1e5b:00820000:15e0:fbff:25:0
 Primafila 1 HD
@@ -14120,6 +14138,9 @@ p:EUTELSAT,f:1
 069a:00820000:2454:013e:1:0
 Eutelsat Data 1
 p:MIT-xperts GmbH,f:1
+064b:00820000:2454:013e:25:0
+Church of Jesus Christ
+p:,f:1
 0079:00820000:04b0:0110:25:0
 Italia 1 HD
 p:,f:1
