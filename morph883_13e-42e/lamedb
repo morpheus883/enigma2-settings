@@ -222,6 +222,12 @@ transponders
 01a42b93:0001:ffff
 	s 11155000:5000000:0:4:420:2:0:1:2:0:2
 /
+01a4acd6:0001:0001
+	s 11478000:6800000:1:3:420:2:0:1:2:0:2
+/
+01a42bac:c5a8:002a
+	s 11180000:29750000:0:4:420:2:0
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -482,6 +488,9 @@ transponders
 /
 00823095:3e1c:013f
 	s 12437000:27500000:0:3:130:2:0:1:2:2:2
+/
+00820000:3e1c:013f
+	s 11681000:27500000:0:3:130:2:0:1:2:0:2
 /
 end
 services
@@ -1439,48 +1448,6 @@ p:,f:1
 0064:01a4b171:0000:0001:1:0
 SNG B   
 p:,f:1
-3c9d:01a40000:4e85:002a:17:0
-Eurosport 1 HD
-p:Digitürk,f:1
-3c97:01a40000:4e85:002a:17:0
-beIN Movies Action 2 HD
-p:Digital Platform,f:1
-3c91:01a40000:4e85:002a:17:0
-beIN Movies Premier 2 HD
-p:Digital Platform,f:1
-3c8e:01a40000:4e85:002a:17:0
-BBC Earth HD
-p:Digital Platform,f:1
-3c9f:01a40000:4e85:002a:17:0
-National Geographic Turk HD
-p:Digitürk,f:1
-3ca2:01a40000:4e85:002a:1:0
-Disney Junior Turkey
-p:Digital Platform,f:1
-3c98:01a40000:4e85:002a:17:0
-beIN Home & Entertainment HD
-p:Digital Platform,f:1
-3c9c:01a40000:4e85:002a:1:0
-GS TV
-p:Digital Platform,f:1
-3ca3:01a40000:4e85:002a:1:0
-Nick Junior Turkey
-p:Digital Platform,f:1
-3ca5:01a40000:4e85:002a:17:0
-National Geographic Wild HD
-p:Digitürk,f:1
-3ca4:01a40000:4e85:002a:17:0
-beIN H&E HD
-p:Digital Platform,f:1
-3ca6:01a40000:4e85:002a:17:0
-BBC First
-p:Digital Platform,f:1
-3ca8:01a40000:4e85:002a:1:0
-TJK tv HD
-p:Digital Platform,f:1
-3c8f:01a40000:4e85:002a:17:0
-beIN Sports Max 2 HD Turkey
-p:Digital Platform,C:0000,f:1
 00ac:01a40000:0009:0042:130:0
 iDIZIPREMIUMHDTrigger
 p:DOGAN TV,f:1
@@ -2023,6 +1990,9 @@ Tek Rumeli TV
 p:TURKSAT,f:1
 c671:01a40000:7bd6:042e:25:0
 Flash TV HD
+p:TURKSAT,f:1
+c670:01a40000:7bd6:042e:1:0
+Kadirga TV (Trabzon)
 p:TURKSAT,f:1
 4011:01a4aedf:9e38:042e:1:0
 A Para HD
@@ -2582,9 +2552,6 @@ p:DHA 2 HD,f:1
 0001:01a4acc2:0001:00eb:1:0
 TUR 46
 p:TRT,f:1
-0001:01a4acd6:0000:0001:25:0
-TUR 121-A
-p:TRT,f:1
 0001:01a4ad3c:0001:ffff:1:0
 IHA ANT
 p:IHA,f:1
@@ -2603,6 +2570,51 @@ p:TRT,f:1
 0001:01a42b93:0001:ffff:1:0
 ALTUS HD/SD SNG
 p:ALTUS HD/SD SNG,f:1
+0001:01a4acd6:0001:0001:1:0
+TUR-126-A
+p:TRT,f:1
+3c8e:01a42bac:c5a8:002a:17:0
+BBC Earth HD
+p:Digital Platform,f:1
+3c8f:01a42bac:c5a8:002a:17:0
+beIN Sports Max 2 HD Turkey
+p:Digital Platform,C:0000,f:1
+3c91:01a42bac:c5a8:002a:17:0
+beIN Movies Premier 2 HD
+p:Digital Platform,f:1
+3c97:01a42bac:c5a8:002a:17:0
+beIN Movies Action 2 HD
+p:Digital Platform,f:1
+3c98:01a42bac:c5a8:002a:17:0
+beIN Home & Entertainment HD
+p:Digital Platform,f:1
+3c9c:01a42bac:c5a8:002a:1:0
+GS TV
+p:Digital Platform,f:1
+3c9d:01a42bac:c5a8:002a:17:0
+Eurosport 1 HD
+p:Digital Platform,f:1
+3c9f:01a42bac:c5a8:002a:17:0
+National Geographic Turk HD
+p:Digital Platform,f:1
+3ca2:01a42bac:c5a8:002a:1:0
+Disney Junior Turkey
+p:Digital Platform,f:1
+3ca3:01a42bac:c5a8:002a:1:0
+Nick Junior Turkey
+p:Digital Platform,f:1
+3ca4:01a42bac:c5a8:002a:17:0
+beIN H&E HD
+p:Digital Platform,f:1
+3ca5:01a42bac:c5a8:002a:17:0
+National Geographic Wild HD
+p:Digital Platform,f:1
+3ca6:01a42bac:c5a8:002a:17:0
+BBC First
+p:Digital Platform,f:1
+3ca8:01a42bac:c5a8:002a:17:0
+TJK tv HD
+p:Digital Platform,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -7655,70 +7667,82 @@ p:NOVA,f:1
 01ae:00820000:1518:013e:152:0
 Cobalt Data
 p:NOVA
+019d:00820000:1518:013e:1:0
+IDJ
+p:Nova,f:1
+019e:00820000:1518:013e:1:0
+Disney Junior
+p:Nova,f:1
+019f:00820000:1518:013e:1:0
+DuckTV
+p:Nova,f:1
+01a0:00820000:1518:013e:1:0
+TLC
+p:Nova,f:1
 0001:0082b176:4321:00eb:1:0
 Fi07FRAMP
 p:EBUER,f:1
-012d:00823095:3e1c:013f:1:0
+012d:00820000:3e1c:013f:1:0
 TF1 HD
 p:Eutelsat,f:1
-012e:00823095:3e1c:013f:1:0
+012e:00820000:3e1c:013f:1:0
 France 2 HD
 p:Eutelsat,f:1
-012f:00823095:3e1c:013f:1:0
+012f:00820000:3e1c:013f:1:0
 France 3 Sat
 p:Eutelsat,f:1
-0131:00823095:3e1c:013f:1:0
+0131:00820000:3e1c:013f:1:0
 France 5
 p:Eutelsat,f:1
-0132:00823095:3e1c:013f:1:0
+0132:00820000:3e1c:013f:1:0
 M6 HD
 p:Eutelsat,f:1
-0133:00823095:3e1c:013f:1:0
+0133:00820000:3e1c:013f:1:0
 Arte HD
 p:Eutelsat,f:1
-0134:00823095:3e1c:013f:1:0
+0134:00820000:3e1c:013f:1:0
 C8
 p:Eutelsat,f:1
-0135:00823095:3e1c:013f:1:0
+0135:00820000:3e1c:013f:1:0
 W9
 p:Eutelsat,f:1
-0136:00823095:3e1c:013f:1:0
+0136:00820000:3e1c:013f:1:0
 TMC (Télé Monte Carlo)
 p:Eutelsat,f:1
-0137:00823095:3e1c:013f:1:0
+0137:00820000:3e1c:013f:1:0
 TFX
 p:Eutelsat,f:1
-0138:00823095:3e1c:013f:1:0
+0138:00820000:3e1c:013f:1:0
 NRJ 12
 p:Eutelsat,f:1
-0139:00823095:3e1c:013f:1:0
+0139:00820000:3e1c:013f:1:0
 LCP - La Chaîne Parlementaire
 p:Eutelsat,f:1
-013a:00823095:3e1c:013f:1:0
+013a:00820000:3e1c:013f:1:0
 France 4
 p:Eutelsat,f:1
-013c:00823095:3e1c:013f:1:0
+013c:00820000:3e1c:013f:1:0
 C News
 p:Eutelsat,f:1
-0140:00823095:3e1c:013f:1:0
+0140:00820000:3e1c:013f:1:0
 TF1 Series Films
 p:Eutelsat,f:1
-0141:00823095:3e1c:013f:1:0
+0141:00820000:3e1c:013f:1:0
 L´Equipe 21
 p:Eutelsat,f:1
-0142:00823095:3e1c:013f:1:0
+0142:00820000:3e1c:013f:1:0
 6ter
 p:Eutelsat,f:1
-0143:00823095:3e1c:013f:1:0
+0143:00820000:3e1c:013f:1:0
 RMC Story
 p:Eutelsat,f:1
-0144:00823095:3e1c:013f:1:0
+0144:00820000:3e1c:013f:1:0
 RMC Découverte
 p:Eutelsat,f:1
-0145:00823095:3e1c:013f:1:0
+0145:00820000:3e1c:013f:1:0
 Cherie 25
 p:Eutelsat,f:1
-0146:00823095:3e1c:013f:1:0
+0146:00820000:3e1c:013f:1:0
 LCI - La Chaîne Info
 p:Eutelsat,f:1
 end
