@@ -219,6 +219,12 @@ transponders
 011a0000:0835:0002
 	s 11641000:23000000:0:2:282:2:0:1:2:1:2
 /
+011ab192:0001:ffff
+	s 12690000:3750000:1:2:282:2:0:1:1:0:2
+/
+011ab197:0002:ffff
+	s 12695000:3750000:1:2:282:2:0:1:1:0:2
+/
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
 /
@@ -3374,6 +3380,12 @@ p:,f:1
 1bbc:011a0000:0835:0002:25:0
 PCNE Chinese HD
 p:BSkyB,f:1
+0001:011ab192:0001:ffff:1:0
+EDS804HD.1
+p:CCMA,f:1
+0002:011ab197:0002:ffff:1:0
+EDS804HD.2
+p:CCMA,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -4267,6 +4279,9 @@ Nick_Jr_
 p:MTV Networks Europe,f:1
 6fec:00c00000:0436:0001:25:0
 Comedy Central Germany HD
+p:MTV Networks Europe,f:1
+6fed:00c00000:0436:0001:25:0
+Comedy Central Austria HD
 p:MTV Networks Europe,f:1
 006f:00c00000:000d:0085:25:0
 Sky Cinema Special HD Germany
@@ -8042,6 +8057,9 @@ p:
 08b2:00820000:01f4:013e:2:0
 Radio Novaya Zhizn
 p:Eutelsat
+08b4:00820000:01f4:013e:2:0
+Radio2000
+p:Eutelsat
 3ab7:00820000:0514:013e:1:0
 AMC HD Polska
 p:nc+,f:1
@@ -8335,6 +8353,9 @@ AD Sport 4 HD
 p:,f:1
 012f:00820000:13ef:013e:1:0
 Al Hadath HD
+p:,f:1
+2530:00820000:13ef:013e:1:0
+LTV
 p:,f:1
 37d7:00820000:14b4:fbff:1:0
 IEPG Data
@@ -9926,6 +9947,12 @@ p:SkyItalia,f:1
 1090:00820000:2008:fbff:25:0
 Sky Serie +1 HD
 p:SkyItalia,f:1
+109a:00820000:2008:fbff:25:0
+Sky Arte +1 HD
+p:SkyItalia,f:1
+109b:00820000:2008:fbff:25:0
+Sky Arte +1 HD
+p:SkyItalia,f:1
 1c3f:00820000:206c:fbff:25:0
 Sky Cinema Romance HD
 p:Sky Italia,f:1
@@ -10907,6 +10934,18 @@ p:CANAL+,f:1
 3d9a:00820000:2c88:013e:1:0
 FilmBox Extra HD
 p:CANAL+,f:1
+3da4:00820000:2c88:013e:1:0
+FilmBox Extra HD
+p:CANAL+,f:1
+3da8:00820000:2c88:013e:1:0
+FilmBox Family
+p:CANAL+,f:1
+3dab:00820000:2c88:013e:1:0
+FilmBox Action
+p:CANAL+,f:1
+3dad:00820000:2c88:013e:1:0
+Filmbox Premium HD
+p:CANAL+,f:1
 37af:00822c93:044c:013e:25:0
 TeleToon+ HD
 p:nc+,f:1
@@ -11207,9 +11246,6 @@ p:M-Three Satcom,f:1
 0520:00820000:3d54:013e:1:0
 Yes Italia
 p:M-Three Satcom,f:1
-0531:00820000:3d54:013e:22:0
-Radio Radio TV
-p:M-Three Satcom Srl,f:1
 052f:00820000:3d54:013e:22:0
 Super!
 p:M-Three Satcom Srl,f:1
@@ -11219,6 +11255,9 @@ p:M-Three satcom Srl,f:1
 052e:00820000:3d54:013e:25:0
 VH1 HD
 p:M-Three Satcom Srl,f:1
+0532:00820000:3d54:013e:2:0
+RVS-Accendi la Speranza
+p:M-Three Satcom Srl
 0d4a:00820000:1450:013e:25:0
 Rai 2 HD
 p:Rai,f:1

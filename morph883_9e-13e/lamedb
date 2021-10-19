@@ -342,9 +342,6 @@ transponders
 005a2ea2:0009:00aa
 	s 11938000:27500000:0:2:90:2:0:1:2:0:2
 /
-005a0000:0384:0110
-	s 12341000:31400000:1:4:90:2:0:1:2:0:2:103:262140:1
-/
 005a0000:0191:000a
 	s 11766000:27500000:1:3:90:2:0
 /
@@ -410,6 +407,9 @@ transponders
 /
 005a0000:c3aa:009e
 	s 11881000:30000000:1:3:90:2:0:1:2:0:2
+/
+005aafe9:032a:0110
+	s 12265000:31400000:1:3:90:2:0:1:2:2:2:111:262140:1
 /
 end
 services
@@ -1130,6 +1130,9 @@ p:
 08b2:00820000:01f4:013e:2:0
 Radio Novaya Zhizn
 p:Eutelsat
+08b4:00820000:01f4:013e:2:0
+Radio2000
+p:Eutelsat
 3ab7:00820000:0514:013e:1:0
 AMC HD Polska
 p:nc+,f:1
@@ -1423,6 +1426,9 @@ AD Sport 4 HD
 p:,f:1
 012f:00820000:13ef:013e:1:0
 Al Hadath HD
+p:,f:1
+2530:00820000:13ef:013e:1:0
+LTV
 p:,f:1
 37d7:00820000:14b4:fbff:1:0
 IEPG Data
@@ -3014,6 +3020,12 @@ p:SkyItalia,f:1
 1090:00820000:2008:fbff:25:0
 Sky Serie +1 HD
 p:SkyItalia,f:1
+109a:00820000:2008:fbff:25:0
+Sky Arte +1 HD
+p:SkyItalia,f:1
+109b:00820000:2008:fbff:25:0
+Sky Arte +1 HD
+p:SkyItalia,f:1
 1c3f:00820000:206c:fbff:25:0
 Sky Cinema Romance HD
 p:Sky Italia,f:1
@@ -3995,6 +4007,18 @@ p:CANAL+,f:1
 3d9a:00820000:2c88:013e:1:0
 FilmBox Extra HD
 p:CANAL+,f:1
+3da4:00820000:2c88:013e:1:0
+FilmBox Extra HD
+p:CANAL+,f:1
+3da8:00820000:2c88:013e:1:0
+FilmBox Family
+p:CANAL+,f:1
+3dab:00820000:2c88:013e:1:0
+FilmBox Action
+p:CANAL+,f:1
+3dad:00820000:2c88:013e:1:0
+Filmbox Premium HD
+p:CANAL+,f:1
 37af:00822c93:044c:013e:25:0
 TeleToon+ HD
 p:nc+,f:1
@@ -4295,9 +4319,6 @@ p:M-Three Satcom,f:1
 0520:00820000:3d54:013e:1:0
 Yes Italia
 p:M-Three Satcom,f:1
-0531:00820000:3d54:013e:22:0
-Radio Radio TV
-p:M-Three Satcom Srl,f:1
 052f:00820000:3d54:013e:22:0
 Super!
 p:M-Three Satcom Srl,f:1
@@ -4307,6 +4328,9 @@ p:M-Three satcom Srl,f:1
 052e:00820000:3d54:013e:25:0
 VH1 HD
 p:M-Three Satcom Srl,f:1
+0532:00820000:3d54:013e:2:0
+RVS-Accendi la Speranza
+p:M-Three Satcom Srl
 0d4a:00820000:1450:013e:25:0
 Rai 2 HD
 p:Rai,f:1
@@ -5801,7 +5825,7 @@ p:MTVA
 009e:005a0000:1838:009e:2:0
 Katolikus Radio (AAC)
 p:MTVA
-0069:005a0000:1838:009e:1:0
+0069:005a0000:1838:009e:25:0
 Duna World HD
 p:MTVA,f:1
 00a1:005a0000:1838:009e:2:0
@@ -5830,6 +5854,9 @@ M5 HD (Europa)
 p:MTVA,f:1
 0068:005a0000:1838:009e:25:0
 M4 Sport HD
+p:MTVA,f:1
+0073:005a0000:1838:009e:25:0
+Duna World HD (Europa)
 p:MTVA,f:1
 000e:005a0000:170c:009e:1:0
 Trace Sports International HD
@@ -6758,87 +6785,6 @@ p:OTE,f:1
 0470:005a2ea2:0009:00aa:1:0
 ERT World
 p:OTE,f:1
-000b:005a0000:0384:0110:0:0
-Servizio 11
-p:
-000c:005a0000:0384:0110:0:0
-Servizio 12
-p:
-000d:005a0000:0384:0110:0:0
-Servizio 13
-p:
-000e:005a0000:0384:0110:0:0
-Servizio 14
-p:
-000f:005a0000:0384:0110:0:0
-Servizio 15
-p:
-0010:005a0000:0384:0110:0:0
-Servizio 16
-p:
-0011:005a0000:0384:0110:0:0
-Servizio 17
-p:
-0012:005a0000:0384:0110:0:0
-Servizio 18
-p:
-0014:005a0000:0384:0110:0:0
-Servizio 20
-p:
-03e7:005a0000:0384:0110:0:0
-Servizio M_e
-p:
-1c0c:005a0000:0384:0110:1:0
-TV 243
-p:,f:1
-1c16:005a0000:0384:0110:1:0
-TV 153
-p:,f:1
-1c17:005a0000:0384:0110:1:0
-Sportitalia
-p:,f:1
-1c18:005a0000:0384:0110:1:0
-Padre Pio TV
-p:,f:1
-1bd2:005a0000:0384:0110:1:0
-Premium Cinema 1
-p:,f:1
-1f4f:005a0000:0384:0110:130:0
-HUMAX DOWNLOAD SVC
-p:,f:1
-1bbe:005a0000:0384:0110:2:0
-Radio R101
-p:
-1bbf:005a0000:0384:0110:2:0
-RADIO 105
-p:
-1bc0:005a0000:0384:0110:2:0
-VIRGIN RADIO
-p:
-1bc1:005a0000:0384:0110:2:0
-Radio Monte Carlo
-p:
-0063:005a0000:0384:0110:0:0
-Ghost
-p:
-1b8b:005a0000:0384:0110:22:0
-Radio 105
-p:,f:1
-1b8c:005a0000:0384:0110:22:0
-R101 TV
-p:,f:1
-1b8d:005a0000:0384:0110:22:0
-Virgin Radio
-p:,f:1
-1c0d:005a0000:0384:0110:1:0
-Donna Shopping
-p:,f:1
-1bd3:005a0000:0384:0110:1:0
-Premium Cinema 2
-p:,f:1
-1c0e:005a0000:0384:0110:1:0
-Fascino TV
-p:,c:050001,f:1
 0472:005a0000:0191:000a:1:0
 TEST 81
 p:OTE,f:1
@@ -7400,6 +7346,9 @@ p:Persidera,f:1
 0096:005a0000:0202:001d:25:0
 RTL 102.5 News
 p:Persidera,f:1
+0092:005a0000:0202:001d:25:0
+RDS Social TV
+p:Persidera,f:1
 0015:005aaf4f:0389:0110:0:0
 Servizio 21
 p:Mediaset
@@ -7907,45 +7856,78 @@ p:TELEVISA,f:1
 0006:005a0000:0001:04d2:1:0
 Telenovelas
 p:TELEVISA,f:1
-1900:005a0000:c3be:009e:1:0
+1900:005a0000:c3be:009e:25:0
 Science Turkey HD
-p:Harmonic,f:1
-1838:005a0000:c3be:009e:1:0
+p:Discovery,f:1
+1838:005a0000:c3be:009e:25:0
 Discovery Hungary HD
-p:Harmonic,f:1
-189c:005a0000:c3be:009e:1:0
+p:Discovery,f:1
+189c:005a0000:c3be:009e:25:0
 Discovery Turkey HD
-p:Harmonic,f:1
+p:Discovery,f:1
 17d4:005a0000:c3be:009e:1:0
 TLC Hungary SD
-p:Harmonic,f:1
-1518:005a0000:c3aa:009e:1:0
+p:Discovery,f:1
+1518:005a0000:c3aa:009e:25:0
 Animal Planet Europe HD
-p:Harmonic,f:1
-1644:005a0000:c3aa:009e:1:0
+p:Discovery,f:1
+1644:005a0000:c3aa:009e:25:0
 Science Europe HD
-p:Harmonic,f:1
-1450:005a0000:c3aa:009e:1:0
+p:Discovery,f:1
+1450:005a0000:c3aa:009e:25:0
 TLC Balkans HD
-p:Harmonic,f:1
-157c:005a0000:c3aa:009e:1:0
-ID Xtra Europe HD
-p:Harmonic,f:1
-1388:005a0000:c3aa:009e:1:0
+p:Discovery,f:1
+157c:005a0000:c3aa:009e:25:0
+ID Pan Regional HD
+p:Discovery,f:1
+1388:005a0000:c3aa:009e:25:0
 Travel EMEA HD
-p:Harmonic,f:1
-16a8:005a0000:c3aa:009e:1:0
+p:Discovery,f:1
+16a8:005a0000:c3aa:009e:22:0
 TLC Pan Regional SD
-p:Harmonic,f:1
-14b4:005a0000:c3aa:009e:1:0
+p:Discovery,f:1
+14b4:005a0000:c3aa:009e:25:0
 Discovery Central Europe HD
-p:Harmonic,f:1
-15e0:005a0000:c3aa:009e:1:0
+p:Discovery,f:1
+15e0:005a0000:c3aa:009e:25:0
 Discovery Turbo Xtra HD
-p:Harmonic,f:1
-13ec:005a0000:c3aa:009e:1:0
+p:Discovery,f:1
+13ec:005a0000:c3aa:009e:25:0
 HGTV Central Europe HD
-p:Harmonic,f:1
+p:Discovery,f:1
+0001:005aafe9:032a:0110:0:0
+Servizio 1
+p:
+0002:005aafe9:032a:0110:0:0
+Servizio 2
+p:
+0003:005aafe9:032a:0110:0:0
+Servizio 3
+p:
+0004:005aafe9:032a:0110:0:0
+Servizio 4
+p:
+0005:005aafe9:032a:0110:0:0
+Servizio 5
+p:
+0006:005aafe9:032a:0110:0:0
+Servizio 6
+p:
+0007:005aafe9:032a:0110:0:0
+Servizio 7
+p:
+0008:005aafe9:032a:0110:0:0
+Servizio 8
+p:
+0009:005aafe9:032a:0110:0:0
+Servizio 9
+p:
+000a:005aafe9:032a:0110:0:0
+Servizio 10
+p:
+2009:005aafe9:032a:0110:25:0
+Sportitalia HD
+p:,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2021
