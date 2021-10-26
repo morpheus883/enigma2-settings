@@ -603,9 +603,6 @@ transponders
 00820000:1a2c:fbff
 	s 12054000:29900000:0:4:130:2:0:1:1:0:2
 /
-00820000:1a90:fbff
-	s 12073000:29900000:1:4:130:2:0:1:1:0:2
-/
 00820000:1af4:fbff
 	s 12092000:29900000:0:3:130:2:0:1:2:0:2
 /
@@ -782,6 +779,9 @@ transponders
 /
 00820000:3e1c:013f
 	s 11681000:27500000:0:3:130:2:0:1:2:0:2
+/
+0082ad41:3c28:013e
+	s 11585000:27500000:1:3:130:2:0:1:2:0:2
 /
 end
 services
@@ -1779,7 +1779,7 @@ p:ARD
 Comedy Central Austria
 p:MTV Networks,f:1
 003d:00c00000:0007:0085:1:0
-Nick Austria
+Nick/Comedy Central Austria
 p:MTV Networks,f:1
 0202:00c00000:0007:0085:1:0
 Immer etwas Neues TV
@@ -5285,6 +5285,9 @@ p:A1 Broadcasting
 077b:00a00000:c6d4:016e:22:0
 Zapad TV
 p:A1 Broadcasting,f:1
+0780:00a00000:c6d4:016e:25:0
+Arena HD
+p:A1 Broadcasting,f:1
 0709:00a00000:c5a8:016e:22:0
 HRT 1 (SLO 1)
 p:VIPnet,f:1
@@ -6102,7 +6105,7 @@ p:A1 HR,f:1
 Extasy 4K
 p:Antik Sat,f:1
 025a:00a00000:c418:016e:25:0
-Test
+JOJ Sport HD
 p:Antik,f:1
 025c:00a00000:c418:016e:25:0
 Arena HD
@@ -6471,7 +6474,7 @@ p:Orange TV,f:1
 Golf Channel CZ
 p:Orange TV,f:1
 0071:00a00000:9f60:016e:22:0
-Investigation Discovery Xtra
+IDX Pan Regional SD
 p:Orange TV,f:1
 0072:00a00000:9f60:016e:22:0
 Leo TV/Extasy
@@ -6850,9 +6853,6 @@ Duga Plus
 p:H,f:1
 0076:00a02bfe:0001:016e:1:0
 AMC Balkan
-p:H,f:1
-0073:00a02bfe:0001:016e:25:0
-Fashion TV HD
 p:H,f:1
 006c:00a02bfe:0001:016e:22:0
 Supersat TV
@@ -8229,7 +8229,7 @@ p:NetMed,f:1
 NovalifåxtraHD
 p:NetMed,f:1
 013c:00820000:157c:013e:1:0
-Junior SD
+Disney Junior
 p:NetMed,f:1
 1e5b:00820000:15e0:fbff:25:0
 Primafila 1 HD
@@ -8716,27 +8716,6 @@ Sky Sport Tennis
 p:SkyItalia,f:1
 10fe:00820000:1a2c:fbff:1:0
 Caccia e Pesca +1
-p:SkyItalia,f:1
-2c23:00820000:1a90:fbff:1:0
-IEPG Data
-p:SkyItalia,f:1
-2c21:00820000:1a90:fbff:132:0
-Dl681
-p:SkyItalia
-2c1a:00820000:1a90:fbff:251:0
-Fusion BGDL 11290
-p:SkyItalia
-0584:00820000:1a90:fbff:1:0
-Sky Atlantic
-p:SkyItalia,f:1
-1018:00820000:1a90:fbff:25:0
-Cielo HD
-p:SkyItalia,f:1
-1c5c:00820000:1a90:fbff:25:0
-TV8 HD
-p:SkyItalia,f:1
-2d6c:00820000:1a90:fbff:31:0
-Sky Sport 4K
 p:SkyItalia,f:1
 0e0e:00820000:1af4:fbff:1:0
 IEPG Data
@@ -10197,7 +10176,7 @@ p:Netmed
 M3_TEST7
 p:NetMed,f:1
 1bc0:00822ea2:17d4:013e:1:0
-Nova Mad Cine Sounds
+DuckTV
 p:NetMed,f:1
 0009:00822c46:02bc:013e:1:0
 SonLife Broadcasting Network
@@ -10224,8 +10203,8 @@ p:,f:1
 Kentron TV
 p:iKO Media Group,f:1
 03e9:00822c46:02bc:013e:1:0
-Vatican Channel
-p:GLOBECAST ITALY,f:1
+Vidrodjennya
+p:Harmonic,f:1
 4205:00820000:2f44:013e:1:0
 Dorcel TV HD
 p:AB Sat,f:1
@@ -10446,7 +10425,7 @@ p:Cyfrowy Polsat S.A.,f:1
 Disney Junior Middle-East & Africa
 p:Cyfrowy Polsat S.A.,f:1
 2905:00822ffc:1edc:0071:1:0
-TNT Polska HD
+Warner Polska HD
 p:Cyfrowy Polsat S.A.,f:1
 2906:00822ffc:1edc:0071:1:0
 Cartoon Network Eastern Europe HD
@@ -10479,7 +10458,7 @@ p:Cyfrowy Polsat S.A.,f:1
 Discovery Science HD
 p:Cyfrowy Polsat S.A.,f:1
 292d:00822ffc:1edc:0071:1:0
-TNT HD
+Warner HD
 p:Cyfrowy Polsat S.A.,f:1
 292e:00822ffc:1edc:0071:1:0
 Polsat Box Promo
@@ -10605,7 +10584,7 @@ p:CANAL+,f:1
 TVP Seriale
 p:CANAL+,f:1
 3d5e:00820000:2c88:013e:1:0
-National Geographic Polska
+Puls 2 HD
 p:CANAL+,f:1
 3d61:00820000:2c88:013e:1:0
 Kino TV (Polska)
@@ -10723,6 +10702,9 @@ Novelas+
 p:CANAL+,f:1
 3784:00822c93:044c:013e:25:0
 TeenNick
+p:CANAL+,f:1
+37b5:00822c93:044c:013e:25:0
+Novelas+
 p:CANAL+,f:1
 11fb:00820000:2b5c:013e:31:0
 TravelXP 4K
@@ -12113,6 +12095,18 @@ p:SkyItalia
 1063:00822fae:1d4c:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
+0584:00822fae:1d4c:fbff:1:0
+Sky Atlantic
+p:SkyItalia,f:1
+1018:00822fae:1d4c:fbff:25:0
+Cielo HD
+p:SkyItalia,f:1
+1c5c:00822fae:1d4c:fbff:25:0
+TV8 HD
+p:SkyItalia,f:1
+2d6c:00822fae:1d4c:fbff:31:0
+Sky Sport 4K
+p:SkyItalia,f:1
 0191:00820000:1518:013e:1:0
 MTV 00s
 p:NOVA,f:1
@@ -12163,6 +12157,9 @@ DuckTV
 p:Nova,f:1
 01a0:00820000:1518:013e:1:0
 TLC
+p:Nova,f:1
+01a1:00820000:1518:013e:1:0
+HB
 p:Nova,f:1
 0001:0082b176:4321:00eb:1:0
 Fi07FRAMP
@@ -12230,6 +12227,12 @@ p:Eutelsat,f:1
 0146:00820000:3e1c:013f:1:0
 LCI - La Chaîne Info
 p:Eutelsat,f:1
+036c:0082ad41:3c28:013e:1:0
+CGTN Russian
+p:CCTV,f:1
+036d:0082ad41:3c28:013e:1:0
+CGTN Arabic
+p:CCTV,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2021
