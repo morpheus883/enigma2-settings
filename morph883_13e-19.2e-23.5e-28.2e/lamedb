@@ -477,11 +477,11 @@ transponders
 00eb0000:0c8a:0003
 	s 11895000:30000000:1:3:235:2:0:1:2:2:2
 /
-00eb2ced:0001:0000
-	s 11501000:7200000:0:3:235:2:0:1:2:0:2
-/
 00ebb0dc:0001:ffff
 	s 12508000:3600000:1:3:235:2:0:1:2:0:2
+/
+00eb2ced:0001:ffff
+	s 11501000:7200000:0:3:235:2:0:1:2:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -1435,15 +1435,15 @@ IEPG data 1
 p:BSkyB,f:1
 0edc:011a0000:07d8:0002:25:0
 Eurosport 1 HD
-p:Sky Digital,f:1
+p:BSkyB,f:1
 0f24:011a0000:07d8:0002:25:0
 E4 HD
-p:Sky Digital,f:1
+p:BSkyB,f:1
 0f4e:011a0000:07d8:0002:25:0
 Eurosport 2 HD
 p:BSkyB,f:1
 0e2e:011a0000:07d8:0002:25:0
-Sky Sports 1 Ireland HD
+SkySpMainEvHD
 p:BSkyB,f:1
 0f12:011a0000:07d8:0002:25:0
 Sky Sports Arena HD
@@ -1451,14 +1451,14 @@ p:BSkyB,f:1
 0f64:011a0000:07d8:0002:25:0
 Sky Sports Arena HD
 p:BSkyB,f:1
-0e27:011a0000:07d8:0002:25:0
-Sky One HD
-p:BSkyB,f:1
 1ae1:011a0000:07d8:0002:25:0
 Virgin One HD
 p:BSkyB,f:1
 13b6:011a0000:07d8:0002:25:0
 Virgin Two HD
+p:BSkyB,f:1
+146f:011a0000:07d8:0002:25:0
+Sky Climate HD
 p:BSkyB,f:1
 1839:011a0000:07f3:0002:1:0
 Discovery Channel
@@ -2240,21 +2240,6 @@ p:BSkyB,f:1
 16cb:011a0000:07d7:0002:1:0
 Sky Replay
 p:Sky Digital,f:1
-d138:011a0000:0832:0002:1:0
-SonLife Broadcasting Network
-p:Sky Digital,f:1
-d147:011a0000:0832:0002:1:0
-Get Lucky
-p:BSkyB,f:1
-d148:011a0000:0832:0002:1:0
-Psychic Today
-p:BSkyB,f:1
-d12a:011a0000:0832:0002:1:0
-HUM Masala
-p:BSkyB,f:1
-d14c:011a0000:0832:0002:1:0
-Hum Europe
-p:BSkyB,f:1
 d15b:011a0000:0832:0002:25:0
 eir Sport 1 HD
 p:BSkyB,f:1
@@ -2262,7 +2247,7 @@ d15c:011a0000:0832:0002:25:0
 eir Sport 1 HD
 p:BSkyB,f:1
 d357:011a0000:0830:0002:1:0
-High Street TV 5
+High Street TV 4
 p:BSkyB,f:1
 d35b:011a0000:0830:0002:1:0
 SAB TV
@@ -2312,9 +2297,12 @@ p:BSkyB,f:1
 d381:011a0000:0830:0002:1:0
 Takbeer TV
 p:BSkyB,f:1
-c7aa:011a0000:0817:0002:2:0
-Newstalk
-p:Sky Digital
+d359:011a0000:0830:0002:1:0
+Get Lucky
+p:BSkyB,f:1
+d35a:011a0000:0830:0002:1:0
+Direct Store TV
+p:BSkyB,f:1
 c7b0:011a0000:0817:0002:1:0
 Racing UK
 p:Sky Digital,f:1
@@ -2395,37 +2383,37 @@ LoveWorld HD
 p:Sky Digital,f:1
 2541:011a0000:082f:0002:1:0
 The Craft Store
-p:Freesat,f:1
+p:BSkyB,f:1
 254d:011a0000:082f:0002:2:0
 Capital XTRA
-p:Freesat
+p:BSkyB
 2557:011a0000:082f:0002:2:0
 XFM 104.9
-p:Freesat
+p:BSkyB
 2558:011a0000:082f:0002:2:0
 Capital FM London
-p:Freesat
+p:BSkyB
 2559:011a0000:082f:0002:2:0
 Gold
-p:Freesat
+p:BSkyB
 255b:011a0000:082f:0002:2:0
 Radio Khushkhabri
-p:Sky Digital
+p:BSkyB
 2562:011a0000:082f:0002:2:0
 Classic FM
-p:Freesat
+p:BSkyB
 2567:011a0000:082f:0002:2:0
 Planet Rock
-p:Freesat
+p:BSkyB
 d73e:011a0000:082f:0002:1:0
 High Street TV 2
 p:BSkyB,f:1
 d740:011a0000:082f:0002:1:0
-High Street TV 4
-p:Freesat,f:1
+High Street TV 3
+p:BSkyB,f:1
 d745:011a0000:082f:0002:1:0
 Noor TV
-p:Sky Digital,f:1
+p:BSkyB,f:1
 d749:011a0000:082f:0002:1:0
 Clubland TV
 p:BSkyB,f:1
@@ -2434,7 +2422,7 @@ NDTV 24x7
 p:BSkyB,f:1
 d75c:011a0000:082f:0002:2:0
 Smooth Radio
-p:Sky Digital
+p:BSkyB
 d75d:011a0000:082f:0002:2:0
 Heart Dance
 p:BSkyB
@@ -2472,13 +2460,22 @@ d765:011a0000:082f:0002:1:0
 Channels 24
 p:BSkyB,f:1
 d73c:011a0000:082f:0002:1:0
-Jewellery Ch.
+TJC
 p:BSkyB,f:1
 d742:011a0000:082f:0002:1:0
 NTD (New Tang Dynasty TV)
 p:BSkyB,f:1
 d791:011a0000:082f:0002:1:0
 Deen TV
+p:BSkyB,f:1
+d78d:011a0000:082f:0002:1:0
+Hum Europe
+p:BSkyB,f:1
+d76a:011a0000:082f:0002:1:0
+HUM Masala
+p:BSkyB,f:1
+d750:011a0000:082f:0002:1:0
+SonLife Broadcasting Network
 p:BSkyB,f:1
 c6d7:011a0000:0840:0002:1:0
 CBS Drama
@@ -2710,15 +2707,9 @@ Ahlebait TV
 p:BSkyB,f:1
 5850:011a0000:082e:0002:1:0
 KICC TV
-p:Sky Digital,f:1
+p:BSkyB,f:1
 5851:011a0000:082e:0002:1:0
 Xpanded TV
-p:BSkyB,f:1
-5854:011a0000:082e:0002:1:0
-Made in Liverpool
-p:BSkyB,f:1
-5853:011a0000:082e:0002:1:0
-Made in Birmingham
 p:BSkyB,f:1
 5858:011a0000:082e:0002:1:0
 iON TV
@@ -2726,17 +2717,8 @@ p:BSkyB,f:1
 5857:011a0000:082e:0002:1:0
 92 News
 p:BSkyB,f:1
-5861:011a0000:082e:0002:1:0
-Made In Tyne & Wear
-p:BSkyB,f:1
-585e:011a0000:082e:0002:1:0
-Made In Bristol
-p:BSkyB,f:1
-5860:011a0000:082e:0002:1:0
-Made In Leeds
-p:BSkyB,f:1
 585f:011a0000:082e:0002:1:0
-Made In Cardiff
+Local TV
 p:BSkyB,f:1
 587b:011a0000:082e:0002:2:0
 WRN Europe
@@ -2750,14 +2732,14 @@ p:BSkyB,f:1
 585c:011a0000:082e:0002:1:0
 Channel 44
 p:BSkyB,f:1
-5856:011a0000:082e:0002:1:0
-Showcase
-p:BSkyB,f:1
 5859:011a0000:082e:0002:1:0
 Hi-Impact TV
 p:BSkyB,f:1
 5867:011a0000:082e:0002:25:0
 SportyStuff HD
+p:BSkyB,f:1
+5856:011a0000:082e:0002:1:0
+Ayozat TV
 p:BSkyB,f:1
 571d:011a0000:082b:0002:1:0
 QVC Extra
@@ -2897,9 +2879,6 @@ p:Sky Digital,f:1
 cbea:011a2b68:0813:0002:1:0
 Iqra Bangla
 p:Sky Digital,f:1
-c518:011a2b68:0813:0002:1:0
-High Street TV 3
-p:BSkyB,f:1
 c4eb:011a2b68:0813:0002:1:0
 Gems TV
 p:BSkyB,f:1
@@ -2959,6 +2938,9 @@ PrimeVideo HD
 p:BSkyB,f:1
 0f49:011a0000:07ed:0002:25:0
 SkySpCricket HD
+p:BSkyB,f:1
+13b7:011a0000:07ed:0002:25:0
+Prime Video HD
 p:BSkyB,f:1
 ccb0:011a0000:080e:0002:1:0
 Investigation Discovery Europe
@@ -6167,12 +6149,12 @@ p:,f:1
 4f2f:00eb0000:0c8a:0003:1:0
 Klan Macedonia
 p:,f:1
-0001:00eb2ced:0001:0000:25:0
-2Sat.nl HOL89 Main
-p:2-SAT Europe,f:1
 0001:00ebb0dc:0001:ffff:1:0
 RTSH SNG HD
 p:RTSH SNG HD,f:1
+0001:00eb2ced:0001:ffff:1:0
+D-413-Enc1 3.Liga Verl
+p:TelLink,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -6833,6 +6815,12 @@ p:
 1b64:00c00000:03fc:0001:1:0
 Arirang HD
 p:Globecast,f:1
+1b59:00c00000:03fc:0001:1:0
+Algerie 3
+p:GLOBECAST,f:1
+1b5a:00c00000:03fc:0001:1:0
+Canal Algérie
+p:GLOBECAST,f:1
 1af9:00c00000:03fe:0001:1:0
 France 24 (en Français)
 p:GlobeCast,f:1
@@ -6853,6 +6841,12 @@ DATASYSTEM
 p:
 1b06:00c00000:03fe:0001:1:0
 TRT World HD
+p:GLOBECAST,f:1
+1af5:00c00000:03fe:0001:1:0
+Algerie 3
+p:GLOBECAST,f:1
+1af6:00c00000:03fe:0001:1:0
+Canal Algérie
 p:GLOBECAST,f:1
 2753:00c00000:0402:0001:1:0
 Bloomberg Europe
@@ -12074,6 +12068,9 @@ p:GLOBECAST
 2a0f:00820000:1c20:013e:2:0
 RADIO ORIENT
 p:GLOBECAST
+0e3e:00820000:1c20:013e:2:0
+Voce Della Speranza
+p:M-Three Satcom Srl
 015f:00820000:1c84:013e:1:0
 Discovery Channel Greece
 p:Nova,f:1
@@ -13337,6 +13334,9 @@ p:M7 Group,f:1
 4227:00820000:2f44:013e:25:0
 Private HD SBB
 p:M7 Group,f:1
+4229:00820000:2f44:013e:22:0
+Blue Hustler Nova
+p:M7 Group,f:1
 0001:00820000:1770:0110:1:0
 Italia Uno
 p:Mediaset,f:1
@@ -13367,6 +13367,12 @@ p:,f:1
 004f:00820000:1770:0110:25:0
 La7 HD
 p:,f:1
+0003:00820000:1770:0110:1:0
+Rete 4
+p:Mediaset,f:1
+006a:00820000:1770:0110:2:0
+Radio Orbital
+p:
 1421:00822ce0:05dc:013e:1:0
 CANAL+ Domo HD
 p:CANAL+,f:1
@@ -15004,6 +15010,9 @@ Premium Cinema 1 +24 HD
 p:SkyItalia,f:1
 2da8:00822fd5:1e14:fbff:25:0
 Premium Action HD
+p:SkyItalia,f:1
+2d9b:00822fd5:1e14:fbff:25:0
+Sky News Climate Live
 p:SkyItalia,f:1
 2b68:00822e7c:170c:fbff:1:0
 Informativa privacy e consenso

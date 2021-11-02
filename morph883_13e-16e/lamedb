@@ -225,6 +225,9 @@ transponders
 00a031bd:0001:0001
 	s 12733000:3550000:0:3:160:2:0
 /
+00a0b1c7:0000:0000
+	s 12743000:2400000:1:3:160:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -884,6 +887,9 @@ p:DigitALB,f:1
 027a:00a00000:51a4:016e:9:0
 OTA SMIT MSD
 p:DigitALB
+10cc:00a00000:51a4:016e:1:0
+RTSH Shqip
+p:DigitALB,f:1
 0001:00a0316e:0065:ffff:1:0
 UNIRE 1 - GRIGIO
 p:,f:1
@@ -2819,12 +2825,15 @@ p:RTV Pink,f:1
 0001:00a03182:0000:0000:0:0
 Zadruga uplink
 p:Pink
-0101:00a0b1c7:0001:0001:1:0
-IRAQALFAN
-p:TV-Provider,f:1
 0001:00a031bd:0001:0001:1:0
 BHRT- DSNG
 p:BHRT- DSNG,f:1
+0001:00a0b1c7:0000:0000:22:0
+E16a
+p:,f:1
+0101:00a0b1c7:0000:0000:1:0
+IRAQALFAN
+p:TV-Provider,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -4772,6 +4781,9 @@ p:GLOBECAST
 2a0f:00820000:1c20:013e:2:0
 RADIO ORIENT
 p:GLOBECAST
+0e3e:00820000:1c20:013e:2:0
+Voce Della Speranza
+p:M-Three Satcom Srl
 015f:00820000:1c84:013e:1:0
 Discovery Channel Greece
 p:Nova,f:1
@@ -6035,6 +6047,9 @@ p:M7 Group,f:1
 4227:00820000:2f44:013e:25:0
 Private HD SBB
 p:M7 Group,f:1
+4229:00820000:2f44:013e:22:0
+Blue Hustler Nova
+p:M7 Group,f:1
 0001:00820000:1770:0110:1:0
 Italia Uno
 p:Mediaset,f:1
@@ -6065,6 +6080,12 @@ p:,f:1
 004f:00820000:1770:0110:25:0
 La7 HD
 p:,f:1
+0003:00820000:1770:0110:1:0
+Rete 4
+p:Mediaset,f:1
+006a:00820000:1770:0110:2:0
+Radio Orbital
+p:
 1421:00822ce0:05dc:013e:1:0
 CANAL+ Domo HD
 p:CANAL+,f:1
@@ -7702,6 +7723,9 @@ Premium Cinema 1 +24 HD
 p:SkyItalia,f:1
 2da8:00822fd5:1e14:fbff:25:0
 Premium Action HD
+p:SkyItalia,f:1
+2d9b:00822fd5:1e14:fbff:25:0
+Sky News Climate Live
 p:SkyItalia,f:1
 2b68:00822e7c:170c:fbff:1:0
 Informativa privacy e consenso
