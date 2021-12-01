@@ -393,11 +393,11 @@ fed43159:0001:ffff
 0ce431c1:0001:ffff
 	s 12737000:5000000:0:3:-300:2:0:1:2:0:2
 /
-0ce431af:00a0:0000
-	s 12719000:5000000:0:3:-300:2:0:1:2:0:2
-/
 0ce431b5:0000:0000
 	s 12725000:5000000:0:3:-300:2:0:1:2:0:2
+/
+0ce431af:0001:ffff
+	s 12719000:5000000:0:3:-300:2:0:1:2:0:2
 /
 end
 services
@@ -962,9 +962,6 @@ p:Telespazio,f:1
 1355:00820000:33f4:013e:2:0
 Radio Radio
 p:Telespazio
-1332:00820000:33f4:013e:1:0
-Bike Channel
-p:Harmonic,f:1
 1364:00820000:33f4:013e:1:0
 Canale Italia
 p:Harmonic,f:1
@@ -2095,6 +2092,9 @@ Nickelodeon +1
 p:SkyItalia,f:1
 2c29:00820000:1af4:fbff:25:0
 SuperTennis HD
+p:SkyItalia,f:1
+1006:00820000:1af4:fbff:25:0
+Bike Channel
 p:SkyItalia,f:1
 02c1:00820000:1b58:013e:1:0
 Al Jazeera Documentary
@@ -3482,6 +3482,9 @@ p:NetMed,f:1
 1bc0:00822ea2:17d4:013e:1:0
 DuckTV
 p:NetMed,f:1
+1bc8:00822ea2:17d4:013e:1:0
+CNNi HD
+p:NetMed,f:1
 0009:00822c46:02bc:013e:1:0
 SonLife Broadcasting Network
 p:ARQIVA,f:1
@@ -4092,7 +4095,7 @@ p:Rai,f:1
 Rai 5 HD
 p:Rai,f:1
 4536:00820000:30d4:013e:1:0
-UNINETTUNO UNIVERSITY TV
+Uninettuno University TV
 p:Rai,f:1
 374a:00822d06:06a4:013e:25:0
 Kabelio n.n
@@ -5562,7 +5565,7 @@ p:Meo,f:1
 SIC Kids
 p:Meo,f:1
 0085:0ce40000:0065:0053:1:0
-TVI 24
+CNN Portugal
 p:Meo,f:1
 0067:0ce40000:0065:0053:1:0
 Record Internacional
@@ -5613,8 +5616,8 @@ p:TVI HD,f:1
 RTP 3
 p:RTP 3,f:1
 009c:0ce40000:0065:0053:1:0
-TVI 24
-p:TVI 24,f:1
+CNN Portugal
+p:CNN Portugal,f:1
 009d:0ce40000:0065:0053:1:0
 CMTV
 p:CMTV,f:1
@@ -6270,7 +6273,7 @@ p:Meo,f:1
 SyFy
 p:,f:1
 13b2:0ce40000:0030:0036:1:0
-TVI Reality - Big Brother
+TVI Reality
 p:,f:1
 17b4:0ce40000:0030:0036:1:0
 Kuriakos TV
@@ -7583,12 +7586,12 @@ p:UCM,f:1
 0001:0ce431c1:0001:ffff:1:0
 E96_VIA1
 p:TANDBERG Television,f:1
-0011:0ce431af:00a0:0000:1:0
-CANAL MONCLOA
-p:OVERON E399 V1,f:1
 0001:0ce431b5:0000:0000:25:0
 E-268 feed 1
 p:,f:1
+0001:0ce431af:0001:ffff:1:0
+E-433 Via 1
+p:Service Provider,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2021
