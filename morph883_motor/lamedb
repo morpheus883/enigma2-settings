@@ -1149,6 +1149,9 @@ transponders
 014a2bae:0000:0000
 	s 11182000:4800000:0:3:330:2:0:1:2:0:2
 /
+014a0000:04b0:004b
+	s 11421000:8333000:1:0:330:2:0:1:1:0:2
+/
 013b0000:1456:0005
 	s 11817000:27500000:1:3:315:2:0
 /
@@ -3456,9 +3459,6 @@ transponders
 0046abb4:0001:00c8
 	s 11188000:3674000:1:3:70:2:0:1:2:0:2
 /
-0046aad2:4321:00eb
-	s 10962000:9875000:1:0:70:2:0:1:2:0:2
-/
 0046adac:1000:2000
 	s 11692000:4800000:1:3:70:2:0:1:2:0:2
 /
@@ -3485,6 +3485,9 @@ transponders
 /
 00460000:0001:0e26
 	s 11107000:7200000:1:3:70:2:0:1:2:0:2
+/
+0046aad2:4321:0001
+	s 10962000:9875000:1:0:70:2:0:1:2:0:2
 /
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
@@ -3627,9 +3630,6 @@ transponders
 001e2d87:0001:0001
 	s 11655000:4444000:0:3:30:2:0:1:2:0:2
 /
-001e0000:0001:0006
-	s 11280000:10000000:0:2:30:2:0:1:2:0:2
-/
 001e2da7:0001:ffff
 	s 11687000:1504000:0:3:30:2:0:1:2:0:2
 /
@@ -3668,9 +3668,6 @@ transponders
 /
 001eb112:0001:0001
 	s 12562000:2220000:1:3:30:2:0:1:2:0:2
-/
-001eb11e:0001:0001
-	s 12574000:5000000:1:2:30:2:0:1:2:0:2
 /
 001e2b1e:0001:ffff
 	s 11038000:1600000:0:3:30:2:0:1:2:0:2
@@ -4241,9 +4238,6 @@ ffce2cbe:03e8:0001
 /
 ffce3129:032a:0000
 	s 12585000:35500000:0:2:-50:2:0:1:2:0:2:20:8:0
-/
-ffceab05:0001:013e
-	s 11013000:35300000:1:2:-50:2:0:1:2:0:2:1:131070:1
 /
 ffba0000:0005:0800
 	s 11766000:27500000:0:4:-70:2:0
@@ -4854,9 +4848,6 @@ fed43159:0001:ffff
 0ce42d2f:0001:ffff
 	s 11567000:3000000:0:3:-300:2:0:1:1:0:2
 /
-0ce431c1:0001:ffff
-	s 12737000:5000000:0:3:-300:2:0:1:2:0:2
-/
 0ce431b5:0000:0000
 	s 12725000:5000000:0:3:-300:2:0:1:2:0:2
 /
@@ -4935,12 +4926,6 @@ eeee0000:03a2:0110
 eeee0000:27d7:217c
 	t 618000000:0:5:5:3:2:4:4:2:0:0:0
 /
-eeee0000:0039:217c
-	t 762000000:0:5:5:3:2:4:4:2:0:0:0
-/
-eeee0000:0107:217c
-	t 506000000:0:5:5:3:2:4:4:2:0:0:0
-/
 eeee0000:20d0:217c
 	t 770000000:0:5:5:3:2:4:4:2:0:0:0
 /
@@ -4959,9 +4944,6 @@ eeee0000:0385:0110
 eeee0000:23e5:217c
 	t 642000000:0:5:5:3:2:4:4:2:0:0:0
 /
-eeee0000:0204:001d
-	t 682000000:0:5:5:3:2:4:4:2:0:0:0
-/
 eeee0000:0200:001d
 	t 690000000:0:5:5:3:2:4:4:2:0:0:0
 /
@@ -4979,6 +4961,15 @@ eeee0000:47d0:217c
 /
 eeee0000:0002:217c
 	t 626000000:0:6:6:2:1:0:0:2:0:0:0
+/
+eeee0000:0107:217c
+	t 506000000:0:5:5:3:2:4:4:2:0:0:0
+/
+eeee0000:0039:217c
+	t 762000000:0:5:5:3:2:4:4:2:0:0:0
+/
+eeee0000:0204:001d
+	t 682000000:0:5:5:3:2:4:4:2:0:0:0
 /
 end
 services
@@ -11618,6 +11609,9 @@ p:TURKSAT,f:1
 c9c4:01a40000:76c1:042e:1:0
 Nasaem Radio
 p:TURKSAT,f:1
+c9c5:01a40000:76c1:042e:1:0
+Halab_Today
+p:TURKSAT,f:1
 3b01:01a40000:a98a:042e:2:0
 RADYO MUTLU
 p:TTNET
@@ -15860,6 +15854,12 @@ p:,f:1
 0001:014a2bae:0000:0000:25:0
 POL34
 p:TVP POL34,f:1
+012d:014a0000:04b0:004b:1:0
+SERVICE IP/MAC NOTIFICATION
+p:EUTELSAT,f:1
+00c8:014a0000:04b0:004b:12:0
+SmartLNB
+p:EUTELSAT
 1d92:013b0000:1456:0005:1:0
 VTV Romania
 p:,f:1
@@ -21830,6 +21830,12 @@ p:M7 Group,f:1
 3700:00eb0000:0c8c:0003:25:0
 Epic Drama HD
 p:M7 Group,f:1
+36ed:00eb0000:0c8c:0003:22:0
+Prima Star
+p:M7 Group,f:1
+36ee:00eb0000:0c8c:0003:22:0
+Prima Show
+p:M7 Group,f:1
 1d2e:00eb0000:0c97:0003:14:0
 Astra2Connect
 p:Astra2Connect
@@ -23864,204 +23870,204 @@ p:M7 Group,f:1
 0001:00ebb0fb:0001:0001:25:0
 SLQ-004
 p:SLQ-004,f:1
-041a:00ebad96:0000:0001:2:0
-1050 - SuperNova Kielce
-p:
-042e:00ebad96:0000:0001:2:0
-1070 - SuperNova Krakow
-p:
-044c:00ebad96:0000:0001:2:0
-1100 - SuperNova Lodz
-p:
-0460:00ebad96:0000:0001:2:0
-1120 - SuperNova Opole
-p:
-047e:00ebad96:0000:0001:2:0
-1150 - SuperNova Torun
-p:
-0492:00ebad96:0000:0001:2:0
-1170 - SuperNova Gdansk
-p:
-049c:00ebad96:0000:0001:2:0
-1180 - SuperNova Wroclaw
-p:
-04d8:00ebad96:0000:0001:2:0
-1240 - SuperNova Rzeszow
-p:
-04ec:00ebad96:0000:0001:2:0
-1260 - SuperNova Szczecin
-p:
-050a:00ebad96:0000:0001:2:0
-1290 - SuperNova Nowy Sacz
-p:
-0564:00ebad96:0000:0001:2:0
-1380 - SuperNova Warszawa
-p:
-05c8:00ebad96:0000:0001:2:0
-1480 - SuperNova Jelenia Gora
-p:
-05e6:00ebad96:0000:0001:2:0
-1510 - SuperNova Trzebnica
-p:
-05fa:00ebad96:0000:0001:2:0
-1530 - SuperNova Paprotnia
-p:
-07d0:00ebad96:0000:0001:2:0
-2000 - ESKA SES
-p:
-07da:00ebad96:0000:0001:2:0
-2010 - ESKA Belchatow
-p:
-07e4:00ebad96:0000:0001:2:0
-2020 - ESKA Bialystok
-p:
-07ee:00ebad96:0000:0001:2:0
-2030 - ESKA Bydgoszcz
-p:
-07f8:00ebad96:0000:0001:2:0
-2040 - ESKA Gorzow
-p:
-0802:00ebad96:0000:0001:2:0
+0802:00ebad96:0000:0001:1:0
 2050 - ESKA Kielce
-p:
-080c:00ebad96:0000:0001:2:0
-2060 - ESKA Siedlce
-p:
-0816:00ebad96:0000:0001:2:0
-2070 - ESKA Krakow
-p:
-0820:00ebad96:0000:0001:2:0
-2080 - ESKA Leszno
-p:
-082a:00ebad96:0000:0001:2:0
-2090 - ESKA Pila
-p:
-0834:00ebad96:0000:0001:2:0
-2100 - ESKA Lodz
-p:
-083e:00ebad96:0000:0001:2:0
-2110 - ESKA Olsztyn
-p:
-0848:00ebad96:0000:0001:2:0
-2120 - ESKA Opole
-p:
-0852:00ebad96:0000:0001:2:0
-2130 - ESKA Lublin
-p:
-085c:00ebad96:0000:0001:2:0
-2140 - ESKA Poznan
-p:
-0866:00ebad96:0000:0001:2:0
-2150 - ESKA Torun
-p:
-0870:00ebad96:0000:0001:2:0
-2160 - ESKA Tarnow
-p:
-087a:00ebad96:0000:0001:2:0
-2170 - ESKA Trojmiasto
-p:
-0884:00ebad96:0000:0001:2:0
-2180 - ESKA Wroclaw
-p:
-088e:00ebad96:0000:0001:2:0
-2190 - ESKA Zielona Gora
-p:
-0898:00ebad96:0000:0001:2:0
-2200 - ESKA Ostrow
-p:
-08a2:00ebad96:0000:0001:2:0
-2210 - ESKA Radom
-p:
-08ac:00ebad96:0000:0001:2:0
-2220 - ESKA Slask
-p:
-08b6:00ebad96:0000:0001:2:0
-2230 - ESKA Zamosc
-p:
-08c0:00ebad96:0000:0001:2:0
-2240 - ESKA Rzeszow
-p:
-08ca:00ebad96:0000:0001:2:0
-2250 - ESKA Plock
-p:
-08d4:00ebad96:0000:0001:2:0
-2260 - ESKA Szczecin
-p:
-08de:00ebad96:0000:0001:2:0
-2270 - ESKA Koszalin
-p:
-08fc:00ebad96:0000:0001:2:0
-2300 - ESKA Beskidy/Zywiec
-p:
-0906:00ebad96:0000:0001:2:0
+p:,f:1
+0906:00ebad96:0000:0001:1:0
 2310 - ESKA Szczecinek
-p:
-0910:00ebad96:0000:0001:2:0
-2320 - ESKA Przemysl
-p:
-091a:00ebad96:0000:0001:2:0
-2330 - ESKA Malopolska
-p:
-0938:00ebad96:0000:0001:2:0
-2360 - ESKA Krasnik
-p:
-0960:00ebad96:0000:0001:2:0
-2400 - ESKA Starachowice
-p:
-0974:00ebad96:0000:0001:2:0
-2420 - ESKA Zary
-p:
-097e:00ebad96:0000:0001:2:0
-2430 - ESKA Elblag
-p:
-0988:00ebad96:0000:0001:2:0
-2440 - ESKA Ilawa
-p:
-0992:00ebad96:0000:0001:2:0
-2450 - ESKA Grudziadz
-p:
-099c:00ebad96:0000:0001:2:0
-2460 - ESKA Lomza
-p:
-09b0:00ebad96:0000:0001:2:0
-2480 - ESKA Wroclaw JG
-p:
-09c4:00ebad96:0000:0001:2:0
-2500 - ESKA Ostrzeszow
-p:
-09d8:00ebad96:0000:0001:2:0
-2520 - ESKA Braniewo
-p:
-0be0:00ebad96:0000:0001:2:0
-3040 - VOX Gorzow
-p:
-0c44:00ebad96:0000:0001:2:0
-3140 - VOX Poznan
-p:
-0c8a:00ebad96:0000:0001:2:0
-3210 - VOX Radom
-p:
-0f96:00ebad96:0000:0001:2:0
-3990 - VOX
-p:
-0fa0:00ebad96:0000:0001:2:0
-4000 - PLUS SES
-p:
-100e:00ebad96:0000:0001:2:0
+p:,f:1
+050a:00ebad96:0000:0001:1:0
+1290 - SuperNova Nowy Sacz
+p:,f:1
+080c:00ebad96:0000:0001:1:0
+2060 - ESKA Siedlce
+p:,f:1
+100e:00ebad96:0000:0001:1:0
 4110 - PLUS Olsztyn
-p:
-1022:00ebad96:0000:0001:2:0
+p:,f:1
+0910:00ebad96:0000:0001:1:0
+2320 - ESKA Przemysl
+p:,f:1
+0816:00ebad96:0000:0001:1:0
+2070 - ESKA Krakow
+p:,f:1
+041a:00ebad96:0000:0001:1:0
+1050 - SuperNova Kielce
+p:,f:1
+091a:00ebad96:0000:0001:1:0
+2330 - ESKA Malopolska
+p:,f:1
+0820:00ebad96:0000:0001:1:0
+2080 - ESKA Leszno
+p:,f:1
+1022:00ebad96:0000:0001:1:0
 4130 - PLUS Lublin
-p:
-10ae:00ebad96:0000:0001:2:0
-4270 - PLUS Koszalin
-p:
-10f4:00ebad96:0000:0001:2:0
-4340 - PLUS Podhale
-p:
-1f4a:00ebad96:0000:0001:2:0
+p:,f:1
+082a:00ebad96:0000:0001:1:0
+2090 - ESKA Pila
+p:,f:1
+042e:00ebad96:0000:0001:1:0
+1070 - SuperNova Krakow
+p:,f:1
+0834:00ebad96:0000:0001:1:0
+2100 - ESKA Lodz
+p:,f:1
+0938:00ebad96:0000:0001:1:0
+2360 - ESKA Krasnik
+p:,f:1
+083e:00ebad96:0000:0001:1:0
+2110 - ESKA Olsztyn
+p:,f:1
+0c44:00ebad96:0000:0001:1:0
+3140 - VOX Poznan
+p:,f:1
+0848:00ebad96:0000:0001:1:0
+2120 - ESKA Opole
+p:,f:1
+1f4a:00ebad96:0000:0001:1:0
 8010 - Radio Rodzina
-p:
+p:,f:1
+044c:00ebad96:0000:0001:1:0
+1100 - SuperNova Lodz
+p:,f:1
+0852:00ebad96:0000:0001:1:0
+2130 - ESKA Lublin
+p:,f:1
+085c:00ebad96:0000:0001:1:0
+2140 - ESKA Poznan
+p:,f:1
+0460:00ebad96:0000:0001:1:0
+1120 - SuperNova Opole
+p:,f:1
+0960:00ebad96:0000:0001:1:0
+2400 - ESKA Starachowice
+p:,f:1
+0564:00ebad96:0000:0001:1:0
+1380 - SuperNova Warszawa
+p:,f:1
+0866:00ebad96:0000:0001:1:0
+2150 - ESKA Torun
+p:,f:1
+0870:00ebad96:0000:0001:1:0
+2160 - ESKA Tarnow
+p:,f:1
+0974:00ebad96:0000:0001:1:0
+2420 - ESKA Zary
+p:,f:1
+087a:00ebad96:0000:0001:1:0
+2170 - ESKA Trojmiasto
+p:,f:1
+047e:00ebad96:0000:0001:1:0
+1150 - SuperNova Torun
+p:,f:1
+097e:00ebad96:0000:0001:1:0
+2430 - ESKA Elblag
+p:,f:1
+0884:00ebad96:0000:0001:1:0
+2180 - ESKA Wroclaw
+p:,f:1
+0988:00ebad96:0000:0001:1:0
+2440 - ESKA Ilawa
+p:,f:1
+0c8a:00ebad96:0000:0001:1:0
+3210 - VOX Radom
+p:,f:1
+088e:00ebad96:0000:0001:1:0
+2190 - ESKA Zielona Gora
+p:,f:1
+0492:00ebad96:0000:0001:1:0
+1170 - SuperNova Gdansk
+p:,f:1
+0992:00ebad96:0000:0001:1:0
+2450 - ESKA Grudziadz
+p:,f:1
+0f96:00ebad96:0000:0001:1:0
+3990 - VOX
+p:,f:1
+0898:00ebad96:0000:0001:1:0
+2200 - ESKA Ostrow
+p:,f:1
+049c:00ebad96:0000:0001:1:0
+1180 - SuperNova Wroclaw
+p:,f:1
+099c:00ebad96:0000:0001:1:0
+2460 - ESKA Lomza
+p:,f:1
+0fa0:00ebad96:0000:0001:1:0
+4000 - PLUS SES
+p:,f:1
+08a2:00ebad96:0000:0001:1:0
+2210 - ESKA Radom
+p:,f:1
+08ac:00ebad96:0000:0001:1:0
+2220 - ESKA Slask
+p:,f:1
+10ae:00ebad96:0000:0001:1:0
+4270 - PLUS Koszalin
+p:,f:1
+09b0:00ebad96:0000:0001:1:0
+2480 - ESKA Wroclaw JG
+p:,f:1
+08b6:00ebad96:0000:0001:1:0
+2230 - ESKA Zamosc
+p:,f:1
+08c0:00ebad96:0000:0001:1:0
+2240 - ESKA Rzeszow
+p:,f:1
+09c4:00ebad96:0000:0001:1:0
+2500 - ESKA Ostrzeszow
+p:,f:1
+05c8:00ebad96:0000:0001:1:0
+1480 - SuperNova Jelenia Gora
+p:,f:1
+08ca:00ebad96:0000:0001:1:0
+2250 - ESKA Plock
+p:,f:1
+07d0:00ebad96:0000:0001:1:0
+2000 - ESKA SES
+p:,f:1
+08d4:00ebad96:0000:0001:1:0
+2260 - ESKA Szczecin
+p:,f:1
+04d8:00ebad96:0000:0001:1:0
+1240 - SuperNova Rzeszow
+p:,f:1
+09d8:00ebad96:0000:0001:1:0
+2520 - ESKA Braniewo
+p:,f:1
+07da:00ebad96:0000:0001:1:0
+2010 - ESKA Belchatow
+p:,f:1
+08de:00ebad96:0000:0001:1:0
+2270 - ESKA Koszalin
+p:,f:1
+0be0:00ebad96:0000:0001:1:0
+3040 - VOX Gorzow
+p:,f:1
+07e4:00ebad96:0000:0001:1:0
+2020 - ESKA Bialystok
+p:,f:1
+05e6:00ebad96:0000:0001:1:0
+1510 - SuperNova Trzebnica
+p:,f:1
+04ec:00ebad96:0000:0001:1:0
+1260 - SuperNova Szczecin
+p:,f:1
+07ee:00ebad96:0000:0001:1:0
+2030 - ESKA Bydgoszcz
+p:,f:1
+10f4:00ebad96:0000:0001:1:0
+4340 - PLUS Podhale
+p:,f:1
+07f8:00ebad96:0000:0001:1:0
+2040 - ESKA Gorzow
+p:,f:1
+05fa:00ebad96:0000:0001:1:0
+1530 - SuperNova Paprotnia
+p:,f:1
+08fc:00ebad96:0000:0001:1:0
+2300 - ESKA Beskidy/Zywiec
+p:,f:1
 0001:00ebacde:0bba:0001:1:0
 German Tote 2
 p:MB Satellite,f:1
@@ -39824,15 +39830,6 @@ p:beIN Sports TURKEY,f:1
 753d:0046abb4:0001:00c8:1:0
 GCUK Enc 13
 p:GlobeCast UK,f:1
-0001:0046aad2:4321:00eb:1:0
-G20 service 1
-p:EBUER,f:1
-0002:0046aad2:4321:00eb:1:0
-G20 service 2
-p:EBUER,f:1
-0003:0046aad2:4321:00eb:1:0
-G20 service3 BBC
-p:EBUER,f:1
 0001:0046adac:1000:2000:1:0
 RUS 076
 p:Harmonic,f:1
@@ -39863,6 +39860,9 @@ p:Telstra,f:1
 0001:00460000:0001:0e26:25:0
 WORLD FEED
 p:IRIB,f:1
+0001:0046aad2:4321:0001:25:0
+ITA 548 M#4 Feed B Main
+p:Elpitel,f:1
 0fa0:00300000:0006:0056:1:0
 TV Chile
 p:Viasat,f:1
@@ -40934,6 +40934,9 @@ p:Viasat,f:1
 0a25:00300000:0018:0044:1:0
 NIKI Junior
 p:Viasat,f:1
+09f1:00300000:0018:0044:31:0
+Eurosport 1 HD
+p:VIASAT,f:1
 0abe:00300000:001a:0044:25:0
 TV 1000 East HD
 p:VIASAT,f:1
@@ -40978,6 +40981,9 @@ Viasat History
 p:VIASAT,f:1
 1022:00300000:001a:0044:25:0
 ViP Serial HD
+p:VIASAT,f:1
+1059:00300000:001a:0044:22:0
+Penthouse
 p:VIASAT,f:1
 5014:003030a8:0441:0000:100:0
 AOL
@@ -46145,6 +46151,9 @@ p:Slovak Telekom,f:1
 271f:0e080000:0afa:00bb:25:0
 M4 Sport HD
 p:Slovak Telekom,f:1
+2721:0e080000:0afa:00bb:25:0
+RTVS Sport HD
+p:Slovak Telekom,f:1
 2337:0e080000:0af9:00bb:22:0
 Duna World
 p:Slovak Telekom,f:1
@@ -46292,12 +46301,12 @@ p:,f:1
 007b:fff8b18f:000c:000a:1:0
 4K HERiTAGE
 p:iChannel LTD,f:1
-0001:0e08ad0e:0001:0001:25:0
-UKi 447 Path 2
-p:HiSat Broadcast,f:1
-0001:0e08ad12:0001:0001:25:0
-UKi 447 Path 2
-p:HiSat Broadcast,f:1
+0003:0e08ad0e:0001:0001:25:0
+UKI 1934 Coder 1
+p:STV West,f:1
+0003:0e08ad12:0001:0001:25:0
+UKI 1934 Coder 1
+p:STV West,f:1
 45ed:fff80000:06fe:b4dc:1:0
 TV2
 p:HDT,f:1
@@ -46967,7 +46976,7 @@ p:TVH2.0,f:1
 0001:ffd80000:0002:002a:1:0
 12 Kanal
 p:Ukrkosmos,f:1
-0006:ffd80000:0002:002a:1:0
+0006:ffd80000:0002:002a:25:0
 ATR HD
 p:Ukrkosmos,f:1
 0007:ffd80000:0002:002a:1:0
@@ -47000,7 +47009,7 @@ p:Ukrkosmos,f:1
 000d:ffd80000:0002:002a:1:0
 4P_INFO
 p:Ukrkosmos,f:1
-0002:ffd80000:0002:002a:1:0
+0002:ffd80000:0002:002a:25:0
 Galychyna HD
 p:Ukrkosmos,f:1
 0004:ffd80000:0002:002a:25:0
@@ -54200,6 +54209,9 @@ p:Canal NOS,f:1
 12ed:0ce40000:0030:0036:1:0
 Canal NOS
 p:Canal NOS,f:1
+12ee:0ce40000:0030:0036:1:0
+Canal NOS
+p:Canal NOS,f:1
 0008:0ce4acf6:0065:0000:2:0
 RADIO MARIA
 p:RETEVISION
@@ -55529,12 +55541,6 @@ p:Mediaset,f:1
 0faf:eeee0000:03ac:0110:1:0
 Iris
 p:Mediaset,f:1
-1067:eeee0000:03ac:0110:1:0
-Infinity+
-p:,f:1
-1009:eeee0000:03ac:0110:1:0
-Mediaset Infinity
-p:,f:1
 0fa4:eeee0000:03ac:0110:1:3
 Rete4 (provvisorio)
 p:Mediaset,f:1
@@ -55848,7 +55854,7 @@ p:STUDIO1,f:1
 QTV
 p:STUDIO1,f:1
 0068:eeee0000:27fb:0148:1:0
-GALAXY TV
+RADIO BIRIKINA TV
 p:STUDIO1,f:1
 006a:eeee0000:27fb:0148:1:0
 DONNA SHOPPING182
@@ -55869,7 +55875,7 @@ p:STUDIO1,f:1
 TESORY CHANNEL
 p:STUDIO1,f:1
 0067:eeee0000:27fb:0148:1:0
-RADIO BIRIKINA TV
+R BIRIKINA Provvisorio
 p:STUDIO1,f:1
 000f:eeee0000:27fb:0148:1:0
 GENIUS 240
@@ -56171,144 +56177,6 @@ p:QUENZA,f:1
 4251:eeee0000:27d7:217c:1:0
 RDS Social TV...
 p:QUENZA,f:1
-000a:eeee0000:0039:217c:2:0
-Radio Capri
-p:BeS
-0005:eeee0000:0039:217c:1:0
-Capri Casino'
-p:BeS,f:1
-00f7:eeee0000:0039:217c:1:0
-Capri Fashion
-p:BeS,f:1
-00a3:eeee0000:0039:217c:1:0
-RETECAPRI
-p:BeS,f:1
-0801:eeee0000:0039:217c:1:0
-ODEON 24
-p:BeS,f:1
-000b:eeee0000:0039:217c:2:0
-RADIO CAPRI
-p:BeS
-00e1:eeee0000:0039:217c:22:0
-225 TV
-p:BeS,f:1
-0097:eeee0000:0039:217c:1:0
-EPIQA
-p:BeS,f:1
-03e9:eeee0000:0039:217c:1:0
-LCN82
-p:BeS,f:1
-00f6:eeee0000:0039:217c:1:0
-WNC
-p:BeS,f:1
-1c1a:eeee0000:0039:217c:1:0
-PREMIO LIVE
-p:BeS,f:1
-1c1f:eeee0000:0039:217c:1:0
-BFC
-p:BeS,f:1
-1c20:eeee0000:0039:217c:1:0
-BIKE
-p:BeS,f:1
-00fe:eeee0000:0039:217c:1:0
-La Grande Italia
-p:BeS,f:1
-033c:eeee0000:0039:217c:25:0
-IT CHANNEL
-p:BeS,f:1
-00e2:eeee0000:0039:217c:22:0
-249 SPORT
-p:BeS,f:1
-00e3:eeee0000:0039:217c:22:0
-TV1
-p:BeS,f:1
-1c25:eeee0000:0039:217c:1:0
-WELCOME TV
-p:BeS,f:1
-1c2a:eeee0000:0039:217c:1:0
-PREMIO SPORT
-p:BeS,f:1
-0341:eeee0000:0039:217c:1:0
-Amici per L'Italia
-p:BeS,f:1
-033d:eeee0000:0039:217c:25:0
-IT CHANNEL
-p:BeS,f:1
-02ef:eeee0000:0107:217c:25:0
-La7 HD
-p:,f:1
-02f0:eeee0000:0107:217c:25:0
-La7d HD
-p:,f:1
-02c7:eeee0000:0107:217c:1:0
-LA7
-p:,f:1
-02c8:eeee0000:0107:217c:1:0
-LA7d
-p:,f:1
-02f9:eeee0000:0107:217c:1:0
-LA7 TEST
-p:,f:1
-0317:eeee0000:0107:217c:1:0
-LA7 Test
-p:,f:1
-02d1:eeee0000:0107:217c:1:0
-LA7
-p:,f:1
-02d2:eeee0000:0107:217c:1:0
-LA7d
-p:,f:1
-02fa:eeee0000:0107:217c:1:0
-LA7 Servizi on demand
-p:,f:1
-02fb:eeee0000:0107:217c:1:0
-LA7 TEST
-p:,f:1
-02fc:eeee0000:0107:217c:1:0
-LA7 TEST
-p:,f:1
-02fd:eeee0000:0107:217c:1:0
-LA7 TEST
-p:,f:1
-0316:eeee0000:0107:217c:1:0
-LA7 on demand
-p:,f:1
-0047:eeee0000:0107:217c:0:0
-Servizio 71
-p:
-0046:eeee0000:0107:217c:0:0
-Servizio 70
-p:
-0048:eeee0000:0107:217c:0:0
-Servizio 72
-p:
-0049:eeee0000:0107:217c:0:0
-Servizio 73
-p:
-004a:eeee0000:0107:217c:0:0
-Servizio 74
-p:
-004b:eeee0000:0107:217c:0:0
-Servizio 75
-p:
-004c:eeee0000:0107:217c:0:0
-Servizio 76
-p:
-004d:eeee0000:0107:217c:0:0
-Servizio 77
-p:
-004e:eeee0000:0107:217c:0:0
-Servizio 78
-p:
-004f:eeee0000:0107:217c:0:0
-Servizio 79
-p:
-0063:eeee0000:0107:217c:0:0
-Ghost
-p:
-0321:eeee0000:0107:217c:25:0
-DAZN Channel - Premi Info
-p:,f:1
 0001:eeee0000:20d0:217c:1:0
 SuperSix HD
 p:Lombardia Tv,f:1
@@ -56361,7 +56229,7 @@ p:Lombardia  TV,f:1
 Radio test 1
 p:Lombardia TV
 0007:eeee0000:20d0:217c:1:0
-Radio Roma
+EUROPA TV 3
 p:Lombardia  TV,f:1
 000e:eeee0000:20d0:217c:1:0
 Tele Mantova
@@ -56594,9 +56462,6 @@ p:,f:1
 0095:eeee0000:0385:0110:1:0
 TV8
 p:,f:1
-0096:eeee0000:0385:0110:1:0
-TV8 On Demand
-p:,f:1
 0097:eeee0000:0385:0110:1:0
 TV8 News On Demand
 p:,f:1
@@ -56648,9 +56513,6 @@ p:Radio Popolare TV,f:1
 0290:eeee0000:23e5:217c:1:0
 RADIO POPIZZ-TV
 p:Radio POPIZZ ,f:1
-029d:eeee0000:23e5:217c:1:0
-Canale 669
-p:Rete 55 Evolution,f:1
 02b5:eeee0000:23e5:217c:1:0
 Radio Millennium TV
 p:Beacom,f:1
@@ -56780,9 +56642,6 @@ p:Radio POPIZZ,f:1
 0292:eeee0000:23e5:217c:1:0
 VCO Azzurra TV
 p:Beacom,f:1
-029d:eeee0000:23e5:217c:1:0
-Canale 669
-p:Beacom,f:1
 029e:eeee0000:23e5:217c:1:0
 Telemilano Tele TV 2
 p:Beacom,f:1
@@ -56816,63 +56675,6 @@ p:Beacom
 00b3:eeee0000:23e5:217c:2:0
 Radio Cafe
 p:Beacom
-0009:eeee0000:0204:001d:2:0
-Radio Deejay
-p:Persidera
-000a:eeee0000:0204:001d:2:0
-Radio Capital
-p:Persidera
-000b:eeee0000:0204:001d:2:0
-Radio m2o
-p:Persidera
-0010:eeee0000:0204:001d:1:0
-GIALLO
-p:Persidera,f:1
-0015:eeee0000:0204:001d:25:0
-RTL 102.5
-p:Persidera,f:1
-0016:eeee0000:0204:001d:1:0
-GM24.IT
-p:Persidera,f:1
-0017:eeee0000:0204:001d:1:0
-GM24.IT HD
-p:Persidera,f:1
-002c:eeee0000:0204:001d:1:0
-Real Time
-p:Persidera,f:1
-0032:eeee0000:0204:001d:1:0
-DMAX
-p:Persidera,f:1
-005a:eeee0000:0204:001d:1:0
-Entertainment Fact
-p:Persidera,f:1
-006a:eeee0000:0204:001d:1:0
-Super! - Provvisorio
-p:Persidera,f:1
-00da:eeee0000:0204:001d:25:0
-RADIOFRECCIA
-p:Persidera,f:1
-00db:eeee0000:0204:001d:25:0
-RTL 102.5 HD
-p:Persidera,f:1
-00dc:eeee0000:0204:001d:25:0
-RADIOFRECCIA HD
-p:Persidera,f:1
-00dd:eeee0000:0204:001d:2:0
-RTL 102.5
-p:Persidera
-00de:eeee0000:0204:001d:2:0
-RTL 102.5 NEWS
-p:
-00df:eeee0000:0204:001d:2:0
-FRECCIA
-p:Persidera
-006e:eeee0000:0204:001d:22:0
-Juwelo - Info
-p:Persidera,f:1
-00d2:eeee0000:0204:001d:22:0
-Juwelo
-p:Persidera,f:1
 0041:eeee0000:0200:001d:1:0
 RadioItaliaTV HD
 p:Persidera,f:1
@@ -56946,7 +56748,7 @@ p:Persidera,f:1
 Parole di Vita
 p:Persidera,f:1
 0082:eeee0000:0202:001d:25:0
-RADIO ZETA
+RADIO ZETA - Provvisorio
 p:Persidera,f:1
 008c:eeee0000:0202:001d:1:0
 Mediatext.it
@@ -56958,7 +56760,7 @@ p:Persidera,f:1
 Byoblu
 p:Persidera,f:1
 0096:eeee0000:0202:001d:25:0
-RTL 102.5 NEWS
+RTL 102.5 NEWS - Provvisorio
 p:Persidera,f:1
 0092:eeee0000:0202:001d:25:0
 RDS Social TV
@@ -57197,9 +56999,6 @@ p:Canale Italia,f:1
 0019:eeee0000:47d0:217c:1:0
 SHOPPING TV
 p:Harmonic,f:1
-001a:eeee0000:47d0:217c:1:0
-ITALIA 53
-p:Canale Italia,f:1
 001b:eeee0000:47d0:217c:1:0
 ITALIA 143
 p:Canale Italia,f:1
@@ -57218,16 +57017,10 @@ p:Canale Italia,f:1
 000f:eeee0000:47d0:217c:2:0
 RPL - LA TUA RADIO
 p:Canale Italia
-0020:eeee0000:47d0:217c:2:0
-RADIO CANALE ITALIA
-p:Canale Italia
 0021:eeee0000:47d0:217c:2:0
 RADIO CANALE ITALIA
 p:Canale Italia
 0022:eeee0000:47d0:217c:2:0
-VOLAMI NEL CUORE
-p:Canale Italia
-0023:eeee0000:47d0:217c:2:0
 VOLAMI NEL CUORE
 p:Canale Italia
 041d:eeee0000:0002:217c:22:0
@@ -57251,6 +57044,216 @@ p:Rai,f:1
 041c:eeee0000:0002:217c:25:0
 Rai 2 HD
 p:Rai,f:1
+0318:eeee0000:0107:217c:1:0
+LA7 on demand
+p:,f:1
+0046:eeee0000:0107:217c:0:0
+Servizio 70
+p:
+0047:eeee0000:0107:217c:0:0
+Servizio 71
+p:
+0048:eeee0000:0107:217c:0:0
+Servizio 72
+p:
+0049:eeee0000:0107:217c:0:0
+Servizio 73
+p:
+004a:eeee0000:0107:217c:0:0
+Servizio 74
+p:
+004b:eeee0000:0107:217c:0:0
+Servizio 75
+p:
+004c:eeee0000:0107:217c:0:0
+Servizio 76
+p:
+004d:eeee0000:0107:217c:0:0
+Servizio 77
+p:
+004e:eeee0000:0107:217c:0:0
+Servizio 78
+p:
+004f:eeee0000:0107:217c:0:0
+Servizio 79
+p:
+0063:eeee0000:0107:217c:0:0
+Ghost
+p:
+02c7:eeee0000:0107:217c:1:0
+LA7
+p:,f:1
+02c8:eeee0000:0107:217c:1:0
+LA7d
+p:,f:1
+02d1:eeee0000:0107:217c:1:0
+LA7
+p:,f:1
+02d2:eeee0000:0107:217c:1:0
+LA7d
+p:,f:1
+02ef:eeee0000:0107:217c:25:0
+La7 HD
+p:,f:1
+02f0:eeee0000:0107:217c:25:0
+La7d HD
+p:,f:1
+02f9:eeee0000:0107:217c:1:0
+LA7 TEST
+p:,f:1
+02fa:eeee0000:0107:217c:1:0
+LA7 Servizi on demand
+p:,f:1
+02fb:eeee0000:0107:217c:1:0
+LA7 TEST
+p:,f:1
+02fc:eeee0000:0107:217c:1:0
+LA7 TEST
+p:,f:1
+02fd:eeee0000:0107:217c:1:0
+LA7 TEST
+p:,f:1
+0317:eeee0000:0107:217c:1:0
+LA7 Test
+p:,f:1
+0321:eeee0000:0107:217c:25:0
+DAZN Channel - Premi Info
+p:,f:1
+0191:eeee0000:0039:217c:1:0
+CHANNEL 401
+p:BeS,f:1
+0005:eeee0000:0039:217c:1:0
+Capri Casino'
+p:BeS,f:1
+000a:eeee0000:0039:217c:2:0
+Radio Capri
+p:BeS
+000b:eeee0000:0039:217c:2:0
+RADIO CAPRI
+p:BeS
+0097:eeee0000:0039:217c:1:0
+EPIQA
+p:BeS,f:1
+00a3:eeee0000:0039:217c:1:0
+RETECAPRI
+p:BeS,f:1
+00e1:eeee0000:0039:217c:22:0
+225 TV
+p:BeS,f:1
+00e2:eeee0000:0039:217c:22:0
+249 SPORT
+p:BeS,f:1
+00e3:eeee0000:0039:217c:22:0
+TV1
+p:BeS,f:1
+00f6:eeee0000:0039:217c:1:0
+R J B
+p:BeS,f:1
+00f7:eeee0000:0039:217c:1:0
+Capri Fashion
+p:BeS,f:1
+00fe:eeee0000:0039:217c:1:0
+La Grande Italia
+p:BeS,f:1
+033c:eeee0000:0039:217c:25:0
+IT CHANNEL
+p:BeS,f:1
+033d:eeee0000:0039:217c:25:0
+IT CHANNEL
+p:BeS,f:1
+0341:eeee0000:0039:217c:1:0
+Amici per L'Italia
+p:BeS,f:1
+03e9:eeee0000:0039:217c:1:0
+LCN82
+p:BeS,f:1
+0801:eeee0000:0039:217c:1:0
+ODEON 24
+p:BeS,f:1
+1c1a:eeee0000:0039:217c:1:0
+PREMIO LIVE
+p:BeS,f:1
+1c1f:eeee0000:0039:217c:1:0
+BFC
+p:BeS,f:1
+1c20:eeee0000:0039:217c:1:0
+BIKE
+p:BeS,f:1
+1c25:eeee0000:0039:217c:1:0
+WELCOME TV
+p:BeS,f:1
+1c2a:eeee0000:0039:217c:1:0
+PREMIO SPORT
+p:BeS,f:1
+1c2f:eeee0000:0039:217c:1:0
+ARTE INVESTIMENTI
+p:BeS,f:1
+0342:eeee0000:0039:217c:1:0
+ITALIA SERA
+p:BeS,f:1
+0343:eeee0000:0039:217c:1:0
+AMICI NETWORK
+p:BeS,f:1
+0082:eeee0000:0204:001d:25:0
+RADIO ZETA
+p:Persidera,f:1
+0009:eeee0000:0204:001d:2:0
+Radio Deejay
+p:Persidera
+000a:eeee0000:0204:001d:2:0
+Radio Capital
+p:Persidera
+000b:eeee0000:0204:001d:2:0
+Radio m2o
+p:Persidera
+0010:eeee0000:0204:001d:1:0
+GIALLO
+p:Persidera,f:1
+0015:eeee0000:0204:001d:25:0
+RTL 102.5
+p:Persidera,f:1
+0016:eeee0000:0204:001d:1:0
+GM24.IT
+p:Persidera,f:1
+0017:eeee0000:0204:001d:1:0
+GM24.IT HD
+p:Persidera,f:1
+002c:eeee0000:0204:001d:1:0
+Real Time
+p:Persidera,f:1
+0032:eeee0000:0204:001d:1:0
+DMAX
+p:Persidera,f:1
+005a:eeee0000:0204:001d:1:0
+Entertainment Fact
+p:Persidera,f:1
+006a:eeee0000:0204:001d:1:0
+Super! - Provvisorio
+p:Persidera,f:1
+00d2:eeee0000:0204:001d:22:0
+Juwelo
+p:Persidera,f:1
+00da:eeee0000:0204:001d:25:0
+RADIOFRECCIA
+p:Persidera,f:1
+00db:eeee0000:0204:001d:25:0
+RTL 102.5 HD
+p:Persidera,f:1
+00dc:eeee0000:0204:001d:25:0
+RADIOFRECCIA HD
+p:Persidera,f:1
+00dd:eeee0000:0204:001d:2:0
+RTL 102.5
+p:Persidera
+00de:eeee0000:0204:001d:2:0
+RTL 102.5 NEWS
+p:
+00df:eeee0000:0204:001d:2:0
+FRECCIA
+p:Persidera
+0096:eeee0000:0204:001d:25:0
+RTL 102.5 NEWS
+p:Persidera,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2021
