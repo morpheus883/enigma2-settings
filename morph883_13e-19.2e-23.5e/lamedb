@@ -258,6 +258,9 @@ transponders
 00eb0000:0070:006f
 	s 11501000:7200000:0:3:235:2:0:1:2:0:2
 /
+00eb0000:000f:0005
+	s 11665000:2880000:1:8:235:2:0:1:1:0:2
+/
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
 /
@@ -938,12 +941,12 @@ p:M7 Group,f:1
 334d:00eb0000:0c93:0003:22:0
 CS Mystery
 p:M7 Group,f:1
-334e:00eb0000:0c93:0003:1:0
-Slager Muzika
-p:M7 Group,f:1
 3390:00eb0000:0c93:0003:12:0
 OTA CAM803
 p:M7 Group
+334e:00eb0000:0c93:0003:1:0
+Slager Original
+p:M7 Group,f:1
 1451:00eb0000:0c98:0003:1:0
 Ocko TV 
 p:SES ASTRA,f:1
@@ -1124,11 +1127,11 @@ p:M7 Group,f:1
 339c:00eb0000:0c89:0003:22:0
 Prima Krimi
 p:M7 Group,f:1
-339d:00eb0000:0c89:0003:1:0
-Slagr 2
-p:M7 Group,f:1
 339e:00eb0000:0c89:0003:25:0
 JOJ Sport HD
+p:M7 Group,f:1
+339d:00eb0000:0c89:0003:1:0
+Slager Muzika
 p:M7 Group,f:1
 1427:00eb0000:0ca2:0003:2:0
 VLNA ZS
@@ -1516,9 +1519,6 @@ Love Nature HD INT
 p:M7 Group,f:1
 031b:00eb0000:0c94:0003:25:0
 Love Nature HD BNL
-p:M7 Group,f:1
-030b:00eb0000:0c94:0003:22:0
-Klenot TV
 p:M7 Group,f:1
 0316:00eb0000:0c94:0003:25:0
 Vixen HD
@@ -2034,6 +2034,9 @@ p:RMF Maxxx
 Zlote Przeboje Tarnow 92,8
 p:RMF Maxxx
 e290:00ebad9e:000f:0005:2:0
+RMF Maxxx
+p:RMF Maxxx
+9858:00ebad9e:000f:0005:2:0
 RMF Maxxx
 p:RMF Maxxx
 4e83:00eb0000:0c8b:0003:25:0
@@ -3017,6 +3020,18 @@ p:M7 Group,f:1
 3b76:00eb0000:0c8d:0003:22:0
 Film+ SK
 p:M7 Group,f:1
+3b78:00eb0000:0c8d:0003:25:0
+Jednotka HD
+p:M7 Group,f:1
+3b79:00eb0000:0c8d:0003:25:0
+Dvojka HD
+p:M7 Group,f:1
+3b7a:00eb0000:0c8d:0003:25:0
+Trojka HD
+p:M7 Group,f:1
+3b7b:00eb0000:0c8d:0003:25:0
+RTVS Sport HD
+p:M7 Group,f:1
 0001:00eb2d06:0001:ffff:1:0
 Tower OB TX3
 p:BT TVOB,f:1
@@ -3407,6 +3422,78 @@ p:,f:1
 0001:00eb0000:0070:006f:25:0
 D-103 Enc.1
 p:SNG D-103 Vahland TV,f:1
+7d00:00eb0000:000f:0005:2:0
+
+p:
+5208:00eb0000:000f:0005:2:0
+
+p:
+cf08:00eb0000:000f:0005:2:0
+
+p:
+7918:00eb0000:000f:0005:2:0
+
+p:
+cb20:00eb0000:000f:0005:2:0
+
+p:
+c738:00eb0000:000f:0005:2:0
+
+p:
+9858:00eb0000:000f:0005:2:0
+
+p:
+6d60:00eb0000:000f:0005:2:0
+
+p:
+9470:00eb0000:000f:0005:2:0
+
+p:
+6978:00eb0000:000f:0005:2:0
+
+p:
+9088:00eb0000:000f:0005:2:0
+
+p:
+6590:00eb0000:000f:0005:2:0
+
+p:
+e290:00eb0000:000f:0005:2:0
+
+p:
+8ca0:00eb0000:000f:0005:2:0
+
+p:
+61a8:00eb0000:000f:0005:2:0
+
+p:
+dea8:00eb0000:000f:0005:2:0
+
+p:
+88b8:00eb0000:000f:0005:2:0
+
+p:
+5dc0:00eb0000:000f:0005:2:0
+
+p:
+dac0:00eb0000:000f:0005:2:0
+
+p:
+84d0:00eb0000:000f:0005:2:0
+
+p:
+59d8:00eb0000:000f:0005:2:0
+
+p:
+d6d8:00eb0000:000f:0005:2:0
+
+p:
+55f0:00eb0000:000f:0005:2:0
+
+p:
+d2f0:00eb0000:000f:0005:2:0
+
+p:
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -7601,6 +7688,12 @@ p:Cyfrowy Polsat S.A.,f:1
 3e30:00820000:2ee0:013e:1:0
 PPV KSW 63
 p:Cyfrowy Polsat S.A.,f:1
+3e2b:00820000:2ee0:013e:1:0
+Polsat Sport Premium PPV3
+p:Cyfrowy Polsat S.A.,f:1
+3e2c:00820000:2ee0:013e:1:0
+Polsat Sport Premium PPV4
+p:Cyfrowy Polsat S.A.,f:1
 4331:00820000:300c:013e:25:0
 SRF 1 HD
 p:SSR/SRG,f:1
@@ -8358,10 +8451,10 @@ p:,f:1
 Asharq News Channel HD
 p:,f:1
 012d:00820000:13ef:013e:1:0
-AD Sport 3 HD
+AD Sports 3 HD
 p:,f:1
 012e:00820000:13ef:013e:1:0
-AD Sport 4 HD
+AD Sports 4 HD
 p:,f:1
 012f:00820000:13ef:013e:1:0
 Al Hadath HD
@@ -9866,6 +9959,12 @@ p:Cyfrowy Polsat SA,f:1
 0c2e:00820000:1e78:0071:1:0
 Polsat Sport HD
 p:Cyfrowy Polsat S.A.,f:1
+0c33:00820000:1e78:0071:1:0
+Polsat Sport Premium PPV5
+p:Cyfrowy Polsat S.A.,f:1
+0c34:00820000:1e78:0071:1:0
+Polsat Sport Premium PPV6
+p:Cyfrowy Polsat S.A.,f:1
 39d3:00820000:1fa4:013e:1:0
 Detskiy Mir - TeleClub
 p:Kabelkiosk,f:1
@@ -10544,6 +10643,9 @@ p:M7 Group,f:1
 4229:00820000:2f44:013e:22:0
 Blue Hustler Nova
 p:M7 Group,f:1
+422a:00820000:2f44:013e:22:0
+Private HD Nova
+p:,f:1
 0002:00820000:1770:0110:1:0
 Canale 5
 p:Mediaset,f:1
@@ -11606,6 +11708,9 @@ p:Cyfrowy Polsat,f:1
 0019:00820000:1964:013e:1:0
 MTV Commercial
 p:,f:1
+0045:00820000:1964:013e:1:0
+Nicktoons HD
+p:Cyfrowy Polsat S.A.,f:1
 200c:00820000:24b8:013e:1:0
 BBC World News
 p:Globecast UK,f:1
@@ -12119,7 +12224,7 @@ p:,f:1
 04b9:00820000:23f0:013e:31:0
 Ultra Nature 4K
 p:Eutelsat,f:1
-04b6:00820000:23f0:013e:1:0
+04b6:00820000:23f0:013e:25:0
 Abu Dhabi TV
 p:DU,f:1
 04b7:00820000:23f0:013e:1:0
