@@ -231,6 +231,12 @@ transponders
 01a4aafb:0001:ffff
 	s 11003000:4100000:1:4:420:2:0:1:2:0:2
 /
+01a40000:7d6b:042e
+	s 11012000:30000000:0:2:420:2:0:1:2:0:2
+/
+01a40000:78b5:002a
+	s 11012000:30000000:1:3:420:2:0:1:2:2:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -953,7 +959,7 @@ p:TURKSAT
 c743:01a40000:7789:042e:1:0
 Al Zahra TV
 p:TURKSAT,f:1
-c744:01a40000:7789:042e:1:0
+c740:01a40000:7789:042e:1:0
 Berat TV
 p:TURKSAT,f:1
 28a0:01a40000:9ca6:042e:1:0
@@ -1073,6 +1079,12 @@ p:TURKSAT,f:1
 c868:01a40000:9ca5:042e:1:0
 TURKSAT TANITIM
 p:TURKSAT,f:1
+c879:01a40000:9ca5:042e:12:0
+TKGS_TEST
+p:TURKSAT
+c87a:01a40000:9ca5:042e:12:0
+TKGS_TEST 2
+p:TURKSAT
 0001:01a40000:003d:002a:1:0
 TRT 1 (E)
 p:TRT,f:1
@@ -1293,13 +1305,13 @@ p:D-Smart,f:1
 MovieSmart Premium 2 HD
 p:D-Smart,f:1
 06ac:01a40000:0007:0042:25:0
-MovieSmart Platin HD
+NBA TV HD
 p:D-Smart,f:1
 06ad:01a40000:0007:0042:25:0
-MovieSmart Platin 2 HD
+Çocuk Smart HD
 p:D-Smart,f:1
 06af:01a40000:0007:0042:25:0
-MovieSmart Gold HD
+CNN Int HD
 p:D-Smart,f:1
 06a5:01a40000:0007:0042:25:0
 Kanal D HD
@@ -1308,8 +1320,8 @@ p:DOGAN TV,f:1
 CNN Türk HD
 p:DOGAN TV,f:1
 06b0:01a40000:0007:0042:25:0
-Fox Sports Turkey HD
-p:DOGAN TV,f:1
+Love Nature HD
+p:D-Smart,f:1
 06aa:01a40000:0007:0042:25:0
 Dream Türk HD
 p:DOGAN TV,f:1
@@ -1356,8 +1368,8 @@ p:DEMIROREN MEDYA,f:1
 iTRAVELTrigger
 p:DEMIROREN MEDYA,f:1
 06b1:01a40000:0007:0042:25:0
-MovieSmart Action HD
-p:DEMIROREN MEDYA,f:1
+BBC Earth HD
+p:D-Smart,f:1
 06b5:01a40000:0007:0042:25:0
 TV35 İzmir
 p:DEMIROREN MEDYA,f:1
@@ -1375,7 +1387,7 @@ T.A.Y TV
 p:DEMIROREN MEDYA,f:1
 06b2:01a40000:0007:0042:25:0
 SPOR SMART2
-p:DEMIROREN MEDYA,f:1
+p:D-Smart,f:1
 06b4:01a40000:0007:0042:25:0
 INSIGHT TV
 p:DEMIROREN MEDYA,C:0000,f:1
@@ -1384,6 +1396,9 @@ Eurosport 1
 p:DEMIROREN MEDYA,f:1
 06a9:01a40000:0007:0042:25:0
 Eurosport 2
+p:DEMIROREN MEDYA,f:1
+06ab:01a40000:0007:0042:1:0
+Ucankus TV
 p:DEMIROREN MEDYA,f:1
 2cec:01a40000:a02a:042e:1:0
 Kanal 7
@@ -2027,8 +2042,8 @@ p:TURKUVAZ,f:1
 c9ae:01a40000:76c1:042e:1:0
 Pamukkale TV
 p:TURKSAT,f:1
-c9b0:01a40000:76c1:042e:1:0
-TV 100 Balikesir
+c9b0:01a40000:76c1:042e:25:0
+TV 100 HD
 p:TURKSAT,f:1
 c9af:01a40000:76c1:042e:1:0
 DRT Denizli
@@ -2639,6 +2654,9 @@ p:Digital Platform,f:1
 3ca8:01a42bac:c5a8:002a:17:0
 TJK tv HD
 p:Digital Platform,f:1
+3ca9:01a42bac:c5a8:002a:129:0
+DT9505R
+p:Digital Platform
 3bc4:01a40000:a415:042e:1:0
 TV8 HD
 p:TV8,f:1
@@ -2672,6 +2690,78 @@ p:Service Provider,f:1
 0001:01a4aafb:0001:ffff:1:0
 ANKA HABER AJANSI
 p:Service Provider,f:1
+cc4c:01a40000:7d6b:042e:1:0
+Qasioun News
+p:TURKSAT,f:1
+cc4d:01a40000:7d6b:042e:1:0
+Islam Channel
+p:TURKSAT,f:1
+cc4e:01a40000:7d6b:042e:1:0
+Sark El Avsat
+p:Teracue AG,f:1
+cc4f:01a40000:7d6b:042e:1:0
+SpaceToon TV
+p:TURKSAT,f:1
+cc73:01a40000:7d6b:042e:1:0
+Kabe(Canli) Al Quran
+p:TURKSAT,f:1
+cc74:01a40000:7d6b:042e:1:0
+Saudi Sunnah
+p:TURKSAT,f:1
+4275:01a40000:78b5:002a:1:0
+Rai 1
+p:Digital Platform,f:1
+4276:01a40000:78b5:002a:1:0
+Bloomberg
+p:Digital Platform,f:1
+4277:01a40000:78b5:002a:1:0
+BBC Ent
+p:Digital Platform,f:1
+4278:01a40000:78b5:002a:1:0
+MTV Hits
+p:Digital Platform,f:1
+4279:01a40000:78b5:002a:1:0
+MTV 00s
+p:Digital Platform,f:1
+4268:01a40000:78b5:002a:17:0
+Da Vinci HD
+p:Digital Platform,f:1
+4269:01a40000:78b5:002a:17:0
+CNN Int HD
+p:Digital Platform,f:1
+426a:01a40000:78b5:002a:17:0
+Fashion TV HD
+p:Digital Platform,f:1
+426b:01a40000:78b5:002a:17:0
+BBC World News HD
+p:Digital Platform,f:1
+426c:01a40000:78b5:002a:17:0
+Eurosport 2 HD
+p:Digital Platform,f:1
+426d:01a40000:78b5:002a:17:0
+MCM Top HD
+p:Digital Platform,f:1
+426e:01a40000:78b5:002a:17:0
+MTV Live HD
+p:Digital Platform,f:1
+426f:01a40000:78b5:002a:17:0
+BBC CBeebies HD
+p:Digital Platform,f:1
+4270:01a40000:78b5:002a:17:0
+France 24 HD (in English)
+p:Digital Platform,f:1
+4271:01a40000:78b5:002a:17:0
+TV5 Monde Europe HD
+p:Digital Platform,f:1
+4272:01a40000:78b5:002a:17:0
+Euronews HD
+p:Digital Platform,f:1
+4273:01a40000:78b5:002a:17:0
+CGTN HD
+p:Digital Platform,f:1
+4274:01a40000:78b5:002a:17:0
+Mezzo HD
+p:Digital Platform,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -5849,6 +5939,9 @@ p:,f:1
 4231:00820000:2f44:013e:1:0
 LoveWorld Sat
 p:ViewSat,f:1
+4224:00820000:2f44:013e:22:0
+Blue Hustler POL
+p:M7 Group,f:1
 0002:00820000:1770:0110:1:0
 Canale 5
 p:Mediaset,f:1
