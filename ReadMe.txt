@@ -9,14 +9,14 @@ Morpheus883's Site: http://morpheus883.altervista.org/
 GitHub Repository: https://github.com/morpheus883/
 and available on the main Sat Sites
 
-Enigma2 Settings 31st December 2021, © by Morpheus883
+Enigma2 Settings 8th January 2022, © by Morpheus883
 
 Settings for Images based on Enigma 2.4:
 
 Statistics:
 # Satellites: 90 (Ku Band)
-# Ordered Provider Lists: 60+
-# Services: 17.584 (TV-Radio-Data)
+# Ordered Provider Lists: 70+
+# Services: 17.347 (TV-Radio-Data)
 # Packages: 23 (TV-Radio-Data):
 
 MONOFeed (13°E)
@@ -75,6 +75,7 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [0.8 W] Canal Digital Nordic
 [0.8 W] Focus Sat
 [0.8 W] RCS DigiTV
+[0.8 W] Slovak Telekom
 [0.8 W] UPC Direct
 [1.9 E] ===== BULGARIASAT-1 =====
 [3.0 E] ===== EUTELSAT 3B RASCOM QAF1R =====
@@ -96,8 +97,12 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [13.0 E] RAI/Mediaset/TivùSat
 [13.0 E] Sky Italia
 [16.0 E] ===== EUTELSAT 16A ===M=
+[16.0 E] A1 Hrvatska
+[16.0 E] Antik Sat
 [16.0 E] Digit Alb
 [16.0 E] Max TV
+[16.0 E] Orange SK
+[16.0 E] Pink
 [16.0 E] Total TV
 [19.2 E] ===== ASTRA 1KR/1L/1M/1N ===M=
 [19.2 E] CanalSat
@@ -109,6 +114,7 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [23.5 E] ===== ASTRA 3B ===M=
 [23.5 E] Canal Digitaal/TV Vlaanderen
 [23.5 E] CS Link/SkyLink
+[23.5 E] Telekom Srbija
 [25.5 E] ===== ES'HAIL 1 ===N=
 [26.0 E] ===== BADR 4/5/6/7 =====
 [26.0 E] Al Jazeera
@@ -127,8 +133,10 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [36.0 E] ===== EUTELSAT 36B/AMU1 =====
 [36.0 E] DStv Multichoice Africa
 [39.0 E] ===== HELLAS SAT 3/4 =====
+[39.0 E] A1 Bulgaria
 [39.0 E] Bulsatcom
 [39.0 E] Dolce TV
+[39.0 E] Tring TV
 [42.0 E] ===== TURKSAT 3A/4A ===M=
 [42.0 E] D-Smart
 [42.0 E] Digitürk
@@ -156,7 +164,7 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 + Radios
 
 === Compiled with Morpheus883's scripts ===
- ======== © by Morpheus883, 2021 ========
+ ======== © by Morpheus883, 2022 ========
  
 
 The only settings with BlindMarke®
