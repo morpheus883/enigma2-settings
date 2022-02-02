@@ -336,9 +336,6 @@ transponders
 00820000:0514:013e
 	s 11449000:27500000:0:3:130:2:0:1:2:0:2
 /
-00820000:0708:00c8
-	s 11541000:22000000:1:4:130:2:0
-/
 00820000:3bc4:013e
 	s 11566000:29900000:0:3:130:2:0:1:2:0:2
 /
@@ -5171,9 +5168,6 @@ p:GLOBECAST,f:1
 06ab:00820000:3138:013e:1:0
 TV Rus
 p:GLOBECAST,f:1
-06a8:00820000:3138:013e:1:0
-Euronews Hungarian
-p:GLOBECAST,f:1
 06d8:00820000:3138:013e:2:0
 Bahai Radio
 p:GLOBECAST
@@ -5185,6 +5179,9 @@ p:GLOBECAST,f:1
 p:GLOBECAST,f:1
 06b2:00820000:3138:013e:1:0
 Soyuz
+p:GLOBECAST,f:1
+06b3:00820000:3138:013e:1:0
+Arirang World
 p:GLOBECAST,f:1
 1f44:00820000:319c:013e:1:0
 MC EU
@@ -5531,9 +5528,6 @@ p:CANAL+,f:1
 3a9d:00820000:0514:013e:1:0
 TVP Dokument HD
 p:CANAL+,f:1
-0e10:00820000:0708:00c8:1:0
-EMPTY SERVICE
-p:M-Three satcom,f:1
 0321:00820000:3bc4:013e:1:0
 Euronews English HD
 p:GLOBECAST,f:1
@@ -7502,9 +7496,6 @@ p:GLOBECAST,f:1
 07e1:00820000:22c4:013e:1:0
 Euronews Italian
 p:GLOBECAST,f:1
-07e2:00820000:22c4:013e:1:0
-Euronews Greek
-p:GLOBECAST,f:1
 0830:00820000:22c4:013e:1:0
 Equidia PRO1 HD
 p:GLOBECAST,f:1
@@ -8122,12 +8113,6 @@ Polsat Cafe HD
 p:Cyfrowy Polsat S.A.,f:1
 33d9:00820000:3390:0071:1:0
 Polsat News HD
-p:Cyfrowy Polsat S.A.,f:1
-33e2:00820000:3390:0071:1:0
-Polsat Play HD
-p:Cyfrowy Polsat S.A.,f:1
-33e6:00820000:3390:0071:1:0
-Polsat Cafe HD
 p:Cyfrowy Polsat S.A.,f:1
 33e9:00820000:3390:0071:1:0
 Polsat News HD
@@ -9264,16 +9249,16 @@ p:IRIB
 RADIO SABA
 p:IRIB
 061c:00820000:2c24:013e:2:0
-RADIO 07 ENGLISH WORLD SERVICE
+RADIO 07 WORLD SERVICE
 p:IRIB
 061e:00820000:2c24:013e:2:0
-RADIO 03 ARABIC WORLD SERVICE
+RADIO 03 WORLD SERVICE
 p:IRIB
 0621:00820000:2c24:013e:2:0
 RADIO TALAVAT
 p:IRIB
 0622:00820000:2c24:013e:2:0
-RADIO GOFTOGOO
+RADIO GOFTOGO
 p:IRIB
 062d:00820000:2c24:013e:2:0
 RADIO 01 WORLD SERVICE
@@ -9458,6 +9443,9 @@ p:KABELIO.CH,f:1
 1002:00822fd5:1e14:fbff:1:0
 IEPG Data
 p:Sky Italia,f:1
+2da0:00822fd5:1e14:fbff:31:0
+Sky Cinema 4K
+p:SkyItalia,f:1
 2b68:00822e7c:170c:fbff:1:0
 Informativa privacy e consenso
 p:SkyItalia,f:1
@@ -11384,6 +11372,9 @@ p:Telenor,f:1
 1f04:0e080000:0048:0046:22:0
 Matkanalen
 p:Telenor,f:1
+1d4d:0e080000:0048:0046:22:0
+France 24 (eng)
+p:Telenor,f:1
 7727:0e080000:02c1:0600:25:0
 Sport 1 HD Hungary
 p:UPC Direct,f:1
@@ -11816,20 +11807,17 @@ p:Telenor,f:1
 43a6:fff8aab6:000a:0046:25:0
 DR2 HD
 p:Telenor,f:1
-1b91:fff82a39:0041:0046:25:0
-TV 3 Danmark HD (old)
+1d3b:fff82a39:0041:0046:25:0
+Eurosport 3 HD
 p:Telenor,f:1
-1b92:fff82a39:0041:0046:25:0
-TV 3 Sport HD (D) (old)
+1d3c:fff82a39:0041:0046:25:0
+Eurosport 4 HD
 p:Telenor,f:1
-1f0f:fff82a39:0041:0046:25:0
-Eurosport Pluss 1 HD
+1d3d:fff82a39:0041:0046:25:0
+Eurosport 5 HD
 p:Telenor,f:1
-1f10:fff82a39:0041:0046:25:0
-Eurosport Pluss 2 HD
-p:Telenor,f:1
-42a1:fff82a39:0041:0046:25:0
-TV3 HD (D) (old)
+427b:fff82a39:0041:0046:25:0
+Eurosport 4K
 p:Telenor,f:1
 1785:0e080000:0af6:00bb:22:0
 Prima Plus
@@ -13028,6 +13016,9 @@ p:Slovak Telekom,f:1
 2721:0e080000:0afa:00bb:25:0
 RTVS Sport HD
 p:Slovak Telekom,f:1
+274c:0e080000:0afa:00bb:1:0
+TV Paprika HU
+p:Slovak Telekom,f:1
 2337:0e080000:0af9:00bb:22:0
 Duna World
 p:Slovak Telekom,f:1
@@ -13064,8 +13055,17 @@ p:Slovak Telekom,f:1
 2340:0e080000:0af9:00bb:25:0
 RTL Klub HD
 p:Slovak Telekom,f:1
-2341:0e080000:0af9:00bb:25:0
-RTL2 HD
+233f:0e080000:0af9:00bb:22:0
+ID
+p:Slovak Telekom,f:1
+2341:0e080000:0af9:00bb:22:0
+Discovery Science
+p:Slovak Telekom,f:1
+2335:0e080000:0af9:00bb:25:0
+Animal Planet HD
+p:Slovak Telekom,f:1
+233e:0e080000:0af9:00bb:25:0
+Travel Channel HD
 p:Slovak Telekom,f:1
 0003:fff8ad08:0001:0001:25:0
 UKI1935
