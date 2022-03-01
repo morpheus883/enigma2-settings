@@ -52,7 +52,7 @@ transponders
 	s 11127000:22000000:1:4:282:2:0
 /
 011a0000:080d:0002
-	s 11024000:23000000:0:2:282:2:0:1:2:0:2
+	s 11024000:23000000:0:3:282:2:0:1:2:1:2
 /
 011a313b:0815:0002
 	s 11141000:22000000:0:4:282:2:0
@@ -210,11 +210,11 @@ transponders
 011a0000:0835:0002
 	s 11641000:23000000:0:2:282:2:0:1:2:1:2
 /
-011a0000:0832:0002
-	s 11597000:23000000:1:2:282:2:0:1:2:1:2
-/
 011a30e4:0001:ffff
 	s 12516000:7200000:0:3:282:2:0:1:2:0:2
+/
+011aad4d:0832:0002
+	s 11597000:22000000:1:4:282:2:0
 /
 00eb0000:0c88:0003
 	s 11856000:29900000:1:2:235:2:0:1:2:0:0
@@ -960,9 +960,6 @@ transponders
 0082aedc:1900:fbff
 	s 11996000:29900000:1:4:130:2:0:1:1:0:2
 /
-0082aac5:005f:0055
-	s 10949000:29900000:1:7:130:2:0:1:2:2:2
-/
 00822fae:1d4c:fbff
 	s 12206000:29900000:0:4:130:2:0:1:1:0:2
 /
@@ -1645,30 +1642,30 @@ Eurosport 5 HD
 p:BSkyB,f:1
 1e15:011a0000:0809:0002:1:0
 Channel 5 South Central
-p:Sky Digital,f:1
+p:BSkyB,f:1
 1e1e:011a0000:0809:0002:1:0
 5 USA
-p:Sky Digital,f:1
+p:BSkyB,f:1
 1e1f:011a0000:0809:0002:1:0
 5 USA +1
-p:Sky Digital,f:1
+p:BSkyB,f:1
 1e23:011a0000:0809:0002:1:0
 5*
-p:Sky Digital,f:1
+p:BSkyB,f:1
 1e28:011a0000:0809:0002:1:0
 Channel 5 +1
-p:Sky Digital,f:1
+p:BSkyB,f:1
 1e25:011a0000:0809:0002:1:0
 5* +1
 p:BSkyB,f:1
 1e46:011a0000:0809:0002:25:0
 Channel 5 HD
-p:Sky Digital,f:1
+p:BSkyB,f:1
 1e24:011a0000:0809:0002:1:0
 5 Select
 p:BSkyB,f:1
 1e50:011a0000:0809:0002:1:0
-Paramount Network
+5 Action
 p:BSkyB,f:1
 1e5a:011a0000:0809:0002:1:0
 Nick Jr Too
@@ -1974,7 +1971,7 @@ p:BSkyB,f:1
 Sky Crime
 p:Sky Digital,f:1
 1389:011aae9e:07dc:0002:1:0
-Sky One Ireland
+Sky Max Ireland
 p:BSkyB,f:1
 14c0:011aae9e:07dc:0002:1:0
 Sky Sports Premier League
@@ -2016,14 +2013,11 @@ cb9e:011a0000:083c:0002:1:0
 Dunamis TV
 p:BSkyB,f:1
 c4d6:011a0000:0811:0002:1:0
-Inspiration Network International
-p:BSkyB,f:1
-c4a9:011a0000:0811:0002:1:0
-Hillsong
+Inspiration TV
 p:BSkyB,f:1
 c486:011a0000:0811:0002:1:0
 Jewellery Maker
-p:Sky Digital,f:1
+p:BSkyB,f:1
 c49f:011a0000:0811:0002:1:0
 Sikh Channel
 p:BSkyB,f:1
@@ -2032,13 +2026,13 @@ Blaze
 p:BSkyB,f:1
 c495:011a0000:0811:0002:1:0
 Ahlulbayt Satellite Channel
-p:Sky Digital,f:1
+p:BSkyB,f:1
 c49b:011a0000:0811:0002:1:0
 Spotlight TV
 p:BSkyB,f:1
 c48c:011a0000:0811:0002:1:0
 CNN International Europe
-p:Freesat,f:1
+p:BSkyB,f:1
 c490:011a0000:0811:0002:1:0
 GOLD Ireland
 p:BSkyB,f:1
@@ -2061,7 +2055,10 @@ c4b9:011a0000:0811:0002:1:0
 SkySp Racing
 p:BSkyB,f:1
 c4bd:011a0000:0811:0002:1:0
-Live 360
+ArisePlay
+p:BSkyB,f:1
+c4aa:011a0000:0811:0002:1:0
+HobbyMaker
 p:BSkyB,f:1
 d7e8:011a0000:082c:0002:25:0
 Racing TV HD
@@ -2364,7 +2361,7 @@ d75d:011a0000:082f:0002:2:0
 Heart Dance
 p:BSkyB
 d74a:011a0000:082f:0002:1:0
-Chilled 90s
+NOW 90s
 p:BSkyB,f:1
 d75e:011a0000:082f:0002:2:0
 Hits Radio
@@ -2564,11 +2561,8 @@ p:BSkyB,f:1
 d3c5:011a0000:0829:0002:1:0
 Adult Channel (from 21h CET)
 p:BSkyB,f:1
-d3c4:011a0000:0829:0002:1:0
-Neo News
-p:BSkyB,f:1
 d3c8:011a0000:0829:0002:1:0
-XXX Amateurs
+XXX Public Pikups
 p:BSkyB,f:1
 d3ca:011a0000:0829:0002:1:0
 XXX Girl Girl
@@ -2600,32 +2594,14 @@ p:BSkyB,f:1
 2328:011a0000:07d3:0002:31:0
 Ultra HD
 p:BSkyB,f:1
-232e:011a0000:07d3:0002:31:0
-U1
-p:BSkyB,f:1
 0fc0:011a0000:07d3:0002:25:0
-Star Gold HD
-p:BSkyB,f:1
-235b:011a0000:07d3:0002:31:0
-Ultra HD
+Utsav Gold HD
 p:BSkyB,f:1
 0c1c:011a0000:07d3:0002:25:0
 3100
 p:BSkyB,f:1
 1410:011a0000:07d3:0002:25:0
 Sky Documentaries HD
-p:BSkyB,f:1
-2655:011a0000:07d3:0002:31:0
-Ultra HD
-p:BSkyB,f:1
-265d:011a0000:07d3:0002:31:0
-Ultra HD
-p:BSkyB,f:1
-265e:011a0000:07d3:0002:31:0
-Ultra HD
-p:BSkyB,f:1
-265f:011a0000:07d3:0002:31:0
-Ultra HD
 p:BSkyB,f:1
 584c:011a0000:082e:0002:1:0
 Politics Punjab TV
@@ -2740,6 +2716,9 @@ BTSpt/ESPN HD
 p:BSkyB,f:1
 d225:011a0000:0841:0002:25:0
 BTSptBoxOffHD
+p:BSkyB,f:1
+d1ce:011a0000:0841:0002:25:0
+NBC News NOW
 p:BSkyB,f:1
 1ce8:011a0000:07f6:0002:31:0
 Astra UHD Demo
@@ -3054,7 +3033,7 @@ d093:011aac2b:083e:0002:25:0
 GB News HD
 p:BSkyB,f:1
 0f15:011a0000:07e9:0002:25:0
-Sky One UK HD
+Sky Max HD
 p:BSkyB,f:1
 0f58:011a0000:07e9:0002:25:0
 Sky Witness HD
@@ -3182,9 +3161,6 @@ p:BSkyB,f:1
 2334:011ab024:07f0:0002:31:0
 Ultra HD
 p:BSkyB,f:1
-11d7:011ab024:07f0:0002:1:0
-4567
-p:BSkyB,f:1
 040c:011ab024:07f0:0002:25:0
 BT Sport Box Office HD
 p:BSkyB,f:1
@@ -3211,9 +3187,6 @@ Kiss TV (UK)
 p:BSkyB,f:1
 1c2c:011a0000:083b:0002:1:0
 Kerrang !
-p:BSkyB,f:1
-1c26:011a0000:083b:0002:1:0
-4Music
 p:BSkyB,f:1
 1c2d:011a0000:083b:0002:1:0
 Film4 Ireland
@@ -3366,7 +3339,7 @@ p:BSkyB,f:1
 Sky Sports Action
 p:BSkyB,f:1
 119f:011a0000:07ea:0002:1:0
-Sky Sports 3
+SkySp Action
 p:BSkyB,f:1
 1298:011a0000:07ea:0002:1:0
 Virgin One
@@ -3390,7 +3363,7 @@ p:BSkyB,f:1
 Sky Sports Premier League
 p:BSkyB,f:1
 1656:011a0000:07ea:0002:1:0
-Sky1
+Sky Max
 p:BSkyB,f:1
 1794:011a0000:07ea:0002:1:0
 Sky Witness Ireland
@@ -3488,9 +3461,6 @@ p:BSkyB,f:1
 148b:011a0000:07ec:0002:2:0
 SNR
 p:BSkyB
-0668:011a0000:07ec:0002:25:0
-PPV
-p:BSkyB,f:1
 0669:011a0000:07ec:0002:25:0
 RB
 p:BSkyB,f:1
@@ -3548,12 +3518,18 @@ p:,f:1
 1bbc:011a0000:0835:0002:25:0
 PCNE Chinese HD
 p:BSkyB,f:1
-d0fd:011a0000:0832:0002:25:0
-New Media HD
-p:BSkyB,f:1
 0001:011a30e4:0001:ffff:1:0
 Clean
 p:Digisat,f:1
+d15b:011aad4d:0832:0002:25:0
+Create&CraftHD
+p:BSkyB,f:1
+d11a:011aad4d:0832:0002:1:0
+Neo News
+p:BSkyB,f:1
+d0fd:011aad4d:0832:0002:25:0
+New Media HD
+p:BSkyB,f:1
 1b6c:00eb0000:0c88:0003:25:0
 RTL 4 HD
 p:M7 Group,f:1
@@ -4277,9 +4253,6 @@ p:M7 Group,f:1
 17b4:00ebaddb:0c82:0003:25:0
 ESPN 4 HD
 p:M7 Group,f:1
-17e9:00ebaddb:0c82:0003:22:0
-Cartoon Network
-p:M7 Group,f:1
 17ea:00ebaddb:0c82:0003:22:0
 FightBox
 p:M7 Group,f:1
@@ -4313,6 +4286,12 @@ p:M7 Group,f:1
 17ce:00ebaddb:0c82:0003:25:0
 Filmbox NL HD
 p:M7 Group,f:1
+182f:00ebaddb:0c82:0003:2:0
+FunX
+p:M7 Group
+1830:00ebaddb:0c82:0003:2:0
+L1Radio
+p:M7 Group
 1f42:00eb3037:0ca1:0003:25:0
 CT 2 HD
 p:CESKA TELEVIZE,f:1
@@ -6602,9 +6581,6 @@ p:
 1b06:00c00000:03fe:0001:1:0
 TRT World HD
 p:GLOBECAST,f:1
-1b06:00c00000:03fe:0001:25:373
-TRT WORLD
-p:CSAT,f:1
 2753:00c00000:0402:0001:1:0
 Bloomberg Europe TV
 p:Arqiva,f:1
@@ -9280,7 +9256,7 @@ München.tv HD
 p:BMT,f:1
 16aa:00c00000:03ff:0001:25:0
 RFO HD Fernsehen Oberbayern
-p:Media Broadcast,f:1
+p:BMT,f:1
 16ac:00c00000:03ff:0001:25:0
 TV Ingolstadt HD
 p:BMT,f:1
@@ -9289,13 +9265,13 @@ Lokal TV Portal HD
 p:BMT,f:1
 16af:00c00000:03ff:0001:25:0
 NiederBayern TV HD
-p:,f:1
+p:BMT,f:1
 16b0:00c00000:03ff:0001:25:0
 TVA - OTV HD
 p:BMT,f:1
 16b1:00c00000:03ff:0001:25:0
 Franken Plus HD
-p:,f:1
+p:BMT,f:1
 16ab:00c00000:03ff:0001:25:0
 a.tv HD .
 p:BMT,f:1
@@ -10971,7 +10947,7 @@ p:SkyItalia,f:1
 NatGeo Wild HD Italia
 p:SkyItalia,f:1
 38bf:00820000:15e0:fbff:1:0
-Primafila 10
+Primafila 5
 p:SkyItalia,f:1
 0de6:00820000:15e0:fbff:1:0
 Attiva Sky On Demand e Restart
@@ -11325,7 +11301,7 @@ p:SkyItalia,f:1
 CNN International Europe
 p:Sky Italia,f:1
 38fa:00820000:19c8:fbff:1:0
-Primafila 8
+Primafila 3
 p:SkyItalia,f:1
 2dc6:00820000:1a2c:fbff:1:0
 Sky Uno
@@ -11370,7 +11346,7 @@ p:Sky Italia,f:1
 Sky Cinema Due +24
 p:SkyItalia,f:1
 2dbf:00820000:1a2c:fbff:1:0
-Primafila 6
+Primafila 1
 p:Sky Italia,f:1
 057c:00820000:1a2c:fbff:1:0
 Comedy Central Italia
@@ -12609,28 +12585,28 @@ p:SkyItalia
 Dl821
 p:SkyItalia
 341e:00820000:2260:fbff:1:0
-Primafila 15
+Primafila 10
 p:Sky Italia,f:1
 3421:00820000:2260:fbff:1:0
-Primafila 11
+Primafila 6
 p:Sky Italia,f:1
 3422:00820000:2260:fbff:1:0
-Primafila 13
+Primafila 8
 p:Sky Italia,f:1
 3423:00820000:2260:fbff:1:0
-Primafila 14
+Primafila 9
 p:Sky Italia,f:1
 3427:00820000:2260:fbff:1:0
-Primafila 12
+Primafila 7
 p:Sky Italia,f:1
 3428:00820000:2260:fbff:130:0
 PRIMAFILA HCZ
 p:SkyItalia,f:1
 38c8:00820000:2260:fbff:1:0
-Primafila 9
+Primafila 4
 p:SkyItalia,f:1
 38c9:00820000:2260:fbff:1:0
-Primafila 7
+Primafila 2
 p:SkyItalia,f:1
 2d00:00820000:2260:fbff:25:0
 Sky Atlantic +1 HD
@@ -12935,9 +12911,6 @@ p:Mediaset
 0066:00820000:1770:0110:2:0
 Radio Monte Carlo
 p:Mediaset
-0067:00820000:1770:0110:2:0
-RMC2
-p:Mediaset
 0069:00820000:1770:0110:2:0
 Radio 105
 p:Mediaset
@@ -12953,6 +12926,9 @@ p:,f:1
 003a:00820000:1770:0110:25:0
 Canale 239
 p:,f:1
+006a:00820000:1770:0110:2:0
+RADIO SUBASIO
+p:
 1421:00822ce0:05dc:013e:1:0
 CANAL+ Domo HD
 p:CANAL+,f:1
@@ -13498,6 +13474,9 @@ Kabelio Blue Zoom D
 p:KABELIO.CH,f:1
 3756:00822d06:06a4:013e:25:0
 Kabelio Swiss1
+p:KABELIO.CH,f:1
+3768:00822d06:06a4:013e:1:0
+Kabelio BBC News
 p:KABELIO.CH,f:1
 10ea:0082ac81:03e8:013e:25:0
 TVN 24 Bizness HD
@@ -14370,7 +14349,7 @@ p:XTRA TV,C:0000,f:1
 Star Family
 p:XTRA TV,C:0000,f:1
 0410:00820000:005e:0055:25:0
-TV 1000
+TV 1000 HD
 p:XTRA TV,C:0000,f:1
 0424:00820000:005e:0055:25:0
 TV 1000 Action HD
@@ -14673,7 +14652,7 @@ p:Nova,f:1
 Disney Junior
 p:Nova,f:1
 019f:00820000:1518:013e:1:0
-NovaLifExtraHD
+Nova Stars HD
 p:Nova,f:1
 01a0:00820000:1518:013e:1:0
 TLC
