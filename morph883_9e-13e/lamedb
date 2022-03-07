@@ -261,6 +261,9 @@ transponders
 00820000:2db4:013e
 	s 10853000:29900000:0:2:130:2:0:1:2:2:2
 /
+00820000:0060:0055
+	s 10853000:29900000:0:2:130:2:0:1:2:2:2
+/
 005a0000:14b4:009c
 	s 11785000:27500000:0:2:90:2:0:1:2:0:2
 /
@@ -887,9 +890,6 @@ p:Telespazio,f:1
 132e:00820000:33f4:013e:1:0
 Juwelo TV
 p:MEDIA BROADCAST,f:1
-132c:00820000:33f4:013e:1:0
-Fashion Tv
-p:Telespazio,f:1
 136a:00820000:33f4:013e:1:0
 TLC Telecampione
 p:Telespazio,f:1
@@ -931,9 +931,6 @@ RIK3
 p:Telespazio
 135b:00820000:33f4:013e:2:0
 Radio Gamma Stereo
-p:Telespazio
-1365:00820000:33f4:013e:2:0
-Radio Dimensione Stereo
 p:Telespazio
 1359:00820000:33f4:013e:2:0
 Radio Sintony
@@ -1236,7 +1233,7 @@ p:TivùSat,f:1
 Tele Padre Pio
 p:Telespazio,f:1
 4243:00820000:3db8:013e:1:0
-UnireSat HD
+EQUtv
 p:Telespazio,f:1
 4242:00820000:3db8:013e:1:0
 Radio Italia TV HD
@@ -1334,9 +1331,6 @@ p:Telespazio,f:1
 424f:00820000:3db8:013e:1:0
 RDS Social TV HD
 p:Teelspazio,f:1
-424c:00820000:3db8:013e:1:0
-Napoli International
-p:Telespazio,f:1
 423a:00820000:3db8:013e:1:0
 AdventureHD
 p:Telespazio,f:1
@@ -2225,9 +2219,6 @@ p:GLOBECAST,f:1
 29d1:00820000:1c20:013e:1:0
 EWTN English
 p:GLOBECAST,f:1
-29db:00820000:1c20:013e:1:0
-Arirang TV
-p:,f:1
 29e5:00820000:1c20:013e:1:0
 Mezzo
 p:Globecast,f:1
@@ -3287,9 +3278,6 @@ p:Cyfrowy Polsat S.A.,f:1
 428e:00820000:2bc0:013e:1:0
 4Fun Kids
 p:Cyfrowy Polsat S.A.,f:1
-428b:00820000:2bc0:013e:1:0
-Polsat 1
-p:Cyfrowy Polsat SA,f:1
 3dcd:00820000:0640:013e:1:0
 TVN HD
 p:Cyfrowy Polsat,f:1
@@ -3479,6 +3467,12 @@ p:ViewSat,f:1
 4224:00820000:2f44:013e:22:0
 Blue Hustler POL
 p:M7 Group,f:1
+4232:00820000:2f44:013e:1:0
+RADA
+p:FFmpeg,f:1
+4233:00820000:2f44:013e:22:0
+1+1 International
+p:1plus1 Media,f:1
 0047:00820000:1770:0110:1:0
 La7
 p:TivùSat,f:1
@@ -3889,9 +3883,6 @@ TravelXP 4K
 p:,f:1
 11fa:00820000:2b5c:013e:31:0
 NASA TV UHD
-p:,f:1
-11f9:00820000:2b5c:013e:31:0
-4K Universe
 p:,f:1
 11fc:00820000:2b5c:013e:1:0
 Museum 4K
@@ -4805,6 +4796,9 @@ p:GLOBECAST
 3330:00820000:1388:013e:1:0
 KBS World HD
 p:GLOBECAST,f:1
+3331:00820000:1388:013e:1:0
+TV5 Monde Europe
+p:Globecast,f:1
 05f9:00820000:2c24:013e:1:0
 Sahar Kurdish
 p:IRIB,f:1
@@ -4920,19 +4914,19 @@ p:IRIB,f:1
 Al Alam 2
 p:IRIB,f:1
 03e8:00820000:005e:0055:22:0
-Dorama
+1+1
 p:XTRA TV,C:0000,f:1
 03fc:00820000:005e:0055:22:0
 Star Family
 p:XTRA TV,C:0000,f:1
 0410:00820000:005e:0055:22:0
-TV 1000 HD
+TV1000
 p:XTRA TV,C:0000,f:1
 0424:00820000:005e:0055:22:0
-TV 1000 Action HD
+TV1000 Action
 p:XTRA TV,C:0000,f:1
 0438:00820000:005e:0055:22:0
-VIP Comedy
+RADA
 p:XTRA TV,C:0000,f:1
 044c:00820000:005e:0055:22:0
 TV 1000 World Kino
@@ -4947,7 +4941,7 @@ p:XTRA TV,f:1
 National Geographic
 p:XTRA TV,C:0000,f:1
 0550:00820000:005e:0055:22:0
-Nat Geo Wild
+Inter
 p:XTRA TV,C:0000,f:1
 0564:00820000:005e:0055:22:0
 Viasat Explore
@@ -4965,22 +4959,7 @@ p:XTRA TV,f:1
 Star Cinema
 p:XTRA TV,f:1
 0474:00820000:005e:0055:22:0
-A Premier
-p:XTRA TV,f:1
-0514:00820000:005e:0055:22:0
-Blue Hustler
-p:XTRA TV,f:1
-0528:00820000:005e:0055:22:0
-Barely Legal
-p:XTRA TV,f:1
-0604:00820000:005e:0055:25:0
-Football 1 HD
-p:XTRA TV,f:1
-0618:00820000:005e:0055:25:0
-Football 2 HD
-p:XTRA TV,f:1
-062c:00820000:005e:0055:25:0
-Football 3 HD
+ICTV
 p:XTRA TV,f:1
 04b1:00820000:23f0:013e:25:0
 SBC HD
@@ -5000,9 +4979,6 @@ p:,f:1
 04b9:00820000:23f0:013e:31:0
 Ultra Nature 4K
 p:Eutelsat,f:1
-04b6:00820000:23f0:013e:25:0
-Abu Dhabi TV
-p:DU,f:1
 04b7:00820000:23f0:013e:1:0
 United States of Africa TV
 p:EUTELSAT MENA,f:1
@@ -5309,18 +5285,6 @@ p:CCTV,f:1
 036d:0082ad41:3c28:013e:1:0
 CGTN Arabic
 p:CCTV,f:1
-3b66:00820000:012c:013e:25:0
-Eurosport 3 HD
-p:TVN DIscovery Group,f:1
-3b67:00820000:012c:013e:25:0
-Eurosport 4 HD
-p:TVN DIscovery Group,f:1
-3b68:00820000:012c:013e:25:0
-Eurosport 5 HD
-p:TVN DIscovery Group,f:1
-3b69:00820000:012c:013e:25:0
-Eurosport 4K
-p:TVN DIscovery Group,f:1
 3b65:00820000:012c:013e:22:0
 Frisbee
 p:TVN DIscovery Group,f:1
@@ -5362,6 +5326,57 @@ Dorama
 p:XTRATV,f:1
 03fc:00820000:2db4:013e:22:0
 StarFamily
+p:,f:1
+0578:00820000:2db4:013e:1:0
+Viasat History
+p:Harmonic,f:1
+058c:00820000:2db4:013e:1:0
+Viasat Nature
+p:Harmonic,f:1
+0410:00820000:2db4:013e:22:0
+TV1000 HD
+p:XTRATV,f:1
+0424:00820000:2db4:013e:22:0
+TV1000 Action HD
+p:XTRATV,f:1
+053c:00820000:2db4:013e:22:0
+National Geographic
+p:XTRATV,f:1
+044c:00820000:2db4:013e:22:0
+TV1000 World Kino
+p:XTRATV,f:1
+05dc:00820000:2db4:013e:22:0
+Epic Drama
+p:,f:1
+080c:00820000:0060:0055:22:0
+History
+p:XTRATV,f:1
+0820:00820000:0060:0055:22:0
+Setanta Sports+
+p:XTRATV,f:1
+0848:00820000:0060:0055:22:0
+VIP Premiere
+p:XTRATV,f:1
+085c:00820000:0060:0055:22:0
+VIP Megahit
+p:XTRATV,f:1
+0960:00820000:0060:0055:22:0
+Eurosport 1
+p:XTRATV,f:1
+0974:00820000:0060:0055:22:0
+Eurosport 2
+p:XTRATV,f:1
+0884:00820000:0060:0055:22:0
+Setanta Sports
+p:XTRATV,f:1
+0988:00820000:0060:0055:22:0
+Discovery
+p:XTRATV,f:1
+099c:00820000:0060:0055:22:0
+Animal Planet
+p:XTRATV,f:1
+07d0:00820000:0060:0055:22:0
+Viasat Sport
 p:,f:1
 00d8:005a0000:14b4:009c:1:0
 Comedy Central
@@ -7661,6 +7676,15 @@ p:Sestarete & Rete 8,f:1
 12cd:005a0000:48e1:217c:1:0
 Canale Italia
 p:Canale Italia,f:1
+12ce:005a0000:48e1:217c:1:0
+Icaro Tv
+p:Global,f:1
+12cf:005a0000:48e1:217c:1:0
+Medianews
+p:MEDIANEWS,f:1
+12d1:005a0000:48e1:217c:1:0
+E TV Rete7
+p:E TV RETE 7,f:1
 0af2:005a0000:28e1:217c:1:0
 RTTR
 p:RTTR OPIM TRENTO,f:1

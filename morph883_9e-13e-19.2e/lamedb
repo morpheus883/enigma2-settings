@@ -102,9 +102,6 @@ transponders
 00c00000:0443:0001
 	s 12226000:27500000:0:3:192:2:0
 /
-00c00000:0445:0001
-	s 12266000:27500000:0:3:192:2:0
-/
 00c00000:000c:0085
 	s 12304000:27500000:0:9:192:2:0:1:1:0:2
 /
@@ -553,6 +550,9 @@ transponders
 	s 11470000:27500000:1:3:130:2:0:1:2:0:2
 /
 00820000:2db4:013e
+	s 10853000:29900000:0:2:130:2:0:1:2:2:2
+/
+00820000:0060:0055
 	s 10853000:29900000:0:2:130:2:0:1:2:2:2
 /
 005a0000:14b4:009c
@@ -1358,18 +1358,12 @@ p:ProSiebenSat.1,f:1
 1b60:00c00000:03fc:0001:1:0
 Cubavision Internacional
 p:GlobeCast,f:1
-1b61:00c00000:03fc:0001:1:0
-Al Jazeera Satellite Channel
-p:GlobeCast,f:1
 1b58:00c00000:03fc:0001:12:0
 DATASYSTEM
 p:
 1b64:00c00000:03fc:0001:1:0
 Arirang HD
 p:Globecast,f:1
-1b64:00c00000:03fc:0001:25:365
-ARIRANG TV
-p:CSAT,f:1
 1af9:00c00000:03fe:0001:1:0
 France 24 (en Français)
 p:GlobeCast,f:1
@@ -1811,201 +1805,6 @@ p:RTL,f:1
 79fe:00c00000:0443:0001:1:0
 EuroNews German
 p:Globecast,f:1
-6f46:00c00000:0445:0001:1:0
-SR FS (bis 14.12.2021)
-p:ARD Digital,f:1
-6f47:00c00000:0445:0001:1:0
-ARD-alpha bis 14.12.2021 zu HD wechseln
-p:ARD Digital,f:1
-6ef0:00c00000:0445:0001:2:0
-alt_Bayern 1
-p:ARD Digital
-6ef1:00c00000:0445:0001:2:0
-alt_Bayern 2
-p:ARD Digital
-6ef2:00c00000:0445:0001:2:0
-alt_BAYERN 3
-p:ARD Digital
-6ef3:00c00000:0445:0001:2:0
-alt_BR-KLASSIK
-p:ARD Digital
-6ef4:00c00000:0445:0001:2:0
-alt_BR24
-p:ARD Digital
-6ef5:00c00000:0445:0001:2:0
-alt_BR Schlager
-p:ARD Digital
-6ef6:00c00000:0445:0001:2:0
-alt_PULS
-p:ARD Digital
-6ef8:00c00000:0445:0001:2:0
-alt_BR24live
-p:ARD Digital
-6f03:00c00000:0445:0001:2:0
-alt_hr1
-p:ARD Digital
-6f04:00c00000:0445:0001:2:0
-alt_hr2
-p:ARD Digital
-6f05:00c00000:0445:0001:2:0
-alt_hr3
-p:ARD Digital
-6f06:00c00000:0445:0001:2:0
-alt_hr4
-p:ARD Digital
-6f07:00c00000:0445:0001:2:0
-alt_YOU FM
-p:ARD Digital
-6f08:00c00000:0445:0001:2:0
-alt_hr-iNFO
-p:ARD Digital
-6f0c:00c00000:0445:0001:2:0
-alt_MDR SACHSEN DD
-p:ARD Digital
-6f0d:00c00000:0445:0001:2:0
-alt_MDR S-ANHALT MD
-p:ARD Digital
-6f0e:00c00000:0445:0001:2:0
-alt_MDR THÜR Mitte-W
-p:ARD Digital
-6f0f:00c00000:0445:0001:2:0
-alt_MDR KULTUR
-p:ARD Digital
-6f10:00c00000:0445:0001:2:0
-alt_MDR JUMP
-p:ARD Digital
-6f11:00c00000:0445:0001:2:0
-alt_MDR SPUTNIK
-p:ARD Digital
-6f12:00c00000:0445:0001:2:0
-alt_MDR AKTUELL
-p:ARD Digital
-6f13:00c00000:0445:0001:2:0
-alt_MDR KLASSIK
-p:ARD Digital
-6f15:00c00000:0445:0001:2:0
-alt_NDR 2 NDS
-p:ARD Digital
-6f16:00c00000:0445:0001:2:0
-alt_NDR Kultur
-p:ARD Digital
-6f17:00c00000:0445:0001:2:0
-alt_NDR Info NDS
-p:ARD Digital
-6f18:00c00000:0445:0001:2:0
-alt_N-JOY
-p:ARD Digital
-6f19:00c00000:0445:0001:2:0
-alt_NDR 90,3
-p:ARD Digital
-6f1a:00c00000:0445:0001:2:0
-alt_NDR1 Welle Nord KI
-p:ARD Digital
-6f1b:00c00000:0445:0001:2:0
-alt_NDR 1 Radio MV SN
-p:ARD Digital
-6f1c:00c00000:0445:0001:2:0
-alt_NDR 1 Nieders. HAN
-p:ARD Digital
-6f1d:00c00000:0445:0001:2:0
-alt_NDR Info Spezial
-p:ARD Digital
-6f20:00c00000:0445:0001:2:0
-alt_Bremen Eins
-p:ARD Digital
-6f21:00c00000:0445:0001:2:0
-alt_Bremen Zwei
-p:ARD Digital
-6f22:00c00000:0445:0001:2:0
-alt_Bremen Vier
-p:ARD Digital
-6f24:00c00000:0445:0001:2:0
-alt_Inforadio
-p:ARD Digital
-6f25:00c00000:0445:0001:2:0
-alt_rbbKultur
-p:ARD Digital
-6f26:00c00000:0445:0001:2:0
-alt_Antenne Brandenburg
-p:ARD Digital
-6f27:00c00000:0445:0001:2:0
-alt_rbb 88.8
-p:ARD Digital
-6f28:00c00000:0445:0001:2:0
-alt_radioeins
-p:ARD Digital
-6f29:00c00000:0445:0001:2:0
-alt_Fritz
-p:ARD Digital
-6f2d:00c00000:0445:0001:2:0
-alt_SR 1 Europawelle
-p:ARD Digital
-6f2e:00c00000:0445:0001:2:0
-alt_SR 2 KulturRadio
-p:ARD Digital
-6f2f:00c00000:0445:0001:2:0
-alt_SR 3 Saarlandwelle
-p:ARD Digital
-6f31:00c00000:0445:0001:2:0
-alt_SWR1 BW
-p:ARD Digital
-6f32:00c00000:0445:0001:2:0
-alt_SWR1 RP
-p:ARD Digital
-6f33:00c00000:0445:0001:2:0
-alt_SWR2
-p:ARD Digital
-6f34:00c00000:0445:0001:2:0
-alt_SWR3
-p:ARD Digital
-6f35:00c00000:0445:0001:2:0
-alt_SWR4 BW
-p:ARD Digital
-6f36:00c00000:0445:0001:2:0
-alt_SWR4 RP
-p:ARD Digital
-6f37:00c00000:0445:0001:2:0
-alt_DASDING
-p:ARD Digital
-6f38:00c00000:0445:0001:2:0
-alt_SWR Aktuell
-p:ARD Digital
-6f3b:00c00000:0445:0001:2:0
-alt_1LIVE
-p:ARD Digital
-6f3c:00c00000:0445:0001:2:0
-alt_WDR 2 Rheinland
-p:ARD Digital
-6f3d:00c00000:0445:0001:2:0
-alt_WDR 3
-p:ARD Digital
-6f3e:00c00000:0445:0001:2:0
-alt_WDR 4
-p:ARD Digital
-6f3f:00c00000:0445:0001:2:0
-alt_WDR 5
-p:ARD Digital
-6f40:00c00000:0445:0001:2:0
-alt_COSMO
-p:ARD Digital
-6f41:00c00000:0445:0001:2:0
-alt_1LIVE diGGi
-p:ARD Digital
-6f42:00c00000:0445:0001:2:0
-alt_Die Maus
-p:ARD Digital
-6f43:00c00000:0445:0001:2:0
-alt_WDR Event
-p:ARD Digital
-6f1e:00c00000:0445:0001:2:0
-alt_NDR Blue
-p:ARD NDR
-6ef7:00c00000:0445:0001:2:0
-alt_BR Heimat
-p:ARD BR
-6f1f:00c00000:0445:0001:2:0
-alt_NDR Schlager
-p:ARD NDR
 006b:00c00000:000c:0085:25:0
 Sky Cinema Hits HD Germany
 p:SKY,f:1
@@ -2132,12 +1931,6 @@ p:CSAT
 239c:00c00000:044a:0001:198:0
 RADIOS 3
 p:CSAT
-23a0:00c00000:044a:0001:201:0
-MY MTV
-p:CSAT,f:1
-23a1:00c00000:044a:0001:201:0
-MON NICKELODEON JUNIOR
-p:CSAT,f:1
 23a3:00c00000:044a:0001:201:0
 TOUS VOS PROGRAMMES
 p:CSAT,f:1
@@ -2285,27 +2078,6 @@ p:ARD Digital,f:1
 6eeb:00c00000:04b1:0001:1:0
 WDR Test A
 p:ARD Digital,f:1
-6ea5:00c00000:04b1:0001:25:0
-WDR HD Köln
-p:ARD Digital,f:1
-6ea6:00c00000:04b1:0001:25:0
-WDR HD Bielefeld
-p:ARD Digital,f:1
-6ea7:00c00000:04b1:0001:25:0
-WDR HD Dortmund
-p:ARD Digital,f:1
-6ea8:00c00000:04b1:0001:25:0
-WDR HD Düsseldorf
-p:ARD Digital,f:1
-6ea9:00c00000:04b1:0001:25:0
-WDR HD Essen
-p:ARD Digital,f:1
-6eaa:00c00000:04b1:0001:25:0
-WDR HD Münster
-p:ARD Digital,f:1
-6eab:00c00000:04b1:0001:25:0
-WDR HD Siegen
-p:ARD Digital,f:1
 6ee2:00c00000:04b1:0001:1:0
 SR Fernsehen
 p:ARD,f:1
@@ -2426,9 +2198,6 @@ p:M7 Group,f:1
 100d:00c00000:0451:0035:1:0
 (18+) Hustler TV CZ
 p:M7 Group,f:1
-100a:00c00000:0451:0035:1:0
-Eleven Sports 1 FR
-p:M7 Group,f:1
 1013:00c00000:0451:0035:1:0
 Bergblick
 p:M7 Group,f:1
@@ -2444,18 +2213,6 @@ p:M7 Group
 101b:00c00000:0451:0035:2:0
 VRT Radio2
 p:M7 Group
-101e:00c00000:0451:0035:1:0
-Eleven Sports 1
-p:M7 Group,f:1
-1032:00c00000:0451:0035:1:0
-VElevensports1
-p:M7 Group,f:1
-101f:00c00000:0451:0035:22:0
-Eleven Sports 2
-p:M7 Group,f:1
-1033:00c00000:0451:0035:22:0
-VElevenSports2
-p:M7 Group,f:1
 103f:00c00000:0451:0035:2:0
 NRJ
 p:M7 Group
@@ -2714,9 +2471,6 @@ p:MB Satellite,f:1
 315e:00c00000:0459:0001:1:0
 MB SAT - Test3
 p:MB Satellite,f:1
-315e:00c00000:0459:0001:12:0
-MB SAT - Test3
-p:MB Satellite
 3145:00c00000:0459:0001:12:0
 RAPS
 p:MB Satellite
@@ -2795,9 +2549,6 @@ p:ORF Digital
 334e:00c00000:045b:0001:2:0
 FM4
 p:ORF Digital
-3350:00c00000:045b:0001:2:0
-U1 Tirol
-p:U1 Tirol
 3354:00c00000:045b:0001:2:0
 RADIO MARIA
 p:Radio Maria Österreich
@@ -3077,18 +2828,6 @@ p:GLOBECAST
 18f5:00c00000:03f4:0001:1:0
 Rai News 24
 p:GLOBECAST,f:1
-18ef:00c00000:03f4:0001:25:342
-RT FRANCE
-p:CSAT,f:1
-18ed:00c00000:03f4:0001:25:351
-RT HD
-p:CANAL+,C:0000,f:1
-18f1:00c00000:03f4:0001:25:367
-TV Galicia HD
-p:Free To Air,C:0000,f:1
-18ee:00c00000:03f4:0001:25:368
-RT Esp HD
-p:CANAL+,C:0000,f:1
 7a48:00c00000:0410:0001:1:0
 Telesur
 p:Telefonica Servicios Audiovisuales,f:1
@@ -3395,12 +3134,6 @@ p:ARD WDR
 28db:00c00000:040f:0001:10:0
 WDR Event
 p:ARD WDR
-288b:00c00000:040f:0001:1:278
-Radio Bremen TV
-p:Free To Air,C:0000,f:1
-2889:00c00000:040f:0001:1:293
-ARD Alpha
-p:CANAL+,C:0000,f:1
 1146:00c00000:0404:0001:1:0
 CNN International Europe
 p:CNN,f:1
@@ -3707,12 +3440,6 @@ p:Al Jazeera,f:1
 1393:00c00000:03ea:0001:25:0
 Insight TV HD Int
 p:SES ASTRA,f:1
-1389:00c00000:03ea:0001:25:329
-BBC WORLD HD
-p:Movistar+,f:1
-139d:00c00000:03ea:0001:25:341
-NHK WORLD
-p:MOVISTAR+,f:1
 7531:00c00000:0426:0001:25:0
 DAZN F1 HD
 p:Movistar+,f:1
@@ -4541,9 +4268,6 @@ p:SES ASTRA,f:1
 1644:00c00000:042c:0001:25:0
 DW English HD
 p:,f:1
-1644:00c00000:042c:0001:1:354
-DW-TV (Deutsche Welle)
-p:Free To Air,C:0000,f:1
 74d0:00c00000:03f8:0001:1:0
 Descarga Cisco
 p:Movistar+,f:1
@@ -4631,15 +4355,6 @@ p:GLOBECAST,f:1
 1a93:00c00000:0452:0001:1:0
 CGTN Francais HD
 p:GLOBECAST,f:1
-1a91:00c00000:0452:0001:25:333
-CGTN
-p:CSAT,f:1
-1a92:00c00000:0452:0001:25:347
-CGTN DOCUMENTARY
-p:CSAT,f:1
-1a93:00c00000:0452:0001:25:348
-CGTN FRANCAIS
-p:CSAT,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -5117,9 +4832,6 @@ p:Telespazio,f:1
 132e:00820000:33f4:013e:1:0
 Juwelo TV
 p:MEDIA BROADCAST,f:1
-132c:00820000:33f4:013e:1:0
-Fashion Tv
-p:Telespazio,f:1
 136a:00820000:33f4:013e:1:0
 TLC Telecampione
 p:Telespazio,f:1
@@ -5161,9 +4873,6 @@ RIK3
 p:Telespazio
 135b:00820000:33f4:013e:2:0
 Radio Gamma Stereo
-p:Telespazio
-1365:00820000:33f4:013e:2:0
-Radio Dimensione Stereo
 p:Telespazio
 1359:00820000:33f4:013e:2:0
 Radio Sintony
@@ -5466,7 +5175,7 @@ p:TivùSat,f:1
 Tele Padre Pio
 p:Telespazio,f:1
 4243:00820000:3db8:013e:1:0
-UnireSat HD
+EQUtv
 p:Telespazio,f:1
 4242:00820000:3db8:013e:1:0
 Radio Italia TV HD
@@ -5564,9 +5273,6 @@ p:Telespazio,f:1
 424f:00820000:3db8:013e:1:0
 RDS Social TV HD
 p:Teelspazio,f:1
-424c:00820000:3db8:013e:1:0
-Napoli International
-p:Telespazio,f:1
 423a:00820000:3db8:013e:1:0
 AdventureHD
 p:Telespazio,f:1
@@ -6455,9 +6161,6 @@ p:GLOBECAST,f:1
 29d1:00820000:1c20:013e:1:0
 EWTN English
 p:GLOBECAST,f:1
-29db:00820000:1c20:013e:1:0
-Arirang TV
-p:,f:1
 29e5:00820000:1c20:013e:1:0
 Mezzo
 p:Globecast,f:1
@@ -7517,9 +7220,6 @@ p:Cyfrowy Polsat S.A.,f:1
 428e:00820000:2bc0:013e:1:0
 4Fun Kids
 p:Cyfrowy Polsat S.A.,f:1
-428b:00820000:2bc0:013e:1:0
-Polsat 1
-p:Cyfrowy Polsat SA,f:1
 3dcd:00820000:0640:013e:1:0
 TVN HD
 p:Cyfrowy Polsat,f:1
@@ -7709,6 +7409,12 @@ p:ViewSat,f:1
 4224:00820000:2f44:013e:22:0
 Blue Hustler POL
 p:M7 Group,f:1
+4232:00820000:2f44:013e:1:0
+RADA
+p:FFmpeg,f:1
+4233:00820000:2f44:013e:22:0
+1+1 International
+p:1plus1 Media,f:1
 0047:00820000:1770:0110:1:0
 La7
 p:TivùSat,f:1
@@ -8119,9 +7825,6 @@ TravelXP 4K
 p:,f:1
 11fa:00820000:2b5c:013e:31:0
 NASA TV UHD
-p:,f:1
-11f9:00820000:2b5c:013e:31:0
-4K Universe
 p:,f:1
 11fc:00820000:2b5c:013e:1:0
 Museum 4K
@@ -9035,6 +8738,9 @@ p:GLOBECAST
 3330:00820000:1388:013e:1:0
 KBS World HD
 p:GLOBECAST,f:1
+3331:00820000:1388:013e:1:0
+TV5 Monde Europe
+p:Globecast,f:1
 05f9:00820000:2c24:013e:1:0
 Sahar Kurdish
 p:IRIB,f:1
@@ -9150,19 +8856,19 @@ p:IRIB,f:1
 Al Alam 2
 p:IRIB,f:1
 03e8:00820000:005e:0055:22:0
-Dorama
+1+1
 p:XTRA TV,C:0000,f:1
 03fc:00820000:005e:0055:22:0
 Star Family
 p:XTRA TV,C:0000,f:1
 0410:00820000:005e:0055:22:0
-TV 1000 HD
+TV1000
 p:XTRA TV,C:0000,f:1
 0424:00820000:005e:0055:22:0
-TV 1000 Action HD
+TV1000 Action
 p:XTRA TV,C:0000,f:1
 0438:00820000:005e:0055:22:0
-VIP Comedy
+RADA
 p:XTRA TV,C:0000,f:1
 044c:00820000:005e:0055:22:0
 TV 1000 World Kino
@@ -9177,7 +8883,7 @@ p:XTRA TV,f:1
 National Geographic
 p:XTRA TV,C:0000,f:1
 0550:00820000:005e:0055:22:0
-Nat Geo Wild
+Inter
 p:XTRA TV,C:0000,f:1
 0564:00820000:005e:0055:22:0
 Viasat Explore
@@ -9195,22 +8901,7 @@ p:XTRA TV,f:1
 Star Cinema
 p:XTRA TV,f:1
 0474:00820000:005e:0055:22:0
-A Premier
-p:XTRA TV,f:1
-0514:00820000:005e:0055:22:0
-Blue Hustler
-p:XTRA TV,f:1
-0528:00820000:005e:0055:22:0
-Barely Legal
-p:XTRA TV,f:1
-0604:00820000:005e:0055:25:0
-Football 1 HD
-p:XTRA TV,f:1
-0618:00820000:005e:0055:25:0
-Football 2 HD
-p:XTRA TV,f:1
-062c:00820000:005e:0055:25:0
-Football 3 HD
+ICTV
 p:XTRA TV,f:1
 04b1:00820000:23f0:013e:25:0
 SBC HD
@@ -9230,9 +8921,6 @@ p:,f:1
 04b9:00820000:23f0:013e:31:0
 Ultra Nature 4K
 p:Eutelsat,f:1
-04b6:00820000:23f0:013e:25:0
-Abu Dhabi TV
-p:DU,f:1
 04b7:00820000:23f0:013e:1:0
 United States of Africa TV
 p:EUTELSAT MENA,f:1
@@ -9539,18 +9227,6 @@ p:CCTV,f:1
 036d:0082ad41:3c28:013e:1:0
 CGTN Arabic
 p:CCTV,f:1
-3b66:00820000:012c:013e:25:0
-Eurosport 3 HD
-p:TVN DIscovery Group,f:1
-3b67:00820000:012c:013e:25:0
-Eurosport 4 HD
-p:TVN DIscovery Group,f:1
-3b68:00820000:012c:013e:25:0
-Eurosport 5 HD
-p:TVN DIscovery Group,f:1
-3b69:00820000:012c:013e:25:0
-Eurosport 4K
-p:TVN DIscovery Group,f:1
 3b65:00820000:012c:013e:22:0
 Frisbee
 p:TVN DIscovery Group,f:1
@@ -9592,6 +9268,57 @@ Dorama
 p:XTRATV,f:1
 03fc:00820000:2db4:013e:22:0
 StarFamily
+p:,f:1
+0578:00820000:2db4:013e:1:0
+Viasat History
+p:Harmonic,f:1
+058c:00820000:2db4:013e:1:0
+Viasat Nature
+p:Harmonic,f:1
+0410:00820000:2db4:013e:22:0
+TV1000 HD
+p:XTRATV,f:1
+0424:00820000:2db4:013e:22:0
+TV1000 Action HD
+p:XTRATV,f:1
+053c:00820000:2db4:013e:22:0
+National Geographic
+p:XTRATV,f:1
+044c:00820000:2db4:013e:22:0
+TV1000 World Kino
+p:XTRATV,f:1
+05dc:00820000:2db4:013e:22:0
+Epic Drama
+p:,f:1
+080c:00820000:0060:0055:22:0
+History
+p:XTRATV,f:1
+0820:00820000:0060:0055:22:0
+Setanta Sports+
+p:XTRATV,f:1
+0848:00820000:0060:0055:22:0
+VIP Premiere
+p:XTRATV,f:1
+085c:00820000:0060:0055:22:0
+VIP Megahit
+p:XTRATV,f:1
+0960:00820000:0060:0055:22:0
+Eurosport 1
+p:XTRATV,f:1
+0974:00820000:0060:0055:22:0
+Eurosport 2
+p:XTRATV,f:1
+0884:00820000:0060:0055:22:0
+Setanta Sports
+p:XTRATV,f:1
+0988:00820000:0060:0055:22:0
+Discovery
+p:XTRATV,f:1
+099c:00820000:0060:0055:22:0
+Animal Planet
+p:XTRATV,f:1
+07d0:00820000:0060:0055:22:0
+Viasat Sport
 p:,f:1
 00d8:005a0000:14b4:009c:1:0
 Comedy Central
@@ -11891,6 +11618,15 @@ p:Sestarete & Rete 8,f:1
 12cd:005a0000:48e1:217c:1:0
 Canale Italia
 p:Canale Italia,f:1
+12ce:005a0000:48e1:217c:1:0
+Icaro Tv
+p:Global,f:1
+12cf:005a0000:48e1:217c:1:0
+Medianews
+p:MEDIANEWS,f:1
+12d1:005a0000:48e1:217c:1:0
+E TV Rete7
+p:E TV RETE 7,f:1
 0af2:005a0000:28e1:217c:1:0
 RTTR
 p:RTTR OPIM TRENTO,f:1
