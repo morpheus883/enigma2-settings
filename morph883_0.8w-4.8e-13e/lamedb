@@ -483,8 +483,8 @@ fff82a39:0041:0046
 0e080000:004c:0046
 	s 12149000:28000000:1:5:-8:2:0
 /
-fff80000:0055:0056
-	s 12322000:30000000:0:3:-8:2:0:1:2:0:0
+fff83022:0055:0046
+	s 12322000:30000000:0:3:-8:2:0:1:2:1:2
 /
 fff80000:02c8:0600
 	s 11958000:28000000:1:5:-8:2:0
@@ -563,9 +563,6 @@ fff83163:0001:0001
 /
 fff80000:0309:0309
 	s 12519000:2500000:1:3:-8:2:0:1:2:0:2
-/
-0e080000:0045:0046
-	s 10903000:25000000:1:3:-8:2:0:1:2:1:2
 /
 fff83113:0af7:00bb
 	s 12563000:28800000:0:7:-8:2:0:1:0:0:2
@@ -941,9 +938,6 @@ p:Cyfrowy Polsat S.A.,f:1
 3e2a:00820000:2ee0:013e:1:0
 Eurosport 1 HD
 p:Cyfrowy Polsat S.A.,f:1
-3e30:00820000:2ee0:013e:1:0
-PPV KSW 63
-p:Cyfrowy Polsat S.A.,f:1
 3e2b:00820000:2ee0:013e:1:0
 Polsat Sport Premium PPV3
 p:Cyfrowy Polsat S.A.,f:1
@@ -1174,13 +1168,13 @@ Bloomberg European TV
 p:Arqiva,f:1
 1cbb:00820000:332c:013e:1:0
 Manoto
-p:Arqiva,f:1
+p:,f:1
 1c8a:00820000:332c:013e:25:0
 Al Jazeera English HD
 p:Arqiva,f:1
 1ca5:00820000:332c:013e:1:0
-Bartar TV
-p:Arqiva,f:1
+Bravo TV
+p:,f:1
 1c8b:00820000:332c:013e:1:0
 Iran International
 p:ABS,f:1
@@ -2062,9 +2056,6 @@ Sky Cinema Due +24 HD
 p:SkyItalia,f:1
 0dd7:00820000:189c:fbff:25:0
 Blaze HD
-p:SkyItalia,f:1
-2b13:00820000:189c:fbff:25:0
-Discovery Science HD Italia
 p:SkyItalia,f:1
 2b5d:00820000:19c8:fbff:1:0
 Sky Cinema Uno
@@ -3704,7 +3695,7 @@ p:Harmonic,f:1
 4205:00820000:2f44:013e:1:0
 Dorcel TV HD
 p:AB Sat,f:1
-06c3:00820000:2f44:013e:1:0
+06c3:00820000:2f44:013e:22:0
 GM24
 p:M-Three satcom,f:1
 421c:00820000:2f44:013e:22:0
@@ -6072,10 +6063,10 @@ p:,f:1
 Pryamiy
 p:,f:1
 1db6:00300000:002b:0055:2:0
-Radio Current Time Ukraine
+Radio Svoboda / Holos Ameryky
 p:
 1dce:00300000:002b:0055:22:0
-Current Time Ukraine
+Svoboda / Holos Ameryky
 p:,f:1
 09d8:00300000:0018:0044:22:0
 TLC Ukraine
@@ -8288,6 +8279,9 @@ p:Telenor,f:1
 1d4d:0e080000:0048:0046:22:0
 France 24 (eng)
 p:Telenor,f:1
+1c13:0e080000:0048:0046:1:0
+SBN International
+p:Telenor,f:1
 7727:0e080000:02c1:0600:25:0
 Sport 1 HD Hungary
 p:UPC Direct,f:1
@@ -8834,19 +8828,19 @@ p:Telenor
 063c:0e080000:004c:0046:2:0
 Europe 2
 p:Telenor
-2332:fff80000:0055:0056:25:0
+2332:fff83022:0055:0046:25:0
 TS Sports 11
 p:Telenor,f:1
-2333:fff80000:0055:0056:25:0
+2333:fff83022:0055:0046:25:0
 TS Sports 12
 p:Telenor,f:1
-2334:fff80000:0055:0056:25:0
+2334:fff83022:0055:0046:25:0
 TS Sports 13
 p:Telenor,f:1
-2335:fff80000:0055:0056:25:0
+2335:fff83022:0055:0046:25:0
 TS Sports 14
 p:Telenor,f:1
-2336:fff80000:0055:0056:25:0
+2336:fff83022:0055:0046:25:0
 TS Sports 15
 p:Telenor,f:1
 79e3:fff80000:02c8:0600:1:0
@@ -9141,7 +9135,7 @@ p:DigiTV,f:1
 Ozone Network
 p:DigiTV,f:1
 0497:fff8af9c:0004:0001:1:0
-Film Cafe
+Viasat History HU
 p:DigiTV,f:1
 0dac:fff8af9c:0004:0001:1:0
 Hora TV
@@ -9181,7 +9175,7 @@ E! Eastern Europe
 p:DigiTV,f:1
 055f:fff8af9c:0004:0001:1:0
 Bucuresti 1 TV
-p:RCS DigiTV,f:1
+p:DigiTV,f:1
 0a14:0e082e09:0005:0001:1:0
 Music Channel HU
 p:RCSRDS,f:1
@@ -9207,7 +9201,7 @@ p:DigiTV,f:1
 HBO Hungary
 p:DigiTV,f:1
 056e:0e082e09:0005:0001:1:0
-Minimax/Animax Hungary
+Minimax
 p:RCSRDS,f:1
 0a6e:0e082e09:0005:0001:1:0
 Spektrum TV Hungary
@@ -9253,55 +9247,55 @@ TV Paprika HU
 p:DigiTV,f:1
 0407:0e082f62:0003:0001:1:0
 DIGI Sport 3 HU
-p:RCSRDS,f:1
+p:DigiTV,f:1
 100e:0e082f62:0003:0001:1:0
 Magyar Slager TV
 p:DigiTV,f:1
 0d16:0e082f62:0003:0001:1:0
 Spiler TV
-p:RCS,f:1
+p:DigiTV,f:1
 1018:0e082f62:0003:0001:1:0
 Nat Geo Wild HU
-p:RCS,f:1
+p:DigiTV,f:1
 041a:0e082f62:0003:0001:1:0
 Film Now HU
-p:RCSRDS,f:1
+p:DigiTV,f:1
 0622:0e082f62:0003:0001:1:0
 Viasat Nature CEE
 p:DigiTV,f:1
 0424:0e082f62:0003:0001:1:0
 DIGI World HU
-p:RCSRDS,f:1
+p:DigiTV,f:1
 0564:0e082f62:0003:0001:1:0
 TV 2 (Hungary)
-p:RCSRDS,f:1
+p:DigiTV,f:1
 049c:0e082f62:0003:0001:1:0
 DIGI Sport 1 HU
-p:RCSRDS,f:1
+p:DigiTV,f:1
 04a3:0e082f62:0003:0001:1:0
 DIGI Sport 2 HU
-p:RCSRDS,f:1
+p:DigiTV,f:1
 04a6:0e082f62:0003:0001:1:0
 Hir TV
-p:RCSRDS,f:1
+p:DigiTV,f:1
 05e6:0e082f62:0003:0001:1:0
 RTL Klub
-p:RCSRDS,f:1
+p:DigiTV,f:1
 05f0:0e082f62:0003:0001:1:0
-Story 4
-p:RCSRDS,f:1
+Dikh TV
+p:DigiTV,f:1
 05fa:0e082f62:0003:0001:1:0
 Cool TV
-p:RCSRDS,f:1
+p:DigiTV,f:1
 1f51:0e082f62:0003:0001:6:0
 SW DL DIGI+1
-p:RCSRDS
+p:DIGI
 0cee:0e082f62:0003:0001:1:0
 Film 4 HU
 p:DigiTV,f:1
 0a96:0e082f62:0003:0001:1:0
 Galaxy 4
-p:DIGI TV,f:1
+p:DigiTV,f:1
 040a:fff82e56:0007:0001:1:0
 History
 p:DigiTV,f:1
@@ -9513,7 +9507,7 @@ p:UPC Direct,f:1
 Sport 5
 p:UPC Direct,f:1
 765f:fff8ae1c:02bf:0600:22:0
-CS Mini/CS Film/Horor Film
+CS Film/Horor
 p:UPC Direct,f:1
 7661:fff8ae1c:02bf:0600:22:0
 Markiza International
@@ -9857,17 +9851,11 @@ p:DIGI SPORT,f:1
 00bb:fff80000:0309:0309:1:0
 B 187 DGI
 p:DIGI News,f:1
-1bcf:0e080000:0045:0046:25:0
-Canal 9 HD Danmark
-p:Telenor,f:1
-1cd6:0e080000:0045:0046:25:0
-See
-p:Telenor,f:1
 1b63:fff83113:0af7:00bb:25:0
 Epic Drama HD
 p:Slovak Telekom,f:1
 1b64:fff83113:0af7:00bb:22:0
-TV Seznam Zpravy
+Televize Seznam
 p:Slovak Telekom,f:1
 1b65:fff83113:0af7:00bb:25:0
 Prima LOVE HD
@@ -10071,7 +10059,7 @@ p:M7,f:1
 Prima Krimi HD
 p:M7,f:1
 7aab:0e080000:02ca:0600:22:0
-Trojka
+RTVS 24
 p:M7,f:1
 7ab3:0e080000:02ca:0600:22:0
 JOJ Family
