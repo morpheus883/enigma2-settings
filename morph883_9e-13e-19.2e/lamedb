@@ -646,16 +646,16 @@ transponders
 	s 12149000:31400000:1:2:90:2:0:1:2:0:2:1:262140:1
 /
 005a0000:7918:217c
-	s 12466000:41950000:1:3:90:2:0:1:2:0:2:36:0:1
+	s 12466000:41950000:1:4:90:2:0:1:2:0:2:36:0:1
 /
 005a0000:0204:001d
-	s 12466000:41950000:1:3:90:2:0:1:2:0:2:33:0:1
+	s 12466000:41950000:1:4:90:2:0:1:2:0:2:33:0:1
 /
 005a0000:0200:001d
-	s 12466000:41950000:1:3:90:2:0:1:2:0:2:35:0:1
+	s 12466000:41950000:1:4:90:2:0:1:2:0:2:35:0:1
 /
 005a0000:0202:001d
-	s 12466000:41950000:1:3:90:2:0:1:2:0:2:34:0:1
+	s 12466000:41950000:1:4:90:2:0:1:2:0:2:34:0:1
 /
 005aaf4f:0389:0110
 	s 12111000:31400000:1:2:90:2:0:1:2:0:2:4:8:0
@@ -10787,9 +10787,6 @@ p:Mediaset,f:1
 0001:005a0000:7918:217c:1:0
 NOVE
 p:Persidera,f:1
-0003:005a0000:7918:217c:1:0
-Paramount Network
-p:Persidera,f:1
 0014:005a0000:7918:217c:1:0
 NOVE
 p:Persidera,f:1
@@ -10820,29 +10817,38 @@ p:Persidera,f:1
 003c:005a0000:7918:217c:25:0
 Canale 239
 p:Persidera,f:1
-0010:005a0000:0204:001d:1:0
-Giallo
+0003:005a0000:7918:217c:1:0
+27Twentyseven (provvisorio)
+p:Persidera,f:1
+0046:005a0000:7918:217c:22:0
+Italia 53
+p:Persidera,f:1
+0047:005a0000:7918:217c:22:1
+Italia 141
+p:Persidera,f:1
+0050:005a0000:7918:217c:22:2
+SportItalia
+p:Persidera,f:1
+0051:005a0000:7918:217c:22:3
+SPORTITALIA
+p:Persidera,f:1
+0010:005a0000:0204:001d:25:0
+Giallo HD
 p:Persidera,f:1
 0015:005a0000:0204:001d:25:0
 RTL 102.5
 p:Persidera,f:1
-0016:005a0000:0204:001d:1:0
+0016:005a0000:0204:001d:22:0
 GM24.IT
 p:Persidera,f:1
-0017:005a0000:0204:001d:1:0
-GM24.IT HD
+0017:005a0000:0204:001d:22:0
+GM24.IT
 p:Persidera,f:1
-002c:005a0000:0204:001d:1:0
-Real Time
+002c:005a0000:0204:001d:25:0
+Real Time HD
 p:Persidera,f:1
-0032:005a0000:0204:001d:1:0
-DMAX
-p:Persidera,f:1
-005a:005a0000:0204:001d:1:0
-Entertainment Fact
-p:Persidera,f:1
-006a:005a0000:0204:001d:1:0
-Super! - Provvisorio
+0032:005a0000:0204:001d:25:0
+DMAX HD
 p:Persidera,f:1
 00da:005a0000:0204:001d:25:0
 RADIOFRECCIA
@@ -10865,26 +10871,38 @@ p:Persidera
 00dd:005a0000:0204:001d:2:0
 RTL 102.5
 p:Persidera
-00de:005a0000:0204:001d:2:0
-RTL 102.5 NEWS
-p:Persidera
-00df:005a0000:0204:001d:2:0
-FRECCIA
-p:Persidera
 00d2:005a0000:0204:001d:22:0
 Juwelo
 p:Persidera,f:1
-006e:005a0000:0204:001d:22:0
-Juwelo - Info
+0014:005a0000:0204:001d:25:0
+Food Network HD
 p:Persidera,f:1
-001e:005a0000:0200:001d:1:0
+0019:005a0000:0204:001d:22:0
+Orler TV
+p:Persidera,f:1
+001a:005a0000:0204:001d:22:0
+PROMO SPORT
+p:Persidera,f:1
+0082:005a0000:0204:001d:25:0
+Radio Zeta
+p:Persidera,f:1
+008c:005a0000:0204:001d:25:1
+RADIO ZETA
+p:Persidera,f:1
+0096:005a0000:0204:001d:25:2
+RTL 102.5 News
+p:Persidera,f:1
+00a0:005a0000:0204:001d:25:3
+RTL 102.5 NEWS
+p:Persidera,f:1
+00fa:005a0000:0204:001d:22:0
+Radio Liberta'
+p:Persidera,f:1
+001e:005a0000:0200:001d:22:0
 Boing Plus
 p:Persidera,f:1
 0028:005a0000:0200:001d:25:0
 SuperTennis
-p:Persidera,f:1
-0032:005a0000:0200:001d:1:0
-Spike
 p:Persidera,f:1
 003c:005a0000:0200:001d:1:0
 RadioItaliaTV
@@ -10895,22 +10913,19 @@ p:Persidera,f:1
 0276:005a0000:0200:001d:1:0
 VH1 On Demand
 p:Persidera,f:1
-0078:005a0000:0200:001d:1:0
+0078:005a0000:0200:001d:22:0
 VH1
 p:Persidera,f:1
 0079:005a0000:0200:001d:1:0
 VH1
 p:Persidera,f:1
-0092:005a0000:0200:001d:1:0
+0092:005a0000:0200:001d:22:0
 Frisbee
 p:Persidera,f:1
-0097:005a0000:0200:001d:1:0
+0097:005a0000:0200:001d:22:0
 K2
 p:Persidera,f:1
 000d:005a0000:0200:001d:2:0
-R Italia SMI
-p:Persidera
-000e:005a0000:0200:001d:2:0
 R Italia SMI
 p:Persidera
 0041:005a0000:0200:001d:1:0
@@ -10919,25 +10934,46 @@ p:Persidera,f:1
 0037:005a0000:0200:001d:22:0
 Super!
 p:Persidera,f:1
-002d:005a0000:0200:001d:22:0
-Paramount Network
+001f:005a0000:0200:001d:22:0
+Boing Plus
 p:Persidera,f:1
-003c:005a0000:0202:001d:1:0
+0046:005a0000:0200:001d:25:0
+TV8 HD
+p:Persidera,f:1
+0047:005a0000:0200:001d:25:1
+TV8 HD
+p:Persidera,f:1
+0048:005a0000:0200:001d:25:2
+TV8 HD
+p:Persidera,f:1
+0050:005a0000:0200:001d:22:3
+Cielo
+p:Persidera,f:1
+005a:005a0000:0200:001d:22:4
+Sky TG24
+p:Persidera,f:1
+0064:005a0000:0200:001d:25:5
+TV2000
+p:Persidera,f:1
+0274:005a0000:0200:001d:1:0
+TV8 News On Demand
+p:Persidera,f:1
+003c:005a0000:0202:001d:22:0
 Alma TV - Alice & Marcopolo
 p:Persidera,f:1
-0041:005a0000:0202:001d:1:0
+0041:005a0000:0202:001d:22:0
 BOM Channel
 p:Persidera,f:1
 0064:005a0000:0202:001d:1:0
-TV 2000
+TV2000 (provvisorio)
 p:Persidera,f:1
-006e:005a0000:0202:001d:1:0
+006e:005a0000:0202:001d:22:0
 TCI
 p:Persidera,f:1
 0073:005a0000:0202:001d:25:0
 Cusano Italia TV
 p:Persidera,f:1
-007d:005a0000:0202:001d:1:0
+007d:005a0000:0202:001d:22:0
 Parole di Vita
 p:Persidera,f:1
 0069:005a0000:0202:001d:2:0
@@ -10946,23 +10982,14 @@ p:Persidera
 0078:005a0000:0202:001d:25:0
 Radio Kiss Kiss TV
 p:Persidera,f:1
-0082:005a0000:0202:001d:25:0
-Radio Zeta
-p:Persidera,f:1
 0091:005a0000:0202:001d:25:0
 RDS Social TV
 p:Persidera,f:1
-008c:005a0000:0202:001d:1:0
+008c:005a0000:0202:001d:22:0
 Mediatext.it
 p:Persidera,f:1
-005a:005a0000:0202:001d:1:0
-Canale 63
-p:Persidera,f:1
-0087:005a0000:0202:001d:1:0
+0087:005a0000:0202:001d:22:0
 Byoblu
-p:Persidera,f:1
-0096:005a0000:0202:001d:25:0
-RTL 102.5 News
 p:Persidera,f:1
 0092:005a0000:0202:001d:25:0
 RDS Social TV
@@ -10990,6 +11017,108 @@ La 4 Italia
 p:Persidera,f:1
 0003:005a0000:0202:001d:22:0
 Channel 24
+p:Persidera,f:1
+0009:005a0000:0202:001d:22:0
+Donna Sport TV
+p:Persidera,f:1
+000a:005a0000:0202:001d:22:0
+Inlinea TV
+p:Persidera,f:1
+000b:005a0000:0202:001d:22:0
+Air Italia
+p:Persidera,f:1
+000c:005a0000:0202:001d:22:0
+Fire TV
+p:Persidera,f:1
+000d:005a0000:0202:001d:22:0
+Arte Investimenti
+p:Persidera,f:1
+000e:005a0000:0202:001d:22:0
+Canale 162
+p:Persidera,f:1
+000f:005a0000:0202:001d:22:0
+Canale 163
+p:Persidera,f:1
+0011:005a0000:0202:001d:22:0
+ILIKE.TV
+p:Persidera,f:1
+0012:005a0000:0202:001d:22:0
+Canale 232
+p:Persidera,f:1
+0013:005a0000:0202:001d:22:0
+Canale 237
+p:Persidera,f:1
+0015:005a0000:0202:001d:22:0
+Canale 263
+p:Persidera,f:1
+008b:005a0000:0202:001d:22:0
+Italia Channel
+p:Persidera,f:1
+008d:005a0000:0202:001d:22:0
+Pianeta TV
+p:Persidera,f:1
+03e9:005a0000:0202:001d:22:0
+SoloCalcio
+p:Persidera,f:1
+03ea:005a0000:0202:001d:22:0
+Canale 235
+p:Persidera,f:1
+03eb:005a0000:0202:001d:22:0
+Canale 268
+p:Persidera,f:1
+03ec:005a0000:0202:001d:22:0
+PROMO FOOD
+p:Persidera,f:1
+03ed:005a0000:0202:001d:22:0
+PROMO TRAVEL
+p:Persidera,f:1
+03ee:005a0000:0202:001d:22:0
+PROMO HOME
+p:Persidera,f:1
+03ef:005a0000:0202:001d:22:0
+PROMO LIVING
+p:Persidera,f:1
+03f0:005a0000:0202:001d:22:0
+PROMO LIFE
+p:Persidera,f:1
+03f1:005a0000:0202:001d:22:0
+PROMO SHOPPING
+p:Persidera,f:1
+03f2:005a0000:0202:001d:22:0
+PROMO MUSIC
+p:Persidera,f:1
+03f3:005a0000:0202:001d:22:0
+PROMO KIDS
+p:Persidera,f:1
+03f4:005a0000:0202:001d:22:0
+WELCOME IN
+p:Persdiera,f:1
+03f5:005a0000:0202:001d:22:0
+BIKE
+p:Persidera,f:1
+03f6:005a0000:0202:001d:22:0
+BFC
+p:Persidera,f:1
+03f7:005a0000:0202:001d:22:0
+PREMIO LIVE
+p:Persidera,f:1
+03f8:005a0000:0202:001d:22:0
+Premio Sport
+p:Persidera,f:1
+03f9:005a0000:0202:001d:22:0
+PREMIO SPORT 2
+p:Persidera,f:1
+03fa:005a0000:0202:001d:22:0
+PREMIO 800
+p:Persidera,f:1
+0014:005a0000:0202:001d:22:0
+LA242
+p:Persidera,f:1
+005a:005a0000:0202:001d:22:0
+GO-TV
+p:Persidera,f:1
+0010:005a0000:0202:001d:22:0
+Canale 165
 p:Persidera,f:1
 0015:005aaf4f:0389:0110:0:0
 Servizio 21
