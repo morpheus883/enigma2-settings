@@ -528,6 +528,12 @@ fff80000:06fe:b4dc
 0e080000:0023:0046
 	s 11372000:25000000:1:3:-8:2:0:1:2:1:2
 /
+fff8b0de:00a0:0000
+	s 12510000:2600000:1:4:-8:2:0:1:2:0:2
+/
+fff80000:0065:0065
+	s 12541000:6651000:1:3:-8:2:0:1:2:0:2
+/
 end
 services
 43a0:00820000:2cec:013e:1:0
@@ -1219,61 +1225,61 @@ Radio2000
 p:Eutelsat
 3ab7:00820000:0514:013e:1:0
 AMC HD Polska
-p:nc+,f:1
+p:CANAL+,f:1
 3ab8:00820000:0514:013e:1:0
 Discovery HD
-p:nc+,f:1
+p:CANAL+,f:1
 3ab9:00820000:0514:013e:1:0
-nSport+
-p:nc+,f:1
+Canal+ Sport 5 HD
+p:CANAL+,f:1
 3abd:00820000:0514:013e:1:0
 TVP 1 HD
-p:nc+,f:1
+p:CANAL+,f:1
 3abe:00820000:0514:013e:1:0
 Romance TV
-p:nc+,f:1
+p:CANAL+,f:1
 3b38:00820000:0514:013e:12:0
 pVOD
-p:nc+
+p:CANAL+
 3aca:00820000:0514:013e:12:0
 Upload
-p:nc+
+p:CANAL+
 3ad4:00820000:0514:013e:12:0
 Faktura
-p:nc+
+p:CANAL+
 3ae1:00820000:0514:013e:1:0
-nSport+
-p:nc+,f:1
+Canal+ Sport 5 HD
+p:CANAL+,f:1
 3adc:00820000:0514:013e:1:0
 Romance TV
-p:nc+,f:1
+p:CANAL+,f:1
 3a9b:00820000:0514:013e:1:0
 Investigation Discovery HD
-p:nc+,f:1
+p:CANAL+,f:1
 3a9c:00820000:0514:013e:1:0
 Discovery Turbo Xtra HD
-p:nc+,f:1
+p:CANAL+,f:1
 3a99:00820000:0514:013e:1:0
 Canal+ Dokument HD
-p:nc+,f:1
+p:CANAL+,f:1
 3adb:00820000:0514:013e:1:0
 TVP 1 HD
-p:nc+,f:1
+p:CANAL+,f:1
 3b38:00820000:0514:013e:1:0
 pVOD
-p:nc+,f:1
+p:CANAL+,f:1
 3acb:00820000:0514:013e:1:0
 CANAL+ DOKUMENT HD
-p:nc+,f:1
+p:CANAL+,f:1
 3acd:00820000:0514:013e:1:0
 ID HD
-p:nc+,f:1
+p:CANAL+,f:1
 3ace:00820000:0514:013e:1:0
 DTX
-p:nc+,f:1
+p:CANAL+,f:1
 3ad6:00820000:0514:013e:1:0
 Discovery HD
-p:nc+,f:1
+p:CANAL+,f:1
 3ae9:00820000:0514:013e:1:0
 AMC
 p:CANAL+,f:1
@@ -3524,9 +3530,6 @@ p:Harmonic,f:1
 4205:00820000:2f44:013e:1:0
 Dorcel TV HD
 p:AB Sat,f:1
-06c3:00820000:2f44:013e:22:0
-GM24
-p:M-Three satcom,f:1
 421c:00820000:2f44:013e:22:0
 UA TV
 p:COSMONOVA LLC,f:1
@@ -3603,7 +3606,7 @@ p:1plus1 Media,f:1
 ByoBlue
 p:M-Three Satcom,f:1
 4235:00820000:2f44:013e:1:0
-Espreso TV
+Espresso TV
 p:,f:1
 0065:00820000:1770:0110:2:0
 Radio R101
@@ -6561,7 +6564,7 @@ p:UPC Direct,f:1
 Nick Jr Hungary
 p:UPC Direct,f:1
 77ae:0e080000:02c2:0600:1:0
-MTV Hungary
+MTV Europe
 p:UPC Direct,f:1
 77af:0e080000:02c2:0600:1:0
 TeenNick Romania
@@ -6576,7 +6579,7 @@ p:UPC Direct,f:1
 Nick Jr Hungary (SVT)
 p:UPC Direct,f:1
 77c2:0e080000:02c2:0600:1:0
-MTV Hungary( SVT)
+MTV Europe (SVT)
 p:UPC Direct,f:1
 77c3:0e080000:02c2:0600:1:0
 TeenNick Romania.
@@ -6591,7 +6594,7 @@ p:UPC Direct,f:1
 Nick Jr Hungary.
 p:UPC Direct,f:1
 77cc:0e080000:02c2:0600:1:0
-MTV Hungary.
+MTV Europe.
 p:UPC Direct,f:1
 77b1:0e080000:02c2:0600:1:0
 Nicktoons Romania
@@ -7170,7 +7173,7 @@ p:Telenor,f:1
 C More Live 4 HD
 p:Telenor,f:1
 1c64:fff82a1a:0042:0046:25:0
-C More Golf HD
+C More Mix HD
 p:Telenor,f:1
 1c66:fff82a1a:0042:0046:25:0
 Sportkanalen HD
@@ -7290,10 +7293,10 @@ p:ESS,f:1
 Viasat 6
 p:ESS,f:1
 2b0b:fff82f3c:000b:1111:1:0
-Sony Max
+Viasat 2
 p:ESS,f:1
 2b0c:fff82f3c:000b:1111:1:0
-Sony Movie Channel
+Viasat Film
 p:ESS,f:1
 2b15:fff82f3c:000b:1111:1:0
 Nicktoons CZ
@@ -7953,7 +7956,7 @@ p:DigiTV,f:1
 PRO Gold
 p:DigiTV,f:1
 055c:fff8af9c:0004:0001:1:0
-PRO 2
+ACasa TV
 p:DigiTV,f:1
 0a82:fff8af9c:0004:0001:1:0
 Ozone Network
@@ -7971,7 +7974,7 @@ p:DigiTV,f:1
 TVR 2
 p:DigiTV,f:1
 03f7:fff8af9c:0004:0001:1:0
-PRO X
+Pro Arena
 p:DigiTV,f:1
 03fd:fff8af9c:0004:0001:1:0
 DIGI World
@@ -8763,7 +8766,7 @@ p:Slovak Telekom,f:1
 CS Film
 p:Slovak Telekom,f:1
 2720:0e080000:0afa:00bb:22:0
-MTV HU
+Nova Lady
 p:Slovak Telekom,f:1
 2722:0e080000:0afa:00bb:22:0
 Magyar Slager TV
@@ -8936,6 +8939,12 @@ p:M7,f:1
 7aba:0e080000:02ca:0600:22:0
 CANAL+ Domo
 p:M7,f:1
+7ac7:0e080000:02ca:0600:22:0
+JOJ Sport (SVT)
+p:M7,f:1
+7ac8:0e080000:02ca:0600:22:0
+Filmbox Stars CZ (SVT)
+p:M7,f:1
 000d:0e08acc4:0001:0001:25:0
 Adtec 1
 p:Adtec Digital 1,f:1
@@ -9023,6 +9032,12 @@ p:Telenor,f:1
 1f34:0e080000:0023:0046:25:0
 V sport ultra HD
 p:Telenor,f:1
+0001:fff8b0de:00a0:0000:1:0
+Napoli H264
+p:EPQ,f:1
+0065:fff80000:0065:0065:1:0
+B 101 DGI
+p:RCS-RDS BUCURESTI,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2022
