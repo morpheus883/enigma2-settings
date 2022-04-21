@@ -345,9 +345,6 @@ transponders
 00303136:0000:0000
 	s 12598000:3255000:0:3:48:2:0
 /
-0030b17e:0001:ffff
-	s 12670000:7500000:1:2:48:2:0:1:2:0:2
-/
 0030b18f:0010:0001
 	s 12687000:2000000:1:7:48:2:0:1:2:0:2
 /
@@ -356,6 +353,9 @@ transponders
 /
 00303143:0001:ffff
 	s 12611000:4610000:0:3:48:2:0:1:2:0:2
+/
+0030b17e:0000:0001
+	s 12670000:7500000:1:2:48:2:0:1:2:0:2
 /
 end
 services
@@ -4532,6 +4532,9 @@ p:,f:1
 0045:00820000:1964:013e:1:0
 Nicktoons HD
 p:Cyfrowy Polsat S.A.,f:1
+0011:00820000:1964:013e:1:0
+Nickelodeon Ukraine Pluto TV
+p:Cyfrowy Polsat S.A,f:1
 200c:00820000:24b8:013e:1:0
 BBC World News
 p:Globecast UK,f:1
@@ -6482,9 +6485,6 @@ p:MX1,f:1
 0001:00303136:0000:0000:1:0
 ENC-RR14
 p:SES,f:1
-0001:0030b17e:0001:ffff:1:0
-TUR-119_main
-p:SNG TRUCK,f:1
 1a04:0030b18f:0010:0001:1:0
 UA Pershiy
 p:Hiltron GmbH,f:1
@@ -6494,6 +6494,9 @@ p:Service Provider,f:1
 0001:00303143:0001:ffff:1:0
 CNN Lviv Path 3
 p:Service Provider,f:1
+0001:0030b17e:0000:0001:1:0
+TUR 139 MAIN
+p:HDPROTEK,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2022

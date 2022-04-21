@@ -420,20 +420,23 @@ transponders
 00eb3149:0001:ffff
 	s 12617000:7200000:0:3:235:2:0:1:2:0:2
 /
-00eb0000:0004:0004
-	s 11501000:7200000:0:3:235:2:0:1:2:0:2
-/
 00ebb0e1:0001:ffff
 	s 12513000:3600000:1:3:235:2:0:1:2:0:2
 /
 00ebb0f1:0000:0000
 	s 12529000:7200000:1:3:235:2:0:1:2:0:2
 /
-00eb3140:0000:0001
-	s 12608000:7200000:0:3:235:2:0:1:2:0:2
-/
 00ebb1c2:0000:0000
 	s 12738000:7200000:1:3:235:2:0:1:2:0:2
+/
+00ebb0f9:0000:0001
+	s 12537000:7200000:1:3:235:2:0:1:2:0:2
+/
+00eb0000:0070:006f
+	s 11501000:7200000:0:3:235:2:0:1:2:0:2
+/
+00eb3140:0001:ffff
+	s 12608000:7200000:0:3:235:2:0:1:2:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -1930,25 +1933,19 @@ Sky Sports Premier League
 p:BSkyB,f:1
 10ce:011aae9e:07dc:0002:1:0
 Sky Action
-p:Sky Digital,f:1
-10cf:011aae9e:07dc:0002:1:0
-Sky Comedy Cinema
-p:Sky Digital,f:1
+p:BSkyB,f:1
 1133:011aae9e:07dc:0002:1:0
 Sky Family
-p:Sky Digital,f:1
+p:BSkyB,f:1
 1134:011aae9e:07dc:0002:1:0
 Sky Movies Premier
-p:Sky Digital,f:1
+p:BSkyB,f:1
 1136:011aae9e:07dc:0002:1:0
 Sky Thriller
-p:Sky Digital,f:1
-157e:011aae9e:07dc:0002:1:0
-Sky Drama
-p:Sky Digital,f:1
+p:BSkyB,f:1
 1612:011aae9e:07dc:0002:1:0
 Sky Movies Greats
-p:Sky Digital,f:1
+p:BSkyB,f:1
 b798:011aae9e:07dc:0002:1:0
 ___4109
 p:BSkyB,f:1
@@ -1969,7 +1966,7 @@ Sky Intro
 p:BSkyB,f:1
 138f:011aae9e:07dc:0002:2:0
 Chl Line-up
-p:Sky Digital
+p:BSkyB
 1199:011aae9e:07dc:0002:1:0
 Sky
 p:BSkyB,f:1
@@ -1990,7 +1987,7 @@ Dummy My Sky Service
 p:BSkyB,f:1
 15b4:011aae9e:07dc:0002:1:0
 Sky Crime
-p:Sky Digital,f:1
+p:BSkyB,f:1
 1389:011aae9e:07dc:0002:1:0
 Sky Max Ireland
 p:BSkyB,f:1
@@ -2011,6 +2008,12 @@ Sky Sports F1
 p:BSkyB,f:1
 14ba:011aae9e:07dc:0002:1:0
 Sky Sports F1
+p:BSkyB,f:1
+14d5:011aae9e:07dc:0002:1:0
+Sky Sports Action
+p:BSkyB,f:1
+119f:011aae9e:07dc:0002:1:0
+SkySp Action
 p:BSkyB,f:1
 cb96:011a0000:083c:0002:1:0
 PCNE - Phoenix Chinese News & Entertainment
@@ -2191,9 +2194,6 @@ E! Entertainment TV
 p:BSkyB,f:1
 0992:011a0000:07d7:0002:1:0
 SyFy Channel
-p:BSkyB,f:1
-0960:011a0000:07d7:0002:1:0
-SyFy UK +1
 p:BSkyB,f:1
 1451:011a0000:07d7:0002:1:0
 Sky Witness
@@ -3346,12 +3346,6 @@ Sky Sports Main Events
 p:BSkyB,f:1
 1078:011a0000:07ea:0002:1:0
 SkySpMainEv
-p:BSkyB,f:1
-107b:011a0000:07ea:0002:1:0
-Sky Sports Action
-p:BSkyB,f:1
-119f:011a0000:07ea:0002:1:0
-SkySp Action
 p:BSkyB,f:1
 1298:011a0000:07ea:0002:1:0
 Virgin One
@@ -5915,21 +5909,24 @@ p:
 0001:00eb3149:0001:ffff:1:0
 D405 Koeln 3.BL
 p:Service Provider,f:1
-0001:00eb0000:0004:0004:1:0
-TVS UE1 HD Sendeweg1
-p:TV Skyline,f:1
 0001:00ebb0e1:0001:ffff:1:0
 RTSH SNG HD
 p:RTSH SNG HD,f:1
 0001:00ebb0f1:0000:0000:25:0
 E380 PATH1
 p:,f:1
-0001:00eb3140:0000:0001:25:0
-UKI1482 World
-p:NEP,f:1
 0001:00ebb1c2:0000:0000:25:0
 MMG-D185 HD Encoder 1
 p:,f:1
+0001:00ebb0f9:0000:0001:25:0
+E412 v1
+p:Overon,f:1
+0001:00eb0000:0070:006f:25:0
+E340/FLY8/Enc 8.1/ LIGUE 2 HD DIRTY MAIN
+p:OVERON,f:1
+002c:00eb3140:0001:ffff:1:0
+PREMER SP0RT
+p:UKI 1889,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -13652,6 +13649,9 @@ p:,f:1
 0045:00820000:1964:013e:1:0
 Nicktoons HD
 p:Cyfrowy Polsat S.A.,f:1
+0011:00820000:1964:013e:1:0
+Nickelodeon Ukraine Pluto TV
+p:Cyfrowy Polsat S.A,f:1
 200c:00820000:24b8:013e:1:0
 BBC World News
 p:Globecast UK,f:1
