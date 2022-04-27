@@ -264,6 +264,9 @@ transponders
 00820000:20d0:013e
 	s 12380000:30000000:1:4:130:2:0:1:2:0:2
 /
+0082aac5:1964:013e
+	s 10949000:27500000:1:3:130:2:0:1:2:0:2
+/
 fed40000:056c:056c
 	s 10730000:27500000:0:3:-300:2:0:1:2:3:0
 /
@@ -369,9 +372,6 @@ fed40000:00c8:0022
 0ce42a8a:000d:ff00
 	s 10890000:30000000:0:3:-300:2:0:1:2:0:2
 /
-0ce42da9:0065:0000
-	s 11689000:4000000:0:2:-300:2:0
-/
 fed431b5:0001:ffff
 	s 12725000:5000000:0:3:-300:2:0:1:2:0:2
 /
@@ -389,6 +389,9 @@ fed4aedb:0001:0001
 /
 0ce40000:0064:0021
 	s 11276000:7140000:0:0:-300:2:0:1:1:0:2
+/
+fed4ad7c:0065:0000
+	s 11644000:4000000:1:2:-300:2:0
 /
 end
 services
@@ -3308,6 +3311,9 @@ p:TVN,f:1
 3dec:00820000:0640:013e:1:0
 Food Network HD_
 p:TVN ,f:1
+3dd4:00820000:0640:013e:1:0
+Metro HD
+p:TVN,f:1
 1bc3:00822ea2:17d4:013e:1:0
 Mad Greekz
 p:NetMed,f:1
@@ -5405,6 +5411,78 @@ p:,f:1
 0bc3:00820000:20d0:013e:25:0
 Fashion TV HD
 p:,f:1
+0001:0082aac5:1964:013e:1:0
+MTV Live HD
+p:Cyfrowy Polsat S.A.,f:1
+0002:0082aac5:1964:013e:1:0
+Nick Music
+p:Cyfrowy Polsat S.A.,f:1
+0003:0082aac5:1964:013e:1:0
+Nick Jr
+p:Cyfrowy Polsat S.A.,f:1
+0008:0082aac5:1964:013e:1:0
+MTV 00s
+p:Cyfrowy Polsat S.A.,f:1
+0009:0082aac5:1964:013e:1:0
+Nickelodeon
+p:Cyfrowy Polsat S.A.,f:1
+000c:0082aac5:1964:013e:1:0
+Comedy Central HD
+p:Cyfrowy Polsat S.A.,f:1
+000d:0082aac5:1964:013e:1:0
+Paramount Network Polska
+p:Cyfrowy Polsat S.A.,f:1
+000e:0082aac5:1964:013e:1:0
+Nicktoons HD
+p:Cyfrowy Polsat S.A.,f:1
+000f:0082aac5:1964:013e:1:0
+MTV Polska HD
+p:Cyfrowy Polsat S.A.,f:1
+0010:0082aac5:1964:013e:1:0
+Polsat Comedy Central Extra
+p:Cyfrowy Polsat S.A.,f:1
+0011:0082aac5:1964:013e:1:0
+Nickelodeon Ukraine Pluto TV
+p:Cyfrowy Polsat S.A,f:1
+0019:0082aac5:1964:013e:1:0
+MTV Commercial
+p:,f:1
+0020:0082aac5:1964:013e:1:0
+Comedy Central HD
+p:Cyfrowy Polsat S.A.,f:1
+0021:0082aac5:1964:013e:1:0
+Paramount Network Polska
+p:Cyfrowy Polsat S.A.,f:1
+003c:0082aac5:1964:013e:1:0
+VOD 202
+p:Cyfrowy Polsat S.A.,f:1
+003d:0082aac5:1964:013e:1:0
+VOD 203
+p:Cyfrowy Polsat SA,f:1
+003e:0082aac5:1964:013e:1:0
+VOD 204
+p:Cyfrowy Polsat SA,f:1
+003f:0082aac5:1964:013e:1:0
+VOD 205
+p:Cyfrowy Polsat S.A.,f:1
+0040:0082aac5:1964:013e:1:0
+VOD 206
+p:Cyfrowy Polsat S.A.,f:1
+0041:0082aac5:1964:013e:1:0
+VOD 207
+p:Cyfrowy Polsat S.A.,f:1
+0042:0082aac5:1964:013e:1:0
+VOD 208
+p:Cyfrowy Polsat S.A.,f:1
+0043:0082aac5:1964:013e:1:0
+xxxVOD1
+p:Cyfrowy Polsat S.A.,f:1
+0044:0082aac5:1964:013e:1:0
+xxxVOD2
+p:Cyfrowy Polsat S.A.,f:1
+0045:0082aac5:1964:013e:1:0
+Nicktoons HD
+p:Cyfrowy Polsat S.A.,f:1
 0065:fed40000:056c:056c:1:0
 Feed
 p:RR Media,f:1
@@ -5620,6 +5698,9 @@ NAIZ irratia
 p:TSA
 0003:0ce4aa8a:000f:0002:1:0
 Telesur SD
+p:TSA,f:1
+0014:0ce4aa8a:000f:0002:25:0
+Promo TSA
 p:TSA,f:1
 0332:0ce43095:002f:0036:1:0
 Discovery HD Showcase
@@ -5988,11 +6069,11 @@ p:Nos,f:1
 Fox Movies Portugal
 p:Meo,f:1
 00eb:0ce40000:0030:0036:1:0
-Blaze TV
-p:Nos,f:1
+AMC Break
+p:AMC Break,f:1
 138c:0ce40000:0030:0036:1:0
-Blaze TV
-p:Meo,f:1
+AMC Break
+p:,f:1
 00f5:0ce40000:0030:0036:1:0
 EuroNews
 p:Nos,f:1
@@ -6902,6 +6983,12 @@ p:TSA,f:1
 0af0:fed40000:0006:0006:22:0
 RTPi 3
 p:TSA,f:1
+0007:fed40000:0006:0006:25:0
+Promo TSA
+p:TSA,f:1
+0014:fed40000:0006:0006:25:0
+Promo TSA
+p:TSA,f:1
 27ec:fed40000:1450:22d4:1:0
 A7
 p:TPA,f:1
@@ -7047,7 +7134,7 @@ p:,f:1
 Playboy TV
 p:,f:1
 1795:fed43048:0026:0036:1:0
-Crime+Investigation
+AMC Crime
 p:,f:1
 17b5:fed43048:0026:0036:1:0
 Sport TV 5 HD
@@ -7220,54 +7307,6 @@ p:Service Provider,f:1
 051e:0ce42a8a:000d:ff00:1:0
 Funbox UHD
 p:MB Satellite,f:1
-0001:0ce42da9:0065:0000:2:0
-Onda Cero
-p:Onda Cero
-0002:0ce42da9:0065:0000:2:0
-Europa FM
-p:Europa FM
-0003:0ce42da9:0065:0000:2:0
-Melodia FM
-p:Melodia FM
-0004:0ce42da9:0065:0000:2:0
-esRadio
-p:esRadio
-0008:0ce42da9:0065:0000:2:0
-RADIO MARIA
-p:RADIO MARIA
-000a:0ce42da9:0065:0000:2:0
-Cadena 100
-p:Cadena 100
-000b:0ce42da9:0065:0000:2:0
-ROCK FM
-p:ROCK FM
-0019:0ce42da9:0065:0000:2:0
-Kiss FM
-p:Kiss FM
-001a:0ce42da9:0065:0000:2:0
-HIT FM
-p:HIT FM
-001e:0ce42da9:0065:0000:2:0
-COPE SAT 2
-p:COPE SAT 2
-0025:0ce42da9:0065:0000:2:0
-COPE
-p:COPE
-0027:0ce42da9:0065:0000:2:0
-MegaStar
-p:MegaStar
-003a:0ce42da9:0065:0000:2:0
-FM ZARAGOZA
-p:FM ZARAGOZA
-003b:0ce42da9:0065:0000:2:0
-FM HUESCA
-p:FM HUESCA
-003c:0ce42da9:0065:0000:2:0
-FM TERUEL
-p:FM TERUEL
-0074:0ce42da9:0065:0000:2:0
-EXTREMADURA FM
-p:EXTREMADURA FM
 0001:fed431b5:0001:ffff:25:0
 E-268 feed 1
 p:,f:1
@@ -7286,6 +7325,57 @@ p:,f:1
 0001:0ce40000:0064:0021:1:0
 PushVOD
 p:Hispasat,f:1
+0001:0ce40000:0064:0021:12:0
+PushVOD
+p:Hispasat
+0001:fed4ad7c:0065:0000:2:0
+Onda Cero
+p:Onda Cero
+0002:fed4ad7c:0065:0000:2:0
+Europa FM
+p:Europa FM
+0003:fed4ad7c:0065:0000:2:0
+Melodia FM
+p:Melodia FM
+0004:fed4ad7c:0065:0000:2:0
+esRadio
+p:esRadio
+0008:fed4ad7c:0065:0000:2:0
+RADIO MARIA
+p:RADIO MARIA
+000a:fed4ad7c:0065:0000:2:0
+Cadena 100
+p:Cadena 100
+000b:fed4ad7c:0065:0000:2:0
+ROCK FM
+p:ROCK FM
+0019:fed4ad7c:0065:0000:2:0
+Kiss FM
+p:Kiss FM
+001a:fed4ad7c:0065:0000:2:0
+HIT FM
+p:HIT FM
+001e:fed4ad7c:0065:0000:2:0
+COPE SAT 2
+p:COPE SAT 2
+0025:fed4ad7c:0065:0000:2:0
+COPE
+p:COPE
+0027:fed4ad7c:0065:0000:2:0
+MegaStar
+p:MegaStar
+003a:fed4ad7c:0065:0000:2:0
+FM ZARAGOZA
+p:FM ZARAGOZA
+003b:fed4ad7c:0065:0000:2:0
+FM HUESCA
+p:FM HUESCA
+003c:fed4ad7c:0065:0000:2:0
+FM TERUEL
+p:FM TERUEL
+0074:fed4ad7c:0065:0000:2:0
+EXTREMADURA FM
+p:EXTREMADURA FM
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2022
