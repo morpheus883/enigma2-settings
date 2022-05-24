@@ -513,6 +513,15 @@ transponders
 00a031c3:00b0:00b1
 	s 12739000:2255000:0:3:160:2:0
 /
+00a0314a:0001:ffff
+	s 12618000:7200000:0:3:160:2:0:1:2:0:2
+/
+00a03130:0000:0000
+	s 12592000:7200000:0:3:160:2:0:1:2:0:2
+/
+00a03139:0000:0001
+	s 12601000:7200000:0:3:160:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -683,9 +692,6 @@ transponders
 /
 00820000:03e8:013e
 	s 11393000:27500000:1:3:130:2:0:1:2:0:2
-/
-00820000:238c:013e
-	s 12539000:30000000:0:4:130:2:0:1:2:2:1
 /
 00820000:3d54:013e
 	s 11642000:27500000:0:3:130:2:0:1:2:0:0
@@ -1102,6 +1108,12 @@ p:BetaDigital,f:1
 p:SES,f:1
 0022:00c00000:000f:0085:25:0
 AutoMotorSport HD temp
+p:BetaDigital,f:1
+0025:00c00000:000f:0085:22:0
+.
+p:Beta Digital,f:1
+0027:00c00000:000f:0085:25:0
+.
 p:BetaDigital,f:1
 7823:00c00000:0428:0001:25:0
 Mezzo Live HD
@@ -1538,6 +1550,9 @@ p:Movistar+,f:1
 7608:00c00000:0408:0001:1:0
 LaLiga 9
 p:Movistar+,f:1
+75fb:00c00000:0408:0001:1:0
+.
+p:Movistar+,f:1
 6dca:00c00000:044d:0001:1:0
 Das Erste
 p:ARD Digital,f:1
@@ -1808,6 +1823,9 @@ p:BetaDigital,f:1
 0306:00c00000:0007:0085:1:0
 Folx Music Television
 p:BetaDigital,f:1
+003c:00c00000:0007:0085:1:0
+.
+p:.,f:1
 2ee3:00c00000:0441:0001:1:0
 RTL Television
 p:CBC,f:1
@@ -2984,6 +3002,9 @@ p:CBC,f:1
 307a:00c00000:03f5:0001:31:0
 RTL UHD
 p:MX1,f:1
+3070:00c00000:03f5:0001:1:0
+.
+p:BetaDigital,f:1
 286e:00c00000:0425:0001:25:0
 RBB Brandenburg HD
 p:ARD,f:1
@@ -4277,6 +4298,9 @@ p:CSAT,f:1
 207b:00c00000:0432:0001:1:0
 France 3 Aquitaine
 p:CSAT,f:1
+2078:00c00000:0432:0001:25:0
+.
+p:CSAT,f:1
 6eac:00c00000:03fd:0001:25:0
 WDR HD Köln
 p:ARD,f:1
@@ -4682,6 +4706,9 @@ p:T-HT,f:1
 07e5:00a00000:0003:0040:22:0
 Maria Vision
 p:Max TV,f:1
+002a:00a00000:0003:0040:22:0
+TV NAKUPI.
+p:T-HT,f:1
 0001:00a00000:0a78:0001:1:0
 DM Sat
 p:,f:1
@@ -6575,9 +6602,6 @@ p:,f:1
 006c:00a02bfe:0001:016e:22:0
 Supersat TV
 p:H,f:1
-006c:00a02bfe:0001:016e:1:0
-Aurora TV
-p:,f:1
 006d:00a02bfe:0001:016e:1:0
 PRO TV Int
 p:,f:1
@@ -6591,16 +6615,16 @@ p:H,f:1
 K3
 p:,f:1
 007c:00a02bfe:0001:016e:2:0
-Radio Serbia
+RM Serbia SRB
 p:
 007d:00a02bfe:0001:016e:2:0
-Radio Serbia HU
+RM Serbia HU
 p:
 007e:00a02bfe:0001:016e:2:0
-Radio Romania
+RM Romania RO
 p:
 007f:00a02bfe:0001:016e:2:0
-Radio Romania Hu
+RM Romania HU
 p:
 0080:00a02bfe:0001:016e:2:0
 RM Albania
@@ -6609,7 +6633,7 @@ p:
 RM BIH
 p:
 0082:00a02bfe:0001:016e:2:0
-RM Armenia
+RM Kosovo
 p:
 0084:00a02bfe:0001:016e:2:0
 RM Hungary
@@ -6629,6 +6653,15 @@ p:Service Provider,f:1
 0001:00a031c3:00b0:00b1:1:0
 Realitatea Plus
 p:Scopus Network Technologies,f:1
+0001:00a0314a:0001:ffff:1:0
+ENC 7
+p:SES,f:1
+0001:00a03130:0000:0000:25:0
+LNR BRIVE VS TOULOUSE
+p:ADVALEM TECHNOLOGIES,f:1
+0001:00a03139:0000:0001:25:0
+CLEAN C+ BRIVE VS TOULOUSE
+p:ADVALEM TECHNOLOGIES TDF,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -7689,7 +7722,7 @@ p:NetMed,f:1
 Smile TV
 p:NetMed,f:1
 013e:00820000:157c:013e:1:0
-NovalifåxtraHD
+NovaSportsExtra2HD
 p:NetMed,f:1
 013c:00820000:157c:013e:1:0
 Disney Junior
@@ -8481,7 +8514,7 @@ p:NetMed,f:1
 Action24
 p:NetMed,f:1
 017d:00820000:1c84:013e:1:0
-Animal Planet HD
+NovaSportsExtra3HD
 p:NetMed,f:1
 017a:00820000:1c84:013e:1:0
 MTV Greece
@@ -10277,24 +10310,6 @@ p:TVN Discovery Group,f:1
 10dd:00820000:03e8:013e:25:0
 Discovery Poland HD
 p:TVN Discovery Group,f:1
-044f:00820000:238c:013e:1:0
-Love Nature 4K
-p:iKO Media Group,f:1
-0450:00820000:238c:013e:1:0
-MyZen 4K
-p:,f:1
-0451:00820000:238c:013e:17:0
-Insight TV UHD
-p:Amagi,f:1
-044e:00820000:238c:013e:1:0
-FTV UHD
-p:1,f:1
-044c:00820000:238c:013e:22:0
-FashionTV L'Original
-p:,f:1
-044d:00820000:238c:013e:25:0
-Fashion TV HD
-p:,f:1
 051b:00820000:3d54:013e:25:0
 RTL 102.5 HD
 p:M-Three satcom,f:1
@@ -11424,7 +11439,7 @@ p:Nova,f:1
 Disney Junior
 p:Nova,f:1
 019f:00820000:1518:013e:1:0
-Nova Stars HD
+NovaSportsExtra1HD
 p:Nova,f:1
 01a0:00820000:1518:013e:1:0
 TLC
