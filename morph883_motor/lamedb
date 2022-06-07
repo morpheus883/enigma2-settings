@@ -1113,9 +1113,6 @@ transponders
 014a2bae:33f4:004b
 	s 11182000:4800000:0:3:330:2:0:1:2:0:2
 /
-014a0000:0190:07fe
-	s 10999000:10200000:0:4:330:2:0:1:2:0:2
-/
 014a2b4b:33f4:004b
 	s 11083000:9600000:0:3:330:2:0:1:2:0:2
 /
@@ -1125,10 +1122,13 @@ transponders
 014a2ba1:33f4:004b
 	s 11169000:4800000:0:3:330:2:0:1:2:0:2
 /
-014a0000:0bbf:0003
+014a2af7:0190:0000
+	s 10999000:10200000:0:4:330:2:0:1:2:0:2
+/
+014a2bb3:0000:0000
 	s 11187000:4800000:0:3:330:2:0:1:2:0:2
 /
-014a2bb9:0bbf:0003
+014a2bb9:0000:0000
 	s 11193000:4800000:0:3:330:2:0:1:2:0:2
 /
 013b0000:1456:0005
@@ -2373,6 +2373,9 @@ transponders
 00c00000:0452:0001
 	s 12522000:22000000:1:2:192:2:0:1:2:2:2
 /
+00c00000:0418:0001
+	s 11185000:22000000:1:2:192:2:0:1:2:0:2
+/
 00a00000:0001:0040
 	s 11512000:30000000:0:3:160:2:0:1:2:0:2
 /
@@ -3509,6 +3512,12 @@ transponders
 /
 00460000:0002:0004
 	s 11527000:7500000:1:3:70:2:0:1:2:0:2
+/
+0046ad3e:0000:0000
+	s 11582000:7200000:1:3:70:2:0:1:2:0:2
+/
+0046ad47:0000:0000
+	s 11591000:7200000:1:3:70:2:0:1:2:0:2
 /
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
@@ -6449,9 +6458,6 @@ p:Service Provider,f:1
 0001:02ad3168:0000:0001:25:0
 Btv DSNG Enc2 HD
 p:www.telemedia.co.za,f:1
-000c:02ad3112:0001:0001:2:0
-Izwelenala Radio
-p:ViewMedia
 0003:02ad3112:0001:0001:1:0
 Homebase TV
 p:ViewMedia,f:1
@@ -6559,6 +6565,9 @@ FCDC TV
 p:ViewMedia,f:1
 000e:02ad3112:0001:0001:1:0
 CMC TV
+p:ViewMedia,f:1
+000c:02ad3112:0001:0001:1:0
+Evangel TV
 p:ViewMedia,f:1
 0001:02ad0000:001a:0014:1:0
 Liberation TV
@@ -8311,6 +8320,9 @@ Pars TV
 p:WNS,f:1
 0029:02080000:194e:194e:1:0
 TMTV
+p:WNS,f:1
+002a:02080000:194e:194e:1:0
+ICC HD
 p:WNS,f:1
 0001:0208307e:0001:ffff:1:0
 Chinar Media MOBILE TRUCK
@@ -11492,6 +11504,9 @@ p:TURKSAT,f:1
 c9c7:01a40000:76c1:042e:1:0
 Kanal Ege
 p:TURKSAT,f:1
+c9c8:01a40000:76c1:042e:1:0
+AlRafidain
+p:TURKSAT,f:1
 3b01:01a40000:a98a:042e:2:0
 RADYO MUTLU
 p:TTNET
@@ -12397,6 +12412,9 @@ Disney Channel Romania, Bulgaria & Ukraine
 p:Bulsatcom,f:1
 013a:01860000:000e:001c:1:0
 Penthouse Passion
+p:,f:1
+011c:01860000:000e:001c:1:0
+Orange Info
 p:,f:1
 006b:01860000:0010:001c:1:0
 Hustler TV
@@ -13372,6 +13390,9 @@ Deytero
 p:ERT
 0021:01860000:0002:212c:2:0
 Zeppelin
+p:ERT
+0022:01860000:0002:212c:2:0
+Kosmos Jazz
 p:ERT
 0005:01860000:0001:212c:1:0
 TV 5 Monde Europe
@@ -16184,24 +16205,6 @@ p:TVP,f:1
 014a:014a2bae:33f4:004b:1:0
 POL 030
 p:Service Provider,f:1
-0fa5:014a0000:0190:07fe:22:0
-Prva BH
-p:Dasto Semtel,f:1
-0fa1:014a0000:0190:07fe:25:0
-O Kanal
-p:Dasto Semtel,f:1
-0fa2:014a0000:0190:07fe:25:0
-Una TV
-p:Dasto Semtel,f:1
-0fa3:014a0000:0190:07fe:25:0
-Nova BH
-p:Dasto Semtel,f:1
-0fa4:014a0000:0190:07fe:25:0
-BN TV
-p:Dasto Semtel,f:1
-0fa6:014a0000:0190:07fe:25:0
-OBN
-p:Dasto Semtel,f:1
 014a:014a2b4b:33f4:004b:1:0
 POL 030
 p:Service Provider,f:1
@@ -16226,12 +16229,30 @@ p:PLTVP,f:1
 0001:014a2ba1:33f4:004b:1:0
 POL-077 ENC-1
 p:,f:1
-014b:014a0000:0bbf:0003:1:0
-POL-031
-p:TVP,f:1
-014b:014a2bb9:0bbf:0003:1:0
-POL-031
-p:TVP,f:1
+0fa1:014a2af7:0190:0000:25:0
+O Kanal
+p:Dasto Semtel,f:1
+0fa2:014a2af7:0190:0000:25:0
+Una TV
+p:Dasto Semtel,f:1
+0fa3:014a2af7:0190:0000:25:0
+Nova BH
+p:Dasto Semtel,f:1
+0fa4:014a2af7:0190:0000:25:0
+BN TV
+p:Dasto Semtel,f:1
+0fa5:014a2af7:0190:0000:22:0
+Prva BH
+p:Dasto Semtel,f:1
+0fa6:014a2af7:0190:0000:22:0
+OBN
+p:Dasto Semtel,f:1
+0001:014a2bb3:0000:0000:25:0
+POL - 054 Kielce
+p:,f:1
+0001:014a2bb9:0000:0000:25:0
+POL34
+p:TVP POL34,f:1
 1d92:013b0000:1456:0005:1:0
 VTV Romania
 p:,f:1
@@ -21524,8 +21545,8 @@ p:RCS Ghana,f:1
 1bc8:01040000:1e86:02be:22:0
 Newday TV
 p:RCS Ghana,f:1
-1bc9:01040000:1e86:02be:25:0
-Pan Africa TV
+1bc9:01040000:1e86:02be:22:0
+Pan African TV
 p:RCS Ghana,f:1
 1bcd:01040000:1e86:02be:22:0
 GTV
@@ -21631,6 +21652,9 @@ Ihsan TV
 p:RCS Ghana,f:1
 1fe0:01040000:1e87:02be:25:0
 BATV Bauchi
+p:OSN,f:1
+1fe4:01040000:1e87:02be:22:0
+Gotel TV
 p:OSN,f:1
 03e8:01042b07:0001:0000:2:0
 Radio
@@ -22060,6 +22084,9 @@ JOJ Sport HD
 p:M7 Group,f:1
 339d:00eb0000:0c89:0003:1:0
 Slager Muzika
+p:M7 Group,f:1
+339f:00eb0000:0c89:0003:25:0
+Markiza Krimi HD
 p:M7 Group,f:1
 1427:00eb0000:0ca2:0003:2:0
 VLNA ZS
@@ -26255,6 +26282,9 @@ p:SES ASTRA,f:1
 1ee7:00c00000:0457:0001:1:0
 SES-LCN2
 p:SES ASTRA,f:1
+1c20:00c00000:0457:0001:1:0
+Bloomberg Europe TV
+p:Bloomberg TV,f:1
 3139:00c00000:0459:0001:1:0
 K-TV Fernsehen
 p:MEDIA BROADCAST,f:1
@@ -28172,9 +28202,9 @@ p:,f:1
 1663:00c00000:042c:0001:22:0
 RADA Eng
 p:,f:1
-1647:00c00000:042c:0001:1:0
+1647:00c00000:042c:0001:25:0
 Cubavision Internacional
-p:GLOBECAST,f:1
+p:OVERON,f:1
 74d0:00c00000:03f8:0001:1:0
 Descarga Cisco
 p:Movistar+,f:1
@@ -28259,6 +28289,24 @@ p:GLOBECAST,f:1
 1a93:00c00000:0452:0001:1:0
 CGTN Francais HD
 p:GLOBECAST,f:1
+10cc:00c00000:0418:0001:25:0
+SportDigital Fussball HD
+p:SES,f:1
+10cd:00c00000:0418:0001:25:0
+Sport1+
+p:SES,f:1
+10ce:00c00000:0418:0001:25:0
+eSports1
+p:SES,f:1
+10cf:00c00000:0418:0001:25:0
+EdgeSport
+p:SES,f:1
+10d0:00c00000:0418:0001:25:0
+Waidwerk
+p:SES,f:1
+10d1:00c00000:0418:0001:25:0
+ClipMyHorse.TV
+p:SES,f:1
 001e:00a00000:0001:0040:22:0
 National Geographic Croatia
 p:Max TV,f:1
@@ -33926,6 +33974,9 @@ p:,f:1
 11fc:00820000:2b5c:013e:1:0
 Museum 4K
 p:,f:1
+11fd:00820000:2b5c:013e:1:0
+MyZen 4K
+p:,f:1
 4530:00820000:30d4:013e:25:0
 Rai Gulp HD
 p:Rai,f:1
@@ -34685,8 +34736,8 @@ p:OVERON,f:1
 0c83:00820000:1f40:013e:1:0
 TCI
 p:overon,f:1
-030f:00820000:1f40:013e:1:0
-Telesur
+030f:00820000:1f40:013e:25:0
+Telesur HD
 p:TSA,f:1
 0e00:00820000:1f40:013e:2:0
 Radio 5
@@ -36419,6 +36470,9 @@ p:KabelKiosk,f:1
 0204:005a0000:2134:009c:22:0
 Dusk
 p:M7 Group,f:1
+01f9:005a0000:2134:009c:1:0
+RTVi
+p:M7 Group,f:1
 012d:005a0000:1edc:009c:25:0
 RTL HD
 p:Kabelkiosk,f:1
@@ -37559,6 +37613,9 @@ p:Persidera,f:1
 0010:005a0000:0202:001d:22:0
 Canale 165
 p:Persidera,f:1
+0015:005a0000:0202:001d:22:0
+Canale 263
+p:Persidera,f:1
 0015:005a0000:0389:0110:0:0
 Servizio 21
 p:Mediaset
@@ -37661,6 +37718,9 @@ p:
 0063:005a0000:032a:0110:0:0
 Ghost
 p:
+200a:005a0000:032a:0110:22:0
+Deluxe 139
+p:,f:1
 0046:005a0000:0107:217c:0:0
 Servizio 70
 p:
@@ -39047,6 +39107,12 @@ p:beIN Sports TURKEY,f:1
 0001:00460000:0002:0004:1:0
 beIN_HD1-1
 p:beIN Sports TURKEY,f:1
+0001:0046ad3e:0000:0000:25:0
+2sat.nl HOL318-1
+p:,f:1
+0001:0046ad47:0000:0000:25:0
+2sat.nl HOL318-2
+p:,f:1
 0fa0:00300000:0006:0056:1:0
 TV Chile
 p:Viasat,f:1
@@ -43967,6 +44033,9 @@ p:Slovak Telekom,f:1
 0fb9:0e080000:0af4:00bb:1:0
 Comedy House
 p:Slovak Telekom,f:1
+0fad:0e080000:0af4:00bb:22:0
+Markiza Krimi
+p:Slovak Telekom,f:1
 0bc4:0e080000:0af3:00bb:25:0
 Spektrum HD
 p:Slovak Telekom,f:1
@@ -44855,8 +44924,8 @@ p:T-Home,f:1
 0002:0de82c28:0001:0001:1:0
 Hir TV
 p:hirTV / AH / HDT,f:1
-0009:0de82c28:0001:0001:1:0
-Da Vinci Learning
+0009:0de82c28:0001:0001:25:0
+DaVinci
 p:Antenna Hungaria / Globecast,f:1
 000a:0de82c28:0001:0001:2:0
 Karc FM
@@ -45301,6 +45370,9 @@ Vita TV
 p:Ukrkosmos,f:1
 000c:0de80000:0002:002a:1:0
 Malyatko TV
+p:Ukrkosmos,f:1
+0017:0de80000:0002:002a:1:0
+Islandiya TV
 p:Ukrkosmos,f:1
 0003:0de82b35:0001:0001:22:0
 METV
@@ -46355,6 +46427,9 @@ p:
 0063:0dde0000:032a:0110:0:0
 Ghost
 p:
+200a:0dde0000:032a:0110:22:0
+Deluxe 139
+p:,f:1
 00c9:0dde0000:4ee8:055f:25:0
 RTL 9
 p:Bis,f:1
@@ -46991,7 +47066,7 @@ p:Rai Way,f:1
 006d:0dde0000:a001:217c:1:0
 Televideo Agrigento
 p:Rai Way,f:1
-0092:0dde0000:a001:217c:1:0
+0092:0dde0000:a001:217c:25:0
 TV Europa
 p:Rai Way,f:1
 0093:0dde0000:a001:217c:1:0
@@ -51932,8 +52007,8 @@ p:Telefonica Spain,f:1
 03e8:0ce40000:000f:0002:2:0
 NAIZ irratia
 p:TSA
-0003:0ce40000:000f:0002:1:0
-Telesur SD
+0003:0ce40000:000f:0002:17:0
+Telesur HD
 p:TSA,f:1
 0014:0ce40000:000f:0002:25:0
 Promo TSA
@@ -54282,7 +54357,7 @@ p:BeS,f:1
 269 ITALIA
 p:BeS,f:1
 1c34:eeee0000:0039:217c:1:0
-DONNA SHOPPING
+FASCINO TV
 p:Bes,f:1
 0755:eeee0000:0039:217c:1:0
 MSSport
@@ -54291,13 +54366,13 @@ p:BeS,f:1
 AZZURRA TV
 p:BeS,f:1
 0191:eeee0000:0039:217c:1:0
-SUPERSIX
+PRIMA FREE
 p:BeS,f:1
 0193:eeee0000:0039:217c:1:0
 RADIO MATER
 p:BeS,f:1
 0097:eeee0000:0039:217c:1:0
-RADIO MUSICA
+DELUX 139
 p:Epiqa,f:1
 00a3:eeee0000:0039:217c:25:0
 RETECAPRI
@@ -54315,7 +54390,7 @@ p:BeS,f:1
 Capri Fashion
 p:BeS,f:1
 00fe:eeee0000:0039:217c:1:0
-LA GRANDE ITALIA
+DONNA SHOPPING
 p:BeS,f:1
 000a:eeee0000:0039:217c:2:0
 Radio Capri
@@ -54554,14 +54629,11 @@ p:Persidera,f:1
 0013:eeee0000:0202:001d:22:0
 CANALE 237
 p:Persidera,f:1
-003c:eeee0000:0202:001d:22:0
-ALMA TV
-p:Persidera,f:1
 0041:eeee0000:0202:001d:22:0
 BOM Channel
 p:Persidera,f:1
 005a:eeee0000:0202:001d:22:0
-GO-TV (provvisorio)
+GM24.IT (provvisorio)
 p:Persidera,f:1
 006e:eeee0000:0202:001d:22:0
 TCI
@@ -54711,10 +54783,10 @@ p:InAria,f:1
 RTL 102.5
 p:Persidera
 0016:eeee0000:0204:001d:22:0
-GM24.IT
+GM24
 p:Persidera,f:1
 0017:eeee0000:0204:001d:22:0
-GM24.IT
+GM24
 p:Persidera,f:1
 0019:eeee0000:0204:001d:22:0
 ORLER TV
@@ -54765,7 +54837,7 @@ p:Persidera,f:1
 RADIOFRECCIA
 p:Persidera,f:1
 0018:eeee0000:0204:001d:22:0
-GO-TV
+GM24.IT
 p:Persidera,f:1
 end
 === Compiled with Morpheus883's scripts ===
