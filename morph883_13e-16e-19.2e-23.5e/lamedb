@@ -907,7 +907,7 @@ transponders
 	s 10930000:30000000:0:2:130:2:0:1:2:0:2
 /
 00820000:1770:0110
-	s 11919000:29900000:1:4:130:2:0
+	s 11919000:29900000:1:3:130:2:0:1:2:0:2
 /
 00820000:05dc:013e
 	s 11488000:27500000:0:3:130:2:0:1:2:0:2
@@ -2941,6 +2941,9 @@ RTVS 24 HD
 p:M7 Group,f:1
 3b7b:00eb0000:0c8d:0003:25:0
 RTVS Sport HD
+p:M7 Group,f:1
+3b7c:00eb0000:0c8d:0003:22:0
+Trojka
 p:M7 Group,f:1
 0001:00eb2cc6:0001:ffff:1:0
 rt1.tv
@@ -10421,9 +10424,6 @@ p:NetMed,f:1
 013c:00820000:157c:013e:1:0
 Disney Junior
 p:NetMed,f:1
-1e5b:00820000:15e0:fbff:25:0
-Primafila 1 HD
-p:SkyItalia,f:1
 1e53:00820000:15e0:fbff:25:0
 MTV Italia HD
 p:SkyItalia,f:1
@@ -10930,6 +10930,9 @@ Bike Channel
 p:SkyItalia,f:1
 34de:00820000:1af4:fbff:25:0
 Explorer HD Channel
+p:SkyItalia,f:1
+0fdc:00820000:1af4:fbff:31:0
+Eurosport 4K
 p:SkyItalia,f:1
 02c1:00820000:1b58:013e:1:0
 Al Jazeera Documentary
@@ -11795,9 +11798,6 @@ p:SkyItalia
 1092:00820000:2008:fbff:25:0
 Calcio Overlay HD
 p:SkyItalia,f:1
-2d55:00820000:2008:fbff:1:0
-Primafila 5
-p:Sky Italia,f:1
 2d5d:00820000:2008:fbff:1:0
 Sky Sport 9
 p:Sky Italia,f:1
@@ -11861,17 +11861,11 @@ p:Sky Italia,f:1
 0f48:00820000:2198:fbff:25:0
 Sky Sport 6 HD
 p:Sky Italia,f:1
-0f4c:00820000:2198:fbff:25:0
-Primafila 4 HD
-p:Sky Italia,f:1
 0f89:00820000:2198:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
 0f4d:00820000:2198:fbff:25:0
 Sky Sport 1 HD
-p:SkyItalia,f:1
-0f71:00820000:2198:fbff:25:0
-Primafila 3 HD
 p:SkyItalia,f:1
 0f5a:00820000:2198:fbff:130:0
 Calcio1Magaz
@@ -12392,9 +12386,6 @@ p:M7 Group,f:1
 4232:00820000:2f44:013e:1:0
 RADA
 p:FFmpeg,f:1
-4233:00820000:2f44:013e:22:0
-1+1 International
-p:1plus1 Media,f:1
 4234:00820000:2f44:013e:1:0
 ByoBlue
 p:M-Three Satcom,f:1
@@ -13406,15 +13397,9 @@ p:Cyfrowy Polsat S.A,f:1
 200c:00820000:24b8:013e:1:0
 BBC World News
 p:Globecast UK,f:1
-2010:00820000:24b8:013e:1:0
-1TvRus Europe
-p:Globecast,f:1
 2023:00820000:24b8:013e:2:0
 Service 8227
 p:Globecast
-2065:00820000:24b8:013e:1:0
-1TvRus Europe
-p:Globecast,f:1
 01f5:00820000:0384:013e:1:0
 Iran International HD
 p:ABS,f:1
@@ -13463,9 +13448,9 @@ p:Eutelsat,f:1
 0652:00820000:2454:013e:1:0
 RT Arabic HD
 p:iKO Media Group,f:1
-0645:00820000:2454:013e:25:0
+0645:00820000:2454:013e:1:0
 Al Alam TV HD
-p:,f:1
+p:SABA GROUP,f:1
 0653:00820000:2454:013e:1:0
 Pop Economy
 p:EUTELSAT,f:1
@@ -13600,9 +13585,6 @@ TVE Internacional HD
 p:RTVE,f:1
 0dae:00820000:1f40:013e:25:0
 24 Horas HD
-p:TSA,f:1
-0014:00820000:1f40:013e:25:0
-Promo TSA
 p:TSA,f:1
 0e83:00820000:3200:013e:1:0
 TVP Polonia
@@ -13829,9 +13811,6 @@ p:IRIB,f:1
 05f3:00820000:2c24:013e:1:0
 Jame-Jam TV 3
 p:IRIB,f:1
-008b:00820000:2c24:013e:1:0
-AlAlam HD
-p:IRIB,f:1
 03e8:00820000:005e:0055:22:0
 1+1
 p:XTRA TV,C:0000,f:1
@@ -14029,9 +14008,6 @@ X Factor
 p:SkyItalia,f:1
 1e5f:00820000:170c:fbff:25:0
 Sky Sport 7 HD
-p:Sky Italia,f:1
-1e60:00820000:170c:fbff:25:0
-Primafila 2 HD
 p:Sky Italia,f:1
 1016:00820000:170c:fbff:25:0
 Prime Video Sportsbar

@@ -762,7 +762,7 @@ transponders
 01860000:0002:001c
 	s 12328000:30000000:1:3:390:2:0:1:2:0:2
 /
-01862d31:0001:0000
+01862d31:0001:ffff
 	s 11569000:4444000:0:3:390:2:0:1:2:0:2
 /
 018630aa:0001:ffff
@@ -789,9 +789,6 @@ transponders
 01860000:0006:0001
 	s 12524000:30000000:0:5:390:2:0
 /
-01860000:0001:02be
-	s 10730000:30000000:0:4:390:2:0:1:2:0:2
-/
 01860000:0000:016e
 	s 12656000:15155000:0:3:390:2:0:1:2:0:2
 /
@@ -807,9 +804,6 @@ transponders
 01860000:00b2:039e
 	s 12137000:30000000:1:4:390:2:0:1:2:2:2
 /
-01860000:146c:00a7
-	s 12252000:30000000:1:3:390:2:0:1:2:0:2
-/
 0186315b:0001:ffff
 	s 12635000:2500000:0:4:390:2:0:1:2:0:2
 /
@@ -821,6 +815,21 @@ transponders
 /
 018631ac:0001:0001
 	s 12716000:7200000:0:3:390:2:0:1:2:0:2
+/
+018629ea:0001:02be
+	s 10730000:30000000:0:3:390:2:0:1:1:0:2
+/
+01860000:0069:212c
+	s 12415000:11567000:0:2:390:2:0:1:2:0:2
+/
+01860000:0065:212c
+	s 12338000:11567000:0:2:390:2:0:1:2:0:2
+/
+01860000:0067:212c
+	s 12353000:11567000:0:2:390:2:0:1:2:0:2
+/
+01860000:1470:00a7
+	s 12252000:30000000:1:3:390:2:0:1:2:0:2
 /
 01680000:ff86:036e
 	s 11747000:27500000:0:3:360:2:0
@@ -2749,7 +2758,7 @@ transponders
 	s 10930000:30000000:0:2:130:2:0:1:2:0:2
 /
 00820000:1770:0110
-	s 11919000:29900000:1:4:130:2:0
+	s 11919000:29900000:1:3:130:2:0:1:2:0:2
 /
 00820000:05dc:013e
 	s 11488000:27500000:0:3:130:2:0:1:2:0:2
@@ -4763,9 +4772,6 @@ ff6aac70:0065:0001
 /
 0ce40000:1450:22d4
 	s 11496000:7884000:0:6:-300:2:0:1:2:0:2:0:185747:0
-/
-0ce42aaa:0001:0001
-	s 10922000:1667000:1:9:-300:2:0:1:2:0:1
 /
 0ce40000:0026:0036
 	s 12360000:27500000:0:3:-300:2:0:1:2:2:2
@@ -8234,11 +8240,8 @@ p:WNS,f:1
 001c:02080000:1d36:1d36:1:0
 TZiK TV
 p:WNS,f:1
-001e:02080000:1d36:1d36:1:0
-Drama TV
-p:WNS,f:1
 001f:02080000:1d36:1d36:1:0
-My Movie
+Drama TV
 p:WNS,f:1
 001a:02080000:1d36:1d36:1:0
 Movie 24
@@ -8597,7 +8600,7 @@ p:5,f:1
 038a:02080000:0005:0002:1:0
 Dunyo Boylab
 p:5,f:1
-038b:02080000:0005:0002:1:0
+038b:02080000:0005:0002:22:0
 Охота и Рыбалка
 p:5,f:1
 038c:02080000:0005:0002:1:0
@@ -8608,15 +8611,6 @@ Nick Toons
 p:5,f:1
 038e:02080000:0005:0002:1:0
 Kinoteatr
-p:5,f:1
-039a:02080000:0005:0002:1:0
-Первый канал (Perviy Kanal)
-p:5,f:1
-039b:02080000:0005:0002:1:0
-РТР Планета (RTR Planeta)
-p:5,f:1
-039c:02080000:0005:0002:1:0
-НТВ Мир (NTV Mir)
 p:5,f:1
 039d:02080000:0005:0002:1:0
 ТНТ (TNT)
@@ -12923,9 +12917,6 @@ p:Dolce TV,f:1
 0143:01860000:0012:001c:1:0
 Comedy Central Bulgaria & Romania
 p:Dolce TV,f:1
-009c:01860000:0012:001c:1:0
-Cinemax East Europe
-p:Dolce TV,f:1
 00ba:01860000:0012:001c:1:0
 Agro TV
 p:,f:1
@@ -13049,7 +13040,10 @@ p:,f:1
 00d0:01860000:0002:001c:25:0
 Nat Geo Wild HD
 p:,f:1
-0001:01862d31:0001:0000:1:0
+0139:01860000:0002:001c:25:0
+HBO HD Romania
+p:,f:1
+0001:01862d31:0001:ffff:1:0
 The Media Office HD
 p:,f:1
 0001:018630aa:0001:ffff:1:0
@@ -13481,57 +13475,6 @@ p:BULSATCOM,f:1
 0086:01860000:0006:0001:1:0
 AMC Balkan
 p:Bulsatcom,f:1
-0002:01860000:0001:02be:1:0
-RIKSat
-p:,f:1
-00de:01860000:0001:02be:2:0
-RIK1
-p:
-115c:01860000:0001:02be:2:0
-RIK2
-p:
-0005:01860000:0001:02be:2:0
-RIK3
-p:
-0006:01860000:0001:02be:2:0
-RIK4
-p:
-0065:01860000:0001:02be:1:0
-Virtual Games 1
-p:Vermantia,f:1
-0066:01860000:0001:02be:1:0
-Virtual Games 2
-p:Vermantia,f:1
-0067:01860000:0001:02be:1:0
-Powerspin
-p:Vermantia,f:1
-0068:01860000:0001:02be:1:0
-Racing Channel
-p:Vermantia,f:1
-0069:01860000:0001:02be:1:0
-LiveSports Channel
-p:Vermantia,f:1
-0004:01860000:0001:02be:1:0
-4E Hellas Orthodox
-p:,f:1
-006a:01860000:0001:02be:1:0
-Virtual Games 3
-p:,f:1
-0020:01860000:0001:02be:2:0
-Voice Of Greece
-p:
-0161:01860000:0001:02be:1:0
-ERT World Europe
-p:,f:1
-0021:01860000:0001:02be:2:0
-Capital Radio Cyprus
-p:
-0024:01860000:0001:02be:2:0
-Kanali 6
-p:
-006b:01860000:0001:02be:1:0
-MultiSpin
-p:,f:1
 0001:01860000:0000:016e:1:0
 Antena 1
 p:Antena Group,f:1
@@ -13937,12 +13880,6 @@ p:A1 BG,f:1
 00e2:01860000:00b2:039e:31:0
 Code Health
 p:A1 BG,C:0000,f:1
-2071:01860000:146c:00a7:17:0
-Pro X HD
-p:Globecast,f:1
-21fe:01860000:146c:00a7:17:0
-B1 HD
-p:Globecast,f:1
 0001:0186315b:0001:ffff:1:0
 DSNG Mazda ROU 030
 p:Antena Group,f:1
@@ -13991,6 +13928,114 @@ p:Service Provider,f:1
 032f:018631ac:0001:0001:1:0
 Service 01
 p:Net 1,f:1
+0001:018629ea:0001:02be:1:0
+Eurobet 11
+p:,f:1
+0007:018629ea:0001:02be:1:0
+Eurobet 13
+p:,f:1
+0041:018629ea:0001:02be:1:0
+Eurobet 12
+p:,f:1
+0056:018629ea:0001:02be:1:0
+Eurobet 14
+p:,f:1
+0002:018629ea:0001:02be:1:0
+RIKSat
+p:,f:1
+0004:018629ea:0001:02be:1:0
+4E Hellas Orthodox
+p:,f:1
+0005:018629ea:0001:02be:2:0
+RIK3
+p:
+0006:018629ea:0001:02be:2:0
+RIK4
+p:
+0020:018629ea:0001:02be:2:0
+Voice Of Greece
+p:
+0021:018629ea:0001:02be:2:0
+Capital Radio Cyprus
+p:
+0024:018629ea:0001:02be:2:0
+Kanali 6
+p:
+0065:018629ea:0001:02be:1:0
+Virtual Games 1
+p:Vermantia,f:1
+0066:018629ea:0001:02be:1:0
+Virtual Games 2
+p:Vermantia,f:1
+0067:018629ea:0001:02be:1:0
+Powerspin
+p:Vermantia,f:1
+0068:018629ea:0001:02be:1:0
+Racing Channel
+p:Vermantia,f:1
+0069:018629ea:0001:02be:1:0
+LiveSports Channel
+p:Vermantia,f:1
+006a:018629ea:0001:02be:1:0
+Virtual Games 3
+p:,f:1
+006b:018629ea:0001:02be:1:0
+MultiSpin
+p:,f:1
+00de:018629ea:0001:02be:2:0
+RIK1
+p:
+0161:018629ea:0001:02be:1:0
+ERT World Europe
+p:,f:1
+0e10:01860000:0069:212c:1:0
+Mega
+p:DIGEA,f:1
+0c1c:01860000:0069:212c:1:0
+Alpha
+p:DIGEA,f:1
+0d48:01860000:0069:212c:1:0
+Open Beyond
+p:DIGEA,f:1
+0e74:01860000:0069:212c:1:0
+Macedonia TV
+p:DIGEA,f:1
+0c80:01860000:0069:212c:1:0
+Skai
+p:DIGEA,f:1
+0dac:01860000:0069:212c:1:0
+Star
+p:DIGEA,f:1
+0ce4:01860000:0069:212c:1:0
+ANT1
+p:DIGEA,f:1
+0514:01860000:0065:212c:1:0
+ANT1 HD
+p:DIGEA,f:1
+044c:01860000:0065:212c:1:0
+Alpha HD
+p:DIGEA,f:1
+0578:01860000:0065:212c:1:0
+Open Beyond HD
+p:DIGEA,f:1
+04b0:01860000:0065:212c:1:0
+Skai HD
+p:DIGEA,f:1
+0640:01860000:0067:212c:1:0
+Mega HD
+p:DIGEA,f:1
+06a4:01860000:0067:212c:1:0
+Macedonia TV HD
+p:DIGEA,f:1
+05dc:01860000:0067:212c:1:0
+Star HD
+p:DIGEA,f:1
+0258:01860000:1470:00a7:25:0
+Animal Planet HD
+p:,f:1
+0259:01860000:1470:00a7:25:0
+Discovery Channel HD
+p:,f:1
 057b:01680000:ff86:036e:1:0
 History
 p:Multichoice Africa,f:1
@@ -17256,7 +17301,7 @@ p:Freesat
 FreesatSSU
 p:Freesat
 2968:011a0000:090b:003b:1:0
-TRP 1 (The Racing Partnership)
+TRP 1
 p:,f:1
 2959:011a0000:090b:003b:12:0
 D1 DAB
@@ -21506,9 +21551,9 @@ p:,f:1
 0001:0104312a:0001:ffff:1:0
 TL-SNG-2
 p:IDC,f:1
-1be8:01040000:1e86:02be:1:0
+1be8:01040000:1e86:02be:25:0
 Champion TV
-p:,f:1
+p:OSN,f:1
 1bd4:01040000:1e86:02be:25:0
 Sunna TV
 p:RCS Ghana,f:1
@@ -23728,6 +23773,9 @@ RTVS 24 HD
 p:M7 Group,f:1
 3b7b:00eb0000:0c8d:0003:25:0
 RTVS Sport HD
+p:M7 Group,f:1
+3b7c:00eb0000:0c8d:0003:22:0
+Trojka
 p:M7 Group,f:1
 0001:00eb2cc6:0001:ffff:1:0
 rt1.tv
@@ -31583,9 +31631,6 @@ p:NetMed,f:1
 013c:00820000:157c:013e:1:0
 Disney Junior
 p:NetMed,f:1
-1e5b:00820000:15e0:fbff:25:0
-Primafila 1 HD
-p:SkyItalia,f:1
 1e53:00820000:15e0:fbff:25:0
 MTV Italia HD
 p:SkyItalia,f:1
@@ -32092,6 +32137,9 @@ Bike Channel
 p:SkyItalia,f:1
 34de:00820000:1af4:fbff:25:0
 Explorer HD Channel
+p:SkyItalia,f:1
+0fdc:00820000:1af4:fbff:31:0
+Eurosport 4K
 p:SkyItalia,f:1
 02c1:00820000:1b58:013e:1:0
 Al Jazeera Documentary
@@ -32957,9 +33005,6 @@ p:SkyItalia
 1092:00820000:2008:fbff:25:0
 Calcio Overlay HD
 p:SkyItalia,f:1
-2d55:00820000:2008:fbff:1:0
-Primafila 5
-p:Sky Italia,f:1
 2d5d:00820000:2008:fbff:1:0
 Sky Sport 9
 p:Sky Italia,f:1
@@ -33023,17 +33068,11 @@ p:Sky Italia,f:1
 0f48:00820000:2198:fbff:25:0
 Sky Sport 6 HD
 p:Sky Italia,f:1
-0f4c:00820000:2198:fbff:25:0
-Primafila 4 HD
-p:Sky Italia,f:1
 0f89:00820000:2198:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
 0f4d:00820000:2198:fbff:25:0
 Sky Sport 1 HD
-p:SkyItalia,f:1
-0f71:00820000:2198:fbff:25:0
-Primafila 3 HD
 p:SkyItalia,f:1
 0f5a:00820000:2198:fbff:130:0
 Calcio1Magaz
@@ -33554,9 +33593,6 @@ p:M7 Group,f:1
 4232:00820000:2f44:013e:1:0
 RADA
 p:FFmpeg,f:1
-4233:00820000:2f44:013e:22:0
-1+1 International
-p:1plus1 Media,f:1
 4234:00820000:2f44:013e:1:0
 ByoBlue
 p:M-Three Satcom,f:1
@@ -34568,15 +34604,9 @@ p:Cyfrowy Polsat S.A,f:1
 200c:00820000:24b8:013e:1:0
 BBC World News
 p:Globecast UK,f:1
-2010:00820000:24b8:013e:1:0
-1TvRus Europe
-p:Globecast,f:1
 2023:00820000:24b8:013e:2:0
 Service 8227
 p:Globecast
-2065:00820000:24b8:013e:1:0
-1TvRus Europe
-p:Globecast,f:1
 01f5:00820000:0384:013e:1:0
 Iran International HD
 p:ABS,f:1
@@ -34625,9 +34655,9 @@ p:Eutelsat,f:1
 0652:00820000:2454:013e:1:0
 RT Arabic HD
 p:iKO Media Group,f:1
-0645:00820000:2454:013e:25:0
+0645:00820000:2454:013e:1:0
 Al Alam TV HD
-p:,f:1
+p:SABA GROUP,f:1
 0653:00820000:2454:013e:1:0
 Pop Economy
 p:EUTELSAT,f:1
@@ -34762,9 +34792,6 @@ TVE Internacional HD
 p:RTVE,f:1
 0dae:00820000:1f40:013e:25:0
 24 Horas HD
-p:TSA,f:1
-0014:00820000:1f40:013e:25:0
-Promo TSA
 p:TSA,f:1
 0e83:00820000:3200:013e:1:0
 TVP Polonia
@@ -34991,9 +35018,6 @@ p:IRIB,f:1
 05f3:00820000:2c24:013e:1:0
 Jame-Jam TV 3
 p:IRIB,f:1
-008b:00820000:2c24:013e:1:0
-AlAlam HD
-p:IRIB,f:1
 03e8:00820000:005e:0055:22:0
 1+1
 p:XTRA TV,C:0000,f:1
@@ -35191,9 +35215,6 @@ X Factor
 p:SkyItalia,f:1
 1e5f:00820000:170c:fbff:25:0
 Sky Sport 7 HD
-p:Sky Italia,f:1
-1e60:00820000:170c:fbff:25:0
-Primafila 2 HD
 p:Sky Italia,f:1
 1016:00820000:170c:fbff:25:0
 Prime Video Sportsbar
@@ -47144,18 +47165,6 @@ p:Rai,f:1
 03ef:ffceabab:0001:013e:22:0
 Rai Storia
 p:Rai,f:1
-0d49:ffceabab:0001:013e:1:0
-Rai 1
-p:Rai,f:1
-0d4a:ffceabab:0001:013e:1:0
-Rai 2
-p:Rai,f:1
-0d4b:ffceabab:0001:013e:1:0
-Rai 3
-p:Rai,f:1
-0d53:ffceabab:0001:013e:1:0
-Rai News 24
-p:Rai,f:1
 003c:ffce2b6d:0000:0000:100:0
 11117H SID 0x3c
 p:DVB-S 8PSK 11117H 355.0Â°E
@@ -53306,9 +53315,6 @@ p:RTVE,f:1
 27f6:0ce40000:1450:22d4:1:0
 A9 HD
 p:TPA,f:1
-0001:0ce42aaa:0001:0001:1:0
-Bom
-p:BOM,f:1
 0378:0ce40000:0026:0036:1:0
 Canal de Teste
 p:Canal de Teste,f:1
