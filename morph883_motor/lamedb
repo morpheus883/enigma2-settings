@@ -1461,6 +1461,9 @@ transponders
 011a30f7:0000:0000
 	s 12535000:7200000:0:3:282:2:0:1:2:0:2
 /
+011a2d58:2012:233a
+	s 11608000:15480000:0:4:282:2:0:1:1:0:2
+/
 01040000:012d:02be
 	s 11747000:27500000:1:3:260:2:0
 /
@@ -3533,6 +3536,9 @@ transponders
 /
 0046ad47:0000:0000
 	s 11591000:7200000:1:3:70:2:0:1:2:0:2
+/
+00463168:0001:0001
+	s 12648000:3250000:0:3:70:2:0:1:1:0:2
 /
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
@@ -8252,6 +8258,12 @@ p:WNS,f:1
 001a:02080000:1d36:1d36:1:0
 Movie 24
 p:WNS,f:1
+0020:02080000:1d36:1d36:1:0
+Grand Cinema HD
+p:WNS,f:1
+0024:02080000:1d36:1d36:1:0
+Grand Series HD
+p:WNS,f:1
 0001:02080000:194e:194e:1:0
 Movie Box
 p:WNS,f:1
@@ -8864,6 +8876,9 @@ p:Fotelka,f:1
 007d:02030000:012d:162d:25:0
 Reserved
 p:Fotelka,f:1
+0021:02030000:012d:162d:1:0
+Dvadsať štvorka
+p:Fotelka,f:1
 000f:02030000:012e:162d:1:0
 Relax
 p:Fotelka,f:1
@@ -8894,7 +8909,7 @@ p:Fotelka,f:1
 0034:02030000:012e:162d:25:0
 CT 3 HD
 p:Fotelka,f:1
-003d:02030000:012e:162d:1:0
+003d:02030000:012e:162d:25:0
 FilmBox Stars
 p:Fotelka,f:1
 0050:02030000:012e:162d:1:0
@@ -12521,6 +12536,15 @@ p:Dolce TV,f:1
 01f6:01860000:0011:001c:2:0
 RADIO-Radio Test 3
 p:
+0142:01860000:0011:001c:1:0
+National 24 Plus
+p:Dolce TV,f:1
+0148:01860000:0011:001c:1:0
+Mooz Hits
+p:,f:1
+014b:01860000:0011:001c:1:0
+Bollywood TV
+p:Dolce TV,f:1
 0001:01860000:0003:0001:1:0
 Diema Family
 p:Bulsatcom,f:1
@@ -12899,6 +12923,9 @@ p:,f:1
 00ca:01860000:000f:001c:1:0
 Fightbox
 p:,f:1
+0089:01860000:000f:001c:1:0
+Inedit TV
+p:Dolce TV,f:1
 0123:01860000:0012:001c:1:0
 AXN Spin Romania
 p:Dolce TV,f:1
@@ -12947,6 +12974,12 @@ p:,f:1
 014d:01860000:0012:001c:1:0
 TV 4 Hungary
 p:,f:1
+0149:01860000:0012:001c:1:0
+Mooz Dance
+p:Dolce TV,f:1
+014c:01860000:0012:001c:1:0
+France 24 (Français)
+p:Dolce TV,f:1
 0197:01860000:0003:001c:25:0
 Timeless Drama Channel HD
 p:Dolce TV,f:1
@@ -12983,15 +13016,6 @@ p:Dolce TV,f:1
 012e:01860000:0001:001c:1:0
 Cool TV (HU)
 p:Dolce TV,f:1
-0142:01860000:0001:001c:1:0
-National 24 Plus
-p:Dolce TV,f:1
-014c:01860000:0001:001c:1:0
-France 24 (Français)
-p:Dolce TV,f:1
-0089:01860000:0001:001c:1:0
-Inedit TV
-p:Dolce TV,f:1
 010e:01860000:0001:001c:1:0
 RTL 2 (HU)
 p:Dolce TV,f:1
@@ -13009,15 +13033,6 @@ Film +
 p:Dolce TV,f:1
 0113:01860000:0001:001c:1:0
 RTL Klub
-p:Dolce TV,f:1
-0148:01860000:0001:001c:1:0
-Mooz Hits
-p:,f:1
-0149:01860000:0001:001c:1:0
-Mooz Dance
-p:Dolce TV,f:1
-014b:01860000:0001:001c:1:0
-Bollywood TV
 p:Dolce TV,f:1
 00ce:01860000:0001:001c:1:0
 Euronews
@@ -15878,6 +15893,9 @@ p:Globecast,f:1
 0004:016830fa:0001:ffff:1:0
 SNG-D-2
 p:Service Provider,f:1
+0001:016830fa:0001:ffff:1:0
+SNG-D-M
+p:DTVi,f:1
 03e8:0168ad9f:0001:0001:25:0
 Rudaw TV
 p:RUDAW,f:1
@@ -21647,7 +21665,7 @@ p:RCS Ghana,f:1
 1fa7:01040000:1e87:02be:22:0
 Tambara TV
 p:RCS Ghana,f:1
-1fa8:01040000:1e87:02be:22:0
+1fa8:01040000:1e87:02be:25:0
 Bonferey TV
 p:RCS Ghana,f:1
 1fab:01040000:1e87:02be:25:0
@@ -21689,10 +21707,10 @@ p:RCS Ghana,f:1
 1fe2:01040000:1e87:02be:25:0
 JTV24
 p:RCS Ghana,f:1
-1fea:01040000:1e87:02be:22:0
+1fea:01040000:1e87:02be:25:0
 Katsina State TV
 p:RCS Ghana,f:1
-1fdb:01040000:1e87:02be:25:0
+1fdb:01040000:1e87:02be:22:0
 Wonderland TV
 p:OSN,f:1
 1fdd:01040000:1e87:02be:25:0
@@ -21713,20 +21731,26 @@ p:RCS Ghana,f:1
 1fe0:01040000:1e87:02be:25:0
 BATV Bauchi
 p:OSN,f:1
-1fe4:01040000:1e87:02be:22:0
+1fe4:01040000:1e87:02be:25:0
 Gotel TV
 p:OSN,f:1
 1fdc:01040000:1e87:02be:22:0
 Zaytun TV
 p:RCS Ghana,f:1
-1fe7:01040000:1e87:02be:22:0
+1fe7:01040000:1e87:02be:25:0
 BRTV Maiduguri
 p:RCS Ghana,f:1
-1fee:01040000:1e87:02be:22:0
+1fee:01040000:1e87:02be:25:0
 NSTV
 p:RCS Ghana,f:1
-1ff4:01040000:1e87:02be:25:0
+1ff4:01040000:1e87:02be:1:0
 Huda TV
+p:OSN,f:1
+1ff8:01040000:1e87:02be:25:0
+Al Irshaad TV
+p:OSN,f:1
+1ff9:01040000:1e87:02be:25:0
+Al Umma TV
 p:OSN,f:1
 03e8:01042b07:0001:0000:2:0
 Radio
@@ -21994,6 +22018,12 @@ OTA CAM803
 p:M7 Group
 334e:00eb0000:0c93:0003:1:0
 Slager Original
+p:M7 Group,f:1
+334f:00eb0000:0c93:0003:25:0
+Wau HD
+p:M7 Group,f:1
+3350:00eb0000:0c93:0003:25:0
+JOJ Family HD
 p:M7 Group,f:1
 1451:00eb0000:0c98:0003:1:0
 Ocko TV
@@ -34283,7 +34313,7 @@ p:M-Three Satcom Srl,f:1
 0532:00820000:3d54:013e:2:0
 RVS-Accendi la Speranza
 p:M-Three Satcom Srl
-0531:00820000:3d54:013e:1:0
+0531:00820000:3d54:013e:25:0
 La C sat
 p:M-Three satcom,f:1
 0533:00820000:3d54:013e:1:0
@@ -34408,6 +34438,9 @@ Playboy TV HD
 p:CANAL+,f:1
 113f:00820000:2af8:013e:31:0
 Eleven Sports 1 4K
+p:CANAL+,f:1
+118a:00820000:2af8:013e:1:0
+90
 p:CANAL+,f:1
 1315:00820000:2e7c:013e:1:0
 Eurosport 2 HD
@@ -38981,9 +39014,6 @@ p:Digital Platform
 1fb2:00460000:50dc:007e:129:0
 HY 6100
 p:DP
-0001:00463188:0001:0001:25:0
-ALKAfeel
-p:ALKAFEEL,f:1
 0001:00463143:0001:ffff:1:0
 ITA672
 p:Service Provider,f:1
@@ -39173,6 +39203,9 @@ p:,f:1
 0001:0046ad47:0000:0000:25:0
 2sat.nl HOL318-2
 p:,f:1
+0001:00463168:0001:0001:25:0
+ALKafeel
+p:ALKAFEEL,f:1
 0fa0:00300000:0006:0056:1:0
 TV Chile
 p:Viasat,f:1
@@ -46930,28 +46963,28 @@ Rai 2 HD
 p:Rai,f:1
 26ad:0dde0000:a801:217c:1:0
 Videolina
-p:Service Provider,f:1
+p:,f:1
 26ae:0dde0000:a801:217c:1:0
 Videolina 2
-p:Videolina,f:1
+p:Harmonic,f:1
 26af:0dde0000:a801:217c:1:0
 Sardegna Uno
-p:Videolina,f:1
+p:Harmonic,f:1
 26b0:0dde0000:a801:217c:1:0
 T.C.S. Tele Costa Smeralda
-p:Service Provider,f:1
+p:,f:1
 26b1:0dde0000:a801:217c:1:0
 OlbiaTVnotizie
 p:Media-Live,f:1
-26b3:0dde0000:a801:217c:1:0
+26b3:0dde0000:a801:217c:25:0
 TeleRegione Live
-p:TeleRegione Live,f:1
+p:Harmonic - NT,f:1
 26b4:0dde0000:a801:217c:1:0
 TeleSardegna
 p:Global,f:1
 26b5:0dde0000:a801:217c:1:0
 Uno 4
-p:Uno 4,f:1
+p:Media-Live,f:1
 26b6:0dde0000:a801:217c:1:0
 CatalanTv
 p:Media-Live,f:1
