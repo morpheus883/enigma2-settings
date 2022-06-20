@@ -219,17 +219,14 @@ transponders
 011ab11b:0000:0000
 	s 12571000:7200000:1:3:282:2:0:1:2:0:2
 /
-011a2d58:0001:ffff
-	s 11608000:15480000:0:4:282:2:0:1:1:0:2
-/
-011ab19e:0000:0001
-	s 12702000:7200000:1:3:282:2:0:1:2:0:2
-/
 011a30f7:0000:0000
 	s 12535000:7200000:0:3:282:2:0:1:2:0:2
 /
 011a2d58:2012:233a
 	s 11608000:15480000:0:4:282:2:0:1:1:0:2
+/
+011a0000:00a0:00eb
+	s 12702000:7200000:1:3:282:2:0:1:2:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -3581,15 +3578,54 @@ p:Service Provider,f:1
 0001:011ab11b:0000:0000:25:0
 hudder v wig sat dr
 p:,f:1
-0001:011a2d58:0001:ffff:1:0
-DSNG13
-p:Arqiva,f:1
-0001:011ab19e:0000:0001:25:0
-E 413 Feed 1
-p:,f:1
 0001:011a30f7:0000:0000:25:0
 Salford v Castleford sat dr
 p:,f:1
+2100:011a2d58:2012:233a:1:0
+E4
+p:,f:1
+2104:011a2d58:2012:233a:1:0
+Channel 4+1
+p:,f:1
+210a:011a2d58:2012:233a:1:0
+E4+1
+p:,f:1
+2134:011a2d58:2012:233a:1:0
+Channel 5
+p:,f:1
+2052:011a2d58:2012:233a:1:0
+ITV Tyne Tees
+p:,f:1
+2066:011a2d58:2012:233a:1:0
+ITV3
+p:,f:1
+2085:011a2d58:2012:233a:1:0
+ITV2
+p:,f:1
+208a:011a2d58:2012:233a:1:0
+ITV4
+p:,f:1
+20b6:011a2d58:2012:233a:1:0
+ITV +1
+p:,f:1
+20c0:011a2d58:2012:233a:1:0
+Channel 4
+p:,f:1
+20c1:011a2d58:2012:233a:1:0
+Film4
+p:,f:1
+20fa:011a2d58:2012:233a:1:0
+More 4
+p:,f:1
+2198:011a2d58:2012:233a:12:0
+Freeview
+p:
+2199:011a2d58:2012:233a:12:0
+Accessible TV Guide
+p:
+0001:011a0000:00a0:00eb:1:0
+E357 ATM7 VIA2
+p:ATM BROADCAST,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -7779,7 +7815,7 @@ p:Harmonic,f:1
 Canale Italia 84
 p:Telespazio,f:1
 135e:00820000:33f4:013e:2:0
-Radio Cusano Campus
+Radio Cusano
 p:Telespazio
 1325:00820000:33f4:013e:1:0
 JSTV 1 (Japan Satellite TV)
@@ -7788,13 +7824,13 @@ p:Telespazio,f:1
 JSTV 2 (Japan Satellite TV)
 p:Telespazio,f:1
 134b:00820000:33f4:013e:1:0
-Hadi TV 3
+Hadi 3
 p:Telespazio,f:1
 132a:00820000:33f4:013e:1:0
-RIKSat
+Rik Sat
 p:Telespazio,f:1
 135c:00820000:33f4:013e:2:0
-RIK3
+RIK 3
 p:Telespazio
 135b:00820000:33f4:013e:2:0
 Radio Gamma Stereo
@@ -8939,6 +8975,9 @@ p:Telespazio
 02cb:00820000:1b58:013e:2:0
 Antena1
 p:Telespazio
+0315:00820000:1b58:013e:1:0
+MTA3 - Al Arabia
+p:Harmonic,f:1
 3c8d:00820000:1bbc:013e:1:0
 novacinema1 HD Cy
 p:Netmed,f:1
@@ -9374,6 +9413,12 @@ p:PolastBox,f:1
 1c8a:00820000:1ce8:0071:1:0
 CNN Europe HD
 p:Cyfrowy Polsat S.A.,f:1
+1ccb:00820000:1ce8:0071:12:0
+D61_Nagra
+p:
+1ccc:00820000:1ce8:0071:12:0
+D63_Nagra
+p:
 0064:00820000:0065:0001:1:0
 Voice of America (VOA) Europe
 p:,f:1
@@ -11330,6 +11375,15 @@ p:Globecast UK,f:1
 2023:00820000:24b8:013e:2:0
 Service 8227
 p:Globecast
+2011:00820000:24b8:013e:1:0
+CGTN
+p:Globecast,f:1
+2012:00820000:24b8:013e:1:0
+Arirang World
+p:Globecast,f:1
+2016:00820000:24b8:013e:1:0
+EuroNews Russkiy
+p:Globecast,f:1
 01f5:00820000:0384:013e:1:0
 Iran International HD
 p:ABS,f:1
@@ -14056,6 +14110,12 @@ VIASAT 3 .
 p:SES,f:1
 2b0e:0e082f3c:000b:1111:1:0
 VIASAT 6 .
+p:SES,f:1
+2b0f:0e082f3c:000b:1111:25:0
+Nat Geo HD (HUN)
+p:SES,f:1
+2b10:0e082f3c:000b:1111:25:0
+Nat Geo HD (ROU)
 p:SES,f:1
 07dc:0e080000:0af2:00bb:25:0
 Premier Sport 2 SK HD

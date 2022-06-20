@@ -132,9 +132,6 @@ transponders
 00a030f7:0001:ffff
 	s 12535000:3165000:0:2:160:2:0:1:2:0:2
 /
-00a00000:00c8:0001
-	s 11512000:29950000:1:3:160:2:0:1:2:0:2
-/
 00a00000:c738:016e
 	s 11637000:30000000:1:2:160:2:0:1:2:0:2
 /
@@ -230,6 +227,9 @@ transponders
 /
 00a0ab56:76c1:016e
 	s 11094000:27500000:1:8:160:2:0:1:1:0:2
+/
+00a0acf8:00c8:0001
+	s 11512000:29950000:1:2:160:2:0:1:2:2:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -2141,48 +2141,6 @@ p:AJB,f:1
 0001:00a030f7:0001:ffff:25:0
 POR09 ENEX H264
 p:GMTS,f:1
-0001:00a00000:00c8:0001:1:0
-TVR 1
-p:,f:1
-0002:00a00000:00c8:0001:1:0
-TVR 2
-p:,f:1
-0003:00a00000:00c8:0001:1:0
-TVR 3
-p:,f:1
-0004:00a00000:00c8:0001:1:0
-TVR
-p:SRTV,f:1
-0006:00a00000:00c8:0001:1:0
-TV Romania International
-p:,f:1
-000f:00a00000:00c8:0001:1:0
-TVR 1 HD
-p:SRTV,f:1
-0015:00a00000:00c8:0001:10:0
-Radio Romania Actualitati
-p:
-0016:00a00000:00c8:0001:10:0
-Radio Romania Cultural
-p:
-0017:00a00000:00c8:0001:10:0
-Radio Romania Muzical
-p:
-0018:00a00000:00c8:0001:10:0
-Radio Romania Antena Satelor
-p:
-0019:00a00000:00c8:0001:10:0
-Radio Romania International 1
-p:
-001a:00a00000:00c8:0001:10:0
-Radio Romania International 2
-p:
-001b:00a00000:00c8:0001:10:0
-Radio Romania International 3
-p:
-0011:00a00000:00c8:0001:1:0
-TVR 2 HD
-p:,f:1
 0d49:00a00000:c738:016e:25:0
 HRT 1 HD
 p:OIV,f:1
@@ -2705,6 +2663,51 @@ p:A1 Broadcasting,f:1
 04ea:00a0ab56:76c1:016e:31:0
 AXN Czech
 p:A1 Broadcasting,f:1
+0012:00a0acf8:00c8:0001:1:0
+TVR INFO
+p:,f:1
+0001:00a0acf8:00c8:0001:1:0
+TVR 1
+p:,f:1
+0002:00a0acf8:00c8:0001:1:0
+TVR 2
+p:,f:1
+0003:00a0acf8:00c8:0001:1:0
+TVR 3
+p:,f:1
+0004:00a0acf8:00c8:0001:1:0
+TVR
+p:SRTV,f:1
+0006:00a0acf8:00c8:0001:1:0
+TV Romania International
+p:,f:1
+000f:00a0acf8:00c8:0001:1:0
+TVR 1 HD
+p:SRTV,f:1
+0011:00a0acf8:00c8:0001:1:0
+TVR 2 HD
+p:,f:1
+0015:00a0acf8:00c8:0001:10:0
+Radio Romania Actualitati
+p:
+0016:00a0acf8:00c8:0001:10:0
+Radio Romania Cultural
+p:
+0017:00a0acf8:00c8:0001:10:0
+Radio Romania Muzical
+p:
+0018:00a0acf8:00c8:0001:10:0
+Radio Romania Antena Satelor
+p:
+0019:00a0acf8:00c8:0001:10:0
+Radio Romania International 1
+p:
+001a:00a0acf8:00c8:0001:10:0
+Radio Romania International 2
+p:
+001b:00a0acf8:00c8:0001:10:0
+Radio Romania International 3
+p:
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -3198,7 +3201,7 @@ p:Harmonic,f:1
 Canale Italia 84
 p:Telespazio,f:1
 135e:00820000:33f4:013e:2:0
-Radio Cusano Campus
+Radio Cusano
 p:Telespazio
 1325:00820000:33f4:013e:1:0
 JSTV 1 (Japan Satellite TV)
@@ -3207,13 +3210,13 @@ p:Telespazio,f:1
 JSTV 2 (Japan Satellite TV)
 p:Telespazio,f:1
 134b:00820000:33f4:013e:1:0
-Hadi TV 3
+Hadi 3
 p:Telespazio,f:1
 132a:00820000:33f4:013e:1:0
-RIKSat
+Rik Sat
 p:Telespazio,f:1
 135c:00820000:33f4:013e:2:0
-RIK3
+RIK 3
 p:Telespazio
 135b:00820000:33f4:013e:2:0
 Radio Gamma Stereo
@@ -4358,6 +4361,9 @@ p:Telespazio
 02cb:00820000:1b58:013e:2:0
 Antena1
 p:Telespazio
+0315:00820000:1b58:013e:1:0
+MTA3 - Al Arabia
+p:Harmonic,f:1
 3c8d:00820000:1bbc:013e:1:0
 novacinema1 HD Cy
 p:Netmed,f:1
@@ -4793,6 +4799,12 @@ p:PolastBox,f:1
 1c8a:00820000:1ce8:0071:1:0
 CNN Europe HD
 p:Cyfrowy Polsat S.A.,f:1
+1ccb:00820000:1ce8:0071:12:0
+D61_Nagra
+p:
+1ccc:00820000:1ce8:0071:12:0
+D63_Nagra
+p:
 0064:00820000:0065:0001:1:0
 Voice of America (VOA) Europe
 p:,f:1
@@ -6749,6 +6761,15 @@ p:Globecast UK,f:1
 2023:00820000:24b8:013e:2:0
 Service 8227
 p:Globecast
+2011:00820000:24b8:013e:1:0
+CGTN
+p:Globecast,f:1
+2012:00820000:24b8:013e:1:0
+Arirang World
+p:Globecast,f:1
+2016:00820000:24b8:013e:1:0
+EuroNews Russkiy
+p:Globecast,f:1
 01f5:00820000:0384:013e:1:0
 Iran International HD
 p:ABS,f:1
