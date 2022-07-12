@@ -684,6 +684,9 @@ fed42aa3:0001:0001
 0ce4aedf:0001:0001
 	s 11999000:7200000:1:3:-300:2:0:1:2:0:2
 /
+0ce4aeec:0000:0000
+	s 12012000:10000000:1:3:-300:2:0:1:2:0:2
+/
 end
 services
 7856:00c00000:041a:0001:25:0
@@ -2479,6 +2482,9 @@ Schlager Radio
 p:MB Satellite
 313e:00c00000:0459:0001:1:0
 More Than Sports TV
+p:MB Satellite,f:1
+313f:00c00000:0459:0001:1:0
+Wedo Movies
 p:MB Satellite,f:1
 332d:00c00000:045b:0001:1:0
 ORF III
@@ -4283,9 +4289,6 @@ p:SES ASTRA,f:1
 1681:00c00000:042c:0001:22:0
 Kaufbei.TV
 p:SES,f:1
-164f:00c00000:042c:0001:1:0
-Asteroid Day 2022 HD
-p:Harmonic,f:1
 74d0:00c00000:03f8:0001:1:0
 Descarga Cisco
 p:Movistar+,f:1
@@ -5060,11 +5063,11 @@ p:,f:1
 0604:00820000:01f4:013e:2:0
 R Radio
 p:
-08b2:00820000:01f4:013e:2:0
-Radio Novaya Zhizn
-p:Eutelsat
 08b4:00820000:01f4:013e:2:0
 Radio2000
+p:Eutelsat
+08b2:00820000:01f4:013e:2:0
+NEW LIFE RADIO
 p:Eutelsat
 3ab7:00820000:0514:013e:1:0
 AMC HD Polska
@@ -6494,6 +6497,9 @@ p:
 1ccc:00820000:1ce8:0071:12:0
 D63_Nagra
 p:
+1c94:00820000:1ce8:0071:1:0
+CNN_Greek
+p:CP,f:1
 0064:00820000:0065:0001:1:0
 Voice of America (VOA) Europe
 p:,f:1
@@ -8507,9 +8513,9 @@ p:Eutelsat,f:1
 0650:00820000:2454:013e:1:0
 Algérie 3 (Thalitha TV)
 p:Eutelsat,f:1
-0652:00820000:2454:013e:1:0
+0652:00820000:2454:013e:25:0
 RT Arabic HD
-p:iKO Media Group,f:1
+p:,f:1
 0645:00820000:2454:013e:1:0
 Al Alam TV HD
 p:SABA GROUP,f:1
@@ -8936,9 +8942,6 @@ p:XTRA TV,f:1
 062c:00820000:005e:0055:25:0
 Football 3 HD
 p:XTRA TV,f:1
-04b1:00820000:23f0:013e:25:0
-SBC HD
-p:,f:1
 04b2:00820000:23f0:013e:25:0
 Saudi Ch for Sunnah HD
 p:,f:1
@@ -8957,6 +8960,9 @@ p:Eutelsat,f:1
 04b8:00820000:23f0:013e:1:0
 Travel Africa Network
 p:iChannel LTD,f:1
+04b1:00820000:23f0:013e:1:0
+Al Hajj English
+p:TANDBERG Television,f:1
 0064:00820000:3264:013e:25:0
 Kabelio 3+
 p:KABELIO.CH,f:1
@@ -11333,6 +11339,9 @@ p:Service Provider,f:1
 0001:0ce4aedf:0001:0001:1:0
 E-401 V1
 p:Net 1,f:1
+0001:0ce4aeec:0000:0000:25:0
+E-467 via 1
+p:overon,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2022
