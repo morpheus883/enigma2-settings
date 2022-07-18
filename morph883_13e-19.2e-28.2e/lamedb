@@ -216,9 +216,6 @@ transponders
 011ab126:0001:ffff
 	s 12582000:7200000:1:3:282:2:0:1:2:0:2
 /
-011ab11b:0000:0000
-	s 12571000:7200000:1:3:282:2:0:1:2:0:2
-/
 011a30f7:0000:0000
 	s 12535000:7200000:0:3:282:2:0:1:2:0:2
 /
@@ -227,6 +224,9 @@ transponders
 /
 011a0000:00a0:00eb
 	s 12702000:7200000:1:3:282:2:0:1:2:0:2
+/
+011ab11b:0001:ffff
+	s 12571000:7200000:1:3:282:2:0:1:2:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -3308,9 +3308,6 @@ p:BSkyB,f:1
 0001:011ab126:0001:ffff:1:0
 UKI-1493 Hamilton Races REV2
 p:Service Provider,f:1
-0001:011ab11b:0000:0000:25:0
-hudder v wig sat dr
-p:,f:1
 0001:011a30f7:0000:0000:25:0
 Salford v Castleford sat dr
 p:,f:1
@@ -3359,6 +3356,9 @@ p:
 0001:011a0000:00a0:00eb:1:0
 E357 ATM7 VIA2
 p:ATM BROADCAST,f:1
+0001:011ab11b:0001:ffff:1:0
+LN23 8MM Via1
+p:8MM Producciones,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -4163,9 +4163,6 @@ p:SKY,f:1
 010c:00c00000:0006:0085:25:0
 Sky Sport HD 3 Germany
 p:SKY,f:1
-010e:00c00000:0006:0085:25:0
-Eurosport360HD 1
-p:SKY,f:1
 0204:00c00000:0006:0085:22:0
 Sky Cinema Classics Germany
 p:SKY,f:1
@@ -4496,9 +4493,6 @@ p:SKY,f:1
 011f:00c00000:000c:0085:25:0
 Sky Sport Bundesliga 4 HD
 p:SKY,f:1
-0122:00c00000:000c:0085:25:0
-Eurosport360HD 3
-p:SKY,f:1
 0069:00c00000:000c:0085:25:0
 Sky Sport Bundesliga 1 HD
 p:SKY,f:1
@@ -4696,9 +4690,6 @@ Sky Sport Bundesliga 10 HD
 p:SKY,f:1
 0102:00c00000:000b:0085:25:0
 Sky Sport HD 11 Germany
-p:SKY,f:1
-0104:00c00000:000b:0085:25:0
-Eurosport360HD 9
 p:SKY,f:1
 0194:00c00000:000b:0085:22:0
 Cartoon Network Germany
@@ -6045,16 +6036,10 @@ p:SKY,f:1
 DAZN 1 HD
 p:SKY,f:1
 0129:00c00000:0009:0085:25:0
-Sky Sport Bundesliga 5 HD
+Sky Sport Bundesliga 4 HD
 p:SKY,f:1
 012a:00c00000:0009:0085:25:0
-Sky Sport HD 6 Germany
-p:SKY,f:1
-012c:00c00000:0009:0085:25:0
-Eurosport360HD 4
-p:SKY,f:1
-0155:00c00000:0009:0085:25:0
-Prime Video Sportsbar
+Sky Sport HD 4 Germany
 p:SKY,f:1
 008d:00c00000:0009:0085:25:0
 Sky Sport Mix HD
@@ -6185,9 +6170,6 @@ p:SKY,f:1
 0134:00c00000:0004:0085:25:0
 Sky Sport HD 7 Germany
 p:SKY,f:1
-0136:00c00000:0004:0085:25:0
-Eurosport360HD 5
-p:SKY,f:1
 008c:00c00000:0004:0085:25:0
 Warner TV Film HD
 p:SKY,f:1
@@ -6223,9 +6205,6 @@ Junior
 p:SKY,f:1
 000e:00c00000:0002:0085:25:0
 Sky Comedy HD
-p:SKY,f:1
-0118:00c00000:0002:0085:25:0
-Eurosport360HD 2
 p:SKY,f:1
 0115:00c00000:0002:0085:25:0
 Sky Sport Bundesliga 3 HD
@@ -6272,20 +6251,17 @@ p:SKY,f:1
 0148:00c00000:0003:0085:25:0
 Sky Sport HD 9 Germany
 p:SKY,f:1
-014a:00c00000:0003:0085:25:0
-Eurosport360HD 7
-p:SKY,f:1
 0147:00c00000:0003:0085:25:0
 Sky Sport Bundesliga 8 HD
 p:SKY,f:1
 013d:00c00000:0003:0085:25:0
 Sky Sport Bundesliga 7 HD
 p:SKY,f:1
-0140:00c00000:0003:0085:25:0
-Eurosport360HD 6
-p:SKY,f:1
 0010:00c00000:0003:0085:25:0
 Sky Documentaries HD
+p:SKY,f:1
+0155:00c00000:0003:0085:25:0
+Prime Video Sportsbar
 p:SKY,f:1
 2649:00c00000:0460:0001:1:0
 France 3 Basse-Normandie
@@ -6325,9 +6301,6 @@ Sky Sport Bundesliga 9 HD
 p:SKY,f:1
 0152:00c00000:0010:0085:25:0
 Sky Sport HD 10 Germany
-p:SKY,f:1
-0154:00c00000:0010:0085:25:0
-Eurosport360HD 8
 p:SKY,f:1
 0156:00c00000:0010:0085:25:0
 Sky Sport Austria 6 HD

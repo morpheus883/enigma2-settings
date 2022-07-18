@@ -1062,6 +1062,9 @@ transponders
 01683193:0001:0001
 	s 12691000:1110000:0:4:360:2:0:1:2:0:2
 /
+0168ad96:0001:0001
+	s 11670000:3200000:1:4:360:2:0:1:2:0:2
+/
 014a0000:f001:2268
 	s 12722000:16730000:1:3:330:2:0:1:1:0:2
 /
@@ -1461,9 +1464,6 @@ transponders
 011ab126:0001:ffff
 	s 12582000:7200000:1:3:282:2:0:1:2:0:2
 /
-011ab11b:0000:0000
-	s 12571000:7200000:1:3:282:2:0:1:2:0:2
-/
 011a30f7:0000:0000
 	s 12535000:7200000:0:3:282:2:0:1:2:0:2
 /
@@ -1472,6 +1472,9 @@ transponders
 /
 011a0000:00a0:00eb
 	s 12702000:7200000:1:3:282:2:0:1:2:0:2
+/
+011ab11b:0001:ffff
+	s 12571000:7200000:1:3:282:2:0:1:2:0:2
 /
 01040000:012d:02be
 	s 11747000:27500000:1:3:260:2:0
@@ -1935,6 +1938,9 @@ transponders
 00ebb198:0001:ffff
 	s 12696000:4800000:1:3:235:2:0:1:2:0:2
 /
+00eb3195:0000:0000
+	s 12693000:5000000:0:6:235:2:0:1:2:0:2
+/
 00d80000:0005:0001
 	s 11678000:2850000:1:5:216:2:0
 /
@@ -2108,6 +2114,9 @@ transponders
 /
 00d82d00:0001:0001
 	s 11520000:2900000:0:3:216:2:0
+/
+00d8acf9:0001:ffff
+	s 11513000:2222000:1:3:216:2:0
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -2633,9 +2642,6 @@ transponders
 /
 00a0acf8:00c8:0001
 	s 11512000:29950000:1:2:160:2:0:1:2:2:2
-/
-00a02cf8:0001:016e
-	s 11512000:30000000:0:3:160:2:0:1:2:2:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -3432,9 +3438,6 @@ transponders
 0046abaa:0001:00c8
 	s 11178000:3674000:1:3:70:2:0:1:2:0:2
 /
-0046abb4:0001:00c8
-	s 11188000:3674000:1:3:70:2:0:1:2:0:2
-/
 0046adac:1000:2000
 	s 11692000:4800000:1:3:70:2:0:1:2:0:2
 /
@@ -3471,9 +3474,6 @@ transponders
 00462af3:0001:0001
 	s 10995000:7200000:1:3:70:2:0:1:2:0:2
 /
-00462da5:0001:ffff
-	s 11685000:2500000:1:4:70:2:0:1:2:0:2
-/
 00460000:4321:00eb
 	s 11084000:4937000:0:3:70:2:0:1:2:0:2
 /
@@ -3503,9 +3503,6 @@ transponders
 /
 00462b58:0001:ffff
 	s 11096000:4937000:0:3:70:2:0:1:2:0:2
-/
-00460000:0004:0004
-	s 11107000:7200000:1:3:70:2:0:1:2:0:2
 /
 00462d6c:0001:ffff
 	s 11628000:10000000:1:3:70:2:0:1:2:0:2
@@ -3578,6 +3575,9 @@ transponders
 /
 0046ab63:0000:0001
 	s 11107000:7200000:1:3:70:2:0:1:2:0:2
+/
+0046318b:0001:00c8
+	s 12683000:3674000:0:3:70:2:0:1:2:0:2
 /
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
@@ -4085,15 +4085,6 @@ fff8ace4:0001:ffff
 /
 0e08ad00:0001:ffff
 	s 11520000:7200000:1:3:-8:2:0:1:2:0:2
-/
-0e080000:0050:0046
-	s 12476000:30000000:0:2:-8:2:0:1:2:1:2
-/
-0e080000:004b:0046
-	s 12399000:30000000:0:2:-8:2:0:1:2:1:2
-/
-0e082a39:0041:0000
-	s 10809000:25000000:0:3:-8:2:0:1:2:0:2
 /
 0df22cc6:0001:0000
 	s 11462000:3062000:1:1:-30:2:0:1:1:0:2
@@ -6314,6 +6305,9 @@ p:iKO-Media,f:1
 c579:02ad0000:0006:0049:2:0
 Vie Nouvelle Afrique
 p:STN PLC
+c57d:02ad0000:0006:0049:1:0
+Crypto Radio USA
+p:STN PLC,f:1
 04b2:02ad0000:0005:0049:152:0
 DSD419Upgrade
 p:Sentech
@@ -6378,7 +6372,7 @@ p:Sentech,f:1
 Master's TV
 p:SENTECH,f:1
 0081:02ad0000:0005:0049:1:0
-RLW TV
+God Prophet TV
 p:Sentech,f:1
 0100:02ad0000:0005:0049:1:0
 Possibility TV
@@ -6393,7 +6387,7 @@ p:Sentech,f:1
 Encounter TV
 p:Sentech,f:1
 0103:02ad0000:0005:0049:1:0
-New Breath
+One Word TV
 p:Sentech,f:1
 00dd:02ad0000:0005:0049:1:0
 GNF TV
@@ -6408,7 +6402,7 @@ p:SENTECH,f:1
 Brother Fire TV Plus
 p:SENTECH,f:1
 00e3:02ad0000:0005:0049:1:0
-TVET
+Uma Ukpai TV
 p:Sentech,f:1
 007e:02ad0000:0005:0049:1:0
 Prophetic 24/7 TV
@@ -6582,7 +6576,7 @@ p:ViewMedia,f:1
 New Vision TV
 p:ViewMedia,f:1
 001d:02ad3112:0001:0001:1:0
-New Revelation TV
+CF TV
 p:ViewMedia,f:1
 001e:02ad3112:0001:0001:1:0
 ACNN TV
@@ -6650,6 +6644,9 @@ p:ViewMedia,f:1
 000d:02ad3112:0001:0001:1:0
 Bride TV New
 p:ViewMedia,f:1
+0028:02ad3112:0001:0001:1:0
+FETV
+p:ViewMedia,f:1
 0001:02ad0000:001a:0014:1:0
 Liberation TV
 p:_,f:1
@@ -6662,18 +6659,6 @@ p:Intelsat,f:1
 07d1:02ad0000:001a:0014:1:0
 FUS HENC004R
 p:Intelsat,f:1
-0002:02ad0000:001a:0014:1:0
-Sasa TV
-p:ViewMedia,f:1
-0003:02ad0000:001a:0014:1:0
-Hope of Glory TV
-p:ViewMedia,f:1
-0004:02ad0000:001a:0014:1:0
-Back to Christ TV
-p:ViewMedia,f:1
-0005:02ad0000:001a:0014:1:0
-Heroes Television
-p:ViewMedia,f:1
 032a:02ad0000:03e8:0049:1:0
 AfricaXP Promo
 p:,f:1
@@ -13196,9 +13181,6 @@ p:,f:1
 00d0:01860000:0002:001c:25:0
 Nat Geo Wild HD
 p:,f:1
-0139:01860000:0002:001c:25:0
-HBO HD Romania
-p:,f:1
 0133:01860000:0002:001c:25:0
 Orange Sport 1
 p:,f:1
@@ -13865,6 +13847,9 @@ p:Tring TV,f:1
 0eb0:01860000:03f2:039e:1:0
 Tring Novelas HD
 p:Tring TV,f:1
+50f9:01860000:03f2:039e:12:0
+OTA_Beacon
+p:INC
 0712:01860000:03fc:039e:1:0
 Kids
 p:Tring TV,f:1
@@ -16160,6 +16145,9 @@ p:RUDAW,f:1
 0001:01683193:0001:0001:22:0
 Assirat-ch
 p:alsirat,f:1
+0001:0168ad96:0001:0001:17:0
+RUDAW1
+p:RUDAW,f:1
 0065:014a0000:f001:2268:1:0
 Polsat News
 p:Cyfrowy Polsat,f:1
@@ -19754,9 +19742,6 @@ p:BSkyB,f:1
 0001:011ab126:0001:ffff:1:0
 UKI-1493 Hamilton Races REV2
 p:Service Provider,f:1
-0001:011ab11b:0000:0000:25:0
-hudder v wig sat dr
-p:,f:1
 0001:011a30f7:0000:0000:25:0
 Salford v Castleford sat dr
 p:,f:1
@@ -19805,6 +19790,9 @@ p:
 0001:011a0000:00a0:00eb:1:0
 E357 ATM7 VIA2
 p:ATM BROADCAST,f:1
+0001:011ab11b:0001:ffff:1:0
+LN23 8MM Via1
+p:8MM Producciones,f:1
 0193:01040000:012d:02be:1:0
 Al Kawthar
 p:JMC,f:1
@@ -21878,9 +21866,6 @@ p:,f:1
 0001:0104312a:0001:ffff:1:0
 TL-SNG-2
 p:IDC,f:1
-1be8:01040000:1e86:02be:25:0
-Champion TV
-p:OSN,f:1
 1bd4:01040000:1e86:02be:25:0
 Sunna TV
 p:RCS Ghana,f:1
@@ -21904,9 +21889,6 @@ Joy News
 p:RCS Ghana,f:1
 1bc2:01040000:1e86:02be:25:0
 Adom TV
-p:RCS Ghana,f:1
-1bc4:01040000:1e86:02be:25:0
-Rainbow TV
 p:RCS Ghana,f:1
 1bc5:01040000:1e86:02be:25:0
 Saha TV
@@ -21932,18 +21914,12 @@ p:RCS Ghana,f:1
 1bdd:01040000:1e86:02be:25:0
 TV Africa
 p:RCS Ghana,f:1
-1bde:01040000:1e86:02be:25:0
-BIG DREAMS TV
-p:OSN,f:1
 1be0:01040000:1e86:02be:1:0
 RCS Demo
 p:aCAN Group,f:1
 1be1:01040000:1e86:02be:1:0
 Sunna TV Ghana
 p:aCAN Group,f:1
-1be5:01040000:1e86:02be:1:0
-Baina TV
-p:OSN,f:1
 1bec:01040000:1e86:02be:22:0
 PEP TV
 p:RCS Ghana,f:1
@@ -21972,7 +21948,7 @@ p:RCS Ghana,f:1
 Hikmah TV English
 p:RCS Ghana,f:1
 1fd9:01040000:1e87:02be:22:0
-Fula TV
+Gamji TV
 p:RCS Ghana,f:1
 1fa9:01040000:1e87:02be:1:0
 Africa TV3
@@ -22060,6 +22036,9 @@ Unity TV
 p:RCS GHANA,f:1
 1fe6:01040000:1e87:02be:22:0
 ATV Yola
+p:RCS Ghana,f:1
+1fda:01040000:1e87:02be:22:0
+Wisail TV
 p:RCS Ghana,f:1
 03e8:01042b07:0001:0000:2:0
 Radio
@@ -24665,6 +24644,9 @@ p:ZDF,f:1
 0001:00ebb198:0001:ffff:1:0
 Service-1
 p:Service Provider,f:1
+0001:00eb3195:0000:0000:0:0
+VRT Enccoder 4
+p:
 0001:00d80000:0005:0001:1:0
 Alarabiy Alhadath
 p:Samacom,f:1
@@ -24821,6 +24803,9 @@ p:LuaLua,f:1
 0001:00d82d82:0001:0001:2:0
 EMPC ENC 3
 p:
+0101:00d82d82:0001:0001:1:0
+SNG-6
+p:TV-Provider,f:1
 0001:00d82d98:0001:ffff:1:0
 SNG Qom
 p:HadiTV,f:1
@@ -25037,6 +25022,9 @@ p: INTRALOT,c:050006,f:1
 0001:00d82d00:0001:0001:1:0
 Iran Press
 p:IRAN PRESS,f:1
+0001:00d8acf9:0001:ffff:1:0
+TAST1
+p:EricssonTV,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -25841,9 +25829,6 @@ p:SKY,f:1
 010c:00c00000:0006:0085:25:0
 Sky Sport HD 3 Germany
 p:SKY,f:1
-010e:00c00000:0006:0085:25:0
-Eurosport360HD 1
-p:SKY,f:1
 0204:00c00000:0006:0085:22:0
 Sky Cinema Classics Germany
 p:SKY,f:1
@@ -26174,9 +26159,6 @@ p:SKY,f:1
 011f:00c00000:000c:0085:25:0
 Sky Sport Bundesliga 4 HD
 p:SKY,f:1
-0122:00c00000:000c:0085:25:0
-Eurosport360HD 3
-p:SKY,f:1
 0069:00c00000:000c:0085:25:0
 Sky Sport Bundesliga 1 HD
 p:SKY,f:1
@@ -26374,9 +26356,6 @@ Sky Sport Bundesliga 10 HD
 p:SKY,f:1
 0102:00c00000:000b:0085:25:0
 Sky Sport HD 11 Germany
-p:SKY,f:1
-0104:00c00000:000b:0085:25:0
-Eurosport360HD 9
 p:SKY,f:1
 0194:00c00000:000b:0085:22:0
 Cartoon Network Germany
@@ -27723,16 +27702,10 @@ p:SKY,f:1
 DAZN 1 HD
 p:SKY,f:1
 0129:00c00000:0009:0085:25:0
-Sky Sport Bundesliga 5 HD
+Sky Sport Bundesliga 4 HD
 p:SKY,f:1
 012a:00c00000:0009:0085:25:0
-Sky Sport HD 6 Germany
-p:SKY,f:1
-012c:00c00000:0009:0085:25:0
-Eurosport360HD 4
-p:SKY,f:1
-0155:00c00000:0009:0085:25:0
-Prime Video Sportsbar
+Sky Sport HD 4 Germany
 p:SKY,f:1
 008d:00c00000:0009:0085:25:0
 Sky Sport Mix HD
@@ -27863,9 +27836,6 @@ p:SKY,f:1
 0134:00c00000:0004:0085:25:0
 Sky Sport HD 7 Germany
 p:SKY,f:1
-0136:00c00000:0004:0085:25:0
-Eurosport360HD 5
-p:SKY,f:1
 008c:00c00000:0004:0085:25:0
 Warner TV Film HD
 p:SKY,f:1
@@ -27901,9 +27871,6 @@ Junior
 p:SKY,f:1
 000e:00c00000:0002:0085:25:0
 Sky Comedy HD
-p:SKY,f:1
-0118:00c00000:0002:0085:25:0
-Eurosport360HD 2
 p:SKY,f:1
 0115:00c00000:0002:0085:25:0
 Sky Sport Bundesliga 3 HD
@@ -27950,20 +27917,17 @@ p:SKY,f:1
 0148:00c00000:0003:0085:25:0
 Sky Sport HD 9 Germany
 p:SKY,f:1
-014a:00c00000:0003:0085:25:0
-Eurosport360HD 7
-p:SKY,f:1
 0147:00c00000:0003:0085:25:0
 Sky Sport Bundesliga 8 HD
 p:SKY,f:1
 013d:00c00000:0003:0085:25:0
 Sky Sport Bundesliga 7 HD
 p:SKY,f:1
-0140:00c00000:0003:0085:25:0
-Eurosport360HD 6
-p:SKY,f:1
 0010:00c00000:0003:0085:25:0
 Sky Documentaries HD
+p:SKY,f:1
+0155:00c00000:0003:0085:25:0
+Prime Video Sportsbar
 p:SKY,f:1
 2649:00c00000:0460:0001:1:0
 France 3 Basse-Normandie
@@ -28003,9 +27967,6 @@ Sky Sport Bundesliga 9 HD
 p:SKY,f:1
 0152:00c00000:0010:0085:25:0
 Sky Sport HD 10 Germany
-p:SKY,f:1
-0154:00c00000:0010:0085:25:0
-Eurosport360HD 8
 p:SKY,f:1
 0156:00c00000:0010:0085:25:0
 Sky Sport Austria 6 HD
@@ -39431,6 +39392,9 @@ p:beIN Sports TURKEY,f:1
 753e:0046abaa:0001:00c8:1:0
 GCUK Enc 14
 p:GlobeCast UK,f:1
+7535:0046abaa:0001:00c8:1:0
+GCUK Enc 5
+p:GlobeCast UK,f:1
 0001:0046adac:1000:2000:1:0
 RUS 076
 p:Harmonic,f:1
@@ -39587,6 +39551,9 @@ p:Globecast,f:1
 0001:0046ab63:0000:0001:25:0
 RUV enc 1
 p:RUV,f:1
+753e:0046318b:0001:00c8:1:0
+GCUK Enc 14
+p:GlobeCast UK,f:1
 0fa0:00300000:0006:0056:1:0
 TV Chile
 p:Viasat,f:1
@@ -54341,6 +54308,18 @@ p:Rai,f:1
 03ef:eeee0000:0001:013e:22:0
 Rai  Storia
 p:Rai,f:1
+0d49:eeee0000:0001:013e:1:0
+Rai 1
+p:Rai,f:1
+0d4a:eeee0000:0001:013e:1:1
+Rai 2
+p:Rai,f:1
+0d4b:eeee0000:0001:013e:1:2
+Rai 3
+p:Rai,f:1
+0d53:eeee0000:0001:013e:1:3
+Rai News 24
+p:Rai,f:1
 0065:eeee0000:0385:0110:22:9
 R101 TV
 p:Mediaset,f:1
@@ -55132,6 +55111,9 @@ BIKE
 p:Persidera,f:1
 003d:eeee0000:0204:001d:22:1
 BFC
+p:Persidera,f:1
+003b:eeee0000:0204:001d:22:0
+WELCOME IN
 p:Persidera,f:1
 end
 === Compiled with Morpheus883's scripts ===
