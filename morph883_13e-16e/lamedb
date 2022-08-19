@@ -231,6 +231,9 @@ transponders
 00a0acf8:00c8:0001
 	s 11512000:29950000:1:2:160:2:0:1:2:2:2
 /
+00a03115:0001:0001
+	s 12565000:3165000:0:2:160:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -881,6 +884,9 @@ p:DigitALB
 10cc:00a00000:51a4:016e:1:0
 RTSH Shqip
 p:DigitALB,f:1
+10f4:00a00000:51a4:016e:1:0
+Kanal 10
+p:DigitALB,f:1
 0001:00a0316e:0065:ffff:1:0
 Ippica 1
 p:,f:1
@@ -944,6 +950,9 @@ p:DigitALB,f:1
 027a:00a00000:50dc:016e:9:0
 OTA SMIT MSD
 p:DigitALB
+1108:00a00000:50dc:016e:1:0
+Dukagjini
+p:DigitALB,f:1
 0001:00a03119:0001:ffff:1:0
 SIC International
 p:TANDBERG,f:1
@@ -1238,6 +1247,12 @@ p:DigitALB,f:1
 05f0:00a00000:4f4c:016e:25:0
 SS SRV_1
 p:DIGITALB,f:1
+04b0:00a00000:4f4c:016e:1:0
+Klan Kosova
+p:DigitALB,f:1
+04c4:00a00000:4f4c:016e:1:0
+Alsat M
+p:DigitALB,f:1
 0a94:00a00000:9dd0:016e:22:0
 FilmBox Arthouse
 p:A1 Broadcasting,f:1
@@ -1687,9 +1702,6 @@ RTS 1 HD
 p:Total TV,f:1
 06d8:00a00000:c544:016e:1:0
 RTS 2 HD
-p:Total TV,f:1
-06d9:00a00000:c544:016e:1:0
-Red TV
 p:Total TV,f:1
 06da:00a00000:c544:016e:1:0
 B92
@@ -2477,12 +2489,6 @@ p:H,f:1
 0008:00a02bfe:0001:016e:2:0
 Radio Stari Grad
 p:
-0009:00a02bfe:0001:016e:2:0
-Radio Kalman
-p:
-000a:00a02bfe:0001:016e:2:0
-VIP Radio
-p:
 000b:00a02bfe:0001:016e:2:0
 Radio Bir
 p:
@@ -2717,6 +2723,9 @@ p:
 001b:00a0acf8:00c8:0001:10:0
 Radio Romania International 3
 p:
+0001:00a03115:0001:0001:25:0
+POR15 3.166 H.264
+p:GMTS,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -2729,9 +2738,6 @@ p:RRSat,f:1
 43a5:00820000:2cec:013e:1:0
 TBN Russia
 p:RR Media,f:1
-43a4:00820000:2cec:013e:1:25
-MTA 3
-p:SES,f:1
 43de:00820000:2cec:013e:1:0
 Eurasia Worldwide
 p:,f:1
@@ -2941,12 +2947,6 @@ SciFi Poland HD
 p:Cyfrowy Polsat S.A.,f:1
 3e3e:00820000:2ee0:013e:1:0
 SciFi HD
-p:Cyfrowy Polsat S.A.,f:1
-3e3f:00820000:2ee0:013e:1:0
-TLC HD
-p:Cyfrowy Polsat S.A.,f:1
-3e2a:00820000:2ee0:013e:1:0
-Eurosport 1 HD
 p:Cyfrowy Polsat S.A.,f:1
 3e2b:00820000:2ee0:013e:1:0
 Polsat Sport Premium PPV3
@@ -3173,9 +3173,6 @@ p:MB Satellite,f:1
 1f5f:00820000:319c:013e:1:0
 Iran e Aryaee TV
 p:MB Satellite,f:1
-025f:00820000:319c:013e:1:0
-Deutsches Musik Fernsehen
-p:MB Satellite,f:1
 1c86:00820000:332c:013e:1:0
 Bloomberg European TV
 p:Arqiva,f:1
@@ -3251,12 +3248,6 @@ p:Harmonic,f:1
 1366:00820000:33f4:013e:1:0
 Canale Italia 2
 p:Telespazio,f:1
-134c:00820000:33f4:013e:1:0
-Esteghlal FC TV
-p:Harmonic,f:1
-1365:00820000:33f4:013e:2:0
-Radio Dimensione Stereo
-p:Telespazio
 366a:00820000:00c8:013e:1:0
 Noviy Mir
 p:Harmonic,f:1
@@ -3500,6 +3491,12 @@ p:CANAL+,f:1
 3aa5:00820000:0514:013e:1:0
 Canal+ Sport 5 HD
 p:CANAL+,f:1
+3a9e:00820000:0514:013e:1:0
+TVP Sport HD
+p:CANAL+,f:1
+3ad0:00820000:0514:013e:1:0
+TVP Sport HD
+p:CANAL+,f:1
 0321:00820000:3bc4:013e:1:0
 Euronews English HD
 p:GLOBECAST,f:1
@@ -3515,12 +3512,6 @@ p:GLOBECAST,f:1
 0328:00820000:3bc4:013e:1:0
 France 24 HD (in English)
 p:GLOBECAST,f:1
-0320:00820000:3bc4:013e:1:0
-Belarus 24 HD
-p:GLOBECAST,f:1
-032a:00820000:3bc4:013e:2:0
-Radio Belarus International
-p:GLOBECAST
 031f:00820000:3bc4:013e:1:0
 TRT Arabi HD
 p:GLOBECAST,f:1
@@ -3698,9 +3689,6 @@ p:SkyItalia,f:1
 104a:00820000:14b4:fbff:25:0
 Classica HD
 p:SkyItalia,f:1
-379d:00820000:14b4:fbff:25:0
-Fox Italia HD
-p:Sky Italia,f:1
 106c:00820000:14b4:fbff:25:0
 Sky Cinema Collection HD
 p:SkyItalia,f:1
@@ -4177,9 +4165,6 @@ Sky Sport HD
 p:SkyItalia,f:1
 2cc4:00820000:19c8:fbff:1:0
 DeA Kids
-p:Sky Italia,f:1
-0fbd:00820000:19c8:fbff:1:0
-Fox +1 Italia
 p:Sky Italia,f:1
 057f:00820000:19c8:fbff:1:0
 La 7
@@ -6008,9 +5993,6 @@ p:Cyfrowy Polsat S.A.,f:1
 290a:00820000:1edc:0071:1:0
 Extreme Sports HD
 p:Cyfrowy Polsat S.A.,f:1
-290d:00820000:1edc:0071:1:0
-Discovery Science Polska HD
-p:Cyfrowy Polsat S.A.,f:1
 290b:00820000:1edc:0071:1:0
 CBS Europa HD
 p:Cyfrowy Polsat S.A.,f:1
@@ -6029,12 +6011,6 @@ p:Cyfrowy Polsat S.A.,f:1
 290e:00820000:1edc:0071:1:0
 HBO HD Polska
 p:Cyfrowy Polsat S.A.,f:1
-290c:00820000:1edc:0071:1:0
-Eurosport 2 HD
-p:Cyfrowy Polsat S.A.,f:1
-2910:00820000:1edc:0071:1:0
-Eurosport 2 HD
-p:Cyfrowy Polsat S.A.,f:1
 2911:00820000:1edc:0071:1:0
 Polsat Sport Fight HD
 p:Cyfrowy Polsat S.A.,f:1
@@ -6046,9 +6022,6 @@ Cartoon Network HD
 p:Cyfrowy Polsat S.A.,f:1
 2908:00820000:1edc:0071:1:0
 Polsat Viasat Nature HD
-p:Cyfrowy Polsat S.A.,f:1
-292b:00820000:1edc:0071:1:0
-Discovery Science HD
 p:Cyfrowy Polsat S.A.,f:1
 292d:00820000:1edc:0071:1:0
 Warner HD
@@ -6719,9 +6692,6 @@ p:CANAL+,f:1
 1313:00820000:2e7c:013e:1:0
 CANAL+ SPORT 4 HD
 p:CANAL+,f:1
-12c8:00820000:2e7c:013e:1:0
-Playboy TV HD
-p:CANAL+,f:1
 12d5:00820000:2e7c:013e:1:0
 La Trois
 p:CANAL+,f:1
@@ -7340,9 +7310,6 @@ p:IRIB,f:1
 05f3:00820000:2c24:013e:1:0
 JameJam 3
 p:IRIB,f:1
-03e8:00820000:005e:0055:22:0
-1+1
-p:XTRA TV,C:0000,f:1
 03fc:00820000:005e:0055:22:0
 Star Family
 p:XTRA TV,C:0000,f:1
@@ -7351,9 +7318,6 @@ TV1000
 p:XTRA TV,C:0000,f:1
 0424:00820000:005e:0055:22:0
 TV1000 Action
-p:XTRA TV,C:0000,f:1
-0438:00820000:005e:0055:22:0
-Rada
 p:XTRA TV,C:0000,f:1
 044c:00820000:005e:0055:22:0
 TV 1000 World Kino
@@ -7366,9 +7330,6 @@ Ukraina 24 HD
 p:XTRA TV,f:1
 053c:00820000:005e:0055:22:0
 National Geographic
-p:XTRA TV,C:0000,f:1
-0550:00820000:005e:0055:22:0
-Inter
 p:XTRA TV,C:0000,f:1
 0564:00820000:005e:0055:22:0
 Viasat Explore
@@ -7384,9 +7345,6 @@ Epic Drama
 p:XTRA TV,f:1
 05f0:00820000:005e:0055:22:0
 Star Cinema
-p:XTRA TV,f:1
-0474:00820000:005e:0055:22:0
-ICTV
 p:XTRA TV,f:1
 0514:00820000:005e:0055:22:0
 Nat Geo Wild
@@ -7415,9 +7373,6 @@ p:,f:1
 04b5:00820000:23f0:013e:25:0
 Saudi TV HD
 p:,f:1
-04b9:00820000:23f0:013e:31:0
-Ultra Nature 4K
-p:Eutelsat,f:1
 04b8:00820000:23f0:013e:1:0
 Travel Africa Network
 p:iChannel LTD,f:1
@@ -7769,15 +7724,6 @@ p:iKO Media Group,f:1
 0004:00820000:0578:013f:1:0
 Amazing Facts
 p:,f:1
-000b:00820000:0578:013f:1:0
-cna
-p:,f:1
-000c:00820000:0578:013f:1:0
-dieutv
-p:,f:1
-000d:00820000:0578:013f:1:0
-holygod tv
-p:,f:1
 080c:00820000:0060:0055:22:0
 History
 p:XTRATV,f:1
@@ -7808,12 +7754,6 @@ p:XTRATV,f:1
 07d0:00820000:0060:0055:22:0
 Viasat Sport
 p:XTRATV,f:1
-09b0:00820000:0060:0055:22:0
-RADA Rus
-p:,f:1
-09c4:00820000:0060:0055:22:0
-RADA Eng
-p:,f:1
 07e4:00820000:0060:0055:22:0
 Dorama
 p:XTRATV,f:1
@@ -7829,9 +7769,6 @@ p:1,f:1
 0bc5:00820000:20d0:013e:1:0
 Love Nature 4K
 p:iKO Media Group,f:1
-0be0:00820000:20d0:013e:1:0
-MyZen 4K
-p:,f:1
 0bea:00820000:20d0:013e:17:0
 Insight TV UHD
 p:Amagi,f:1

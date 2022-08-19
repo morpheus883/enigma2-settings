@@ -9,14 +9,14 @@ Morpheus883's Site: http://morpheus883.altervista.org/
 GitHub Repository: https://github.com/morpheus883/
 and available on the main Sat Sites
 
-Enigma2 Settings 9th August 2022, © by Morpheus883
+Enigma2 Settings 19th August 2022, © by Morpheus883
 
 Settings for Images based on Enigma 2.4:
 
 Statistics:
 # Satellites: 90 (Ku Band)
 # Ordered Provider Lists: 70+
-# Services: 16.962 (TV-Radio-Data)
+# Services: 16.883 (TV-Radio-Data)
 # Packages: 23 (TV-Radio-Data):
 
 MONOFeed (13°E)
@@ -35,8 +35,8 @@ ASTRA 3B DUALFeed (13°E + 23.5°E)
 ASTRA 3B TRIALFeed (13°E + 19.2°E + 23.5°E)
 ASTRA 2E/2F/2G DUALFeed (13°E + 28.2°E)
 ASTRA 2E/2F/2G TRIALFeed (13°E + 19.2°E + 28.2°E)
-TURKSAT 3A/4A DUALFeed (13°E + 42°E)
-TURKSAT 3A/4A TRIALFeed (13°E + 19.2°E + 42°E)
+TURKSAT 3A/4A/5B DUALFeed (13°E + 42°E)
+TURKSAT 3A/4A/5B TRIALFeed (13°E + 19.2°E + 42°E)
 THOR 5/6/7 ASTRA 4 TRIALFeed (0.8°W + 4.8°E + 13°E) Special Edition
 THOR 5/6/7 ASTRA 2E/2F/2G QUADFeed (0.8°W + 13°E + 19.2°E + 28.2°E) Special Edition
 EUTELSAT 16 ASTRA 3B QUADFeed (13°E + 16°E + 19.2°E + 23.5°E) Special Edition
@@ -137,7 +137,7 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [39.0 E] Bulsatcom
 [39.0 E] Dolce TV
 [39.0 E] Tring TV
-[42.0 E] ===== TURKSAT 3A/4A ===M=
+[42.0 E] ===== TURKSAT 3A/4A/5B ===M=
 [42.0 E] D-Smart
 [42.0 E] Digitürk
 [42.0 E] Filbox
