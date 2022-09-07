@@ -268,7 +268,7 @@ transponders
 	s 11996000:27500000:0:3:48:2:0
 /
 00300000:000f:0055
-	s 12073000:30000000:0:3:48:2:0
+	s 12073000:30000000:0:2:48:2:0:1:2:0:2:-1:0:1
 /
 00300000:0010:0055
 	s 12130000:27500000:1:3:48:2:0
@@ -344,9 +344,6 @@ transponders
 /
 0030318f:0001:ffff
 	s 12687000:2000000:1:7:48:2:0:1:2:0:2
-/
-00302f29:000f:0055
-	s 12073000:30000000:0:2:48:2:0:1:2:0:2:-1:0:1
 /
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
@@ -1203,7 +1200,7 @@ p:Harmonic,f:1
 Canale Italia 84
 p:Telespazio,f:1
 135e:00820000:33f4:013e:2:0
-Radio Cusano
+Radio Cusano Campus
 p:Telespazio
 1325:00820000:33f4:013e:1:0
 JSTV 1 (Japan Satellite TV)
@@ -1244,6 +1241,9 @@ p:Telespazio,f:1
 1365:00820000:33f4:013e:2:0
 Radio Dimensione Stereo
 p:Telespazio
+132e:00820000:33f4:013e:1:0
+Sender Neu Jerusalem
+p:Telespazio,f:1
 366a:00820000:00c8:013e:1:0
 Noviy Mir
 p:Harmonic,f:1
@@ -2384,14 +2384,11 @@ p:Telespazio
 0314:00820000:1b58:013e:1:0
 MTA International
 p:RRsat,f:1
-02d4:00820000:1b58:013e:1:0
-Sender Neu Jerusalem 2
-p:Harmonic,f:1
 02fe:00820000:1b58:013e:2:0
 DimSuono Soft MI
 p:Telespazio
 02d7:00820000:1b58:013e:1:0
-El Sharq
+QAF TV
 p:Telespazio,f:1
 02e6:00820000:1b58:013e:2:0
 Radio Kiss Kiss
@@ -2440,10 +2437,10 @@ Nova Cinema 1 HD
 p:Netmed,f:1
 3c97:00820000:1bbc:013e:1:0
 Pvod_Service_1
-p:Netmed,f:1
+p:Syned,f:1
 3c96:00820000:1bbc:013e:1:0
 Novasports Prime HD
-p:Netmed,f:1
+p:Syned,f:1
 3c90:00820000:1bbc:013e:1:0
 NovaSports 2 HD
 p:Netmed,f:1
@@ -3703,43 +3700,43 @@ Mad Greekz
 p:NetMed,f:1
 1bbe:00820000:17d4:013e:1:0
 E! Entertainment TV
-p:Nova,f:1
+p:NetMed,f:1
 1bbf:00820000:17d4:013e:1:0
 Viasat History
-p:Nova,f:1
+p:NetMed,f:1
 1bc2:00820000:17d4:013e:1:0
 Nova Cinema 3 HD
-p:Nova,f:1
+p:NetMed,f:1
 1bc4:00820000:17d4:013e:1:0
 NovaSports News HD
-p:Nova,f:1
+p:NetMed,f:1
 1bc5:00820000:17d4:013e:1:0
 One Channel HD
-p:Nova,f:1
+p:NetMed,f:1
 1bc7:00820000:17d4:013e:1:0
 Disney Channel Greece
-p:Nova,f:1
+p:NetMed,f:1
 1bca:00820000:17d4:013e:1:0
 Nova Cinema 2 HD
-p:Nova,f:1
+p:NetMed,f:1
 1bcd:00820000:17d4:013e:2:0
 Mad Radio
-p:Nova
+p:NetMed
 1bd0:00820000:17d4:013e:1:0
 Fox Life Greece
-p:Nova,f:1
+p:NetMed,f:1
 1bd1:00820000:17d4:013e:1:0
 Fox Greece
-p:Nova,f:1
+p:NetMed,f:1
 1bd2:00820000:17d4:013e:1:0
 Boomerang HD
-p:Nova,f:1
+p:NetMed,f:1
 1bc1:00820000:17d4:013e:1:0
 Adult Pack Info
-p:Nova,f:1
+p:NetMed,f:1
 1bd4:00820000:17d4:013e:1:0
 Adult Pack Info Cy
-p:Nova,f:1
+p:NetMed,f:1
 1bd5:00820000:17d4:013e:1:0
 novacinema2 HD Cy
 p:NetMed,f:1
@@ -3748,18 +3745,15 @@ novacinema3 HD Cy
 p:NetMed,f:1
 1bcf:00820000:17d4:013e:152:0
 Cobalt Data
-p:Netmed
+p:NetMed
 1bcb:00820000:17d4:013e:1:0
 M3_TEST7
 p:NetMed,f:1
 1bc0:00820000:17d4:013e:1:0
 DuckTV
 p:NetMed,f:1
-1bc8:00820000:17d4:013e:1:0
-CNNi HD
-p:NetMed,f:1
 1bbd:00820000:17d4:013e:1:0
-M3_TEST1
+ΕΡΤ News
 p:NetMed,f:1
 1bc6:00820000:17d4:013e:1:0
 M3_TEST2
@@ -3775,6 +3769,9 @@ M3_TEST2S
 p:NetMed,f:1
 1bd3:00820000:17d4:013e:1:0
 M3_TEST4
+p:NetMed,f:1
+1bc8:00820000:17d4:013e:1:0
+Epic Drama
 p:NetMed,f:1
 0009:00820000:02bc:013e:1:0
 SonLife Broadcasting Network
@@ -3815,9 +3812,6 @@ p:M7 Group,f:1
 4225:00820000:2f44:013e:25:0
 Private HD POL
 p:M7 Group,f:1
-0029:00820000:2f44:013e:1:0
-Kazakh TV HD
-p:,f:1
 4207:00820000:2f44:013e:1:0
 Brazzers HD
 p:ARC/DCM1 TSOIP,f:1
@@ -3864,11 +3858,14 @@ p:M7 Group,f:1
 RADA
 p:FFmpeg,f:1
 4234:00820000:2f44:013e:1:0
-ByoBlue
+ByoBlu
 p:M-Three Satcom,f:1
 4235:00820000:2f44:013e:1:0
 Espresso TV
 p:,f:1
+0029:00820000:2f44:013e:1:0
+Jibek Joly
+p:iKO Media Group,f:1
 0065:00820000:1770:0110:2:0
 Radio R101
 p:Mediaset
@@ -4460,8 +4457,11 @@ p:KABELIO.CH,f:1
 3756:00820000:06a4:013e:25:0
 Kabelio Swiss1
 p:KABELIO.CH,f:1
-3768:00820000:06a4:013e:1:0
+3769:00820000:06a4:013e:1:0
 Kabelio BBC News
+p:KABELIO.CH,f:1
+3768:00820000:06a4:013e:1:0
+Kabelio CNNi
 p:KABELIO.CH,f:1
 10ea:00820000:03e8:013e:25:0
 TVN 24 Bizness HD
@@ -8702,12 +8702,12 @@ p:DigiTV,f:1
 0fc8:0e080000:000d:0001:1:0
 M1 HD
 p:DigiTV,f:1
-0fd2:0e080000:000d:0001:1:0
-DIGI World HD HU
-p:DigiTV,f:1
 0fbe:0e080000:000d:0001:1:0
 TV 2 HD (Hungary)
 p:DigiTV,f:1
+0fd2:0e080000:000d:0001:1:0
+Sport 2 HD Hungary
+p:DigiTV,C:0000,f:1
 1db0:0e080000:002b:0046:25:0
 Discovery+ Extra 1 HD
 p:Telenor,c:050001,f:1
@@ -9209,24 +9209,18 @@ p:DigiTV,f:1
 055f:0e080000:0004:0001:1:0
 Bucuresti 1 TV
 p:DigiTV,f:1
-0a14:0e080000:0005:0001:1:0
-Music Channel HU
-p:RCSRDS,f:1
 0618:0e080000:0005:0001:1:0
 M1 - Magyar TV
-p:RCSRDS,f:1
-0a1e:0e080000:0005:0001:1:0
-H!T Music Channel
-p:RCSRDS,f:1
+p:DigiTV,f:1
 0d20:0e080000:0005:0001:1:0
 Duna TV
-p:RCS,f:1
+p:DigiTV,f:1
 0a32:0e080000:0005:0001:1:0
 Sport 1 Hungary
-p:RCSRDS,f:1
+p:DigiTV,f:1
 0a3c:0e080000:0005:0001:1:0
 Sport 2 Hungary
-p:RCSRDS,f:1
+p:DigiTV,f:1
 0a46:0e080000:0005:0001:1:0
 HBO 2 Central Europe
 p:DigiTV,f:1
@@ -9235,34 +9229,34 @@ HBO Hungary
 p:DigiTV,f:1
 056e:0e080000:0005:0001:1:0
 Minimax
-p:RCSRDS,f:1
+p:DigiTV,f:1
 0a6e:0e080000:0005:0001:1:0
 Spektrum TV Hungary
 p:DigiTV,f:1
 0a8c:0e080000:0005:0001:1:0
 Magyar TV 2
-p:RCSRDS,f:1
+p:DigiTV,f:1
 0e60:0e080000:0005:0001:2:0
 Petofi Radio
-p:RCSRDS
+p:DIGI
 0e6a:0e080000:0005:0001:2:0
 Kossuth Radio
-p:RCSRDS
+p:DIGI
 0e74:0e080000:0005:0001:2:0
 Bartok Radio
-p:rcsrds
+p:DIGI
 0fa1:0e080000:0005:0001:2:0
 Slager FM
-p:RCSRDS
+p:DIGI
 0faa:0e080000:0005:0001:2:0
 JAZZY
-p:DigiTV
+p:DIGI
 029c:0e080000:0005:0001:6:0
 SW DL 1165
-p:RCSRDS
+p:DIGI
 02a0:0e080000:0005:0001:6:0
 SW DL 5160
-p:RCSRDS
+p:DIGI
 0b77:0e080000:0005:0001:1:0
 Spektrum Home
 p:DigiTV,f:1
@@ -9278,6 +9272,9 @@ p:DigiTV,f:1
 0a28:0e080000:0005:0001:1:0
 TV Paprika HU
 p:DigiTV,f:1
+0a14:0e080000:0005:0001:1:0
+ID Investigation Discovery HU
+p:DigiTV,f:1
 100e:0e080000:0003:0001:1:0
 Magyar Slager TV
 p:DigiTV,f:1
@@ -9288,13 +9285,10 @@ p:DigiTV,f:1
 Nat Geo Wild HU
 p:DigiTV,f:1
 041a:0e080000:0003:0001:1:0
-Film Now HU
+FilmBox Extra
 p:DigiTV,f:1
 0622:0e080000:0003:0001:1:0
 Viasat Nature CEE
-p:DigiTV,f:1
-0424:0e080000:0003:0001:1:0
-DIGI World HU
 p:DigiTV,f:1
 0564:0e080000:0003:0001:1:0
 TV 2 (Hungary)
@@ -9323,6 +9317,9 @@ p:DigiTV,f:1
 0a96:0e080000:0003:0001:1:0
 Galaxy 4
 p:DigiTV,f:1
+0424:0e080000:0003:0001:1:0
+Animal Planet
+p:DigiTV,C:0000,f:1
 040a:0e080000:0007:0001:1:0
 History
 p:DigiTV,f:1
@@ -9522,10 +9519,7 @@ p:Telenor,f:1
 TV3 HD (S)
 p:Telenor,f:1
 1efc:0e080000:004f:0046:25:0
-V 4 HD
-p:Telenor,f:1
-441d:0e080000:004f:0046:25:0
-V sport Premier League 4 HD
+TV3+ HD (N)
 p:Telenor,f:1
 7668:0e080000:02bf:0600:22:0
 Ocko

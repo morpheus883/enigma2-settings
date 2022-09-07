@@ -268,7 +268,7 @@ transponders
 	s 11996000:27500000:0:3:48:2:0
 /
 00300000:000f:0055
-	s 12073000:30000000:0:3:48:2:0
+	s 12073000:30000000:0:2:48:2:0:1:2:0:2:-1:0:1
 /
 00300000:0010:0055
 	s 12130000:27500000:1:3:48:2:0
@@ -344,9 +344,6 @@ transponders
 /
 0030318f:0001:ffff
 	s 12687000:2000000:1:7:48:2:0:1:2:0:2
-/
-00302f29:000f:0055
-	s 12073000:30000000:0:2:48:2:0:1:2:0:2:-1:0:1
 /
 end
 services
@@ -915,7 +912,7 @@ p:Harmonic,f:1
 Canale Italia 84
 p:Telespazio,f:1
 135e:00820000:33f4:013e:2:0
-Radio Cusano
+Radio Cusano Campus
 p:Telespazio
 1325:00820000:33f4:013e:1:0
 JSTV 1 (Japan Satellite TV)
@@ -956,6 +953,9 @@ p:Telespazio,f:1
 1365:00820000:33f4:013e:2:0
 Radio Dimensione Stereo
 p:Telespazio
+132e:00820000:33f4:013e:1:0
+Sender Neu Jerusalem
+p:Telespazio,f:1
 366a:00820000:00c8:013e:1:0
 Noviy Mir
 p:Harmonic,f:1
@@ -2096,14 +2096,11 @@ p:Telespazio
 0314:00820000:1b58:013e:1:0
 MTA International
 p:RRsat,f:1
-02d4:00820000:1b58:013e:1:0
-Sender Neu Jerusalem 2
-p:Harmonic,f:1
 02fe:00820000:1b58:013e:2:0
 DimSuono Soft MI
 p:Telespazio
 02d7:00820000:1b58:013e:1:0
-El Sharq
+QAF TV
 p:Telespazio,f:1
 02e6:00820000:1b58:013e:2:0
 Radio Kiss Kiss
@@ -2152,10 +2149,10 @@ Nova Cinema 1 HD
 p:Netmed,f:1
 3c97:00820000:1bbc:013e:1:0
 Pvod_Service_1
-p:Netmed,f:1
+p:Syned,f:1
 3c96:00820000:1bbc:013e:1:0
 Novasports Prime HD
-p:Netmed,f:1
+p:Syned,f:1
 3c90:00820000:1bbc:013e:1:0
 NovaSports 2 HD
 p:Netmed,f:1
@@ -3415,43 +3412,43 @@ Mad Greekz
 p:NetMed,f:1
 1bbe:00820000:17d4:013e:1:0
 E! Entertainment TV
-p:Nova,f:1
+p:NetMed,f:1
 1bbf:00820000:17d4:013e:1:0
 Viasat History
-p:Nova,f:1
+p:NetMed,f:1
 1bc2:00820000:17d4:013e:1:0
 Nova Cinema 3 HD
-p:Nova,f:1
+p:NetMed,f:1
 1bc4:00820000:17d4:013e:1:0
 NovaSports News HD
-p:Nova,f:1
+p:NetMed,f:1
 1bc5:00820000:17d4:013e:1:0
 One Channel HD
-p:Nova,f:1
+p:NetMed,f:1
 1bc7:00820000:17d4:013e:1:0
 Disney Channel Greece
-p:Nova,f:1
+p:NetMed,f:1
 1bca:00820000:17d4:013e:1:0
 Nova Cinema 2 HD
-p:Nova,f:1
+p:NetMed,f:1
 1bcd:00820000:17d4:013e:2:0
 Mad Radio
-p:Nova
+p:NetMed
 1bd0:00820000:17d4:013e:1:0
 Fox Life Greece
-p:Nova,f:1
+p:NetMed,f:1
 1bd1:00820000:17d4:013e:1:0
 Fox Greece
-p:Nova,f:1
+p:NetMed,f:1
 1bd2:00820000:17d4:013e:1:0
 Boomerang HD
-p:Nova,f:1
+p:NetMed,f:1
 1bc1:00820000:17d4:013e:1:0
 Adult Pack Info
-p:Nova,f:1
+p:NetMed,f:1
 1bd4:00820000:17d4:013e:1:0
 Adult Pack Info Cy
-p:Nova,f:1
+p:NetMed,f:1
 1bd5:00820000:17d4:013e:1:0
 novacinema2 HD Cy
 p:NetMed,f:1
@@ -3460,18 +3457,15 @@ novacinema3 HD Cy
 p:NetMed,f:1
 1bcf:00820000:17d4:013e:152:0
 Cobalt Data
-p:Netmed
+p:NetMed
 1bcb:00820000:17d4:013e:1:0
 M3_TEST7
 p:NetMed,f:1
 1bc0:00820000:17d4:013e:1:0
 DuckTV
 p:NetMed,f:1
-1bc8:00820000:17d4:013e:1:0
-CNNi HD
-p:NetMed,f:1
 1bbd:00820000:17d4:013e:1:0
-M3_TEST1
+ΕΡΤ News
 p:NetMed,f:1
 1bc6:00820000:17d4:013e:1:0
 M3_TEST2
@@ -3487,6 +3481,9 @@ M3_TEST2S
 p:NetMed,f:1
 1bd3:00820000:17d4:013e:1:0
 M3_TEST4
+p:NetMed,f:1
+1bc8:00820000:17d4:013e:1:0
+Epic Drama
 p:NetMed,f:1
 0009:00820000:02bc:013e:1:0
 SonLife Broadcasting Network
@@ -3527,9 +3524,6 @@ p:M7 Group,f:1
 4225:00820000:2f44:013e:25:0
 Private HD POL
 p:M7 Group,f:1
-0029:00820000:2f44:013e:1:0
-Kazakh TV HD
-p:,f:1
 4207:00820000:2f44:013e:1:0
 Brazzers HD
 p:ARC/DCM1 TSOIP,f:1
@@ -3576,11 +3570,14 @@ p:M7 Group,f:1
 RADA
 p:FFmpeg,f:1
 4234:00820000:2f44:013e:1:0
-ByoBlue
+ByoBlu
 p:M-Three Satcom,f:1
 4235:00820000:2f44:013e:1:0
 Espresso TV
 p:,f:1
+0029:00820000:2f44:013e:1:0
+Jibek Joly
+p:iKO Media Group,f:1
 0065:00820000:1770:0110:2:0
 Radio R101
 p:Mediaset
@@ -4172,8 +4169,11 @@ p:KABELIO.CH,f:1
 3756:00820000:06a4:013e:25:0
 Kabelio Swiss1
 p:KABELIO.CH,f:1
-3768:00820000:06a4:013e:1:0
+3769:00820000:06a4:013e:1:0
 Kabelio BBC News
+p:KABELIO.CH,f:1
+3768:00820000:06a4:013e:1:0
+Kabelio CNNi
 p:KABELIO.CH,f:1
 10ea:00820000:03e8:013e:25:0
 TVN 24 Bizness HD

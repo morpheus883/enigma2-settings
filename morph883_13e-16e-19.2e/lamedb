@@ -318,9 +318,6 @@ transponders
 00a00000:51a4:016e
 	s 10887000:30000000:0:7:160:2:0:1:2:0:2
 /
-00a0316e:0065:ffff
-	s 12654000:11111000:0:2:160:2:0
-/
 00a00000:50dc:016e
 	s 10845000:30000000:0:7:160:2:0:1:2:2:2
 /
@@ -492,9 +489,6 @@ transponders
 00a03182:0000:0000
 	s 12674000:2930000:0:3:160:2:0
 /
-00a031bd:0001:0001
-	s 12733000:3550000:0:3:160:2:0
-/
 00a031c7:0001:0001
 	s 12743000:2400000:1:3:160:2:0:1:2:0:2
 /
@@ -503,9 +497,6 @@ transponders
 /
 00a02bfe:0001:016e
 	s 11262000:30000000:0:2:160:2:0:1:2:2:2
-/
-00a031b6:0001:ffff
-	s 12726000:7200000:0:3:160:2:0:1:2:0:2
 /
 00a031c3:00b0:00b1
 	s 12739000:2255000:0:3:160:2:0
@@ -527,9 +518,6 @@ transponders
 /
 00a0314a:0000:0001
 	s 12618000:7200000:0:3:160:2:0:1:2:0:2
-/
-00a02cf8:0001:016e
-	s 11512000:30000000:0:3:160:2:0:1:2:2:2
 /
 00a031b4:0065:ffff
 	s 12724000:4100000:0:3:160:2:0:1:1:0:2
@@ -1634,13 +1622,10 @@ p:Movistar+,f:1
 75f9:00c00000:0408:0001:1:0
 M+ LaLiga 8
 p:Movistar+,f:1
-7602:00c00000:0408:0001:1:0
-M+Deportes 8
-p:Movistar+,f:1
 75ff:00c00000:0408:0001:1:0
 M+Deportes 7
 p:Movistar+,f:1
-760b:00c00000:0408:0001:1:0
+7608:00c00000:0408:0001:1:0
 Liga de Campeones 10
 p:Movistar+,f:1
 760d:00c00000:0408:0001:1:0
@@ -1649,7 +1634,7 @@ p:Movistar+,f:1
 760f:00c00000:0408:0001:1:0
 Liga de Campeones 12
 p:Movistar+,f:1
-7610:00c00000:0408:0001:1:0
+7602:00c00000:0408:0001:1:0
 Liga de Campeones 13
 p:Movistar+,f:1
 7600:00c00000:0408:0001:1:0
@@ -1657,9 +1642,6 @@ La Resistencia
 p:Movistar+,f:1
 75fa:00c00000:0408:0001:1:0
 Liga SmartBank 2
-p:Movistar+,f:1
-7608:00c00000:0408:0001:1:0
-M+ LaLiga 10
 p:Movistar+,f:1
 75fb:00c00000:0408:0001:1:0
 .
@@ -1670,6 +1652,12 @@ p:,f:1
 760c:00c00000:0408:0001:1:0
 
 p:,f:1
+760b:00c00000:0408:0001:1:0
+TEST ANCAM10
+p:Movistar+,f:1
+7610:00c00000:0408:0001:1:0
+TEST ANCAMP13
+p:Movistar+,f:1
 6dca:00c00000:044d:0001:1:0
 Das Erste
 p:ARD Digital,f:1
@@ -6629,8 +6617,8 @@ p:,f:1
 006b:00a02bfe:0001:016e:1:0
 OBN
 p:,f:1
-006c:00a02bfe:0001:016e:22:0
-Supersat TV
+006c:00a02bfe:0001:016e:25:0
+Super Sat TV
 p:H,f:1
 006d:00a02bfe:0001:016e:1:0
 PRO TV Int
@@ -7317,7 +7305,7 @@ p:Harmonic,f:1
 Canale Italia 84
 p:Telespazio,f:1
 135e:00820000:33f4:013e:2:0
-Radio Cusano
+Radio Cusano Campus
 p:Telespazio
 1325:00820000:33f4:013e:1:0
 JSTV 1 (Japan Satellite TV)
@@ -7358,6 +7346,9 @@ p:Telespazio,f:1
 1365:00820000:33f4:013e:2:0
 Radio Dimensione Stereo
 p:Telespazio
+132e:00820000:33f4:013e:1:0
+Sender Neu Jerusalem
+p:Telespazio,f:1
 366a:00820000:00c8:013e:1:0
 Noviy Mir
 p:Harmonic,f:1
@@ -8498,14 +8489,11 @@ p:Telespazio
 0314:00820000:1b58:013e:1:0
 MTA International
 p:RRsat,f:1
-02d4:00820000:1b58:013e:1:0
-Sender Neu Jerusalem 2
-p:Harmonic,f:1
 02fe:00820000:1b58:013e:2:0
 DimSuono Soft MI
 p:Telespazio
 02d7:00820000:1b58:013e:1:0
-El Sharq
+QAF TV
 p:Telespazio,f:1
 02e6:00820000:1b58:013e:2:0
 Radio Kiss Kiss
@@ -8554,10 +8542,10 @@ Nova Cinema 1 HD
 p:Netmed,f:1
 3c97:00820000:1bbc:013e:1:0
 Pvod_Service_1
-p:Netmed,f:1
+p:Syned,f:1
 3c96:00820000:1bbc:013e:1:0
 Novasports Prime HD
-p:Netmed,f:1
+p:Syned,f:1
 3c90:00820000:1bbc:013e:1:0
 NovaSports 2 HD
 p:Netmed,f:1
@@ -9817,43 +9805,43 @@ Mad Greekz
 p:NetMed,f:1
 1bbe:00820000:17d4:013e:1:0
 E! Entertainment TV
-p:Nova,f:1
+p:NetMed,f:1
 1bbf:00820000:17d4:013e:1:0
 Viasat History
-p:Nova,f:1
+p:NetMed,f:1
 1bc2:00820000:17d4:013e:1:0
 Nova Cinema 3 HD
-p:Nova,f:1
+p:NetMed,f:1
 1bc4:00820000:17d4:013e:1:0
 NovaSports News HD
-p:Nova,f:1
+p:NetMed,f:1
 1bc5:00820000:17d4:013e:1:0
 One Channel HD
-p:Nova,f:1
+p:NetMed,f:1
 1bc7:00820000:17d4:013e:1:0
 Disney Channel Greece
-p:Nova,f:1
+p:NetMed,f:1
 1bca:00820000:17d4:013e:1:0
 Nova Cinema 2 HD
-p:Nova,f:1
+p:NetMed,f:1
 1bcd:00820000:17d4:013e:2:0
 Mad Radio
-p:Nova
+p:NetMed
 1bd0:00820000:17d4:013e:1:0
 Fox Life Greece
-p:Nova,f:1
+p:NetMed,f:1
 1bd1:00820000:17d4:013e:1:0
 Fox Greece
-p:Nova,f:1
+p:NetMed,f:1
 1bd2:00820000:17d4:013e:1:0
 Boomerang HD
-p:Nova,f:1
+p:NetMed,f:1
 1bc1:00820000:17d4:013e:1:0
 Adult Pack Info
-p:Nova,f:1
+p:NetMed,f:1
 1bd4:00820000:17d4:013e:1:0
 Adult Pack Info Cy
-p:Nova,f:1
+p:NetMed,f:1
 1bd5:00820000:17d4:013e:1:0
 novacinema2 HD Cy
 p:NetMed,f:1
@@ -9862,18 +9850,15 @@ novacinema3 HD Cy
 p:NetMed,f:1
 1bcf:00820000:17d4:013e:152:0
 Cobalt Data
-p:Netmed
+p:NetMed
 1bcb:00820000:17d4:013e:1:0
 M3_TEST7
 p:NetMed,f:1
 1bc0:00820000:17d4:013e:1:0
 DuckTV
 p:NetMed,f:1
-1bc8:00820000:17d4:013e:1:0
-CNNi HD
-p:NetMed,f:1
 1bbd:00820000:17d4:013e:1:0
-M3_TEST1
+ΕΡΤ News
 p:NetMed,f:1
 1bc6:00820000:17d4:013e:1:0
 M3_TEST2
@@ -9889,6 +9874,9 @@ M3_TEST2S
 p:NetMed,f:1
 1bd3:00820000:17d4:013e:1:0
 M3_TEST4
+p:NetMed,f:1
+1bc8:00820000:17d4:013e:1:0
+Epic Drama
 p:NetMed,f:1
 0009:00820000:02bc:013e:1:0
 SonLife Broadcasting Network
@@ -9929,9 +9917,6 @@ p:M7 Group,f:1
 4225:00820000:2f44:013e:25:0
 Private HD POL
 p:M7 Group,f:1
-0029:00820000:2f44:013e:1:0
-Kazakh TV HD
-p:,f:1
 4207:00820000:2f44:013e:1:0
 Brazzers HD
 p:ARC/DCM1 TSOIP,f:1
@@ -9978,11 +9963,14 @@ p:M7 Group,f:1
 RADA
 p:FFmpeg,f:1
 4234:00820000:2f44:013e:1:0
-ByoBlue
+ByoBlu
 p:M-Three Satcom,f:1
 4235:00820000:2f44:013e:1:0
 Espresso TV
 p:,f:1
+0029:00820000:2f44:013e:1:0
+Jibek Joly
+p:iKO Media Group,f:1
 0065:00820000:1770:0110:2:0
 Radio R101
 p:Mediaset
@@ -10574,8 +10562,11 @@ p:KABELIO.CH,f:1
 3756:00820000:06a4:013e:25:0
 Kabelio Swiss1
 p:KABELIO.CH,f:1
-3768:00820000:06a4:013e:1:0
+3769:00820000:06a4:013e:1:0
 Kabelio BBC News
+p:KABELIO.CH,f:1
+3768:00820000:06a4:013e:1:0
+Kabelio CNNi
 p:KABELIO.CH,f:1
 10ea:00820000:03e8:013e:25:0
 TVN 24 Bizness HD
