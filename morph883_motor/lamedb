@@ -2187,6 +2187,9 @@ transponders
 00d8acf9:0001:ffff
 	s 11513000:2222000:1:3:216:2:0
 /
+00d80000:0003:0008
+	s 11645000:1600000:1:3:216:2:0:1:1:0:2
+/
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
 /
@@ -3213,6 +3216,9 @@ transponders
 00642b64:0001:0001
 	s 11108000:2800000:0:3:100:2:0:1:2:0:2
 /
+0064315a:0001:ffff
+	s 12634000:2222000:0:3:100:2:0:1:1:0:2
+/
 005a0000:14b4:009c
 	s 11785000:27500000:0:2:90:2:0:1:2:0:2
 /
@@ -3656,6 +3662,18 @@ transponders
 /
 0046310e:0000:0000
 	s 12558000:9876000:0:3:70:2:0:1:2:0:2
+/
+00462ad1:0001:0001
+	s 10961000:9875000:0:3:70:2:0:1:2:0:2
+/
+00462b60:0001:ffff
+	s 11104000:9875000:0:3:70:2:0:1:2:0:2
+/
+00463105:0001:0001
+	s 12549000:9876000:0:3:70:2:0:1:2:0:2
+/
+00462af5:0001:0001
+	s 10997000:9875000:0:3:70:2:0:1:2:0:2
 /
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
@@ -4377,6 +4395,9 @@ ffce0000:006f:0110
 ffce0000:8800:217c
 	s 11016000:35300000:0:2:-50:2:0:1:2:0:2:9:131070:1
 /
+0dde0000:0001:217c
+	s 11179000:35300000:1:2:-50:2:0:1:2:0:2:4:131070:1
+/
 0dca0000:0005:0800
 	s 11766000:27500000:0:4:-70:2:0
 /
@@ -4718,6 +4739,9 @@ ffb0b10f:0000:0090
 /
 ffb0b102:0000:0000
 	s 12546000:4666000:1:3:-80:2:0:1:2:0:2
+/
+0dc0b117:0000:0000
+	s 12567000:7200000:1:3:-80:2:0:1:2:0:2
 /
 0da22ad0:0001:0000
 	s 10960000:1350000:1:4:-110:2:0
@@ -25382,15 +25406,6 @@ p:Service Provider,f:1
 0001:00d80000:1000:2000:1:0
 First_service
 p:Harmonic,f:1
-0001:00d8ad7c:0001:0001:1:0
-MediaCaster 24
-p:,f:1
-0101:00d8ad7c:0001:0001:1:0
-Resafa-5
-p:TV-Provider,f:1
-0002:00d8ad7c:0001:0001:2:0
-EMPC ENC 3
-p:
 0002:00d82d33:0001:ffff:25:0
 Default Service
 p:TANDBERG Television,f:1
@@ -25439,6 +25454,9 @@ p:IRAN PRESS,f:1
 0001:00d8acf9:0001:ffff:1:0
 TAST1
 p:EricssonTV,f:1
+0002:00d80000:0003:0008:1:0
+service-11
+p:,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -31082,12 +31100,12 @@ p:ProTV,f:1
 1db5:00a00000:145c:0005:1:0
 Pro Arena
 p:ProTV,f:1
-1db6:00a00000:145c:0005:1:0
-TEST 1
-p:ProTV,f:1
 1db7:00a00000:145c:0005:1:0
 ACasa Gold
 p:ProTV,f:1
+1dba:00a00000:145c:0005:1:0
+TEST HD
+p:PROTV,f:1
 53a3:00a00000:53a3:53a3:2:0
 QNL AMS
 p:BP QNL AMS
@@ -32263,6 +32281,30 @@ TVP Sport HD
 p:CANAL+,f:1
 3ad0:00820000:0514:013e:1:0
 TVP Sport HD
+p:CANAL+,f:1
+3a9a:00820000:0514:013e:1:0
+Novelas+
+p:CANAL+,f:1
+3aa0:00820000:0514:013e:1:0
+Canal+ Sport 3 HD Polska
+p:CANAL+,f:1
+3aa1:00820000:0514:013e:1:0
+Canal+ Sport 4 HD Polska
+p:CANAL+,f:1
+3acc:00820000:0514:013e:1:0
+Novelas+
+p:CANAL+,f:1
+3ad2:00820000:0514:013e:1:0
+Canal+ Sport 3 HD Polska
+p:CANAL+,f:1
+3ad3:00820000:0514:013e:1:0
+Canal+ Sport 4 HD Polska
+p:CANAL+,f:1
+3af0:00820000:0514:013e:1:0
+Canal+ Sport 3 HD Polska
+p:CANAL+,f:1
+3af1:00820000:0514:013e:1:0
+Canal+ Sport 4 HD Polska
 p:CANAL+,f:1
 0321:00820000:3bc4:013e:1:0
 Euronews English HD
@@ -34631,6 +34673,9 @@ p:,f:1
 0029:00820000:2f44:013e:1:0
 Jibek Joly
 p:iKO Media Group,f:1
+4236:00820000:2f44:013e:1:0
+Noursat English
+p:ViewMedia,f:1
 0065:00820000:1770:0110:2:0
 Radio R101
 p:Mediaset
@@ -34997,6 +35042,9 @@ p:CANAL+,f:1
 3dae:00820000:2c88:013e:2:0
 
 p:
+3d92:00820000:2c88:013e:1:0
+Kino Polska Muzyka
+p:CANAL+,f:1
 37af:00820000:044c:013e:25:0
 TeleToon+ HD
 p:nc+,f:1
@@ -37037,6 +37085,9 @@ p:Unnamed,f:1
 0001:00642b64:0001:0001:1:0
 Service 01
 p:Net 1,f:1
+0001:0064315a:0001:ffff:1:0
+Last line encoder
+p:Service Provider,f:1
 00d8:005a0000:14b4:009c:1:0
 Comedy Central
 p:Kabelkiosk,f:1
@@ -40190,9 +40241,6 @@ p:,f:1
 0001:0046ab04:4321:00eb:25:0
 IMG A EU
 p:CM5000,f:1
-0001:00462b60:4321:00eb:25:0
-Fi13_GNVE
-p:EBUER,f:1
 0001:00462b9b:0001:ffff:1:0
 Gryphon PV-2
 p:DTVi,f:1
@@ -40274,6 +40322,24 @@ p:beIN_Turkiye,f:1
 0001:0046310e:0000:0000:25:0
 E-95 main
 p:,f:1
+0001:00462ad1:0001:0001:1:0
+UKI027_A
+p:INA-CYPRUS,f:1
+0001:00462b60:0001:ffff:1:0
+TUR-034 M30 M
+p:Service Provider,f:1
+0006:00463105:0001:0001:1:0
+UK Queen Path 6
+p:EBUER,f:1
+0004:00463105:0001:0001:25:0
+UK Queen Path 4
+p:EBUER,f:1
+0005:00463105:0001:0001:25:0
+UK Queen Path 5
+p:EBUER,f:1
+0001:00462af5:0001:0001:25:0
+AUT34M M12
+p:SpeedyAUT34/1,f:1
 0fa0:00300000:0006:0056:1:0
 TV Chile
 p:Viasat,f:1
@@ -40322,21 +40388,6 @@ p:
 2328:00300000:0006:0056:129:0
 AMB OTA
 p:
-1964:00300000:000f:0055:2:0
-Emmanuel
-p:Svitle Radio
-1969:00300000:000f:0055:1:0
-New Christian
-p:(UNKNOWN),f:1
-1967:00300000:000f:0055:2:0
-radio nv
-p:TRK ERA
-1996:00300000:000f:0055:1:0
-Rozpakui
-p:,f:1
-19aa:00300000:000f:0055:1:0
-Svarogichi
-p:,f:1
 006e:00300000:000f:0055:1:0
 SRV_6E
 p:,f:1
@@ -41206,6 +41257,15 @@ Star Cinema
 p:1plus1 Media,f:1
 181d:00300000:000c:0055:22:0
 Star Family
+p:1plus1 Media,f:1
+182e:00300000:000c:0055:1:0
+Rozpakuy
+p:1plus1 Media,f:1
+1833:00300000:000c:0055:22:0
+Rozpakuy+
+p:1plus1 Media,f:1
+17f7:00300000:000c:0055:22:0
+24 Kanal
 p:1plus1 Media,f:1
 0005:00300000:00c9:0001:1:0
 Channel_5
@@ -48122,39 +48182,6 @@ p:towerCast_M
 03f5:ffce2cc5:0003:20fa:12:0
 DATASYSTEM R7
 p:CNH
-03e9:ffceabab:0001:013e:25:0
-Rai Sport + HD
-p:Rai,f:1
-03ea:ffceabab:0001:013e:22:0
-Rai Movie
-p:Rai,f:1
-03eb:ffceabab:0001:013e:1:0
-Rai 3
-p:Rai,f:1
-03ec:ffceabab:0001:013e:22:0
-Rai Gulp
-p:Rai,f:1
-03ed:ffceabab:0001:013e:22:0
-Rai Yoyo
-p:Rai,f:1
-03ee:ffceabab:0001:013e:22:0
-Rai Premium
-p:Rai,f:1
-03ef:ffceabab:0001:013e:22:0
-Rai Storia
-p:Rai,f:1
-0d49:ffceabab:0001:013e:1:0
-Rai 1
-p:Rai,f:1
-0d4a:ffceabab:0001:013e:1:0
-Rai 2
-p:Rai,f:1
-0d4b:ffceabab:0001:013e:1:0
-Rai 3
-p:Rai,f:1
-0d53:ffceabab:0001:013e:1:0
-Rai News 24
-p:Rai,f:1
 003c:ffce2b6d:0000:0000:100:0
 11117H SID 0x3c
 p:DVB-S 8PSK 11117H 355.0Â°E
@@ -48236,6 +48263,66 @@ p:Rai Way,f:1
 004f:ffce0000:8800:217c:1:0
 TRM H24
 p:Rai Way,f:1
+03f1:0dde0000:0001:217c:22:0
+Rai Radio 1
+p:Rai,f:1
+03f2:0dde0000:0001:217c:22:0
+Rai Radio 2
+p:Rai,f:1
+03f3:0dde0000:0001:217c:22:0
+Rai Radio 3
+p:Rai,f:1
+03f4:0dde0000:0001:217c:22:0
+Rai Gr Parlamento
+p:Rai,f:1
+03f5:0dde0000:0001:217c:22:0
+Rai Isoradio
+p:Rai,f:1
+03f6:0dde0000:0001:217c:22:0
+Rai Radio 3 Classica
+p:Rai,f:1
+03f7:0dde0000:0001:217c:22:0
+Rai Radio Kids
+p:Rai,f:1
+03f8:0dde0000:0001:217c:22:0
+Rai Radio Live
+p:Rai,f:1
+03f9:0dde0000:0001:217c:22:0
+Rai Radio Techete'
+p:Rai,f:1
+03fa:0dde0000:0001:217c:22:0
+Rai Radio Tutta Italiana
+p:Rai,f:1
+03fb:0dde0000:0001:217c:22:0
+Rai Radio 1 Sport
+p:Rai,f:1
+03fc:0dde0000:0001:217c:22:0
+Rai Radio 2 Indie
+p:Rai,f:1
+03fd:0dde0000:0001:217c:22:0
+Rai Radio 2 Visual Radio
+p:Rai,f:1
+03e9:0dde0000:0001:217c:25:0
+Rai Sport + HD
+p:Rai,f:1
+03ea:0dde0000:0001:217c:22:0
+Rai Movie
+p:Rai,f:1
+03eb:0dde0000:0001:217c:1:0
+Rai 3
+p:Rai,f:1
+03ec:0dde0000:0001:217c:22:0
+Rai Gulp
+p:Rai,f:1
+03ed:0dde0000:0001:217c:22:0
+Rai Yoyo
+p:Rai,f:1
+03ee:0dde0000:0001:217c:22:0
+Rai Premium
+p:Rai,f:1
+03ef:0dde0000:0001:217c:22:0
+Rai Storia
+p:Rai,f:1
 01f5:0dca0000:0005:0800:1:0
 Al Oula
 p:NILESAT,f:1
@@ -51776,6 +51863,9 @@ p:GLOBECAST,f:1
 0001:ffb0b102:0000:0000:25:0
 Studiosat HD2
 p:Studiosat,f:1
+0065:0dc0b117:0000:0000:25:0
+MEZZO
+p:CANAL+ KU3,f:1
 0002:0da22ad0:0001:0000:1:0
 Al-Sahat TV
 p:,f:1
@@ -54296,10 +54386,10 @@ p:TSA,f:1
 0af0:0ce40000:0006:0006:22:0
 RTPi 3
 p:TSA,f:1
-0014:0ce40000:0006:0006:25:0
+0bb9:0ce40000:0006:0006:25:0
 Promo TSA
 p:TSA,f:1
-0007:0ce40000:0006:0006:1:0
+0bb8:0ce40000:0006:0006:1:0
 Feeds 2
 p:TSA,f:1
 27ec:0ce40000:1450:22d4:1:0
