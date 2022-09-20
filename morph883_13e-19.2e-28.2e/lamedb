@@ -237,6 +237,15 @@ transponders
 011ab198:0001:ffff
 	s 12696000:7200000:1:3:282:2:0:1:2:0:2
 /
+011a30e0:0000:0001
+	s 12512000:7200000:0:3:282:2:0:1:2:0:2
+/
+011a30e9:0001:ffff
+	s 12521000:9860000:0:3:282:2:0:1:2:0:2
+/
+011a3161:00a0:00eb
+	s 12641000:7200000:0:3:282:2:0:1:2:0:2
+/
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
 /
@@ -387,9 +396,6 @@ transponders
 00c00000:03f7:0001
 	s 11420000:22000000:0:4:192:2:0
 /
-00c00000:0403:0001
-	s 11612000:22000000:0:4:192:2:0
-/
 00c00000:041c:0001
 	s 10758000:22000000:1:4:192:2:0
 /
@@ -474,9 +480,6 @@ transponders
 00c00000:0010:0085
 	s 11798000:27500000:0:9:192:2:0:1:1:0:0
 /
-00c00000:0406:0001
-	s 11656000:22000000:1:2:192:2:0:1:2:0:0
-/
 00c00000:0448:0001
 	s 12324000:29700000:1:2:192:2:0:1:2:1:2
 /
@@ -530,6 +533,9 @@ transponders
 /
 00c00000:0418:0001
 	s 11185000:22000000:1:2:192:2:0:1:2:0:2
+/
+00c00000:0001:0001
+	s 11612000:15000000:0:3:192:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -3383,6 +3389,15 @@ p:CCMA,f:1
 0001:011ab198:0001:ffff:1:0
 E385 Via 1 Overon
 p:Service Provider,f:1
+0001:011a30e0:0000:0001:25:0
+hillsboro domestic event bbc
+p:NEP,f:1
+0001:011a30e9:0001:ffff:1:0
+Hibs v Aberdeen Clean
+p:DIGISAT,f:1
+0001:011a3161:00a0:00eb:1:0
+E357 SAN TELMO 2
+p:ATM BROADCAST,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -4160,15 +4175,6 @@ p:GLOBECAST,f:1
 2753:00c00000:0402:0001:1:0
 Bloomberg Europe TV
 p:Arqiva,f:1
-2760:00c00000:0402:0001:1:0
-Sonlife Broadcasting Network
-p:SES ASTRA,f:1
-2762:00c00000:0402:0001:1:0
-Algerie 3
-p:TDA,f:1
-2763:00c00000:0402:0001:1:0
-Canal Algerie
-p:TDA,f:1
 14b4:00c00000:0407:0001:25:0
 Sat 1 HD Austria
 p:Austriasat,f:1
@@ -4284,13 +4290,13 @@ p:ARD Digital,f:1
 Sky Sport Top Event HD
 p:SKY,f:1
 0082:00c00000:0006:0085:25:0
-Discovery HD Deutschland
+Discovery HD
 p:SKY,f:1
 0083:00c00000:0006:0085:25:0
 Sky Cinema Premieren HD
 p:SKY,f:1
 0076:00c00000:0006:0085:25:0
-NatGeo Wild HD Germany
+NatGeo Wild HD
 p:SKY,f:1
 010b:00c00000:0006:0085:25:0
 Sky Sport Bundesliga 1 HD
@@ -4298,8 +4304,8 @@ p:SKY,f:1
 010c:00c00000:0006:0085:25:0
 Sky Sport 1 HD
 p:SKY,f:1
-0204:00c00000:0006:0085:22:0
-Sky Cinema Classics Germany
+0204:00c00000:0006:0085:25:0
+Sky Cinema Classics HD
 p:SKY,f:1
 000d:00c00000:0006:0085:25:0
 Sky Crime HD
@@ -5522,12 +5528,6 @@ p:BetaDigital,f:1
 1268:00c00000:03f7:0001:25:0
 .
 p:BetaDigital,f:1
-15e1:00c00000:0403:0001:22:0
-TV Rus
-p:BetaDigital,f:1
-1406:00c00000:0403:0001:1:0
-Kaufbei.tv
-p:SES,f:1
 749a:00c00000:041c:0001:1:0
 Divinity
 p:Movistar+,f:1
@@ -6377,8 +6377,8 @@ p:SKY,f:1
 0192:00c00000:0002:0085:22:0
 Crime + Investigation Germany
 p:SKY,f:1
-0008:00c00000:0003:0085:22:0
-Sky Cinema Fun Germany
+0008:00c00000:0003:0085:25:0
+Sky Cinema Fun HD
 p:SKY,f:1
 0fb8:00c00000:0003:0085:12:0
 Pace DS 830 NP
@@ -6461,24 +6461,6 @@ p:SKY,f:1
 0156:00c00000:0010:0085:25:0
 Sky Sport Austria 6 HD
 p:SKY,f:1
-1194:00c00000:0406:0001:25:0
-Sportdigital Fussball HD
-p:SES,f:1
-1195:00c00000:0406:0001:25:0
-Sport 1+ HD
-p:SES,f:1
-1196:00c00000:0406:0001:25:0
-eSport 1 HD
-p:SES,f:1
-1197:00c00000:0406:0001:25:0
-Edge Sport
-p:SES,f:1
-1198:00c00000:0406:0001:25:0
-Waidwerk
-p:SES,f:1
-119a:00c00000:0406:0001:25:0
-ClipMyHorse.TV
-p:SES,f:1
 21ae:00c00000:0448:0001:201:0
 MOSAIQUE
 p:CSAT,f:1
@@ -7199,6 +7181,18 @@ p:SES,f:1
 10d1:00c00000:0418:0001:25:0
 ClipMyHorse.TV
 p:SES,f:1
+0001:00c00000:0001:0001:1:0
+Enc 5 S/U 1
+p:,f:1
+0002:00c00000:0001:0001:1:0
+Enc 6 S/U 2
+p:,f:1
+0003:00c00000:0001:0001:1:0
+Enc 7 S/U 3
+p:,f:1
+0004:00c00000:0001:0001:1:0
+Enc 8 S/U 4
+p:,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -11117,14 +11111,14 @@ p:Rai
 0d7b:00820000:1450:013e:2:0
 Rai Radio Tutta Italiana
 p:Rai
-0d7c:00820000:1450:013e:2:0
-Rai OM Unica
+0d7c:00820000:1450:013e:10:0
+L’Ora della Venezia Giulia
 p:Rai
 0d7d:00820000:1450:013e:2:0
 Rai Radio1 Sport
 p:Rai
 0d7e:00820000:1450:013e:10:0
-Rai Radio Slovenia
+Rai Radio Trst A
 p:Rai
 0d4f:00820000:1450:013e:31:0
 Rai 4K

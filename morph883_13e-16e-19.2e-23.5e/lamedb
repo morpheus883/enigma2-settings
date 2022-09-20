@@ -81,9 +81,6 @@ transponders
 00eb3135:0001:ffff
 	s 12597000:14400000:1:3:235:2:0:1:2:0:2
 /
-00eb312f:0001:0001
-	s 12591000:7200000:1:3:235:2:0:1:2:0:2
-/
 00eb317f:0001:0001
 	s 12671000:7200000:0:3:235:2:0:1:2:0:2
 /
@@ -125,9 +122,6 @@ transponders
 /
 00eb3134:0002:ffff
 	s 12596000:4800000:1:3:235:2:0:1:2:0:2
-/
-00eb30f0:0001:ffff
-	s 12528000:3650000:1:3:235:2:0:1:2:0:2
 /
 00eb30f5:0001:ffff
 	s 12533000:3650000:1:3:235:2:0:1:2:0:2
@@ -267,10 +261,13 @@ transponders
 00eb2d7e:4321:0000
 	s 11646000:5000000:0:3:235:2:0:1:2:0:2
 /
-00eb0000:0020:00eb
-	s 12597000:14400000:1:3:235:2:0:1:2:0:2
+00ebacc9:0000:0000
+	s 11465000:4800000:1:3:235:2:0:1:2:0:2
 /
-00ebb12f:0000:0000
+00ebb0f0:0000:0001
+	s 12528000:7200000:1:3:235:2:0:1:2:0:2
+/
+00ebb12f:0001:ffff
 	s 12591000:7200000:1:3:235:2:0:1:2:0:2
 /
 00c00000:041a:0001
@@ -423,9 +420,6 @@ transponders
 00c00000:03f7:0001
 	s 11420000:22000000:0:4:192:2:0
 /
-00c00000:0403:0001
-	s 11612000:22000000:0:4:192:2:0
-/
 00c00000:041c:0001
 	s 10758000:22000000:1:4:192:2:0
 /
@@ -510,9 +504,6 @@ transponders
 00c00000:0010:0085
 	s 11798000:27500000:0:9:192:2:0:1:1:0:0
 /
-00c00000:0406:0001
-	s 11656000:22000000:1:2:192:2:0:1:2:0:0
-/
 00c00000:0448:0001
 	s 12324000:29700000:1:2:192:2:0:1:2:1:2
 /
@@ -566,6 +557,9 @@ transponders
 /
 00c00000:0418:0001
 	s 11185000:22000000:1:2:192:2:0:1:2:0:2
+/
+00c00000:0001:0001
+	s 11612000:15000000:0:3:192:2:0:1:2:0:2
 /
 00a00000:0001:0040
 	s 11512000:30000000:0:3:160:2:0:1:2:0:2
@@ -674,9 +668,6 @@ transponders
 /
 00a03157:0001:ffff
 	s 12631000:3615000:0:3:160:2:0
-/
-00a03107:0000:ffff
-	s 12551000:3166000:0:2:160:2:0:1:2:0:2
 /
 00a03108:0001:ffff
 	s 12552000:2815000:0:0:160:2:0
@@ -788,9 +779,6 @@ transponders
 /
 00a03115:0001:0001
 	s 12565000:3165000:0:2:160:2:0:1:2:0:2
-/
-00a0314a:0000:0001
-	s 12618000:7200000:0:3:160:2:0:1:2:0:2
 /
 00a031b4:0065:ffff
 	s 12724000:4100000:0:3:160:2:0:1:1:0:2
@@ -2741,9 +2729,6 @@ p:Net 1,f:1
 0001:00eb3134:0002:ffff:1:0
 rt1.tv
 p:rt1.tv,f:1
-0001:00eb30f0:0001:ffff:1:0
-Tower OB TX3
-p:BT TVOB,f:1
 0001:00eb30f5:0001:ffff:1:0
 Tower OB TX4
 p:BT TVOB,f:1
@@ -3491,9 +3476,15 @@ p:Swissnews.com,f:1
 0001:00eb2d7e:4321:0000:25:0
 Medialink CRO-023/1
 p:Media Link,f:1
-0001:00ebb12f:0000:0000:25:0
-ZDF 9 // D-414
-p:,f:1
+0001:00ebacc9:0000:0000:25:0
+D-103 Enc.1
+p:SNG D-103 Vahland TV,f:1
+0065:00ebb0f0:0000:0001:25:0
+St Annes G
+p:Digital Space,f:1
+0001:00ebb12f:0001:ffff:1:0
+RT-1 DSNG Enc1
+p:Service Provider,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -4271,15 +4262,6 @@ p:GLOBECAST,f:1
 2753:00c00000:0402:0001:1:0
 Bloomberg Europe TV
 p:Arqiva,f:1
-2760:00c00000:0402:0001:1:0
-Sonlife Broadcasting Network
-p:SES ASTRA,f:1
-2762:00c00000:0402:0001:1:0
-Algerie 3
-p:TDA,f:1
-2763:00c00000:0402:0001:1:0
-Canal Algerie
-p:TDA,f:1
 14b4:00c00000:0407:0001:25:0
 Sat 1 HD Austria
 p:Austriasat,f:1
@@ -4395,13 +4377,13 @@ p:ARD Digital,f:1
 Sky Sport Top Event HD
 p:SKY,f:1
 0082:00c00000:0006:0085:25:0
-Discovery HD Deutschland
+Discovery HD
 p:SKY,f:1
 0083:00c00000:0006:0085:25:0
 Sky Cinema Premieren HD
 p:SKY,f:1
 0076:00c00000:0006:0085:25:0
-NatGeo Wild HD Germany
+NatGeo Wild HD
 p:SKY,f:1
 010b:00c00000:0006:0085:25:0
 Sky Sport Bundesliga 1 HD
@@ -4409,8 +4391,8 @@ p:SKY,f:1
 010c:00c00000:0006:0085:25:0
 Sky Sport 1 HD
 p:SKY,f:1
-0204:00c00000:0006:0085:22:0
-Sky Cinema Classics Germany
+0204:00c00000:0006:0085:25:0
+Sky Cinema Classics HD
 p:SKY,f:1
 000d:00c00000:0006:0085:25:0
 Sky Crime HD
@@ -5633,12 +5615,6 @@ p:BetaDigital,f:1
 1268:00c00000:03f7:0001:25:0
 .
 p:BetaDigital,f:1
-15e1:00c00000:0403:0001:22:0
-TV Rus
-p:BetaDigital,f:1
-1406:00c00000:0403:0001:1:0
-Kaufbei.tv
-p:SES,f:1
 749a:00c00000:041c:0001:1:0
 Divinity
 p:Movistar+,f:1
@@ -6488,8 +6464,8 @@ p:SKY,f:1
 0192:00c00000:0002:0085:22:0
 Crime + Investigation Germany
 p:SKY,f:1
-0008:00c00000:0003:0085:22:0
-Sky Cinema Fun Germany
+0008:00c00000:0003:0085:25:0
+Sky Cinema Fun HD
 p:SKY,f:1
 0fb8:00c00000:0003:0085:12:0
 Pace DS 830 NP
@@ -6572,24 +6548,6 @@ p:SKY,f:1
 0156:00c00000:0010:0085:25:0
 Sky Sport Austria 6 HD
 p:SKY,f:1
-1194:00c00000:0406:0001:25:0
-Sportdigital Fussball HD
-p:SES,f:1
-1195:00c00000:0406:0001:25:0
-Sport 1+ HD
-p:SES,f:1
-1196:00c00000:0406:0001:25:0
-eSport 1 HD
-p:SES,f:1
-1197:00c00000:0406:0001:25:0
-Edge Sport
-p:SES,f:1
-1198:00c00000:0406:0001:25:0
-Waidwerk
-p:SES,f:1
-119a:00c00000:0406:0001:25:0
-ClipMyHorse.TV
-p:SES,f:1
 21ae:00c00000:0448:0001:201:0
 MOSAIQUE
 p:CSAT,f:1
@@ -7310,6 +7268,18 @@ p:SES,f:1
 10d1:00c00000:0418:0001:25:0
 ClipMyHorse.TV
 p:SES,f:1
+0001:00c00000:0001:0001:1:0
+Enc 5 S/U 1
+p:,f:1
+0002:00c00000:0001:0001:1:0
+Enc 6 S/U 2
+p:,f:1
+0003:00c00000:0001:0001:1:0
+Enc 7 S/U 3
+p:,f:1
+0004:00c00000:0001:0001:1:0
+Enc 8 S/U 4
+p:,f:1
 001e:00a00000:0001:0040:22:0
 National Geographic Croatia
 p:Max TV,f:1
@@ -9348,16 +9318,16 @@ p:H,f:1
 K3
 p:,f:1
 007c:00a02bfe:0001:016e:2:0
-RM Serbia SRB
+Radio Serbia
 p:
 007d:00a02bfe:0001:016e:2:0
-RM Serbia HU
+Radio Serbia HU
 p:
 007e:00a02bfe:0001:016e:2:0
-RM Romania RO
+Radio Romania
 p:
 007f:00a02bfe:0001:016e:2:0
-RM Romania HU
+Radio Romania Hu
 p:
 0080:00a02bfe:0001:016e:2:0
 RM Albania
@@ -9366,7 +9336,7 @@ p:
 RM BIH
 p:
 0082:00a02bfe:0001:016e:2:0
-RM Kosovo
+RM Armenia
 p:
 0084:00a02bfe:0001:016e:2:0
 RM Hungary
@@ -9380,6 +9350,12 @@ p:H,f:1
 0087:00a02bfe:0001:016e:22:1
 B1
 p:H,f:1
+0009:00a02bfe:0001:016e:2:0
+Radio Kalman
+p:
+000a:00a02bfe:0001:016e:2:0
+VIP Radio
+p:
 0001:00a031c3:00b0:00b1:1:0
 Realitatea Plus
 p:Scopus Network Technologies,f:1
@@ -13454,14 +13430,14 @@ p:Rai
 0d7b:00820000:1450:013e:2:0
 Rai Radio Tutta Italiana
 p:Rai
-0d7c:00820000:1450:013e:2:0
-Rai OM Unica
+0d7c:00820000:1450:013e:10:0
+L’Ora della Venezia Giulia
 p:Rai
 0d7d:00820000:1450:013e:2:0
 Rai Radio1 Sport
 p:Rai
 0d7e:00820000:1450:013e:10:0
-Rai Radio Slovenia
+Rai Radio Trst A
 p:Rai
 0d4f:00820000:1450:013e:31:0
 Rai 4K
