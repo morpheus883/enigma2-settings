@@ -228,23 +228,23 @@ transponders
 011ab11b:0001:ffff
 	s 12571000:7200000:1:3:282:2:0:1:2:0:2
 /
-011a3086:07f5:0000
-	s 12422000:27500000:0:2:282:2:0
-/
 011a3107:0002:ffff
 	s 12551000:5000000:0:4:282:2:0:1:2:0:2
 /
 011ab198:0001:ffff
 	s 12696000:7200000:1:3:282:2:0:1:2:0:2
 /
-011a30e0:0000:0001
-	s 12512000:7200000:0:3:282:2:0:1:2:0:2
-/
 011a30e9:0001:ffff
 	s 12521000:9860000:0:3:282:2:0:1:2:0:2
 /
 011a3161:00a0:00eb
 	s 12641000:7200000:0:3:282:2:0:1:2:0:2
+/
+011ab156:0001:ffff
+	s 12630000:7200000:1:3:282:2:0:1:2:0:2
+/
+011a30e0:0001:ffff
+	s 12512000:7200000:0:3:282:2:0:1:2:0:2
 /
 00eb0000:0c88:0003
 	s 11856000:29900000:1:2:235:2:0:1:2:0:0
@@ -486,9 +486,6 @@ transponders
 00ebb16c:0001:ffff
 	s 12652000:7200000:1:3:235:2:0:1:2:0:2
 /
-00ebb1c2:0000:0000
-	s 12738000:7200000:1:3:235:2:0:1:2:0:2
-/
 00eb0000:0001:00eb
 	s 11506000:15000000:0:3:235:2:0:1:2:0:2
 /
@@ -515,6 +512,9 @@ transponders
 /
 00ebb12f:0001:ffff
 	s 12591000:7200000:1:3:235:2:0:1:2:0:2
+/
+00ebb1c2:0001:ffff
+	s 12738000:7200000:1:3:235:2:0:1:2:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -2213,9 +2213,6 @@ p:BSkyB,f:1
 c6c6:011a0000:082a:0002:1:0
 XXX Mums
 p:BSkyB,f:1
-c6c3:011a0000:082a:0002:1:0
-KTV India
-p:BSkyB,f:1
 c6cb:011a0000:082a:0002:1:0
 Sangat TV
 p:BSkyB,f:1
@@ -3653,24 +3650,24 @@ p:ATM BROADCAST,f:1
 0001:011ab11b:0001:ffff:1:0
 LN23 8MM Via1
 p:8MM Producciones,f:1
-1a9b:011a3086:07f5:0000:1:0
-BBC Red Button 1
-p:BSkyB,f:1
 0002:011a3107:0002:ffff:1:0
 EDS806HD.2
 p:CCMA,f:1
 0001:011ab198:0001:ffff:1:0
 E385 Via 1 Overon
 p:Service Provider,f:1
-0001:011a30e0:0000:0001:25:0
-hillsboro domestic event bbc
-p:NEP,f:1
 0001:011a30e9:0001:ffff:1:0
 Hibs v Aberdeen Clean
 p:DIGISAT,f:1
 0001:011a3161:00a0:00eb:1:0
 E357 SAN TELMO 2
 p:ATM BROADCAST,f:1
+0001:011ab156:0001:ffff:1:0
+BTTC Back Up Silverstone
+p:Service Provider,f:1
+0001:011a30e0:0001:ffff:1:0
+E-351/G-22
+p:Service Provider,f:1
 1b6c:00eb0000:0c88:0003:25:0
 RTL 4 HD
 p:M7 Group,f:1
@@ -6077,9 +6074,6 @@ p:SLQ-005,f:1
 0001:00ebb16c:0001:ffff:1:0
 SNG
 p:ARD,f:1
-0001:00ebb1c2:0000:0000:25:0
-MCS-ST-D499
-p:,f:1
 0001:00eb0000:0001:00eb:25:0
 F374 path 2
 p:Zeppit,f:1
@@ -6107,6 +6101,9 @@ p:Digital Space,f:1
 0001:00ebb12f:0001:ffff:1:0
 RT-1 DSNG Enc1
 p:Service Provider,f:1
+0001:00ebb1c2:0001:ffff:1:0
+Medialiner
+p:D-202,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -11657,9 +11654,6 @@ p:Netmed,f:1
 3c95:00820000:1bbc:013e:1:0
 Nova Cinema 1 HD
 p:Netmed,f:1
-3c97:00820000:1bbc:013e:1:0
-Pvod_Service_1
-p:Syned,f:1
 3c96:00820000:1bbc:013e:1:0
 Novasports Prime HD
 p:Syned,f:1
@@ -11694,8 +11688,11 @@ p:Nova,f:1
 M4_TEST2
 p:Netmed,f:1
 3c92:00820000:1bbc:013e:1:0
-M4_TEST1
+TLC
 p:Netmed,f:1
+3c97:00820000:1bbc:013e:1:1
+E! Entertainment HD
+p:Syned,f:1
 1c22:00820000:1c20:013e:1:0
 TTN - Télévision Tunisienne Nationale
 p:Arabesque,f:1
@@ -11837,9 +11834,6 @@ p:NETMED
 0174:00820000:1c84:013e:2:0
 ÓÔÏ ÊÏÊÊÉÍÏ 105,5
 p:NetMed
-0169:00820000:1c84:013e:1:0
-Travel Channel HD
-p:NetMed,f:1
 0175:00820000:1c84:013e:1:0
 Action24
 p:NetMed,f:1
@@ -11904,7 +11898,7 @@ p:NetMed,f:1
 M2_TEST4
 p:NETMED,f:1
 0160:00820000:1c84:013e:1:0
-M2_TEST1
+Naftemporiki HD
 p:NetMed,f:1
 0172:00820000:1c84:013e:1:0
 M2_TEST5
@@ -11920,6 +11914,9 @@ M2_TEST8
 p:NetMed,f:1
 018a:00820000:1c84:013e:1:0
 M2_TEST9
+p:NetMed,f:1
+0169:00820000:1c84:013e:1:0
+NovaSportsExtra1HD
 p:NetMed,f:1
 1c86:00820000:1ce8:0071:1:0
 AXN White Poland
@@ -12920,9 +12917,6 @@ p:TVN,f:1
 1bc3:00820000:17d4:013e:1:0
 Mad Greekz
 p:NetMed,f:1
-1bbe:00820000:17d4:013e:1:0
-E! Entertainment TV
-p:NetMed,f:1
 1bbf:00820000:17d4:013e:1:0
 Viasat History
 p:NetMed,f:1
@@ -12994,6 +12988,9 @@ M3_TEST4
 p:NetMed,f:1
 1bc8:00820000:17d4:013e:1:0
 Epic Drama
+p:NetMed,f:1
+1bbe:00820000:17d4:013e:1:0
+NovaSportsExtra4HD
 p:NetMed,f:1
 0009:00820000:02bc:013e:1:0
 SonLife Broadcasting Network
@@ -13413,7 +13410,7 @@ p:CANAL+,f:1
 FilmBox Extra HD
 p:CANAL+,f:1
 3d60:00820000:2c88:013e:1:0
-Puls 2
+Kino Polska Muzyka
 p:CANAL+,f:1
 3d57:00820000:2c88:013e:1:0
 TVN 24 Bizness HD
