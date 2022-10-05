@@ -348,9 +348,6 @@ transponders
 00eb2cce:0002:ffff
 	s 11470000:7200000:1:3:235:2:0:1:2:0:2
 /
-00eb2d80:0001:0001
-	s 11648000:7200000:1:3:235:2:0:1:2:0:2
-/
 00eb31ae:0001:ffff
 	s 12718000:7200000:1:3:235:2:0:1:2:0:2
 /
@@ -513,11 +510,14 @@ transponders
 00ebb12f:0001:ffff
 	s 12591000:7200000:1:3:235:2:0:1:2:0:2
 /
-00ebb1c2:0001:ffff
-	s 12738000:7200000:1:3:235:2:0:1:2:0:2
-/
 00ebad65:0001:ffff
 	s 11621000:6900000:1:3:235:2:0:1:2:0:2
+/
+00ebad83:0000:0001
+	s 11651000:7200000:1:3:235:2:0:1:2:0:2
+/
+00ebb1c2:0001:0001
+	s 12738000:7200000:1:3:235:2:0:1:2:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -1730,6 +1730,12 @@ p:BSkyB,f:1
 0b28:011a0000:07f2:0002:25:0
 Eurosport 5 HD
 p:BSkyB,f:1
+1452:011a0000:07f2:0002:25:0
+Channel 4 South & East HD
+p:BSkyB,f:1
+1480:011a0000:07f2:0002:25:0
+Channel 4 Scotland HD
+p:BSkyB,f:1
 1e15:011a0000:0809:0002:1:0
 Channel 5 South Central
 p:BSkyB,f:1
@@ -2789,6 +2795,12 @@ p:BSkyB,f:1
 13e0:011a0000:07e8:0002:25:0
 CNBC HD
 p:BSkyB,f:1
+145d:011a0000:07e8:0002:25:0
+Channel 4 Midlands HD
+p:BSkyB,f:1
+1481:011a0000:07e8:0002:25:1
+Channel 4 North HD
+p:BSkyB,f:1
 cf9b:011a0000:083a:0002:25:0
 NHK World HD
 p:Freesat,f:1
@@ -3290,6 +3302,9 @@ p:BSkyB,f:1
 2669:011a0000:07f0:0002:31:0
 Ultra HD
 p:BSkyB,f:1
+048b:011a0000:07f0:0002:25:0
+1163
+p:BSkyB,C:0000,f:1
 1c27:011a0000:083b:0002:1:0
 Magic (UK)
 p:BSkyB,f:1
@@ -3496,6 +3511,9 @@ STV HD
 p:BSkyB,f:1
 1d4e:011a0000:07eb:0002:25:0
 ITV 1 Meridian East HD
+p:BSkyB,f:1
+147e:011a0000:07eb:0002:25:0
+Channel 4 Northern Ireland HD
 p:BSkyB,f:1
 0001:011a30db:0001:ffff:1:0
 EDS806HD.1
@@ -3926,8 +3944,8 @@ p:M7 Group,f:1
 339f:00eb0000:0c89:0003:25:0
 Markiza Krimi HD
 p:M7 Group,f:1
-33a0:00eb0000:0c89:0003:22:0
-JOJ 24
+33a0:00eb0000:0c89:0003:25:0
+JOJ 24 HD
 p:M7 Group,f:1
 1427:00eb0000:0ca2:0003:2:0
 VLNA ZS
@@ -5336,9 +5354,6 @@ p:diefernsehwerft,f:1
 0001:00eb2cce:0002:ffff:1:0
 MB_D409#1Berlin
 p:Media Broadcast,f:1
-0001:00eb2d80:0001:0001:1:0
-D 408 # 1_Vechta
-p:Media Broadcast,f:1
 0001:00eb31ae:0001:ffff:1:0
 SNG
 p:Television,f:1
@@ -6122,12 +6137,15 @@ p:Digital Space,f:1
 0001:00ebb12f:0001:ffff:1:0
 RT-1 DSNG Enc1
 p:Service Provider,f:1
-0001:00ebb1c2:0001:ffff:1:0
-Medialiner
-p:D-202,f:1
 0001:00ebad65:0001:ffff:1:0
 ATV-BUL-010
 p:atv Broadcast,f:1
+0001:00ebad83:0000:0001:25:0
+Duisburg
+p:Media Broadcast,f:1
+0001:00ebb1c2:0001:0001:25:0
+D-347 Bayreuth
+p:schawa tv GmbH,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -14278,6 +14296,9 @@ MS Motor TV
 p:,f:1
 064e:00820000:2454:013e:1:0
 MS Channel
+p:,f:1
+064b:00820000:2454:013e:1:0
+Church of Jesus Christ
 p:,f:1
 0079:00820000:04b0:0110:25:0
 Italia 1 HD

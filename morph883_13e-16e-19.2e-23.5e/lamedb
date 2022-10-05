@@ -102,9 +102,6 @@ transponders
 00eb2cce:0002:ffff
 	s 11470000:7200000:1:3:235:2:0:1:2:0:2
 /
-00eb2d80:0001:0001
-	s 11648000:7200000:1:3:235:2:0:1:2:0:2
-/
 00eb31ae:0001:ffff
 	s 12718000:7200000:1:3:235:2:0:1:2:0:2
 /
@@ -267,11 +264,14 @@ transponders
 00ebb12f:0001:ffff
 	s 12591000:7200000:1:3:235:2:0:1:2:0:2
 /
-00ebb1c2:0001:ffff
-	s 12738000:7200000:1:3:235:2:0:1:2:0:2
-/
 00ebad65:0001:ffff
 	s 11621000:6900000:1:3:235:2:0:1:2:0:2
+/
+00ebad83:0000:0001
+	s 11651000:7200000:1:3:235:2:0:1:2:0:2
+/
+00ebb1c2:0001:0001
+	s 12738000:7200000:1:3:235:2:0:1:2:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -1307,8 +1307,8 @@ p:M7 Group,f:1
 339f:00eb0000:0c89:0003:25:0
 Markiza Krimi HD
 p:M7 Group,f:1
-33a0:00eb0000:0c89:0003:22:0
-JOJ 24
+33a0:00eb0000:0c89:0003:25:0
+JOJ 24 HD
 p:M7 Group,f:1
 1427:00eb0000:0ca2:0003:2:0
 VLNA ZS
@@ -2717,9 +2717,6 @@ p:diefernsehwerft,f:1
 0001:00eb2cce:0002:ffff:1:0
 MB_D409#1Berlin
 p:Media Broadcast,f:1
-0001:00eb2d80:0001:0001:1:0
-D 408 # 1_Vechta
-p:Media Broadcast,f:1
 0001:00eb31ae:0001:ffff:1:0
 SNG
 p:Television,f:1
@@ -3503,12 +3500,15 @@ p:Digital Space,f:1
 0001:00ebb12f:0001:ffff:1:0
 RT-1 DSNG Enc1
 p:Service Provider,f:1
-0001:00ebb1c2:0001:ffff:1:0
-Medialiner
-p:D-202,f:1
 0001:00ebad65:0001:ffff:1:0
 ATV-BUL-010
 p:atv Broadcast,f:1
+0001:00ebad83:0000:0001:25:0
+Duisburg
+p:Media Broadcast,f:1
+0001:00ebb1c2:0001:0001:25:0
+D-347 Bayreuth
+p:schawa tv GmbH,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -13891,6 +13891,9 @@ MS Motor TV
 p:,f:1
 064e:00820000:2454:013e:1:0
 MS Channel
+p:,f:1
+064b:00820000:2454:013e:1:0
+Church of Jesus Christ
 p:,f:1
 0079:00820000:04b0:0110:25:0
 Italia 1 HD

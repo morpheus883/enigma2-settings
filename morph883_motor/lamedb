@@ -765,14 +765,14 @@ transponders
 01a4ab13:0001:ffff
 	s 11027000:5925000:1:4:420:2:0:1:2:0:2
 /
-01a4ad4d:0001:ffff
-	s 11597000:6200000:1:3:420:2:0:1:2:0:2
-/
 01a4acde:0001:ffff
 	s 11486000:6800000:1:3:420:2:0:1:2:0:2
 /
 01a4acd6:0000:0000
 	s 11478000:6800000:1:3:420:2:0:1:2:0:2
+/
+01a4ad4d:0000:0000
+	s 11597000:6200000:1:3:420:2:0:1:2:0:2
 /
 01860000:000d:001c
 	s 12524000:30000000:1:5:390:2:0
@@ -1878,9 +1878,6 @@ transponders
 00eb2cce:0002:ffff
 	s 11470000:7200000:1:3:235:2:0:1:2:0:2
 /
-00eb2d80:0001:0001
-	s 11648000:7200000:1:3:235:2:0:1:2:0:2
-/
 00eb31ae:0001:ffff
 	s 12718000:7200000:1:3:235:2:0:1:2:0:2
 /
@@ -2043,11 +2040,14 @@ transponders
 00ebb12f:0001:ffff
 	s 12591000:7200000:1:3:235:2:0:1:2:0:2
 /
-00ebb1c2:0001:ffff
-	s 12738000:7200000:1:3:235:2:0:1:2:0:2
-/
 00ebad65:0001:ffff
 	s 11621000:6900000:1:3:235:2:0:1:2:0:2
+/
+00ebad83:0000:0001
+	s 11651000:7200000:1:3:235:2:0:1:2:0:2
+/
+00ebb1c2:0001:0001
+	s 12738000:7200000:1:3:235:2:0:1:2:0:2
 /
 00d80000:0005:0001
 	s 11678000:2850000:1:5:216:2:0
@@ -6836,17 +6836,20 @@ p:ViewMedia,f:1
 0033:02ad3112:0001:0001:1:0
 Turning Point TV
 p:ViewMedia,f:1
+0015:02ad3112:0001:0001:1:0
+4WG TV
+p:ViewMedia,f:1
 0001:02ad0000:001a:0014:1:0
 Liberation TV
 p:ViewMedia,f:1
 0fa1:02ad0000:001a:0014:1:0
-FUS HENC004R
+FUS SENC 02
 p:INTELSAT,f:1
 0bb9:02ad0000:001a:0014:1:0
-FUS HENC004R
+FUS SENC 02
 p:INTELSAT,f:1
 07d1:02ad0000:001a:0014:1:0
-FUS HENC004R
+FUS SENC 02
 p:INTELSAT,f:1
 0002:02ad0000:001a:0014:1:0
 Dove Entertainment
@@ -10595,6 +10598,9 @@ p:GUC TELEKOM MEDYA
 3920:01a40000:a21d:042e:2:0
 POWERTURK FM
 p:GUC TELEKOM MEDYA
+392f:01a40000:a21d:042e:1:0
+World Turk
+p:GUC TELEKOM,f:1
 0001:01a42ee9:0001:ffff:1:0
 Turkmeneli HD
 p:TERT 2  TV,f:1
@@ -12536,12 +12542,6 @@ p:Digital Platform,f:1
 3cab:01a40000:c5a8:002a:129:0
 PID_86
 p:Digital Platform
-3cad:01a40000:c5a8:002a:129:0
-DVBSSU test 1
-p:Digital Platform
-3cae:01a40000:c5a8:002a:129:0
-DVBSSU 403
-p:Digital Platform
 3cb0:01a40000:c5a8:002a:129:0
 IRDETO-T3
 p:Digital Platform
@@ -12560,6 +12560,12 @@ p:Digital Platform
 3cb4:01a40000:c5a8:002a:129:0
 DVBSSU test 1
 p:Digital Platform
+3c99:01a40000:c5a8:002a:17:0
+beIN Sports 5 HD Turkey
+p:Digital Platform,f:1
+3c9a:01a40000:c5a8:002a:17:0
+Ticari beIN Sports 5 HD
+p:Digital Platform,f:1
 3bc4:01a40000:a415:042e:1:0
 TV8 HD
 p:TV8,f:1
@@ -12824,10 +12830,10 @@ p:Digital Platform,f:1
 426f:01a4ac01:78b5:002a:17:0
 BBC CBeebies HD
 p:Digital Platform,f:1
-4270:01a4ac01:78b5:002a:17:0
+4270:01a4ac01:78b5:002a:1:0
 France 24 HD (in English)
 p:Digital Platform,f:1
-4271:01a4ac01:78b5:002a:17:0
+4271:01a4ac01:78b5:002a:1:0
 TV5 Monde Europe HD
 p:Digital Platform,f:1
 4272:01a4ac01:78b5:002a:17:0
@@ -12864,13 +12870,7 @@ p:Digital Platform,f:1
 test_i3
 p:Digital Platform,f:1
 427d:01a4ac01:78b5:002a:17:0
-beIN Sports 5 HD Turkey
-p:Digital Platform,f:1
-427e:01a4ac01:78b5:002a:17:0
-Ticari beIN Sports 5 HD
-p:Digital Platform,f:1
-427f:01a4ac01:78b5:002a:17:0
-Taraftar 5
+BBC Earth HD
 p:Digital Platform,f:1
 0001:01a4ad56:0000:0001:25:0
 TUR 121-A
@@ -12881,14 +12881,14 @@ p:Service Provider,f:1
 0001:01a4ab13:0001:ffff:1:0
 TRT125A
 p:TRT,f:1
-0001:01a4ad4d:0001:ffff:1:0
-SNG MEDYA 1
-p:SNG MEDYA HD,f:1
 0001:01a4acde:0001:ffff:1:0
 TUR 137 A
 p:TRT,f:1
 0001:01a4acd6:0000:0000:25:0
 TUR-145-A
+p:,f:1
+0002:01a4ad4d:0000:0000:25:0
+TUR 141 - B
 p:,f:1
 0068:01860000:000d:001c:1:0
 Happy Channel
@@ -18281,6 +18281,12 @@ p:BSkyB,f:1
 0b28:011a0000:07f2:0002:25:0
 Eurosport 5 HD
 p:BSkyB,f:1
+1452:011a0000:07f2:0002:25:0
+Channel 4 South & East HD
+p:BSkyB,f:1
+1480:011a0000:07f2:0002:25:0
+Channel 4 Scotland HD
+p:BSkyB,f:1
 1e15:011a0000:0809:0002:1:0
 Channel 5 South Central
 p:BSkyB,f:1
@@ -19340,6 +19346,12 @@ p:BSkyB,f:1
 13e0:011a0000:07e8:0002:25:0
 CNBC HD
 p:BSkyB,f:1
+145d:011a0000:07e8:0002:25:0
+Channel 4 Midlands HD
+p:BSkyB,f:1
+1481:011a0000:07e8:0002:25:1
+Channel 4 North HD
+p:BSkyB,f:1
 cf9b:011a0000:083a:0002:25:0
 NHK World HD
 p:Freesat,f:1
@@ -19841,6 +19853,9 @@ p:BSkyB,f:1
 2669:011a0000:07f0:0002:31:0
 Ultra HD
 p:BSkyB,f:1
+048b:011a0000:07f0:0002:25:0
+1163
+p:BSkyB,C:0000,f:1
 1c27:011a0000:083b:0002:1:0
 Magic (UK)
 p:BSkyB,f:1
@@ -20047,6 +20062,9 @@ STV HD
 p:BSkyB,f:1
 1d4e:011a0000:07eb:0002:25:0
 ITV 1 Meridian East HD
+p:BSkyB,f:1
+147e:011a0000:07eb:0002:25:0
+Channel 4 Northern Ireland HD
 p:BSkyB,f:1
 0001:011a30db:0001:ffff:1:0
 EDS806HD.1
@@ -22883,8 +22901,8 @@ p:M7 Group,f:1
 339f:00eb0000:0c89:0003:25:0
 Markiza Krimi HD
 p:M7 Group,f:1
-33a0:00eb0000:0c89:0003:22:0
-JOJ 24
+33a0:00eb0000:0c89:0003:25:0
+JOJ 24 HD
 p:M7 Group,f:1
 1427:00eb0000:0ca2:0003:2:0
 VLNA ZS
@@ -24293,9 +24311,6 @@ p:diefernsehwerft,f:1
 0001:00eb2cce:0002:ffff:1:0
 MB_D409#1Berlin
 p:Media Broadcast,f:1
-0001:00eb2d80:0001:0001:1:0
-D 408 # 1_Vechta
-p:Media Broadcast,f:1
 0001:00eb31ae:0001:ffff:1:0
 SNG
 p:Television,f:1
@@ -25079,12 +25094,15 @@ p:Digital Space,f:1
 0001:00ebb12f:0001:ffff:1:0
 RT-1 DSNG Enc1
 p:Service Provider,f:1
-0001:00ebb1c2:0001:ffff:1:0
-Medialiner
-p:D-202,f:1
 0001:00ebad65:0001:ffff:1:0
 ATV-BUL-010
 p:atv Broadcast,f:1
+0001:00ebad83:0000:0001:25:0
+Duisburg
+p:Media Broadcast,f:1
+0001:00ebb1c2:0001:0001:25:0
+D-347 Bayreuth
+p:schawa tv GmbH,f:1
 0001:00d80000:0005:0001:1:0
 Alarabiy Alhadath
 p:Samacom,f:1
@@ -35852,6 +35870,9 @@ p:,f:1
 064e:00820000:2454:013e:1:0
 MS Channel
 p:,f:1
+064b:00820000:2454:013e:1:0
+Church of Jesus Christ
+p:,f:1
 0079:00820000:04b0:0110:25:0
 Italia 1 HD
 p:Mediaset,f:1
@@ -37151,12 +37172,12 @@ p:,f:1
 0002:00642ca5:0001:0001:25:0
 OVERON 2
 p:,f:1
-0003:00642ca5:0001:0001:25:0
-Eleven Pro League Int1 [S]
-p:Pxs,f:1
-0020:00642ca5:0001:0001:25:0
-LIGA SMARTBANK 2
-p:Imagine Communications,f:1
+0015:00642ca5:0001:0001:25:0
+SUPPONOR AFRICA 1
+p:OVERON,f:1
+0017:00642ca5:0001:0001:25:0
+SUPPONOR EASTERN 1
+p:OVERON,f:1
 0001:00643117:0001:0001:1:0
 YSM-013
 p:Net 1,f:1
@@ -38531,7 +38552,7 @@ p:Persidera,f:1
 0019:005a0000:7918:217c:25:0
 HGTV - Home&Garden HD
 p:Persidera,f:1
-001d:005a0000:7918:217c:1:0
+001d:005a0000:7918:217c:25:0
 NOVE
 p:Persidera,f:1
 000c:005a0000:7918:217c:2:0
@@ -38543,17 +38564,11 @@ p:Persidera,f:1
 0029:005a0000:7918:217c:25:0
 Deejay TV HD
 p:Persidera,f:1
-0032:005a0000:7918:217c:1:0
-La 9
-p:Persidera,f:1
 0002:005a0000:7918:217c:25:0
 Motor Trend HD
 p:Persidera,f:1
 003c:005a0000:7918:217c:25:0
 Canale 239
-p:Persidera,f:1
-0003:005a0000:7918:217c:1:0
-27Twentyseven (provvisorio)
 p:Persidera,f:1
 0046:005a0000:7918:217c:22:0
 Italia 53
@@ -38576,9 +38591,6 @@ p:Persidera
 000b:005a0000:7918:217c:2:2
 Radio m2o
 p:Persidera
-002d:005a0000:7918:217c:22:0
-Tele Moda
-p:Persidera,f:1
 0052:005a0000:7918:217c:22:0
 LineaGem
 p:Persidera,f:1
@@ -38605,6 +38617,30 @@ RDS Social TV
 p:Persidera,f:1
 0048:005a0000:7918:217c:22:0
 Italia 150
+p:Persidera,f:1
+0054:005a0000:7918:217c:22:0
+GOLD TV ITALIA
+p:Persidera,f:1
+0055:005a0000:7918:217c:22:0
+LA 4 ITALIA
+p:Persidera,f:1
+0056:005a0000:7918:217c:22:0
+CHANNEL 24
+p:Persidera,f:1
+0059:005a0000:7918:217c:22:0
+Canale 162
+p:Persidera,f:1
+005b:005a0000:7918:217c:22:0
+Fire TV
+p:Persidera,f:1
+005c:005a0000:7918:217c:22:0
+Radio Radio TV
+p:Persidera,f:1
+0057:005a0000:7918:217c:22:0
+Rete Italia
+p:Persidera,f:1
+0058:005a0000:7918:217c:22:0
+TV 153
 p:Persidera,f:1
 0010:005a0000:0204:001d:25:0
 Giallo HD
@@ -38666,32 +38702,14 @@ p:Persidera,f:1
 0018:005a0000:0204:001d:22:0
 GO-TV
 p:Persidera,f:1
-001b:005a0000:0204:001d:22:0
-GOLD TV ITALIA
-p:Persidera,f:1
-001c:005a0000:0204:001d:22:0
-LA 4 ITALIA
-p:Persidera,f:1
 001f:005a0000:0204:001d:22:0
 TCI
-p:Persidera,f:1
-0033:005a0000:0204:001d:22:0
-Radio Radio TV
 p:Persidera,f:1
 0034:005a0000:0204:001d:22:0
 SoloCalcio
 p:Persidera,f:1
 0035:005a0000:0204:001d:22:0
 Donna Sport TV
-p:Persidera,f:1
-0021:005a0000:0204:001d:22:0
-TV 153
-p:Persidera,f:1
-0020:005a0000:0204:001d:22:0
-Rete Italia
-p:Persidera,f:1
-0022:005a0000:0204:001d:22:0
-Canale 162
 p:Persidera,f:1
 0023:005a0000:0204:001d:22:0
 Inlinea TV
@@ -38705,9 +38723,6 @@ p:Persidera,f:1
 003b:005a0000:0204:001d:22:0
 WELCOME IN
 p:Persdiera,f:1
-0025:005a0000:0204:001d:22:0
-Fire TV
-p:Persidera,f:1
 001e:005a0000:0200:001d:22:0
 Boing Plus (provvisorio)
 p:Persidera,f:1
@@ -40901,19 +40916,22 @@ p:VIASAT,f:1
 09f3:00300000:0018:0044:31:0
 Setanta Sport +
 p:VIASAT,f:1
+09f5:00300000:0018:0044:22:0
+Рибалка (Rybalka)
+p:VIASAT,f:1
 0abe:00300000:001a:0044:25:0
 TV 1000 East HD
 p:VIASAT,f:1
-0ac8:00300000:001a:0044:1:0
+0ac8:00300000:001a:0044:22:0
 Playboy TV
 p:VIASAT,f:1
-0ad2:00300000:001a:0044:1:0
+0ad2:00300000:001a:0044:22:0
 Viasat Explorer
 p:VIASAT,f:1
 1090:00300000:001a:0044:25:0
 TV 1000 Action East
 p:VIASAT,f:1
-0afa:00300000:001a:0044:1:0
+0afa:00300000:001a:0044:22:0
 TV 1000 World Kino
 p:VIASAT,f:1
 0bd6:00300000:001a:0044:25:0
@@ -40925,22 +40943,16 @@ p:VIASAT,f:1
 107c:00300000:001a:0044:25:0
 ViP Comedy HD
 p:VIASAT,f:1
-1086:00300000:001a:0044:25:0
-Viasat Sport HD
-p:VIASAT,f:1
-0ab4:00300000:001a:0044:1:0
+0ab4:00300000:001a:0044:22:0
 Viasat Nature
 p:VIASAT,f:1
-0adc:00300000:001a:0044:1:0
+0adc:00300000:001a:0044:22:0
 Bolt
-p:VIASAT,f:1
-1068:00300000:001a:0044:25:0
-ViP Premiere HD
 p:VIASAT,f:1
 1072:00300000:001a:0044:25:0
 ViP Megahit HD
 p:VIASAT,f:1
-0a1e:00300000:001a:0044:22:0
+0a1e:00300000:001a:0044:25:0
 Viasat History
 p:VIASAT,f:1
 1059:00300000:001a:0044:22:0
@@ -48482,6 +48494,9 @@ p:Rai,f:1
 0d53:0dde0000:0001:217c:1:0
 Rai News 24
 p:Rai,f:1
+03fe:0dde0000:0001:217c:10:0
+Rai Radio 1
+p:Rai
 01f5:0dca0000:0005:0800:1:0
 Al Oula
 p:NILESAT,f:1
@@ -52903,16 +52918,16 @@ BBC One Wales
 p:BBC,c:000c1d,c:010c1e,c:030c1d,C:2600,f:5
 10bf:0cfd0000:1000:0001:1:0
 BBC Two England
-p:BBC,c:0000c9,c:0100ca,c:0300c9,f:5
+p:BBC,c:0000c9,c:0100ca,c:0300c9,C:2600,f:5
 1100:0cfd0000:1000:0001:1:0
 BBC News
-p:BBC,c:0001f5,c:0101f6,c:0301f5,f:5
+p:BBC,c:0001f5,c:0101f6,c:0301f5,C:2600,f:5
 11c0:0cfd0000:1000:0001:1:0
 BBC Four
 p:BBC,c:000191,c:010192,c:030191,C:2600,f:5
 1200:0cfd0000:1000:0001:1:0
 CBBC
-p:BBC,c:00012d,c:01012e,c:03012d,f:5
+p:BBC,c:00012d,c:01012e,c:03012d,C:2600,f:5
 1240:0cfd0000:1000:0001:1:0
 CBeebies
 p:BBC,c:000191,c:010192,c:030191,C:2600,f:5
@@ -53005,13 +53020,13 @@ CBBC HD
 p:BBC,c:001b59,c:011b5a,c:031b59,C:2600,f:5
 1c00:0cfd0000:1000:0001:1:0
 BBC Red Button 1
-p:BBC,c:000385,c:0103b7,c:030385,f:1
+p:BBC,c:000385,c:0103b7,c:030385,C:2600,f:5
 4540:0cfd0000:1000:0001:25:0
 Channel 5 HD
 p:BBC,c:001901,c:011902,c:031901,C:2600,f:5
 4680:0cfd0000:1000:0001:25:0
 BBC Four HD
-p:BBC,c:001db1,c:011db2,c:031db1,f:1
+p:BBC,c:001a2d,c:011a2e,c:031a2d,C:2600,f:5
 133c:0cfd0000:1000:0001:1:0
 BBC Scotland
 p:BBC,f:1
@@ -53020,25 +53035,25 @@ BBC Scotland HD
 p:BBC,f:1
 4ec0:0cfd0000:1000:0001:22:0
 TBN UK
-p:Governance Ministries,c:001edd,c:011ede,c:031edd,f:1
+p:Governance Ministries,c:001edd,c:011ede,c:031edd,C:2600,f:5
 4f20:0cfd0000:1000:0001:22:0
 5Select
-p:Channel 5 Broadcasting Ltd,c:001d4d,c:011d4e,c:031d4d,f:1
+p:Channel 5 Broadcasting Ltd,c:001d4d,c:011d4e,c:031d4d,C:2600,f:5
 10c0:0cfd0000:1000:0001:1:0
 BBC Three
-p:BBC,c:00012d,c:01012e,c:03012d,f:5
+p:BBC,c:00012d,c:01012e,c:03012d,C:2600,f:5
 19be:0cfd0000:1000:0001:2:0
 Radio Cymru 2
 p:BBC
 4600:0cfd0000:1000:0001:25:0
 BBC Three HD
-p:BBC,c:001b59,c:011b5a,c:031b59,f:1
-4580:0cfd0000:1000:0001:1:0
+p:BBC,c:001b59,c:011b5a,c:031b59,C:2600,f:5
+4580:0cfd0000:1000:0001:25:0
 S4C HD
-p:S4C,f:1
+p:BBC,f:1
 4700:0cfd0000:1000:0001:25:0
 CBeebies HD
-p:BBC,f:1
+p:BBC,c:001a2d,c:011a2e,c:031a2d,C:2600,f:5
 0065:0ce40000:0065:0053:1:0
 RTP 1
 p:Meo,f:1
@@ -54566,15 +54581,18 @@ p:TSA,f:1
 0af0:0ce40000:0006:0006:22:0
 RTPi 3
 p:TSA,f:1
-0bb9:0ce40000:0006:0006:25:0
-Promo TSA
-p:TSA,f:1
 0bb8:0ce40000:0006:0006:1:0
 Feeds 2
 p:TSA,f:1
 03e8:0ce40000:0006:0006:1:0
 Canal Parlamento
 p:TSA,f:1
+0c1c:0ce40000:0006:0006:1:0
+Feeds 3
+p:TSA,f:1
+0c80:0ce40000:0006:0006:2:0
+NAIZ irratia
+p:Qbit GmbH
 27ec:0ce40000:1450:22d4:1:0
 A7
 p:TPA,f:1

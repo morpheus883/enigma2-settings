@@ -225,14 +225,14 @@ transponders
 01a4ab13:0001:ffff
 	s 11027000:5925000:1:4:420:2:0:1:2:0:2
 /
-01a4ad4d:0001:ffff
-	s 11597000:6200000:1:3:420:2:0:1:2:0:2
-/
 01a4acde:0001:ffff
 	s 11486000:6800000:1:3:420:2:0:1:2:0:2
 /
 01a4acd6:0000:0000
 	s 11478000:6800000:1:3:420:2:0:1:2:0:2
+/
+01a4ad4d:0000:0000
+	s 11597000:6200000:1:3:420:2:0:1:2:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -971,6 +971,9 @@ p:GUC TELEKOM MEDYA
 3920:01a40000:a21d:042e:2:0
 POWERTURK FM
 p:GUC TELEKOM MEDYA
+392f:01a40000:a21d:042e:1:0
+World Turk
+p:GUC TELEKOM,f:1
 0001:01a42ee9:0001:ffff:1:0
 Turkmeneli HD
 p:TERT 2  TV,f:1
@@ -2912,12 +2915,6 @@ p:Digital Platform,f:1
 3cab:01a40000:c5a8:002a:129:0
 PID_86
 p:Digital Platform
-3cad:01a40000:c5a8:002a:129:0
-DVBSSU test 1
-p:Digital Platform
-3cae:01a40000:c5a8:002a:129:0
-DVBSSU 403
-p:Digital Platform
 3cb0:01a40000:c5a8:002a:129:0
 IRDETO-T3
 p:Digital Platform
@@ -2936,6 +2933,12 @@ p:Digital Platform
 3cb4:01a40000:c5a8:002a:129:0
 DVBSSU test 1
 p:Digital Platform
+3c99:01a40000:c5a8:002a:17:0
+beIN Sports 5 HD Turkey
+p:Digital Platform,f:1
+3c9a:01a40000:c5a8:002a:17:0
+Ticari beIN Sports 5 HD
+p:Digital Platform,f:1
 3bc4:01a40000:a415:042e:1:0
 TV8 HD
 p:TV8,f:1
@@ -3200,10 +3203,10 @@ p:Digital Platform,f:1
 426f:01a4ac01:78b5:002a:17:0
 BBC CBeebies HD
 p:Digital Platform,f:1
-4270:01a4ac01:78b5:002a:17:0
+4270:01a4ac01:78b5:002a:1:0
 France 24 HD (in English)
 p:Digital Platform,f:1
-4271:01a4ac01:78b5:002a:17:0
+4271:01a4ac01:78b5:002a:1:0
 TV5 Monde Europe HD
 p:Digital Platform,f:1
 4272:01a4ac01:78b5:002a:17:0
@@ -3240,13 +3243,7 @@ p:Digital Platform,f:1
 test_i3
 p:Digital Platform,f:1
 427d:01a4ac01:78b5:002a:17:0
-beIN Sports 5 HD Turkey
-p:Digital Platform,f:1
-427e:01a4ac01:78b5:002a:17:0
-Ticari beIN Sports 5 HD
-p:Digital Platform,f:1
-427f:01a4ac01:78b5:002a:17:0
-Taraftar 5
+BBC Earth HD
 p:Digital Platform,f:1
 0001:01a4ad56:0000:0001:25:0
 TUR 121-A
@@ -3257,14 +3254,14 @@ p:Service Provider,f:1
 0001:01a4ab13:0001:ffff:1:0
 TRT125A
 p:TRT,f:1
-0001:01a4ad4d:0001:ffff:1:0
-SNG MEDYA 1
-p:SNG MEDYA HD,f:1
 0001:01a4acde:0001:ffff:1:0
 TUR 137 A
 p:TRT,f:1
 0001:01a4acd6:0000:0000:25:0
 TUR-145-A
+p:,f:1
+0002:01a4ad4d:0000:0000:25:0
+TUR 141 - B
 p:,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
@@ -11416,6 +11413,9 @@ MS Motor TV
 p:,f:1
 064e:00820000:2454:013e:1:0
 MS Channel
+p:,f:1
+064b:00820000:2454:013e:1:0
+Church of Jesus Christ
 p:,f:1
 0079:00820000:04b0:0110:25:0
 Italia 1 HD
