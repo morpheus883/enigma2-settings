@@ -234,11 +234,11 @@ transponders
 01a4ad56:0001:ffff
 	s 11606000:6200000:1:3:420:2:0:1:2:0:2
 /
-01a4acd6:0000:0001
+01a4acd6:0001:ffff
 	s 11478000:6800000:1:3:420:2:0:1:2:0:2
 /
-01a4acd6:0000:0000
-	s 11478000:6800000:1:3:420:2:0:1:2:0:2
+01a42ae8:0001:ffff
+	s 10984000:5000000:0:4:420:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -375,9 +375,6 @@ transponders
 00820000:17d4:013e
 	s 11938000:27500000:0:3:130:2:0:1:2:0:2
 /
-00820000:02bc:013e
-	s 11334000:27500000:0:3:130:2:0
-/
 00820000:2f44:013e
 	s 10930000:30000000:0:2:130:2:0:1:2:0:2
 /
@@ -498,11 +495,14 @@ transponders
 0082ac35:2454:013e
 	s 11317000:27500000:1:3:130:2:0:1:2:0:2
 /
-00820000:0321:013e
-	s 11355000:27500000:1:1:130:2:0:1:1:0:2
-/
 00820000:1770:00be
 	s 11919000:29900000:1:3:130:2:0:1:2:2:2
+/
+00820000:0064:013e
+	s 11219000:27500000:0:1:130:2:0:1:1:0:2
+/
+00820000:238c:013e
+	s 12539000:30000000:0:4:130:2:0:1:2:2:2
 /
 end
 services
@@ -544,6 +544,18 @@ Kackar TV
 p:TURKSAT,f:1
 c80b:01a40000:a3ae:042e:2:0
 POLIS RADYOSU
+p:TURKSAT
+c811:01a40000:a3ae:042e:2:0
+KUPE FM
+p:TURKSAT
+c812:01a40000:a3ae:042e:2:0
+RADYO TRAFIK MARMARA
+p:TURKSAT
+c813:01a40000:a3ae:042e:2:0
+RADYO SPOR
+p:TURKSAT
+c814:01a40000:a3ae:042e:2:0
+RADYOBILIM
 p:TURKSAT
 c48a:01a40000:a476:042e:128:0
 TKGS DATA
@@ -676,9 +688,6 @@ Diyar TV
 p:GUC TELEKOM MEDYA,f:1
 3932:01a40000:a21d:042e:1:0
 Kanal 58
-p:GUC TELEKOM MEDYA,f:1
-392b:01a40000:a21d:042e:1:0
-Ilke TV
 p:GUC TELEKOM MEDYA,f:1
 3935:01a40000:a21d:042e:1:0
 Kanal 12
@@ -2945,9 +2954,12 @@ p:ERCSN,f:1
 0001:01a4ad56:0001:ffff:1:0
 TUR 125A
 p:TRT,f:1
-0001:01a4acd6:0000:0000:25:0
-TUR-146-A
-p:,f:1
+0001:01a4acd6:0001:ffff:1:0
+TUR 137 A
+p:TRT,f:1
+0001:01a42ae8:0001:ffff:1:0
+E363_A
+p:Service Provider,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -3047,25 +3059,25 @@ p:CANAL+,f:1
 0db2:00820000:2d50:013e:1:0
 Playboy HD
 p:CANAL+,f:1
-0001:00820000:2e18:00b0:25:0
+0001:00820000:2e18:00b0:1:0
 Al Maghribia HD
 p:SNRT,f:1
-0002:00820000:2e18:00b0:25:0
+0002:00820000:2e18:00b0:1:0
 Al Aoula Laayoune
 p:SNRT,f:1
-0004:00820000:2e18:00b0:25:0
+0004:00820000:2e18:00b0:1:0
 Athaqafia HD
 p:SNRT,f:1
 0005:00820000:2e18:00b0:1:0
 Al Aoula Inter
 p:SNRT,f:1
-0006:00820000:2e18:00b0:25:0
+0006:00820000:2e18:00b0:1:0
 Assadissa HD
 p:SNRT,f:1
-000a:00820000:2e18:00b0:25:0
+000a:00820000:2e18:00b0:1:0
 Arryadia HD
 p:SNRT,f:1
-00f1:00820000:2e18:00b0:25:0
+00f1:00820000:2e18:00b0:1:0
 Tamazight HD
 p:SNRT,f:1
 000b:00820000:2e18:00b0:2:0
@@ -3092,9 +3104,6 @@ p:SNRT
 00b3:00820000:2e18:00b0:2:0
 Marrakech
 p:SNRT
-2b2a:00820000:2e18:00b0:2:0
-Agadir
-p:SNRT
 003c:00820000:2e18:00b0:2:0
 Houceima
 p:SNRT
@@ -3104,7 +3113,7 @@ p:SNRT
 0050:00820000:2e18:00b0:2:0
 Meknes
 p:SNRT
-0003:00820000:2e18:00b0:25:0
+0003:00820000:2e18:00b0:1:0
 Al Aoula Inter HD
 p:SNRT,f:1
 0035:00820000:2e18:00b0:2:0
@@ -3119,6 +3128,9 @@ p:SNRT
 005b:00820000:2e18:00b0:2:0
 Dakhla
 p:SNRT
+0032:00820000:2e18:00b0:2:0
+Agadir
+p:SNRT
 3e1d:00820000:2ee0:013e:1:0
 Sundance HD
 p:Cyfrowy Polsat S.A.,f:1
@@ -3131,7 +3143,7 @@ p:Cyfrowy Polsat S.A.,f:1
 3e25:00820000:2ee0:013e:1:0
 Eurosport HD
 p:Cyfrowy Polsat S.A.,f:1
-3e27:00820000:2ee0:013e:1:0
+3e3a:00820000:2ee0:013e:1:0
 Lifetime HD
 p:Cyfrowy Polsat S.A.,f:1
 3e22:00820000:2ee0:013e:1:0
@@ -3166,9 +3178,6 @@ Polsat Sport Premium PPV4
 p:Cyfrowy Polsat S.A.,f:1
 3e30:00820000:2ee0:013e:1:0
 Cyfrowy Polsat PPV
-p:Cyfrowy Polsat S.A.,f:1
-3e3a:00820000:2ee0:013e:1:0
-TestL
 p:Cyfrowy Polsat S.A.,f:1
 4331:00820000:300c:013e:25:0
 SRF 1 HD
@@ -3464,9 +3473,6 @@ p:Harmonic,f:1
 1366:00820000:33f4:013e:1:0
 Canale Italia 2
 p:Telespazio,f:1
-1365:00820000:33f4:013e:2:0
-Radio Dimensione Stereo
-p:Telespazio
 132e:00820000:33f4:013e:1:0
 Sender Neu Jerusalem
 p:Telespazio,f:1
@@ -3543,7 +3549,7 @@ p:nc+,f:1
 MiniMini+ HD
 p:CYFRA+,f:1
 32f0:00820000:0190:013e:1:0
-CANAL+ PREMIUM HD
+Canal+ Premium HD
 p:nc+,f:1
 32fc:00820000:0190:013e:1:0
 Canal+ Sport HD
@@ -5913,7 +5919,7 @@ p:TVN,f:1
 Metro HD
 p:TVN,f:1
 3ded:00820000:0640:013e:1:0
-TVN 24 HD_
+TVN 24 HD
 p:TVN,f:1
 1bc3:00820000:17d4:013e:1:0
 Mad Greekz
@@ -5993,21 +5999,6 @@ p:NetMed,f:1
 1bbe:00820000:17d4:013e:1:0
 NovaSportsExtra4HD
 p:NetMed,f:1
-0009:00820000:02bc:013e:1:0
-SonLife Broadcasting Network
-p:ARQIVA,f:1
-0004:00820000:02bc:013e:1:0
-Armenia 1 TV
-p:Globecast,f:1
-0011:00820000:02bc:013e:1:0
-HotBird 4K1
-p:,f:1
-0003:00820000:02bc:013e:1:0
-Kentron TV
-p:iKO Media Group,f:1
-03e9:00820000:02bc:013e:1:0
-Vidrodjennya
-p:Harmonic,f:1
 4205:00820000:2f44:013e:1:0
 Dorcel TV HD
 p:AB Sat,f:1
@@ -6165,7 +6156,7 @@ p:CANAL+
 Kino Polska HD
 p:CANAL+,f:1
 1424:00820000:05dc:013e:1:0
-KINO POLSKA HD
+Kino Polska HD
 p:CANAL+,f:1
 1425:00820000:05dc:013e:1:0
 Eleven Sports 1 HD
@@ -6491,9 +6482,6 @@ p:Cyfra +,f:1
 3780:00820000:044c:013e:25:0
 Motowizja HD
 p:nc+,f:1
-3783:00820000:044c:013e:25:0
-Novelas+
-p:CANAL+,f:1
 3784:00820000:044c:013e:25:0
 TeenNick
 p:CANAL+,f:1
@@ -6548,6 +6536,9 @@ p:CANAL+
 3799:00820000:044c:013e:2:0
 Radio Contact
 p:CANAL+
+377c:00820000:044c:013e:25:0
+StudioMed TV HD
+p:CANAL+,f:1
 11fb:00820000:2b5c:013e:1:0
 TravelXP 4K
 p:,f:1
@@ -8090,15 +8081,15 @@ p:MIT-xperts GmbH,f:1
 0641:0082ac35:2454:013e:25:0
 Al Jazeera HD
 p:EUTELSAT,f:1
-05de:00820000:0321:013e:1:0
-Iran International HD
-p:Volant Media,f:1
-05dd:00820000:0321:013e:25:0
-BBC Persian HD
-p:BBC World Service,f:1
 006e:00820000:1770:00be:2:0
 Radiolina
 p:
+0899:00820000:0064:013e:25:0
+BBC Persian HD
+p:BBC World Service,f:1
+089a:00820000:0064:013e:1:0
+Iran International HD
+p:Volant Media,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2022
