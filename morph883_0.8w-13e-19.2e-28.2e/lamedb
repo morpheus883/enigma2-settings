@@ -552,6 +552,9 @@ transponders
 00c00000:042a:0001
 	s 11739000:27500000:1:3:192:2:0
 /
+00c02d55:0001:ffff
+	s 11605000:9874000:0:3:192:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -813,9 +816,6 @@ transponders
 00820000:0064:013e
 	s 11219000:27500000:0:1:130:2:0:1:1:0:2
 /
-00820000:238c:013e
-	s 12539000:30000000:0:4:130:2:0:1:2:2:2
-/
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
 /
@@ -1020,9 +1020,6 @@ transponders
 0e080000:0af7:00bb
 	s 12563000:28800000:0:7:-8:2:0:1:0:0:2
 /
-0e082cd2:0001:0001
-	s 11474000:3200000:1:4:-8:2:0:1:2:0:2
-/
 0e080000:0047:0046
 	s 10716000:25000000:0:3:-8:2:0:1:2:1:2
 /
@@ -1056,9 +1053,6 @@ transponders
 0e080000:000c:000a
 	s 12687000:28800000:1:7:-8:2:0:1:1:0:2
 /
-0e082d0e:0001:0001
-	s 11534000:3200000:1:4:-8:2:0:1:2:0:2
-/
 0e082d12:0001:0001
 	s 11538000:3200000:1:4:-8:2:0:1:2:0:2
 /
@@ -1071,15 +1065,6 @@ transponders
 0e0830de:00a0:0000
 	s 12510000:2600000:1:4:-8:2:0:1:2:0:2
 /
-0e080000:0065:0065
-	s 12541000:6651000:1:3:-8:2:0:1:2:0:2
-/
-0e082cf7:0001:0001
-	s 11511000:3600000:1:3:-8:2:0:1:2:0:2
-/
-fff8acf3:0001:ffff
-	s 11507000:3200000:1:4:-8:2:0:1:2:0:2
-/
 0e08ad00:0001:ffff
 	s 11520000:7200000:1:3:-8:2:0:1:2:0:2
 /
@@ -1089,17 +1074,17 @@ fff830bc:0050:0046
 fff8306f:004b:0046
 	s 12399000:30000000:0:2:-8:2:0:1:2:1:2
 /
-0e08ace8:0000:0001
-	s 11496000:3600000:1:3:-8:2:0:1:2:0:2
+fff8ace8:0000:0001
+	s 11496000:7200000:1:3:-8:2:0:1:2:0:2
 /
 0e08aced:0000:0001
 	s 11501000:3600000:1:3:-8:2:0:1:2:0:2
 /
-fff8acf9:0000:0000
-	s 11513000:15000000:1:3:-8:2:0:1:2:0:2
-/
 0e080000:0055:0046
 	s 12322000:30000000:0:3:-8:2:0:1:2:1:2
+/
+0e08acf9:0001:0001
+	s 11513000:15000000:1:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -3653,9 +3638,6 @@ p:BSkyB,f:1
 d12f:011a0000:0832:0002:1:0
 ArisePlay
 p:BSkyB,f:1
-0001:011ab126:0001:ffff:1:0
-UKI-1493 Hamilton Races REV2
-p:Service Provider,f:1
 0001:011a30f7:0000:0000:25:0
 Salford v Castleford sat dr
 p:,f:1
@@ -3725,18 +3707,6 @@ p:Service Provider,f:1
 0001:011a30e0:0001:ffff:1:0
 E-351/G-22
 p:Service Provider,f:1
-184d:011a0000:07ea:0002:1:0
-Premier Sports
-p:BSkyB,f:1
-184e:011a0000:07ea:0002:1:0
-Premier Sports
-p:BSkyB,f:1
-184f:011a0000:07ea:0002:1:0
-Premier Sports
-p:BSkyB,f:1
-1850:011a0000:07ea:0002:1:0
-Premier Sports
-p:BSkyB,f:1
 02bc:011a0000:07ea:0002:130:0
 Sports Active
 p:BSkyB,f:1
@@ -7538,6 +7508,9 @@ p:Service Provider,f:1
 17d5:00c00000:042a:0001:1:0
 CNN Int.
 p:SES ASTRA,f:1
+0001:00c02d55:0001:ffff:1:0
+SUI-067 MAIN
+p:In Aria X,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -8053,6 +8026,9 @@ Canale Italia 2
 p:Telespazio,f:1
 132e:00820000:33f4:013e:1:0
 Sender Neu Jerusalem
+p:Telespazio,f:1
+1384:00820000:33f4:013e:1:0
+Solo Calcio
 p:Telespazio,f:1
 366a:00820000:00c8:013e:1:0
 Noviy Mir
@@ -10253,18 +10229,6 @@ p:Bis,f:1
 01a1:00820000:26ac:013f:1:0
 CStar
 p:Eutelsat,f:1
-0457:00820000:26ac:013f:12:0
-Neotion Update Service
-p:AB Sat
-045e:00820000:26ac:013f:12:0
-Neotion Update Service
-p:AB Sat
-0461:00820000:26ac:013f:12:0
-Neotion Update Service
-p:AB Sat
-0464:00820000:26ac:013f:12:0
-Neotion Update Service
-p:AB Sat
 01a3:00820000:26ac:013f:1:0
 franceinfo
 p:Eutelsat,f:1
@@ -11509,6 +11473,24 @@ p:CANAL+,f:1
 p:CANAL+,f:1
 1137:00820000:2af8:013e:1:0
 Motowizja HD
+p:CANAL+,f:1
+1133:00820000:2af8:013e:1:0
+BBC FIRST
+p:CANAL+,f:1
+1134:00820000:2af8:013e:1:0
+BBC Earth HD
+p:CANAL+,f:1
+1165:00820000:2af8:013e:1:0
+BBC FIRST
+p:CANAL+,f:1
+1166:00820000:2af8:013e:1:0
+BBC Earth HD
+p:CANAL+,f:1
+1183:00820000:2af8:013e:1:0
+BBC First
+p:CANAL+,f:1
+1184:00820000:2af8:013e:1:0
+BBC Earth HD
 p:CANAL+,f:1
 1315:00820000:2e7c:013e:1:0
 Eurosport 2 HD
@@ -12962,12 +12944,6 @@ p:Telenor,f:1
 1c01:0e080000:0003:0046:25:0
 VGTV HD
 p:Telenor,f:1
-06b9:0e080000:0003:0046:2:0
-DR P2
-p:Telenor
-06bb:0e080000:0003:0046:2:0
-DR P1
-p:Telenor
 06ca:0e080000:0003:0046:10:0
 Bandit Classics
 p:Telenor
@@ -15569,9 +15545,6 @@ p:Slovak Telekom,f:1
 1b68:0e080000:0af7:00bb:25:0
 JOJ 24 HD
 p:Slovak Telekom,f:1
-0003:0e082cd2:0001:0001:25:0
-UKI 1934 Coder 1
-p:STV West,f:1
 1c67:0e080000:0047:0046:25:0
 TV 2 Sport HD
 p:Telenor,f:1
@@ -15842,9 +15815,6 @@ p:,f:1
 007b:0e080000:000c:000a:1:0
 4K-HERiTAGE
 p:iChannel LTD,f:1
-0003:0e082d0e:0001:0001:25:0
-UKI 1934 Coder 1
-p:STV West,f:1
 0003:0e082d12:0001:0001:25:0
 UKI 1934 Coder 1
 p:STV West,f:1
@@ -15923,15 +15893,6 @@ p:Telenor,C:0000,f:1
 0001:0e0830de:00a0:0000:1:0
 Napoli H264
 p:EPQ,f:1
-0065:0e080000:0065:0065:1:0
-B 101 DGI
-p:RCS-RDS BUCURESTI,f:1
-0001:0e082cf7:0001:0001:1:0
-K75R1
-p:MobileLinks,f:1
-0001:fff8acf3:0001:ffff:1:0
-E387 PATH2
-p:Service Provider,f:1
 0001:0e08ad00:0001:ffff:1:0
 DNK83_ENC1
 p:Service Provider,f:1
@@ -15941,15 +15902,12 @@ p:Telenor,f:1
 32d0:fff8306f:004b:0046:22:0
 Test 13008
 p:Telenor,C:0000,f:1
-0001:0e08ace8:0000:0001:25:0
+0001:fff8ace8:0000:0001:25:0
 DNK-ORE2
 p:DR MCR,f:1
 0001:0e08aced:0000:0001:25:0
 DNK-ORE 05
 p:DR MCR,f:1
-0001:fff8acf9:0000:0000:0:0
-PFL PGM SNG2 TX2
-p:
 2332:0e080000:0055:0046:25:0
 TS Sports 11
 p:Telenor,f:1
@@ -15965,6 +15923,9 @@ p:Telenor,f:1
 2336:0e080000:0055:0046:25:0
 TS Sports 15
 p:Telenor,f:1
+0001:0e08acf9:0001:0001:25:0
+South Shields Revrse
+p:GBBBC,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2022

@@ -270,9 +270,6 @@ transponders
 00820000:0064:013e
 	s 11219000:27500000:0:1:130:2:0:1:1:0:2
 /
-00820000:238c:013e
-	s 12539000:30000000:0:4:130:2:0:1:2:2:2
-/
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
 /
@@ -309,9 +306,6 @@ transponders
 00300000:00c9:0055
 	s 11785000:27500000:1:4:48:2:0:1:2:0:2
 /
-00303191:0001:ffff
-	s 12689000:7200000:1:3:48:2:0:1:2:0:2
-/
 00300000:00ca:0055
 	s 11958000:27500000:0:4:48:2:0:1:2:0:2
 /
@@ -330,12 +324,6 @@ transponders
 00300000:00c9:0001
 	s 11727000:27500000:0:3:48:2:0
 /
-00303130:0000:0000
-	s 12592000:3255000:0:3:48:2:0
-/
-00303136:0000:0000
-	s 12598000:3255000:0:3:48:2:0
-/
 0030312f:0001:ffff
 	s 12591000:2000000:0:7:48:2:0:1:2:0:2
 /
@@ -347,9 +335,6 @@ transponders
 /
 0030313a:0001:ffff
 	s 12602000:2400000:0:3:48:2:0:1:1:0:2
-/
-0030318f:0001:ffff
-	s 12687000:2000000:1:7:48:2:0:1:2:0:2
 /
 end
 services
@@ -940,6 +925,9 @@ Canale Italia 2
 p:Telespazio,f:1
 132e:00820000:33f4:013e:1:0
 Sender Neu Jerusalem
+p:Telespazio,f:1
+1384:00820000:33f4:013e:1:0
+Solo Calcio
 p:Telespazio,f:1
 366a:00820000:00c8:013e:1:0
 Noviy Mir
@@ -3140,18 +3128,6 @@ p:Bis,f:1
 01a1:00820000:26ac:013f:1:0
 CStar
 p:Eutelsat,f:1
-0457:00820000:26ac:013f:12:0
-Neotion Update Service
-p:AB Sat
-045e:00820000:26ac:013f:12:0
-Neotion Update Service
-p:AB Sat
-0461:00820000:26ac:013f:12:0
-Neotion Update Service
-p:AB Sat
-0464:00820000:26ac:013f:12:0
-Neotion Update Service
-p:AB Sat
 01a3:00820000:26ac:013f:1:0
 franceinfo
 p:Eutelsat,f:1
@@ -4396,6 +4372,24 @@ p:CANAL+,f:1
 p:CANAL+,f:1
 1137:00820000:2af8:013e:1:0
 Motowizja HD
+p:CANAL+,f:1
+1133:00820000:2af8:013e:1:0
+BBC FIRST
+p:CANAL+,f:1
+1134:00820000:2af8:013e:1:0
+BBC Earth HD
+p:CANAL+,f:1
+1165:00820000:2af8:013e:1:0
+BBC FIRST
+p:CANAL+,f:1
+1166:00820000:2af8:013e:1:0
+BBC Earth HD
+p:CANAL+,f:1
+1183:00820000:2af8:013e:1:0
+BBC First
+p:CANAL+,f:1
+1184:00820000:2af8:013e:1:0
+BBC Earth HD
 p:CANAL+,f:1
 1315:00820000:2e7c:013e:1:0
 Eurosport 2 HD
@@ -5816,6 +5810,9 @@ p:,f:1
 02fe:00300000:0065:0001:1:0
 Temp LTV1
 p:,f:1
+0095:00300000:0065:0001:1:0
+Boyles Test
+p:,f:1
 1b44:00300000:0011:0055:1:0
 Espreso TV
 p:,f:1
@@ -6182,9 +6179,6 @@ p:TV3 Group,f:1
 27ec:00300000:00c9:0055:1:0
 Duo 3 (SONY)
 p:TV3 Group,f:1
-0001:00303191:0001:ffff:1:0
-POL-098_PATH-1
-p:Telecast 1,f:1
 28c8:00300000:00ca:0055:1:0
 NBA TV
 p:TV3 Group,f:1
@@ -6521,12 +6515,6 @@ p:SIS Limited,f:1
 00fa:00300000:00c9:0001:1:0
 SISTwo BarOne
 p:SIS,f:1
-0001:00303130:0000:0000:25:0
-Telecity Encoder 1
-p:MX1,f:1
-0001:00303136:0000:0000:1:0
-ENC-RR14
-p:SES,f:1
 0001:0030312f:0001:ffff:1:0
 CNN Old St 2
 p:Service Provider,f:1
@@ -6539,12 +6527,6 @@ p:HDPROTEK,f:1
 0001:0030313a:0001:ffff:1:0
 CNN Old St 1
 p:Service Provider,f:1
-1a18:0030318f:0001:ffff:1:0
-1+1 International
-p:1+1 International,f:1
-1a04:0030318f:0001:ffff:1:0
-UA Pershiy
-p:Hiltron GmbH,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2022

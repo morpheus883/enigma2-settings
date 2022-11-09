@@ -303,6 +303,9 @@ transponders
 00c00000:042a:0001
 	s 11739000:27500000:1:3:192:2:0
 /
+00c02d55:0001:ffff
+	s 11605000:9874000:0:3:192:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -564,9 +567,6 @@ transponders
 00820000:0064:013e
 	s 11219000:27500000:0:1:130:2:0:1:1:0:2
 /
-00820000:238c:013e
-	s 12539000:30000000:0:4:130:2:0:1:2:2:2
-/
 0ce40000:0065:0053
 	s 12130000:27500000:0:3:-300:2:0:1:2:0:2
 /
@@ -651,9 +651,6 @@ fed4b0e7:0001:0001
 0ce4b17f:ea61:0000
 	s 12671000:30000000:1:3:-300:2:0:1:2:2:2
 /
-0ce431a2:0441:0000
-	s 12706000:12000000:0:0:-300:2:0:1:1:0:2
-/
 0ce42f2e:0001:ffff
 	s 12078000:7500000:1:3:-300:2:0:1:2:0:2
 /
@@ -698,6 +695,9 @@ fed4aede:0001:ffff
 /
 0ce42abb:0000:0002
 	s 10939000:15000000:0:3:-300:2:0:1:2:2:2
+/
+fed4acee:ea7c:0000
+	s 11502000:10200000:1:3:-300:2:0:1:2:2:2
 /
 end
 services
@@ -4490,6 +4490,9 @@ p:Service Provider,f:1
 17d5:00c00000:042a:0001:1:0
 CNN Int.
 p:SES ASTRA,f:1
+0001:00c02d55:0001:ffff:1:0
+SUI-067 MAIN
+p:In Aria X,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -5005,6 +5008,9 @@ Canale Italia 2
 p:Telespazio,f:1
 132e:00820000:33f4:013e:1:0
 Sender Neu Jerusalem
+p:Telespazio,f:1
+1384:00820000:33f4:013e:1:0
+Solo Calcio
 p:Telespazio,f:1
 366a:00820000:00c8:013e:1:0
 Noviy Mir
@@ -7205,18 +7211,6 @@ p:Bis,f:1
 01a1:00820000:26ac:013f:1:0
 CStar
 p:Eutelsat,f:1
-0457:00820000:26ac:013f:12:0
-Neotion Update Service
-p:AB Sat
-045e:00820000:26ac:013f:12:0
-Neotion Update Service
-p:AB Sat
-0461:00820000:26ac:013f:12:0
-Neotion Update Service
-p:AB Sat
-0464:00820000:26ac:013f:12:0
-Neotion Update Service
-p:AB Sat
 01a3:00820000:26ac:013f:1:0
 franceinfo
 p:Eutelsat,f:1
@@ -8461,6 +8455,24 @@ p:CANAL+,f:1
 p:CANAL+,f:1
 1137:00820000:2af8:013e:1:0
 Motowizja HD
+p:CANAL+,f:1
+1133:00820000:2af8:013e:1:0
+BBC FIRST
+p:CANAL+,f:1
+1134:00820000:2af8:013e:1:0
+BBC Earth HD
+p:CANAL+,f:1
+1165:00820000:2af8:013e:1:0
+BBC FIRST
+p:CANAL+,f:1
+1166:00820000:2af8:013e:1:0
+BBC Earth HD
+p:CANAL+,f:1
+1183:00820000:2af8:013e:1:0
+BBC First
+p:CANAL+,f:1
+1184:00820000:2af8:013e:1:0
+BBC Earth HD
 p:CANAL+,f:1
 1315:00820000:2e7c:013e:1:0
 Eurosport 2 HD
@@ -11495,18 +11507,6 @@ p:DVB-S2 8PSK 12671V 330.0Â°E
 fffe:0ce4b17f:ea61:0000:100:0
 12671V SID 0xfffe
 p:DVB-S2 8PSK 12671V 330.0Â°E
-5014:0ce431a2:0441:0000:100:0
-AOL
-p:
-5015:0ce431a2:0441:0000:100:0
-AOL
-p:
-9c40:0ce431a2:0441:0000:100:0
-AOL
-p:
-9c41:0ce431a2:0441:0000:100:0
-AOL
-p:
 0001:0ce42f2e:0001:ffff:1:0
 G 13 E/275 VIA 1
 p:Service Provider,f:1
@@ -11591,9 +11591,9 @@ p:M-Three Satcom,f:1
 0001:fed4aee9:0001:ffff:1:0
 E-414 M
 p:Service Provider,f:1
-0001:fed4aede:0001:ffff:1:0
-E-401 V1
-p:Net 1,f:1
+0011:fed4aede:0001:ffff:1:0
+E415 Via1
+p:Service Provider,f:1
 0001:0ce4aeec:0000:0000:25:0
 E-467 via 1
 p:overon,f:1
@@ -11603,6 +11603,12 @@ p:TSA,f:1
 0007:0ce42abb:0000:0002:25:0
 Promo TSA
 p:TSA,f:1
+0709:fed4acee:ea7c:0000:100:0
+11502V SID 0x709
+p:DVB-S2 8PSK 11502V 330.0Â°E
+0709:fed4acee:ea7c:0000:1:0
+Abertis PID DTT
+p:Abertis DTT,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2022

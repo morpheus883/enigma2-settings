@@ -231,9 +231,6 @@ transponders
 00eb3189:0001:0001
 	s 12681000:4936000:0:3:235:2:0:1:2:0:2
 /
-00eb0000:0001:00eb
-	s 11506000:15000000:0:3:235:2:0:1:2:0:2
-/
 00ebb198:4321:00eb
 	s 12696000:4800000:1:3:235:2:0:1:2:0:2
 /
@@ -272,6 +269,9 @@ transponders
 /
 00ebb16c:0000:0000
 	s 12652000:7200000:1:3:235:2:0:1:2:0:2
+/
+00eb2cf2:0000:0000
+	s 11506000:14250000:0:3:235:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -533,9 +533,6 @@ transponders
 /
 00820000:0064:013e
 	s 11219000:27500000:0:1:130:2:0:1:1:0:2
-/
-00820000:238c:013e
-	s 12539000:30000000:0:4:130:2:0:1:2:2:2
 /
 end
 services
@@ -1595,27 +1592,12 @@ p:Telekom Srbija,f:1
 4e6f:00eb0000:0c8b:0003:1:0
 RTS Klasika
 p:Telekom Srbija,f:1
-50dc:00eb0000:0c8b:0003:12:0
-STB SSU
-p:Telekom Srbija
-50e7:00eb0000:0c8b:0003:12:0
-NG SSU
-p:
 4e2c:00eb0000:0c8b:0003:1:0
 Superstar 2 TV HD
 p:Telekom Srbija,f:1
 4ea3:00eb0000:0c8b:0003:1:0
 Dox TV
 p:Telekom Srbija,f:1
-50de:00eb0000:0c8b:0003:12:0
-GM SRB SSU
-p:
-50df:00eb0000:0c8b:0003:12:0
-GM BIH SSU
-p:
-50e0:00eb0000:0c8b:0003:12:0
-GM CG SSU
-p:
 4ec4:00eb0000:0c8b:0003:1:0
 Blic TV HD
 p:Telekom Srbija,f:1
@@ -2891,24 +2873,12 @@ p:
 0001:00eb3149:0001:ffff:1:0
 D405 Koeln 3.BL
 p:Service Provider,f:1
-0001:00eb30e1:0001:ffff:1:0
-RTSH SNG HD
-p:RTSH SNG HD,f:1
 0001:00eb30f1:0000:0000:25:0
 E380 PATH1
 p:,f:1
-0001:00eb30f9:0000:0001:25:0
-E412 v1
-p:Overon,f:1
-002c:00eb3140:0001:ffff:1:0
-PREMER SP0RT
-p:UKI 1889,f:1
-0001:00eb30e9:0001:0001:1:0
-Newport
-p:Net 1,f:1
-0001:00eb2ce1:0001:ffff:1:0
-rt1.tv
-p:rt1.tv,f:1
+0001:00eb2ce1:0001:ffff:25:0
+WPA D-331 SCF - FCB
+p:WPA D-331 SCF - FCB,f:1
 0001:00ebad78:0001:ffff:1:0
 AUT-038 WFLWR S-TV Feed National
 p:remotion,f:1
@@ -2933,18 +2903,12 @@ p:
 0001:00eb3189:0001:0001:25:0
 Pohreb KE
 p:SLQ-005,f:1
-0001:00eb0000:0001:00eb:25:0
-F374 path 2
-p:Zeppit,f:1
 0001:00ebb198:4321:00eb:1:0
 Betamobil D-123 Path1
 p:BETAMOBIL,f:1
 0001:00ebb140:0001:ffff:1:0
 STA HD 1
 p:SATELLITE TEAM ALBANIA,f:1
-0001:00eb2d08:0001:0001:25:0
-SUI-44-2
-p:Swissnews.com,f:1
 0001:00eb2cff:0001:0001:25:0
 SUI-44-1
 p:Swissnews.com,f:1
@@ -2975,6 +2939,9 @@ p:Overon,f:1
 0001:00ebb16c:0000:0000:25:0
 MMG-D185 HD Encoder 1
 p:,f:1
+0001:00eb2cf2:0000:0000:1:0
+Rasai Beo
+p:Digisat,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -3490,6 +3457,9 @@ Canale Italia 2
 p:Telespazio,f:1
 132e:00820000:33f4:013e:1:0
 Sender Neu Jerusalem
+p:Telespazio,f:1
+1384:00820000:33f4:013e:1:0
+Solo Calcio
 p:Telespazio,f:1
 366a:00820000:00c8:013e:1:0
 Noviy Mir
@@ -5690,18 +5660,6 @@ p:Bis,f:1
 01a1:00820000:26ac:013f:1:0
 CStar
 p:Eutelsat,f:1
-0457:00820000:26ac:013f:12:0
-Neotion Update Service
-p:AB Sat
-045e:00820000:26ac:013f:12:0
-Neotion Update Service
-p:AB Sat
-0461:00820000:26ac:013f:12:0
-Neotion Update Service
-p:AB Sat
-0464:00820000:26ac:013f:12:0
-Neotion Update Service
-p:AB Sat
 01a3:00820000:26ac:013f:1:0
 franceinfo
 p:Eutelsat,f:1
@@ -6946,6 +6904,24 @@ p:CANAL+,f:1
 p:CANAL+,f:1
 1137:00820000:2af8:013e:1:0
 Motowizja HD
+p:CANAL+,f:1
+1133:00820000:2af8:013e:1:0
+BBC FIRST
+p:CANAL+,f:1
+1134:00820000:2af8:013e:1:0
+BBC Earth HD
+p:CANAL+,f:1
+1165:00820000:2af8:013e:1:0
+BBC FIRST
+p:CANAL+,f:1
+1166:00820000:2af8:013e:1:0
+BBC Earth HD
+p:CANAL+,f:1
+1183:00820000:2af8:013e:1:0
+BBC First
+p:CANAL+,f:1
+1184:00820000:2af8:013e:1:0
+BBC Earth HD
 p:CANAL+,f:1
 1315:00820000:2e7c:013e:1:0
 Eurosport 2 HD
