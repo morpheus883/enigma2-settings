@@ -270,6 +270,9 @@ transponders
 00820000:0064:013e
 	s 11219000:27500000:0:1:130:2:0:1:1:0:2
 /
+00823095:21fc:0000
+	s 12437000:27500000:0:3:130:2:0:1:2:0:2
+/
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
 /
@@ -404,9 +407,6 @@ transponders
 /
 0e080000:02c5:0600
 	s 12265000:28000000:1:5:-8:2:0
-/
-0e080000:0002:005e
-	s 12303000:27500000:1:4:-8:2:0:1:2:0:2
 /
 0e080000:0014:0046
 	s 12418000:28000000:1:5:-8:2:0
@@ -4619,9 +4619,6 @@ p:nc+,f:1
 1171:00820000:2af8:013e:31:0
 CANAL+ 4K ULTRA HD
 p:nc+,f:1
-113c:00820000:2af8:013e:1:0
-Active Family
-p:nc+,f:1
 1190:00820000:2af8:013e:1:0
 NETFLIX
 p:CANAL+,f:1
@@ -4660,6 +4657,12 @@ BBC First
 p:CANAL+,f:1
 1184:00820000:2af8:013e:1:0
 BBC Earth HD
+p:CANAL+,f:1
+113a:00820000:2af8:013e:1:0
+SportKlub HD
+p:CANAL+,f:1
+113b:00820000:2af8:013e:1:0
+FightKlub HD
 p:CANAL+,f:1
 1315:00820000:2e7c:013e:1:0
 Eurosport 2 HD
@@ -5819,6 +5822,84 @@ p:BBC World Service,f:1
 089a:00820000:0064:013e:1:0
 Iran International HD
 p:Volant Media,f:1
+0001:00823095:21fc:0000:1:0
+MTV Live HD
+p:Cyfrowy Polsat S.A.,f:1
+0002:00823095:21fc:0000:1:0
+Nick Music
+p:Cyfrowy Polsat S.A.,f:1
+0003:00823095:21fc:0000:1:0
+Nick Jr
+p:Cyfrowy Polsat S.A.,f:1
+0008:00823095:21fc:0000:1:0
+MTV 00s
+p:Cyfrowy Polsat S.A.,f:1
+0009:00823095:21fc:0000:1:0
+Nickelodeon
+p:Cyfrowy Polsat S.A.,f:1
+000c:00823095:21fc:0000:1:0
+Comedy Central HD
+p:Cyfrowy Polsat S.A.,f:1
+000d:00823095:21fc:0000:1:0
+Paramount Network Polska
+p:Cyfrowy Polsat S.A.,f:1
+000e:00823095:21fc:0000:1:0
+Nicktoons HD
+p:Cyfrowy Polsat S.A.,f:1
+000f:00823095:21fc:0000:1:0
+MTV Polska HD
+p:Cyfrowy Polsat S.A.,f:1
+0010:00823095:21fc:0000:1:0
+Polsat Comedy Central Extra
+p:Cyfrowy Polsat S.A.,f:1
+0011:00823095:21fc:0000:1:0
+Nickelodeon Ukraine Pluto TV
+p:Cyfrowy Polsat S.A.,f:1
+0015:00823095:21fc:0000:1:0
+
+p:Cyfrowy Polsat S.A.,f:1
+0019:00823095:21fc:0000:1:0
+MTV Commercial
+p:Cyfrowy Polsat S.A.,f:1
+0020:00823095:21fc:0000:1:0
+Comedy Central HD
+p:Cyfrowy Polsat S.A.,f:1
+0021:00823095:21fc:0000:1:0
+Paramount Network Polska
+p:Cyfrowy Polsat S.A.,f:1
+0023:00823095:21fc:0000:1:0
+
+p:Cyfrowy Polsat S.A.,f:1
+003c:00823095:21fc:0000:1:0
+VOD 202
+p:Cyfrowy Polsat S.A.,f:1
+003d:00823095:21fc:0000:1:0
+VOD 203
+p:Cyfrowy Polsat S.A.,f:1
+003e:00823095:21fc:0000:1:0
+VOD 204
+p:Cyfrowy Polsat S.A.,f:1
+003f:00823095:21fc:0000:1:0
+VOD 205
+p:Cyfrowy Polsat S.A.,f:1
+0040:00823095:21fc:0000:1:0
+VOD 206
+p:Cyfrowy Polsat S.A.,f:1
+0041:00823095:21fc:0000:1:0
+VOD 207
+p:Cyfrowy Polsat S.A.,f:1
+0042:00823095:21fc:0000:1:0
+VOD 208
+p:Cyfrowy Polsat S.A.,f:1
+0045:00823095:21fc:0000:1:0
+Nicktoons HD
+p:Cyfrowy Polsat S.A.,f:1
+0043:00823095:21fc:0000:1:0
+xxxVOD1
+p:Cyfrowy Polsat S.A.,f:1
+0044:00823095:21fc:0000:1:0
+xxxVOD2
+p:Cyfrowy Polsat S.A.,f:1
 0fa0:00300000:0006:0056:1:0
 TV Chile
 p:Viasat,f:1
@@ -6123,7 +6204,7 @@ p:
 Emmanuel
 p:Svitle Radio
 1afe:00300000:0011:0055:1:0
-Rozpakui
+Rozpakuy TV
 p:,f:1
 1af8:00300000:0011:0055:2:0
 radio nv
@@ -6296,6 +6377,9 @@ p:VIASAT,f:1
 1051:00300000:001a:0044:31:0
 Setanta Sport
 p:VIASAT,c:050007,f:1
+1065:00300000:001a:0044:31:0
+Суспільне Спорт (Suspilne Sport)
+p:VIASAT,f:1
 5014:003030a8:0441:0000:100:0
 AOL
 p:DVB-S2 QPSK 12456H 4.8Â°E
@@ -6729,7 +6813,7 @@ p:1plus1 Media,f:1
 Star Family
 p:1plus1 Media,f:1
 182e:00300000:000c:0055:1:0
-Rozpakuy
+Rozpakuy TV
 p:1plus1 Media,f:1
 17f7:00300000:000c:0055:22:0
 24 Kanal
@@ -7458,7 +7542,7 @@ p:M7,f:1
 Sport 1 HD CZ
 p:M7,f:1
 791b:0e080000:02c6:0600:25:0
-RTL+ HD
+RTL Harom HD
 p:M7,f:1
 0401:0e080000:000c:0001:1:0
 Music Channel
@@ -7985,72 +8069,6 @@ p:M7,f:1
 78d8:0e080000:02c5:0600:1:0
 Mezzo
 p:M7,f:1
-0514:0e080000:0002:005e:1:0
-Discovery Historia Polska
-p:,f:1
-0a28:0e080000:0002:005e:1:0
-Animal Planet HD
-p:,f:1
-0a2a:0e080000:0002:005e:1:0
-Animal Planet HD Russian
-p:,f:1
-0a2b:0e080000:0002:005e:1:0
-Animal Planet HD Czech
-p:,f:1
-0a2c:0e080000:0002:005e:1:0
-Animal Planet HD Turkish
-p:,f:1
-0a2d:0e080000:0002:005e:1:0
-Animal Planet HD Hungarian
-p:,f:1
-0af0:0e080000:0002:005e:1:0
-Discovery Poland HD
-p:,f:1
-0c80:0e080000:0002:005e:1:0
-Discovery Science Europe HD
-p:,f:1
-0c81:0e080000:0002:005e:1:0
-Science Europe HD Hungarian
-p:,f:1
-0c82:0e080000:0002:005e:1:0
-Science Europe HD Turkish
-p:,f:1
-0c83:0e080000:0002:005e:1:0
-Science Europe HD Russian
-p:,f:1
-0c84:0e080000:0002:005e:1:0
-Science Europe HD Czech
-p:,f:1
-0bb8:0e080000:0002:005e:1:0
-DTX HD
-p:,f:1
-0a2e:0e080000:0002:005e:1:0
-Animal Planet HD
-p:,f:1
-0a8c:0e080000:0002:005e:1:0
-ID Xtra Europe HD
-p:,f:1
-0a8d:0e080000:0002:005e:1:0
-ID Xtra Europe HD
-p:,f:1
-0bb9:0e080000:0002:005e:1:0
-DTX
-p:,f:1
-0c85:0e080000:0002:005e:1:0
-Science Europe HD
-p:,f:1
-0a8e:0e080000:0002:005e:1:0
-ID Xtra Europe HD
-p:,f:1
-0bba:0e080000:0002:005e:1:0
-DTX
-p:,f:1
-08fc:0e080000:0002:005e:1:0
-DTX
-p:,f:1
-0384:0e080000:0002:005e:1:0
-Discovery Hungary HD
-p:,f:1
 0207:0e080000:0014:0046:25:0
 CGTN HD
 p:Telenor,f:1
@@ -8877,7 +8895,7 @@ p:Focus Sat,f:1
 RTL 2 HU
 p:UPC Direct,f:1
 79ed:0e080000:02c8:0600:1:0
-RTL+
+RTL Harom
 p:UPC Direct,f:1
 79ee:0e080000:02c8:0600:1:0
 Sorozat+
@@ -8892,7 +8910,7 @@ p:UPC Direct,f:1
 RTL2 (SVT)
 p:UPC Direct,f:1
 79f2:0e080000:02c8:0600:1:0
-RTL+ (SVT)
+RTL Harom (SVT)
 p:UPC Direct,f:1
 79f3:0e080000:02c8:0600:1:0
 RTL Gold
@@ -8913,7 +8931,7 @@ p:UPC Direct,f:1
 Izaura TV.
 p:UPC Direct,f:1
 79f9:0e080000:02c8:0600:1:0
-RTL+.
+RTL Harom.
 p:UPC Direct,f:1
 7a03:0e080000:02c8:0600:1:0
 RTL GOLD ( SVT)
