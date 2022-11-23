@@ -138,9 +138,6 @@ transponders
 00820000:2f44:013e
 	s 10930000:30000000:0:2:130:2:0:1:2:0:2
 /
-00820000:1770:0110
-	s 11919000:29900000:1:3:130:2:0:1:2:0:2
-/
 00820000:05dc:013e
 	s 11488000:27500000:0:3:130:2:0:1:2:0:2
 /
@@ -261,7 +258,7 @@ transponders
 00820000:0064:013e
 	s 11219000:27500000:0:1:130:2:0:1:1:0:2
 /
-00823095:21fc:0000
+00823095:1964:013e
 	s 12437000:27500000:0:3:130:2:0:1:2:0:2
 /
 005a0000:14b4:009c
@@ -394,16 +391,16 @@ transponders
 	s 12303000:31400000:1:2:90:2:0:1:2:0:2:21:262140:1
 /
 005a0000:98e1:217c
-	s 12380000:31400000:1:4:90:2:0:1:2:0:2:25:262140:1
+	s 12380000:31400000:1:2:90:2:0:1:2:0:2:25:262140:1
 /
 005a0000:70e1:217c
-	s 12380000:31400000:1:4:90:2:0:1:2:0:2:24:262140:1
+	s 12380000:31400000:1:2:90:2:0:1:2:0:2:24:262140:1
 /
 005a0000:80e3:217c
 	s 12303000:31400000:1:2:90:2:0:1:2:0:2:22:262140:1
 /
 005a0000:60e1:217c
-	s 12380000:31400000:1:4:90:2:0:1:2:0:2:23:262140:1
+	s 12380000:31400000:1:2:90:2:0:1:2:0:2:23:262140:1
 /
 005a0000:50e1:217c
 	s 12226000:31400000:1:2:90:2:0:1:2:0:2:20:262140:1
@@ -2348,9 +2345,6 @@ p:NetMed,f:1
 0167:00820000:1c84:013e:152:0
 Cobalt Data
 p:NetMed
-016a:00820000:1c84:013e:1:0
-Nova Cinema Summer
-p:NetMed,f:1
 016e:00820000:1c84:013e:2:0
 Sport24 Radio
 p:NetMed
@@ -2378,9 +2372,6 @@ p:NETMED,f:1
 0160:00820000:1c84:013e:1:0
 Naftemporiki HD
 p:NetMed,f:1
-0172:00820000:1c84:013e:1:0
-M2_TEST5
-p:NetMed,f:1
 0178:00820000:1c84:013e:1:0
 M2_TEST6
 p:NetMed,f:1
@@ -2395,6 +2386,12 @@ M2_TEST9
 p:NetMed,f:1
 0169:00820000:1c84:013e:1:0
 NovaSportsExtra1HD
+p:NetMed,f:1
+016a:00820000:1c84:013e:1:0
+History HD
+p:NetMed,f:1
+0172:00820000:1c84:013e:1:0
+Da Vinci
 p:NetMed,f:1
 1c86:00820000:1ce8:0071:1:0
 AXN White Poland
@@ -2582,6 +2579,15 @@ p:
 1c94:00820000:1ce8:0071:1:0
 CNN_Greek
 p:CP,f:1
+1cce:00820000:1ce8:0071:12:0
+D64_4k_Lite
+p:
+1cd0:00820000:1ce8:0071:12:0
+D63
+p:Cyfrowy Polsat S.A.
+1cd1:00820000:1ce8:0071:12:0
+D56G
+p:
 0064:00820000:0065:0001:1:0
 Voice of America (VOA) Europe
 p:,f:1
@@ -2921,6 +2927,9 @@ p:ARQIVA LTD,f:1
 39da:00820000:1fa4:013e:1:0
 Vidrodjennya
 p:FFmpeg,f:1
+39df:00820000:1fa4:013e:1:0
+Vidrodjennya German
+p:FFmpeg,f:1
 1089:00820000:2008:fbff:25:0
 Sky Sport 3 HD
 p:Sky Italia,f:1
@@ -3080,9 +3089,6 @@ p:STN,f:1
 2332:00820000:2328:013e:1:0
 BogBlagTV
 p:STN,f:1
-2362:00820000:2328:013e:2:0
-Crypto Radio USA (Free Bitcoin Ethereum)
-p:STN
 019f:00820000:26ac:013f:1:0
 BFM TV
 p:Bis,f:1
@@ -3438,7 +3444,7 @@ p:NetMed,f:1
 M3_TEST2
 p:NetMed,f:1
 1bc9:00820000:17d4:013e:1:0
-M3_TEST3
+Crime + Investigation
 p:NetMed,f:1
 1bcc:00820000:17d4:013e:1:0
 M3_TEST9
@@ -3521,9 +3527,6 @@ p:ViewSat,f:1
 4224:00820000:2f44:013e:22:0
 Blue Hustler POL
 p:M7 Group,f:1
-4232:00820000:2f44:013e:1:0
-RADA
-p:FFmpeg,f:1
 4234:00820000:2f44:013e:1:0
 ByoBlu
 p:M-Three Satcom,f:1
@@ -3533,30 +3536,6 @@ p:,f:1
 0029:00820000:2f44:013e:1:0
 Jibek Joly
 p:iKO Media Group,f:1
-0065:00820000:1770:0110:2:0
-Radio R101
-p:Mediaset
-0066:00820000:1770:0110:2:0
-Radio Monte Carlo
-p:Mediaset
-0069:00820000:1770:0110:2:0
-Radio 105
-p:Mediaset
-0068:00820000:1770:0110:2:0
-Virgin radio
-p:
-0049:00820000:1770:0110:25:0
-La7d HD
-p:,f:1
-004f:00820000:1770:0110:25:0
-La7 HD
-p:,f:1
-003a:00820000:1770:0110:25:0
-Canale 239
-p:,f:1
-006a:00820000:1770:0110:2:0
-RADIO SUBASIO
-p:
 1421:00820000:05dc:013e:1:0
 CANAL+ Domo HD
 p:CANAL+,f:1
@@ -4119,7 +4098,7 @@ p:KABELIO.CH,f:1
 Kabelio BBC Two HD
 p:KABELIO.CH,f:1
 375c:00820000:06a4:013e:25:0
-Kabelio ITV HD
+Kabelio ITV 1 HD
 p:KABELIO.CH,f:1
 375d:00820000:06a4:013e:25:0
 Kabelio BBC4/CBBCs
@@ -4299,7 +4278,7 @@ p:Rai
 Rai Radio Kids
 p:Rai
 0d7a:00820000:1450:013e:2:0
-Rai Radio2 Indie
+Rai Radio Indie
 p:Rai
 0d7b:00820000:1450:013e:2:0
 Rai Radio Tutta Italiana
@@ -4373,9 +4352,6 @@ p:nc+,f:1
 1179:00820000:2af8:013e:31:0
 CANAL+ 4K ULTRA HD
 p:nc+,f:1
-113f:00820000:2af8:013e:31:0
-Eleven Sports 1 4K
-p:CANAL+,f:1
 118a:00820000:2af8:013e:31:0
 Player
 p:CANAL+,f:1
@@ -4495,6 +4471,9 @@ Power TV
 p:CANAL+,f:1
 12c9:00820000:2e7c:013e:1:0
 Nuta Gold
+p:CANAL+,f:1
+12c1:00820000:2e7c:013e:1:0
+TVP 4K
 p:CANAL+,f:1
 0389:00820000:2134:013e:1:0
 Dubai TV HD
@@ -4667,12 +4646,6 @@ p:M-Three satcom,f:1
 0216:00820000:0384:013e:1:0
 Iraqia News HD
 p:,f:1
-01f6:00820000:0384:013e:1:0
-Emilia Romagna 24
-p:M-Three Satcom,f:1
-01f7:00820000:0384:013e:1:0
-Well TV
-p:M-Three Satcom,f:1
 0641:00820000:2454:013e:25:0
 Al Jazeera HD
 p:EUTELSAT,f:1
@@ -5066,15 +5039,15 @@ p:,f:1
 04b5:00820000:23f0:013e:25:0
 Saudi TV HD
 p:,f:1
-04b8:00820000:23f0:013e:1:0
-Travel Africa Network
-p:iChannel LTD,f:1
 04b1:00820000:23f0:013e:25:0
 SBC HD
 p:,f:1
 04b9:00820000:23f0:013e:1:0
 HotBird 4K1
 p:,f:1
+04b8:00820000:23f0:013e:1:0
+Travel Africa Network
+p:iChannel LTD,f:1
 0064:00820000:3264:013e:25:0
 Kabelio 3+
 p:KABELIO.CH,f:1
@@ -5561,88 +5534,112 @@ p:EUTELSAT,f:1
 006e:00820000:1770:00be:2:0
 Radiolina
 p:
+003a:00820000:1770:00be:25:0
+Canale 239
+p:,f:1
+0049:00820000:1770:00be:25:0
+La7d HD
+p:,f:1
+004f:00820000:1770:00be:25:0
+La7 HD
+p:,f:1
+0065:00820000:1770:00be:2:0
+Radio R101
+p:Mediaset
+0066:00820000:1770:00be:2:0
+Radio Monte Carlo
+p:Mediaset
+0068:00820000:1770:00be:2:0
+Virgin radio
+p:
+0069:00820000:1770:00be:2:0
+Radio 105
+p:Mediaset
+006a:00820000:1770:00be:2:0
+RADIO SUBASIO
+p:
 0899:00820000:0064:013e:25:0
 BBC Persian HD
 p:BBC World Service,f:1
 089a:00820000:0064:013e:1:0
 Iran International HD
 p:Volant Media,f:1
-0001:00823095:21fc:0000:1:0
+0001:00823095:1964:013e:1:0
 MTV Live HD
 p:Cyfrowy Polsat S.A.,f:1
-0002:00823095:21fc:0000:1:0
+0002:00823095:1964:013e:1:0
 Nick Music
 p:Cyfrowy Polsat S.A.,f:1
-0003:00823095:21fc:0000:1:0
+0003:00823095:1964:013e:1:0
 Nick Jr
 p:Cyfrowy Polsat S.A.,f:1
-0008:00823095:21fc:0000:1:0
+0008:00823095:1964:013e:1:0
 MTV 00s
 p:Cyfrowy Polsat S.A.,f:1
-0009:00823095:21fc:0000:1:0
+0009:00823095:1964:013e:1:0
 Nickelodeon
 p:Cyfrowy Polsat S.A.,f:1
-000c:00823095:21fc:0000:1:0
+000c:00823095:1964:013e:1:0
 Comedy Central HD
 p:Cyfrowy Polsat S.A.,f:1
-000d:00823095:21fc:0000:1:0
+000d:00823095:1964:013e:1:0
 Paramount Network Polska
 p:Cyfrowy Polsat S.A.,f:1
-000e:00823095:21fc:0000:1:0
+000e:00823095:1964:013e:1:0
 Nicktoons HD
 p:Cyfrowy Polsat S.A.,f:1
-000f:00823095:21fc:0000:1:0
+000f:00823095:1964:013e:1:0
 MTV Polska HD
 p:Cyfrowy Polsat S.A.,f:1
-0010:00823095:21fc:0000:1:0
+0010:00823095:1964:013e:1:0
 Polsat Comedy Central Extra
 p:Cyfrowy Polsat S.A.,f:1
-0011:00823095:21fc:0000:1:0
+0011:00823095:1964:013e:1:0
 Nickelodeon Ukraine Pluto TV
 p:Cyfrowy Polsat S.A.,f:1
-0015:00823095:21fc:0000:1:0
+0015:00823095:1964:013e:1:0
 
 p:Cyfrowy Polsat S.A.,f:1
-0019:00823095:21fc:0000:1:0
+0019:00823095:1964:013e:1:0
 MTV Commercial
 p:Cyfrowy Polsat S.A.,f:1
-0020:00823095:21fc:0000:1:0
+0020:00823095:1964:013e:1:0
 Comedy Central HD
 p:Cyfrowy Polsat S.A.,f:1
-0021:00823095:21fc:0000:1:0
+0021:00823095:1964:013e:1:0
 Paramount Network Polska
 p:Cyfrowy Polsat S.A.,f:1
-0023:00823095:21fc:0000:1:0
+0023:00823095:1964:013e:1:0
 
 p:Cyfrowy Polsat S.A.,f:1
-003c:00823095:21fc:0000:1:0
+003c:00823095:1964:013e:1:0
 VOD 202
 p:Cyfrowy Polsat S.A.,f:1
-003d:00823095:21fc:0000:1:0
+003d:00823095:1964:013e:1:0
 VOD 203
 p:Cyfrowy Polsat S.A.,f:1
-003e:00823095:21fc:0000:1:0
+003e:00823095:1964:013e:1:0
 VOD 204
 p:Cyfrowy Polsat S.A.,f:1
-003f:00823095:21fc:0000:1:0
+003f:00823095:1964:013e:1:0
 VOD 205
 p:Cyfrowy Polsat S.A.,f:1
-0040:00823095:21fc:0000:1:0
+0040:00823095:1964:013e:1:0
 VOD 206
 p:Cyfrowy Polsat S.A.,f:1
-0041:00823095:21fc:0000:1:0
+0041:00823095:1964:013e:1:0
 VOD 207
 p:Cyfrowy Polsat S.A.,f:1
-0042:00823095:21fc:0000:1:0
+0042:00823095:1964:013e:1:0
 VOD 208
 p:Cyfrowy Polsat S.A.,f:1
-0045:00823095:21fc:0000:1:0
+0045:00823095:1964:013e:1:0
 Nicktoons HD
 p:Cyfrowy Polsat S.A.,f:1
-0043:00823095:21fc:0000:1:0
+0043:00823095:1964:013e:1:0
 xxxVOD1
 p:Cyfrowy Polsat S.A.,f:1
-0044:00823095:21fc:0000:1:0
+0044:00823095:1964:013e:1:0
 xxxVOD2
 p:Cyfrowy Polsat S.A.,f:1
 00d8:005a0000:14b4:009c:1:0
@@ -5960,15 +5957,6 @@ p:TVT
 0014:005a0000:170c:009e:25:0
 TVT International
 p:TVT,f:1
-006f:005a0000:170c:009e:1:0
-Better-1
-p:encoder,f:1
-0070:005a0000:170c:009e:1:0
-Better-2
-p:encoder,f:1
-0071:005a0000:170c:009e:1:0
-Better-3
-p:encoder,f:1
 0073:005a0000:170c:009e:1:0
 Rai Africa
 p:Rai,f:1
@@ -6667,33 +6655,33 @@ Bahrain
 p:
 0365:005a0000:c35a:009e:25:0
 MyZen TV HD
-p:TAG Broadcasting,f:1
-0362:005a0000:c35a:009e:2:0
-TRT tamil
-p:TAG Broadcasting
+p:A1 Broadcasting,f:1
 0363:005a0000:c35a:009e:25:0
 Museum HD
-p:TAG Broadcasting,f:1
+p:A1 Broadcasting,f:1
 0364:005a0000:c35a:009e:1:0
 TIN - The Israeli Network
-p:TAG Broadcasting,f:1
+p:iKO Media Group,f:1
 035e:005a0000:c35a:009e:31:0
 EUROBET 11
-p:A1 Broadcasting,f:1
+p:Eutelsat,f:1
 0361:005a0000:c35a:009e:31:0
 EUROBET 14
-p:A1 Broadcasting,f:1
+p:Eutelsat,f:1
 035f:005a0000:c35a:009e:31:0
 EUROBET 12
-p:A1 Broadcasting,f:1
+p:Eutelsat,f:1
 0360:005a0000:c35a:009e:31:0
 EUROBET 13
-p:A1 Broadcasting,f:1
+p:Eutelsat,f:1
 035c:005a0000:c35a:009e:12:0
-DAB Radio 1 Test
-p:iKO Media Group
+DAB Radio Italian 1
+p:Eutelsat
 035d:005a0000:c35a:009e:12:0
-DAB Radio 2 Test
+DAB Radio Italian 2
+p:Eutelsat
+0362:005a0000:c35a:009e:2:0
+TRT tamil
 p:iKO Media Group
 0472:005a0000:0009:00aa:1:0
 TEST 81
