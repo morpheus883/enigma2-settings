@@ -270,6 +270,9 @@ transponders
 00823095:1964:013e
 	s 12437000:27500000:0:3:130:2:0:1:2:0:2
 /
+00820000:02bc:013e
+	s 11334000:27500000:0:3:130:2:0:1:2:0:2
+/
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
 /
@@ -335,6 +338,9 @@ transponders
 /
 0030313a:0001:ffff
 	s 12602000:2400000:0:3:48:2:0:1:1:0:2
+/
+003031bf:0010:0001
+	s 12735000:5000000:0:2:48:2:0:1:2:0:2
 /
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
@@ -1038,7 +1044,7 @@ p:GlobeCast,f:1
 CGTN News
 p:Globecast,f:1
 06ac:00820000:3138:013e:1:0
-RTR Planeta
+TV Rus Plus
 p:Globecast,f:1
 06ae:00820000:3138:013e:1:0
 Rossiya 24
@@ -2234,9 +2240,6 @@ p:SkyItalia
 0dc4:00820000:1af4:fbff:130:0
 Fake TG 24 HD
 p:SkyItalia,f:1
-0dc5:00820000:1af4:fbff:1:0
-Arte (France)
-p:,f:1
 0deb:00820000:1af4:fbff:1:0
 Match Music
 p:SkyItalia,f:1
@@ -2252,7 +2255,7 @@ p:SkyItalia,f:1
 0fbf:00820000:1af4:fbff:1:0
 DeAKids +1
 p:SkyItalia,f:1
-37b5:00820000:1af4:fbff:1:0
+37b5:00820000:1af4:fbff:25:0
 Milan TV
 p:SkyItalia,f:1
 0fd9:00820000:1af4:fbff:1:0
@@ -4496,6 +4499,9 @@ p:M-Three Satcom,f:1
 0537:00820000:3d54:013e:1:0
 WellTV
 p:M-Three Satcom,f:1
+0538:00820000:3d54:013e:1:0
+Value24
+p:M-Three Satcom,f:1
 0d4a:00820000:1450:013e:25:0
 Rai 2 HD
 p:Rai,f:1
@@ -4646,29 +4652,8 @@ p:CANAL+,f:1
 1316:00820000:2e7c:013e:1:0
 Eurosport 2 HD UPC
 p:CANAL+,f:1
-12c3:00820000:2e7c:013e:1:0
-Canal+ Sport 4 HD Polska
-p:CANAL+,f:1
-12c4:00820000:2e7c:013e:1:0
-Home TV
-p:CANAL+,f:1
 12cb:00820000:2e7c:013e:1:0
 StudioMed TV HD
-p:CANAL+,f:1
-12c2:00820000:2e7c:013e:1:0
-Canal+ Sport 3 HD Polska
-p:CANAL+,f:1
-12f4:00820000:2e7c:013e:1:0
-Canal+ Sport 3 HD
-p:CANAL+,f:1
-12f5:00820000:2e7c:013e:1:0
-Canal+ Sport 4 HD
-p:CANAL+,f:1
-1312:00820000:2e7c:013e:1:0
-CANAL+ SPORT 3 HD
-p:CANAL+,f:1
-1313:00820000:2e7c:013e:1:0
-CANAL+ SPORT 4 HD
 p:CANAL+,f:1
 12d5:00820000:2e7c:013e:1:0
 La Trois
@@ -4712,21 +4697,6 @@ p:CANAL+
 12e3:00820000:2e7c:013e:2:0
 Radio Contact
 p:CANAL+
-12c5:00820000:2e7c:013e:1:0
-Antena
-p:CANAL+,f:1
-12c7:00820000:2e7c:013e:1:0
-Nuta TV
-p:CANAL+,f:1
-12ca:00820000:2e7c:013e:1:0
-TVC
-p:CANAL+,f:1
-12c6:00820000:2e7c:013e:1:0
-Power TV
-p:CANAL+,f:1
-12c9:00820000:2e7c:013e:1:0
-Nuta Gold
-p:CANAL+,f:1
 12c1:00820000:2e7c:013e:1:0
 TVP 4K
 p:CANAL+,f:1
@@ -5897,6 +5867,12 @@ p:Cyfrowy Polsat S.A.,f:1
 0044:00823095:1964:013e:1:0
 xxxVOD2
 p:Cyfrowy Polsat S.A.,f:1
+02bd:00820000:02bc:013e:25:0
+Eurosport 1 International HD
+p:Warner Bros. Discovery,f:1
+02be:00820000:02bc:013e:25:0
+Eurosport 2 International HD
+p:Warner Bros. Discovery,f:1
 0fa0:00300000:0006:0056:1:0
 TV Chile
 p:Viasat,f:1
@@ -5962,7 +5938,7 @@ ICTV UA
 p:,f:1
 1a04:00300000:0010:0055:1:0
 UA Pershyi
-p:,f:1
+p:SES,f:1
 19e6:00300000:0010:0055:1:0
 Espreso TV
 p:,f:1
@@ -5978,18 +5954,18 @@ p:
 1a13:00300000:0010:0055:1:0
 Malyatko TV
 p:Ukrkosmos,f:1
-1a0e:00300000:0010:0055:25:0
+1a0e:00300000:0010:0055:1:0
 RZR
-p:,f:1
+p:SES,f:1
 1a27:00300000:0010:0055:2:0
 Tysa FM
-p:SES
+p:
 19ce:00300000:0010:0055:2:0
 Radio Ukraine International
 p:
 19d0:00300000:0010:0055:2:0
 Voice
-p:SES
+p:
 00e6:00300000:0002:0055:2:0
 European Radio for Belarus
 p:
@@ -6875,6 +6851,18 @@ p:HDPROTEK,f:1
 0001:0030313a:0001:ffff:1:0
 CNN Old St 1
 p:Service Provider,f:1
+1a04:003031bf:0010:0001:1:0
+UA: Pershiy
+p:NA,f:1
+1a0e:003031bf:0010:0001:1:0
+RZR
+p:NA,f:1
+19c8:003031bf:0010:0001:2:0
+Ukrayinske Radio
+p:NA
+19ca:003031bf:0010:0001:2:0
+Radio
+p:NA
 040a:0e080000:0044:0046:25:0
 TV 2 Sport Premium HD
 p:Canal Digital Nordic,f:1
@@ -8816,9 +8804,6 @@ p:Slovak Telekom,f:1
 1789:0e080000:0af6:00bb:25:0
 JOJ Cinema HD
 p:Slovak Telekom,f:1
-1786:0e080000:0af6:00bb:25:0
-Viasat HD
-p:Slovak Telekom,f:1
 1784:0e080000:0af6:00bb:1:0
 Golf Channel
 p:Slovak Telekom,f:1
@@ -8881,82 +8866,82 @@ EXPRES Stred
 p:Telenor
 79e3:0e080000:02c8:0600:1:0
 CNN International Europe
-p:UPCD_Thor,f:1
+p:M7,f:1
 79e8:0e080000:02c8:0600:1:0
 TV5 Monde Europe
-p:Focus Sat,f:1
+p:M7,f:1
 79ec:0e080000:02c8:0600:1:0
-RTL 2 HU
-p:UPC Direct,f:1
+RTL Ketto
+p:M7,f:1
 79ed:0e080000:02c8:0600:1:0
 RTL Harom
-p:UPC Direct,f:1
+p:M7,f:1
 79ee:0e080000:02c8:0600:1:0
 Sorozat+
-p:UPC Direct,f:1
+p:M7,f:1
 79ef:0e080000:02c8:0600:1:0
 Muzsika TV
-p:UPC Direct,f:1
+p:M7,f:1
 79f0:0e080000:02c8:0600:1:0
 NickMusic
-p:UPC Direct,f:1
+p:M7,f:1
 79f1:0e080000:02c8:0600:1:0
-RTL2 (SVT)
-p:UPC Direct,f:1
+RTL Ketto (SVT)
+p:M7,f:1
 79f2:0e080000:02c8:0600:1:0
 RTL Harom (SVT)
-p:UPC Direct,f:1
+p:M7,f:1
 79f3:0e080000:02c8:0600:1:0
 RTL Gold
-p:UPC Direct,f:1
+p:M7,f:1
 79f4:0e080000:02c8:0600:1:0
 Sorozat+ (SVT)
-p:UPC Direct,f:1
+p:M7,f:1
 79f5:0e080000:02c8:0600:1:0
 Muzsika TV (SVT)
-p:Slovak Telecom,f:1
+p:M7,f:1
 79f6:0e080000:02c8:0600:1:0
-RTL2.
-p:UPC Direct,f:1
+RTL Ketto
+p:M7,f:1
 79f7:0e080000:02c8:0600:1:0
 Izaura TV
-p:UPC Direct,f:1
+p:M7,f:1
 79f8:0e080000:02c8:0600:1:0
 Izaura TV.
-p:UPC Direct,f:1
+p:M7,f:1
 79f9:0e080000:02c8:0600:1:0
 RTL Harom.
-p:UPC Direct,f:1
+p:M7,f:1
 7a03:0e080000:02c8:0600:1:0
 RTL GOLD ( SVT)
-p:UPC Direct,f:1
+p:M7,f:1
 79e9:0e080000:02c8:0600:1:0
 Minimax Cz
-p:UPC Direct,f:1
+p:M7,f:1
 79eb:0e080000:02c8:0600:1:0
 Spektrum Home
-p:UPC Direct,f:1
+p:M7,f:1
 7a04:0e080000:02c8:0600:1:0
 Minimax Cz (SVT)
-p:UPC,f:1
+p:M7,f:1
 7a05:0e080000:02c8:0600:1:0
 Spektrum Home (SVT)
-p:UPC,f:1
+p:M7,f:1
 79e4:0e080000:02c8:0600:1:0
 Nat Geo Wild RO
-p:UPC,f:1
+p:M7,f:1
 79e5:0e080000:02c8:0600:1:0
 JimJam Romania
-p:UPC,f:1
+p:M7,f:1
 79e6:0e080000:02c8:0600:1:0
 JimJam RO.
-p:UPC,f:1
+p:M7,f:1
 79e7:0e080000:02c8:0600:1:0
 Bollywood TV
-p:UPC,f:1
+p:M7,f:1
 7a06:0e080000:02c8:0600:1:0
 Bollywood TV.
-p:UPC,f:1
+p:M7,f:1
 79e2:0e080000:02c8:0600:1:0
 Direct One
 p:M7,f:1
@@ -9410,15 +9395,6 @@ p:Slovak Telekom,f:1
 0fbb:0e080000:0af4:00bb:1:0
 Food Network
 p:Slovak Telekom,f:1
-0fbc:0e080000:0af4:00bb:1:0
-Viasat Explore
-p:Slovak Telekom,f:1
-0fbd:0e080000:0af4:00bb:1:0
-Viasat History
-p:Slovak Telekom,f:1
-0fbe:0e080000:0af4:00bb:1:0
-Viasat Nature
-p:Slovak Telekom,f:1
 0fc1:0e080000:0af4:00bb:1:0
 TLC Europe
 p:Slovak Telekom,f:1
@@ -9573,7 +9549,7 @@ p:M7,f:1
 CNN Prima News HD
 p:M7,f:1
 7676:0e080000:02bf:0600:25:0
-RTL 2 HU HD
+RTL Ketto HD
 p:M7,f:1
 767d:0e080000:02bf:0600:25:0
 Film+ HD
@@ -9938,8 +9914,8 @@ p:M7,f:1
 7ab4:0e080000:02ca:0600:22:0
 Prima MAX
 p:M7,f:1
-7ab7:0e080000:02ca:0600:22:0
-JOJ Sport
+7ab7:0e080000:02ca:0600:25:0
+JOJ Sport HD
 p:M7,f:1
 7ab8:0e080000:02ca:0600:22:0
 RTVS Sport
@@ -9950,8 +9926,8 @@ p:M7,f:1
 7aba:0e080000:02ca:0600:22:0
 CANAL+ Domo
 p:M7,f:1
-7ac7:0e080000:02ca:0600:22:0
-JOJ Sport (SVT)
+7ac7:0e080000:02ca:0600:25:0
+JOJ Sport HD (SVT)
 p:M7,f:1
 7ac8:0e080000:02ca:0600:22:0
 Filmbox Stars CZ (SVT)
