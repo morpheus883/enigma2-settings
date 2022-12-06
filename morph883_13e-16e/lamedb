@@ -228,6 +228,9 @@ transponders
 00a03107:0001:0001
 	s 12551000:3166000:0:3:160:2:0:1:2:0:2
 /
+00a0b1a0:0000:0000
+	s 12704000:6000000:1:3:160:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -476,9 +479,6 @@ transponders
 /
 0082aac5:1964:013e
 	s 10949000:27500000:1:3:130:2:0:1:2:0:2
-/
-0082ac35:2454:013e
-	s 11317000:27500000:1:3:130:2:0:1:2:0:2
 /
 00820000:1770:00be
 	s 11919000:29900000:1:3:130:2:0:1:2:2:2
@@ -2648,12 +2648,6 @@ p:A1 Broadcasting,f:1
 0012:00a0acf8:00c8:0001:1:0
 TVR INFO
 p:,f:1
-0001:00a0acf8:00c8:0001:1:0
-TVR 1
-p:,f:1
-0002:00a0acf8:00c8:0001:1:0
-TVR 2
-p:,f:1
 0003:00a0acf8:00c8:0001:1:0
 TVR 3
 p:,f:1
@@ -2690,6 +2684,9 @@ p:
 001b:00a0acf8:00c8:0001:10:0
 Radio Romania International 3
 p:
+0013:00a0acf8:00c8:0001:1:0
+TVR Cultural
+p:,f:1
 0001:00a03115:0001:0001:25:0
 POR15 3.166 H.264
 p:GMTS,f:1
@@ -2711,6 +2708,9 @@ p:TV4 S,f:1
 0001:00a03107:0001:0001:1:0
 UKR - 007
 p:UKR - 007,f:1
+0001:00a0b1a0:0000:0000:25:0
+UKI 1973 Coder 1
+p:,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -3101,17 +3101,11 @@ p:GLOBECAST
 06a9:00820000:3138:013e:1:0
 Euronews Russian
 p:GLOBECAST,f:1
-06b0:00820000:3138:013e:1:0
-7D7
-p:GLOBECAST,f:1
 06b2:00820000:3138:013e:1:0
 Soyuz
 p:GLOBECAST,f:1
 06b3:00820000:3138:013e:1:0
 Arirang World
-p:GLOBECAST,f:1
-06b7:00820000:3138:013e:1:0
-R1 Media
 p:GLOBECAST,f:1
 1f44:00820000:319c:013e:1:0
 MC EU
@@ -3506,6 +3500,9 @@ p:CANAL+,f:1
 3aef:00820000:0514:013e:1:0
 Cinemax HD
 p:CANAL+,f:1
+3ac9:00820000:0514:013e:12:0
+Data
+p:CANAL+
 0321:00820000:3bc4:013e:1:0
 Euronews English HD
 p:GLOBECAST,f:1
@@ -5360,9 +5357,6 @@ p:STN ltd,f:1
 2330:00820000:2328:013e:1:0
 Deluxe 139
 p:STN,f:1
-2335:00820000:2328:013e:1:0
-KICC TV
-p:STN,f:1
 2336:00820000:2328:013e:1:0
 Paci Contemporary Channel
 p:STN,f:1
@@ -5742,7 +5736,7 @@ p:NetMed,f:1
 M3_TEST4
 p:NetMed,f:1
 1bc8:00820000:17d4:013e:1:0
-Epic Drama
+Epic Drama HD
 p:NetMed,f:1
 1bbe:00820000:17d4:013e:1:0
 NovaSportsExtra4HD
@@ -5834,9 +5828,6 @@ p:CANAL+,f:1
 13f5:00820000:05dc:013e:1:0
 Eleven Sports 2 HD
 p:CANAL+,f:1
-13f1:00820000:05dc:013e:1:0
-Fight Klub HD
-p:CANAL+,f:1
 13f8:00820000:05dc:013e:1:0
 Eleven Sports 3 HD
 p:CANAL+,f:1
@@ -5906,9 +5897,6 @@ p:CANAL+,f:1
 1428:00820000:05dc:013e:1:0
 National Geographic Wild HD
 p:CANAL+,f:1
-1429:00820000:05dc:013e:1:0
-TVP 3
-p:CANAL+,f:1
 1446:00820000:05dc:013e:1:0
 National Geographic Wild HD
 p:CANAL+,f:1
@@ -5919,13 +5907,34 @@ p:Cyfra +,f:1
 
 p:CANAL+,f:1
 13f4:00820000:05dc:013e:1:0
-5108
+HBO2 HD
 p:CANAL+,f:1
 141f:00820000:05dc:013e:1:0
 Canal+ 1 HD Polska
 p:CANAL+,f:1
 1434:00820000:05dc:013e:1:0
 Canal+ Sport 2 HD Polska
+p:CANAL+,f:1
+1426:00820000:05dc:013e:1:0
+HBO2 HD
+p:CANAL+,f:1
+142b:00820000:05dc:013e:1:0
+HBO3 HD
+p:CANAL+,f:1
+143a:00820000:05dc:013e:1:0
+HBO2 HD
+p:CANAL+,f:1
+143f:00820000:05dc:013e:1:0
+HBO3 HD
+p:CANAL+,f:1
+1444:00820000:05dc:013e:1:0
+HBO2 HD
+p:CANAL+,f:1
+1449:00820000:05dc:013e:1:0
+HBO3 HD
+p:CANAL+,f:1
+13f9:00820000:05dc:013e:1:0
+HBO3 HD
 p:CANAL+,f:1
 2907:00820000:1edc:0071:1:0
 Nat Geo People PL HD
@@ -6372,28 +6381,28 @@ p:KABELIO.CH,f:1
 Kabelio TV SuedOst
 p:KABELIO.CH,f:1
 3750:00820000:06a4:013e:25:0
-Kabelio TF1 HD
+Kabelio TF1
 p:KABELIO.CH,f:1
 3751:00820000:06a4:013e:25:0
-Kabelio M6 HD
+Kabelio M6
 p:KABELIO.CH,f:1
 375a:00820000:06a4:013e:25:0
-Kabelio BBC One HD
+Kabelio BBC One
 p:KABELIO.CH,f:1
 375b:00820000:06a4:013e:25:0
-Kabelio BBC Two HD
+Kabelio BBC Two
 p:KABELIO.CH,f:1
 375c:00820000:06a4:013e:25:0
-Kabelio ITV 1 HD
+Kabelio ITV1
 p:KABELIO.CH,f:1
 375d:00820000:06a4:013e:25:0
 Kabelio BBC4/CBBCs
 p:KABELIO.CH,f:1
 375e:00820000:06a4:013e:25:0
-Kabelio Channel 4 HD
+Kabelio Channel 4
 p:KABELIO.CH,f:1
 375f:00820000:06a4:013e:25:0
-Kabelio Channel 5 HD
+Kabelio Channel 5
 p:KABELIO.CH,f:1
 3760:00820000:06a4:013e:25:0
 Kabelio FreeSports
@@ -6432,7 +6441,7 @@ p:KABELIO.CH,f:1
 Kabelio BBC News
 p:KABELIO.CH,f:1
 3768:00820000:06a4:013e:1:0
-Kabelio CNNi
+Kabelio ITV2
 p:KABELIO.CH,f:1
 10ea:00820000:03e8:013e:25:0
 TVN 24 Bizness HD
@@ -7748,42 +7757,6 @@ p:,f:1
 0023:0082aac5:1964:013e:1:0
 
 p:,f:1
-0642:0082ac35:2454:013e:1:0
-Italian Fishing TV
-p:,f:1
-0645:0082ac35:2454:013e:1:0
-Al Alam TV HD
-p:SABA GROUP,f:1
-0646:0082ac35:2454:013e:1:0
-MS Motor TV
-p:,f:1
-064c:0082ac35:2454:013e:1:0
-CNC World English
-p:Service Provider,f:1
-064d:0082ac35:2454:013e:1:0
-ACI_SportTV
-p:,f:1
-064e:0082ac35:2454:013e:1:0
-MS Channel
-p:,f:1
-064f:0082ac35:2454:013e:1:0
-Canal Algerie
-p:GLOBECAST,f:1
-0650:0082ac35:2454:013e:1:0
-A3
-p:GLOBECAST,f:1
-0652:0082ac35:2454:013e:1:0
-RT Arabic HD
-p:,f:1
-0653:0082ac35:2454:013e:1:0
-Pop Economy
-p:,f:1
-069a:0082ac35:2454:013e:1:0
-Eutelsat Data 1
-p:MIT-xperts GmbH,f:1
-0641:0082ac35:2454:013e:25:0
-Al Jazeera HD
-p:EUTELSAT,f:1
 006e:00820000:1770:00be:2:0
 Radiolina
 p:
@@ -7901,6 +7874,9 @@ p:Warner Bros. Discovery,f:1
 02be:00820000:02bc:013e:25:0
 Eurosport 2 International HD
 p:Warner Bros. Discovery,f:1
+02ef:00820000:02bc:013e:25:0
+Eurosport 1 Greek HD
+p:Warner Bros Discovery,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2022

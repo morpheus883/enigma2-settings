@@ -142,7 +142,7 @@ transponders
 	s 11112000:22000000:0:4:282:2:0
 /
 011a0000:07ed:0002
-	s 12265000:27500000:0:2:282:2:0:1:2:1:0
+	s 12266000:27500000:0:2:282:2:0:1:2:1:0
 /
 011a0000:080e:0002
 	s 11038000:22000000:1:4:282:2:0
@@ -552,6 +552,9 @@ transponders
 00c02d55:0001:ffff
 	s 11605000:9874000:0:3:192:2:0:1:2:0:2
 /
+00c02d62:0001:ffff
+	s 11618000:9874000:0:3:192:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -800,9 +803,6 @@ transponders
 /
 0082aac5:1964:013e
 	s 10949000:27500000:1:3:130:2:0:1:2:0:2
-/
-0082ac35:2454:013e
-	s 11317000:27500000:1:3:130:2:0:1:2:0:2
 /
 00820000:1770:00be
 	s 11919000:29900000:1:3:130:2:0:1:2:2:2
@@ -1386,10 +1386,10 @@ p:BSkyB,f:1
 Virgin One +1
 p:BSkyB,f:1
 13ba:011a0000:07e3:0002:1:0
-Movies 24
+Christmas24
 p:BSkyB,f:1
 13bb:011a0000:07e3:0002:1:0
-Movies 24+
+Christmas24+
 p:BSkyB,f:1
 138e:011a0000:07e3:0002:2:0
 SNR
@@ -1585,6 +1585,9 @@ MTV Hits
 p:BSkyB,f:1
 c797:011a0000:0815:0002:1:0
 MTV Music UK
+p:BSkyB,f:1
+c789:011a0000:0815:0002:1:0
+Nick Jr.
 p:BSkyB,f:1
 5140:011a0000:0810:0002:25:0
 STV HD
@@ -1916,6 +1919,9 @@ p:BSkyB,f:1
 c4aa:011a0000:0811:0002:1:0
 HobbyMaker
 p:BSkyB,f:1
+c4d1:011a0000:0811:0002:25:0
+Viaplay 2 HD
+p:BSkyB,f:1
 d7e8:011a0000:082c:0002:25:0
 Racing TV HD
 p:BSkyB,f:1
@@ -2110,12 +2116,6 @@ TCM +1 UK
 p:BSkyB,f:1
 c7ac:011a0000:0817:0002:1:0
 Akaal Channel
-p:BSkyB,f:1
-c7a9:011a0000:0817:0002:1:0
-Nicktoons
-p:BSkyB,f:1
-c7a8:011a0000:0817:0002:1:0
-Nick Jr.
 p:BSkyB,f:1
 c7ad:011a0000:0817:0002:1:0
 Nickelodeon
@@ -2319,7 +2319,7 @@ d7de:011a0000:0840:0002:1:0
 50343
 p:BSkyB,f:1
 d7a7:011a0000:0840:0002:1:0
-Trace Hits
+Trace Xmas
 p:BSkyB,f:1
 d7a8:011a0000:0840:0002:1:0
 RealityXtra Ireland
@@ -2485,9 +2485,6 @@ iON TV
 p:BSkyB,f:1
 5857:011a0000:082e:0002:1:0
 92 News
-p:BSkyB,f:1
-585f:011a0000:082e:0002:1:0
-Local TV
 p:BSkyB,f:1
 587b:011a0000:082e:0002:2:0
 WRN Europe
@@ -2777,6 +2774,9 @@ p:BSkyB,f:1
 d813:011a0000:0838:0002:25:0
 TJC HD
 p:BSkyB,f:1
+d818:011a0000:0838:0002:25:0
+Viaplay 1 HD
+p:BSkyB,f:1
 cb84:011a0000:0831:0002:1:0
 SET Max
 p:BSkyB,f:1
@@ -2856,10 +2856,10 @@ cb99:011a0000:0831:0002:1:0
 Classic Hits
 p:BSkyB,f:1
 d048:011a0000:083e:0002:1:0
-GREAT! Classic
+Great! Xmas
 p:BSkyB,f:1
 d04d:011a0000:083e:0002:1:0
-GREAT! Classic +1
+Great! Xmas +1
 p:BSkyB,f:1
 d052:011a0000:083e:0002:1:0
 Tiny Pop
@@ -3088,6 +3088,9 @@ MTV HD UK
 p:BSkyB,f:1
 1a41:011a0000:0834:0002:25:0
 Nick Jr. UK HD
+p:BSkyB,f:1
+1a4d:011a0000:0834:0002:1:0
+Nicktoons
 p:BSkyB,f:1
 0cc9:011a0000:07e4:0002:25:0
 Sky Sports Mix HD
@@ -3570,7 +3573,7 @@ p:Movistar+,f:1
 M+LCampeones BAR
 p:CANAL+,f:1
 769f:00c00000:041e:0001:1:0
-Liga de Campeones 3
+Gol Mundial 2
 p:Movistar+,f:1
 769d:00c00000:041e:0001:1:0
 M+ LaLiga 2
@@ -3800,9 +3803,6 @@ p:BetaDigital,f:1
 0037:00c00000:000f:0085:25:0
 .
 p:SES,f:1
-0022:00c00000:000f:0085:25:0
-AutoMotorSport HD temp
-p:BetaDigital,f:1
 0025:00c00000:000f:0085:22:0
 .
 p:Beta Digital,f:1
@@ -3840,7 +3840,7 @@ p:Movistar+,f:1
 Canal Hollywood
 p:Movistar+,f:1
 77c3:00c00000:040a:0001:1:0
-Liga de Campeones 2
+Gol Mundial
 p:Movistar+,f:1
 77d8:00c00000:040a:0001:1:0
 Liga de Campeones 4
@@ -3852,7 +3852,7 @@ p:Movistar+,f:1
 DreamWorks
 p:Movistar+,f:1
 77c9:00c00000:040a:0001:1:0
-M+LCampeones BAR 3
+Gol Mundial 2.
 p:Movistar+,f:1
 77c4:00c00000:040a:0001:1:0
 Liga de Campeones 5
@@ -6683,9 +6683,6 @@ p:CSAT,f:1
 22d2:00c00000:0434:0001:1:0
 France 3 Midi-Pyrénées
 p:CSAT,f:1
-22c8:00c00000:0434:0001:1:0
-
-p:,f:1
 24c5:00c00000:043c:0001:25:0
 Colmax TV HD
 p:CSAT,f:1
@@ -7244,6 +7241,9 @@ p:SES ASTRA,f:1
 0001:00c02d55:0001:ffff:1:0
 SUI-067 MAIN
 p:In Aria X,f:1
+0001:00c02d62:0001:ffff:1:0
+Main NOR 044
+p:NEP Norway,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -7634,17 +7634,11 @@ p:GLOBECAST
 06a9:00820000:3138:013e:1:0
 Euronews Russian
 p:GLOBECAST,f:1
-06b0:00820000:3138:013e:1:0
-7D7
-p:GLOBECAST,f:1
 06b2:00820000:3138:013e:1:0
 Soyuz
 p:GLOBECAST,f:1
 06b3:00820000:3138:013e:1:0
 Arirang World
-p:GLOBECAST,f:1
-06b7:00820000:3138:013e:1:0
-R1 Media
 p:GLOBECAST,f:1
 1f44:00820000:319c:013e:1:0
 MC EU
@@ -8039,6 +8033,9 @@ p:CANAL+,f:1
 3aef:00820000:0514:013e:1:0
 Cinemax HD
 p:CANAL+,f:1
+3ac9:00820000:0514:013e:12:0
+Data
+p:CANAL+
 0321:00820000:3bc4:013e:1:0
 Euronews English HD
 p:GLOBECAST,f:1
@@ -9893,9 +9890,6 @@ p:STN ltd,f:1
 2330:00820000:2328:013e:1:0
 Deluxe 139
 p:STN,f:1
-2335:00820000:2328:013e:1:0
-KICC TV
-p:STN,f:1
 2336:00820000:2328:013e:1:0
 Paci Contemporary Channel
 p:STN,f:1
@@ -10275,7 +10269,7 @@ p:NetMed,f:1
 M3_TEST4
 p:NetMed,f:1
 1bc8:00820000:17d4:013e:1:0
-Epic Drama
+Epic Drama HD
 p:NetMed,f:1
 1bbe:00820000:17d4:013e:1:0
 NovaSportsExtra4HD
@@ -10367,9 +10361,6 @@ p:CANAL+,f:1
 13f5:00820000:05dc:013e:1:0
 Eleven Sports 2 HD
 p:CANAL+,f:1
-13f1:00820000:05dc:013e:1:0
-Fight Klub HD
-p:CANAL+,f:1
 13f8:00820000:05dc:013e:1:0
 Eleven Sports 3 HD
 p:CANAL+,f:1
@@ -10439,9 +10430,6 @@ p:CANAL+,f:1
 1428:00820000:05dc:013e:1:0
 National Geographic Wild HD
 p:CANAL+,f:1
-1429:00820000:05dc:013e:1:0
-TVP 3
-p:CANAL+,f:1
 1446:00820000:05dc:013e:1:0
 National Geographic Wild HD
 p:CANAL+,f:1
@@ -10452,13 +10440,34 @@ p:Cyfra +,f:1
 
 p:CANAL+,f:1
 13f4:00820000:05dc:013e:1:0
-5108
+HBO2 HD
 p:CANAL+,f:1
 141f:00820000:05dc:013e:1:0
 Canal+ 1 HD Polska
 p:CANAL+,f:1
 1434:00820000:05dc:013e:1:0
 Canal+ Sport 2 HD Polska
+p:CANAL+,f:1
+1426:00820000:05dc:013e:1:0
+HBO2 HD
+p:CANAL+,f:1
+142b:00820000:05dc:013e:1:0
+HBO3 HD
+p:CANAL+,f:1
+143a:00820000:05dc:013e:1:0
+HBO2 HD
+p:CANAL+,f:1
+143f:00820000:05dc:013e:1:0
+HBO3 HD
+p:CANAL+,f:1
+1444:00820000:05dc:013e:1:0
+HBO2 HD
+p:CANAL+,f:1
+1449:00820000:05dc:013e:1:0
+HBO3 HD
+p:CANAL+,f:1
+13f9:00820000:05dc:013e:1:0
+HBO3 HD
 p:CANAL+,f:1
 2907:00820000:1edc:0071:1:0
 Nat Geo People PL HD
@@ -10905,28 +10914,28 @@ p:KABELIO.CH,f:1
 Kabelio TV SuedOst
 p:KABELIO.CH,f:1
 3750:00820000:06a4:013e:25:0
-Kabelio TF1 HD
+Kabelio TF1
 p:KABELIO.CH,f:1
 3751:00820000:06a4:013e:25:0
-Kabelio M6 HD
+Kabelio M6
 p:KABELIO.CH,f:1
 375a:00820000:06a4:013e:25:0
-Kabelio BBC One HD
+Kabelio BBC One
 p:KABELIO.CH,f:1
 375b:00820000:06a4:013e:25:0
-Kabelio BBC Two HD
+Kabelio BBC Two
 p:KABELIO.CH,f:1
 375c:00820000:06a4:013e:25:0
-Kabelio ITV 1 HD
+Kabelio ITV1
 p:KABELIO.CH,f:1
 375d:00820000:06a4:013e:25:0
 Kabelio BBC4/CBBCs
 p:KABELIO.CH,f:1
 375e:00820000:06a4:013e:25:0
-Kabelio Channel 4 HD
+Kabelio Channel 4
 p:KABELIO.CH,f:1
 375f:00820000:06a4:013e:25:0
-Kabelio Channel 5 HD
+Kabelio Channel 5
 p:KABELIO.CH,f:1
 3760:00820000:06a4:013e:25:0
 Kabelio FreeSports
@@ -10965,7 +10974,7 @@ p:KABELIO.CH,f:1
 Kabelio BBC News
 p:KABELIO.CH,f:1
 3768:00820000:06a4:013e:1:0
-Kabelio CNNi
+Kabelio ITV2
 p:KABELIO.CH,f:1
 10ea:00820000:03e8:013e:25:0
 TVN 24 Bizness HD
@@ -12281,42 +12290,6 @@ p:,f:1
 0023:0082aac5:1964:013e:1:0
 
 p:,f:1
-0642:0082ac35:2454:013e:1:0
-Italian Fishing TV
-p:,f:1
-0645:0082ac35:2454:013e:1:0
-Al Alam TV HD
-p:SABA GROUP,f:1
-0646:0082ac35:2454:013e:1:0
-MS Motor TV
-p:,f:1
-064c:0082ac35:2454:013e:1:0
-CNC World English
-p:Service Provider,f:1
-064d:0082ac35:2454:013e:1:0
-ACI_SportTV
-p:,f:1
-064e:0082ac35:2454:013e:1:0
-MS Channel
-p:,f:1
-064f:0082ac35:2454:013e:1:0
-Canal Algerie
-p:GLOBECAST,f:1
-0650:0082ac35:2454:013e:1:0
-A3
-p:GLOBECAST,f:1
-0652:0082ac35:2454:013e:1:0
-RT Arabic HD
-p:,f:1
-0653:0082ac35:2454:013e:1:0
-Pop Economy
-p:,f:1
-069a:0082ac35:2454:013e:1:0
-Eutelsat Data 1
-p:MIT-xperts GmbH,f:1
-0641:0082ac35:2454:013e:25:0
-Al Jazeera HD
-p:EUTELSAT,f:1
 006e:00820000:1770:00be:2:0
 Radiolina
 p:
@@ -12434,6 +12407,9 @@ p:Warner Bros. Discovery,f:1
 02be:00820000:02bc:013e:25:0
 Eurosport 2 International HD
 p:Warner Bros. Discovery,f:1
+02ef:00820000:02bc:013e:25:0
+Eurosport 1 Greek HD
+p:Warner Bros Discovery,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2022
