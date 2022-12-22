@@ -312,6 +312,9 @@ transponders
 00c0ad30:0001:0001
 	s 11568000:22000000:1:3:192:2:0:1:2:0:2
 /
+00c0ad52:4321:00eb
+	s 11602000:9874000:1:3:192:2:0:1:2:0:2
+/
 00a00000:0001:0040
 	s 11512000:30000000:0:3:160:2:0:1:2:0:2
 /
@@ -542,6 +545,9 @@ transponders
 /
 00a0b1a0:0000:0000
 	s 12704000:6000000:1:3:160:2:0:1:2:0:2
+/
+00a02b83:0001:0001
+	s 11139000:5000000:0:4:160:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -929,9 +935,6 @@ p:Movistar+,f:1
 769e:00c00000:041e:0001:1:0
 M+LCampeones BAR
 p:CANAL+,f:1
-769f:00c00000:041e:0001:1:0
-Gol Mundial 2
-p:Movistar+,f:1
 769d:00c00000:041e:0001:1:0
 M+ LaLiga 2
 p:Movistar+,f:1
@@ -950,6 +953,9 @@ p:,f:1
 76a6:00c00000:041e:0001:1:0
 
 p:,f:1
+769f:00c00000:041e:0001:1:0
+Liga de Campeones 3
+p:Movistar+,f:1
 7504:00c00000:0420:0001:25:0
 Fox España HD
 p:Movistar+,f:1
@@ -1208,9 +1214,6 @@ p:Movistar+,f:1
 77c7:00c00000:040a:0001:1:0
 DreamWorks
 p:Movistar+,f:1
-77c9:00c00000:040a:0001:1:0
-Gol Mundial 2.
-p:Movistar+,f:1
 77c4:00c00000:040a:0001:1:0
 Liga de Campeones 5
 p:Movistar+,f:1
@@ -1231,6 +1234,9 @@ DAZN 4
 p:Movistar+,f:1
 77c6:00c00000:040a:0001:1:0
 Movistar Clasicos
+p:Movistar+,f:1
+77c9:00c00000:040a:0001:1:0
+M+LCampeones BAR 3
 p:Movistar+,f:1
 76c0:00c00000:040e:0001:1:0
 M+ Estrenos
@@ -2967,7 +2973,7 @@ p:Movistar+,f:1
 Eurosport 2
 p:Movistar+,f:1
 749d:00c00000:041c:0001:1:0
-M+ BBC Earth
+M+ Vacaciones
 p:Movistar+,f:1
 2b8e:00c00000:03f2:0001:25:0
 3sat HD
@@ -4466,9 +4472,6 @@ p:CANAL+,f:1
 74d5:00c00000:03f8:0001:25:0
 Gol Mundial HD
 p:Movistar+,f:1
-74db:00c00000:03f8:0001:25:0
-Gol Mundial 2 HD
-p:Movistar+,f:1
 74d6:00c00000:03f8:0001:25:0
 LigaSmartBankHD
 p:Movistar+,f:1
@@ -4481,6 +4484,9 @@ p:Movistar+,f:1
 74ce:00c00000:03f8:0001:25:0
 DAZN LaLiga2 HD
 p:,C:0000,f:1
+74db:00c00000:03f8:0001:25:0
+Liga de Campeones 3 HD
+p:Movistar+,f:1
 00fc:00c00000:0008:0085:1:0
 Sky Sport Bundesliga 9
 p:SKY,f:1
@@ -4607,6 +4613,9 @@ p:RR,f:1
 0002:00c0ad30:0001:0001:1:0
 MM1 Service 2
 p:RR,f:1
+0001:00c0ad52:4321:00eb:1:0
+FIS DAVOS
+p:LINE UP MEDIA COMMUNICATION HUNGARY,f:1
 001e:00a00000:0001:0040:22:0
 National Geographic Croatia
 p:Max TV,f:1
@@ -5330,9 +5339,6 @@ p:DigitALB,f:1
 0474:00a00000:4f4c:016e:22:0
 Info24
 p:DigitALB,f:1
-05f0:00a00000:4f4c:016e:25:0
-SS SRV_1
-p:DIGITALB,f:1
 04b0:00a00000:4f4c:016e:1:0
 Klan Kosova
 p:DigitALB,f:1
@@ -5345,6 +5351,12 @@ p:DigitALB,f:1
 0550:00a00000:4f4c:016e:1:0
 RTV-21 M
 p:DigitALB,f:1
+05b4:00a00000:4f4c:016e:25:0
+Big Brother 1 HD
+p:DigitALB,f:1
+05f0:00a00000:4f4c:016e:25:0
+Big Brother 2 HD
+p:DIGITALB,f:1
 0a94:00a00000:9dd0:016e:22:0
 FilmBox Arthouse
 p:A1 Broadcasting,f:1
@@ -6824,6 +6836,9 @@ p:UKR - 007,f:1
 0001:00a0b1a0:0000:0000:25:0
 UKI 1973 Coder 1
 p:,f:1
+0001:00a02b83:0001:0001:1:0
+RAI ITA 100 B
+p:RAI Radio Televisione Italiana,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -6839,9 +6854,6 @@ p:RR Media,f:1
 43de:00820000:2cec:013e:1:0
 Eurasia Worldwide
 p:,f:1
-439f:00820000:2cec:013e:1:0
-Bloomberg European TV
-p:Arqiva,f:1
 0e06:00820000:2d50:013e:1:0
 BBC First HD
 p:CANAL+,f:1
@@ -7145,14 +7157,8 @@ p:Radiotelevisione svizzera,f:1
 4338:00820000:300c:013e:25:0
 RSI LA 2 HD
 p:Radiotelevisione svizzera,f:1
-213f:00820000:3070:013e:1:0
-Rai 1
-p:RAI,f:1
 2140:00820000:3070:013e:1:0
-Rai 2
-p:RAI,f:1
-2141:00820000:3070:013e:1:0
-Rai 3
+Rai Radio 2 Visual
 p:RAI,f:1
 2145:00820000:3070:013e:1:0
 tivùlink
@@ -7172,6 +7178,9 @@ p:RAI,f:1
 214a:00820000:3070:013e:25:0
 Rai Premium HD
 p:RAI,f:1
+213f:00820000:3070:013e:25:0
+Rai YoYo HD
+p:Rai,f:1
 06a5:00820000:3138:013e:1:0
 TV Coran
 p:GlobeCast,f:1
@@ -7770,7 +7779,7 @@ p:Telespazio,f:1
 Sharqiya HD
 p:DU,f:1
 2529:00820000:13ef:013e:25:0
-AL Arabia HD
+Al Arabia HD
 p:DU,f:1
 252c:00820000:13ef:013e:25:0
 Sky News Arabia
@@ -7793,6 +7802,9 @@ p:DU,f:1
 252a:00820000:13ef:013e:25:0
 Al Hadath HD
 p:DU,f:1
+2530:00820000:13ef:013e:25:0
+Al Mashhad
+p:Du,f:1
 37d7:00820000:14b4:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
@@ -8378,9 +8390,6 @@ p:SkyItalia
 0dc4:00820000:1af4:fbff:130:0
 Fake TG 24 HD
 p:SkyItalia,f:1
-0deb:00820000:1af4:fbff:1:0
-Match Music
-p:SkyItalia,f:1
 2c3a:00820000:1af4:fbff:1:0
 Discovery Channel Italy +1
 p:SkyItalia,f:1
@@ -8660,9 +8669,9 @@ p:GLOBECAST
 29f2:00820000:1c20:013e:2:0
 WRN Sawt Al Alam
 p:GLOBECAST
-2a0f:00820000:1c20:013e:2:0
-RADIO ORIENT
-p:GLOBECAST
+0e31:00820000:1c20:013e:2:0
+Giornale Radio
+p:M-Three Satcom
 015f:00820000:1c84:013e:1:0
 Discovery HD
 p:NetMed,f:1
@@ -10400,9 +10409,6 @@ p:,f:1
 4530:00820000:30d4:013e:25:0
 Rai Gulp HD
 p:Rai,f:1
-4531:00820000:30d4:013e:25:0
-Rai YoYo HD
-p:Rai,f:1
 4543:00820000:30d4:013e:22:0
 Rai 3 TGR Puglia
 p:Rai,f:1
@@ -10652,9 +10658,6 @@ p:M-Three Satcom,f:1
 0537:00820000:3d54:013e:1:0
 WellTV
 p:M-Three Satcom,f:1
-0538:00820000:3d54:013e:1:0
-Value24
-p:M-Three Satcom,f:1
 0d4a:00820000:1450:013e:25:0
 Rai 2 HD
 p:Rai,f:1
@@ -10692,7 +10695,7 @@ p:Rai
 Rai Radio Kids
 p:Rai
 0d7a:00820000:1450:013e:2:0
-Rai Radio Indie
+No Name Radio
 p:Rai
 0d7b:00820000:1450:013e:2:0
 Rai Radio Tutta Italiana
@@ -10704,7 +10707,7 @@ p:Rai
 Rai Radio1 Sport
 p:Rai
 0d7e:00820000:1450:013e:10:0
-Rai Radio Trst A
+Rai Radio Slovenia
 p:Rai
 0d4f:00820000:1450:013e:31:0
 Rai 4K
@@ -11300,6 +11303,15 @@ p:GLOBECAST,f:1
 3331:00820000:1388:013e:1:0
 TV5 Monde Europe
 p:Globecast,f:1
+3332:00820000:1388:013e:1:0
+Arirang HD
+p:GLOBECAST,f:1
+3334:00820000:1388:013e:1:0
+RIK Sat HD
+p:GLOBECAST,f:1
+3335:00820000:1388:013e:2:0
+RIK3
+p:GLOBECAST
 05f9:00820000:2c24:013e:1:0
 Sahar Kurdish
 p:IRIB,f:1
@@ -11998,6 +12010,12 @@ Eurosport 2 International HD
 p:Warner Bros. Discovery,f:1
 02ef:00820000:02bc:013e:25:0
 Eurosport 1 Greek HD
+p:Warner Bros Discovery,f:1
+02f0:00820000:02bc:013e:25:0
+Eurosport 1 Serbian HD
+p:Warner Bros Discovery,f:1
+02f1:00820000:02bc:013e:25:0
+Eurosport 2 Serbian HD
 p:Warner Bros Discovery,f:1
 end
 === Compiled with Morpheus883's scripts ===
