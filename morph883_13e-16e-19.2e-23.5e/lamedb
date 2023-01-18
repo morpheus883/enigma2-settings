@@ -150,9 +150,6 @@ transponders
 00eb0000:0c84:0003
 	s 11778000:29900000:1:2:235:2:0:1:2:2:2
 /
-00ebad96:0001:0000
-	s 11670000:6000000:1:3:235:2:0:1:2:0:2
-/
 00eb3139:0000:0000
 	s 12601000:4800000:1:3:235:2:0:1:2:0:2
 /
@@ -1032,6 +1029,9 @@ transponders
 00820000:1900:fbff
 	s 11996000:29900000:1:4:130:2:0:1:1:0:2
 /
+0082abc0:0001:0001
+	s 11200000:34290000:1:0:130:2:0:1:2:0:2
+/
 00820000:1d4c:fbff
 	s 12206000:29900000:0:4:130:2:0:1:1:0:2
 /
@@ -1551,7 +1551,7 @@ p:M7 Group
 NPO 3FM
 p:M7 Group
 525b:00eb0000:0c99:0003:2:0
-NPO Radio4
+NPO KLASSIEK
 p:M7 group
 525c:00eb0000:0c99:0003:2:0
 NPO Radio5
@@ -1824,7 +1824,7 @@ p:M7 Group
 CRo VLTAVA
 p:M7 Group
 1f7b:00eb0000:0ca1:0003:2:0
-CRo Radio DAB Praha
+CRo RADIO PRAHA
 p:M7 Group
 1f7a:00eb0000:0ca1:0003:2:0
 CRo JAZZ
@@ -2290,6 +2290,9 @@ Film Klub Extra
 p:Telekom Srbija,f:1
 4e94:00eb0000:0c86:0003:1:0
 EuroCinema 2
+p:Telekom Srbija,f:1
+4e95:00eb0000:0c86:0003:1:0
+TLC
 p:Telekom Srbija,f:1
 4e99:00eb0000:0ca4:0003:1:0
 BBC Earth
@@ -2882,207 +2885,6 @@ p:M7 Group,f:1
 3aae:00eb0000:0c84:0003:22:0
 Nick Jr Hungary
 p:M7 Group,f:1
-0802:00ebad96:0001:0000:1:0
-2050 - ESKA Kielce
-p:,f:1
-0906:00ebad96:0001:0000:1:0
-2310 - ESKA Szczecinek
-p:,f:1
-050a:00ebad96:0001:0000:1:0
-1290 - SuperNova Nowy Sacz
-p:,f:1
-080c:00ebad96:0001:0000:1:0
-2060 - ESKA Siedlce
-p:,f:1
-100e:00ebad96:0001:0000:1:0
-4110 - PLUS Olsztyn
-p:,f:1
-0910:00ebad96:0001:0000:1:0
-2320 - ESKA Przemysl
-p:,f:1
-0816:00ebad96:0001:0000:1:0
-2070 - ESKA Krakow
-p:,f:1
-041a:00ebad96:0001:0000:1:0
-1050 - SuperNova Kielce
-p:,f:1
-091a:00ebad96:0001:0000:1:0
-2330 - ESKA Malopolska
-p:,f:1
-0820:00ebad96:0001:0000:1:0
-2080 - ESKA Leszno
-p:,f:1
-1022:00ebad96:0001:0000:1:0
-4130 - PLUS Lublin
-p:,f:1
-082a:00ebad96:0001:0000:1:0
-2090 - ESKA Pila
-p:,f:1
-042e:00ebad96:0001:0000:1:0
-1070 - SuperNova Krakow
-p:,f:1
-0834:00ebad96:0001:0000:1:0
-2100 - ESKA Lodz
-p:,f:1
-0938:00ebad96:0001:0000:1:0
-2360 - ESKA Krasnik
-p:,f:1
-083e:00ebad96:0001:0000:1:0
-2110 - ESKA Olsztyn
-p:,f:1
-0c44:00ebad96:0001:0000:1:0
-3140 - VOX Poznan
-p:,f:1
-0848:00ebad96:0001:0000:1:0
-2120 - ESKA Opole
-p:,f:1
-1f4a:00ebad96:0001:0000:1:0
-8010 - Radio Rodzina
-p:,f:1
-044c:00ebad96:0001:0000:1:0
-1100 - SuperNova Lodz
-p:,f:1
-0852:00ebad96:0001:0000:1:0
-2130 - ESKA Lublin
-p:,f:1
-085c:00ebad96:0001:0000:1:0
-2140 - ESKA Poznan
-p:,f:1
-0460:00ebad96:0001:0000:1:0
-1120 - SuperNova Opole
-p:,f:1
-0960:00ebad96:0001:0000:1:0
-2400 - ESKA Starachowice
-p:,f:1
-0564:00ebad96:0001:0000:1:0
-1380 - SuperNova Warszawa
-p:,f:1
-0866:00ebad96:0001:0000:1:0
-2150 - ESKA Torun
-p:,f:1
-0870:00ebad96:0001:0000:1:0
-2160 - ESKA Tarnow
-p:,f:1
-0974:00ebad96:0001:0000:1:0
-2420 - ESKA Zary
-p:,f:1
-087a:00ebad96:0001:0000:1:0
-2170 - ESKA Trojmiasto
-p:,f:1
-047e:00ebad96:0001:0000:1:0
-1150 - SuperNova Torun
-p:,f:1
-097e:00ebad96:0001:0000:1:0
-2430 - ESKA Elblag
-p:,f:1
-0884:00ebad96:0001:0000:1:0
-2180 - ESKA Wroclaw
-p:,f:1
-0988:00ebad96:0001:0000:1:0
-2440 - ESKA Ilawa
-p:,f:1
-0c8a:00ebad96:0001:0000:1:0
-3210 - VOX Radom
-p:,f:1
-088e:00ebad96:0001:0000:1:0
-2190 - ESKA Zielona Gora
-p:,f:1
-0492:00ebad96:0001:0000:1:0
-1170 - SuperNova Gdansk
-p:,f:1
-0992:00ebad96:0001:0000:1:0
-2450 - ESKA Grudziadz
-p:,f:1
-0f96:00ebad96:0001:0000:1:0
-3990 - VOX
-p:,f:1
-0898:00ebad96:0001:0000:1:0
-2200 - ESKA Ostrow
-p:,f:1
-049c:00ebad96:0001:0000:1:0
-1180 - SuperNova Wroclaw
-p:,f:1
-099c:00ebad96:0001:0000:1:0
-2460 - ESKA Lomza
-p:,f:1
-0fa0:00ebad96:0001:0000:1:0
-4000 - PLUS SES
-p:,f:1
-08a2:00ebad96:0001:0000:1:0
-2210 - ESKA Radom
-p:,f:1
-08ac:00ebad96:0001:0000:1:0
-2220 - ESKA Slask
-p:,f:1
-10ae:00ebad96:0001:0000:1:0
-4270 - PLUS Koszalin
-p:,f:1
-09b0:00ebad96:0001:0000:1:0
-2480 - ESKA Wroclaw JG
-p:,f:1
-08b6:00ebad96:0001:0000:1:0
-2230 - ESKA Zamosc
-p:,f:1
-08c0:00ebad96:0001:0000:1:0
-2240 - ESKA Rzeszow
-p:,f:1
-09c4:00ebad96:0001:0000:1:0
-2500 - ESKA Ostrzeszow
-p:,f:1
-05c8:00ebad96:0001:0000:1:0
-1480 - SuperNova Jelenia Gora
-p:,f:1
-08ca:00ebad96:0001:0000:1:0
-2250 - ESKA Plock
-p:,f:1
-07d0:00ebad96:0001:0000:1:0
-2000 - ESKA SES
-p:,f:1
-08d4:00ebad96:0001:0000:1:0
-2260 - ESKA Szczecin
-p:,f:1
-04d8:00ebad96:0001:0000:1:0
-1240 - SuperNova Rzeszow
-p:,f:1
-09d8:00ebad96:0001:0000:1:0
-2520 - ESKA Braniewo
-p:,f:1
-07da:00ebad96:0001:0000:1:0
-2010 - ESKA Belchatow
-p:,f:1
-08de:00ebad96:0001:0000:1:0
-2270 - ESKA Koszalin
-p:,f:1
-0be0:00ebad96:0001:0000:1:0
-3040 - VOX Gorzow
-p:,f:1
-07e4:00ebad96:0001:0000:1:0
-2020 - ESKA Bialystok
-p:,f:1
-05e6:00ebad96:0001:0000:1:0
-1510 - SuperNova Trzebnica
-p:,f:1
-04ec:00ebad96:0001:0000:1:0
-1260 - SuperNova Szczecin
-p:,f:1
-07ee:00ebad96:0001:0000:1:0
-2030 - ESKA Bydgoszcz
-p:,f:1
-10f4:00ebad96:0001:0000:1:0
-4340 - PLUS Podhale
-p:,f:1
-07f8:00ebad96:0001:0000:1:0
-2040 - ESKA Gorzow
-p:,f:1
-05fa:00ebad96:0001:0000:1:0
-1530 - SuperNova Paprotnia
-p:,f:1
-08fc:00ebad96:0001:0000:1:0
-2300 - ESKA Beskidy/Zywiec
-p:,f:1
-1f36:00ebad96:0001:0000:1:0
-7990 - 7990
-p:,f:1
 0001:00eb3139:0000:0000:25:0
 2DF-Mainz-1
 p:ZDF-Mainz,f:1
@@ -3981,7 +3783,7 @@ p:Movistar+,f:1
 Canal Hollywood
 p:Movistar+,f:1
 77c3:00c00000:040a:0001:1:0
-Gol Mundial
+M+ Supercopa
 p:Movistar+,f:1
 77d8:00c00000:040a:0001:1:0
 Liga de Campeones 4
@@ -4071,7 +3873,7 @@ p:Movistar+,f:1
 #VAMOS BAR2
 p:Movistar+,f:1
 7579:00c00000:0412:0001:1:0
-Gol Mundial.
+M+ Supercopa.
 p:Movistar+,f:1
 757b:00c00000:0412:0001:1:0
 Liga de Campeones 1
@@ -7251,13 +7053,13 @@ p:Movistar+,f:1
 M+LCampeones BAR
 p:CANAL+,f:1
 74d5:00c00000:03f8:0001:25:0
-Gol Mundial HD
+M+ Supercopa HD
 p:Movistar+,f:1
 74d6:00c00000:03f8:0001:25:0
 LigaSmartBankHD
 p:Movistar+,f:1
 74d8:00c00000:03f8:0001:25:0
-Gol Mundial HD.
+M+ Supercopa HD.
 p:Movistar+,f:1
 74d4:00c00000:03f8:0001:25:0
 Movistar Estrenos 2 HD
@@ -10635,7 +10437,7 @@ p:NetMed
 Alpha HD
 p:NETMED,f:1
 0134:00820000:157c:013e:1:0
-M1_TEST1
+NovaStarsHD
 p:NetMed,f:1
 013d:00820000:157c:013e:1:0
 M1_TEST2
@@ -14135,6 +13937,9 @@ p:SkyItalia,f:1
 0f6f:00820000:1900:fbff:25:0
 Sky Sport 2 HD
 p:SkyItalia,f:1
+0001:0082abc0:0001:0001:1:0
+Eutelsat Promo TV
+p:aCAN Group,f:1
 105e:00820000:1d4c:fbff:251:0
 Fusion BGDL 4190
 p:SkyItalia
