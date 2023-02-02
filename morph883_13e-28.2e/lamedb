@@ -539,9 +539,6 @@ p:BSkyB,f:1
 18c5:011a0000:07fd:0002:1:0
 BBC One West
 p:BSkyB,f:1
-18cf:011a0000:07fd:0002:1:0
-BBC One Cambridge
-p:BSkyB,f:1
 18d9:011a0000:07fd:0002:1:0
 BBC One Channel Islands
 p:BSkyB,f:1
@@ -721,6 +718,24 @@ BBC Three
 p:BSkyB,f:1
 2885:011a0000:0800:0002:1:0
 BBC Three
+p:BSkyB,f:1
+2873:011a0000:0800:0002:25:0
+BBC Scotland
+p:BSkyB,f:1
+287c:011a0000:0800:0002:25:1
+BBC Two Wales
+p:BSkyB,f:1
+287d:011a0000:0800:0002:25:2
+BBC Four
+p:BSkyB,f:1
+287e:011a0000:0800:0002:25:3
+CBeebies UK
+p:BSkyB,f:1
+2885:011a0000:0800:0002:25:4
+BBC One
+p:BSkyB,f:1
+2886:011a0000:0800:0002:25:5
+BBC One East Midlands
 p:BSkyB,f:1
 27a1:011a0000:0805:0002:1:0
 ITV 1 Central West +1
@@ -1511,9 +1526,6 @@ p:BSkyB,f:1
 1078:011a0000:07dc:0002:1:0
 SkySpMainEv
 p:BSkyB,f:1
-cb9b:011a0000:083c:0002:1:0
-MTA1 World
-p:BSkyB,f:1
 cb9c:011a0000:083c:0002:1:0
 TBN UK
 p:BSkyB,f:1
@@ -1621,6 +1633,9 @@ Television X
 p:BSkyB,f:1
 c6cd:011a0000:082a:0002:1:0
 Colors
+p:BSkyB,f:1
+c6c6:011a0000:082a:0002:1:0
+PBC
 p:BSkyB,f:1
 1789:011a0000:07d7:0002:1:0
 Sky Crime+1
@@ -1979,9 +1994,6 @@ p:BSkyB,f:1
 d7ad:011a0000:0840:0002:1:0
 PBS America
 p:BSkyB,f:1
-d7a0:011a0000:0840:0002:1:0
-BoxNation
-p:BSkyB,f:1
 d7f0:011a0000:0840:0002:1:0
 That's 80s
 p:BSkyB,f:1
@@ -2090,9 +2102,6 @@ p:BSkyB,f:1
 d3c9:011a0000:0829:0002:1:0
 Islam Channel Urdu
 p:BSkyB,f:1
-d3c2:011a0000:0829:0002:1:0
-Smithsonian Channel UK
-p:BSkyB,f:1
 d3cb:011a0000:0829:0002:1:0
 Colors Rishtey TV
 p:BSkyB,f:1
@@ -2194,6 +2203,9 @@ BBC Two NI HD
 p:BSkyB,f:1
 04b0:011a0000:07e8:0002:25:0
 BBC Two NI HD
+p:BSkyB,f:1
+04b4:011a0000:07e8:0002:25:0
+BBC One South HD
 p:BSkyB,f:1
 cf9b:011a0000:083a:0002:25:0
 NHK World HD
@@ -2320,9 +2332,6 @@ Gems TV
 p:BSkyB,f:1
 c4f4:011a0000:0813:0002:1:0
 Channel 7
-p:BSkyB,f:1
-c4f9:011a0000:0813:0002:1:0
-Thane
 p:BSkyB,f:1
 c518:011a0000:0813:0002:1:0
 TJC Beauty
@@ -2576,17 +2585,8 @@ p:BSkyB,f:1
 1603:011a0000:07e9:0002:25:0
 Premier Sports 2 HD
 p:BSkyB,f:1
-1602:011a0000:07e9:0002:25:0
-Viaplay 2 HD
-p:BSkyB,f:1
-1522:011a0000:07e9:0002:25:0
-Viaplay 2 HD
-p:BSkyB,f:1
 1526:011a0000:07e9:0002:25:0
 Premier 2 HD
-p:BSkyB,f:1
-1809:011a0000:07e9:0002:25:0
-Viaplay 1 HD
 p:BSkyB,f:1
 0f0d:011a0000:07e9:0002:25:0
 Sky Atlantic HD
@@ -2596,9 +2596,6 @@ Sky Sports Racing UK HD
 p:BSkyB,f:1
 0f5d:011a0000:07e9:0002:25:0
 SkySp RacingHD
-p:BSkyB,f:1
-1521:011a0000:07e9:0002:25:0
-Viaplay 1 HD
 p:BSkyB,f:1
 180a:011a0000:07e9:0002:25:0
 Premier 1 HD
@@ -2620,9 +2617,6 @@ BBC One North Ireland HD
 p:BSkyB,f:1
 1b28:011a0000:0802:0002:25:0
 CBBC HD
-p:BSkyB,f:1
-1b30:011a0000:0802:0002:25:0
-BBC Two HD
 p:BSkyB,f:1
 1b31:011a0000:0802:0002:25:0
 BBC One HD
@@ -2784,7 +2778,7 @@ p:BSkyB,f:1
 Sky Crime HD
 p:BSkyB,f:1
 0ee7:011a0000:07ee:0002:25:2
-Sky Modern Greats HD
+Sky Greats HD
 p:BSkyB,f:1
 0ee8:011a0000:07ee:0002:25:3
 Sky Drama HD
@@ -3120,91 +3114,97 @@ p:BSkyB
 BBC Radio Foyle
 p:BSkyB
 190d:011a0000:07f5:0002:1:0
-12421H SID 0x190d
-p:DVB-S QPSK 12421H 28.2Â°E,f:1
+BBC Three
+p:BSkyB,f:1
 190e:011a0000:07f5:0002:1:0
-12421H SID 0x190e
-p:DVB-S QPSK 12421H 28.2Â°E,f:1
+BBC Four
+p:BSkyB,f:1
 190f:011a0000:07f5:0002:1:0
 BBC Scotland
-p:DVB-S QPSK 12421H 28.2Â°E,f:1
+p:BSkyB,f:1
 1910:011a0000:07f5:0002:1:0
 BBC Alba
-p:DVB-S QPSK 12421H 28.2Â°E,f:1
+p:BSkyB,f:1
 1912:011a0000:07f5:0002:1:0
 BBC Parliament
-p:DVB-S QPSK 12421H 28.2Â°E,f:1
+p:BSkyB,f:1
 1913:011a0000:07f5:0002:1:0
-12421H SID 0x1913
-p:DVB-S QPSK 12421H 28.2Â°E,f:1
+BBC Red Button 1
+p:BSkyB,f:1
 191f:011a0000:07f5:0002:2:0
-12421H SID 0x191f
-p:DVB-S QPSK 12421H 28.2Â°E
+BBC Radio 1
+p:BSkyB
 1920:011a0000:07f5:0002:2:0
-12421H SID 0x1920
-p:DVB-S QPSK 12421H 28.2Â°E
+BBC Radio 2
+p:BSkyB
 1921:011a0000:07f5:0002:2:0
-12421H SID 0x1921
-p:DVB-S QPSK 12421H 28.2Â°E
+BBC Radio 3
+p:BSkyB
 1922:011a0000:07f5:0002:2:0
-12421H SID 0x1922
-p:DVB-S QPSK 12421H 28.2Â°E
+BBC Radio 4 FM
+p:BSkyB
 1923:011a0000:07f5:0002:2:0
-12421H SID 0x1923
-p:DVB-S QPSK 12421H 28.2Â°E
+BBC Radio 5 Live
+p:BSkyB
 1924:011a0000:07f5:0002:2:0
-12421H SID 0x1924
-p:DVB-S QPSK 12421H 28.2Â°E
+BBC Radio 6 Music
+p:BSkyB
 1925:011a0000:07f5:0002:2:0
-12421H SID 0x1925
-p:DVB-S QPSK 12421H 28.2Â°E
+BBC Radio 4 LW
+p:BSkyB
 1926:011a0000:07f5:0002:2:0
-12421H SID 0x1926
-p:DVB-S QPSK 12421H 28.2Â°E
+BBC Radio 5 Sports Extra
+p:BSkyB
 1927:011a0000:07f5:0002:2:0
-12421H SID 0x1927
-p:DVB-S QPSK 12421H 28.2Â°E
+BBC Radio 4 Extra
+p:BSkyB
 1928:011a0000:07f5:0002:2:0
-12421H SID 0x1928
-p:DVB-S QPSK 12421H 28.2Â°E
+BBC Radio 1 Extra
+p:BSkyB
 192b:011a0000:07f5:0002:1:0
 CBBC
-p:DVB-S QPSK 12421H 28.2Â°E,f:1
+p:BSkyB,f:1
 192c:011a0000:07f5:0002:1:0
 CBeebies
-p:DVB-S QPSK 12421H 28.2Â°E,f:1
+p:BSkyB,f:1
 192e:011a0000:07f5:0002:1:0
-12421H SID 0x192e
-p:DVB-S QPSK 12421H 28.2Â°E,f:1
+6446
+p:BSkyB,f:1
 1950:011a0000:07f5:0002:2:0
-12421H SID 0x1950
-p:DVB-S QPSK 12421H 28.2Â°E
+BBC World Service UK
+p:BSkyB
 1952:011a0000:07f5:0002:2:0
-12421H SID 0x1952
-p:DVB-S QPSK 12421H 28.2Â°E
+BBC Radio Cymru
+p:BSkyB
 1953:011a0000:07f5:0002:2:0
-12421H SID 0x1953
-p:DVB-S QPSK 12421H 28.2Â°E
+BBC Radio Cymru 2
+p:BSkyB
 1954:011a0000:07f5:0002:2:0
-12421H SID 0x1954
-p:DVB-S QPSK 12421H 28.2Â°E
+BBC Radio Scotland
+p:BSkyB
 1955:011a0000:07f5:0002:2:0
-12421H SID 0x1955
-p:DVB-S QPSK 12421H 28.2Â°E
+BBC Radio nan Gaidheal
+p:BSkyB
 1956:011a0000:07f5:0002:2:0
-12421H SID 0x1956
-p:DVB-S QPSK 12421H 28.2Â°E
+BBC Radio Ulster FM
+p:BSkyB
 1958:011a0000:07f5:0002:2:0
-12421H SID 0x1958
-p:DVB-S QPSK 12421H 28.2Â°E
+BBC London 94.9 FM
+p:BSkyB
 195a:011a0000:07f5:0002:2:0
-12421H SID 0x195a
-p:DVB-S QPSK 12421H 28.2Â°E
+BBC Asian Network
+p:BSkyB
 190b:011a0000:07f5:0002:1:0
 BBC One
 p:BSkyB,f:1
 1919:011a0000:07f5:0002:1:0
 BBC One
+p:BSkyB,f:1
+195d:011a0000:07f5:0002:1:0
+BBC Three
+p:BSkyB,f:1
+195f:011a0000:07f5:0002:1:0
+CBBC
 p:BSkyB,f:1
 0002:011a30e3:0001:0001:1:0
 B
@@ -3485,9 +3485,6 @@ p:Globecast,f:1
 06ac:00820000:3138:013e:1:0
 TV Rus Plus
 p:Globecast,f:1
-06ae:00820000:3138:013e:1:0
-Rossiya 24
-p:GlobeCast,f:1
 06af:00820000:3138:013e:2:0
 Chaine 2
 p:GlobeCast
@@ -3499,9 +3496,6 @@ Chaine 1
 p:GlobeCast
 06b6:00820000:3138:013e:1:0
 TV 8 Russia
-p:GLOBECAST,f:1
-06b1:00820000:3138:013e:1:0
-NTV Mir
 p:GLOBECAST,f:1
 06ab:00820000:3138:013e:1:0
 TV Rus
@@ -3602,12 +3596,6 @@ p:Telespazio,f:1
 134b:00820000:33f4:013e:1:0
 Hadi 3
 p:Telespazio,f:1
-132a:00820000:33f4:013e:1:0
-Rik Sat
-p:Telespazio,f:1
-135c:00820000:33f4:013e:2:0
-RIK 3
-p:Telespazio
 135b:00820000:33f4:013e:2:0
 Radio Gamma Stereo
 p:Telespazio
@@ -3644,63 +3632,6 @@ p:Cyfra +,f:1
 32df:00820000:0190:013e:1:0
 National Geographic HD Polska
 p:Cyfra +,f:1
-3305:00820000:0190:013e:1:0
-Eurosport 1 HD Intl
-p:Cyfra +,f:1
-3307:00820000:0190:013e:1:0
-ESP HD Turk
-p:Cyfra +,f:1
-3308:00820000:0190:013e:1:0
-ESP HD Russian
-p:Cyfra +,f:1
-3309:00820000:0190:013e:1:0
-ESP HD Dutch
-p:Cyfra +,f:1
-330a:00820000:0190:013e:1:0
-ESP HD Czech
-p:Cyfra +,f:1
-330b:00820000:0190:013e:1:0
-ESP HD Croatian
-p:Cyfra +,f:1
-330d:00820000:0190:013e:1:0
-ESP HD Portuguese
-p:Cyfra +,f:1
-330e:00820000:0190:013e:1:0
-ESP HD Polish
-p:Cyfra +,f:1
-330f:00820000:0190:013e:1:0
-ESP HD Hungarian
-p:Cyfra +,f:1
-3310:00820000:0190:013e:1:0
-ESP HD Bulgaria
-p:Cyfra +,f:1
-3311:00820000:0190:013e:1:0
-Eurosport HD Italy
-p:Cyfra +,f:1
-3312:00820000:0190:013e:1:0
-ESP HD Romania
-p:Cyfra +,f:1
-3313:00820000:0190:013e:1:0
-ESP HD UPC
-p:Cyfra +,f:1
-3314:00820000:0190:013e:1:0
-ESP HD Spain
-p:Cyfra +,f:1
-3315:00820000:0190:013e:1:0
-ESP HD
-p:Cyfra +,f:1
-3316:00820000:0190:013e:1:0
-ESP HD Serbia
-p:Cyfra +,f:1
-3317:00820000:0190:013e:1:0
-ESP HD Greek
-p:Cyfra +,f:1
-3318:00820000:0190:013e:1:0
-EUROSPORT HD PL
-p:Cyfra +,f:1
-331d:00820000:0190:013e:1:0
-ESP HD test D
-p:CYFRA +,f:1
 32e0:00820000:0190:013e:1:0
 MiniMini+ HD
 p:nc+,f:1
@@ -3721,9 +3652,6 @@ Canal+ Now HD
 p:nc+,f:1
 331b:00820000:0190:013e:1:0
 NATIONAL GEO HD
-p:nc+,f:1
-3306:00820000:0190:013e:1:0
-Eurosport HD French
 p:nc+,f:1
 32fd:00820000:0190:013e:1:0
 NATIONAL GEO HD
@@ -4040,24 +3968,6 @@ p:Telespazio,f:1
 4227:00820000:3db8:013e:12:0
 OTA TV Sat
 p:Telespazio
-4206:00820000:3db8:013e:1:0
-Privé
-p:Telespazio,f:1
-4208:00820000:3db8:013e:1:0
-Sexto Senso
-p:Telespazio,f:1
-4209:00820000:3db8:013e:1:0
-Pink O TV
-p:Telespazio,f:1
-420a:00820000:3db8:013e:1:0
-Passion
-p:Telespazio,f:1
-421e:00820000:3db8:013e:1:0
-SCT (Satisfaction Channel Television)
-p:Telespazio,f:1
-421f:00820000:3db8:013e:1:0
-Just 89
-p:Telespazio,f:1
 4252:00820000:3db8:013e:1:0
 RDS Relax
 p:Telespazio,f:1
@@ -4793,9 +4703,6 @@ p:Telespazio
 02ff:00820000:1b58:013e:2:0
 DimSuono Soft RM
 p:Telespazio
-030c:00820000:1b58:013e:1:0
-QVC Italia
-p:Telespazio,f:1
 02db:00820000:1b58:013e:2:0
 Radio Mariam Armenia
 p:Telespazio
@@ -4880,9 +4787,6 @@ p:AH-EDP
 1c53:00820000:1c20:013e:2:0
 R Tunisie Internatio
 p:AH-EDP
-1c38:00820000:1c20:013e:1:0
-CCTV 4
-p:Harmonic,f:1
 1c6f:00820000:1c20:013e:1:0
 Al Bayyinat TV
 p:Eutelsat,f:1
@@ -5603,9 +5507,6 @@ p:STN,f:1
 39d6:00820000:1fa4:013e:1:0
 Sterk TV
 p:STN,f:1
-39d8:00820000:1fa4:013e:1:0
-Thai TV Global Network
-p:STN,f:1
 39d1:00820000:1fa4:013e:25:0
 BBC Persian HD
 p:BBC World Service,f:1
@@ -6191,12 +6092,6 @@ p:M7 Group,f:1
 4207:00820000:2f44:013e:1:0
 Brazzers HD
 p:ARC/DCM1 TSOIP,f:1
-4209:00820000:2f44:013e:2:0
-VOICE OF CRO
-p:OIV
-4208:00820000:2f44:013e:25:0
-HRT International HD
-p:OIV,f:1
 422d:00820000:2f44:013e:22:0
 Class TV Moda
 p:M-Three Satcom,f:1
@@ -6859,6 +6754,9 @@ Kabelio BBC News
 p:KABELIO.CH,f:1
 3768:00820000:06a4:013e:1:0
 Kabelio ITV2
+p:KABELIO.CH,f:1
+3764:00820000:06a4:013e:25:0
+Kabelio ITV4
 p:KABELIO.CH,f:1
 10ea:00820000:03e8:013e:25:0
 TVN 24 Bizness HD
@@ -7547,9 +7445,6 @@ p:,f:1
 04b9:00820000:23f0:013e:1:0
 HotBird 4K1
 p:,f:1
-04b8:00820000:23f0:013e:1:0
-Travel Africa Network
-p:iChannel LTD,f:1
 0064:00820000:3264:013e:25:0
 Kabelio 3+
 p:KABELIO.CH,f:1

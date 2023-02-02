@@ -405,6 +405,18 @@ transponders
 005a0000:28e1:217c
 	s 12188000:31400000:1:2:90:2:0:1:2:0:2:13:262140:1
 /
+005ab0b2:18e1:217c
+	s 12466000:41950000:1:4:90:2:0:1:2:0:2:12:262140:1
+/
+005ab0b2:18e2:217c
+	s 12466000:41950000:1:4:90:2:0:1:2:0:2:16:262140:1
+/
+005ab0b2:60e1:217c
+	s 12466000:41950000:1:4:90:2:0:1:2:0:2:23:262140:1
+/
+005ab0b2:28e1:217c
+	s 12466000:41950000:1:4:90:2:0:1:2:0:2:13:262140:1
+/
 end
 services
 43a0:00820000:2cec:013e:1:0
@@ -683,9 +695,6 @@ p:Globecast,f:1
 06ac:00820000:3138:013e:1:0
 TV Rus Plus
 p:Globecast,f:1
-06ae:00820000:3138:013e:1:0
-Rossiya 24
-p:GlobeCast,f:1
 06af:00820000:3138:013e:2:0
 Chaine 2
 p:GlobeCast
@@ -697,9 +706,6 @@ Chaine 1
 p:GlobeCast
 06b6:00820000:3138:013e:1:0
 TV 8 Russia
-p:GLOBECAST,f:1
-06b1:00820000:3138:013e:1:0
-NTV Mir
 p:GLOBECAST,f:1
 06ab:00820000:3138:013e:1:0
 TV Rus
@@ -800,12 +806,6 @@ p:Telespazio,f:1
 134b:00820000:33f4:013e:1:0
 Hadi 3
 p:Telespazio,f:1
-132a:00820000:33f4:013e:1:0
-Rik Sat
-p:Telespazio,f:1
-135c:00820000:33f4:013e:2:0
-RIK 3
-p:Telespazio
 135b:00820000:33f4:013e:2:0
 Radio Gamma Stereo
 p:Telespazio
@@ -842,63 +842,6 @@ p:Cyfra +,f:1
 32df:00820000:0190:013e:1:0
 National Geographic HD Polska
 p:Cyfra +,f:1
-3305:00820000:0190:013e:1:0
-Eurosport 1 HD Intl
-p:Cyfra +,f:1
-3307:00820000:0190:013e:1:0
-ESP HD Turk
-p:Cyfra +,f:1
-3308:00820000:0190:013e:1:0
-ESP HD Russian
-p:Cyfra +,f:1
-3309:00820000:0190:013e:1:0
-ESP HD Dutch
-p:Cyfra +,f:1
-330a:00820000:0190:013e:1:0
-ESP HD Czech
-p:Cyfra +,f:1
-330b:00820000:0190:013e:1:0
-ESP HD Croatian
-p:Cyfra +,f:1
-330d:00820000:0190:013e:1:0
-ESP HD Portuguese
-p:Cyfra +,f:1
-330e:00820000:0190:013e:1:0
-ESP HD Polish
-p:Cyfra +,f:1
-330f:00820000:0190:013e:1:0
-ESP HD Hungarian
-p:Cyfra +,f:1
-3310:00820000:0190:013e:1:0
-ESP HD Bulgaria
-p:Cyfra +,f:1
-3311:00820000:0190:013e:1:0
-Eurosport HD Italy
-p:Cyfra +,f:1
-3312:00820000:0190:013e:1:0
-ESP HD Romania
-p:Cyfra +,f:1
-3313:00820000:0190:013e:1:0
-ESP HD UPC
-p:Cyfra +,f:1
-3314:00820000:0190:013e:1:0
-ESP HD Spain
-p:Cyfra +,f:1
-3315:00820000:0190:013e:1:0
-ESP HD
-p:Cyfra +,f:1
-3316:00820000:0190:013e:1:0
-ESP HD Serbia
-p:Cyfra +,f:1
-3317:00820000:0190:013e:1:0
-ESP HD Greek
-p:Cyfra +,f:1
-3318:00820000:0190:013e:1:0
-EUROSPORT HD PL
-p:Cyfra +,f:1
-331d:00820000:0190:013e:1:0
-ESP HD test D
-p:CYFRA +,f:1
 32e0:00820000:0190:013e:1:0
 MiniMini+ HD
 p:nc+,f:1
@@ -919,9 +862,6 @@ Canal+ Now HD
 p:nc+,f:1
 331b:00820000:0190:013e:1:0
 NATIONAL GEO HD
-p:nc+,f:1
-3306:00820000:0190:013e:1:0
-Eurosport HD French
 p:nc+,f:1
 32fd:00820000:0190:013e:1:0
 NATIONAL GEO HD
@@ -1238,24 +1178,6 @@ p:Telespazio,f:1
 4227:00820000:3db8:013e:12:0
 OTA TV Sat
 p:Telespazio
-4206:00820000:3db8:013e:1:0
-Privé
-p:Telespazio,f:1
-4208:00820000:3db8:013e:1:0
-Sexto Senso
-p:Telespazio,f:1
-4209:00820000:3db8:013e:1:0
-Pink O TV
-p:Telespazio,f:1
-420a:00820000:3db8:013e:1:0
-Passion
-p:Telespazio,f:1
-421e:00820000:3db8:013e:1:0
-SCT (Satisfaction Channel Television)
-p:Telespazio,f:1
-421f:00820000:3db8:013e:1:0
-Just 89
-p:Telespazio,f:1
 4252:00820000:3db8:013e:1:0
 RDS Relax
 p:Telespazio,f:1
@@ -1991,9 +1913,6 @@ p:Telespazio
 02ff:00820000:1b58:013e:2:0
 DimSuono Soft RM
 p:Telespazio
-030c:00820000:1b58:013e:1:0
-QVC Italia
-p:Telespazio,f:1
 02db:00820000:1b58:013e:2:0
 Radio Mariam Armenia
 p:Telespazio
@@ -2078,9 +1997,6 @@ p:AH-EDP
 1c53:00820000:1c20:013e:2:0
 R Tunisie Internatio
 p:AH-EDP
-1c38:00820000:1c20:013e:1:0
-CCTV 4
-p:Harmonic,f:1
 1c6f:00820000:1c20:013e:1:0
 Al Bayyinat TV
 p:Eutelsat,f:1
@@ -2801,9 +2717,6 @@ p:STN,f:1
 39d6:00820000:1fa4:013e:1:0
 Sterk TV
 p:STN,f:1
-39d8:00820000:1fa4:013e:1:0
-Thai TV Global Network
-p:STN,f:1
 39d1:00820000:1fa4:013e:25:0
 BBC Persian HD
 p:BBC World Service,f:1
@@ -3389,12 +3302,6 @@ p:M7 Group,f:1
 4207:00820000:2f44:013e:1:0
 Brazzers HD
 p:ARC/DCM1 TSOIP,f:1
-4209:00820000:2f44:013e:2:0
-VOICE OF CRO
-p:OIV
-4208:00820000:2f44:013e:25:0
-HRT International HD
-p:OIV,f:1
 422d:00820000:2f44:013e:22:0
 Class TV Moda
 p:M-Three Satcom,f:1
@@ -4057,6 +3964,9 @@ Kabelio BBC News
 p:KABELIO.CH,f:1
 3768:00820000:06a4:013e:1:0
 Kabelio ITV2
+p:KABELIO.CH,f:1
+3764:00820000:06a4:013e:25:0
+Kabelio ITV4
 p:KABELIO.CH,f:1
 10ea:00820000:03e8:013e:25:0
 TVN 24 Bizness HD
@@ -4745,9 +4655,6 @@ p:,f:1
 04b9:00820000:23f0:013e:1:0
 HotBird 4K1
 p:,f:1
-04b8:00820000:23f0:013e:1:0
-Travel Africa Network
-p:iChannel LTD,f:1
 0064:00820000:3264:013e:25:0
 Kabelio 3+
 p:KABELIO.CH,f:1
@@ -5279,9 +5186,6 @@ p:Globecast,f:1
 0275:005a2edc:0001:0001:1:0
 JimJam ME
 p:Globecast,f:1
-0276:005a2edc:0001:0001:1:0
-Extreme Sports
-p:Harmonic,f:1
 01a0:005a0000:1964:009c:25:0
 Sixx HD
 p:Kabelkiosk,f:1
@@ -5353,9 +5257,6 @@ RTS1
 p:GLOBECAST,f:1
 4eea:005a0000:21fc:009c:1:0
 Romance TV
-p:Kabelkiosk,f:1
-4eed:005a0000:21fc:009c:1:0
-E! Entertainment D
 p:Kabelkiosk,f:1
 4eef:005a0000:21fc:009c:25:0
 SportDigital Fussball
@@ -5593,15 +5494,6 @@ Fix & Foxi
 p:Kabelkiosk,f:1
 01fd:005a0000:2134:009c:25:0
 Mezzo Live HD
-p:KabelKiosk,f:1
-01fe:005a0000:2134:009c:1:0
-RTVD OstWest
-p:KabelKiosk,f:1
-0200:005a0000:2134:009c:1:0
-TeleBom/TeleDom
-p:KabelKiosk,f:1
-01ff:005a0000:2134:009c:1:0
-Kinomir
 p:KabelKiosk,f:1
 01fb:005a0000:2134:009c:25:0
 Penthouse Passion HD
@@ -6194,18 +6086,6 @@ p:A1 Broadcasting,f:1
 0364:005a0000:c35a:009e:1:0
 TIN - The Israeli Network
 p:iKO Media Group,f:1
-035e:005a0000:c35a:009e:31:0
-EUROBET 11
-p:Eutelsat,f:1
-0361:005a0000:c35a:009e:31:0
-EUROBET 14
-p:Eutelsat,f:1
-035f:005a0000:c35a:009e:31:0
-EUROBET 12
-p:Eutelsat,f:1
-0360:005a0000:c35a:009e:31:0
-EUROBET 13
-p:Eutelsat,f:1
 035c:005a0000:c35a:009e:12:0
 DAB Radio Italian 1
 p:Eutelsat
@@ -7842,6 +7722,108 @@ p:TELENUOVO-TN,f:1
 ANTENNA TRE VENETO
 p:MEDIANORDEST,f:1
 0af8:005a0000:28e1:217c:25:0
+TELECHIARA
+p:VIDEOMEDIA-TN,f:1
+0709:005ab0b2:18e1:217c:1:0
+RETE 7 HD
+p:RETE 7 HD,f:1
+070b:005ab0b2:18e1:217c:1:0
+CANALE ITALIA
+p:Canale Italia,f:1
+070e:005ab0b2:18e1:217c:1:0
+TELECITY
+p:TELECITY AO,f:1
+070f:005ab0b2:18e1:217c:1:0
+CANALE16 V. Aosta
+p:Media Group,f:1
+0712:005ab0b2:18e1:217c:1:0
+TELECOLORVDA
+p:TELECOLOR,f:1
+0713:005ab0b2:18e1:217c:1:0
+France 24 HD
+p:,f:1
+0714:005ab0b2:18e1:217c:1:0
+RTS Un HD
+p:,f:1
+0715:005ab0b2:18e1:217c:1:0
+TV5 MONDE EUROPE
+p:,f:1
+070c:005ab0b2:18e1:217c:22:0
+AOSTA TV 14
+p:AOSTA TV 14,f:1
+000b:005ab0b2:18e2:217c:1:0
+TEST RL AO2
+p:,f:1
+1773:005ab0b2:60e1:217c:1:0
+e'TV MARCHE
+p:e'TV MARCHE,f:1
+1774:005ab0b2:60e1:217c:1:0
+TVRS
+p:TVRS,f:1
+1775:005ab0b2:60e1:217c:1:0
+CANALE ITALIA extra
+p:Canale Italia,f:1
+1776:005ab0b2:60e1:217c:1:0
+7 GOLD MARCHE
+p:7 GOLD,f:1
+1777:005ab0b2:60e1:217c:1:0
+FANO TV
+p:COELMEDIA,f:1
+177a:005ab0b2:60e1:217c:1:0
+FERMO TV
+p:FERMO TV,f:1
+177b:005ab0b2:60e1:217c:1:0
+TELEMARCHE
+p:GLOBAL,f:1
+177c:005ab0b2:60e1:217c:1:0
+Odeon24 Marche
+p:Gold Tv srl,f:1
+177e:005ab0b2:60e1:217c:1:0
+e'TV +
+p:ETV+,f:1
+1778:005ab0b2:60e1:217c:22:0
+Info 2000
+p:Tele 2000,f:1
+1771:005ab0b2:60e1:217c:25:0
+TV CENTRO MARCHE
+p:,f:1
+1772:005ab0b2:60e1:217c:25:0
+VERATV
+p:In Aria!,f:1
+1779:005ab0b2:60e1:217c:25:0
+ROSSINI TV
+p:ROSSINI,f:1
+177d:005ab0b2:60e1:217c:31:0
+RTM
+p:GLOBAL,f:1
+0af9:005ab0b2:28e1:217c:1:0
+Vb33 hd
+p:Vb33 hd,f:1
+0afb:005ab0b2:28e1:217c:1:0
+CANALE ITALIA
+p:Canale Italia,f:1
+0afa:005ab0b2:28e1:217c:22:0
+TV7 Triveneta Network
+p:,f:1
+0af1:005ab0b2:28e1:217c:25:0
+TRENTINO TV
+p:,f:1
+0af2:005ab0b2:28e1:217c:25:0
+RTTR
+p:RTTR OPIM TRENTO,f:1
+0af3:005ab0b2:28e1:217c:25:0
+Telepace Trento
+p:Telepace_Trento,f:1
+0af4:005ab0b2:28e1:217c:25:0
+TELEPADOVA - 7 GOLD
+p:TELEPADOVA,f:1
+0af5:005ab0b2:28e1:217c:25:0
+TELENUOVO
+p:TELENUOVO-TN,f:1
+0af6:005ab0b2:28e1:217c:25:0
+ANTENNA TRE VENETO
+p:MEDIANORDEST,f:1
+0af8:005ab0b2:28e1:217c:25:0
 TELECHIARA
 p:VIDEOMEDIA-TN,f:1
 end
