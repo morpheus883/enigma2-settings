@@ -291,9 +291,6 @@ transponders
 00c00000:0001:0001
 	s 11612000:15000000:0:3:192:2:0:1:2:0:2
 /
-00c0ad8d:1000:2000
-	s 11661000:7200000:1:3:192:2:0:1:2:0:2
-/
 00c0ad28:0001:ffff
 	s 11560000:7200000:1:3:192:2:0:1:2:0:2
 /
@@ -326,6 +323,9 @@ transponders
 /
 00c00000:045e:0001
 	s 12699000:23500000:1:3:192:2:0:1:2:1:2
+/
+00c0ad8e:0001:ffff
+	s 11662000:9874000:1:3:192:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -4472,9 +4472,6 @@ p:,f:1
 0004:00c00000:0001:0001:1:0
 Enc 8 S/U 4
 p:,f:1
-0001:00c0ad8d:1000:2000:1:0
-Feed2_service2
-p:Harmonic,f:1
 0001:00c0ad28:0001:ffff:1:0
 WRC Live Stage 2 WF
 p:Service Provider,f:1
@@ -4523,6 +4520,9 @@ p:SES,f:1
 290a:00c00000:045e:0001:1:0
 Deluxe Flashback
 p:SES,f:1
+0001:00c0ad8e:0001:ffff:1:0
+ITA396 MAIN
+p:,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -4937,6 +4937,9 @@ p:Telespazio,f:1
 1384:00820000:33f4:013e:1:0
 Solo Calcio
 p:Telespazio,f:1
+0002:00820000:33f4:013e:2:0
+Antena1
+p:Harmonic
 366a:00820000:00c8:013e:1:0
 Noviy Mir
 p:Harmonic,f:1
@@ -7952,8 +7955,8 @@ p:Rai,f:1
 454e:00820000:30d4:013e:22:0
 Rai 3 TGR Veneto
 p:Rai,f:1
-454f:00820000:30d4:013e:22:0
-Rai 3 TGR Südtirol
+454f:00820000:30d4:013e:25:0
+Rai 3 TGR Südtirol HD
 p:Rai,f:1
 4550:00820000:30d4:013e:22:0
 Rai 3 TGR Valle d'Aosta
