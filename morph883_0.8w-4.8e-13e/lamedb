@@ -594,6 +594,9 @@ fff8aced:0001:0001
 0e080000:0045:0046
 	s 10903000:25000000:1:3:-8:2:0:1:2:1:2
 /
+0e08b0ee:0001:ffff
+	s 12526000:6660000:1:3:-8:2:0:1:2:0:2
+/
 end
 services
 0002:00d8ad61:0004:0000:2:0
@@ -683,25 +686,25 @@ p:RR Media,f:1
 43de:00820000:2cec:013e:1:0
 Eurasia Worldwide
 p:,f:1
-0001:00820000:2e18:00b0:25:0
+0001:00820000:2e18:00b0:1:0
 Al Maghribia HD
 p:SNRT,f:1
-0002:00820000:2e18:00b0:25:0
+0002:00820000:2e18:00b0:1:0
 Al Aoula Laayoune HD
 p:SNRT,f:1
-0004:00820000:2e18:00b0:25:0
+0004:00820000:2e18:00b0:1:0
 Athaqafia HD
 p:SNRT,f:1
 0005:00820000:2e18:00b0:1:0
 Al Aoula Inter
 p:SNRT,f:1
-0006:00820000:2e18:00b0:25:0
+0006:00820000:2e18:00b0:1:0
 Assadissa HD
 p:SNRT,f:1
-000a:00820000:2e18:00b0:25:0
+000a:00820000:2e18:00b0:1:0
 Arryadia HD
 p:SNRT,f:1
-00f1:00820000:2e18:00b0:25:0
+00f1:00820000:2e18:00b0:1:0
 Tamazight HD
 p:SNRT,f:1
 000b:00820000:2e18:00b0:2:0
@@ -737,7 +740,7 @@ p:SNRT
 0050:00820000:2e18:00b0:2:0
 Meknes
 p:SNRT
-0003:00820000:2e18:00b0:25:0
+0003:00820000:2e18:00b0:1:0
 Al Aoula Inter HD
 p:SNRT,f:1
 0035:00820000:2e18:00b0:2:0
@@ -2399,9 +2402,6 @@ p:NetMed
 016c:00820000:1c84:013e:2:0
 REAL FM
 p:NetMed
-0188:00820000:1c84:013e:2:0
-Radio3
-p:NETMED
 0189:00820000:1c84:013e:2:0
 Radio2
 p:NETMED
@@ -2433,10 +2433,10 @@ p:NetMed,C:0000,f:1
 ERT World Europe
 p:NetMed,f:1
 0186:00820000:1c84:013e:1:0
-M2_TEST3
+Da Vinci HD UG
 p:NetMed,f:1
 0187:00820000:1c84:013e:1:1
-M2_TEST4
+History HD UG
 p:NETMED,f:1
 0160:00820000:1c84:013e:1:0
 Naftemporiki HD
@@ -2457,11 +2457,14 @@ p:NetMed,f:1
 NovaSportsExtra1HD
 p:NetMed,f:1
 016a:00820000:1c84:013e:1:0
-History HD
+The History Channel HD
 p:NetMed,f:1
 0172:00820000:1c84:013e:1:0
-Da Vinci
+Da Vinci HD
 p:NetMed,f:1
+0188:00820000:1c84:013e:1:0
+Discovery HD UG
+p:NOVA Greece,f:1
 1c86:00820000:1ce8:0071:1:0
 AXN White Poland
 p:Cyfrowy Polsat S.A.,f:1
@@ -4682,7 +4685,7 @@ p:Mediaset,f:1
 0078:00820000:04b0:0110:25:0
 20 Mediaset HD
 p:Mediaset,f:1
-0077:00820000:04b0:0110:25:0
+0077:00820000:04b0:0110:22:0
 Radio Monte Carlo
 p:Mediaset,f:1
 006f:00820000:04b0:0110:25:0
@@ -4715,7 +4718,7 @@ p:Mediaset,f:1
 0086:00820000:04b0:0110:25:0
 Focus HD
 p:Mediaset,f:1
-0076:00820000:04b0:0110:25:0
+0076:00820000:04b0:0110:22:0
 Virgin Radio
 p:Mediaset,f:1
 0087:00820000:04b0:0110:25:0
@@ -9443,6 +9446,12 @@ p:Telenor,f:1
 2336:0e080000:0055:0046:25:0
 TS Sports 15
 p:Telenor,f:1
+1d23:0e080000:0055:0046:22:0
+Test 7459
+p:Telenor,f:1
+1c76:0e080000:0055:0046:22:0
+Test 7286
+p:Telenor,f:1
 0001:0e08acf9:0001:0001:25:0
 South Shields Revrse
 p:GBBBC,f:1
@@ -9503,6 +9512,9 @@ p:Telenor,f:1
 42eb:0e080000:0045:0046:25:0
 TV10 HD
 p:Telenor,f:1
+0001:0e08b0ee:0001:ffff:1:0
+backup
+p:RCS-RDS,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2023

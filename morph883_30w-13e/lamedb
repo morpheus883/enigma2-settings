@@ -384,6 +384,9 @@ fed4aaaa:ea7e:0001
 0ce43110:0441:0000
 	s 12560000:8000000:0:1:-300:2:0:1:1:0:2
 /
+fed40000:00a0:00eb
+	s 11463000:7200000:0:3:-300:2:0:1:2:0:2
+/
 end
 services
 43a0:00820000:2cec:013e:1:0
@@ -401,25 +404,25 @@ p:RR Media,f:1
 43de:00820000:2cec:013e:1:0
 Eurasia Worldwide
 p:,f:1
-0001:00820000:2e18:00b0:25:0
+0001:00820000:2e18:00b0:1:0
 Al Maghribia HD
 p:SNRT,f:1
-0002:00820000:2e18:00b0:25:0
+0002:00820000:2e18:00b0:1:0
 Al Aoula Laayoune HD
 p:SNRT,f:1
-0004:00820000:2e18:00b0:25:0
+0004:00820000:2e18:00b0:1:0
 Athaqafia HD
 p:SNRT,f:1
 0005:00820000:2e18:00b0:1:0
 Al Aoula Inter
 p:SNRT,f:1
-0006:00820000:2e18:00b0:25:0
+0006:00820000:2e18:00b0:1:0
 Assadissa HD
 p:SNRT,f:1
-000a:00820000:2e18:00b0:25:0
+000a:00820000:2e18:00b0:1:0
 Arryadia HD
 p:SNRT,f:1
-00f1:00820000:2e18:00b0:25:0
+00f1:00820000:2e18:00b0:1:0
 Tamazight HD
 p:SNRT,f:1
 000b:00820000:2e18:00b0:2:0
@@ -455,7 +458,7 @@ p:SNRT
 0050:00820000:2e18:00b0:2:0
 Meknes
 p:SNRT
-0003:00820000:2e18:00b0:25:0
+0003:00820000:2e18:00b0:1:0
 Al Aoula Inter HD
 p:SNRT,f:1
 0035:00820000:2e18:00b0:2:0
@@ -2117,9 +2120,6 @@ p:NetMed
 016c:00820000:1c84:013e:2:0
 REAL FM
 p:NetMed
-0188:00820000:1c84:013e:2:0
-Radio3
-p:NETMED
 0189:00820000:1c84:013e:2:0
 Radio2
 p:NETMED
@@ -2151,10 +2151,10 @@ p:NetMed,C:0000,f:1
 ERT World Europe
 p:NetMed,f:1
 0186:00820000:1c84:013e:1:0
-M2_TEST3
+Da Vinci HD UG
 p:NetMed,f:1
 0187:00820000:1c84:013e:1:1
-M2_TEST4
+History HD UG
 p:NETMED,f:1
 0160:00820000:1c84:013e:1:0
 Naftemporiki HD
@@ -2175,11 +2175,14 @@ p:NetMed,f:1
 NovaSportsExtra1HD
 p:NetMed,f:1
 016a:00820000:1c84:013e:1:0
-History HD
+The History Channel HD
 p:NetMed,f:1
 0172:00820000:1c84:013e:1:0
-Da Vinci
+Da Vinci HD
 p:NetMed,f:1
+0188:00820000:1c84:013e:1:0
+Discovery HD UG
+p:NOVA Greece,f:1
 1c86:00820000:1ce8:0071:1:0
 AXN White Poland
 p:Cyfrowy Polsat S.A.,f:1
@@ -4400,7 +4403,7 @@ p:Mediaset,f:1
 0078:00820000:04b0:0110:25:0
 20 Mediaset HD
 p:Mediaset,f:1
-0077:00820000:04b0:0110:25:0
+0077:00820000:04b0:0110:22:0
 Radio Monte Carlo
 p:Mediaset,f:1
 006f:00820000:04b0:0110:25:0
@@ -4433,7 +4436,7 @@ p:Mediaset,f:1
 0086:00820000:04b0:0110:25:0
 Focus HD
 p:Mediaset,f:1
-0076:00820000:04b0:0110:25:0
+0076:00820000:04b0:0110:22:0
 Virgin Radio
 p:Mediaset,f:1
 0087:00820000:04b0:0110:25:0
@@ -5517,10 +5520,10 @@ p:SID Sport TV NBA,f:1
 Eleven Sports 1
 p:Eleven Sports 1,f:1
 13ae:0ce40000:0027:0036:1:0
-Eleven Sports 1 HD
+Eleven 1 HD
 p:,f:1
 13b0:0ce40000:0027:0036:1:0
-Eleven Sports 4
+Eleven 4
 p:,f:1
 020b:0ce40000:0027:0036:1:0
 Eleven Sports 4
@@ -5529,7 +5532,7 @@ p:Eleven Sports 4,f:1
 Eleven Sports 5
 p:Eleven Sports 5,f:1
 13b1:0ce40000:0027:0036:1:0
-Eleven Sports 5
+Eleven 5
 p:,f:1
 0138:0ce40000:0027:0036:1:0
 Eurosport
@@ -5871,7 +5874,7 @@ p:,f:1
 Kuriakos TV
 p:,f:1
 00fc:0ce40000:0030:0036:1:0
-SYFY
+SyFy
 p:SYFY,f:1
 00fd:0ce40000:0030:0036:1:0
 Kuriakos TV HD
@@ -5901,8 +5904,8 @@ p:,f:1
 
 p:,f:1
 12ee:0ce40000:0030:0036:1:0
-Canal NOS
-p:Canal NOS,f:1
+FOX Comedy
+p:SID FOX Comedy,f:1
 17bd:0ce40000:0030:0036:1:0
 Baby TV
 p:,f:1
@@ -6780,7 +6783,7 @@ p:,f:1
 FTV
 p:,f:1
 178e:0ce40000:0026:0036:1:0
-MCM POP
+MCM Pop
 p:,f:1
 178f:0ce40000:0026:0036:1:0
 Canção Nova
@@ -7142,6 +7145,9 @@ p:
 9c41:0ce43110:0441:0000:100:0
 AOL
 p:
+0001:fed40000:00a0:00eb:1:0
+E120 ATM1 CH1
+p:ATM BROADCAST,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2023
