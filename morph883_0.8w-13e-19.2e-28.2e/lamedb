@@ -6,9 +6,6 @@ transponders
 011a0000:07fd:0002
 	s 10773000:22000000:0:4:282:2:0
 /
-011a0000:07fe:0002
-	s 10788000:22000000:1:4:282:2:0
-/
 011a0000:07ff:0002
 	s 10803000:22000000:0:4:282:2:0
 /
@@ -245,6 +242,9 @@ transponders
 /
 011aaa42:0800:0002
 	s 10818000:23000000:1:3:282:2:0:1:2:0:2
+/
+011aaa24:07fe:0002
+	s 10788000:23000000:1:3:282:2:0:1:2:1:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -1166,66 +1166,6 @@ p:BSkyB,f:1
 18ed:011a0000:07fd:0002:1:0
 BBC One S West
 p:BSkyB,f:1
-283d:011a0000:07fe:0002:1:0
-BBC One West Midlands
-p:BSkyB,f:1
-283f:011a0000:07fe:0002:1:0
-BBC One Yorkshire & Lincolnshire
-p:BSkyB,f:1
-2841:011a0000:07fe:0002:1:0
-BBC One East Midlands
-p:BSkyB,f:1
-2842:011a0000:07fe:0002:1:0
-BBC One East
-p:BSkyB,f:1
-2843:011a0000:07fe:0002:1:0
-BBC Parliament
-p:BSkyB,f:1
-2847:011a0000:07fe:0002:1:0
-BBC One Wales
-p:BSkyB,f:1
-2848:011a0000:07fe:0002:1:0
-BBC Two Wales
-p:BSkyB,f:1
-2851:011a0000:07fe:0002:1:0
-ETV5
-p:BSkyB,f:1
-288c:011a0000:07fe:0002:2:0
-BBC R3
-p:BSkyB
-288d:011a0000:07fe:0002:2:0
-BBC R4 FM
-p:BSkyB
-288e:011a0000:07fe:0002:2:0
-BBC R4 LW
-p:BSkyB
-288f:011a0000:07fe:0002:2:0
-BBC 6 Music
-p:BSkyB
-2890:011a0000:07fe:0002:2:0
-BBC R4 Ex
-p:BSkyB
-2891:011a0000:07fe:0002:2:0
-BBC WS
-p:BSkyB
-2892:011a0000:07fe:0002:2:0
-BBC R Scot.
-p:BSkyB
-2893:011a0000:07fe:0002:2:0
-BBC R n Gael
-p:BSkyB
-2894:011a0000:07fe:0002:2:0
-BBC R Wales
-p:BSkyB
-2895:011a0000:07fe:0002:2:0
-BBC R Cymru
-p:BSkyB
-2896:011a0000:07fe:0002:2:0
-BBC R Ulster
-p:BSkyB
-2897:011a0000:07fe:0002:2:0
-BBC R Foyle
-p:BSkyB
 1915:011a0000:07ff:0002:1:0
 BBC One Scotland
 p:BSkyB,f:1
@@ -1744,12 +1684,6 @@ BBC News HD
 p:BSkyB,f:1
 22e3:011a0000:080d:0002:25:0
 BBC Four HD
-p:BSkyB,f:1
-22e4:011a0000:080d:0002:25:0
-CBeebies HD
-p:BSkyB,f:1
-22f8:011a0000:080d:0002:25:0
-CBeebies HD
 p:BSkyB,f:1
 22f7:011a0000:080d:0002:25:0
 BBC Four HD
@@ -3767,6 +3701,15 @@ p:BSkyB,f:1
 191a:011a0000:07f5:0002:1:0
 BBC One
 p:BSkyB,f:1
+195c:011a0000:07f5:0002:1:0
+BBC Two
+p:BSkyB,f:1
+195e:011a0000:07f5:0002:1:0
+BBC Four
+p:BSkyB,f:1
+1960:011a0000:07f5:0002:1:0
+CBeebies
+p:BSkyB,f:1
 0002:011a30e3:0001:0001:1:0
 B
 p:none,f:1
@@ -3830,6 +3773,69 @@ p:BSkyB,f:1
 2883:011aaa42:0800:0002:1:0
 ETV6
 p:BSkyB,f:1
+285f:011aaa24:07fe:0002:25:0
+BBCScotlandHD
+p:BSkyB,f:1
+283d:011aaa24:07fe:0002:1:0
+BBC One West Midlands
+p:BSkyB,f:1
+283f:011aaa24:07fe:0002:1:0
+BBC One Yorkshire & Lincolnshire
+p:BSkyB,f:1
+2841:011aaa24:07fe:0002:1:0
+BBC One East Midlands
+p:BSkyB,f:1
+2842:011aaa24:07fe:0002:1:0
+BBC One East
+p:BSkyB,f:1
+2843:011aaa24:07fe:0002:1:0
+BBC Parliament
+p:BSkyB,f:1
+2847:011aaa24:07fe:0002:1:0
+BBC One Wales
+p:BSkyB,f:1
+2848:011aaa24:07fe:0002:1:0
+BBC Two Wales
+p:BSkyB,f:1
+2851:011aaa24:07fe:0002:25:0
+ETV5
+p:BSkyB,f:1
+288c:011aaa24:07fe:0002:2:0
+BBC R3
+p:BSkyB
+288d:011aaa24:07fe:0002:2:0
+BBC R4 FM
+p:BSkyB
+288e:011aaa24:07fe:0002:2:0
+BBC R4 LW
+p:BSkyB
+288f:011aaa24:07fe:0002:2:0
+BBC 6 Music
+p:BSkyB
+2890:011aaa24:07fe:0002:2:0
+BBC R4 Ex
+p:BSkyB
+2891:011aaa24:07fe:0002:2:0
+BBC WS
+p:BSkyB
+2892:011aaa24:07fe:0002:2:0
+BBC R Scot.
+p:BSkyB
+2893:011aaa24:07fe:0002:2:0
+BBC R n Gael
+p:BSkyB
+2894:011aaa24:07fe:0002:2:0
+BBC R Wales
+p:BSkyB
+2895:011aaa24:07fe:0002:2:0
+BBC R Cymru
+p:BSkyB
+2896:011aaa24:07fe:0002:2:0
+BBC R Ulster
+p:BSkyB
+2897:011aaa24:07fe:0002:2:0
+BBC R Foyle
+p:BSkyB
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -7241,9 +7247,6 @@ p:CSAT,f:1
 226e:00c00000:0438:0001:25:0
 OCS MAX HD
 p:CSAT,f:1
-226d:00c00000:0438:0001:25:0
-OCS City HD
-p:CSAT,f:1
 2261:00c00000:0438:0001:25:0
 Canal+ HD
 p:CSAT,f:1
@@ -8085,7 +8088,7 @@ p:nc+,f:1
 Canal+ Now HD
 p:nc+,f:1
 331b:00820000:0190:013e:1:0
-NATIONAL GEO HD
+National Geo HD
 p:nc+,f:1
 32fd:00820000:0190:013e:1:0
 NATIONAL GEO HD
@@ -8179,9 +8182,6 @@ Somali National (SNTV)
 p:,f:1
 089e:00820000:01f4:013e:1:0
 Somali National 2 (SNTV 2)
-p:,f:1
-08a7:00820000:01f4:013e:1:0
-ES TV
 p:,f:1
 0604:00820000:01f4:013e:2:0
 R Radio
@@ -9152,9 +9152,6 @@ p:Telespazio
 0315:00820000:1b58:013e:1:0
 MTA3 - Al Arabia
 p:Harmonic,f:1
-02f3:00820000:1b58:013e:2:0
-Radio Supersound
-p:Telespazio
 3c8d:00820000:1bbc:013e:1:0
 novacinema1 HD Cy
 p:Netmed,f:1
@@ -11409,7 +11406,7 @@ p:CANAL+,f:1
 Motowizja HD
 p:CANAL+,f:1
 1133:00820000:2af8:013e:1:0
-BBC FIRST
+BBC First
 p:CANAL+,f:1
 1134:00820000:2af8:013e:1:0
 BBC Earth HD
@@ -11624,9 +11621,6 @@ p:Eutelsat,f:1
 0650:00820000:2454:013e:1:0
 Algérie 3 (Thalitha TV)
 p:Eutelsat,f:1
-0652:00820000:2454:013e:1:0
-RT Arabic HD
-p:,f:1
 0653:00820000:2454:013e:1:0
 Pop Economy
 p:EUTELSAT,f:1
@@ -14282,29 +14276,14 @@ p:Slovak Telekom,f:1
 1780:0e080000:0af6:00bb:22:0
 Zaciname s Voyo
 p:Zaciname s Voyo,f:1
+177d:0e080000:0af6:00bb:22:0
+Prima Show
+p:Slovak Telekom,f:1
 1cac:0e080000:004c:0046:1:0
 History
 p:Telenor,f:1
 062f:0e080000:004c:0046:2:0
 BEST FM
-p:Telenor
-0636:0e080000:004c:0046:2:0
-EXPRES Vychod
-p:Telenor
-0637:0e080000:004c:0046:2:0
-EXPRES Bratislava
-p:Telenor
-0638:0e080000:004c:0046:2:0
-EXPRES mp2
-p:Telenor
-0639:0e080000:004c:0046:2:0
-EXPRES Zilina
-p:Telenor
-063a:0e080000:004c:0046:2:0
-EXPRES Zapad
-p:Telenor
-063b:0e080000:004c:0046:2:0
-EXPRES Stred
 p:Telenor
 79e3:0e080000:02c8:0600:1:0
 CNN International Europe
@@ -14846,6 +14825,9 @@ p:Slovak Telekom,f:1
 0fb9:0e080000:0af4:00bb:1:0
 Strike TV
 p:Slovak Telekom,C:0000,f:1
+0fb2:0e080000:0af4:00bb:22:0
+AXN Czech.
+p:Slovak Telekom,f:1
 0bc4:0e080000:0af3:00bb:25:0
 Spektrum HD
 p:Slovak Telekom,f:1
@@ -15247,6 +15229,9 @@ TV RiK
 p:Slovak Telekom,f:1
 2344:0e080000:0af9:00bb:22:0
 HGTV
+p:Slovak Telekom,f:1
+2345:0e080000:0af9:00bb:22:0
+Zaciname s Voyo.
 p:Slovak Telekom,f:1
 7a45:0e080000:02c9:0600:25:0
 CT 1 HD
