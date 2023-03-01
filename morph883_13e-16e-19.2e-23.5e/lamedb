@@ -588,6 +588,9 @@ transponders
 00c0ad8e:0001:ffff
 	s 11662000:9874000:1:3:192:2:0:1:2:0:2
 /
+00c00000:0000:0001
+	s 11485000:9874000:1:3:192:2:0:1:2:0:2
+/
 00a00000:0001:0040
 	s 11512000:30000000:0:3:160:2:0:1:2:0:2
 /
@@ -1448,10 +1451,10 @@ p:BetaDigital,f:1
 1345:00eb0000:0ca2:0003:2:0
 Melody Z
 p:Towercom
-1346:00eb0000:0ca2:0003:2:1
+1346:00eb0000:0ca2:0003:2:0
 Melody S
 p:Towercom
-1347:00eb0000:0ca2:0003:2:2
+1347:00eb0000:0ca2:0003:2:0
 Melody V
 p:Towercom
 51ae:00eb0000:0c96:0003:22:0
@@ -1669,6 +1672,9 @@ CANAL+ Sport CZ
 p:M7 Group,f:1
 3734:00eb0000:0c8e:0003:25:0
 CANAL+ Sport SK
+p:M7 Group,f:1
+3736:00eb0000:0c8e:0003:25:0
+CANAL+ Action
 p:M7 Group,f:1
 0302:00eb0000:0c94:0003:25:0
 Nat Geo HD
@@ -2813,9 +2819,6 @@ p:M7 Group,f:1
 3b6d:00eb0000:0c8d:0003:25:0
 RTL HD
 p:M7 Group,f:1
-3b75:00eb0000:0c8d:0003:22:0
-Minimax SK
-p:M7 Group,f:1
 3b76:00eb0000:0c8d:0003:22:0
 Film+ SK
 p:M7 Group,f:1
@@ -2978,43 +2981,43 @@ p:Telekom Srbija,f:1
 4e46:00eb0000:0c8a:0003:1:0
 Arena Sport 2 HD Slovakia
 p:Telekom Srbija,f:1
-4e4a:00eb0000:0c8a:0003:1:1
+4e4a:00eb0000:0c8a:0003:1:0
 Arena Sport 4 HD
 p:Telekom Srbija,f:1
-4e57:00eb0000:0c8a:0003:1:2
+4e57:00eb0000:0c8a:0003:1:0
 Arena Sport 3 HD
 p:Telekom Srbija,f:1
-4e70:00eb0000:0c8a:0003:1:3
+4e70:00eb0000:0c8a:0003:1:0
 Pink Family
 p:Telekom Srbija,f:1
-4e92:00eb0000:0c8a:0003:1:4
+4e92:00eb0000:0c8a:0003:1:0
 Koreni
 p:Telekom Srbija,f:1
-4ea1:00eb0000:0c8a:0003:1:5
+4ea1:00eb0000:0c8a:0003:1:0
 Turizam
 p:Telekom Srbija,f:1
-4eb7:00eb0000:0c8a:0003:1:6
+4eb7:00eb0000:0c8a:0003:1:0
 Pink Music
 p:Telekom Srbija,f:1
-4ebf:00eb0000:0c8a:0003:1:7
+4ebf:00eb0000:0c8a:0003:1:0
 Bravo Music
 p:Telekom Srbija,f:1
-4ec0:00eb0000:0c8a:0003:1:8
+4ec0:00eb0000:0c8a:0003:1:0
 Pink Music 2
 p:Telekom Srbija,f:1
-4edf:00eb0000:0c8a:0003:1:9
+4edf:00eb0000:0c8a:0003:1:0
 TV Palma Plus
 p:Telekom Srbija,f:1
-4ee2:00eb0000:0c8a:0003:1:10
+4ee2:00eb0000:0c8a:0003:1:0
 TV Vujic
 p:Telekom Srbija,f:1
-4ee3:00eb0000:0c8a:0003:1:11
+4ee3:00eb0000:0c8a:0003:1:0
 TV Galaksija 32
 p:Telekom Srbija,f:1
-4ef5:00eb0000:0c8a:0003:1:12
+4ef5:00eb0000:0c8a:0003:1:0
 KCN Music 2
 p:Telekom Srbija,f:1
-4f1d:00eb0000:0c8a:0003:1:13
+4f1d:00eb0000:0c8a:0003:1:0
 TV Budva
 p:Telekom Srbija,f:1
 4e6d:00eb0000:0c8a:0003:1:0
@@ -3044,7 +3047,7 @@ p:Telekom Srbija,f:1
 4f39:00eb0000:0c8a:0003:1:0
 Premier League TV HD
 p:Telekom Srbija,f:1
-4f3a:00eb0000:0c8a:0003:1:1
+4f3a:00eb0000:0c8a:0003:1:0
 Arena Sport 9 HD
 p:Telekom Srbija,f:1
 4e5c:00eb0000:0c8a:0003:1:0
@@ -3086,7 +3089,7 @@ p:
 f230:00eb0000:000f:0005:2:0
 RMF Maxxx Konin 95.8 FM
 p:
-f618:00eb0000:000f:0005:2:1
+f618:00eb0000:000f:0005:2:0
 RMF Maxxx Lubuskie
 p:
 0001:00eb3149:0001:ffff:1:0
@@ -4302,7 +4305,7 @@ p:SKY,f:1
 Sky Cinema Premieren HD
 p:SKY,f:1
 0076:00c00000:0006:0085:25:0
-NatGeo Wild HD
+Sky Nature HD
 p:SKY,f:1
 010b:00c00000:0006:0085:25:0
 Sky Sport Bundesliga 1 HD
@@ -4401,7 +4404,7 @@ p:MTV Networks Europe,f:1
 Sky Cinema Special HD Germany
 p:SKY,f:1
 0070:00c00000:000d:0085:25:0
-National Geographic HD Germany
+Sky Documentaries HD Germany
 p:SKY,f:1
 0072:00c00000:000d:0085:25:0
 Sky Sport Tennis HD
@@ -5026,6 +5029,9 @@ OTA SMIT CAM 702
 p:M7 Group
 101c:00c00000:0451:0035:25:0
 Canalplus First
+p:M7 Group,f:1
+1040:00c00000:0451:0035:25:0
+Current Time TV
 p:M7 Group,f:1
 445c:00c00000:0453:0001:1:0
 Sat 1
@@ -6026,7 +6032,7 @@ p:-,f:1
 3404:00c00000:03ed:0001:22:0
 Stimmungsgarten TV
 p:ORS,f:1
-1086:00c00000:03ee:0001:31:136
+1086:00c00000:03ee:0001:31:0
 QVC UHD
 p:MX1,f:1
 1091:00c00000:03ee:0001:2:0
@@ -7088,7 +7094,7 @@ p:SKY,f:1
 0143:00c00000:0008:0085:211:0
 Sky Sport 7
 p:SKY,f:1
-014c:00c00000:0008:0085:211:36
+014c:00c00000:0008:0085:211:0
 Sky Sport Bundesliga 8
 p:SKY,f:1
 014d:00c00000:0008:0085:211:0
@@ -7217,9 +7223,21 @@ p:SES,f:1
 290a:00c00000:045e:0001:1:0
 Deluxe Flashback
 p:SES,f:1
+2904:00c00000:045e:0001:1:0
+Xplore
+p:SES,f:1
+2905:00c00000:045e:0001:1:0
+Hip Trips
+p:SES,f:1
+2906:00c00000:045e:0001:1:0
+One Terra
+p:SES,f:1
 0001:00c0ad8e:0001:ffff:1:0
 ITA396 MAIN
 p:,f:1
+0001:00c00000:0000:0001:0:0
+FEED-1B-TUR139
+p:HDPROTEK
 001e:00a00000:0001:0040:22:0
 National Geographic Croatia
 p:Max TV,f:1
@@ -7274,7 +7292,7 @@ p:T-HT,f:1
 0032:00a00000:0001:0040:22:0
 Disney.
 p:T-HT,f:1
-0046:00a00000:0001:0040:22:1
+0046:00a00000:0001:0040:22:0
 Disney Junior.
 p:T-HT,f:1
 005d:00a00000:0002:0040:22:0
@@ -7526,13 +7544,13 @@ p:CastorNetworks
 0406:00a00000:51a4:016e:1:0
 Supersonic TV
 p:Digit Alb,f:1
-03fd:00a00000:51a4:016e:1:44
+03fd:00a00000:51a4:016e:1:0
 24 Kitchen
 p:DigitALB,f:1
-0402:00a00000:51a4:016e:1:31
+0402:00a00000:51a4:016e:1:0
 Fox Life Albania
 p:DigitALB,f:1
-03fe:00a00000:51a4:016e:1:32
+03fe:00a00000:51a4:016e:1:0
 Fox Albania
 p:DigitALB,f:1
 03ef:00a00000:51a4:016e:25:0
@@ -7601,22 +7619,22 @@ p:DigitALB,f:1
 13d8:00a00000:51a4:016e:25:0
 KTV HD
 p:DigitALB,f:1
-03e9:00a00000:50dc:016e:25:13
+03e9:00a00000:50dc:016e:25:0
 Gold HD
 p:DigitALB,f:1
-03ea:00a00000:50dc:016e:25:14
+03ea:00a00000:50dc:016e:25:0
 Max HD
 p:DigitALB,f:1
-03eb:00a00000:50dc:016e:25:30
+03eb:00a00000:50dc:016e:25:0
 Family HD
 p:DigitALB,f:1
-03ec:00a00000:50dc:016e:25:22
+03ec:00a00000:50dc:016e:25:0
 SuperSport HD-1
 p:DigitALB,f:1
-03ed:00a00000:50dc:016e:25:23
+03ed:00a00000:50dc:016e:25:0
 SuperSport HD-2
 p:DigitALB,f:1
-03ee:00a00000:50dc:016e:25:24
+03ee:00a00000:50dc:016e:25:0
 SuperSport HD-3
 p:DigitALB,f:1
 03ef:00a00000:50dc:016e:25:0
@@ -7625,7 +7643,7 @@ p:DigitALB,f:1
 03f1:00a00000:50dc:016e:25:0
 Travel Channel HD
 p:DigitALB,f:1
-03ff:00a00000:50dc:016e:1:63
+03ff:00a00000:50dc:016e:1:0
 Scan TV
 p:DigitALB,f:1
 0404:00a00000:50dc:016e:1:0
@@ -8207,7 +8225,7 @@ p:A1 Broadcasting,f:1
 048a:00a00000:76c0:016e:31:0
 Prima Love
 p:A1 Broadcasting,f:1
-048c:00a00000:76c0:016e:31:12
+048c:00a00000:76c0:016e:31:0
 Prima MAX HD
 p:A1 Broadcasting,f:1
 0493:00a00000:76c0:016e:31:0
@@ -9284,7 +9302,7 @@ p:H,f:1
 0086:00a02bfe:0001:016e:25:0
 B1 HD
 p:H,f:1
-0087:00a02bfe:0001:016e:22:1
+0087:00a02bfe:0001:016e:22:0
 B1
 p:H,f:1
 0009:00a02bfe:0001:016e:2:0
@@ -11018,7 +11036,7 @@ p:Netmed,f:1
 3c92:00820000:1bbc:013e:1:0
 TLC
 p:Netmed,f:1
-3c97:00820000:1bbc:013e:1:1
+3c97:00820000:1bbc:013e:1:0
 E! Entertainment HD
 p:Syned,f:1
 1c22:00820000:1c20:013e:1:0
@@ -11060,7 +11078,7 @@ p:M-Three satcom
 0e46:00820000:1c20:013e:2:0
 Radio Iglesias
 p:M-Three satcom
-0e35:00820000:1c20:013e:2:203
+0e35:00820000:1c20:013e:2:0
 Radio Sportiva
 p:M-Three satcom
 0e30:00820000:1c20:013e:2:0
@@ -11213,7 +11231,7 @@ p:NetMed,f:1
 0186:00820000:1c84:013e:1:0
 Da Vinci HD UG
 p:NetMed,f:1
-0187:00820000:1c84:013e:1:1
+0187:00820000:1c84:013e:1:0
 History HD UG
 p:NETMED,f:1
 0160:00820000:1c84:013e:1:0
@@ -11935,6 +11953,21 @@ BogBlagTV
 p:STN,f:1
 233c:00820000:2328:013e:1:0
 TBN
+p:STN,f:1
+2335:00820000:2328:013e:1:0
+KICC TV
+p:STN,f:1
+233b:00820000:2328:013e:1:0
+CNA TV
+p:STN,f:1
+233d:00820000:2328:013e:1:0
+Firstlight
+p:STN,f:1
+233e:00820000:2328:013e:1:0
+Amazing Facts
+p:STN,f:1
+233f:00820000:2328:013e:1:0
+TeleRadioPace TV
 p:STN,f:1
 019f:00820000:26ac:013f:1:0
 BFM TV

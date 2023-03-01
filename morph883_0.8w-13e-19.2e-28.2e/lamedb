@@ -3,9 +3,6 @@ transponders
 011a0000:07f9:0002
 	s 10714000:22000000:0:4:282:2:0
 /
-011a0000:07fd:0002
-	s 10773000:22000000:0:4:282:2:0
-/
 011a0000:07ff:0002
 	s 10803000:22000000:0:4:282:2:0
 /
@@ -245,6 +242,9 @@ transponders
 /
 011aaa24:07fe:0002
 	s 10788000:23000000:1:3:282:2:0:1:2:1:2
+/
+011a2a15:07fd:0002
+	s 10773000:23000000:0:3:282:2:0:1:2:1:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -572,6 +572,9 @@ transponders
 /
 00c0ad8e:0001:ffff
 	s 11662000:9874000:1:3:192:2:0:1:2:0:2
+/
+00c00000:0000:0001
+	s 11485000:9874000:1:3:192:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -1127,45 +1130,6 @@ p:BSkyB,f:1
 2422:011a0000:07f9:0002:1:0
 E4 Ireland +1
 p:BSkyB,f:1
-189d:011a0000:07fd:0002:1:0
-BBC One London
-p:BSkyB,f:1
-189e:011a0000:07fd:0002:1:0
-BBC Two
-p:BSkyB,f:1
-18c5:011a0000:07fd:0002:1:0
-BBC One West
-p:BSkyB,f:1
-18d9:011a0000:07fd:0002:1:0
-BBC One Channel Islands
-p:BSkyB,f:1
-18f6:011a0000:07fd:0002:1:0
-BBC Red Button 1
-p:BSkyB,f:1
-18a2:011a0000:07fd:0002:1:0
-ETV1
-p:BSkyB,f:1
-18ac:011a0000:07fd:0002:1:0
-BBC Four
-p:BSkyB,f:1
-18ae:011a0000:07fd:0002:1:0
-CBeebies
-p:BSkyB,f:1
-18c0:011a0000:07fd:0002:1:0
-BBC Four
-p:BSkyB,f:1
-18c2:011a0000:07fd:0002:1:0
-CBeebies
-p:BSkyB,f:1
-18b1:011a0000:07fd:0002:1:0
-BBC One Lon
-p:BSkyB,f:1
-18b2:011a0000:07fd:0002:1:0
-BBC Two Eng
-p:BSkyB,f:1
-18ed:011a0000:07fd:0002:1:0
-BBC One S West
-p:BSkyB,f:1
 1915:011a0000:07ff:0002:1:0
 BBC One Scotland
 p:BSkyB,f:1
@@ -1178,41 +1142,8 @@ p:BSkyB,f:1
 193d:011a0000:07ff:0002:1:0
 BBC One South East
 p:BSkyB,f:1
-1901:011a0000:07ff:0002:2:0
-BBC R5L
-p:BSkyB
-1940:011a0000:07ff:0002:2:0
-BBC R5SX
-p:BSkyB
-1917:011a0000:07ff:0002:1:0
-BBC Alba
-p:BSkyB,f:1
 1947:011a0000:07ff:0002:1:0
 BBC One North East and Cumbria
-p:BSkyB,f:1
-1932:011a0000:07ff:0002:2:0
-BBC R1
-p:BSkyB
-1934:011a0000:07ff:0002:2:0
-BBC R2
-p:BSkyB
-193c:011a0000:07ff:0002:2:0
-BBC Asian
-p:BSkyB
-1942:011a0000:07ff:0002:2:0
-BBC R1X
-p:BSkyB
-1946:011a0000:07ff:0002:2:0
-BBC RLondon
-p:BSkyB
-1918:011a0000:07ff:0002:1:0
-BBC ALBA
-p:BSkyB,f:1
-1936:011a0000:07ff:0002:2:0
-BBC R Cymru 2
-p:BSkyB
-1914:011a0000:07ff:0002:1:0
-BBC Scotland
 p:BSkyB,f:1
 1907:011a0000:07ff:0002:2:0
 ETV2
@@ -1845,7 +1776,7 @@ p:BSkyB,f:1
 Eurosport 2 UK
 p:BSkyB,f:1
 14bc:011a0000:07e7:0002:130:0
-S2Test
+SpiderVerseHD
 p:BSkyB,f:1
 1519:011a0000:07e7:0002:1:0
 Sky Sports Golf
@@ -1863,7 +1794,7 @@ p:BSkyB,f:1
 Eurosport 1
 p:BSkyB,f:1
 14bd:011a0000:07e7:0002:1:0
-S1Test
+Spider-VerseHD
 p:BSkyB,f:1
 132a:011a0000:07e7:0002:1:0
 Sky Sports Box Office
@@ -2077,9 +2008,6 @@ Racing TV HD
 p:BSkyB,f:1
 d7e9:011a0000:082c:0002:25:0
 TRT World HD
-p:BSkyB,f:1
-d7e7:011a0000:082c:0002:25:0
-Smithsonian Channel UK HD
 p:BSkyB,f:1
 d7ea:011a0000:082c:0002:25:0
 Colors HD
@@ -2681,7 +2609,7 @@ p:BSkyB,f:1
 145d:011a0000:07e8:0002:25:0
 Channel 4 Midlands HD
 p:BSkyB,f:1
-1481:011a0000:07e8:0002:25:1
+1481:011a0000:07e8:0002:25:0
 Channel 4 North HD
 p:BSkyB,f:1
 04af:011a0000:07e8:0002:25:0
@@ -2711,7 +2639,7 @@ p:BSkyB,f:1
 cd55:011a0000:0844:0002:25:0
 S4C HD
 p:BSkyB,f:1
-cd5b:011a0000:0844:0002:25:7
+cd5b:011a0000:0844:0002:25:0
 TLC HD
 p:BSkyB,f:1
 cd6e:011a0000:0844:0002:25:0
@@ -3089,9 +3017,6 @@ p:BSkyB,f:1
 1524:011a0000:07e9:0002:25:0
 Premier 1 HD
 p:BSkyB,f:1
-1b00:011a0000:0802:0002:25:0
-BBC Two Wales HD
-p:BSkyB,f:1
 1b1c:011a0000:0802:0002:25:0
 BBC Two HD
 p:BSkyB,f:1
@@ -3124,6 +3049,9 @@ BBC Three HD
 p:BSkyB,f:1
 1aff:011a0000:0802:0002:25:0
 BBC One Yorkshire & Lincolnshire HD
+p:BSkyB,f:1
+1b13:011a0000:0802:0002:25:0
+BBC One South East HD
 p:BSkyB,f:1
 206c:011a0000:0808:0002:1:0
 E4 +1
@@ -3266,16 +3194,16 @@ p:BSkyB,f:1
 145c:011a0000:07e4:0002:25:0
 Sky Crime HD
 p:BSkyB,f:1
-0ee7:011a0000:07ee:0002:25:2
+0ee7:011a0000:07ee:0002:25:0
 Sky Greats HD
 p:BSkyB,f:1
-0ee8:011a0000:07ee:0002:25:3
+0ee8:011a0000:07ee:0002:25:0
 Sky Drama HD
 p:BSkyB,f:1
-0ee9:011a0000:07ee:0002:25:4
+0ee9:011a0000:07ee:0002:25:0
 Sky ScFi/Horror HD
 p:BSkyB,f:1
-0eeb:011a0000:07ee:0002:25:5
+0eeb:011a0000:07ee:0002:25:0
 Sky Comedy HD
 p:BSkyB,f:1
 1784:011a0000:07ee:0002:25:0
@@ -3584,10 +3512,10 @@ p:BSkyB,f:1
 03ef:011a0000:07ea:0002:25:0
 Amazon Prime Video UK 1
 p:BSkyB,C:0000,f:1
-03f0:011a0000:07ea:0002:25:1
+03f0:011a0000:07ea:0002:25:0
 Amazon Prime Video UK 2
 p:BSkyB,C:0000,f:1
-14d8:011a0000:07ea:0002:31:2
+14d8:011a0000:07ea:0002:31:0
 BT Sport Ultimate
 p:BSkyB,f:1
 14d9:011a0000:07ea:0002:31:0
@@ -3613,15 +3541,6 @@ BBC Three
 p:BSkyB,f:1
 190e:011a0000:07f5:0002:1:0
 BBC Four
-p:BSkyB,f:1
-190f:011a0000:07f5:0002:1:0
-BBC Scotland
-p:BSkyB,f:1
-1910:011a0000:07f5:0002:1:0
-BBC Alba
-p:BSkyB,f:1
-1912:011a0000:07f5:0002:1:0
-BBC Parliament
 p:BSkyB,f:1
 1913:011a0000:07f5:0002:1:0
 BBC Red Button 1
@@ -3661,9 +3580,6 @@ CBBC
 p:BSkyB,f:1
 192c:011a0000:07f5:0002:1:0
 CBeebies
-p:BSkyB,f:1
-192e:011a0000:07f5:0002:1:0
-6446
 p:BSkyB,f:1
 1950:011a0000:07f5:0002:2:0
 BBC World Service UK
@@ -3713,6 +3629,21 @@ p:BSkyB,f:1
 1960:011a0000:07f5:0002:1:0
 CBeebies
 p:BSkyB,f:1
+1912:011a0000:07f5:0002:1:0
+BBC Parliament
+p:BSkyB,f:1
+191b:011a0000:07f5:0002:1:0
+BBC One
+p:BSkyB,f:1
+190f:011a0000:07f5:0002:1:0
+BBC Scotland
+p:BSkyB,f:1
+1910:011a0000:07f5:0002:1:0
+BBC Alba
+p:BSkyB,f:1
+192e:011a0000:07f5:0002:1:0
+BBC ALBA
+p:BSkyB,f:1
 0002:011a30e3:0001:0001:1:0
 B
 p:none,f:1
@@ -3722,86 +3653,26 @@ p:BSkyB,f:1
 289b:011aaa42:0800:0002:25:0
 CBeebies HD
 p:BSkyB,f:1
-287d:011aaa42:0800:0002:25:2
+287d:011aaa42:0800:0002:25:0
 BBC Four HD
 p:BSkyB,f:1
-2876:011aaa42:0800:0002:1:0
-BBC News
-p:BSkyB,f:1
-2885:011aaa42:0800:0002:25:4
+2885:011aaa42:0800:0002:25:0
 BBC One East HD
 p:BSkyB,f:1
-2886:011aaa42:0800:0002:25:5
+2886:011aaa42:0800:0002:25:0
 BBC One East Midlands
 p:BSkyB,f:1
-2898:011aaa42:0800:0002:1:0
-BBC One NI
-p:BSkyB,f:1
-2879:011aaa42:0800:0002:1:0
-BBC One Northern Ireland
-p:BSkyB,f:1
-2874:011aaa42:0800:0002:1:0
-BBC One Oxford
-p:BSkyB,f:1
-2871:011aaa42:0800:0002:1:0
-BBC One South
-p:BSkyB,f:1
-2872:011aaa42:0800:0002:1:0
-BBC One South West
-p:BSkyB,f:1
-2873:011aaa42:0800:0002:25:0
-BBC Scotland HD
-p:BSkyB,f:1
-286f:011aaa42:0800:0002:1:0
-BBC Three
-p:BSkyB,f:1
-2899:011aaa42:0800:0002:1:0
-BBC Two NI
-p:BSkyB,f:1
-287a:011aaa42:0800:0002:1:0
-BBC Two Northern Ireland
-p:BSkyB,f:1
-287c:011aaa42:0800:0002:25:1
+287c:011aaa42:0800:0002:25:0
 BBC Two Wales HD
 p:BSkyB,f:1
-2870:011aaa42:0800:0002:1:0
-CBBC
-p:BSkyB,f:1
-2884:011aaa42:0800:0002:1:0
-CBBC Channel
-p:BSkyB,f:1
-287e:011aaa42:0800:0002:25:3
+287e:011aaa42:0800:0002:25:0
 CBeebies HD
 p:BSkyB,f:1
-2883:011aaa42:0800:0002:1:0
-ETV6
-p:BSkyB,f:1
 287b:011aaa42:0800:0002:25:0
-BBC One Lon HD
+BBC One London HD
 p:BSkyB,f:1
 285f:011aaa24:07fe:0002:25:0
 BBCScotlandHD
-p:BSkyB,f:1
-283d:011aaa24:07fe:0002:1:0
-BBC One West Midlands
-p:BSkyB,f:1
-283f:011aaa24:07fe:0002:1:0
-BBC One Yorkshire & Lincolnshire
-p:BSkyB,f:1
-2841:011aaa24:07fe:0002:1:0
-BBC One East Midlands
-p:BSkyB,f:1
-2842:011aaa24:07fe:0002:1:0
-BBC One East
-p:BSkyB,f:1
-2843:011aaa24:07fe:0002:1:0
-BBC Parliament
-p:BSkyB,f:1
-2847:011aaa24:07fe:0002:1:0
-BBC One Wales
-p:BSkyB,f:1
-2848:011aaa24:07fe:0002:1:0
-BBC Two Wales
 p:BSkyB,f:1
 2851:011aaa24:07fe:0002:25:0
 ETV5
@@ -3817,6 +3688,18 @@ BBC One West HD
 p:BSkyB,f:1
 2865:011aaa24:07fe:0002:25:0
 BBC One South West HD
+p:BSkyB,f:1
+18a4:011a2a15:07fd:0002:25:0
+BBC Parliament HD
+p:BSkyB,f:1
+18a7:011a2a15:07fd:0002:25:0
+BBC One North East and Cumbria HD
+p:BSkyB,f:1
+18bb:011a2a15:07fd:0002:25:0
+BBC One North West HD
+p:BSkyB,f:1
+18e3:011a2a15:07fd:0002:25:0
+BBC One Yorkshire & Lincolnshire HD
 p:BSkyB,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
@@ -4707,7 +4590,7 @@ p:SKY,f:1
 Sky Cinema Premieren HD
 p:SKY,f:1
 0076:00c00000:0006:0085:25:0
-NatGeo Wild HD
+Sky Nature HD
 p:SKY,f:1
 010b:00c00000:0006:0085:25:0
 Sky Sport Bundesliga 1 HD
@@ -4806,7 +4689,7 @@ p:MTV Networks Europe,f:1
 Sky Cinema Special HD Germany
 p:SKY,f:1
 0070:00c00000:000d:0085:25:0
-National Geographic HD Germany
+Sky Documentaries HD Germany
 p:SKY,f:1
 0072:00c00000:000d:0085:25:0
 Sky Sport Tennis HD
@@ -5431,6 +5314,9 @@ OTA SMIT CAM 702
 p:M7 Group
 101c:00c00000:0451:0035:25:0
 Canalplus First
+p:M7 Group,f:1
+1040:00c00000:0451:0035:25:0
+Current Time TV
 p:M7 Group,f:1
 445c:00c00000:0453:0001:1:0
 Sat 1
@@ -6431,7 +6317,7 @@ p:-,f:1
 3404:00c00000:03ed:0001:22:0
 Stimmungsgarten TV
 p:ORS,f:1
-1086:00c00000:03ee:0001:31:136
+1086:00c00000:03ee:0001:31:0
 QVC UHD
 p:MX1,f:1
 1091:00c00000:03ee:0001:2:0
@@ -7493,7 +7379,7 @@ p:SKY,f:1
 0143:00c00000:0008:0085:211:0
 Sky Sport 7
 p:SKY,f:1
-014c:00c00000:0008:0085:211:36
+014c:00c00000:0008:0085:211:0
 Sky Sport Bundesliga 8
 p:SKY,f:1
 014d:00c00000:0008:0085:211:0
@@ -7622,9 +7508,21 @@ p:SES,f:1
 290a:00c00000:045e:0001:1:0
 Deluxe Flashback
 p:SES,f:1
+2904:00c00000:045e:0001:1:0
+Xplore
+p:SES,f:1
+2905:00c00000:045e:0001:1:0
+Hip Trips
+p:SES,f:1
+2906:00c00000:045e:0001:1:0
+One Terra
+p:SES,f:1
 0001:00c0ad8e:0001:ffff:1:0
 ITA396 MAIN
 p:,f:1
+0001:00c00000:0000:0001:0:0
+FEED-1B-TUR139
+p:HDPROTEK
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -9188,7 +9086,7 @@ p:Netmed,f:1
 3c92:00820000:1bbc:013e:1:0
 TLC
 p:Netmed,f:1
-3c97:00820000:1bbc:013e:1:1
+3c97:00820000:1bbc:013e:1:0
 E! Entertainment HD
 p:Syned,f:1
 1c22:00820000:1c20:013e:1:0
@@ -9230,7 +9128,7 @@ p:M-Three satcom
 0e46:00820000:1c20:013e:2:0
 Radio Iglesias
 p:M-Three satcom
-0e35:00820000:1c20:013e:2:203
+0e35:00820000:1c20:013e:2:0
 Radio Sportiva
 p:M-Three satcom
 0e30:00820000:1c20:013e:2:0
@@ -9383,7 +9281,7 @@ p:NetMed,f:1
 0186:00820000:1c84:013e:1:0
 Da Vinci HD UG
 p:NetMed,f:1
-0187:00820000:1c84:013e:1:1
+0187:00820000:1c84:013e:1:0
 History HD UG
 p:NETMED,f:1
 0160:00820000:1c84:013e:1:0
@@ -10105,6 +10003,21 @@ BogBlagTV
 p:STN,f:1
 233c:00820000:2328:013e:1:0
 TBN
+p:STN,f:1
+2335:00820000:2328:013e:1:0
+KICC TV
+p:STN,f:1
+233b:00820000:2328:013e:1:0
+CNA TV
+p:STN,f:1
+233d:00820000:2328:013e:1:0
+Firstlight
+p:STN,f:1
+233e:00820000:2328:013e:1:0
+Amazing Facts
+p:STN,f:1
+233f:00820000:2328:013e:1:0
+TeleRadioPace TV
 p:STN,f:1
 019f:00820000:26ac:013f:1:0
 BFM TV
@@ -14354,6 +14267,9 @@ p:M7,f:1
 79e1:0e080000:02c8:0600:25:0
 Direct One HD
 p:M7,f:1
+79fa:0e080000:02c8:0600:1:0
+TV Paprika RO
+p:M7,f:1
 797e:0e080000:02c7:0600:1:0
 Cartoon Network Eastern Europe
 p:UPC Direct,f:1
@@ -14441,10 +14357,10 @@ p:M7,f:1
 798a:0e080000:02c7:0600:1:0
 TDC (Timeless Drama Channel)
 p:M7,f:1
-1b73:0e080000:004e:0046:25:65535
+1b73:0e080000:004e:0046:25:0
 V sport 2 HD (Old)
 p:Telenor,f:1
-1beb:0e080000:004e:0046:25:65535
+1beb:0e080000:004e:0046:25:0
 V sport 3 HD (Old)
 p:Telenor,f:1
 1c0a:0e080000:004e:0046:25:0
@@ -14809,6 +14725,15 @@ Strike TV
 p:Slovak Telekom,C:0000,f:1
 0fb2:0e080000:0af4:00bb:22:0
 AXN Czech.
+p:Slovak Telekom,f:1
+0fda:0e080000:0af4:00bb:22:0
+AXN HU.
+p:Slovak Telekom,f:1
+0fdb:0e080000:0af4:00bb:22:0
+AXN White.
+p:Slovak Telekom,f:1
+0fdc:0e080000:0af4:00bb:22:0
+AXN Black.
 p:Slovak Telekom,f:1
 0bc4:0e080000:0af3:00bb:25:0
 Spektrum HD
