@@ -390,6 +390,9 @@ fed40000:00a0:00eb
 fed4ad5e:0001:ffff
 	s 11614000:4500000:1:3:-300:2:0
 /
+fed4ad67:0001:ffff
+	s 11623000:7200000:1:3:-300:2:0:1:2:0:2
+/
 end
 services
 43a0:00820000:2cec:013e:1:0
@@ -806,9 +809,6 @@ p:Telespazio,f:1
 1384:00820000:33f4:013e:1:0
 Solo Calcio
 p:Telespazio,f:1
-0002:00820000:33f4:013e:2:0
-Antena1
-p:Harmonic
 366a:00820000:00c8:013e:1:0
 Noviy Mir
 p:Harmonic,f:1
@@ -2673,7 +2673,7 @@ p:Cyfrowy Polsat S.A.,f:1
 Polsat Sport Premium PPV6
 p:Cyfrowy Polsat S.A.,f:1
 39d3:00820000:1fa4:013e:1:0
-Detskii Mir
+Detskiy Mir - TeleClub
 p:Kabelkiosk,f:1
 39d4:00820000:1fa4:013e:1:0
 Lubimoe Kino
@@ -4019,9 +4019,6 @@ p:People TV-Rete 7,f:1
 051a:00820000:3d54:013e:25:0
 Simaye Azadi HD
 p:M-Three Satcom,f:1
-0520:00820000:3d54:013e:1:0
-Yes Italia
-p:M-Three Satcom,f:1
 052f:00820000:3d54:013e:22:0
 Super!
 p:M-Three Satcom Srl,f:1
@@ -4340,15 +4337,6 @@ p:Globecast UK,f:1
 2023:00820000:24b8:013e:2:0
 Service 8227
 p:Globecast
-2011:00820000:24b8:013e:1:0
-CGTN
-p:Globecast,f:1
-2012:00820000:24b8:013e:1:0
-Arirang World
-p:Globecast,f:1
-2016:00820000:24b8:013e:1:0
-EuroNews Russkiy
-p:Globecast,f:1
 01f5:00820000:0384:013e:1:0
 Iran International HD
 p:ABS,f:1
@@ -4379,12 +4367,6 @@ p:,f:1
 064d:00820000:2454:013e:1:0
 ACI Sport TV
 p:EUTELSAT,f:1
-064f:00820000:2454:013e:1:0
-Canal Algérie
-p:Eutelsat,f:1
-0650:00820000:2454:013e:1:0
-Algérie 3 (Thalitha TV)
-p:Eutelsat,f:1
 0653:00820000:2454:013e:1:0
 Pop Economy
 p:EUTELSAT,f:1
@@ -5072,17 +5054,11 @@ p:Meo,f:1
 0070:0ce40000:0065:0053:1:0
 Canal de Historia
 p:Meo,f:1
-0071:0ce40000:0065:0053:1:0
-Baby TV
-p:Meo,f:1
 0078:0ce40000:0065:0053:1:0
 ARTV
 p:Meo,f:1
 0080:0ce40000:0065:0053:1:0
 MTV Portugal
-p:Meo,f:1
-007f:0ce40000:0065:0053:1:0
-SIC Kids
 p:Meo,f:1
 0085:0ce40000:0065:0053:1:0
 CNN Portugal
@@ -5147,12 +5123,6 @@ p:Globo,f:1
 009f:0ce40000:0065:0053:1:0
 Porto Canal
 p:Porto Canal,f:1
-00a0:0ce40000:0065:0053:1:0
-SIC Kids
-p:SIC K,f:1
-00a1:0ce40000:0065:0053:1:0
-Baby TV
-p:Baby TV,f:1
 00a2:0ce40000:0065:0053:1:0
 Canal História
 p:Canal História,f:1
@@ -5354,15 +5324,6 @@ p:Disney Channel,f:1
 0320:0ce40000:002f:0036:2:0
 TSF
 p:SID TSF
-053c:0ce40000:002f:0036:1:0
-ZAP Viva HD
-p:SID ZAP Viva HD,f:1
-053d:0ce40000:002f:0036:1:0
-NOS Studios HD
-p:NOS Studios HD,f:1
-053e:0ce40000:002f:0036:1:0
-NOS Studios HD
-p:NOS Studios HD,f:1
 053a:0ce40000:002f:0036:1:0
 Canal 11 HD
 p:Canal 11 HD,f:1
@@ -5439,9 +5400,6 @@ p:,f:1
 
 p:,f:1
 02bd:0ce40000:002f:0036:1:0
-
-p:,f:1
-01ce:0ce40000:002f:0036:1:0
 
 p:,f:1
 125d:0ce40000:002f:0036:1:0
@@ -6689,9 +6647,6 @@ p:RTVE,f:1
 27f6:0ce40000:1450:22d4:1:0
 A9 HD
 p:TPA,f:1
-0378:0ce40000:0026:0036:1:0
-Canal de Teste
-p:Canal de Teste,f:1
 0135:0ce40000:0026:0036:1:0
 Sport TV 4 HD
 p:Nos,f:1
@@ -6734,9 +6689,6 @@ p:FTV,f:1
 0148:0ce40000:0026:0036:1:0
 MCM Pop
 p:MCM Pop,f:1
-0149:0ce40000:0026:0036:1:0
-Canção Nova
-p:Canção Nova,f:1
 014b:0ce40000:0026:0036:1:0
 Bloomberg
 p:Bloomberg,f:1
@@ -6746,9 +6698,6 @@ p:CNBC,f:1
 014d:0ce40000:0026:0036:1:0
 TV Galicia
 p:TV Galicia,f:1
-014e:0ce40000:0026:0036:1:0
-Playboy TV
-p:Playboy TV,f:1
 177e:0ce40000:0026:0036:1:0
 SIC Notícias
 p:,f:1
@@ -6840,9 +6789,6 @@ p:,f:1
 
 p:,f:1
 009f:0ce40000:0026:0036:1:0
-
-p:,f:1
-00a1:0ce40000:0026:0036:1:0
 
 p:,f:1
 00a2:0ce40000:0026:0036:1:0
@@ -7160,6 +7106,9 @@ p:ATM BROADCAST,f:1
 0001:fed4ad5e:0001:ffff:1:0
 TCLM04_E291_VIA1
 p:RTVCM,f:1
+0001:fed4ad67:0001:ffff:1:0
+G 10 E 272 Via1
+p:Service Provider,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2023

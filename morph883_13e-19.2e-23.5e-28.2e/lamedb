@@ -3,9 +3,6 @@ transponders
 011a0000:07f9:0002
 	s 10714000:22000000:0:4:282:2:0
 /
-011a0000:07ff:0002
-	s 10803000:22000000:0:4:282:2:0
-/
 011a0000:0805:0002
 	s 10891000:22000000:0:4:282:2:0
 /
@@ -198,7 +195,7 @@ transponders
 011a0000:0832:0002
 	s 11597000:22000000:1:4:282:2:0
 /
-011a30f7:0000:0000
+011a30f7:0001:ffff
 	s 12535000:7200000:0:3:282:2:0:1:2:0:2
 /
 011a2d58:2012:233a
@@ -245,6 +242,9 @@ transponders
 /
 011a2a15:07fd:0002
 	s 10773000:23000000:0:3:282:2:0:1:2:1:2
+/
+011a2a33:07f5:0002
+	s 10803000:22000000:0:4:282:2:0
 /
 00eb0000:0c88:0003
 	s 11856000:29900000:1:2:235:2:0:1:2:0:0
@@ -1121,24 +1121,6 @@ p:BSkyB,f:1
 2422:011a0000:07f9:0002:1:0
 E4 Ireland +1
 p:BSkyB,f:1
-1915:011a0000:07ff:0002:1:0
-BBC One Scotland
-p:BSkyB,f:1
-1929:011a0000:07ff:0002:1:0
-BBC One North West
-p:BSkyB,f:1
-1933:011a0000:07ff:0002:1:0
-BBC One Yorkshire & North Midlands
-p:BSkyB,f:1
-193d:011a0000:07ff:0002:1:0
-BBC One South East
-p:BSkyB,f:1
-1947:011a0000:07ff:0002:1:0
-BBC One North East and Cumbria
-p:BSkyB,f:1
-1907:011a0000:07ff:0002:2:0
-ETV2
-p:BSkyB
 27a1:011a0000:0805:0002:1:0
 ITV 1 Central West +1
 p:BSkyB,f:1
@@ -3020,9 +3002,6 @@ p:BSkyB,f:1
 1b28:011a0000:0802:0002:25:0
 CBBC HD
 p:BSkyB,f:1
-1b31:011a0000:0802:0002:25:0
-BBC One HD
-p:BSkyB,f:1
 1b33:011a0000:0802:0002:25:0
 BBC One NI HD
 p:BSkyB,f:1
@@ -3030,7 +3009,7 @@ p:BSkyB,f:1
 CBBC HD
 p:BSkyB,f:1
 1b21:011a0000:0802:0002:25:0
-6945
+ETV4
 p:BSkyB,f:1
 1b27:011a0000:0802:0002:25:0
 BBC Three HD
@@ -3080,15 +3059,6 @@ p:BSkyB,f:1
 20a8:011a0000:0808:0002:1:0
 E4 Extra
 p:BSkyB,f:1
-232a:011a0000:07f0:0002:31:0
-Ultra HD
-p:BSkyB,f:1
-2331:011a0000:07f0:0002:31:0
-US2MON
-p:BSkyB,f:1
-2334:011a0000:07f0:0002:31:0
-Ultra HD
-p:BSkyB,f:1
 040c:011a0000:07f0:0002:25:0
 BT Sport Box Office HD
 p:BSkyB,f:1
@@ -3098,12 +3068,15 @@ p:BSkyB,f:1
 040b:011a0000:07f0:0002:25:0
 Sky Sports Box Office HD
 p:BSkyB,f:1
-2669:011a0000:07f0:0002:31:0
-Ultra HD
-p:BSkyB,f:1
 048b:011a0000:07f0:0002:25:0
 1163
 p:BSkyB,C:0000,f:1
+264a:011a0000:07f0:0002:31:0
+Sky Sports F1 UHD
+p:BSkyB,f:1
+2654:011a0000:07f0:0002:31:0
+SkySpF1 UHD
+p:BSkyB,f:1
 1c27:011a0000:083b:0002:1:0
 Magic (UK)
 p:BSkyB,f:1
@@ -3425,7 +3398,7 @@ p:BSkyB,f:1
 d133:011a0000:0832:0002:1:0
 QTV Religious
 p:BSkyB,f:1
-0001:011a30f7:0000:0000:25:0
+0001:011a30f7:0001:ffff:25:0
 Salford v Castleford sat dr
 p:,f:1
 2100:011a2d58:2012:233a:1:0
@@ -3692,6 +3665,129 @@ p:BSkyB,f:1
 18e3:011a2a15:07fd:0002:25:0
 BBC One Yorkshire & Lincolnshire HD
 p:BSkyB,f:1
+190b:011a2a33:07f5:0002:1:0
+BBC One
+p:BSkyB,f:1
+190c:011a2a33:07f5:0002:1:0
+BBC Two
+p:BSkyB,f:1
+190d:011a2a33:07f5:0002:1:0
+BBC Three
+p:BSkyB,f:1
+190e:011a2a33:07f5:0002:1:0
+BBC Four
+p:BSkyB,f:1
+190f:011a2a33:07f5:0002:1:0
+BBC Scotland
+p:BSkyB,f:1
+1910:011a2a33:07f5:0002:1:0
+BBC Alba
+p:BSkyB,f:1
+1911:011a2a33:07f5:0002:1:0
+BBC News
+p:BSkyB,f:1
+1912:011a2a33:07f5:0002:1:0
+BBC Parliament
+p:BSkyB,f:1
+1913:011a2a33:07f5:0002:1:0
+BBC Red Button 1
+p:BSkyB,f:1
+1919:011a2a33:07f5:0002:1:0
+BBC One
+p:BSkyB,f:1
+191a:011a2a33:07f5:0002:1:0
+BBC One
+p:BSkyB,f:1
+191b:011a2a33:07f5:0002:1:0
+BBC One
+p:BSkyB,f:1
+192b:011a2a33:07f5:0002:1:0
+CBBC
+p:BSkyB,f:1
+192c:011a2a33:07f5:0002:1:0
+CBeebies
+p:BSkyB,f:1
+192e:011a2a33:07f5:0002:1:0
+BBC ALBA
+p:BSkyB,f:1
+195b:011a2a33:07f5:0002:1:0
+BBC One England
+p:BSkyB,f:1
+195c:011a2a33:07f5:0002:1:0
+BBC Two England
+p:BSkyB,f:1
+195d:011a2a33:07f5:0002:1:0
+BBC Three
+p:BSkyB,f:1
+195e:011a2a33:07f5:0002:1:0
+BBC Four
+p:BSkyB,f:1
+195f:011a2a33:07f5:0002:1:0
+CBBC
+p:BSkyB,f:1
+1960:011a2a33:07f5:0002:1:0
+CBeebies
+p:BSkyB,f:1
+191f:011a2a33:07f5:0002:2:0
+BBC R1
+p:BSkyB
+1920:011a2a33:07f5:0002:2:0
+BBC R2
+p:BSkyB
+1921:011a2a33:07f5:0002:2:0
+BBC R3
+p:BSkyB
+1922:011a2a33:07f5:0002:2:0
+BBC R4 FM
+p:BSkyB
+1923:011a2a33:07f5:0002:2:0
+BBC R5L
+p:BSkyB
+1924:011a2a33:07f5:0002:2:0
+BBC 6 Music
+p:BSkyB
+1925:011a2a33:07f5:0002:2:0
+BBC R4 LW
+p:BSkyB
+1926:011a2a33:07f5:0002:2:0
+BBC R5SX
+p:BSkyB
+1927:011a2a33:07f5:0002:2:0
+BBC R4 Ex
+p:BSkyB
+1928:011a2a33:07f5:0002:2:0
+BBC R1X
+p:BSkyB
+1950:011a2a33:07f5:0002:2:0
+BBC WS
+p:BSkyB
+1951:011a2a33:07f5:0002:2:0
+BBC R Wales
+p:BSkyB
+1952:011a2a33:07f5:0002:2:0
+BBC R Cymru
+p:BSkyB
+1953:011a2a33:07f5:0002:2:0
+BBC R Cymru 2
+p:BSkyB
+1954:011a2a33:07f5:0002:2:0
+BBC R Scot.
+p:BSkyB
+1955:011a2a33:07f5:0002:2:0
+BBC R n Gael
+p:BSkyB
+1956:011a2a33:07f5:0002:2:0
+BBC R Ulster
+p:BSkyB
+1957:011a2a33:07f5:0002:2:0
+BBC R Foyle
+p:BSkyB
+1958:011a2a33:07f5:0002:2:0
+BBC RLondon
+p:BSkyB
+195a:011a2a33:07f5:0002:2:0
+BBC Asian
+p:BSkyB
 1b6c:00eb0000:0c88:0003:25:0
 RTL 4 HD
 p:M7 Group,f:1
@@ -3821,9 +3917,6 @@ p:SES ASTRA,f:1
 1452:00eb0000:0c98:0003:1:0
 Ocko Star
 p:,f:1
-145b:00eb0000:0c98:0003:22:0
-SES Demo
-p:SES,f:1
 36e3:00eb0000:0c8c:0003:1:0
 DocuBOX HD
 p:MEDIA BROADCAST,f:1
@@ -4279,9 +4372,6 @@ Markiza HD
 p:M7 Group,f:1
 3732:00eb0000:0c8e:0003:25:0
 Doma HD
-p:M7 Group,f:1
-3735:00eb0000:0c8e:0003:25:0
-CANAL+ Sport 2
 p:M7 Group,f:1
 3733:00eb0000:0c8e:0003:25:0
 CANAL+ Sport CZ
@@ -5975,9 +6065,6 @@ p:,f:1
 08fc:00eb2d7b:0000:0001:1:0
 2300 - ESKA Beskidy/Zywiec
 p:,f:1
-fa00:00eb2d83:000b:0003:2:0
-RMF Maxxx
-p:
 070b:00eb2d83:000b:0003:2:0
 Radio Wielkopolska
 p:
@@ -5990,20 +6077,8 @@ p:
 044f:00eb2d83:000b:0003:2:0
 RMF FM
 p:
-4650:00eb2d83:000b:0003:2:0
-RMF Maxxx
-p:
-4268:00eb2d83:000b:0003:2:0
-RMF Maxxx
-p:
 057b:00eb2d83:000b:0003:2:0
 RMF Maxxx Trojmiasto
-p:
-3e80:00eb2d83:000b:0003:2:0
-RMF Maxxx
-p:
-3a98:00eb2d83:000b:0003:2:0
-RMF Maxxx
 p:
 06a7:00eb2d83:000b:0003:2:0
 RMF Maxxx Pomorze
@@ -6011,17 +6086,8 @@ p:
 04b3:00eb2d83:000b:0003:2:0
 RMF Classic
 p:
-32c8:00eb2d83:000b:0003:2:0
-RMF Maxxx
-p:
 05df:00eb2d83:000b:0003:2:0
 RMF Maxxx
-p:
-2ee0:00eb2d83:000b:0003:2:0
-RMF Classic
-p:
-2af8:00eb2d83:000b:0003:2:0
-RMF FM
 p:
 0001:00ebb122:0001:ffff:1:0
 D-462
@@ -7442,9 +7508,6 @@ p:CSAT
 0071:00c00000:000b:0085:25:0
 History Channel HD Germany
 p:SKY,f:1
-0080:00c00000:000b:0085:25:0
-E! Entertainm. HD
-p:SKY,f:1
 0088:00c00000:000b:0085:25:0
 Warner TV Comedy HD
 p:SKY,f:1
@@ -8075,9 +8138,6 @@ p:ORS,f:1
 33a6:00c00000:03eb:0001:1:0
 StarParadies D
 p:-,f:1
-33af:00c00000:03eb:0001:1:0
-Service 13231
-p:ORS,f:1
 33a9:00c00000:03eb:0001:25:0
 Kurier TV
 p:-,f:1
@@ -8665,9 +8725,6 @@ AB 1
 p:AB SAT,f:1
 427e:00c00000:0446:0001:25:0
 Animaux HD
-p:AB SAT,f:1
-427f:00c00000:0446:0001:25:0
-Science et Vie HD
 p:AB SAT,f:1
 4280:00c00000:0446:0001:25:0
 XXL
@@ -10268,9 +10325,6 @@ p:Telespazio,f:1
 1384:00820000:33f4:013e:1:0
 Solo Calcio
 p:Telespazio,f:1
-0002:00820000:33f4:013e:2:0
-Antena1
-p:Harmonic
 366a:00820000:00c8:013e:1:0
 Noviy Mir
 p:Harmonic,f:1
@@ -12135,7 +12189,7 @@ p:Cyfrowy Polsat S.A.,f:1
 Polsat Sport Premium PPV6
 p:Cyfrowy Polsat S.A.,f:1
 39d3:00820000:1fa4:013e:1:0
-Detskii Mir
+Detskiy Mir - TeleClub
 p:Kabelkiosk,f:1
 39d4:00820000:1fa4:013e:1:0
 Lubimoe Kino
@@ -13481,9 +13535,6 @@ p:People TV-Rete 7,f:1
 051a:00820000:3d54:013e:25:0
 Simaye Azadi HD
 p:M-Three Satcom,f:1
-0520:00820000:3d54:013e:1:0
-Yes Italia
-p:M-Three Satcom,f:1
 052f:00820000:3d54:013e:22:0
 Super!
 p:M-Three Satcom Srl,f:1
@@ -13802,15 +13853,6 @@ p:Globecast UK,f:1
 2023:00820000:24b8:013e:2:0
 Service 8227
 p:Globecast
-2011:00820000:24b8:013e:1:0
-CGTN
-p:Globecast,f:1
-2012:00820000:24b8:013e:1:0
-Arirang World
-p:Globecast,f:1
-2016:00820000:24b8:013e:1:0
-EuroNews Russkiy
-p:Globecast,f:1
 01f5:00820000:0384:013e:1:0
 Iran International HD
 p:ABS,f:1
@@ -13841,12 +13883,6 @@ p:,f:1
 064d:00820000:2454:013e:1:0
 ACI Sport TV
 p:EUTELSAT,f:1
-064f:00820000:2454:013e:1:0
-Canal Algérie
-p:Eutelsat,f:1
-0650:00820000:2454:013e:1:0
-Algérie 3 (Thalitha TV)
-p:Eutelsat,f:1
 0653:00820000:2454:013e:1:0
 Pop Economy
 p:EUTELSAT,f:1
