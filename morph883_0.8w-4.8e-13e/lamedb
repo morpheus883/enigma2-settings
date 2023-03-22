@@ -327,6 +327,9 @@ transponders
 0030b192:0001:ffff
 	s 12690000:7200000:1:3:48:2:0:1:2:0:2
 /
+00303130:0000:0000
+	s 12592000:7500000:0:3:48:2:0:1:2:0:2
+/
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
 /
@@ -594,7 +597,10 @@ fff8aced:0001:0001
 0e080000:0045:0046
 	s 10903000:25000000:1:3:-8:2:0:1:2:1:2
 /
-0e080000:0065:0065
+fff8b0fc:0065:0065
+	s 12540000:6660000:1:3:-8:2:0:1:2:0:2
+/
+fff8b0ee:0136:ffff
 	s 12526000:6660000:1:3:-8:2:0:1:2:0:2
 /
 end
@@ -5408,6 +5414,9 @@ p:SES ASTRA,f:1
 0009:00300000:0002:0055:1:0
 The Word Network
 p:SES ASTRA,f:1
+00d2:00300000:0002:0055:1:0
+TBN Ukraine
+p:,f:1
 000b:00300000:0065:0001:1:0
 SIS VISION AUDIO & VBI - CISCO 1
 p:,f:1
@@ -6257,6 +6266,9 @@ p:NA
 0001:0030b192:0001:ffff:1:0
 WPT Barcelona G19 E-349 Via1
 p:Service Provider,f:1
+0001:00303130:0000:0000:0:0
+beINSPORTS TURKEY M
+p:TREXXE
 040a:0e080000:0044:0046:25:0
 TV 2 Sport Premium HD
 p:Canal Digital Nordic,f:1
@@ -9491,9 +9503,15 @@ p:Telenor,f:1
 42eb:0e080000:0045:0046:25:0
 TV10 HD
 p:Telenor,f:1
-0065:0e080000:0065:0065:1:0
+0065:fff8b0fc:0065:0065:1:0
 B 101 DGI
 p:RCS-RDS BUCURESTI,f:1
+0136:fff8b0ee:0136:ffff:1:0
+digisport
+p:rcs-rds,f:1
+0001:fff8b0ee:0136:ffff:1:0
+backup
+p:RCS-RDS,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2023

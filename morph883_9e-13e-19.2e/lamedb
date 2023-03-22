@@ -300,9 +300,6 @@ transponders
 00c00000:042a:0001
 	s 11739000:27500000:1:3:192:2:0
 /
-00c02d55:0001:ffff
-	s 11605000:9874000:0:3:192:2:0:1:2:0:2
-/
 00c02d62:0001:ffff
 	s 11618000:9874000:0:3:192:2:0:1:2:0:2
 /
@@ -335,6 +332,9 @@ transponders
 /
 00c0ad8e:0000:ff00
 	s 11662000:9874000:1:3:192:2:0:1:2:0:2
+/
+00c02d55:0000:ff00
+	s 11605000:9874000:0:3:192:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -4514,9 +4514,6 @@ p:Service Provider,f:1
 17d5:00c00000:042a:0001:1:0
 CNN Int.
 p:SES ASTRA,f:1
-0001:00c02d55:0001:ffff:1:0
-SUI-067 MAIN
-p:In Aria X,f:1
 0001:00c02d62:0001:ffff:1:0
 Main NOR 044
 p:NEP Norway,f:1
@@ -4574,6 +4571,9 @@ p:Mobile Linke Europe AB,f:1
 0001:00c0ad8e:0000:ff00:25:0
 Are Clean Feed2
 p:,f:1
+0001:00c02d55:0000:ff00:25:0
+Falun FIS Cross-Country
+p:Mobile Linke Europe AB,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -9427,6 +9427,9 @@ Nat Geo Wild HD
 p:KabelKiosk,f:1
 4ef4:005a0000:21fc:009c:1:0
 Kinomir
+p:KabelKiosk,f:1
+4eed:005a0000:21fc:009c:25:0
+Universal TV
 p:KabelKiosk,f:1
 0065:005a0000:1838:009e:25:0
 M1 HD

@@ -153,8 +153,8 @@ transponders
 01a40000:0001:002a
 	s 11132000:1800000:1:3:420:2:0
 /
-01a42d07:0001:0001
-	s 11527000:2222000:1:3:420:2:0:1:2:0:2
+01a4ad06:0001:0001
+	s 11526000:2222000:1:3:420:2:0:1:2:0:2
 /
 01a40000:0000:ff00
 	s 10968000:7916000:1:4:420:2:0:1:2:0:2
@@ -248,6 +248,9 @@ transponders
 /
 01a4af29:9fc5:002a
 	s 12073000:27500000:1:4:420:2:0:1:2:2:2
+/
+01a42fa4:a1bc:0001
+	s 12196000:10400000:0:3:420:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -509,6 +512,9 @@ p:TURKSAT
 c60c:01a40000:a3ad:042e:1:0
 TURKSAT DATA
 p:TURKSAT,f:1
+c60d:01a40000:a3ad:042e:1:0
+Uvi Jewellery
+p:TURKSAT,f:1
 c80c:01a40000:a3ae:042e:2:0
 DIYANET RADYO
 p:TURKSAT
@@ -533,9 +539,6 @@ p:TURKSAT,f:1
 c807:01a40000:a3ae:042e:1:0
 Haber Global
 p:TURKSAT,f:1
-c800:01a40000:a3ae:042e:1:0
-Kackar TV
-p:TURKSAT,f:1
 c80b:01a40000:a3ae:042e:2:0
 POLIS RADYOSU
 p:TURKSAT
@@ -551,12 +554,12 @@ p:TURKSAT
 c814:01a40000:a3ae:042e:2:0
 RADYOBILIM
 p:TURKSAT
-c808:01a40000:a3ae:042e:1:0
-Uvi Jewellery
-p:TURKSAT,f:1
 c815:01a40000:a3ae:042e:2:0
 ST ENDUSTRI RADYO
 p:TURKSAT
+c800:01a40000:a3ae:042e:1:0
+Sam TV
+p:TURKSAT,f:1
 c48a:01a40000:a476:042e:128:0
 TKGS DATA
 p:TURKSAT
@@ -1292,15 +1295,12 @@ p:D-Smart,f:1
 048a:01a40000:0001:0042:25:0
 Fightbox
 p:D-Smart,f:1
-0484:01a40000:0001:0042:25:0
-MovieSmart Premium HD
-p:D-Smart,f:1
-0485:01a40000:0001:0042:25:0
-MovieSmart Premium 2 HD
-p:D-Smart,f:1
 048c:01a40000:0001:0042:25:0
 Trace Urban
 p:D-Smart,f:1
+0484:01a40000:0001:0042:25:0
+INSIGHT TV
+p:DEMIROREN MEDYA,C:0000,f:1
 06ac:01a40000:0007:0042:25:0
 NBA TV HD
 p:D-Smart,f:1
@@ -1385,9 +1385,6 @@ p:DEMIROREN MEDYA,f:1
 06b2:01a40000:0007:0042:25:0
 SPOR SMART2
 p:D-Smart,f:1
-06b4:01a40000:0007:0042:25:0
-INSIGHT TV
-p:DEMIROREN MEDYA,C:0000,f:1
 06a8:01a40000:0007:0042:25:0
 Eurosport 1
 p:DEMIROREN MEDYA,f:1
@@ -1451,27 +1448,6 @@ p:MNG TV,f:1
 3269:01a40000:a414:042e:2:0
 TV8Ifb
 p:TV8
-3332:01a42e2e:0000:0000:1:0
-Nat Geo Turkey HD
-p:FOX NETWORKS GROUP,f:1
-3334:01a42e2e:0000:0000:1:0
-Nat Geo People HD
-p:FOX NETWORKS GROUP,f:1
-3333:01a42e2e:0000:0000:1:0
-FX HD Turkey
-p:FOX NETWORKS GROUP,f:1
-3331:01a42e2e:0000:0000:1:0
-Fox Crime HD Turkey
-p:FOX NETWORKS GROUP,f:1
-3337:01a42e2e:0000:0000:1:0
-Nat Geo Wild HD
-p:FOX NETWORKS GROUP,f:1
-3335:01a42e2e:0000:0000:1:0
-24 Kitchen HD
-p:FOX NETWORKS GROUP,f:1
-3334:01a42e2e:0000:0000:25:0
-Disney Junior Türkiye
-p:DEMIROREN MEDYA,f:1
 319c:01a40000:a412:042e:1:0
 FOX Türkiye HD
 p:,f:1
@@ -2027,6 +2003,9 @@ p:TURKSAT
 c9be:01a40000:76c1:042e:1:0
 Teve 63
 p:TURKSAT,f:1
+c9af:01a40000:76c1:042e:1:0
+DRT Denizli TV
+p:TURKSAT,f:1
 3b01:01a40000:a98a:042e:2:0
 RADYO MUTLU
 p:TTNET
@@ -2097,10 +2076,10 @@ p:TTNET
 Disney Junior Türkiye
 p:TTNET,f:1
 3b17:01a40000:a98a:042e:25:0
-Tivibu Spor 3 HD Ticari
+Tivibu Spor 2 HD Ticari
 p:TTNET,f:1
 3afc:01a40000:a98a:042e:25:0
-Tivibu Spor 3 HD
+Tivibu Spor 2 HD
 p:TTNET,f:1
 3afd:01a40000:a98a:042e:25:0
 Fight Network HD
@@ -2112,10 +2091,10 @@ p:TTNET,f:1
 EDGE SPORT HD
 p:TTNET,f:1
 3b1b:01a40000:a98a:042e:25:0
-Tivibu Spor 4 HD
+Tivibu Spor 3 HD
 p:TTNET,f:1
 3b1c:01a40000:a98a:042e:25:0
-Tivibu Spor 4 HD Ticari
+Tivibu Spor 3 HD Ticari
 p:TTNET,f:1
 3afe:01a40000:a98a:042e:25:0
 BBC FIRST HD
@@ -2367,7 +2346,7 @@ p:TTNET,f:1
 Tivibu Spor HD Ticari
 p:TTNET,f:1
 39d9:01a40000:a989:042e:25:0
-Tivibu Spor 2 HD Ticari
+Tivibu Spor 1 HD Ticari
 p:TTNET,f:1
 39dd:01a40000:a989:042e:25:0
 History Channel Türkiye HD
@@ -2375,11 +2354,8 @@ p:TTNET,f:1
 39de:01a40000:a989:042e:22:0
 NickToons Türkiye
 p:TTNET,f:1
-39d1:01a40000:a989:042e:25:0
-Tivibu Spor HD
-p:TTNET,f:1
 39d2:01a40000:a989:042e:25:0
-Tivibu Spor 2 HD
+Tivibu Spor 1 HD
 p:TTNET,f:1
 39d4:01a40000:a989:042e:25:0
 Sinema Aksiyon HD
@@ -2387,6 +2363,12 @@ p:TTNET,f:1
 39d5:01a40000:a989:042e:25:0
 HABİTAT TV HD
 p:TTNET,f:1
+39da:01a40000:a989:042e:25:0
+S Sport
+p:TTNET,c:050001,C:0656,C:06ec,f:1
+39db:01a40000:a989:042e:25:0
+S Sport 2
+p:TTNET,C:0000,f:1
 cb20:01a40000:a02d:042e:1:0
 UçanKuş HD
 p:TURKSAT,f:1
@@ -2441,7 +2423,7 @@ p:TRT
 0001:01a40000:0001:002a:2:0
 RADYO 1
 p:TRT
-199b:01a42d07:0001:0001:1:0
+199b:01a4ad06:0001:0001:1:0
 Tarim Orman
 p:TURKSAT,f:1
 0001:01a40000:0000:ff00:25:0
@@ -2612,105 +2594,6 @@ p:IHA,f:1
 0001:01a42ad0:0001:ffff:1:0
 TUR - 047 A
 p:TUR - 047 A,f:1
-14bc:01a4ac29:a929:002a:130:0
-HOTTEST HITS
-p:Digital Platform,f:1
-14bd:01a4ac29:a929:002a:130:0
-LOVE SONGS
-p:Digital Platform,f:1
-14be:01a4ac29:a929:002a:130:0
-IN LOVE
-p:Digital Platform,f:1
-14bf:01a4ac29:a929:002a:130:0
-90'S HITS
-p:Digital Platform,f:1
-14c0:01a4ac29:a929:002a:130:0
-80'S HITS
-p:Digital Platform,f:1
-14c1:01a4ac29:a929:002a:130:0
-PARTY
-p:Digital Platform,f:1
-14c2:01a4ac29:a929:002a:130:0
-CONCERTS
-p:Digital Platform,f:1
-14c3:01a4ac29:a929:002a:130:0
-AMERICA'S CLASSICS
-p:Digital Platform,f:1
-14c4:01a4ac29:a929:002a:130:0
-CLASSICAL MUSIC
-p:Digital Platform,f:1
-14c5:01a4ac29:a929:002a:130:0
-ROCK
-p:Digital Platform,f:1
-14c6:01a4ac29:a929:002a:130:0
-ENERGETIC
-p:Digital Platform,f:1
-14c7:01a4ac29:a929:002a:130:0
-CLASSIC ROCK
-p:Digital Platform,f:1
-14c8:01a4ac29:a929:002a:130:0
-NU JAZZ
-p:Digital Platform,f:1
-14c9:01a4ac29:a929:002a:130:0
-JAZZ
-p:Digital Platform,f:1
-14ca:01a4ac29:a929:002a:130:0
-BLUES
-p:Digital Platform,f:1
-14cb:01a4ac29:a929:002a:130:0
-REGGAE
-p:Digital Platform,f:1
-14cc:01a4ac29:a929:002a:130:0
-LATIN
-p:Digital Platform,f:1
-14cd:01a4ac29:a929:002a:130:0
-OLDIES BUT GOLDIES
-p:Digital Platform,f:1
-14ce:01a4ac29:a929:002a:130:0
-MORNING COFFEE
-p:Digital Platform,f:1
-14cf:01a4ac29:a929:002a:130:0
-CHILL OUT / LOUNGE
-p:Digital Platform,f:1
-14d0:01a4ac29:a929:002a:130:0
-HIP HOP R&B
-p:Digital Platform,f:1
-14d1:01a4ac29:a929:002a:130:0
-EASY LISTENING
-p:Digital Platform,f:1
-14d2:01a4ac29:a929:002a:130:0
-RELAXATION
-p:Digital Platform,f:1
-14d3:01a4ac29:a929:002a:130:0
-INTERNATIONAL
-p:Digital Platform,f:1
-14d4:01a4ac29:a929:002a:130:0
-DREAMY
-p:Digital Platform,f:1
-14d5:01a4ac29:a929:002a:130:0
-MELANCHOLIC
-p:Digital Platform,f:1
-14d6:01a4ac29:a929:002a:130:0
-SMOOTH JAZZ
-p:Digital Platform,f:1
-14d7:01a4ac29:a929:002a:130:0
-HAPPY
-p:Digital Platform,f:1
-14dd:01a4ac29:a929:002a:130:0
-ALEM FM 89.2
-p:Digital Platform,f:1
-14e3:01a4ac29:a929:002a:130:0
-5+1 CONCERTS
-p:Digital Platform,f:1
-14e6:01a4ac29:a929:002a:130:0
-BABA RADYO
-p:Digital Platform,f:1
-14ea:01a4ac29:a929:002a:130:0
-GREEK SONGS
-p:Digital Platform,f:1
-14ed:01a4ac29:a929:002a:130:0
-MASAL RADYO
-p:Digital Platform,f:1
 4204:01a4ac29:a929:002a:17:0
 Yaban TV HD
 p:Digital Platform,f:1
@@ -2783,6 +2666,105 @@ p:Digital Platform,f:1
 14e8:01a4ac29:a929:002a:130:0
 RADYO 7
 p:Digital Platform,f:1
+14bc:01a4ac29:a929:002a:2:0
+HOTTEST HITS
+p:Digital Platform
+14bd:01a4ac29:a929:002a:2:0
+LOVE SONGS
+p:Digital Platform
+14be:01a4ac29:a929:002a:2:0
+IN LOVE
+p:Digital Platform
+14bf:01a4ac29:a929:002a:2:0
+90'S HITS
+p:Digital Platform
+14c0:01a4ac29:a929:002a:2:0
+80'S HITS
+p:Digital Platform
+14c1:01a4ac29:a929:002a:2:0
+PARTY
+p:Digital Platform
+14c2:01a4ac29:a929:002a:2:0
+CONCERTS
+p:Digital Platform
+14c3:01a4ac29:a929:002a:2:0
+AMERICA'S CLASSICS
+p:Digital Platform
+14c4:01a4ac29:a929:002a:2:0
+CLASSICAL MUSIC
+p:Digital Platform
+14c5:01a4ac29:a929:002a:2:0
+ROCK
+p:Digital Platform
+14c6:01a4ac29:a929:002a:2:0
+ENERGETIC
+p:Digital Platform
+14c7:01a4ac29:a929:002a:2:0
+CLASSIC ROCK
+p:Digital Platform
+14c8:01a4ac29:a929:002a:2:0
+NU JAZZ
+p:Digital Platform
+14c9:01a4ac29:a929:002a:2:0
+JAZZ
+p:Digital Platform
+14ca:01a4ac29:a929:002a:2:0
+BLUES
+p:Digital Platform
+14cb:01a4ac29:a929:002a:2:0
+REGGAE
+p:Digital Platform
+14cc:01a4ac29:a929:002a:2:0
+LATIN
+p:Digital Platform
+14cd:01a4ac29:a929:002a:2:0
+OLDIES BUT GOLDIES
+p:Digital Platform
+14ce:01a4ac29:a929:002a:2:0
+MORNING COFFEE
+p:Digital Platform
+14cf:01a4ac29:a929:002a:2:0
+CHILL OUT / LOUNGE
+p:Digital Platform
+14d0:01a4ac29:a929:002a:2:0
+HIP HOP R&B
+p:Digital Platform
+14d1:01a4ac29:a929:002a:2:0
+EASY LISTENING
+p:Digital Platform
+14d2:01a4ac29:a929:002a:2:0
+RELAXATION
+p:Digital Platform
+14d3:01a4ac29:a929:002a:2:0
+INTERNATIONAL
+p:Digital Platform
+14d4:01a4ac29:a929:002a:2:0
+DREAMY
+p:Digital Platform
+14d5:01a4ac29:a929:002a:2:0
+MELANCHOLIC
+p:Digital Platform
+14d6:01a4ac29:a929:002a:2:0
+SMOOTH JAZZ
+p:Digital Platform
+14d7:01a4ac29:a929:002a:2:0
+HAPPY
+p:Digital Platform
+14dd:01a4ac29:a929:002a:2:0
+ALEM FM 89.2
+p:Digital Platform
+14e3:01a4ac29:a929:002a:2:0
+5+1 CONCERTS
+p:Digital Platform
+14e6:01a4ac29:a929:002a:2:0
+BABA RADYO
+p:Digital Platform
+14ea:01a4ac29:a929:002a:2:0
+GREEK SONGS
+p:Digital Platform
+14ed:01a4ac29:a929:002a:2:0
+MASAL RADYO
+p:Digital Platform
 4268:01a4ac01:78b5:002a:17:0
 Da Vinci HD
 p:Digital Platform,f:1
@@ -2984,6 +2966,21 @@ p:Digital Platform,f:1
 409d:01a4af29:9fc5:002a:17:0
 TEST
 p:Digital Platform,f:1
+3332:01a42fa4:a1bc:0001:25:0
+Nat Geo Turkey HD
+p:FOX NETWORKS GROUP,f:1
+3333:01a42fa4:a1bc:0001:25:0
+FX HD Turkey
+p:FOX NETWORKS GROUP,f:1
+3334:01a42fa4:a1bc:0001:25:0
+Disney Junior Türkiye
+p:DEMIROREN MEDYA,f:1
+3335:01a42fa4:a1bc:0001:25:0
+24 Kitchen HD
+p:FOX NETWORKS GROUP,f:1
+3331:01a42fa4:a1bc:0001:25:0
+Nat Geo Wild HD
+p:FOX NETWORKS GROUP,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1

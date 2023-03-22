@@ -309,9 +309,6 @@ transponders
 00c00000:042a:0001
 	s 11739000:27500000:1:3:192:2:0
 /
-00c02d55:0001:ffff
-	s 11605000:9874000:0:3:192:2:0:1:2:0:2
-/
 00c02d62:0001:ffff
 	s 11618000:9874000:0:3:192:2:0:1:2:0:2
 /
@@ -344,6 +341,9 @@ transponders
 /
 00c0ad8e:0000:ff00
 	s 11662000:9874000:1:3:192:2:0:1:2:0:2
+/
+00c02d55:0000:ff00
+	s 11605000:9874000:0:3:192:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -662,6 +662,9 @@ transponders
 /
 0030b192:0001:ffff
 	s 12690000:7200000:1:3:48:2:0:1:2:0:2
+/
+00303130:0000:0000
+	s 12592000:7500000:0:3:48:2:0:1:2:0:2
 /
 end
 services
@@ -4496,9 +4499,6 @@ p:Service Provider,f:1
 17d5:00c00000:042a:0001:1:0
 CNN Int.
 p:SES ASTRA,f:1
-0001:00c02d55:0001:ffff:1:0
-SUI-067 MAIN
-p:In Aria X,f:1
 0001:00c02d62:0001:ffff:1:0
 Main NOR 044
 p:NEP Norway,f:1
@@ -4556,6 +4556,9 @@ p:Mobile Linke Europe AB,f:1
 0001:00c0ad8e:0000:ff00:25:0
 Are Clean Feed2
 p:,f:1
+0001:00c02d55:0000:ff00:25:0
+Falun FIS Cross-Country
+p:Mobile Linke Europe AB,f:1
 43a0:00820000:2cec:013e:1:0
 CNL Russia
 p:RRsat,f:1
@@ -9293,6 +9296,9 @@ p:SES ASTRA,f:1
 0009:00300000:0002:0055:1:0
 The Word Network
 p:SES ASTRA,f:1
+00d2:00300000:0002:0055:1:0
+TBN Ukraine
+p:,f:1
 000b:00300000:0065:0001:1:0
 SIS VISION AUDIO & VBI - CISCO 1
 p:,f:1
@@ -10142,6 +10148,9 @@ p:NA
 0001:0030b192:0001:ffff:1:0
 WPT Barcelona G19 E-349 Via1
 p:Service Provider,f:1
+0001:00303130:0000:0000:0:0
+beINSPORTS TURKEY M
+p:TREXXE
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2023
