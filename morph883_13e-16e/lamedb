@@ -90,9 +90,6 @@ transponders
 00a00000:9e98:016e
 	s 11324000:30000000:1:2:160:2:0:1:2:2:2
 /
-00a00000:0064:0064
-	s 12717000:7500000:0:3:160:2:0:1:1:0:2
-/
 00a00000:d232:d232
 	s 11069000:354000:0:2:160:2:0
 /
@@ -236,6 +233,9 @@ transponders
 /
 00a03170:0000:0001
 	s 12656000:7200000:0:3:160:2:0:1:2:0:2
+/
+00a031ad:0064:0064
+	s 12717000:6250000:0:3:160:2:0:1:1:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -737,6 +737,9 @@ p:,f:1
 0001:00a00000:0065:0001:17:0
 Virtuali 4
 p:TIP,f:1
+0028:00a00000:0065:0001:1:0
+EPQ C2
+p:,f:1
 1167:00a00000:9ca4:016e:1:0
 Oto
 p:Total TV,f:1
@@ -2075,30 +2078,6 @@ p:A1 Broadcasting,f:1
 07d9:00a00000:9e98:016e:31:0
 Markiza Krimi HD
 p:A1 Broadcasting,f:1
-0058:00a00000:0064:0064:22:0
-Alfa Omega TV
-p:,f:1
-000a:00a00000:0064:0064:1:0
-National TV
-p:NTV Romania,f:1
-000f:00a00000:0064:0064:2:0
-National FM
-p:Scopus Network Technologies
-0010:00a00000:0064:0064:2:0
-RFI Romania
-p:DIGITAL SKY
-0016:00a00000:0064:0064:1:0
-N 24 Plus
-p:NTV Romania,f:1
-0017:00a00000:0064:0064:2:0
-Favorit FM
-p:NTV Romania
-0020:00a00000:0064:0064:1:0
-Favorit TV
-p:NTV Romania,f:1
-000b:00a00000:0064:0064:2:0
-National FMx
-p:
 1504:00a00000:d232:d232:2:0
 Radio 538 TNZ
 p:BP-TNZ
@@ -2277,7 +2256,7 @@ p:Ue-tec 3 SL 1,f:1
 EPQ C1
 p:EPQ,f:1
 0002:00a03196:0001:0001:1:0
-EPQ C2
+Quad SOGEI
 p:AUX C,f:1
 0001:00a031bb:0000:0000:0:0
 Zadruga uplink
@@ -2711,8 +2690,29 @@ p:RTL News GmbH,f:1
 0001:00a03170:0000:0001:25:0
 F-512 IXILIVE/1 C+ MONTAUBAN
 p:IXI PROD 4,f:1
+000a:00a031ad:0064:0064:1:0
+National TV
+p:NTV Romania,f:1
+000b:00a031ad:0064:0064:2:0
+National FMx
+p:
+000f:00a031ad:0064:0064:2:0
+National FM
+p:Scopus Network Technologies
+0010:00a031ad:0064:0064:2:0
+RFI Romania
+p:DIGITAL SKY
+0016:00a031ad:0064:0064:1:0
+N 24 Plus
+p:NTV Romania,f:1
+0017:00a031ad:0064:0064:2:0
+Favorit FM
+p:ABC Plus Media
+0020:00a031ad:0064:0064:1:0
+Favorit TV
+p:NTV Romania,f:1
 43a0:00820000:2cec:013e:1:0
-CNL Russia
+GNC
 p:RRsat,f:1
 43c0:00820000:2cec:013e:2:0
 The Overcomer
@@ -2726,25 +2726,25 @@ p:RR Media,f:1
 43de:00820000:2cec:013e:1:0
 Eurasia Worldwide
 p:,f:1
-0001:00820000:2e18:00b0:1:0
+0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
 p:SNRT,f:1
-0002:00820000:2e18:00b0:1:0
+0002:00820000:2e18:00b0:25:0
 Al Aoula Laayoune HD
 p:SNRT,f:1
-0004:00820000:2e18:00b0:1:0
+0004:00820000:2e18:00b0:25:0
 Athaqafia HD
 p:SNRT,f:1
 0005:00820000:2e18:00b0:1:0
 Al Aoula Inter
 p:SNRT,f:1
-0006:00820000:2e18:00b0:1:0
+0006:00820000:2e18:00b0:25:0
 Assadissa HD
 p:SNRT,f:1
-000a:00820000:2e18:00b0:1:0
+000a:00820000:2e18:00b0:25:0
 Arryadia HD
 p:SNRT,f:1
-00f1:00820000:2e18:00b0:1:0
+00f1:00820000:2e18:00b0:25:0
 Tamazight HD
 p:SNRT,f:1
 000b:00820000:2e18:00b0:2:0
@@ -2780,7 +2780,7 @@ p:SNRT
 0050:00820000:2e18:00b0:2:0
 Meknes
 p:SNRT
-0003:00820000:2e18:00b0:1:0
+0003:00820000:2e18:00b0:25:0
 Al Aoula Inter HD
 p:SNRT,f:1
 0035:00820000:2e18:00b0:2:0
@@ -6210,7 +6210,7 @@ p:KABELIO.CH,f:1
 Kabelio TF1
 p:KABELIO.CH,f:1
 3751:00820000:06a4:013e:25:0
-Kabelio M6
+Kabelio M6 Music
 p:KABELIO.CH,f:1
 375a:00820000:06a4:013e:25:0
 Kabelio BBC One
@@ -6246,7 +6246,7 @@ p:KABELIO.CH,f:1
 Kabelio Tele Baern
 p:KABELIO.CH,f:1
 36e5:00820000:06a4:013e:25:0
-Kabelio Info
+Kabelio Leman Bleu
 p:KABELIO.CH,f:1
 3767:00820000:06a4:013e:25:0
 Kabelio Auftanken.tv
@@ -6261,7 +6261,7 @@ p:KABELIO.CH,f:1
 Kabelio Swiss1
 p:KABELIO.CH,f:1
 3769:00820000:06a4:013e:1:0
-Kabelio BBC News
+Kabelio Film 4
 p:KABELIO.CH,f:1
 3768:00820000:06a4:013e:1:0
 Kabelio ITV2
@@ -6393,7 +6393,7 @@ p:Rai
 Rai Radio Techete'
 p:Rai
 0d78:00820000:1450:013e:2:0
-Rai Radio Live
+Rai Radio Live Napoli
 p:Rai
 0d79:00820000:1450:013e:2:0
 Rai Radio Kids
@@ -6698,6 +6698,9 @@ p:,f:1
 0654:00820000:2454:013e:1:0
 Noursat English
 p:ViewMedia,f:1
+064b:00820000:2454:013e:1:0
+Church of Jesus Christ
+p:,f:1
 0079:00820000:04b0:0110:25:0
 Italia 1 HD
 p:Mediaset,f:1
@@ -6999,7 +7002,7 @@ p:KABELIO.CH,f:1
 Kabelio ZDF HD
 p:KABELIO.CH,f:1
 0087:00820000:3264:013e:1:0
-Kabelio_TP129_n.n1
+Kabelio n-tv
 p:KABELIO.CH,f:1
 0075:00820000:3264:013e:1:0
 Kabelio ORF Sport+

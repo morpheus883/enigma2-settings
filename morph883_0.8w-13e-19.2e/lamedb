@@ -843,11 +843,11 @@ fff8aced:0001:0001
 fff8b0fc:0065:0065
 	s 12540000:6660000:1:3:-8:2:0:1:2:0:2
 /
-fff8b0ee:0136:ffff
-	s 12526000:6660000:1:3:-8:2:0:1:2:0:2
-/
 0e080000:0054:0046
 	s 12360000:30000000:0:3:-8:2:0:1:2:1:2
+/
+0e080000:0065:0065
+	s 12526000:6660000:1:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -1227,7 +1227,7 @@ p:Movistar+,f:1
 M+Deportes 1 HD
 p:Movistar+,f:1
 782d:00c00000:0428:0001:25:0
-Toros HD
+M+ Golf 2 HD
 p:Movistar+,f:1
 7826:00c00000:0428:0001:25:0
 Eurosport 1 HD
@@ -1380,7 +1380,7 @@ p:,f:1
 
 p:,f:1
 756d:00c00000:0412:0001:1:0
-
+M+ Golf 2
 p:,f:1
 756e:00c00000:0412:0001:1:0
 
@@ -4599,7 +4599,7 @@ p:,f:1
 Falun FIS Cross-Country
 p:Mobile Linke Europe AB,f:1
 43a0:00820000:2cec:013e:1:0
-CNL Russia
+GNC
 p:RRsat,f:1
 43c0:00820000:2cec:013e:2:0
 The Overcomer
@@ -4613,25 +4613,25 @@ p:RR Media,f:1
 43de:00820000:2cec:013e:1:0
 Eurasia Worldwide
 p:,f:1
-0001:00820000:2e18:00b0:1:0
+0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
 p:SNRT,f:1
-0002:00820000:2e18:00b0:1:0
+0002:00820000:2e18:00b0:25:0
 Al Aoula Laayoune HD
 p:SNRT,f:1
-0004:00820000:2e18:00b0:1:0
+0004:00820000:2e18:00b0:25:0
 Athaqafia HD
 p:SNRT,f:1
 0005:00820000:2e18:00b0:1:0
 Al Aoula Inter
 p:SNRT,f:1
-0006:00820000:2e18:00b0:1:0
+0006:00820000:2e18:00b0:25:0
 Assadissa HD
 p:SNRT,f:1
-000a:00820000:2e18:00b0:1:0
+000a:00820000:2e18:00b0:25:0
 Arryadia HD
 p:SNRT,f:1
-00f1:00820000:2e18:00b0:1:0
+00f1:00820000:2e18:00b0:25:0
 Tamazight HD
 p:SNRT,f:1
 000b:00820000:2e18:00b0:2:0
@@ -4667,7 +4667,7 @@ p:SNRT
 0050:00820000:2e18:00b0:2:0
 Meknes
 p:SNRT
-0003:00820000:2e18:00b0:1:0
+0003:00820000:2e18:00b0:25:0
 Al Aoula Inter HD
 p:SNRT,f:1
 0035:00820000:2e18:00b0:2:0
@@ -8097,7 +8097,7 @@ p:KABELIO.CH,f:1
 Kabelio TF1
 p:KABELIO.CH,f:1
 3751:00820000:06a4:013e:25:0
-Kabelio M6
+Kabelio M6 Music
 p:KABELIO.CH,f:1
 375a:00820000:06a4:013e:25:0
 Kabelio BBC One
@@ -8133,7 +8133,7 @@ p:KABELIO.CH,f:1
 Kabelio Tele Baern
 p:KABELIO.CH,f:1
 36e5:00820000:06a4:013e:25:0
-Kabelio Info
+Kabelio Leman Bleu
 p:KABELIO.CH,f:1
 3767:00820000:06a4:013e:25:0
 Kabelio Auftanken.tv
@@ -8148,7 +8148,7 @@ p:KABELIO.CH,f:1
 Kabelio Swiss1
 p:KABELIO.CH,f:1
 3769:00820000:06a4:013e:1:0
-Kabelio BBC News
+Kabelio Film 4
 p:KABELIO.CH,f:1
 3768:00820000:06a4:013e:1:0
 Kabelio ITV2
@@ -8280,7 +8280,7 @@ p:Rai
 Rai Radio Techete'
 p:Rai
 0d78:00820000:1450:013e:2:0
-Rai Radio Live
+Rai Radio Live Napoli
 p:Rai
 0d79:00820000:1450:013e:2:0
 Rai Radio Kids
@@ -8585,6 +8585,9 @@ p:,f:1
 0654:00820000:2454:013e:1:0
 Noursat English
 p:ViewMedia,f:1
+064b:00820000:2454:013e:1:0
+Church of Jesus Christ
+p:,f:1
 0079:00820000:04b0:0110:25:0
 Italia 1 HD
 p:Mediaset,f:1
@@ -8886,7 +8889,7 @@ p:KABELIO.CH,f:1
 Kabelio ZDF HD
 p:KABELIO.CH,f:1
 0087:00820000:3264:013e:1:0
-Kabelio_TP129_n.n1
+Kabelio n-tv
 p:KABELIO.CH,f:1
 0075:00820000:3264:013e:1:0
 Kabelio ORF Sport+
@@ -10062,7 +10065,7 @@ p:M7,f:1
 Life TV
 p:M7,f:1
 77fc:0e080000:02c3:0600:1:0
-ducktv ( SVT)
+Ducktv ( SVT)
 p:M7,f:1
 7806:0e080000:02c3:0600:1:0
 Life TV.
@@ -11225,12 +11228,12 @@ p:Zaciname s Voyo,f:1
 177d:0e080000:0af6:00bb:22:0
 Prima Show
 p:Slovak Telekom,f:1
-1cac:0e080000:004c:0046:1:0
-History
-p:Telenor,f:1
 062f:0e080000:004c:0046:2:0
-BEST FM
+BEST FM (Old)
 p:Telenor
+32d5:0e080000:004c:0046:22:0
+Test 13013
+p:Telenor,f:1
 79e3:0e080000:02c8:0600:1:0
 CNN International Europe
 p:M7,f:1
@@ -11280,7 +11283,7 @@ p:M7,f:1
 RTL Harom.
 p:M7,f:1
 7a03:0e080000:02c8:0600:1:0
-RTL GOLD ( SVT)
+RTL Gold ( SVT)
 p:M7,f:1
 79e9:0e080000:02c8:0600:1:0
 Minimax
@@ -11724,7 +11727,7 @@ p:Slovak Telekom,f:1
 Premier Sport 1 CZ HD
 p:Slovak Telekom,f:1
 0fb7:0e080000:0af4:00bb:22:0
-Up Network
+TV Spark
 p:Slovak Telekom,f:1
 0fba:0e080000:0af4:00bb:25:0
 Nova Sport 3 HD
@@ -12425,15 +12428,15 @@ p:Telenor,f:1
 0065:fff8b0fc:0065:0065:1:0
 B 101 DGI
 p:RCS-RDS BUCURESTI,f:1
-0136:fff8b0ee:0136:ffff:1:0
-digisport
-p:rcs-rds,f:1
-0001:fff8b0ee:0136:ffff:1:0
-backup
-p:RCS-RDS,f:1
 32d1:0e080000:0054:0046:22:0
 Test 13009
 p:Telenor,f:1
+0065:0e080000:0065:0065:1:0
+B 101 DGI
+p:RCS-RDS BUCURESTI,f:1
+0137:0e080000:0065:0065:1:0
+B115DGS
+p:Digi B,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2023
