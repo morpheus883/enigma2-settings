@@ -801,17 +801,11 @@ transponders
 01a40000:a925:042e
 	s 11836000:30000000:1:2:420:2:0:1:2:2:2
 /
-01a4ad56:0001:ffff
-	s 11606000:6200000:1:3:420:2:0:1:2:0:2
-/
 01a4ab05:0001:ffff
 	s 11013000:7500000:1:3:420:2:0:1:2:0:2
 /
 01a4ab0c:0001:ffff
 	s 11020000:7500000:1:3:420:2:0:1:2:0:2
-/
-01a4ab64:0001:ffff
-	s 11108000:10000000:1:3:420:2:0:1:2:0:2
 /
 01a4aaf8:0000:0000
 	s 11000000:7500000:1:3:420:2:0:1:2:0:2
@@ -972,8 +966,17 @@ transponders
 0186ab00:0001:ffff
 	s 11008000:7200000:1:3:390:2:0:1:2:0:2
 /
-01863107:0000:0000
+01863119:0001:ffff
+	s 12569000:7200000:0:3:390:2:0:1:2:0:2
+/
+01863122:0001:ffff
+	s 12578000:7200000:0:3:390:2:0:1:2:0:2
+/
+01863107:00a0:0000
 	s 12551000:7200000:0:3:390:2:0:1:2:0:2
+/
+01863110:0000:0000
+	s 12560000:7200000:0:3:390:2:0:1:2:0:2
 /
 01680000:ff86:036e
 	s 11747000:27500000:0:3:360:2:0
@@ -1302,14 +1305,8 @@ transponders
 014ab12e:0c08:0001
 	s 12590000:4167000:1:0:330:2:0:1:1:0:2
 /
-014a2bb6:0001:ffff
-	s 11190000:9600000:0:3:330:2:0:1:2:0:2
-/
 014aab9f:0001:0001
 	s 11167000:4444000:1:3:330:2:0:1:2:0:2
-/
-014a2bab:0bbf:0003
-	s 11179000:9600000:0:3:330:2:0:1:2:0:2
 /
 014ab0f2:0001:ffff
 	s 12530000:3600000:1:4:330:2:0:1:2:0:2
@@ -1328,6 +1325,12 @@ transponders
 /
 014a2bb9:0001:ffff
 	s 11193000:4800000:0:3:330:2:0:1:2:0:2
+/
+014a0000:33f4:004b
+	s 11190000:9600000:0:3:330:2:0:1:2:0:2
+/
+014a0000:0bbf:004b
+	s 11179000:9600000:0:3:330:2:0:1:2:0:2
 /
 013b0000:1456:0005
 	s 11817000:27500000:1:3:315:2:0
@@ -2082,9 +2085,6 @@ transponders
 00eb2ced:0001:0001
 	s 11501000:7200000:0:3:235:2:0:1:2:0:2
 /
-00ebb14a:0001:ffff
-	s 12618000:7200000:1:3:235:2:0:1:2:0:2
-/
 00eb3195:0000:0000
 	s 12693000:5000000:0:6:235:2:0:1:2:0:2
 /
@@ -2139,14 +2139,8 @@ transponders
 00eb31bf:0001:0001
 	s 12735000:15000000:0:3:235:2:0:1:2:0:2
 /
-00ebb0fb:0001:0001
-	s 12539000:7200000:1:3:235:2:0:1:2:0:2
-/
 00eb317c:0001:ff00
 	s 12668000:1665000:0:4:235:2:0:1:2:0:2
-/
-00eb2d07:0000:0001
-	s 11527000:7200000:0:3:235:2:0:1:2:0:2
 /
 00ebb116:0001:0000
 	s 12566000:7200000:1:3:235:2:0:1:2:0:2
@@ -2156,6 +2150,12 @@ transponders
 /
 00ebb0fb:4321:00eb
 	s 12539000:7200000:1:3:235:2:0:1:2:0:2
+/
+00eb2d07:0001:ffff
+	s 11527000:7200000:0:3:235:2:0:1:2:0:2
+/
+00ebb14a:0001:0001
+	s 12618000:7200000:1:3:235:2:0:1:2:0:2
 /
 00d80000:0005:0001
 	s 11678000:2850000:1:5:216:2:0
@@ -2345,6 +2345,9 @@ transponders
 /
 00d8ad81:0000:0000
 	s 11649000:1600000:1:3:216:2:0:1:1:0:2
+/
+00d82cdc:0200:0000
+	s 11484000:2160000:0:4:216:2:0:1:2:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -2915,6 +2918,9 @@ transponders
 /
 00a03168:0001:0001
 	s 12648000:5000000:0:3:160:2:0:1:2:0:2
+/
+00a00000:76c1:016e
+	s 11094000:27500000:1:7:160:2:0:1:1:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -3489,9 +3495,6 @@ transponders
 005a0000:03a2:0110
 	s 12149000:31400000:1:2:90:2:0:1:2:0:2:1:262140:1
 /
-005a0000:0204:001d
-	s 12466000:41950000:1:4:90:2:0:1:2:0:2:171:0:1
-/
 005a0000:0389:0110
 	s 12111000:31400000:1:2:90:2:0:1:2:0:2:4:8:0
 /
@@ -3519,17 +3522,8 @@ transponders
 005a0000:0384:0110
 	s 12111000:31400000:1:2:90:2:0:1:2:0:2:3:8:0
 /
-005a0000:006f:0110
-	s 12303000:31400000:1:2:90:2:0:1:2:0:2:111:262140:1
-/
-005a0000:10e1:217c
-	s 12265000:31400000:1:2:90:2:0:1:2:0:2:15:262140:1
-/
 005a0000:18e2:217c
 	s 12226000:31400000:1:2:90:2:0:1:2:0:2:16:262140:1
-/
-005a0000:18e1:217c
-	s 12265000:31400000:1:2:90:2:0:1:2:0:2:12:262140:1
 /
 005a0000:80e1:217c
 	s 12303000:31400000:1:2:90:2:0:1:2:0:2:21:262140:1
@@ -3543,38 +3537,32 @@ transponders
 005a0000:80e3:217c
 	s 12303000:31400000:1:2:90:2:0:1:2:0:2:22:262140:1
 /
-005a0000:60e1:217c
-	s 12380000:31400000:1:2:90:2:0:1:2:0:2:23:262140:1
-/
 005a0000:50e1:217c
 	s 12226000:31400000:1:2:90:2:0:1:2:0:2:20:262140:1
 /
 005a0000:68e1:217c
 	s 12226000:31400000:1:2:90:2:0:1:2:0:2:19:262140:1
 /
-005a0000:40e1:217c
-	s 12265000:31400000:1:2:90:2:0:1:2:0:2:18:262140:1
-/
-005a0000:48e1:217c
-	s 12188000:31400000:1:2:90:2:0:1:2:0:2:17:262140:1
-/
-005a0000:20e1:217c
-	s 12188000:31400000:1:2:90:2:0:1:2:0:2:14:262140:1
-/
-005a0000:28e1:217c
-	s 12188000:31400000:1:2:90:2:0:1:2:0:2:13:262140:1
-/
 005ab0b2:18e1:217c
 	s 12466000:41950000:1:4:90:2:0:1:2:0:2:12:262140:1
-/
-005ab0b2:18e2:217c
-	s 12466000:41950000:1:4:90:2:0:1:2:0:2:16:262140:1
 /
 005ab0b2:60e1:217c
 	s 12466000:41950000:1:4:90:2:0:1:2:0:2:23:262140:1
 /
 005ab0b2:28e1:217c
 	s 12466000:41950000:1:4:90:2:0:1:2:0:2:13:262140:1
+/
+005ab00f:10e1:217c
+	s 12303000:31400000:1:2:90:2:0:1:2:0:2:15:262140:1
+/
+005ab05c:40e1:217c
+	s 12380000:31400000:1:2:90:2:0:1:2:0:2:18:262140:1
+/
+005ab0b2:48e1:217c
+	s 12466000:41950000:1:2:90:2:0:1:2:0:2:17:262140:1
+/
+005aafc2:20e1:217c
+	s 12226000:31400000:1:2:90:2:0:1:2:0:2:14:262140:1
 /
 00460000:4e20:0064
 	s 10721000:22000000:0:3:70:2:0
@@ -3795,9 +3783,6 @@ transponders
 00462af5:0001:0001
 	s 10997000:9875000:0:3:70:2:0:1:2:0:2
 /
-0046ad50:0001:ffff
-	s 11600000:7200000:1:3:70:2:0:1:2:0:2
-/
 00462b48:0001:ffff
 	s 11080000:9875000:0:3:70:2:0:1:2:0:2
 /
@@ -3827,9 +3812,6 @@ transponders
 /
 00462baf:0002:ffff
 	s 11183000:7200000:0:3:70:2:0:1:2:0:2
-/
-0046b15d:0001:0001
-	s 12637000:7200000:1:3:70:2:0:1:2:0:2
 /
 0046b163:0000:0001
 	s 12643000:7200000:1:3:70:2:0:1:2:0:2
@@ -4449,14 +4431,8 @@ fff8b0fc:0065:0065
 0e080000:0054:0046
 	s 12360000:30000000:0:3:-8:2:0:1:2:1:2
 /
-0e080000:0065:0065
-	s 12526000:6660000:1:3:-8:2:0:1:2:0:2
-/
 0e08b0ee:0136:ffff
 	s 12526000:6660000:1:3:-8:2:0:1:2:0:2
-/
-0e083022:0055:0000
-	s 12322000:30000000:0:3:-8:2:0:1:2:1:2
 /
 0df22cc6:0001:0000
 	s 11462000:3062000:1:1:-30:2:0:1:1:0:2
@@ -4554,9 +4530,6 @@ ffd83047:00b0:00b1
 0dde0000:2711:0090
 	s 11480000:3215000:0:3:-50:2:0:1:2:0:2
 /
-0dde0000:0107:217c
-	s 12669000:35500000:0:2:-50:2:0:1:2:0:2:1:8:0
-/
 0dde0000:0003:20fa
 	s 12648000:29500000:1:6:-50:2:0:1:2:0:2:3:121212:1
 /
@@ -4599,8 +4572,8 @@ ffce0000:0001:013e
 0dde0000:007b:217c
 	s 11013000:35300000:1:2:-50:2:0:1:2:0:2:5:131070:1
 /
-0dde0000:00a3:217c
-	s 11676000:35300000:0:2:-50:2:0:1:2:0:2:1:16416:0
+ffce0000:00a3:217c
+	s 11676000:35300000:0:2:-50:2:0:1:2:0:2:1:131070:1
 /
 0dde0000:0099:217c
 	s 11016000:35300000:0:2:-50:2:0:1:2:0:2:1:131070:1
@@ -4632,9 +4605,6 @@ ffce2cc5:0003:20fa
 ffce2b6d:0000:0000
 	s 11117000:2044000:0:4:-50:2:0
 /
-ffce0000:006f:0110
-	s 12669000:35500000:0:2:-50:2:0:1:2:0:2:111:262140:1
-/
 ffce0000:8800:217c
 	s 11016000:35300000:0:2:-50:2:0:1:2:0:2:9:131070:1
 /
@@ -4649,6 +4619,12 @@ ffce3129:0400:0000
 /
 ffce3129:0107:217c
 	s 12585000:35500000:0:2:-50:2:0:1:2:0:2:1:262140:1
+/
+0dde0000:2904:055f
+	s 11138000:29950000:1:3:-50:2:0:1:2:0:2
+/
+ffce2d9c:0001:0001
+	s 11676000:35300000:0:2:-50:2:0:1:2:0:2:2:131070:1
 /
 0dca0000:0005:0800
 	s 11766000:27500000:0:4:-70:2:0
@@ -11384,6 +11360,9 @@ p:TURKSAT
 c743:01a40000:7789:042e:1:0
 Al Zahra TV
 p:TURKSAT,f:1
+c748:01a40000:7789:042e:2:0
+PAL STATION
+p:TURKSAT
 28a0:01a40000:9ca6:042e:1:0
 ATV Avrupa
 p:TURKUVAZ TEK. HIZ,f:1
@@ -11578,6 +11557,9 @@ TRT NAGME
 p:TRT
 000e:01a40000:003d:002a:2:0
 TRT TURKU
+p:TRT
+001b:01a40000:003d:002a:2:0
+TRT VOT 1
 p:TRT
 283e:01a40000:9f61:042e:1:0
 A Spor
@@ -14090,9 +14072,6 @@ p:Dolce TV,f:1
 00cf:01860000:0002:001c:25:0
 National Geographic HD
 p:,f:1
-00d0:01860000:0002:001c:25:0
-Nat Geo Wild HD
-p:,f:1
 020d:01860000:0002:001c:1:0
 Atomic TV
 p:,f:1
@@ -14100,7 +14079,7 @@ p:,f:1
 Medika TV
 p:,f:1
 020f:01860000:0002:001c:1:0
-Bucuresti TV
+Kanal D2
 p:,f:1
 0210:01860000:0002:001c:1:0
 TV 2
@@ -14199,7 +14178,7 @@ p:A1 BG,f:1
 Baby TV
 p:A1 BG,f:1
 0472:01860000:0b11:039e:31:0
-BBC World News
+BBC News
 p:A1 BG,f:1
 0473:01860000:0b11:039e:31:0
 Cartoonito
@@ -15230,9 +15209,18 @@ p:Service Provider,f:1
 0001:0186ab00:0001:ffff:25:0
 BAV
 p:,f:1
-0001:01863107:0000:0000:25:0
-E404b main
-p:Medialuso,f:1
+0001:01863119:0001:ffff:1:0
+UKI-1371 P 1
+p:Service Provider,f:1
+0001:01863122:0001:ffff:1:0
+IMROZ
+p:Service Provider,f:1
+0001:01863107:00a0:0000:1:0
+UKI-1085-1
+p:,f:1
+0001:01863110:0000:0000:25:0
+BAV
+p:,f:1
 057b:01680000:ff86:036e:1:0
 History
 p:Multichoice Africa,f:1
@@ -17414,15 +17402,9 @@ p:Eutelsat,f:1
 0001:014ab12e:0c08:0001:12:0
 SmartlnbA
 p:MyServiceProvider
-047d:014a2bb6:0001:ffff:1:0
-POL 49 EN1
-p:Service Provider,f:1
 0001:014aab9f:0001:0001:25:0
 Polsat Poznan
 p:POLSAT POL 73,f:1
-0481:014a2bab:0bbf:0003:1:0
-pol-053_enc1
-p:Harmonic,f:1
 0001:014ab0f2:0001:ffff:1:0
 ITA 168
 p:Service Provider,f:1
@@ -17443,6 +17425,12 @@ PLTVP5
 p:TVP,f:1
 0001:014a2bb9:0001:ffff:1:0
 PLTVP6
+p:TVP,f:1
+017a:014a0000:33f4:004b:25:0
+POL-78 ENC 1
+p:,f:1
+33f4:014a0000:0bbf:004b:25:0
+POL-033 OUT2
 p:TVP,f:1
 1d92:013b0000:1456:0005:1:0
 VTV Romania
@@ -17478,7 +17466,7 @@ p:GLOBECAST,f:1
 AXN Spin
 p:GLOBECAST,f:1
 2208:013b0000:1468:00a7:1:0
-BBC World News
+BBC News
 p:GLOBECAST,f:1
 220b:013b0000:1468:00a7:1:0
 JimJam EMEA
@@ -21287,10 +21275,7 @@ p:
 001b:01040000:024e:02be:2:0
 Alqwat Almosalaha
 p:
-001c:01040000:024e:02be:2:0
-ALRABA94
-p:
-0001:01040000:024e:02be:25:0
+000a:01040000:024e:02be:25:0
 Sudan HD
 p:,f:1
 0032:01040000:024e:02be:25:0
@@ -21302,9 +21287,6 @@ p:,f:1
 0005:01040000:024e:02be:1:0
 Sudan Thagafa @ Turath
 p:,f:1
-01f4:01040000:024e:02be:1:0
-Sudania24HD
-p:Sudania 24none,f:1
 001e:01040000:024e:02be:2:0
 Danga
 p:
@@ -21314,14 +21296,35 @@ p:,f:1
 001a:01040000:024e:02be:2:0
 Radio_010
 p:
-000a:01040000:024e:02be:25:0
-Sudan HD
-p:,f:1
 000c:01040000:024e:02be:1:0
 Neelain Sport
 p:,f:1
 002a:01040000:024e:02be:2:0
 Alfurgan Radio
+p:
+0002:01040000:024e:02be:1:0
+testTV
+p:,f:1
+0004:01040000:024e:02be:2:0
+SRV_04
+p:
+000b:01040000:024e:02be:1:0
+TEST
+p:,f:1
+000e:01040000:024e:02be:1:0
+Test2
+p:,f:1
+001c:01040000:024e:02be:2:0
+SRV_1C
+p:
+0071:01040000:024e:02be:1:0
+TEST
+p:,f:1
+0020:01040000:024e:02be:2:0
+testRADIO
+p:
+01fd:01040000:024e:02be:2:0
+TEST
 p:
 0001:01043115:0001:ffff:1:0
 Midan
@@ -24609,7 +24612,7 @@ p:M7 Group,f:1
 Hobby TV
 p:M7 Group,f:1
 3c31:00eb0000:0c90:0003:22:0
-Up Network CZ
+TV Spark
 p:M7 Group,f:1
 3c33:00eb0000:0c90:0003:22:0
 CBS Reality
@@ -24995,9 +24998,6 @@ p:STN,f:1
 0001:00eb2ced:0001:0001:1:0
 BIRDWATCH2
 p:Timeline,f:1
-0001:00ebb14a:0001:ffff:1:0
-ZDF D445 world feed dirty
-p:ZDF,f:1
 0001:00eb3195:0000:0000:0:0
 VRT Enccoder 4
 p:
@@ -25283,6 +25283,12 @@ p:,f:1
 0001:00ebb0fb:4321:00eb:25:0
 GCR/F525/1/Signal Habillage FTV
 p:Globecast,f:1
+0001:00eb2d07:0001:ffff:25:0
+E-380 Feed 1
+p:,f:1
+0001:00ebb14a:0001:0001:25:0
+ORF Lustenau
+p:SU-News.de,f:1
 0001:00d80000:0005:0001:1:0
 Alarabiy Alhadath
 p:Samacom,f:1
@@ -25679,6 +25685,9 @@ p:
 0001:00d8ad81:0000:0000:1:0
 WALID
 p:WALID,f:1
+0001:00d82cdc:0200:0000:25:0
+main lbn029
+p:,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -28464,7 +28473,7 @@ p:SES ASTRA,f:1
 .
 p:SES ASTRA,f:1
 1389:00c00000:03ea:0001:1:0
-BBC World News Europe HD
+BBC News
 p:SES ASTRA,f:1
 1392:00c00000:03ea:0001:25:0
 Insight HD
@@ -28474,7 +28483,7 @@ NHK World HD
 p:SES ASTRA,f:1
 13a7:00c00000:03ea:0001:25:0
 Al Jazeera English HD
-p:Al Jazeera,f:1
+p:SES ASTRA,f:1
 1393:00c00000:03ea:0001:25:0
 Insight TV HD Int
 p:SES ASTRA,f:1
@@ -29858,6 +29867,9 @@ p:DigitALB,f:1
 076c:00a00000:50dc:016e:22:0
 Panorama TV
 p:DigitALB,f:1
+0bb8:00a00000:50dc:016e:25:0
+Eurosport 2 HD
+p:DigitALB,f:1
 0001:00a0311a:0001:ffff:1:0
 SIC International
 p:TANDBERG,f:1
@@ -29923,6 +29935,15 @@ Arena HD
 p:A1 Broadcasting,f:1
 0781:00a00000:c6d4:016e:22:0
 Gold TV
+p:A1 Broadcasting,f:1
+076d:00a00000:c6d4:016e:22:0
+Wness TV
+p:A1 Broadcasting,f:1
+076f:00a00000:c6d4:016e:25:0
+Body in Balance HD
+p:A1 Broadcasting,f:1
+0770:00a00000:c6d4:016e:25:0
+RiC International HD
 p:A1 Broadcasting,f:1
 0714:00a00000:c5a8:016e:25:0
 HTV3 HD
@@ -30434,6 +30455,9 @@ p:A1 Broadcasting,f:1
 0490:00a00000:76c0:016e:31:0
 RTVS 24
 p:A1 Broadcasting,f:1
+0491:00a00000:76c0:016e:31:0
+AutoMotorSport HD
+p:A1 Broadcasting,f:1
 0558:00a00000:75fb:016e:1:0
 Dusk International
 p:Total TV,f:1
@@ -30647,12 +30671,6 @@ p:Test,f:1
 025e:00a00000:c418:016e:25:0
 Eurosport 1 HD
 p:TAG Broadcasting,f:1
-025f:00a00000:c418:016e:25:0
-Eurosport 2 HD
-p:TAG Broadcasting,f:1
-0260:00a00000:c418:016e:25:0
-Planeta HD
-p:Test,f:1
 0262:00a00000:c418:016e:25:0
 Auto Motor Sport HD
 p:Test,f:1
@@ -30679,9 +30697,6 @@ Duck TV
 p:VIPnet,f:1
 0282:00a00000:c418:016e:25:0
 Eurosport 1 HD
-p:TAG Broadcasting,f:1
-0283:00a00000:c418:016e:25:0
-Eurosport 2 HD
 p:TAG Broadcasting,f:1
 026e:00a00000:c418:016e:25:0
 Investigation Discovery HD
@@ -30715,6 +30730,18 @@ RiK TV HD
 p:Antik,f:1
 0263:00a00000:c418:016e:25:0
 Love Nature HD
+p:A1 Broadcasting,f:1
+0266:00a00000:c418:016e:2:0
+Radio POS
+p:A1 Broadcasting
+0267:00a00000:c418:016e:2:0
+Radio Osttirol
+p:A1 Broadcasting
+025c:00a00000:c418:016e:25:0
+Evil Angel HD
+p:A1 Broadcasting,f:1
+0264:00a00000:c418:016e:25:0
+BBC First HD
 p:A1 Broadcasting,f:1
 0683:00a00000:9fc4:016e:1:0
 Kanal A Slovenia HD
@@ -31458,7 +31485,7 @@ p:H,f:1
 B1
 p:H,f:1
 0009:00a02bfe:0001:016e:2:0
-Radio Kalman
+Grand Radio
 p:
 000a:00a02bfe:0001:016e:2:0
 VIP Radio
@@ -31658,6 +31685,9 @@ p:CastorNetworks
 0001:00a03168:0001:0001:1:0
 ITA 615 Feed
 p:Young TV,f:1
+04be:00a00000:76c1:016e:31:0
+National Geographic Wild HD
+p:A1 Broadcasting,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -33222,7 +33252,7 @@ p:Netmed,f:1
 E! Entertainment HD
 p:Syned,f:1
 3c9f:00820000:1bbc:013e:1:0
-BSKTV
+Blue Sky
 p:Netmed,f:1
 1c22:00820000:1c20:013e:1:0
 TTN - Télévision Tunisienne Nationale
@@ -35598,7 +35628,7 @@ p:Cyfrowy Polsat S.A.,f:1
 Nickelodeon Ukraine Pluto TV
 p:Cyfrowy Polsat S.A,f:1
 200c:00820000:24b8:013e:1:0
-BBC World News
+BBC News
 p:Globecast UK,f:1
 2023:00820000:24b8:013e:2:0
 Service 8227
@@ -35954,11 +35984,14 @@ p:KABELIO.CH,f:1
 0087:00820000:3264:013e:1:0
 Kabelio n-tv
 p:KABELIO.CH,f:1
-0075:00820000:3264:013e:1:0
+0076:00820000:3264:013e:1:0
 Kabelio ORF Sport+
 p:KABELIO.CH,f:1
 0088:00820000:3264:013e:1:0
 Kabelio Info
+p:KABELIO.CH,f:1
+0075:00820000:3264:013e:1:0
+Kabelio ServusTV
 p:KABELIO.CH,f:1
 1002:00820000:1e14:fbff:1:0
 IEPG Data
@@ -37638,7 +37671,7 @@ p:OTE,f:1
 CNBC Europe
 p:OTE,f:1
 0440:005a0000:0001:00aa:1:0
-BBC World News
+BBC News
 p:OTE,f:1
 0449:005a0000:0001:00aa:1:0
 Mezzo Live HD
@@ -37656,7 +37689,7 @@ p:OTE,f:1
 TEST 4
 p:OTE,f:1
 041e:005a0000:0001:00aa:1:0
-TEST 17
+Kontra Channel
 p:OTE,f:1
 03fb:005a0000:0008:00aa:1:0
 Cosmote Promo HD
@@ -37701,7 +37734,7 @@ p:OTE,f:1
 TEST 5
 p:OTE,f:1
 041c:005a0000:0008:00aa:1:0
-CosmoteCinemaOscarsHD
+COSMOTECinemaKidsHD
 p:OTE,f:1
 0469:005a0000:0008:00aa:1:0
 Al Arabiya
@@ -38045,72 +38078,6 @@ p:Mediaset,f:1
 0de4:005a0000:03a2:0110:25:0
 Mediaset Extra HD
 p:Mediaset,f:1
-0010:005a0000:0204:001d:25:0
-Giallo HD
-p:Persidera,f:1
-0015:005a0000:0204:001d:25:0
-RTL 102.5
-p:Persidera,f:1
-002c:005a0000:0204:001d:25:0
-Real Time HD
-p:Persidera,f:1
-0032:005a0000:0204:001d:25:0
-DMAX HD
-p:Persidera,f:1
-00da:005a0000:0204:001d:25:0
-RADIOFRECCIA
-p:Persidera,f:1
-00db:005a0000:0204:001d:25:0
-RTL 102.5 HD
-p:Persidera,f:1
-00dc:005a0000:0204:001d:25:0
-RADIOFRECCIA HD
-p:Persidera,f:1
-00dd:005a0000:0204:001d:2:0
-RTL 102.5
-p:Persidera
-0014:005a0000:0204:001d:25:0
-Food Network HD
-p:Persidera,f:1
-0019:005a0000:0204:001d:22:0
-Orler TV
-p:Persidera,f:1
-0082:005a0000:0204:001d:25:0
-Radio Zeta
-p:Persidera,f:1
-008c:005a0000:0204:001d:25:0
-RADIO ZETA
-p:Persidera,f:1
-0096:005a0000:0204:001d:22:0
-RTL 102.5 News
-p:Persidera,f:1
-00a0:005a0000:0204:001d:22:0
-RTL 102.5 NEWS
-p:Persidera,f:1
-00fa:005a0000:0204:001d:22:0
-Radio Liberta'
-p:Persidera,f:1
-001f:005a0000:0204:001d:22:0
-TCI
-p:Persidera,f:1
-003d:005a0000:0204:001d:22:0
-BFC
-p:Persidera,f:1
-003b:005a0000:0204:001d:22:0
-WELCOME IN
-p:Persdiera,f:1
-0016:005a0000:0204:001d:25:0
-Warner TV
-p:Persidera,f:1
-0017:005a0000:0204:001d:25:0
-Warner TV
-p:Persidera,f:1
-0018:005a0000:0204:001d:22:0
-GM24.IT
-p:Persidera,f:1
-003c:005a0000:0204:001d:22:0
-BIKE
-p:Persidera,f:1
 0015:005a0000:0389:0110:0:0
 Servizio 21
 p:Mediaset
@@ -38141,9 +38108,6 @@ p:Mediaset
 0063:005a0000:0389:0110:0:0
 Ghost
 p:Mediaset
-0848:005a0000:0389:0110:1:0
-20 Mediaset
-p:Mediaset,f:1
 0865:005a0000:0389:0110:25:0
 QVC HD
 p:Mediaset,f:1
@@ -38162,9 +38126,6 @@ p:Mediaset,f:1
 084d:005a0000:0389:0110:22:0
 Cartoonito
 p:Mediaset,f:1
-07e4:005a0000:0389:0110:1:0
-20Mediaset (provvisorio)
-p:Mediaset,f:1
 084e:005a0000:0389:0110:22:0
 Boing Plus
 p:Mediaset,f:1
@@ -38176,12 +38137,6 @@ Boing
 p:Mediaset,f:1
 0851:005a0000:0389:0110:22:0
 Cartoonito
-p:Mediaset,f:1
-086b:005a0000:0389:0110:22:0
-RADIO 105
-p:Mediaset,f:1
-086c:005a0000:0389:0110:22:0
-RADIO 105
 p:Mediaset,f:1
 0869:005a0000:0389:0110:25:0
 TOPcrime HD
@@ -38285,9 +38240,6 @@ p:Canale Italia,f:1
 0c87:005a0000:0107:217c:1:0
 ITALIA 155
 p:Canale Italia,f:1
-0fa1:005a0000:0107:217c:1:0
-SOLOCALCIO
-p:In Aria!,f:1
 0fa2:005a0000:0107:217c:1:0
 DONNA SPORT TV
 p:In Aria!,f:1
@@ -38296,12 +38248,6 @@ ALMA TV
 p:In Aria!,f:1
 0fa4:005a0000:0107:217c:1:0
 TELECAMPIONE
-p:In Aria!,f:1
-0fa5:005a0000:0107:217c:1:0
-LINEA ITALIA
-p:In Aria!,f:1
-0fa6:005a0000:0107:217c:1:0
-CANALE 165
 p:In Aria!,f:1
 0fa7:005a0000:0107:217c:1:0
 AP CHANNEL
@@ -38317,9 +38263,6 @@ PAROLE DI VITA
 p:In Aria!,f:1
 0fad:005a0000:0107:217c:1:0
 PREMIO TIME
-p:In Aria!,f:1
-0fae:005a0000:0107:217c:1:0
-SOLOCALCIO
 p:In Aria!,f:1
 0faf:005a0000:0107:217c:1:0
 CANALE 163
@@ -38353,6 +38296,9 @@ WELCOME IN
 p:In Aria!,f:1
 0fb0:005a0000:0107:217c:1:0
 PROMO SPORT
+p:In Aria!,f:1
+0fb1:005a0000:0107:217c:1:0
+CANALE 268
 p:In Aria!,f:1
 0001:005a0000:0001:04d2:1:0
 Clasico TV
@@ -38408,8 +38354,8 @@ p:Warner Bros. Discovery,f:1
 170c:005a0000:c3aa:009e:25:0
 TLC Pan Regional HD
 p:Warner Bros. Discovery,f:1
-0014:005ab035:7918:217c:1:0
-NOVE (provvisorio)
+0014:005ab035:7918:217c:25:0
+NOVE
 p:Persidera,f:1
 001d:005ab035:7918:217c:25:0
 NOVE
@@ -38503,9 +38449,6 @@ CANALE 162
 p:Persidera,f:1
 005b:005ab035:7918:217c:22:0
 FIRE TV
-p:Persidera,f:1
-005c:005ab035:7918:217c:22:0
-RADIO RADIO TV
 p:Persidera,f:1
 004e:005ab035:7918:217c:22:0
 CAMPIONESPORT
@@ -38615,39 +38558,6 @@ p:Persidera,f:1
 0019:005ab035:0204:001d:22:0
 Orler TV
 p:Persidera,f:1
-001b:005ab035:0204:001d:22:0
-Gold TV Italia
-p:Persidera,f:1
-001c:005ab035:0204:001d:22:0
-La 4 Italia
-p:Persidera,f:1
-001d:005ab035:0204:001d:22:0
-Channel 24
-p:Persidera,f:1
-001f:005ab035:0204:001d:22:0
-TCI
-p:Persidera,f:1
-0020:005ab035:0204:001d:22:0
-Rete Italia
-p:Persidera,f:1
-0021:005ab035:0204:001d:22:0
-TV 153
-p:Persidera,f:1
-0022:005ab035:0204:001d:22:0
-Canale 162
-p:Persidera,f:1
-0023:005ab035:0204:001d:22:0
-Inlinea TV
-p:Persidera,f:1
-0025:005ab035:0204:001d:22:0
-Fire TV
-p:Persidera,f:1
-0033:005ab035:0204:001d:22:0
-Radio Radio TV
-p:Persidera,f:1
-003b:005ab035:0204:001d:22:0
-WELCOME IN
-p:Persidera,f:1
 003c:005ab035:0204:001d:22:0
 BIKE
 p:Persidera,f:1
@@ -38705,21 +38615,6 @@ p:,f:1
 1c14:005a0000:0384:0110:1:0
 EQUtv
 p:EPIQA,f:1
-1b91:005a0000:0384:0110:1:0
-TOPcrime (provvisorio)
-p:Mediaset,f:1
-1b92:005a0000:0384:0110:1:0
-Mediaset Extra (provvisorio)
-p:Mediaset,f:1
-1b93:005a0000:0384:0110:1:0
-27Twentyseven (provvisorio)
-p:Mediaset,f:1
-1b94:005a0000:0384:0110:1:0
-La5 (provvisorio)
-p:Mediaset,f:1
-1b95:005a0000:0384:0110:1:0
-Iris (provvisorio)
-p:Mediaset,f:1
 1c01:005a0000:0384:0110:22:0
 BOM CHANNEL
 p:,f:1
@@ -38783,123 +38678,9 @@ p:,f:1
 1c05:005a0000:0384:0110:22:0
 DONNASHOPPING
 p:,f:1
-0063:005a0000:006f:0110:0:0
-Ghost
-p:
-1389:005a0000:006f:0110:0:0
-Servizio 1 OTA
-p:
-138a:005a0000:006f:0110:0:0
-Servizio 2 OTA
-p:
-138b:005a0000:006f:0110:0:0
-Servizio 3
-p:
-138c:005a0000:006f:0110:0:0
-Servizio 4
-p:
-138d:005a0000:006f:0110:0:0
-Servizio 5
-p:
-138e:005a0000:006f:0110:0:0
-Servizio 6
-p:
-138f:005a0000:006f:0110:0:0
-Servizio 7
-p:
-1390:005a0000:006f:0110:0:0
-Servizio 8
-p:
-1392:005a0000:006f:0110:1:0
-Servizio Test
-p:,f:1
-0408:005a0000:10e1:217c:1:0
-VCO AZZURRA TV
-p:COELMEDIA,f:1
-0409:005a0000:10e1:217c:1:0
-VIDEONOVARA
-p:COELMEDIA,f:1
-03e9:005a0000:10e1:217c:1:0
-TopCalcio24
-p:Mediadiapason,c:050001,f:1
-03ea:005a0000:10e1:217c:1:0
-VIDEOGRUPPO
-p:ITC,f:1
-03eb:005a0000:10e1:217c:1:0
-Sesta Rete
-p:Sesta Rete,f:1
-03ed:005a0000:10e1:217c:1:0
-Primantenna
-p:Primantenna,f:1
-03ee:005a0000:10e1:217c:1:0
-CANALE ITALIA
-p:Canale Italia,f:1
-03ef:005a0000:10e1:217c:1:0
-CANALE ITALIA Piemonte
-p:Canale Italia,f:1
-03f0:005a0000:10e1:217c:1:0
-Telecity
-p:TELECITY PIEMONTE,f:1
-03f1:005a0000:10e1:217c:1:0
-7+ CHANNEL
-p:7+ CHANNEL,f:1
-03f2:005a0000:10e1:217c:1:0
-RETE 7 HD
-p:RETE 7,f:1
-03f4:005a0000:10e1:217c:1:0
-VCO AZZURRA TV
-p:COELMEDIA,f:1
-03f5:005a0000:10e1:217c:1:0
-VIDEONOVARA
-p:COELMEDIA,f:1
-03f6:005a0000:10e1:217c:1:0
-Onda Novara Tv
-p:Global,f:1
-03f3:005a0000:10e1:217c:22:0
-GRP TV
-p:In Aria!,f:1
-03f7:005a0000:10e1:217c:22:0
-Quartarete Blu
-p:In Aria!,f:1
-03ec:005a0000:10e1:217c:25:0
-TELECUPOLE
-p:TELECUPOLE-TLT,f:1
-040a:005a0000:10e1:217c:1:0
-Onda Novara Tv
-p:Global,f:1
-040c:005a0000:10e1:217c:1:0
-Telecity
-p:TELECITY PIEMONTE,f:1
 000b:005a0000:18e2:217c:1:0
 TEST RL AO2
 p:,c:050001,f:1
-070b:005a0000:18e1:217c:1:0
-CANALE ITALIA
-p:Canale Italia,c:050001,f:1
-070e:005a0000:18e1:217c:1:0
-TELECITY
-p:TELECITY AO,f:1
-070f:005a0000:18e1:217c:1:0
-CANALE16 V. Aosta
-p:Media Group,f:1
-0712:005a0000:18e1:217c:1:0
-TELECOLORVDA
-p:TELECOLOR,f:1
-0713:005a0000:18e1:217c:1:0
-France 24 HD
-p:,f:1
-0714:005a0000:18e1:217c:1:0
-RTS Un HD
-p:,f:1
-0715:005a0000:18e1:217c:1:0
-TV5 MONDE EUROPE
-p:,f:1
-0709:005a0000:18e1:217c:22:0
-RETE 7
-p:In Aria!,f:1
-070c:005a0000:18e1:217c:22:0
-AOSTA TV 14
-p:AOSTA TV 14,f:1
 1f41:005a0000:80e1:217c:1:0
 CANALE 21
 p:CANALE 21,c:050001,f:1
@@ -38993,7 +38774,7 @@ p:Wedding TV,f:1
 265b:005a0000:98e1:217c:1:0
 VideoTouring
 p:Medialooks,f:1
-265c:005a0000:98e1:217c:1:0
+265c:005a0000:98e1:217c:25:0
 7 GOLD
 p:SETTE GOLD,f:1
 2656:005a0000:98e1:217c:22:0
@@ -39059,9 +38840,6 @@ p:AjV-Ottcast,f:1
 1b69:005a0000:70e1:217c:25:0
 Vera Abruzzo
 p:In Aria!,f:1
-1f5f:005a0000:80e3:217c:1:0
-+ N NEWS
-p:+ N NEWS,f:1
 1f60:005a0000:80e3:217c:1:0
 CANALE ITALIA
 p:Canale Italia,f:1
@@ -39083,23 +38861,14 @@ p:Media Group srl,f:1
 1f6a:005a0000:80e3:217c:1:0
 TELENOSTRA
 p:TELENOSTRA,f:1
-1f6b:005a0000:80e3:217c:1:0
-TV YES
-p:GLOBAL,f:1
 1f6d:005a0000:80e3:217c:1:0
 RADIO MARTE TV
 p:RADIO MARTE TV,f:1
 1f66:005a0000:80e3:217c:22:0
 105TV
 p:In Aria!,f:1
-1f6c:005a0000:80e3:217c:22:0
-CILENTO CHANNEL
-p:In Aria!,f:1
 1f6e:005a0000:80e3:217c:22:0
 PARTENOPE TV
-p:In Aria!,f:1
-1f6f:005a0000:80e3:217c:22:0
-ABC DIGITAL
 p:In Aria!,f:1
 1f64:005a0000:80e3:217c:25:0
 TELECAPRI SPORT
@@ -39110,48 +38879,6 @@ p:AjV-Ottcast,f:1
 1f70:005a0000:80e3:217c:25:0
 Tele Dehon
 p:,f:1
-1773:005a0000:60e1:217c:1:0
-e'TV MARCHE
-p:e'TV MARCHE,f:1
-1774:005a0000:60e1:217c:1:0
-TVRS
-p:TVRS,f:1
-1775:005a0000:60e1:217c:1:0
-CANALE ITALIA
-p:Canale Italia,f:1
-1776:005a0000:60e1:217c:1:0
-7 GOLD MARCHE
-p:7 GOLD,f:1
-1777:005a0000:60e1:217c:1:0
-FANO TV
-p:COELMEDIA,f:1
-177a:005a0000:60e1:217c:1:0
-FERMO TV
-p:FERMO TV,f:1
-177b:005a0000:60e1:217c:1:0
-TELEMARCHE
-p:GLOBAL,f:1
-177c:005a0000:60e1:217c:1:0
-Odeon24 Marche
-p:Gold Tv srl,f:1
-1778:005a0000:60e1:217c:22:0
-Info 2000
-p:Tele 2000,f:1
-1771:005a0000:60e1:217c:25:0
-TV CENTRO MARCHE
-p:,c:050001,f:1
-1772:005a0000:60e1:217c:25:0
-VERATV
-p:In Aria!,f:1
-1779:005a0000:60e1:217c:25:0
-ROSSINI TV
-p:ROSSINI,f:1
-177d:005a0000:60e1:217c:31:0
-RTM
-p:GLOBAL,f:1
-177e:005a0000:60e1:217c:1:0
-e'TV +
-p:ETV+,f:1
 1389:005a0000:50e1:217c:1:0
 RTV38
 p:RTV38,f:1
@@ -39182,7 +38909,7 @@ p:Global,f:1
 138e:005a0000:50e1:217c:25:0
 GRANDUCATO TV
 p:Telegranducato,f:1
-138f:005a0000:50e1:217c:22:0
+138f:005a0000:50e1:217c:25:0
 TELETRURIA
 p:TELETRURIA 2000srl,f:1
 1392:005a0000:50e1:217c:22:0
@@ -39242,9 +38969,6 @@ p:Canale Italia,f:1
 1a9d:005a0000:68e1:217c:1:0
 Tele In
 p:Tele In,f:1
-1a9f:005a0000:68e1:217c:1:0
-TELEROMAUNO
-p:TELEROMAUNO,f:1
 1aa0:005a0000:68e1:217c:1:0
 TR118
 p:GOLDTV,f:1
@@ -39254,198 +38978,12 @@ p:Global,f:1
 1a98:005a0000:68e1:217c:22:0
 T9
 p:In Aria!,f:1
-1aa1:005a0000:68e1:217c:22:0
-RTR
-p:GLOBAL,f:1
 1aa3:005a0000:68e1:217c:22:0
 TELEITALIA 41
 p:In Aria!,f:1
 1a9e:005a0000:68e1:217c:25:0
 7 GOLD
 p:SETTE GOLD,f:1
-0fa1:005a0000:40e1:217c:1:0
-Primocanale HD
-p:Global,c:050001,f:1
-0fa2:005a0000:40e1:217c:1:0
-TELENORD
-p:In Aria!,f:1
-0fa3:005a0000:40e1:217c:1:0
-TELERADIOPACE 1
-p:Telepace,f:1
-0fa4:005a0000:40e1:217c:1:0
-TeleCity
-p:TELECITY LIGURIA,f:1
-0fa5:005a0000:40e1:217c:1:0
-CANALE16 Liguria
-p:Media Group,f:1
-0fa6:005a0000:40e1:217c:1:0
-TLS TeleLiguriaSud
-p:TLS,f:1
-0fa7:005a0000:40e1:217c:1:0
-TelecittÃ 
-p:Global,f:1
-0fa8:005a0000:40e1:217c:1:0
-E'TV LIGURIA
-p:TELECOLOR,f:1
-0fa9:005a0000:40e1:217c:1:0
-CANALE ITALIA
-p:Canale Italia,f:1
-0fab:005a0000:40e1:217c:1:0
-Primantenna
-p:Primantenna,f:1
-0fac:005a0000:40e1:217c:1:0
-RETE 7 HD
-p:RETE 7 HD,f:1
-0fae:005a0000:40e1:217c:1:0
-TELERADIOPACE 2
-p:Telepace,f:1
-0faf:005a0000:40e1:217c:1:0
-LUNA TV
-p:TLS,f:1
-0fb0:005a0000:40e1:217c:1:0
-ITALIA 7 Liguria
-p:Media Group srl,f:1
-12c1:005a0000:48e1:217c:1:0
-TRC Modena
-p:M-Three,f:1
-12c2:005a0000:48e1:217c:1:0
-TRC Bologna
-p:M-Three,c:050001,f:1
-12c3:005a0000:48e1:217c:1:0
-Telereggio
-p:M-Three,f:1
-12c4:005a0000:48e1:217c:1:0
-12 Tv Parma
-p:,f:1
-12c5:005a0000:48e1:217c:1:0
-Tvqui
-p:tvqui,f:1
-12c6:005a0000:48e1:217c:1:0
-Teleromagna
-p:Pubblisole,f:1
-12c7:005a0000:48e1:217c:1:0
-TR24
-p:Via Emilia TV,f:1
-12c8:005a0000:48e1:217c:1:0
-Telesanterno
-p:Gtv,f:1
-12c9:005a0000:48e1:217c:1:0
-Telestense
-p:REI,f:1
-12ca:005a0000:48e1:217c:1:0
-DiTv
-p:Ditv Multimedia,f:1
-12cb:005a0000:48e1:217c:1:0
-7G
-p:Sestarete & Rete 8,f:1
-12cc:005a0000:48e1:217c:1:0
-RADIO BRUNO
-p:RADIO BRUNO,f:1
-12cd:005a0000:48e1:217c:1:0
-CANALE ITALIA
-p:Canale Italia,f:1
-12ce:005a0000:48e1:217c:1:0
-Icaro TV
-p:Global,f:1
-12d0:005a0000:48e1:217c:1:0
-Giovanni Paolo tv
-p:Global,f:1
-12d1:005a0000:48e1:217c:1:0
-E TV RETE 7
-p:E TV RETE 7,f:1
-12cf:005a0000:48e1:217c:22:0
-VR
-p:GLOBAL,f:1
-07d2:005a0000:20e1:217c:1:0
-VIDEOSTAR
-p:VIDEOSTAR,c:050001,f:1
-07d3:005a0000:20e1:217c:1:0
-TELECITY LOMBARDIA
-p:TELECITY LOMBARDIA,f:1
-07d4:005a0000:20e1:217c:1:0
-Espansione Tv HD
-p:Espansione TV,f:1
-07d8:005a0000:20e1:217c:1:0
-TSN
-p:GLOBAL,f:1
-07da:005a0000:20e1:217c:1:0
-SUPERTV
-p:SUPERTV,f:1
-07db:005a0000:20e1:217c:1:0
-PIU VALLI TV
-p:PIU VALLI TV,f:1
-07dd:005a0000:20e1:217c:1:0
-CANALE ITALIA
-p:Canale Italia,f:1
-07de:005a0000:20e1:217c:1:0
-SEILATV Bergamo HD
-p:COELMEDIA,f:1
-07df:005a0000:20e1:217c:1:0
-RADIO BRUNO
-p:RADIO BRUNO,f:1
-07e0:005a0000:20e1:217c:1:0
-7+ CHANNEL
-p:7+ CHANNEL,f:1
-07e1:005a0000:20e1:217c:1:0
-RDS Social
-p:Telespazio,f:1
-07e2:005a0000:20e1:217c:1:0
-TELECLUSONE
-p:TELECLUSONE,f:1
-07e3:005a0000:20e1:217c:1:0
-DTV1
-p:,f:1
-07e4:005a0000:20e1:217c:1:0
-ONE TV
-p:ONE TV,f:1
-07d1:005a0000:20e1:217c:22:0
-Primanews Lombardia
-p:InAria,f:1
-07d5:005a0000:20e1:217c:22:0
-BERGAMO TV
-p:EI Towers,f:1
-07d6:005a0000:20e1:217c:22:0
-RETE 55
-p:TOTOPARTNER,f:1
-07d7:005a0000:20e1:217c:22:0
-TT-TELETUTTO
-p:EI TOWERS,f:1
-07d9:005a0000:20e1:217c:22:0
-70-80.tv
-p:VTS,f:1
-07dc:005a0000:20e1:217c:22:0
-AUTO DEL GIORNO
-p:AUTO DEL GIORNO,f:1
-0af9:005a0000:28e1:217c:1:0
-CANALE ITALIA Trento
-p:Canale Italia,f:1
-0afb:005a0000:28e1:217c:1:0
-CANALE ITALIA
-p:Canale Italia,f:1
-0af3:005a0000:28e1:217c:25:0
-Telepace Trento
-p:Telepace_Trento,f:1
-0afa:005a0000:28e1:217c:22:0
-TV7 Triveneta Network
-p:,f:1
-0af1:005a0000:28e1:217c:25:0
-TRENTINO TV
-p:,c:050001,f:1
-0af2:005a0000:28e1:217c:25:0
-RTTR
-p:RTTR OPIM TRENTO,f:1
-0af4:005a0000:28e1:217c:25:0
-Telepadova - 7 Gold
-p:Telepadova,f:1
-0af5:005a0000:28e1:217c:25:0
-TELENUOVO
-p:TELENUOVO-TN,f:1
-0af6:005a0000:28e1:217c:25:0
-ANTENNA TRE VENETO
-p:MEDIANORDEST,f:1
-0af8:005a0000:28e1:217c:25:0
-TELECHIARA
-p:VIDEOMEDIA-TN,f:1
 0709:005ab0b2:18e1:217c:1:0
 RETE 7 HD
 p:RETE 7 HD,f:1
@@ -39469,12 +39007,6 @@ RTS Un HD
 p:,f:1
 0715:005ab0b2:18e1:217c:1:0
 TV5 MONDE EUROPE
-p:,f:1
-070c:005ab0b2:18e1:217c:22:0
-AOSTA TV 14
-p:AOSTA TV 14,f:1
-000b:005ab0b2:18e2:217c:1:0
-TEST RL AO2
 p:,f:1
 1773:005ab0b2:60e1:217c:1:0
 e'TV MARCHE
@@ -39548,6 +39080,219 @@ p:MEDIANORDEST,f:1
 0af8:005ab0b2:28e1:217c:25:0
 TELECHIARA
 p:VIDEOMEDIA-TN,f:1
+0408:005ab00f:10e1:217c:1:0
+VCO AZZURRA TV
+p:COELMEDIA,f:1
+0409:005ab00f:10e1:217c:1:0
+VIDEONOVARA
+p:COELMEDIA,f:1
+040a:005ab00f:10e1:217c:1:0
+Onda Novara Tv
+p:Global,f:1
+040c:005ab00f:10e1:217c:1:0
+Telecity
+p:TELECITY PIEMONTE,f:1
+03e9:005ab00f:10e1:217c:1:0
+TopCalcio24
+p:Mediapason,c:050001,f:1
+03ea:005ab00f:10e1:217c:1:0
+VideoGruppo
+p:mediadiapason,f:1
+03eb:005ab00f:10e1:217c:1:0
+Sesta Rete
+p:Global,f:1
+03ed:005ab00f:10e1:217c:1:0
+Primantenna
+p:Primantenna,f:1
+03ee:005ab00f:10e1:217c:1:0
+CANALE ITALIA
+p:Canale Italia,f:1
+03ef:005ab00f:10e1:217c:1:0
+CANALE ITALIA Piemonte
+p:Canale Italia,f:1
+03f0:005ab00f:10e1:217c:1:0
+Telecity
+p:TELECITY PIEMONTE,f:1
+03f1:005ab00f:10e1:217c:1:0
+7+ CHANNEL
+p:7+ CHANNEL,f:1
+03f2:005ab00f:10e1:217c:1:0
+RETE 7 HD
+p:RETE 7,f:1
+03f4:005ab00f:10e1:217c:1:0
+VCO AZZURRA TV
+p:COELMEDIA,f:1
+03f5:005ab00f:10e1:217c:1:0
+VIDEONOVARA
+p:COELMEDIA,f:1
+03f6:005ab00f:10e1:217c:1:0
+Onda Novara Tv
+p:Global,f:1
+03f8:005ab00f:10e1:217c:1:0
+PRIMANEWS PIEMONTE
+p:Publi (in) srl,f:1
+03f3:005ab00f:10e1:217c:22:0
+GRP TV
+p:In Aria!,f:1
+03f7:005ab00f:10e1:217c:22:0
+Quartarete Blu
+p:In Aria!,f:1
+03ec:005ab00f:10e1:217c:25:0
+TELECUPOLE
+p:TELECUPOLE-TLT,f:1
+0fa1:005ab05c:40e1:217c:1:0
+Primocanale HD
+p:Global,c:050001,f:1
+0fa2:005ab05c:40e1:217c:1:0
+TELENORD HD
+p:TELENORD HD,f:1
+0fa3:005ab05c:40e1:217c:1:0
+TELERADIOPACE 1
+p:TELERADIOPACE,f:1
+0fa4:005ab05c:40e1:217c:1:0
+TeleCity
+p:TELECITY LIGURIA,f:1
+0fa5:005ab05c:40e1:217c:1:0
+TELEGENOVA
+p:Media Group,f:1
+0fa6:005ab05c:40e1:217c:1:0
+TLS TeleLiguriaSud
+p:TLS,f:1
+0fa7:005ab05c:40e1:217c:1:0
+Primocanale Primo Piano
+p:Global,f:1
+0fa8:005ab05c:40e1:217c:1:0
+E'TV LIGURIA
+p:TELECOLOR,f:1
+0fa9:005ab05c:40e1:217c:1:0
+CANALE ITALIA extra
+p:Canale Italia,f:1
+0fab:005ab05c:40e1:217c:1:0
+Primantenna
+p:Primantenna,f:1
+0fac:005ab05c:40e1:217c:1:0
+RETE 7 HD
+p:RETE 7 HD,f:1
+0fae:005ab05c:40e1:217c:1:0
+TELERADIOPACE 2
+p:TELERADIOPACE,f:1
+0faf:005ab05c:40e1:217c:1:0
+LUNA TV
+p:TLS,f:1
+0fb0:005ab05c:40e1:217c:1:0
+ITALIA 7 Liguria
+p:Media Group srl,f:1
+12c1:005ab0b2:48e1:217c:1:0
+TRC Modena
+p:M-Three,c:050001,f:1
+12c2:005ab0b2:48e1:217c:1:0
+TRC Bologna
+p:M-Three,f:1
+12c3:005ab0b2:48e1:217c:1:0
+Telereggio
+p:M-Three,f:1
+12c4:005ab0b2:48e1:217c:1:0
+12 Tv Parma
+p:Tv parma,f:1
+12c5:005ab0b2:48e1:217c:1:0
+TvQui HD
+p:TvQui,f:1
+12c7:005ab0b2:48e1:217c:1:0
+TR24
+p:Via Emilia TV,f:1
+12c8:005ab0b2:48e1:217c:1:0
+Telesanterno
+p:GTV,f:1
+12c9:005ab0b2:48e1:217c:1:0
+Telestense
+p:REI,f:1
+12ca:005ab0b2:48e1:217c:1:0
+DiTv
+p:Ditv Multimedia,f:1
+12cb:005ab0b2:48e1:217c:1:0
+7G
+p:Sestarete & Rete 8,f:1
+12cc:005ab0b2:48e1:217c:1:0
+RADIO BRUNO Emilia Romagna
+p:RADIO BRUNO,f:1
+12cd:005ab0b2:48e1:217c:1:0
+CANALE ITALIA
+p:Canale Italia,f:1
+12ce:005ab0b2:48e1:217c:1:0
+Icaro TV
+p:Global,f:1
+12d0:005ab0b2:48e1:217c:1:0
+Giovanni Paolo tv
+p:Global,f:1
+12d1:005ab0b2:48e1:217c:1:0
+E TV RETE 7
+p:E TV RETE 7,f:1
+12cf:005ab0b2:48e1:217c:22:0
+VR
+p:GLOBAL,f:1
+12c6:005ab0b2:48e1:217c:25:0
+Teleromagna HD
+p:Pubblisole,f:1
+07d2:005aafc2:20e1:217c:1:0
+VIDEOSTAR
+p:VIDEOSTAR,f:1
+07d3:005aafc2:20e1:217c:1:0
+TELECITY LOMBARDIA
+p:TELECITY LOMBARDIA,f:1
+07d4:005aafc2:20e1:217c:1:0
+Espansione Tv HD
+p:Espansione TV,f:1
+07d8:005aafc2:20e1:217c:1:0
+TSN
+p:GLOBAL,f:1
+07da:005aafc2:20e1:217c:1:0
+SUPERTV
+p:SUPERTV,f:1
+07db:005aafc2:20e1:217c:1:0
+PIU VALLI TV
+p:PIU VALLI TV,f:1
+07dd:005aafc2:20e1:217c:1:0
+CANALE ITALIA 77
+p:Canale Italia,f:1
+07de:005aafc2:20e1:217c:1:0
+SEILATV Bergamo HD
+p:COELMEDIA,f:1
+07df:005aafc2:20e1:217c:1:0
+RADIO BRUNO Lombardia
+p:RADIO BRUNO,f:1
+07e0:005aafc2:20e1:217c:1:0
+7+ CHANNEL
+p:7+ CHANNEL,f:1
+07e1:005aafc2:20e1:217c:1:0
+RDS Social
+p:Telespazio,f:1
+07e2:005aafc2:20e1:217c:1:0
+TELECLUSONE
+p:TELECLUSONE,f:1
+07e3:005aafc2:20e1:217c:1:0
+DTV1
+p:,f:1
+07e4:005aafc2:20e1:217c:1:0
+ONE TV
+p:ONE TV,f:1
+07d1:005aafc2:20e1:217c:22:0
+Primanews Lombardia
+p:InAria,c:050001,f:1
+07d5:005aafc2:20e1:217c:22:0
+BERGAMO TV
+p:EI Towers,f:1
+07d6:005aafc2:20e1:217c:22:0
+RETE 55
+p:TOTOPARTNER,f:1
+07d7:005aafc2:20e1:217c:22:0
+TT-TELETUTTO
+p:EI TOWERS,f:1
+07d9:005aafc2:20e1:217c:22:0
+70-80.tv
+p:70.80.tv,f:1
+07dc:005aafc2:20e1:217c:22:0
+AUTO DEL GIORNO
+p:AUTO DEL GIORNO,f:1
 0001:00460000:4e20:0064:1:0
 BBC Persian
 p:BBC,f:1
@@ -40409,6 +40154,9 @@ p:,f:1
 1db0:00300000:002b:0055:25:0
 DW English HD
 p:Deutsche Welle,f:1
+1dec:00300000:002b:0055:1:0
+VTV Romania
+p:,f:1
 09d8:00300000:0018:0044:22:0
 TLC Ukraine
 p:VIASAT,f:1
@@ -44973,7 +44721,7 @@ p:Slovak Telekom,f:1
 TV 2 Sport HD
 p:Telenor,f:1
 1c7a:0e080000:0047:0046:25:0
-TV 2 Zulu HD
+TV 2 Echo HD
 p:Telenor,f:1
 1c9f:0e080000:0047:0046:25:0
 TV 2 HD (D)
@@ -46472,168 +46220,6 @@ p:FM-DVB TDF RMV
 170c:0dde0000:2711:0090:2:0
 France Bleu Paris
 p:CJI
-02c7:0dde0000:0107:217c:1:0
-La 7
-p:,f:1
-02c8:0dde0000:0107:217c:1:0
-La 7d
-p:,f:1
-02d1:0dde0000:0107:217c:1:0
-LA7
-p:,f:1
-02d2:0dde0000:0107:217c:1:0
-LA7d
-p:,f:1
-02ef:0dde0000:0107:217c:25:0
-La 7 HD
-p:,f:1
-02f0:0dde0000:0107:217c:22:0
-LA7d
-p:,f:1
-02f9:0dde0000:0107:217c:1:0
-LA7 TEST
-p:,f:1
-02fa:0dde0000:0107:217c:1:0
-La 7 Servizi on demand
-p:,f:1
-02fb:0dde0000:0107:217c:1:0
-Caccia e Pesca
-p:,f:1
-02fc:0dde0000:0107:217c:1:0
-LA7 TEST
-p:,f:1
-02fd:0dde0000:0107:217c:1:0
-LA7 TEST
-p:,f:1
-0318:0dde0000:0107:217c:1:0
-La 7 on demand
-p:,f:1
-0046:0dde0000:0107:217c:0:0
-Servizio 70
-p:
-0047:0dde0000:0107:217c:0:0
-Servizio 71
-p:
-0048:0dde0000:0107:217c:0:0
-Servizio 72
-p:
-0049:0dde0000:0107:217c:0:0
-Servizio 73
-p:
-0063:0dde0000:0107:217c:0:0
-Ghost
-p:
-0321:0dde0000:0107:217c:25:0
-DAZN Channel - Premi Info
-p:,f:1
-0317:0dde0000:0107:217c:1:0
-LA7 Test
-p:,f:1
-0c1d:0dde0000:0107:217c:1:0
-Italia 161
-p:Canale Italia,f:1
-0c1e:0dde0000:0107:217c:1:0
-Italia 156
-p:Canale Italia,f:1
-0c1f:0dde0000:0107:217c:1:0
-Italia 136
-p:Canale Italia,f:1
-0c20:0dde0000:0107:217c:1:0
-Italia 154
-p:Canale Italia,f:1
-0c21:0dde0000:0107:217c:1:0
-Italia 148
-p:Canale Italia,f:1
-0c22:0dde0000:0107:217c:1:0
-Italia 143
-p:Canale Italia,f:1
-0bb9:0dde0000:0107:217c:1:0
-Italia 121
-p:Canale Italia,f:1
-0bba:0dde0000:0107:217c:1:0
-Arte Italia 124
-p:Canale Italia,f:1
-0bbb:0dde0000:0107:217c:1:0
-Arte Italia 125
-p:Canale Italia,f:1
-0bbc:0dde0000:0107:217c:1:0
-Italia 126
-p:Canale Italia,f:1
-0bbd:0dde0000:0107:217c:1:0
-Italia 127
-p:Canale Italia,f:1
-0bbe:0dde0000:0107:217c:1:0
-Italia 135
-p:Canale Italia,f:1
-0c23:0dde0000:0107:217c:1:0
-Italia 164
-p:Canale Italia,f:1
-0bbf:0dde0000:0107:217c:1:0
-Italia 134
-p:Canale Italia,f:1
-0c82:0dde0000:0107:217c:1:0
-Italia 142
-p:Canale Italia,f:1
-0c83:0dde0000:0107:217c:1:0
-Italia 160
-p:Canale Italia,f:1
-0c85:0dde0000:0107:217c:1:0
-Italia 159
-p:Canale Italia,f:1
-0c87:0dde0000:0107:217c:1:0
-Italia 155
-p:Canale Italia,f:1
-0fa1:0dde0000:0107:217c:1:0
-SoloCalcio
-p:In Aria!,f:1
-0fa2:0dde0000:0107:217c:1:0
-Donna Sport TV
-p:In Aria!,f:1
-0fa3:0dde0000:0107:217c:1:0
-Alma TV
-p:In Aria!,f:1
-0fa4:0dde0000:0107:217c:1:0
-TeleCampione
-p:In Aria!,f:1
-0fa5:0dde0000:0107:217c:1:0
-Linea Italia
-p:In Aria!,f:1
-0fa6:0dde0000:0107:217c:1:0
-Canale 165
-p:In Aria!,f:1
-0fa7:0dde0000:0107:217c:1:0
-AP Channel
-p:In Aria!,f:1
-0fa8:0dde0000:0107:217c:1:0
-Amici Per L Italia
-p:In Aria!,f:1
-0fa9:0dde0000:0107:217c:1:0
-Canale 232
-p:In Aria!,f:1
-0faa:0dde0000:0107:217c:1:0
-Parole di Vita
-p:In Aria!,f:1
-0fad:0dde0000:0107:217c:1:0
-Premio Time
-p:In Aria!,f:1
-0c84:0dde0000:0107:217c:1:0
-Italia 241
-p:Canale Italia,f:1
-0fae:0dde0000:0107:217c:1:0
-SoloCalcio
-p:In Aria!,f:1
-0faf:0dde0000:0107:217c:1:0
-Canale 163
-p:In Aria!,f:1
-0fb0:0dde0000:0107:217c:1:0
-PROMO SPORT
-p:In Aria!,f:1
-0fab:0dde0000:0107:217c:1:0
-BUSINESS24
-p:In Aria!,f:1
-0fac:0dde0000:0107:217c:1:0
-WELCOME IN
-p:In Aria!,f:1
 03f5:0dde0000:0003:20fa:12:0
 DATASYSTEM R7
 p:CNH
@@ -47069,6 +46655,9 @@ p:Rai
 045e:0dde0000:0071:217c:22:0
 Rai News 24
 p:Rai,f:1
+045d:0dde0000:0071:217c:22:0
+Rai Test
+p:Rai,f:1
 0579:0dde0000:00ad:217c:25:0
 Rai 1 HD
 p:Rai,f:1
@@ -47171,40 +46760,40 @@ p:Rai
 0490:0dde0000:007b:217c:22:0
 Rai News 24
 p:Rai,f:1
-0551:0dde0000:00a3:217c:1:0
+0551:ffce0000:00a3:217c:1:0
 Rai 3 TGR Veneto
 p:Rai,f:1
-0552:0dde0000:00a3:217c:1:0
+0552:ffce0000:00a3:217c:1:0
 Rai 3 TGR Emilia-Romagna
 p:Rai,f:1
-0553:0dde0000:00a3:217c:1:0
+0553:ffce0000:00a3:217c:1:0
 Rai 3 TGR Lombardia
 p:Rai,f:1
-0554:0dde0000:00a3:217c:1:0
+0554:ffce0000:00a3:217c:1:0
 Rai 3 TGR Veneto
 p:Rai,f:1
-0555:0dde0000:00a3:217c:1:0
+0555:ffce0000:00a3:217c:1:0
 Rai 3 TGR Emilia-Romagna
 p:Rai,f:1
-0556:0dde0000:00a3:217c:1:0
+0556:ffce0000:00a3:217c:1:0
 Rai 3 TGR Lombardia
 p:Rai,f:1
-0549:0dde0000:00a3:217c:22:0
+0549:ffce0000:00a3:217c:22:0
 Rai News 24
 p:Rai,f:1
-0547:0dde0000:00a3:217c:25:0
+0547:ffce0000:00a3:217c:25:0
 Rai 1 HD
 p:Rai,f:1
-0548:0dde0000:00a3:217c:25:0
+0548:ffce0000:00a3:217c:25:0
 Rai 2 HD
 p:Rai,f:1
-0550:0dde0000:00a3:217c:0:0
+0550:ffce0000:00a3:217c:0:0
 Rai 3 HD
 p:Rai
-0558:0dde0000:00a3:217c:22:0
+0558:ffce0000:00a3:217c:22:0
 Rai News 24
 p:Rai,f:1
-0557:0dde0000:00a3:217c:22:0
+0557:ffce0000:00a3:217c:22:0
 Rai Test
 p:Rai,f:1
 051e:0dde0000:0099:217c:0:0
@@ -47249,9 +46838,6 @@ p:Rai,f:1
 041b:0dde0000:0002:217c:25:0
 Rai 3 HD
 p:Rai,f:1
-041c:0dde0000:0002:217c:22:0
-Rai 2
-p:Rai,f:1
 041e:0dde0000:0002:217c:22:0
 Rai Scuola
 p:Rai,f:1
@@ -47260,9 +46846,6 @@ Rai 5
 p:Rai,f:1
 0422:0dde0000:0002:217c:22:0
 RTV San Marino
-p:Rai,f:1
-041f:0dde0000:0002:217c:22:0
-Rai 1
 p:Rai,f:1
 0423:0dde0000:0002:217c:22:0
 Rai Scuola
@@ -47573,6 +47156,12 @@ p:towerCast_M
 0030:ffce2cc5:0003:20fa:2:0
 DATA RDS TDF
 p:towerCast_A
+0017:ffce2cc5:0003:20fa:2:0
+CHERIE FM IDF
+p:towerCast_A
+0018:ffce2cc5:0003:20fa:2:0
+RIRE IDF
+p:towerCast_A
 003c:ffce2b6d:0000:0000:100:0
 11117H SID 0x3c
 p:DVB-S 8PSK 11117H 355.0Â°E
@@ -47582,36 +47171,6 @@ p:DVB-S 8PSK 11117H 355.0Â°E
 0384:ffce2b6d:0000:0000:100:0
 11117H SID 0x384
 p:DVB-S 8PSK 11117H 355.0Â°E
-1389:ffce0000:006f:0110:0:0
-Servizio 1 OTA
-p:
-138a:ffce0000:006f:0110:0:0
-Servizio 2 OTA
-p:
-138b:ffce0000:006f:0110:0:0
-Servizio 3
-p:
-138c:ffce0000:006f:0110:0:0
-Servizio 4
-p:
-138d:ffce0000:006f:0110:0:0
-Servizio 5
-p:
-138e:ffce0000:006f:0110:0:0
-Servizio 6
-p:
-138f:ffce0000:006f:0110:0:0
-Servizio 7
-p:
-1390:ffce0000:006f:0110:0:0
-Servizio 8
-p:
-1392:ffce0000:006f:0110:1:0
-Servizio Test
-p:,f:1
-0063:ffce0000:006f:0110:0:0
-Ghost
-p:
 004c:ffce0000:8800:217c:1:0
 Antenna Sud
 p:Rai Way,f:1
@@ -47834,9 +47393,6 @@ p:In Aria!,f:1
 0fa4:ffce3129:0107:217c:1:0
 TELECAMPIONE
 p:In Aria!,f:1
-0fa6:ffce3129:0107:217c:1:0
-CANALE 165
-p:In Aria!,f:1
 0fa7:ffce3129:0107:217c:1:0
 AP CHANNEL
 p:In Aria!,f:1
@@ -47924,6 +47480,117 @@ p:,f:1
 02ef:ffce3129:0107:217c:25:0
 LA7 HD
 p:,f:1
+0fb1:ffce3129:0107:217c:1:0
+CANALE 268
+p:In Aria!,f:1
+0709:0dde0000:2904:055f:25:0
+France 2
+p:EUTELSAT,f:1
+070a:0dde0000:2904:055f:25:0
+France 3
+p:EUTELSAT,f:1
+070b:0dde0000:2904:055f:25:0
+France 4
+p:EUTELSAT,f:1
+070c:0dde0000:2904:055f:25:0
+Franceinfo
+p:EUTELSAT,f:1
+070d:0dde0000:2904:055f:25:0
+Fransat Info
+p:EUTELSAT,f:1
+012c:0dde0000:2904:055f:31:0
+Test UHD3
+p:EUTELSAT,f:1
+0064:0dde0000:2904:055f:31:0
+Test UHD1
+p:EUTELSAT,f:1
+00c8:0dde0000:2904:055f:31:0
+Test UHD2
+p:EUTELSAT,f:1
+0001:ffce2d9c:0001:0001:2:0
+Rai Radio MF1 Roma
+p:Rai
+0002:ffce2d9c:0001:0001:2:0
+Rai Radio1 AO
+p:Rai
+0003:ffce2d9c:0001:0001:2:0
+Rai Radio1 AN
+p:Rai
+0004:ffce2d9c:0001:0001:2:0
+Rai Radio1 BA
+p:Rai
+0005:ffce2d9c:0001:0001:2:0
+Rai Radio1 BO
+p:Rai
+0006:ffce2d9c:0001:0001:2:0
+Rai Radio1 BZ
+p:Rai
+0007:ffce2d9c:0001:0001:2:0
+Rai Radio1 CA
+p:Rai
+0008:ffce2d9c:0001:0001:2:0
+Rai Radio1 CB
+p:Rai
+0009:ffce2d9c:0001:0001:2:0
+Rai Radio1 CS
+p:Rai
+000a:ffce2d9c:0001:0001:2:0
+Rai Radio1 FI
+p:Rai
+000b:ffce2d9c:0001:0001:2:0
+Rai Radio1 GE
+p:Rai
+000c:ffce2d9c:0001:0001:2:0
+Rai Radio1 MI
+p:Rai
+000d:ffce2d9c:0001:0001:2:0
+Rai Radio1 NA
+p:Rai
+000e:ffce2d9c:0001:0001:2:0
+Rai Radio1 PA
+p:Rai
+000f:ffce2d9c:0001:0001:2:0
+Rai Radio1 PE
+p:Rai
+0010:ffce2d9c:0001:0001:2:0
+Rai Radio1 PG
+p:Rai
+0011:ffce2d9c:0001:0001:2:0
+Rai Radio1 PZ
+p:Rai
+0012:ffce2d9c:0001:0001:2:0
+Rai Radio1 TN
+p:Rai
+0013:ffce2d9c:0001:0001:2:0
+Rai Radio1 TO
+p:Rai
+0014:ffce2d9c:0001:0001:2:0
+Rai Radio1 TS
+p:Rai
+0015:ffce2d9c:0001:0001:2:0
+Rai Radio1 VE
+p:Rai
+0016:ffce2d9c:0001:0001:2:0
+Rai Radio1 SDT
+p:Rai
+0017:ffce2d9c:0001:0001:2:0
+Rai Radio1 SLV
+p:Rai
+0039:ffce2d9c:0001:0001:2:0
+Rai Radio 3
+p:Rai
+003a:ffce2d9c:0001:0001:2:0
+Rai Radio GR Parlamento
+p:Rai
+003b:ffce2d9c:0001:0001:2:0
+Rai Radio 2
+p:Rai
+003c:ffce2d9c:0001:0001:2:0
+Rai Radio Classica
+p:Rai
+003d:ffce2d9c:0001:0001:2:0
+Rai Isoradio
+p:Rai
 01f5:0dca0000:0005:0800:1:0
 Al Oula
 p:NILESAT,f:1
@@ -53273,6 +52940,9 @@ p:,f:1
 12f4:0ce40000:0030:0036:1:0
 Canção Nova
 p:SID Canção Nova,f:1
+12f5:0ce40000:0030:0036:1:0
+MundotoroTV
+p:MundotoroTV,f:1
 03e8:0ce42db1:0000:0000:2:0
  Radio Mars
 p:
@@ -55168,6 +54838,9 @@ Rai 2 HD
 p:Rai,f:1
 045e:eeee0000:0071:217c:22:0
 Rai News 24
+p:Rai,f:1
+045d:eeee0000:0071:217c:22:0
+Rai Test
 p:Rai,f:1
 000c:eeee0000:7918:217c:2:0
 Radio Maria

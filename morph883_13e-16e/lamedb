@@ -240,6 +240,9 @@ transponders
 00a03168:0001:0001
 	s 12648000:5000000:0:3:160:2:0:1:2:0:2
 /
+00a00000:76c1:016e
+	s 11094000:27500000:1:7:160:2:0:1:1:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -917,6 +920,9 @@ p:DigitALB,f:1
 076c:00a00000:50dc:016e:22:0
 Panorama TV
 p:DigitALB,f:1
+0bb8:00a00000:50dc:016e:25:0
+Eurosport 2 HD
+p:DigitALB,f:1
 0001:00a0311a:0001:ffff:1:0
 SIC International
 p:TANDBERG,f:1
@@ -982,6 +988,15 @@ Arena HD
 p:A1 Broadcasting,f:1
 0781:00a00000:c6d4:016e:22:0
 Gold TV
+p:A1 Broadcasting,f:1
+076d:00a00000:c6d4:016e:22:0
+Wness TV
+p:A1 Broadcasting,f:1
+076f:00a00000:c6d4:016e:25:0
+Body in Balance HD
+p:A1 Broadcasting,f:1
+0770:00a00000:c6d4:016e:25:0
+RiC International HD
 p:A1 Broadcasting,f:1
 0714:00a00000:c5a8:016e:25:0
 HTV3 HD
@@ -1493,6 +1508,9 @@ p:A1 Broadcasting,f:1
 0490:00a00000:76c0:016e:31:0
 RTVS 24
 p:A1 Broadcasting,f:1
+0491:00a00000:76c0:016e:31:0
+AutoMotorSport HD
+p:A1 Broadcasting,f:1
 0558:00a00000:75fb:016e:1:0
 Dusk International
 p:Total TV,f:1
@@ -1706,12 +1724,6 @@ p:Test,f:1
 025e:00a00000:c418:016e:25:0
 Eurosport 1 HD
 p:TAG Broadcasting,f:1
-025f:00a00000:c418:016e:25:0
-Eurosport 2 HD
-p:TAG Broadcasting,f:1
-0260:00a00000:c418:016e:25:0
-Planeta HD
-p:Test,f:1
 0262:00a00000:c418:016e:25:0
 Auto Motor Sport HD
 p:Test,f:1
@@ -1738,9 +1750,6 @@ Duck TV
 p:VIPnet,f:1
 0282:00a00000:c418:016e:25:0
 Eurosport 1 HD
-p:TAG Broadcasting,f:1
-0283:00a00000:c418:016e:25:0
-Eurosport 2 HD
 p:TAG Broadcasting,f:1
 026e:00a00000:c418:016e:25:0
 Investigation Discovery HD
@@ -1774,6 +1783,18 @@ RiK TV HD
 p:Antik,f:1
 0263:00a00000:c418:016e:25:0
 Love Nature HD
+p:A1 Broadcasting,f:1
+0266:00a00000:c418:016e:2:0
+Radio POS
+p:A1 Broadcasting
+0267:00a00000:c418:016e:2:0
+Radio Osttirol
+p:A1 Broadcasting
+025c:00a00000:c418:016e:25:0
+Evil Angel HD
+p:A1 Broadcasting,f:1
+0264:00a00000:c418:016e:25:0
+BBC First HD
 p:A1 Broadcasting,f:1
 0683:00a00000:9fc4:016e:1:0
 Kanal A Slovenia HD
@@ -2517,7 +2538,7 @@ p:H,f:1
 B1
 p:H,f:1
 0009:00a02bfe:0001:016e:2:0
-Radio Kalman
+Grand Radio
 p:
 000a:00a02bfe:0001:016e:2:0
 VIP Radio
@@ -2717,6 +2738,9 @@ p:CastorNetworks
 0001:00a03168:0001:0001:1:0
 ITA 615 Feed
 p:Young TV,f:1
+04be:00a00000:76c1:016e:31:0
+National Geographic Wild HD
+p:A1 Broadcasting,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -4281,7 +4305,7 @@ p:Netmed,f:1
 E! Entertainment HD
 p:Syned,f:1
 3c9f:00820000:1bbc:013e:1:0
-BSKTV
+Blue Sky
 p:Netmed,f:1
 1c22:00820000:1c20:013e:1:0
 TTN - Télévision Tunisienne Nationale
@@ -6657,7 +6681,7 @@ p:Cyfrowy Polsat S.A.,f:1
 Nickelodeon Ukraine Pluto TV
 p:Cyfrowy Polsat S.A,f:1
 200c:00820000:24b8:013e:1:0
-BBC World News
+BBC News
 p:Globecast UK,f:1
 2023:00820000:24b8:013e:2:0
 Service 8227
@@ -7013,11 +7037,14 @@ p:KABELIO.CH,f:1
 0087:00820000:3264:013e:1:0
 Kabelio n-tv
 p:KABELIO.CH,f:1
-0075:00820000:3264:013e:1:0
+0076:00820000:3264:013e:1:0
 Kabelio ORF Sport+
 p:KABELIO.CH,f:1
 0088:00820000:3264:013e:1:0
 Kabelio Info
+p:KABELIO.CH,f:1
+0075:00820000:3264:013e:1:0
+Kabelio ServusTV
 p:KABELIO.CH,f:1
 1002:00820000:1e14:fbff:1:0
 IEPG Data
