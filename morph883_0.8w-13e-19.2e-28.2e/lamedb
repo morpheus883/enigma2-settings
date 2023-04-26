@@ -1083,14 +1083,14 @@ fff8aced:0001:0001
 0e080000:0045:0046
 	s 10903000:25000000:1:3:-8:2:0:1:2:1:2
 /
-fff8b0fc:0065:0065
-	s 12540000:6660000:1:3:-8:2:0:1:2:0:2
-/
 0e080000:0054:0046
 	s 12360000:30000000:0:3:-8:2:0:1:2:1:2
 /
 0e08b0ee:0136:ffff
 	s 12526000:6660000:1:3:-8:2:0:1:2:0:2
+/
+0e08b0fc:0001:ffff
+	s 12540000:6660000:1:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -3467,17 +3467,17 @@ p:Service Provider,f:1
 02bc:011a0000:07ea:0002:130:0
 Sports Active
 p:BSkyB,f:1
-03ef:011a0000:07ea:0002:25:0
-Amazon Prime Video UK 1
-p:BSkyB,C:0000,f:1
-03f0:011a0000:07ea:0002:25:0
-Amazon Prime Video UK 2
-p:BSkyB,C:0000,f:1
 14d8:011a0000:07ea:0002:31:0
 BT Sport Ultimate
 p:BSkyB,f:1
 14d9:011a0000:07ea:0002:31:0
 BTSUltimateUHD
+p:BSkyB,f:1
+2649:011a0000:07ea:0002:31:0
+Sky Sports Main Event UHD
+p:BSkyB,f:1
+2653:011a0000:07ea:0002:31:0
+SkySpME UHD
 p:BSkyB,f:1
 0002:011a30e3:0001:0001:1:0
 B
@@ -4128,7 +4128,7 @@ p:Digital+,f:1
 LA 1 (TVE 1)
 p:Movistar+,f:1
 76cb:00c00000:040e:0001:1:0
-TNT España
+Warner TV España
 p:Movistar+,f:1
 76c4:00c00000:040e:0001:1:0
 Enfamilia
@@ -4251,7 +4251,7 @@ p:,f:1
 
 p:,f:1
 7888:00c00000:0414:0001:25:0
-TNT HD España
+Warner TV HD España
 p:Movistar+,f:1
 7889:00c00000:0414:0001:25:0
 NatGeo Wild HD Spain
@@ -6761,12 +6761,6 @@ p:CSAT,f:1
 2462:00c00000:0440:0001:25:0
 beIN Sports 1 HD
 p:CSAT,f:1
-245c:00c00000:0440:0001:25:0
-Cartoon Network HD France
-p:CSAT,f:1
-245e:00c00000:0440:0001:25:0
-Toonami France HD
-p:CSAT,f:1
 2463:00c00000:0440:0001:25:0
 Chaine Evenement
 p:CSAT,f:1
@@ -6878,9 +6872,6 @@ p:CSAT,f:1
 24c6:00c00000:043c:0001:25:0
 Trace Urban HD
 p:CSAT,f:1
-24bb:00c00000:043c:0001:25:0
-Jacquie & Michel TV
-p:CSAT,f:1
 24b9:00c00000:043c:0001:25:0
 Événement à la Carte
 p:CSAT,f:1
@@ -6944,6 +6935,9 @@ p:CSAT,f:1
 220c:00c00000:044c:0001:1:0
 France 3 Nord-Pas de Calais
 p:CSAT,f:1
+2200:00c00000:044c:0001:25:0
+Disney+
+p:CSAT,f:1
 2336:00c00000:0442:0001:25:0
 C News HD
 p:CSAT,f:1
@@ -6983,15 +6977,6 @@ p:CSAT,f:1
 238b:00c00000:0442:0001:12:0
 DATASYSTEM
 p:CSAT
-2333:00c00000:0442:0001:25:0
-Boomerang France HD
-p:CSAT,f:1
-232d:00c00000:0442:0001:25:0
-Boing France HD
-p:CSAT,f:1
-2329:00c00000:0442:0001:25:0
-TCM HD France
-p:CSAT,f:1
 2338:00c00000:0442:0001:1:0
 France 3 Auvergne
 p:CSAT,f:1
@@ -7120,12 +7105,6 @@ RMC Découverte
 p:CSAT,f:1
 2017:00c00000:0430:0001:25:0
 Melody HD
-p:CSAT,f:1
-2016:00c00000:0430:0001:25:0
-Disney+
-p:CSAT,f:1
-2018:00c00000:0430:0001:25:0
-Warner TV HD
 p:CSAT,f:1
 200e:00c00000:0430:0001:25:0
 Cine+ Club HD
@@ -7430,6 +7409,9 @@ p:RR Media,f:1
 43de:00820000:2cec:013e:1:0
 Eurasia Worldwide
 p:,f:1
+43df:00820000:2cec:013e:1:0
+Vidrodjennya
+p:FFmpeg,f:1
 0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
 p:SNRT,f:1
@@ -13032,7 +13014,7 @@ p:Telenor,f:1
 BBC Earth HD (ST)
 p:Telenor,f:1
 1f28:0e080000:0029:0046:25:0
-BBC Brit HD
+BBC Nordic HD
 p:Telenor,f:1
 2f45:0e080000:0029:0046:12:0
 Allente1 Bootload
@@ -13482,7 +13464,7 @@ p:Telenor
 NRK Klassisk
 p:Telenor
 1ecd:0e080000:0046:0046:2:0
-NRK Sápmi
+NRK Sámi Radio
 p:Telenor
 1ece:0e080000:0046:0046:2:0
 NRK mP3
@@ -14702,6 +14684,18 @@ p:M7,f:1
 7666:0e080000:02bf:0600:25:0
 Nat Geo Wild CEE HD
 p:M7,f:1
+766d:0e080000:02bf:0600:22:0
+Slager Original
+p:M7,f:1
+766e:0e080000:02bf:0600:22:0
+TV Lux
+p:M7,f:1
+766b:0e080000:02bf:0600:22:0
+Filmbox Stars CZ
+p:M7,f:1
+7670:0e080000:02bf:0600:22:0
+Sport1 CZE
+p:M7,f:1
 1f4b:0e080000:0af8:00bb:22:0
 Film+ SK
 p:Slovak Telekom,f:1
@@ -15248,15 +15242,15 @@ p:Telenor,f:1
 42eb:0e080000:0045:0046:25:0
 TV10 HD
 p:Telenor,f:1
-0065:fff8b0fc:0065:0065:1:0
-B 101 DGI
-p:RCS-RDS BUCURESTI,f:1
 32d1:0e080000:0054:0046:22:0
 Test 13009
 p:Telenor,f:1
 0136:0e08b0ee:0136:ffff:1:0
 digisport
 p:rcs-rds,f:1
+0001:0e08b0fc:0001:ffff:1:0
+backup
+p:RCS-RDS,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2023

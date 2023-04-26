@@ -510,14 +510,14 @@ fff8aced:0001:0001
 0e080000:0045:0046
 	s 10903000:25000000:1:3:-8:2:0:1:2:1:2
 /
-fff8b0fc:0065:0065
-	s 12540000:6660000:1:3:-8:2:0:1:2:0:2
-/
 0e080000:0054:0046
 	s 12360000:30000000:0:3:-8:2:0:1:2:1:2
 /
 0e08b0ee:0136:ffff
 	s 12526000:6660000:1:3:-8:2:0:1:2:0:2
+/
+0e08b0fc:0001:ffff
+	s 12540000:6660000:1:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -536,6 +536,9 @@ p:RR Media,f:1
 43de:00820000:2cec:013e:1:0
 Eurasia Worldwide
 p:,f:1
+43df:00820000:2cec:013e:1:0
+Vidrodjennya
+p:FFmpeg,f:1
 0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
 p:SNRT,f:1
@@ -6138,7 +6141,7 @@ p:Telenor,f:1
 BBC Earth HD (ST)
 p:Telenor,f:1
 1f28:0e080000:0029:0046:25:0
-BBC Brit HD
+BBC Nordic HD
 p:Telenor,f:1
 2f45:0e080000:0029:0046:12:0
 Allente1 Bootload
@@ -6588,7 +6591,7 @@ p:Telenor
 NRK Klassisk
 p:Telenor
 1ecd:0e080000:0046:0046:2:0
-NRK Sápmi
+NRK Sámi Radio
 p:Telenor
 1ece:0e080000:0046:0046:2:0
 NRK mP3
@@ -7808,6 +7811,18 @@ p:M7,f:1
 7666:0e080000:02bf:0600:25:0
 Nat Geo Wild CEE HD
 p:M7,f:1
+766d:0e080000:02bf:0600:22:0
+Slager Original
+p:M7,f:1
+766e:0e080000:02bf:0600:22:0
+TV Lux
+p:M7,f:1
+766b:0e080000:02bf:0600:22:0
+Filmbox Stars CZ
+p:M7,f:1
+7670:0e080000:02bf:0600:22:0
+Sport1 CZE
+p:M7,f:1
 1f4b:0e080000:0af8:00bb:22:0
 Film+ SK
 p:Slovak Telekom,f:1
@@ -8354,15 +8369,15 @@ p:Telenor,f:1
 42eb:0e080000:0045:0046:25:0
 TV10 HD
 p:Telenor,f:1
-0065:fff8b0fc:0065:0065:1:0
-B 101 DGI
-p:RCS-RDS BUCURESTI,f:1
 32d1:0e080000:0054:0046:22:0
 Test 13009
 p:Telenor,f:1
 0136:0e08b0ee:0136:ffff:1:0
 digisport
 p:rcs-rds,f:1
+0001:0e08b0fc:0001:ffff:1:0
+backup
+p:RCS-RDS,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2023
