@@ -231,9 +231,6 @@ transponders
 00820000:012c:013e
 	s 11258000:27500000:0:3:130:2:0:1:2:0:2
 /
-00820000:0578:013f
-	s 11470000:27500000:1:3:130:2:0:1:2:0:2
-/
 00820000:20d0:013e
 	s 12380000:30000000:1:4:130:2:0:1:2:0:2
 /
@@ -512,9 +509,6 @@ fff8aced:0001:0001
 /
 0e080000:0054:0046
 	s 12360000:30000000:0:3:-8:2:0:1:2:1:2
-/
-0e08b0ee:0136:ffff
-	s 12526000:6660000:1:3:-8:2:0:1:2:0:2
 /
 0e08b0fc:0001:ffff
 	s 12540000:6660000:1:3:-8:2:0:1:2:0:2
@@ -2516,6 +2510,9 @@ p:Cyfrowy Polsat S.A.
 1cd1:00820000:1ce8:0071:12:0
 D56G
 p:
+1cc9:00820000:1ce8:0071:12:0
+D64-Testowy
+p:
 0064:00820000:0065:0001:1:0
 Voice of America (VOA) Europe
 p:,f:1
@@ -3139,6 +3136,9 @@ BBC Lifestyle HD
 p:GLOBECAST,f:1
 07e6:00820000:22c4:013e:1:0
 BBC Brit
+p:GLOBECAST,f:1
+07e2:00820000:22c4:013e:1:0
+UA World TV
 p:GLOBECAST,f:1
 2db3:00820000:2260:fbff:1:0
 IEPG Data
@@ -3885,7 +3885,7 @@ p:CANAL+,f:1
 La Trois
 p:CANAL+,f:1
 378d:00820000:044c:013e:1:0
-RTL-TVi HD
+RTL TVi HD
 p:CANAL+,f:1
 378e:00820000:044c:013e:1:0
 La Une HD
@@ -3894,10 +3894,10 @@ p:CANAL+,f:1
 Tipik
 p:CANAL+,f:1
 3790:00820000:044c:013e:1:0
-Club-RTL
+RTL Club
 p:CANAL+,f:1
 3791:00820000:044c:013e:1:0
-Plug-RTL
+RTL Plug
 p:CANAL+,f:1
 3792:00820000:044c:013e:2:0
 Tipik radio
@@ -4541,7 +4541,7 @@ p:Mediaset,f:1
 0078:00820000:04b0:0110:25:0
 20 Mediaset HD
 p:Mediaset,f:1
-0077:00820000:04b0:0110:22:0
+0077:00820000:04b0:0110:25:0
 Radio Monte Carlo
 p:Mediaset,f:1
 006f:00820000:04b0:0110:25:0
@@ -4550,8 +4550,8 @@ p:Mediaset,f:1
 007c:00820000:04b0:0110:25:0
 Iris HD
 p:Mediaset,f:1
-007e:00820000:04b0:0110:22:0
-Boing
+007e:00820000:04b0:0110:25:0
+Boing HD
 p:Mediaset,f:1
 007f:00820000:04b0:0110:25:0
 La5 HD
@@ -4568,13 +4568,13 @@ p:Mediaset,f:1
 0084:00820000:04b0:0110:25:0
 TopCrime HD
 p:Mediaset,f:1
-0085:00820000:04b0:0110:22:0
-Cartoonito
+0085:00820000:04b0:0110:25:0
+Cartoonito HD
 p:Mediaset,f:1
 0086:00820000:04b0:0110:25:0
 Focus HD
 p:Mediaset,f:1
-0076:00820000:04b0:0110:22:0
+0076:00820000:04b0:0110:25:0
 Virgin Radio
 p:Mediaset,f:1
 0087:00820000:04b0:0110:25:0
@@ -5117,18 +5117,6 @@ p:TVN SA Discovery Group,f:1
 3b6c:00820000:012c:013e:25:0
 WarnerTV Italy HD
 p:TVN,f:1
-0001:00820000:0578:013f:1:0
-CNA TV
-p:iKO Media Group,f:1
-0002:00820000:0578:013f:1:0
-Dieu TV
-p:iKO Media Group,f:1
-0004:00820000:0578:013f:1:0
-Amazing Facts
-p:,f:1
-0005:00820000:0578:013f:1:0
-TeleRadioPace TV
-p:,f:1
 0bc4:00820000:20d0:013e:1:0
 FTV UHD
 p:1,f:1
@@ -7187,9 +7175,6 @@ p:Zaciname s Voyo,f:1
 177d:0e080000:0af6:00bb:22:0
 Prima Show
 p:Slovak Telekom,f:1
-062f:0e080000:004c:0046:2:0
-BEST FM (Old)
-p:Telenor
 32d5:0e080000:004c:0046:22:0
 Test 13013
 p:Telenor,f:1
@@ -7802,9 +7787,6 @@ p:M7,f:1
 7662:0e080000:02bf:0600:22:0
 TA3
 p:M7,f:1
-766f:0e080000:02bf:0600:22:0
-TV Barrandov
-p:M7,f:1
 765e:0e080000:02bf:0600:22:0
 Lala TV
 p:M7,f:1
@@ -7855,6 +7837,9 @@ Senzi
 p:M7,f:1
 7671:0e080000:02bf:0600:22:0
 Senzi (SVT)
+p:M7,f:1
+766f:0e080000:02bf:0600:22:0
+Filmbox Stars CZ (SVT)
 p:M7,f:1
 1f4b:0e080000:0af8:00bb:22:0
 Film+ SK

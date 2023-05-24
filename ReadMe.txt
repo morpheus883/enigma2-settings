@@ -9,14 +9,14 @@ Morpheus883's Site: http://morpheus883.altervista.org/
 GitHub Repository: https://github.com/morpheus883/
 and available on the main Sat Sites
 
-Enigma2 Settings 17th May 2023, © by Morpheus883
+Enigma2 Settings 24th May 2023, © by Morpheus883
 
 Settings for Images based on Enigma 2.4:
 
 Statistics:
 # Satellites: 90 (Ku Band)
 # Ordered Provider Lists: 70+
-# Services: 16.620 (TV-Radio-Data)
+# Services: 16.415 (TV-Radio-Data)
 # Packages: 23 (TV-Radio-Data):
 
 MONOFeed (13°E)
@@ -127,8 +127,6 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [28.2 E] Sky Digital
 [30.5 E] ===== ARABSAT 5A/6A =====
 [31.5 E] ===== ASTRA 5B =====
-[31.5 E] MagtiSat
-[31.5 E] Orange Romania
 [33.0 E] ===== EUTELSAT 33E - INTELSAT 28 =====
 [36.0 E] ===== EUTELSAT 36B/AMU1 =====
 [36.0 E] DStv Multichoice Africa
