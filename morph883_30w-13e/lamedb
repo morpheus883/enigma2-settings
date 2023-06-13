@@ -348,9 +348,6 @@ fed4aeef:0001:ffff
 fed42aa3:0001:0001
 	s 10915000:2500000:0:9:-300:2:0:1:1:0:2
 /
-fed4aee9:0001:ffff
-	s 12009000:7200000:1:3:-300:2:0:1:2:0:2
-/
 fed4aede:0001:ffff
 	s 11998000:7500000:1:3:-300:2:0:1:2:0:2
 /
@@ -383,6 +380,12 @@ fed4ad67:0001:ffff
 /
 0ce4aef7:0001:0001
 	s 12023000:9230000:1:3:-300:2:0:1:2:0:2
+/
+0ce42ce8:0001:0001
+	s 11496000:4875000:0:3:-300:2:0:1:2:0:2
+/
+fed4aee9:00a0:0000
+	s 12009000:7200000:1:3:-300:2:0:1:2:0:2
 /
 end
 services
@@ -6923,9 +6926,6 @@ p:Net 1,f:1
 0001:fed42aa3:0001:0001:1:0
 Bom
 p:M-Three Satcom,f:1
-0001:fed4aee9:0001:ffff:1:0
-E-414 M
-p:Service Provider,f:1
 0001:fed4aede:0001:ffff:1:0
 Service 01
 p:M--56,f:1
@@ -6980,6 +6980,12 @@ p:Service Provider,f:1
 0001:0ce4aef7:0001:0001:1:0
 E-401 V1
 p:Net 1,f:1
+0101:0ce42ce8:0001:0001:1:0
+TR2-B
+p:TR2,f:1
+0015:fed4aee9:00a0:0000:1:0
+ETB LOT 21
+p:,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2023
