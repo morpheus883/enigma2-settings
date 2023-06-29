@@ -390,6 +390,15 @@ transponders
 005aafc2:20e1:217c
 	s 12226000:31400000:1:2:90:2:0:1:2:0:2:14:262140:1
 /
+005a0000:18e1:217c
+	s 12466000:41950000:1:2:90:2:0:1:2:0:2:12:262140:1
+/
+005a0000:28e1:217c
+	s 12466000:41950000:1:2:90:2:0:1:2:0:2:13:262140:1
+/
+005a0000:60e1:217c
+	s 12466000:41950000:1:2:90:2:0:1:2:0:2:23:262140:1
+/
 end
 services
 43a0:00820000:2cec:013e:1:0
@@ -413,6 +422,9 @@ p:FFmpeg,f:1
 439f:00820000:2cec:013e:1:0
 MY5 Uzbekistan
 p:FFmpeg,f:1
+43a1:00820000:2cec:013e:25:0
+BBC Persian HD
+p:BBC World Service,f:1
 0001:00820000:2e18:00b0:1:0
 Al Maghribia HD
 p:SNRT,f:1
@@ -2149,7 +2161,7 @@ MyZen TV HD
 p:NetMed,f:1
 0164:00820000:1c84:013e:1:0
 NR1 HD
-p:NetMed,C:0000,f:1
+p:NetMed,f:1
 0161:00820000:1c84:013e:1:0
 ERT World Europe
 p:NetMed,f:1
@@ -3667,7 +3679,7 @@ Kino Polska Muzyka
 p:CANAL+,f:1
 3d57:00820000:2c88:013e:1:0
 TVN 24 Bizness HD
-p:CANAL+,C:0000,f:1
+p:CANAL+,f:1
 3d5d:00820000:2c88:013e:1:0
 FilmBox Premium HD
 p:CANAL+,f:1
@@ -4421,7 +4433,7 @@ p:Mediaset,f:1
 0078:00820000:04b0:0110:25:0
 20 Mediaset HD
 p:Mediaset,f:1
-0077:00820000:04b0:0110:22:0
+0077:00820000:04b0:0110:25:0
 Radio Monte Carlo
 p:Mediaset,f:1
 006f:00820000:04b0:0110:25:0
@@ -4454,7 +4466,7 @@ p:Mediaset,f:1
 0086:00820000:04b0:0110:25:0
 Focus HD
 p:Mediaset,f:1
-0076:00820000:04b0:0110:22:0
+0076:00820000:04b0:0110:25:0
 Virgin Radio
 p:Mediaset,f:1
 0087:00820000:04b0:0110:25:0
@@ -5054,6 +5066,9 @@ p:Warner Bros Discovery,f:1
 02f1:00820000:02bc:013e:25:0
 Eurosport 2 Serbian HD
 p:Warner Bros Discovery,f:1
+02f2:00820000:02bc:013e:25:0
+Eurosport 2 Greek HD
+p:Warner Bros Discovery,f:1
 00d8:005a0000:14b4:009c:1:0
 Comedy Central
 p:Kabelkiosk,f:1
@@ -5638,13 +5653,13 @@ AEK SL Pass
 p:OTE,f:1
 03f1:005a0000:0002:00aa:1:0
 TEST 20
-p:OTE,C:0000,f:1
+p:OTE,f:1
 03f6:005a0000:0002:00aa:1:0
 TEST 22
 p:OTE,f:1
 0424:005a0000:0002:00aa:1:0
 TEST 21
-p:OTE,C:0000,f:1
+p:OTE,f:1
 0413:005a0000:0004:00aa:1:0
 ALPHA TV Greece HD
 p:OTE,f:1
@@ -5740,7 +5755,7 @@ DuckTV
 p:ΟΤΕ,f:1
 0456:005a0000:0005:00aa:1:0
 TEST 9
-p:OTE,C:0000,f:1
+p:OTE,f:1
 0403:005a0000:0006:00aa:1:0
 Disney Junior Middle-East & Africa
 p:OTE,f:1
@@ -5857,7 +5872,7 @@ Panik TV
 p:OTE,f:1
 043e:005a0000:0007:00aa:1:0
 Naftemporiki
-p:OTE,C:0000,f:1
+p:OTE,f:1
 03f5:005a0000:0001:00aa:1:0
 iConcerts HD
 p:OTE,f:1
@@ -5947,7 +5962,7 @@ COSMOTECinemaKidsHD
 p:OTE,f:1
 0469:005a0000:0008:00aa:1:0
 Al Arabiya
-p:OTE,C:0000,f:1
+p:OTE,f:1
 0078:005a0000:0065:0012:2:0
 AFN Atlantic Eagle
 p:
@@ -7025,6 +7040,9 @@ p:GLOBAL,f:1
 265a:005a0000:98e1:217c:25:0
 Tele Dehon
 p:,f:1
+2666:005a0000:98e1:217c:1:0
+CANALE ITALIA extra
+p:Canale Italia,f:1
 1b59:005a0000:70e1:217c:1:0
 RETE 8
 p:RETE 8,c:050001,f:1
@@ -7082,6 +7100,9 @@ p:AjV-Ottcast,f:1
 1b69:005a0000:70e1:217c:25:0
 Vera Abruzzo
 p:In Aria!,f:1
+1b76:005a0000:70e1:217c:1:0
+CANALE ITALIA extra
+p:Canale Italia,f:1
 1f60:005a0000:80e3:217c:1:0
 CANALE ITALIA
 p:Canale Italia,f:1
@@ -7424,6 +7445,9 @@ p:TLS,f:1
 0fb0:005ab05c:40e1:217c:1:0
 ITALIA 7 Liguria
 p:Media Group srl,f:1
+0fbd:005ab05c:40e1:217c:1:0
+CANALE ITALIA extra
+p:Canale Italia,f:1
 12c1:005ab0b2:48e1:217c:1:0
 TRC Modena
 p:M-Three,c:050001,f:1
@@ -7535,6 +7559,15 @@ p:70.80.tv,f:1
 07dc:005aafc2:20e1:217c:22:0
 AUTO DEL GIORNO
 p:AUTO DEL GIORNO,f:1
+071f:005a0000:18e1:217c:1:0
+CANALE ITALIA
+p:Canale Italia,f:1
+0b0f:005a0000:28e1:217c:1:0
+CANALE ITALIA
+p:Canale Italia,f:1
+1789:005a0000:60e1:217c:1:0
+CANALE ITALIA extra
+p:Canale Italia,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2023

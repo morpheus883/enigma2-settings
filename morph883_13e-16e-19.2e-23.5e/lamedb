@@ -255,9 +255,6 @@ transponders
 00eb317c:0001:ff00
 	s 12668000:1665000:0:4:235:2:0:1:2:0:2
 /
-00ebb116:0001:0000
-	s 12566000:7200000:1:3:235:2:0:1:2:0:2
-/
 00ebb141:0001:0001
 	s 12609000:7200000:1:3:235:2:0:1:2:0:2
 /
@@ -287,6 +284,9 @@ transponders
 /
 00ebad68:0000:0000
 	s 11624000:7200000:1:3:235:2:0:1:2:0:2
+/
+00ebb116:0001:0001
+	s 12566000:7200000:1:3:235:2:0:1:2:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -863,6 +863,12 @@ transponders
 /
 00a00000:76c1:016e
 	s 11094000:27500000:1:7:160:2:0:1:1:0:2
+/
+00a03156:0001:ffff
+	s 12630000:7500000:0:2:160:2:0:1:2:0:2
+/
+00a02b91:0001:0001
+	s 11153000:7200000:0:3:160:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -3431,9 +3437,6 @@ p:Timeline,f:1
 0001:00eb317c:0001:ff00:1:0
 TRWAM Cz-wa
 p:SES ASTRA,f:1
-0001:00ebb116:0001:0000:25:0
-HOL322 TX1
-p:www.newslive.eu,f:1
 0001:00ebb141:0001:0001:25:0
 HOL278 TX2
 p:,f:1
@@ -3464,6 +3467,9 @@ p:Stratos TV,f:1
 0001:00ebad68:0000:0000:25:0
 ITV Racing BUp
 p:,f:1
+0002:00ebb116:0001:0001:1:0
+LI B-UP1
+p:TL,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -3931,7 +3937,7 @@ Enfamilia
 p:Movistar+,f:1
 76c9:00c00000:040e:0001:1:0
 DAZN LaLiga
-p:Movistar+,C:0000,f:1
+p:Movistar+,f:1
 7568:00c00000:0412:0001:1:0
 Alquiler X
 p:Movistar+,f:1
@@ -4069,7 +4075,7 @@ Caza y Pesca HD
 p:Movistar+,f:1
 7884:00c00000:0414:0001:25:0
 DAZN LaLigaHD
-p:DIGITAL+,C:0000,f:1
+p:DIGITAL+,f:1
 7729:00c00000:0416:0001:1:0
 Canal Sur Andalucia
 p:Movistar+,f:1
@@ -5513,6 +5519,9 @@ p:-,f:1
 33a9:00c00000:03eb:0001:25:0
 Kurier TV
 p:-,f:1
+33b4:00c00000:03eb:0001:12:0
+Neotion CI 1.4 OTA
+p:ORS
 1269:00c00000:03f7:0001:1:0
 Die Neue Zeit TV
 p:BetaDigital,f:1
@@ -6301,7 +6310,7 @@ QVC 2 UHD
 p:SES ASTRA,f:1
 07d0:00c00000:0449:0001:31:0
 RTL UHD
-p:MX1,C:186d,C:186a,C:1860,C:1843,C:1842,C:1830,f:1
+p:MX1,f:1
 0017:00c00000:0004:0085:25:0
 Sky Krimi HD
 p:SKY,f:1
@@ -6718,7 +6727,7 @@ DATASYSTEM
 p:CSAT
 21ff:00c00000:044c:0001:25:0
 MGG TV
-p:CSAT,C:0000,f:1
+p:CSAT,f:1
 2207:00c00000:044c:0001:25:0
 Golf+ HD
 p:CSAT,f:1
@@ -6817,7 +6826,7 @@ Multisports 1 HD
 p:CSAT,f:1
 1f42:00c00000:042e:0001:25:0
 Olympia TV HD
-p:CSAT,C:0000,f:1
+p:CSAT,f:1
 1f4c:00c00000:042e:0001:25:0
 Mezzo Live HD
 p:CSAT,f:1
@@ -7063,7 +7072,7 @@ Movistar Estrenos 2 HD
 p:Movistar+,f:1
 74ce:00c00000:03f8:0001:25:0
 DAZN LaLiga2 HD
-p:,C:0000,f:1
+p:,f:1
 74db:00c00000:03f8:0001:25:0
 Liga de Campeones 3 HD
 p:Movistar+,f:1
@@ -7075,7 +7084,7 @@ Sky Sport Austria 2 HD
 p:SKY,f:1
 0320:00c00000:0008:0085:22:0
 STEST1
-p:SKY,C:0000,f:1
+p:SKY,f:1
 0065:00c00000:0008:0085:25:0
 Universal TV HD
 p:SKY,f:1
@@ -7447,7 +7456,7 @@ Maria Vision
 p:Max TV,f:1
 005a:00a00000:0003:0040:22:0
 Balkan Trip.
-p:T-HT,C:0000,f:1
+p:T-HT,f:1
 00ce:00a00000:0003:0040:2:0
 Radio Maria Vision Medugorje
 p:T-HT
@@ -7507,7 +7516,7 @@ Nova BH HD
 p:Total TV,f:1
 1168:00a00000:9ca4:016e:1:0
 Nova Sport HD
-p:Total TV,C:0000,f:1
+p:Total TV,f:1
 116e:00a00000:9ca4:016e:1:0
 Hema TV
 p:Total TV,f:1
@@ -7636,7 +7645,7 @@ Travel Channel HD
 p:DigitALB,f:1
 03fd:00a00000:50dc:016e:22:0
 RTSH Shkolle
-p:DigitALB,C:0000,f:1
+p:DigitALB,f:1
 10a4:00a00000:50dc:016e:22:0
 MCN TV
 p:DigitALB,f:1
@@ -7835,39 +7844,6 @@ p:A1 HR,f:1
 44db:00a00000:44db:44db:2:0
 JOE FM BU
 p:BNT Uplink
-03e6:00a00000:c670:016e:12:0
-A1 BG SmardTV OTA
-p:A1 BG
-038e:00a00000:c670:016e:22:0
-Wness TV
-p:TAG Broadcasting,f:1
-0385:00a00000:c670:016e:25:0
-Body in Balance
-p:TAG Broadcasting,f:1
-0386:00a00000:c670:016e:25:0
-RiC International HD
-p:TAG Broadcasting,f:1
-0387:00a00000:c670:016e:25:0
-Evil Angel HD
-p:TAG Broadcasting,f:1
-0388:00a00000:c670:016e:25:0
-BBC First HD
-p:A1 Broadcasting,f:1
-0396:00a00000:c670:016e:22:0
-Nova TV Croatia
-p:A1 Broadcasting,f:1
-0389:00a00000:c670:016e:31:0
-FunBox UHD
-p:A1 Broadcasting,f:1
-0398:00a00000:c670:016e:2:0
-Radio Osttirol
-p:A1 Broadcasting
-0397:00a00000:c670:016e:2:0
-Radio POS
-p:A1 Broadcasting
-03a2:00a00000:c670:016e:22:0
-TAG Broadcasting
-p:A1 Broadcasting,f:1
 0390:00a00000:c670:016e:22:0
 BabesTV
 p:A1 Broadcasting,f:1
@@ -8855,9 +8831,6 @@ p:Enex,f:1
 079e:00a03151:0001:ffff:1:0
 TJK ADANA SD
 p:TJK,f:1
-079e:00a03157:0001:ffff:1:0
-TJK ADANA SD
-p:TJK,f:1
 0001:00a03108:0001:ffff:1:0
 UKR-011
 p:Studio 1+1,f:1
@@ -9440,9 +9413,9 @@ p:,f:1
 0001:00a02b83:0001:0001:1:0
 RAI ITA 100 B
 p:RAI Radio Televisione Italiana,f:1
-0001:00a0318a:0001:0001:25:0
-D396 HSNG
-p:RTL News GmbH,f:1
+0001:00a0318a:0001:0001:1:0
+Fal6 Enc1
+p:SkyGer,f:1
 0001:00a03170:0000:0001:25:0
 F-512 IXILIVE/1 C+ MONTAUBAN
 p:IXI PROD 4,f:1
@@ -9479,6 +9452,12 @@ p:Young TV,f:1
 04be:00a00000:76c1:016e:31:0
 National Geographic Wild HD
 p:A1 Broadcasting,f:1
+0001:00a03156:0001:ffff:1:0
+TJK ISTANBUL HD
+p:TJK TV,f:1
+0001:00a02b91:0001:0001:1:0
+Rai ITA89A
+p:RAI,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -9500,6 +9479,9 @@ p:FFmpeg,f:1
 439f:00820000:2cec:013e:1:0
 MY5 Uzbekistan
 p:FFmpeg,f:1
+43a1:00820000:2cec:013e:25:0
+BBC Persian HD
+p:BBC World Service,f:1
 0001:00820000:2e18:00b0:1:0
 Al Maghribia HD
 p:SNRT,f:1
@@ -11236,7 +11218,7 @@ MyZen TV HD
 p:NetMed,f:1
 0164:00820000:1c84:013e:1:0
 NR1 HD
-p:NetMed,C:0000,f:1
+p:NetMed,f:1
 0161:00820000:1c84:013e:1:0
 ERT World Europe
 p:NetMed,f:1
@@ -12754,7 +12736,7 @@ Kino Polska Muzyka
 p:CANAL+,f:1
 3d57:00820000:2c88:013e:1:0
 TVN 24 Bizness HD
-p:CANAL+,C:0000,f:1
+p:CANAL+,f:1
 3d5d:00820000:2c88:013e:1:0
 FilmBox Premium HD
 p:CANAL+,f:1
@@ -13508,7 +13490,7 @@ p:Mediaset,f:1
 0078:00820000:04b0:0110:25:0
 20 Mediaset HD
 p:Mediaset,f:1
-0077:00820000:04b0:0110:22:0
+0077:00820000:04b0:0110:25:0
 Radio Monte Carlo
 p:Mediaset,f:1
 006f:00820000:04b0:0110:25:0
@@ -13541,7 +13523,7 @@ p:Mediaset,f:1
 0086:00820000:04b0:0110:25:0
 Focus HD
 p:Mediaset,f:1
-0076:00820000:04b0:0110:22:0
+0076:00820000:04b0:0110:25:0
 Virgin Radio
 p:Mediaset,f:1
 0087:00820000:04b0:0110:25:0
@@ -14140,6 +14122,9 @@ Eurosport 1 Serbian HD
 p:Warner Bros Discovery,f:1
 02f1:00820000:02bc:013e:25:0
 Eurosport 2 Serbian HD
+p:Warner Bros Discovery,f:1
+02f2:00820000:02bc:013e:25:0
+Eurosport 2 Greek HD
 p:Warner Bros Discovery,f:1
 end
 === Compiled with Morpheus883's scripts ===
