@@ -288,6 +288,9 @@ transponders
 00ebb116:0001:0001
 	s 12566000:7200000:1:3:235:2:0:1:2:0:2
 /
+00ebad80:0002:ffff
+	s 11648000:7200000:1:3:235:2:0:1:2:0:2
+/
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
 /
@@ -719,9 +722,6 @@ transponders
 /
 00a03151:0001:ffff
 	s 12625000:3615000:0:3:160:2:0
-/
-00a03157:0001:ffff
-	s 12631000:3615000:0:3:160:2:0
 /
 00a03108:0001:ffff
 	s 12552000:2815000:0:0:160:2:0
@@ -2619,7 +2619,7 @@ p:Telekom Srbija,f:1
 Pro TV International
 p:Telekom Srbija,f:1
 4f04:00eb0000:0c81:0003:1:0
-Realitatea TV
+Informer TV
 p:Telekom Srbija,f:1
 4f05:00eb0000:0c81:0003:1:0
 Trinitas
@@ -3470,6 +3470,9 @@ p:,f:1
 0002:00ebb116:0001:0001:1:0
 LI B-UP1
 p:TL,f:1
+0001:00ebad80:0002:ffff:1:0
+D 408 Hamburg HORN
+p:Media Broadcast,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -5705,6 +5708,9 @@ p:TSA,f:1
 7a48:00c00000:0410:0001:22:0
 Die Neue Zeit TV 2
 p:TSA,f:1
+7a47:00c00000:0410:0001:25:0
+Promo TSA
+p:TSA,f:1
 78b6:00c00000:03ec:0001:25:0
 Movistar Series HD
 p:Movistar+,f:1
@@ -7937,11 +7943,8 @@ p:DigitALB,f:1
 0550:00a00000:4f4c:016e:1:0
 RTV-21 M
 p:DigitALB,f:1
-05b4:00a00000:4f4c:016e:25:0
-Big Brother 1 HD
-p:DigitALB,f:1
 05f0:00a00000:4f4c:016e:25:0
-Big Brother 2 HD
+Top News HD
 p:DIGITALB,f:1
 0a94:00a00000:9dd0:016e:22:0
 FilmBox Arthouse

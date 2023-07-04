@@ -783,12 +783,6 @@ fff8acea:0000:0002
 0e080000:0af9:00bb
 	s 12456000:30000000:1:3:-8:2:0:1:2:0:2
 /
-0e080000:02c9:0600
-	s 12207000:30000000:0:3:-8:2:0:1:2:1:2
-/
-0e080000:02ca:0600
-	s 12284000:30000000:0:3:-8:2:0:1:2:0:2
-/
 0e082cc4:0001:0001
 	s 11460000:2260000:1:2:-8:2:0:1:1:0:2
 /
@@ -3091,6 +3085,9 @@ Die Neue Zeit TV 1
 p:TSA,f:1
 7a48:00c00000:0410:0001:22:0
 Die Neue Zeit TV 2
+p:TSA,f:1
+7a47:00c00000:0410:0001:25:0
+Promo TSA
 p:TSA,f:1
 78b6:00c00000:03ec:0001:25:0
 Movistar Series HD
@@ -10403,9 +10400,6 @@ p:MTV Networks Europe,f:1
 0201:0e080000:001b:02c0:1:0
 Comedy Central Hungary.
 p:MTV Networks Europe,f:1
-78b8:0e080000:02c5:0600:1:0
-Viasat Explore
-p:Focus Sat,f:1
 78b9:0e080000:02c5:0600:1:0
 CBS Reality
 p:UPC Direct,f:1
@@ -10415,9 +10409,6 @@ p:Focus Sat,f:1
 78bd:0e080000:02c5:0600:1:0
 Private TV
 p:Focus Sat,f:1
-78bf:0e080000:02c5:0600:1:0
-Sport 1 Czechia & Slovakia
-p:UPC Direct,f:1
 78ba:0e080000:02c5:0600:1:0
 FEM3 HU
 p:UPC Direct,f:1
@@ -10466,12 +10457,6 @@ p:UPC Direct,f:1
 78d5:0e080000:02c5:0600:1:0
 Arena 4
 p:UPC Direct,f:1
-78c1:0e080000:02c5:0600:22:0
-Senzi
-p:M7,f:1
-78d6:0e080000:02c5:0600:22:0
-Slager Original
-p:M7,f:1
 78d7:0e080000:02c5:0600:1:0
 Arena4.
 p:M7,f:1
@@ -10485,7 +10470,7 @@ p:M7,f:1
 Viasat Explore RO
 p:M7,f:1
 78ca:0e080000:02c5:0600:1:0
-Viasat Explore RO.
+Viasat Explore
 p:M7,f:1
 0207:0e080000:0014:0046:25:0
 CGTN HD
@@ -10507,55 +10492,55 @@ BEST FM
 p:Telenor
 03e9:0e08318f:0001:0001:1:0
 TVR 1
-p:RCS DigiTV,f:1
+p:DigiTV,f:1
 03ee:0e08318f:0001:0001:1:0
 Prima
-p:RCS DigiTV,f:1
+p:DigiTV,f:1
 03f2:0e08318f:0001:0001:1:0
 Digi Sport 2 RO-HU
-p:RCS DigiTV,f:1
+p:DigiTV,f:1
 03f3:0e08318f:0001:0001:1:0
 U (Romania)
-p:RCS DigiTV,f:1
+p:DigiTV,f:1
 03f8:0e08318f:0001:0001:1:0
 Eurosport HU
-p:RCS DigiTV,f:1
+p:DigiTV,f:1
 03f9:0e08318f:0001:0001:1:0
 Disney Channel Romania, Bulgaria & Ukraine
-p:RCS DigiTV,f:1
+p:DigiTV,f:1
 03fa:0e08318f:0001:0001:1:0
 MiniMax Romania (6h-20h CET)
-p:RCS DigiTV,f:1
+p:DigiTV,f:1
 03fb:0e08318f:0001:0001:1:0
 Kiss TV
-p:RCS DigiTV,f:1
+p:DigiTV,f:1
 0a78:0e08318f:0001:0001:2:0
 Radio Maria HU
-p:RCS DigiTV
+p:DigiTV
 0e56:0e08318f:0001:0001:2:0
 Radio Maria RO
-p:RCS DigiTV
+p:DigiTV
 0299:0e08318f:0001:0001:6:0
 SW DL 1120
-p:RCS
+p:DigiTV
 0d2a:0e08318f:0001:0001:1:0
 Eurosport 2 RO
-p:RCS,f:1
+p:DigiTV,f:1
 03fe:0e08318f:0001:0001:1:0
 National Geographic RO
-p:RCS DigiTV,f:1
+p:DigiTV,f:1
 03f1:0e08318f:0001:0001:1:0
 Digi Sport 4 RO
-p:RCS DigiTV,f:1
+p:DigiTV,f:1
 03fc:0e08318f:0001:0001:1:0
 HBO 3 RO
-p:RCS,f:1
-03ef:0e08318f:0001:0001:1:0
-Viasat Explore
 p:DigiTV,f:1
 03f0:0e08318f:0001:0001:1:0
 Mezzo
 p:DigiTV,f:1
+03ef:0e08318f:0001:0001:1:0
+E!
+p:DigiTV,C:0000,f:1
 03f4:0e080000:0002:0001:1:0
 Cinemaraton
 p:RCS DigiTV,f:1
@@ -10780,6 +10765,9 @@ France 24 (eng)
 p:Telenor,f:1
 1c13:0e080000:0048:0046:1:0
 SBN International
+p:Telenor,f:1
+1c75:0e080000:0048:0046:25:0
+Heim HD
 p:Telenor,f:1
 7727:0e080000:02c1:0600:25:0
 Sport 1 HD Hungary
@@ -11414,9 +11402,6 @@ p:Focus Sat,f:1
 798e:0e080000:02c7:0600:1:0
 Zenebutik
 p:UPC Direct,f:1
-7993:0e080000:02c7:0600:1:0
-Zenebutik.
-p:UPC Direct,f:1
 7995:0e080000:02c7:0600:1:0
 TV4 (SVT)
 p:UPC Direct,f:1
@@ -11465,9 +11450,6 @@ p:UPC,f:1
 7988:0e080000:02c7:0600:1:0
 Stingray CMusic
 p:UPC Direct,f:1
-7987:0e080000:02c7:0600:22:0
-TV Lux
-p:M7,f:1
 7984:0e080000:02c7:0600:25:0
 Viasat Explore HD
 p:M7,f:1
@@ -11941,9 +11923,6 @@ Vixen HD
 p:M7,f:1
 7660:0e080000:02bf:0600:25:0
 Focus Sat TV HD
-p:M7,f:1
-7667:0e080000:02bf:0600:22:0
-JOJ 24
 p:M7,f:1
 7666:0e080000:02bf:0600:25:0
 Nat Geo Wild CEE HD

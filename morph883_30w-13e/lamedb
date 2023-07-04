@@ -330,9 +330,6 @@ fed4b0e7:0001:0001
 fed4aedb:0001:ffff
 	s 11995000:5000000:1:3:-300:2:0:1:1:0:2
 /
-fed4aeef:0001:ffff
-	s 12015000:4800000:1:3:-300:2:0
-/
 0ce431c1:0001:ffff
 	s 12737000:5000000:0:3:-300:2:0:1:2:0:2
 /
@@ -347,9 +344,6 @@ fed4aeef:0001:ffff
 /
 fed42aa3:0001:0001
 	s 10915000:2500000:0:9:-300:2:0:1:1:0:2
-/
-fed4aede:0001:ffff
-	s 11998000:7500000:1:3:-300:2:0:1:2:0:2
 /
 0ce4aeec:0000:0000
 	s 12012000:10000000:1:3:-300:2:0:1:2:0:2
@@ -392,6 +386,9 @@ fed4aee9:00a0:0000
 /
 0ce40000:0070:006f
 	s 11998000:7200000:1:3:-300:2:0:1:2:0:2
+/
+fed4aeef:0001:0001
+	s 12015000:5000000:1:3:-300:2:0:1:2:0:2
 /
 end
 services
@@ -6878,9 +6875,6 @@ p:Tandberg,f:1
 0011:fed4aedb:0001:ffff:1:0
 CANAL MONCLOA
 p:OVERON,f:1
-0001:fed4aeef:0001:ffff:1:0
-E 414 FEED 1
-p:Service Provider,f:1
 0001:0ce431c1:0001:ffff:25:0
 FIBRA TVE OCC
 p:,f:1
@@ -7004,6 +6998,9 @@ p:Service Provider,f:1
 0001:0ce40000:0070:006f:25:0
 E-362 VIA 1
 p:MEDIAPRO SPAIN,f:1
+0011:fed4aeef:0001:0001:25:0
+OVERON MONCLOA
+p:TANDBERG Television,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2023
