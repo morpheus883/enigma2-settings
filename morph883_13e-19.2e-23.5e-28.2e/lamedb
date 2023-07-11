@@ -249,6 +249,12 @@ transponders
 011ab0fe:00a0:00eb
 	s 12542000:7200000:1:0:282:2:0:1:2:0:2
 /
+011a30fe:0001:0001
+	s 12542000:15000000:0:3:282:2:0:1:2:0:2
+/
+011ab109:0001:ffff
+	s 12553000:7200000:1:3:282:2:0:1:2:0:2
+/
 00eb0000:0c88:0003
 	s 11856000:29900000:1:2:235:2:0:1:2:0:0
 /
@@ -539,6 +545,9 @@ transponders
 /
 00ebad80:0002:ffff
 	s 11648000:7200000:1:3:235:2:0:1:2:0:2
+/
+00ebb0fb:0200:0000
+	s 12539000:7200000:1:3:235:2:0:1:2:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -1997,6 +2006,9 @@ p:BSkyB,f:1
 c4d1:011a0000:0811:0002:25:0
 Viaplay 2 HD
 p:BSkyB,f:1
+c4b8:011a0000:0811:0002:1:0
+Zee TV Dual
+p:BSkyB,f:1
 d7e8:011a0000:082c:0002:25:0
 Racing TV HD
 p:BSkyB,f:1
@@ -3389,6 +3401,9 @@ p:BSkyB,f:1
 083e:011a0000:083d:0002:1:0
 Nick Jr Too
 p:BSkyB,f:1
+083f:011a0000:083d:0002:1:0
+Nickelodeon Dual
+p:BSkyB,f:1
 0001:011ab159:0001:ffff:25:0
 NEP 107
 p:,f:1
@@ -3433,51 +3448,6 @@ QTV Religious
 p:BSkyB,f:1
 0001:011a30f7:0001:ffff:25:0
 Salford v Castleford sat dr
-p:,f:1
-2100:011a2d58:2012:233a:1:0
-E4
-p:,f:1
-2104:011a2d58:2012:233a:1:0
-Channel 4+1
-p:,f:1
-210a:011a2d58:2012:233a:1:0
-E4+1
-p:,f:1
-2134:011a2d58:2012:233a:1:0
-Channel 5
-p:,f:1
-2052:011a2d58:2012:233a:1:0
-ITV 1 Tyne Tees
-p:,f:1
-2066:011a2d58:2012:233a:1:0
-ITV3
-p:,f:1
-2085:011a2d58:2012:233a:1:0
-ITV2
-p:,f:1
-208a:011a2d58:2012:233a:1:0
-ITV4
-p:,f:1
-20b6:011a2d58:2012:233a:1:0
-ITV1+1
-p:,f:1
-20c0:011a2d58:2012:233a:1:0
-Channel 4
-p:,f:1
-20c1:011a2d58:2012:233a:1:0
-Film4
-p:,f:1
-20fa:011a2d58:2012:233a:1:0
-More 4
-p:,f:1
-2198:011a2d58:2012:233a:12:0
-Freeview
-p:
-2199:011a2d58:2012:233a:12:0
-Accessible TV Guide
-p:
-2094:011a2d58:2012:233a:1:0
-ITV Be
 p:,f:1
 0001:011a0000:00a0:00eb:1:0
 E357 ATM7 VIA2
@@ -3713,6 +3683,12 @@ p:CCMA,f:1
 0001:011ab0fe:00a0:00eb:1:0
 E357 ATM7
 p:ATM BROADCAST,f:1
+0001:011a30fe:0001:0001:31:0
+Service 1
+p:BWS Ltd,f:1
+0001:011ab109:0001:ffff:1:0
+E-351/G-22 Via1
+p:Service Provider,f:1
 1b6c:00eb0000:0c88:0003:25:0
 RTL 4 HD
 p:M7 Group,f:1
@@ -6041,9 +6017,6 @@ p:SES ASTRA,f:1
 0001:00ebb141:0001:0001:25:0
 HOL278 TX2
 p:,f:1
-0001:00ebb0fb:4321:00eb:25:0
-GCR/F525/1/Signal Habillage FTV
-p:Globecast,f:1
 0001:00eb2d07:0001:ffff:25:0
 E-380 Feed 1
 p:,f:1
@@ -6074,6 +6047,9 @@ p:TL,f:1
 0001:00ebad80:0002:ffff:1:0
 D 408 Hamburg HORN
 p:Media Broadcast,f:1
+0001:00ebb0fb:0200:0000:1:0
+Ham-wro elf pres
+p:,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -7826,15 +7802,15 @@ p:SES ASTRA
 1efb:00c00000:0457:0001:2:0
 RTL RADIO
 p:
-1c71:00c00000:0457:0001:1:0
-Panasonic Viera
-p:SES ASTRA,f:1
 1ee7:00c00000:0457:0001:1:0
 SES-LCN2
 p:SES ASTRA,f:1
 1c20:00c00000:0457:0001:1:0
 Bloomberg Europe TV
 p:Bloomberg TV,f:1
+1c71:00c00000:0457:0001:12:0
+Panasonic Viera
+p:SES ASTRA
 3139:00c00000:0459:0001:1:0
 K-TV Fernsehen
 p:MB Satellite,f:1
@@ -10096,28 +10072,28 @@ Rai YoYo HD
 p:Rai,f:1
 06a5:00820000:3138:013e:1:0
 TV Coran
-p:GlobeCast,f:1
+p:GLOBECAST,f:1
 06a6:00820000:3138:013e:1:0
 TV Tamazight
-p:GlobeCast,f:1
+p:GLOBECAST,f:1
 06a7:00820000:3138:013e:1:0
 TNT (THT) Comedy
-p:GlobeCast,f:1
+p:GLOBECAST,f:1
 06aa:00820000:3138:013e:1:0
 CGTN News
-p:Globecast,f:1
+p:GLOBECAST,f:1
 06ac:00820000:3138:013e:1:0
 TV Rus Plus
-p:Globecast,f:1
+p:GLOBECAST,f:1
 06af:00820000:3138:013e:2:0
 Chaine 2
-p:GlobeCast
+p:GLOBECAST
 06c3:00820000:3138:013e:2:0
 Chaine 3
-p:GlobeCast
+p:GLOBECAST
 06d7:00820000:3138:013e:2:0
 Chaine 1
-p:GlobeCast
+p:GLOBECAST
 06b6:00820000:3138:013e:1:0
 TV 8 Russia
 p:GLOBECAST,f:1
@@ -10133,8 +10109,8 @@ p:GLOBECAST,f:1
 06b2:00820000:3138:013e:1:0
 Soyuz
 p:GLOBECAST,f:1
-06b3:00820000:3138:013e:1:0
-Arirang World
+06b0:00820000:3138:013e:1:0
+UA World TV
 p:GLOBECAST,f:1
 1f44:00820000:319c:013e:1:0
 MC EU
@@ -10247,6 +10223,9 @@ p:Telespazio,f:1
 1384:00820000:33f4:013e:1:0
 Solo Calcio
 p:Telespazio,f:1
+135f:00820000:33f4:013e:2:0
+Radio Test CC
+p:Telespazio
 366a:00820000:00c8:013e:1:0
 Noviy Mir
 p:Harmonic,f:1

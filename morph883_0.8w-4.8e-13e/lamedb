@@ -600,6 +600,9 @@ fff8acf1:0001:0001
 fff8acde:0001:0001
 	s 11486000:14400000:1:3:-8:2:0:1:2:0:2
 /
+0e08acc7:0001:0001
+	s 11463000:4990000:1:2:-8:2:0:1:2:0:2
+/
 end
 services
 0002:00d8ad61:0004:0000:2:0
@@ -946,28 +949,28 @@ Rai YoYo HD
 p:Rai,f:1
 06a5:00820000:3138:013e:1:0
 TV Coran
-p:GlobeCast,f:1
+p:GLOBECAST,f:1
 06a6:00820000:3138:013e:1:0
 TV Tamazight
-p:GlobeCast,f:1
+p:GLOBECAST,f:1
 06a7:00820000:3138:013e:1:0
 TNT (THT) Comedy
-p:GlobeCast,f:1
+p:GLOBECAST,f:1
 06aa:00820000:3138:013e:1:0
 CGTN News
-p:Globecast,f:1
+p:GLOBECAST,f:1
 06ac:00820000:3138:013e:1:0
 TV Rus Plus
-p:Globecast,f:1
+p:GLOBECAST,f:1
 06af:00820000:3138:013e:2:0
 Chaine 2
-p:GlobeCast
+p:GLOBECAST
 06c3:00820000:3138:013e:2:0
 Chaine 3
-p:GlobeCast
+p:GLOBECAST
 06d7:00820000:3138:013e:2:0
 Chaine 1
-p:GlobeCast
+p:GLOBECAST
 06b6:00820000:3138:013e:1:0
 TV 8 Russia
 p:GLOBECAST,f:1
@@ -983,8 +986,8 @@ p:GLOBECAST,f:1
 06b2:00820000:3138:013e:1:0
 Soyuz
 p:GLOBECAST,f:1
-06b3:00820000:3138:013e:1:0
-Arirang World
+06b0:00820000:3138:013e:1:0
+UA World TV
 p:GLOBECAST,f:1
 1f44:00820000:319c:013e:1:0
 MC EU
@@ -1097,6 +1100,9 @@ p:Telespazio,f:1
 1384:00820000:33f4:013e:1:0
 Solo Calcio
 p:Telespazio,f:1
+135f:00820000:33f4:013e:2:0
+Radio Test CC
+p:Telespazio
 366a:00820000:00c8:013e:1:0
 Noviy Mir
 p:Harmonic,f:1
@@ -5759,6 +5765,9 @@ p:VIASAT,f:1
 09fd:00300000:0018:0044:22:0
 Cine+ HIT
 p:VIASAT,f:1
+0a0d:00300000:0018:0044:22:0
+Barely Legal
+p:VIASAT,f:1
 0abe:00300000:001a:0044:25:0
 Viasat Kino
 p:VIASAT,f:1
@@ -7094,17 +7103,11 @@ p:UPC Direct,f:1
 791a:0e080000:02c6:0600:25:0
 CT D/CT Art HD
 p:UPC Direct,f:1
-791c:0e080000:02c6:0600:25:0
-NOVA Sport 1 HD
-p:UPC Direct,f:1
 791d:0e080000:02c6:0600:25:0
 HBO HD Hungary
 p:UPC Direct,f:1
 791e:0e080000:02c6:0600:25:0
 M4 Sport HD
-p:UPC Direct,f:1
-7924:0e080000:02c6:0600:25:0
-CT Sport HD
 p:UPC Direct,f:1
 7920:0e080000:02c6:0600:22:0
 Paramount Network
@@ -7669,6 +7672,24 @@ Viasat Explore RO
 p:M7,f:1
 78ca:0e080000:02c5:0600:1:0
 Viasat Explore
+p:M7,f:1
+78c1:0e080000:02c5:0600:1:0
+Viasat 2
+p:M7,f:1
+78c5:0e080000:02c5:0600:1:0
+Viasat 2.
+p:M7,f:1
+78c6:0e080000:02c5:0600:1:0
+Viasat Film
+p:M7,f:1
+78cc:0e080000:02c5:0600:1:0
+Viasat Film.
+p:M7,f:1
+78cd:0e080000:02c5:0600:1:0
+AXN CE
+p:M7,f:1
+78d4:0e080000:02c5:0600:1:0
+AXN CE.
 p:M7,f:1
 0207:0e080000:0014:0046:25:0
 CGTN HD
@@ -8660,6 +8681,12 @@ p:M7,f:1
 798a:0e080000:02c7:0600:1:0
 TDC (Timeless Drama Channel)
 p:M7,f:1
+798f:0e080000:02c7:0600:1:0
+AXN CZ
+p:M7,f:1
+7990:0e080000:02c7:0600:1:0
+AXN CZ (SVT)
+p:M7,f:1
 32d3:fff8af4f:004e:0046:22:0
 Test 13011
 p:Telenor,f:1
@@ -8747,17 +8774,8 @@ p:DigiTV,f:1
 0497:0e080000:0004:0001:1:0
 Viasat History HU
 p:DigiTV,f:1
-0dac:0e080000:0004:0001:1:0
-Hora TV
-p:DigiTV,f:1
 05e8:0e080000:0004:0001:1:0
 Magyar ATV
-p:DigiTV,f:1
-03ed:0e080000:0004:0001:1:0
-TVR 2
-p:DigiTV,f:1
-03f7:0e080000:0004:0001:1:0
-Pro Arena
 p:DigiTV,f:1
 03fd:0e080000:0004:0001:1:0
 DIGI World
@@ -8774,17 +8792,23 @@ p:DigiTV
 029f:0e080000:0004:0001:6:0
 HSS7160
 p:DigiTV
-09d8:0e080000:0004:0001:2:0
-Radio Vocea Sperantei
-p:DigiTV
-0cc6:0e080000:0004:0001:1:0
-SperantaTV
-p:DigiTV,f:1
 0cb2:0e080000:0004:0001:1:0
 E! Eastern Europe
 p:DigiTV,f:1
+04c4:0e080000:0004:0001:1:0
+HBO 3 HU
+p:DIGI,f:1
+04ce:0e080000:0004:0001:1:0
+M4 Sport
+p:DIGI,f:1
 055f:0e080000:0004:0001:1:0
-Bucuresti 1 TV
+CBS Reality
+p:DIGI,f:1
+0cc6:0e080000:0004:0001:1:1
+Magyar Mozi TV
+p:DigiTV,f:1
+0dac:0e080000:0004:0001:1:2
+Mozi+
 p:DigiTV,f:1
 0618:0e080000:0005:0001:1:0
 M1 - Magyar TV
@@ -8852,6 +8876,9 @@ p:DigiTV,f:1
 0a14:0e080000:0005:0001:1:0
 ID Investigation Discovery HU
 p:DigiTV,f:1
+0a1e:0e080000:0005:0001:1:0
+Eurosport 2 HU
+p:DIGI,f:1
 100e:0e080000:0003:0001:1:0
 Magyar Slager TV
 p:DigiTV,f:1
@@ -8900,6 +8927,9 @@ p:DigiTV,f:1
 0407:0e080000:0003:0001:1:0
 Max4
 p:DigiTV,f:1
+04a3:0e080000:0003:0001:1:0
+Eurosport 1 HU
+p:DIGI,f:1
 0b22:0e080000:0007:0001:1:0
 Eurosport 2 HU
 p:DigiTV,f:1
@@ -9074,9 +9104,6 @@ p:Slovak Telekom,f:1
 32d4:0e080000:004f:0046:22:0
 Test 13012
 p:Telenor,f:1
-7668:0e080000:02bf:0600:22:0
-Ocko
-p:M7,f:1
 7669:0e080000:02bf:0600:22:0
 Prima COOL
 p:M7,f:1
@@ -9623,6 +9650,9 @@ p:rcs-rds,f:1
 0001:fff8acde:0001:0001:25:0
 OperadeParis-RomeoetJuliette
 p:Globecast,f:1
+000b:0e08acc7:0001:0001:22:0
+S3-1 Duplex Bastien
+p:BFMTV Digital 1,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2023
