@@ -36,9 +36,6 @@ transponders
 00820000:33f4:013e
 	s 11179000:27500000:0:2:130:2:0:1:2:0:2
 /
-00820000:00c8:013e
-	s 11240000:27500000:1:3:130:2:0
-/
 00820000:0190:013e
 	s 11278000:27500000:1:3:130:2:0:1:2:0:2
 /
@@ -294,9 +291,6 @@ transponders
 00300000:002e:0055
 	s 12437000:30000000:1:2:48:2:0:1:2:2:2
 /
-00300000:0035:0055
-	s 12245000:30000000:1:2:48:2:0:1:2:2:2
-/
 00300000:000c:0055
 	s 11766000:30000000:0:2:48:2:0:1:2:0:2
 /
@@ -318,8 +312,8 @@ transponders
 00303130:0000:0000
 	s 12592000:7500000:0:3:48:2:0:1:2:0:2
 /
-00302fc2:0065:0001
-	s 12226000:31428000:0:8:48:2:0:1:1:0:2
+00300000:0004:0064
+	s 12226000:31428000:0:8:48:2:0:1:2:0:2
 /
 003030f7:0000:0000
 	s 12535000:5000000:0:3:48:2:0:1:2:0:2
@@ -353,9 +347,6 @@ transponders
 /
 0e080000:0003:0046
 	s 11278000:25000000:1:3:-8:2:0:1:2:0:0
-/
-0e080000:0020:0046
-	s 11357000:24500000:0:5:-8:2:0
 /
 0e080000:0022:0046
 	s 11389000:24500000:0:5:-8:2:0
@@ -558,9 +549,6 @@ fff8b0f5:0001:ffff
 fff8b0de:00a0:0001
 	s 12510000:2600000:1:4:-8:2:0:1:2:0:2
 /
-0e08ad00:0001:ffff
-	s 11520000:7200000:1:3:-8:2:0:1:2:0:2
-/
 fff830bc:0050:0046
 	s 12476000:30000000:0:2:-8:2:0:1:2:1:2
 /
@@ -605,6 +593,9 @@ fff8acde:0001:0001
 /
 0e080000:0065:0065
 	s 12526000:6660000:1:3:-8:2:0:1:2:0:2
+/
+0e08ad00:0001:0000
+	s 11520000:7200000:1:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -1097,9 +1088,6 @@ p:Telespazio,f:1
 1384:00820000:33f4:013e:1:0
 Solo Calcio
 p:Telespazio,f:1
-366a:00820000:00c8:013e:1:0
-Noviy Mir
-p:Harmonic,f:1
 32de:00820000:0190:013e:1:0
 Canal+ Sport HD Polska
 p:Cyfra +,f:1
@@ -2229,7 +2217,7 @@ p:NOVA,f:1
 Blue Sky
 p:NOVA,f:1
 3c98:00820000:1bbc:013e:1:0
-Nova
+Attica TV
 p:NOVA,f:1
 1c22:00820000:1c20:013e:1:0
 TTN - Télévision Tunisienne Nationale
@@ -3411,10 +3399,10 @@ p:NOVA,f:1
 Mad Radio
 p:NOVA
 1bd0:00820000:17d4:013e:1:0
-Fox Life Greece
+FX Life HD
 p:NOVA,f:1
 1bd1:00820000:17d4:013e:1:0
-Fox Greece
+FX HD
 p:NOVA,f:1
 1bd2:00820000:17d4:013e:1:0
 Cartoonito HD
@@ -5308,7 +5296,7 @@ Visjon Sverige
 p:SES ASTRA,f:1
 1a18:00300000:0010:0055:1:0
 1+1 Ukraine
-p:1plus1 Media,f:1
+p:,f:1
 19d2:00300000:0010:0055:1:0
 Unian TV
 p:,f:1
@@ -5337,7 +5325,10 @@ p:
 Voice
 p:
 19dc:00300000:0010:0055:1:0
-DIM TV
+2+2
+p:1plus1 Media,f:1
+1a13:00300000:0010:0055:1:0
+Army TV
 p:,f:1
 00e6:00300000:0002:0055:2:0
 European Radio for Belarus
@@ -5557,25 +5548,25 @@ We-Ukraine
 p:,f:1
 1e0a:00300000:002b:0055:25:0
 English Club HD
-p:Xtra TV,f:1
-1db5:00300000:002b:0055:22:0
+p:SES ASTRA,f:1
+1db5:00300000:002b:0055:1:0
 TellyTrack
-p:,f:1
-1de2:00300000:002b:0055:22:0
+p:SES ASTRA,f:1
+1de2:00300000:002b:0055:1:0
 ERC (European Racing Channel)
-p:,f:1
+p:SES ASTRA,f:1
 1dc9:00300000:002b:0055:25:0
 Channel 5 (Ukraine) HD
-p:,f:1
+p:SES ASTRA,f:1
 1ddd:00300000:002b:0055:22:0
-Svarogichi
-p:,f:1
+Rozpakuy TV
+p:SES ASTRA,f:1
 1db6:00300000:002b:0055:2:0
 Current Time Network
-p:
-1dce:00300000:002b:0055:22:0
+p:SES ASTRA
+1dce:00300000:002b:0055:1:0
 Svoboda / Holos Ameryky
-p:,f:1
+p:SES ASTRA,f:1
 1db0:00300000:002b:0055:25:0
 DW English HD
 p:Deutsche Welle,f:1
@@ -6008,15 +5999,6 @@ p:,f:1
 1ef5:00300000:002e:0055:25:0
 Enter Film HD
 p:,f:1
-0320:00300000:0035:0055:1:0
-Service 800
-p:,f:1
-0320:00300000:0035:0055:12:0
-MX
-p:SES
-0321:00300000:0035:0055:12:0
-Service 801
-p:SES
 1800:00300000:000c:0055:22:0
 Nauka
 p:1plus1 Media,f:1
@@ -6209,126 +6191,114 @@ p:Service Provider,f:1
 0001:00303130:0000:0000:0:0
 beINSPORTS TURKEY M
 p:TREXXE
-0064:00302fc2:0065:0001:1:0
+0064:00300000:0004:0064:1:0
 MTN Info
-p:Harmonic,f:1
-0065:00302fc2:0065:0001:1:0
-MTN SE HD 101
-p:Harmonic,f:1
-0066:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+0065:00300000:0004:0064:1:0
+MTN SE HD
+p:MTNTV,f:1
+0066:00300000:0004:0064:1:0
 MSNBC
-p:Harmonic,f:1
-0067:00302fc2:0065:0001:1:0
-FOX News Channel
-p:Harmonic,f:1
-0068:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+0067:00300000:0004:0064:1:0
+FOX News
+p:MTNTV,f:1
+0068:00300000:0004:0064:1:0
 CNBC
-p:Harmonic,f:1
-0069:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+0069:00300000:0004:0064:1:0
 Sky News
-p:Harmonic,f:1
-006a:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+006a:00300000:0004:0064:1:0
 BBC World News
-p:Harmonic,f:1
-006b:00302fc2:0065:0001:1:0
-Prime Journeys
-p:Harmonic,f:1
-006c:00302fc2:0065:0001:1:0
-Sky Sport News
-p:Harmonic,f:1
-006d:00302fc2:0065:0001:1:0
-Sport 24
-p:Harmonic,f:1
-006e:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+006b:00300000:0004:0064:1:0
+Prime Journey
+p:MTNTV,f:1
+006c:00300000:0004:0064:1:0
+Sky Sports News
+p:MTNTV,f:1
+006d:00300000:0004:0064:1:0
+Sport 24 HD
+p:MTNTV,f:1
+006e:00300000:0004:0064:1:0
 Prime One
-p:Harmonic,f:1
-006f:00302fc2:0065:0001:1:0
-Sport 24 Extra
-p:Harmonic,f:1
-0070:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+006f:00300000:0004:0064:1:0
+Sport 24 Extra HD
+p:MTNTV,f:1
+0070:00300000:0004:0064:1:0
 RTL
-p:Harmonic,f:1
-0071:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+0071:00300000:0004:0064:1:0
 Austraia Channel News
-p:Harmonic,f:1
-0072:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+0072:00300000:0004:0064:1:0
 TV ASIA
-p:Harmonic,f:1
-0073:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+0073:00300000:0004:0064:1:0
 TFC
-p:Harmonic,f:1
-0074:00302fc2:0065:0001:1:0
-Prime Favorites
-p:Harmonic,f:1
-0075:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+0074:00300000:0004:0064:1:0
+Prime Favorite
+p:MTNTV,f:1
+0075:00300000:0004:0064:1:0
 BBC Marine HD
-p:Harmonic,f:1
-0076:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+0076:00300000:0004:0064:1:0
 TVE International
-p:Harmonic,f:1
-0077:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+0077:00300000:0004:0064:1:0
 Canal 24 Horas
-p:Harmonic,f:1
-0078:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+0078:00300000:0004:0064:1:0
 Australia Comedy and Drama
-p:Harmonic,f:1
-0079:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+0079:00300000:0004:0064:1:0
 ABC News 24
-p:Harmonic,f:1
-007a:00302fc2:0065:0001:1:0
-T1
-p:Harmonic,f:1
-007c:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+007c:00300000:0004:0064:1:0
 Food Network
-p:Harmonic,f:1
-007d:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+007d:00300000:0004:0064:1:0
 HGTV
-p:Harmonic,f:1
-007e:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+007e:00300000:0004:0064:1:0
 Travel Channel
-p:Harmonic,f:1
-0083:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+0083:00300000:0004:0064:1:0
 France24
-p:Harmonic,f:1
-0084:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+0084:00300000:0004:0064:1:0
 Mediaset Italia
-p:Harmonic,f:1
-008c:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+008c:00300000:0004:0064:1:0
 Hunan
-p:Harmonic,f:1
-008f:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+008f:00300000:0004:0064:1:0
 CCTV Movie
-p:Harmonic,f:1
-0090:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+0090:00300000:0004:0064:1:0
 CCTV Entertainment
-p:Harmonic,f:1
-0091:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+0091:00300000:0004:0064:1:0
 CCTV-4
-p:Harmonic,f:1
-0096:00302fc2:0065:0001:1:0
-VE1
-p:Harmonic,f:1
-0097:00302fc2:0065:0001:1:0
-VE2
-p:Harmonic,f:1
-00a0:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+00a0:00300000:0004:0064:1:0
 Movies Now and Then
-p:Harmonic,f:1
-00a1:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+00a1:00300000:0004:0064:1:0
 National Geographic
-p:Harmonic,f:1
-00a2:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+00a2:00300000:0004:0064:1:0
 Family Channel
-p:Harmonic,f:1
-00a3:00302fc2:0065:0001:1:0
+p:MTNTV,f:1
+00a3:00300000:0004:0064:1:0
 U1+1
-p:Harmonic,f:1
-00c8:00302fc2:0065:0001:1:0
-MTN SE HD 2
-p:Harmonic,f:1
-007b:00302fc2:0065:0001:1:0
-Service 123
-p:Harmonic,f:1
+p:MTNTV,f:1
+00c8:00300000:0004:0064:1:0
+MTN SE HD2
+p:MTNTV,f:1
 0001:003030f7:0000:0000:25:0
 TUR-143A
 p:,f:1
@@ -6707,24 +6677,6 @@ p:Telenor
 06ca:0e080000:0003:0046:10:0
 Bandit Classics
 p:Telenor
-0711:0e080000:0020:0046:25:0
-Visjon Norge HD
-p:Telenor,f:1
-17d5:0e080000:0020:0046:25:0
-Kanal 10 Norge HD
-p:Telenor,f:1
-0081:0e080000:0020:0046:1:0
-Gospel Channel Europe
-p:Telenor,f:1
-1c70:0e080000:0020:0046:22:0
-Vision Sverige
-p:Telenor,f:1
-1c79:0e080000:0020:0046:22:0
-UATV
-p:Telenor,c:050001,f:1
-1e08:0e080000:0020:0046:25:0
-Bedehuskanalen
-p:Telenor,f:1
 0afd:0e080000:0022:0046:2:0
 RUV Ras 1
 p:Telenor
@@ -8541,7 +8493,7 @@ p:M7,f:1
 CBS Reality ROM.
 p:M7,f:1
 798a:0e080000:02c7:0600:1:0
-TDC (Timeless Drama Channel)
+Dizi Channel
 p:M7,f:1
 7990:0e080000:02c7:0600:1:0
 AXN CZ (SVT)
@@ -8721,7 +8673,7 @@ p:DigiTV,f:1
 Hir TV
 p:DigiTV,f:1
 05e6:0e080000:0003:0001:1:0
-RTL Klub
+RTL
 p:DigiTV,f:1
 05f0:0e080000:0003:0001:1:0
 Dikh TV
@@ -8868,7 +8820,7 @@ p:Slovak Telekom,f:1
 Cinemax 2 HD
 p:Slovak Telekom,f:1
 0bcc:0e080000:0af3:00bb:1:0
-X-MO
+Men.TV
 p:Slovak Telekom,f:1
 0bce:0e080000:0af3:00bb:1:0
 Film Europe
@@ -9335,9 +9287,6 @@ p:Allente,f:1
 0001:fff8b0de:00a0:0001:1:0
 Palermo Ku
 p:EPQ,f:1
-0001:0e08ad00:0001:ffff:1:0
-DNK83_ENC1
-p:Service Provider,f:1
 32cf:fff830bc:0050:0046:22:0
 Test 13007
 p:Telenor,f:1
@@ -9461,6 +9410,9 @@ p:TTS
 0065:0e080000:0065:0065:1:0
 B 101 DGI
 p:RCS-RDS BUCURESTI,f:1
+0001:0e08ad00:0001:0000:25:0
+HOL89 Main
+p:2Sat Europe,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2023

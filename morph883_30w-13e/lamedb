@@ -27,9 +27,6 @@ transponders
 00820000:33f4:013e
 	s 11179000:27500000:0:2:130:2:0:1:2:0:2
 /
-00820000:00c8:013e
-	s 11240000:27500000:1:3:130:2:0
-/
 00820000:0190:013e
 	s 11278000:27500000:1:3:130:2:0:1:2:0:2
 /
@@ -387,9 +384,6 @@ fed4ad67:0001:ffff
 0ce42ce8:0001:0001
 	s 11496000:4875000:0:3:-300:2:0:1:2:0:2
 /
-fed4aee9:00a0:0000
-	s 12009000:7200000:1:3:-300:2:0:1:2:0:2
-/
 0ce4ada6:0001:ffff
 	s 11686000:7200000:1:3:-300:2:0:1:2:0:2
 /
@@ -398,6 +392,12 @@ fed4aee9:00a0:0000
 /
 fed4aeef:0001:0001
 	s 12015000:5000000:1:3:-300:2:0:1:2:0:2
+/
+0ce42cea:0001:ffff
+	s 11498000:7200000:0:3:-300:2:0:1:2:0:2
+/
+0ce4aee9:0001:ffff
+	s 12009000:7200000:1:3:-300:2:0:1:2:0:2
 /
 end
 services
@@ -818,9 +818,6 @@ p:Telespazio,f:1
 1384:00820000:33f4:013e:1:0
 Solo Calcio
 p:Telespazio,f:1
-366a:00820000:00c8:013e:1:0
-Noviy Mir
-p:Harmonic,f:1
 32de:00820000:0190:013e:1:0
 Canal+ Sport HD Polska
 p:Cyfra +,f:1
@@ -1950,7 +1947,7 @@ p:NOVA,f:1
 Blue Sky
 p:NOVA,f:1
 3c98:00820000:1bbc:013e:1:0
-Nova
+Attica TV
 p:NOVA,f:1
 1c22:00820000:1c20:013e:1:0
 TTN - Télévision Tunisienne Nationale
@@ -3132,10 +3129,10 @@ p:NOVA,f:1
 Mad Radio
 p:NOVA
 1bd0:00820000:17d4:013e:1:0
-Fox Life Greece
+FX Life HD
 p:NOVA,f:1
 1bd1:00820000:17d4:013e:1:0
-Fox Greece
+FX HD
 p:NOVA,f:1
 1bd2:00820000:17d4:013e:1:0
 Cartoonito HD
@@ -6884,9 +6881,6 @@ p:Net 1,f:1
 0101:0ce42ce8:0001:0001:1:0
 TR2-B
 p:TR2,f:1
-0015:fed4aee9:00a0:0000:1:0
-ETB LOT 21
-p:,f:1
 0001:0ce4ada6:0001:ffff:1:0
 E/452 VIA 1 G 50
 p:Service Provider,f:1
@@ -6896,6 +6890,12 @@ p:MEDIAPRO SPAIN,f:1
 0011:fed4aeef:0001:0001:25:0
 OVERON MONCLOA
 p:TANDBERG Television,f:1
+0001:0ce42cea:0001:ffff:1:0
+LN23 8MM Via2
+p:8MM,f:1
+0001:0ce4aee9:0001:ffff:1:0
+E415 Via1
+p:Service Provider,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2023

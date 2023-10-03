@@ -462,9 +462,6 @@ transponders
 00eb3189:0001:0001
 	s 12681000:4936000:0:3:235:2:0:1:2:0:2
 /
-00ebb198:4321:00eb
-	s 12696000:4800000:1:3:235:2:0:1:2:0:2
-/
 00eb2cff:0001:0001
 	s 11519000:6974000:0:4:235:2:0:1:2:0:2
 /
@@ -566,6 +563,12 @@ transponders
 /
 00ebb1b6:0001:0001
 	s 12726000:7200000:1:3:235:2:0:1:2:0:2
+/
+00ebacf8:0001:ffff
+	s 11512000:7200000:1:3:235:2:0:1:2:0:2
+/
+00ebb198:0001:ffff
+	s 12696000:4800000:1:3:235:2:0:1:2:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -923,9 +926,6 @@ transponders
 /
 00820000:33f4:013e
 	s 11179000:27500000:0:2:130:2:0:1:2:0:2
-/
-00820000:00c8:013e
-	s 11240000:27500000:1:3:130:2:0
 /
 00820000:0190:013e
 	s 11278000:27500000:1:3:130:2:0:1:2:0:2
@@ -1685,6 +1685,9 @@ p:Sky Digital
 2306:011a0000:080d:0002:2:0
 BBC Asian Network
 p:Sky Digital
+22df:011a0000:080d:0002:25:0
+BBC Alba HD
+p:BSkyB,f:1
 c78b:011a0000:0815:0002:1:0
 Comedy Central +1 UK
 p:BSkyB,f:1
@@ -2048,9 +2051,6 @@ p:BSkyB,f:1
 c4aa:011a0000:0811:0002:1:0
 HobbyMaker
 p:BSkyB,f:1
-c4d1:011a0000:0811:0002:25:0
-Viaplay 2 HD
-p:BSkyB,f:1
 c4b8:011a0000:0811:0002:1:0
 Zee TV Dual
 p:BSkyB,f:1
@@ -2245,6 +2245,9 @@ LoveWorld HD
 p:BSkyB,f:1
 c454:011a0000:0837:0002:25:0
 EarthxTV HD
+p:BSkyB,f:1
+c44b:011a0000:0837:0002:25:0
+Viaplay 2 HD
 p:BSkyB,f:1
 254d:011a0000:082f:0002:2:0
 Capital XTRA
@@ -2745,7 +2748,7 @@ c4f4:011a0000:0813:0002:1:0
 Channel 7
 p:BSkyB,f:1
 c518:011a0000:0813:0002:1:0
-TJC Beauty
+Ideal World
 p:BSkyB,f:1
 c4fa:011a0000:0813:0002:1:0
 India Today
@@ -3088,6 +3091,21 @@ Kerrang !
 p:BSkyB,f:1
 1c2d:011a0000:083b:0002:1:0
 Film4 Ireland
+p:BSkyB,f:1
+1c2e:011a0000:083b:0002:1:0
+Cartoon Netwrk
+p:BSkyB,f:1
+1c2f:011a0000:083b:0002:1:0
+Cartoon Network +1
+p:BSkyB,f:1
+1c30:011a0000:083b:0002:1:0
+Boomerang
+p:BSkyB,f:1
+1c31:011a0000:083b:0002:1:0
+Boomerang+1
+p:BSkyB,f:1
+1c32:011a0000:083b:0002:1:0
+Cartoonito
 p:BSkyB,f:1
 1a40:011a0000:0834:0002:1:0
 MTV One U.K.
@@ -4121,6 +4139,12 @@ p:Towercom
 1347:00eb0000:0ca2:0003:2:0
 Melody V
 p:Towercom
+1389:00eb0000:0ca2:0003:1:0
+RTS Nauka
+p:Telekom Srbija,f:1
+138a:00eb0000:0ca2:0003:1:0
+RTS Poletarac 2
+p:Telekom Srbija,f:1
 51ae:00eb0000:0c96:0003:22:0
 Film1 Family
 p:M7 Group,f:1
@@ -4212,7 +4236,7 @@ p:Canal Digitaal,f:1
 Nederland 1 HD
 p:Canal Digitaal,f:1
 5226:00eb0000:0c99:0003:25:0
-Canvas HD
+VRT Canvas HD
 p:Canal Digitaal,f:1
 522b:00eb0000:0c99:0003:25:0
 Disney XD HD/Veronica HD Netherlands
@@ -5789,9 +5813,6 @@ p:
 0001:00eb3189:0001:0001:25:0
 Pohreb KE
 p:SLQ-005,f:1
-0001:00ebb198:4321:00eb:25:0
-D128-2
-p:Betamobil,f:1
 0001:00eb2cff:0001:0001:25:0
 SUI-44-1
 p:Swissnews.com,f:1
@@ -6140,6 +6161,12 @@ p:www.newslive.eu,f:1
 0001:00ebb1b6:0001:0001:25:0
 HOL 095
 p:FrÃ¼hschoppen,f:1
+0001:00ebacf8:0001:ffff:1:0
+D-413 Enc1 HBL Melsungen
+p:Media Broadcast,f:1
+0001:00ebb198:0001:ffff:1:0
+D-265 fernsehwerft #2
+p:diefernsehwerft,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -6557,11 +6584,8 @@ p:Movistar+,f:1
 77c6:00c00000:040a:0001:1:0
 Movistar Clasicos
 p:Movistar+,f:1
-77c9:00c00000:040a:0001:1:0
-M+ LaLigaTV 5
-p:Movistar+,f:1
 77c4:00c00000:040a:0001:1:0
-DAZN LaLiga 4
+Liga de Campeones 5
 p:Movistar+,f:1
 77d8:00c00000:040a:0001:1:0
 Liga de Campeones 4
@@ -6621,7 +6645,7 @@ p:Movistar+,f:1
 #VAMOS BAR2
 p:Movistar+,f:1
 7579:00c00000:0412:0001:1:0
-M+ LaLigaTV 6
+Movistar Plus+ 2
 p:Movistar+,f:1
 757b:00c00000:0412:0001:1:0
 Liga de Campeones 1
@@ -6645,7 +6669,7 @@ p:CANAL+,f:1
 Paramount Channel Spain
 p:PRISA TV,f:1
 757f:00c00000:0412:0001:1:0
-M. Fest
+M+ Música
 p:,f:1
 7588:00c00000:0412:0001:1:0
 Movistar Plus+
@@ -6948,16 +6972,16 @@ p:ProSiebenSat.1,f:1
 4mediathek
 p:ProSiebenSat.1,f:1
 760a:00c00000:0408:0001:1:0
-LALIGATVBAR7
+Liga de Campeones 8
 p:Movistar+,f:1
 7604:00c00000:0408:0001:1:0
-LALIGATVBAR8
+Liga de Campeones 9
 p:Movistar+,f:1
 7601:00c00000:0408:0001:1:0
-LALIGATVBAR6
+Liga de Campeones 7
 p:Movistar+,f:1
 760e:00c00000:0408:0001:1:0
-LALIGATVBAR5
+Liga de Campeones 6
 p:Movistar+,f:1
 75fe:00c00000:0408:0001:1:0
 M+ LaLiga 9
@@ -6972,16 +6996,16 @@ p:Movistar+,f:1
 M+Deportes 7
 p:Movistar+,f:1
 7608:00c00000:0408:0001:1:0
-LALIGATVBAR9
+Liga de Campeones 10
 p:Movistar+,f:1
 760d:00c00000:0408:0001:1:0
-LaLiga TV Hypermotion 4
+Liga de Campeones 11
 p:Movistar+,f:1
 760f:00c00000:0408:0001:1:0
-LaLiga TV Hypermotion 5
+Liga de Campeones 12
 p:Movistar+,f:1
 7602:00c00000:0408:0001:1:0
-M+Deportes 8
+Liga de Campeones 13
 p:Movistar+,f:1
 7600:00c00000:0408:0001:1:0
 La Resistencia
@@ -8081,6 +8105,9 @@ p:-,f:1
 332f:00c00000:045b:0001:1:0
 Lilo.TV
 p:-,f:1
+3356:00c00000:045b:0001:22:0
+Aristo.TV
+p:ORF,f:1
 32c9:00c00000:045d:0001:1:0
 ORF 1
 p:ORF Digital,f:1
@@ -9107,9 +9134,6 @@ p:SKY,f:1
 0dab:00c00000:0010:0085:12:0
 Sky service config
 p:SKY
-0089:00c00000:0010:0085:25:0
-Spiegel Geschichte HD
-p:SKY,f:1
 0151:00c00000:0010:0085:25:0
 Sky Sport Bundesliga 8 HD
 p:SKY,f:1
@@ -9681,7 +9705,7 @@ p:Movistar+,f:1
 LaLiga TV Hypermotion
 p:Movistar+,f:1
 74d8:00c00000:03f8:0001:25:0
-M+LCampeonesBAR 2 HD
+Movistar Plus+2 HD
 p:Movistar+,f:1
 74d4:00c00000:03f8:0001:25:0
 Movistar Plus+ HD
@@ -10268,9 +10292,6 @@ p:Telespazio,f:1
 1384:00820000:33f4:013e:1:0
 Solo Calcio
 p:Telespazio,f:1
-366a:00820000:00c8:013e:1:0
-Noviy Mir
-p:Harmonic,f:1
 32de:00820000:0190:013e:1:0
 Canal+ Sport HD Polska
 p:Cyfra +,f:1
@@ -11400,7 +11421,7 @@ p:NOVA,f:1
 Blue Sky
 p:NOVA,f:1
 3c98:00820000:1bbc:013e:1:0
-Nova
+Attica TV
 p:NOVA,f:1
 1c22:00820000:1c20:013e:1:0
 TTN - Télévision Tunisienne Nationale
@@ -12582,10 +12603,10 @@ p:NOVA,f:1
 Mad Radio
 p:NOVA
 1bd0:00820000:17d4:013e:1:0
-Fox Life Greece
+FX Life HD
 p:NOVA,f:1
 1bd1:00820000:17d4:013e:1:0
-Fox Greece
+FX HD
 p:NOVA,f:1
 1bd2:00820000:17d4:013e:1:0
 Cartoonito HD

@@ -357,9 +357,6 @@ transponders
 00820000:33f4:013e
 	s 11179000:27500000:0:2:130:2:0:1:2:0:2
 /
-00820000:00c8:013e
-	s 11240000:27500000:1:3:130:2:0
-/
 00820000:0190:013e
 	s 11278000:27500000:1:3:130:2:0:1:2:0:2
 /
@@ -606,9 +603,6 @@ transponders
 0e080000:0003:0046
 	s 11278000:25000000:1:3:-8:2:0:1:2:0:0
 /
-0e080000:0020:0046
-	s 11357000:24500000:0:5:-8:2:0
-/
 0e080000:0022:0046
 	s 11389000:24500000:0:5:-8:2:0
 /
@@ -810,9 +804,6 @@ fff8b0f5:0001:ffff
 fff8b0de:00a0:0001
 	s 12510000:2600000:1:4:-8:2:0:1:2:0:2
 /
-0e08ad00:0001:ffff
-	s 11520000:7200000:1:3:-8:2:0:1:2:0:2
-/
 fff830bc:0050:0046
 	s 12476000:30000000:0:2:-8:2:0:1:2:1:2
 /
@@ -857,6 +848,9 @@ fff8acde:0001:0001
 /
 0e080000:0065:0065
 	s 12526000:6660000:1:3:-8:2:0:1:2:0:2
+/
+0e08ad00:0001:0000
+	s 11520000:7200000:1:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -1277,11 +1271,8 @@ p:Movistar+,f:1
 77c6:00c00000:040a:0001:1:0
 Movistar Clasicos
 p:Movistar+,f:1
-77c9:00c00000:040a:0001:1:0
-M+ LaLigaTV 5
-p:Movistar+,f:1
 77c4:00c00000:040a:0001:1:0
-DAZN LaLiga 4
+Liga de Campeones 5
 p:Movistar+,f:1
 77d8:00c00000:040a:0001:1:0
 Liga de Campeones 4
@@ -1341,7 +1332,7 @@ p:Movistar+,f:1
 #VAMOS BAR2
 p:Movistar+,f:1
 7579:00c00000:0412:0001:1:0
-M+ LaLigaTV 6
+Movistar Plus+ 2
 p:Movistar+,f:1
 757b:00c00000:0412:0001:1:0
 Liga de Campeones 1
@@ -1365,7 +1356,7 @@ p:CANAL+,f:1
 Paramount Channel Spain
 p:PRISA TV,f:1
 757f:00c00000:0412:0001:1:0
-M. Fest
+M+ Música
 p:,f:1
 7588:00c00000:0412:0001:1:0
 Movistar Plus+
@@ -1668,16 +1659,16 @@ p:ProSiebenSat.1,f:1
 4mediathek
 p:ProSiebenSat.1,f:1
 760a:00c00000:0408:0001:1:0
-LALIGATVBAR7
+Liga de Campeones 8
 p:Movistar+,f:1
 7604:00c00000:0408:0001:1:0
-LALIGATVBAR8
+Liga de Campeones 9
 p:Movistar+,f:1
 7601:00c00000:0408:0001:1:0
-LALIGATVBAR6
+Liga de Campeones 7
 p:Movistar+,f:1
 760e:00c00000:0408:0001:1:0
-LALIGATVBAR5
+Liga de Campeones 6
 p:Movistar+,f:1
 75fe:00c00000:0408:0001:1:0
 M+ LaLiga 9
@@ -1692,16 +1683,16 @@ p:Movistar+,f:1
 M+Deportes 7
 p:Movistar+,f:1
 7608:00c00000:0408:0001:1:0
-LALIGATVBAR9
+Liga de Campeones 10
 p:Movistar+,f:1
 760d:00c00000:0408:0001:1:0
-LaLiga TV Hypermotion 4
+Liga de Campeones 11
 p:Movistar+,f:1
 760f:00c00000:0408:0001:1:0
-LaLiga TV Hypermotion 5
+Liga de Campeones 12
 p:Movistar+,f:1
 7602:00c00000:0408:0001:1:0
-M+Deportes 8
+Liga de Campeones 13
 p:Movistar+,f:1
 7600:00c00000:0408:0001:1:0
 La Resistencia
@@ -2801,6 +2792,9 @@ p:-,f:1
 332f:00c00000:045b:0001:1:0
 Lilo.TV
 p:-,f:1
+3356:00c00000:045b:0001:22:0
+Aristo.TV
+p:ORF,f:1
 32c9:00c00000:045d:0001:1:0
 ORF 1
 p:ORF Digital,f:1
@@ -3827,9 +3821,6 @@ p:SKY,f:1
 0dab:00c00000:0010:0085:12:0
 Sky service config
 p:SKY
-0089:00c00000:0010:0085:25:0
-Spiegel Geschichte HD
-p:SKY,f:1
 0151:00c00000:0010:0085:25:0
 Sky Sport Bundesliga 8 HD
 p:SKY,f:1
@@ -4401,7 +4392,7 @@ p:Movistar+,f:1
 LaLiga TV Hypermotion
 p:Movistar+,f:1
 74d8:00c00000:03f8:0001:25:0
-M+LCampeonesBAR 2 HD
+Movistar Plus+2 HD
 p:Movistar+,f:1
 74d4:00c00000:03f8:0001:25:0
 Movistar Plus+ HD
@@ -4988,9 +4979,6 @@ p:Telespazio,f:1
 1384:00820000:33f4:013e:1:0
 Solo Calcio
 p:Telespazio,f:1
-366a:00820000:00c8:013e:1:0
-Noviy Mir
-p:Harmonic,f:1
 32de:00820000:0190:013e:1:0
 Canal+ Sport HD Polska
 p:Cyfra +,f:1
@@ -6120,7 +6108,7 @@ p:NOVA,f:1
 Blue Sky
 p:NOVA,f:1
 3c98:00820000:1bbc:013e:1:0
-Nova
+Attica TV
 p:NOVA,f:1
 1c22:00820000:1c20:013e:1:0
 TTN - Télévision Tunisienne Nationale
@@ -7302,10 +7290,10 @@ p:NOVA,f:1
 Mad Radio
 p:NOVA
 1bd0:00820000:17d4:013e:1:0
-Fox Life Greece
+FX Life HD
 p:NOVA,f:1
 1bd1:00820000:17d4:013e:1:0
-Fox Greece
+FX HD
 p:NOVA,f:1
 1bd2:00820000:17d4:013e:1:0
 Cartoonito HD
@@ -9527,24 +9515,6 @@ p:Telenor
 06ca:0e080000:0003:0046:10:0
 Bandit Classics
 p:Telenor
-0711:0e080000:0020:0046:25:0
-Visjon Norge HD
-p:Telenor,f:1
-17d5:0e080000:0020:0046:25:0
-Kanal 10 Norge HD
-p:Telenor,f:1
-0081:0e080000:0020:0046:1:0
-Gospel Channel Europe
-p:Telenor,f:1
-1c70:0e080000:0020:0046:22:0
-Vision Sverige
-p:Telenor,f:1
-1c79:0e080000:0020:0046:22:0
-UATV
-p:Telenor,c:050001,f:1
-1e08:0e080000:0020:0046:25:0
-Bedehuskanalen
-p:Telenor,f:1
 0afd:0e080000:0022:0046:2:0
 RUV Ras 1
 p:Telenor
@@ -11361,7 +11331,7 @@ p:M7,f:1
 CBS Reality ROM.
 p:M7,f:1
 798a:0e080000:02c7:0600:1:0
-TDC (Timeless Drama Channel)
+Dizi Channel
 p:M7,f:1
 7990:0e080000:02c7:0600:1:0
 AXN CZ (SVT)
@@ -11541,7 +11511,7 @@ p:DigiTV,f:1
 Hir TV
 p:DigiTV,f:1
 05e6:0e080000:0003:0001:1:0
-RTL Klub
+RTL
 p:DigiTV,f:1
 05f0:0e080000:0003:0001:1:0
 Dikh TV
@@ -11688,7 +11658,7 @@ p:Slovak Telekom,f:1
 Cinemax 2 HD
 p:Slovak Telekom,f:1
 0bcc:0e080000:0af3:00bb:1:0
-X-MO
+Men.TV
 p:Slovak Telekom,f:1
 0bce:0e080000:0af3:00bb:1:0
 Film Europe
@@ -12155,9 +12125,6 @@ p:Allente,f:1
 0001:fff8b0de:00a0:0001:1:0
 Palermo Ku
 p:EPQ,f:1
-0001:0e08ad00:0001:ffff:1:0
-DNK83_ENC1
-p:Service Provider,f:1
 32cf:fff830bc:0050:0046:22:0
 Test 13007
 p:Telenor,f:1
@@ -12281,6 +12248,9 @@ p:TTS
 0065:0e080000:0065:0065:1:0
 B 101 DGI
 p:RCS-RDS BUCURESTI,f:1
+0001:0e08ad00:0001:0000:25:0
+HOL89 Main
+p:2Sat Europe,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2023
