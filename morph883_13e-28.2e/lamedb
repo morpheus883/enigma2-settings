@@ -69,9 +69,6 @@ transponders
 011a0000:0830:0002
 	s 11567000:22000000:1:4:282:2:0
 /
-011a0000:0817:0002
-	s 11171000:22000000:0:4:282:2:0
-/
 011a0000:0842:0002
 	s 11386000:29500000:1:6:282:2:0:1:1:2:2
 /
@@ -255,6 +252,12 @@ transponders
 011ab126:0001:ffff
 	s 12582000:7200000:1:3:282:2:0:1:2:0:2
 /
+011a3145:0001:ffff
+	s 12613000:7500000:0:4:282:2:0:1:2:0:2
+/
+011a318b:0001:0001
+	s 12683000:7500000:0:4:282:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -295,7 +298,7 @@ transponders
 	s 11566000:29900000:0:3:130:2:0:1:2:0:2
 /
 00820000:3db8:013e
-	s 11662000:27500000:1:3:130:2:0:1:2:0:0
+	s 11662000:27500000:1:2:130:2:0:1:2:0:0
 /
 00820000:13ef:013e
 	s 11747000:27500000:0:3:130:2:0:1:2:0:2
@@ -980,9 +983,6 @@ p:BSkyB,f:1
 0f53:011a0000:07f2:0002:25:0
 Alibi HD
 p:BSkyB,f:1
-0fe6:011a0000:07f2:0002:25:0
-STV East HD
-p:BSkyB,f:1
 1971:011a0000:07f2:0002:25:0
 GOLD HD
 p:BSkyB,f:1
@@ -1083,7 +1083,7 @@ c789:011a0000:0815:0002:1:0
 Nick Jr.
 p:BSkyB,f:1
 5140:011a0000:0810:0002:25:0
-STV HD
+STV West HD
 p:BSkyB,f:1
 514a:011a0000:0810:0002:25:0
 UTV (Ulster) HD
@@ -1409,6 +1409,18 @@ p:BSkyB,f:1
 c4b8:011a0000:0811:0002:1:0
 Zee TV Dual
 p:BSkyB,f:1
+c48b:011a0000:0811:0002:1:0
+Zee Cinema
+p:BSkyB,f:1
+c4bb:011a0000:0811:0002:1:0
+Sky Sports Racing UK
+p:BSkyB,f:1
+c4bc:011a0000:0811:0002:1:0
+SkySp Racing
+p:BSkyB,f:1
+c4bd:011a0000:0811:0002:1:0
+QTV Religious
+p:BSkyB,f:1
 d7e8:011a0000:082c:0002:25:0
 Racing TV HD
 p:BSkyB,f:1
@@ -1534,21 +1546,6 @@ Direct Store TV
 p:BSkyB,f:1
 d364:011a0000:0830:0002:1:0
 Jewellery Maker
-p:BSkyB,f:1
-c7b1:011a0000:0817:0002:1:0
-Cartoon Network
-p:BSkyB,f:1
-c7b5:011a0000:0817:0002:1:0
-Boomerang
-p:BSkyB,f:1
-c7b6:011a0000:0817:0002:1:0
-Boomerang +1
-p:BSkyB,f:1
-c7b2:011a0000:0817:0002:1:0
-Cartoon Network +1
-p:BSkyB,f:1
-c7b7:011a0000:0817:0002:1:0
-Cartoonito
 p:BSkyB,f:1
 c5e4:011a0000:0842:0002:25:0
 TNT Sports 1 HD
@@ -1955,9 +1952,6 @@ p:BSkyB,f:1
 0fa9:011a0000:07e8:0002:25:0
 Cartoon Network HD
 p:BSkyB,f:1
-0fe4:011a0000:07e8:0002:25:0
-STV North HD
-p:BSkyB,f:1
 13f5:011a0000:07e8:0002:25:0
 ITV 1 Central West HD
 p:BSkyB,f:1
@@ -2093,9 +2087,6 @@ p:BSkyB,f:1
 c4eb:011a0000:0813:0002:1:0
 Gems TV
 p:BSkyB,f:1
-c4f4:011a0000:0813:0002:1:0
-Channel 7
-p:BSkyB,f:1
 c518:011a0000:0813:0002:1:0
 Ideal World
 p:BSkyB,f:1
@@ -2149,6 +2140,9 @@ Sky Hits HD
 p:BSkyB,f:1
 0f49:011a0000:07ed:0002:25:0
 SkySpCricket HD
+p:BSkyB,f:1
+1430:011a0000:07ed:0002:25:0
+STV North HD
 p:BSkyB,f:1
 ccb0:011a0000:080e:0002:1:0
 Investigation Discovery Europe
@@ -2519,6 +2513,9 @@ p:BSkyB,f:1
 145c:011a0000:07e4:0002:25:0
 Sky Crime HD
 p:BSkyB,f:1
+1817:011a0000:07e4:0002:25:0
+STV HD
+p:BSkyB,f:1
 0ee7:011a0000:07ee:0002:25:0
 Sky Greats HD
 p:BSkyB,f:1
@@ -2579,6 +2576,9 @@ p:BSkyB,f:1
 1482:011a0000:07e5:0002:25:0
 Channel 4 HD
 p:BSkyB,f:1
+1432:011a0000:07e5:0002:25:0
+STV East HD
+p:BSkyB,f:1
 0f2d:011a0000:07eb:0002:25:0
 NatGeoWild HD
 p:BSkyB,f:1
@@ -2632,9 +2632,6 @@ Pending Cancel
 p:BSkyB,f:1
 1fbf:011a0000:07eb:0002:130:0
 My Account
-p:BSkyB,f:1
-142f:011a0000:07eb:0002:25:0
-STV HD
 p:BSkyB,f:1
 1d4e:011a0000:07eb:0002:25:0
 ITV 1 Meridian East HD
@@ -2723,17 +2720,11 @@ p:BSkyB,f:1
 1bbd:011a0000:0835:0002:25:0
 Wion HD
 p:BSkyB,f:1
-1bbe:011a0000:0835:0002:25:0
-NHK World HD
-p:BSkyB,f:1
 d15b:011a0000:0832:0002:25:0
 Create&CraftHD
 p:BSkyB,f:1
 d0fd:011a0000:0832:0002:25:0
 New Media HD
-p:BSkyB,f:1
-d11f:011a0000:0832:0002:1:0
-Zee Cinema
 p:BSkyB,f:1
 d101:011a0000:0832:0002:1:0
 Sky History
@@ -2749,15 +2740,6 @@ Crime & Investigation Network
 p:BSkyB,f:1
 d115:011a0000:0832:0002:1:0
 Crime & Investigation +1
-p:BSkyB,f:1
-d12a:011a0000:0832:0002:1:0
-Sky Sports Racing UK
-p:BSkyB,f:1
-d12b:011a0000:0832:0002:1:0
-SkySp Racing
-p:BSkyB,f:1
-d133:011a0000:0832:0002:1:0
-QTV Religious
 p:BSkyB,f:1
 0001:011a30f7:0001:ffff:25:0
 Salford v Castleford sat dr
@@ -3107,6 +3089,12 @@ p:,f:1
 0001:011ab126:0001:ffff:1:0
 E-351/G-22 Via1
 p:Service Provider,f:1
+0001:011a3145:0001:ffff:1:0
+UKI1756 Enc1 Notts County v Mansfield Town
+p:Service Provider,f:1
+0001:011a318b:0001:0001:25:0
+HILDESHEIM_HOL48-A
+p:FLEVOSAT.NL,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -6980,6 +6968,12 @@ p:,f:1
 01f6:00820000:0384:013e:1:0
 AIRMONT
 p:VITEC,f:1
+0217:00820000:0384:013e:25:0
+Channel 8 ARA
+p:,f:1
+0218:00820000:0384:013e:25:0
+Channel 8 KUR
+p:,f:1
 0641:00820000:2454:013e:25:0
 Al Jazeera HD
 p:EUTELSAT,f:1

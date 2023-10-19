@@ -186,9 +186,6 @@ transponders
 00eb2ce1:0001:ffff
 	s 11489000:7200000:1:3:235:2:0:1:2:0:2
 /
-00ebad78:0001:ffff
-	s 11640000:7500000:1:3:235:2:0:1:2:0:2
-/
 00ebb18d:0001:ffff
 	s 12685000:2400000:1:4:235:2:0:1:2:0:2
 /
@@ -215,9 +212,6 @@ transponders
 /
 00ebb12f:0001:ffff
 	s 12591000:7200000:1:3:235:2:0:1:2:0:2
-/
-00ebad65:0001:ffff
-	s 11621000:6900000:1:3:235:2:0:1:2:0:2
 /
 00ebad83:0000:0001
 	s 11651000:7200000:1:3:235:2:0:1:2:0:2
@@ -314,6 +308,12 @@ transponders
 /
 00eb2cf6:0001:0001
 	s 11510000:22000000:0:3:235:2:0:1:2:0:2
+/
+00ebad78:0001:0001
+	s 11640000:7500000:1:3:235:2:0:1:2:0:2
+/
+00ebad65:0001:0001
+	s 11621000:7500000:1:3:235:2:0:1:2:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -609,9 +609,6 @@ transponders
 00c02d62:0001:ffff
 	s 11618000:9874000:0:3:192:2:0:1:2:0:2
 /
-00c0ad30:0001:0001
-	s 11568000:22000000:1:3:192:2:0:1:2:0:2
-/
 00c0ad52:4321:00eb
 	s 11602000:9874000:1:3:192:2:0:1:2:0:2
 /
@@ -644,6 +641,9 @@ transponders
 /
 00c00000:0003:0001
 	s 11817000:31428000:1:8:192:2:0:1:2:0:2
+/
+00c02d73:0001:ffff
+	s 11635000:7200000:0:3:192:2:0:1:2:0:2
 /
 00a00000:0001:0040
 	s 11512000:30000000:0:3:160:2:0:1:2:0:2
@@ -922,7 +922,7 @@ transponders
 	s 11566000:29900000:0:3:130:2:0:1:2:0:2
 /
 00820000:3db8:013e
-	s 11662000:27500000:1:3:130:2:0:1:2:0:0
+	s 11662000:27500000:1:2:130:2:0:1:2:0:0
 /
 00820000:13ef:013e
 	s 11747000:27500000:0:3:130:2:0:1:2:0:2
@@ -2361,10 +2361,10 @@ p:Telekom Srbija,f:1
 Sci-Fi Eastern Europe
 p:Telekom Srbija,f:1
 4e61:00eb0000:0c86:0003:1:0
-FOX HD
+Star HD
 p:Telekom Srbija,f:1
 4e62:00eb0000:0c86:0003:1:0
-FOX Movies HD
+Star Movies HD
 p:Telekom Srbija,f:1
 4e78:00eb0000:0c86:0003:1:0
 TVDR
@@ -2493,10 +2493,10 @@ p:Telekom Srbija,f:1
 Duga +
 p:Telekom Srbija,f:1
 4e63:00eb0000:0ca4:0003:1:0
-FOX Life HD
+Star Life HD
 p:Telekom Srbija,f:1
 4e64:00eb0000:0ca4:0003:1:0
-FOX Crime HD
+Star Crime HD
 p:Telekom Srbija,f:1
 4e8f:00eb0000:0ca4:0003:1:0
 ATV HD
@@ -3033,10 +3033,10 @@ p:Telekom Srbija,f:1
 Kanal 5
 p:Telekom Srbija,f:1
 4f35:00eb0000:0c8a:0003:1:0
-Fox Adria
+Star Adria HD
 p:Telekom Srbija,f:1
 4f36:00eb0000:0c8a:0003:1:0
-Fox Crime Adria
+Star Crime Adria
 p:Telekom Srbija,f:1
 4f37:00eb0000:0c8a:0003:1:0
 Nat Geo Adria
@@ -3167,9 +3167,6 @@ p:,f:1
 0001:00eb2ce1:0001:ffff:25:0
 WPA D-331 SCF - FCB
 p:WPA D-331 SCF - FCB,f:1
-0001:00ebad78:0001:ffff:1:0
-AUT-038 WFLWR S-TV Feed National
-p:remotion,f:1
 0001:00ebb18d:0001:ffff:1:0
 WDR Innenstadt
 p:WDR,f:1
@@ -3197,9 +3194,6 @@ p:SNG D-103 Vahland TV,f:1
 0001:00ebb12f:0001:ffff:1:0
 RT-1 DSNG Enc1
 p:Service Provider,f:1
-0001:00ebad65:0001:ffff:1:0
-ATV-BUL-010
-p:atv Broadcast,f:1
 0001:00ebad83:0000:0001:25:0
 Duisburg
 p:Media Broadcast,f:1
@@ -3545,6 +3539,12 @@ p:ND DVB Provider,f:1
 0001:00eb2cf6:0001:0001:31:0
 NLF - Vision 2
 p:BWS Ltd,f:1
+0001:00ebad78:0001:0001:25:0
+UEFA STV Feed 3
+p:RedBull MediaHouse,f:1
+0003:00ebad65:0001:0001:25:0
+AUT39 FB Wien PGM
+p:RBMH,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -3685,6 +3685,9 @@ La Sexta
 p:Digital+,f:1
 76a5:00c00000:041e:0001:1:0
 Eurosport 2
+p:Movistar+,f:1
+769a:00c00000:041e:0001:1:0
+LALIGA TV BAR 3
 p:Movistar+,f:1
 7504:00c00000:0420:0001:25:0
 Fox España HD
@@ -3966,7 +3969,7 @@ p:Movistar+,f:1
 Liga de Campeones 4
 p:CANAL+,f:1
 77c9:00c00000:040a:0001:1:0
-LALIGATVBAR3
+TEST B 3
 p:Movistar+,f:1
 76c0:00c00000:040e:0001:1:0
 M+ Cine
@@ -5366,23 +5369,20 @@ p:MB Satellite,f:1
 3163:00c00000:0459:0001:1:0
 ALT Sendersuchlauf starten!!
 p:MB Satellite,f:1
-3165:00c00000:0459:0001:31:0
-MB SAT - Test6
-p:MB Satellite,f:1
+3165:00c00000:0459:0001:2:0
+Trigger.FM
+p:MB Satellite
 3166:00c00000:0459:0001:31:0
 MB SAT - Test4
 p:MB Satellite,f:1
 3167:00c00000:0459:0001:31:0
 MB SAT - Test5
 p:MB Satellite,f:1
-315e:00c00000:0459:0001:1:0
-MB SAT - Test3
-p:MB Satellite,f:1
 3145:00c00000:0459:0001:12:0
 RAPS
 p:MB Satellite
 314d:00c00000:0459:0001:1:0
-MB SAT - Test1
+MBS - Test1
 p:MB Satellite,f:1
 3164:00c00000:0459:0001:2:0
 Schlager Radio
@@ -5677,19 +5677,19 @@ TEST 29851
 p:FOXNWS,f:1
 749c:00c00000:041c:0001:1:0
 BabyTV.
-p:DIGITAL+
+p:DIGITAL+,f:1
 74a1:00c00000:041c:0001:1:0
 EUROSPORT 1.
-p:CANAL+
+p:CANAL+,f:1
 74a4:00c00000:041c:0001:1:0
 DAZN F1.
-p:Movistar+
+p:Movistar+,f:1
 74a6:00c00000:041c:0001:1:0
 LA SEXTA.
-p:Digital+
+p:Digital+,f:1
 74a7:00c00000:041c:0001:1:0
 EUROSPORT 2.
-p:Movistar+
+p:Movistar+,f:1
 2b8e:00c00000:03f2:0001:25:0
 3sat HD
 p:ZDF Vision,f:1
@@ -6129,7 +6129,7 @@ p:ORF,f:1
 Flimmit
 p:ORF,f:1
 33ff:00c00000:03ed:0001:22:0
-Aristo.TV
+MeinTVshop
 p:ORF,f:1
 3400:00c00000:03ed:0001:25:0
 R9 Oesterreich HD
@@ -6586,6 +6586,9 @@ Nickelodeon France HD
 p:CSAT,f:1
 21ab:00c00000:0448:0001:25:0
 6ter HD
+p:CSAT,f:1
+21ac:00c00000:0448:0001:25:0
+DAZN 1
 p:CSAT,f:1
 2456:00c00000:0440:0001:25:0
 Cine+ Premier HD
@@ -7067,6 +7070,9 @@ p:OVERON,f:1
 164e:00c00000:042c:0001:1:0
 CNN Int.
 p:SES ASTRA,f:1
+1645:00c00000:042c:0001:1:0
+TVMonaco
+p:EasyTools,f:1
 74d0:00c00000:03f8:0001:1:0
 Descarga Cisco
 p:Movistar+,f:1
@@ -7169,12 +7175,6 @@ p:SES ASTRA,f:1
 0001:00c02d62:0001:ffff:1:0
 Main NOR 044
 p:NEP Norway,f:1
-0001:00c0ad30:0001:0001:1:0
-MM1 Service 1
-p:RR,f:1
-0002:00c0ad30:0001:0001:1:0
-MM1 Service 2
-p:RR,f:1
 0001:00c0ad52:4321:00eb:1:0
 FIS DAVOS
 p:LINE UP MEDIA COMMUNICATION HUNGARY,f:1
@@ -7253,6 +7253,9 @@ p:,c:050001,f:1
 0005:00c00000:0003:0001:1:0
 NFL SRT Europe/Asia Testing Sour
 p:,c:050001,f:1
+0001:00c02d73:0001:ffff:1:0
+G19 E-349 Via1
+p:Service Provider,f:1
 001e:00a00000:0001:0040:22:0
 National Geographic Croatia
 p:Max TV,f:1
@@ -7917,7 +7920,7 @@ p:DigitALB
 RTK 1 Sat (Kosovo)
 p:Digit Alb,f:1
 049c:00a00000:4f4c:016e:1:0
-Ora News
+RTV Ora
 p:DigitALB,f:1
 05c8:00a00000:4f4c:016e:25:0
 Film Hits HD
@@ -8481,7 +8484,7 @@ p:Digitalb,f:1
 Cartoonito
 p:VIPnet,f:1
 0288:00a00000:c418:016e:25:0
-FOX Movies HD
+STAR Movies HD
 p:A1 HR,f:1
 0259:00a00000:c418:016e:31:0
 Extasy 4K
@@ -13313,6 +13316,12 @@ p:,f:1
 01f6:00820000:0384:013e:1:0
 AIRMONT
 p:VITEC,f:1
+0217:00820000:0384:013e:25:0
+Channel 8 ARA
+p:,f:1
+0218:00820000:0384:013e:25:0
+Channel 8 KUR
+p:,f:1
 0641:00820000:2454:013e:25:0
 Al Jazeera HD
 p:EUTELSAT,f:1

@@ -294,9 +294,6 @@ transponders
 00c02d62:0001:ffff
 	s 11618000:9874000:0:3:192:2:0:1:2:0:2
 /
-00c0ad30:0001:0001
-	s 11568000:22000000:1:3:192:2:0:1:2:0:2
-/
 00c0ad52:4321:00eb
 	s 11602000:9874000:1:3:192:2:0:1:2:0:2
 /
@@ -329,6 +326,9 @@ transponders
 /
 00c00000:0003:0001
 	s 11817000:31428000:1:8:192:2:0:1:2:0:2
+/
+00c02d73:0001:ffff
+	s 11635000:7200000:0:3:192:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -370,7 +370,7 @@ transponders
 	s 11566000:29900000:0:3:130:2:0:1:2:0:2
 /
 00820000:3db8:013e
-	s 11662000:27500000:1:3:130:2:0:1:2:0:0
+	s 11662000:27500000:1:2:130:2:0:1:2:0:0
 /
 00820000:13ef:013e
 	s 11747000:27500000:0:3:130:2:0:1:2:0:2
@@ -669,9 +669,6 @@ fed4aedb:0001:ffff
 0ce431c1:0001:ffff
 	s 12737000:5000000:0:3:-300:2:0:1:2:0:2
 /
-0ce40000:0064:0021
-	s 11276000:7140000:0:0:-300:2:0:1:1:0:2
-/
 0ce42d7c:0065:0000
 	s 11644000:4000000:1:2:-300:2:0
 /
@@ -728,6 +725,9 @@ fed4aeef:0001:0001
 /
 0ce4aee9:0001:ffff
 	s 12009000:7200000:1:3:-300:2:0:1:2:0:2
+/
+fed4abc9:00c8:0022
+	s 11209000:8036000:1:3:-300:2:0:1:2:0:2
 /
 end
 services
@@ -871,6 +871,9 @@ La Sexta
 p:Digital+,f:1
 76a5:00c00000:041e:0001:1:0
 Eurosport 2
+p:Movistar+,f:1
+769a:00c00000:041e:0001:1:0
+LALIGA TV BAR 3
 p:Movistar+,f:1
 7504:00c00000:0420:0001:25:0
 Fox España HD
@@ -1152,7 +1155,7 @@ p:Movistar+,f:1
 Liga de Campeones 4
 p:CANAL+,f:1
 77c9:00c00000:040a:0001:1:0
-LALIGATVBAR3
+TEST B 3
 p:Movistar+,f:1
 76c0:00c00000:040e:0001:1:0
 M+ Cine
@@ -2552,23 +2555,20 @@ p:MB Satellite,f:1
 3163:00c00000:0459:0001:1:0
 ALT Sendersuchlauf starten!!
 p:MB Satellite,f:1
-3165:00c00000:0459:0001:31:0
-MB SAT - Test6
-p:MB Satellite,f:1
+3165:00c00000:0459:0001:2:0
+Trigger.FM
+p:MB Satellite
 3166:00c00000:0459:0001:31:0
 MB SAT - Test4
 p:MB Satellite,f:1
 3167:00c00000:0459:0001:31:0
 MB SAT - Test5
 p:MB Satellite,f:1
-315e:00c00000:0459:0001:1:0
-MB SAT - Test3
-p:MB Satellite,f:1
 3145:00c00000:0459:0001:12:0
 RAPS
 p:MB Satellite
 314d:00c00000:0459:0001:1:0
-MB SAT - Test1
+MBS - Test1
 p:MB Satellite,f:1
 3164:00c00000:0459:0001:2:0
 Schlager Radio
@@ -2863,19 +2863,19 @@ TEST 29851
 p:FOXNWS,f:1
 749c:00c00000:041c:0001:1:0
 BabyTV.
-p:DIGITAL+
+p:DIGITAL+,f:1
 74a1:00c00000:041c:0001:1:0
 EUROSPORT 1.
-p:CANAL+
+p:CANAL+,f:1
 74a4:00c00000:041c:0001:1:0
 DAZN F1.
-p:Movistar+
+p:Movistar+,f:1
 74a6:00c00000:041c:0001:1:0
 LA SEXTA.
-p:Digital+
+p:Digital+,f:1
 74a7:00c00000:041c:0001:1:0
 EUROSPORT 2.
-p:Movistar+
+p:Movistar+,f:1
 2b8e:00c00000:03f2:0001:25:0
 3sat HD
 p:ZDF Vision,f:1
@@ -3315,7 +3315,7 @@ p:ORF,f:1
 Flimmit
 p:ORF,f:1
 33ff:00c00000:03ed:0001:22:0
-Aristo.TV
+MeinTVshop
 p:ORF,f:1
 3400:00c00000:03ed:0001:25:0
 R9 Oesterreich HD
@@ -3772,6 +3772,9 @@ Nickelodeon France HD
 p:CSAT,f:1
 21ab:00c00000:0448:0001:25:0
 6ter HD
+p:CSAT,f:1
+21ac:00c00000:0448:0001:25:0
+DAZN 1
 p:CSAT,f:1
 2456:00c00000:0440:0001:25:0
 Cine+ Premier HD
@@ -4253,6 +4256,9 @@ p:OVERON,f:1
 164e:00c00000:042c:0001:1:0
 CNN Int.
 p:SES ASTRA,f:1
+1645:00c00000:042c:0001:1:0
+TVMonaco
+p:EasyTools,f:1
 74d0:00c00000:03f8:0001:1:0
 Descarga Cisco
 p:Movistar+,f:1
@@ -4355,12 +4361,6 @@ p:SES ASTRA,f:1
 0001:00c02d62:0001:ffff:1:0
 Main NOR 044
 p:NEP Norway,f:1
-0001:00c0ad30:0001:0001:1:0
-MM1 Service 1
-p:RR,f:1
-0002:00c0ad30:0001:0001:1:0
-MM1 Service 2
-p:RR,f:1
 0001:00c0ad52:4321:00eb:1:0
 FIS DAVOS
 p:LINE UP MEDIA COMMUNICATION HUNGARY,f:1
@@ -4439,6 +4439,9 @@ p:,c:050001,f:1
 0005:00c00000:0003:0001:1:0
 NFL SRT Europe/Asia Testing Sour
 p:,c:050001,f:1
+0001:00c02d73:0001:ffff:1:0
+G19 E-349 Via1
+p:Service Provider,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -8312,6 +8315,12 @@ p:,f:1
 01f6:00820000:0384:013e:1:0
 AIRMONT
 p:VITEC,f:1
+0217:00820000:0384:013e:25:0
+Channel 8 ARA
+p:,f:1
+0218:00820000:0384:013e:25:0
+Channel 8 KUR
+p:,f:1
 0641:00820000:2454:013e:25:0
 Al Jazeera HD
 p:EUTELSAT,f:1
@@ -10826,12 +10835,6 @@ p:OVERON,f:1
 0001:0ce431c1:0001:ffff:25:0
 FIBRA TVE OCC
 p:,f:1
-0001:0ce40000:0064:0021:1:0
-PushVOD
-p:Hispasat,f:1
-0001:0ce40000:0064:0021:12:0
-PushVOD
-p:Hispasat
 0001:0ce42d7c:0065:0000:2:0
 Onda Cero
 p:Onda Cero
@@ -10952,6 +10955,9 @@ p:8MM,f:1
 0001:0ce4aee9:0001:ffff:1:0
 E415 Via1
 p:Service Provider,f:1
+0001:fed4abc9:00c8:0022:31:0
+Demo UHD 5G Spain
+p:Hispasat,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2023
