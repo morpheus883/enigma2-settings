@@ -300,9 +300,6 @@ transponders
 00ebacf8:0001:ffff
 	s 11512000:7200000:1:3:235:2:0:1:2:0:2
 /
-00ebb198:0001:ffff
-	s 12696000:4800000:1:3:235:2:0:1:2:0:2
-/
 00ebb1c0:0001:ffff
 	s 12736000:7200000:1:3:235:2:0:1:2:0:2
 /
@@ -314,6 +311,15 @@ transponders
 /
 00ebad65:0001:0001
 	s 11621000:7500000:1:3:235:2:0:1:2:0:2
+/
+00eb0000:0020:00eb
+	s 12696000:4800000:1:3:235:2:0:1:2:0:2
+/
+00eb31af:0001:ffff
+	s 12719000:7500000:0:3:235:2:0:1:2:0:2
+/
+00eb0000:0070:006f
+	s 12515000:15000000:1:3:235:2:0:1:2:0:2
 /
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
@@ -882,6 +888,9 @@ transponders
 00a031bf:0001:ffff
 	s 12735000:4936000:0:3:160:2:0:1:2:0:2
 /
+00a031b8:00a0:0000
+	s 12728000:2600000:0:2:160:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -1095,9 +1104,6 @@ transponders
 00820000:1900:fbff
 	s 11996000:29900000:1:4:130:2:0:1:1:0:2
 /
-00820000:1d4c:fbff
-	s 12206000:29900000:0:4:130:2:0:1:1:0:2
-/
 00820000:1518:013e
 	s 11804000:29700000:1:3:130:2:0:1:2:0:2
 /
@@ -1119,14 +1125,17 @@ transponders
 0082acce:0578:013e
 	s 11470000:27500000:1:3:130:2:0:1:2:0:2
 /
-00820000:1a90:013e
-	s 12073000:29900000:1:4:130:2:0:1:1:0:2
-/
 00820000:2fa8:013e
 	s 10949000:27500000:1:3:130:2:0:1:2:2:2
 /
 0082b0e8:2328:013e
 	s 12520000:27500000:1:7:130:2:0:1:2:0:2
+/
+00820000:1d4c:013e
+	s 12207000:29900000:0:4:130:2:0:1:1:0:2
+/
+00820000:1a90:fbff
+	s 12073000:29900000:1:4:130:2:0:1:1:0:2
 /
 end
 services
@@ -3164,9 +3173,9 @@ p:Service Provider,f:1
 0001:00eb30f1:0000:0000:25:0
 E380 PATH1
 p:,f:1
-0001:00eb2ce1:0001:ffff:25:0
-WPA D-331 SCF - FCB
-p:WPA D-331 SCF - FCB,f:1
+0001:00eb2ce1:0001:ffff:1:0
+Tower OB TX3
+p:BT TVOB,f:1
 0001:00ebb18d:0001:ffff:1:0
 WDR Innenstadt
 p:WDR,f:1
@@ -3530,9 +3539,6 @@ p:FrÃ¼hschoppen,f:1
 0001:00ebacf8:0001:ffff:1:0
 D-413 Enc1 HBL Melsungen
 p:Media Broadcast,f:1
-0001:00ebb198:0001:ffff:1:0
-D-265 fernsehwerft #2
-p:diefernsehwerft,f:1
 0001:00ebb1c0:0001:ffff:1:0
 ND DVB Service
 p:ND DVB Provider,f:1
@@ -3545,6 +3551,15 @@ p:RedBull MediaHouse,f:1
 0003:00ebad65:0001:0001:25:0
 AUT39 FB Wien PGM
 p:RBMH,f:1
+0001:00eb0000:0020:00eb:1:0
+D-265 fernsehwerft #2
+p:diefernsehwerft,f:1
+0001:00eb31af:0001:ffff:1:0
+AUT-032 ENC02
+p:Remotion,f:1
+0001:00eb0000:0070:006f:25:0
+F634/1/BC One Word Final in PARIS
+p:,f:1
 7856:00c00000:041a:0001:25:0
 AXN España HD
 p:Movistar+,f:1
@@ -6857,6 +6872,9 @@ p:CSAT,f:1
 238b:00c00000:0442:0001:12:0
 DATASYSTEM
 p:CSAT
+2329:00c00000:0442:0001:31:0
+TEST10
+p:CSAT,f:1
 226e:00c00000:0438:0001:25:0
 OCS MAX HD
 p:CSAT,f:1
@@ -7523,6 +7541,9 @@ p:TIP,f:1
 0028:00a00000:0065:0001:1:0
 EPQ C2
 p:,f:1
+0028:00a00000:0065:0001:2:0
+EPQ C2
+p:
 1167:00a00000:9ca4:016e:1:0
 Oto
 p:Total TV,f:1
@@ -9443,6 +9464,9 @@ p:BP
 0001:00a031bf:0001:ffff:1:0
 BiH-003-2
 p:FLASH PRODUCTION 2,f:1
+0001:00a031b8:00a0:0000:1:0
+EPQ Feed
+p:EPQ,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -13157,6 +13181,42 @@ p:CANAL+,f:1
 113b:00820000:2af8:013e:1:0
 FightKlub HD
 p:CANAL+,f:1
+118b:00820000:2af8:013e:12:0
+DATA
+p:CANAL+
+1140:00820000:2af8:013e:22:0
+Blue Hustler
+p:CANAL+,f:1
+1145:00820000:2af8:013e:22:0
+Blue Hustler POL
+p:CANAL+,f:1
+114a:00820000:2af8:013e:22:0
+Blue Hustler Nova
+p:CANAL+,f:1
+113f:00820000:2af8:013e:25:0
+Hustler HD
+p:CANAL+,f:1
+1141:00820000:2af8:013e:25:0
+Private HD
+p:CANAL+,f:1
+1144:00820000:2af8:013e:25:0
+Hustler HD POL
+p:CANAL+,f:1
+1146:00820000:2af8:013e:25:0
+Private HD POL
+p:CANAL+,f:1
+1147:00820000:2af8:013e:25:0
+Hustler HD SBB
+p:CANAL+,f:1
+1148:00820000:2af8:013e:25:0
+Hustler HD Nova
+p:CANAL+,f:1
+1149:00820000:2af8:013e:25:0
+Private HD SBB
+p:CANAL+,f:1
+114b:00820000:2af8:013e:25:0
+Private HD Nova
+p:CANAL+,f:1
 0389:00820000:2134:013e:1:0
 Dubai TV HD
 p:ETISALAT,f:1
@@ -13649,6 +13709,9 @@ p:KABELIO.CH,f:1
 0075:00820000:3264:013e:1:0
 Kabelio ServusTV
 p:KABELIO.CH,f:1
+0096:00820000:3264:013e:1:0
+TEST
+p:,f:1
 1002:00820000:1e14:fbff:1:0
 IEPG Data
 p:Sky Italia,f:1
@@ -13738,24 +13801,6 @@ Gambero Rosso HD
 p:SkyItalia,f:1
 0f6f:00820000:1900:fbff:25:0
 Sky Sport 2 HD
-p:SkyItalia,f:1
-105e:00820000:1d4c:fbff:251:0
-Fusion BGDL 4190
-p:SkyItalia
-1063:00820000:1d4c:fbff:1:0
-IEPG Data
-p:SkyItalia,f:1
-0584:00820000:1d4c:fbff:1:0
-Sky Atlantic
-p:SkyItalia,f:1
-1018:00820000:1d4c:fbff:25:0
-Cielo HD
-p:SkyItalia,f:1
-1c5c:00820000:1d4c:fbff:25:0
-TV8 HD
-p:SkyItalia,f:1
-2d6c:00820000:1d4c:fbff:31:0
-Sky Sport 4K
 p:SkyItalia,f:1
 0191:00820000:1518:013e:1:0
 MTV 00s
@@ -13988,12 +14033,9 @@ p:
 0320:0082acce:0578:013e:12:0
 I Demo
 p:Eutelsat
-012c:00820000:1a90:013e:1:0
-SERVICE IP/MAC NOTIFICATION
-p:EUTELSAT,f:1
-000a:00820000:1a90:013e:12:0
-PoC
-p:EUTELSAT
+0321:0082acce:0578:013e:1:0
+DVB-NIP-VV
+p:,f:1
 04b1:00820000:2fa8:013e:12:0
 NIP Demo
 p:Eutelsat
@@ -14063,6 +14105,30 @@ p:STN
 2339:0082b0e8:2328:013e:1:0
 Suryoyo SAT
 p:STN,f:1
+012c:00820000:1d4c:013e:1:0
+SERVICE IP/MAC NOTIFICATION
+p:EUTELSAT,f:1
+000a:00820000:1d4c:013e:12:0
+PoC
+p:EUTELSAT
+0584:00820000:1a90:fbff:1:0
+Sky Atlantic
+p:SkyItalia,f:1
+1018:00820000:1a90:fbff:25:0
+Cielo HD
+p:SkyItalia,f:1
+105e:00820000:1a90:fbff:251:0
+Fusion BGDL 4190
+p:SkyItalia
+1063:00820000:1a90:fbff:1:0
+IEPG Data
+p:SkyItalia,f:1
+1c5c:00820000:1a90:fbff:25:0
+TV8 HD
+p:SkyItalia,f:1
+2d6c:00820000:1a90:fbff:31:0
+Sky Sport 4K
+p:SkyItalia,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2023
