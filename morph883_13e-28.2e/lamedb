@@ -264,6 +264,9 @@ transponders
 011a0000:082d:0002
 	s 11523000:23000000:0:2:282:2:0:1:2:0:2
 /
+011ab198:0001:ffff
+	s 12696000:7500000:1:2:282:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -914,9 +917,6 @@ p:BSkyB
 1678:011a0000:07e3:0002:1:0
 Sky Arts
 p:BSkyB,f:1
-16c8:011a0000:07e3:0002:1:0
-Pick TV
-p:BSkyB,f:1
 1904:011a0000:07e3:0002:1:0
 Sky News
 p:BSkyB,f:1
@@ -1234,9 +1234,6 @@ SkySpMainEv
 p:BSkyB,f:1
 0585:011a0000:07e7:0002:1:0
 Sky Atlantic+1
-p:BSkyB,f:1
-159a:011a0000:07e7:0002:1:0
-Pick TV Ireland
 p:BSkyB,f:1
 159c:011a0000:07e7:0002:1:0
 Sky News Arabia
@@ -1622,6 +1619,9 @@ p:BSkyB,f:1
 c44b:011a0000:0837:0002:25:0
 Viaplay 2 HD
 p:BSkyB,f:1
+c441:011a0000:0837:0002:25:0
+GB News HD
+p:BSkyB,f:1
 254d:011a0000:082f:0002:2:0
 Capital XTRA
 p:BSkyB
@@ -1991,6 +1991,9 @@ p:BSkyB,f:1
 04b4:011a0000:07e8:0002:25:0
 BBC One South HD
 p:BSkyB,f:1
+159a:011a0000:07e8:0002:25:0
+Sky Mix HD Ireland
+p:BSkyB,f:1
 cf9b:011a0000:083a:0002:25:0
 NHK World HD
 p:BSkyB,f:1
@@ -2305,9 +2308,6 @@ GREAT! Movies +1
 p:BSkyB,f:1
 d075:011a0000:083e:0002:1:0
 GREAT! Action +1
-p:BSkyB,f:1
-d093:011a0000:083e:0002:25:0
-GB News HD
 p:BSkyB,f:1
 0f15:011a0000:07e9:0002:25:0
 Sky Max HD
@@ -2669,6 +2669,9 @@ p:BSkyB,f:1
 1aa2:011a0000:07eb:0002:25:0
 RTÉ One HD
 p:BSkyB,f:1
+16c7:011a0000:07eb:0002:25:0
+Sky Mix HD
+p:BSkyB,f:1
 0001:011a30db:0001:ffff:1:0
 EDS806HD.1
 p:CCMA,f:1
@@ -2750,9 +2753,9 @@ p:BSkyB,f:1
 d0fd:011a0000:0832:0002:25:0
 New Media HD
 p:BSkyB,f:1
-0001:011a30f7:0001:ffff:25:0
-Salford v Castleford sat dr
-p:,f:1
+0001:011a30f7:0001:ffff:1:0
+Martin Lewis Money Show BU
+p:Service Provider,c:050001,f:1
 0001:011a0000:00a0:00eb:1:0
 E357 ATM7 VIA2
 p:ATM BROADCAST,f:1
@@ -3092,9 +3095,6 @@ p:BSkyB,f:1
 0001:011a319e:0000:0001:25:0
 F511 whisper RWC nice main
 p:,f:1
-0001:011ab198:0000:0000:25:0
-E-268 Feed 1
-p:,f:1
 0001:011ab126:0001:ffff:1:0
 E-351/G-22 Via1
 p:Service Provider,f:1
@@ -3116,6 +3116,9 @@ p:BSkyB,f:1
 1db2:011a0000:082d:0002:25:0
 Dave HD
 p:BSkyB,f:1
+0001:011ab198:0001:ffff:1:0
+OVERON E-415 VIA 1
+p:Service Provider,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -3422,6 +3425,9 @@ p:GLOBECAST,f:1
 06b0:00820000:3138:013e:1:0
 UA World TV
 p:GLOBECAST,f:1
+06ad:00820000:3138:013e:2:0
+National Prison Radio Network
+p:GLOBECAST
 1f44:00820000:319c:013e:1:0
 MC EU
 p:MEDIA BROADCAST,f:1
@@ -6695,6 +6701,9 @@ p:M-Three Satcom,f:1
 0539:00820000:3d54:013e:1:0
 WeDo TV
 p:FFmpeg,f:1
+053a:00820000:3d54:013e:22:0
+Vilayet TV
+p:M-Three Satcom,f:1
 0d4a:00820000:1450:013e:25:0
 Rai 2 HD
 p:Rai,f:1
