@@ -249,8 +249,11 @@ transponders
 00820000:1a90:fbff
 	s 12073000:29900000:1:4:130:2:0:1:1:0:2
 /
-0082ad8e:3db8:013e
-	s 11662000:27500000:1:3:130:2:0:1:2:0:2
+00820000:0259:013e
+	s 11316000:27500000:1:3:130:2:0:1:2:0:2
+/
+00820000:0321:013e
+	s 11355000:27500000:1:3:130:2:0:1:2:0:2
 /
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
@@ -438,17 +441,11 @@ transponders
 0e080000:0af6:00bb
 	s 12380000:30000000:1:3:-8:2:0:1:2:0:2
 /
-fff8af75:004c:0046
-	s 12149000:30000000:1:3:-8:2:0:1:1:0:2
-/
 0e080000:02c8:0600
 	s 11958000:28000000:1:5:-8:2:0
 /
 0e080000:02c7:0600
 	s 11919000:28000000:1:5:-8:2:0
-/
-fff8af4f:004e:0046
-	s 12111000:30000000:1:2:-8:2:0:1:2:1:2
 /
 0e080000:0019:0046
 	s 11325000:25000000:0:3:-8:2:0:1:2:0:2
@@ -513,9 +510,6 @@ fff8accf:0000:0000
 fff8acc4:0001:0001
 	s 11460000:4800000:1:3:-8:2:0:1:2:0:2
 /
-0e0830e6:0001:ffff
-	s 12518000:2080000:1:3:-8:2:0:1:2:0:2
-/
 fff8b0f6:0001:ffff
 	s 12534000:4800000:1:3:-8:2:0:1:2:0:2
 /
@@ -578,6 +572,15 @@ fff8ad00:0000:ff00
 /
 fff80000:00bf:00bf
 	s 12518000:2080000:1:3:-8:2:0:1:2:0:2
+/
+0e080000:0065:0065
+	s 12543000:6660000:1:3:-8:2:0:1:2:0:2
+/
+fff80000:02cb:0600
+	s 12111000:30000000:1:3:-8:2:0:1:2:0:2
+/
+fff80000:02cc:0600
+	s 12149000:30000000:1:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -1406,9 +1409,6 @@ p:Telespazio,f:1
 424f:00820000:3db8:013e:1:0
 RDS Social TV HD
 p:Teelspazio,f:1
-4263:00820000:3db8:013e:2:0
-Test AAC Radio Margherita
-p:Telespazio
 2526:00820000:13ef:013e:25:0
 Sharqiya HD
 p:DU,f:1
@@ -2853,16 +2853,16 @@ p:
 Polsat Sport HD
 p:Cyfrowy Polsat,f:1
 0c1f:00820000:1e78:0071:1:0
-Fox Comedy Polska HD
-p:Cyfra +,f:1
+Fx Comedy HD
+p:Cyfrowy Polsat S.A.,f:1
 0c25:00820000:1e78:0071:1:0
 AXN HD Polska
 p:Cyfrowy Polsat,f:1
 0c26:00820000:1e78:0071:1:0
 Cinemax 2 HD
-p:Cyfra +,f:1
+p:Cyfrowy Polsat S.A.,f:1
 0c27:00820000:1e78:0071:1:0
-Fox HD Polska
+FX HD Polska
 p:Cyfrowy Polsat,f:1
 0c2f:00820000:1e78:0071:1:0
 History Channel HD Polska
@@ -2886,10 +2886,10 @@ p:Cyfrowy Polsat S.A.,f:1
 AXN HD
 p:Cyfrowy Polsat S.A.,f:1
 0c2b:00820000:1e78:0071:1:0
-Fox Comedy HD
+Fx Comedy HD
 p:Cyfrowy Polsat S.A.,f:1
 0c2d:00820000:1e78:0071:1:0
-FOX HD
+FX HD
 p:Cyfrowy Polsat S.A.,f:1
 0c1e:00820000:1e78:0071:1:0
 Polsat Sport HD
@@ -4595,7 +4595,7 @@ p:Mediaset,f:1
 0078:00820000:04b0:0110:25:0
 20 Mediaset HD
 p:Mediaset,f:1
-0077:00820000:04b0:0110:22:0
+0077:00820000:04b0:0110:25:0
 Radio Monte Carlo
 p:Mediaset,f:1
 006f:00820000:04b0:0110:25:0
@@ -4628,7 +4628,7 @@ p:Mediaset,f:1
 0086:00820000:04b0:0110:25:0
 Focus HD
 p:Mediaset,f:1
-0076:00820000:04b0:0110:22:0
+0076:00820000:04b0:0110:25:0
 Virgin Radio
 p:Mediaset,f:1
 0087:00820000:04b0:0110:25:0
@@ -5252,6 +5252,9 @@ p:STN
 2361:0082b0e8:2328:013e:2:0
 Radio Quraan
 p:STN
+2342:0082b0e8:2328:013e:1:0
+SMTV (Supreme Master TV)
+p:IKOMG,f:1
 012c:00820000:1d4c:013e:1:0
 SERVICE IP/MAC NOTIFICATION
 p:EUTELSAT,f:1
@@ -5276,6 +5279,12 @@ p:SkyItalia,f:1
 2d6c:00820000:1a90:fbff:31:0
 Sky Sport 4K
 p:SkyItalia,f:1
+4525:00820000:0259:013e:12:0
+NIP Demo
+p:Eutelsat
+063f:00820000:0321:013e:12:0
+I Demo
+p:Eutelsat
 0fa0:00300000:0006:0056:1:0
 TV Chile
 p:Viasat,f:1
@@ -5366,6 +5375,9 @@ p:SES ASTRA,f:1
 00d2:00300000:0002:0055:1:0
 TBN Ukraine
 p:,f:1
+00f0:00300000:0002:0055:1:0
+Echo
+p:SES,f:1
 000b:00300000:0065:0001:1:0
 SIS VISION AUDIO & VBI - CISCO 1
 p:,f:1
@@ -8285,9 +8297,6 @@ p:Zaciname s Voyo,f:1
 177d:0e080000:0af6:00bb:22:0
 Prima Show
 p:Slovak Telekom,f:1
-32d5:fff8af75:004c:0046:22:0
-Test 13013
-p:Telenor,f:1
 79e3:0e080000:02c8:0600:1:0
 CNN International Europe
 p:M7,f:1
@@ -8471,9 +8480,6 @@ p:M7,f:1
 798f:0e080000:02c7:0600:1:0
 AXN Czech
 p:ESS,f:1
-32d3:fff8af4f:004e:0046:22:0
-Test 13011
-p:Telenor,f:1
 1cf3:0e080000:0019:0046:1:0
 Blue Hustler
 p:Telenor,f:1
@@ -9347,6 +9353,147 @@ p:2Sat Europe,f:1
 00bf:fff80000:00bf:00bf:1:0
 B 191 DGI
 p:RCS-RDS,f:1
+0065:0e080000:0065:0065:1:0
+B 101 DGI
+p:RCS-RDS BUCURESTI,f:1
+7a51:fff80000:02cb:0600:1:0
+Sport1 CZE.
+p:M7,f:1
+7a5b:fff80000:02cb:0600:1:0
+JimJam.
+p:M7,f:1
+7a5c:fff80000:02cb:0600:1:0
+Sport2 CZE.
+p:M7,f:1
+7a5f:fff80000:02cb:0600:1:0
+JimJam (SVT)
+p:M7,f:1
+7a60:fff80000:02cb:0600:1:0
+JimJam..
+p:M7,f:1
+7a46:fff80000:02cb:0600:22:0
+TV8.
+p:M7,f:1
+7a47:fff80000:02cb:0600:22:0
+LALA TV.
+p:M7,f:1
+7a48:fff80000:02cb:0600:22:0
+CS Film/CS Horror.
+p:M7,f:1
+7a49:fff80000:02cb:0600:22:0
+Markiza INT.
+p:M7,f:1
+7a4a:fff80000:02cb:0600:22:0
+TA3.
+p:M7,f:1
+7a4b:fff80000:02cb:0600:22:0
+Prima Cool.
+p:M7,f:1
+7a4c:fff80000:02cb:0600:22:0
+Prima Love.
+p:M7,f:1
+7a4d:fff80000:02cb:0600:22:0
+CNN Prima News.
+p:M7,f:1
+7a4e:fff80000:02cb:0600:22:0
+Jojko.
+p:M7,f:1
+7a52:fff80000:02cb:0600:22:0
+Senzi.
+p:M7,f:1
+7a53:fff80000:02cb:0600:22:0
+SLAGER ORIGINAL.
+p:M7,f:1
+7a54:fff80000:02cb:0600:22:0
+TV LUX.
+p:M7,f:1
+7a55:fff80000:02cb:0600:22:0
+Filmbox Stars CZ.
+p:M7,f:1
+7a58:fff80000:02cb:0600:22:0
+Docubox.
+p:M7,f:1
+7a59:fff80000:02cb:0600:22:0
+Eroxxx.
+p:M7,f:1
+7a5a:fff80000:02cb:0600:22:0
+Fightbox.
+p:M7,f:1
+7a5d:fff80000:02cb:0600:22:0
+Senzi (SVT)
+p:M7,f:1
+7a5e:fff80000:02cb:0600:22:0
+Filmbox Stars CZ (SVT)
+p:M7,f:1
+7a45:fff80000:02cb:0600:25:0
+Filmbox Premium HD.
+p:M7,f:1
+7a4f:fff80000:02cb:0600:25:0
+Film+ HD.
+p:M7,f:1
+7a50:fff80000:02cb:0600:25:0
+Vixen HD.
+p:M7,f:1
+7a56:fff80000:02cb:0600:25:0
+HBO HD.
+p:M7,f:1
+7a57:fff80000:02cb:0600:25:0
+Direct One HD.
+p:M7,f:1
+7aaa:fff80000:02cc:0600:22:0
+Arena Sport 1.
+p:M7,f:1
+7aae:fff80000:02cc:0600:22:0
+CNBC Europe.
+p:M7,f:1
+7aaf:fff80000:02cc:0600:22:0
+Bloomberg.
+p:M7,f:1
+7ab0:fff80000:02cc:0600:22:0
+Fashion TV.
+p:M7,f:1
+7ab3:fff80000:02cc:0600:22:0
+Prima Krimi.
+p:M7,f:1
+7ab4:fff80000:02cc:0600:22:0
+Paramount Network.
+p:M7,f:1
+7ab5:fff80000:02cc:0600:22:0
+Filmbox Basic.
+p:M7,f:1
+7ab6:fff80000:02cc:0600:22:0
+TV Paprika CZ/SK.
+p:M7,f:1
+7aa9:fff80000:02cc:0600:25:0
+Sport 2 HD.
+p:M7,f:1
+7aab:fff80000:02cc:0600:25:0
+History HD.
+p:M7,f:1
+7aac:fff80000:02cc:0600:25:0
+STORY4 HD.
+p:M7,f:1
+7aad:fff80000:02cc:0600:25:0
+JOJ Sport HD.
+p:M7,f:1
+7ab2:fff80000:02cc:0600:25:0
+CT: D/Art HD.
+p:M7,f:1
+7ab7:fff80000:02cc:0600:25:0
+Sport 1 HD CZ.
+p:M7,f:1
+7ab8:fff80000:02cc:0600:25:0
+Duna HD.
+p:M7,f:1
+7ab9:fff80000:02cc:0600:25:0
+M4 HD.
+p:M7,f:1
+7abe:fff80000:02cc:0600:25:0
+Sport 2 HD (SVT)
+p:M7,f:1
+7abf:fff80000:02cc:0600:25:0
+JOJ Sport HD (SVT)
+p:M7,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2023

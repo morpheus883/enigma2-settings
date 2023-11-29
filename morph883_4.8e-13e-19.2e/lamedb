@@ -159,9 +159,6 @@ transponders
 00c00000:0401:0001
 	s 11582000:22000000:0:2:192:2:0:1:2:0:2
 /
-00c00000:03f4:0001
-	s 11377000:22000000:1:2:192:2:0:1:2:0:2
-/
 00c00000:0410:0001
 	s 11067000:22000000:1:4:192:2:0
 /
@@ -334,10 +331,13 @@ transponders
 	s 11605000:9874000:0:3:192:2:0:1:2:0:2
 /
 00c00000:0414:0001
-	s 11126000:22000000:1:4:192:2:0
+	s 11127000:22000000:1:2:192:2:0:1:2:0:2
 /
 00c00000:03f4:0003
 	s 11377000:22000000:1:2:192:2:0:1:2:0:2
+/
+00c00000:0428:0001
+	s 10936000:22000000:1:4:192:2:0
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -579,8 +579,11 @@ transponders
 00820000:1a90:fbff
 	s 12073000:29900000:1:4:130:2:0:1:1:0:2
 /
-0082ad8e:3db8:013e
-	s 11662000:27500000:1:3:130:2:0:1:2:0:2
+00820000:0259:013e
+	s 11316000:27500000:1:3:130:2:0:1:2:0:2
+/
+00820000:0321:013e
+	s 11355000:27500000:1:3:130:2:0:1:2:0:2
 /
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
@@ -852,7 +855,7 @@ p:Movistar+,f:1
 LALIGA TV BAR 3
 p:Movistar+,f:1
 7504:00c00000:0420:0001:25:0
-Fox España HD
+M+ Suspense HD
 p:Movistar+,f:1
 7509:00c00000:0420:0001:25:0
 Movistar Acción HD
@@ -861,7 +864,7 @@ p:Movistar+,f:1
 M+ Drama HD
 p:Movistar+,f:1
 750c:00c00000:0420:0001:25:0
-Canal Hollywood HD
+M+ Originales HD
 p:Movistar+,f:1
 750f:00c00000:0420:0001:25:0
 M+ LaLiga 1 HD
@@ -2640,7 +2643,7 @@ p:,f:1
 Volksmusik TV
 p:-,f:1
 32d7:00c00000:045d:0001:1:0
-Mei Musi TV
+StarParadies Österreich
 p:-,f:1
 32dd:00c00000:045d:0001:1:0
 n-tv Austria
@@ -2753,27 +2756,6 @@ p:BetaDigital,f:1
 1268:00c00000:03f7:0001:25:0
 .
 p:BetaDigital,f:1
-749a:00c00000:041c:0001:1:0
-Divinity
-p:Movistar+,f:1
-749e:00c00000:041c:0001:1:0
-Boing Spain
-p:Movistar+,f:1
-749f:00c00000:041c:0001:1:0
-Energy
-p:Movistar+,f:1
-74a2:00c00000:041c:0001:1:0
-MTV España
-p:Movistar+,f:1
-74a3:00c00000:041c:0001:1:0
-Gol Play
-p:Movistar+,f:1
-74a8:00c00000:041c:0001:1:0
-Be Mad
-p:Movistar+,f:1
-749d:00c00000:041c:0001:1:0
-M+ Vacaciones
-p:Movistar+,f:1
 74a0:00c00000:041c:0001:1:0
 DAZN LaLiga 5
 p:BARNA,f:1
@@ -2859,11 +2841,11 @@ p:Movistar+,f:1
 M+ Golf HD
 p:Movistar+,f:1
 78b8:00c00000:03ec:0001:25:0
-Cosmopolitan HD
-p:DIGITAL+,f:1
+Caza y Pesca HD
+p:Movistar+,f:1
 78c0:00c00000:03ec:0001:25:0
-Comedy Central España HD
-p:PRISA TV,f:1
+M+ Deportes HD
+p:Movistar+,f:1
 78b4:00c00000:03ec:0001:25:0
 Liga de Campeones 1 HD
 p:Movistar+,f:1
@@ -2871,7 +2853,7 @@ p:Movistar+,f:1
 M+ Documentales HD
 p:PRISAT TV,f:1
 78bf:00c00000:03ec:0001:25:0
-Movistar Clasicos HD
+M+ Clasicos HD
 p:Movistar+,f:1
 78b5:00c00000:03ec:0001:25:0
 M+Ellas #V HD
@@ -3429,16 +3411,16 @@ p:Service Provider,f:1
 DAZN F1 HD
 p:Movistar+,f:1
 7532:00c00000:0426:0001:25:0
-M+Deportes 2 HD
+M+ Deportes 2 HD
 p:CANAL+,f:1
 7533:00c00000:0426:0001:25:0
 M+ Indie HD
 p:CANAL+,f:1
 7534:00c00000:0426:0001:25:0
-Antena 3 HD Spain
+DAZN LaLiga HD
 p:CANAL+,f:1
 7535:00c00000:0426:0001:25:0
-Cuatro HD
+Eurosport 1 HD España
 p:CANAL+,f:1
 7536:00c00000:0426:0001:25:0
 Telecinco HD
@@ -4155,7 +4137,7 @@ p:Movistar+,f:1
 M+ LaLiga 3 HD
 p:Movistar+,f:1
 74d3:00c00000:03f8:0001:25:0
-M+LCampeones BAR
+Mezzo Live
 p:CANAL+,f:1
 74d5:00c00000:03f8:0001:25:0
 M+LCampeones 2
@@ -4391,6 +4373,27 @@ p:CANAL+,f:1
 788d:00c00000:0414:0001:25:0
 CAZAyPESCA HD.
 p:Movistar+,f:1
+788b:00c00000:0414:0001:1:0
+Divinity
+p:DIGITAL+,f:1
+7885:00c00000:0414:0001:1:0
+M+ Terror
+p:Movistar+,f:1
+7888:00c00000:0414:0001:1:0
+Boing Spain
+p:DIGITAL+,f:1
+7889:00c00000:0414:0001:1:0
+Energy
+p:DIGITAL+,f:1
+788f:00c00000:0414:0001:1:0
+MTV España
+p:DIGITAL+,f:1
+7890:00c00000:0414:0001:1:0
+Gol Play
+p:Movistar+,f:1
+7891:00c00000:0414:0001:1:0
+Be Mad
+p:Movistar+,f:1
 18f0:00c00000:03f4:0003:1:0
 Extremadura Sat
 p:TSA,f:1
@@ -4412,6 +4415,15 @@ p:TSA,f:1
 18f9:00c00000:03f4:0003:25:0
 Telesur English
 p:TSA,f:1
+7823:00c00000:0428:0001:25:0
+MEZZO LIVE.
+p:DIGITAL+,f:1
+7826:00c00000:0428:0001:25:0
+EUROSPORT1HD.
+p:MOVISTAR+,f:1
+7828:00c00000:0428:0001:25:0
+M+DEPORTESHD.
+p:Movistar+,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -5165,9 +5177,6 @@ p:Telespazio,f:1
 424f:00820000:3db8:013e:1:0
 RDS Social TV HD
 p:Teelspazio,f:1
-4263:00820000:3db8:013e:2:0
-Test AAC Radio Margherita
-p:Telespazio
 2526:00820000:13ef:013e:25:0
 Sharqiya HD
 p:DU,f:1
@@ -6612,16 +6621,16 @@ p:
 Polsat Sport HD
 p:Cyfrowy Polsat,f:1
 0c1f:00820000:1e78:0071:1:0
-Fox Comedy Polska HD
-p:Cyfra +,f:1
+Fx Comedy HD
+p:Cyfrowy Polsat S.A.,f:1
 0c25:00820000:1e78:0071:1:0
 AXN HD Polska
 p:Cyfrowy Polsat,f:1
 0c26:00820000:1e78:0071:1:0
 Cinemax 2 HD
-p:Cyfra +,f:1
+p:Cyfrowy Polsat S.A.,f:1
 0c27:00820000:1e78:0071:1:0
-Fox HD Polska
+FX HD Polska
 p:Cyfrowy Polsat,f:1
 0c2f:00820000:1e78:0071:1:0
 History Channel HD Polska
@@ -6645,10 +6654,10 @@ p:Cyfrowy Polsat S.A.,f:1
 AXN HD
 p:Cyfrowy Polsat S.A.,f:1
 0c2b:00820000:1e78:0071:1:0
-Fox Comedy HD
+Fx Comedy HD
 p:Cyfrowy Polsat S.A.,f:1
 0c2d:00820000:1e78:0071:1:0
-FOX HD
+FX HD
 p:Cyfrowy Polsat S.A.,f:1
 0c1e:00820000:1e78:0071:1:0
 Polsat Sport HD
@@ -8354,7 +8363,7 @@ p:Mediaset,f:1
 0078:00820000:04b0:0110:25:0
 20 Mediaset HD
 p:Mediaset,f:1
-0077:00820000:04b0:0110:22:0
+0077:00820000:04b0:0110:25:0
 Radio Monte Carlo
 p:Mediaset,f:1
 006f:00820000:04b0:0110:25:0
@@ -8387,7 +8396,7 @@ p:Mediaset,f:1
 0086:00820000:04b0:0110:25:0
 Focus HD
 p:Mediaset,f:1
-0076:00820000:04b0:0110:22:0
+0076:00820000:04b0:0110:25:0
 Virgin Radio
 p:Mediaset,f:1
 0087:00820000:04b0:0110:25:0
@@ -9011,6 +9020,9 @@ p:STN
 2361:0082b0e8:2328:013e:2:0
 Radio Quraan
 p:STN
+2342:0082b0e8:2328:013e:1:0
+SMTV (Supreme Master TV)
+p:IKOMG,f:1
 012c:00820000:1d4c:013e:1:0
 SERVICE IP/MAC NOTIFICATION
 p:EUTELSAT,f:1
@@ -9035,6 +9047,12 @@ p:SkyItalia,f:1
 2d6c:00820000:1a90:fbff:31:0
 Sky Sport 4K
 p:SkyItalia,f:1
+4525:00820000:0259:013e:12:0
+NIP Demo
+p:Eutelsat
+063f:00820000:0321:013e:12:0
+I Demo
+p:Eutelsat
 0fa0:00300000:0006:0056:1:0
 TV Chile
 p:Viasat,f:1
@@ -9125,6 +9143,9 @@ p:SES ASTRA,f:1
 00d2:00300000:0002:0055:1:0
 TBN Ukraine
 p:,f:1
+00f0:00300000:0002:0055:1:0
+Echo
+p:SES,f:1
 000b:00300000:0065:0001:1:0
 SIS VISION AUDIO & VBI - CISCO 1
 p:,f:1
