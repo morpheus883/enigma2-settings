@@ -243,9 +243,6 @@ transponders
 01a4acd6:0000:0000
 	s 11478000:6800000:1:3:420:2:0:1:2:0:2
 /
-01a4ab05:0000:0000
-	s 11013000:7500000:1:3:420:2:0:1:2:0:2
-/
 01a4b11c:0001:ffff
 	s 12572000:7500000:1:3:420:2:0:1:2:0:2
 /
@@ -257,12 +254,6 @@ transponders
 /
 01a4ab16:0000:0002
 	s 11030000:7500000:1:3:420:2:0:1:2:0:2
-/
-01a4aaf8:0001:ffff
-	s 11000000:7500000:1:3:420:2:0:1:2:0:2
-/
-01a4ab0c:0000:0000
-	s 11020000:7500000:1:3:420:2:0:1:2:0:2
 /
 01a4b16c:0001:ffff
 	s 12652000:10000000:1:3:420:2:0:1:2:0:2
@@ -279,8 +270,17 @@ transponders
 01a4ab5f:0000:0000
 	s 11103000:7500000:1:3:420:2:0:1:2:0:2
 /
-01a4ad56:0000:0000
+01a4ab05:0001:ffff
+	s 11013000:7500000:1:3:420:2:0:1:2:0:2
+/
+01a4aaf8:0000:0000
+	s 11000000:7500000:1:3:420:2:0:1:2:0:2
+/
+01a4ad56:0014:ffff
 	s 11606000:6200000:1:3:420:2:0:1:2:0:2
+/
+01a4ab0c:0001:ffff
+	s 11020000:7500000:1:3:420:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -749,6 +749,9 @@ p:GUC TELEKOM MEDYA,f:1
 3937:01a40000:a21d:042e:2:0
 KAFA RADYO
 p:GUC TELEKOM MEDYA
+390f:01a40000:a21d:042e:1:0
+GRT TV (Gagauziya Radio Televizionu)
+p:GUC TELEKOM MEDYA,f:1
 0001:01a42ee9:0001:ffff:1:0
 Turkmeneli HD
 p:TERT 2  TV,f:1
@@ -2792,6 +2795,9 @@ p:Digital Platform
 4237:01a4ac29:a929:002a:17:0
 TRT 1 HD
 p:Digital Platform,f:1
+420c:01a4ac29:a929:002a:17:0
+Şömine Keyfi
+p:Digital Platform,f:1
 4269:01a4ac01:78b5:002a:17:0
 CNN Int HD
 p:Digital Platform,f:1
@@ -3005,9 +3011,6 @@ p:beIN SNG 2 Main,f:1
 0001:01a4acd6:0000:0000:17:0
 TUR-146-B
 p:,f:1
-0001:01a4ab05:0000:0000:25:0
-TUR-119 main
-p:,f:1
 0001:01a4b11c:0001:ffff:1:0
 TUR-161 MAIN
 p:HDPROTEK,f:1
@@ -3020,12 +3023,6 @@ p:TRT CUKUROVA
 0001:01a4ab16:0000:0002:25:0
 TUR122A
 p:TRT,f:1
-0001:01a4aaf8:0001:ffff:1:0
-TUR-034 A
-p:Service Provider,f:1
-0001:01a4ab0c:0000:0000:25:0
-TUR-119 main
-p:,f:1
 0001:01a4b16c:0001:ffff:1:0
 TUR-161 MAIN
 p:HDPROTEK,f:1
@@ -3041,12 +3038,18 @@ p:ADT,f:1
 0001:01a4ab5f:0000:0000:25:0
 beIN SNG 2 Main
 p:beIN SNG 2 Main,f:1
-0002:01a4ad56:0000:0000:25:0
-TUR 141-B
-p:,f:1
-0001:01a4ad56:0000:0000:25:0
-Tepebaşı Stüdyosu
+0001:01a4ab05:0001:ffff:1:0
+SNG MEDYA 1
+p:SNG MEDYA HD,f:1
+0001:01a4aaf8:0000:0000:25:0
+beINSPORTS TURKEY 3
+p:beINTURKEY,f:1
+0001:01a4ad56:0014:ffff:1:0
+TUR 127 A
 p:TRT,f:1
+0001:01a4ab0c:0001:ffff:1:0
+TUR 137 A
+p:Service Provider,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -3533,9 +3536,6 @@ p:CANAL+,f:1
 32d4:00820000:0190:013e:1:0
 TVC
 p:CANAL+,f:1
-32d6:00820000:0190:013e:1:0
-Red Carpet TV
-p:CANAL+,f:1
 32d8:00820000:0190:013e:1:0
 Active Family
 p:CANAL+,f:1
@@ -3548,6 +3548,12 @@ p:,f:1
 32cc:00820000:0190:013e:1:0
 AXN Spin HD
 p:,f:1
+32ee:00820000:0190:013e:1:0
+HOME TV
+p:CANAL+,f:1
+32ef:00820000:0190:013e:1:0
+POWER TV
+p:CANAL+,f:1
 089c:00820000:01f4:013e:1:0
 Yemen TV
 p:,f:1
@@ -4409,6 +4415,9 @@ p:SkyItalia
 110d:00820000:1a2c:fbff:25:0
 TV2000 HD
 p:SkyItalia,f:1
+1006:00820000:1a2c:fbff:25:0
+Bike Channel
+p:SkyItalia,f:1
 0e0e:00820000:1af4:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
@@ -4453,12 +4462,6 @@ Nickelodeon +1
 p:SkyItalia,f:1
 2c29:00820000:1af4:fbff:25:0
 SuperTennis HD
-p:SkyItalia,f:1
-1006:00820000:1af4:fbff:25:0
-Bike Channel
-p:SkyItalia,f:1
-34de:00820000:1af4:fbff:25:0
-Explorer HD Channel
 p:SkyItalia,f:1
 0fdc:00820000:1af4:fbff:31:0
 Eurosport 4K
@@ -5377,6 +5380,9 @@ Sky Arte +1 HD
 p:SkyItalia,f:1
 109b:00820000:2008:fbff:25:0
 Sky Arte +1 HD
+p:SkyItalia,f:1
+34de:00820000:2008:fbff:25:0
+Explorer HD Channel
 p:SkyItalia,f:1
 1c3f:00820000:206c:fbff:25:0
 Sky Cinema Romance HD
@@ -7523,6 +7529,9 @@ p:TVN SA Discovery Group,f:1
 3b6c:00820000:012c:013e:25:0
 WarnerTV Italy HD
 p:TVN,f:1
+3b6d:00820000:012c:013e:25:0
+CNNi EMEA HD
+p:TVN SA Discovery Group,f:1
 0bc4:00820000:20d0:013e:1:0
 FTV UHD
 p:1,f:1
@@ -7652,9 +7661,6 @@ p:EUTELSAT,f:1
 000a:00820000:1d4c:013e:12:0
 PoC
 p:EUTELSAT
-0584:00820000:1a90:fbff:1:0
-Sky Atlantic
-p:SkyItalia,f:1
 1018:00820000:1a90:fbff:25:0
 Cielo HD
 p:SkyItalia,f:1
@@ -7676,6 +7682,9 @@ p:Eutelsat
 063f:00820000:0321:013e:12:0
 I Demo
 p:Eutelsat
+05dd:00820000:0321:013e:1:0
+DVB-NIP-VV
+p:,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2023
