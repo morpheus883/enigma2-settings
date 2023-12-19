@@ -369,9 +369,6 @@ transponders
 00820000:2008:fbff
 	s 12341000:29900000:1:4:130:2:0:1:1:0:2
 /
-00820000:206c:fbff
-	s 12360000:29900000:0:4:130:2:0:1:1:0:2
-/
 00820000:2198:fbff
 	s 12418000:29900000:1:4:130:2:0:1:1:0:2
 /
@@ -471,9 +468,6 @@ transponders
 00820000:3264:013e
 	s 11096000:30000000:0:3:130:2:0:1:2:0:2
 /
-00820000:1e14:fbff
-	s 12245000:29900000:0:4:130:2:0:1:1:0:2
-/
 00820000:170c:fbff
 	s 11900000:29900000:0:4:130:2:0:1:1:0:2
 /
@@ -512,6 +506,12 @@ transponders
 /
 00820000:0321:013e
 	s 11355000:27500000:1:3:130:2:0:1:2:0:2
+/
+00820000:1e14:fbff
+	s 12245000:29900000:0:4:130:2:0:1:2:0:2
+/
+00820000:206c:fbff
+	s 12360000:29900000:0:4:130:2:0:1:2:0:2
 /
 end
 services
@@ -1106,6 +1106,9 @@ p:BSkyB,f:1
 5154:011a0000:0810:0002:25:0
 ITV 1 Yorkshire East HD
 p:BSkyB,f:1
+5163:011a0000:0810:0002:25:0
+ITV Be HD
+p:BSkyB,f:1
 17d8:011a0000:07db:0002:1:0
 BabyTV
 p:BSkyB,f:1
@@ -1378,6 +1381,9 @@ Akaal Channel
 p:BSkyB,f:1
 cb96:011a0000:083c:0002:1:0
 Racing TV
+p:BSkyB,f:1
+cb9b:011a0000:083c:0002:1:0
+Islam Channel
 p:BSkyB,f:1
 c4d6:011a0000:0811:0002:1:0
 Inspiration TV
@@ -1829,6 +1835,9 @@ p:BSkyB,f:1
 5118:011a0000:080f:0002:25:0
 ITV 1 Westcountry South West HD
 p:BSkyB,f:1
+50f0:011a0000:080f:0002:25:0
+ITV 1 HD
+p:BSkyB,f:1
 1966:011a0000:07e6:0002:1:0
 Eden
 p:BSkyB,f:1
@@ -1997,9 +2006,6 @@ p:BSkyB,f:1
 cf9e:011a0000:083a:0002:25:0
 Arirang TV HD
 p:BSkyB,f:1
-cf9d:011a0000:083a:0002:25:0
-Zee TV HD
-p:BSkyB,f:1
 cf9f:011a0000:083a:0002:25:0
 MTA1 World HD
 p:BSkyB,f:1
@@ -2068,9 +2074,6 @@ Arise News
 p:BSkyB,f:1
 c4e5:011a0000:0813:0002:1:0
 Geo News International
-p:BSkyB,f:1
-c4ef:011a0000:0813:0002:1:0
-Islam Channel
 p:BSkyB,f:1
 c512:011a0000:0813:0002:1:0
 Faith UK
@@ -2245,6 +2248,9 @@ Channel S TV
 p:BSkyB,f:1
 cb99:011a0000:0831:0002:1:0
 That's 60s
+p:BSkyB,f:1
+cbd9:011a0000:0831:0002:25:0
+Zee TV HD
 p:BSkyB,f:1
 d048:011a0000:083e:0002:1:0
 GREAT! Romance
@@ -3938,10 +3944,10 @@ p:SkyItalia,f:1
 1015:00820000:14b4:fbff:25:0
 Discovery HD
 p:SkyItalia,f:1
-1c50:00820000:14b4:fbff:1:0
+1c50:00820000:14b4:fbff:25:0
 Sky Sport Max
 p:SkyItalia,f:1
-1c3f:00820000:14b4:fbff:1:0
+1c3f:00820000:14b4:fbff:25:0
 Sky Cinema Romance
 p:Sky Italia,f:1
 012d:00820000:157c:013e:1:0
@@ -4190,6 +4196,9 @@ p:SkyItalia,f:1
 0de9:00820000:16a8:fbff:25:0
 Sky Sport Bar 1
 p:SkyItalia,f:1
+0bb8:00820000:16a8:fbff:4:0
+PUSH REF SD 3000
+p:SkyItalia
 2aab:00820000:1838:fbff:130:0
 Sport Active 1
 p:SkyItalia,f:1
@@ -7715,6 +7724,15 @@ p:Eutelsat
 05dd:00820000:0321:013e:1:0
 DVB-NIP-VV
 p:,f:1
+1002:00820000:1e14:fbff:1:0
+IEPG Data
+p:SkyItalia,f:1
+1c80:00820000:206c:fbff:1:0
+IEPG Data
+p:SkyItalia,f:1
+1c7d:00820000:206c:fbff:251:0
+Fusion BGDL 7293
+p:SkyItalia
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2023

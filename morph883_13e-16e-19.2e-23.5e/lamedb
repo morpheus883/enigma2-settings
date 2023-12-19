@@ -324,14 +324,17 @@ transponders
 00eb2cce:0000:0000
 	s 11470000:7200000:0:3:235:2:0:1:2:0:2
 /
-00eb0000:0000:00eb
-	s 11501000:7200000:1:3:235:2:0:1:2:0:2
-/
 00ebb139:0000:0000
 	s 12601000:7200000:1:3:235:2:0:1:2:0:2
 /
-00c00000:041a:0001
-	s 10729000:22000000:1:2:192:2:0:1:2:0:2
+00ebaced:0001:ffff
+	s 11501000:7200000:1:3:235:2:0:1:2:0:2
+/
+00ebad70:0001:0001
+	s 11632000:22000000:1:3:235:2:0:1:2:0:2
+/
+00eb319d:0001:0001
+	s 12701000:4938000:0:3:235:2:0:1:2:0:2
 /
 00c00000:041d:0001
 	s 10773000:22000000:0:3:192:2:0:1:2:0:2
@@ -573,9 +576,6 @@ transponders
 00c00000:042c:0001
 	s 11778000:29500000:1:9:192:2:0:1:1:1:2
 /
-00c00000:03f8:0001
-	s 11436000:22000000:1:2:192:2:0:1:2:0:2
-/
 00c00000:0452:0001
 	s 12522000:22000000:1:2:192:2:0:1:2:2:2
 /
@@ -653,6 +653,9 @@ transponders
 /
 00c00000:041c:0001
 	s 10758000:22000000:1:2:192:2:0:1:2:0:2
+/
+00c00000:0458:0001
+	s 12610000:22000000:1:3:192:2:0:1:2:1:2
 /
 00a00000:0001:0040
 	s 11512000:30000000:0:3:160:2:0:1:2:0:2
@@ -990,9 +993,6 @@ transponders
 00820000:2008:fbff
 	s 12341000:29900000:1:4:130:2:0:1:1:0:2
 /
-00820000:206c:fbff
-	s 12360000:29900000:0:4:130:2:0:1:1:0:2
-/
 00820000:2198:fbff
 	s 12418000:29900000:1:4:130:2:0:1:1:0:2
 /
@@ -1092,9 +1092,6 @@ transponders
 00820000:3264:013e
 	s 11096000:30000000:0:3:130:2:0:1:2:0:2
 /
-00820000:1e14:fbff
-	s 12245000:29900000:0:4:130:2:0:1:1:0:2
-/
 00820000:170c:fbff
 	s 11900000:29900000:0:4:130:2:0:1:1:0:2
 /
@@ -1133,6 +1130,12 @@ transponders
 /
 00820000:0321:013e
 	s 11355000:27500000:1:3:130:2:0:1:2:0:2
+/
+00820000:1e14:fbff
+	s 12245000:29900000:0:4:130:2:0:1:2:0:2
+/
+00820000:206c:fbff
+	s 12360000:29900000:0:4:130:2:0:1:2:0:2
 /
 end
 services
@@ -3482,9 +3485,9 @@ p:,f:1
 0001:00ebb116:0001:ffff:1:0
 ITA 452 world
 p:LIVESAT,f:1
-0001:00ebb187:0001:ffff:1:0
-WDR mCut1 D-489
-p:WDR,f:1
+0001:00ebb187:0001:ffff:25:0
+D412  Paderborn Dirty WDR
+p:TelLink,f:1
 0001:00ebad07:0002:ffff:1:0
 D 410 Frankfurt
 p:MediaBroadcast,f:1
@@ -3503,48 +3506,18 @@ p:rt1.tv,f:1
 0001:00eb2cce:0000:0000:25:0
 MMG-D185 HD Encoder 2
 p:,f:1
-0001:00eb0000:0000:00eb:25:0
-D415feed1
-p:Betamobil,f:1
 0001:00ebb139:0000:0000:1:0
 2DF-Ant4-1
 p:ZDF,f:1
-7856:00c00000:041a:0001:25:0
-AXN España HD
-p:Movistar+,f:1
-7857:00c00000:041a:0001:25:0
-M+ Comedia HD
-p:Movistar+,f:1
-7859:00c00000:041a:0001:25:0
-LaLiga TV Bar HD
-p:Movistar+,f:1
-7854:00c00000:041a:0001:25:0
-Alquiler HD
-p:Movistar+,f:1
-7863:00c00000:041a:0001:25:0
-LA 1 HD
-p:Movistar+,f:1
-7855:00c00000:041a:0001:25:0
-DAZN 1 HD
-p:Movistar+,f:1
-785f:00c00000:041a:0001:25:0
-DAZN 2 HD
-p:Movistar+,f:1
-7853:00c00000:041a:0001:25:0
-M+ LaLiga 2 HD
-p:Movistar+,f:1
-785a:00c00000:041a:0001:1:0
+0001:00ebaced:0001:ffff:1:0
 
-p:,f:1
-785e:00c00000:041a:0001:1:0
-
-p:,f:1
-7861:00c00000:041a:0001:1:0
-
-p:,f:1
-7864:00c00000:041a:0001:1:0
-
-p:,f:1
+p:rt1.tv,f:1
+0001:00ebad70:0001:0001:31:0
+NLF - Vision 2
+p:BWS Ltd,f:1
+0001:00eb319d:0001:0001:25:0
+Fotbal BA
+p:SLQ-005,f:1
 526c:00c00000:041d:0001:25:0
 Anixe HD
 p:BetaDigital,f:1
@@ -3658,6 +3631,12 @@ p:Movistar+,f:1
 p:Movistar+,f:1
 750a:00c00000:0420:0001:25:0
 #VAMOSHD
+p:Movistar+,f:1
+74ff:00c00000:0420:0001:25:0
+LaLiga TV Bar HD
+p:Movistar+,f:1
+750d:00c00000:0420:0001:25:0
+M+ LaLiga 2 HD
 p:Movistar+,f:1
 ef10:00c00000:0421:0001:25:0
 RTL HD
@@ -3888,7 +3867,7 @@ p:Movistar+,f:1
 Liga de Campeones 4
 p:CANAL+,f:1
 77c9:00c00000:040a:0001:1:0
-TEST B 3
+M+Deportes 8
 p:Movistar+,f:1
 76c0:00c00000:040e:0001:1:0
 M+ Cine
@@ -6128,14 +6107,14 @@ p:CANAL+,f:1
 7535:00c00000:0426:0001:25:0
 Eurosport 1 HD España
 p:CANAL+,f:1
-7536:00c00000:0426:0001:25:0
-Telecinco HD
-p:CANAL+,f:1
-7537:00c00000:0426:0001:25:0
-La Sexta HD
-p:CANAL+,f:1
 7539:00c00000:0426:0001:25:0
 M+ Cine HD
+p:Movistar+,f:1
+7536:00c00000:0426:0001:25:0
+Alquiler HD
+p:Movistar+,f:1
+7537:00c00000:0426:0001:25:0
+M+ Comedia HD
 p:Movistar+,f:1
 07da:00c00000:0449:0001:31:0
 QVC 2 UHD
@@ -6818,33 +6797,6 @@ p:SES ASTRA,f:1
 1645:00c00000:042c:0001:1:0
 TVMonaco
 p:EasyTools,f:1
-74d0:00c00000:03f8:0001:1:0
-Descarga Cisco
-p:Movistar+,f:1
-74cd:00c00000:03f8:0001:25:0
-M+ LaLiga 3 HD
-p:Movistar+,f:1
-74d3:00c00000:03f8:0001:25:0
-Mezzo Live
-p:CANAL+,f:1
-74d5:00c00000:03f8:0001:25:0
-M+LCampeones 2
-p:Movistar+,f:1
-74d6:00c00000:03f8:0001:25:0
-LaLiga TV Hypermotion
-p:Movistar+,f:1
-74d8:00c00000:03f8:0001:25:0
-Movistar Plus+2 HD
-p:Movistar+,f:1
-74d4:00c00000:03f8:0001:25:0
-Movistar Plus+ HD
-p:Movistar+,f:1
-74ce:00c00000:03f8:0001:25:0
-DAZN LaLiga2 HD
-p:,f:1
-74db:00c00000:03f8:0001:25:0
-Liga de Campeones 3 HD
-p:Movistar+,f:1
 1a91:00c00000:0452:0001:1:0
 CGTN News HD
 p:GLOBECAST,f:1
@@ -6911,44 +6863,44 @@ p:RR,f:1
 0002:00c0ac8f:0001:0001:1:0
 MM2 Service 2
 p:RR,f:1
-2907:00c00000:045e:0001:1:0
-Deluxe Rock
-p:SES,f:1
-2908:00c00000:045e:0001:1:0
-Deluxe Rap
-p:SES,f:1
-2909:00c00000:045e:0001:1:0
-Deluxe Dance by Kontor
-p:SES,f:1
-290a:00c00000:045e:0001:1:0
-Deluxe Flashback
-p:SES,f:1
 2904:00c00000:045e:0001:1:0
-Xplore
+Xplore_alt
 p:SES,f:1
 2905:00c00000:045e:0001:1:0
-Hip Trips
+Hip Trips_alt
 p:SES,f:1
 2906:00c00000:045e:0001:1:0
-One Terra
+One Terra_alt
+p:SES,f:1
+2907:00c00000:045e:0001:1:0
+Deluxe Rock_alt
+p:SES,f:1
+2908:00c00000:045e:0001:1:0
+Deluxe Rap_alt
+p:SES,f:1
+2909:00c00000:045e:0001:1:0
+Deluxe Dance by Kontor_alt
+p:SES,f:1
+290a:00c00000:045e:0001:1:0
+Deluxe Flashback_alt
 p:SES,f:1
 290b:00c00000:045e:0001:1:0
-Just Cooking
-p:SES,f:1
-290f:00c00000:045e:0001:1:0
-Crime Time
+Just Cooking_alt
 p:SES,f:1
 290c:00c00000:045e:0001:1:0
-Just Fishing
+Just Fishing_alt
 p:SES,f:1
 290d:00c00000:045e:0001:1:0
-Deluxe Lounge
+Deluxe Lounge_alt
 p:SES,f:1
 290e:00c00000:045e:0001:1:0
-Red Adventure
+Red Adventure_alt
+p:SES,f:1
+290f:00c00000:045e:0001:1:0
+Crime Time_alt
 p:SES,f:1
 2910:00c00000:045e:0001:1:0
-Serien+
+SERIEN+_alt
 p:SES,f:1
 0001:00c0ad8e:0001:ffff:1:0
 ITA396 MAIN
@@ -7025,18 +6977,6 @@ p:SES,C:186d,C:186a,C:1860,C:1843,C:1842,C:1830,f:1
 0001:00c02d55:4321:0000:1:0
 FIN029 DIRTY
 p:INFRONT,f:1
-7882:00c00000:0414:0001:25:0
-M+ Suspense HD.
-p:Movistar+,f:1
-7884:00c00000:0414:0001:25:0
-DAZN LALIGA HD.
-p:DIGITAL+,f:1
-788c:00c00000:0414:0001:25:0
-M+ Originales HD.
-p:CANAL+,f:1
-788d:00c00000:0414:0001:25:0
-CAZAyPESCA HD.
-p:Movistar+,f:1
 788b:00c00000:0414:0001:1:0
 Divinity
 p:DIGITAL+,f:1
@@ -7118,15 +7058,6 @@ p:Movistar+,f:1
 7830:00c00000:0428:0001:1:0
 LALIGATVBAR4
 p:Movistar+,f:1
-7823:00c00000:0428:0001:25:0
-MEZZO LIVE.
-p:DIGITAL+,f:1
-7826:00c00000:0428:0001:25:0
-EUROSPORT1HD.
-p:MOVISTAR+,f:1
-7828:00c00000:0428:0001:25:0
-M+DEPORTESHD.
-p:Movistar+,f:1
 782d:00c00000:0428:0001:1:0
 M+Deportes 7
 p:Movistar+,f:1
@@ -7184,6 +7115,72 @@ p:Digital+,f:1
 74a7:00c00000:041c:0001:1:0
 TEST EURO 2.
 p:Movistar+,f:1
+749d:00c00000:041c:0001:25:0
+DAZN LaLiga2 HD
+p:,f:1
+74a9:00c00000:041c:0001:1:0
+Descarga Cisco
+p:Movistar+,f:1
+749b:00c00000:041c:0001:25:0
+LaLiga TV Hypermotion
+p:Movistar+,f:1
+749f:00c00000:041c:0001:25:0
+Liga de Campeones 3 HD
+p:Movistar+,f:1
+74a3:00c00000:041c:0001:25:0
+M+ LaLiga 3 HD
+p:Movistar+,f:1
+749e:00c00000:041c:0001:25:0
+M+LCampeones 2
+p:Movistar+,f:1
+74a2:00c00000:041c:0001:25:0
+Mezzo Live
+p:DIGITAL+,f:1
+749a:00c00000:041c:0001:25:0
+Movistar Plus+ HD
+p:Movistar+,f:1
+74a8:00c00000:041c:0001:25:0
+Movistar Plus+2 HD
+p:Movistar+,f:1
+2936:00c00000:0458:0001:1:0
+Xplore
+p:SES,f:1
+2937:00c00000:0458:0001:1:0
+Hip Trips
+p:SES,f:1
+2938:00c00000:0458:0001:1:0
+One Terra
+p:SES,f:1
+2939:00c00000:0458:0001:1:0
+Deluxe Rock
+p:SES,f:1
+293a:00c00000:0458:0001:1:0
+Deluxe Rap
+p:SES,f:1
+293b:00c00000:0458:0001:1:0
+Deluxe Dance by Kontor
+p:SES,f:1
+293c:00c00000:0458:0001:1:0
+Deluxe Flashback
+p:SES,f:1
+293d:00c00000:0458:0001:1:0
+Just Cooking
+p:SES,f:1
+293e:00c00000:0458:0001:1:0
+Just Fishing
+p:SES,f:1
+293f:00c00000:0458:0001:1:0
+Deluxe Lounge
+p:SES,f:1
+2940:00c00000:0458:0001:1:0
+Red Adventure
+p:SES,f:1
+2941:00c00000:0458:0001:1:0
+Crime Time
+p:SES,f:1
+2942:00c00000:0458:0001:1:0
+Serien+
+p:SES,f:1
 001e:00a00000:0001:0040:22:0
 National Geographic Croatia
 p:Max TV,f:1
@@ -9062,9 +9059,9 @@ p:Djemba ITC,f:1
 0010:00a00000:012c:0003:1:0
 Alfa Omega TV
 p:Djemba IT C,f:1
-0001:00a03182:0000:0000:0:0
-Service 24h
-p:
+0001:00a03182:0000:0000:25:0
+PINK DSNG
+p:RTV Pink,f:1
 0001:00a031c7:0001:0001:22:0
 E16a
 p:,f:1
@@ -10184,10 +10181,10 @@ p:SkyItalia,f:1
 1015:00820000:14b4:fbff:25:0
 Discovery HD
 p:SkyItalia,f:1
-1c50:00820000:14b4:fbff:1:0
+1c50:00820000:14b4:fbff:25:0
 Sky Sport Max
 p:SkyItalia,f:1
-1c3f:00820000:14b4:fbff:1:0
+1c3f:00820000:14b4:fbff:25:0
 Sky Cinema Romance
 p:Sky Italia,f:1
 012d:00820000:157c:013e:1:0
@@ -10436,6 +10433,9 @@ p:SkyItalia,f:1
 0de9:00820000:16a8:fbff:25:0
 Sky Sport Bar 1
 p:SkyItalia,f:1
+0bb8:00820000:16a8:fbff:4:0
+PUSH REF SD 3000
+p:SkyItalia
 2aab:00820000:1838:fbff:130:0
 Sport Active 1
 p:SkyItalia,f:1
@@ -13961,6 +13961,15 @@ p:Eutelsat
 05dd:00820000:0321:013e:1:0
 DVB-NIP-VV
 p:,f:1
+1002:00820000:1e14:fbff:1:0
+IEPG Data
+p:SkyItalia,f:1
+1c80:00820000:206c:fbff:1:0
+IEPG Data
+p:SkyItalia,f:1
+1c7d:00820000:206c:fbff:251:0
+Fusion BGDL 7293
+p:SkyItalia
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2023
