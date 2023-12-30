@@ -141,9 +141,6 @@ transponders
 00eb2d8d:0001:ffff
 	s 11661000:7200000:0:3:235:2:0:1:2:0:2
 /
-00eb2cc5:0001:0000
-	s 11461000:7200000:1:3:235:2:0:1:2:0:2
-/
 00ebacd8:0001:ffff
 	s 11480000:7200000:1:3:235:2:0:1:2:0:2
 /
@@ -176,9 +173,6 @@ transponders
 /
 00eb0000:2328:013e
 	s 11659000:3750000:1:3:235:2:0:1:2:0:2
-/
-00eb2ced:0001:0001
-	s 11501000:7200000:0:3:235:2:0:1:2:0:2
 /
 00eb3195:0000:0000
 	s 12693000:5000000:0:6:235:2:0:1:2:0:2
@@ -321,9 +315,6 @@ transponders
 00eb2cff:0001:ffff
 	s 11519000:7200000:0:3:235:2:0:1:2:0:2
 /
-00eb2cce:0000:0000
-	s 11470000:7200000:0:3:235:2:0:1:2:0:2
-/
 00ebb139:0000:0000
 	s 12601000:7200000:1:3:235:2:0:1:2:0:2
 /
@@ -335,6 +326,15 @@ transponders
 /
 00eb319d:0001:0001
 	s 12701000:4938000:0:3:235:2:0:1:2:0:2
+/
+00eb2cc5:00a0:0000
+	s 11461000:7200000:0:3:235:2:0:1:2:0:2
+/
+00eb2cce:00a0:0000
+	s 11470000:7200000:0:3:235:2:0:1:2:0:2
+/
+00eb2ced:4321:00eb
+	s 11501000:7200000:0:3:235:2:0:1:2:0:2
 /
 00c00000:041d:0001
 	s 10773000:22000000:0:3:192:2:0:1:2:0:2
@@ -2942,9 +2942,6 @@ p:M7 Group,f:1
 0001:00eb2d8d:0001:ffff:1:0
 E379 SBK Catalunya Round Main
 p:Service Provider,f:1
-0001:00eb2cc5:0001:0000:25:0
-2SAT HOL319 M30 MAIN
-p:2-SAT Europe,f:1
 0001:00ebacd8:0001:ffff:25:0
 JBB 2023
 p:Service Provider,f:1
@@ -3113,9 +3110,6 @@ p:WDR,f:1
 03fa:00eb0000:2328:013e:1:0
 HNL SD
 p:STN,f:1
-0001:00eb2ced:0001:0001:1:0
-BIRDWATCH2
-p:Timeline,f:1
 0001:00eb3195:0000:0000:0:0
 VRT Enccoder 4
 p:
@@ -3503,9 +3497,6 @@ p:Television,f:1
 0001:00eb2cff:0001:ffff:1:0
 rt1.tv
 p:rt1.tv,f:1
-0001:00eb2cce:0000:0000:25:0
-MMG-D185 HD Encoder 2
-p:,f:1
 0001:00ebb139:0000:0000:1:0
 2DF-Ant4-1
 p:ZDF,f:1
@@ -3518,6 +3509,15 @@ p:BWS Ltd,f:1
 0001:00eb319d:0001:0001:25:0
 Fotbal BA
 p:SLQ-005,f:1
+0001:00eb2cc5:00a0:0000:1:0
+D-381 DIRTY main
+p:WWW.TVN.DE,f:1
+0001:00eb2cce:00a0:0000:1:0
+D-381 CLEAN main
+p:WWW.TVN.DE,f:1
+0001:00eb2ced:4321:00eb:25:0
+Proximus Feed FR Main BEL119
+p:EMG.BE,f:1
 526c:00c00000:041d:0001:25:0
 Anixe HD
 p:BetaDigital,f:1
@@ -4969,6 +4969,12 @@ Current Time TV
 p:M7 Group,f:1
 1005:00c00000:0451:0035:22:0
 BVN - Beste van Vlaanderen en Nederland
+p:M7,f:1
+1009:00c00000:0451:0035:22:0
+INPLUS.
+p:M7,f:1
+100a:00c00000:0451:0035:22:0
+Inplus
 p:M7,f:1
 445c:00c00000:0453:0001:1:0
 Sat 1
@@ -9778,6 +9784,9 @@ Sender Neu Jerusalem
 p:Telespazio,f:1
 1384:00820000:33f4:013e:1:0
 Solo Calcio
+p:Telespazio,f:1
+1325:00820000:33f4:013e:1:0
+KBS World
 p:Telespazio,f:1
 32de:00820000:0190:013e:1:0
 Canal+ Sport HD Polska
