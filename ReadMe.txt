@@ -9,14 +9,14 @@ Morpheus883's Site: http://morpheus883.altervista.org/
 GitHub Repository: https://github.com/morpheus883/
 and available on the main Sat Sites
 
-Enigma2 Settings 30th December 2023, © by Morpheus883
+Enigma2 Settings 5th January 2024, © by Morpheus883
 
 Settings for Images based on Enigma 2.4:
 
 Statistics:
 # Satellites: 90 (Ku Band)
 # Ordered Provider Lists: 70+
-# Services: 16.239 (TV-Radio-Data)
+# Services: 16.232 (TV-Radio-Data)
 # Packages: 23 (TV-Radio-Data):
 
 MONOFeed (13°E)
@@ -160,7 +160,7 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 + Radios
 
 === Compiled with Morpheus883's scripts ===
- ======== © by Morpheus883, 2023 ========
+ ======== © by Morpheus883, 2024 ========
  
 
 The only settings with BlindMarke®
