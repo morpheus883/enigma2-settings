@@ -273,9 +273,6 @@ transponders
 00c00000:045e:0001
 	s 12699000:23500000:1:3:192:2:0:1:2:1:2
 /
-00c0ad8e:0001:ffff
-	s 11662000:9874000:1:3:192:2:0:1:2:0:2
-/
 00c00000:0000:0001
 	s 11485000:9874000:1:3:192:2:0:1:2:0:2
 /
@@ -320,6 +317,9 @@ transponders
 /
 00c00000:0458:0001
 	s 12610000:22000000:1:3:192:2:0:1:2:1:2
+/
+00c02d7f:0001:ffff
+	s 11647000:9874000:0:3:192:2:0:1:2:0:2
 /
 00a00000:0001:0040
 	s 11512000:30000000:0:3:160:2:0:1:2:0:2
@@ -554,6 +554,12 @@ transponders
 /
 00a03113:0001:ffff
 	s 12563000:3703000:0:5:160:2:0
+/
+00a0312d:0042:ffff
+	s 12589000:7200000:0:3:160:2:0:1:2:0:2
+/
+00a0ad8e:0000:0001
+	s 11662000:7200000:1:3:160:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -2402,9 +2408,6 @@ p:MB Satellite,f:1
 313c:00c00000:0459:0001:1:0
 Deutsches Musik Fernsehen
 p:MB Satellite,f:1
-3146:00c00000:0459:0001:1:0
-Rhein Main TV
-p:MB Satellite,f:1
 3148:00c00000:0459:0001:1:0
 Juwelo TV
 p:MB Satellite,f:1
@@ -2513,6 +2516,9 @@ p:MB Satellite,f:1
 315a:00c00000:0459:0001:2:0
 nice
 p:MB Satellite
+3146:00c00000:0459:0001:1:0
+Juwelo TV
+p:MB Satellite,f:1
 332d:00c00000:045b:0001:1:0
 ORF III
 p:ORF Digital,f:1
@@ -3128,11 +3134,14 @@ p:BetaDigital,f:1
 2778:00c00000:0409:0001:25:0
 Channel 21 HD
 p:BetaDigital,f:1
-2775:00c00000:0409:0001:25:0
+277c:00c00000:0409:0001:25:0
 Bild HD
 p:BetaDigital,f:1
 2776:00c00000:0409:0001:25:0
 Handystar TV HD
+p:BetaDigital,f:1
+2775:00c00000:0409:0001:25:0
+1-2-3.tv HD2
 p:BetaDigital,f:1
 33f5:00c00000:03ed:0001:25:0
 ORF2St HD
@@ -4193,9 +4202,6 @@ p:SES,f:1
 2910:00c00000:045e:0001:1:0
 SERIEN+_alt
 p:SES,f:1
-0001:00c0ad8e:0001:ffff:1:0
-ITA396 MAIN
-p:,f:1
 0001:00c00000:0000:0001:0:0
 FEED-1B-TUR139
 p:HDPROTEK
@@ -4472,6 +4478,9 @@ p:SES,f:1
 2942:00c00000:0458:0001:1:0
 Serien+
 p:SES,f:1
+0001:00c02d7f:0001:ffff:1:0
+ITA 491 CLEAN FEED
+p:LIVESAT,f:1
 001e:00a00000:0001:0040:22:0
 National Geographic Croatia
 p:Max TV,f:1
@@ -4802,9 +4811,6 @@ p:Digit Alb,f:1
 0407:00a00000:51a4:016e:1:0
 A1 Report
 p:Digit Alb,f:1
-03ff:00a00000:51a4:016e:1:0
-Discovery Turbo Xtra
-p:DigitALB,f:1
 03ec:00a00000:51a4:016e:25:0
 Animal Planet HD
 p:DigitALB,f:1
@@ -4825,9 +4831,6 @@ Discovery Channel
 p:DigitALB,f:1
 0ca8:00a00000:51a4:016e:25:0
 Playboy TV HD
-p:DigitALB,f:1
-1298:00a00000:51a4:016e:1:0
-DTX
 p:DigitALB,f:1
 0401:00a00000:51a4:016e:1:0
 Nick Toons Adria
@@ -6644,6 +6647,12 @@ p:EUTELSAT,f:1
 0001:00a03113:0001:ffff:1:0
 SIC International
 p:SIC INTERNACIONAL,f:1
+0001:00a0312d:0042:ffff:1:0
+ITA832
+p:ITA832,f:1
+0001:00a0ad8e:0000:0001:25:0
+F512 J15 Agen
+p:IXI PROD 4,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -7161,10 +7170,10 @@ p:,f:1
 AXN Spin HD
 p:,f:1
 32ee:00820000:0190:013e:1:0
-HOME TV
+Home TV
 p:CANAL+,f:1
 32ef:00820000:0190:013e:1:0
-POWER TV
+Power TV
 p:CANAL+,f:1
 089c:00820000:01f4:013e:1:0
 Yemen TV
@@ -7558,9 +7567,6 @@ Ntsra2
 p:NOVA
 0151:00820000:157c:013e:1:0
 Alpha HD
-p:NOVA,f:1
-0134:00820000:157c:013e:1:0
-NovaStarsHD
 p:NOVA,f:1
 013d:00820000:157c:013e:1:0
 M1_TEST2
@@ -8174,9 +8180,6 @@ p:NOVA,f:1
 3c9e:00820000:1bbc:013e:1:0
 Viasat Explore HD
 p:NOVA,f:1
-3c8e:00820000:1bbc:013e:1:0
-Nova Christmas HD
-p:NOVA,f:1
 3c92:00820000:1bbc:013e:1:0
 TLC
 p:NOVA,f:1
@@ -8188,6 +8191,9 @@ Blue Sky
 p:NOVA,f:1
 3c98:00820000:1bbc:013e:1:0
 Attica TV
+p:NOVA,f:1
+3c8e:00820000:1bbc:013e:1:0
+NovaStarsHD
 p:NOVA,f:1
 1c22:00820000:1c20:013e:1:0
 TTN - Télévision Tunisienne Nationale
@@ -10719,7 +10725,7 @@ p:GLOBECAST
 RFI Liban
 p:GLOBECAST
 3358:00820000:1388:013e:2:0
-RFI Persian
+RFI Test HB
 p:GLOBECAST
 3330:00820000:1388:013e:1:0
 KBS World HD

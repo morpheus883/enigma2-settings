@@ -498,14 +498,14 @@ fff80000:02cb:0600
 fff80000:02cc:0600
 	s 12149000:30000000:1:3:-8:2:0:1:2:0:2
 /
-0e08b0e6:0001:ffff
-	s 12518000:2080000:1:3:-8:2:0:1:2:0:2
-/
 0e08b0f0:0001:ffff
 	s 12528000:6660000:1:3:-8:2:0:1:2:0:2
 /
 0e08b0f6:0001:ffff
 	s 12534000:4800000:1:3:-8:2:0:1:2:0:2
+/
+fff80000:00bf:00bf
+	s 12518000:2080000:1:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -1026,10 +1026,10 @@ p:,f:1
 AXN Spin HD
 p:,f:1
 32ee:00820000:0190:013e:1:0
-HOME TV
+Home TV
 p:CANAL+,f:1
 32ef:00820000:0190:013e:1:0
-POWER TV
+Power TV
 p:CANAL+,f:1
 089c:00820000:01f4:013e:1:0
 Yemen TV
@@ -1423,9 +1423,6 @@ Ntsra2
 p:NOVA
 0151:00820000:157c:013e:1:0
 Alpha HD
-p:NOVA,f:1
-0134:00820000:157c:013e:1:0
-NovaStarsHD
 p:NOVA,f:1
 013d:00820000:157c:013e:1:0
 M1_TEST2
@@ -2039,9 +2036,6 @@ p:NOVA,f:1
 3c9e:00820000:1bbc:013e:1:0
 Viasat Explore HD
 p:NOVA,f:1
-3c8e:00820000:1bbc:013e:1:0
-Nova Christmas HD
-p:NOVA,f:1
 3c92:00820000:1bbc:013e:1:0
 TLC
 p:NOVA,f:1
@@ -2053,6 +2047,9 @@ Blue Sky
 p:NOVA,f:1
 3c98:00820000:1bbc:013e:1:0
 Attica TV
+p:NOVA,f:1
+3c8e:00820000:1bbc:013e:1:0
+NovaStarsHD
 p:NOVA,f:1
 1c22:00820000:1c20:013e:1:0
 TTN - Télévision Tunisienne Nationale
@@ -4584,7 +4581,7 @@ p:GLOBECAST
 RFI Liban
 p:GLOBECAST
 3358:00820000:1388:013e:2:0
-RFI Persian
+RFI Test HB
 p:GLOBECAST
 3330:00820000:1388:013e:1:0
 KBS World HD
@@ -5666,6 +5663,15 @@ p:M7,f:1
 75b7:0e080000:02bd:0600:1:0
 History Romania.
 p:M7,f:1
+75a1:0e080000:02bd:0600:25:0
+Arena 4 HD
+p:M7,f:1
+75a2:0e080000:02bd:0600:1:0
+Kanal D2
+p:M7,f:1
+75b8:0e080000:02bd:0600:1:0
+Kanal D2.
+p:M7,f:1
 75fb:0e080000:02be:0600:1:0
 Film +
 p:Focus Sat,f:1
@@ -6304,6 +6310,12 @@ AXN CE
 p:M7,f:1
 78d4:0e080000:02c5:0600:1:0
 AXN CE.
+p:M7,f:1
+78d2:0e080000:02c5:0600:1:0
+Filmbox Basic.
+p:M7,f:1
+78bf:0e080000:02c5:0600:1:0
+Filmbox Basic
 p:M7,f:1
 0207:0e080000:0014:0046:25:0
 CGTN HD
@@ -8318,15 +8330,15 @@ p:M7,f:1
 7abd:fff80000:02cc:0600:22:3
 Moziklub
 p:M7,f:1
-00bb:0e08b0e6:0001:ffff:1:0
-B 187 DGI
-p:DIGI News,f:1
 0001:0e08b0f0:0001:ffff:1:0
 backup
 p:RCS-RDS,f:1
 0137:0e08b0f6:0001:ffff:1:0
 B115DGS
 p:Digi B,f:1
+00bf:fff80000:00bf:00bf:1:0
+B 191 DGI
+p:RCS-RDS,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024
