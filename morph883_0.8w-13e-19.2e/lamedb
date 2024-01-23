@@ -279,9 +279,6 @@ transponders
 00c0ad82:0000:ff00
 	s 11650000:9874000:1:3:192:2:0:1:2:0:2
 /
-00c0ad8e:0000:ff00
-	s 11662000:9874000:1:3:192:2:0:1:2:0:2
-/
 00c00000:0065:a455
 	s 11627000:26000000:1:6:192:2:0:1:2:0:2
 /
@@ -301,7 +298,7 @@ transponders
 	s 11605000:9874000:0:3:192:2:0:1:2:0:2
 /
 00c00000:0414:0001
-	s 11127000:22000000:1:2:192:2:0:1:2:0:2
+	s 11127000:22000000:1:4:192:2:0
 /
 00c00000:03f4:0003
 	s 11377000:22000000:1:2:192:2:0:1:2:0:2
@@ -320,6 +317,9 @@ transponders
 /
 00c02d7f:0001:ffff
 	s 11647000:9874000:0:3:192:2:0:1:2:0:2
+/
+00c0ad8e:0001:ffff
+	s 11662000:9874000:1:3:192:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -829,6 +829,9 @@ fff80000:02cc:0600
 	s 12534000:4800000:1:3:-8:2:0:1:2:0:2
 /
 fff80000:00bf:00bf
+	s 12518000:2080000:1:3:-8:2:0:1:2:0:2
+/
+fff8b0e6:0001:ffff
 	s 12518000:2080000:1:3:-8:2:0:1:2:0:2
 /
 end
@@ -1396,7 +1399,7 @@ ServusTV HD Oesterreich
 p:ORF Digital,f:1
 1332:00c00000:03ef:0001:25:0
 DF1 HD
-p:,f:1
+p:DF1 Medien,f:1
 1334:00c00000:03ef:0001:25:0
 ORF2 N HD
 p:ORF,f:1
@@ -4154,7 +4157,7 @@ p:RR,f:1
 0002:00c0ac8f:0001:0001:1:0
 MM2 Service 2
 p:RR,f:1
-0001:00c0ac8f:0001:0001:1:0
+0001:00c0ac8f:0001:0001:25:0
 MM2 Service 1
 p:RR,f:1
 2904:00c00000:045e:0001:1:0
@@ -4202,9 +4205,6 @@ p:HDPROTEK
 0001:00c0ad82:0000:ff00:25:0
 Are Dirty Feed
 p:Mobile Linke Europe AB,f:1
-0001:00c0ad8e:0000:ff00:25:0
-Are Clean Feed2
-p:,f:1
 0065:00c00000:0065:a455:1:0
 FWWC-WF-A-R
 p:Telstra Broadcast Services,f:1
@@ -4475,6 +4475,9 @@ p:SES,f:1
 0001:00c02d7f:0001:ffff:1:0
 ITA 491 CLEAN FEED
 p:LIVESAT,f:1
+0001:00c0ad8e:0001:ffff:1:0
+SUI-66
+p:In AriaX,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -4796,6 +4799,21 @@ p:GLOBECAST,f:1
 06bd:00820000:3138:013e:1:0
 Karavan TV
 p:GLOBECAST,f:1
+06d9:00820000:3138:013e:2:0
+WRN Russkij
+p:GLOBECAST
+06da:00820000:3138:013e:2:0
+WRN English Europe - Hotbird
+p:GLOBECAST
+06db:00820000:3138:013e:2:0
+Radio Jahani
+p:GLOBECAST
+06dc:00820000:3138:013e:2:0
+EDM Events
+p:GLOBECAST
+06dd:00820000:3138:013e:2:0
+WRN Sawt Al Alam
+p:GLOBECAST
 1f44:00820000:319c:013e:1:0
 MC EU
 p:MEDIA BROADCAST,f:1
@@ -5395,6 +5413,9 @@ NovaSportsExtra2HD
 p:NOVA,f:1
 013c:00820000:157c:013e:1:0
 Disney Junior
+p:NOVA,f:1
+0134:00820000:157c:013e:1:0
+M1_TEST1
 p:NOVA,f:1
 1e53:00820000:15e0:fbff:25:0
 MTV Italia HD
@@ -8954,6 +8975,24 @@ p:SkyItalia,f:1
 1c7d:00820000:206c:fbff:251:0
 Fusion BGDL 7293
 p:SkyItalia
+0065:00820000:2fa8:013e:25:0
+TEST1
+p:TEST,f:1
+0066:00820000:2fa8:013e:25:0
+TEST2
+p:TEST,f:1
+0067:00820000:2fa8:013e:25:0
+TEST4
+p:Unknown,f:1
+006a:00820000:2fa8:013e:25:0
+TEST3
+p:TEST,f:1
+006e:00820000:2fa8:013e:25:0
+TEST5
+p:Unknown,f:1
+006f:00820000:2fa8:013e:25:0
+TEST6
+p:Unknown,f:1
 040a:0e080000:0044:0046:25:0
 TV 2 Sport Premium HD
 p:Canal Digital Nordic,f:1
@@ -11033,9 +11072,6 @@ p:M7,f:1
 79ea:0e080000:02c8:0600:1:0
 Focus Sat TV
 p:M7,f:1
-79e1:0e080000:02c8:0600:25:0
-Direct One HD
-p:M7,f:1
 79fa:0e080000:02c8:0600:1:0
 TV Paprika RO
 p:M7,f:1
@@ -11987,6 +12023,12 @@ p:Telenor,f:1
 32d1:0e080000:0054:0046:22:0
 Test 13009
 p:Telenor,f:1
+ff14:0e080000:0054:0046:1:0
+
+p:,f:1
+ff15:0e080000:0054:0046:1:0
+
+p:,f:1
 0136:fff8b0f3:0136:ffff:25:0
 digisport
 p:rcs-rds,f:1
@@ -12164,9 +12206,9 @@ p:RCS-RDS,f:1
 00bb:0e08b0f6:0001:ffff:1:0
 B 187 DGI
 p:DIGI News,f:1
-00bf:fff80000:00bf:00bf:1:0
-B 191 DGI
-p:RCS-RDS,f:1
+00bb:fff8b0e6:0001:ffff:1:0
+B 187 DGI
+p:DIGI News,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024

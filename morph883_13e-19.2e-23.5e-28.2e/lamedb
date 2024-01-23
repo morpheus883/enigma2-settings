@@ -564,12 +564,6 @@ transponders
 00ebb116:0001:ffff
 	s 12566000:7200000:1:3:235:2:0:1:2:0:2
 /
-00ebb187:0001:ffff
-	s 12679000:7200000:1:4:235:2:0:1:2:0:2
-/
-00ebad07:0002:ffff
-	s 11527000:7200000:1:3:235:2:0:1:2:0:2
-/
 00ebacde:0001:0001
 	s 11486000:15000000:1:4:235:2:0:1:2:0:2
 /
@@ -600,9 +594,6 @@ transponders
 00eb2cce:00a0:0000
 	s 11470000:7200000:0:3:235:2:0:1:2:0:2
 /
-00eb2ced:4321:00eb
-	s 11501000:7200000:0:3:235:2:0:1:2:0:2
-/
 00ebacf2:0001:0001
 	s 11506000:14400000:1:3:235:2:0:1:2:0:2
 /
@@ -611,6 +602,18 @@ transponders
 /
 00ebb14a:0001:ffff
 	s 12618000:9600000:1:3:235:2:0:1:2:0:2
+/
+00ebb187:0001:0001
+	s 12679000:7200000:1:4:235:2:0:1:2:0:2
+/
+00ebb193:0001:ffff
+	s 12691000:7200000:1:4:235:2:0:1:2:0:2
+/
+00eb2ced:0002:ffff
+	s 11501000:7200000:0:3:235:2:0:1:2:0:2
+/
+00ebad07:0000:0000
+	s 11527000:7200000:1:3:235:2:0:1:2:0:2
 /
 00c00000:041d:0001
 	s 10773000:22000000:0:3:192:2:0:1:2:0:2
@@ -891,9 +894,6 @@ transponders
 00c0ad82:0000:ff00
 	s 11650000:9874000:1:3:192:2:0:1:2:0:2
 /
-00c0ad8e:0000:ff00
-	s 11662000:9874000:1:3:192:2:0:1:2:0:2
-/
 00c00000:0065:a455
 	s 11627000:26000000:1:6:192:2:0:1:2:0:2
 /
@@ -913,7 +913,7 @@ transponders
 	s 11605000:9874000:0:3:192:2:0:1:2:0:2
 /
 00c00000:0414:0001
-	s 11127000:22000000:1:2:192:2:0:1:2:0:2
+	s 11127000:22000000:1:4:192:2:0
 /
 00c00000:03f4:0003
 	s 11377000:22000000:1:2:192:2:0:1:2:0:2
@@ -932,6 +932,9 @@ transponders
 /
 00c02d7f:0001:ffff
 	s 11647000:9874000:0:3:192:2:0:1:2:0:2
+/
+00c0ad8e:0001:ffff
+	s 11662000:9874000:1:3:192:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -2033,15 +2036,6 @@ p:BSkyB,f:1
 c4ae:011a0000:0811:0002:1:0
 Blaze
 p:BSkyB,f:1
-c490:011a0000:0811:0002:1:0
-GOLD Ireland
-p:BSkyB,f:1
-c4a5:011a0000:0811:0002:1:0
-Alibi Ireland
-p:BSkyB,f:1
-c4b3:011a0000:0811:0002:1:0
-Watch Ireland
-p:BSkyB,f:1
 c482:011a0000:0811:0002:1:0
 NOW 80s
 p:BSkyB,f:1
@@ -2491,6 +2485,15 @@ Alibi +1
 p:BSkyB,f:1
 621c:011a0000:07e6:0002:1:0
 Yesterday +1
+p:BSkyB,f:1
+6220:011a0000:07e6:0002:1:0
+GOLD Ireland
+p:BSkyB,f:1
+6221:011a0000:07e6:0002:1:0
+Alibi Ireland
+p:BSkyB,f:1
+6222:011a0000:07e6:0002:1:0
+Watch Ireland
 p:BSkyB,f:1
 0fc0:011a0000:07d3:0002:25:0
 Utsav Gold HD
@@ -3419,6 +3422,15 @@ p:BSkyB,f:1
 287b:011aaa42:0800:0002:25:0
 BBC One London HD
 p:BSkyB,f:1
+287f:011aaa42:0800:0002:2:0
+BBC R Ulster
+p:BSkyB
+2880:011aaa42:0800:0002:2:0
+BBC R Foyle
+p:BSkyB
+2889:011aaa42:0800:0002:2:0
+BBC R4 LW
+p:BSkyB
 285f:011aaa24:07fe:0002:25:0
 BBCScotlandHD
 p:BSkyB,f:1
@@ -3739,6 +3751,9 @@ Nautical HD
 p:M7 Group,f:1
 1b62:00eb0000:0c88:0003:25:0
 DreamWorks
+p:M7 Group,f:1
+1b97:00eb0000:0c88:0003:22:0
+Crime+Investigation
 p:M7 Group,f:1
 17d5:00eb0000:0c91:0003:25:0
 Unitel Classica HD
@@ -6050,12 +6065,6 @@ p:,f:1
 0001:00ebb116:0001:ffff:1:0
 ITA 452 world
 p:LIVESAT,f:1
-0001:00ebb187:0001:ffff:25:0
-D412  Paderborn Dirty WDR
-p:TelLink,f:1
-0001:00ebad07:0002:ffff:1:0
-D 410 Frankfurt
-p:MediaBroadcast,f:1
 0001:00ebacde:0001:0001:25:0
 BBC SATOPS
 p:BBC SATOPS,f:1
@@ -6086,9 +6095,6 @@ p:WWW.TVN.DE,f:1
 0001:00eb2cce:00a0:0000:1:0
 D-381 CLEAN main
 p:WWW.TVN.DE,f:1
-0001:00eb2ced:4321:00eb:25:0
-Proximus Feed FR Main BEL119
-p:EMG.BE,f:1
 0001:00ebacf2:0001:0001:25:0
 D174_Oper_Muenchen
 p:MB,f:1
@@ -6098,6 +6104,18 @@ p:Timeline,f:1
 0001:00ebb14a:0001:ffff:1:0
 ZDF DSNG
 p:ZDF,f:1
+0001:00ebb187:0001:0001:1:0
+MMG Ce-1 Enc1
+p:,f:1
+0001:00ebb193:0001:ffff:1:0
+SNG
+p:ARD,f:1
+0001:00eb2ced:0002:ffff:1:0
+D 406 1
+p:Media Broadcast,f:1
+0001:00ebad07:0000:0000:25:0
+D-103 Enc.1
+p:SNG D-103 Vahland TV,f:1
 526c:00c00000:041d:0001:25:0
 Anixe HD
 p:BetaDigital,f:1
@@ -6661,7 +6679,7 @@ ServusTV HD Oesterreich
 p:ORF Digital,f:1
 1332:00c00000:03ef:0001:25:0
 DF1 HD
-p:,f:1
+p:DF1 Medien,f:1
 1334:00c00000:03ef:0001:25:0
 ORF2 N HD
 p:ORF,f:1
@@ -9419,7 +9437,7 @@ p:RR,f:1
 0002:00c0ac8f:0001:0001:1:0
 MM2 Service 2
 p:RR,f:1
-0001:00c0ac8f:0001:0001:1:0
+0001:00c0ac8f:0001:0001:25:0
 MM2 Service 1
 p:RR,f:1
 2904:00c00000:045e:0001:1:0
@@ -9467,9 +9485,6 @@ p:HDPROTEK
 0001:00c0ad82:0000:ff00:25:0
 Are Dirty Feed
 p:Mobile Linke Europe AB,f:1
-0001:00c0ad8e:0000:ff00:25:0
-Are Clean Feed2
-p:,f:1
 0065:00c00000:0065:a455:1:0
 FWWC-WF-A-R
 p:Telstra Broadcast Services,f:1
@@ -9740,6 +9755,9 @@ p:SES,f:1
 0001:00c02d7f:0001:ffff:1:0
 ITA 491 CLEAN FEED
 p:LIVESAT,f:1
+0001:00c0ad8e:0001:ffff:1:0
+SUI-66
+p:In AriaX,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -10061,6 +10079,21 @@ p:GLOBECAST,f:1
 06bd:00820000:3138:013e:1:0
 Karavan TV
 p:GLOBECAST,f:1
+06d9:00820000:3138:013e:2:0
+WRN Russkij
+p:GLOBECAST
+06da:00820000:3138:013e:2:0
+WRN English Europe - Hotbird
+p:GLOBECAST
+06db:00820000:3138:013e:2:0
+Radio Jahani
+p:GLOBECAST
+06dc:00820000:3138:013e:2:0
+EDM Events
+p:GLOBECAST
+06dd:00820000:3138:013e:2:0
+WRN Sawt Al Alam
+p:GLOBECAST
 1f44:00820000:319c:013e:1:0
 MC EU
 p:MEDIA BROADCAST,f:1
@@ -10660,6 +10693,9 @@ NovaSportsExtra2HD
 p:NOVA,f:1
 013c:00820000:157c:013e:1:0
 Disney Junior
+p:NOVA,f:1
+0134:00820000:157c:013e:1:0
+M1_TEST1
 p:NOVA,f:1
 1e53:00820000:15e0:fbff:25:0
 MTV Italia HD
@@ -14219,6 +14255,24 @@ p:SkyItalia,f:1
 1c7d:00820000:206c:fbff:251:0
 Fusion BGDL 7293
 p:SkyItalia
+0065:00820000:2fa8:013e:25:0
+TEST1
+p:TEST,f:1
+0066:00820000:2fa8:013e:25:0
+TEST2
+p:TEST,f:1
+0067:00820000:2fa8:013e:25:0
+TEST4
+p:Unknown,f:1
+006a:00820000:2fa8:013e:25:0
+TEST3
+p:TEST,f:1
+006e:00820000:2fa8:013e:25:0
+TEST5
+p:Unknown,f:1
+006f:00820000:2fa8:013e:25:0
+TEST6
+p:Unknown,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024
