@@ -813,9 +813,6 @@ fff8acde:0001:0001
 fff8ad00:0000:ff00
 	s 11520000:7200000:1:3:-8:2:0:1:2:0:2
 /
-0e080000:0065:0065
-	s 12543000:6660000:1:3:-8:2:0:1:2:0:2
-/
 fff80000:02cb:0600
 	s 12111000:30000000:1:3:-8:2:0:1:2:0:2
 /
@@ -828,11 +825,11 @@ fff80000:02cc:0600
 0e08b0f6:0001:ffff
 	s 12534000:4800000:1:3:-8:2:0:1:2:0:2
 /
-fff80000:00bf:00bf
-	s 12518000:2080000:1:3:-8:2:0:1:2:0:2
-/
 fff8b0e6:0001:ffff
 	s 12518000:2080000:1:3:-8:2:0:1:2:0:2
+/
+fff8b0ff:0001:ffff
+	s 12543000:6660000:1:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -984,7 +981,7 @@ p:Movistar+,f:1
 ALQUILER
 p:Movistar+,f:1
 75b2:00c00000:0422:0001:1:0
-ALQUILER
+Alquiler
 p:Movistar+,f:1
 75c6:00c00000:0422:0001:1:0
 PORTADA
@@ -1155,7 +1152,7 @@ p:Movistar+,f:1
 Liga de Campeones 2
 p:Movistar+,f:1
 77bd:00c00000:040a:0001:1:0
-M+ Supercopa
+M+ Copa del Rey
 p:Movistar+,f:1
 77c7:00c00000:040a:0001:1:0
 DreamWorks
@@ -1434,7 +1431,7 @@ p:AXN,f:1
 Iberalia
 p:DIGITAL+,f:1
 7478:00c00000:03f0:0001:1:0
-#0
+M+ Originales
 p:Movistar+,f:1
 7473:00c00000:03f0:0001:1:0
 Aragón TV Int
@@ -4419,7 +4416,7 @@ p:Movistar+,f:1
 Liga de Campeones 3 HD
 p:Movistar+,f:1
 74a3:00c00000:041c:0001:25:0
-M+Supercopa HD
+M+ Copa del Rey HD
 p:Movistar+,f:1
 749e:00c00000:041c:0001:25:0
 M+LCampeones 2
@@ -7220,9 +7217,6 @@ p:CANAL+
 1419:00820000:05dc:013e:2:0
 JASNA GORA
 p:CANAL+
-1414:00820000:05dc:013e:2:0
-MUZO.FM
-p:CANAL+
 1420:00820000:05dc:013e:1:0
 Canal+ Sport 2 HD
 p:CANAL+,f:1
@@ -7788,7 +7782,7 @@ p:KABELIO.CH,f:1
 Kabelio Channel 5
 p:KABELIO.CH,f:1
 3760:00820000:06a4:013e:25:0
-Kabelio FreeSports
+Kabelio ITV3
 p:KABELIO.CH,f:1
 3765:00820000:06a4:013e:25:0
 Kabelio BBC3/CBBC
@@ -7825,6 +7819,9 @@ Kabelio ITV2
 p:KABELIO.CH,f:1
 3764:00820000:06a4:013e:25:0
 Kabelio ITV4
+p:KABELIO.CH,f:1
+376a:00820000:06a4:013e:1:0
+Kabelio RTL9 CH
 p:KABELIO.CH,f:1
 10ea:00820000:03e8:013e:25:0
 TVN 24 Bizness HD
@@ -7888,9 +7885,6 @@ Simaye Azadi HD
 p:M-Three Satcom,f:1
 052f:00820000:3d54:013e:22:0
 Super!
-p:M-Three Satcom Srl,f:1
-052e:00820000:3d54:013e:25:0
-VH1 HD
 p:M-Three Satcom Srl,f:1
 0532:00820000:3d54:013e:2:0
 RVS-Accendi la Speranza
@@ -8024,9 +8018,6 @@ p:nc+,f:1
 1179:00820000:2af8:013e:31:0
 CANAL+ 4K ULTRA HD
 p:nc+,f:1
-118a:00820000:2af8:013e:31:0
-Player
-p:CANAL+,f:1
 115e:00820000:2af8:013e:1:0
 
 p:CANAL+,f:1
@@ -8054,9 +8045,6 @@ p:CANAL+,f:1
 113b:00820000:2af8:013e:1:0
 FightKlub HD
 p:CANAL+,f:1
-118b:00820000:2af8:013e:12:0
-DATA
-p:CANAL+
 1140:00820000:2af8:013e:22:0
 Blue Hustler
 p:CANAL+,f:1
@@ -8231,9 +8219,6 @@ p:M-Three satcom,f:1
 0216:00820000:0384:013e:1:0
 Iraqia News HD
 p:,f:1
-01f6:00820000:0384:013e:1:0
-AIRMONT
-p:VITEC,f:1
 0217:00820000:0384:013e:25:0
 Channel 8 ARA
 p:,f:1
@@ -9518,15 +9503,6 @@ p:M7,f:1
 75b6:0e080000:02bd:0600:1:0
 TV1000.
 p:M7,f:1
-759b:0e080000:02bd:0600:22:0
-Fightbox
-p:M7,f:1
-75ab:0e080000:02bd:0600:22:0
-Docubox
-p:M7,f:1
-75ac:0e080000:02bd:0600:22:0
-Eroxxx
-p:M7,f:1
 75b7:0e080000:02bd:0600:1:0
 History Romania.
 p:M7,f:1
@@ -9602,14 +9578,17 @@ p:UPC,f:1
 75ff:0e080000:02be:0600:1:0
 ATV Spirit
 p:UPC Direct,f:1
-75fa:0e080000:02be:0600:25:0
-Filmbox Premium HD
-p:M7,f:1
 7604:0e080000:02be:0600:22:0
 TV8
 p:M7,f:1
 760a:0e080000:02be:0600:25:0
 Nat Geo Wild CZ HD
+p:M7,f:1
+7618:0e080000:02be:0600:1:0
+Duna World / M4 Sport+ (SVT)
+p:M7,f:1
+7619:0e080000:02be:0600:1:0
+ATV (SVT)
 p:M7,f:1
 7919:0e080000:02c6:0600:25:0
 Duna HD
@@ -10091,9 +10070,6 @@ p:MTV Networks Europe,f:1
 0201:0e080000:001b:02c0:1:0
 Comedy Central Hungary.
 p:MTV Networks Europe,f:1
-78b9:0e080000:02c5:0600:1:0
-CBS Reality
-p:UPC Direct,f:1
 78bc:0e080000:02c5:0600:1:0
 National Geographic RO
 p:Focus Sat,f:1
@@ -10139,9 +10115,6 @@ p:UPC Direct,f:1
 78d1:0e080000:02c5:0600:1:0
 Hustler.
 p:UPC Direct,f:1
-78cb:0e080000:02c5:0600:1:0
-CBS Reality ( SVT)
-p:UPC Direct,f:1
 78d3:0e080000:02c5:0600:1:0
 Stingray iConcerts
 p:UPC Direct,f:1
@@ -10186,6 +10159,15 @@ Filmbox Basic.
 p:M7,f:1
 78bf:0e080000:02c5:0600:1:0
 Filmbox Basic
+p:M7,f:1
+78d9:0e080000:02c5:0600:1:0
+Fem3 HU (SVT)
+p:M7,f:1
+78da:0e080000:02c5:0600:1:0
+Prime (SVT)
+p:M7,f:1
+78db:0e080000:02c5:0600:1:0
+SuperTV2 (SVT)
 p:M7,f:1
 0207:0e080000:0014:0046:25:0
 CGTN HD
@@ -10502,15 +10484,6 @@ p:M7,f:1
 7726:0e080000:02c1:0600:25:0
 M2 HD
 p:M7,f:1
-772c:0e080000:02c1:0600:22:0
-CNBC Europe
-p:M7,f:1
-772d:0e080000:02c1:0600:22:0
-Bloomberg
-p:M7,f:1
-772e:0e080000:02c1:0600:22:0
-Fashion TV Hun
-p:M7,f:1
 772b:0e080000:02c1:0600:22:0
 Filmbox Premium Hungary
 p:M7,f:1
@@ -10520,14 +10493,8 @@ p:M7,f:1
 773b:0e080000:02c1:0600:25:0
 FilmBox Extra HD
 p:M7,f:1
-773c:0e080000:02c1:0600:25:0
-History HD
-p:M7,f:1
 7725:0e080000:02c1:0600:25:0
 Nat Geo Wild Romania HD
-p:M7,f:1
-772a:0e080000:02c1:0600:22:0
-Arena Sport 1
 p:M7,f:1
 773a:0e080000:02c1:0600:25:0
 M5 HD
@@ -10537,9 +10504,6 @@ TVR 1 HD
 p:M7,f:1
 772f:0e080000:02c1:0600:25:0
 TV2 HD (HU)
-p:M7,f:1
-7730:0e080000:02c1:0600:25:0
-Story4 HD
 p:M7,f:1
 7731:0e080000:02c1:0600:25:0
 JOJ Sport HD
@@ -11171,6 +11135,12 @@ p:M7,f:1
 798f:0e080000:02c7:0600:1:0
 AXN Czech
 p:ESS,f:1
+79a1:0e080000:02c7:0600:1:0
+m5 (SVT)
+p:M7,f:1
+79a2:0e080000:02c7:0600:1:0
+TV2 Sef (SVT)
+p:M7,f:1
 1cf3:0e080000:0019:0046:1:0
 Blue Hustler
 p:Telenor,f:1
@@ -11426,9 +11396,6 @@ p:DIGI
 03ec:0e080000:0007:0001:1:0
 B1 TV
 p:DIGI,f:1
-0fab:0e080000:0af4:00bb:1:0
-Discovery Turbo Xtra
-p:Slovak Telekom,f:1
 0fac:0e080000:0af4:00bb:25:0
 Prima Krimi HD
 p:Slovak Telekom,f:1
@@ -11816,9 +11783,6 @@ p:Slovak Telekom,f:1
 233f:0e080000:0af9:00bb:22:0
 ID
 p:Slovak Telekom,f:1
-2341:0e080000:0af9:00bb:22:0
-Discovery Science
-p:Slovak Telekom,f:1
 2335:0e080000:0af9:00bb:25:0
 Animal Planet HD
 p:Slovak Telekom,f:1
@@ -12047,9 +12011,6 @@ p:TTS
 0001:fff8ad00:0000:ff00:25:0
 Culture Donegal
 p:2Sat Europe,f:1
-0065:0e080000:0065:0065:1:0
-B 101 DGI
-p:RCS-RDS BUCURESTI,f:1
 7a51:fff80000:02cb:0600:1:0
 Sport1 CZE.
 p:M7,f:1
@@ -12209,6 +12170,9 @@ p:DIGI News,f:1
 00bb:fff8b0e6:0001:ffff:1:0
 B 187 DGI
 p:DIGI News,f:1
+0001:fff8b0ff:0001:ffff:1:0
+backup
+p:RCS-RDS,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024
