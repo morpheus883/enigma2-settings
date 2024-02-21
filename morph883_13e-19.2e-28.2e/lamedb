@@ -261,6 +261,9 @@ transponders
 011a0000:07ff:0002
 	s 10803000:22000000:0:4:282:2:0
 /
+011a3103:0001:0001
+	s 12547000:7200000:0:7:282:2:0:1:2:0:2
+/
 00c00000:041d:0001
 	s 10773000:22000000:0:3:192:2:0:1:2:0:2
 /
@@ -2000,6 +2003,18 @@ p:BSkyB
 d797:011a0000:082f:0002:2:0
 Heart 80s
 p:BSkyB
+d746:011a0000:082f:0002:1:0
+Pitaara
+p:BSkyB,f:1
+d773:011a0000:082f:0002:1:0
+Kanshi TV
+p:BSkyB,f:1
+d766:011a0000:082f:0002:1:0
+Channel S TV
+p:BSkyB,f:1
+d79e:011a0000:082f:0002:2:0
+talkSPORT
+p:BSkyB
 c6d7:011a0000:0840:0002:1:0
 True Crime X
 p:BSkyB,f:1
@@ -2456,9 +2471,6 @@ p:BSkyB,f:1
 d818:011a0000:0838:0002:25:0
 Viaplay 1 HD
 p:BSkyB,f:1
-cb8a:011a0000:0831:0002:1:0
-Kanshi TV
-p:BSkyB,f:1
 cb8b:011a0000:0831:0002:1:0
 NOW 70s
 p:BSkyB,f:1
@@ -2468,20 +2480,11 @@ p:BSkyB,f:1
 cb90:011a0000:0831:0002:1:0
 BabeNation
 p:BSkyB,f:1
-cbdc:011a0000:0831:0002:2:0
-talkSPORT
-p:BSkyB
-cb86:011a0000:0831:0002:1:0
-Pitaara
-p:BSkyB,f:1
 cbab:011a0000:0831:0002:1:0
 That's TV
 p:BSkyB,f:1
 cba7:011a0000:0831:0002:1:0
 Talking Pictures TV
-p:BSkyB,f:1
-cb8d:011a0000:0831:0002:1:0
-Channel S TV
 p:BSkyB,f:1
 cb99:011a0000:0831:0002:1:0
 That's 60s
@@ -2675,6 +2678,9 @@ p:BSkyB,f:1
 041a:011a0000:07f0:0002:198:0
 BDL
 p:BSkyB
+179e:011a0000:07f0:0002:25:0
+Sony Max HD
+p:BSkyB,f:1
 1c27:011a0000:083b:0002:1:0
 Magic (UK)
 p:BSkyB,f:1
@@ -2813,17 +2819,8 @@ p:BSkyB,f:1
 0f2c:011a0000:07e5:0002:25:0
 Sky Sci-Fi HD
 p:BSkyB,f:1
-0f52:011a0000:07e5:0002:25:0
-Dave HD
-p:BSkyB,f:1
-0fa5:011a0000:07e5:0002:25:0
-Sony Max HD
-p:BSkyB,f:1
 144b:011a0000:07e5:0002:25:0
 Sky History 2 HD
-p:BSkyB,f:1
-1793:011a0000:07e5:0002:25:0
-National Geographic HD UK
 p:BSkyB,f:1
 149e:011a0000:07e5:0002:25:0
 SkyShowcaseHD
@@ -2896,6 +2893,9 @@ RTÉ One HD
 p:BSkyB,f:1
 16c7:011a0000:07eb:0002:25:0
 Sky Mix HD
+p:BSkyB,f:1
+1b77:011a0000:07eb:0002:25:0
+National Geographic HD UK
 p:BSkyB,f:1
 0001:011a30db:0001:ffff:1:0
 EDS806HD.1
@@ -3377,6 +3377,9 @@ p:BSkyB
 1957:011a0000:07ff:0002:2:0
 BBC R Foyle
 p:BSkyB
+0001:011a3103:0001:0001:1:0
+UKI-1955-2
+p:Red Cat 1,f:1
 526c:00c00000:041d:0001:25:0
 Anixe HD
 p:BetaDigital,f:1
@@ -5738,6 +5741,9 @@ p:-,f:1
 3404:00c00000:03ed:0001:22:0
 Stimmungsgarten TV
 p:ORS,f:1
+33fe:00c00000:03ed:0001:25:0
+Service 13310
+p:ORF,f:1
 1086:00c00000:03ee:0001:31:0
 QVC UHD
 p:MX1,f:1
@@ -6316,9 +6322,6 @@ Game One HD
 p:CSAT,f:1
 24c6:00c00000:043c:0001:25:0
 Trace Urban HD
-p:CSAT,f:1
-24ba:00c00000:043c:0001:25:0
-Mosaique Ligue Des Champions
 p:CSAT,f:1
 24bf:00c00000:043c:0001:25:0
 Novelas TV HD
@@ -7176,7 +7179,7 @@ p:Cyfrowy Polsat S.A.,f:1
 Polsat Sport Premium PPV4
 p:Cyfrowy Polsat S.A.,f:1
 3e30:00820000:2ee0:013e:1:0
-Dla Abonentow 2
+PPV HD
 p:Cyfrowy Polsat S.A.,f:1
 4331:00820000:300c:013e:25:0
 SRF 1 HD
@@ -8807,9 +8810,6 @@ p:
 1c8c:00820000:1ce8:0071:1:0
 Disco Polo Music
 p:Cyfrowy Polsat S.A.,f:1
-1c8e:00820000:1ce8:0071:1:0
-Disco Polo Music
-p:Cyfrowy Polsat S.A.,f:1
 1ce0:00820000:1ce8:0071:132:0
 HD5500s
 p:Cyfrowy Polsat S.A
@@ -9593,37 +9593,37 @@ p:Cyfrowy Polsat S.A.,f:1
 427c:00820000:2bc0:013e:1:0
 
 p:,f:1
-3dcd:00820000:0640:013e:1:0
+3dcd:00820000:0640:013e:25:0
 TVN HD
-p:Cyfrowy Polsat,f:1
-3dce:00820000:0640:013e:1:0
+p:TVN,f:1
+3dce:00820000:0640:013e:25:0
 TVN Style HD
-p:N,f:1
-3dcf:00820000:0640:013e:1:0
+p:TVN,f:1
+3dcf:00820000:0640:013e:25:0
 TVN Style HD
-p:N,f:1
-3dd0:00820000:0640:013e:1:0
+p:TVN,f:1
+3dd0:00820000:0640:013e:25:0
 TVN Turbo HD
 p:TVN,f:1
-3dd1:00820000:0640:013e:1:0
+3dd1:00820000:0640:013e:25:0
 TVN Turbo HD
 p:TVN,f:1
-3dd2:00820000:0640:013e:1:0
+3dd2:00820000:0640:013e:25:0
 TVN 24 HD
 p:TVN,f:1
-3dd3:00820000:0640:013e:1:0
+3dd3:00820000:0640:013e:25:0
 TVN 7 HD
 p:TVN,f:1
-3dd6:00820000:0640:013e:1:0
+3dd6:00820000:0640:013e:25:0
 TVN Fabula
 p:TVN,f:1
-3dea:00820000:0640:013e:1:0
+3dea:00820000:0640:013e:25:0
 TVN HD_
 p:TVN SA,f:1
-3deb:00820000:0640:013e:1:0
+3deb:00820000:0640:013e:25:0
 TVN 7 HD_
 p:TVN,f:1
-3dd7:00820000:0640:013e:1:0
+3dd7:00820000:0640:013e:25:0
 TTV HD
 p:TVN,f:1
 3dd8:00820000:0640:013e:25:0
@@ -9632,13 +9632,13 @@ p:TVN,f:1
 3dd9:00820000:0640:013e:25:0
 Food Network HD
 p:TVN,f:1
-3dec:00820000:0640:013e:1:0
+3dec:00820000:0640:013e:25:0
 Food Network HD_
 p:TVN,f:1
-3dd4:00820000:0640:013e:1:0
+3dd4:00820000:0640:013e:25:0
 Metro HD
 p:TVN,f:1
-3ded:00820000:0640:013e:1:0
+3ded:00820000:0640:013e:25:0
 TVN 24 HD
 p:TVN,f:1
 1bc3:00820000:17d4:013e:1:0
@@ -10387,9 +10387,6 @@ TVN 24 Bizness HD
 p:TVN,f:1
 10eb:00820000:03e8:013e:25:0
 HGTV HD
-p:TVN,f:1
-10ec:00820000:03e8:013e:25:0
-Food Network HD EMEA
 p:TVN,f:1
 10e1:00820000:03e8:013e:25:0
 MotorTrend
@@ -11331,7 +11328,7 @@ p:TVN DIscovery Group,f:1
 K2
 p:TVN DIscovery Group,f:1
 3b61:00820000:012c:013e:25:0
-Realtime Italy
+Realtime Italy HD
 p:TVN DIscovery Group,f:1
 3b63:00820000:012c:013e:25:0
 Food Network Italy HD
@@ -11532,23 +11529,32 @@ p:SkyItalia,f:1
 Fusion BGDL 7293
 p:SkyItalia
 0065:00820000:2fa8:013e:25:0
-TEST1
+Svoboda
 p:TEST,f:1
 0066:00820000:2fa8:013e:25:0
 TEST2
 p:TEST,f:1
 0067:00820000:2fa8:013e:25:0
-TEST4
+Gordon Live
 p:Unknown,f:1
 006a:00820000:2fa8:013e:25:0
-TEST3
+Belarus Tomorrow
 p:TEST,f:1
 006e:00820000:2fa8:013e:25:0
-TEST5
+TV8
 p:Unknown,f:1
 006f:00820000:2fa8:013e:25:0
-TEST6
+Ost/West 24
 p:Unknown,f:1
+00c9:00820000:2fa8:013e:2:0
+Radio ECHO
+p:Svoboda Satellite
+00ca:00820000:2fa8:013e:2:0
+Radio SAKHAROV
+p:Svoboda Satellite
+00cb:00820000:2fa8:013e:2:0
+EURORADIO
+p:Svoboda Satellite
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024

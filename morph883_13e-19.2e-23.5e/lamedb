@@ -81,9 +81,6 @@ transponders
 00eb3183:0001:ffff
 	s 12675000:7200000:1:3:235:2:0:1:2:0:2
 /
-00ebb193:4321:00eb
-	s 12691000:4800000:1:3:235:2:0:1:2:0:2
-/
 00eb319a:0002:ffff
 	s 12698000:7200000:0:3:235:2:0:1:2:0:2
 /
@@ -185,9 +182,6 @@ transponders
 /
 00ebacc9:0000:0000
 	s 11465000:4800000:1:3:235:2:0:1:2:0:2
-/
-00ebb12f:0001:ffff
-	s 12591000:7200000:1:3:235:2:0:1:2:0:2
 /
 00ebad83:0000:0001
 	s 11651000:7200000:1:3:235:2:0:1:2:0:2
@@ -350,6 +344,12 @@ transponders
 /
 00eb2cff:0001:ffff
 	s 11519000:7200000:0:3:235:2:0:1:2:0:2
+/
+00ebb12f:0001:0001
+	s 12591000:7200000:1:3:235:2:0:1:2:0:2
+/
+00eb2da3:0000:0000
+	s 11683000:14400000:0:3:235:2:0:1:2:0:2
 /
 00c00000:041d:0001
 	s 10773000:22000000:0:3:192:2:0:1:2:0:2
@@ -2456,9 +2456,6 @@ p:TVP POL34,f:1
 0001:00eb3183:0001:ffff:1:0
 WDR Innenstadt
 p:WDR,f:1
-0001:00ebb193:4321:00eb:25:0
-D128 Path 1
-p:Betamobil,f:1
 0001:00eb319a:0002:ffff:1:0
 D265 DFW #1
 p:diefernsehwerft,f:1
@@ -2892,8 +2889,8 @@ p:,f:1
 D405 Koeln 3.BL
 p:Service Provider,f:1
 0001:00eb30f1:0000:0000:25:0
-E380 PATH1
-p:,f:1
+Kildare v Armagh Clean
+p:Digisat,f:1
 0001:00eb2ce1:0001:ffff:1:0
 Tower OB TX3
 p:BT TVOB,f:1
@@ -2915,9 +2912,6 @@ p:Media Link,f:1
 0001:00ebacc9:0000:0000:25:0
 D-103 Enc.1
 p:SNG D-103 Vahland TV,f:1
-0001:00ebb12f:0001:ffff:1:0
-RT-1 DSNG Enc1
-p:Service Provider,f:1
 0001:00ebad83:0000:0001:25:0
 Duisburg
 p:Media Broadcast,f:1
@@ -3329,6 +3323,12 @@ p:Media Broadcast,f:1
 0001:00eb2cff:0001:ffff:1:0
 Service-1
 p:Service Provider,f:1
+0001:00ebb12f:0001:0001:25:0
+D-452
+p:SiKo_Munich,f:1
+0001:00eb2da3:0000:0000:1:0
+ITA-274 MAIN
+p:Live Images,f:1
 526c:00c00000:041d:0001:25:0
 Anixe HD
 p:BetaDigital,f:1
@@ -5690,6 +5690,9 @@ p:-,f:1
 3404:00c00000:03ed:0001:22:0
 Stimmungsgarten TV
 p:ORS,f:1
+33fe:00c00000:03ed:0001:25:0
+Service 13310
+p:ORF,f:1
 1086:00c00000:03ee:0001:31:0
 QVC UHD
 p:MX1,f:1
@@ -6268,9 +6271,6 @@ Game One HD
 p:CSAT,f:1
 24c6:00c00000:043c:0001:25:0
 Trace Urban HD
-p:CSAT,f:1
-24ba:00c00000:043c:0001:25:0
-Mosaique Ligue Des Champions
 p:CSAT,f:1
 24bf:00c00000:043c:0001:25:0
 Novelas TV HD
@@ -7128,7 +7128,7 @@ p:Cyfrowy Polsat S.A.,f:1
 Polsat Sport Premium PPV4
 p:Cyfrowy Polsat S.A.,f:1
 3e30:00820000:2ee0:013e:1:0
-Dla Abonentow 2
+PPV HD
 p:Cyfrowy Polsat S.A.,f:1
 4331:00820000:300c:013e:25:0
 SRF 1 HD
@@ -8759,9 +8759,6 @@ p:
 1c8c:00820000:1ce8:0071:1:0
 Disco Polo Music
 p:Cyfrowy Polsat S.A.,f:1
-1c8e:00820000:1ce8:0071:1:0
-Disco Polo Music
-p:Cyfrowy Polsat S.A.,f:1
 1ce0:00820000:1ce8:0071:132:0
 HD5500s
 p:Cyfrowy Polsat S.A
@@ -9545,37 +9542,37 @@ p:Cyfrowy Polsat S.A.,f:1
 427c:00820000:2bc0:013e:1:0
 
 p:,f:1
-3dcd:00820000:0640:013e:1:0
+3dcd:00820000:0640:013e:25:0
 TVN HD
-p:Cyfrowy Polsat,f:1
-3dce:00820000:0640:013e:1:0
+p:TVN,f:1
+3dce:00820000:0640:013e:25:0
 TVN Style HD
-p:N,f:1
-3dcf:00820000:0640:013e:1:0
+p:TVN,f:1
+3dcf:00820000:0640:013e:25:0
 TVN Style HD
-p:N,f:1
-3dd0:00820000:0640:013e:1:0
+p:TVN,f:1
+3dd0:00820000:0640:013e:25:0
 TVN Turbo HD
 p:TVN,f:1
-3dd1:00820000:0640:013e:1:0
+3dd1:00820000:0640:013e:25:0
 TVN Turbo HD
 p:TVN,f:1
-3dd2:00820000:0640:013e:1:0
+3dd2:00820000:0640:013e:25:0
 TVN 24 HD
 p:TVN,f:1
-3dd3:00820000:0640:013e:1:0
+3dd3:00820000:0640:013e:25:0
 TVN 7 HD
 p:TVN,f:1
-3dd6:00820000:0640:013e:1:0
+3dd6:00820000:0640:013e:25:0
 TVN Fabula
 p:TVN,f:1
-3dea:00820000:0640:013e:1:0
+3dea:00820000:0640:013e:25:0
 TVN HD_
 p:TVN SA,f:1
-3deb:00820000:0640:013e:1:0
+3deb:00820000:0640:013e:25:0
 TVN 7 HD_
 p:TVN,f:1
-3dd7:00820000:0640:013e:1:0
+3dd7:00820000:0640:013e:25:0
 TTV HD
 p:TVN,f:1
 3dd8:00820000:0640:013e:25:0
@@ -9584,13 +9581,13 @@ p:TVN,f:1
 3dd9:00820000:0640:013e:25:0
 Food Network HD
 p:TVN,f:1
-3dec:00820000:0640:013e:1:0
+3dec:00820000:0640:013e:25:0
 Food Network HD_
 p:TVN,f:1
-3dd4:00820000:0640:013e:1:0
+3dd4:00820000:0640:013e:25:0
 Metro HD
 p:TVN,f:1
-3ded:00820000:0640:013e:1:0
+3ded:00820000:0640:013e:25:0
 TVN 24 HD
 p:TVN,f:1
 1bc3:00820000:17d4:013e:1:0
@@ -10339,9 +10336,6 @@ TVN 24 Bizness HD
 p:TVN,f:1
 10eb:00820000:03e8:013e:25:0
 HGTV HD
-p:TVN,f:1
-10ec:00820000:03e8:013e:25:0
-Food Network HD EMEA
 p:TVN,f:1
 10e1:00820000:03e8:013e:25:0
 MotorTrend
@@ -11283,7 +11277,7 @@ p:TVN DIscovery Group,f:1
 K2
 p:TVN DIscovery Group,f:1
 3b61:00820000:012c:013e:25:0
-Realtime Italy
+Realtime Italy HD
 p:TVN DIscovery Group,f:1
 3b63:00820000:012c:013e:25:0
 Food Network Italy HD
@@ -11484,23 +11478,32 @@ p:SkyItalia,f:1
 Fusion BGDL 7293
 p:SkyItalia
 0065:00820000:2fa8:013e:25:0
-TEST1
+Svoboda
 p:TEST,f:1
 0066:00820000:2fa8:013e:25:0
 TEST2
 p:TEST,f:1
 0067:00820000:2fa8:013e:25:0
-TEST4
+Gordon Live
 p:Unknown,f:1
 006a:00820000:2fa8:013e:25:0
-TEST3
+Belarus Tomorrow
 p:TEST,f:1
 006e:00820000:2fa8:013e:25:0
-TEST5
+TV8
 p:Unknown,f:1
 006f:00820000:2fa8:013e:25:0
-TEST6
+Ost/West 24
 p:Unknown,f:1
+00c9:00820000:2fa8:013e:2:0
+Radio ECHO
+p:Svoboda Satellite
+00ca:00820000:2fa8:013e:2:0
+Radio SAKHAROV
+p:Svoboda Satellite
+00cb:00820000:2fa8:013e:2:0
+EURORADIO
+p:Svoboda Satellite
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024
