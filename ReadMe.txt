@@ -9,14 +9,14 @@ Morpheus883's Site: http://morpheus883.altervista.org/
 GitHub Repository: https://github.com/morpheus883/
 and available on the main Sat Sites
 
-Enigma2 Settings 27th February 2024, © by Morpheus883
+Enigma2 Settings 6th March 2024, © by Morpheus883
 
 Settings for Images based on Enigma 2.4:
 
 Statistics:
-# Satellites: 90 (Ku Band)
+# Satellites: 87 (Ku Band)
 # Ordered Provider Lists: 70+
-# Services: 16.226 (TV-Radio-Data)
+# Services: 16.540 (TV-Radio-Data)
 # Packages: 23 (TV-Radio-Data):
 
 MONOFeed (13°E)
@@ -95,6 +95,7 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [13.0 E] Nova
 [13.0 E] RAI/Mediaset/TivùSat
 [13.0 E] Sky Italia
+[13.0 E] Vivacom
 [16.0 E] ===== EUTELSAT 16A ===M=
 [16.0 E] A1 Hrvatska
 [16.0 E] Antik Sat
