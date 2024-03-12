@@ -106,7 +106,7 @@ transponders
 	s 11097000:23000000:1:3:282:2:0:1:2:0:0
 /
 011a0000:0813:0002
-	s 11112000:22000000:0:4:282:2:0
+	s 11112000:23000000:0:2:282:2:0:1:2:1:2
 /
 011a0000:07ed:0002
 	s 12266000:27500000:0:2:282:2:0:1:2:1:0
@@ -263,6 +263,9 @@ transponders
 /
 011a30f7:0000:0001
 	s 12535000:7200000:0:4:282:2:0:1:2:0:2
+/
+011a31ad:0001:ffff
+	s 12717000:14400000:0:3:282:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -1421,6 +1424,21 @@ p:BSkyB,f:1
 c4cc:011a0000:0811:0002:1:0
 Crime & Investigation +1
 p:BSkyB,f:1
+c496:011a0000:0811:0002:1:0
+Dangal
+p:BSkyB,f:1
+c491:011a0000:0811:0002:1:0
+NOW 70s
+p:BSkyB,f:1
+c4a6:011a0000:0811:0002:1:0
+Eman Channel
+p:BSkyB,f:1
+c4ab:011a0000:0811:0002:1:0
+Gems TV
+p:BSkyB,f:1
+c4b4:011a0000:0811:0002:1:0
+Ideal World
+p:BSkyB,f:1
 d7e8:011a0000:082c:0002:25:0
 Racing TV HD
 p:BSkyB,f:1
@@ -1582,15 +1600,6 @@ TNT Sports 6 HD
 p:BSkyB,f:1
 c5f3:011a0000:0842:0002:1:0
 TNT Sports 7 HD
-p:BSkyB,f:1
-c603:011a0000:0842:0002:1:0
-Really UK
-p:BSkyB,f:1
-c604:011a0000:0842:0002:1:0
-HGTV
-p:BSkyB,f:1
-c605:011a0000:0842:0002:1:0
-Really UK
 p:BSkyB,f:1
 c5a8:011a0000:0842:0002:25:0
 EarthxTV HD
@@ -2066,12 +2075,6 @@ p:BSkyB,f:1
 cbea:011a0000:0813:0002:1:0
 Iqra Bangla
 p:BSkyB,f:1
-c4eb:011a0000:0813:0002:1:0
-Gems TV
-p:BSkyB,f:1
-c518:011a0000:0813:0002:1:0
-Ideal World
-p:BSkyB,f:1
 c4fa:011a0000:0813:0002:1:0
 India Today
 p:BSkyB,f:1
@@ -2186,17 +2189,8 @@ p:BSkyB,f:1
 d818:011a0000:0838:0002:25:0
 Viaplay 1 HD
 p:BSkyB,f:1
-cb8b:011a0000:0831:0002:1:0
-NOW 70s
-p:BSkyB,f:1
-cbac:011a0000:0831:0002:1:0
-Eman Channel
-p:BSkyB,f:1
 cbd9:011a0000:0831:0002:25:0
 Zee TV HD
-p:BSkyB,f:1
-cb88:011a0000:0831:0002:1:0
-Dangal
 p:BSkyB,f:1
 d048:011a0000:083e:0002:1:0
 GREAT! Romance
@@ -3077,6 +3071,9 @@ p:Red Cat 1,f:1
 0001:011a30f7:0000:0001:25:0
 CS Snooker Vision 2
 p:NEP CONNECT,f:1
+0001:011a31ad:0001:ffff:1:0
+Crufts back Up
+p:Service Provider,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -4974,7 +4971,7 @@ p:Cyfrowy Polsat S.A.,f:1
 Zlote Przeboje
 p:Radio ZET Gold
 1c8a:00820000:1ce8:0071:1:0
-CNN Europe HD
+CNN_HD
 p:Cyfrowy Polsat S.A.,f:1
 1ccb:00820000:1ce8:0071:12:0
 D61_Nagra
@@ -5934,7 +5931,7 @@ p:Cyfrowy Polsat S.A.,f:1
 Warner Polska HD
 p:Cyfrowy Polsat S.A.,f:1
 2906:00820000:1edc:0071:1:0
-Cartoon Network Eastern Europe HD
+Cartoon HD
 p:Cyfrowy Polsat S.A.,f:1
 290e:00820000:1edc:0071:1:0
 HBO HD Polska
