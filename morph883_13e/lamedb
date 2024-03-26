@@ -252,9 +252,6 @@ transponders
 00820000:2db4:013e
 	s 10853000:29900000:0:2:130:2:0:1:2:0:2
 /
-0082aac5:2fa8:013e
-	s 10949000:27500000:1:3:130:2:0:1:2:2:2
-/
 00820000:2580:00d5
 	s 12635000:30000000:1:4:130:2:0:1:2:2:2
 /
@@ -269,6 +266,9 @@ transponders
 /
 00820000:2710:00d5
 	s 12713000:30000000:1:4:130:2:0:1:2:2:2
+/
+0082acce:03ea:0001
+	s 11470000:33000000:1:2:130:2:0:1:2:0:2
 /
 end
 services
@@ -3710,6 +3710,9 @@ p:M-Three Satcom,f:1
 0537:00820000:3d54:013e:1:0
 WellTV
 p:M-Three Satcom,f:1
+0538:00820000:3d54:013e:1:0
+Value24
+p:M-Three Satcom,f:1
 0d4a:00820000:1450:013e:25:0
 Rai 2 HD
 p:Rai,f:1
@@ -4781,22 +4784,19 @@ p:SkyItalia,f:1
 1c7d:00820000:206c:fbff:251:0
 Fusion BGDL 7293
 p:SkyItalia
-0065:00820000:2fa8:013e:25:0
+0065:00820000:2fa8:013e:22:0
 Svoboda
 p:Svoboda Satellite,f:1
-0066:00820000:2fa8:013e:25:0
-TEST2
-p:TEST,f:1
-0067:00820000:2fa8:013e:25:0
+0067:00820000:2fa8:013e:22:0
 Gordon Live
 p:Svoboda Satellite,f:1
-006a:00820000:2fa8:013e:25:0
+006a:00820000:2fa8:013e:22:0
 Belarus Tomorrow
 p:Svoboda Satellite,f:1
-006e:00820000:2fa8:013e:25:0
+006e:00820000:2fa8:013e:22:0
 TV8
 p:Svoboda Satellite,f:1
-006f:00820000:2fa8:013e:25:0
+006f:00820000:2fa8:013e:22:0
 Ost/West 24
 p:Svoboda Satellite,f:1
 00c9:00820000:2fa8:013e:2:0
@@ -4808,8 +4808,11 @@ p:Svoboda Satellite
 00cb:00820000:2fa8:013e:2:0
 EURORADIO
 p:Svoboda Satellite
-0070:00820000:2fa8:013e:25:0
+0070:00820000:2fa8:013e:22:0
 Nastoyashcheye Vremya
+p:Svoboda Satellite,f:1
+0071:00820000:2fa8:013e:22:0
+DW Russian
 p:Svoboda Satellite,f:1
 00c9:00820000:2db4:013e:25:0
 Kabelio|Tele Baern
@@ -4889,9 +4892,6 @@ p:KABELIO.CH,f:1
 00fb:00820000:2db4:013e:25:0
 Kabelio|Canale 5
 p:KABELIO.CH,f:1
-0071:0082aac5:2fa8:013e:1:0
-DW Russian
-p:Svoboda Satellite,f:1
 0001:00820000:2580:00d5:1:0
 bTV
 p:NURTS,f:1
@@ -5135,6 +5135,24 @@ p:NURTS
 0064:00820000:2580:00d5:1:80
 France 24
 p:NURTS,f:1
+002b:00820000:2580:00d5:1:0
+BHTV
+p:NURTS,f:1
+0047:00820000:2580:00d5:2:0
+FM+ K
+p:NURTS
+0048:00820000:2580:00d5:2:0
+Fresh K
+p:NURTS
+0049:00820000:2580:00d5:2:0
+ZRock K
+p:NURTS
+004a:00820000:2580:00d5:2:0
+Veronika K
+p:NURTS
+004b:00820000:2580:00d5:2:0
+Radio Nova K
+p:NURTS
 00f6:00820000:25e4:00d5:1:0
 NTV Mir
 p:VIVACOM,f:1
@@ -5591,6 +5609,12 @@ p:VIVACOM,f:1
 13b4:00820000:2710:00d5:1:39
 Soul & Pepper TV
 p:VIVACOM,f:1
+0320:0082acce:03ea:0001:1:0
+SERVICE IP/MAC NOTIFICATION
+p:MyIntProvider,f:1
+03ea:0082acce:03ea:0001:12:0
+HVS-2 Bck
+p:Telespazio
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024
