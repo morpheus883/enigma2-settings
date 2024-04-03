@@ -177,9 +177,6 @@ transponders
 011a3107:0002:ffff
 	s 12551000:5000000:0:4:282:2:0:1:2:0:2
 /
-011a30e9:0001:ffff
-	s 12521000:9860000:0:3:282:2:0:1:2:0:2
-/
 011a3161:00a0:00eb
 	s 12641000:7200000:0:3:282:2:0:1:2:0:2
 /
@@ -209,9 +206,6 @@ transponders
 /
 011a30fe:0001:0001
 	s 12542000:15000000:0:3:282:2:0:1:2:0:2
-/
-011ab109:0001:ffff
-	s 12553000:7200000:1:3:282:2:0:1:2:0:2
 /
 011a0000:0839:0002
 	s 11225000:27500000:0:2:282:2:0
@@ -263,6 +257,12 @@ transponders
 /
 011ab156:0c07:0001
 	s 12630000:7200000:1:3:282:2:0:1:2:0:2
+/
+011ab109:0000:0001
+	s 12553000:7200000:1:3:282:2:0:1:2:0:2
+/
+011a30e9:0001:0001
+	s 12521000:7200000:0:3:282:2:0:1:2:0:2
 /
 00c00000:041d:0001
 	s 10773000:22000000:0:3:192:2:0:1:2:0:2
@@ -1113,13 +1113,13 @@ fff80000:00bf:00bf
 0e08acde:0001:ffff
 	s 11486000:14400000:1:3:-8:2:0:1:2:0:2
 /
-0e080000:0065:0065
-	s 12534000:4800000:1:3:-8:2:0:1:2:0:2
-/
 fff8ad00:0001:0001
 	s 11520000:7200000:1:3:-8:2:0:1:2:0:2
 /
-fff8b0f0:0065:0065
+0e08b0f6:0001:ffff
+	s 12534000:4800000:1:3:-8:2:0:1:2:0:2
+/
+0e08b0f0:0001:ffff
 	s 12528000:6660000:1:3:-8:2:0:1:2:0:2
 /
 end
@@ -2216,6 +2216,9 @@ p:BSkyB,f:1
 c44b:011a0000:0837:0002:25:0
 Viaplay 1 HD
 p:BSkyB,f:1
+c455:011a0000:0837:0002:25:0
+Bloomberg HD
+p:BSkyB,f:1
 254d:011a0000:082f:0002:2:0
 Capital XTRA
 p:BSkyB
@@ -2789,9 +2792,6 @@ p:BSkyB,f:1
 cce2:011a0000:080e:0002:1:0
 Quest Red
 p:BSkyB,f:1
-d860:011a0000:0838:0002:25:0
-Bloomberg HD
-p:BSkyB,f:1
 d809:011a0000:0838:0002:25:0
 Daystar TV HD
 p:BSkyB,f:1
@@ -2801,14 +2801,8 @@ p:BSkyB,f:1
 d04d:011a0000:083e:0002:1:0
 GREAT! Romance+1
 p:BSkyB,f:1
-d052:011a0000:083e:0002:1:0
-Tiny Pop
-p:BSkyB,f:1
 d05c:011a0000:083e:0002:1:0
 Pop
-p:BSkyB,f:1
-d061:011a0000:083e:0002:1:0
-Tiny Pop +1
 p:BSkyB,f:1
 d066:011a0000:083e:0002:1:0
 Pop Max
@@ -3284,9 +3278,6 @@ p:8MM Producciones,f:1
 0002:011a3107:0002:ffff:1:0
 EDS806HD.2
 p:CCMA,f:1
-0001:011a30e9:0001:ffff:1:0
-Hibs v Aberdeen Clean
-p:DIGISAT,f:1
 0001:011a3161:00a0:00eb:1:0
 E357 SAN TELMO 2
 p:ATM BROADCAST,f:1
@@ -3413,9 +3404,6 @@ p:ATM BROADCAST,f:1
 0001:011a30fe:0001:0001:31:0
 Service 1
 p:BWS Ltd,f:1
-0001:011ab109:0001:ffff:1:0
-E-351/G-22 Via1
-p:Service Provider,f:1
 d3c3:011a0000:0839:0002:1:0
 PTC Punjabi
 p:BSkyB,f:1
@@ -3426,7 +3414,7 @@ d3c5:011a0000:0839:0002:1:0
 Adult Channel
 p:BSkyB,f:1
 d3c7:011a0000:0839:0002:1:0
-XXX College
+Climax
 p:BSkyB,f:1
 d3c8:011a0000:0839:0002:1:0
 XXX Public Pikups
@@ -3578,87 +3566,6 @@ p:SW01 Encoder 1,f:1
 0001:011a30e3:0000:0000:25:0
 Netball Nations Cup from Leeds
 p:NEP Connect,f:1
-190b:011a0000:07ff:0002:1:0
-BBC One
-p:BSkyB,f:1
-190c:011a0000:07ff:0002:1:0
-BBC Two
-p:BSkyB,f:1
-190d:011a0000:07ff:0002:1:0
-BBC Three
-p:BSkyB,f:1
-190e:011a0000:07ff:0002:1:0
-BBC Four
-p:BSkyB,f:1
-190f:011a0000:07ff:0002:1:0
-BBC Scotland
-p:BSkyB,f:1
-1910:011a0000:07ff:0002:1:0
-BBC ALBA
-p:BSkyB,f:1
-1911:011a0000:07ff:0002:1:0
-BBC NEWS
-p:BSkyB,f:1
-1912:011a0000:07ff:0002:1:0
-BBC Parliament
-p:BSkyB,f:1
-1913:011a0000:07ff:0002:1:0
-BBC RB 1
-p:BSkyB,f:1
-1919:011a0000:07ff:0002:1:0
-BBC One
-p:BSkyB,f:1
-191a:011a0000:07ff:0002:1:0
-BBC One
-p:BSkyB,f:1
-191b:011a0000:07ff:0002:1:0
-BBC One
-p:BSkyB,f:1
-192b:011a0000:07ff:0002:1:0
-CBBC
-p:BSkyB,f:1
-192c:011a0000:07ff:0002:1:0
-CBeebies
-p:BSkyB,f:1
-192e:011a0000:07ff:0002:1:0
-BBC ALBA
-p:BSkyB,f:1
-195b:011a0000:07ff:0002:1:0
-BBC One
-p:BSkyB,f:1
-195c:011a0000:07ff:0002:1:0
-BBC Two
-p:BSkyB,f:1
-195d:011a0000:07ff:0002:1:0
-BBC Three
-p:BSkyB,f:1
-195e:011a0000:07ff:0002:1:0
-BBC Four
-p:BSkyB,f:1
-195f:011a0000:07ff:0002:1:0
-CBBC
-p:BSkyB,f:1
-1960:011a0000:07ff:0002:1:0
-CBeebies
-p:BSkyB,f:1
-1925:011a0000:07ff:0002:2:0
-BBC R4 LW
-p:BSkyB
-1951:011a0000:07ff:0002:2:0
-BBC R Wales
-p:BSkyB
-1954:011a0000:07ff:0002:2:0
-BBC R Scot
-p:BSkyB
-1955:011a0000:07ff:0002:2:0
-BBC RnGàid
-p:BSkyB
-1956:011a0000:07ff:0002:2:0
-BBC R Ulster
-p:BSkyB
-1957:011a0000:07ff:0002:2:0
-BBC R Foyle
-p:BSkyB
 0001:011a3103:0001:0001:1:0
 UKI-1955-2
 p:Red Cat 1,f:1
@@ -3713,6 +3620,12 @@ p:MBI,f:1
 0001:011ab156:0c07:0001:12:0
 SmartLNB
 p:Eutelsat
+0001:011ab109:0000:0001:25:0
+Fairyhouse
+p:NEP Ireland,f:1
+0001:011a30e9:0001:0001:25:0
+NLFLEV_HOL-48 CH-A
+p:FLEVOSAT.NL,f:1
 526c:00c00000:041d:0001:25:0
 Anixe HD
 p:BetaDigital,f:1
@@ -7766,6 +7679,9 @@ p:,f:1
 1c85:00820000:332c:013e:1:0
 Daystar SD
 p:,f:1
+1c8d:00820000:332c:013e:1:0
+AIRMONT
+p:FFmpeg,f:1
 1328:00820000:33f4:013e:1:0
 Al Karma TV
 p:Telespazio,f:1
@@ -13270,69 +13186,63 @@ Kanal D2.
 p:M7,f:1
 75fb:0e080000:02be:0600:1:0
 Film +
-p:Focus Sat,f:1
+p:M7,f:1
 75fd:0e080000:02be:0600:1:0
 Sport 2 Hungary
-p:UPC Direct,f:1
+p:M7,f:1
 7602:0e080000:02be:0600:1:0
 TV 2 (Hungary)
-p:Focus Sat,f:1
+p:M7,f:1
 7603:0e080000:02be:0600:1:0
 Magyar ATV
-p:Focus Sat,f:1
+p:M7,f:1
 7605:0e080000:02be:0600:1:0
 Minimax
-p:UPC Direct,f:1
-7606:0e080000:02be:0600:1:0
-Sport2 CZE
-p:UPC Direct,f:1
+p:M7,f:1
 7608:0e080000:02be:0600:1:0
 Duna World / M4 Sport+
-p:Focus Sat,f:1
+p:M7,f:1
 7601:0e080000:02be:0600:1:0
 RTL
-p:UPC Direct,f:1
+p:M7,f:1
 75f9:0e080000:02be:0600:1:0
 Filmbox Family
-p:UPC Direct,f:1
+p:M7,f:1
 7609:0e080000:02be:0600:1:0
 FilmBox Stars INT
-p:UPC Direct,f:1
+p:M7,f:1
 760d:0e080000:02be:0600:1:0
 Film+ (SVT)
-p:UPC Direct,f:1
+p:M7,f:1
 7610:0e080000:02be:0600:1:0
 Spiler TV
-p:UPC Direct,f:1
+p:M7,f:1
 7613:0e080000:02be:0600:1:0
 Cool
-p:UPC Direct,f:1
+p:M7,f:1
 7614:0e080000:02be:0600:1:0
 Cool (SVT)
-p:UPC Direct,f:1
+p:M7,f:1
 7600:0e080000:02be:0600:1:0
 Film + CZE
-p:UPC Direct,f:1
+p:M7,f:1
 75fe:0e080000:02be:0600:1:0
 Film Cafe
-p:UPC Direct,f:1
+p:M7,f:1
 7615:0e080000:02be:0600:1:0
 Film + CZE ( SVT)
-p:UPC Direct,f:1
+p:M7,f:1
 7616:0e080000:02be:0600:1:0
 Film Cafe
-p:UPC Direct,f:1
+p:M7,f:1
 7617:0e080000:02be:0600:1:0
 Duna World / M4 Sport+.
-p:UPC Direct,f:1
+p:M7,f:1
 75fc:0e080000:02be:0600:1:0
 Viasat Nature CEE
-p:UPC,f:1
+p:M7,f:1
 75ff:0e080000:02be:0600:1:0
 ATV Spirit
-p:UPC Direct,f:1
-7604:0e080000:02be:0600:22:0
-TV8
 p:M7,f:1
 760a:0e080000:02be:0600:25:0
 Nat Geo Wild CZ HD
@@ -13345,6 +13255,9 @@ ATV (SVT)
 p:M7,f:1
 760b:0e080000:02be:0600:25:0
 Kanal D HD
+p:M7,f:1
+7606:0e080000:02be:0600:1:0
+ATV Spirit.
 p:M7,f:1
 7919:0e080000:02c6:0600:25:0
 Duna HD
@@ -13898,12 +13811,6 @@ p:UPC Direct,f:1
 78d7:0e080000:02c5:0600:1:0
 Arena4.
 p:M7,f:1
-78d8:0e080000:02c5:0600:1:0
-Mezzo
-p:M7,f:1
-78b7:0e080000:02c5:0600:1:0
-Extreme Sports Channel
-p:M7,f:1
 78c9:0e080000:02c5:0600:1:0
 Viasat Explore RO
 p:M7,f:1
@@ -13948,6 +13855,12 @@ Sorozatklub
 p:M7,f:1
 78b6:0e080000:02c5:0600:22:0
 Moziklub
+p:M7,f:1
+78d6:0e080000:02c5:0600:1:0
+Sorozatklub..
+p:M7,f:1
+78d8:0e080000:02c5:0600:1:0
+Moziklub.
 p:M7,f:1
 0207:0e080000:0014:0046:25:0
 CGTN HD
@@ -15605,9 +15518,12 @@ p:Adtec Digital 1,f:1
 0068:0e080000:000c:000a:31:0
 NASA TV UHD
 p:,f:1
-007b:0e080000:000c:000a:1:0
-4K-HERiTAGE
-p:iChannel LTD,f:1
+006f:0e080000:000c:000a:25:0
+History Pan Euro HD
+p:Intelsat,f:1
+0070:0e080000:000c:000a:25:0
+History 2 Pan Euro HD
+p:Intelsat,f:1
 0003:0e082d12:0001:0001:25:0
 UKI 1934 Coder 1
 p:STV West,f:1
@@ -15995,9 +15911,6 @@ p:M7,f:1
 7a60:fff80000:02cb:0600:1:0
 JimJam..
 p:M7,f:1
-7a46:fff80000:02cb:0600:22:0
-TV8
-p:M7,f:1
 7a47:fff80000:02cb:0600:22:0
 LALA TV.
 p:M7,f:1
@@ -16069,6 +15982,9 @@ Mezzo
 p:M7,f:1
 7a62:fff80000:02cb:0600:22:0
 Extreme Sports Channel
+p:M7,f:1
+7a46:fff80000:02cb:0600:22:0
+TV8
 p:M7,f:1
 7aaa:fff80000:02cc:0600:22:0
 Arena Sport 1
@@ -16148,15 +16064,15 @@ p:RCS-RDS,f:1
 0001:0e08acde:0001:ffff:1:0
 NOR 044 MAIN
 p:NEP Norway,f:1
-0065:0e080000:0065:0065:1:0
-B 101 DGI
-p:RCS-RDS BUCURESTI,f:1
 0001:fff8ad00:0001:0001:1:0
 SWE041
 p:alla,f:1
-0065:fff8b0f0:0065:0065:1:0
-B 101 DGI
-p:RCS-RDS BUCURESTI,f:1
+00ba:0e08b0f6:0001:ffff:1:0
+dgi
+p:rcs-rds,f:1
+0001:0e08b0f0:0001:ffff:1:0
+backup
+p:RCS-RDS,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024
