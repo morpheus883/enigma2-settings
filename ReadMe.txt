@@ -9,14 +9,14 @@ Morpheus883's Site: http://morpheus883.altervista.org/
 GitHub Repository: https://github.com/morpheus883/
 and available on the main Sat Sites
 
-Enigma2 Settings 3rd April 2024, © by Morpheus883
+Enigma2 Settings 9th April 2024, © by Morpheus883
 
 Settings for Images based on Enigma 2.4:
 
 Statistics:
-# Satellites: 87 (Ku Band)
+# Satellites: 86 (Ku Band)
 # Ordered Provider Lists: 70+
-# Services: 16.597 (TV-Radio-Data)
+# Services: 16.583 (TV-Radio-Data)
 # Packages: 23 (TV-Radio-Data):
 
 MONOFeed (13°E)
@@ -52,7 +52,6 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [30.0 W] ===== HISPASAT 30W ===M=
 [30.0 W] Meo
 [30.0 W] Nos
-[27.5 W] ===== INTELSAT 901 =====
 [24.5 W]  =====  INTELSAT 905 ALCOMSAT 1  =====
 [22.0 W] ===== SES 4 =====
 [20.0 W] ===== NSS 7 =====

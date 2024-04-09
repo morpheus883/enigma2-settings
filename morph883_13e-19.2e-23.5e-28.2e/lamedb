@@ -240,9 +240,6 @@ transponders
 011a30e3:0000:0000
 	s 12515000:15000000:0:3:282:2:0:1:2:0:2
 /
-011a0000:07ff:0002
-	s 10803000:22000000:0:4:282:2:0
-/
 011a3103:0001:0001
 	s 12547000:7200000:0:7:282:2:0:1:2:0:2
 /
@@ -635,6 +632,12 @@ transponders
 /
 00eb2cc8:0000:0000
 	s 11464000:15000000:0:3:235:2:0:1:2:0:2
+/
+00ebacd2:0001:ffff
+	s 11474000:5000000:1:3:235:2:0:1:2:0:2
+/
+00eb2ced:0001:ffff
+	s 11501000:7500000:0:3:235:2:0:1:2:0:2
 /
 00c00000:041d:0001
 	s 10773000:22000000:0:3:192:2:0:1:2:0:2
@@ -1227,7 +1230,7 @@ transponders
 00820000:2710:00d5
 	s 12713000:30000000:1:4:130:2:0:1:2:2:2
 /
-0082acce:03ea:0001
+0082acce:07d2:0002
 	s 11470000:33000000:1:2:130:2:0:1:2:0:2
 /
 end
@@ -1366,6 +1369,9 @@ GREAT! TV Ireland
 p:BSkyB,f:1
 cfdf:011a0000:083f:0002:1:0
 ChartShowRetro
+p:BSkyB,f:1
+cfd5:011a0000:083f:0002:1:0
+Home Shop TV
 p:BSkyB,f:1
 2920:011a0000:090b:003b:1:0
 FreesatInformation
@@ -5543,6 +5549,9 @@ p:Service Provider,f:1
 0001:00ebacd8:0001:ffff:25:0
 JBB 2023
 p:Service Provider,f:1
+0001:00ebacd8:0001:ffff:1:0
+RTE GAA - Clones High
+p:Digisat,f:1
 0001:00eb0000:0bce:0003:1:0
 CZE 039
 p:CTV,f:1
@@ -5720,6 +5729,9 @@ p:Media Link,f:1
 0001:00ebacc9:0000:0000:25:0
 D-103 Enc.1
 p:SNG D-103 Vahland TV,f:1
+0001:00ebacc9:0000:0000:1:0
+RTE GAA - Clones
+p:Digisat,f:1
 0001:00ebad83:0000:0001:25:0
 Duisburg
 p:Media Broadcast,f:1
@@ -6272,6 +6284,12 @@ p:SES
 0001:00eb2cc8:0000:0000:25:0
 Sky Sports Darts
 p:Digisat,f:1
+0001:00ebacd2:0001:ffff:1:0
+RTE GAA - Clones High
+p:Digisat,f:1
+0001:00eb2ced:0001:ffff:1:0
+POL086 TVN24 WAW
+p:TVN24,f:1
 526c:00c00000:041d:0001:25:0
 Anixe HD
 p:BetaDigital,f:1
@@ -8397,7 +8415,7 @@ p:ARD MDR
 rbb24 Inforadio
 p:ARD rbb
 28f5:00c00000:0425:0001:10:0
-rbbKultur
+radio3
 p:ARD rbb
 28f6:00c00000:0425:0001:10:0
 Antenne Brbg.
@@ -9664,43 +9682,43 @@ NFL SRT Europe/Asia Testing Sour
 p:,c:050001,f:1
 2968:00c00000:045a:0001:25:0
 One Terra HD
-p:SES,C:186d,C:186a,C:1860,C:1843,C:1842,C:1830,f:1
+p:SES,f:1
 2969:00c00000:045a:0001:25:1
 Xplore HD
-p:SES,C:186d,C:186a,C:1860,C:1843,C:1842,C:1830,f:1
+p:SES,f:1
 296a:00c00000:045a:0001:25:2
 Hip Trips HD
-p:SES,C:186d,C:186a,C:1860,C:1843,C:1842,C:1830,f:1
+p:SES,f:1
 296b:00c00000:045a:0001:25:3
 Deluxe Dance by Kontor HD
-p:SES,C:186d,C:186a,C:1860,C:1843,C:1842,C:1830,f:1
+p:SES,f:1
 296c:00c00000:045a:0001:25:4
 Deluxe Flashback HD
-p:SES,C:186d,C:186a,C:1860,C:1843,C:1842,C:1830,f:1
+p:SES,f:1
 296d:00c00000:045a:0001:25:5
 Just Cooking HD
-p:SES,C:186d,C:186a,C:1860,C:1843,C:1842,C:1830,f:1
+p:SES,f:1
 296e:00c00000:045a:0001:25:6
 Deluxe Rock HD
-p:SES,C:186d,C:186a,C:1860,C:1843,C:1842,C:1830,f:1
+p:SES,f:1
 296f:00c00000:045a:0001:25:7
 Deluxe Rap HD
-p:SES,C:186d,C:186a,C:1860,C:1843,C:1842,C:1830,f:1
+p:SES,f:1
 29d0:00c00000:045c:0001:25:0
 Crime Time HD
-p:SES,C:186d,C:186a,C:1860,C:1843,C:1842,C:1830,f:1
+p:SES,f:1
 29d2:00c00000:045c:0001:25:1
 Deluxe Lounge HD
-p:SES,C:186d,C:186a,C:1860,C:1843,C:1842,C:1830,f:1
+p:SES,f:1
 29cc:00c00000:045c:0001:25:2
 Just Fishing HD
-p:SES,C:186d,C:186a,C:1860,C:1843,C:1842,C:1830,f:1
+p:SES,f:1
 29d3:00c00000:045c:0001:25:3
 Red Adventure HD
-p:SES,C:186d,C:186a,C:1860,C:1843,C:1842,C:1830,f:1
+p:SES,f:1
 29d1:00c00000:045c:0001:25:4
 Serien+ HD
-p:SES,C:186d,C:186a,C:1860,C:1843,C:1842,C:1830,f:1
+p:SES,f:1
 0001:00c02d55:4321:0000:1:0
 FIN029 DIRTY
 p:INFRONT,f:1
@@ -11861,6 +11879,15 @@ p:
 1cc9:00820000:1ce8:0071:12:0
 D64-Testowy
 p:
+1c8e:00820000:1ce8:0071:1:0
+Disco Polo Music
+p:,f:1
+1cbf:00820000:1ce8:0071:1:0
+Polsat News Polityka HD
+p:Cyfrowy Polsat SA,f:1
+1cdd:00820000:1ce8:0071:12:0
+SCM
+p:
 0064:00820000:0065:0001:1:0
 Voice of America (VOA) Europe
 p:,f:1
@@ -12155,6 +12182,9 @@ p:Cyfrowy Polsat S.A.,f:1
 0c34:00820000:1e78:0071:1:0
 Polsat Sport Premium PPV6
 p:Cyfrowy Polsat S.A.,f:1
+0c29:00820000:1e78:0071:25:0
+Cinemax 2 HD
+p:Cyfrowy Polsat SA,f:1
 39d5:00820000:1fa4:013e:1:0
 Ronahi TV
 p:STN,f:1
@@ -12824,6 +12854,9 @@ p:Cyfrowy Polsat S.A.,f:1
 290d:00820000:1edc:0071:1:0
 TestDS
 p:Cyfrowy Polsat S.A.,f:1
+290f:00820000:1edc:0071:1:0
+HBO HD
+p:,f:1
 3392:00820000:3390:0071:1:0
 Polsat Play HD
 p:Cyfrowy Polsat S.A.,f:1
@@ -15275,12 +15308,12 @@ p:VIVACOM,f:1
 13b4:00820000:2710:00d5:1:39
 Soul & Pepper TV
 p:VIVACOM,f:1
-0320:0082acce:03ea:0001:1:0
+07d2:0082acce:07d2:0002:12:0
+HVS-2 Bck (SGB6)
+p:MyServiceProvider
+0320:0082acce:07d2:0002:1:0
 SERVICE IP/MAC NOTIFICATION
 p:MyIntProvider,f:1
-03ea:0082acce:03ea:0001:12:0
-HVS-2 Bck
-p:Telespazio
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024
