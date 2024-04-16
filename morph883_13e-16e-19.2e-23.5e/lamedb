@@ -354,9 +354,6 @@ transponders
 00ebad07:0001:ffff
 	s 11527000:7200000:1:3:235:2:0:1:2:0:2
 /
-00eb2ced:0000:0000
-	s 11501000:7200000:0:3:235:2:0:1:2:0:2
-/
 00ebb0fb:0000:0000
 	s 12539000:7200000:1:3:235:2:0:1:2:0:2
 /
@@ -641,9 +638,6 @@ transponders
 /
 00c0ac8f:0001:0001
 	s 11407000:26000000:1:4:192:2:0:1:2:0:2
-/
-00c00000:045e:0001
-	s 12699000:23500000:1:3:192:2:0:1:2:1:2
 /
 00c00000:0000:0001
 	s 11485000:9874000:1:3:192:2:0:1:2:0:2
@@ -1227,6 +1221,9 @@ transponders
 0082acce:07d2:0002
 	s 11470000:33000000:1:2:130:2:0:1:2:0:2
 /
+00820000:2774:00d5
+	s 12731000:30000000:0:4:130:2:0:1:2:2:2
+/
 end
 services
 1b6c:00eb0000:0c88:0003:25:0
@@ -1626,7 +1623,7 @@ p:M7 Group,f:1
 Ziggo Sport Golf
 p:M7 Group,f:1
 51d1:00eb0000:0c96:0003:22:0
-SBS 9
+Viaplay TV
 p:M7 Group,f:1
 51d5:00eb0000:0c96:0003:22:0
 Ment TV
@@ -1644,7 +1641,7 @@ p:M7 Group,f:1
 Ketnet
 p:M7 Group,f:1
 527c:00eb0000:0c96:0003:22:0
-VTM Kids
+VTM Non-Stop 90s
 p:M7 Group,f:1
 5280:00eb0000:0c96:0003:22:0
 VTM 3
@@ -2676,7 +2673,7 @@ p:Telekom Srbija,f:1
 Arena Sport 1 HD CG
 p:Telekom Srbija,f:1
 4eea:00eb0000:0c81:0003:1:0
-Arena Sport 5 HD CG
+Superstar TV_HD
 p:Telekom Srbija,f:1
 4efd:00eb0000:0c81:0003:1:0
 Mozy +
@@ -2985,7 +2982,7 @@ p:M7 Group,f:1
 Comedy Central Family
 p:M7 Group,f:1
 3aa5:00eb0000:0c84:0003:22:0
-Fem3
+TV2 Klub
 p:M7 Group,f:1
 3aa7:00eb0000:0c84:0003:22:0
 HirTV
@@ -3725,9 +3722,6 @@ p:OVERON,f:1
 0001:00ebad07:0001:ffff:1:0
 rt1.tv
 p:rt1.tv,f:1
-0001:00eb2ced:0000:0000:25:0
-D-103 Lübeck
-p:VAHLAND TV,f:1
 0001:00ebb0fb:0000:0000:1:0
 2DF-Ant6-1
 p:ZDF,f:1
@@ -3770,6 +3764,9 @@ p:SES
 0321:00eb0000:0c9e:0003:12:0
 
 p:SES
+1e41:00eb0000:0c9e:0003:1:0
+DIM TV
+p:,f:1
 0001:00eb2cc8:0000:0000:25:0
 Sky Sports Darts
 p:Digisat,f:1
@@ -4098,7 +4095,7 @@ p:Movistar+,f:1
 Liga de Campeones 2
 p:Movistar+,f:1
 77bd:00c00000:040a:0001:1:0
-M+ Copa del Rey
+M+ LaLiga 3
 p:Movistar+,f:1
 77c7:00c00000:040a:0001:1:0
 DreamWorks
@@ -5601,10 +5598,10 @@ p:ORF Digital,f:1
 ORF 2 Europe
 p:ORF Digital,f:1
 32db:00c00000:045d:0001:1:0
-RIC
+RiC Alt
 p:,f:1
 32da:00c00000:045d:0001:1:0
-Volksmusik TV
+Volksmusik.TV ALT
 p:-,f:1
 32dd:00c00000:045d:0001:1:0
 n-tv Austria
@@ -6286,6 +6283,15 @@ BEUR FM
 p:
 429a:00c00000:0446:0001:25:0
 MOSAIQUE LDC
+p:,f:1
+4283:00c00000:0446:0001:25:0
+OCS Géants HD
+p:,f:1
+4284:00c00000:0446:0001:25:0
+Paramount Channel HD France
+p:,f:1
+4285:00c00000:0446:0001:25:0
+Seasons HD
 p:,f:1
 0001:00c00000:040b:0001:31:0
 SES UHD Demo Channel
@@ -7106,45 +7112,6 @@ p:RR,f:1
 0001:00c0ac8f:0001:0001:25:0
 MM2 Service 1
 p:RR,f:1
-2904:00c00000:045e:0001:1:0
-Xplore_alt
-p:SES,f:1
-2905:00c00000:045e:0001:1:0
-Hip Trips_alt
-p:SES,f:1
-2906:00c00000:045e:0001:1:0
-One Terra_alt
-p:SES,f:1
-2907:00c00000:045e:0001:1:0
-Deluxe Rock_alt
-p:SES,f:1
-2908:00c00000:045e:0001:1:0
-Deluxe Rap_alt
-p:SES,f:1
-2909:00c00000:045e:0001:1:0
-Deluxe Dance by Kontor_alt
-p:SES,f:1
-290a:00c00000:045e:0001:1:0
-Deluxe Flashback_alt
-p:SES,f:1
-290b:00c00000:045e:0001:1:0
-Just Cooking_alt
-p:SES,f:1
-290c:00c00000:045e:0001:1:0
-Just Fishing_alt
-p:SES,f:1
-290d:00c00000:045e:0001:1:0
-Deluxe Lounge_alt
-p:SES,f:1
-290e:00c00000:045e:0001:1:0
-Red Adventure_alt
-p:SES,f:1
-290f:00c00000:045e:0001:1:0
-Crime Time_alt
-p:SES,f:1
-2910:00c00000:045e:0001:1:0
-SERIEN+_alt
-p:SES,f:1
 0001:00c00000:0000:0001:0:0
 FEED-1B-TUR139
 p:HDPROTEK
@@ -7155,19 +7122,19 @@ p:Mobile Linke Europe AB,f:1
 FWWC-WF-A-R
 p:Telstra Broadcast Services,f:1
 0001:00c00000:0003:0001:1:0
-NFL SRT Source 1 Baltimore Ravens vs Washington Commanders
+Astra1M Service 1
 p:,c:050001,f:1
 0002:00c00000:0003:0001:1:0
-NFL SRT Europe/Asia Testing Sour
+Astra1M Service 2
 p:,c:050001,f:1
 0003:00c00000:0003:0001:1:0
-NFL SRT Europe/Asia Testing Sour
+Astra1M Service 3
 p:,c:050001,f:1
 0004:00c00000:0003:0001:1:0
-NFL SRT Europe/Asia Testing Sour
+Astra1M Service 4
 p:,c:050001,f:1
 0005:00c00000:0003:0001:1:0
-NFL SRT Europe/Asia Testing Sour
+Astra1M Service 5
 p:,c:050001,f:1
 2968:00c00000:045a:0001:25:0
 One Terra HD
@@ -7302,7 +7269,7 @@ p:SKY,f:1
 DAZN 1 HD
 p:SKY,f:1
 0008:00c00000:0009:0085:25:0
-Sky Cinema Fun HD
+Sky Cinema 2
 p:SKY,f:1
 0011:00c00000:0009:0085:25:0
 Sky Sport F1 HD
@@ -7362,7 +7329,7 @@ p:Movistar+,f:1
 Liga de Campeones 3 HD
 p:Movistar+,f:1
 74a3:00c00000:041c:0001:25:0
-M+ Copa del Rey HD
+M+ LaLiga 3 HD
 p:Movistar+,f:1
 749e:00c00000:041c:0001:25:0
 M+LCampeones 2
@@ -7703,9 +7670,6 @@ p:TIP,f:1
 0028:00a00000:0065:0001:1:0
 EPQ C2
 p:,f:1
-0028:00a00000:0065:0001:2:0
-EPQ C2
-p:
 1167:00a00000:9ca4:016e:1:0
 Oto
 p:Total TV,f:1
@@ -10160,6 +10124,12 @@ p:CANAL+,f:1
 32ef:00820000:0190:013e:1:0
 Power TV
 p:CANAL+,f:1
+32d9:00820000:0190:013e:1:0
+TVC Super
+p:CANAL+,f:1
+32da:00820000:0190:013e:1:0
+Szlagier TV
+p:CANAL+,f:1
 089c:00820000:01f4:013e:1:0
 Yemen TV
 p:,f:1
@@ -11819,7 +11789,7 @@ p:Cyfrowy Polsat S.A.,f:1
 0c2d:00820000:1e78:0071:1:0
 FX HD
 p:Cyfrowy Polsat S.A.,f:1
-0c1e:00820000:1e78:0071:1:0
+0c1e:00820000:1e78:0071:25:0
 Polsat Sport HD
 p:Cyfrowy Polsat S.A.,f:1
 0c20:00820000:1e78:0071:1:0
@@ -14984,6 +14954,15 @@ p:MyServiceProvider
 0320:0082acce:07d2:0002:1:0
 SERVICE IP/MAC NOTIFICATION
 p:MyIntProvider,f:1
+0259:00820000:2774:00d5:1:0
+Cine.Box
+p:VIVACOM,f:1
+025a:00820000:2774:00d5:1:0
+Comedy.Box
+p:VIVACOM,f:1
+025b:00820000:2774:00d5:1:0
+Action.Box
+p:VIVACOM,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024

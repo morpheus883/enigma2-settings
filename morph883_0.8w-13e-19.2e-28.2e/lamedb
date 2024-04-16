@@ -525,9 +525,6 @@ transponders
 00c0ac8f:0001:0001
 	s 11407000:26000000:1:4:192:2:0:1:2:0:2
 /
-00c00000:045e:0001
-	s 12699000:23500000:1:3:192:2:0:1:2:1:2
-/
 00c00000:0000:0001
 	s 11485000:9874000:1:3:192:2:0:1:2:0:2
 /
@@ -855,6 +852,9 @@ transponders
 0082acce:07d2:0002
 	s 11470000:33000000:1:2:130:2:0:1:2:0:2
 /
+00820000:2774:00d5
+	s 12731000:30000000:0:4:130:2:0:1:2:2:2
+/
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
 /
@@ -1101,9 +1101,6 @@ fff80000:02cc:0600
 fff8b0e6:0001:ffff
 	s 12518000:2080000:1:3:-8:2:0:1:2:0:2
 /
-fff8b0ff:0001:ffff
-	s 12543000:6660000:1:3:-8:2:0:1:2:0:2
-/
 fff80000:00bf:00bf
 	s 12521000:2080000:1:3:-8:2:0:1:2:0:2
 /
@@ -1113,11 +1110,14 @@ fff80000:00bf:00bf
 fff8ad00:0001:0001
 	s 11520000:7200000:1:3:-8:2:0:1:2:0:2
 /
-0e08b0f6:0001:ffff
-	s 12534000:4800000:1:3:-8:2:0:1:2:0:2
-/
 0e08b0f0:0001:ffff
 	s 12528000:6660000:1:3:-8:2:0:1:2:0:2
+/
+0e080000:0065:0065
+	s 12543000:6660000:1:3:-8:2:0:1:2:0:2
+/
+fff80000:0065:0065
+	s 12534000:4800000:1:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -3945,7 +3945,7 @@ p:Movistar+,f:1
 Liga de Campeones 2
 p:Movistar+,f:1
 77bd:00c00000:040a:0001:1:0
-M+ Copa del Rey
+M+ LaLiga 3
 p:Movistar+,f:1
 77c7:00c00000:040a:0001:1:0
 DreamWorks
@@ -5448,10 +5448,10 @@ p:ORF Digital,f:1
 ORF 2 Europe
 p:ORF Digital,f:1
 32db:00c00000:045d:0001:1:0
-RIC
+RiC Alt
 p:,f:1
 32da:00c00000:045d:0001:1:0
-Volksmusik TV
+Volksmusik.TV ALT
 p:-,f:1
 32dd:00c00000:045d:0001:1:0
 n-tv Austria
@@ -6133,6 +6133,15 @@ BEUR FM
 p:
 429a:00c00000:0446:0001:25:0
 MOSAIQUE LDC
+p:,f:1
+4283:00c00000:0446:0001:25:0
+OCS Géants HD
+p:,f:1
+4284:00c00000:0446:0001:25:0
+Paramount Channel HD France
+p:,f:1
+4285:00c00000:0446:0001:25:0
+Seasons HD
 p:,f:1
 0001:00c00000:040b:0001:31:0
 SES UHD Demo Channel
@@ -6953,45 +6962,6 @@ p:RR,f:1
 0001:00c0ac8f:0001:0001:25:0
 MM2 Service 1
 p:RR,f:1
-2904:00c00000:045e:0001:1:0
-Xplore_alt
-p:SES,f:1
-2905:00c00000:045e:0001:1:0
-Hip Trips_alt
-p:SES,f:1
-2906:00c00000:045e:0001:1:0
-One Terra_alt
-p:SES,f:1
-2907:00c00000:045e:0001:1:0
-Deluxe Rock_alt
-p:SES,f:1
-2908:00c00000:045e:0001:1:0
-Deluxe Rap_alt
-p:SES,f:1
-2909:00c00000:045e:0001:1:0
-Deluxe Dance by Kontor_alt
-p:SES,f:1
-290a:00c00000:045e:0001:1:0
-Deluxe Flashback_alt
-p:SES,f:1
-290b:00c00000:045e:0001:1:0
-Just Cooking_alt
-p:SES,f:1
-290c:00c00000:045e:0001:1:0
-Just Fishing_alt
-p:SES,f:1
-290d:00c00000:045e:0001:1:0
-Deluxe Lounge_alt
-p:SES,f:1
-290e:00c00000:045e:0001:1:0
-Red Adventure_alt
-p:SES,f:1
-290f:00c00000:045e:0001:1:0
-Crime Time_alt
-p:SES,f:1
-2910:00c00000:045e:0001:1:0
-SERIEN+_alt
-p:SES,f:1
 0001:00c00000:0000:0001:0:0
 FEED-1B-TUR139
 p:HDPROTEK
@@ -7002,19 +6972,19 @@ p:Mobile Linke Europe AB,f:1
 FWWC-WF-A-R
 p:Telstra Broadcast Services,f:1
 0001:00c00000:0003:0001:1:0
-NFL SRT Source 1 Baltimore Ravens vs Washington Commanders
+Astra1M Service 1
 p:,c:050001,f:1
 0002:00c00000:0003:0001:1:0
-NFL SRT Europe/Asia Testing Sour
+Astra1M Service 2
 p:,c:050001,f:1
 0003:00c00000:0003:0001:1:0
-NFL SRT Europe/Asia Testing Sour
+Astra1M Service 3
 p:,c:050001,f:1
 0004:00c00000:0003:0001:1:0
-NFL SRT Europe/Asia Testing Sour
+Astra1M Service 4
 p:,c:050001,f:1
 0005:00c00000:0003:0001:1:0
-NFL SRT Europe/Asia Testing Sour
+Astra1M Service 5
 p:,c:050001,f:1
 2968:00c00000:045a:0001:25:0
 One Terra HD
@@ -7149,7 +7119,7 @@ p:SKY,f:1
 DAZN 1 HD
 p:SKY,f:1
 0008:00c00000:0009:0085:25:0
-Sky Cinema Fun HD
+Sky Cinema 2
 p:SKY,f:1
 0011:00c00000:0009:0085:25:0
 Sky Sport F1 HD
@@ -7209,7 +7179,7 @@ p:Movistar+,f:1
 Liga de Campeones 3 HD
 p:Movistar+,f:1
 74a3:00c00000:041c:0001:25:0
-M+ Copa del Rey HD
+M+ LaLiga 3 HD
 p:Movistar+,f:1
 749e:00c00000:041c:0001:25:0
 M+LCampeones 2
@@ -7825,6 +7795,12 @@ Home TV
 p:CANAL+,f:1
 32ef:00820000:0190:013e:1:0
 Power TV
+p:CANAL+,f:1
+32d9:00820000:0190:013e:1:0
+TVC Super
+p:CANAL+,f:1
+32da:00820000:0190:013e:1:0
+Szlagier TV
 p:CANAL+,f:1
 089c:00820000:01f4:013e:1:0
 Yemen TV
@@ -9485,7 +9461,7 @@ p:Cyfrowy Polsat S.A.,f:1
 0c2d:00820000:1e78:0071:1:0
 FX HD
 p:Cyfrowy Polsat S.A.,f:1
-0c1e:00820000:1e78:0071:1:0
+0c1e:00820000:1e78:0071:25:0
 Polsat Sport HD
 p:Cyfrowy Polsat S.A.,f:1
 0c20:00820000:1e78:0071:1:0
@@ -12650,6 +12626,15 @@ p:MyServiceProvider
 0320:0082acce:07d2:0002:1:0
 SERVICE IP/MAC NOTIFICATION
 p:MyIntProvider,f:1
+0259:00820000:2774:00d5:1:0
+Cine.Box
+p:VIVACOM,f:1
+025a:00820000:2774:00d5:1:0
+Comedy.Box
+p:VIVACOM,f:1
+025b:00820000:2774:00d5:1:0
+Action.Box
+p:VIVACOM,f:1
 040a:0e080000:0044:0046:25:0
 TV 2 Sport Premium HD
 p:Canal Digital Nordic,f:1
@@ -12760,9 +12745,6 @@ MTV Viihde HD
 p:Telenor,f:1
 467f:0e080000:000e:0046:25:0
 TV4 HD - Text
-p:Telenor,f:1
-1c62:0e080000:000e:0046:25:0
-TV4 Sport Live 1 HD (old)
 p:Telenor,f:1
 45ef:0e080000:000e:0046:25:0
 Hits HD
@@ -12878,9 +12860,6 @@ p:Telenor,f:1
 4886:0e080000:001b:0046:25:0
 SVTB HD - Talande Text
 p:Telenor,f:1
-1f2d:0e080000:001b:0046:22:0
-Godare
-p:Telenor,f:1
 1c41:0e080000:0021:0046:1:0
 TLC Europe
 p:Telenor,f:1
@@ -12917,18 +12896,21 @@ p:Canal Digital Nordic,f:1
 4662:0e080000:0021:0046:1:0
 TLC Danmark syn
 p:Canal Digital Nordic,f:1
+1d24:0e080000:0021:0046:22:0
+Investigation Discovery Denmark
+p:Telenor,f:1
 1f25:0e080000:0021:0046:22:0
-ID Investigation Discovery
+Investigation Discovery Norway
 p:Telenor,f:1
 1b89:0e080000:0001:0046:1:0
 TV 4 Film
-p:Canal Digital Nordic,f:1
+p:Telenor,f:1
 1c18:0e080000:0001:0046:1:0
 SF Kanalen
-p:Canal Digital Nordic,f:1
+p:Telenor,f:1
 1c1a:0e080000:0001:0046:1:0
 Horse and Country
-p:Canal Digital Nordic,f:1
+p:Telenor,f:1
 1b87:0e080000:0001:0046:22:0
 TV4 Guld
 p:Telenor,f:1
@@ -12946,6 +12928,12 @@ C More Sport 2 HD
 p:Telenor,f:1
 1e61:0e080000:0001:0046:25:0
 Auto Motor og Sport TV
+p:Telenor,f:1
+1d1f:0e080000:0001:0046:25:0
+TV12 HD
+p:Telenor,f:1
+4303:0e080000:0001:0046:25:0
+TV12 HD - text
 p:Telenor,f:1
 1d77:0e080000:0003:0046:25:0
 Viasat Sport + Suomi HD
@@ -13013,6 +13001,12 @@ p:Telenor
 06ca:0e080000:0003:0046:10:0
 Bandit Classics
 p:Telenor
+1d31:0e080000:0003:0046:25:0
+Heim HD
+p:Telenor,f:1
+1d2f:0e080000:0003:0046:1:0
+SBN International
+p:Telenor,f:1
 0afd:0e080000:0022:0046:2:0
 RUV Ras 1
 p:Telenor
@@ -13164,7 +13158,7 @@ p:
 30
 p:
 7596:0e080000:02bd:0600:1:0
-HirTV.
+HirTV
 p:UPC,f:1
 7597:0e080000:02bd:0600:1:0
 JimJam HU
@@ -13617,7 +13611,7 @@ p:Telenor,f:1
 History Sweden HD
 p:Telenor,f:1
 1f28:0e080000:0029:0046:25:0
-BBC Nordic HD
+BBC Nordic HD (old)
 p:Telenor,f:1
 2f45:0e080000:0029:0046:12:0
 Allente1 Bootload
@@ -13803,7 +13797,7 @@ p:UPC Direct,f:1
 Prime
 p:UPC Direct,f:1
 78c7:0e080000:02c5:0600:1:0
-Fem3 HU.
+TV2Klub.
 p:UPC Direct,f:1
 78c8:0e080000:02c5:0600:1:0
 Hustler TV
@@ -13833,7 +13827,7 @@ p:M7,f:1
 Viasat Explore RO
 p:M7,f:1
 78ca:0e080000:02c5:0600:1:0
-Viasat Explore
+Viasat Explore.
 p:M7,f:1
 78c1:0e080000:02c5:0600:1:0
 Viasat 2
@@ -13860,7 +13854,7 @@ p:M7,f:1
 Filmbox Basic
 p:M7,f:1
 78d9:0e080000:02c5:0600:1:0
-Fem3 HU (SVT)
+TV2 Klub (SVT)
 p:M7,f:1
 78da:0e080000:02c5:0600:1:0
 Prime (SVT)
@@ -14141,9 +14135,6 @@ p:Telenor
 1ed6:0e080000:0046:0046:2:0
 NRK Folkemusikk
 p:Telenor
-132b:0e080000:0048:0046:22:0
-MTV Juniori (old)
-p:Telenor,f:1
 0130:0e080000:0048:0046:22:0
 Nelonen
 p:Telenor,f:1
@@ -14152,33 +14143,6 @@ Jim TV
 p:Telenor,f:1
 1195:0e080000:0048:0046:22:0
 Liv
-p:Telenor,f:1
-08fd:0e080000:0048:0046:22:0
-MTV Sub (old)
-p:Telenor,f:1
-0021:0e080000:0048:0046:25:0
-Yle TV 2 HD (old)
-p:Telenor,f:1
-1bb1:0e080000:0048:0046:25:0
-MTV Urheilu 1 HD (old)
-p:Telenor,f:1
-45f3:0e080000:0048:0046:22:0
-MTV Juniori (old)
-p:Telenor,f:1
-0b78:0e080000:0048:0046:25:0
-Yle TV 2 HD (old)
-p:Telenor,f:1
-1d15:0e080000:0048:0046:25:0
-Yle Teema & Fem HD (old)
-p:Telenor,f:1
-4425:0e080000:0048:0046:25:0
-Yle Teema & Fem HD (old)
-p:Telenor,f:1
-1c13:0e080000:0048:0046:1:0
-SBN International (old)
-p:Telenor,f:1
-1c75:0e080000:0048:0046:25:0
-Heim HD (old)
 p:Telenor,f:1
 1d3a:0e080000:0048:0046:25:0
 SkyShowtime 1 HD
@@ -14267,9 +14231,6 @@ p:M7,f:1
 7737:0e080000:02c1:0600:25:0
 HBO HD HU
 p:M7,f:1
-1b76:0e080000:0042:0046:25:0
-TV4 Stars HD (old)
-p:Telenor,f:1
 1d12:0e080000:0042:0046:25:0
 TV4 Sport Live 2 HD
 p:Telenor,f:1
@@ -14284,9 +14245,6 @@ TV4 Motor HD
 p:Telenor,f:1
 1c66:0e080000:0042:0046:25:0
 TV4 Sportkanalen HD
-p:Telenor,f:1
-4404:0e080000:0042:0046:25:0
-Stars HD (old)
 p:Telenor,f:1
 1cfa:0e080000:0042:0046:22:0
 Horse & Country
@@ -14369,26 +14327,11 @@ p:Telenor,f:1
 1baf:0e080000:0002:0046:2:0
 Rix FM
 p:Telenor
-1b94:0e080000:003d:0046:25:0
-TV4 Fotboll HD (old)
-p:Telenor,f:1
 0b75:0e080000:003d:0046:25:0
 Yle TV1 HD (old)
 p:Canal Digital Nordic,f:1
-0b76:0e080000:003d:0046:25:0
-MTV 3 HD (old)
-p:Canal Digital Nordic,f:1
 0b77:0e080000:003d:0046:25:0
 Yle TV1 HD (old)
-p:Telenor,f:1
-1c19:0e080000:003d:0046:25:0
-Animal Planet HD
-p:Telenor,f:1
-1e0c:0e080000:003d:0046:25:0
-TV12 HD
-p:Telenor,f:1
-4a30:0e080000:003d:0046:25:0
-TV12 HD - text
 p:Telenor,f:1
 2afa:0e082f3c:000b:1111:1:0
 AXN White
@@ -14418,7 +14361,7 @@ p:SES,f:1
 VIASAT 6 .
 p:SES,f:1
 2b0f:0e082f3c:000b:1111:25:0
-Nat Geo HD (HUN)
+Nat Geo HD HU
 p:SES,f:1
 2b10:0e082f3c:000b:1111:25:0
 Nat Geo HD (ROU)
@@ -14594,8 +14537,8 @@ p:Telenor,f:1
 1db7:0e080000:002b:0046:25:0
 Discovery+ Extra 8 HD
 p:Telenor,f:1
-1c8f:0e080000:000a:0046:22:0
-Investigation Discovery Denmark
+1d20:0e080000:002b:0046:22:0
+Godare
 p:Telenor,f:1
 1c93:0e080000:000a:0046:22:0
 DK 4
@@ -14609,12 +14552,6 @@ p:Telenor,f:1
 1c98:0e080000:000a:0046:22:0
 DR Ramasjang
 p:Telenor,f:1
-2f44:0e080000:000a:0046:12:0
-OnePlace Bootload
-p:Telenor
-1ca4:0e080000:000a:0046:2:0
-DR P3 (old)
-p:Telenor
 1e83:0e080000:000a:0046:25:0
 DR 1 HD
 p:Telenor,f:1
@@ -14626,9 +14563,6 @@ CNBC
 p:Telenor,f:1
 1c5e:0e080000:000a:0046:22:0
 Bloomberg
-p:Telenor,f:1
-1c5f:0e080000:000a:0046:22:0
-TV 5 Finland (old)
 p:Telenor,f:1
 4593:0e080000:000a:0046:25:0
 DR1 HD
@@ -15963,40 +15897,40 @@ p:M7,f:1
 JimJam..
 p:M7,f:1
 7a47:fff80000:02cb:0600:22:0
-LALA TV.
+LALA TV
 p:M7,f:1
 7a48:fff80000:02cb:0600:22:0
-CS Film/CS Horror.
+CS Film/CS Horror
 p:M7,f:1
 7a49:fff80000:02cb:0600:22:0
-Markiza INT.
+Markiza INT
 p:M7,f:1
 7a4a:fff80000:02cb:0600:22:0
-TA3.
+TA3
 p:M7,f:1
 7a4b:fff80000:02cb:0600:22:0
-Prima Cool.
+Prima Cool
 p:M7,f:1
 7a4c:fff80000:02cb:0600:22:0
-Prima Love.
+Prima Love
 p:M7,f:1
 7a4d:fff80000:02cb:0600:22:0
-CNN Prima News.
+CNN Prima News
 p:M7,f:1
 7a4e:fff80000:02cb:0600:22:0
-Jojko.
+Jojko
 p:M7,f:1
 7a52:fff80000:02cb:0600:22:0
-Senzi.
+Senzi
 p:M7,f:1
 7a53:fff80000:02cb:0600:22:0
 SLAGER ORIGINAL.
 p:M7,f:1
 7a54:fff80000:02cb:0600:22:0
-TV LUX.
+TV LUX
 p:M7,f:1
 7a55:fff80000:02cb:0600:22:0
-Filmbox Stars CZ.
+Filmbox Stars CZ
 p:M7,f:1
 7a58:fff80000:02cb:0600:22:0
 Docubox
@@ -16017,10 +15951,10 @@ p:M7,f:1
 Filmbox Premium HD
 p:M7,f:1
 7a4f:fff80000:02cb:0600:25:0
-Film+ HD.
+Film+ HD
 p:M7,f:1
 7a50:fff80000:02cb:0600:25:0
-Vixen HD.
+Vixen HD
 p:M7,f:1
 7a56:fff80000:02cb:0600:25:0
 HBO HD
@@ -16050,19 +15984,19 @@ p:M7,f:1
 Fashion TV
 p:M7,f:1
 7ab3:fff80000:02cc:0600:22:0
-Prima Krimi.
+Prima Krimi
 p:M7,f:1
 7ab4:fff80000:02cc:0600:22:0
-Paramount Network.
+Paramount Network
 p:M7,f:1
 7ab5:fff80000:02cc:0600:22:0
-Filmbox Basic.
+Filmbox Basic
 p:M7,f:1
 7ab6:fff80000:02cc:0600:22:0
-TV Paprika CZ/SK.
+TV Paprika CZ/SK
 p:M7,f:1
 7aa9:fff80000:02cc:0600:25:0
-Sport 2 HD
+Sport 2 HD CZ
 p:M7,f:1
 7aab:fff80000:02cc:0600:25:0
 History HD
@@ -16074,16 +16008,16 @@ p:M7,f:1
 JOJ Sport HD
 p:M7,f:1
 7ab2:fff80000:02cc:0600:25:0
-CT: D/Art HD.
+CT: D/Art HD
 p:M7,f:1
 7ab7:fff80000:02cc:0600:25:0
-Sport 1 HD CZ.
+Sport 1 HD CZ
 p:M7,f:1
 7ab8:fff80000:02cc:0600:25:0
-Duna HD.
+Duna HD
 p:M7,f:1
 7ab9:fff80000:02cc:0600:25:0
-M4 HD.
+M4 HD
 p:M7,f:1
 7abe:fff80000:02cc:0600:25:0
 Sport 2 HD (SVT)
@@ -16106,9 +16040,6 @@ p:M7,f:1
 00bb:fff8b0e6:0001:ffff:1:0
 B 187 DGI
 p:DIGI News,f:1
-0001:fff8b0ff:0001:ffff:1:0
-backup
-p:RCS-RDS,f:1
 00bf:fff80000:00bf:00bf:1:0
 B 191 DGI
 p:RCS-RDS,f:1
@@ -16118,12 +16049,15 @@ p:NEP Norway,f:1
 0001:fff8ad00:0001:0001:1:0
 SWE041
 p:alla,f:1
-00ba:0e08b0f6:0001:ffff:1:0
-dgi
-p:rcs-rds,f:1
 0001:0e08b0f0:0001:ffff:1:0
 backup
 p:RCS-RDS,f:1
+0065:0e080000:0065:0065:1:0
+B 101 DGI
+p:RCS-RDS BUCURESTI,f:1
+0065:fff80000:0065:0065:1:0
+B 101 DGI
+p:RCS-RDS BUCURESTI,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024

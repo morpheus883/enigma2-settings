@@ -525,6 +525,9 @@ transponders
 0082acce:07d2:0002
 	s 11470000:33000000:1:2:130:2:0:1:2:0:2
 /
+00820000:2774:00d5
+	s 12731000:30000000:0:4:130:2:0:1:2:2:2
+/
 end
 services
 001e:00a00000:0001:0040:22:0
@@ -788,9 +791,6 @@ p:TIP,f:1
 0028:00a00000:0065:0001:1:0
 EPQ C2
 p:,f:1
-0028:00a00000:0065:0001:2:0
-EPQ C2
-p:
 1167:00a00000:9ca4:016e:1:0
 Oto
 p:Total TV,f:1
@@ -3245,6 +3245,12 @@ p:CANAL+,f:1
 32ef:00820000:0190:013e:1:0
 Power TV
 p:CANAL+,f:1
+32d9:00820000:0190:013e:1:0
+TVC Super
+p:CANAL+,f:1
+32da:00820000:0190:013e:1:0
+Szlagier TV
+p:CANAL+,f:1
 089c:00820000:01f4:013e:1:0
 Yemen TV
 p:,f:1
@@ -4904,7 +4910,7 @@ p:Cyfrowy Polsat S.A.,f:1
 0c2d:00820000:1e78:0071:1:0
 FX HD
 p:Cyfrowy Polsat S.A.,f:1
-0c1e:00820000:1e78:0071:1:0
+0c1e:00820000:1e78:0071:25:0
 Polsat Sport HD
 p:Cyfrowy Polsat S.A.,f:1
 0c20:00820000:1e78:0071:1:0
@@ -8069,6 +8075,15 @@ p:MyServiceProvider
 0320:0082acce:07d2:0002:1:0
 SERVICE IP/MAC NOTIFICATION
 p:MyIntProvider,f:1
+0259:00820000:2774:00d5:1:0
+Cine.Box
+p:VIVACOM,f:1
+025a:00820000:2774:00d5:1:0
+Comedy.Box
+p:VIVACOM,f:1
+025b:00820000:2774:00d5:1:0
+Action.Box
+p:VIVACOM,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024

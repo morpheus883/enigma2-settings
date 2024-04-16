@@ -276,17 +276,11 @@ transponders
 01a4b0ec:0001:042e
 	s 12524000:30000000:1:3:420:2:0
 /
-01a4ab4b:0000:0002
-	s 11083000:7500000:1:3:420:2:0:1:2:0:2
-/
 01a4ad47:0001:ffff
 	s 11591000:3333000:1:3:420:2:0:1:2:0:2
 /
 01a4aac9:464e:0000
 	s 10953000:1808000:1:3:420:2:0
-/
-01a4ad4d:0001:ffff
-	s 11597000:6200000:1:3:420:2:0:1:2:0:2
 /
 01a4aaf8:0001:ffff
 	s 11000000:7500000:1:3:420:2:0:1:2:0:2
@@ -305,6 +299,12 @@ transponders
 /
 01a4aae7:0001:ffff
 	s 10983000:4100000:1:3:420:2:0:1:2:0:2
+/
+01a4ab4b:0000:0000
+	s 11083000:7500000:1:3:420:2:0:1:2:0:2
+/
+01a40000:0001:0012
+	s 11597000:6200000:1:3:420:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -575,6 +575,9 @@ transponders
 /
 0082acce:07d2:0002
 	s 11470000:33000000:1:2:130:2:0:1:2:0:2
+/
+00820000:2774:00d5
+	s 12731000:30000000:0:4:130:2:0:1:2:2:2
 /
 end
 services
@@ -3104,18 +3107,12 @@ p:beINSports,f:1
 0001:01a4b0ec:0001:042e:25:0
 COLORBAR H264
 p:TURKSAT,f:1
-0001:01a4ab4b:0000:0002:1:0
-TUR122A
-p:TRT,f:1
 0001:01a4ad47:0001:ffff:1:0
 MAİN
 p:SSP,f:1
 0001:01a4aac9:464e:0000:1:0
 DAB
 p:TRT,f:1
-0001:01a4ad4d:0001:ffff:1:0
-SNG MEDYA 1
-p:SNG MEDYA HD,f:1
 0001:01a4aaf8:0001:ffff:1:0
 TUR 137 A
 p:Service Provider,f:1
@@ -3134,6 +3131,12 @@ p:Service Provider,f:1
 0001:01a4aae7:0001:ffff:1:0
 anka haber ajansi
 p:Service Provider,f:1
+0001:01a4ab4b:0000:0000:1:0
+TUR-119 main
+p:,f:1
+079e:01a40000:0001:0012:1:0
+TUR120 A
+p:DVBTURK A.Ş.,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -3670,6 +3673,12 @@ Home TV
 p:CANAL+,f:1
 32ef:00820000:0190:013e:1:0
 Power TV
+p:CANAL+,f:1
+32d9:00820000:0190:013e:1:0
+TVC Super
+p:CANAL+,f:1
+32da:00820000:0190:013e:1:0
+Szlagier TV
 p:CANAL+,f:1
 089c:00820000:01f4:013e:1:0
 Yemen TV
@@ -5330,7 +5339,7 @@ p:Cyfrowy Polsat S.A.,f:1
 0c2d:00820000:1e78:0071:1:0
 FX HD
 p:Cyfrowy Polsat S.A.,f:1
-0c1e:00820000:1e78:0071:1:0
+0c1e:00820000:1e78:0071:25:0
 Polsat Sport HD
 p:Cyfrowy Polsat S.A.,f:1
 0c20:00820000:1e78:0071:1:0
@@ -8495,6 +8504,15 @@ p:MyServiceProvider
 0320:0082acce:07d2:0002:1:0
 SERVICE IP/MAC NOTIFICATION
 p:MyIntProvider,f:1
+0259:00820000:2774:00d5:1:0
+Cine.Box
+p:VIVACOM,f:1
+025a:00820000:2774:00d5:1:0
+Comedy.Box
+p:VIVACOM,f:1
+025b:00820000:2774:00d5:1:0
+Action.Box
+p:VIVACOM,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024
