@@ -138,9 +138,6 @@ transponders
 011a0000:0834:0002
 	s 11626000:22000000:1:4:282:2:0
 /
-011a0000:07e4:0002
-	s 12090000:27500000:1:2:282:2:0:1:2:0:2
-/
 011a0000:07ee:0002
 	s 12285000:27500000:1:2:282:2:0:1:2:0:2
 /
@@ -231,9 +228,6 @@ transponders
 011a0000:082d:0002
 	s 11523000:23000000:0:2:282:2:0:1:2:0:2
 /
-011ab198:0001:ffff
-	s 12696000:7500000:1:2:282:2:0:1:2:0:2
-/
 011ab168:0000:0000
 	s 12648000:5000000:1:4:282:2:0:1:2:0:2
 /
@@ -260,6 +254,12 @@ transponders
 /
 011a30e9:0001:0001
 	s 12521000:7200000:0:3:282:2:0:1:2:0:2
+/
+011ab195:0000:0000
+	s 12693000:9600000:1:3:282:2:0:1:2:0:2
+/
+011ab198:0002:ffff
+	s 12696000:7500000:1:2:282:2:0:1:2:0:2
 /
 00eb0000:0c88:0003
 	s 11856000:29900000:1:2:235:2:0:1:2:0:0
@@ -984,6 +984,9 @@ transponders
 00820000:33f4:013e
 	s 11179000:27500000:0:2:130:2:0:1:2:0:2
 /
+00820000:00c8:013e
+	s 11240000:27500000:1:4:130:2:0:1:2:0:2
+/
 00820000:0190:013e
 	s 11278000:27500000:1:3:130:2:0:1:2:0:2
 /
@@ -1200,9 +1203,6 @@ transponders
 00820000:1e14:fbff
 	s 12245000:29900000:0:4:130:2:0:1:2:0:2
 /
-00820000:206c:fbff
-	s 12360000:29900000:0:4:130:2:0:1:2:0:2
-/
 00820000:2fa8:013e
 	s 10949000:27500000:1:2:130:2:0:1:2:0:2
 /
@@ -1224,11 +1224,11 @@ transponders
 00820000:2710:00d5
 	s 12713000:30000000:1:4:130:2:0:1:2:2:2
 /
-0082acce:07d2:0002
-	s 11470000:33000000:1:2:130:2:0:1:2:0:2
-/
 00820000:2774:00d5
 	s 12731000:30000000:0:4:130:2:0:1:2:2:2
+/
+0082acce:03ea:0001
+	s 11470000:33000000:1:2:130:2:0:1:2:0:2
 /
 end
 services
@@ -1409,6 +1409,18 @@ p:
 2911:011a0000:090b:003b:12:0
 SlateC
 p:
+2959:011a0000:090b:003b:1:0
+D1 DAB
+p:Arqiva,f:1
+295e:011a0000:090b:003b:1:1
+SDL nATL
+p:Arqiva,f:1
+2954:011a0000:090b:003b:1:0
+BBC NDRA
+p:Arqiva,f:1
+295a:011a0000:090b:003b:1:0
+D1 Scotland
+p:Arqiva,f:1
 105e:011a0000:07d4:0002:132:0
 DCS1
 p:BSkyB
@@ -2310,13 +2322,10 @@ c5a8:011a0000:0842:0002:25:0
 EarthxTV HD
 p:BSkyB,f:1
 c5ad:011a0000:0842:0002:25:0
-Viaplay 2 HD
+Premier 2 HD
 p:BSkyB,f:1
 c472:011a0000:0837:0002:25:0
 CNN International HD
-p:BSkyB,f:1
-232b:011a0000:0837:0002:25:0
-Iran International HD
 p:BSkyB,f:1
 c44f:011a0000:0837:0002:25:0
 LoveWorld HD
@@ -2325,7 +2334,7 @@ c441:011a0000:0837:0002:25:0
 GB News HD
 p:BSkyB,f:1
 c44b:011a0000:0837:0002:25:0
-Viaplay 1 HD
+Premier 1 HD
 p:BSkyB,f:1
 c455:011a0000:0837:0002:25:0
 Bloomberg HD
@@ -2696,6 +2705,9 @@ p:BSkyB,f:1
 cf9f:011a0000:083a:0002:25:0
 MTA1 World HD
 p:BSkyB,f:1
+cf9c:011a0000:083a:0002:1:0
+GREAT! Romance Ireland
+p:BSkyB,f:1
 cd64:011a0000:0844:0002:25:0
 Quest HD
 p:BSkyB,f:1
@@ -2976,7 +2988,7 @@ p:BSkyB,f:1
 Premier Sports 2 HD
 p:BSkyB,f:1
 1526:011a0000:07e9:0002:25:0
-Premier 2 HD
+Premier 2 HD (Ireland)
 p:BSkyB,f:1
 0f0d:011a0000:07e9:0002:25:0
 Sky Atlantic HD
@@ -2991,7 +3003,7 @@ p:BSkyB,f:1
 Premier 1 HD
 p:BSkyB,f:1
 1524:011a0000:07e9:0002:25:0
-Premier 1 HD
+Premier 1 HD (Ireland)
 p:BSkyB,f:1
 14a4:011a0000:07e9:0002:25:0
 Sky Sport Tennis HD
@@ -3151,45 +3163,6 @@ Nick Jr. UK HD
 p:BSkyB,f:1
 1a4d:011a0000:0834:0002:1:0
 Nicktoons
-p:BSkyB,f:1
-0cc9:011a0000:07e4:0002:25:0
-Sky Sports Mix HD
-p:BSkyB,f:1
-0e2d:011a0000:07e4:0002:25:0
-Sky Sports News HD
-p:BSkyB,f:1
-0eee:011a0000:07e4:0002:25:0
-Sky Sports Action HD
-p:BSkyB,f:1
-0ef0:011a0000:07e4:0002:25:0
-SkySp ActionHD
-p:BSkyB,f:1
-0efb:011a0000:07e4:0002:25:0
-Sky Sports F1 HD
-p:BSkyB,f:1
-0efc:011a0000:07e4:0002:25:0
-Sky Spts F1 HD
-p:BSkyB,f:1
-0f0e:011a0000:07e4:0002:25:0
-Sky News Ireland HD
-p:BSkyB,f:1
-0f26:011a0000:07e4:0002:25:0
-Sky Sports Cricket HD
-p:BSkyB,f:1
-0f4b:011a0000:07e4:0002:25:0
-Sky Sports Cricket HD
-p:BSkyB,f:1
-0ffc:011a0000:07e4:0002:25:0
-SkySp Mix HD
-p:BSkyB,f:1
-1418:011a0000:07e4:0002:25:0
-Sky Comedy HD
-p:BSkyB,f:1
-145c:011a0000:07e4:0002:25:0
-Sky Crime HD
-p:BSkyB,f:1
-1817:011a0000:07e4:0002:25:0
-STV HD
 p:BSkyB,f:1
 0ee7:011a0000:07ee:0002:25:0
 Sky Greats HD
@@ -3668,14 +3641,11 @@ p:BSkyB,f:1
 1dbd:011a0000:082d:0002:2:0
 WRN Europe
 p:BSkyB
-0001:011ab198:0001:ffff:1:0
-OVERON E-415 VIA 1
-p:Service Provider,f:1
 0001:011ab168:0000:0000:25:0
 SW01 Encoder 1
 p:SW01 Encoder 1,f:1
 0001:011a30e3:0000:0000:25:0
-Netball Nations Cup from Leeds
+Amazon Man City v Madrid sat backup
 p:NEP Connect,f:1
 0001:011a3103:0001:0001:1:0
 UKI-1955-2
@@ -3686,44 +3656,44 @@ p:Service Provider,f:1
 0001:011a30f7:0001:0001:1:0
 UKI-1955-1
 p:Red Cat 1,f:1
-0f0e:011a2f4e:07e4:0002:25:0
-Sky News HD
-p:BSkyB,f:1
-1817:011a2f4e:07e4:0002:25:0
-STV HD
-p:BSkyB,f:1
-1418:011a2f4e:07e4:0002:25:0
-Sky Comedy HD
-p:BSkyB,f:1
-0f26:011a2f4e:07e4:0002:25:0
-SkySpCricket HD
+0cc9:011a2f4e:07e4:0002:25:0
+Sky Sports Mix HD
 p:BSkyB,f:1
 0e2d:011a2f4e:07e4:0002:25:0
-SkySp News HD
-p:BSkyB,f:1
-0f4b:011a2f4e:07e4:0002:25:0
-SkySpCricket HD
-p:BSkyB,f:1
-145c:011a2f4e:07e4:0002:25:0
-Sky Crime HD
-p:BSkyB,f:1
-0cc9:011a2f4e:07e4:0002:25:0
-SkySp Mix HD
+Sky Sports News HD
 p:BSkyB,f:1
 0eee:011a2f4e:07e4:0002:25:0
-SkySp ActionHD
+Sky Sports Action HD
 p:BSkyB,f:1
 0ef0:011a2f4e:07e4:0002:25:0
 SkySp ActionHD
 p:BSkyB,f:1
 0efb:011a2f4e:07e4:0002:25:0
-SkySp F1 HD
+Sky Sports F1 HD
 p:BSkyB,f:1
 0efc:011a2f4e:07e4:0002:25:0
-SkySp F1 HD
+Sky Spts F1 HD
+p:BSkyB,f:1
+0f0e:011a2f4e:07e4:0002:25:0
+Sky News Ireland HD
+p:BSkyB,f:1
+0f26:011a2f4e:07e4:0002:25:0
+Sky Sports Cricket HD
+p:BSkyB,f:1
+0f4b:011a2f4e:07e4:0002:25:0
+Sky Sports Cricket HD
 p:BSkyB,f:1
 0ffc:011a2f4e:07e4:0002:25:0
 SkySp Mix HD
+p:BSkyB,f:1
+1418:011a2f4e:07e4:0002:25:0
+Sky Comedy HD
+p:BSkyB,f:1
+145c:011a2f4e:07e4:0002:25:0
+Sky Crime HD
+p:BSkyB,f:1
+1817:011a2f4e:07e4:0002:25:0
+STV HD
 p:BSkyB,f:1
 0320:011ab156:0c07:0001:1:0
 INT_PLATFORM
@@ -3737,6 +3707,12 @@ p:NEP Ireland,f:1
 0001:011a30e9:0001:0001:25:0
 NLFLEV_HOL-48 CH-A
 p:FLEVOSAT.NL,f:1
+0001:011ab195:0000:0000:25:0
+E-379 Feed 1
+p:,f:1
+0002:011ab198:0002:ffff:1:0
+EDS806HD.2
+p:CCMA,f:1
 1b6c:00eb0000:0c88:0003:25:0
 RTL 4 HD
 p:M7 Group,f:1
@@ -3777,7 +3753,7 @@ p:M7 Group,f:1
 Crime+Investigation
 p:M7 Group,f:1
 1c02:00eb0000:0c88:0003:25:0
-Doma HD
+TV Lux
 p:M7 Group,f:1
 17d5:00eb0000:0c91:0003:25:0
 Unitel Classica HD
@@ -5950,6 +5926,9 @@ p:,f:1
 p:,f:1
 1f54:00eb2d7b:0000:0001:1:0
 8020 Emaus
+p:,f:1
+0fe6:00eb2d7b:0000:0001:1:0
+4070 Krakow PLUS
 p:,f:1
 070b:00eb2d83:000b:0003:2:0
 Radio Wielkopolska
@@ -8436,7 +8415,7 @@ p:ARD,f:1
 SR Fernsehen HD
 p:ARD,f:1
 2889:00c00000:040f:0001:25:0
-ARD-alpha HD
+ARD alpha HD
 p:ARD,f:1
 288b:00c00000:040f:0001:25:0
 Radio Bremen HD
@@ -8529,7 +8508,7 @@ p:ARD SWR
 SWR1 RP
 p:ARD SWR
 28ca:00c00000:040f:0001:10:0
-SWR2
+SWR Kultur
 p:ARD SWR
 28cb:00c00000:040f:0001:10:0
 SWR3
@@ -8574,7 +8553,7 @@ p:ARD WDR
 WDR Event
 p:ARD WDR
 28d0:00c00000:040f:0001:10:0
-SWR2 5.1
+SWR Kultur 5.1
 p:ARD SWR
 2896:00c00000:040f:0001:25:0
 ARD-Test-R
@@ -8654,6 +8633,9 @@ p:ORS,f:1
 33fe:00c00000:03ed:0001:25:0
 Service 13310
 p:ORF,f:1
+3403:00c00000:03ed:0001:22:0
+TV1 OOE
+p:ORS,f:1
 1086:00c00000:03ee:0001:31:0
 QVC UHD
 p:MX1,f:1
@@ -9026,9 +9008,6 @@ p:CSAT,f:1
 219c:00c00000:0448:0001:25:0
 Paramount Channel HD France
 p:CSAT,f:1
-219d:00c00000:0448:0001:25:0
-Multisports 6 HD
-p:CSAT,f:1
 219f:00c00000:0448:0001:25:0
 Seasons HD
 p:CSAT,f:1
@@ -9073,12 +9052,6 @@ BET HD France
 p:CSAT,f:1
 2199:00c00000:0448:0001:25:0
 Nickelodeon France HD
-p:CSAT,f:1
-21ab:00c00000:0448:0001:25:0
-6ter HD
-p:CSAT,f:1
-21ac:00c00000:0448:0001:25:0
-DAZN 1
 p:CSAT,f:1
 2456:00c00000:0440:0001:25:0
 Cine+ Premier HD
@@ -9260,6 +9233,12 @@ p:CSAT,f:1
 24b9:00c00000:043c:0001:25:0
 Sport en France
 p:CSAT,f:1
+24ca:00c00000:043c:0001:25:0
+Multisports 6 HD
+p:CSAT,f:1
+24ba:00c00000:043c:0001:25:0
+DAZN 1
+p:CSAT,f:1
 21fd:00c00000:044c:0001:25:0
 France 4 HD
 p:CSAT,f:1
@@ -9313,6 +9292,9 @@ FranceInfo HD
 p:CSAT,f:1
 220e:00c00000:044c:0001:1:0
 France 3 Rhône-Alpes
+p:CSAT,f:1
+220a:00c00000:044c:0001:25:0
+6ter HD
 p:CSAT,f:1
 2336:00c00000:0442:0001:25:0
 C News HD
@@ -10364,6 +10346,24 @@ p:Telespazio,f:1
 1325:00820000:33f4:013e:1:0
 KBS World
 p:Telespazio,f:1
+0064:00820000:00c8:013e:1:0
+Ginx
+p:ECLUTCH,f:1
+0065:00820000:00c8:013e:1:0
+Bigg TV
+p:ECLUTCH,f:1
+0066:00820000:00c8:013e:1:0
+Gametoon
+p:ECLUTCH,f:1
+0067:00820000:00c8:013e:1:0
+ESR24
+p:ECLUTCH,f:1
+0068:00820000:00c8:013e:1:0
+Esports Legend
+p:ECLUTCH,f:1
+0069:00820000:00c8:013e:1:0
+Senemedia
+p:ECLUTCH,f:1
 32de:00820000:0190:013e:1:0
 Canal+ Sport HD Polska
 p:Cyfra +,f:1
@@ -12186,8 +12186,8 @@ p:UNITED TELEPORTS,f:1
 Sonlife
 p:ARQIVA LTD,f:1
 39df:00820000:1fa4:013e:1:0
-Vidrodjennya German
-p:FFmpeg,f:1
+Rinascita Del Mondo
+p:VOZROZHDENIE,f:1
 1089:00820000:2008:fbff:25:0
 Sky Sport 3 HD
 p:Sky Italia,f:1
@@ -13385,6 +13385,9 @@ p:M-Three Satcom,f:1
 0538:00820000:3d54:013e:1:0
 Value24
 p:M-Three Satcom,f:1
+053b:00820000:3d54:013e:1:0
+Baby TV
+p:MX1,f:1
 0d4a:00820000:1450:013e:25:0
 Rai 2 HD
 p:Rai,f:1
@@ -14450,12 +14453,6 @@ p:,f:1
 1002:00820000:1e14:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
-1c80:00820000:206c:fbff:1:0
-IEPG Data
-p:SkyItalia,f:1
-1c7d:00820000:206c:fbff:251:0
-Fusion BGDL 7293
-p:SkyItalia
 0065:00820000:2fa8:013e:22:0
 Svoboda
 p:Svoboda Satellite,f:1
@@ -15281,12 +15278,6 @@ p:VIVACOM,f:1
 13b4:00820000:2710:00d5:1:39
 Soul & Pepper TV
 p:VIVACOM,f:1
-07d2:0082acce:07d2:0002:12:0
-HVS-2 Bck (SGB6)
-p:MyServiceProvider
-0320:0082acce:07d2:0002:1:0
-SERVICE IP/MAC NOTIFICATION
-p:MyIntProvider,f:1
 0259:00820000:2774:00d5:1:0
 Cine.Box
 p:VIVACOM,f:1
@@ -15296,6 +15287,15 @@ p:VIVACOM,f:1
 025b:00820000:2774:00d5:1:0
 Action.Box
 p:VIVACOM,f:1
+03ea:0082acce:03ea:0001:12:0
+HVS-2 Bck
+p:Telespazio
+0320:0082acce:03ea:0001:1:0
+SERVICE IP/MAC NOTIFICATION
+p:MyIntProvider,f:1
+07d2:0082acce:03ea:0001:12:0
+HVS-2 Bck (SGB6)
+p:MyServiceProvider
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024
