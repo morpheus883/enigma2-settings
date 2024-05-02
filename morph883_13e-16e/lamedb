@@ -96,9 +96,6 @@ transponders
 00a0310c:0001:ffff
 	s 12556000:2815000:0:3:160:2:0
 /
-00a02ada:0001:0001
-	s 10970000:2963000:0:4:160:2:0
-/
 00a030f7:0001:ffff
 	s 12535000:3165000:0:2:160:2:0:1:2:0:2
 /
@@ -252,7 +249,7 @@ transponders
 00a0ada1:0001:0001
 	s 11681000:7200000:1:3:160:2:0:1:2:0:2
 /
-00a0adaa:0001:ffff
+00a0adaa:0001:0001
 	s 11690000:7200000:1:3:160:2:0:1:2:0:2
 /
 00820000:2cec:013e
@@ -896,6 +893,21 @@ p:DigitALB,f:1
 111c:00a00000:51a4:016e:1:0
 Alsat M
 p:DigitALB,f:1
+0514:00a00000:51a4:016e:22:0
+Zico TV
+p:DigitALB,f:1
+0532:00a00000:51a4:016e:22:0
+First Channel
+p:DigitALB,f:1
+0550:00a00000:51a4:016e:22:0
+RTV 21 M
+p:DigitALB,f:1
+038e:00a00000:51a4:016e:22:0
+ATV
+p:DigitALB,f:1
+0622:00a00000:51a4:016e:22:0
+MCN 24
+p:DigitALB,f:1
 03e9:00a00000:50dc:016e:25:0
 Gold HD
 p:DigitALB,f:1
@@ -946,6 +958,15 @@ Panorama TV
 p:DigitALB,f:1
 0bb8:00a00000:50dc:016e:25:0
 Eurosport 2 HD
+p:DigitALB,f:1
+03ac:00a00000:50dc:016e:22:0
+PRO 1
+p:DigitALB,f:1
+05e6:00a00000:50dc:016e:22:0
+Arta TV
+p:DigitALB,f:1
+0604:00a00000:50dc:016e:22:0
+MCN TV
 p:DigitALB,f:1
 0774:00a00000:c6d4:016e:1:0
 Disney Channel Romania
@@ -1388,6 +1409,15 @@ p:DigitALB
 08ca:00a00000:5014:016e:1:0
 Zjarr TV
 p:DigitALB,f:1
+13ba:00a00000:5014:016e:25:0
+RTV 21
+p:DigitALB,f:1
+13d8:00a00000:5014:016e:25:0
+KTV Kohavision HD
+p:DigitALB,f:1
+13f6:00a00000:5014:016e:25:0
+T7
+p:DigitALB,f:1
 0458:00a00000:526c:016e:25:0
 Epic Drama HD
 p:A1 Broadcasting,f:1
@@ -1487,6 +1517,9 @@ p:A1 Broadcasting,f:1
 0491:00a00000:76c0:016e:31:0
 AutoMotorSport HD
 p:A1 Broadcasting,f:1
+0492:00a00000:76c0:016e:31:0
+JOJ 24
+p:A1 Broadcasting,f:1
 0558:00a00000:75fb:016e:1:0
 Dusk International
 p:Total TV,f:1
@@ -1542,7 +1575,7 @@ p:Total TV,f:1
 KCN Svet+ 3
 p:Total TV,f:1
 0549:00a00000:75fb:016e:1:0
-Parlamentarni kanal
+TVCG 3
 p:Total TV,f:1
 0553:00a00000:75fb:016e:1:0
 Shoppster
@@ -2093,9 +2126,6 @@ p:3bis,f:1
 0001:00a0310c:0001:ffff:1:0
 UKR-011
 p:Studio 1+1,f:1
-0001:00a02ada:0001:0001:1:0
-BIH-005 B
-p:AJB,f:1
 0001:00a030f7:0001:ffff:25:0
 POR09 ENEX H264
 p:GMTS,f:1
@@ -2705,9 +2735,9 @@ p:eClutch,f:1
 0001:00a0ada1:0001:0001:1:0
 SLO-008 Tx 1
 p:,f:1
-0001:00a0adaa:0001:ffff:1:0
-SNG 022 MAIN
-p:PRO.TV,f:1
+0001:00a0adaa:0001:0001:25:0
+NLFLEV_HOL-90 CH-C
+p:FLEVOSAT.NL,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -3281,9 +3311,6 @@ p:Eutelsat
 0899:00820000:01f4:013e:1:0
 Freedom TV
 p:,f:1
-089f:00820000:01f4:013e:1:0
-Kurdsat
-p:iKOMG,f:1
 08b3:00820000:01f4:013e:2:0
 WELAT
 p:Eutelsat
@@ -3302,6 +3329,9 @@ p:Eutelsat
 08a8:00820000:01f4:013e:1:0
 Kentron TV
 p:Eutelsat,f:1
+089e:00820000:01f4:013e:1:0
+OU
+p:iKO Media Group,f:1
 3ab7:00820000:0514:013e:1:0
 AMC HD Polska
 p:CANAL+,f:1
@@ -4148,9 +4178,6 @@ p:Telespazio
 02f9:00820000:1b58:013e:2:0
 Radio RADICALE
 p:Telespazio
-02df:00820000:1b58:013e:1:0
-Al Mayadeen Tv
-p:Harmonic,f:1
 02e4:00820000:1b58:013e:2:0
 R. Italia S.m.i.
 p:Telespazio
@@ -6518,6 +6545,9 @@ p:,f:1
 01f6:00820000:0384:013e:1:0
 AIRMONT
 p:FFmpeg,f:1
+01fb:00820000:0384:013e:25:0
+Al Mayadeen HD
+p:,f:1
 0641:00820000:2454:013e:25:0
 Al Jazeera HD
 p:EUTELSAT,f:1
@@ -7244,6 +7274,12 @@ p:SkyItalia,f:1
 057c:00820000:1a90:fbff:1:0
 Comedy Central Italia
 p:Sky Italia,f:1
+1019:00820000:1a90:fbff:25:0
+cielo
+p:SkyItalia,f:1
+1c66:00820000:1a90:fbff:25:0
+TV8 HD
+p:SkyItalia,f:1
 4525:00820000:0259:013e:12:0
 NIP Demo
 p:Eutelsat

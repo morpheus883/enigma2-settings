@@ -73,7 +73,7 @@ transponders
 	s 11671000:23000000:0:2:282:2:0:1:2:0:2
 /
 011a0000:082f:0002
-	s 11553000:22000000:0:4:282:2:0
+	s 11553000:23000000:0:2:282:2:0:1:2:1:2
 /
 011a0000:0840:0002
 	s 11344000:27500000:1:4:282:2:0
@@ -720,11 +720,14 @@ p:Arqiva,f:1
 SDL nATL
 p:Arqiva,f:1
 2954:011a0000:090b:003b:1:0
-BBC NDRA
+BBC DAB
 p:Arqiva,f:1
 295a:011a0000:090b:003b:1:0
 D1 Scotland
 p:Arqiva,f:1
+295a:011a0000:090b:003b:12:0
+D1 Scotland
+p:Arqiva
 105e:011a0000:07d4:0002:132:0
 DCS1
 p:BSkyB
@@ -1199,9 +1202,6 @@ p:BSkyB,f:1
 1325:011a0000:07e7:0002:1:0
 Sky Atlantic Ireland
 p:BSkyB,f:1
-132b:011a0000:07e7:0002:1:0
-Sky Sports News
-p:BSkyB,f:1
 132d:011a0000:07e7:0002:1:0
 Sky Sports News Ireland
 p:BSkyB,f:1
@@ -1210,12 +1210,6 @@ Sky Sports 1 Ireland
 p:BSkyB,f:1
 1391:011a0000:07e7:0002:1:0
 Eurosport 2 UK
-p:BSkyB,f:1
-1519:011a0000:07e7:0002:1:0
-Sky Sports Golf
-p:BSkyB,f:1
-151c:011a0000:07e7:0002:1:0
-SkySp Golf
 p:BSkyB,f:1
 164f:011a0000:07e7:0002:1:0
 Sky Atlantic
@@ -1228,9 +1222,6 @@ Eurosport 1
 p:BSkyB,f:1
 132a:011a0000:07e7:0002:1:0
 Sky Sports Box Office
-p:BSkyB,f:1
-132e:011a0000:07e7:0002:1:0
-Sky Sports News HQ
 p:BSkyB,f:1
 0efe:011a0000:07e7:0002:1:0
 Sky Sports Football
@@ -1249,12 +1240,6 @@ Sky Atlantic+1
 p:BSkyB,f:1
 159c:011a0000:07e7:0002:1:0
 Sky News Arabia
-p:BSkyB,f:1
-1f57:011a0000:07e7:0002:130:0
-eSales Test
-p:BSkyB,f:1
-1f90:011a0000:07e7:0002:130:0
-STB Dev App
 p:BSkyB,f:1
 106e:011a0000:07e7:0002:1:0
 Sky Sports Golf Ireland
@@ -1378,6 +1363,18 @@ Sky Sports Main Events
 p:BSkyB,f:1
 1078:011a0000:07dc:0002:1:0
 SkySpMainEv
+p:BSkyB,f:1
+132b:011a0000:07dc:0002:1:0
+Sky Sports News
+p:BSkyB,f:1
+14c2:011a0000:07dc:0002:1:0
+Sky Sports News HQ
+p:BSkyB,f:1
+14ca:011a0000:07dc:0002:1:0
+Sky Sports Golf
+p:BSkyB,f:1
+151c:011a0000:07dc:0002:1:0
+SkySp Golf
 p:BSkyB,f:1
 cb9c:011a0000:083c:0002:1:0
 TBN UK
@@ -3590,9 +3587,6 @@ p:Eutelsat
 0899:00820000:01f4:013e:1:0
 Freedom TV
 p:,f:1
-089f:00820000:01f4:013e:1:0
-Kurdsat
-p:iKOMG,f:1
 08b3:00820000:01f4:013e:2:0
 WELAT
 p:Eutelsat
@@ -3611,6 +3605,9 @@ p:Eutelsat
 08a8:00820000:01f4:013e:1:0
 Kentron TV
 p:Eutelsat,f:1
+089e:00820000:01f4:013e:1:0
+OU
+p:iKO Media Group,f:1
 3ab7:00820000:0514:013e:1:0
 AMC HD Polska
 p:CANAL+,f:1
@@ -4457,9 +4454,6 @@ p:Telespazio
 02f9:00820000:1b58:013e:2:0
 Radio RADICALE
 p:Telespazio
-02df:00820000:1b58:013e:1:0
-Al Mayadeen Tv
-p:Harmonic,f:1
 02e4:00820000:1b58:013e:2:0
 R. Italia S.m.i.
 p:Telespazio
@@ -6827,6 +6821,9 @@ p:,f:1
 01f6:00820000:0384:013e:1:0
 AIRMONT
 p:FFmpeg,f:1
+01fb:00820000:0384:013e:25:0
+Al Mayadeen HD
+p:,f:1
 0641:00820000:2454:013e:25:0
 Al Jazeera HD
 p:EUTELSAT,f:1
@@ -7553,6 +7550,12 @@ p:SkyItalia,f:1
 057c:00820000:1a90:fbff:1:0
 Comedy Central Italia
 p:Sky Italia,f:1
+1019:00820000:1a90:fbff:25:0
+cielo
+p:SkyItalia,f:1
+1c66:00820000:1a90:fbff:25:0
+TV8 HD
+p:SkyItalia,f:1
 4525:00820000:0259:013e:12:0
 NIP Demo
 p:Eutelsat
