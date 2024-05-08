@@ -252,14 +252,14 @@ transponders
 011ab109:0000:0001
 	s 12553000:7200000:1:3:282:2:0:1:2:0:2
 /
-011a30e9:0001:0001
-	s 12521000:7200000:0:3:282:2:0:1:2:0:2
-/
 011ab195:0000:0000
 	s 12693000:9600000:1:3:282:2:0:1:2:0:2
 /
 011ab198:0002:ffff
 	s 12696000:7500000:1:2:282:2:0:1:2:0:2
+/
+011a30e9:0001:ffff
+	s 12521000:7200000:0:3:282:2:0:1:2:0:2
 /
 00c00000:041d:0001
 	s 10773000:22000000:0:3:192:2:0:1:2:0:2
@@ -585,6 +585,9 @@ transponders
 00c0ad46:0000:ff00
 	s 11590000:9874000:1:3:192:2:0:1:2:0:2
 /
+00c00000:0000:00eb
+	s 11598000:4800000:1:3:192:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -734,9 +737,6 @@ transponders
 /
 00820000:30d4:013e
 	s 11013000:29900000:0:3:130:2:0:1:2:2:2
-/
-00820000:06a4:013e
-	s 11526000:29700000:0:2:130:2:0:1:2:0:2
 /
 00820000:03e8:013e
 	s 11393000:27500000:1:3:130:2:0:1:2:0:2
@@ -1113,9 +1113,6 @@ fff80000:00bf:00bf
 fff8ad00:0001:0001
 	s 11520000:7200000:1:3:-8:2:0:1:2:0:2
 /
-0e08b0f0:0001:ffff
-	s 12528000:6660000:1:3:-8:2:0:1:2:0:2
-/
 0e080000:0065:0065
 	s 12543000:6660000:1:3:-8:2:0:1:2:0:2
 /
@@ -1124,6 +1121,9 @@ fff80000:0065:0065
 /
 fff8315e:0000:0000
 	s 12638000:14500000:0:3:-8:2:0:1:2:0:2
+/
+fff8b0f0:0065:0065
+	s 12528000:6660000:1:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -1841,12 +1841,6 @@ p:BSkyB,f:1
 141a:011a0000:07e7:0002:1:0
 Sky Comedy
 p:BSkyB,f:1
-053e:011a0000:07e7:0002:1:0
-Sky Sports Cricket
-p:BSkyB,f:1
-14b6:011a0000:07e7:0002:1:0
-Sky Sports Cricket
-p:BSkyB,f:1
 052e:011a0000:07e7:0002:1:0
 Sky Sports Premier League
 p:BSkyB,f:1
@@ -1955,7 +1949,7 @@ p:BSkyB,f:1
 1078:011a0000:07dc:0002:1:0
 SkySpMainEv
 p:BSkyB,f:1
-132b:011a0000:07dc:0002:1:0
+132e:011a0000:07dc:0002:1:0
 Sky Sports News
 p:BSkyB,f:1
 14c2:011a0000:07dc:0002:1:0
@@ -1966,6 +1960,12 @@ Sky Sports Golf
 p:BSkyB,f:1
 151c:011a0000:07dc:0002:1:0
 SkySp Golf
+p:BSkyB,f:1
+053e:011a0000:07dc:0002:1:0
+Sky Sports Cricket
+p:BSkyB,f:1
+189e:011a0000:07dc:0002:1:0
+Sky Sports Cricket
 p:BSkyB,f:1
 cb9c:011a0000:083c:0002:1:0
 TBN UK
@@ -3227,9 +3227,9 @@ p:BSkyB,f:1
 083f:011a0000:083d:0002:1:0
 Nickelodeon Dual
 p:BSkyB,f:1
-0001:011ab159:0001:ffff:25:0
-NEP 107
-p:,f:1
+0001:011ab159:0001:ffff:1:0
+Wexford Clean
+p:Digisat,f:1
 1bbc:011a0000:0835:0002:25:0
 PCNE Chinese HD
 p:BSkyB,f:1
@@ -3596,15 +3596,15 @@ p:Eutelsat
 0001:011ab109:0000:0001:25:0
 Fairyhouse
 p:NEP Ireland,f:1
-0001:011a30e9:0001:0001:25:0
-NLFLEV_HOL-48 CH-A
-p:FLEVOSAT.NL,f:1
 0001:011ab195:0000:0000:25:0
 E-379 Feed 1
 p:,f:1
 0002:011ab198:0002:ffff:1:0
 EDS806HD.2
 p:CCMA,f:1
+0001:011a30e9:0001:ffff:1:0
+E/452 VIA 1 G 50
+p:Service Provider,f:1
 526c:00c00000:041d:0001:25:0
 Anixe HD
 p:BetaDigital,f:1
@@ -4177,7 +4177,7 @@ OE3.
 p:ORF
 1342:00c00000:03ef:0001:22:0
 RiC
-p:-,f:1
+p:IP Broadcast,f:1
 7469:00c00000:03f0:0001:1:0
 Antena Nova
 p:DIGITAL+,f:1
@@ -4349,9 +4349,6 @@ p:SKY,f:1
 010c:00c00000:0006:0085:25:0
 Sky Sport 1 HD
 p:SKY,f:1
-0204:00c00000:0006:0085:25:0
-Sky Cinema Classics HD
-p:SKY,f:1
 000d:00c00000:0006:0085:25:0
 Sky Crime HD
 p:SKY,f:1
@@ -4434,7 +4431,7 @@ p:MTV Networks Europe,f:1
 Comedy Central HD.
 p:MTV Networks Europe,f:1
 006f:00c00000:000d:0085:25:0
-Sky Cinema Special HD Germany
+Sky Cinema Highlights
 p:SKY,f:1
 0070:00c00000:000d:0085:25:0
 Sky Documentaries HD Germany
@@ -4631,9 +4628,6 @@ p:SES Astra,f:1
 7094:00c00000:0443:0001:1:0
 VOXup
 p:RTL,f:1
-006b:00c00000:000c:0085:25:0
-Sky Cinema Hits HD Germany
-p:SKY,f:1
 0f9d:00c00000:000c:0085:12:0
 Pace TDS 866 NSD
 p:
@@ -4672,6 +4666,9 @@ STEST2
 p:SKY,f:1
 001c:00c00000:000c:0085:22:0
 Cartoonito
+p:SKY,f:1
+006b:00c00000:000c:0085:25:0
+Sky Cinema Classics HD
 p:SKY,f:1
 23ba:00c00000:044a:0001:192:0
 DOWNLOAD G5 SAMSUNG
@@ -5297,14 +5294,14 @@ p:MB Satellite,f:1
 315a:00c00000:0459:0001:2:0
 nice
 p:MB Satellite
-3146:00c00000:0459:0001:1:0
-Juwelo TV
-p:MB Satellite,f:1
 3159:00c00000:0459:0001:1:0
 Lilo.TV
 p:MB Satellite,f:1
 315e:00c00000:0459:0001:1:0
 MBS - Test3
+p:MB Satellite,f:1
+3146:00c00000:0459:0001:1:0
+RheinMain TV
 p:MB Satellite,f:1
 332d:00c00000:045b:0001:1:0
 ORF III
@@ -6113,9 +6110,6 @@ p:
 23ee:00c00000:0446:0001:2:0
 BEUR FM
 p:
-429a:00c00000:0446:0001:25:0
-MOSAIQUE LDC
-p:,f:1
 4283:00c00000:0446:0001:25:0
 OCS Géants HD
 p:,f:1
@@ -6239,9 +6233,6 @@ p:SKY,f:1
 008c:00c00000:0004:0085:25:0
 Warner TV Film HD
 p:SKY,f:1
-000b:00c00000:0004:0085:25:0
-Sky Cinema Thriller HD Germany
-p:SKY,f:1
 0091:00c00000:0004:0085:25:0
 Sky Sport Premier League HD
 p:SKY,f:1
@@ -6344,15 +6335,6 @@ p:CSAT,f:1
 21af:00c00000:0448:0001:201:0
 MOSAIQUE BEIN SPORTS
 p:CSAT,f:1
-219a:00c00000:0448:0001:25:0
-OCS Géants HD
-p:CSAT,f:1
-219c:00c00000:0448:0001:25:0
-Paramount Channel HD France
-p:CSAT,f:1
-219f:00c00000:0448:0001:25:0
-Seasons HD
-p:CSAT,f:1
 21aa:00c00000:0448:0001:1:0
 France 3 Nouvelle Aquitaine
 p:CSAT,f:1
@@ -6388,9 +6370,6 @@ France 3 Picardie
 p:CSAT,f:1
 21a6:00c00000:0448:0001:1:0
 France 3 Poitou-Charentes
-p:CSAT,f:1
-219b:00c00000:0448:0001:25:0
-BET HD France
 p:CSAT,f:1
 2199:00c00000:0448:0001:25:0
 Nickelodeon France HD
@@ -6573,7 +6552,7 @@ p:CSAT,f:1
 France 3 Auvergne
 p:CSAT,f:1
 24b9:00c00000:043c:0001:25:0
-Sport en France
+Union TV
 p:CSAT,f:1
 24ca:00c00000:043c:0001:25:0
 Multisports 6 HD
@@ -6743,9 +6722,6 @@ p:CSAT,f:1
 200c:00c00000:0430:0001:25:0
 NRJ Hits HD
 p:CSAT,f:1
-2010:00c00000:0430:0001:25:0
-Nickelodeon France +1 HD
-p:CSAT,f:1
 2012:00c00000:0430:0001:25:0
 beIN Sports 2 HD
 p:CSAT,f:1
@@ -6906,7 +6882,7 @@ p:SES,f:1
 eSports1
 p:SES,f:1
 10cf:00c00000:0418:0001:25:0
-EdgeSport
+SportDigital Edge
 p:SES,f:1
 10d0:00c00000:0418:0001:25:0
 Waidwerk
@@ -7106,9 +7082,6 @@ p:SKY,f:1
 0084:00c00000:0009:0085:25:0
 DAZN 1 HD
 p:SKY,f:1
-0008:00c00000:0009:0085:25:0
-Sky Cinema 2
-p:SKY,f:1
 0011:00c00000:0009:0085:25:0
 Sky Sport F1 HD
 p:SKY,f:1
@@ -7253,6 +7226,9 @@ p:,f:1
 0001:00c0ad46:0000:ff00:25:0
 SWE-054 Idre
 p:Mobile Linke Europe AB,f:1
+0001:00c00000:0000:00eb:25:0
+D171
+p:Betamobil,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -7973,9 +7949,6 @@ p:Telespazio,f:1
 423b:00820000:3db8:013e:1:0
 Tele 5 polska
 p:Cyfra +,f:1
-4245:00820000:3db8:013e:1:0
-Antichità Chiossone
-p:Telespazio,f:1
 425c:00820000:3db8:013e:1:0
 TVA Vicenza
 p:TivùSat,f:1
@@ -8012,26 +7985,11 @@ p:Telespazio,f:1
 4244:00820000:3db8:013e:1:0
 Arte Atelier
 p:Telespazio,f:1
-4249:00820000:3db8:013e:1:0
-Venus TV
-p:Telespazio,f:1
-424a:00820000:3db8:013e:1:0
-Music Life
-p:Telespazio,f:1
-424b:00820000:3db8:013e:1:0
-Lazio Channel
-p:Telespazio,f:1
-424d:00820000:3db8:013e:1:0
-Fuego TV
-p:Telespazio,f:1
 425a:00820000:3db8:013e:1:0
 Napoli Mia
 p:Telespazio,f:1
 4261:00820000:3db8:013e:1:0
 TeleItalia
-p:Telespazio,f:1
-4264:00820000:3db8:013e:1:0
-Eursat
 p:Telespazio,f:1
 4257:00820000:3db8:013e:1:0
 CIAO
@@ -8087,9 +8045,6 @@ p:DU,f:1
 2530:00820000:13ef:013e:25:0
 Al Mashhad
 p:Du,f:1
-253a:00820000:13ef:013e:25:0
-DIHQ Award Channel
-p:DU,f:1
 37d7:00820000:14b4:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
@@ -8672,9 +8627,6 @@ p:Telespazio,f:1
 02c2:00820000:1b58:013e:1:0
 Al Jazeera Mubasher
 p:Harmonic,f:1
-02c4:00820000:1b58:013e:1:0
-Al Jazeera Satellite Channel
-p:Telespazio,f:1
 02dc:00820000:1b58:013e:2:0
 Radio Maria
 p:Telespazio
@@ -9432,7 +9384,7 @@ p:,f:1
 SMG Xmtr ch309
 p:
 0c1d:00820000:1e78:0071:1:0
-Polsat Sport HD
+Polsat Sport 1
 p:Cyfrowy Polsat,f:1
 0c1f:00820000:1e78:0071:1:0
 Fx Comedy HD
@@ -9453,7 +9405,7 @@ p:Cyfrowy Polsat S.A.,f:1
 TVP 2 HD
 p:Cyfrowy Polsat,f:1
 0c24:00820000:1e78:0071:1:0
-Polsat Sport Extra HD
+Polsat Sport 2
 p:Cyfrowy Polsat,f:1
 0016:00820000:1e78:0071:129:0
 Consumer Cam
@@ -9492,10 +9444,10 @@ p:Cyfrowy Polsat S.A.,f:1
 History Channel HD Polska
 p:Cyfrowy Polsat S.A.,f:1
 0c28:00820000:1e78:0071:1:0
-Polsat Sport Extra HD
+Polsat Sport 2
 p:Cyfrowy Polsat SA,f:1
 0c2e:00820000:1e78:0071:1:0
-Polsat Sport HD
+Polsat Sport 1
 p:Cyfrowy Polsat S.A.,f:1
 0c33:00820000:1e78:0071:1:0
 Polsat Sport Premium PPV5
@@ -9998,9 +9950,6 @@ p:MIT-xperts GmbH,f:1
 4234:00820000:2f44:013e:1:0
 ByoBlu
 p:M-Three Satcom,f:1
-4235:00820000:2f44:013e:1:0
-Espresso TV
-p:,f:1
 4231:00820000:2f44:013e:25:0
 LN24 SA
 p:ViewMedia,f:1
@@ -10145,12 +10094,6 @@ p:Cyfrowy Polsat S.A.,f:1
 2938:00820000:1edc:0071:1:0
 Disney Junior Middle-East & Africa
 p:Cyfrowy Polsat S.A.,f:1
-2905:00820000:1edc:0071:1:0
-Warner Polska HD
-p:Cyfrowy Polsat S.A.,f:1
-2906:00820000:1edc:0071:1:0
-Cartoon HD
-p:Cyfrowy Polsat S.A.,f:1
 290e:00820000:1edc:0071:1:0
 HBO HD Polska
 p:Cyfrowy Polsat S.A.,f:1
@@ -10158,16 +10101,10 @@ p:Cyfrowy Polsat S.A.,f:1
 Polsat Sport Fight HD
 p:Cyfrowy Polsat S.A.,f:1
 2913:00820000:1edc:0071:1:0
-Polsat Sport News HD
-p:Cyfrowy Polsat S.A.,f:1
-291a:00820000:1edc:0071:1:0
-Cartoon Network HD
+Polsat Sport 3
 p:Cyfrowy Polsat S.A.,f:1
 2908:00820000:1edc:0071:1:0
 Polsat Viasat Nature HD
-p:Cyfrowy Polsat S.A.,f:1
-292d:00820000:1edc:0071:1:0
-Warner HD
 p:Cyfrowy Polsat S.A.,f:1
 290c:00820000:1edc:0071:1:0
 Wydarzenia 24 HD
@@ -10565,84 +10502,6 @@ p:Rai,f:1
 4532:00820000:30d4:013e:25:0
 Rai Sport + HD
 p:Rai,f:1
-374b:00820000:06a4:013e:25:0
-Kabelio Tele Basel
-p:KABELIO.CH,f:1
-374c:00820000:06a4:013e:25:0
-Kabelio Tele1
-p:KABELIO.CH,f:1
-374d:00820000:06a4:013e:25:0
-Kabelio TVO
-p:KABELIO.CH,f:1
-374e:00820000:06a4:013e:25:0
-Kabelio TV SuedOst
-p:KABELIO.CH,f:1
-3750:00820000:06a4:013e:25:0
-Kabelio TF1
-p:KABELIO.CH,f:1
-3751:00820000:06a4:013e:25:0
-Kabelio M6 Music
-p:KABELIO.CH,f:1
-375a:00820000:06a4:013e:25:0
-Kabelio BBC One
-p:KABELIO.CH,f:1
-375b:00820000:06a4:013e:25:0
-Kabelio BBC Two
-p:KABELIO.CH,f:1
-375c:00820000:06a4:013e:25:0
-Kabelio ITV1
-p:KABELIO.CH,f:1
-375d:00820000:06a4:013e:25:0
-Kabelio BBC4/CBBCs
-p:KABELIO.CH,f:1
-375e:00820000:06a4:013e:25:0
-Kabelio Channel 4
-p:KABELIO.CH,f:1
-375f:00820000:06a4:013e:25:0
-Kabelio Channel 5
-p:KABELIO.CH,f:1
-3760:00820000:06a4:013e:25:0
-Kabelio ITV3
-p:KABELIO.CH,f:1
-3765:00820000:06a4:013e:25:0
-Kabelio BBC3/CBBC
-p:KABELIO.CH,f:1
-3766:00820000:06a4:013e:25:0
-Kabelio Rouge TV CH
-p:KABELIO.CH,f:1
-36e3:00820000:06a4:013e:25:0
-Kabelio Tele M1
-p:KABELIO.CH,f:1
-36e4:00820000:06a4:013e:25:0
-Kabelio Tele Baern
-p:KABELIO.CH,f:1
-36e5:00820000:06a4:013e:25:0
-Kabelio Leman Bleu
-p:KABELIO.CH,f:1
-3767:00820000:06a4:013e:25:0
-Kabelio Auftanken.tv
-p:KABELIO.CH,f:1
-374a:00820000:06a4:013e:25:0
-Kabelio Canale 5
-p:KABELIO.CH,f:1
-3755:00820000:06a4:013e:25:0
-Kabelio Blue Zoom D
-p:KABELIO.CH,f:1
-3756:00820000:06a4:013e:25:0
-Kabelio Swiss1
-p:KABELIO.CH,f:1
-3769:00820000:06a4:013e:1:0
-Kabelio Film 4
-p:KABELIO.CH,f:1
-3768:00820000:06a4:013e:1:0
-Kabelio ITV2
-p:KABELIO.CH,f:1
-3764:00820000:06a4:013e:25:0
-Kabelio ITV4
-p:KABELIO.CH,f:1
-376a:00820000:06a4:013e:1:0
-Kabelio RTL9 CH
-p:KABELIO.CH,f:1
 10ea:00820000:03e8:013e:25:0
 TVN 24 Bizness HD
 p:TVN,f:1
@@ -11027,9 +10886,6 @@ p:Cyfrowy Polsat S.A.,f:1
 200c:00820000:24b8:013e:1:0
 BBC News
 p:Globecast UK,f:1
-2023:00820000:24b8:013e:2:0
-Service 8227
-p:Globecast
 01f5:00820000:0384:013e:1:0
 Iran International HD
 p:ABS,f:1
@@ -11840,83 +11696,83 @@ p:Svoboda Satellite,f:1
 0071:00820000:2fa8:013e:22:0
 DW Russian
 p:Svoboda Satellite,f:1
-00c9:00820000:2db4:013e:25:0
-Kabelio|Tele Baern
-p:KABELIO.CH,f:1
-00ca:00820000:2db4:013e:25:0
-Kabelio|Tele Basel
-p:KABELIO.CH,f:1
-00cb:00820000:2db4:013e:25:0
-Kabelio|Tele 1
-p:KABELIO.CH,f:1
-00cc:00820000:2db4:013e:25:0
-Kabelio|TVO
-p:KABELIO.CH,f:1
-00cd:00820000:2db4:013e:25:0
-Kabelio|TV Suedost
+00d0:00820000:2db4:013e:25:7
+Kabelio Carac 1
 p:KABELIO.CH,f:1
 00ce:00820000:2db4:013e:25:0
-Kabelio|Tele M1
+Kabelio Tele M1
+p:KABELIO.CH,f:1
+00c9:00820000:2db4:013e:25:0
+Kabelio Tele Baern
 p:KABELIO.CH,f:1
 00cf:00820000:2db4:013e:25:0
-Kabelio|Leman Bleu
-p:KABELIO.CH,f:1
-00d0:00820000:2db4:013e:25:0
-Kabelio|Carac 1
-p:KABELIO.CH,f:1
-00d3:00820000:2db4:013e:25:0
-Kabelio|SWISS 1
-p:KABELIO.CH,f:1
-00d4:00820000:2db4:013e:25:0
-Kabelio|Auftanken.TV
-p:KABELIO.CH,f:1
-00d5:00820000:2db4:013e:25:0
-Kabelio|blue Zoom
-p:KABELIO.CH,f:1
-00dd:00820000:2db4:013e:25:0
-Kabelio|BBC1 London
-p:KABELIO.CH,f:1
-00de:00820000:2db4:013e:25:0
-Kabelio|BBC2
-p:KABELIO.CH,f:1
-00df:00820000:2db4:013e:25:0
-Kabelio|BBC3/CBBC
-p:KABELIO.CH,f:1
-00e0:00820000:2db4:013e:25:0
-Kabelio|BBC4/CBBCs
-p:KABELIO.CH,f:1
-00e1:00820000:2db4:013e:25:0
-Kabelio|ITV1 London
-p:KABELIO.CH,f:1
-00e2:00820000:2db4:013e:25:0
-Kabelio|ITV2
-p:KABELIO.CH,f:1
-00e3:00820000:2db4:013e:25:0
-Kabelio|ITV3
-p:KABELIO.CH,f:1
-00e4:00820000:2db4:013e:25:0
-Kabelio|ITV4
-p:KABELIO.CH,f:1
-00e5:00820000:2db4:013e:25:0
-Kabelio|Channel 4
-p:KABELIO.CH,f:1
-00e6:00820000:2db4:013e:25:0
-Kabelio|Channel 5
-p:KABELIO.CH,f:1
-00e7:00820000:2db4:013e:25:0
-Kabelio|Film 4
-p:KABELIO.CH,f:1
-00f1:00820000:2db4:013e:25:0
-Kabelio|TF1
-p:KABELIO.CH,f:1
-00f2:00820000:2db4:013e:25:0
-Kabelio|M6 Music
-p:KABELIO.CH,f:1
-00f3:00820000:2db4:013e:25:0
-Kabelio|RTL9 CH
+Kabelio Leman Bleu
 p:KABELIO.CH,f:1
 00fb:00820000:2db4:013e:25:0
-Kabelio|Canale 5
+Kabelio Canale 5
+p:KABELIO.CH,f:1
+00ca:00820000:2db4:013e:25:0
+Kabelio Tele Basel
+p:KABELIO.CH,f:1
+00cb:00820000:2db4:013e:25:0
+Kabelio Tele 1
+p:KABELIO.CH,f:1
+00cc:00820000:2db4:013e:25:0
+Kabelio TVO
+p:KABELIO.CH,f:1
+00cd:00820000:2db4:013e:25:0
+Kabelio TV SuedOst
+p:KABELIO.CH,f:1
+00f1:00820000:2db4:013e:25:0
+Kabelio TF1
+p:KABELIO.CH,f:1
+00f2:00820000:2db4:013e:25:0
+Kabelio M6 Music
+p:KABELIO.CH,f:1
+00d5:00820000:2db4:013e:25:0
+Kabelio Blue Zoom
+p:KABELIO.CH,f:1
+00d3:00820000:2db4:013e:25:0
+Kabelio Swiss1
+p:KABELIO.CH,f:1
+00dd:00820000:2db4:013e:25:0
+Kabelio BBC1 London
+p:KABELIO.CH,f:1
+00de:00820000:2db4:013e:25:0
+Kabelio BBC2
+p:KABELIO.CH,f:1
+00e1:00820000:2db4:013e:25:0
+Kabelio ITV1 London
+p:KABELIO.CH,f:1
+00e0:00820000:2db4:013e:25:0
+Kabelio BBC4/CBBCs
+p:KABELIO.CH,f:1
+00e5:00820000:2db4:013e:25:0
+Kabelio Channel 4
+p:KABELIO.CH,f:1
+00e6:00820000:2db4:013e:25:0
+Kabelio Channel 5
+p:KABELIO.CH,f:1
+00e3:00820000:2db4:013e:25:0
+Kabelio ITV3
+p:KABELIO.CH,f:1
+00e4:00820000:2db4:013e:25:0
+Kabelio ITV4
+p:KABELIO.CH,f:1
+00df:00820000:2db4:013e:25:0
+Kabelio BBC3/CBBC
+p:KABELIO.CH,f:1
+00d4:00820000:2db4:013e:25:0
+Kabelio Auftanken.TV
+p:KABELIO.CH,f:1
+00e2:00820000:2db4:013e:25:0
+Kabelio ITV2
+p:KABELIO.CH,f:1
+00e7:00820000:2db4:013e:25:0
+Kabelio Film 4
+p:KABELIO.CH,f:1
+00f3:00820000:2db4:013e:25:0
+Kabelio RTL9 CH
 p:KABELIO.CH,f:1
 0001:00820000:2580:00d5:1:0
 bTV
@@ -16079,9 +15935,6 @@ p:NEP Norway,f:1
 0001:fff8ad00:0001:0001:1:0
 SWE041
 p:alla,f:1
-0001:0e08b0f0:0001:ffff:1:0
-backup
-p:RCS-RDS,f:1
 0065:0e080000:0065:0065:1:0
 B 101 DGI
 p:RCS-RDS BUCURESTI,f:1
@@ -16091,6 +15944,9 @@ p:RCS-RDS BUCURESTI,f:1
 0001:fff8315e:0000:0000:25:0
 ROH-Live
 p:ROH,f:1
+0065:fff8b0f0:0065:0065:1:0
+B 101 DGI
+p:RCS-RDS BUCURESTI,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024

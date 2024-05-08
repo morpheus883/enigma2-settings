@@ -159,9 +159,6 @@ transponders
 00820000:30d4:013e
 	s 11013000:29900000:0:3:130:2:0:1:2:2:2
 /
-00820000:06a4:013e
-	s 11526000:29700000:0:2:130:2:0:1:2:0:2
-/
 00820000:03e8:013e
 	s 11393000:27500000:1:3:130:2:0:1:2:0:2
 /
@@ -350,6 +347,12 @@ transponders
 /
 0030b0ed:4321:0000
 	s 12525000:7200000:1:3:48:2:0:1:2:0:2
+/
+0030b0f3:4321:0000
+	s 12531000:7200000:1:3:48:2:0:1:2:0:2
+/
+0030b10a:0000:0000
+	s 12554000:10000000:1:3:48:2:0:1:2:0:2
 /
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
@@ -606,9 +609,6 @@ fff80000:00bf:00bf
 fff8ad00:0001:0001
 	s 11520000:7200000:1:3:-8:2:0:1:2:0:2
 /
-0e08b0f0:0001:ffff
-	s 12528000:6660000:1:3:-8:2:0:1:2:0:2
-/
 0e080000:0065:0065
 	s 12543000:6660000:1:3:-8:2:0:1:2:0:2
 /
@@ -617,6 +617,9 @@ fff80000:0065:0065
 /
 fff8315e:0000:0000
 	s 12638000:14500000:0:3:-8:2:0:1:2:0:2
+/
+fff8b0f0:0065:0065
+	s 12528000:6660000:1:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -1412,9 +1415,6 @@ p:Telespazio,f:1
 423b:00820000:3db8:013e:1:0
 Tele 5 polska
 p:Cyfra +,f:1
-4245:00820000:3db8:013e:1:0
-Antichità Chiossone
-p:Telespazio,f:1
 425c:00820000:3db8:013e:1:0
 TVA Vicenza
 p:TivùSat,f:1
@@ -1451,26 +1451,11 @@ p:Telespazio,f:1
 4244:00820000:3db8:013e:1:0
 Arte Atelier
 p:Telespazio,f:1
-4249:00820000:3db8:013e:1:0
-Venus TV
-p:Telespazio,f:1
-424a:00820000:3db8:013e:1:0
-Music Life
-p:Telespazio,f:1
-424b:00820000:3db8:013e:1:0
-Lazio Channel
-p:Telespazio,f:1
-424d:00820000:3db8:013e:1:0
-Fuego TV
-p:Telespazio,f:1
 425a:00820000:3db8:013e:1:0
 Napoli Mia
 p:Telespazio,f:1
 4261:00820000:3db8:013e:1:0
 TeleItalia
-p:Telespazio,f:1
-4264:00820000:3db8:013e:1:0
-Eursat
 p:Telespazio,f:1
 4257:00820000:3db8:013e:1:0
 CIAO
@@ -1526,9 +1511,6 @@ p:DU,f:1
 2530:00820000:13ef:013e:25:0
 Al Mashhad
 p:Du,f:1
-253a:00820000:13ef:013e:25:0
-DIHQ Award Channel
-p:DU,f:1
 37d7:00820000:14b4:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
@@ -2111,9 +2093,6 @@ p:Telespazio,f:1
 02c2:00820000:1b58:013e:1:0
 Al Jazeera Mubasher
 p:Harmonic,f:1
-02c4:00820000:1b58:013e:1:0
-Al Jazeera Satellite Channel
-p:Telespazio,f:1
 02dc:00820000:1b58:013e:2:0
 Radio Maria
 p:Telespazio
@@ -2871,7 +2850,7 @@ p:,f:1
 SMG Xmtr ch309
 p:
 0c1d:00820000:1e78:0071:1:0
-Polsat Sport HD
+Polsat Sport 1
 p:Cyfrowy Polsat,f:1
 0c1f:00820000:1e78:0071:1:0
 Fx Comedy HD
@@ -2892,7 +2871,7 @@ p:Cyfrowy Polsat S.A.,f:1
 TVP 2 HD
 p:Cyfrowy Polsat,f:1
 0c24:00820000:1e78:0071:1:0
-Polsat Sport Extra HD
+Polsat Sport 2
 p:Cyfrowy Polsat,f:1
 0016:00820000:1e78:0071:129:0
 Consumer Cam
@@ -2931,10 +2910,10 @@ p:Cyfrowy Polsat S.A.,f:1
 History Channel HD Polska
 p:Cyfrowy Polsat S.A.,f:1
 0c28:00820000:1e78:0071:1:0
-Polsat Sport Extra HD
+Polsat Sport 2
 p:Cyfrowy Polsat SA,f:1
 0c2e:00820000:1e78:0071:1:0
-Polsat Sport HD
+Polsat Sport 1
 p:Cyfrowy Polsat S.A.,f:1
 0c33:00820000:1e78:0071:1:0
 Polsat Sport Premium PPV5
@@ -3437,9 +3416,6 @@ p:MIT-xperts GmbH,f:1
 4234:00820000:2f44:013e:1:0
 ByoBlu
 p:M-Three Satcom,f:1
-4235:00820000:2f44:013e:1:0
-Espresso TV
-p:,f:1
 4231:00820000:2f44:013e:25:0
 LN24 SA
 p:ViewMedia,f:1
@@ -3584,12 +3560,6 @@ p:Cyfrowy Polsat S.A.,f:1
 2938:00820000:1edc:0071:1:0
 Disney Junior Middle-East & Africa
 p:Cyfrowy Polsat S.A.,f:1
-2905:00820000:1edc:0071:1:0
-Warner Polska HD
-p:Cyfrowy Polsat S.A.,f:1
-2906:00820000:1edc:0071:1:0
-Cartoon HD
-p:Cyfrowy Polsat S.A.,f:1
 290e:00820000:1edc:0071:1:0
 HBO HD Polska
 p:Cyfrowy Polsat S.A.,f:1
@@ -3597,16 +3567,10 @@ p:Cyfrowy Polsat S.A.,f:1
 Polsat Sport Fight HD
 p:Cyfrowy Polsat S.A.,f:1
 2913:00820000:1edc:0071:1:0
-Polsat Sport News HD
-p:Cyfrowy Polsat S.A.,f:1
-291a:00820000:1edc:0071:1:0
-Cartoon Network HD
+Polsat Sport 3
 p:Cyfrowy Polsat S.A.,f:1
 2908:00820000:1edc:0071:1:0
 Polsat Viasat Nature HD
-p:Cyfrowy Polsat S.A.,f:1
-292d:00820000:1edc:0071:1:0
-Warner HD
 p:Cyfrowy Polsat S.A.,f:1
 290c:00820000:1edc:0071:1:0
 Wydarzenia 24 HD
@@ -4004,84 +3968,6 @@ p:Rai,f:1
 4532:00820000:30d4:013e:25:0
 Rai Sport + HD
 p:Rai,f:1
-374b:00820000:06a4:013e:25:0
-Kabelio Tele Basel
-p:KABELIO.CH,f:1
-374c:00820000:06a4:013e:25:0
-Kabelio Tele1
-p:KABELIO.CH,f:1
-374d:00820000:06a4:013e:25:0
-Kabelio TVO
-p:KABELIO.CH,f:1
-374e:00820000:06a4:013e:25:0
-Kabelio TV SuedOst
-p:KABELIO.CH,f:1
-3750:00820000:06a4:013e:25:0
-Kabelio TF1
-p:KABELIO.CH,f:1
-3751:00820000:06a4:013e:25:0
-Kabelio M6 Music
-p:KABELIO.CH,f:1
-375a:00820000:06a4:013e:25:0
-Kabelio BBC One
-p:KABELIO.CH,f:1
-375b:00820000:06a4:013e:25:0
-Kabelio BBC Two
-p:KABELIO.CH,f:1
-375c:00820000:06a4:013e:25:0
-Kabelio ITV1
-p:KABELIO.CH,f:1
-375d:00820000:06a4:013e:25:0
-Kabelio BBC4/CBBCs
-p:KABELIO.CH,f:1
-375e:00820000:06a4:013e:25:0
-Kabelio Channel 4
-p:KABELIO.CH,f:1
-375f:00820000:06a4:013e:25:0
-Kabelio Channel 5
-p:KABELIO.CH,f:1
-3760:00820000:06a4:013e:25:0
-Kabelio ITV3
-p:KABELIO.CH,f:1
-3765:00820000:06a4:013e:25:0
-Kabelio BBC3/CBBC
-p:KABELIO.CH,f:1
-3766:00820000:06a4:013e:25:0
-Kabelio Rouge TV CH
-p:KABELIO.CH,f:1
-36e3:00820000:06a4:013e:25:0
-Kabelio Tele M1
-p:KABELIO.CH,f:1
-36e4:00820000:06a4:013e:25:0
-Kabelio Tele Baern
-p:KABELIO.CH,f:1
-36e5:00820000:06a4:013e:25:0
-Kabelio Leman Bleu
-p:KABELIO.CH,f:1
-3767:00820000:06a4:013e:25:0
-Kabelio Auftanken.tv
-p:KABELIO.CH,f:1
-374a:00820000:06a4:013e:25:0
-Kabelio Canale 5
-p:KABELIO.CH,f:1
-3755:00820000:06a4:013e:25:0
-Kabelio Blue Zoom D
-p:KABELIO.CH,f:1
-3756:00820000:06a4:013e:25:0
-Kabelio Swiss1
-p:KABELIO.CH,f:1
-3769:00820000:06a4:013e:1:0
-Kabelio Film 4
-p:KABELIO.CH,f:1
-3768:00820000:06a4:013e:1:0
-Kabelio ITV2
-p:KABELIO.CH,f:1
-3764:00820000:06a4:013e:25:0
-Kabelio ITV4
-p:KABELIO.CH,f:1
-376a:00820000:06a4:013e:1:0
-Kabelio RTL9 CH
-p:KABELIO.CH,f:1
 10ea:00820000:03e8:013e:25:0
 TVN 24 Bizness HD
 p:TVN,f:1
@@ -4466,9 +4352,6 @@ p:Cyfrowy Polsat S.A.,f:1
 200c:00820000:24b8:013e:1:0
 BBC News
 p:Globecast UK,f:1
-2023:00820000:24b8:013e:2:0
-Service 8227
-p:Globecast
 01f5:00820000:0384:013e:1:0
 Iran International HD
 p:ABS,f:1
@@ -5279,83 +5162,83 @@ p:Svoboda Satellite,f:1
 0071:00820000:2fa8:013e:22:0
 DW Russian
 p:Svoboda Satellite,f:1
-00c9:00820000:2db4:013e:25:0
-Kabelio|Tele Baern
-p:KABELIO.CH,f:1
-00ca:00820000:2db4:013e:25:0
-Kabelio|Tele Basel
-p:KABELIO.CH,f:1
-00cb:00820000:2db4:013e:25:0
-Kabelio|Tele 1
-p:KABELIO.CH,f:1
-00cc:00820000:2db4:013e:25:0
-Kabelio|TVO
-p:KABELIO.CH,f:1
-00cd:00820000:2db4:013e:25:0
-Kabelio|TV Suedost
+00d0:00820000:2db4:013e:25:7
+Kabelio Carac 1
 p:KABELIO.CH,f:1
 00ce:00820000:2db4:013e:25:0
-Kabelio|Tele M1
+Kabelio Tele M1
+p:KABELIO.CH,f:1
+00c9:00820000:2db4:013e:25:0
+Kabelio Tele Baern
 p:KABELIO.CH,f:1
 00cf:00820000:2db4:013e:25:0
-Kabelio|Leman Bleu
-p:KABELIO.CH,f:1
-00d0:00820000:2db4:013e:25:0
-Kabelio|Carac 1
-p:KABELIO.CH,f:1
-00d3:00820000:2db4:013e:25:0
-Kabelio|SWISS 1
-p:KABELIO.CH,f:1
-00d4:00820000:2db4:013e:25:0
-Kabelio|Auftanken.TV
-p:KABELIO.CH,f:1
-00d5:00820000:2db4:013e:25:0
-Kabelio|blue Zoom
-p:KABELIO.CH,f:1
-00dd:00820000:2db4:013e:25:0
-Kabelio|BBC1 London
-p:KABELIO.CH,f:1
-00de:00820000:2db4:013e:25:0
-Kabelio|BBC2
-p:KABELIO.CH,f:1
-00df:00820000:2db4:013e:25:0
-Kabelio|BBC3/CBBC
-p:KABELIO.CH,f:1
-00e0:00820000:2db4:013e:25:0
-Kabelio|BBC4/CBBCs
-p:KABELIO.CH,f:1
-00e1:00820000:2db4:013e:25:0
-Kabelio|ITV1 London
-p:KABELIO.CH,f:1
-00e2:00820000:2db4:013e:25:0
-Kabelio|ITV2
-p:KABELIO.CH,f:1
-00e3:00820000:2db4:013e:25:0
-Kabelio|ITV3
-p:KABELIO.CH,f:1
-00e4:00820000:2db4:013e:25:0
-Kabelio|ITV4
-p:KABELIO.CH,f:1
-00e5:00820000:2db4:013e:25:0
-Kabelio|Channel 4
-p:KABELIO.CH,f:1
-00e6:00820000:2db4:013e:25:0
-Kabelio|Channel 5
-p:KABELIO.CH,f:1
-00e7:00820000:2db4:013e:25:0
-Kabelio|Film 4
-p:KABELIO.CH,f:1
-00f1:00820000:2db4:013e:25:0
-Kabelio|TF1
-p:KABELIO.CH,f:1
-00f2:00820000:2db4:013e:25:0
-Kabelio|M6 Music
-p:KABELIO.CH,f:1
-00f3:00820000:2db4:013e:25:0
-Kabelio|RTL9 CH
+Kabelio Leman Bleu
 p:KABELIO.CH,f:1
 00fb:00820000:2db4:013e:25:0
-Kabelio|Canale 5
+Kabelio Canale 5
+p:KABELIO.CH,f:1
+00ca:00820000:2db4:013e:25:0
+Kabelio Tele Basel
+p:KABELIO.CH,f:1
+00cb:00820000:2db4:013e:25:0
+Kabelio Tele 1
+p:KABELIO.CH,f:1
+00cc:00820000:2db4:013e:25:0
+Kabelio TVO
+p:KABELIO.CH,f:1
+00cd:00820000:2db4:013e:25:0
+Kabelio TV SuedOst
+p:KABELIO.CH,f:1
+00f1:00820000:2db4:013e:25:0
+Kabelio TF1
+p:KABELIO.CH,f:1
+00f2:00820000:2db4:013e:25:0
+Kabelio M6 Music
+p:KABELIO.CH,f:1
+00d5:00820000:2db4:013e:25:0
+Kabelio Blue Zoom
+p:KABELIO.CH,f:1
+00d3:00820000:2db4:013e:25:0
+Kabelio Swiss1
+p:KABELIO.CH,f:1
+00dd:00820000:2db4:013e:25:0
+Kabelio BBC1 London
+p:KABELIO.CH,f:1
+00de:00820000:2db4:013e:25:0
+Kabelio BBC2
+p:KABELIO.CH,f:1
+00e1:00820000:2db4:013e:25:0
+Kabelio ITV1 London
+p:KABELIO.CH,f:1
+00e0:00820000:2db4:013e:25:0
+Kabelio BBC4/CBBCs
+p:KABELIO.CH,f:1
+00e5:00820000:2db4:013e:25:0
+Kabelio Channel 4
+p:KABELIO.CH,f:1
+00e6:00820000:2db4:013e:25:0
+Kabelio Channel 5
+p:KABELIO.CH,f:1
+00e3:00820000:2db4:013e:25:0
+Kabelio ITV3
+p:KABELIO.CH,f:1
+00e4:00820000:2db4:013e:25:0
+Kabelio ITV4
+p:KABELIO.CH,f:1
+00df:00820000:2db4:013e:25:0
+Kabelio BBC3/CBBC
+p:KABELIO.CH,f:1
+00d4:00820000:2db4:013e:25:0
+Kabelio Auftanken.TV
+p:KABELIO.CH,f:1
+00e2:00820000:2db4:013e:25:0
+Kabelio ITV2
+p:KABELIO.CH,f:1
+00e7:00820000:2db4:013e:25:0
+Kabelio Film 4
+p:KABELIO.CH,f:1
+00f3:00820000:2db4:013e:25:0
+Kabelio RTL9 CH
 p:KABELIO.CH,f:1
 0001:00820000:2580:00d5:1:0
 bTV
@@ -6138,11 +6021,11 @@ p:,f:1
 DIM TV
 p:,f:1
 19e6:00300000:0010:0055:1:0
-TEST-6630
-p:SES,f:1
+STB SD
+p:SLM,f:1
 19fa:00300000:0010:0055:1:0
-TEST-6650
-p:SES,f:1
+ICTV 2 SD
+p:SLM,f:1
 00e6:00300000:0002:0055:2:0
 European Radio for Belarus
 p:SES ASTRA
@@ -6398,6 +6281,9 @@ p:SLM,f:1
 1df1:00300000:002b:0055:1:0
 Televsesvit
 p:SLM,f:1
+1e00:00300000:002b:0055:22:0
+TEST
+p:,f:1
 0bc2:00300000:0018:0044:31:0
 Eurosport 2 HD
 p:VIASAT,f:1
@@ -6487,6 +6373,9 @@ UPL.TV
 p:VIASAT,f:1
 0a21:00300000:0018:0044:31:0
 Suspilne.Kyiv
+p:VIASAT,f:1
+0a1f:00300000:0018:0044:22:0
+Suspilne Cultura
 p:VIASAT,f:1
 0adc:00300000:001a:0044:22:0
 Bolt
@@ -7190,6 +7079,12 @@ p:
 0001:0030b0ed:4321:0000:1:0
 SM HIIHTO JUNNU
 p:YLE,f:1
+0001:0030b0f3:4321:0000:1:0
+Maasto sm main
+p:YLE FIN-029,f:1
+0001:0030b10a:0000:0000:25:0
+beIN SNG 2 Main
+p:mpt,f:1
 040a:0e080000:0044:0046:25:0
 TV 2 Sport Premium HD
 p:Canal Digital Nordic,f:1
@@ -10616,9 +10511,6 @@ p:NEP Norway,f:1
 0001:fff8ad00:0001:0001:1:0
 SWE041
 p:alla,f:1
-0001:0e08b0f0:0001:ffff:1:0
-backup
-p:RCS-RDS,f:1
 0065:0e080000:0065:0065:1:0
 B 101 DGI
 p:RCS-RDS BUCURESTI,f:1
@@ -10628,6 +10520,9 @@ p:RCS-RDS BUCURESTI,f:1
 0001:fff8315e:0000:0000:25:0
 ROH-Live
 p:ROH,f:1
+0065:fff8b0f0:0065:0065:1:0
+B 101 DGI
+p:RCS-RDS BUCURESTI,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024
