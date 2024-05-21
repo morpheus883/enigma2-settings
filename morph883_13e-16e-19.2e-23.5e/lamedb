@@ -378,8 +378,8 @@ transponders
 00ebb1aa:0000:0000
 	s 12714000:7200000:1:3:235:2:0:1:2:0:2
 /
-00eb2cf2:0000:0000
-	s 11506000:14250000:0:3:235:2:0:1:2:0:2
+00ebaced:0000:0000
+	s 11501000:7200000:1:3:235:2:0:1:2:0:2
 /
 00c00000:041d:0001
 	s 10773000:22000000:0:3:192:2:0:1:2:0:2
@@ -625,7 +625,7 @@ transponders
 	s 12522000:22000000:1:2:192:2:0:1:2:2:2
 /
 00c00000:0418:0001
-	s 11185000:22000000:1:2:192:2:0:1:2:0:2
+	s 11186000:22000000:1:2:192:2:0:1:2:0:2
 /
 00c00000:0001:0001
 	s 11612000:15000000:0:3:192:2:0:1:2:0:2
@@ -710,6 +710,9 @@ transponders
 /
 00c0ad44:0001:ffff
 	s 11588000:7200000:1:3:192:2:0:1:2:0:2
+/
+00c0ad88:0001:ffff
+	s 11656000:7200000:1:3:192:2:0:1:2:0:2
 /
 00a00000:0001:0040
 	s 11512000:30000000:0:3:160:2:0:1:2:0:2
@@ -1235,6 +1238,12 @@ transponders
 /
 0082ad5b:0001:0001
 	s 11611000:9600000:1:3:130:2:0:1:2:0:2
+/
+0082ad74:0001:ffff
+	s 11636000:7200000:1:3:130:2:0:1:2:0:2
+/
+0082abc9:0001:0001
+	s 11209000:7200000:1:3:130:2:0:1:2:0:2
 /
 end
 services
@@ -1855,6 +1864,9 @@ Arena Sport 2 HD
 p:M7 Group,f:1
 3737:00eb0000:0c8e:0003:25:0
 Canal+ Sport 4 CZ
+p:M7 Group,f:1
+3725:00eb0000:0c8e:0003:25:0
+Prima COOL SK
 p:M7 Group,f:1
 0302:00eb0000:0c94:0003:25:0
 Nat Geo HD
@@ -3797,6 +3809,9 @@ p:rt1.tv,f:1
 0003:00ebb1aa:0000:0000:25:0
 ITV sports horse racing Lingfield
 p:NEP Connect,f:1
+0001:00ebaced:0000:0000:25:0
+MMG-D185 HD Encoder 2
+p:,f:1
 526c:00c00000:041d:0001:25:0
 Anixe HD
 p:BetaDigital,f:1
@@ -4074,7 +4089,7 @@ p:DIGITAL+,f:1
 Cuatro
 p:Digital+,f:1
 7798:00c00000:0424:0001:1:0
-M+ LaLigaTV 4
+M+ LaLiga TV 4
 p:Digital+,f:1
 778a:00c00000:0424:0001:1:0
 Baby TV
@@ -4143,7 +4158,7 @@ p:Movistar+,f:1
 Movistar Clasicos
 p:Movistar+,f:1
 77c4:00c00000:040a:0001:1:0
-Liga de Campeones 5
+DAZN LaLiga 3
 p:Movistar+,f:1
 77d8:00c00000:040a:0001:1:0
 Liga de Campeones 4
@@ -4218,7 +4233,7 @@ p:Movistar+,f:1
 DAZN 2 Bar
 p:Movistar+,f:1
 7584:00c00000:0412:0001:1:0
-#VAMOS BAR3
+M+ LaLiga TV 6
 p:Movistar+,f:1
 7587:00c00000:0412:0001:1:0
 Antena Neox
@@ -7209,11 +7224,17 @@ p:Movistar+,f:1
 Be Mad
 p:Movistar+,f:1
 7882:00c00000:0414:0001:1:0
-TEST L4
+M+ LaLiga TV 4
 p:Movistar+,f:1
 788d:00c00000:0414:0001:1:0
-TEST DL5
+DAZN LaLiga 5
 p:Movistar+,f:1
+7884:00c00000:0414:0001:1:0
+TEST HY 4
+p:,f:1
+788c:00c00000:0414:0001:1:0
+TEST HY 5
+p:,f:1
 18f0:00c00000:03f4:0003:1:0
 Extremadura Sat
 p:TSA,f:1
@@ -7242,13 +7263,13 @@ p:Movistar+,f:1
 M+ La Resistencia
 p:Movistar+,f:1
 7822:00c00000:0428:0001:1:0
-Liga de Campeones 7
+LALIGA TV BAR 5
 p:Movistar+,f:1
 782b:00c00000:0428:0001:1:0
-Liga de Campeones 13
+M+ LaLiga TV 5
 p:Movistar+,f:1
 782c:00c00000:0428:0001:1:0
-Liga de Campeones 9
+LALIGA TV BAR 7
 p:Movistar+,f:1
 782a:00c00000:0428:0001:1:0
 LaLiga TV Hypermotion 3
@@ -7257,22 +7278,22 @@ p:Movistar+,f:1
 LaLiga TV Hypermotion
 p:Movistar+,f:1
 782f:00c00000:0428:0001:1:0
-Liga de Campeones 10
+LALIGA TV BAR 8
 p:Movistar+,f:1
 7824:00c00000:0428:0001:1:0
-Liga de Campeones 8
+LALIGA TV BAR 6
 p:Movistar+,f:1
 7820:00c00000:0428:0001:1:0
-Liga de Campeones 11
+LALIGA TV BAR 9
 p:Movistar+,f:1
 7829:00c00000:0428:0001:1:0
-Liga de Campeones 6
+DAZN LaLiga 4
 p:Movistar+,f:1
 7821:00c00000:0428:0001:1:0
-Liga de Campeones 12
+TEST HYPER 6
 p:Movistar+,f:1
 7830:00c00000:0428:0001:1:0
-LALIGATVBAR4
+LALIGA TV BAR 4
 p:Movistar+,f:1
 782d:00c00000:0428:0001:1:0
 M+Deportes 7
@@ -7432,6 +7453,9 @@ D171
 p:Betamobil,f:1
 0001:00c0ad44:0001:ffff:1:0
 SWR D-417 MOD 1
+p:Service Provider,f:1
+0001:00c0ad88:0001:ffff:1:0
+RBB D-557 ENC2
 p:Service Provider,f:1
 001e:00a00000:0001:0040:22:0
 National Geographic Croatia
@@ -10243,6 +10267,9 @@ Kentron TV
 p:Eutelsat,f:1
 089e:00820000:01f4:013e:1:0
 OU
+p:iKO Media Group,f:1
+08b5:00820000:01f4:013e:31:0
+Love Nature 4K
 p:iKO Media Group,f:1
 3ab7:00820000:0514:013e:1:0
 AMC HD Polska
@@ -13181,6 +13208,9 @@ p:CANAL+,f:1
 114b:00820000:2af8:013e:25:0
 Private HD Nova
 p:CANAL+,f:1
+113c:00820000:2af8:013e:1:0
+TEST
+p:CANAL+,f:1
 0389:00820000:2134:013e:25:0
 Dubai International HD
 p:Etisalat,f:1
@@ -13952,6 +13982,9 @@ p:Warner Bros Discovery,f:1
 02f2:00820000:02bc:013e:25:0
 Eurosport 2 Greek HD
 p:Warner Bros Discovery,f:1
+02bf:00820000:02bc:013e:31:0
+Eurosport 4K PopUp UHD
+p:Warner Bros. Discovery,f:1
 0321:0082ae8f:1770:00be:25:0
 Zona DAZN
 p:,f:1
@@ -14116,6 +14149,9 @@ Nastoyashcheye Vremya
 p:Svoboda Satellite,f:1
 0071:00820000:2fa8:013e:22:0
 DW Russian
+p:Svoboda Satellite,f:1
+0066:00820000:2fa8:013e:22:0
+Svoboda News
 p:Svoboda Satellite,f:1
 00d0:00820000:2db4:013e:25:7
 Kabelio Carac 1
@@ -14933,6 +14969,12 @@ p:MyServiceProvider
 0001:0082ad5b:0001:0001:1:0
 NLEMG HOL270-1
 p:EMG Connectivity,f:1
+0001:0082ad74:0001:ffff:1:0
+ITA 491 B INTERMEDIO 2
+p:LIVESAT,f:1
+0003:0082abc9:0001:0001:25:0
+GIRO_ITALIA_MAIN
+p:ITA_477,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024

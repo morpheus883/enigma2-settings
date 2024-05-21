@@ -273,6 +273,12 @@ transponders
 0082ad5b:0001:0001
 	s 11611000:9600000:1:3:130:2:0:1:2:0:2
 /
+0082ad74:0001:ffff
+	s 11636000:7200000:1:3:130:2:0:1:2:0:2
+/
+0082abc9:0001:0001
+	s 11209000:7200000:1:3:130:2:0:1:2:0:2
+/
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
 /
@@ -303,9 +309,6 @@ transponders
 0e080000:0022:0046
 	s 11389000:24500000:0:5:-8:2:0
 /
-0e080000:002c:0046
-	s 11421000:25000000:0:3:-8:2:0:1:2:0:2
-/
 0e080000:02bd:0600
 	s 11727000:28000000:1:5:-8:2:0
 /
@@ -323,9 +326,6 @@ transponders
 /
 0e080000:02c0:0600
 	s 11996000:28000000:1:5:-8:2:0
-/
-0e080000:0029:0046
-	s 12015000:30000000:0:3:-8:2:0:1:2:0:2
 /
 0e080000:02c2:0600
 	s 12073000:28000000:1:5:-8:2:0
@@ -357,14 +357,8 @@ transponders
 0e080000:0042:0046
 	s 10778000:25000000:0:3:-8:2:0:1:2:0:0
 /
-0e080000:0018:0046
-	s 11293000:25000000:0:3:-8:2:0:1:2:0:2
-/
 0e080000:0002:0046
 	s 11309000:25000000:1:3:-8:2:0:1:2:0:2
-/
-0e080000:003d:0046
-	s 10872000:25000000:1:3:-8:2:0:1:2:1:2
 /
 0e082f3c:000b:1111
 	s 12092000:28000000:0:5:-8:2:0
@@ -537,7 +531,7 @@ fff80000:0065:0065
 fff8315e:0000:0000
 	s 12638000:14500000:0:3:-8:2:0:1:2:0:2
 /
-fff8b0f0:0065:0065
+fff8b0f0:0001:ffff
 	s 12528000:6660000:1:3:-8:2:0:1:2:0:2
 /
 end
@@ -1135,6 +1129,9 @@ Kentron TV
 p:Eutelsat,f:1
 089e:00820000:01f4:013e:1:0
 OU
+p:iKO Media Group,f:1
+08b5:00820000:01f4:013e:31:0
+Love Nature 4K
 p:iKO Media Group,f:1
 3ab7:00820000:0514:013e:1:0
 AMC HD Polska
@@ -4073,6 +4070,9 @@ p:CANAL+,f:1
 114b:00820000:2af8:013e:25:0
 Private HD Nova
 p:CANAL+,f:1
+113c:00820000:2af8:013e:1:0
+TEST
+p:CANAL+,f:1
 0389:00820000:2134:013e:25:0
 Dubai International HD
 p:Etisalat,f:1
@@ -4844,6 +4844,9 @@ p:Warner Bros Discovery,f:1
 02f2:00820000:02bc:013e:25:0
 Eurosport 2 Greek HD
 p:Warner Bros Discovery,f:1
+02bf:00820000:02bc:013e:31:0
+Eurosport 4K PopUp UHD
+p:Warner Bros. Discovery,f:1
 0321:0082ae8f:1770:00be:25:0
 Zona DAZN
 p:,f:1
@@ -5008,6 +5011,9 @@ Nastoyashcheye Vremya
 p:Svoboda Satellite,f:1
 0071:00820000:2fa8:013e:22:0
 DW Russian
+p:Svoboda Satellite,f:1
+0066:00820000:2fa8:013e:22:0
+Svoboda News
 p:Svoboda Satellite,f:1
 00d0:00820000:2db4:013e:25:7
 Kabelio Carac 1
@@ -5825,6 +5831,12 @@ p:MyServiceProvider
 0001:0082ad5b:0001:0001:1:0
 NLEMG HOL270-1
 p:EMG Connectivity,f:1
+0001:0082ad74:0001:ffff:1:0
+ITA 491 B INTERMEDIO 2
+p:LIVESAT,f:1
+0003:0082abc9:0001:0001:25:0
+GIRO_ITALIA_MAIN
+p:ITA_477,f:1
 040a:0e080000:0044:0046:25:0
 TV 2 Sport Premium HD
 p:Canal Digital Nordic,f:1
@@ -6095,9 +6107,6 @@ p:Telenor,f:1
 1b89:0e080000:0001:0046:1:0
 TV 4 Film
 p:Telenor,f:1
-1c18:0e080000:0001:0046:1:0
-SF Kanalen
-p:Telenor,f:1
 1c1a:0e080000:0001:0046:1:0
 Horse and Country
 p:Telenor,f:1
@@ -6235,57 +6244,6 @@ Vision Sverige
 p:Telenor,f:1
 1e6c:0e080000:0022:0046:25:0
 Bedehuskanalen
-p:Telenor,f:1
-1d90:0e080000:002c:0046:1:0
-SVT1 Väst
-p:Canal Digital Nordic,f:1
-1d91:0e080000:002c:0046:1:0
-SVT1 Öst
-p:Canal Digital Nordic,f:1
-1d92:0e080000:002c:0046:1:0
-SVT1 Småland
-p:Canal Digital Nordic,f:1
-1d93:0e080000:002c:0046:1:0
-SVT1 Skåne
-p:Canal Digital Nordic,f:1
-1d94:0e080000:002c:0046:1:0
-SVT1 Gävleborg
-p:Canal Digital Nordic,f:1
-1d95:0e080000:002c:0046:1:0
-SVT1 Jämtland
-p:Canal Digital Nordic,f:1
-1d96:0e080000:002c:0046:1:0
-SVT1 Jönköping
-p:Canal Digital Nordic,f:1
-1d86:0e080000:002c:0046:22:0
-SVT1 Dalarna
-p:Telenor,f:1
-1d87:0e080000:002c:0046:22:0
-SVT1 Värmland
-p:Telenor,f:1
-1d88:0e080000:002c:0046:22:0
-SVT1 Örebro
-p:Telenor,f:1
-2efb:0e080000:002c:0046:12:0
-ADB zapper bootload
-p:Telenor
-2efd:0e080000:002c:0046:12:0
-ADB basic zapper bootload
-p:Telenor
-1f06:0e080000:002c:0046:25:0
-Viasat History HD
-p:Telenor,f:1
-1ea7:0e080000:002c:0046:25:0
-Viasat Nature HD
-p:Telenor,f:1
-1eff:0e080000:002c:0046:25:0
-Viasat Explore HD
-p:Telenor,f:1
-1e84:0e080000:002c:0046:25:0
-BBC BRIT HD (N)
-p:Telenor,f:1
-1f0b:0e080000:002c:0046:25:0
-Viasat Nature HD
 p:Telenor,f:1
 7595:0e080000:02bd:0600:1:0
 HBO Hungary
@@ -7322,9 +7280,6 @@ p:Telenor,f:1
 1d55:0e080000:0048:0046:25:0
 Viasat Nature HD
 p:Telenor,f:1
-42bc:0e080000:0048:0046:25:0
-Kuukauden kanava
-p:Telenor,f:1
 7727:0e080000:02c1:0600:25:0
 Sport 1 HD Hungary
 p:M7,f:1
@@ -7409,33 +7364,6 @@ p:Telenor,f:1
 1cf6:0e080000:0042:0046:25:0
 TV4 Sport Live 1 HD
 p:Telenor,f:1
-0447:0e080000:0018:0046:25:0
-National Geographic HD Norway
-p:Canal Digital Nordic,f:1
-0448:0e080000:0018:0046:25:0
-National Geographic HD Denmark
-p:Canal Digital Nordic,f:1
-0449:0e080000:0018:0046:25:0
-National Geographic HD Sweden & Finland
-p:Canal Digital Nordic,f:1
-115e:0e080000:0018:0046:25:0
-TV 3 HD Sverige
-p:Canal Digital Nordic,f:1
-4699:0e080000:0018:0046:25:0
-TV3 HD (S) - Text
-p:Canal Digital Nordic,f:1
-1f12:0e080000:0018:0046:25:0
-Eurosport Pluss 4 HD
-p:Telenor,f:1
-1f3b:0e080000:0018:0046:22:0
-Discovery Science
-p:Telenor,f:1
-1e00:0e080000:0018:0046:25:0
-Paramount+ Movies HD
-p:Telenor,f:1
-1e01:0e080000:0018:0046:25:0
-Paramount+ Series HD
-p:Telenor,f:1
 0fd5:0e080000:0002:0046:25:0
 Viasat Film Premiere HD
 p:Telenor,f:1
@@ -7484,18 +7412,6 @@ p:Telenor,f:1
 1baf:0e080000:0002:0046:2:0
 Rix FM
 p:Telenor
-0b75:0e080000:003d:0046:25:0
-Yle TV1 HD (old)
-p:Canal Digital Nordic,f:1
-0b77:0e080000:003d:0046:25:0
-Yle TV1 HD (old)
-p:Telenor,f:1
-1e0c:0e080000:003d:0046:25:0
-TV12 HD (old)
-p:Telenor,f:1
-4a30:0e080000:003d:0046:25:0
-TV12 HD - text (old)
-p:Telenor,f:1
 2afa:0e082f3c:000b:1111:1:0
 AXN White
 p:ESS,f:1
@@ -8095,6 +8011,15 @@ Match4 HD
 p:DIGI HU,f:1
 05d2:0e080000:0004:0001:25:0
 Sport 2 HD Hungary
+p:DIGI HU,f:1
+45f4:0e080000:0004:0001:1:0
+Moziverzum
+p:DIGI HU,f:1
+45f5:0e080000:0004:0001:1:0
+Jocky TV
+p:DIGI HU,f:1
+45fa:0e080000:0004:0001:1:0
+Izaura TV
 p:DIGI HU,f:1
 0618:0e080000:0005:0001:1:0
 M1 - Magyar TV
@@ -9227,9 +9152,12 @@ p:RCS-RDS BUCURESTI,f:1
 0001:fff8315e:0000:0000:25:0
 ROH-Live
 p:ROH,f:1
-0065:fff8b0f0:0065:0065:1:0
-B 101 DGI
-p:RCS-RDS BUCURESTI,f:1
+0001:fff8b0f0:0001:ffff:1:0
+backup
+p:RCS-RDS,f:1
+0137:fff8b0f0:0001:ffff:1:0
+B115DGS
+p:Digi B,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024

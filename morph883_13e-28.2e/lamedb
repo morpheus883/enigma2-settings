@@ -261,6 +261,9 @@ transponders
 011ab156:0000:0000
 	s 12630000:7200000:1:3:282:2:0:1:2:0:2
 /
+011a0000:07e4:0002
+	s 12090000:29500000:1:6:282:2:0:1:1:2:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -533,6 +536,12 @@ transponders
 /
 0082ad5b:0001:0001
 	s 11611000:9600000:1:3:130:2:0:1:2:0:2
+/
+0082ad74:0001:ffff
+	s 11636000:7200000:1:3:130:2:0:1:2:0:2
+/
+0082abc9:0001:0001
+	s 11209000:7200000:1:3:130:2:0:1:2:0:2
 /
 end
 services
@@ -1372,9 +1381,6 @@ EWTN Catholic
 p:BSkyB
 cb9e:011a0000:083c:0002:1:0
 Dunamis TV
-p:BSkyB,f:1
-cba6:011a0000:083c:0002:1:0
-Islam Bangla
 p:BSkyB,f:1
 cba2:011a0000:083c:0002:1:0
 Islam Channel Urdu
@@ -2864,6 +2870,9 @@ p:BSkyB,f:1
 d332:011a0000:0836:0002:1:0
 Revelation TV
 p:BSkyB,f:1
+d324:011a0000:0836:0002:1:0
+Islam Bangla
+p:BSkyB,f:1
 0001:011a319e:0000:0001:25:0
 F511 whisper RWC nice main
 p:,f:1
@@ -2993,6 +3002,42 @@ p:,f:1
 0320:011ab156:0000:0000:1:0
 INT_PLATFORM
 p:MBI,f:1
+24b9:011a0000:07e4:0002:1:0
+401-5
+p:BSkyB,f:1
+24ba:011a0000:07e4:0002:1:0
+401-2
+p:BSkyB,f:1
+24bb:011a0000:07e4:0002:1:0
+401-3
+p:BSkyB,f:1
+24bc:011a0000:07e4:0002:1:0
+401-4
+p:BSkyB,f:1
+24be:011a0000:07e4:0002:1:0
+401-6
+p:BSkyB,f:1
+24bf:011a0000:07e4:0002:1:0
+401-7
+p:BSkyB,f:1
+24c1:011a0000:07e4:0002:1:0
+401-9
+p:BSkyB,f:1
+24c2:011a0000:07e4:0002:1:0
+401-10
+p:BSkyB,f:1
+24c4:011a0000:07e4:0002:1:0
+401-12
+p:BSkyB,f:1
+24c5:011a0000:07e4:0002:1:0
+401-13
+p:BSkyB,f:1
+24c6:011a0000:07e4:0002:1:0
+401-14
+p:BSkyB,f:1
+24cb:011a0000:07e4:0002:1:0
+401-19
+p:BSkyB,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -3586,6 +3631,9 @@ Kentron TV
 p:Eutelsat,f:1
 089e:00820000:01f4:013e:1:0
 OU
+p:iKO Media Group,f:1
+08b5:00820000:01f4:013e:31:0
+Love Nature 4K
 p:iKO Media Group,f:1
 3ab7:00820000:0514:013e:1:0
 AMC HD Polska
@@ -6524,6 +6572,9 @@ p:CANAL+,f:1
 114b:00820000:2af8:013e:25:0
 Private HD Nova
 p:CANAL+,f:1
+113c:00820000:2af8:013e:1:0
+TEST
+p:CANAL+,f:1
 0389:00820000:2134:013e:25:0
 Dubai International HD
 p:Etisalat,f:1
@@ -7295,6 +7346,9 @@ p:Warner Bros Discovery,f:1
 02f2:00820000:02bc:013e:25:0
 Eurosport 2 Greek HD
 p:Warner Bros Discovery,f:1
+02bf:00820000:02bc:013e:31:0
+Eurosport 4K PopUp UHD
+p:Warner Bros. Discovery,f:1
 0321:0082ae8f:1770:00be:25:0
 Zona DAZN
 p:,f:1
@@ -7459,6 +7513,9 @@ Nastoyashcheye Vremya
 p:Svoboda Satellite,f:1
 0071:00820000:2fa8:013e:22:0
 DW Russian
+p:Svoboda Satellite,f:1
+0066:00820000:2fa8:013e:22:0
+Svoboda News
 p:Svoboda Satellite,f:1
 00d0:00820000:2db4:013e:25:7
 Kabelio Carac 1
@@ -8276,6 +8333,12 @@ p:MyServiceProvider
 0001:0082ad5b:0001:0001:1:0
 NLEMG HOL270-1
 p:EMG Connectivity,f:1
+0001:0082ad74:0001:ffff:1:0
+ITA 491 B INTERMEDIO 2
+p:LIVESAT,f:1
+0003:0082abc9:0001:0001:25:0
+GIRO_ITALIA_MAIN
+p:ITA_477,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024
