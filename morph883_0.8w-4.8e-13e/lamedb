@@ -37,7 +37,7 @@ transponders
 	s 11240000:27500000:1:4:130:2:0:1:2:0:2
 /
 00820000:0190:013e
-	s 11278000:27500000:1:3:130:2:0:1:2:0:2
+	s 11278000:27500000:1:4:130:2:0:1:2:0:2
 /
 00820000:01f4:013e
 	s 11296000:27500000:0:4:130:2:0
@@ -205,7 +205,7 @@ transponders
 	s 12558000:27500000:1:4:130:2:0:1:2:2:2
 /
 00820000:3264:013e
-	s 11096000:30000000:0:3:130:2:0:1:2:0:2
+	s 11096000:30000000:0:2:130:2:0:1:2:0:2
 /
 00820000:170c:fbff
 	s 11900000:29900000:0:4:130:2:0:1:1:0:2
@@ -617,6 +617,9 @@ fff8315e:0000:0000
 /
 fff8b0f0:0001:ffff
 	s 12528000:6660000:1:3:-8:2:0:1:2:0:2
+/
+0e083143:0000:0000
+	s 12611000:14500000:0:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -1946,9 +1949,6 @@ p:SkyItalia,f:1
 1006:00820000:1a2c:fbff:25:0
 Bike Channel
 p:SkyItalia,f:1
-2da0:00820000:1a2c:fbff:31:0
-Eurosport 4K
-p:SkyItalia,f:1
 2bad:00820000:1af4:fbff:2:0
 Radio Vaticana Europa
 p:SkyItalia
@@ -2058,7 +2058,7 @@ p:NOVA,f:1
 Attica TV
 p:NOVA,f:1
 3c8e:00820000:1bbc:013e:1:0
-NovaStarsHD
+NovaSummerHD
 p:NOVA,f:1
 1c22:00820000:1c20:013e:1:0
 TTN - Télévision Tunisienne Nationale
@@ -3350,9 +3350,6 @@ p:Cyfrowy Polsat S.A.,f:1
 290c:00820000:1edc:0071:1:0
 Wydarzenia 24 HD
 p:Cyfrowy Polsat S.A.,f:1
-290d:00820000:1edc:0071:1:0
-TestDS
-p:Cyfrowy Polsat S.A.,f:1
 290f:00820000:1edc:0071:1:0
 HBO HD
 p:,f:1
@@ -4011,7 +4008,7 @@ p:CANAL+,f:1
 Private HD Nova
 p:CANAL+,f:1
 113c:00820000:2af8:013e:1:0
-TEST
+Viasat True Crime
 p:CANAL+,f:1
 0389:00820000:2134:013e:25:0
 Dubai International HD
@@ -4193,6 +4190,9 @@ p:,f:1
 0654:00820000:2454:013e:1:0
 Noursat English
 p:ViewMedia,f:1
+0655:00820000:2454:013e:1:0
+AL24 News
+p:TDA,f:1
 0079:00820000:04b0:0110:25:0
 Italia 1 HD
 p:Mediaset,f:1
@@ -5783,6 +5783,9 @@ p:VIVACOM,f:1
 025b:00820000:2774:00d5:1:0
 Action.Box
 p:VIVACOM,f:1
+3e23:00820000:2774:00d5:1:0
+Test Service SD
+p:NOVA,f:1
 03ea:0082acce:03ea:0001:12:0
 HVS-2 Bck
 p:Telespazio
@@ -7490,57 +7493,6 @@ p:M7,f:1
 7606:0e080000:02be:0600:1:0
 ATV Spirit.
 p:M7,f:1
-7919:0e080000:02c6:0600:25:0
-Duna HD
-p:UPC Direct,f:1
-791a:0e080000:02c6:0600:25:0
-CT D/CT Art HD
-p:UPC Direct,f:1
-791d:0e080000:02c6:0600:25:0
-HBO HD Hungary
-p:UPC Direct,f:1
-791e:0e080000:02c6:0600:25:0
-M4 Sport HD
-p:UPC Direct,f:1
-7920:0e080000:02c6:0600:22:0
-Paramount Network
-p:UPC Direct,f:1
-7925:0e080000:02c6:0600:25:0
-Antena 1 Romania HD
-p:UPC Direct,f:1
-7922:0e080000:02c6:0600:1:0
-FilmBox Basic
-p:UPC Direct,f:1
-7926:0e080000:02c6:0600:22:0
-TV Paprika CZ/SK
-p:UPC Direct,f:1
-7927:0e080000:02c6:0600:25:0
-Love Nature HD
-p:UPC Direct,f:1
-791f:0e080000:02c6:0600:25:0
-Travel XP HD
-p:UPC Direct,f:1
-7928:0e080000:02c6:0600:25:0
-Kanal D HD
-p:M7,f:1
-7921:0e080000:02c6:0600:25:0
-Sport 1 HD CZ
-p:M7,f:1
-791b:0e080000:02c6:0600:25:0
-RTL Harom HD
-p:M7,f:1
-7929:0e080000:02c6:0600:25:0
-Love Nature HD (PS)
-p:M7,f:1
-7923:0e080000:02c6:0600:22:0
-Prima Krimi
-p:M7,f:1
-792a:0e080000:02c6:0600:22:0
-Kanal D2
-p:M7,f:1
-792b:0e080000:02c6:0600:22:0
-Kanal D2.
-p:M7,f:1
 0401:0e080000:000c:0001:1:0
 Music Channel
 p:DigiTV,f:1
@@ -8375,17 +8327,11 @@ p:M7,f:1
 7728:0e080000:02c1:0600:25:0
 RTL HD
 p:M7,f:1
-7729:0e080000:02c1:0600:25:0
-Sport 2 HD Czechia
-p:M7,f:1
 7726:0e080000:02c1:0600:25:0
 M2 HD
 p:M7,f:1
 772b:0e080000:02c1:0600:22:0
 Filmbox Premium Hungary
-p:M7,f:1
-7739:0e080000:02c1:0600:25:0
-Sport 2 HD (SVT)
 p:M7,f:1
 773b:0e080000:02c1:0600:25:0
 FilmBox Extra HD
@@ -8401,12 +8347,6 @@ TVR 1 HD
 p:M7,f:1
 772f:0e080000:02c1:0600:25:0
 TV2 HD (HU)
-p:M7,f:1
-7731:0e080000:02c1:0600:25:0
-JOJ Sport HD
-p:M7,f:1
-7732:0e080000:02c1:0600:25:0
-JOJ Sport HD (SVT)
 p:M7,f:1
 773d:0e080000:02c1:0600:25:0
 M2 HD (SVT)
@@ -9395,72 +9335,6 @@ p:Slovak Telekom,f:1
 32d4:0e080000:004f:0046:22:0
 Test 13012
 p:Telenor,f:1
-7669:0e080000:02bf:0600:22:0
-Prima COOL
-p:M7,f:1
-766a:0e080000:02bf:0600:22:0
-Prima Love
-p:M7,f:1
-765f:0e080000:02bf:0600:22:0
-CS Film/Horor
-p:M7,f:1
-7661:0e080000:02bf:0600:22:0
-Markiza International
-p:M7,f:1
-7662:0e080000:02bf:0600:22:0
-TA3
-p:M7,f:1
-765e:0e080000:02bf:0600:22:0
-Lala TV
-p:M7,f:1
-767a:0e080000:02bf:0600:22:0
-Jojko
-p:M7,f:1
-7673:0e080000:02bf:0600:25:0
-HBO Romania HD
-p:M7,f:1
-7675:0e080000:02bf:0600:22:0
-CNN Prima News
-p:M7,f:1
-7676:0e080000:02bf:0600:25:0
-RTL Ketto HD
-p:M7,f:1
-767d:0e080000:02bf:0600:25:0
-Film+ HD
-p:M7,f:1
-7664:0e080000:02bf:0600:25:0
-Arena 4 HD
-p:M7,f:1
-7665:0e080000:02bf:0600:25:0
-Vixen HD
-p:M7,f:1
-7660:0e080000:02bf:0600:25:0
-Focus Sat TV HD
-p:M7,f:1
-7666:0e080000:02bf:0600:25:0
-Nat Geo Wild CEE HD
-p:M7,f:1
-766d:0e080000:02bf:0600:22:0
-Slager Original
-p:M7,f:1
-766e:0e080000:02bf:0600:22:0
-TV Lux
-p:M7,f:1
-766b:0e080000:02bf:0600:22:0
-Filmbox Stars CZ
-p:M7,f:1
-7670:0e080000:02bf:0600:22:0
-Sport1 CZE
-p:M7,f:1
-766c:0e080000:02bf:0600:22:0
-Senzi
-p:M7,f:1
-7671:0e080000:02bf:0600:22:0
-Senzi (SVT)
-p:M7,f:1
-766f:0e080000:02bf:0600:22:0
-Filmbox Stars CZ (SVT)
-p:M7,f:1
 1f4b:0e080000:0af8:00bb:22:0
 Film+ SK
 p:Slovak Telekom,f:1
@@ -10070,9 +9944,6 @@ p:BFMTV Digital 1,f:1
 0105:0e082b6e:0001:0000:2:0
 New Life
 p:TTS
-7a51:fff80000:02cb:0600:1:0
-Sport1 CZE.
-p:M7,f:1
 7a5b:fff80000:02cb:0600:1:0
 JimJam
 p:M7,f:1
@@ -10085,41 +9956,8 @@ p:M7,f:1
 7a60:fff80000:02cb:0600:1:0
 JimJam..
 p:M7,f:1
-7a47:fff80000:02cb:0600:22:0
-LALA TV
-p:M7,f:1
 7a48:fff80000:02cb:0600:22:0
 CS Film/CS Horror
-p:M7,f:1
-7a49:fff80000:02cb:0600:22:0
-Markiza INT
-p:M7,f:1
-7a4a:fff80000:02cb:0600:22:0
-TA3
-p:M7,f:1
-7a4b:fff80000:02cb:0600:22:0
-Prima Cool
-p:M7,f:1
-7a4c:fff80000:02cb:0600:22:0
-Prima Love
-p:M7,f:1
-7a4d:fff80000:02cb:0600:22:0
-CNN Prima News
-p:M7,f:1
-7a4e:fff80000:02cb:0600:22:0
-Jojko
-p:M7,f:1
-7a52:fff80000:02cb:0600:22:0
-Senzi
-p:M7,f:1
-7a53:fff80000:02cb:0600:22:0
-SLAGER ORIGINAL.
-p:M7,f:1
-7a54:fff80000:02cb:0600:22:0
-TV LUX
-p:M7,f:1
-7a55:fff80000:02cb:0600:22:0
-Filmbox Stars CZ
 p:M7,f:1
 7a58:fff80000:02cb:0600:22:0
 Docubox
@@ -10130,23 +9968,8 @@ p:M7,f:1
 7a5a:fff80000:02cb:0600:22:0
 Fightbox
 p:M7,f:1
-7a5d:fff80000:02cb:0600:22:0
-Senzi (SVT)
-p:M7,f:1
-7a5e:fff80000:02cb:0600:22:0
-Filmbox Stars CZ (SVT)
-p:M7,f:1
 7a45:fff80000:02cb:0600:25:0
 Filmbox Premium HD
-p:M7,f:1
-7a4f:fff80000:02cb:0600:25:0
-Film+ HD
-p:M7,f:1
-7a50:fff80000:02cb:0600:25:0
-Vixen HD
-p:M7,f:1
-7a56:fff80000:02cb:0600:25:0
-HBO HD
 p:M7,f:1
 7a57:fff80000:02cb:0600:25:0
 Direct One HD
@@ -10160,6 +9983,57 @@ p:M7,f:1
 7a46:fff80000:02cb:0600:22:0
 TV8
 p:M7,f:1
+7a47:fff80000:02cb:0600:22:0
+Lala TV
+p:M7,f:1
+7a49:fff80000:02cb:0600:22:0
+Markiza International
+p:M7,f:1
+7a4a:fff80000:02cb:0600:22:0
+TA3
+p:M7,f:1
+7a50:fff80000:02cb:0600:25:0
+Vixen HD
+p:M7,f:1
+7a4b:fff80000:02cb:0600:22:0
+Prima COOL
+p:M7,f:1
+7a4c:fff80000:02cb:0600:22:0
+Prima Love
+p:M7,f:1
+7a55:fff80000:02cb:0600:22:0
+Filmbox Stars CZ
+p:M7,f:1
+7a5e:fff80000:02cb:0600:22:0
+Filmbox Stars CZ (SVT)
+p:M7,f:1
+7a52:fff80000:02cb:0600:22:0
+Senzi
+p:M7,f:1
+7a5d:fff80000:02cb:0600:22:0
+Senzi (SVT)
+p:M7,f:1
+7a53:fff80000:02cb:0600:22:0
+Slager Original
+p:M7,f:1
+7a54:fff80000:02cb:0600:22:0
+TV Lux
+p:M7,f:1
+7a51:fff80000:02cb:0600:22:0
+Sport1 CZE
+p:M7,f:1
+7a56:fff80000:02cb:0600:25:0
+HBO Romania HD
+p:M7,f:1
+7a4d:fff80000:02cb:0600:22:0
+CNN Prima News
+p:M7,f:1
+7a4e:fff80000:02cb:0600:22:0
+Jojko
+p:M7,f:1
+7a4f:fff80000:02cb:0600:25:0
+Film+ HD
+p:M7,f:1
 7aaa:fff80000:02cc:0600:22:0
 Arena Sport 1
 p:M7,f:1
@@ -10172,47 +10046,11 @@ p:M7,f:1
 7ab0:fff80000:02cc:0600:22:0
 Fashion TV
 p:M7,f:1
-7ab3:fff80000:02cc:0600:22:0
-Prima Krimi
-p:M7,f:1
-7ab4:fff80000:02cc:0600:22:0
-Paramount Network
-p:M7,f:1
-7ab5:fff80000:02cc:0600:22:0
-Filmbox Basic
-p:M7,f:1
-7ab6:fff80000:02cc:0600:22:0
-TV Paprika CZ/SK
-p:M7,f:1
-7aa9:fff80000:02cc:0600:25:0
-Sport 2 HD CZ
-p:M7,f:1
 7aab:fff80000:02cc:0600:25:0
 History HD
 p:M7,f:1
 7aac:fff80000:02cc:0600:25:0
-STORY4 HD
-p:M7,f:1
-7aad:fff80000:02cc:0600:25:0
-JOJ Sport HD
-p:M7,f:1
-7ab2:fff80000:02cc:0600:25:0
-CT: D/Art HD
-p:M7,f:1
-7ab7:fff80000:02cc:0600:25:0
-Sport 1 HD CZ
-p:M7,f:1
-7ab8:fff80000:02cc:0600:25:0
-Duna HD
-p:M7,f:1
-7ab9:fff80000:02cc:0600:25:0
-M4 HD
-p:M7,f:1
-7abe:fff80000:02cc:0600:25:0
-Sport 2 HD (SVT)
-p:M7,f:1
-7abf:fff80000:02cc:0600:25:0
-JOJ Sport HD (SVT)
+Story4 HD
 p:M7,f:1
 7aba:fff80000:02cc:0600:25:0
 Kolyokklub
@@ -10220,14 +10058,44 @@ p:M7,f:1
 7abb:fff80000:02cc:0600:25:1
 RTL Otthon
 p:M7,f:1
-7abc:fff80000:02cc:0600:22:2
-Sorozatklub
-p:M7,f:1
-7abd:fff80000:02cc:0600:22:3
-Moziklub
+7aa9:fff80000:02cc:0600:25:0
+Sport 2 HD CZ
 p:M7,f:1
 7ab1:fff80000:02cc:0600:25:0
 Focus Sat TV HD
+p:M7,f:1
+7ab8:fff80000:02cc:0600:25:0
+Duna HD
+p:M7,f:1
+7ab2:fff80000:02cc:0600:25:0
+CT D/CT Art HD
+p:M7,f:1
+7ab9:fff80000:02cc:0600:25:0
+M4 Sport HD
+p:M7,f:1
+7ab4:fff80000:02cc:0600:22:0
+Paramount Network
+p:M7,f:1
+7ab7:fff80000:02cc:0600:25:0
+Sport 1 HD CZ
+p:M7,f:1
+7ab5:fff80000:02cc:0600:22:0
+FilmBox Basic
+p:M7,f:1
+7ab3:fff80000:02cc:0600:22:0
+Prima Krimi
+p:M7,f:1
+7ab6:fff80000:02cc:0600:22:0
+TV Paprika CZ/SK
+p:M7,f:1
+7aad:fff80000:02cc:0600:25:0
+JOJ Sport HD
+p:M7,f:1
+7abf:fff80000:02cc:0600:25:0
+JOJ Sport HD (SVT)
+p:M7,f:1
+7abe:fff80000:02cc:0600:25:0
+Sport 2 HD (SVT)
 p:M7,f:1
 00bb:fff8b0e6:0001:ffff:1:0
 B 187 DGI
@@ -10259,6 +10127,9 @@ p:RCS-RDS,f:1
 0137:fff8b0f0:0001:ffff:1:0
 B115DGS
 p:Digi B,f:1
+0001:0e083143:0000:0000:25:0
+ROH-Live
+p:ROH,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024
