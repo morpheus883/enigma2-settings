@@ -861,9 +861,6 @@ transponders
 00a00000:cb2c:016e
 	s 11139000:27500000:1:7:160:2:0:1:2:2:2
 /
-00a030f9:0001:0001
-	s 12537000:13465000:1:3:160:2:0:1:1:2:2
-/
 00a030fd:0001:ffff
 	s 12541000:3165000:0:2:160:2:0:1:2:0:2
 /
@@ -1691,17 +1688,17 @@ p:M7 Group
 17f2:00eb0000:0c82:0003:2:0
 Radio Veronica
 p:M7 Group
-17ae:00eb0000:0c82:0003:25:0
-Travel XP HD
+17ae:00eb0000:0c82:0003:22:0
+Travel XP
 p:M7 Group,f:1
-17af:00eb0000:0c82:0003:25:0
-Travel XP HD BNL
+17af:00eb0000:0c82:0003:22:0
+Travel XP BNL
 p:M7 Group,f:1
 177a:00eb0000:0c82:0003:22:0
 NPO Politiek
 p:M7 Group,f:1
-1816:00eb0000:0c82:0003:25:0
-Mezzo HD
+1816:00eb0000:0c82:0003:22:0
+Mezzo
 p:M7 Group,f:1
 17ce:00eb0000:0c82:0003:25:0
 Filmbox NL HD
@@ -3362,14 +3359,20 @@ p:SES
 0321:00eb0000:0c9e:0003:12:0
 
 p:SES
-1e41:00eb0000:0c9e:0003:1:0
-DIM TV
-p:,f:1
 1e35:00eb0000:0c9e:0003:1:0
 Suspilne Kultura
 p:,f:1
 1e37:00eb0000:0c9e:0003:1:0
 Suspilne News
+p:,f:1
+1e5a:00eb0000:0c9e:0003:22:0
+1+1 International
+p:1plus1 Media,f:1
+1e5b:00eb0000:0c9e:0003:22:0
+1+1 Marafon
+p:1plus1 Media,f:1
+1e50:00eb0000:0c9e:0003:25:0
+Inter HD
 p:,f:1
 0001:00eb2cc8:0000:0000:25:0
 Sky Sports Darts
@@ -3539,8 +3542,8 @@ p:M7 Group
 52ec:00ebaf61:0c96:0003:22:0
 Eleven Sports Pro League 1 NL
 p:M7 Group,f:1
-52ed:00ebaf61:0c96:0003:25:0
-Sport 10 HD
+52ed:00ebaf61:0c96:0003:22:0
+Sport 10
 p:M7 Group,f:1
 52f1:00ebaf61:0c96:0003:22:0
 EarthxTV
@@ -3755,7 +3758,7 @@ p:M7 Group,f:1
 1bff:00ebae50:0c88:0003:25:0
 Penthouse Reality
 p:M7 Group,f:1
-1b62:00ebae50:0c88:0003:25:0
+1b62:00ebae50:0c88:0003:22:0
 DreamWorks
 p:M7 Group,f:1
 1b6c:00ebae50:0c88:0003:25:0
@@ -3815,7 +3818,7 @@ p:M7 Group,f:1
 1bff:00ebaf13:0c92:0003:25:0
 Penthouse Reality
 p:M7 Group,f:1
-1b62:00ebaf13:0c92:0003:25:0
+1b62:00ebaf13:0c92:0003:22:0
 DreamWorks
 p:M7 Group,f:1
 1b6c:00ebaf13:0c92:0003:25:0
@@ -3896,8 +3899,8 @@ p:M7 Group,f:1
 3700:00ebae9e:0c8c:0003:25:0
 Epic Drama HD
 p:M7 Group,f:1
-36e9:00ebae9e:0c8c:0003:1:0
-Filmbox
+36e9:00ebae9e:0c8c:0003:25:0
+Filmbox HD
 p:CS Link,f:1
 36f0:00ebae9e:0c8c:0003:1:0
 Nick Jr Czech
@@ -3914,8 +3917,8 @@ p:M7 Group,f:1
 36ec:00ebae9e:0c8c:0003:25:0
 Prima Krimi HD
 p:M7 Group,f:1
-36ef:00ebae9e:0c8c:0003:25:0
-Prima Love HD
+36ef:00ebae9e:0c8c:0003:22:0
+Prima Love
 p:M7 Group,f:1
 36e5:00ebae9e:0c8c:0003:25:0
 Prima MAX HD
@@ -9734,6 +9737,9 @@ p:eClutch,f:1
 03ed:00a00000:0007:016e:1:0
 Esports Legend
 p:eClutch,f:1
+03ee:00a00000:0007:016e:25:0
+eClutch Live
+p:ECLUTCH,f:1
 0001:00a0ada1:0001:0001:1:0
 SLO-008 Tx 1
 p:,f:1
@@ -9890,6 +9896,9 @@ p:,f:1
 055d:00a0ad4b:75fb:016e:1:0
 SK HD
 p:,f:1
+055e:00a0ad4b:75fb:016e:2:0
+Radio Kanal 77
+p:
 05ab:00a0ad9e:75fc:016e:1:0
 SK 1 HD
 p:Total TV,f:1
@@ -11191,6 +11200,15 @@ TV2000 HD
 p:SkyItalia,f:1
 1006:00820000:1a2c:fbff:25:0
 Bike Channel
+p:SkyItalia,f:1
+1069:00820000:1a2c:fbff:25:0
+Sky Sport 1 HD
+p:SkyItalia,f:1
+106b:00820000:1a2c:fbff:25:0
+Sky Sport Calcio
+p:SkyItalia,f:1
+106d:00820000:1a2c:fbff:25:0
+Sky Sport Calcio
 p:SkyItalia,f:1
 2bad:00820000:1af4:fbff:2:0
 Radio Vaticana Europa
@@ -14282,14 +14300,17 @@ p:KABELIO.CH,f:1
 00fd:00820000:2db4:013e:25:0
 Kabelio S1
 p:KABELIO.CH,f:1
-0100:00820000:2db4:013e:1:0
-Kabelio TP117_D
-p:KABELIO.CH,f:1
-0101:00820000:2db4:013e:1:0
+0101:00820000:2db4:013e:25:0
 Kabelio Mooz Dance
 p:KABELIO.CH,f:1
 00fe:00820000:2db4:013e:25:0
 Kabelio TMC CH
+p:KABELIO.CH,f:1
+0a01:00820000:2db4:013e:1:0
+VirtualChannelTest
+p:TEST,f:1
+0100:00820000:2db4:013e:25:0
+Kabelio Sky News
 p:KABELIO.CH,f:1
 0001:00820000:2580:00d5:1:0
 bTV

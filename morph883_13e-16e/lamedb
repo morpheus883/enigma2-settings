@@ -138,9 +138,6 @@ transponders
 00a00000:cb2c:016e
 	s 11139000:27500000:1:7:160:2:0:1:2:2:2
 /
-00a030f9:0001:0001
-	s 12537000:13465000:1:3:160:2:0:1:1:2:2
-/
 00a030fd:0001:ffff
 	s 12541000:3165000:0:2:160:2:0:1:2:0:2
 /
@@ -2666,6 +2663,9 @@ p:eClutch,f:1
 03ed:00a00000:0007:016e:1:0
 Esports Legend
 p:eClutch,f:1
+03ee:00a00000:0007:016e:25:0
+eClutch Live
+p:ECLUTCH,f:1
 0001:00a0ada1:0001:0001:1:0
 SLO-008 Tx 1
 p:,f:1
@@ -2822,6 +2822,9 @@ p:,f:1
 055d:00a0ad4b:75fb:016e:1:0
 SK HD
 p:,f:1
+055e:00a0ad4b:75fb:016e:2:0
+Radio Kanal 77
+p:
 05ab:00a0ad9e:75fc:016e:1:0
 SK 1 HD
 p:Total TV,f:1
@@ -4123,6 +4126,15 @@ TV2000 HD
 p:SkyItalia,f:1
 1006:00820000:1a2c:fbff:25:0
 Bike Channel
+p:SkyItalia,f:1
+1069:00820000:1a2c:fbff:25:0
+Sky Sport 1 HD
+p:SkyItalia,f:1
+106b:00820000:1a2c:fbff:25:0
+Sky Sport Calcio
+p:SkyItalia,f:1
+106d:00820000:1a2c:fbff:25:0
+Sky Sport Calcio
 p:SkyItalia,f:1
 2bad:00820000:1af4:fbff:2:0
 Radio Vaticana Europa
@@ -7214,14 +7226,17 @@ p:KABELIO.CH,f:1
 00fd:00820000:2db4:013e:25:0
 Kabelio S1
 p:KABELIO.CH,f:1
-0100:00820000:2db4:013e:1:0
-Kabelio TP117_D
-p:KABELIO.CH,f:1
-0101:00820000:2db4:013e:1:0
+0101:00820000:2db4:013e:25:0
 Kabelio Mooz Dance
 p:KABELIO.CH,f:1
 00fe:00820000:2db4:013e:25:0
 Kabelio TMC CH
+p:KABELIO.CH,f:1
+0a01:00820000:2db4:013e:1:0
+VirtualChannelTest
+p:TEST,f:1
+0100:00820000:2db4:013e:25:0
+Kabelio Sky News
 p:KABELIO.CH,f:1
 0001:00820000:2580:00d5:1:0
 bTV
