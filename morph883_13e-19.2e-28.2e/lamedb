@@ -109,7 +109,7 @@ transponders
 	s 12266000:27500000:0:2:282:2:0:1:2:1:0
 /
 011a0000:080e:0002
-	s 11038000:22000000:1:4:282:2:0
+	s 11038000:23000000:1:2:282:2:0:1:2:1:2
 /
 011a0000:0838:0002
 	s 11685000:23000000:1:2:282:2:0:1:2:1:2
@@ -159,8 +159,8 @@ transponders
 011a0000:0835:0002
 	s 11641000:23000000:0:2:282:2:0:1:2:1:2
 /
-011a0000:0832:0002
-	s 11597000:23000000:1:2:282:2:0:1:2:0:2
+011a2d3e:0842:0002
+	s 11582000:23000000:0:2:282:2:0:1:2:1:2
 /
 011a0000:0833:0002
 	s 11612000:22000000:0:4:282:2:0
@@ -579,9 +579,6 @@ transponders
 00c02d7f:0001:ffff
 	s 11647000:9874000:0:3:192:2:0:1:2:0:2
 /
-00c0ad8e:0001:ffff
-	s 11662000:9874000:1:3:192:2:0:1:2:0:2
-/
 00c0acd7:0001:ff00
 	s 11479000:23175000:1:3:192:2:0:1:2:0:2
 /
@@ -600,8 +597,14 @@ transponders
 00c0ad44:0001:ffff
 	s 11588000:7200000:1:3:192:2:0:1:2:0:2
 /
-00c0ad88:0001:ffff
+00c00000:0064:0001
+	s 11697000:2915000:1:3:192:2:0:1:2:0:2
+/
+00c0ad88:0001:0001
 	s 11656000:7200000:1:3:192:2:0:1:2:0:2
+/
+00c0ad8e:0001:0001
+	s 11662000:7200000:1:3:192:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -840,9 +843,6 @@ transponders
 00820000:0321:013e
 	s 11355000:27500000:1:3:130:2:0:1:2:0:2
 /
-00820000:1e14:fbff
-	s 12245000:29900000:0:4:130:2:0:1:2:0:2
-/
 00820000:2fa8:013e
 	s 10949000:27500000:1:2:130:2:0:1:2:0:2
 /
@@ -882,22 +882,16 @@ transponders
 00820000:2774:013e
 	s 12731000:30000000:0:4:130:2:0:1:2:2:2
 /
+00820000:1e14:013e
+	s 12245000:27500000:0:3:130:2:0:1:2:2:2
+/
+00822c46:02bc:013e
+	s 11334000:27500000:0:15:130:2:0:1:2:2:2
+/
 end
 services
 23fb:011a0000:07f9:0002:1:0
 Channel 4 London
-p:BSkyB,f:1
-23fc:011a0000:07f9:0002:1:0
-Channel 4 South & East
-p:BSkyB,f:1
-23fd:011a0000:07f9:0002:1:0
-Channel 4 Midlands
-p:BSkyB,f:1
-23fe:011a0000:07f9:0002:1:0
-Channel 4 North
-p:BSkyB,f:1
-2400:011a0000:07f9:0002:1:0
-Channel 4 Scotland
 p:BSkyB,f:1
 2404:011a0000:07f9:0002:1:0
 Film4
@@ -1499,9 +1493,6 @@ p:BSkyB
 15aa:011a0000:07db:0002:2:0
 RTE Lyric fm
 p:BSkyB
-0ff1:011a0000:07db:0002:1:0
-Manchester United TV
-p:BSkyB,f:1
 16c9:011a0000:07db:0002:1:0
 Sky Replay
 p:BSkyB,f:1
@@ -1652,6 +1643,12 @@ p:BSkyB,f:1
 154a:011a0000:07dc:0002:2:0
 SNR
 p:BSkyB
+0ffd:011a0000:07dc:0002:1:0
+SkySp Mix
+p:BSkyB,f:1
+1bb3:011a0000:07dc:0002:1:0
+Sky Sports Mix
+p:BSkyB,f:1
 cb9c:011a0000:083c:0002:1:0
 TBN UK
 p:BSkyB,f:1
@@ -1675,9 +1672,6 @@ Racing TV
 p:BSkyB,f:1
 cb9b:011a0000:083c:0002:1:0
 Islam Channel
-p:BSkyB,f:1
-c4d6:011a0000:0811:0002:1:0
-Inspiration TV
 p:BSkyB,f:1
 c49f:011a0000:0811:0002:1:0
 Sikh Channel
@@ -1775,12 +1769,6 @@ p:BSkyB,f:1
 1408:011a0000:07d7:0002:1:0
 Sky Documentaries
 p:BSkyB,f:1
-0ffd:011a0000:07d7:0002:1:0
-SkySp Mix
-p:BSkyB,f:1
-17cb:011a0000:07d7:0002:1:0
-Sky Sports Mix
-p:BSkyB,f:1
 151e:011a0000:07d7:0002:1:0
 Sky News Ireland
 p:BSkyB,f:1
@@ -1848,7 +1836,10 @@ d39c:011a0000:0830:0002:1:0
 Sony Max
 p:BSkyB,f:1
 d387:011a0000:0830:0002:1:0
-ChartShowRetro
+That's Dance
+p:BSkyB,f:1
+d390:011a0000:0830:0002:1:0
+NOW 90s & 00s
 p:BSkyB,f:1
 c5e4:011a0000:0842:0002:25:0
 TNT Sports 1 HD
@@ -1944,7 +1935,7 @@ d75d:011a0000:082f:0002:2:0
 Heart Dance
 p:BSkyB
 d74a:011a0000:082f:0002:1:0
-NOW 90s
+NOW Rock
 p:BSkyB,f:1
 d75f:011a0000:082f:0002:2:0
 Virgin Radio
@@ -2094,7 +2085,7 @@ d7a1:011a0000:0840:0002:1:0
 That's TV 2
 p:BSkyB,f:1
 d7c3:011a0000:0840:0002:1:0
-Thats Memories
+That's Memories
 p:BSkyB,f:1
 d7b9:011a0000:0840:0002:1:0
 Talking Pictures TV
@@ -2366,10 +2357,10 @@ p:BSkyB,f:1
 cb35:011a0000:0813:0002:1:0
 Islam Channel
 p:BSkyB,f:1
-cb37:011a0000:0813:0002:1:0
+cbea:011a0000:0813:0002:1:0
 Iqraa TV
 p:BSkyB,f:1
-cbea:011a0000:0813:0002:1:0
+cb37:011a0000:0813:0002:1:0
 Iqra Bangla
 p:BSkyB,f:1
 c4fa:011a0000:0813:0002:1:0
@@ -2644,12 +2635,6 @@ Channel 4 North +1
 p:BSkyB,f:1
 207c:011a0000:0808:0002:1:0
 Channel 4 Scotland +1
-p:BSkyB,f:1
-2080:011a0000:0808:0002:1:0
-Channel 4 Northern Ireland
-p:BSkyB,f:1
-2085:011a0000:0808:0002:1:0
-Channel 4 Ireland
 p:BSkyB,f:1
 2094:011a0000:0808:0002:1:0
 More 4
@@ -2927,14 +2912,20 @@ p:BSkyB,f:1
 1bbd:011a0000:0835:0002:25:0
 Wion HD
 p:BSkyB,f:1
-d14c:011a0000:0832:0002:1:0
-TNT Sports 8 HD
+c5e4:011a2d3e:0842:0002:25:0
+TNT Sports 1 HD
 p:BSkyB,f:1
-d151:011a0000:0832:0002:1:0
-TNT Sports 9 HD
+c5ea:011a2d3e:0842:0002:25:0
+TNT Sports 5 HD
 p:BSkyB,f:1
-d156:011a0000:0832:0002:1:0
-TNT Sports 10 HD
+c5f8:011a2d3e:0842:0002:25:0
+TNT Sports 3 HD
+p:BSkyB,f:1
+c5e5:011a2d3e:0842:0002:25:0
+TNT Sports 1 HD
+p:BSkyB,f:1
+c5f9:011a2d3e:0842:0002:25:0
+TNT Sports 3 HD
 p:BSkyB,f:1
 d869:011a0000:0833:0002:1:0
 TNT Sports 1
@@ -4845,13 +4836,13 @@ p:M7 Group
 Kaon OTA
 p:M7
 1034:00c00000:0451:0035:22:0
-Eleven Sports Pro League 1 FR
+DAZN Pro League 1 FR
 p:M7 Group,f:1
 0ff9:00c00000:0451:0035:12:0
 OTA SMIT CAM 702
 p:M7 Group
 101c:00c00000:0451:0035:25:0
-Canalplus First
+CANAL+ Action
 p:M7 Group,f:1
 1040:00c00000:0451:0035:25:0
 Current Time TV
@@ -5230,9 +5221,6 @@ ORF 2 Steiermark (19h-19h15)
 p:ORF Digital,f:1
 32d3:00c00000:045d:0001:1:0
 ORF 2 Kärnten (19h-19h15)
-p:ORF Digital,f:1
-32d4:00c00000:045d:0001:1:0
-ATV (Austria)
 p:ORF Digital,f:1
 32d5:00c00000:045d:0001:25:0
 Hitradio OE3
@@ -6495,7 +6483,7 @@ p:CSAT,f:1
 Cine+ Frisson HD
 p:CSAT,f:1
 2268:00c00000:0438:0001:25:0
-Cine+ Famiz HD
+Cine+ Family HD
 p:CSAT,f:1
 2269:00c00000:0438:0001:25:0
 Cine+ Classic HD
@@ -6875,6 +6863,9 @@ p:TSA,f:1
 18f9:00c00000:03f4:0003:25:0
 Telesur English
 p:TSA,f:1
+18f6:00c00000:03f4:0003:2:0
+NAIZ irratia
+p:TSA
 7831:00c00000:0428:0001:1:0
 LaLiga TV Hypermotion 2
 p:Movistar+,f:1
@@ -7043,9 +7034,6 @@ p:SES,f:1
 0001:00c02d7f:0001:ffff:1:0
 ITA 491 CLEAN FEED
 p:LIVESAT,f:1
-0001:00c0ad8e:0001:ffff:1:0
-SUI-66
-p:In AriaX,f:1
 0001:00c0acd7:0001:ff00:25:0
 MULTI1_SAT
 p:DENTSU,f:1
@@ -7073,9 +7061,30 @@ p:Betamobil,f:1
 0001:00c0ad44:0001:ffff:1:0
 SWR D-417 MOD 1
 p:Service Provider,f:1
-0001:00c0ad88:0001:ffff:1:0
-RBB D-557 ENC2
-p:Service Provider,f:1
+1770:00c00000:0064:0001:2:0
+Kronehit Vorarlberg
+p:
+1388:00c00000:0064:0001:2:0
+Kronehit Tirol
+p:
+0fa0:00c00000:0064:0001:2:0
+Kronehit Salzburg
+p:
+0bb8:00c00000:0064:0001:2:0
+Kronehit Oberösterreich
+p:
+07d0:00c00000:0064:0001:2:0
+Kronehit Kärnten
+p:
+03e8:00c00000:0064:0001:2:0
+Kronehit Steiermark
+p:
+0001:00c0ad88:0001:0001:25:0
+D-452
+p:ARDRoth_2SZ_D452,f:1
+0001:00c0ad8e:0001:0001:25:0
+D-452
+p:ARDRoth_2SZ_D452,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -9743,13 +9752,13 @@ p:Cyfrowy Polsat S.A.,f:1
 290f:00820000:1edc:0071:1:0
 HBO HD
 p:,f:1
-2909:00820000:1edc:0071:25:0
+2909:00820000:1edc:0071:1:0
 Eska Rock HD
 p:Cyfrowy Polsat S.A.,f:1
-290d:00820000:1edc:0071:25:0
+290d:00820000:1edc:0071:1:0
 Eska TV Extra HD
 p:Cyfrowy Polsat S.A.,f:1
-2910:00820000:1edc:0071:25:0
+2910:00820000:1edc:0071:1:0
 Vox Music TV HD
 p:,f:1
 3392:00820000:3390:0071:1:0
@@ -10399,6 +10408,9 @@ Private HD Nova
 p:CANAL+,f:1
 113c:00820000:2af8:013e:1:0
 Viasat True Crime
+p:CANAL+,f:1
+1154:00820000:2af8:013e:25:0
+Blue Hustler SBB
 p:CANAL+,f:1
 0389:00820000:2134:013e:25:0
 Dubai International HD
@@ -11101,43 +11113,43 @@ LCI - La Chaîne Info
 p:Eutelsat,f:1
 3b65:00820000:012c:013e:22:0
 Frisbee
-p:TVN DIscovery Group,f:1
+p:Warner Bros. Discovery,f:1
 3b64:00820000:012c:013e:22:0
 K2
-p:TVN DIscovery Group,f:1
+p:Warner Bros. Discovery,f:1
 3b61:00820000:012c:013e:25:0
 Realtime Italy HD
-p:TVN DIscovery Group,f:1
+p:Warner Bros. Discovery,f:1
 3b63:00820000:012c:013e:25:0
 Food Network Italy HD
-p:TVN DIscovery Group,f:1
+p:Warner Bros. Discovery,f:1
 3b62:00820000:012c:013e:25:0
 DMAX Italy HD
-p:TVN DIscovery Group,f:1
+p:Warner Bros. Discovery,f:1
 3b66:00820000:012c:013e:25:0
 Animal Planet Poland HD
-p:TVN SA Discovery Group,f:1
+p:Warner Bros. Discovery,f:1
 3b67:00820000:012c:013e:25:0
 Eurosport 1 Poland HD
-p:TVN SA Discovery Group,f:1
+p:Warner Bros. Discovery,f:1
 3b68:00820000:012c:013e:25:0
 Eurosport 2 Poland HD
-p:TVN SA Discovery Group,f:1
+p:Warner Bros. Discovery,f:1
 3b69:00820000:012c:013e:25:0
 ID Poland HD
-p:TVN SA Discovery Group,f:1
+p:Warner Bros. Discovery,f:1
 3b6a:00820000:012c:013e:25:0
 Science Poland HD
-p:TVN SA Discovery Group,f:1
+p:Warner Bros. Discovery,f:1
 3b6b:00820000:012c:013e:25:0
 Turbo Xtra Poland HD
-p:TVN SA Discovery Group,f:1
+p:Warner Bros. Discovery,f:1
 3b6c:00820000:012c:013e:25:0
 WarnerTV Italy HD
-p:TVN,f:1
+p:Warner Bros. Discovery,f:1
 3b6d:00820000:012c:013e:25:0
 CNNi EMEA HD
-p:TVN SA Discovery Group,f:1
+p:Warner Bros. Discovery,f:1
 0bc4:00820000:20d0:013e:1:0
 FTV UHD
 p:1,f:1
@@ -11309,9 +11321,6 @@ p:Eutelsat
 05dd:00820000:0321:013e:1:0
 DVB-NIP-VV
 p:,f:1
-1002:00820000:1e14:fbff:1:0
-IEPG Data
-p:SkyItalia,f:1
 0065:00820000:2fa8:013e:22:0
 Svoboda
 p:Svoboda Satellite,f:1
@@ -12189,44 +12198,68 @@ p:ITA_477,f:1
 DVB-NIP-VV
 p:,f:1
 0259:00820000:2774:013e:1:0
-TEST SERVICE 1
+FX Life HD
 p:NOVA,f:1
-025a:00820000:2774:013e:1:0
-TEST SERVICE 2
+025a:00820000:2774:013e:1:1
+FX HD
 p:NOVA,f:1
-025b:00820000:2774:013e:1:0
-TEST SERVICE 3
+025b:00820000:2774:013e:1:2
+MyZen TV HD
 p:NOVA,f:1
-025c:00820000:2774:013e:1:0
-TEST SERVICE 4
+025c:00820000:2774:013e:1:3
+NR1 HD
 p:NOVA,f:1
-025d:00820000:2774:013e:1:0
-TEST SERVICE 5
+025d:00820000:2774:013e:1:4
+INPLUS
 p:NOVA,f:1
-025e:00820000:2774:013e:1:0
-TEST SERVICE 6
+025e:00820000:2774:013e:1:5
+Crime+Investigation
 p:NOVA,f:1
-025f:00820000:2774:013e:1:0
-TEST SERVICE 7
+025f:00820000:2774:013e:1:6
+National Geographic HD
 p:NOVA,f:1
-0260:00820000:2774:013e:1:0
-TEST SERVICE 8
+0260:00820000:2774:013e:1:7
+Viasat History HD
 p:NOVA,f:1
-0261:00820000:2774:013e:1:0
-TEST SERVICE 9
+0261:00820000:2774:013e:1:8
+Viasat Nature HD
 p:NOVA,f:1
-0262:00820000:2774:013e:1:0
-TEST SERVICE 10
+0262:00820000:2774:013e:1:9
+Viasat Explore HD
 p:NOVA,f:1
-0263:00820000:2774:013e:1:0
+0263:00820000:2774:013e:1:10
 TEST SERVICE 11
 p:NOVA,f:1
-0264:00820000:2774:013e:1:0
+0264:00820000:2774:013e:1:11
 TEST SERVICE 12
 p:NOVA,f:1
-0276:00820000:2774:013e:1:0
+0276:00820000:2774:013e:1:12
 Cobalt Data
 p:NOVA,f:1
+3e81:00820000:1e14:013e:25:0
+Eurosport 7 HD
+p:Warner Bros. Discovery,f:1
+3e82:00820000:1e14:013e:25:0
+Eurosport 8 HD
+p:Warner Bros. Discovery,f:1
+3e83:00820000:1e14:013e:25:0
+Eurosport 9 HD
+p:Warner Bros. Discovery,f:1
+3e84:00820000:1e14:013e:31:0
+Eurosport 4K PopUp UHD
+p:Warner Bros. Discovery,f:1
+02f3:00822c46:02bc:013e:25:0
+Eurosport 3 HD
+p:Warner Bros. Discovery,f:1
+02f4:00822c46:02bc:013e:25:0
+Eurosport 4 HD
+p:Warner Bros. Discovery,f:1
+02f5:00822c46:02bc:013e:25:0
+Eurosport 5 HD
+p:Warner Bros. Discovery,f:1
+02f6:00822c46:02bc:013e:25:0
+Eurosport 6 HD
+p:Warner Bros. Discovery,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024
