@@ -18,9 +18,6 @@ transponders
 011a0000:07d8:0002
 	s 11856000:27500000:1:2:282:2:0:1:2:0:2
 /
-011a0000:07f3:0002
-	s 12382000:27500000:0:4:282:2:0
-/
 011a0000:07e3:0002
 	s 12070000:27500000:0:4:282:2:0
 /
@@ -159,9 +156,6 @@ transponders
 011a0000:0835:0002
 	s 11641000:23000000:0:2:282:2:0:1:2:1:2
 /
-011a2d3e:0842:0002
-	s 11582000:23000000:0:2:282:2:0:1:2:1:2
-/
 011a0000:0833:0002
 	s 11612000:22000000:0:4:282:2:0
 /
@@ -270,6 +264,15 @@ transponders
 011a3157:0001:ffff
 	s 12631000:15000000:0:4:282:2:0:1:2:0:2
 /
+011aad4d:083f:0002
+	s 11597000:22000000:1:4:282:2:0
+/
+011a0000:0831:0002
+	s 11582000:23000000:0:2:282:2:0:1:2:1:2
+/
+011a305e:07f3:0002
+	s 12382000:29500000:0:2:282:2:0:1:2:1:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -304,7 +307,7 @@ transponders
 	s 11296000:27500000:0:4:130:2:0
 /
 00820000:0514:013e
-	s 11449000:27500000:0:3:130:2:0:1:2:0:2
+	s 11449000:27500000:0:4:130:2:0:1:2:0:2
 /
 00820000:3bc4:013e
 	s 11566000:29900000:0:3:130:2:0:1:2:0:2
@@ -552,6 +555,9 @@ transponders
 00822c46:02bc:013e
 	s 11334000:27500000:0:15:130:2:0:1:2:2:2
 /
+0082b127:0001:0001
+	s 12583000:9600000:1:3:130:2:0:1:2:0:2
+/
 end
 services
 23fb:011a0000:07f9:0002:1:0
@@ -635,18 +641,6 @@ p:BSkyB,f:1
 d026:011a0000:083f:0002:1:0
 TNT Sports 4
 p:BSkyB,f:1
-cfef:011a0000:083f:0002:1:0
-HGTV+1
-p:BSkyB,f:1
-cfe5:011a0000:083f:0002:1:0
-HGTV
-p:BSkyB,f:1
-cfe9:011a0000:083f:0002:1:0
-Really UK
-p:BSkyB,f:1
-cff3:011a0000:083f:0002:1:0
-Really Ireland
-p:BSkyB,f:1
 d002:011a0000:083f:0002:1:0
 TNT Sports 8
 p:BSkyB,f:1
@@ -667,12 +661,6 @@ TNT Sports 7
 p:BSkyB,f:1
 d01b:011a0000:083f:0002:1:0
 BT Sport Mosaic 2
-p:BSkyB,f:1
-d029:011a0000:083f:0002:1:0
-GREAT! Movies Ireland
-p:BSkyB,f:1
-d02a:011a0000:083f:0002:1:0
-GREAT! TV Ireland
 p:BSkyB,f:1
 2920:011a0000:090b:003b:1:0
 FreesatInformation
@@ -778,51 +766,6 @@ Sky Kids HD
 p:BSkyB,f:1
 1886:011a0000:07d8:0002:25:0
 SkyShowcaseHD
-p:BSkyB,f:1
-1839:011a0000:07f3:0002:1:0
-Discovery Channel
-p:BSkyB,f:1
-183a:011a0000:07f3:0002:1:0
-Animal Planet
-p:BSkyB,f:1
-183e:011a0000:07f3:0002:1:0
-Discovery Science Channel
-p:BSkyB,f:1
-183f:011a0000:07f3:0002:1:0
-Discovery History
-p:BSkyB,f:1
-1841:011a0000:07f3:0002:1:0
-Discovery Turbo UK
-p:BSkyB,f:1
-1859:011a0000:07f3:0002:1:0
-TLC Europe
-p:BSkyB,f:1
-1843:011a0000:07f3:0002:1:0
-Quest Red+1
-p:BSkyB,f:1
-1845:011a0000:07f3:0002:1:0
-Quest
-p:BSkyB,f:1
-1846:011a0000:07f3:0002:1:0
-Quest Red
-p:BSkyB,f:1
-1847:011a0000:07f3:0002:1:0
-Quest+1
-p:BSkyB,f:1
-0b64:011a0000:07f3:0002:1:0
-DMAX UK
-p:BSkyB,f:1
-0b59:011a0000:07f3:0002:1:0
-DMAX UK +1
-p:BSkyB,f:1
-0b5e:011a0000:07f3:0002:1:0
-Food Network
-p:BSkyB,f:1
-0b60:011a0000:07f3:0002:1:0
-Food Network +1
-p:BSkyB,f:1
-0b5c:011a0000:07f3:0002:1:0
-Food Network
 p:BSkyB,f:1
 1572:011a0000:07e3:0002:132:0
 DCS14
@@ -964,9 +907,6 @@ SkySp PL HD
 p:BSkyB,f:1
 2330:011a0000:07e0:0002:25:0
 H1Test
-p:BSkyB,f:1
-1fd0:011a0000:07e0:0002:130:0
-launchpad
 p:BSkyB,f:1
 2166:011a0000:07e0:0002:130:0
 Update Email Address
@@ -1220,23 +1160,11 @@ p:BSkyB
 1199:011a0000:07dc:0002:1:0
 Sky
 p:BSkyB,f:1
-1810:011a0000:07dc:0002:1:0
-Challenge Ireland
-p:BSkyB,f:1
 1ffb:011a0000:07dc:0002:130:0
 Dummy Eire Service
 p:BSkyB,f:1
-041e:011a0000:07dc:0002:1:0
-ETFG
-p:BSkyB,f:1
 1f51:011a0000:07dc:0002:130:0
 Dummy My Sky Service
-p:BSkyB,f:1
-15b4:011a0000:07dc:0002:1:0
-Sky Crime
-p:BSkyB,f:1
-1389:011a0000:07dc:0002:1:0
-Sky Max Ireland
 p:BSkyB,f:1
 0fff:011a0000:07dc:0002:1:0
 SkySp PL
@@ -1312,6 +1240,9 @@ SkySp Mix
 p:BSkyB,f:1
 1bb3:011a0000:07dc:0002:1:0
 Sky Sports Mix
+p:BSkyB,f:1
+1902:011a0000:07dc:0002:1:0
+Sky Max UK
 p:BSkyB,f:1
 cb9c:011a0000:083c:0002:1:0
 TBN UK
@@ -1426,9 +1357,6 @@ Together
 p:BSkyB,f:1
 16cb:011a0000:07d7:0002:1:0
 Sky Replay
-p:BSkyB,f:1
-151a:011a0000:07d7:0002:1:0
-Sky Max
 p:BSkyB,f:1
 1408:011a0000:07d7:0002:1:0
 Sky Documentaries
@@ -1736,9 +1664,6 @@ p:BSkyB,f:1
 d7a8:011a0000:0840:0002:1:0
 True Crime X Ireland
 p:BSkyB,f:1
-d7aa:011a0000:0840:0002:1:0
-Trace Vault
-p:BSkyB,f:1
 d7ad:011a0000:0840:0002:1:0
 PBS America
 p:BSkyB,f:1
@@ -2015,9 +1940,6 @@ p:BSkyB,f:1
 c51c:011a0000:0813:0002:1:0
 Brit Asia TV
 p:BSkyB,f:1
-c53a:011a0000:0813:0002:1:0
-Dunya News
-p:BSkyB,f:1
 cb35:011a0000:0813:0002:1:0
 Islam Channel
 p:BSkyB,f:1
@@ -2253,7 +2175,7 @@ p:BSkyB,f:1
 CBBC HD
 p:BSkyB,f:1
 1b21:011a0000:0802:0002:25:0
-BBC One London
+ETV4
 p:BSkyB,f:1
 1b27:011a0000:0802:0002:25:0
 BBC Three HD
@@ -2576,21 +2498,6 @@ p:BSkyB,f:1
 1bbd:011a0000:0835:0002:25:0
 Wion HD
 p:BSkyB,f:1
-c5e4:011a2d3e:0842:0002:25:0
-TNT Sports 1 HD
-p:BSkyB,f:1
-c5ea:011a2d3e:0842:0002:25:0
-TNT Sports 5 HD
-p:BSkyB,f:1
-c5f8:011a2d3e:0842:0002:25:0
-TNT Sports 3 HD
-p:BSkyB,f:1
-c5e5:011a2d3e:0842:0002:25:0
-TNT Sports 1 HD
-p:BSkyB,f:1
-c5f9:011a2d3e:0842:0002:25:0
-TNT Sports 3 HD
-p:BSkyB,f:1
 d869:011a0000:0833:0002:1:0
 TNT Sports 1
 p:BSkyB,f:1
@@ -2662,9 +2569,6 @@ BBC R Ulster
 p:BSkyB
 2880:011aaa42:0800:0002:2:0
 BBC R Foyle
-p:BSkyB
-2889:011aaa42:0800:0002:2:0
-BBC R4 LW
 p:BSkyB
 285f:011aaa24:07fe:0002:25:0
 BBCScotlandHD
@@ -2972,42 +2876,6 @@ p:,f:1
 0320:011ab156:0000:0000:1:0
 INT_PLATFORM
 p:MBI,f:1
-24b9:011a0000:07e4:0002:1:0
-401-5
-p:BSkyB,f:1
-24ba:011a0000:07e4:0002:1:0
-401-2
-p:BSkyB,f:1
-24bb:011a0000:07e4:0002:1:0
-401-3
-p:BSkyB,f:1
-24bc:011a0000:07e4:0002:1:0
-401-4
-p:BSkyB,f:1
-24be:011a0000:07e4:0002:1:0
-401-6
-p:BSkyB,f:1
-24bf:011a0000:07e4:0002:1:0
-401-7
-p:BSkyB,f:1
-24c1:011a0000:07e4:0002:1:0
-401-9
-p:BSkyB,f:1
-24c2:011a0000:07e4:0002:1:0
-401-10
-p:BSkyB,f:1
-24c4:011a0000:07e4:0002:1:0
-401-12
-p:BSkyB,f:1
-24c5:011a0000:07e4:0002:1:0
-401-13
-p:BSkyB,f:1
-24c6:011a0000:07e4:0002:1:0
-401-14
-p:BSkyB,f:1
-24cb:011a0000:07e4:0002:1:0
-401-19
-p:BSkyB,f:1
 041e:011a0000:07e4:0002:1:0
 ETFG
 p:BSkyB,f:1
@@ -3059,12 +2927,135 @@ p:BSkyB,f:1
 1c90:011a0000:07e4:0002:1:0
 Sky Sports Premier League Ireland
 p:BSkyB,f:1
+1901:011a0000:07e4:0002:1:0
+Sky Max Ireland
+p:BSkyB,f:1
+1457:011a0000:07e4:0002:1:0
+Sky Crime
+p:BSkyB,f:1
+183b:011a0000:07e4:0002:1:0
+Challenge Ireland
+p:BSkyB,f:1
 0001:011ab197:0001:ffff:1:0
 EDS807HD.1
 p:CCMA,f:1
 0001:011a3157:0001:ffff:1:0
 BBC D Day 80 INT
 p:Service Provider,f:1
+d002:011aad4d:083f:0002:1:0
+TNT Sports 8
+p:BSkyB,f:1
+d00c:011aad4d:083f:0002:1:0
+TNT Sports 9
+p:BSkyB,f:1
+d016:011aad4d:083f:0002:1:0
+TNT Sports 10
+p:BSkyB,f:1
+d01b:011aad4d:083f:0002:1:0
+BT Sport Mosaic 2
+p:BSkyB,f:1
+d020:011aad4d:083f:0002:1:0
+TNT Sports 2
+p:BSkyB,f:1
+d021:011aad4d:083f:0002:1:0
+TNT Sports 2
+p:BSkyB,f:1
+d025:011aad4d:083f:0002:1:0
+TNT Sports 4
+p:BSkyB,f:1
+d026:011aad4d:083f:0002:1:0
+TNT Sports 4
+p:BSkyB,f:1
+cfd0:011aad4d:083f:0002:1:0
+TNT Sports 5
+p:BSkyB,f:1
+cfda:011aad4d:083f:0002:1:0
+TNT Sports 6
+p:BSkyB,f:1
+cff8:011aad4d:083f:0002:1:0
+TNT Sports 7
+p:BSkyB,f:1
+c5ee:011a0000:0831:0002:1:0
+TNT Sports 6 HD
+p:BSkyB,f:1
+c5f3:011a0000:0831:0002:1:0
+TNT Sports 7 HD
+p:BSkyB,f:1
+c5fd:011a0000:0831:0002:25:0
+TNT Sports Box Office 2 HD
+p:BSkyB,f:1
+c5e4:011a0000:0831:0002:25:0
+TNT Sports 1 HD
+p:BSkyB,f:1
+c5e5:011a0000:0831:0002:25:0
+TNT Sports 1 HD
+p:BSkyB,f:1
+c5ea:011a0000:0831:0002:25:0
+TNT Sports 5 HD
+p:BSkyB,f:1
+c5f8:011a0000:0831:0002:25:0
+TNT Sports 3 HD
+p:BSkyB,f:1
+c5f9:011a0000:0831:0002:25:0
+TNT Sports 3 HD
+p:BSkyB,f:1
+0b65:011a305e:07f3:0002:1:0
+HGTV
+p:BSkyB,f:1
+0b58:011a305e:07f3:0002:1:0
+Really UK
+p:BSkyB,f:1
+0b67:011a305e:07f3:0002:1:0
+HGTV+1
+p:BSkyB,f:1
+0b66:011a305e:07f3:0002:1:0
+Really Ireland
+p:BSkyB,f:1
+0b59:011a305e:07f3:0002:1:0
+DMAX UK +1
+p:BSkyB,f:1
+0b5c:011a305e:07f3:0002:1:0
+Food Network
+p:BSkyB,f:1
+0b5e:011a305e:07f3:0002:1:0
+Food Network
+p:BSkyB,f:1
+0b60:011a305e:07f3:0002:1:0
+Food Network +1
+p:BSkyB,f:1
+0b64:011a305e:07f3:0002:1:0
+DMAX UK
+p:BSkyB,f:1
+1839:011a305e:07f3:0002:1:0
+Discovery Channel
+p:BSkyB,f:1
+183a:011a305e:07f3:0002:1:0
+Animal Planet
+p:BSkyB,f:1
+183e:011a305e:07f3:0002:1:0
+Discovery Science Channel
+p:BSkyB,f:1
+183f:011a305e:07f3:0002:1:0
+Discovery History
+p:BSkyB,f:1
+1841:011a305e:07f3:0002:1:0
+Discovery Turbo UK
+p:BSkyB,f:1
+1843:011a305e:07f3:0002:1:0
+Quest Red+1
+p:BSkyB,f:1
+1845:011a305e:07f3:0002:1:0
+Quest
+p:BSkyB,f:1
+1846:011a305e:07f3:0002:1:0
+Quest Red
+p:BSkyB,f:1
+1847:011a305e:07f3:0002:1:0
+Quest+1
+p:BSkyB,f:1
+1859:011a305e:07f3:0002:1:0
+TLC Europe
+p:BSkyB,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -3497,6 +3488,9 @@ p:ECLUTCH,f:1
 0069:00820000:00c8:013e:1:0
 Senemedia
 p:ECLUTCH,f:1
+006a:00820000:00c8:013e:25:0
+eClutch Live
+p:ECLUTCH,f:1
 32de:00820000:0190:013e:1:0
 Canal+ Sport HD Polska
 p:Cyfra +,f:1
@@ -3589,6 +3583,24 @@ TVC Super
 p:CANAL+,f:1
 32da:00820000:0190:013e:1:0
 Szlagier TV
+p:CANAL+,f:1
+330f:00820000:0190:013e:1:0
+CANAL+ 4K ULTRA HD
+p:CANAL+,f:1
+3310:00820000:0190:013e:1:0
+CANAL+ 4K ULTRA HD
+p:CANAL+,f:1
+3311:00820000:0190:013e:1:0
+CANAL+ 4K ULTRA HD
+p:CANAL+,f:1
+330d:00820000:0190:013e:31:0
+Canal+ 4K Ultra HD Poland
+p:CANAL+,f:1
+330e:00820000:0190:013e:31:0
+CANAL+ 4K ULTRA HD
+p:CANAL+,f:1
+32db:00820000:0190:013e:31:0
+CANAL+ 4K ULTRA HD
 p:CANAL+,f:1
 089c:00820000:01f4:013e:1:0
 Yemen TV
@@ -4802,80 +4814,17 @@ p:
 0064:00820000:0065:0001:1:0
 Voice of America (VOA) Europe
 p:,f:1
-00f0:00820000:0065:0001:1:0
-VOA TV 240 (HB 49 - 56)
-p:,f:1
-0154:00820000:0065:0001:1:0
-Voice of America (VOA)
-p:,f:1
-0065:00820000:0065:0001:2:0
-VOA Radio ch101
-p:
-0067:00820000:0065:0001:2:0
-VOA Radio ch103
-p:
 0068:00820000:0065:0001:2:0
 VOA 1 ch104
-p:
-0069:00820000:0065:0001:2:0
-VOA Radio ch105
-p:
-006a:00820000:0065:0001:2:0
-VOA Radio ch106
-p:
-006b:00820000:0065:0001:2:0
-VOA Radio ch107
-p:
-006c:00820000:0065:0001:2:0
-VOA Radio 108 (HB65-68)
-p:
-006d:00820000:0065:0001:2:0
-VOA Radio 109 (HB67-68)
-p:
-006e:00820000:0065:0001:2:0
-VOA Radio 110 (HB69-72)
-p:
-006f:00820000:0065:0001:2:0
-VOA Radio 111 (HB71-72)
-p:
-0071:00820000:0065:0001:2:0
-VOA Radio ch113
-p:
-0077:00820000:0065:0001:2:0
-VOA and RFA Asia ch119
-p:
-0079:00820000:0065:0001:2:0
-VOA Iraq N/S Radio ch121
-p:
-007a:00820000:0065:0001:2:0
-XmtrNet 13-14 ch122
-p:
-007b:00820000:0065:0001:2:0
-RFA 4 ch123
 p:
 00c9:00820000:0065:0001:2:0
 Radio Svoboda RU 201
 p:
-00ca:00820000:0065:0001:2:0
-Radio Svoboda UA 202
-p:
 00cb:00820000:0065:0001:2:0
 Radioi Ozodi 203
 p:
-00cd:00820000:0065:0001:2:0
-Radio Svaboda ch205
-p:
-00ce:00820000:0065:0001:2:0
-Radio Tavisupleba ch206
-p:
 00cf:00820000:0065:0001:2:0
 Azatutyun 207
-p:
-00d0:00820000:0065:0001:2:0
-Radio Deewa 208
-p:
-00d2:00820000:0065:0001:2:0
-Mashaal Radio 210
 p:
 00d3:00820000:0065:0001:2:0
 Azattyk Unalgysy 211
@@ -4883,74 +4832,17 @@ p:
 00d4:00820000:0065:0001:2:0
 Ozodlik Radiosi 212
 p:
-00d5:00820000:0065:0001:2:0
-Azadliq Radiosu 213
-p:
-00d8:00820000:0065:0001:2:0
-Kabul Stream 216
-p:
 00d9:00820000:0065:0001:2:0
 Azatlyk Radiosy 217
-p:
-00da:00820000:0065:0001:2:0
-Radio Crimea.Realities 218
-p:
-00dc:00820000:0065:0001:2:0
-RL North Caucasus 220
-p:
-00dd:00820000:0065:0001:2:0
-Europa Libera 221
 p:
 00de:00820000:0065:0001:2:0
 RSE Balkans ch222
 p:
-00df:00820000:0065:0001:1:0
-Radio Farda 223
-p:,f:1
-00e2:00820000:0065:0001:2:0
-Farda TV Audio ch226
-p:
 00e3:00820000:0065:0001:2:0
 Evropa e Lire 227
 p:
-00e4:00820000:0065:0001:2:0
-Ekho Kavkaza 228
-p:
-0127:00820000:0065:0001:2:0
-VOA Radio 295 (HB 89 - 92)
-p:
-0136:00820000:0065:0001:2:0
-VOA Urdu Radio ch310
-p:
-00e1:00820000:0065:0001:1:0
-Persian TV 225
-p:,f:1
-0066:00820000:0065:0001:2:0
-VOA Radio 102 (HB53-56)
-p:
-0127:00820000:0065:0001:1:0
-VOA Radio 295 (HB 89 - 92)
-p:,f:1
-0066:00820000:0065:0001:1:0
-VOA Radio 102 (HB53-56)
-p:,f:1
-006c:00820000:0065:0001:1:0
-VOA Radio 108 (HB65-68)
-p:,f:1
-006d:00820000:0065:0001:1:0
-VOA Radio 109 (HB67-68)
-p:,f:1
-006e:00820000:0065:0001:1:0
-VOA Radio 110 (HB69-72)
-p:,f:1
-006f:00820000:0065:0001:1:0
-VOA Radio 111 (HB71-72)
-p:,f:1
 00c9:00820000:0065:0001:1:0
 Radio Svoboda RU 201
-p:,f:1
-00ca:00820000:0065:0001:1:0
-Radio Svoboda UA 202
 p:,f:1
 00cb:00820000:0065:0001:1:0
 Radioi Ozodi 203
@@ -4958,69 +4850,27 @@ p:,f:1
 00cf:00820000:0065:0001:1:0
 Azatutyun 207
 p:,f:1
-00d0:00820000:0065:0001:1:0
-Radio Deewa 208
-p:,f:1
-00d2:00820000:0065:0001:1:0
-Mashaal Radio 210
-p:,f:1
 00d3:00820000:0065:0001:1:0
 Azattyk Unalgysy 211
 p:,f:1
 00d4:00820000:0065:0001:1:0
 Ozodlik Radiosi 212
 p:,f:1
-00d5:00820000:0065:0001:1:0
-Azadliq Radiosu 213
-p:,f:1
-00d8:00820000:0065:0001:1:0
-Kabul Stream 216
-p:,f:1
 00d9:00820000:0065:0001:1:0
 Azatlyk Radiosy 217
-p:,f:1
-00da:00820000:0065:0001:1:0
-Radio Crimea.Realities 218
-p:,f:1
-00dc:00820000:0065:0001:1:0
-RL North Caucasus 220
-p:,f:1
-00dd:00820000:0065:0001:1:0
-Europa Libera 221
 p:,f:1
 00e3:00820000:0065:0001:1:0
 Evropa e Lire 227
 p:,f:1
-00e4:00820000:0065:0001:1:0
-Ekho Kavkaza 228
-p:,f:1
-00e6:00820000:0065:0001:1:0
-RFE/RL Russian HD 230
-p:,f:1
-0001:00820000:0065:0001:1:0
-Current Time HD ch1
-p:,f:1
 00c8:00820000:0065:0001:1:0
 Current Time HD ch200
-p:,f:1
-0002:00820000:0065:0001:1:0
-Current Time SD ch2
 p:,f:1
 00eb:00820000:0065:0001:1:0
 VOA Persian HD
 p:,f:1
-00cd:00820000:0065:0001:1:0
-Radio Svaboda ch205
-p:,f:1
-00ce:00820000:0065:0001:1:0
-Radio Tavisupleba ch206
-p:,f:1
 00de:00820000:0065:0001:1:0
 RSE Balkans ch222
 p:,f:1
-0135:00820000:0065:0001:2:0
-SMG Xmtr ch309
-p:
 0c1d:00820000:1e78:0071:1:0
 Polsat Sport 1
 p:Cyfrowy Polsat,f:1
@@ -5567,9 +5417,6 @@ p:MIT-xperts GmbH,f:1
 4234:00820000:2f44:013e:1:0
 ByoBlu
 p:M-Three Satcom,f:1
-4231:00820000:2f44:013e:1:0
-LN24 International
-p:ViewMedia,f:1
 4232:00820000:2f44:013e:25:0
 Dlia Ciebie TV
 p:1plus1 Media,f:1
@@ -6389,7 +6236,7 @@ p:CANAL+,f:1
 113c:00820000:2af8:013e:1:0
 Viasat True Crime
 p:CANAL+,f:1
-1154:00820000:2af8:013e:25:0
+1154:00820000:2af8:013e:22:0
 Blue Hustler SBB
 p:CANAL+,f:1
 0389:00820000:2134:013e:25:0
@@ -6401,7 +6248,7 @@ p:Etisalat
 038b:00820000:2134:013e:1:0
 Sudan TV
 p:Etisalat,f:1
-0392:00820000:2134:013e:1:0
+0392:00820000:2134:013e:25:0
 Jordan TV
 p:Etisalat,f:1
 0394:00820000:2134:013e:25:0
@@ -6548,8 +6395,8 @@ p:,f:1
 01f6:00820000:0384:013e:1:0
 AIRMONT
 p:FFmpeg,f:1
-01fb:00820000:0384:013e:25:0
-Al Mayadeen HD
+01fb:00820000:0384:013e:1:0
+Al Mayadeen
 p:,f:1
 0641:00820000:2454:013e:25:0
 Al Jazeera HD
@@ -6572,9 +6419,6 @@ p:,f:1
 0654:00820000:2454:013e:1:0
 Noursat English
 p:ViewMedia,f:1
-0655:00820000:2454:013e:1:0
-AL24 News
-p:TDA,f:1
 0079:00820000:04b0:0110:25:0
 Italia 1 HD
 p:Mediaset,f:1
@@ -6673,9 +6517,6 @@ Jin TV
 p:MB Satellite,f:1
 0e92:00820000:3200:013e:1:0
 Can TV HD
-p:MB Satellite,f:1
-0e97:00820000:3200:013e:1:0
-Iran e Aryaee
 p:MB Satellite,f:1
 338c:00820000:1388:013e:1:0
 Test GC 1
@@ -8240,6 +8081,9 @@ p:Warner Bros. Discovery,f:1
 02f6:00822c46:02bc:013e:25:0
 Eurosport 6 HD
 p:Warner Bros. Discovery,f:1
+0001:0082b127:0001:0001:1:0
+NLEMG HOL270-1
+p:EMG Connectivity,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024

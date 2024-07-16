@@ -369,9 +369,6 @@ transponders
 00ebae50:0c88:0003
 	s 11856000:29900000:1:3:235:2:0:1:2:2:2
 /
-00ebaf13:0c92:0003
-	s 12051000:29900000:1:3:235:2:0:1:2:2:2
-/
 00ebae9e:0c8c:0003
 	s 11934000:29900000:1:3:235:2:0:1:2:2:2
 /
@@ -387,11 +384,11 @@ transponders
 00ebb12f:0000:0000
 	s 12591000:7200000:1:3:235:2:0:1:2:0:2
 /
-00ebb1aa:0002:ffff
-	s 12714000:7200000:1:3:235:2:0:1:2:0:2
-/
 00eb2da9:0000:0000
 	s 11689000:3600000:0:2:235:2:0:1:2:0:2
+/
+00ebb1aa:0000:0000
+	s 12714000:7200000:1:3:235:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -427,7 +424,7 @@ transponders
 	s 11296000:27500000:0:4:130:2:0
 /
 00820000:0514:013e
-	s 11449000:27500000:0:3:130:2:0:1:2:0:2
+	s 11449000:27500000:0:4:130:2:0:1:2:0:2
 /
 00820000:3bc4:013e
 	s 11566000:29900000:0:3:130:2:0:1:2:0:2
@@ -674,6 +671,9 @@ transponders
 /
 00822c46:02bc:013e
 	s 11334000:27500000:0:15:130:2:0:1:2:2:2
+/
+0082b127:0001:0001
+	s 12583000:9600000:1:3:130:2:0:1:2:0:2
 /
 end
 services
@@ -1970,9 +1970,6 @@ p:M7 Group,f:1
 3c38:00eb0000:0c90:0003:25:0
 CANAL+ Sport 2 SK
 p:M7 Group,f:1
-3c2b:00eb0000:0c90:0003:25:0
-JOJ Svet HD
-p:M7 Group,f:1
 3c3c:00eb0000:0c90:0003:25:0
 Jednotka HD
 p:M7 Group,f:1
@@ -1984,6 +1981,9 @@ RTVS 24 HD
 p:M7 Group,f:1
 3c3f:00eb0000:0c90:0003:25:0
 RTVS Sport HD
+p:M7 Group,f:1
+3c2b:00eb0000:0c90:0003:22:0
+Markiza Klasik
 p:M7 Group,f:1
 3b6c:00eb0000:0c8d:0003:22:0
 Extreme Sports Channel
@@ -2068,9 +2068,6 @@ TV2 Comedy
 p:M7 Group,f:1
 3aa3:00eb0000:0c84:0003:22:0
 Izaura TV
-p:M7 Group,f:1
-3aa4:00eb0000:0c84:0003:22:0
-Comedy Central Family
 p:M7 Group,f:1
 3aa5:00eb0000:0c84:0003:22:0
 TV2 Klub
@@ -3008,9 +3005,6 @@ p:M7 Group,f:1
 52ed:00ebaf61:0c96:0003:22:0
 Sport 10
 p:M7 Group,f:1
-52f1:00ebaf61:0c96:0003:22:0
-EarthxTV
-p:M7 Group,f:1
 5313:00ebaf61:0c96:0003:22:0
 Prime
 p:M7 Group,f:1
@@ -3275,79 +3269,10 @@ p:M7 Group,f:1
 1bfd:00ebae50:0c88:0003:25:0
 Nautical HD
 p:M7 Group,f:1
-1c02:00ebae50:0c88:0003:25:0
-TV Lux
-p:M7 Group,f:1
 1c16:00ebae50:0c88:0003:22:0
 Duna SD
 p:M7 Group,f:1
 1c17:00ebae50:0c88:0003:22:0
-Cool
-p:M7 Group,f:1
-1c10:00ebaf13:0c92:0003:22:0
-Duna World / M4 Sport+
-p:M7 Group,f:1
-1c15:00ebaf13:0c92:0003:22:0
-Film+ Hungary
-p:M7 Group,f:1
-1c0c:00ebaf13:0c92:0003:25:0
-Penthouse Gold CZ
-p:M7 Group,f:1
-1c0d:00ebaf13:0c92:0003:25:0
-Penthouse Reality CZ
-p:M7 Group,f:1
-1bfe:00ebaf13:0c92:0003:25:0
-Penthouse Gold
-p:M7 Group,f:1
-1bff:00ebaf13:0c92:0003:25:0
-Penthouse Reality
-p:M7 Group,f:1
-1b62:00ebaf13:0c92:0003:22:0
-DreamWorks
-p:M7 Group,f:1
-1b6c:00ebaf13:0c92:0003:25:0
-RTL4 HD
-p:M7 Group,f:1
-1b6f:00ebaf13:0c92:0003:25:0
-RTL5 HD
-p:M7 Group,f:1
-1b73:00ebaf13:0c92:0003:25:0
-RTL7 HD
-p:M7 Group,f:1
-1b76:00ebaf13:0c92:0003:25:0
-VTM HD
-p:M7 Group,f:1
-1b7c:00ebaf13:0c92:0003:25:0
-RTL8 HD
-p:M7 Group,f:1
-1b90:00ebaf13:0c92:0003:25:0
-VTM 2 HD
-p:M7 Group,f:1
-1b91:00ebaf13:0c92:0003:25:0
-Play4
-p:M7 Group,f:1
-1b92:00ebaf13:0c92:0003:22:0
-RTL Z
-p:M7 Group,f:1
-1b95:00ebaf13:0c92:0003:22:0
-Play6
-p:M7 Group,f:1
-1b97:00ebaf13:0c92:0003:22:0
-Crime+Investigation
-p:M7 Group,f:1
-1bfc:00ebaf13:0c92:0003:25:0
-ESPN 2 HD
-p:M7 Group,f:1
-1bfd:00ebaf13:0c92:0003:25:0
-Nautical HD
-p:M7 Group,f:1
-1c02:00ebaf13:0c92:0003:25:0
-Doma HD
-p:M7 Group,f:1
-1c16:00ebaf13:0c92:0003:22:0
-Duna SD
-p:M7 Group,c:050001,f:1
-1c17:00ebaf13:0c92:0003:22:0
 Cool
 p:M7 Group,f:1
 36f6:00ebae9e:0c8c:0003:22:0
@@ -3440,11 +3365,11 @@ p:Vitel.tv,f:1
 0001:00ebb12f:0000:0000:25:0
 D-394_ZDF_Ost
 p:,f:1
-008a:00ebb1aa:0002:ffff:1:0
-UNI-01-i50-X
-p:Telstra Broadcast Services,f:1
 0001:00eb2da9:0000:0000:25:0
 FESTIVAL ARRAS MAIN
+p:,f:1
+0001:00ebb1aa:0000:0000:25:0
+World
 p:,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
@@ -3878,6 +3803,9 @@ p:ECLUTCH,f:1
 0069:00820000:00c8:013e:1:0
 Senemedia
 p:ECLUTCH,f:1
+006a:00820000:00c8:013e:25:0
+eClutch Live
+p:ECLUTCH,f:1
 32de:00820000:0190:013e:1:0
 Canal+ Sport HD Polska
 p:Cyfra +,f:1
@@ -3970,6 +3898,24 @@ TVC Super
 p:CANAL+,f:1
 32da:00820000:0190:013e:1:0
 Szlagier TV
+p:CANAL+,f:1
+330f:00820000:0190:013e:1:0
+CANAL+ 4K ULTRA HD
+p:CANAL+,f:1
+3310:00820000:0190:013e:1:0
+CANAL+ 4K ULTRA HD
+p:CANAL+,f:1
+3311:00820000:0190:013e:1:0
+CANAL+ 4K ULTRA HD
+p:CANAL+,f:1
+330d:00820000:0190:013e:31:0
+Canal+ 4K Ultra HD Poland
+p:CANAL+,f:1
+330e:00820000:0190:013e:31:0
+CANAL+ 4K ULTRA HD
+p:CANAL+,f:1
+32db:00820000:0190:013e:31:0
+CANAL+ 4K ULTRA HD
 p:CANAL+,f:1
 089c:00820000:01f4:013e:1:0
 Yemen TV
@@ -5183,80 +5129,17 @@ p:
 0064:00820000:0065:0001:1:0
 Voice of America (VOA) Europe
 p:,f:1
-00f0:00820000:0065:0001:1:0
-VOA TV 240 (HB 49 - 56)
-p:,f:1
-0154:00820000:0065:0001:1:0
-Voice of America (VOA)
-p:,f:1
-0065:00820000:0065:0001:2:0
-VOA Radio ch101
-p:
-0067:00820000:0065:0001:2:0
-VOA Radio ch103
-p:
 0068:00820000:0065:0001:2:0
 VOA 1 ch104
-p:
-0069:00820000:0065:0001:2:0
-VOA Radio ch105
-p:
-006a:00820000:0065:0001:2:0
-VOA Radio ch106
-p:
-006b:00820000:0065:0001:2:0
-VOA Radio ch107
-p:
-006c:00820000:0065:0001:2:0
-VOA Radio 108 (HB65-68)
-p:
-006d:00820000:0065:0001:2:0
-VOA Radio 109 (HB67-68)
-p:
-006e:00820000:0065:0001:2:0
-VOA Radio 110 (HB69-72)
-p:
-006f:00820000:0065:0001:2:0
-VOA Radio 111 (HB71-72)
-p:
-0071:00820000:0065:0001:2:0
-VOA Radio ch113
-p:
-0077:00820000:0065:0001:2:0
-VOA and RFA Asia ch119
-p:
-0079:00820000:0065:0001:2:0
-VOA Iraq N/S Radio ch121
-p:
-007a:00820000:0065:0001:2:0
-XmtrNet 13-14 ch122
-p:
-007b:00820000:0065:0001:2:0
-RFA 4 ch123
 p:
 00c9:00820000:0065:0001:2:0
 Radio Svoboda RU 201
 p:
-00ca:00820000:0065:0001:2:0
-Radio Svoboda UA 202
-p:
 00cb:00820000:0065:0001:2:0
 Radioi Ozodi 203
 p:
-00cd:00820000:0065:0001:2:0
-Radio Svaboda ch205
-p:
-00ce:00820000:0065:0001:2:0
-Radio Tavisupleba ch206
-p:
 00cf:00820000:0065:0001:2:0
 Azatutyun 207
-p:
-00d0:00820000:0065:0001:2:0
-Radio Deewa 208
-p:
-00d2:00820000:0065:0001:2:0
-Mashaal Radio 210
 p:
 00d3:00820000:0065:0001:2:0
 Azattyk Unalgysy 211
@@ -5264,74 +5147,17 @@ p:
 00d4:00820000:0065:0001:2:0
 Ozodlik Radiosi 212
 p:
-00d5:00820000:0065:0001:2:0
-Azadliq Radiosu 213
-p:
-00d8:00820000:0065:0001:2:0
-Kabul Stream 216
-p:
 00d9:00820000:0065:0001:2:0
 Azatlyk Radiosy 217
-p:
-00da:00820000:0065:0001:2:0
-Radio Crimea.Realities 218
-p:
-00dc:00820000:0065:0001:2:0
-RL North Caucasus 220
-p:
-00dd:00820000:0065:0001:2:0
-Europa Libera 221
 p:
 00de:00820000:0065:0001:2:0
 RSE Balkans ch222
 p:
-00df:00820000:0065:0001:1:0
-Radio Farda 223
-p:,f:1
-00e2:00820000:0065:0001:2:0
-Farda TV Audio ch226
-p:
 00e3:00820000:0065:0001:2:0
 Evropa e Lire 227
 p:
-00e4:00820000:0065:0001:2:0
-Ekho Kavkaza 228
-p:
-0127:00820000:0065:0001:2:0
-VOA Radio 295 (HB 89 - 92)
-p:
-0136:00820000:0065:0001:2:0
-VOA Urdu Radio ch310
-p:
-00e1:00820000:0065:0001:1:0
-Persian TV 225
-p:,f:1
-0066:00820000:0065:0001:2:0
-VOA Radio 102 (HB53-56)
-p:
-0127:00820000:0065:0001:1:0
-VOA Radio 295 (HB 89 - 92)
-p:,f:1
-0066:00820000:0065:0001:1:0
-VOA Radio 102 (HB53-56)
-p:,f:1
-006c:00820000:0065:0001:1:0
-VOA Radio 108 (HB65-68)
-p:,f:1
-006d:00820000:0065:0001:1:0
-VOA Radio 109 (HB67-68)
-p:,f:1
-006e:00820000:0065:0001:1:0
-VOA Radio 110 (HB69-72)
-p:,f:1
-006f:00820000:0065:0001:1:0
-VOA Radio 111 (HB71-72)
-p:,f:1
 00c9:00820000:0065:0001:1:0
 Radio Svoboda RU 201
-p:,f:1
-00ca:00820000:0065:0001:1:0
-Radio Svoboda UA 202
 p:,f:1
 00cb:00820000:0065:0001:1:0
 Radioi Ozodi 203
@@ -5339,69 +5165,27 @@ p:,f:1
 00cf:00820000:0065:0001:1:0
 Azatutyun 207
 p:,f:1
-00d0:00820000:0065:0001:1:0
-Radio Deewa 208
-p:,f:1
-00d2:00820000:0065:0001:1:0
-Mashaal Radio 210
-p:,f:1
 00d3:00820000:0065:0001:1:0
 Azattyk Unalgysy 211
 p:,f:1
 00d4:00820000:0065:0001:1:0
 Ozodlik Radiosi 212
 p:,f:1
-00d5:00820000:0065:0001:1:0
-Azadliq Radiosu 213
-p:,f:1
-00d8:00820000:0065:0001:1:0
-Kabul Stream 216
-p:,f:1
 00d9:00820000:0065:0001:1:0
 Azatlyk Radiosy 217
-p:,f:1
-00da:00820000:0065:0001:1:0
-Radio Crimea.Realities 218
-p:,f:1
-00dc:00820000:0065:0001:1:0
-RL North Caucasus 220
-p:,f:1
-00dd:00820000:0065:0001:1:0
-Europa Libera 221
 p:,f:1
 00e3:00820000:0065:0001:1:0
 Evropa e Lire 227
 p:,f:1
-00e4:00820000:0065:0001:1:0
-Ekho Kavkaza 228
-p:,f:1
-00e6:00820000:0065:0001:1:0
-RFE/RL Russian HD 230
-p:,f:1
-0001:00820000:0065:0001:1:0
-Current Time HD ch1
-p:,f:1
 00c8:00820000:0065:0001:1:0
 Current Time HD ch200
-p:,f:1
-0002:00820000:0065:0001:1:0
-Current Time SD ch2
 p:,f:1
 00eb:00820000:0065:0001:1:0
 VOA Persian HD
 p:,f:1
-00cd:00820000:0065:0001:1:0
-Radio Svaboda ch205
-p:,f:1
-00ce:00820000:0065:0001:1:0
-Radio Tavisupleba ch206
-p:,f:1
 00de:00820000:0065:0001:1:0
 RSE Balkans ch222
 p:,f:1
-0135:00820000:0065:0001:2:0
-SMG Xmtr ch309
-p:
 0c1d:00820000:1e78:0071:1:0
 Polsat Sport 1
 p:Cyfrowy Polsat,f:1
@@ -5948,9 +5732,6 @@ p:MIT-xperts GmbH,f:1
 4234:00820000:2f44:013e:1:0
 ByoBlu
 p:M-Three Satcom,f:1
-4231:00820000:2f44:013e:1:0
-LN24 International
-p:ViewMedia,f:1
 4232:00820000:2f44:013e:25:0
 Dlia Ciebie TV
 p:1plus1 Media,f:1
@@ -6770,7 +6551,7 @@ p:CANAL+,f:1
 113c:00820000:2af8:013e:1:0
 Viasat True Crime
 p:CANAL+,f:1
-1154:00820000:2af8:013e:25:0
+1154:00820000:2af8:013e:22:0
 Blue Hustler SBB
 p:CANAL+,f:1
 0389:00820000:2134:013e:25:0
@@ -6782,7 +6563,7 @@ p:Etisalat
 038b:00820000:2134:013e:1:0
 Sudan TV
 p:Etisalat,f:1
-0392:00820000:2134:013e:1:0
+0392:00820000:2134:013e:25:0
 Jordan TV
 p:Etisalat,f:1
 0394:00820000:2134:013e:25:0
@@ -6929,8 +6710,8 @@ p:,f:1
 01f6:00820000:0384:013e:1:0
 AIRMONT
 p:FFmpeg,f:1
-01fb:00820000:0384:013e:25:0
-Al Mayadeen HD
+01fb:00820000:0384:013e:1:0
+Al Mayadeen
 p:,f:1
 0641:00820000:2454:013e:25:0
 Al Jazeera HD
@@ -6953,9 +6734,6 @@ p:,f:1
 0654:00820000:2454:013e:1:0
 Noursat English
 p:ViewMedia,f:1
-0655:00820000:2454:013e:1:0
-AL24 News
-p:TDA,f:1
 0079:00820000:04b0:0110:25:0
 Italia 1 HD
 p:Mediaset,f:1
@@ -7054,9 +6832,6 @@ Jin TV
 p:MB Satellite,f:1
 0e92:00820000:3200:013e:1:0
 Can TV HD
-p:MB Satellite,f:1
-0e97:00820000:3200:013e:1:0
-Iran e Aryaee
 p:MB Satellite,f:1
 338c:00820000:1388:013e:1:0
 Test GC 1
@@ -8621,6 +8396,9 @@ p:Warner Bros. Discovery,f:1
 02f6:00822c46:02bc:013e:25:0
 Eurosport 6 HD
 p:Warner Bros. Discovery,f:1
+0001:0082b127:0001:0001:1:0
+NLEMG HOL270-1
+p:EMG Connectivity,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024
