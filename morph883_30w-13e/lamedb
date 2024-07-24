@@ -429,6 +429,12 @@ fed42d2d:0001:ffff
 0ce4aeef:00a0:0000
 	s 12015000:5000000:1:3:-300:2:0:1:2:0:2
 /
+0ce4aede:0000:0001
+	s 11998000:7200000:1:3:-300:2:0:1:2:0:2
+/
+0ce42aba:0002:0000
+	s 10938000:14167000:0:3:-300:2:0:1:2:0:2
+/
 end
 services
 43a0:00820000:2cec:013e:1:0
@@ -1331,6 +1337,12 @@ p:NOVA,f:1
 0134:00820000:157c:013e:1:0
 M1_TEST1
 p:NOVA,f:1
+012f:00820000:157c:013e:1:0
+TEST1HD
+p:NOVA,f:1
+0130:00820000:157c:013e:1:0
+TEST2HD
+p:NOVA,f:1
 1e53:00820000:15e0:fbff:25:0
 MTV Italia HD
 p:SkyItalia,f:1
@@ -1353,7 +1365,7 @@ p:SkyItalia,f:1
 
 p:SkyItalia,f:1
 0dee:00820000:15e0:fbff:25:0
-Zona DAZN
+DAZN 1
 p:SkyItalia,f:1
 2b10:00820000:15e0:fbff:25:0
 Sky Sport Arena HD
@@ -1541,9 +1553,6 @@ p:SkyItalia,f:1
 1fd2:00820000:189c:fbff:1:0
 Sky Primafila
 p:SkyItalia,f:1
-0dcb:00820000:189c:fbff:1:0
-Sky AdSmart
-p:SkyItalia,f:1
 250f:00820000:189c:fbff:25:0
 Inter TV
 p:SkyItalia,f:1
@@ -1554,7 +1563,7 @@ p:SkyItalia,f:1
 Sky Cinema Due +24 HD
 p:SkyItalia,f:1
 0dcf:00820000:189c:fbff:25:0
-Zona DAZN 2
+DAZN 2
 p:SkyItalia,f:1
 0f58:00820000:189c:fbff:25:0
 Sky Documentaries +1 HD
@@ -1826,6 +1835,15 @@ p:NOVA,f:1
 3c8e:00820000:1bbc:013e:1:0
 NovaSummerHD
 p:NOVA,f:1
+3c93:00820000:1bbc:013e:1:0
+TEST7HD
+p:NOVA,f:1
+3c94:00820000:1bbc:013e:1:0
+TEST8HD
+p:NOVA,f:1
+3c96:00820000:1bbc:013e:1:0
+TEST9HD
+p:NOVA,f:1
 1c22:00820000:1c20:013e:1:0
 TTN - Télévision Tunisienne Nationale
 p:Arabesque,f:1
@@ -1985,6 +2003,9 @@ p:NetMed,f:1
 0172:00820000:1c84:013e:1:0
 Da Vinci HD
 p:NetMed,f:1
+0165:00820000:1c84:013e:1:0
+TEST3HD
+p:NOVA,f:1
 1c86:00820000:1ce8:0071:1:0
 AXN White Poland
 p:Cyfrowy Polsat S.A.,f:1
@@ -2186,6 +2207,9 @@ p:Cyfrowy Polsat SA,f:1
 1cdd:00820000:1ce8:0071:12:0
 SCM
 p:
+1cc0:00820000:1ce8:0071:22:0
+7360
+p:Cyfrowy Polsat S.A.,f:1
 0064:00820000:0065:0001:1:0
 Voice of America (VOA) Europe
 p:,f:1
@@ -2773,6 +2797,15 @@ Epic Drama HD
 p:NOVA,f:1
 1bbe:00820000:17d4:013e:1:0
 NovaSportsExtra4HD
+p:NOVA,f:1
+1bcb:00820000:17d4:013e:1:0
+TEST4HD
+p:NOVA,f:1
+1bcc:00820000:17d4:013e:1:0
+TEST5HD
+p:NOVA,f:1
+1bce:00820000:17d4:013e:1:0
+TEST6HD
 p:NOVA,f:1
 4206:00820000:2f44:013e:1:0
 Dorcel TV HD
@@ -3614,6 +3647,39 @@ p:CANAL+,f:1
 1154:00820000:2af8:013e:22:0
 Blue Hustler SBB
 p:CANAL+,f:1
+1131:00820000:2af8:013e:1:0
+Active Family
+p:CANAL+,f:1
+114c:00820000:2af8:013e:1:0
+Adventure HD
+p:CANAL+,f:1
+114d:00820000:2af8:013e:1:0
+Antena
+p:CANAL+,f:1
+114e:00820000:2af8:013e:1:0
+Home TV
+p:CANAL+,f:1
+114f:00820000:2af8:013e:1:0
+Nuta Gold
+p:CANAL+,f:1
+1150:00820000:2af8:013e:1:0
+Nuta TV
+p:CANAL+,f:1
+1151:00820000:2af8:013e:1:0
+Power TV
+p:CANAL+,f:1
+1152:00820000:2af8:013e:1:0
+Szlagier TV
+p:CANAL+,f:1
+1153:00820000:2af8:013e:1:0
+TVC
+p:CANAL+,f:1
+1155:00820000:2af8:013e:1:0
+TVC Super
+p:CANAL+,f:1
+1190:00820000:2af8:013e:132:0
+NETFLIX
+p:CANAL+
 0389:00820000:2134:013e:25:0
 Dubai International HD
 p:Etisalat,f:1
@@ -3770,7 +3836,7 @@ p:,f:1
 01f6:00820000:0384:013e:1:0
 AIRMONT
 p:FFmpeg,f:1
-01fb:00820000:0384:013e:1:0
+01fb:00820000:0384:013e:25:0
 Al Mayadeen
 p:,f:1
 0641:00820000:2454:013e:25:0
@@ -4184,9 +4250,6 @@ p:NOVA,f:1
 0192:00820000:1518:013e:1:0
 MTV Hits
 p:NOVA,f:1
-0193:00820000:1518:013e:1:0
-E! Entertainment HD
-p:NOVA,f:1
 0194:00820000:1518:013e:1:0
 Travel Channel HD
 p:NOVA,f:1
@@ -4243,6 +4306,9 @@ NovaSports Prime HD
 p:NOVA,f:1
 01a5:00820000:1518:013e:1:0
 NovaSports Prime HD Cy
+p:NOVA,f:1
+0193:00820000:1518:013e:1:0
+TESTHLSHD
 p:NOVA,f:1
 012d:00820000:3e1c:013f:1:0
 TF1 HD
@@ -4474,6 +4540,9 @@ redpath
 p:STN,f:1
 232d:0082b0e8:2328:013e:1:0
 Orler TV
+p:STN,f:1
+232e:0082b0e8:2328:013e:1:0
+Revelation TV
 p:STN,f:1
 012c:00820000:1d4c:013e:1:0
 SERVICE IP/MAC NOTIFICATION
@@ -5873,6 +5942,9 @@ p:,f:1
 051d:0ce40000:002f:0036:1:0
 NewsNOW
 p:NewsNOW,f:1
+1266:0ce40000:002f:0036:1:0
+NOVA GRELHA
+p:NOVA GRELHA,f:1
 0191:0ce40000:0027:0036:1:0
 AXN Movies HD
 p:AXN Movies HD,f:1
@@ -6005,6 +6077,9 @@ p:
 0005:0ce40000:0027:0036:0:0
 
 p:
+13af:0ce40000:0027:0036:1:0
+
+p:,f:1
 1390:0ce40000:0030:0036:1:0
 TVE International
 p:Meo,f:1
@@ -6221,6 +6296,9 @@ p:
 0005:0ce40000:0030:0036:0:0
 
 p:
+12f7:0ce40000:0030:0036:1:0
+Panda Kids
+p:Panda Kids,f:1
 03e8:0ce42db1:0000:0000:2:0
  Radio Mars
 p:
@@ -7313,9 +7391,6 @@ p:M-Three Satcom,f:1
 0001:0ce4aeec:0000:0000:25:0
 E-467 via 1
 p:overon,f:1
-0001:fed42aae:0004:ffff:17:0
-Telesur HD
-p:TSA,f:1
 0007:fed42aae:0004:ffff:25:0
 Promo TSA
 p:TSA,f:1
@@ -7364,9 +7439,6 @@ p:Service Provider,f:1
 0001:fed4ada9:0001:0001:1:0
 E-401 V1
 p:Net 1,f:1
-0001:0ce40000:0070:006f:25:0
-E-362 VIA 1
-p:MEDIAPRO SPAIN,f:1
 0001:0ce42cea:0001:ffff:1:0
 LN23 8MM Via2
 p:8MM,f:1
@@ -7384,6 +7456,12 @@ E336 G18 VIA 1
 p:Service Provider,f:1
 0001:0ce4aeef:00a0:0000:1:0
 TVE ETT4 ENC1
+p:,f:1
+0001:0ce4aede:0000:0001:25:0
+E-378 MAIN
+p:Overon,f:1
+0002:0ce42aba:0002:0000:1:0
+Data
 p:,f:1
 end
 === Compiled with Morpheus883's scripts ===

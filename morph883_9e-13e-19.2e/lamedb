@@ -249,9 +249,6 @@ transponders
 00c00000:0001:0001
 	s 11612000:15000000:0:3:192:2:0:1:2:0:2
 /
-00c0ad28:0001:ffff
-	s 11560000:7200000:1:3:192:2:0:1:2:0:2
-/
 00c0ad80:0001:ffff
 	s 11648000:7200000:1:3:192:2:0:1:2:0:2
 /
@@ -335,6 +332,12 @@ transponders
 /
 00c0ad8e:0001:0001
 	s 11662000:7200000:1:3:192:2:0:1:2:0:2
+/
+00c0ad63:0001:ffff
+	s 11619000:7200000:1:3:192:2:0:1:2:0:2
+/
+00c0ad28:0000:0000
+	s 11560000:9874000:1:3:192:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -804,7 +807,7 @@ p:Movistar+,f:1
 MULTIDEPORTE
 p:Movistar+,f:1
 7696:00c00000:041e:0001:1:0
-M+ Orgullo
+M+ Com Rom
 p:Movistar+,f:1
 7699:00c00000:041e:0001:1:0
 Mezzo
@@ -843,7 +846,7 @@ p:,f:1
 
 p:,f:1
 769f:00c00000:041e:0001:1:0
-Liga de Campeones 3
+M+ChampionsTour2
 p:Movistar+,f:1
 769e:00c00000:041e:0001:1:0
 La Sexta
@@ -1080,7 +1083,7 @@ p:Movistar+,f:1
 Canal Hollywood
 p:Movistar+,f:1
 77c3:00c00000:040a:0001:1:0
-Liga de Campeones 2
+M+ChampionsTour
 p:Movistar+,f:1
 77bd:00c00000:040a:0001:1:0
 M+ LaLiga 3
@@ -1104,13 +1107,13 @@ p:Movistar+,f:1
 DAZN 4
 p:Movistar+,f:1
 77c6:00c00000:040a:0001:1:0
-Movistar Clasicos
+M+ Clasicos
 p:Movistar+,f:1
 77c4:00c00000:040a:0001:1:0
-DAZN LaLiga 3
+Eurosport 4
 p:Movistar+,f:1
 77d8:00c00000:040a:0001:1:0
-Liga de Campeones 4
+Eurosport 3
 p:CANAL+,f:1
 77c9:00c00000:040a:0001:1:0
 M+Deportes 8
@@ -1997,6 +2000,9 @@ p:CSAT
 23a8:00c00000:044a:0001:193:0
 LICENCE L
 p:CSAT
+23b9:00c00000:044a:0001:192:0
+DOWNLOAD CPRO V3 9145
+p:CSAT
 0071:00c00000:000b:0085:25:0
 History Channel HD Germany
 p:SKY,f:1
@@ -2015,14 +2021,8 @@ p:SKY,f:1
 0194:00c00000:000b:0085:22:0
 Cartoon Network Germany
 p:SKY,f:1
-0087:00c00000:000b:0085:25:0
-Sky Cinema Premieren +24 HD
-p:SKY,f:1
 0103:00c00000:000b:0085:25:0
 Sky Sport Austria 4 HD
-p:SKY,f:1
-0105:00c00000:000b:0085:25:0
-Sky Sport Austria 7 HD
 p:SKY,f:1
 0191:00c00000:000b:0085:22:0
 Jukebox
@@ -2038,6 +2038,9 @@ Sky Showcase HD
 p:SKY,f:1
 007d:00c00000:000b:0085:25:0
 CNBC HD
+p:SKY,f:1
+0146:00c00000:000b:0085:25:0
+Sky Sport Austria 5 HD
 p:SKY,f:1
 6e92:00c00000:04b1:0001:1:0
 WDR Studio Bielefeld (19h30-20h CET)
@@ -2551,49 +2554,49 @@ Genius TV
 p:-,f:1
 32c9:00c00000:045d:0001:1:0
 ORF 1
-p:ORF Digital,f:1
+p:ORF,f:1
 32ca:00c00000:045d:0001:1:0
 ORF 2
-p:ORF Digital,f:1
+p:ORF,f:1
 32cb:00c00000:045d:0001:1:0
 ORF 2 Wien (19h-19h15)
-p:ORF Digital,f:1
+p:ORF,f:1
 32cc:00c00000:045d:0001:1:0
 ORF 2 NiederÖsterreich (19h-19h15)
-p:ORF Digital,f:1
+p:ORF,f:1
 32cd:00c00000:045d:0001:1:0
 ORF 2 Burgenland (19h-19h15)
-p:ORF Digital,f:1
+p:ORF,f:1
 32ce:00c00000:045d:0001:1:0
 ORF 2 OberÖsterreich (19h-19h15)
-p:ORF Digital,f:1
+p:ORF,f:1
 32cf:00c00000:045d:0001:1:0
 ORF 2 Salzburg (19h-19h15)
-p:ORF Digital,f:1
+p:ORF,f:1
 32d0:00c00000:045d:0001:1:0
 ORF 2 Tirol (19h-19h15)
-p:ORF Digital,f:1
+p:ORF,f:1
 32d1:00c00000:045d:0001:1:0
 ORF 2 Vorarlberg (19h-19h15)
-p:ORF Digital,f:1
+p:ORF,f:1
 32d2:00c00000:045d:0001:1:0
 ORF 2 Steiermark (19h-19h15)
-p:ORF Digital,f:1
+p:ORF,f:1
 32d3:00c00000:045d:0001:1:0
 ORF 2 Kärnten (19h-19h15)
-p:ORF Digital,f:1
+p:ORF,f:1
 32d5:00c00000:045d:0001:25:0
 Hitradio OE3
-p:ORF Digital,f:1
+p:ORF,f:1
 32d6:00c00000:045d:0001:1:0
 ORF 2 Europe
-p:ORF Digital,f:1
+p:ORF,f:1
 32db:00c00000:045d:0001:1:0
 RiC Alt
-p:,f:1
+p:IP Broadcast,f:1
 32da:00c00000:045d:0001:1:0
 Volksmusik.TV ALT
-p:-,f:1
+p:,f:1
 32dd:00c00000:045d:0001:1:0
 n-tv Austria
 p:RTL,f:1
@@ -2892,7 +2895,7 @@ p:ARD MDR
 rbb24 Inforadio
 p:ARD rbb
 28f5:00c00000:0425:0001:10:0
-radio3
+rbbKultur
 p:ARD rbb
 28f6:00c00000:0425:0001:10:0
 Antenne Brbg.
@@ -3009,7 +3012,7 @@ p:ARD SWR
 SWR1 RP
 p:ARD SWR
 28ca:00c00000:040f:0001:10:0
-SWR Kultur
+SWR2
 p:ARD SWR
 28cb:00c00000:040f:0001:10:0
 SWR3
@@ -3054,7 +3057,7 @@ p:ARD WDR
 WDR Event
 p:ARD WDR
 28d0:00c00000:040f:0001:10:0
-SWR Kultur 5.1
+SWR2 5.1
 p:ARD SWR
 2896:00c00000:040f:0001:25:0
 ARD-Test-R
@@ -3410,6 +3413,9 @@ p:SKY,f:1
 012a:00c00000:0004:0085:25:0
 Sky Sport 4 HD
 p:SKY,f:1
+0155:00c00000:0004:0085:25:0
+Prime Sportsbar
+p:SKY,f:1
 0016:00c00000:0002:0085:22:0
 Heimatkanal
 p:SKY,f:1
@@ -3492,7 +3498,7 @@ p:SKY,f:1
 Warner TV Serie HD
 p:SKY,f:1
 0077:00c00000:0010:0085:25:0
-FUSSBALL.TV 3
+ALT_Universal TV
 p:SKY,f:1
 21ae:00c00000:0448:0001:201:0
 MOSAIQUE
@@ -3542,8 +3548,11 @@ p:CSAT,f:1
 219a:00c00000:0448:0001:31:0
 Événement Sport 4K UHD
 p:CSAT,f:1
+219b:00c00000:0448:0001:31:0
+.CH2
+p:CSAT,f:1
 2456:00c00000:0440:0001:25:0
-Cine+ Premier HD
+OCS
 p:CSAT,f:1
 2457:00c00000:0440:0001:25:0
 M6 HD
@@ -4070,9 +4079,6 @@ p:,f:1
 0004:00c00000:0001:0001:1:0
 Enc 8 S/U 4
 p:,f:1
-0001:00c0ad28:0001:ffff:1:0
-WRC Live Stage 2 WF
-p:Service Provider,f:1
 0001:00c0ad80:0001:ffff:1:0
 MThree 622 FEED-1
 p:Service Provider,f:1
@@ -4194,13 +4200,13 @@ p:,f:1
 TEST HY 5
 p:,f:1
 7892:00c00000:0414:0001:1:0
-TEST EURO7
+Eurosport 7
 p:,f:1
 7893:00c00000:0414:0001:1:0
-TEST EURO8
+Eurosport 8
 p:,f:1
 7894:00c00000:0414:0001:1:0
-TEST EURO9
+Eurosport 9
 p:,f:1
 18f0:00c00000:03f4:0003:1:0
 Extremadura Sat
@@ -4233,7 +4239,7 @@ p:Movistar+,f:1
 M+ La Resistencia
 p:Movistar+,f:1
 7822:00c00000:0428:0001:1:0
-LALIGA TV BAR 5
+Eurosport 6
 p:Movistar+,f:1
 782b:00c00000:0428:0001:1:0
 M+ LaLiga TV 5
@@ -4257,7 +4263,7 @@ p:Movistar+,f:1
 LALIGA TV BAR 9
 p:Movistar+,f:1
 7829:00c00000:0428:0001:1:0
-DAZN LaLiga 4
+Eurosport 5
 p:Movistar+,f:1
 7821:00c00000:0428:0001:1:0
 TEST HYPER 6
@@ -4289,23 +4295,23 @@ p:SKY,f:1
 013e:00c00000:0009:0085:25:0
 Sky Sport 6 HD
 p:SKY,f:1
-0146:00c00000:0009:0085:25:0
-Sky Sport Austria 5 HD
-p:SKY,f:1
 0147:00c00000:0009:0085:25:0
 Sky Sport Bundesliga 7 HD
 p:SKY,f:1
 0148:00c00000:0009:0085:25:0
 Sky Sport 7 HD
 p:SKY,f:1
-0155:00c00000:0009:0085:25:0
-Prime Video Sportsbar
+0106:00c00000:0009:0085:25:0
+Sky Sport Austria 8 HD
+p:SKY,f:1
+0105:00c00000:0009:0085:25:0
+Sky Sport Austria 7 HD
 p:SKY,f:1
 0073:00c00000:0009:0085:25:0
-FUSSBALL.TV 1
+ALT_SYFY
 p:SKY,f:1
 0075:00c00000:0009:0085:25:0
-FUSSBALL.TV 2
+ALT_13th Street
 p:SKY,f:1
 749c:00c00000:041c:0001:1:0
 TEST BAB.
@@ -4335,13 +4341,13 @@ p:Movistar+,f:1
 LaLiga TV Hypermotion
 p:Movistar+,f:1
 749f:00c00000:041c:0001:25:0
-Liga de Campeones 3 HD
+M+ChampionsTour2HD
 p:Movistar+,f:1
 74a3:00c00000:041c:0001:25:0
 M+ LaLiga 3 HD
 p:Movistar+,f:1
 749e:00c00000:041c:0001:25:0
-M+LCampeones 2
+M+ChampionsTourHD
 p:Movistar+,f:1
 74a2:00c00000:041c:0001:25:0
 Mezzo Live
@@ -4445,6 +4451,12 @@ p:ARDRoth_2SZ_D452,f:1
 0001:00c0ad8e:0001:0001:25:0
 D-452
 p:ARDRoth_2SZ_D452,f:1
+0001:00c0ad63:0001:ffff:1:0
+D-312
+p:.,f:1
+0001:00c0ad28:0000:0000:1:0
+ITA 274 MAIN
+p:Live Images,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -5345,6 +5357,12 @@ p:NOVA,f:1
 0134:00820000:157c:013e:1:0
 M1_TEST1
 p:NOVA,f:1
+012f:00820000:157c:013e:1:0
+TEST1HD
+p:NOVA,f:1
+0130:00820000:157c:013e:1:0
+TEST2HD
+p:NOVA,f:1
 1e53:00820000:15e0:fbff:25:0
 MTV Italia HD
 p:SkyItalia,f:1
@@ -5367,7 +5385,7 @@ p:SkyItalia,f:1
 
 p:SkyItalia,f:1
 0dee:00820000:15e0:fbff:25:0
-Zona DAZN
+DAZN 1
 p:SkyItalia,f:1
 2b10:00820000:15e0:fbff:25:0
 Sky Sport Arena HD
@@ -5555,9 +5573,6 @@ p:SkyItalia,f:1
 1fd2:00820000:189c:fbff:1:0
 Sky Primafila
 p:SkyItalia,f:1
-0dcb:00820000:189c:fbff:1:0
-Sky AdSmart
-p:SkyItalia,f:1
 250f:00820000:189c:fbff:25:0
 Inter TV
 p:SkyItalia,f:1
@@ -5568,7 +5583,7 @@ p:SkyItalia,f:1
 Sky Cinema Due +24 HD
 p:SkyItalia,f:1
 0dcf:00820000:189c:fbff:25:0
-Zona DAZN 2
+DAZN 2
 p:SkyItalia,f:1
 0f58:00820000:189c:fbff:25:0
 Sky Documentaries +1 HD
@@ -5840,6 +5855,15 @@ p:NOVA,f:1
 3c8e:00820000:1bbc:013e:1:0
 NovaSummerHD
 p:NOVA,f:1
+3c93:00820000:1bbc:013e:1:0
+TEST7HD
+p:NOVA,f:1
+3c94:00820000:1bbc:013e:1:0
+TEST8HD
+p:NOVA,f:1
+3c96:00820000:1bbc:013e:1:0
+TEST9HD
+p:NOVA,f:1
 1c22:00820000:1c20:013e:1:0
 TTN - Télévision Tunisienne Nationale
 p:Arabesque,f:1
@@ -5999,6 +6023,9 @@ p:NetMed,f:1
 0172:00820000:1c84:013e:1:0
 Da Vinci HD
 p:NetMed,f:1
+0165:00820000:1c84:013e:1:0
+TEST3HD
+p:NOVA,f:1
 1c86:00820000:1ce8:0071:1:0
 AXN White Poland
 p:Cyfrowy Polsat S.A.,f:1
@@ -6200,6 +6227,9 @@ p:Cyfrowy Polsat SA,f:1
 1cdd:00820000:1ce8:0071:12:0
 SCM
 p:
+1cc0:00820000:1ce8:0071:22:0
+7360
+p:Cyfrowy Polsat S.A.,f:1
 0064:00820000:0065:0001:1:0
 Voice of America (VOA) Europe
 p:,f:1
@@ -6787,6 +6817,15 @@ Epic Drama HD
 p:NOVA,f:1
 1bbe:00820000:17d4:013e:1:0
 NovaSportsExtra4HD
+p:NOVA,f:1
+1bcb:00820000:17d4:013e:1:0
+TEST4HD
+p:NOVA,f:1
+1bcc:00820000:17d4:013e:1:0
+TEST5HD
+p:NOVA,f:1
+1bce:00820000:17d4:013e:1:0
+TEST6HD
 p:NOVA,f:1
 4206:00820000:2f44:013e:1:0
 Dorcel TV HD
@@ -7628,6 +7667,39 @@ p:CANAL+,f:1
 1154:00820000:2af8:013e:22:0
 Blue Hustler SBB
 p:CANAL+,f:1
+1131:00820000:2af8:013e:1:0
+Active Family
+p:CANAL+,f:1
+114c:00820000:2af8:013e:1:0
+Adventure HD
+p:CANAL+,f:1
+114d:00820000:2af8:013e:1:0
+Antena
+p:CANAL+,f:1
+114e:00820000:2af8:013e:1:0
+Home TV
+p:CANAL+,f:1
+114f:00820000:2af8:013e:1:0
+Nuta Gold
+p:CANAL+,f:1
+1150:00820000:2af8:013e:1:0
+Nuta TV
+p:CANAL+,f:1
+1151:00820000:2af8:013e:1:0
+Power TV
+p:CANAL+,f:1
+1152:00820000:2af8:013e:1:0
+Szlagier TV
+p:CANAL+,f:1
+1153:00820000:2af8:013e:1:0
+TVC
+p:CANAL+,f:1
+1155:00820000:2af8:013e:1:0
+TVC Super
+p:CANAL+,f:1
+1190:00820000:2af8:013e:132:0
+NETFLIX
+p:CANAL+
 0389:00820000:2134:013e:25:0
 Dubai International HD
 p:Etisalat,f:1
@@ -7784,7 +7856,7 @@ p:,f:1
 01f6:00820000:0384:013e:1:0
 AIRMONT
 p:FFmpeg,f:1
-01fb:00820000:0384:013e:1:0
+01fb:00820000:0384:013e:25:0
 Al Mayadeen
 p:,f:1
 0641:00820000:2454:013e:25:0
@@ -8198,9 +8270,6 @@ p:NOVA,f:1
 0192:00820000:1518:013e:1:0
 MTV Hits
 p:NOVA,f:1
-0193:00820000:1518:013e:1:0
-E! Entertainment HD
-p:NOVA,f:1
 0194:00820000:1518:013e:1:0
 Travel Channel HD
 p:NOVA,f:1
@@ -8257,6 +8326,9 @@ NovaSports Prime HD
 p:NOVA,f:1
 01a5:00820000:1518:013e:1:0
 NovaSports Prime HD Cy
+p:NOVA,f:1
+0193:00820000:1518:013e:1:0
+TESTHLSHD
 p:NOVA,f:1
 012d:00820000:3e1c:013f:1:0
 TF1 HD
@@ -8488,6 +8560,9 @@ redpath
 p:STN,f:1
 232d:0082b0e8:2328:013e:1:0
 Orler TV
+p:STN,f:1
+232e:0082b0e8:2328:013e:1:0
+Revelation TV
 p:STN,f:1
 012c:00820000:1d4c:013e:1:0
 SERVICE IP/MAC NOTIFICATION
