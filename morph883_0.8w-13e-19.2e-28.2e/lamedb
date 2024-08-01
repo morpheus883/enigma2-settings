@@ -276,6 +276,12 @@ transponders
 011ab126:0000:0001
 	s 12582000:7200000:1:3:282:2:0:1:2:0:2
 /
+011a29da:07f9:0000
+	s 10714000:22000000:0:4:282:2:0
+/
+011a2b4a:0811:0002
+	s 11082000:23000000:0:2:282:2:0:1:2:1:2
+/
 00c00000:041d:0001
 	s 10773000:22000000:0:3:192:2:0:1:2:0:2
 /
@@ -1134,9 +1140,6 @@ fff80000:00bf:00bf
 fff8ad00:0001:0001
 	s 11520000:7200000:1:3:-8:2:0:1:2:0:2
 /
-fff80000:0065:0065
-	s 12534000:4800000:1:3:-8:2:0:1:2:0:2
-/
 fff8315e:0000:0000
 	s 12638000:14500000:0:3:-8:2:0:1:2:0:2
 /
@@ -1148,6 +1151,9 @@ fff8b0f0:0001:ffff
 /
 0e08b0ff:0001:ffff
 	s 12543000:6660000:1:3:-8:2:0:1:2:0:2
+/
+0e08b0f6:0001:0000
+	s 12534000:4800000:1:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -1180,6 +1186,12 @@ Channel 4 North +1
 p:BSkyB,f:1
 2425:011a0000:07f9:0002:1:0
 Channel 4 Scotland +1
+p:BSkyB,f:1
+2428:011a0000:07f9:0002:1:0
+More 4
+p:BSkyB,f:1
+2426:011a0000:07f9:0002:1:0
+E4 Extra
 p:BSkyB,f:1
 27a1:011a0000:0805:0002:1:0
 ITV 1 Central West +1
@@ -1469,9 +1481,6 @@ p:BSkyB
 1678:011a0000:07e3:0002:1:0
 Sky Arts
 p:BSkyB,f:1
-1904:011a0000:07e3:0002:1:0
-Sky News
-p:BSkyB,f:1
 1821:011a0000:07e3:0002:1:0
 Sky Comedy
 p:BSkyB,f:1
@@ -1567,9 +1576,6 @@ Sky Sci-Fi HD
 p:BSkyB,f:1
 52d0:011a0000:0814:0002:25:0
 Channel 4 HD
-p:BSkyB,f:1
-5302:011a0000:0814:0002:1:0
-4seven
 p:BSkyB,f:1
 22c5:011a0000:080d:0002:25:0
 BBC One Scotland HD
@@ -1838,6 +1844,9 @@ p:BSkyB,f:1
 1884:011a0000:07dc:0002:1:0
 Sky Showcase
 p:BSkyB,f:1
+1cec:011a0000:07dc:0002:1:0
+Sky News
+p:BSkyB,f:1
 cb9c:011a0000:083c:0002:1:0
 TBN UK
 p:BSkyB,f:1
@@ -1861,57 +1870,6 @@ Racing TV
 p:BSkyB,f:1
 cb9b:011a0000:083c:0002:1:0
 Islam Channel
-p:BSkyB,f:1
-c49f:011a0000:0811:0002:1:0
-Sikh Channel
-p:BSkyB,f:1
-c4ae:011a0000:0811:0002:1:0
-Blaze
-p:BSkyB,f:1
-c482:011a0000:0811:0002:1:0
-NOW 80s
-p:BSkyB,f:1
-c4b8:011a0000:0811:0002:1:0
-Zee TV Dual
-p:BSkyB,f:1
-c48b:011a0000:0811:0002:1:0
-Zee Cinema
-p:BSkyB,f:1
-c4bd:011a0000:0811:0002:1:0
-QTV Religious
-p:BSkyB,f:1
-c4c0:011a0000:0811:0002:1:0
-Sky History
-p:BSkyB,f:1
-c4c3:011a0000:0811:0002:1:0
-Sky History+1
-p:BSkyB,f:1
-c4c6:011a0000:0811:0002:1:0
-Sky History2
-p:BSkyB,f:1
-c4c9:011a0000:0811:0002:1:0
-Crime & Investigation Network
-p:BSkyB,f:1
-c4cc:011a0000:0811:0002:1:0
-Crime & Investigation +1
-p:BSkyB,f:1
-c491:011a0000:0811:0002:1:0
-NOW 70s
-p:BSkyB,f:1
-c4a6:011a0000:0811:0002:1:0
-Eman Channel
-p:BSkyB,f:1
-c4ab:011a0000:0811:0002:1:0
-Gems TV
-p:BSkyB,f:1
-c4b4:011a0000:0811:0002:1:0
-Ideal World
-p:BSkyB,f:1
-c497:011a0000:0811:0002:1:0
-Rewind TV
-p:BSkyB,f:1
-c47c:011a0000:0811:0002:1:0
-Home Shop TV
 p:BSkyB,f:1
 d7e8:011a0000:082c:0002:25:0
 Racing TV HD
@@ -2735,17 +2693,14 @@ p:BSkyB,f:1
 2078:011a0000:0808:0002:1:0
 Channel 4 South & East +1
 p:BSkyB,f:1
-2094:011a0000:0808:0002:1:0
-More 4
-p:BSkyB,f:1
 2095:011a0000:0808:0002:1:0
 Film4 +1
 p:BSkyB,f:1
 23f8:011a0000:0808:0002:1:0
 e4
 p:BSkyB,f:1
-20a8:011a0000:0808:0002:1:0
-E4 Extra
+20b2:011a0000:0808:0002:1:0
+4seven
 p:BSkyB,f:1
 264a:011a0000:07f0:0002:31:0
 Sky Sports F1 UHD
@@ -3200,9 +3155,6 @@ p:BSkyB,f:1
 d323:011a0000:0836:0002:1:0
 TRT World
 p:BSkyB,f:1
-d325:011a0000:0836:0002:1:0
-Siraj TV
-p:BSkyB,f:1
 d327:011a0000:0836:0002:1:0
 PBC
 p:BSkyB,f:1
@@ -3638,6 +3590,63 @@ p:OBStv,f:1
 0001:011ab126:0000:0001:25:0
 EPC Host Feed 2
 p:OBStv,f:1
+c4ba:011a2b4a:0811:0002:1:0
+Zee Punjabi
+p:BSkyB,f:1
+c47c:011a2b4a:0811:0002:1:0
+Home Shop TV
+p:BSkyB,f:1
+c482:011a2b4a:0811:0002:1:0
+NOW 80s
+p:BSkyB,f:1
+c48b:011a2b4a:0811:0002:1:0
+Zee Cinema
+p:BSkyB,f:1
+c491:011a2b4a:0811:0002:1:0
+NOW 70s
+p:BSkyB,f:1
+c497:011a2b4a:0811:0002:1:0
+Rewind TV
+p:BSkyB,f:1
+c49f:011a2b4a:0811:0002:1:0
+Sikh Channel
+p:BSkyB,f:1
+c4a6:011a2b4a:0811:0002:1:0
+Eman Channel
+p:BSkyB,f:1
+c4ab:011a2b4a:0811:0002:1:0
+Gems TV
+p:BSkyB,f:1
+c4ae:011a2b4a:0811:0002:1:0
+Blaze
+p:BSkyB,f:1
+c4b4:011a2b4a:0811:0002:1:0
+Ideal World
+p:BSkyB,f:1
+c4b8:011a2b4a:0811:0002:1:0
+Zee TV Dual
+p:BSkyB,f:1
+c4bd:011a2b4a:0811:0002:1:0
+QTV Religious
+p:BSkyB,f:1
+c4c0:011a2b4a:0811:0002:1:0
+Sky History
+p:BSkyB,f:1
+c4c3:011a2b4a:0811:0002:1:0
+Sky History+1
+p:BSkyB,f:1
+c4c6:011a2b4a:0811:0002:1:0
+Sky History2
+p:BSkyB,f:1
+c4c9:011a2b4a:0811:0002:1:0
+Crime & Investigation Network
+p:BSkyB,f:1
+c4cc:011a2b4a:0811:0002:1:0
+Crime & Investigation +1
+p:BSkyB,f:1
+c486:011a2b4a:0811:0002:1:0
+Siraj TV
+p:BSkyB,f:1
 526c:00c00000:041d:0001:25:0
 Anixe HD
 p:BetaDigital,f:1
@@ -7694,6 +7703,21 @@ p:,f:1
 1c8d:00820000:332c:013e:1:0
 AIRMONT
 p:FFmpeg,f:1
+1c8e:00820000:332c:013e:1:0
+GNC
+p:Harmonic,f:1
+1c8f:00820000:332c:013e:1:0
+TBN Russia
+p:,f:1
+1c91:00820000:332c:013e:1:0
+The Word Network
+p:SES,f:1
+1c92:00820000:332c:013e:1:0
+Eurasia Worldwide
+p:mk,f:1
+1c90:00820000:332c:013e:2:0
+The Overcomer
+p:SES
 1328:00820000:33f4:013e:1:0
 Al Karma TV
 p:Telespazio,f:1
@@ -8006,6 +8030,12 @@ p:CANAL+,f:1
 3ac9:00820000:0514:013e:12:0
 Data
 p:CANAL+
+3a9b:00820000:0514:013e:1:0
+TeleTOON+ HD
+p:CANAL+,f:1
+3acd:00820000:0514:013e:1:0
+TeleTOON+ HD
+p:CANAL+,f:1
 0321:00820000:3bc4:013e:1:0
 Euronews English HD
 p:GLOBECAST,f:1
@@ -8617,6 +8647,9 @@ Sky Sport Calcio
 p:SkyItalia,f:1
 106d:00820000:1a2c:fbff:25:0
 Sky Sport Calcio
+p:SkyItalia,f:1
+2da0:00820000:1a2c:fbff:31:0
+Eurosport 4K
 p:SkyItalia,f:1
 2bad:00820000:1af4:fbff:2:0
 Radio Vaticana Europa
@@ -9734,6 +9767,9 @@ p:COSMONOVA LLC,f:1
 422f:00820000:2f44:013e:25:0
 Brazzers HD SBB
 p:M7 Group,f:1
+4231:00820000:2f44:013e:1:0
+Salvation TV MENA
+p:,f:1
 1421:00820000:05dc:013e:1:0
 CANAL+ Domo HD
 p:CANAL+,f:1
@@ -15539,9 +15575,6 @@ p:NEP Norway,f:1
 0001:fff8ad00:0001:0001:1:0
 SWE041
 p:alla,f:1
-0065:fff80000:0065:0065:1:0
-B 101 DGI
-p:RCS-RDS BUCURESTI,f:1
 0001:fff8315e:0000:0000:25:0
 ROH-Live
 p:ROH,f:1
@@ -15551,12 +15584,18 @@ p:RCS-RDS,f:1
 0137:fff8b0f0:0001:ffff:1:0
 B115DGS
 p:Digi B,f:1
+00bf:fff8b0f0:0001:ffff:1:0
+B 191 DGI
+p:DIGI TV,f:1
 0001:0e083143:0000:0000:25:0
 ROH-Live
 p:ROH,f:1
 0001:0e08b0ff:0001:ffff:1:0
 backup
 p:RCS-RDS,f:1
+0065:0e08b0f6:0001:0000:1:0
+B 101 DGI
+p:RCS-RDS BUCURESTI,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024
