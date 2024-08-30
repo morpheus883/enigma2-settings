@@ -7,7 +7,7 @@ transponders
 	s 10891000:22000000:0:4:282:2:0
 /
 011a0000:083f:0002
-	s 11344000:27500000:0:4:282:2:0
+	s 11344000:27500000:0:2:282:2:0:1:2:0:2
 /
 011a0000:090b:003b
 	s 11426000:27500000:0:2:282:2:0
@@ -261,9 +261,6 @@ transponders
 011a305e:07f3:0002
 	s 12382000:29500000:0:2:282:2:0:1:2:1:2
 /
-011aac7a:0831:0002
-	s 11386000:29500000:1:6:282:2:0:1:2:0:2
-/
 011ab11d:0000:0001
 	s 12573000:7200000:1:4:282:2:0:1:2:0:2
 /
@@ -275,6 +272,12 @@ transponders
 /
 011a0000:07e7:0002
 	s 12148000:27500000:0:2:282:2:0:1:2:0:2
+/
+011a0000:0842:0002
+	s 11386000:27500000:1:2:282:2:0:1:2:0:2
+/
+011ab0ff:0000:0000
+	s 12543000:7230000:1:4:282:2:0:1:2:0:2
 /
 00c00000:041d:0001
 	s 10773000:22000000:0:3:192:2:0:1:2:0:2
@@ -618,6 +621,9 @@ transponders
 00c0afd6:0001:0000
 	s 12246000:30940000:1:6:192:2:0:1:2:0:2
 /
+00c0ad70:00a0:0000
+	s 11632000:7200000:1:3:192:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -912,6 +918,9 @@ transponders
 0082b140:0001:ffff
 	s 12608000:9800000:1:3:130:2:0:1:2:0:2
 /
+00822d06:07d2:0002
+	s 11526000:33000000:0:2:130:2:0:1:2:0:2
+/
 end
 services
 23fb:011a0000:07f9:0002:1:0
@@ -995,38 +1004,26 @@ p:BSkyB,f:1
 27a2:011a0000:0805:0002:1:0
 ITV 1 Meridian East +1
 p:BSkyB,f:1
-d020:011a0000:083f:0002:1:0
-TNT Sports 2
+5212:011a0000:083f:0002:25:0
+ITV 1 Meridian Thames Valley HD
 p:BSkyB,f:1
-d021:011a0000:083f:0002:1:0
-TNT Sports 2
+5217:011a0000:083f:0002:25:0
+ITV 1 Meridian South HD
 p:BSkyB,f:1
-d025:011a0000:083f:0002:1:0
-TNT Sports 4
+5230:011a0000:083f:0002:25:0
+ITV 1 Yorkshire West HD
 p:BSkyB,f:1
-d026:011a0000:083f:0002:1:0
-TNT Sports 4
+523a:011a0000:083f:0002:25:0
+ITV 3 HD
 p:BSkyB,f:1
-d002:011a0000:083f:0002:1:0
-TNT Sports 8
+5244:011a0000:083f:0002:25:0
+ITV 1 Border Scotland HD
 p:BSkyB,f:1
-d00c:011a0000:083f:0002:1:0
-TNT Sports 9
+524e:011a0000:083f:0002:25:0
+ITV 1 Anglia West HD
 p:BSkyB,f:1
-d016:011a0000:083f:0002:1:0
-TNT Sports 10
-p:BSkyB,f:1
-cfd0:011a0000:083f:0002:1:0
-TNT Sports 5
-p:BSkyB,f:1
-cfda:011a0000:083f:0002:1:0
-TNT Sports 6
-p:BSkyB,f:1
-cff8:011a0000:083f:0002:1:0
-TNT Sports 7
-p:BSkyB,f:1
-d01b:011a0000:083f:0002:1:0
-BT Sport Mosaic 2
+5258:011a0000:083f:0002:25:0
+ITV 1 Central East HD
 p:BSkyB,f:1
 2920:011a0000:090b:003b:1:0
 FreesatInformation
@@ -1313,6 +1310,9 @@ p:BSkyB,f:1
 52d0:011a0000:0814:0002:25:0
 Channel 4 HD
 p:BSkyB,f:1
+52da:011a0000:0814:0002:1:0
+Channel 4 London
+p:BSkyB,f:1
 22c5:011a0000:080d:0002:25:0
 BBC One Scotland HD
 p:BSkyB,f:1
@@ -1409,12 +1409,6 @@ p:BSkyB,f:1
 5163:011a0000:0810:0002:25:0
 ITV Be HD
 p:BSkyB,f:1
-15a7:011a0000:07db:0002:1:0
-RTE Jr
-p:BSkyB,f:1
-15a5:011a0000:07db:0002:1:0
-Oireachtas TV
-p:BSkyB,f:1
 15a4:011a0000:07db:0002:1:0
 RTE One +1
 p:BSkyB,f:1
@@ -1435,9 +1429,6 @@ RTE Lyric fm
 p:BSkyB
 1575:011a0000:07db:0002:1:0
 RTÉ 2+1
-p:BSkyB,f:1
-1470:011a0000:07db:0002:1:0
-Colors Gujarati
 p:BSkyB,f:1
 10ce:011a0000:07dc:0002:1:0
 Sky Action
@@ -2111,15 +2102,6 @@ p:BSkyB,f:1
 c51c:011a0000:0813:0002:1:0
 Brit Asia TV
 p:BSkyB,f:1
-cb35:011a0000:0813:0002:1:0
-Islam Channel
-p:BSkyB,f:1
-cbea:011a0000:0813:0002:1:0
-Iqraa TV
-p:BSkyB,f:1
-cb37:011a0000:0813:0002:1:0
-Iqra Bangla
-p:BSkyB,f:1
 c4fa:011a0000:0813:0002:1:0
 India Today
 p:BSkyB,f:1
@@ -2650,6 +2632,15 @@ PCNE Chinese HD
 p:BSkyB,f:1
 1bbd:011a0000:0835:0002:25:0
 Wion HD
+p:BSkyB,f:1
+1bc0:011a0000:0835:0002:1:0
+Islam TV
+p:BSkyB,f:1
+1bbf:011a0000:0835:0002:1:0
+Iqra Bangla
+p:BSkyB,f:1
+1bbe:011a0000:0835:0002:1:0
+Iqra TV
 p:BSkyB,f:1
 d869:011a0000:0833:0002:1:0
 TNT Sports 1
@@ -3233,57 +3224,6 @@ p:BSkyB,f:1
 1859:011a305e:07f3:0002:1:0
 TLC Europe
 p:BSkyB,f:1
-c5b2:011aac7a:0831:0002:25:0
-TNT Sports 2 HD
-p:BSkyB,f:1
-c5b3:011aac7a:0831:0002:25:0
-TNT Sports 2 HD
-p:BSkyB,f:1
-c5b7:011aac7a:0831:0002:25:0
-TNT Sports 4 HD
-p:BSkyB,f:1
-c5b8:011aac7a:0831:0002:25:0
-TNT Sports 4 HD
-p:BSkyB,f:1
-c5bc:011aac7a:0831:0002:25:0
-TNT Sports Box Office HD
-p:BSkyB,f:1
-c5e4:011aac7a:0831:0002:25:0
-TNT Sports 1 HD
-p:BSkyB,f:1
-c5e5:011aac7a:0831:0002:25:0
-TNT Sports 1 HD
-p:BSkyB,f:1
-c5e6:011aac7a:0831:0002:25:0
-50662
-p:BSkyB,f:1
-c5e7:011aac7a:0831:0002:25:0
-50663
-p:BSkyB,f:1
-c5ea:011aac7a:0831:0002:1:0
-TNT Sports 5 HD
-p:BSkyB,f:1
-c5ee:011aac7a:0831:0002:1:0
-TNT Sports 6 HD
-p:BSkyB,f:1
-c5f3:011aac7a:0831:0002:1:0
-TNT Sports 7 HD
-p:BSkyB,f:1
-c5f8:011aac7a:0831:0002:25:0
-TNT Sports 3 HD
-p:BSkyB,f:1
-c5f9:011aac7a:0831:0002:25:0
-TNT Sports 3 HD
-p:BSkyB,f:1
-c5fa:011aac7a:0831:0002:25:0
-50682
-p:BSkyB,f:1
-c5fb:011aac7a:0831:0002:25:0
-50683
-p:BSkyB,f:1
-c5fd:011aac7a:0831:0002:25:0
-TNT Sports Box Office 2 HD
-p:BSkyB,f:1
 0001:011ab11d:0000:0001:25:0
 EPC Host Feed 1
 p:OBStv,f:1
@@ -3419,6 +3359,39 @@ p:BSkyB,f:1
 160d:011a0000:07e7:0002:1:0
 BabyTV
 p:BSkyB,f:1
+17ca:011a0000:07e7:0002:1:0
+Colors Gujarati
+p:BSkyB,f:1
+1489:011a0000:07e7:0002:1:0
+Oireachtas TV
+p:BSkyB,f:1
+1488:011a0000:07e7:0002:1:0
+RTE Jr
+p:BSkyB,f:1
+5140:011a0000:0842:0002:25:0
+STV West HD
+p:BSkyB,f:1
+514a:011a0000:0842:0002:25:0
+UTV (Ulster) HD
+p:BSkyB,f:1
+5154:011a0000:0842:0002:25:0
+ITV 1 Yorkshire East HD
+p:BSkyB,f:1
+5159:011a0000:0842:0002:25:0
+ITV 4 HD
+p:BSkyB,f:1
+5163:011a0000:0842:0002:25:0
+ITV Be HD
+p:BSkyB,f:1
+5168:011a0000:0842:0002:25:0
+ITV 1 Anglia East HD
+p:BSkyB,f:1
+5172:011a0000:0842:0002:25:0
+ITV 1 Border UK HD
+p:BSkyB,f:1
+0001:011ab0ff:0000:0000:25:0
+MTA1
+p:MTA,f:1
 526c:00c00000:041d:0001:25:0
 Anixe HD
 p:BetaDigital,f:1
@@ -6887,6 +6860,15 @@ p:TSA,f:1
 18f6:00c00000:03f4:0003:2:0
 NAIZ irratia
 p:TSA
+18ed:00c00000:03f4:0003:25:0
+CGTN HD
+p:TSA,f:1
+18ee:00c00000:03f4:0003:25:0
+CGTN Documentary
+p:TSA,f:1
+18ef:00c00000:03f4:0003:25:0
+CGTN Francais
+p:TSA,f:1
 7831:00c00000:0428:0001:1:0
 LaLiga TV Hypermotion 2
 p:Movistar+,f:1
@@ -7133,6 +7115,9 @@ p:1,f:1
 0004:00c0afd6:0001:0000:1:0
 SVC-4
 p:1,f:1
+0001:00c0ad70:00a0:0000:1:0
+D-381 HANN main
+p:WWW.TVN.DE,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -11141,12 +11126,15 @@ p:Eutelsat
 4526:00820000:0259:013e:1:0
 Legacy
 p:,f:1
-063f:00820000:0321:013e:12:0
-I Demo
-p:Eutelsat
+05de:00820000:0321:013e:1:0
+Outdoor Channel
+p:MuxIP,f:1
+05df:00820000:0321:013e:1:0
+Cricket Gold
+p:MuxIP,f:1
 05dd:00820000:0321:013e:1:0
-DVB-NIP-VV
-p:,f:1
+World Poker Tour
+p:MuxIP,f:1
 0065:00820000:2fa8:013e:22:0
 Svoboda
 p:Svoboda Satellite,f:1
@@ -12326,6 +12314,12 @@ p:GLOBECAST,f:1
 0068:0082b140:0001:ffff:1:0
 Service_04
 p:GLOBECAST,f:1
+0320:00822d06:07d2:0002:1:0
+SERVICE IP/MAC NOTIFICATION
+p:MyIntProvider,f:1
+07d2:00822d06:07d2:0002:12:0
+HVS-2 Bck (SGB6)
+p:MyServiceProvider
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024

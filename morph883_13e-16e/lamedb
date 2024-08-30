@@ -117,8 +117,8 @@ transponders
 00a03196:0001:0001
 	s 12694000:2222000:0:8:160:2:0:1:1:0:2
 /
-00a031bb:0000:0000
-	s 12731000:2930000:0:3:160:2:0
+00a031bb:0001:0000
+	s 12731000:1697000:0:2:160:2:0:1:2:0:2
 /
 00a00000:145c:0005
 	s 12517000:19368000:1:2:160:2:0:1:1:0:2
@@ -254,6 +254,9 @@ transponders
 /
 00a00000:000b:0003
 	s 12734000:3780000:0:8:160:2:0:1:2:0:2
+/
+00a00000:14b4:2064
+	s 12537000:13910000:1:3:160:2:0:1:2:0:2:3:210115:1
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -548,6 +551,9 @@ transponders
 /
 0082b140:0001:ffff
 	s 12608000:9800000:1:3:130:2:0:1:2:0:2
+/
+00822d06:07d2:0002
+	s 11526000:33000000:0:2:130:2:0:1:2:0:2
 /
 end
 services
@@ -1448,6 +1454,9 @@ p:A1 Broadcasting,f:1
 0453:00a00000:526c:016e:25:0
 Epic Drama HD
 p:A1 Broadcasting,f:1
+0455:00a00000:526c:016e:25:0
+Viasat True Crime HD
+p:A1 Broadcasting,f:1
 04af:00a00000:76c0:016e:12:0
 Antik OTA Upgrade
 p:A1 Broadcasting
@@ -2105,9 +2114,30 @@ p:EPQ,f:1
 0002:00a03196:0001:0001:1:0
 Quad SOGEI
 p:AUX C,f:1
-0001:00a031bb:0000:0000:0:0
-Zadruga uplink
-p:Pink
+03e8:00a031bb:0001:0000:2:0
+Radio Zlate Przeboje Polska
+p:
+07d0:00a031bb:0001:0000:2:0
+Radio Pogoda
+p:
+0bb8:00a031bb:0001:0000:2:0
+Rock Radio
+p:
+0fa0:00a031bb:0001:0000:2:0
+Tok FM
+p:
+1388:00a031bb:0001:0000:2:0
+Radio Zlote Przeboje Trefl
+p:
+1770:00a031bb:0001:0000:2:0
+Radio Zlote Przeboje 91.2 FM Karolina
+p:
+1b58:00a031bb:0001:0000:2:0
+Radio Zlote Przeboje 103.6 FM Wetlina
+p:
+1f40:00a031bb:0001:0000:2:0
+Radio Zlote Przeboje 91.2 FM Karolina
+p:
 1db1:00a00000:145c:0005:1:0
 Pro TV
 p:Pro Tv,f:1
@@ -2996,6 +3026,24 @@ p:
 05df:00a00000:000b:0003:2:0
 RMF Maxxx
 p:
+0002:00a00000:14b4:2064:1:0
+bTV
+p:,f:1
+0004:00a00000:14b4:2064:1:0
+BNT
+p:,f:1
+0005:00a00000:14b4:2064:1:0
+BNT2
+p:,f:1
+0006:00a00000:14b4:2064:1:0
+BNT3
+p:,f:1
+0008:00a00000:14b4:2064:1:0
+Bulgaria on Air
+p:,f:1
+0003:00a00000:14b4:2064:22:0
+Nova TV
+p:NOVA Broadcasting Group,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -7004,12 +7052,15 @@ p:Eutelsat
 4526:00820000:0259:013e:1:0
 Legacy
 p:,f:1
-063f:00820000:0321:013e:12:0
-I Demo
-p:Eutelsat
+05de:00820000:0321:013e:1:0
+Outdoor Channel
+p:MuxIP,f:1
+05df:00820000:0321:013e:1:0
+Cricket Gold
+p:MuxIP,f:1
 05dd:00820000:0321:013e:1:0
-DVB-NIP-VV
-p:,f:1
+World Poker Tour
+p:MuxIP,f:1
 0065:00820000:2fa8:013e:22:0
 Svoboda
 p:Svoboda Satellite,f:1
@@ -8189,6 +8240,12 @@ p:GLOBECAST,f:1
 0068:0082b140:0001:ffff:1:0
 Service_04
 p:GLOBECAST,f:1
+0320:00822d06:07d2:0002:1:0
+SERVICE IP/MAC NOTIFICATION
+p:MyIntProvider,f:1
+07d2:00822d06:07d2:0002:12:0
+HVS-2 Bck (SGB6)
+p:MyServiceProvider
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024

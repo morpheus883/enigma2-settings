@@ -342,6 +342,9 @@ transponders
 00c0afd6:0001:0000
 	s 12246000:30940000:1:6:192:2:0:1:2:0:2
 /
+00c0ad70:00a0:0000
+	s 11632000:7200000:1:3:192:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -636,6 +639,9 @@ transponders
 0082b140:0001:ffff
 	s 12608000:9800000:1:3:130:2:0:1:2:0:2
 /
+00822d06:07d2:0002
+	s 11526000:33000000:0:2:130:2:0:1:2:0:2
+/
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
 /
@@ -881,9 +887,6 @@ fff8315e:0000:0000
 /
 0e08b0f6:0001:0000
 	s 12534000:4800000:1:3:-8:2:0:1:2:0:2
-/
-0e080000:0065:0065
-	s 12528000:6660000:1:3:-8:2:0:1:2:0:2
 /
 0e08b0f0:0001:ffff
 	s 12528000:6660000:1:3:-8:2:0:1:2:0:2
@@ -4358,6 +4361,15 @@ p:TSA,f:1
 18f6:00c00000:03f4:0003:2:0
 NAIZ irratia
 p:TSA
+18ed:00c00000:03f4:0003:25:0
+CGTN HD
+p:TSA,f:1
+18ee:00c00000:03f4:0003:25:0
+CGTN Documentary
+p:TSA,f:1
+18ef:00c00000:03f4:0003:25:0
+CGTN Francais
+p:TSA,f:1
 7831:00c00000:0428:0001:1:0
 LaLiga TV Hypermotion 2
 p:Movistar+,f:1
@@ -4604,6 +4616,9 @@ p:1,f:1
 0004:00c0afd6:0001:0000:1:0
 SVC-4
 p:1,f:1
+0001:00c0ad70:00a0:0000:1:0
+D-381 HANN main
+p:WWW.TVN.DE,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -8612,12 +8627,15 @@ p:Eutelsat
 4526:00820000:0259:013e:1:0
 Legacy
 p:,f:1
-063f:00820000:0321:013e:12:0
-I Demo
-p:Eutelsat
+05de:00820000:0321:013e:1:0
+Outdoor Channel
+p:MuxIP,f:1
+05df:00820000:0321:013e:1:0
+Cricket Gold
+p:MuxIP,f:1
 05dd:00820000:0321:013e:1:0
-DVB-NIP-VV
-p:,f:1
+World Poker Tour
+p:MuxIP,f:1
 0065:00820000:2fa8:013e:22:0
 Svoboda
 p:Svoboda Satellite,f:1
@@ -9797,6 +9815,12 @@ p:GLOBECAST,f:1
 0068:0082b140:0001:ffff:1:0
 Service_04
 p:GLOBECAST,f:1
+0320:00822d06:07d2:0002:1:0
+SERVICE IP/MAC NOTIFICATION
+p:MyIntProvider,f:1
+07d2:00822d06:07d2:0002:12:0
+HVS-2 Bck (SGB6)
+p:MyServiceProvider
 040a:0e080000:0044:0046:25:0
 TV 2 Sport Premium HD
 p:Canal Digital Nordic,f:1
@@ -12932,15 +12956,12 @@ p:RCS-RDS,f:1
 0065:0e08b0f6:0001:0000:1:0
 B 101 DGI
 p:RCS-RDS BUCURESTI,f:1
-00bf:0e08b0f0:0001:ffff:1:0
-B 191 DGI
-p:DIGI TV,f:1
 0001:0e08b0f0:0001:ffff:1:0
 backup
 p:RCS-RDS,f:1
-0065:0e08b0f0:0001:ffff:1:0
-B 101 DGI
-p:RCS-RDS BUCURESTI,f:1
+0137:0e08b0f0:0001:ffff:1:0
+B115DGS
+p:Digi B,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024

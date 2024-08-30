@@ -294,6 +294,9 @@ transponders
 0082b140:0001:ffff
 	s 12608000:9800000:1:3:130:2:0:1:2:0:2
 /
+00822d06:07d2:0002
+	s 11526000:33000000:0:2:130:2:0:1:2:0:2
+/
 005a0000:14b4:009c
 	s 11785000:27500000:0:2:90:2:0:1:2:0:2
 /
@@ -4442,12 +4445,15 @@ p:Eutelsat
 4526:00820000:0259:013e:1:0
 Legacy
 p:,f:1
-063f:00820000:0321:013e:12:0
-I Demo
-p:Eutelsat
+05de:00820000:0321:013e:1:0
+Outdoor Channel
+p:MuxIP,f:1
+05df:00820000:0321:013e:1:0
+Cricket Gold
+p:MuxIP,f:1
 05dd:00820000:0321:013e:1:0
-DVB-NIP-VV
-p:,f:1
+World Poker Tour
+p:MuxIP,f:1
 0065:00820000:2fa8:013e:22:0
 Svoboda
 p:Svoboda Satellite,f:1
@@ -5627,6 +5633,12 @@ p:GLOBECAST,f:1
 0068:0082b140:0001:ffff:1:0
 Service_04
 p:GLOBECAST,f:1
+0320:00822d06:07d2:0002:1:0
+SERVICE IP/MAC NOTIFICATION
+p:MyIntProvider,f:1
+07d2:00822d06:07d2:0002:12:0
+HVS-2 Bck (SGB6)
+p:MyServiceProvider
 00d8:005a0000:14b4:009c:1:0
 Comedy Central
 p:Kabelkiosk,f:1
