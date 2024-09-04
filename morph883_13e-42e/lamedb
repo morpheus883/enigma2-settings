@@ -321,6 +321,9 @@ transponders
 01a4ab64:0000:0000
 	s 11108000:7500000:1:3:420:2:0:1:2:0:2
 /
+01a4ab68:0001:ffff
+	s 11112000:2222000:1:4:420:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -953,7 +956,7 @@ p:DEMIROREN MEDYA
 0517:01a40000:0003:0042:1:0
 TV2 (Turkey)
 p:DEMIROREN MEDYA,f:1
-0526:01a40000:0003:0042:1:0
+0526:01a40000:0003:0042:25:0
 TV 8 Turkey
 p:DEMIROREN MEDYA,f:1
 0106:01a40000:0003:0042:130:0
@@ -1074,7 +1077,7 @@ p:DEMIROREN MEDYA,f:1
 
 p:DEMIROREN MEDYA,f:1
 0539:01a40000:0003:0042:1:0
-
+Engelsiz TV
 p:DEMIROREN MEDYA,f:1
 053d:01a40000:0003:0042:1:0
 
@@ -2990,17 +2993,11 @@ p:,f:1
 cbe9:01a40000:a925:042e:25:0
 EkoTürk TV
 p:TURKSAT,f:1
-cbea:01a40000:a925:042e:1:0
-Cadde TV
-p:TURKSAT,f:1
 cbed:01a40000:a925:042e:25:0
 SZC
 p:TURKSAT,f:1
 cbef:01a40000:a925:042e:1:0
 Gozde TV
-p:TURKSAT,f:1
-cbf1:01a40000:a925:042e:1:0
-AKRT
 p:TURKSAT,f:1
 cbf2:01a40000:a925:042e:1:0
 Genc TV
@@ -3020,14 +3017,8 @@ p:TURKSAT,f:1
 cbf6:01a40000:a925:042e:1:0
 Tek Rumeli TV
 p:TURKSAT,f:1
-cbfb:01a40000:a925:042e:1:0
-Bizim Yuzyil
-p:TURKSAT,f:1
 cbf9:01a40000:a925:042e:1:0
 Kibris TV
-p:TURKSAT,f:1
-cbfc:01a40000:a925:042e:25:0
-7/24
 p:TURKSAT,f:1
 cbe8:01a40000:a925:042e:25:0
 TV 100 HD
@@ -3037,6 +3028,9 @@ Ekol TV HD
 p:TURKSAT,f:1
 cbfd:01a40000:a925:042e:25:0
 CNBC-e
+p:TURKSAT,f:1
+cbfc:01a40000:a925:042e:25:0
+HT Spor
 p:TURKSAT,f:1
 0001:01a4aafc:0000:0000:25:0
 TUR 112 A
@@ -3224,6 +3218,9 @@ p:Service Provider,f:1
 0001:01a4ab64:0000:0000:25:0
 TUR112 A
 p:MEDİAPRO TURKEY,f:1
+0001:01a4ab68:0001:ffff:1:0
+ANKARA DM 4
+p:ANKARA BURO,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -4173,10 +4170,10 @@ p:NOVA,f:1
 M1_TEST1
 p:NOVA,f:1
 012f:00820000:157c:013e:1:0
-TEST1HD
+Cosmote Sport 1 HD
 p:NOVA,f:1
 0130:00820000:157c:013e:1:0
-TEST2HD
+Cosmote Sport 2 HD
 p:NOVA,f:1
 0153:00820000:157c:013e:1:0
 
@@ -4275,10 +4272,10 @@ p:SkyItalia,f:1
 Sky Cinema Comedy HD
 p:SkyItalia,f:1
 0dea:00820000:1644:fbff:25:0
-Sky Sport Bar 2
+Sky Sport Business 2
 p:SkyItalia,f:1
 0ded:00820000:1644:fbff:25:0
-Sky Sport Bar 3
+Sky Sport Business 3
 p:SkyItalia,f:1
 0dc2:00820000:1644:fbff:25:0
 History HD
@@ -4332,7 +4329,7 @@ p:SkyItalia,f:1
 Guida Multilingua
 p:SkyItalia,f:1
 0de9:00820000:16a8:fbff:25:0
-Sky Sport Bar 1
+Sky Sport Business 1
 p:SkyItalia,f:1
 0bb8:00820000:16a8:fbff:4:0
 PUSH REF SD 3000
@@ -4523,6 +4520,9 @@ p:SkyItalia,f:1
 3c07:00820000:19c8:fbff:1:0
 Boomerang
 p:SkyItalia,f:1
+059a:00820000:19c8:fbff:25:0
+Value 24 TV
+p:SkyItalia,f:1
 2e17:00820000:1a2c:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
@@ -4622,9 +4622,6 @@ p:Telespazio
 0315:00820000:1b58:013e:1:0
 MTA3 - Al Arabia
 p:Harmonic,f:1
-02e3:00820000:1b58:013e:2:0
-Radio Radio
-p:Telespazio
 3c8d:00820000:1bbc:013e:1:0
 novacinema1 HD Cy
 p:NOVA,f:1
@@ -4674,13 +4671,13 @@ p:NOVA,f:1
 NovaSummerHD
 p:NOVA,f:1
 3c93:00820000:1bbc:013e:1:0
-TEST7HD
+Cosmote Sport 7 HD
 p:NOVA,f:1
 3c94:00820000:1bbc:013e:1:0
-TEST8HD
+Cosmote Sport 8 HD
 p:NOVA,f:1
 3c96:00820000:1bbc:013e:1:0
-TEST9HD
+Cosmote Sport 9 HD
 p:NOVA,f:1
 1c22:00820000:1c20:013e:1:0
 TTN - Télévision Tunisienne Nationale
@@ -4842,7 +4839,7 @@ p:NetMed,f:1
 Da Vinci HD
 p:NetMed,f:1
 0165:00820000:1c84:013e:1:0
-TEST3HD
+Cosmote Sport 3 HD
 p:NOVA,f:1
 1c86:00820000:1ce8:0071:1:0
 AXN White Poland
@@ -5492,9 +5489,6 @@ p:Cyfrowy Polsat S.A.,f:1
 4290:00820000:2bc0:013e:1:0
 Epic Drama HD
 p:Cyfrowy Polsat S.A.,f:1
-4295:00820000:2bc0:013e:1:0
-Cartoonito
-p:Cyfrowy Polsat S.A.,f:1
 429a:00820000:2bc0:013e:1:0
 Polo TV
 p:Cyfrowy Polsat S.A.,f:1
@@ -5526,8 +5520,8 @@ p:Cyfrowy Polsat S.A.,f:1
 4Fun Kids
 p:Cyfrowy Polsat S.A.,f:1
 427c:00820000:2bc0:013e:1:0
-
-p:,f:1
+Stopklatka
+p:Cyfrowy Polsat S.A.,f:1
 42c2:00820000:2bc0:013e:1:0
 Polo TV
 p:Cyfrowy Polsat S.A.,f:1
@@ -5646,13 +5640,13 @@ p:NOVA,f:1
 NovaSportsExtra4HD
 p:NOVA,f:1
 1bcb:00820000:17d4:013e:1:0
-TEST4HD
+Cosmote Sport 4 HD
 p:NOVA,f:1
 1bcc:00820000:17d4:013e:1:0
-TEST5HD
+Cosmote Sport 5 HD
 p:NOVA,f:1
 1bce:00820000:17d4:013e:1:0
-TEST6HD
+Cosmote Sport 6 HD
 p:NOVA,f:1
 4206:00820000:2f44:013e:1:0
 Dorcel TV HD
@@ -5700,7 +5694,7 @@ p:Cyfrowy Polsat S.A.,f:1
 Extreme Sports HD
 p:Cyfrowy Polsat S.A.,f:1
 290b:00820000:1edc:0071:1:0
-CBS Europa HD
+Film Cafe
 p:Cyfrowy Polsat S.A.,f:1
 2938:00820000:1edc:0071:1:0
 Disney Junior Middle-East & Africa
@@ -6491,6 +6485,9 @@ p:,f:1
 01f7:00820000:0384:013e:25:0
 Al Bayyinat TV
 p:,f:1
+0219:00820000:0384:013e:1:0
+Jek TV
+p:IPVideoTrans.com,f:1
 0641:00820000:2454:013e:25:0
 Al Jazeera HD
 p:EUTELSAT,f:1
@@ -6963,7 +6960,7 @@ p:NOVA,f:1
 NovaSports Prime HD Cy
 p:NOVA,f:1
 0193:00820000:1518:013e:1:0
-TESTHLSHD
+Cosmote Sport Highlights HD
 p:NOVA,f:1
 012d:00820000:3e1c:013f:1:0
 TF1 HD
@@ -7101,10 +7098,10 @@ p:Warner Bros Discovery,f:1
 Eurosport 4K PopUp UHD
 p:Warner Bros. Discovery,f:1
 0321:0082ae8f:1770:00be:25:0
-Zona DAZN
+DAZN 1
 p:,f:1
 0322:0082ae8f:1770:00be:25:0
-Zona DAZN 2
+DAZN 2
 p:,f:1
 0049:0082ae8f:1770:00be:25:0
 La7d HD

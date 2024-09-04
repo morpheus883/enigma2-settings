@@ -327,12 +327,6 @@ transponders
 00c00000:0064:0001
 	s 11697000:2915000:1:3:192:2:0:1:2:0:2
 /
-00c0ad88:0001:0001
-	s 11656000:7200000:1:3:192:2:0:1:2:0:2
-/
-00c0ad8e:0001:0001
-	s 11662000:7200000:1:3:192:2:0:1:2:0:2
-/
 00c0ad63:0001:ffff
 	s 11619000:7200000:1:3:192:2:0:1:2:0:2
 /
@@ -344,6 +338,12 @@ transponders
 /
 00c0ad70:00a0:0000
 	s 11632000:7200000:1:3:192:2:0:1:2:0:2
+/
+00c0ad88:0001:ffff
+	s 11656000:7200000:1:3:192:2:0:1:2:0:2
+/
+00c0ad8e:0001:ffff
+	s 11662000:7200000:1:3:192:2:0:1:2:0:2
 /
 00a00000:0001:0040
 	s 11512000:30000000:0:3:160:2:0:1:2:0:2
@@ -2963,6 +2963,9 @@ p:CBC,f:1
 2eaf:00c00000:0411:0001:25:0
 RTL Nitro HD
 p:CBC,f:1
+2eb9:00c00000:0411:0001:22:0
+n-tv Austria
+p:RTL,f:1
 307a:00c00000:03f5:0001:31:0
 RTL UHD
 p:MX1,f:1
@@ -3424,6 +3427,12 @@ Paramount Channel HD France
 p:,f:1
 4285:00c00000:0446:0001:25:0
 Seasons HD
+p:,f:1
+4288:00c00000:0446:0001:25:0
+Olympia TV HD
+p:,f:1
+4289:00c00000:0446:0001:25:0
+Canal Evenement Metropole
 p:,f:1
 0001:00c00000:040b:0001:31:0
 SES UHD Demo Channel
@@ -4601,12 +4610,6 @@ p:
 03e8:00c00000:0064:0001:2:0
 Kronehit Steiermark
 p:
-0001:00c0ad88:0001:0001:25:0
-D-452
-p:ARDRoth_2SZ_D452,f:1
-0001:00c0ad8e:0001:0001:25:0
-D-452
-p:ARDRoth_2SZ_D452,f:1
 0001:00c0ad63:0001:ffff:1:0
 D-312
 p:.,f:1
@@ -4628,6 +4631,12 @@ p:1,f:1
 0001:00c0ad70:00a0:0000:1:0
 D-381 HANN main
 p:WWW.TVN.DE,f:1
+0001:00c0ad88:0001:ffff:1:0
+SNG
+p:ARD,f:1
+0001:00c0ad8e:0001:ffff:1:0
+SNG
+p:ARD,f:1
 001e:00a00000:0001:0040:22:0
 National Geographic Croatia
 p:Max TV,f:1
@@ -4823,9 +4832,6 @@ p:HT,f:1
 005b:00a00000:0003:0040:22:0
 Vivid Red
 p:T-HT,f:1
-002b:00a00000:0003:0040:22:0
-Woman
-p:T-HT,f:1
 002d:00a00000:0003:0040:22:0
 History 2
 p:T-HT,f:1
@@ -4991,13 +4997,10 @@ p:DigitALB,f:1
 03ef:00a00000:50dc:016e:25:0
 SuperSport HD-4
 p:DigitALB,f:1
-03f1:00a00000:50dc:016e:25:0
-Travel Channel HD
-p:DigitALB,f:1
-03ff:00a00000:50dc:016e:1:0
+03ff:00a00000:50dc:016e:22:0
 Scan TV
 p:DigitALB,f:1
-1040:00a00000:50dc:016e:1:0
+1040:00a00000:50dc:016e:22:0
 Star Plus TV
 p:DigitALB,f:1
 116c:00a00000:50dc:016e:22:0
@@ -5007,11 +5010,8 @@ p:DigitALB,f:1
 Travel Channel HD
 p:DigitALB,f:1
 03fd:00a00000:50dc:016e:22:0
-RTSH Shkolle
+RTSH 2
 p:DigitALB,f:1
-027a:00a00000:50dc:016e:9:0
-OTA SMIT MSD
-p:DigitALB
 1108:00a00000:50dc:016e:1:0
 Dukagjini
 p:DigitALB,f:1
@@ -6300,7 +6300,7 @@ p:pink,f:1
 Red HD
 p:pink,f:1
 006b:00a00000:cb2c:016e:25:0
-Insta TV HD
+Narodna TV HD
 p:pink,f:1
 0001:00a030fd:0001:ffff:1:0
 Enex Path 1
@@ -6687,10 +6687,10 @@ p:Eutelsat,f:1
 Pickbox
 p:Total TV,f:1
 0301:00a0abdf:9d08:016e:1:0
-Dorcel HD
+MRT 2
 p:Total TV,f:1
 0302:00a0abdf:9d08:016e:1:0
-Dorcel HD
+MRT 4
 p:Total TV,f:1
 0305:00a0abdf:9d08:016e:2:0
 Play radio
@@ -6716,6 +6716,9 @@ p:,f:1
 030f:00a0abdf:9d08:016e:2:0
 BN Radio
 p:
+0303:00a0abdf:9d08:016e:1:0
+MRT 5
+p:Total TV,f:1
 055e:00a0ad4b:75fb:016e:2:0
 Radio Kanal 77
 p:Total TV
@@ -8064,10 +8067,10 @@ p:NOVA,f:1
 M1_TEST1
 p:NOVA,f:1
 012f:00820000:157c:013e:1:0
-TEST1HD
+Cosmote Sport 1 HD
 p:NOVA,f:1
 0130:00820000:157c:013e:1:0
-TEST2HD
+Cosmote Sport 2 HD
 p:NOVA,f:1
 0153:00820000:157c:013e:1:0
 
@@ -8166,10 +8169,10 @@ p:SkyItalia,f:1
 Sky Cinema Comedy HD
 p:SkyItalia,f:1
 0dea:00820000:1644:fbff:25:0
-Sky Sport Bar 2
+Sky Sport Business 2
 p:SkyItalia,f:1
 0ded:00820000:1644:fbff:25:0
-Sky Sport Bar 3
+Sky Sport Business 3
 p:SkyItalia,f:1
 0dc2:00820000:1644:fbff:25:0
 History HD
@@ -8223,7 +8226,7 @@ p:SkyItalia,f:1
 Guida Multilingua
 p:SkyItalia,f:1
 0de9:00820000:16a8:fbff:25:0
-Sky Sport Bar 1
+Sky Sport Business 1
 p:SkyItalia,f:1
 0bb8:00820000:16a8:fbff:4:0
 PUSH REF SD 3000
@@ -8414,6 +8417,9 @@ p:SkyItalia,f:1
 3c07:00820000:19c8:fbff:1:0
 Boomerang
 p:SkyItalia,f:1
+059a:00820000:19c8:fbff:25:0
+Value 24 TV
+p:SkyItalia,f:1
 2e17:00820000:1a2c:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
@@ -8513,9 +8519,6 @@ p:Telespazio
 0315:00820000:1b58:013e:1:0
 MTA3 - Al Arabia
 p:Harmonic,f:1
-02e3:00820000:1b58:013e:2:0
-Radio Radio
-p:Telespazio
 3c8d:00820000:1bbc:013e:1:0
 novacinema1 HD Cy
 p:NOVA,f:1
@@ -8565,13 +8568,13 @@ p:NOVA,f:1
 NovaSummerHD
 p:NOVA,f:1
 3c93:00820000:1bbc:013e:1:0
-TEST7HD
+Cosmote Sport 7 HD
 p:NOVA,f:1
 3c94:00820000:1bbc:013e:1:0
-TEST8HD
+Cosmote Sport 8 HD
 p:NOVA,f:1
 3c96:00820000:1bbc:013e:1:0
-TEST9HD
+Cosmote Sport 9 HD
 p:NOVA,f:1
 1c22:00820000:1c20:013e:1:0
 TTN - Télévision Tunisienne Nationale
@@ -8733,7 +8736,7 @@ p:NetMed,f:1
 Da Vinci HD
 p:NetMed,f:1
 0165:00820000:1c84:013e:1:0
-TEST3HD
+Cosmote Sport 3 HD
 p:NOVA,f:1
 1c86:00820000:1ce8:0071:1:0
 AXN White Poland
@@ -9383,9 +9386,6 @@ p:Cyfrowy Polsat S.A.,f:1
 4290:00820000:2bc0:013e:1:0
 Epic Drama HD
 p:Cyfrowy Polsat S.A.,f:1
-4295:00820000:2bc0:013e:1:0
-Cartoonito
-p:Cyfrowy Polsat S.A.,f:1
 429a:00820000:2bc0:013e:1:0
 Polo TV
 p:Cyfrowy Polsat S.A.,f:1
@@ -9417,8 +9417,8 @@ p:Cyfrowy Polsat S.A.,f:1
 4Fun Kids
 p:Cyfrowy Polsat S.A.,f:1
 427c:00820000:2bc0:013e:1:0
-
-p:,f:1
+Stopklatka
+p:Cyfrowy Polsat S.A.,f:1
 42c2:00820000:2bc0:013e:1:0
 Polo TV
 p:Cyfrowy Polsat S.A.,f:1
@@ -9537,13 +9537,13 @@ p:NOVA,f:1
 NovaSportsExtra4HD
 p:NOVA,f:1
 1bcb:00820000:17d4:013e:1:0
-TEST4HD
+Cosmote Sport 4 HD
 p:NOVA,f:1
 1bcc:00820000:17d4:013e:1:0
-TEST5HD
+Cosmote Sport 5 HD
 p:NOVA,f:1
 1bce:00820000:17d4:013e:1:0
-TEST6HD
+Cosmote Sport 6 HD
 p:NOVA,f:1
 4206:00820000:2f44:013e:1:0
 Dorcel TV HD
@@ -9591,7 +9591,7 @@ p:Cyfrowy Polsat S.A.,f:1
 Extreme Sports HD
 p:Cyfrowy Polsat S.A.,f:1
 290b:00820000:1edc:0071:1:0
-CBS Europa HD
+Film Cafe
 p:Cyfrowy Polsat S.A.,f:1
 2938:00820000:1edc:0071:1:0
 Disney Junior Middle-East & Africa
@@ -10382,6 +10382,9 @@ p:,f:1
 01f7:00820000:0384:013e:25:0
 Al Bayyinat TV
 p:,f:1
+0219:00820000:0384:013e:1:0
+Jek TV
+p:IPVideoTrans.com,f:1
 0641:00820000:2454:013e:25:0
 Al Jazeera HD
 p:EUTELSAT,f:1
@@ -10854,7 +10857,7 @@ p:NOVA,f:1
 NovaSports Prime HD Cy
 p:NOVA,f:1
 0193:00820000:1518:013e:1:0
-TESTHLSHD
+Cosmote Sport Highlights HD
 p:NOVA,f:1
 012d:00820000:3e1c:013f:1:0
 TF1 HD
@@ -10992,10 +10995,10 @@ p:Warner Bros Discovery,f:1
 Eurosport 4K PopUp UHD
 p:Warner Bros. Discovery,f:1
 0321:0082ae8f:1770:00be:25:0
-Zona DAZN
+DAZN 1
 p:,f:1
 0322:0082ae8f:1770:00be:25:0
-Zona DAZN 2
+DAZN 2
 p:,f:1
 0049:0082ae8f:1770:00be:25:0
 La7d HD
