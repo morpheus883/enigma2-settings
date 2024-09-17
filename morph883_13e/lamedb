@@ -90,9 +90,6 @@ transponders
 00820000:1ce8:0071
 	s 12188000:27500000:1:3:130:2:0:1:2:3:0
 /
-00820000:0065:0001
-	s 12226000:27500000:1:3:130:2:0
-/
 00820000:1e78:0071
 	s 12265000:27500000:1:3:130:2:0:1:2:0:2
 /
@@ -270,9 +267,6 @@ transponders
 00820000:2774:013e
 	s 12731000:30000000:0:4:130:2:0:1:2:2:2
 /
-00820000:1e14:013e
-	s 12245000:27500000:0:3:130:2:0:1:2:2:2
-/
 00822c46:02bc:013e
 	s 11334000:27500000:0:15:130:2:0:1:2:2:2
 /
@@ -296,6 +290,9 @@ transponders
 /
 00822d06:07d2:0002
 	s 11526000:33000000:0:2:130:2:0:1:2:0:2
+/
+00820000:1db0:013e
+	s 12226000:27500000:1:3:130:2:0
 /
 end
 services
@@ -638,6 +635,9 @@ p:GLOBECAST
 42ea:00820000:3138:013e:1:0
 BBC News Europe
 p:GLOBECAST,f:1
+06b1:00820000:3138:013e:1:0
+RTVI
+p:GLOBECAST,f:1
 1c86:00820000:332c:013e:1:0
 Bloomberg European TV
 p:Arqiva,f:1
@@ -865,46 +865,31 @@ Canal+ Extra 3
 p:CANAL+,f:1
 089c:00820000:01f4:013e:1:0
 Yemen TV
-p:,f:1
+p:iKOMG,f:1
 089a:00820000:01f4:013e:1:0
 CBC Azerbaycan TV
-p:,f:1
+p:iKOMG,f:1
 060e:00820000:01f4:013e:2:0
 Yemen Radio
-p:Eutelsat
+p:iKOMG
 0899:00820000:01f4:013e:1:0
 Freedom TV
-p:,f:1
+p:STN,f:1
 08b3:00820000:01f4:013e:2:0
 WELAT
 p:Eutelsat
 08a6:00820000:01f4:013e:1:0
 Medya Haber
 p:iKOMG,f:1
-0604:00820000:01f4:013e:2:0
-R Radio
-p:
 08b4:00820000:01f4:013e:2:0
 Radio2000
-p:Eutelsat
+p:iKOMG
 08b2:00820000:01f4:013e:2:0
-NEW LIFE RADIO
-p:Eutelsat
-08a8:00820000:01f4:013e:1:0
-Kentron TV
-p:Eutelsat,f:1
-089e:00820000:01f4:013e:1:0
-OU
-p:iKO Media Group,f:1
-08b5:00820000:01f4:013e:32:0
-Love Nature 4K
-p:iKO Media Group
+New Life Radio
+p:iKOMG
 089b:00820000:01f4:013e:1:0
 Iran e Aryaee
-p:iKO Media Group,f:1
-089d:00820000:01f4:013e:1:0
-Al Sharqiya News HD
-p:Harmonic,f:1
+p:iKOMG,f:1
 3ab7:00820000:0514:013e:1:0
 AMC HD Polska
 p:CANAL+,f:1
@@ -2117,66 +2102,6 @@ p:Cyfrowy Polsat S.A.,f:1
 1cad:00820000:1ce8:0071:1:0
 Polsat Seriale HD
 p:,f:1
-0064:00820000:0065:0001:1:0
-Voice of America (VOA) Europe
-p:,f:1
-0068:00820000:0065:0001:2:0
-VOA 1 ch104
-p:
-00c9:00820000:0065:0001:2:0
-Radio Svoboda RU 201
-p:
-00cb:00820000:0065:0001:2:0
-Radioi Ozodi 203
-p:
-00cf:00820000:0065:0001:2:0
-Azatutyun 207
-p:
-00d3:00820000:0065:0001:2:0
-Azattyk Unalgysy 211
-p:
-00d4:00820000:0065:0001:2:0
-Ozodlik Radiosi 212
-p:
-00d9:00820000:0065:0001:2:0
-Azatlyk Radiosy 217
-p:
-00de:00820000:0065:0001:2:0
-RSE Balkans ch222
-p:
-00e3:00820000:0065:0001:2:0
-Evropa e Lire 227
-p:
-00c9:00820000:0065:0001:1:0
-Radio Svoboda RU 201
-p:,f:1
-00cb:00820000:0065:0001:1:0
-Radioi Ozodi 203
-p:,f:1
-00cf:00820000:0065:0001:1:0
-Azatutyun 207
-p:,f:1
-00d3:00820000:0065:0001:1:0
-Azattyk Unalgysy 211
-p:,f:1
-00d4:00820000:0065:0001:1:0
-Ozodlik Radiosi 212
-p:,f:1
-00d9:00820000:0065:0001:1:0
-Azatlyk Radiosy 217
-p:,f:1
-00e3:00820000:0065:0001:1:0
-Evropa e Lire 227
-p:,f:1
-00c8:00820000:0065:0001:1:0
-Current Time HD ch200
-p:,f:1
-00eb:00820000:0065:0001:1:0
-VOA Persian HD
-p:,f:1
-00de:00820000:0065:0001:1:0
-RSE Balkans ch222
-p:,f:1
 0c1d:00820000:1e78:0071:1:0
 Polsat Sport 1
 p:Cyfrowy Polsat,f:1
@@ -2252,27 +2177,12 @@ p:Cyfrowy Polsat S.A.,f:1
 0c29:00820000:1e78:0071:25:0
 Cinemax 2 HD
 p:Cyfrowy Polsat SA,f:1
-39d5:00820000:1fa4:013e:1:0
-Ronahi TV
-p:STN,f:1
-39d6:00820000:1fa4:013e:1:0
-Sterk TV
-p:STN,f:1
 39d1:00820000:1fa4:013e:25:0
 BBC Persian HD
 p:BBC World Service,f:1
 39db:00820000:1fa4:013e:1:0
 Kalemeh TV
 p:iKO Media Group,f:1
-39dc:00820000:1fa4:013e:1:0
-Mohabat TV
-p:,f:1
-39dd:00820000:1fa4:013e:2:0
-Radio Mojdeh
-p:Radio Mojdeh
-39de:00820000:1fa4:013e:2:0
-Mohabat Radio
-p:
 39d2:00820000:1fa4:013e:1:0
 Revival TV
 p:UNITED TELEPORTS,f:1
@@ -2282,6 +2192,9 @@ p:ARQIVA LTD,f:1
 39df:00820000:1fa4:013e:1:0
 Rinascita Del Mondo
 p:VOZROZHDENIE,f:1
+39e0:00820000:1fa4:013e:1:0
+MC EU
+p:MCEU,f:1
 1089:00820000:2008:fbff:25:0
 Sky Sport 3 HD
 p:Sky Italia,f:1
@@ -5222,18 +5135,6 @@ p:NOVA,f:1
 0276:00820000:2774:013e:1:12
 Cobalt Data
 p:NOVA,f:1
-3e81:00820000:1e14:013e:25:0
-Eurosport 7 HD
-p:Warner Bros. Discovery,f:1
-3e82:00820000:1e14:013e:25:0
-Eurosport 8 HD
-p:Warner Bros. Discovery,f:1
-3e83:00820000:1e14:013e:25:0
-Eurosport 9 HD
-p:Warner Bros. Discovery,f:1
-3e84:00820000:1e14:013e:31:0
-Eurosport 4K PopUp UHD
-p:Warner Bros. Discovery,f:1
 02f3:00822c46:02bc:013e:25:0
 Eurosport 3 HD
 p:Warner Bros. Discovery,f:1
@@ -5492,6 +5393,42 @@ p:MyIntProvider,f:1
 07d2:00822d06:07d2:0002:12:0
 HVS-2 Bck (SGB6)
 p:MyServiceProvider
+0064:00820000:1db0:013e:1:0
+Voice of America (VOA) Europe
+p:,f:1
+0068:00820000:1db0:013e:2:0
+VOA 1
+p:
+00c8:00820000:1db0:013e:1:0
+Current Time HD
+p:,f:1
+00c9:00820000:1db0:013e:2:0
+Radio Svoboda
+p:
+00eb:00820000:1db0:013e:1:0
+VOA Persian HD
+p:,f:1
+00cb:00820000:1db0:013e:2:0
+Radio Ozodi
+p:
+00cf:00820000:1db0:013e:2:0
+Azatutyun
+p:
+00d3:00820000:1db0:013e:2:0
+Azattyk Unalgysy
+p:
+00d4:00820000:1db0:013e:2:0
+Ozodlik Radiosi
+p:
+00d9:00820000:1db0:013e:2:0
+Azatlyk Radiosy
+p:
+00de:00820000:1db0:013e:2:0
+RSE Balkans
+p:
+00e3:00820000:1db0:013e:2:0
+Evropa e Lire
+p:
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024

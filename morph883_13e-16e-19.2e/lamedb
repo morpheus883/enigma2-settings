@@ -693,9 +693,6 @@ transponders
 00820000:1ce8:0071
 	s 12188000:27500000:1:3:130:2:0:1:2:3:0
 /
-00820000:0065:0001
-	s 12226000:27500000:1:3:130:2:0
-/
 00820000:1e78:0071
 	s 12265000:27500000:1:3:130:2:0:1:2:0:2
 /
@@ -873,9 +870,6 @@ transponders
 00820000:2774:013e
 	s 12731000:30000000:0:4:130:2:0:1:2:2:2
 /
-00820000:1e14:013e
-	s 12245000:27500000:0:3:130:2:0:1:2:2:2
-/
 00822c46:02bc:013e
 	s 11334000:27500000:0:15:130:2:0:1:2:2:2
 /
@@ -899,6 +893,9 @@ transponders
 /
 00822d06:07d2:0002
 	s 11526000:33000000:0:2:130:2:0:1:2:0:2
+/
+00820000:1db0:013e
+	s 12226000:27500000:1:3:130:2:0
 /
 end
 services
@@ -1459,13 +1456,13 @@ DAZN F1
 p:Movistar+,f:1
 132f:00c00000:03ef:0001:25:0
 ORF 1 HD
-p:ORF Digital,f:1
+p:ORF,f:1
 1330:00c00000:03ef:0001:25:0
 ORF 2 HD
-p:ORF Digital,f:1
+p:ORF,f:1
 1331:00c00000:03ef:0001:25:0
 ServusTV HD Oesterreich
-p:ORF Digital,f:1
+p:ServusTV,f:1
 1332:00c00000:03ef:0001:25:0
 DF1 HD
 p:DF1 Medien,f:1
@@ -1473,11 +1470,50 @@ p:DF1 Medien,f:1
 ORF2 N HD
 p:ORF,f:1
 1338:00c00000:03ef:0001:2:0
-OE3.
+ORF HITRADIO OE3
 p:ORF
 1342:00c00000:03ef:0001:22:0
 RiC
 p:IP Broadcast,f:1
+134c:00c00000:03ef:0001:2:0
+ORF RADIO OE1
+p:ORF
+134d:00c00000:03ef:0001:2:0
+ORF RADIO FM4
+p:ORF
+134e:00c00000:03ef:0001:2:0
+ORF RADIO WIEN
+p:ORF
+134f:00c00000:03ef:0001:2:0
+ORF RADIO NOE
+p:ORF
+1350:00c00000:03ef:0001:2:0
+ORF RADIO B
+p:ORF
+1351:00c00000:03ef:0001:2:0
+ORF RADIO OOE
+p:ORF
+1352:00c00000:03ef:0001:2:0
+ORF RADIO S
+p:ORF
+1353:00c00000:03ef:0001:2:0
+ORF RADIO T
+p:ORF
+1354:00c00000:03ef:0001:2:0
+ORF RADIO V
+p:ORF
+1355:00c00000:03ef:0001:2:0
+ORF RADIO STMK
+p:ORF
+1356:00c00000:03ef:0001:2:0
+ORF RADIO K
+p:ORF
+1357:00c00000:03ef:0001:2:0
+ORF RADIO OE1 DOLBY
+p:ORF
+1335:00c00000:03ef:0001:25:0
+ORF HITRADIO OE3 VISUAL
+p:ORF,f:1
 7469:00c00000:03f0:0001:1:0
 Antena Nova
 p:DIGITAL+,f:1
@@ -3275,12 +3311,12 @@ p:-,f:1
 3404:00c00000:03ed:0001:22:0
 Stimmungsgarten TV
 p:ORS,f:1
-33fe:00c00000:03ed:0001:25:0
-Service 13310
-p:ORF,f:1
 3403:00c00000:03ed:0001:22:0
 TV1 OOE
 p:ORS,f:1
+33fe:00c00000:03ed:0001:22:0
+ORF 2 Europe
+p:ORF,f:1
 1086:00c00000:03ee:0001:31:0
 QVC UHD
 p:MX1,f:1
@@ -3307,9 +3343,6 @@ Toute L Histoire
 p:AB SAT,f:1
 4286:00c00000:0446:0001:25:0
 Action HD
-p:AB SAT,f:1
-4287:00c00000:0446:0001:25:0
-Mangas HD
 p:AB SAT,f:1
 428b:00c00000:0446:0001:25:0
 RTL 9 HD
@@ -3419,9 +3452,6 @@ p:
 23ee:00c00000:0446:0001:2:0
 BEUR FM
 p:
-4283:00c00000:0446:0001:25:0
-OCS Géants HD
-p:,f:1
 4284:00c00000:0446:0001:25:0
 Paramount Channel HD France
 p:,f:1
@@ -3608,11 +3638,14 @@ p:CSAT,f:1
 264c:00c00000:0460:0001:1:0
 France 3 Centre
 p:CSAT,f:1
-2662:00c00000:0460:0001:31:0
-4K UHD - Evénement Sport
-p:CSAT,f:1
 2661:00c00000:0460:0001:31:0
 CANAL+ UHD
+p:CSAT,f:1
+264d:00c00000:0460:0001:25:0
+Canal+ Live 2
+p:CSAT,f:1
+264e:00c00000:0460:0001:25:0
+Canal+ Live 6
 p:CSAT,f:1
 0228:00c00000:0010:0085:31:0
 Sky Sport Bundesliga UHD
@@ -3696,7 +3729,7 @@ p:CSAT,f:1
 Événement Sport 4K UHD
 p:CSAT,f:1
 219b:00c00000:0448:0001:31:0
-.CH2
+FRANCE 2 UHD HDR
 p:CSAT,f:1
 2456:00c00000:0440:0001:25:0
 OCS
@@ -3773,9 +3806,6 @@ p:BMT,f:1
 16ab:00c00000:03ff:0001:25:0
 a.tv HD .
 p:BMT,f:1
-22d1:00c00000:0434:0001:25:0
-Multisports 2 HD
-p:CSAT,f:1
 2007:00c00000:0434:0001:12:0
 DATASYSTEM
 p:CSAT
@@ -3788,20 +3818,11 @@ p:CSAT,f:1
 22d0:00c00000:0434:0001:25:0
 Nick Junior France HD
 p:CSAT,f:1
-22cf:00c00000:0434:0001:25:0
-Museum France HD
-p:CSAT,f:1
 22c6:00c00000:0434:0001:25:0
 TV5 Monde FBS HD
 p:CSAT,f:1
-22c7:00c00000:0434:0001:25:0
-Multisports 5 HD
-p:CSAT,f:1
 22cc:00c00000:0434:0001:201:0
 Multisports
-p:CSAT,f:1
-22c9:00c00000:0434:0001:25:0
-M6 Music HD
 p:CSAT,f:1
 22ce:00c00000:0434:0001:25:0
 Canal+ Docs
@@ -3827,8 +3848,14 @@ p:CSAT,f:1
 22d4:00c00000:0434:0001:25:0
 Comédie+ HD
 p:CSAT,f:1
-24c5:00c00000:043c:0001:25:0
-Colmax TV HD
+22cb:00c00000:0434:0001:25:0
+Canal+ Live 4
+p:CSAT,f:1
+22d7:00c00000:0434:0001:25:0
+Canal+ Live 7
+p:CSAT,f:1
+22d8:00c00000:0434:0001:25:0
+DAZN 2
 p:CSAT,f:1
 24bc:00c00000:043c:0001:25:0
 OCS Pulp HD
@@ -3842,14 +3869,8 @@ p:CSAT,f:1
 24c1:00c00000:043c:0001:25:0
 Planète+ Crime HD
 p:CSAT,f:1
-24c2:00c00000:043c:0001:25:0
-CStar Hits France
-p:CSAT,f:1
 24c3:00c00000:043c:0001:25:0
 Télétoon+ HD
-p:CSAT,f:1
-24c4:00c00000:043c:0001:25:0
-Télétoon +1 HD
 p:CSAT,f:1
 251b:00c00000:043c:0001:12:0
 DATASYSTEM
@@ -3869,21 +3890,21 @@ p:CSAT,f:1
 24c8:00c00000:043c:0001:25:0
 Canal+Sport360
 p:CSAT,f:1
-24bb:00c00000:043c:0001:25:0
-Multisports 1 HD
-p:CSAT,f:1
 24c9:00c00000:043c:0001:1:0
 France 3 Auvergne
 p:CSAT,f:1
 24b9:00c00000:043c:0001:25:0
 Union TV
 p:CSAT,f:1
-24ca:00c00000:043c:0001:25:0
-Multisports 6 HD
-p:CSAT,f:1
 24ba:00c00000:043c:0001:25:0
 DAZN 1
 p:CSAT,f:1
+24c4:00c00000:043c:0001:25:0
+Canal+ Live 3
+p:CSAT,C:0000,f:1
+24c5:00c00000:043c:0001:25:0
+Canal+ Live 8
+p:CSAT,C:0000,f:1
 21fd:00c00000:044c:0001:25:0
 France 4 HD
 p:CSAT,f:1
@@ -3892,9 +3913,6 @@ TV Breizh HD
 p:CSAT,f:1
 2202:00c00000:044c:0001:25:0
 RFM TV HD
-p:CSAT,f:1
-2203:00c00000:044c:0001:25:0
-TiJi HD
 p:CSAT,f:1
 2204:00c00000:044c:0001:25:0
 Dorcel XXX HD
@@ -3917,12 +3935,6 @@ p:CSAT,f:1
 2208:00c00000:044c:0001:25:0
 Planète+ Aventure HD
 p:CSAT,f:1
-2209:00c00000:044c:0001:25:0
-Multisports 3 HD
-p:CSAT,f:1
-220b:00c00000:044c:0001:25:0
-Multisports 4 HD
-p:CSAT,f:1
 21fe:00c00000:044c:0001:25:0
 NatGeo Wild HD France
 p:CSAT,f:1
@@ -3940,6 +3952,9 @@ France 3 Rhône-Alpes
 p:CSAT,f:1
 220a:00c00000:044c:0001:25:0
 6ter HD
+p:CSAT,f:1
+220f:00c00000:044c:0001:25:0
+DAZN 3
 p:CSAT,f:1
 2336:00c00000:0442:0001:25:0
 C News HD
@@ -3977,6 +3992,9 @@ p:CSAT
 2329:00c00000:0442:0001:31:0
 Canal+ Box Office UHD
 p:CSAT,f:1
+232b:00c00000:0442:0001:25:0
+Canal+ Live 9
+p:CSAT,f:1
 226e:00c00000:0438:0001:25:0
 OCS MAX HD
 p:CSAT,f:1
@@ -4013,9 +4031,6 @@ p:CSAT,f:1
 226b:00c00000:0438:0001:25:0
 Piwi+ HD
 p:CSAT,f:1
-226a:00c00000:0438:0001:25:0
-J-One HD
-p:CSAT,f:1
 226f:00c00000:0438:0001:25:0
 Vixen HD
 p:CSAT,f:1
@@ -4027,6 +4042,9 @@ Canal+Foot
 p:CSAT,f:1
 2262:00c00000:0438:0001:25:0
 Mezzo Live HD
+p:CSAT,f:1
+226d:00c00000:0438:0001:25:0
+Canal+ Live 5
 p:CSAT,f:1
 2014:00c00000:0430:0001:25:0
 TFX HD
@@ -4067,11 +4085,11 @@ p:CSAT,f:1
 200f:00c00000:0430:0001:1:0
 France 3 Bretagne
 p:CSAT,f:1
-2016:00c00000:0430:0001:25:0
-Olympia TV HD
-p:CSAT,f:1
 2018:00c00000:0430:0001:25:0
 Canal J HD
+p:CSAT,f:1
+2010:00c00000:0430:0001:25:0
+Canal+ Live 1
 p:CSAT,f:1
 2076:00c00000:0432:0001:25:0
 L´Equipe HD
@@ -4123,6 +4141,9 @@ France 3 Aquitaine
 p:CSAT,f:1
 2078:00c00000:0432:0001:25:0
 .
+p:CSAT,f:1
+207c:00c00000:0432:0001:25:0
+Canal+ Live 10
 p:CSAT,f:1
 6eac:00c00000:03fd:0001:25:0
 WDR HD Köln
@@ -4398,13 +4419,13 @@ p:Movistar+,f:1
 M+ La Resistencia
 p:Movistar+,f:1
 7822:00c00000:0428:0001:1:0
-TEST CAMP7
+M+ Liga Campeones 7
 p:Movistar+,f:1
 782b:00c00000:0428:0001:1:0
-TEST CAMP13
+M+ Liga Campeones 13
 p:Movistar+,f:1
 782c:00c00000:0428:0001:1:0
-TEST CAMP9
+M+ Liga Campeones 9
 p:Movistar+,f:1
 782a:00c00000:0428:0001:1:0
 LaLiga TV Hypermotion 3
@@ -4413,19 +4434,19 @@ p:Movistar+,f:1
 LaLiga TV Hypermotion
 p:Movistar+,f:1
 782f:00c00000:0428:0001:1:0
-TEST CAMP10
+M+ Liga Campeones 10
 p:Movistar+,f:1
 7824:00c00000:0428:0001:1:0
-TEST CAMP8
+M+ Liga Campeones 8
 p:Movistar+,f:1
 7820:00c00000:0428:0001:1:0
-TEST CAMP11
+M+ Liga Campeones 11
 p:Movistar+,f:1
 7829:00c00000:0428:0001:1:0
-TEST CAMP6
+M+ Liga Campeones 6
 p:Movistar+,f:1
 7821:00c00000:0428:0001:1:0
-TEST CAM12
+M+ Liga Campeones 12
 p:Movistar+,f:1
 7830:00c00000:0428:0001:1:0
 LALIGA TV BAR 4
@@ -4787,6 +4808,12 @@ p:T-HT
 00df:00a00000:0002:0040:2:0
 Radio Rovinj.
 p:T-HT
+0082:00a00000:0002:0040:22:0
+CGTN.
+p:T-HT,f:1
+0083:00a00000:0002:0040:22:0
+CGTN Documentary.
+p:T-HT,f:1
 0022:00a00000:0003:0040:22:0
 Vivid TV
 p:Max TV,f:1
@@ -7466,6 +7493,9 @@ p:GLOBECAST
 42ea:00820000:3138:013e:1:0
 BBC News Europe
 p:GLOBECAST,f:1
+06b1:00820000:3138:013e:1:0
+RTVI
+p:GLOBECAST,f:1
 1c86:00820000:332c:013e:1:0
 Bloomberg European TV
 p:Arqiva,f:1
@@ -7693,46 +7723,31 @@ Canal+ Extra 3
 p:CANAL+,f:1
 089c:00820000:01f4:013e:1:0
 Yemen TV
-p:,f:1
+p:iKOMG,f:1
 089a:00820000:01f4:013e:1:0
 CBC Azerbaycan TV
-p:,f:1
+p:iKOMG,f:1
 060e:00820000:01f4:013e:2:0
 Yemen Radio
-p:Eutelsat
+p:iKOMG
 0899:00820000:01f4:013e:1:0
 Freedom TV
-p:,f:1
+p:STN,f:1
 08b3:00820000:01f4:013e:2:0
 WELAT
 p:Eutelsat
 08a6:00820000:01f4:013e:1:0
 Medya Haber
 p:iKOMG,f:1
-0604:00820000:01f4:013e:2:0
-R Radio
-p:
 08b4:00820000:01f4:013e:2:0
 Radio2000
-p:Eutelsat
+p:iKOMG
 08b2:00820000:01f4:013e:2:0
-NEW LIFE RADIO
-p:Eutelsat
-08a8:00820000:01f4:013e:1:0
-Kentron TV
-p:Eutelsat,f:1
-089e:00820000:01f4:013e:1:0
-OU
-p:iKO Media Group,f:1
-08b5:00820000:01f4:013e:32:0
-Love Nature 4K
-p:iKO Media Group
+New Life Radio
+p:iKOMG
 089b:00820000:01f4:013e:1:0
 Iran e Aryaee
-p:iKO Media Group,f:1
-089d:00820000:01f4:013e:1:0
-Al Sharqiya News HD
-p:Harmonic,f:1
+p:iKOMG,f:1
 3ab7:00820000:0514:013e:1:0
 AMC HD Polska
 p:CANAL+,f:1
@@ -8945,66 +8960,6 @@ p:Cyfrowy Polsat S.A.,f:1
 1cad:00820000:1ce8:0071:1:0
 Polsat Seriale HD
 p:,f:1
-0064:00820000:0065:0001:1:0
-Voice of America (VOA) Europe
-p:,f:1
-0068:00820000:0065:0001:2:0
-VOA 1 ch104
-p:
-00c9:00820000:0065:0001:2:0
-Radio Svoboda RU 201
-p:
-00cb:00820000:0065:0001:2:0
-Radioi Ozodi 203
-p:
-00cf:00820000:0065:0001:2:0
-Azatutyun 207
-p:
-00d3:00820000:0065:0001:2:0
-Azattyk Unalgysy 211
-p:
-00d4:00820000:0065:0001:2:0
-Ozodlik Radiosi 212
-p:
-00d9:00820000:0065:0001:2:0
-Azatlyk Radiosy 217
-p:
-00de:00820000:0065:0001:2:0
-RSE Balkans ch222
-p:
-00e3:00820000:0065:0001:2:0
-Evropa e Lire 227
-p:
-00c9:00820000:0065:0001:1:0
-Radio Svoboda RU 201
-p:,f:1
-00cb:00820000:0065:0001:1:0
-Radioi Ozodi 203
-p:,f:1
-00cf:00820000:0065:0001:1:0
-Azatutyun 207
-p:,f:1
-00d3:00820000:0065:0001:1:0
-Azattyk Unalgysy 211
-p:,f:1
-00d4:00820000:0065:0001:1:0
-Ozodlik Radiosi 212
-p:,f:1
-00d9:00820000:0065:0001:1:0
-Azatlyk Radiosy 217
-p:,f:1
-00e3:00820000:0065:0001:1:0
-Evropa e Lire 227
-p:,f:1
-00c8:00820000:0065:0001:1:0
-Current Time HD ch200
-p:,f:1
-00eb:00820000:0065:0001:1:0
-VOA Persian HD
-p:,f:1
-00de:00820000:0065:0001:1:0
-RSE Balkans ch222
-p:,f:1
 0c1d:00820000:1e78:0071:1:0
 Polsat Sport 1
 p:Cyfrowy Polsat,f:1
@@ -9080,27 +9035,12 @@ p:Cyfrowy Polsat S.A.,f:1
 0c29:00820000:1e78:0071:25:0
 Cinemax 2 HD
 p:Cyfrowy Polsat SA,f:1
-39d5:00820000:1fa4:013e:1:0
-Ronahi TV
-p:STN,f:1
-39d6:00820000:1fa4:013e:1:0
-Sterk TV
-p:STN,f:1
 39d1:00820000:1fa4:013e:25:0
 BBC Persian HD
 p:BBC World Service,f:1
 39db:00820000:1fa4:013e:1:0
 Kalemeh TV
 p:iKO Media Group,f:1
-39dc:00820000:1fa4:013e:1:0
-Mohabat TV
-p:,f:1
-39dd:00820000:1fa4:013e:2:0
-Radio Mojdeh
-p:Radio Mojdeh
-39de:00820000:1fa4:013e:2:0
-Mohabat Radio
-p:
 39d2:00820000:1fa4:013e:1:0
 Revival TV
 p:UNITED TELEPORTS,f:1
@@ -9110,6 +9050,9 @@ p:ARQIVA LTD,f:1
 39df:00820000:1fa4:013e:1:0
 Rinascita Del Mondo
 p:VOZROZHDENIE,f:1
+39e0:00820000:1fa4:013e:1:0
+MC EU
+p:MCEU,f:1
 1089:00820000:2008:fbff:25:0
 Sky Sport 3 HD
 p:Sky Italia,f:1
@@ -12050,18 +11993,6 @@ p:NOVA,f:1
 0276:00820000:2774:013e:1:12
 Cobalt Data
 p:NOVA,f:1
-3e81:00820000:1e14:013e:25:0
-Eurosport 7 HD
-p:Warner Bros. Discovery,f:1
-3e82:00820000:1e14:013e:25:0
-Eurosport 8 HD
-p:Warner Bros. Discovery,f:1
-3e83:00820000:1e14:013e:25:0
-Eurosport 9 HD
-p:Warner Bros. Discovery,f:1
-3e84:00820000:1e14:013e:31:0
-Eurosport 4K PopUp UHD
-p:Warner Bros. Discovery,f:1
 02f3:00822c46:02bc:013e:25:0
 Eurosport 3 HD
 p:Warner Bros. Discovery,f:1
@@ -12320,6 +12251,42 @@ p:MyIntProvider,f:1
 07d2:00822d06:07d2:0002:12:0
 HVS-2 Bck (SGB6)
 p:MyServiceProvider
+0064:00820000:1db0:013e:1:0
+Voice of America (VOA) Europe
+p:,f:1
+0068:00820000:1db0:013e:2:0
+VOA 1
+p:
+00c8:00820000:1db0:013e:1:0
+Current Time HD
+p:,f:1
+00c9:00820000:1db0:013e:2:0
+Radio Svoboda
+p:
+00eb:00820000:1db0:013e:1:0
+VOA Persian HD
+p:,f:1
+00cb:00820000:1db0:013e:2:0
+Radio Ozodi
+p:
+00cf:00820000:1db0:013e:2:0
+Azatutyun
+p:
+00d3:00820000:1db0:013e:2:0
+Azattyk Unalgysy
+p:
+00d4:00820000:1db0:013e:2:0
+Ozodlik Radiosi
+p:
+00d9:00820000:1db0:013e:2:0
+Azatlyk Radiosy
+p:
+00de:00820000:1db0:013e:2:0
+RSE Balkans
+p:
+00e3:00820000:1db0:013e:2:0
+Evropa e Lire
+p:
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024
