@@ -30,9 +30,6 @@ transponders
 00820000:0190:013e
 	s 11278000:27500000:1:4:130:2:0:1:2:0:2
 /
-00820000:01f4:013e
-	s 11296000:27500000:0:4:130:2:0
-/
 00820000:0514:013e
 	s 11449000:27500000:0:4:130:2:0:1:2:0:2
 /
@@ -208,7 +205,7 @@ transponders
 	s 12380000:30000000:1:4:130:2:0:1:2:0:2
 /
 00820000:02bc:013e
-	s 11334000:27500000:0:3:130:2:0:1:2:0:2
+	s 11334000:27500000:0:3:130:2:0:1:2:2:2
 /
 0082ae8f:1770:00be
 	s 11919000:29900000:1:2:130:2:0:1:1:2:2
@@ -267,9 +264,6 @@ transponders
 00820000:2774:013e
 	s 12731000:30000000:0:4:130:2:0:1:2:2:2
 /
-00822c46:02bc:013e
-	s 11334000:27500000:0:15:130:2:0:1:2:2:2
-/
 0082b127:0001:0001
 	s 12583000:9600000:1:3:130:2:0:1:2:0:2
 /
@@ -293,6 +287,9 @@ transponders
 /
 00820000:1db0:013e
 	s 12226000:27500000:1:3:130:2:0
+/
+00820000:01f4:00fc
+	s 11296000:27500000:0:4:130:2:0
 /
 005a0000:14b4:009c
 	s 11785000:27500000:0:2:90:2:0:1:2:0:2
@@ -449,12 +446,6 @@ p:RR Media,f:1
 43de:00820000:2cec:013e:1:0
 Eurasia Worldwide
 p:,f:1
-43df:00820000:2cec:013e:1:0
-Vidrodjennya
-p:FFmpeg,f:1
-439f:00820000:2cec:013e:1:0
-MY5 Uzbekistan
-p:FFmpeg,f:1
 0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
 p:SNRT,f:1
@@ -533,9 +524,6 @@ p:Cyfrowy Polsat S.A.,f:1
 3e4e:00820000:2ee0:013e:12:0
 B
 p:Cyfrowy Polsat S.A.
-3e21:00820000:2ee0:013e:1:0
-TLC Poland HD
-p:Cyfrowy Polsat S.A.,f:1
 3e25:00820000:2ee0:013e:1:0
 Eurosport HD
 p:Cyfrowy Polsat S.A.,f:1
@@ -899,9 +887,6 @@ p:nc+,f:1
 32fd:00820000:0190:013e:1:0
 NATIONAL GEO HD
 p:CANAL+,f:1
-32d7:00820000:0190:013e:1:0
-STREFA ABONENTA
-p:CANAL+,f:1
 32dc:00820000:0190:013e:1:0
 Canal+ Premium HD
 p:CANAL+,f:1
@@ -917,38 +902,14 @@ p:CANAL+,f:1
 3327:00820000:0190:013e:1:0
 CANAL+ NOW
 p:CANAL+,f:1
-32f5:00820000:0190:013e:1:0
-STREFA ABONENTA
-p:CANAL+,f:1
 32fa:00820000:0190:013e:1:0
 Canal+ Premium HD
 p:CANAL+,f:1
 32ff:00820000:0190:013e:1:0
 Canal+ Now
 p:CANAL+,f:1
-32cf:00820000:0190:013e:1:0
-Antena
-p:CANAL+,f:1
-32d0:00820000:0190:013e:1:0
-Home TV
-p:CANAL+,f:1
-32d1:00820000:0190:013e:1:0
-Power TV
-p:CANAL+,f:1
-32d2:00820000:0190:013e:1:0
-Nuta TV
-p:CANAL+,f:1
-32d3:00820000:0190:013e:1:0
-Nuta Gold
-p:CANAL+,f:1
-32d4:00820000:0190:013e:1:0
-TVC
-p:CANAL+,f:1
 32d8:00820000:0190:013e:1:0
 Active Family
-p:CANAL+,f:1
-32d5:00820000:0190:013e:1:0
-Adventure HD
 p:CANAL+,f:1
 331c:00820000:0190:013e:1:0
 AXN SPIN HD
@@ -956,21 +917,6 @@ p:,f:1
 32cc:00820000:0190:013e:1:0
 AXN Spin HD
 p:,f:1
-32d9:00820000:0190:013e:1:0
-TVC Super
-p:CANAL+,f:1
-32da:00820000:0190:013e:1:0
-Szlagier TV
-p:CANAL+,f:1
-330f:00820000:0190:013e:1:0
-CANAL+ 4K ULTRA HD
-p:CANAL+,f:1
-3310:00820000:0190:013e:1:0
-CANAL+ 4K ULTRA HD
-p:CANAL+,f:1
-3311:00820000:0190:013e:1:0
-CANAL+ 4K ULTRA HD
-p:CANAL+,f:1
 330d:00820000:0190:013e:31:0
 Canal+ 4K Ultra HD Poland
 p:CANAL+,f:1
@@ -1001,33 +947,6 @@ p:CANAL+,f:1
 3315:00820000:0190:013e:1:5
 Canal+ Extra 3
 p:CANAL+,f:1
-089c:00820000:01f4:013e:1:0
-Yemen TV
-p:iKOMG,f:1
-089a:00820000:01f4:013e:1:0
-CBC Azerbaycan TV
-p:iKOMG,f:1
-060e:00820000:01f4:013e:2:0
-Yemen Radio
-p:iKOMG
-0899:00820000:01f4:013e:1:0
-Freedom TV
-p:STN,f:1
-08b3:00820000:01f4:013e:2:0
-WELAT
-p:Eutelsat
-08a6:00820000:01f4:013e:1:0
-Medya Haber
-p:iKOMG,f:1
-08b4:00820000:01f4:013e:2:0
-Radio2000
-p:iKOMG
-08b2:00820000:01f4:013e:2:0
-New Life Radio
-p:iKOMG
-089b:00820000:01f4:013e:1:0
-Iran e Aryaee
-p:iKOMG,f:1
 3ab7:00820000:0514:013e:1:0
 AMC HD Polska
 p:CANAL+,f:1
@@ -2201,18 +2120,12 @@ p:Cyfrowy Polsat S.A.,f:1
 1caa:00820000:1ce8:0071:2:0
 Zlote Przeboje
 p:Radio ZET Gold
-1c8a:00820000:1ce8:0071:1:0
-CNN_HD
-p:Cyfrowy Polsat S.A.,f:1
 1ccb:00820000:1ce8:0071:12:0
 D61_Nagra
 p:
 1ccc:00820000:1ce8:0071:12:0
 D63_Nagra
 p:
-1c94:00820000:1ce8:0071:1:0
-CNN_Greek
-p:CP,f:1
 1cce:00820000:1ce8:0071:12:0
 D64_4k_Lite
 p:
@@ -2611,9 +2524,6 @@ Epic Drama HD
 p:Cyfrowy Polsat S.A.,f:1
 429a:00820000:2bc0:013e:1:0
 Polo TV
-p:Cyfrowy Polsat S.A.,f:1
-429b:00820000:2bc0:013e:1:0
-Eska TV Extra
 p:Cyfrowy Polsat S.A.,f:1
 429e:00820000:2bc0:013e:1:0
 Nowa TV
@@ -3206,9 +3116,9 @@ p:M-Three satcom,f:1
 0530:00820000:3d54:013e:22:0
 People TV
 p:People TV-Rete 7,f:1
-051a:00820000:3d54:013e:25:0
-Simaye Azadi HD
-p:M-Three Satcom,f:1
+051a:00820000:3d54:013e:1:0
+Simay Azadi HD
+p:GLOBECAST,f:1
 052f:00820000:3d54:013e:22:0
 Super!
 p:M-Three Satcom Srl,f:1
@@ -3326,27 +3236,9 @@ p:nc+,f:1
 1138:00820000:2af8:013e:1:0
 TVP HD
 p:NC+,f:1
-113d:00820000:2af8:013e:31:0
-CANAL+ 4K ULTRA HD
-p:nc+,f:1
-116f:00820000:2af8:013e:31:0
-CANAL+ 4K Ultra HD
-p:nc+,f:1
-1170:00820000:2af8:013e:31:0
-CANAL+ 4K ULTRA HD
-p:nc+,f:1
-1171:00820000:2af8:013e:31:0
-CANAL+ 4K ULTRA HD
-p:nc+,f:1
 1190:00820000:2af8:013e:1:0
 NETFLIX
 p:CANAL+,f:1
-117a:00820000:2af8:013e:1:0
-CANAL+ 4K ULTRA HD
-p:nc+,f:1
-1179:00820000:2af8:013e:31:0
-CANAL+ 4K ULTRA HD
-p:nc+,f:1
 115e:00820000:2af8:013e:1:0
 
 p:CANAL+,f:1
@@ -3548,12 +3440,6 @@ p:Cyfrowy Polsat,f:1
 0042:00820000:1964:013e:1:0
 VOD 208
 p:Cyfrowy Polsat,f:1
-0043:00820000:1964:013e:1:0
-xxxVOD1
-p:Cyfrowy Polsat,f:1
-0044:00820000:1964:013e:1:0
-xxxVOD2
-p:Cyfrowy Polsat,f:1
 0019:00820000:1964:013e:1:0
 MTV Commercial
 p:,f:1
@@ -3596,9 +3482,6 @@ p:,f:1
 0218:00820000:0384:013e:25:0
 Channel 8 KUR
 p:,f:1
-01f6:00820000:0384:013e:1:0
-AIRMONT
-p:FFmpeg,f:1
 01fb:00820000:0384:013e:25:0
 Al Mayadeen
 p:,f:1
@@ -4010,9 +3893,6 @@ p:Sky Italia,f:1
 10fe:00820000:1900:fbff:1:0
 Caccia e Pesca +1
 p:SkyItalia,f:1
-1fb0:00820000:1900:fbff:25:0
-Lazio Style HD
-p:SkyItalia,f:1
 2c29:00820000:1900:fbff:25:0
 SuperTennis HD
 p:SkyItalia,f:1
@@ -4214,9 +4094,6 @@ p:Warner Bros Discovery,f:1
 02f2:00820000:02bc:013e:25:0
 Eurosport 2 Greek HD
 p:Warner Bros Discovery,f:1
-02bf:00820000:02bc:013e:31:0
-Eurosport 4K PopUp UHD
-p:Warner Bros. Discovery,f:1
 0321:0082ae8f:1770:00be:25:0
 DAZN 1
 p:,f:1
@@ -5273,18 +5150,6 @@ p:NOVA,f:1
 0276:00820000:2774:013e:1:12
 Cobalt Data
 p:NOVA,f:1
-02f3:00822c46:02bc:013e:25:0
-Eurosport 3 HD
-p:Warner Bros. Discovery,f:1
-02f4:00822c46:02bc:013e:25:0
-Eurosport 4 HD
-p:Warner Bros. Discovery,f:1
-02f5:00822c46:02bc:013e:25:0
-Eurosport 5 HD
-p:Warner Bros. Discovery,f:1
-02f6:00822c46:02bc:013e:25:0
-Eurosport 6 HD
-p:Warner Bros. Discovery,f:1
 0001:0082b127:0001:0001:1:0
 NLEMG HOL270-1
 p:EMG Connectivity,f:1
@@ -5567,6 +5432,36 @@ p:
 00e3:00820000:1db0:013e:2:0
 Evropa e Lire
 p:
+0604:00820000:01f4:00fc:2:0
+R Radio
+p:iKOMG
+060e:00820000:01f4:00fc:2:0
+Yemen Radio
+p:iKOMG
+0899:00820000:01f4:00fc:1:0
+Freedom TV
+p:STN,f:1
+089a:00820000:01f4:00fc:1:0
+CBC Azerbaycan TV
+p:iKOMG,f:1
+089b:00820000:01f4:00fc:1:0
+Iran e Aryaee
+p:iKOMG,f:1
+089c:00820000:01f4:00fc:1:0
+Yemen TV
+p:iKOMG,f:1
+08a6:00820000:01f4:00fc:1:0
+Medya Haber
+p:iKOMG,f:1
+08b2:00820000:01f4:00fc:2:0
+New Life Radio
+p:iKOMG
+08b3:00820000:01f4:00fc:2:0
+WELAT
+p:Eutelsat
+08b4:00820000:01f4:00fc:2:0
+Radio2000
+p:iKOMG
 00d8:005a0000:14b4:009c:1:0
 Comedy Central
 p:Kabelkiosk,f:1
@@ -5669,12 +5564,6 @@ p:Globecast
 026f:005a2edc:0001:0001:1:0
 CGTN Documentary
 p:Globecast,f:1
-0274:005a2edc:0001:0001:1:0
-JimJam PE
-p:Globecast,f:1
-0275:005a2edc:0001:0001:1:0
-JimJam ME
-p:Globecast,f:1
 0278:005a2edc:0001:0001:1:0
 Euronews Russia
 p:Globecast,f:1
@@ -5720,9 +5609,6 @@ p:GLOBECAST,f:1
 0160:005a0000:19c8:009e:1:0
 RTG - Russian Travel Guide Int
 p:GLOBECAST,f:1
-0165:005a0000:19c8:009e:1:0
-BBC Entertainment Europe
-p:Globecast,f:1
 0163:005a0000:19c8:009e:1:0
 Télé Sahel
 p:GLOBECAST,f:1
@@ -5776,9 +5662,6 @@ Duna HD (Europa)
 p:MTVA,f:1
 009c:005a0000:1838:009e:2:0
 Danko Radio (AAC)
-p:MTVA
-009d:005a0000:1838:009e:2:0
-Duna World Radio (AAC)
 p:MTVA
 009e:005a0000:1838:009e:2:0
 Katolikus Radio (AAC)
@@ -5861,9 +5744,6 @@ p:Arqiva,f:1
 0460:005a0000:1af4:009e:1:0
 NTD (New Tang Dynasty) TV
 p:ARQIVA,f:1
-046a:005a0000:1af4:009e:1:0
-PTV Global
-p:Arqiva,f:1
 0492:005a0000:1af4:009e:1:0
 SDL National
 p:,f:1
@@ -5923,9 +5803,6 @@ Mezzo Live HD
 p:KabelKiosk,f:1
 01fb:005a0000:2134:009c:25:0
 Penthouse Passion HD
-p:KabelKiosk,f:1
-0203:005a0000:2134:009c:1:0
-Playboy TV (20-06)
 p:KabelKiosk,f:1
 0204:005a0000:2134:009c:22:0
 Dusk
@@ -6941,9 +6818,6 @@ p:TELEVISA,f:1
 1838:005a0000:c3be:009e:25:0
 Discovery Hungary HD
 p:Warner Bros. Discovery,f:1
-189c:005a0000:c3be:009e:25:0
-Discovery Turkey HD
-p:Warner Bros. Discovery,f:1
 1964:005a0000:c3be:009e:25:0
 Cartoon Network CEE HD
 p:Warner Bros. Discovery,f:1
@@ -6955,15 +6829,6 @@ Cartoonito CEE HD
 p:Warner Bros. Discovery,f:1
 1a2c:005a0000:c3be:009e:25:0
 Warner TV Czech HD
-p:Warner Bros. Discovery,f:1
-1a90:005a0000:c3be:009e:25:0
-Eurosport 2 CAAC HD
-p:Warner Bros. Discovery,f:1
-17d4:005a0000:c3be:009e:25:0
-Eurosport 1 CAAC HD
-p:Warner Bros. Discovery,f:1
-1af4:005a0000:c3be:009e:25:0
-HD Contribution
 p:Warner Bros. Discovery,f:1
 1518:005a0000:c3aa:009e:25:0
 Animal Planet Europe HD
@@ -7378,6 +7243,9 @@ NTR RADIO 264 MUSIC TV
 p:,f:1
 1c00:005a0000:0384:0110:22:0
 SICILIA 242
+p:,f:1
+1c1f:005a0000:0384:0110:22:0
+AP CHANNEL
 p:,f:1
 000b:005a0000:18e2:217c:1:0
 TEST RL AO2
@@ -7865,7 +7733,7 @@ p:Espansione TV,f:1
 07d8:005aafc2:20e1:217c:1:0
 TSN
 p:GLOBAL,f:1
-07da:005aafc2:20e1:217c:1:0
+07da:005aafc2:20e1:217c:25:0
 SUPERTV
 p:SUPERTV,f:1
 07db:005aafc2:20e1:217c:1:0
