@@ -249,9 +249,6 @@ transponders
 00c00000:0001:0001
 	s 11612000:15000000:0:3:192:2:0:1:2:0:2
 /
-00c0ad80:0001:ffff
-	s 11648000:7200000:1:3:192:2:0:1:2:0:2
-/
 00c00000:042a:0001
 	s 11739000:27500000:1:3:192:2:0
 /
@@ -344,6 +341,9 @@ transponders
 /
 00c0afd6:0000:ffff
 	s 12246000:30940000:1:6:192:2:0:1:2:0:2
+/
+00c0ad7f:0001:ffff
+	s 11647000:7200000:1:3:192:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -729,9 +729,6 @@ fed42aa1:0001:0001
 0ce4aeec:0000:0000
 	s 12012000:10000000:1:3:-300:2:0:1:2:0:2
 /
-fed42aae:0004:ffff
-	s 10926000:6250000:0:3:-300:2:0:1:2:0:2
-/
 0ce42cee:ea7c:0000
 	s 11502000:10200000:1:3:-300:2:0:1:2:2:2
 /
@@ -788,6 +785,12 @@ fed4aee6:0001:0001
 /
 0ce4aee9:0001:0001
 	s 12009000:5000000:1:3:-300:2:0:1:2:0:2
+/
+0ce4310a:0441:0000
+	s 12554000:1000000:0:1:-300:2:0:1:2:0:2
+/
+0ce42cf5:0441:0000
+	s 11509000:3000000:0:1:-300:2:0:1:2:0:2
 /
 end
 services
@@ -3039,7 +3042,7 @@ p:ARD RB
 SR 1 Europawelle
 p:ARD SR
 28c1:00c00000:040f:0001:10:0
-SR 2 KulturRadio
+SR kultur
 p:ARD SR
 28c2:00c00000:040f:0001:10:0
 SR 3 Saarlandwelle
@@ -3153,7 +3156,7 @@ p:ORF,f:1
 ORF Sport + HD
 p:ORF,f:1
 33ff:00c00000:03ed:0001:22:0
-MeinTVshop
+Aristo TV
 p:ORF,f:1
 3400:00c00000:03ed:0001:25:0
 R9 Oesterreich HD
@@ -4103,9 +4106,6 @@ p:,f:1
 0004:00c00000:0001:0001:1:0
 Enc 8 S/U 4
 p:,f:1
-0001:00c0ad80:0001:ffff:1:0
-MThree 622 FEED-1
-p:Service Provider,f:1
 17d5:00c00000:042a:0001:1:0
 CNN Int.
 p:SES ASTRA,f:1
@@ -4496,15 +4496,18 @@ p:ARD,f:1
 0001:00c0ad8e:0001:ffff:1:0
 SNG
 p:ARD,f:1
-0001:00c0afd6:0000:ffff:1:0
+0001:00c0afd6:0000:ffff:25:0
 SVC-1
 p:SES,f:1
-0002:00c0afd6:0000:ffff:1:0
+0002:00c0afd6:0000:ffff:25:0
 SVC-2
 p:SES,f:1
 0003:00c0afd6:0000:ffff:1:0
 SVC-3
 p:SES,f:1
+0001:00c0ad7f:0001:ffff:1:0
+NDR D469 (1)
+p:Television,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -5810,6 +5813,9 @@ p:Telespazio
 0315:00820000:1b58:013e:1:0
 MTA3 - Al Arabia
 p:Harmonic,f:1
+02e7:00820000:1b58:013e:2:0
+Radio K test
+p:Telespazio
 3c8d:00820000:1bbc:013e:1:0
 novacinema1 HD Cy
 p:NOVA,f:1
@@ -6617,12 +6623,6 @@ p:Cyfrowy Polsat S.A.,f:1
 4284:00820000:2bc0:013e:1:0
 Polsat Games HD
 p:Cyfrowy Polsat S.A.,f:1
-4298:00820000:2bc0:013e:1:0
-VOX Music TV
-p:Cyfrowy Polsat S.A.,f:1
-4299:00820000:2bc0:013e:1:0
-Eska Rock
-p:Cyfrowy Polsat S.A.,f:1
 428e:00820000:2bc0:013e:1:0
 4Fun Kids
 p:Cyfrowy Polsat S.A.,f:1
@@ -7040,9 +7040,6 @@ p:CANAL+,f:1
 11fb:00820000:2b5c:013e:1:0
 TravelXP 4K
 p:,f:1
-11fa:00820000:2b5c:013e:1:0
-NASA TV UHD
-p:,f:1
 11fc:00820000:2b5c:013e:1:0
 Museum 4K
 p:,f:1
@@ -7220,6 +7217,9 @@ p:M-Three Satcom,f:1
 053b:00820000:3d54:013e:1:0
 Baby TV
 p:MX1,f:1
+0537:00820000:3d54:013e:1:0
+WellTV
+p:M-Three Satcom,f:1
 0d4a:00820000:1450:013e:25:0
 Rai 2 HD
 p:Rai,f:1
@@ -7877,9 +7877,9 @@ p:KABELIO.CH,f:1
 0075:00820000:3264:013e:1:0
 Kabelio ServusTV
 p:KABELIO.CH,f:1
-0096:00820000:3264:013e:1:0
-TEST
-p:,f:1
+008b:00820000:3264:013e:1:0
+Kabelio Spare
+p:KABELIO.CH,f:1
 2b68:00820000:170c:fbff:1:0
 Informativa privacy e consenso
 p:SkyItalia,f:1
@@ -7991,9 +7991,6 @@ p:NOVA,f:1
 0197:00820000:1518:013e:1:0
 NovaSports1HD
 p:NOVA,f:1
-0198:00820000:1518:013e:1:0
-NovaSports1HD Cy
-p:NOVA,f:1
 0199:00820000:1518:013e:1:0
 NovaSports 6 HD
 p:NOVA,f:1
@@ -8017,9 +8014,6 @@ Disney Junior
 p:Nova,f:1
 019f:00820000:1518:013e:1:0
 NovaSportsExtra1HD
-p:Nova,f:1
-01a0:00820000:1518:013e:1:0
-TLC
 p:Nova,f:1
 01a1:00820000:1518:013e:1:0
 Disney Channel
@@ -8267,6 +8261,9 @@ p:STN,f:1
 232e:0082b0e8:2328:013e:1:0
 Revelation TV
 p:STN,f:1
+232f:0082b0e8:2328:013e:1:0
+Kentron TV
+p:STN,f:1
 012c:00820000:1d4c:013e:1:0
 SERVICE IP/MAC NOTIFICATION
 p:EUTELSAT,f:1
@@ -8430,7 +8427,7 @@ p:KABELIO.CH,f:1
 Kabelio S1
 p:KABELIO.CH,f:1
 0101:00820000:2db4:013e:25:0
-Kabelio Mooz Dance
+Kabelio TV8 Italia
 p:KABELIO.CH,f:1
 00fe:00820000:2db4:013e:25:0
 Kabelio TMC CH
@@ -9361,28 +9358,28 @@ Ale kino+ HD
 p:CANAL+,f:1
 3779:00822c93:044c:013e:1:0
 Canal+ Film HD Polska
-p:Cyfra +,f:1
+p:CANAL+,f:1
 377b:00822c93:044c:013e:25:0
-Canal+ Family HD Poland
-p:Cyfra +,f:1
+Canal+ 360
+p:CANAL+,f:1
 377c:00822c93:044c:013e:25:0
 StudioMed TV HD
 p:CANAL+,f:1
 377d:00822c93:044c:013e:25:0
 TeleTOON+ HD
-p:CYFRA+,f:1
+p:CANAL+,f:1
 377e:00822c93:044c:013e:25:0
 Planete+ HD Polska
-p:Cyfra +,f:1
+p:CANAL+,f:1
 377f:00822c93:044c:013e:25:0
 Canal+ Kuchnia HD
-p:Cyfra +,f:1
+p:CANAL+,f:1
 3781:00822c93:044c:013e:25:0
 Ale Kino+ HD
-p:Cyfra +,f:1
+p:CANAL+,f:1
 3782:00822c93:044c:013e:25:0
 Canal+ Seriale HD
-p:Cyfra +,f:1
+p:CANAL+,f:1
 3784:00822c93:044c:013e:25:0
 TeenNick
 p:CANAL+,f:1
@@ -9430,19 +9427,19 @@ Radio Contact
 p:CANAL+
 379f:00822c93:044c:013e:25:0
 Ale Kino+ HD
-p:Cyfra +,f:1
+p:CANAL+,f:1
 37ab:00822c93:044c:013e:1:0
 Canal+ Film HD Polska
 p:CANAL+,f:1
 37af:00822c93:044c:013e:25:0
 TeleToon+ HD
-p:nc+,f:1
+p:CANAL+,f:1
 37b0:00822c93:044c:013e:25:0
 Planete+ HD
-p:nc+,f:1
+p:CANAL+,f:1
 37b1:00822c93:044c:013e:25:0
 Canal+ Kuchnia HD
-p:nc+,f:1
+p:CANAL+,f:1
 37b4:00822c93:044c:013e:25:0
 Canal+ Seriale HD
 p:CANAL+,f:1
@@ -9450,13 +9447,13 @@ p:CANAL+,f:1
 
 p:
 37ad:00822c93:044c:013e:25:0
-CANAL+ FAMILY HD
+CANAL+ 360
 p:CANAL+,f:1
 37b7:00822c93:044c:013e:25:0
-CANAL+ FAMILY HD
+CANAL+ 360
 p:CANAL+,f:1
 37c1:00822c93:044c:013e:25:0
-CANAL+ FAMILY HD
+CANAL+ 360
 p:CANAL+,f:1
 0066:0082b128:0001:ffff:1:0
 Service_02
@@ -9938,6 +9935,12 @@ p:,f:1
 051d:0ce40000:002f:0036:1:0
 NewsNOW
 p:NewsNOW,f:1
+051e:0ce40000:002f:0036:1:0
+SIC Novelas
+p:SIC Novelas,f:1
+17aa:0ce40000:002f:0036:1:0
+SIC Novelas
+p:,f:1
 0191:0ce40000:0027:0036:1:0
 AXN Movies HD
 p:AXN Movies HD,f:1
@@ -11372,12 +11375,6 @@ p:M-Three Satcom,f:1
 0001:0ce4aeec:0000:0000:25:0
 E-467 via 1
 p:overon,f:1
-0007:fed42aae:0004:ffff:25:0
-Promo TSA
-p:TSA,f:1
-03e8:fed42aae:0004:ffff:2:0
-NAIZ irratia
-p:TSA
 0709:0ce42cee:ea7c:0000:100:0
 11502V SID 0x709
 p:DVB-S2 8PSK 11502V 330.0Â°E
@@ -11447,9 +11444,21 @@ p:SAPEC,f:1
 0001:0ce4b132:0001:0001:1:0
 TR2-E316
 p:Net 1,f:1
-0020:0ce4aee9:0001:0001:1:0
-GET_ENC 3
-p:OVERON,f:1
+0011:0ce4aee9:0001:0001:25:0
+OVERON MONCLOA
+p:TANDBERG Television,f:1
+5014:0ce4310a:0441:0000:100:0
+AOL
+p:
+9c40:0ce4310a:0441:0000:100:0
+AOL
+p:
+5014:0ce42cf5:0441:0000:100:0
+AOL
+p:
+9c40:0ce42cf5:0441:0000:100:0
+AOL
+p:
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024
