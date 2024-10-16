@@ -336,14 +336,14 @@ transponders
 00c0ad88:0001:ffff
 	s 11656000:7200000:1:3:192:2:0:1:2:0:2
 /
-00c0ad8e:0001:ffff
-	s 11662000:7200000:1:3:192:2:0:1:2:0:2
-/
 00c0afd6:0000:ffff
 	s 12246000:30940000:1:6:192:2:0:1:2:0:2
 /
 00c0ad7f:0001:ffff
 	s 11647000:7200000:1:3:192:2:0:1:2:0:2
+/
+00c0ad8e:0000:0000
+	s 11662000:7200000:1:3:192:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -986,6 +986,9 @@ p:CANAL+,f:1
 77c9:00c00000:040a:0001:1:0
 M+Deportes 8
 p:Movistar+,f:1
+77cb:00c00000:040a:0001:100:0
+
+p:
 76c0:00c00000:040e:0001:1:0
 M+ Cine
 p:Movistar+,f:1
@@ -1028,6 +1031,9 @@ p:Movistar+,f:1
 76c9:00c00000:040e:0001:1:0
 DAZN LaLiga
 p:Movistar+,f:1
+76c6:00c00000:040e:0001:100:0
+
+p:
 7568:00c00000:0412:0001:1:0
 Alquiler X
 p:Movistar+,f:1
@@ -1142,6 +1148,9 @@ p:,f:1
 7586:00c00000:0412:0001:1:0
 
 p:,f:1
+7564:00c00000:0412:0001:100:0
+
+p:
 7729:00c00000:0416:0001:1:0
 Canal Sur Andalucia
 p:Movistar+,f:1
@@ -1187,6 +1196,12 @@ p:CANAL+,f:1
 7732:00c00000:0416:0001:1:0
 DAZN F1
 p:Movistar+,f:1
+7725:00c00000:0416:0001:100:0
+
+p:
+7737:00c00000:0416:0001:100:0
+
+p:
 132f:00c00000:03ef:0001:25:0
 ORF 1 HD
 p:ORF,f:1
@@ -1247,6 +1262,9 @@ p:ORF
 1335:00c00000:03ef:0001:25:0
 ORF HITRADIO OE3 VISUAL
 p:ORF,f:1
+1343:00c00000:03ef:0001:12:0
+Smit OP OTA
+p:ORF
 7469:00c00000:03f0:0001:1:0
 Antena Nova
 p:DIGITAL+,f:1
@@ -1289,6 +1307,9 @@ p:DIGITAL+,f:1
 7468:00c00000:03f0:0001:1:0
 M+ Ellas #V
 p:DIGITAL+,f:1
+7476:00c00000:03f0:0001:100:0
+
+p:
 2b66:00c00000:03f3:0001:25:0
 ZDF HD
 p:ZDF Vision,f:1
@@ -2333,9 +2354,6 @@ p:MB Satellite,f:1
 3145:00c00000:0459:0001:12:0
 RAPS
 p:MB Satellite
-3164:00c00000:0459:0001:2:0
-Schlager Radio
-p:MB Satellite
 313e:00c00000:0459:0001:1:0
 More Than Sports TV
 p:MB Satellite,f:1
@@ -2359,6 +2377,9 @@ Telegold
 p:MB Satellite,f:1
 315a:00c00000:0459:0001:1:0
 Trigger.FM
+p:MB Satellite,f:1
+3164:00c00000:0459:0001:1:0
+Schlager Radio
 p:MB Satellite,f:1
 332d:00c00000:045b:0001:1:0
 ORF III
@@ -4076,6 +4097,9 @@ p:,f:1
 7894:00c00000:0414:0001:1:0
 TEST L9
 p:,f:1
+788e:00c00000:0414:0001:100:0
+
+p:
 18f1:00c00000:03f4:0003:1:0
 Galicia TV HD
 p:TSA,f:1
@@ -4337,9 +4361,6 @@ p:WWW.TVN.DE,f:1
 0001:00c0ad88:0001:ffff:1:0
 SNG
 p:ARD,f:1
-0001:00c0ad8e:0001:ffff:1:0
-SNG
-p:ARD,f:1
 0001:00c0afd6:0000:ffff:25:0
 SVC-1
 p:SES,f:1
@@ -4352,6 +4373,9 @@ p:SES,f:1
 0001:00c0ad7f:0001:ffff:1:0
 NDR D469 (1)
 p:Television,f:1
+0001:00c0ad8e:0000:0000:25:0
+MMG-D185 HD Encoder 2
+p:,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -5225,6 +5249,18 @@ p:,f:1
 0157:00820000:157c:013e:1:0
 
 p:,f:1
+0139:00820000:157c:013e:1:0
+ERT World Europe
+p:NOVA,f:1
+013a:00820000:157c:013e:1:0
+Nickelodeon
+p:NOVA,f:1
+013b:00820000:157c:013e:1:0
+Mad Greekz
+p:NOVA,f:1
+013c:00820000:157c:013e:2:0
+VOICE OF GREECE
+p:NOVA
 1e53:00820000:15e0:fbff:25:0
 MTV Italia HD
 p:SkyItalia,f:1
@@ -5600,6 +5636,9 @@ p:SkyItalia,f:1
 0dcf:00820000:1a2c:fbff:25:0
 DAZN 2
 p:SkyItalia,f:1
+2da0:00820000:1a2c:fbff:31:0
+Sky Sport Hidden 4k
+p:SkyItalia,f:1
 2bad:00820000:1af4:fbff:2:0
 Radio Vaticana Europa
 p:SkyItalia
@@ -5875,6 +5914,12 @@ Da Vinci HD
 p:NetMed,f:1
 0165:00820000:1c84:013e:1:0
 Cosmote Sport 3 HD
+p:NOVA,f:1
+016e:00820000:1c84:013e:1:0
+Nova Cinema 4 HD
+p:NOVA,f:1
+016f:00820000:1c84:013e:1:0
+Novacinema4HD Cy
 p:NOVA,f:1
 1c86:00820000:1ce8:0071:1:0
 AXN White Poland
@@ -7649,6 +7694,9 @@ p:,f:1
 04b9:00820000:23f0:013e:1:0
 HotBird 4K1
 p:,f:1
+04b6:00820000:23f0:013e:25:0
+KSA Sport 4
+p:,f:1
 0064:00820000:3264:013e:25:0
 Kabelio 3+
 p:KABELIO.CH,f:1
@@ -8152,6 +8200,12 @@ Cricket Gold
 p:MuxIP,f:1
 05dd:00820000:0321:013e:1:0
 World Poker Tour
+p:MuxIP,f:1
+05e0:00820000:0321:013e:1:0
+Triton Poker Series
+p:MuxIP,f:1
+05e1:00820000:0321:013e:1:0
+One America News
 p:MuxIP,f:1
 0065:00820000:2fa8:013e:22:0
 Svoboda
