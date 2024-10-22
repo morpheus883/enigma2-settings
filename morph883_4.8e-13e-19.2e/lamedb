@@ -636,14 +636,14 @@ transponders
 0082b140:0001:ffff
 	s 12608000:9800000:1:3:130:2:0:1:2:0:2
 /
-00822d06:07d2:0002
-	s 11526000:33000000:0:2:130:2:0:1:2:0:2
-/
 00820000:1db0:013e
 	s 12226000:27500000:1:3:130:2:0
 /
 00820000:01f4:00fc
 	s 11296000:27500000:0:4:130:2:0
+/
+00822d06:03eb:0001
+	s 11526000:33000000:0:2:130:2:0:1:2:0:2
 /
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
@@ -4289,6 +4289,9 @@ p:TSA,f:1
 0007:00c00000:03f4:0003:25:0
 Promo TSA
 p:TSA,f:1
+18f7:00c00000:03f4:0003:1:0
+Daystar Espanol
+p:TSA,f:1
 7831:00c00000:0428:0001:1:0
 LaLiga TV Hypermotion 2
 p:Movistar+,f:1
@@ -5471,9 +5474,6 @@ p:SkyItalia,f:1
 1100:00820000:1644:fbff:1:0
 Sky TG24 Active
 p:SkyItalia,f:1
-1104:00820000:1644:fbff:1:0
-Sky Meteo 24 Active
-p:SkyItalia,f:1
 110c:00820000:1644:fbff:1:0
 POKERItalia24
 p:SkyItalia,f:1
@@ -5793,7 +5793,7 @@ p:SkyItalia,f:1
 DAZN 2
 p:SkyItalia,f:1
 2da0:00820000:1a2c:fbff:31:0
-Sky Sport Hidden 4k
+Sky Sport 4k
 p:SkyItalia,f:1
 2bad:00820000:1af4:fbff:2:0
 Radio Vaticana Europa
@@ -7265,6 +7265,9 @@ p:MX1,f:1
 0537:00820000:3d54:013e:1:0
 WellTV
 p:M-Three Satcom,f:1
+0538:00820000:3d54:013e:1:0
+GEB TV
+p:,f:1
 0d4a:00820000:1450:013e:25:0
 Rai 2 HD
 p:Rai,f:1
@@ -9521,12 +9524,6 @@ p:GLOBECAST,f:1
 0068:0082b140:0001:ffff:1:0
 Service_04
 p:GLOBECAST,f:1
-0320:00822d06:07d2:0002:1:0
-SERVICE IP/MAC NOTIFICATION
-p:MyIntProvider,f:1
-07d2:00822d06:07d2:0002:12:0
-HVS-2 Bck (SGB6)
-p:MyServiceProvider
 0064:00820000:1db0:013e:1:0
 Voice of America (VOA) Europe
 p:,f:1
@@ -9593,6 +9590,12 @@ p:Eutelsat
 08b4:00820000:01f4:00fc:2:0
 Radio2000
 p:iKOMG
+03eb:00822d06:03eb:0001:12:0
+HVS-3 Bck
+p:Telespazio
+0320:00822d06:03eb:0001:1:0
+SERVICE IP/MAC NOTIFICATION
+p:MyIntProvider,f:1
 0fa0:00300000:0006:0056:1:0
 TVN Chile Nordic
 p:SES ASTRA,f:1

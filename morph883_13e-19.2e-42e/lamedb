@@ -318,14 +318,17 @@ transponders
 01a4ab4b:0001:ffff
 	s 11083000:7500000:1:3:420:2:0:1:2:0:2
 /
-01a4aaf8:0001:ffff
-	s 11000000:7500000:1:3:420:2:0:1:2:0:2
-/
 01a4ad56:0000:0000
 	s 11606000:6200000:1:3:420:2:0:1:2:0:2
 /
 01a40000:0022:005a
 	s 11767000:15000000:1:3:420:2:0:1:2:0:2
+/
+01a4aaf8:0000:0000
+	s 11000000:7500000:1:3:420:2:0:1:2:0:2
+/
+01a4ace8:0001:ffff
+	s 11496000:4100000:1:4:420:2:0:1:2:0:2
 /
 00c00000:041d:0001
 	s 10773000:22000000:0:3:192:2:0:1:2:0:2
@@ -954,14 +957,14 @@ transponders
 0082b140:0001:ffff
 	s 12608000:9800000:1:3:130:2:0:1:2:0:2
 /
-00822d06:07d2:0002
-	s 11526000:33000000:0:2:130:2:0:1:2:0:2
-/
 00820000:1db0:013e
 	s 12226000:27500000:1:3:130:2:0
 /
 00820000:01f4:00fc
 	s 11296000:27500000:0:4:130:2:0
+/
+00822d06:03eb:0001
+	s 11526000:33000000:0:2:130:2:0:1:2:0:2
 /
 end
 services
@@ -3491,9 +3494,9 @@ p:TRT,f:1
 0001:01a42ac9:0001:ffff:1:0
 AYM 1
 p:ERICSSON Television,f:1
-0001:01a4ad3c:0000:0000:1:0
-TURKSAT HD
-p:TURKSAT,f:1
+0001:01a4ad3c:0000:0000:25:0
+IHA 2528
+p:,f:1
 0001:01a4ab50:0001:ffff:1:0
 TUR-034 A
 p:EBUER,f:1
@@ -3502,6 +3505,9 @@ TURKSAT TANITIM HD
 p:TURKSAT,f:1
 c577:01a40000:c6d5:042e:25:0
 Kablo Info HD
+p:TURKSAT,f:1
+c578:01a40000:c6d5:042e:25:0
+Tarim Orman
 p:TURKSAT,f:1
 0001:01a4ab68:0001:ffff:1:0
 ANKARA DM 4
@@ -3512,21 +3518,24 @@ p:,c:050001,f:1
 0001:01a4ab64:0001:ffff:1:0
 TUR 137-A
 p:TRT,f:1
-0001:01a4ad4d:0000:0000:1:0
-TRT UPLINK
-p:TRT,f:1
+0001:01a4ad4d:0000:0000:25:0
+TUR 141 - A
+p:,f:1
 0001:01a4ab4b:0001:ffff:1:0
 TUR128
 p:Service Provider,f:1
-0001:01a4aaf8:0001:ffff:1:0
-SNG MEDYA 1
-p:SNG MEDYA HD,f:1
 0001:01a4ad56:0000:0000:1:0
 TRT UPLINK
 p:TRT,f:1
 3fac:01a40000:0022:005a:25:0
 TRT 4K
 p:DEMIROREN MEDYA,f:1
+0001:01a4aaf8:0000:0000:25:0
+beINSPORTS TURKEY 1
+p:beINTURKEY,f:1
+0001:01a4ace8:0001:ffff:1:0
+ANKA HABER
+p:1,f:1
 526c:00c00000:041d:0001:25:0
 Anixe HD
 p:BetaDigital,f:1
@@ -7022,6 +7031,9 @@ p:TSA,f:1
 0007:00c00000:03f4:0003:25:0
 Promo TSA
 p:TSA,f:1
+18f7:00c00000:03f4:0003:1:0
+Daystar Espanol
+p:TSA,f:1
 7831:00c00000:0428:0001:1:0
 LaLiga TV Hypermotion 2
 p:Movistar+,f:1
@@ -8204,9 +8216,6 @@ p:SkyItalia,f:1
 1100:00820000:1644:fbff:1:0
 Sky TG24 Active
 p:SkyItalia,f:1
-1104:00820000:1644:fbff:1:0
-Sky Meteo 24 Active
-p:SkyItalia,f:1
 110c:00820000:1644:fbff:1:0
 POKERItalia24
 p:SkyItalia,f:1
@@ -8526,7 +8535,7 @@ p:SkyItalia,f:1
 DAZN 2
 p:SkyItalia,f:1
 2da0:00820000:1a2c:fbff:31:0
-Sky Sport Hidden 4k
+Sky Sport 4k
 p:SkyItalia,f:1
 2bad:00820000:1af4:fbff:2:0
 Radio Vaticana Europa
@@ -9998,6 +10007,9 @@ p:MX1,f:1
 0537:00820000:3d54:013e:1:0
 WellTV
 p:M-Three Satcom,f:1
+0538:00820000:3d54:013e:1:0
+GEB TV
+p:,f:1
 0d4a:00820000:1450:013e:25:0
 Rai 2 HD
 p:Rai,f:1
@@ -12254,12 +12266,6 @@ p:GLOBECAST,f:1
 0068:0082b140:0001:ffff:1:0
 Service_04
 p:GLOBECAST,f:1
-0320:00822d06:07d2:0002:1:0
-SERVICE IP/MAC NOTIFICATION
-p:MyIntProvider,f:1
-07d2:00822d06:07d2:0002:12:0
-HVS-2 Bck (SGB6)
-p:MyServiceProvider
 0064:00820000:1db0:013e:1:0
 Voice of America (VOA) Europe
 p:,f:1
@@ -12326,6 +12332,12 @@ p:Eutelsat
 08b4:00820000:01f4:00fc:2:0
 Radio2000
 p:iKOMG
+03eb:00822d06:03eb:0001:12:0
+HVS-3 Bck
+p:Telespazio
+0320:00822d06:03eb:0001:1:0
+SERVICE IP/MAC NOTIFICATION
+p:MyIntProvider,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024

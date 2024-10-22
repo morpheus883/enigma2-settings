@@ -94,7 +94,7 @@ transponders
 	s 10847000:23000000:1:3:282:2:0:1:2:1:2
 /
 011a0000:0808:0002
-	s 10936000:22000000:1:4:282:2:0
+	s 10936000:23000000:1:3:282:2:0:1:2:1:2
 /
 011a0000:07f0:0002
 	s 12324000:27500000:1:2:282:2:0:1:2:0:2
@@ -546,14 +546,14 @@ transponders
 0082b140:0001:ffff
 	s 12608000:9800000:1:3:130:2:0:1:2:0:2
 /
-00822d06:07d2:0002
-	s 11526000:33000000:0:2:130:2:0:1:2:0:2
-/
 00820000:1db0:013e
 	s 12226000:27500000:1:3:130:2:0
 /
 00820000:01f4:00fc
 	s 11296000:27500000:0:4:130:2:0
+/
+00822d06:03eb:0001
+	s 11526000:33000000:0:2:130:2:0:1:2:0:2
 /
 end
 services
@@ -1742,8 +1742,20 @@ p:BSkyB,f:1
 1b3c:011a0000:0802:0002:25:0
 CBBC HD
 p:BSkyB,f:1
-23f8:011a0000:0808:0002:1:0
-e4
+2071:011a0000:0808:0002:1:0
+E4 +1
+p:BSkyB,f:1
+20ac:011a0000:0808:0002:1:1
+Channel 4 North +1
+p:BSkyB,f:1
+20ae:011a0000:0808:0002:1:2
+More 4 +1
+p:BSkyB,f:1
+20b6:011a0000:0808:0002:1:3
+Channel 4 Scotland +1
+p:BSkyB,f:1
+20bd:011a0000:0808:0002:1:4
+Film4 +1
 p:BSkyB,f:1
 264a:011a0000:07f0:0002:31:0
 Sky Sports F1 UHD
@@ -2306,7 +2318,7 @@ p:BSkyB,f:1
 1dbd:011a0000:082d:0002:2:0
 WRN Europe
 p:BSkyB
-0001:011ab168:0000:0000:25:0
+0001:011ab168:0000:0000:31:0
 SW01 Encoder 1
 p:SW01 Encoder 1,f:1
 0001:011a30e3:0000:0000:25:0
@@ -2653,6 +2665,12 @@ Brit Asia TV
 p:BSkyB,f:1
 c4d4:011a2b4a:0811:0002:1:0
 Blaze Ireland
+p:BSkyB,f:1
+c4d6:011a2b4a:0811:0002:1:0
+Crime+Inv
+p:BSkyB,f:1
+c4d8:011a2b4a:0811:0002:1:0
+Sky History
 p:BSkyB,f:1
 1581:011a0000:07e7:0002:1:0
 Sky Sci-Fi
@@ -3746,9 +3764,6 @@ p:SkyItalia,f:1
 1100:00820000:1644:fbff:1:0
 Sky TG24 Active
 p:SkyItalia,f:1
-1104:00820000:1644:fbff:1:0
-Sky Meteo 24 Active
-p:SkyItalia,f:1
 110c:00820000:1644:fbff:1:0
 POKERItalia24
 p:SkyItalia,f:1
@@ -4068,7 +4083,7 @@ p:SkyItalia,f:1
 DAZN 2
 p:SkyItalia,f:1
 2da0:00820000:1a2c:fbff:31:0
-Sky Sport Hidden 4k
+Sky Sport 4k
 p:SkyItalia,f:1
 2bad:00820000:1af4:fbff:2:0
 Radio Vaticana Europa
@@ -5540,6 +5555,9 @@ p:MX1,f:1
 0537:00820000:3d54:013e:1:0
 WellTV
 p:M-Three Satcom,f:1
+0538:00820000:3d54:013e:1:0
+GEB TV
+p:,f:1
 0d4a:00820000:1450:013e:25:0
 Rai 2 HD
 p:Rai,f:1
@@ -7796,12 +7814,6 @@ p:GLOBECAST,f:1
 0068:0082b140:0001:ffff:1:0
 Service_04
 p:GLOBECAST,f:1
-0320:00822d06:07d2:0002:1:0
-SERVICE IP/MAC NOTIFICATION
-p:MyIntProvider,f:1
-07d2:00822d06:07d2:0002:12:0
-HVS-2 Bck (SGB6)
-p:MyServiceProvider
 0064:00820000:1db0:013e:1:0
 Voice of America (VOA) Europe
 p:,f:1
@@ -7868,6 +7880,12 @@ p:Eutelsat
 08b4:00820000:01f4:00fc:2:0
 Radio2000
 p:iKOMG
+03eb:00822d06:03eb:0001:12:0
+HVS-3 Bck
+p:Telespazio
+0320:00822d06:03eb:0001:1:0
+SERVICE IP/MAC NOTIFICATION
+p:MyIntProvider,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024

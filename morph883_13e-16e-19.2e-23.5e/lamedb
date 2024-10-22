@@ -165,9 +165,6 @@ transponders
 00eb2cf2:0001:0001
 	s 11506000:14500000:0:3:235:2:0:1:2:0:2
 /
-00eb2d83:000b:0003
-	s 11651000:3780000:0:8:235:2:0:1:1:0:2
-/
 00ebb122:0001:ffff
 	s 12578000:9874000:1:3:235:2:0:1:2:0:2
 /
@@ -1278,14 +1275,14 @@ transponders
 0082b140:0001:ffff
 	s 12608000:9800000:1:3:130:2:0:1:2:0:2
 /
-00822d06:07d2:0002
-	s 11526000:33000000:0:2:130:2:0:1:2:0:2
-/
 00820000:1db0:013e
 	s 12226000:27500000:1:3:130:2:0
 /
 00820000:01f4:00fc
 	s 11296000:27500000:0:4:130:2:0
+/
+00822d06:03eb:0001
+	s 11526000:33000000:0:2:130:2:0:1:2:0:2
 /
 end
 services
@@ -1559,10 +1556,10 @@ p:Towercom
 1347:00eb0000:0ca2:0003:2:0
 Melody V
 p:Towercom
-1389:00eb0000:0ca2:0003:1:0
+4e84:00eb0000:0ca2:0003:1:0
 RTS Nauka
 p:Telekom Srbija,f:1
-138a:00eb0000:0ca2:0003:1:0
+4f26:00eb0000:0ca2:0003:1:0
 RTS Poletarac 2
 p:Telekom Srbija,f:1
 1349:00eb0000:0ca2:0003:2:0
@@ -2528,30 +2525,6 @@ p:schawa tv GmbH,f:1
 0001:00eb2cf2:0001:0001:1:0
 Roger Waters-Backup
 p:EMG Connectivity,f:1
-070b:00eb2d83:000b:0003:2:0
-Radio Wielkopolska
-p:
-0517:00eb2d83:000b:0003:2:0
-RMF Maxxx
-p:
-0643:00eb2d83:000b:0003:2:0
-RMF Maxxx Opole 102.0 FM
-p:
-044f:00eb2d83:000b:0003:2:0
-RMF FM
-p:
-057b:00eb2d83:000b:0003:2:0
-RMF Maxxx Trojmiasto
-p:
-06a7:00eb2d83:000b:0003:2:0
-RMF Maxxx Pomorze
-p:
-04b3:00eb2d83:000b:0003:2:0
-RMF Classic
-p:
-05df:00eb2d83:000b:0003:2:0
-RMF Maxxx
-p:
 0001:00ebb122:0001:ffff:1:0
 D-462
 p:D-462,f:1
@@ -2670,8 +2643,8 @@ p:ARD,f:1
 NDR HH UE2 I
 p:Television,f:1
 0001:00ebb139:0000:0000:25:0
-MMG-D185 HD Encoder 2
-p:,f:1
+2DF-Ant4-1
+p:ZDF,f:1
 0001:00ebad70:0001:0001:31:0
 NLF - Vision 2
 p:BWS Ltd,f:1
@@ -2709,49 +2682,49 @@ p:Stratos TV,f:1
 ITA-274 MAIN
 p:Live Images,f:1
 339a:00eb0000:0c9d:0003:22:0
-Jojko.
+Jojko
 p:M7 Group,f:1
 339b:00eb0000:0c9d:0003:22:0
-Nova International.
+Nova International
 p:M7 Group,f:1
 339d:00eb0000:0c9d:0003:22:0
-Slager Muzika.
+Slager Muzika
 p:M7 Group,f:1
 3391:00eb0000:0c9d:0003:25:0
-Nova HD.
+Nova HD
 p:M7 Group,f:1
 3392:00eb0000:0c9d:0003:25:0
-Prima HD.
+Prima HD
 p:M7 Group,f:1
 3393:00eb0000:0c9d:0003:25:0
-Nova Sport 1 HD.
+Nova Sport 1 HD
 p:M7 Group,f:1
 3394:00eb0000:0c9d:0003:25:0
-Nova Action HD.
+Nova Action HD
 p:M7 Group,f:1
 3395:00eb0000:0c9d:0003:25:0
-Nova Cinema HD.
+Nova Cinema HD
 p:M7 Group,f:1
 3396:00eb0000:0c9d:0003:25:0
-Prima COOL HD.
+Prima COOL HD
 p:M7 Group,f:1
 3397:00eb0000:0c9d:0003:25:0
-DAJTO HD.
+DAJTO HD
 p:M7 Group,f:1
 3398:00eb0000:0c9d:0003:25:0
-TV JOJ HD.
+TV JOJ HD
 p:M7 Group,f:1
 3399:00eb0000:0c9d:0003:25:0
-JOJ PLUS HD.
+JOJ PLUS HD
 p:M7 Group,f:1
 339e:00eb0000:0c9d:0003:25:0
-JOJ Sport HD.
+JOJ Sport HD
 p:M7 Group,f:1
 339f:00eb0000:0c9d:0003:25:0
-Markiza Krimi HD.
+Markiza Krimi HD
 p:M7 Group,f:1
 33a0:00eb0000:0c9d:0003:25:0
-JOJ 24 HD.
+JOJ 24 HD
 p:M7 Group,f:1
 0001:00ebb0f3:0000:0001:1:0
 ISO CAM WANDA
@@ -2893,6 +2866,9 @@ OTA SMIT HW8
 p:M7 Group
 372e:00ebaec5:0c8e:0003:22:0
 SuperTV2
+p:M7 Group,f:1
+3726:00ebaec5:0c8e:0003:25:0
+Test
 p:M7 Group,f:1
 52f3:00ebaf61:0c96:0003:22:0
 Muzsika TV
@@ -3513,7 +3489,7 @@ p:Telekom Srbija,f:1
 Prva Files
 p:Telekom Srbija,f:1
 4e75:00eb0000:0ca8:0003:1:0
-Prva Kick
+Newsmax Balkans
 p:Telekom Srbija,f:1
 4e76:00eb0000:0ca8:0003:1:0
 Prva World
@@ -3740,9 +3716,6 @@ p:Telekom Srbija,f:1
 4e74:00eb0000:0c86:0003:1:0
 Prva Files
 p:Telekom Srbija,f:1
-4e75:00eb0000:0c86:0003:1:0
-Prva Kick
-p:Telekom Srbija,f:1
 4e76:00eb0000:0c86:0003:1:0
 Prva World
 p:Telekom Srbija,f:1
@@ -3830,6 +3803,9 @@ p:Telekom Srbija,f:1
 4e72:00eb0000:0c86:0003:100:0
 11817V SID 0x4e72
 p:DVB-S2 8PSK 11817V 23.5Â°E
+4e75:00eb0000:0c86:0003:1:0
+Newsmax Balkans
+p:Telekom Srbija,f:1
 4e30:00eb0000:0ca5:0003:1:0
 Una TV
 p:Telekom Srbija,f:1
@@ -7616,6 +7592,9 @@ p:TSA,f:1
 0007:00c00000:03f4:0003:25:0
 Promo TSA
 p:TSA,f:1
+18f7:00c00000:03f4:0003:1:0
+Daystar Espanol
+p:TSA,f:1
 7831:00c00000:0428:0001:1:0
 LaLiga TV Hypermotion 2
 p:Movistar+,f:1
@@ -8189,6 +8168,9 @@ p:DigitALB,f:1
 0622:00a00000:51a4:016e:22:0
 ALBUK TV
 p:DigitALB,f:1
+0334:00a00000:51a4:016e:1:0
+T7
+p:DigitALB,f:1
 03e9:00a00000:50dc:016e:25:0
 Gold HD
 p:DigitALB,f:1
@@ -8239,6 +8221,9 @@ Arta TV
 p:DigitALB,f:1
 0604:00a00000:50dc:016e:22:0
 MCN TV
+p:DigitALB,f:1
+0064:00a00000:50dc:016e:22:0
+RTV 21
 p:DigitALB,f:1
 0774:00a00000:c6d4:016e:1:0
 Disney Channel Romania
@@ -8657,14 +8642,14 @@ p:DigitALB
 08ca:00a00000:5014:016e:1:0
 Zjarr TV
 p:DigitALB,f:1
-13ba:00a00000:5014:016e:25:0
-RTV 21
-p:DigitALB,f:1
 13d8:00a00000:5014:016e:25:0
 KTV Kohavision HD
 p:DigitALB,f:1
-13f6:00a00000:5014:016e:25:0
-T7
+1324:00a00000:5014:016e:25:0
+Big Brother VIP Kosova 1
+p:DigitALB,f:1
+1342:00a00000:5014:016e:25:0
+Big Brother VIP Kosova 2
 p:DigitALB,f:1
 0458:00a00000:526c:016e:25:0
 Epic Drama HD
@@ -9819,7 +9804,7 @@ p:FLEVOSAT.NL,f:1
 2024 Premier League Darts
 p:NEP Connect,f:1
 0001:00a0b1c4:0000:0000:25:0
-HCMC Studio
+ISOL Studio
 p:,f:1
 02f5:00a0abdf:9d08:016e:1:0
 RTV 2
@@ -11252,9 +11237,6 @@ p:SkyItalia,f:1
 1100:00820000:1644:fbff:1:0
 Sky TG24 Active
 p:SkyItalia,f:1
-1104:00820000:1644:fbff:1:0
-Sky Meteo 24 Active
-p:SkyItalia,f:1
 110c:00820000:1644:fbff:1:0
 POKERItalia24
 p:SkyItalia,f:1
@@ -11574,7 +11556,7 @@ p:SkyItalia,f:1
 DAZN 2
 p:SkyItalia,f:1
 2da0:00820000:1a2c:fbff:31:0
-Sky Sport Hidden 4k
+Sky Sport 4k
 p:SkyItalia,f:1
 2bad:00820000:1af4:fbff:2:0
 Radio Vaticana Europa
@@ -13046,6 +13028,9 @@ p:MX1,f:1
 0537:00820000:3d54:013e:1:0
 WellTV
 p:M-Three Satcom,f:1
+0538:00820000:3d54:013e:1:0
+GEB TV
+p:,f:1
 0d4a:00820000:1450:013e:25:0
 Rai 2 HD
 p:Rai,f:1
@@ -15302,12 +15287,6 @@ p:GLOBECAST,f:1
 0068:0082b140:0001:ffff:1:0
 Service_04
 p:GLOBECAST,f:1
-0320:00822d06:07d2:0002:1:0
-SERVICE IP/MAC NOTIFICATION
-p:MyIntProvider,f:1
-07d2:00822d06:07d2:0002:12:0
-HVS-2 Bck (SGB6)
-p:MyServiceProvider
 0064:00820000:1db0:013e:1:0
 Voice of America (VOA) Europe
 p:,f:1
@@ -15374,6 +15353,12 @@ p:Eutelsat
 08b4:00820000:01f4:00fc:2:0
 Radio2000
 p:iKOMG
+03eb:00822d06:03eb:0001:12:0
+HVS-3 Bck
+p:Telespazio
+0320:00822d06:03eb:0001:1:0
+SERVICE IP/MAC NOTIFICATION
+p:MyIntProvider,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2024
