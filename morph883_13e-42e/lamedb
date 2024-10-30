@@ -330,6 +330,15 @@ transponders
 01a4ace8:0001:ffff
 	s 11496000:4100000:1:4:420:2:0:1:2:0:2
 /
+01a42d64:0001:ffff
+	s 11620000:2222000:0:4:420:2:0
+/
+01a4aaed:0001:ffff
+	s 10989000:2962000:1:4:420:2:0:1:2:0:2
+/
+01a4ab55:0000:0001
+	s 11093000:4444000:1:4:420:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -3191,6 +3200,15 @@ p:beINTURKEY,f:1
 0001:01a4ace8:0001:ffff:1:0
 ANKA HABER
 p:1,f:1
+0001:01a42d64:0001:ffff:1:0
+AYM 1
+p:Service Provider,f:1
+0001:01a4aaed:0001:ffff:1:0
+DHA ANKARA
+p:CELAL 1,f:1
+0001:01a4ab55:0000:0001:1:0
+TUR122B
+p:TRT,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -3278,6 +3296,9 @@ p:SNRT
 0032:00820000:2e18:00b0:2:0
 Agadir
 p:SNRT
+0007:00820000:2e18:00b0:1:0
+2M Monde HD
+p:SNRT,f:1
 3e1d:00820000:2ee0:013e:1:0
 Sundance HD
 p:Cyfrowy Polsat S.A.,f:1
@@ -3887,15 +3908,6 @@ p:Telespazio,f:1
 4244:00820000:3db8:013e:1:0
 Arte Atelier
 p:Telespazio,f:1
-425a:00820000:3db8:013e:1:0
-Napoli Mia
-p:Telespazio,f:1
-4261:00820000:3db8:013e:1:0
-TeleItalia
-p:Telespazio,f:1
-4257:00820000:3db8:013e:1:0
-CIAO
-p:Telespazio,f:1
 4247:00820000:3db8:013e:1:0
 Suryoyo Sat
 p:Telespazio,f:1
@@ -3919,6 +3931,15 @@ RDS Social TV HD
 p:Teelspazio,f:1
 4256:00820000:3db8:013e:2:0
 Canzoni Napoletane
+p:Telespazio
+4259:00820000:3db8:013e:2:0
+Cusano Palermo
+p:Telespazio
+425a:00820000:3db8:013e:2:0
+Cusano Napoli
+p:Telespazio
+425b:00820000:3db8:013e:2:0
+Cusano Salerno
 p:Telespazio
 2526:00820000:13ef:013e:25:0
 Sharqiya HD
@@ -5886,7 +5907,7 @@ p:BSkyB,f:1
 Zeta TV HD
 p:,f:1
 052b:00820000:3d54:013e:25:0
-RTL 102.5 Radio Doc
+RTL 102.5 Caliente
 p:M-Three satcom,f:1
 0530:00820000:3d54:013e:22:0
 People TV

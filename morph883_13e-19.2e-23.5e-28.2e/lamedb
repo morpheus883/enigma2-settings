@@ -591,9 +591,6 @@ transponders
 00eb2cff:0001:ffff
 	s 11519000:7200000:0:3:235:2:0:1:2:0:2
 /
-00ebaced:0000:0000
-	s 11501000:7200000:1:3:235:2:0:1:2:0:2
-/
 00ebaec5:0c8e:0003
 	s 11973000:29900000:1:3:235:2:0:1:2:2:2
 /
@@ -650,6 +647,9 @@ transponders
 /
 00ebb12f:0000:0000
 	s 12591000:7200000:1:3:235:2:0:1:2:0:2
+/
+00ebaced:0001:0001
+	s 11501000:7200000:1:3:235:2:0:1:2:0:2
 /
 00c00000:041d:0001
 	s 10773000:22000000:0:3:192:2:0:1:2:0:2
@@ -974,6 +974,9 @@ transponders
 /
 00c00000:0064:0001
 	s 11697000:2915000:1:3:192:2:0:1:2:0:2
+/
+00c0adae:0001:0001
+	s 11694000:940000:1:1:192:2:0
 /
 00c0ad63:0001:ffff
 	s 11619000:7200000:1:3:192:2:0:1:2:0:2
@@ -3050,9 +3053,9 @@ p:BSkyB,f:1
 1dbd:011a0000:082d:0002:2:0
 WRN Europe
 p:BSkyB
-0001:011ab168:0000:0000:31:0
-SW01 Encoder 1
-p:SW01 Encoder 1,f:1
+0001:011ab168:0000:0000:25:0
+VRT Sat Encoder 1
+p:VRT,f:1
 0001:011a30e3:0000:0000:25:0
 Amazon Man City v Madrid sat backup
 p:NEP Connect,f:1
@@ -5081,9 +5084,6 @@ p:Digisat,f:1
 0001:00eb2cff:0001:ffff:1:0
 rt1.tv
 p:rt1.tv,f:1
-0001:00ebaced:0000:0000:25:0
-MMG-D185 HD Encoder 2
-p:,f:1
 372b:00ebaec5:0c8e:0003:22:0
 AMC SK
 p:M7 Group,f:1
@@ -5230,6 +5230,9 @@ RTL Gold
 p:M7 Group,f:1
 5315:00ebaf61:0c96:0003:22:0
 TV2 Sef
+p:M7 Group,f:1
+5316:00ebaf61:0c96:0003:25:0
+Nova Sport 5 SK HD
 p:M7 Group,f:1
 1f50:00eb0000:0ca1:0003:22:0
 Story4 HU
@@ -6368,6 +6371,9 @@ p:rt1.tv,f:1
 0001:00ebb12f:0000:0000:1:0
 2DF-Ant4-1
 p:ZDF,f:1
+0001:00ebaced:0001:0001:1:0
+D-331 Main
+p:none,f:1
 526c:00c00000:041d:0001:25:0
 Anixe HD
 p:BetaDigital,f:1
@@ -9704,6 +9710,12 @@ p:,f:1
 17d5:00c00000:042a:0001:1:0
 CNN Int.
 p:SES ASTRA,f:1
+17de:00c00000:042a:0001:1:0
+SES-LCN2
+p:SES ASTRA,f:1
+17df:00c00000:042a:0001:12:0
+SGI_1111
+p:Ses Astra
 0001:00c0ad52:4321:00eb:1:0
 FIS DAVOS
 p:LINE UP MEDIA COMMUNICATION HUNGARY,f:1
@@ -10082,6 +10094,12 @@ p:
 03e8:00c00000:0064:0001:2:0
 Kronehit Steiermark
 p:
+03e8:00c0adae:0001:0001:2:0
+DLF USI1
+p:MB Satellite
+07d0:00c0adae:0001:0001:2:1
+DLFK USI1
+p:MB Satellite
 0001:00c0ad63:0001:ffff:1:0
 D-312
 p:.,f:1
@@ -10196,6 +10214,9 @@ p:SNRT
 0032:00820000:2e18:00b0:2:0
 Agadir
 p:SNRT
+0007:00820000:2e18:00b0:1:0
+2M Monde HD
+p:SNRT,f:1
 3e1d:00820000:2ee0:013e:1:0
 Sundance HD
 p:Cyfrowy Polsat S.A.,f:1
@@ -10805,15 +10826,6 @@ p:Telespazio,f:1
 4244:00820000:3db8:013e:1:0
 Arte Atelier
 p:Telespazio,f:1
-425a:00820000:3db8:013e:1:0
-Napoli Mia
-p:Telespazio,f:1
-4261:00820000:3db8:013e:1:0
-TeleItalia
-p:Telespazio,f:1
-4257:00820000:3db8:013e:1:0
-CIAO
-p:Telespazio,f:1
 4247:00820000:3db8:013e:1:0
 Suryoyo Sat
 p:Telespazio,f:1
@@ -10837,6 +10849,15 @@ RDS Social TV HD
 p:Teelspazio,f:1
 4256:00820000:3db8:013e:2:0
 Canzoni Napoletane
+p:Telespazio
+4259:00820000:3db8:013e:2:0
+Cusano Palermo
+p:Telespazio
+425a:00820000:3db8:013e:2:0
+Cusano Napoli
+p:Telespazio
+425b:00820000:3db8:013e:2:0
+Cusano Salerno
 p:Telespazio
 2526:00820000:13ef:013e:25:0
 Sharqiya HD
@@ -12804,7 +12825,7 @@ p:BSkyB,f:1
 Zeta TV HD
 p:,f:1
 052b:00820000:3d54:013e:25:0
-RTL 102.5 Radio Doc
+RTL 102.5 Caliente
 p:M-Three satcom,f:1
 0530:00820000:3d54:013e:22:0
 People TV
