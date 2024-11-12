@@ -3,9 +3,6 @@ transponders
 011a0000:07f9:0002
 	s 10714000:22000000:0:4:282:2:0
 /
-011a0000:0805:0002
-	s 10891000:22000000:0:4:282:2:0
-/
 011a0000:083f:0002
 	s 11344000:27500000:0:2:282:2:0:1:2:0:2
 /
@@ -267,8 +264,8 @@ transponders
 011a30ec:0001:0001
 	s 12524000:7500000:0:3:282:2:0:1:2:0:2
 /
-011aac4f:0840:0002
-	s 11343000:27500000:1:2:282:2:0:1:2:0:2
+011ab0e7:0000:0000
+	s 12519000:14250000:1:3:282:2:0:1:2:0:2
 /
 00c00000:041d:0001
 	s 10773000:22000000:0:3:192:2:0:1:2:0:2
@@ -912,9 +909,6 @@ transponders
 0082b12f:0001:ffff
 	s 12591000:7200000:1:3:130:2:0:1:2:0:2
 /
-00820000:2328:013e
-	s 12520000:27500000:1:2:130:2:0:1:2:0:2
-/
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
 /
@@ -1175,17 +1169,8 @@ services
 2404:011a0000:07f9:0002:1:0
 Film4
 p:BSkyB,f:1
-240e:011a0000:07f9:0002:1:0
-More 4 +1
-p:BSkyB,f:1
 2419:011a0000:07f9:0002:1:0
 E4 UK
-p:BSkyB,f:1
-2424:011a0000:07f9:0002:1:0
-Channel 4 North +1
-p:BSkyB,f:1
-2425:011a0000:07f9:0002:1:0
-Channel 4 Scotland +1
 p:BSkyB,f:1
 2428:011a0000:07f9:0002:1:0
 More 4
@@ -1193,38 +1178,14 @@ p:BSkyB,f:1
 2426:011a0000:07f9:0002:1:0
 E4 Extra
 p:BSkyB,f:1
-242c:011a0000:07f9:0002:1:0
-E4 +1
-p:BSkyB,f:1
 2423:011a0000:07f9:0002:1:0
 Channel 4 London +1
 p:BSkyB,f:1
 2427:011a0000:07f9:0002:1:0
 Channel 4 South & East +1
 p:BSkyB,f:1
-242d:011a0000:07f9:0002:1:0
-Film4 +1
-p:BSkyB,f:1
 2405:011a0000:07f9:0002:1:0
 4seven
-p:BSkyB,f:1
-27b5:011a0000:0805:0002:1:0
-ITV 2 +1
-p:BSkyB,f:1
-27b6:011a0000:0805:0002:1:0
-ITV 4 +1
-p:BSkyB,f:1
-27ae:011a0000:0805:0002:1:0
-ITV 3 +1 (19-07)
-p:BSkyB,f:1
-2792:011a0000:0805:0002:1:0
-STV North
-p:BSkyB,f:1
-2793:011a0000:0805:0002:1:0
-STV East
-p:BSkyB,f:1
-27a2:011a0000:0805:0002:1:0
-ITV 1 Meridian East +1
 p:BSkyB,f:1
 5212:011a0000:083f:0002:25:0
 ITV 1 Meridian Thames Valley HD
@@ -1913,6 +1874,24 @@ p:BSkyB,f:1
 d7e6:011a0000:0840:0002:1:0
 ITV 1 London +1
 p:BSkyB,f:1
+d7e1:011a0000:0840:0002:1:0
+STV North
+p:BSkyB,f:1
+d7e2:011a0000:0840:0002:1:0
+STV East
+p:BSkyB,f:1
+d7e7:011a0000:0840:0002:1:0
+ITV 1 Meridian East +1
+p:BSkyB,f:1
+d7f2:011a0000:0840:0002:1:0
+ITV 3 +1
+p:BSkyB,f:1
+d7f1:011a0000:0840:0002:1:0
+ITV 2 +1
+p:BSkyB,f:1
+d7f3:011a0000:0840:0002:1:0
+ITV 4 +1
+p:BSkyB,f:1
 1966:011a0000:07e6:0002:1:0
 Eden
 p:BSkyB,f:1
@@ -2366,19 +2345,19 @@ p:BSkyB,f:1
 1b3c:011a0000:0802:0002:25:0
 CBBC HD
 p:BSkyB,f:1
+20ae:011a0000:0808:0002:1:0
+More 4 +1
+p:BSkyB,f:1
+20ac:011a0000:0808:0002:1:0
+Channel 4 North +1
+p:BSkyB,f:1
+20b6:011a0000:0808:0002:1:0
+Channel 4 Scotland +1
+p:BSkyB,f:1
 2071:011a0000:0808:0002:1:0
 E4 +1
 p:BSkyB,f:1
-20ac:011a0000:0808:0002:1:1
-Channel 4 North +1
-p:BSkyB,f:1
-20ae:011a0000:0808:0002:1:2
-More 4 +1
-p:BSkyB,f:1
-20b6:011a0000:0808:0002:1:3
-Channel 4 Scotland +1
-p:BSkyB,f:1
-20bd:011a0000:0808:0002:1:4
+20bd:011a0000:0808:0002:1:0
 Film4 +1
 p:BSkyB,f:1
 264a:011a0000:07f0:0002:31:0
@@ -3128,6 +3107,15 @@ p:BSkyB,f:1
 cff8:011a0000:0832:0002:1:0
 TNT Sports 7
 p:BSkyB,f:1
+cfe4:011a0000:0832:0002:1:0
+Food Network Ireland
+p:BSkyB,f:1
+cff4:011a0000:0832:0002:1:0
+Really Ireland
+p:BSkyB,f:1
+cfee:011a0000:0832:0002:1:0
+HGTV+1
+p:BSkyB,f:1
 c5ee:011a0000:0831:0002:1:0
 TNT Sports 6 HD
 p:BSkyB,f:1
@@ -3173,17 +3161,8 @@ p:BSkyB,f:1
 0b58:011a305e:07f3:0002:1:0
 Really UK
 p:BSkyB,f:1
-0b67:011a305e:07f3:0002:1:0
-HGTV+1
-p:BSkyB,f:1
-0b66:011a305e:07f3:0002:1:0
-Really Ireland
-p:BSkyB,f:1
 0b59:011a305e:07f3:0002:1:0
 DMAX UK +1
-p:BSkyB,f:1
-0b5c:011a305e:07f3:0002:1:0
-Food Network
 p:BSkyB,f:1
 0b5e:011a305e:07f3:0002:1:0
 Food Network
@@ -3401,9 +3380,9 @@ p:BSkyB,f:1
 16ac:011a0000:07e7:0002:1:0
 RTÉ News
 p:BSkyB,f:1
-143f:011a0000:07e7:0002:2:0
+143f:011a0000:07e7:0002:130:0
 OS990 delivery for OS402
-p:BSkyB
+p:BSkyB,f:1
 5140:011a0000:0842:0002:25:0
 STV West HD
 p:BSkyB,f:1
@@ -3458,6 +3437,9 @@ p:NEP Ireland,f:1
 0001:011a30ec:0001:0001:1:0
 UKI 1867 M
 p:Net 1,f:1
+0001:011ab0e7:0000:0000:25:0
+GAA Beo - Doire
+p:,f:1
 526c:00c00000:041d:0001:25:0
 Anixe HD
 p:BetaDigital,f:1
@@ -14450,6 +14432,12 @@ p:Slovak Telekom,f:1
 177d:0e080000:0af6:00bb:22:0
 Prima Show
 p:Slovak Telekom,f:1
+1786:0e080000:0af6:00bb:22:0
+Nova Lady
+p:Slovak Telekom,f:1
+1780:0e080000:0af6:00bb:25:0
+JOJ 24 HD
+p:Slovak Telekom,f:1
 79e3:0e080000:02c8:0600:1:0
 CNN International Europe
 p:M7,f:1
@@ -14972,6 +14960,9 @@ p:Slovak Telekom,f:1
 0fab:0e080000:0af4:00bb:22:0
 Warner TV
 p:Slovak Telekom,f:1
+0fbd:0e080000:0af4:00bb:25:0
+CNN Prima News HD
+p:Slovak Telekom,f:1
 0bc4:0e080000:0af3:00bb:25:0
 Spektrum HD
 p:Slovak Telekom,f:1
@@ -15152,6 +15143,12 @@ p:Slovak Telekom,f:1
 2b0a:0e080000:0afb:00bb:22:0
 DIGI Infokanal
 p:Slovak Telekom,f:1
+2b07:0e080000:0afb:00bb:22:0
+TV Barrandov
+p:Slovak Telekom,f:1
+2b0d:0e080000:0afb:00bb:22:0
+CS Film
+p:Slovak Telekom,f:1
 271d:0e080000:0afa:00bb:22:0
 CS Film
 p:Slovak Telekom,f:1
@@ -15223,6 +15220,12 @@ HGTV
 p:Slovak Telekom,f:1
 2339:0e080000:0af9:00bb:25:0
 Nova Sport 5 SK HD
+p:Slovak Telekom,f:1
+233d:0e080000:0af9:00bb:22:0
+Seznam.cz TV
+p:Slovak Telekom,f:1
+2341:0e080000:0af9:00bb:25:0
+Test service
 p:Slovak Telekom,f:1
 000d:fff8acc4:0001:0001:25:0
 Adtec 1
@@ -15700,6 +15703,9 @@ Nova Gold HD
 p:Slovak Telekom,f:1
 1b70:fff80000:0af7:00bb:25:0
 Nova Fun HD
+p:Slovak Telekom,f:1
+1b74:fff80000:0af7:00bb:25:0
+RTVS Sport HD
 p:Slovak Telekom,f:1
 0001:0e08ab58:0001:ffff:1:0
 STV NORTH ENC 2
