@@ -646,7 +646,7 @@ transponders
 	s 11566000:29900000:0:3:130:2:0:1:2:0:2
 /
 00820000:3db8:013e
-	s 11662000:27500000:1:2:130:2:0:1:2:0:0
+	s 11662000:27500000:1:3:130:2:0:1:2:0:0
 /
 00820000:13ef:013e
 	s 11747000:27500000:0:3:130:2:0:1:2:0:2
@@ -1728,22 +1728,22 @@ p:ProSiebenSat.1,f:1
 4mediathek
 p:ProSiebenSat.1,f:1
 6dca:00c00000:044d:0001:1:0
-Das Erste
+alt_Das Erste
 p:ARD Digital,f:1
 6dcb:00c00000:044d:0001:1:0
-Bayerisches Fernsehen Süd
+alt_BR Fernsehen Süd
 p:ARD Digital,f:1
 6dcc:00c00000:044d:0001:1:0
-Hessen Fernsehen
+alt_hr-fernsehen
 p:ARD Digital,f:1
 6dce:00c00000:044d:0001:1:0
-Bayerisches Fernsehen Nord
+alt_BR Fernsehen Nord
 p:ARD Digital,f:1
 6dcf:00c00000:044d:0001:1:0
 WDR Fernsehen Köln
 p:ARD Digital,f:1
 6dd1:00c00000:044d:0001:1:0
-Südwest Fernsehen Baden-Würtemberg
+alt_SWR Fernsehen BW
 p:ARD Digital,f:1
 0081:00c00000:0006:0085:25:0
 Sky Sport Top Event HD
@@ -1890,37 +1890,37 @@ p:ProSiebenSat.1,f:1
 .
 p:ProSiebenSat.1,f:1
 6e2d:00c00000:0431:0001:1:0
-RBB Brandenburg
+alt_rbb Brandenburg
 p:ARD Digital,f:1
 6e2e:00c00000:0431:0001:1:0
-RBB Berlin
+alt_rbb Berlin
 p:ARD Digital,f:1
 6e3d:00c00000:0431:0001:1:0
-ARD-TEST-1
+alt_ARD-TEST-1
 p:ARD Digital,f:1
 6e40:00c00000:0431:0001:1:0
-NDR Fernsehen
+alt_NDR FS MV
 p:ARD Digital,f:1
 6e41:00c00000:0431:0001:1:0
-NDR Hamburg (19h30-20h CET)
+alt_NDR FS HH
 p:ARD Digital,f:1
 6e42:00c00000:0431:0001:1:0
-NDR Niedersachsen (19h30-20h CET)
+alt_NDR FS NDS
 p:ARD Digital,f:1
 6e43:00c00000:0431:0001:1:0
-NDR Schleswig Holstein (19h30-20h CET)
+alt_NDR FS SH
 p:ARD Digital,f:1
 6e44:00c00000:0431:0001:1:0
-MDR Sachsen
+alt_MDR Sachsen
 p:ARD Digital,f:1
 6e45:00c00000:0431:0001:1:0
-MDR Sachsen-Anhalt
+alt_MDR S-Anhalt
 p:ARD Digital,f:1
 6e46:00c00000:0431:0001:1:0
-MDR Thüringen
+alt_MDR Thüringen
 p:ARD Digital,f:1
 6e47:00c00000:0431:0001:1:0
-Südwest Fernsehen Rheinland-Pfalz
+alt_SWR Fernsehen RP
 p:ARD Digital,f:1
 6e5a:00c00000:0431:0001:12:0
 ARD-Data-1
@@ -2349,13 +2349,13 @@ p:ARD Digital,f:1
 WDR Studio Siegen (19h30-20h CET)
 p:ARD Digital,f:1
 6ee1:00c00000:04b1:0001:1:0
-Radio Bremen TV
+alt_Radio Bremen TV
 p:ARD Digital,f:1
 6eeb:00c00000:04b1:0001:1:0
 WDR Test A
 p:ARD Digital,f:1
 6ee2:00c00000:04b1:0001:1:0
-SR Fernsehen
+alt_SR Fernsehen
 p:ARD,f:1
 003e:00c00000:0005:0085:1:0
 EWTN katholisches TV
@@ -3373,6 +3373,9 @@ SWR2 5.1
 p:ARD SWR
 2896:00c00000:040f:0001:25:0
 ARD-Test-R
+p:ARD,f:1
+2897:00c00000:040f:0001:25:0
+ARD-Test-1
 p:ARD,f:1
 2774:00c00000:0409:0001:25:0
 TLC HD
@@ -4488,7 +4491,7 @@ p:SES,f:1
 Just Fishing HD
 p:SES,f:1
 29d3:00c00000:045c:0001:25:3
-Red Adventure HD
+Höhenrausch HD
 p:SES,f:1
 29d1:00c00000:045c:0001:25:4
 Serien+ HD
@@ -4743,7 +4746,7 @@ p:SES,f:1
 Deluxe Lounge
 p:SES,f:1
 2940:00c00000:0458:0001:1:0
-Red Adventure
+Höhenrausch
 p:SES,f:1
 2941:00c00000:0458:0001:1:0
 Crime Time
@@ -5733,7 +5736,7 @@ p:A1 Broadcasting,f:1
 Prima Cool SK HD
 p:A1 Broadcasting,f:1
 048a:00a00000:76c0:016e:31:0
-Prima Love
+Prima Love SK
 p:A1 Broadcasting,f:1
 048c:00a00000:76c0:016e:31:0
 Prima MAX HD
@@ -5984,6 +5987,9 @@ p:A1 Broadcasting,f:1
 025f:00a00000:c418:016e:25:0
 Eurosport 1 HD
 p:A1 HR,f:1
+0265:00a00000:c418:016e:25:0
+Suryoyo Sat
+p:A1 Broadcasting,f:1
 0683:00a00000:9fc4:016e:1:0
 Kanal A Slovenia HD
 p:SBB,f:1
@@ -9656,9 +9662,9 @@ p:NOVA,f:1
 4206:00820000:2f44:013e:1:0
 Dorcel TV HD
 p:iKO Media Group,f:1
-421c:00820000:2f44:013e:22:0
+421c:00820000:2f44:013e:25:0
 UA TV
-p:COSMONOVA LLC,f:1
+p:COSMONOVA BROADCAST LLC,f:1
 422d:00820000:2f44:013e:22:0
 Class TV Moda
 p:M-Three Satcom,f:1
