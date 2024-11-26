@@ -78,9 +78,6 @@ transponders
 00eb3180:0001:ffff
 	s 12672000:4800000:1:3:235:2:0:1:2:0:2
 /
-00eb2d0a:0002:ffff
-	s 11530000:7200000:0:3:235:2:0:1:2:0:2
-/
 00eb2cf5:0001:0001
 	s 11509000:7200000:0:3:235:2:0:1:2:0:2
 /
@@ -386,6 +383,9 @@ transponders
 /
 00eb2cec:0000:0001
 	s 11500000:7200000:0:3:235:2:0:1:2:0:2
+/
+00eb0000:0000:00eb
+	s 11530000:7200000:1:3:235:2:0:1:2:0:2
 /
 00c00000:041d:0001
 	s 10773000:22000000:0:3:192:2:0:1:2:0:2
@@ -1937,9 +1937,6 @@ p:Service Provider,f:1
 0001:00eb3180:0001:ffff:25:0
 D128 Feed1
 p:Betamobil,f:1
-0001:00eb2d0a:0002:ffff:1:0
-Service 01
-p:Net 1,f:1
 0001:00eb2cf5:0001:0001:25:0
 D103 DG Live in Rome
 p:VAHLAND TV D-103,f:1
@@ -3839,6 +3836,9 @@ p:none,f:1
 0001:00eb2cec:0000:0001:25:0
 D-322 TX2
 p:WPA,f:1
+0001:00eb0000:0000:00eb:25:0
+D415feed2
+p:Betamobil,f:1
 526c:00c00000:041d:0001:25:0
 Anixe HD
 p:BetaDigital,f:1
@@ -6317,12 +6317,6 @@ p:BetaDigital,f:1
 2779:00c00000:0409:0001:25:0
 QVC Style HD
 p:BetaDigital,f:1
-2777:00c00000:0409:0001:25:0
-MTV HD Germany
-p:SKY,f:1
-2781:00c00000:0409:0001:25:0
-MTV HD Austria
-p:BetaDigital,f:1
 277e:00c00000:0409:0001:25:0
 TLC HD Austria
 p:BetaDigital,f:1
@@ -6935,9 +6929,6 @@ p:CSAT,f:1
 238a:00c00000:0434:0001:100:0
 
 p:
-24bc:00c00000:043c:0001:25:0
-OCS Pulp HD
-p:CSAT,f:1
 24be:00c00000:043c:0001:25:0
 Eurosport 2 HD
 p:CSAT,f:1
@@ -7022,9 +7013,6 @@ p:CSAT,f:1
 220c:00c00000:044c:0001:1:0
 France 3 Nord-Pas de Calais
 p:CSAT,f:1
-2200:00c00000:044c:0001:25:0
-Disney+
-p:CSAT,f:1
 220d:00c00000:044c:0001:25:0
 FranceInfo HD
 p:CSAT,f:1
@@ -7082,9 +7070,6 @@ p:CSAT,f:1
 238a:00c00000:0442:0001:100:0
 
 p:
-226e:00c00000:0438:0001:25:0
-OCS MAX HD
-p:CSAT,f:1
 2261:00c00000:0438:0001:25:0
 Canal+ HD
 p:CSAT,f:1
@@ -7760,7 +7745,7 @@ p:SES,f:1
 0002:00c0afd6:0000:ffff:25:0
 SVC-2
 p:SES,f:1
-0003:00c0afd6:0000:ffff:1:0
+0003:00c0afd6:0000:ffff:25:0
 SVC-3
 p:SES,f:1
 0001:00c0ad7f:0001:ffff:1:0
@@ -11672,6 +11657,12 @@ p:MuxIP,f:1
 05e2:00820000:0321:013e:1:0
 AFV Americas Funniest
 p:MuxIP,f:1
+05e3:00820000:0321:013e:1:0
+Sports First
+p:MuxIP,f:1
+05e4:00820000:0321:013e:1:0
+Bare Knuckles Fighting Championship
+p:MuxIP,f:1
 0065:00820000:2fa8:013e:22:0
 Svoboda
 p:Svoboda Satellite,f:1
@@ -12354,7 +12345,7 @@ p:VIVACOM,f:1
 Chasse & Peche
 p:VIVACOM,f:1
 008c:00820000:251c:00d5:1:26
-Jim Jam
+H2
 p:VIVACOM,f:1
 008d:00820000:251c:00d5:1:27
 DW
@@ -12403,6 +12394,9 @@ Comedy.Box
 p:VIVACOM,f:1
 025b:00820000:251c:00d5:1:0
 Action.Box
+p:VIVACOM,f:1
+0095:00820000:251c:00d5:1:0
+Super Toons
 p:VIVACOM,f:1
 13a7:00820000:2710:00d5:1:0
 B1B Action
