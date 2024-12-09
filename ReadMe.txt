@@ -5,18 +5,18 @@
      == © by Morpheus883 ##
       ===========########
 
-Morpheus883's Site: http://morpheus883.altervista.org/
+Morpheus883's Site: https://morpheus883.altervista.org/
 GitHub Repository: https://github.com/morpheus883/
 and available on the main Sat Sites
 
-Enigma2 Settings 3rd December 2024, © by Morpheus883
+Enigma2 Settings 9th December 2024, © by Morpheus883
 
 Settings for Images based on Enigma 2.4:
 
 Statistics:
 # Satellites: 88 (Ku Band)
 # Ordered Provider Lists: 70+
-# Services: 16.807 (TV-Radio-Data)
+# Services: 16.814 (TV-Radio-Data)
 # Packages: 23 (TV-Radio-Data):
 
 MONOFeed (13°E)
@@ -173,6 +173,6 @@ Easy instructions:
 3. Once achieved, you can start blindscan or switch to C tuner
 
 You can find everything and much more on:
-Morpheus883's Site: http://morpheus883.altervista.org/
+Morpheus883's Site: https://morpheus883.altervista.org/
 
 For an auto-update, you can add a link to https://github.com/morpheus883/enigma2-settings to your favourite E2 setting loader (ready with standard indexer)
