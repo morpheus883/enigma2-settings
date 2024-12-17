@@ -459,9 +459,6 @@ transponders
 00820000:22c4:013e
 	s 12476000:29900000:0:3:130:2:0:1:2:0:2
 /
-00820000:2260:fbff
-	s 12466000:29900000:1:4:130:2:0:1:1:0:2
-/
 00820000:2bc0:013e
 	s 10758000:27500000:1:3:130:2:0:1:2:0:2
 /
@@ -650,6 +647,9 @@ transponders
 /
 0082aac5:2fa8:013e
 	s 10949000:27500000:1:3:130:2:0:1:2:2:2
+/
+00820000:2260:fbff
+	s 12466000:29900000:1:3:130:2:0:1:2:0:2
 /
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
@@ -5168,6 +5168,12 @@ p:Telespazio,f:1
 01f0:00820000:33f4:013e:0:0
 
 p:
+135c:00820000:33f4:013e:2:0
+Rik3
+p:Telespazio
+132a:00820000:33f4:013e:1:0
+RIKSat
+p:Telespazio,f:1
 0064:00820000:00c8:013e:1:0
 Ginx
 p:ECLUTCH,f:1
@@ -5188,6 +5194,9 @@ Senemedia
 p:ECLUTCH,f:1
 006a:00820000:00c8:013e:25:0
 eClutch Live
+p:ECLUTCH,f:1
+006b:00820000:00c8:013e:25:0
+Padel TV
 p:ECLUTCH,f:1
 32de:00820000:0190:013e:1:0
 Canal+ Sport HD Polska
@@ -5525,23 +5534,11 @@ p:DU,f:1
 2530:00820000:13ef:013e:25:0
 Al Mashhad
 p:Du,f:1
-37d7:00820000:14b4:fbff:1:0
-IEPG Data
-p:SkyItalia,f:1
 37d3:00820000:14b4:fbff:251:0
 Fusion BGDL 14291
 p:SkyItalia
-106c:00820000:14b4:fbff:25:0
-Cinema Christmas
-p:SkyItalia,f:1
-37a9:00820000:14b4:fbff:25:0
-Sky Crime
-p:SkyItalia,f:1
-1020:00820000:14b4:fbff:25:0
-Sky Crime
-p:SkyItalia,f:1
-1015:00820000:14b4:fbff:25:0
-Discovery HD
+37d7:00820000:14b4:fbff:1:1
+IEPG Data
 p:SkyItalia,f:1
 0143:00820000:157c:013e:1:0
 NovaSports 5 HD
@@ -5642,9 +5639,6 @@ p:
 0159:00820000:157c:013e:12:0
 
 p:
-1e53:00820000:15e0:fbff:25:0
-MTV Italia HD
-p:SkyItalia,f:1
 1e76:00820000:15e0:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
@@ -5669,9 +5663,12 @@ p:SkyItalia,f:1
 2b10:00820000:15e0:fbff:25:0
 Sky Sport Arena HD
 p:Sky Italia,f:1
-10e1:00820000:1644:fbff:1:0
-Sky Meteo24
+1e5f:00820000:15e0:fbff:25:0
+Sky Sport 7 HD
 p:Sky Italia,f:1
+2da6:00820000:15e0:fbff:25:0
+Sky Investigation HD
+p:SkyItalia,f:1
 10e7:00820000:1644:fbff:130:0
 SkyTG24 Mosaico
 p:SkyItalia,f:1
@@ -5702,9 +5699,6 @@ p:Sky Italia,f:1
 2b20:00820000:1644:fbff:25:0
 Sky Sport24 HD
 p:SkyItalia,f:1
-2c38:00820000:1644:fbff:1:0
-Nickelodeon Italia
-p:Sky Italia,f:1
 106e:00820000:1644:fbff:25:0
 Sky Cinema Action HD
 p:SkyItalia,f:1
@@ -6632,18 +6626,6 @@ p:SkyItalia,f:1
 2d5d:00820000:2008:fbff:1:0
 Sky Sport 9
 p:Sky Italia,f:1
-0def:00820000:2008:fbff:1:0
-History +1
-p:SkyItalia,f:1
-0fd9:00820000:2008:fbff:1:0
-History +1
-p:SkyItalia,f:1
-1c38:00820000:2008:fbff:25:0
-Sky Cinema Uno +24 HD
-p:SkyItalia,f:1
-38c5:00820000:2008:fbff:1:0
-Comedy Central +1 Italia
-p:SkyItalia,f:1
 0df0:00820000:2008:fbff:1:0
 Super!
 p:SkyItalia,f:1
@@ -6655,6 +6637,12 @@ Sky Cinema Suspense HD
 p:SkyItalia,f:1
 2da4:00820000:2008:fbff:25:0
 Sky Serie HD
+p:SkyItalia,f:1
+0f4f:00820000:2008:fbff:25:0
+Eurosport HD
+p:SkyItalia,f:1
+1036:00820000:2008:fbff:25:0
+Eurosport 2 HD Italy
 p:SkyItalia,f:1
 0f46:00820000:2198:fbff:25:0
 Sky Sport 5 HD
@@ -6806,45 +6794,6 @@ p:GLOBECAST,f:1
 07e6:00820000:22c4:013e:1:0
 BBC Brit
 p:GLOBECAST,f:1
-2db3:00820000:2260:fbff:1:0
-IEPG Data
-p:SkyItalia,f:1
-2daa:00820000:2260:fbff:251:0
-Fusion BGDL 11690
-p:SkyItalia
-2dae:00820000:2260:fbff:132:0
-Dl821
-p:SkyItalia
-341e:00820000:2260:fbff:1:0
-Primafila 5
-p:Sky Italia,f:1
-3421:00820000:2260:fbff:1:0
-Primafila 3
-p:Sky Italia,f:1
-3423:00820000:2260:fbff:1:0
-Primafila 4
-p:Sky Italia,f:1
-3428:00820000:2260:fbff:130:0
-PRIMAFILA HCZ
-p:SkyItalia,f:1
-38c9:00820000:2260:fbff:1:0
-Cento x Cento
-p:SkyItalia,f:1
-2da6:00820000:2260:fbff:25:0
-Sky Investigation HD
-p:SkyItalia,f:1
-2db1:00820000:2260:fbff:25:0
-Sky Documentaries HD
-p:SkyItalia,f:1
-2db2:00820000:2260:fbff:25:0
-Sky Documentaries HD
-p:SkyItalia,f:1
-0f4f:00820000:2260:fbff:25:0
-Eurosport HD
-p:SkyItalia,f:1
-1036:00820000:2260:fbff:25:0
-Eurosport 2 HD Italy
-p:SkyItalia,f:1
 4288:00820000:2bc0:013e:1:0
 TVP Rozrywka
 p:Cyfrowy Polsat S.A.,f:1
@@ -8189,18 +8138,6 @@ p:KABELIO.CH,f:1
 2503:00820000:170c:fbff:25:0
 X Factor
 p:SkyItalia,f:1
-2504:00820000:170c:fbff:1:0
-On Board Sky HD
-p:SkyItalia,f:1
-2506:00820000:170c:fbff:25:0
-Sky Sport F1 HD
-p:SkyItalia,f:1
-2509:00820000:170c:fbff:1:0
-ON Board Mix HD
-p:SkyItalia,f:1
-250b:00820000:170c:fbff:25:0
-Sky Sport MotoGP HD
-p:SkyItalia,f:1
 2515:00820000:170c:fbff:251:0
 Fusion BGDL 9493
 p:SkyItalia
@@ -8216,23 +8153,11 @@ p:SkyItalia,f:1
 253b:00820000:170c:fbff:25:0
 X Factor
 p:SkyItalia,f:1
-1e5f:00820000:170c:fbff:25:0
-Sky Sport 7 HD
-p:Sky Italia,f:1
-1016:00820000:170c:fbff:25:0
-Prime Video Sportsbar
-p:SkyItalia,f:1
 2b39:00820000:1900:fbff:155:0
 SDMS Service1
 p:SkyItalia
 2b3b:00820000:1900:fbff:1:0
 SDMS Service2
-p:SkyItalia,f:1
-2b42:00820000:1900:fbff:25:0
-Sky Arte HD
-p:SkyItalia,f:1
-2b43:00820000:1900:fbff:25:0
-Sky Arte HD
 p:SkyItalia,f:1
 2b52:00820000:1900:fbff:251:0
 Fusion BGDL 11090
@@ -8243,20 +8168,17 @@ p:SkyItalia
 2b57:00820000:1900:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
-2fc4:00820000:1900:fbff:25:0
-Gambero Rosso HD
-p:SkyItalia,f:1
-2fc5:00820000:1900:fbff:25:0
-Gambero Rosso HD
-p:SkyItalia,f:1
-0fc6:00820000:1900:fbff:1:0
-Nick Jr +1
-p:Sky Italia,f:1
-10fe:00820000:1900:fbff:1:0
-Caccia e Pesca +1
-p:SkyItalia,f:1
 2c29:00820000:1900:fbff:25:0
 SuperTennis HD
+p:SkyItalia,f:1
+1016:00820000:1900:fbff:25:0
+Prime Video Sportsbar
+p:SkyItalia,f:1
+2506:00820000:1900:fbff:25:0
+Sky Sport F1 HD
+p:SkyItalia,f:1
+250b:00820000:1900:fbff:25:0
+Sky Sport MotoGP HD
 p:SkyItalia,f:1
 0191:00820000:1518:013e:1:0
 MTV 00s
@@ -9581,6 +9503,12 @@ p:CANAL+,f:1
 144f:00822ce0:05dc:013e:1:0
 Eleven Sports 2 HD
 p:CANAL+,f:1
+142d:00822ce0:05dc:013e:1:0
+Canal+ Extra 4
+p:CANAL+,f:1
+13fb:00822ce0:05dc:013e:1:0
+Canal+ Extra 4
+p:CANAL+,f:1
 377a:00822c93:044c:013e:1:0
 Canal+ Dokument HD
 p:CANAL+,f:1
@@ -9860,6 +9788,87 @@ p:STN
 0072:0082aac5:2fa8:013e:22:0
 eQtv
 p:Svoboda Satellite,f:1
+1015:00820000:2260:fbff:25:0
+Discovery HD
+p:SkyItalia,f:1
+1020:00820000:2260:fbff:25:0
+Sky Crime
+p:SkyItalia,f:1
+106c:00820000:2260:fbff:25:0
+Cinema Christmas
+p:SkyItalia,f:1
+37a9:00820000:2260:fbff:25:0
+Sky Crime
+p:SkyItalia,f:1
+0fc6:00820000:2260:fbff:1:0
+Nick Jr +1
+p:Sky Italia,f:1
+10fe:00820000:2260:fbff:1:0
+Caccia e Pesca +1
+p:SkyItalia,f:1
+2b42:00820000:2260:fbff:25:0
+Sky Arte HD
+p:SkyItalia,f:1
+2b43:00820000:2260:fbff:25:0
+Sky Arte HD
+p:SkyItalia,f:1
+2fc4:00820000:2260:fbff:25:0
+Gambero Rosso HD
+p:SkyItalia,f:1
+2fc5:00820000:2260:fbff:25:0
+Gambero Rosso HD
+p:SkyItalia,f:1
+0def:00820000:2260:fbff:1:0
+History +1
+p:SkyItalia,f:1
+0fd9:00820000:2260:fbff:1:0
+History +1
+p:SkyItalia,f:1
+1c38:00820000:2260:fbff:25:0
+Sky Cinema Uno +24 HD
+p:SkyItalia,f:1
+38c5:00820000:2260:fbff:1:0
+Comedy Central +1 Italia
+p:SkyItalia,f:1
+1e53:00820000:2260:fbff:25:0
+MTV Italia HD
+p:SkyItalia,f:1
+10e1:00820000:2260:fbff:1:0
+Sky Meteo24
+p:Sky Italia,f:1
+2c38:00820000:2260:fbff:1:0
+Nickelodeon Italia
+p:Sky Italia,f:1
+2daa:00820000:2260:fbff:251:0
+Fusion BGDL 11690
+p:SkyItalia
+2dae:00820000:2260:fbff:132:0
+Dl821
+p:SkyItalia
+2db1:00820000:2260:fbff:25:0
+Sky Documentaries HD
+p:SkyItalia,f:1
+2db2:00820000:2260:fbff:25:0
+Sky Documentaries HD
+p:SkyItalia,f:1
+2db3:00820000:2260:fbff:1:0
+IEPG Data
+p:SkyItalia,f:1
+341e:00820000:2260:fbff:1:0
+Primafila 5
+p:Sky Italia,f:1
+3421:00820000:2260:fbff:1:0
+Primafila 3
+p:Sky Italia,f:1
+3423:00820000:2260:fbff:1:0
+Primafila 4
+p:Sky Italia,f:1
+3428:00820000:2260:fbff:130:0
+PRIMAFILA HCZ
+p:SkyItalia,f:1
+38c9:00820000:2260:fbff:1:0
+Cento x Cento
+p:SkyItalia,f:1
 0fa0:00300000:0006:0056:1:0
 TVN Chile Nordic
 p:SES ASTRA,f:1
@@ -10724,6 +10733,18 @@ p:
 19be:00300000:107b:0055:25:0
 Super+
 p:SLM,f:1
+1d5b:00300000:107b:0055:1:0
+TEST 1
+p:SES,f:1
+1d65:00300000:107b:0055:1:0
+TEST 2
+p:SES,f:1
+1d6f:00300000:107b:0055:1:0
+TEST 3
+p:SES,f:1
+1da6:00300000:107b:0055:22:0
+Kyiv TV
+p:,f:1
 0001:0030b0ed:4321:0000:1:0
 SM HIIHTO JUNNU
 p:YLE,f:1
