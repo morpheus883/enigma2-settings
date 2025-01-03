@@ -9,14 +9,14 @@ Morpheus883's Site: https://morpheus883.altervista.org/
 GitHub Repository: https://github.com/morpheus883/
 and available on the main Sat Sites
 
-Enigma2 Settings 23rd December 2024, © by Morpheus883
+Enigma2 Settings 3rd January 2025, © by Morpheus883
 
 Settings for Images based on Enigma 2.4:
 
 Statistics:
 # Satellites: 88 (Ku Band)
 # Ordered Provider Lists: 70+
-# Services: 16.740 (TV-Radio-Data)
+# Services: 16.550 (TV-Radio-Data)
 # Packages: 23 (TV-Radio-Data):
 
 MONOFeed (13°E)
@@ -54,7 +54,6 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [30.0 W] Nos
 [24.5 W]  =====  INTELSAT 905 ALCOMSAT 1  =====
 [22.0 W] ===== SES 4 =====
-[20.0 W] ===== NSS 7 =====
 [18.0 W] ===== INTELSAT 37e =====
 [15.0 W] ===== TELSTAR 12 =====
 [14.0 W] =====  EXPRESS AM8  =====
@@ -125,7 +124,6 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [28.2 E] Freesat
 [28.2 E] Sky Digital
 [30.5 E] ===== ARABSAT 5A/6A =====
-[33.0 E] ===== EUTELSAT 33E - INTELSAT 28 =====
 [36.0 E] ===== EUTELSAT 36B/AMU1 =====
 [36.0 E] DStv Multichoice Africa
 [39.0 E] ===== HELLAS SAT 3/4 =====
@@ -149,7 +147,6 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [53.0 E] ===== EXPRESS AM6 =====
 [55.0 E] ===== YAMAL 402 =====
 [57.0 E] ===== NSS 12 =====
-[60.0 E] ===== INTELSAT 33e =====
 [62.0 E] ===== INTELSAT 39 =====
 [66.0 E] ===== INTELSAT 17 =====
 [68.5 E] ===== INTELSAT 20/36 =====
@@ -160,7 +157,7 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 + Radios
 
 === Compiled with Morpheus883's scripts ===
- ======== © by Morpheus883, 2024 ========
+ ======== © by Morpheus883, 2025 ========
  
 
 The only settings with BlindMarke®
