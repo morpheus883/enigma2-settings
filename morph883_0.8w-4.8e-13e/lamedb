@@ -382,7 +382,10 @@ transponders
 	s 12554000:10000000:1:3:48:2:0:1:2:0:2
 /
 00300000:0004:0064
-	s 12226000:27500000:0:3:48:2:0:1:1:0:2
+	s 12226000:27500000:0:7:48:2:0:1:1:0:2
+/
+00302f28:107b:0055
+	s 12072000:30000000:0:3:48:2:0:1:2:2:2
 /
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
@@ -2105,9 +2108,6 @@ p:Telespazio
 0315:00820000:1b58:013e:1:0
 MTA3 - Al Arabia
 p:Harmonic,f:1
-02e7:00820000:1b58:013e:2:0
-Radio K test
-p:Telespazio
 3c8d:00820000:1bbc:013e:1:0
 novacinema1 HD Cy
 p:NOVA,f:1
@@ -5885,6 +5885,12 @@ p:SLM,f:1
 19fa:00300000:0010:0055:1:0
 ICTV 2 SD
 p:SLM,f:1
+1a04:00300000:0010:0055:1:0
+We-Ukraine+
+p:,f:1
+1a22:00300000:0010:0055:1:0
+Pryamiy
+p:,f:1
 00e6:00300000:0002:0055:2:0
 European Radio for Belarus
 p:SES ASTRA
@@ -6006,7 +6012,7 @@ p:,f:1
 radio nv
 p:TRK ERA
 1b3f:00300000:0011:0055:1:0
-We-Ukraine
+We-Ukraine+
 p:,f:1
 1e0a:00300000:002b:0055:25:0
 English Club HD
@@ -6695,6 +6701,9 @@ p:SES,f:1
 1d6f:00300000:107b:0055:25:0
 Xit TVOE Kino
 p:SES,f:1
+1d88:00300000:107b:0055:22:0
+New Christian
+p:,f:1
 0001:0030b0ed:4321:0000:1:0
 SM HIIHTO JUNNU
 p:YLE,f:1
@@ -6778,6 +6787,15 @@ National Geographic
 p:MTNTV,f:1
 00c8:00300000:0004:0064:1:0
 MTN SE HD2
+p:MTNTV,f:1
+0085:00300000:0004:0064:1:0
+Rai
+p:,f:1
+00a0:00300000:0004:0064:1:0
+Movies Now and Then
+p:MTNTV,f:1
+00a2:00300000:0004:0064:1:0
+Family Channel
 p:MTNTV,f:1
 040a:0e080000:0044:0046:25:0
 TV 2 Sport Premium HD
@@ -9668,6 +9686,12 @@ p:Telenor
 32d1:0e080000:0054:0046:22:0
 Test 13009
 p:Telenor,f:1
+ffec:0e080000:0054:0046:1:0
+
+p:,f:1
+fffd:0e080000:0054:0046:1:0
+
+p:,f:1
 0136:fff8b0f3:0136:ffff:1:0
 digisport
 p:rcs-rds,f:1
