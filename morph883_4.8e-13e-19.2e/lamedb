@@ -288,9 +288,6 @@ transponders
 00c00000:045c:0001
 	s 12669000:23500000:1:3:192:2:0:1:2:2:2
 /
-00c02d55:0000:0000
-	s 11605000:7200000:0:3:192:2:0:1:2:0:2
-/
 00c00000:0414:0001
 	s 11127000:22000000:1:4:192:2:0
 /
@@ -342,9 +339,6 @@ transponders
 00c0ad70:00a0:0000
 	s 11632000:7200000:1:3:192:2:0:1:2:0:2
 /
-00c0ad88:0001:ffff
-	s 11656000:7200000:1:3:192:2:0:1:2:0:2
-/
 00c0afd6:0000:ffff
 	s 12246000:30940000:1:6:192:2:0:1:2:0:2
 /
@@ -354,14 +348,20 @@ transponders
 00c0ad8e:0001:ffff
 	s 11662000:7200000:1:3:192:2:0:1:2:0:2
 /
-00c02c3c:4321:00eb
-	s 11324000:9874000:0:3:192:2:0:1:2:0:2
-/
 00c0ac88:0001:ffff
 	s 11400000:9874000:1:3:192:2:0:1:2:0:2
 /
 00c0ad48:0001:ffff
 	s 11592000:4800000:1:3:192:2:0:1:2:0:2
+/
+00c02c3c:0001:0001
+	s 11324000:9874000:0:3:192:2:0:1:2:0:2
+/
+00c02d55:0001:ffff
+	s 11605000:9875000:0:3:192:2:0:1:2:0:2
+/
+00c0ad88:0001:0001
+	s 11656000:7200000:1:3:192:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -738,9 +738,6 @@ transponders
 00300000:0004:0064
 	s 12226000:27500000:0:7:48:2:0:1:1:0:2
 /
-00302f28:107b:0055
-	s 12072000:30000000:0:3:48:2:0:1:2:2:2
-/
 end
 services
 0002:00d8ad61:0004:0000:2:0
@@ -1107,7 +1104,7 @@ p:Movistar+,f:1
 Calle 13
 p:Movistar+,f:1
 7795:00c00000:0424:0001:1:0
-Decasa TV
+BBC Top Gear
 p:Movistar+,f:1
 7796:00c00000:0424:0001:1:0
 SyFy Universal España
@@ -1125,7 +1122,7 @@ p:DIGITAL+,f:1
 Cuatro
 p:Digital+,f:1
 7798:00c00000:0424:0001:1:0
-M+ LaLiga TV 4
+M+ Liga Campeones 14
 p:Digital+,f:1
 778a:00c00000:0424:0001:1:0
 Baby TV
@@ -1167,7 +1164,7 @@ p:BetaDigital,f:1
 Factoria de Ficcion
 p:Movistar+,f:1
 77c1:00c00000:040a:0001:1:0
-Canal Hollywood
+BBC Drama
 p:Movistar+,f:1
 77c3:00c00000:040a:0001:1:0
 M+ Liga Campeones 2
@@ -1227,7 +1224,7 @@ p:Movistar+,f:1
 Teledeporte
 p:Movistar+,f:1
 76ce:00c00000:040e:0001:1:0
-Canal Cocina
+BBC Food
 p:Movistar+,f:1
 76cf:00c00000:040e:0001:1:0
 M+ Indie
@@ -1247,9 +1244,6 @@ p:Movistar+,f:1
 76cb:00c00000:040e:0001:1:0
 Warner TV España
 p:Movistar+,f:1
-76c4:00c00000:040e:0001:1:0
-Enfamilia
-p:Movistar+,f:1
 76c9:00c00000:040e:0001:1:0
 DAZN LaLiga
 p:Movistar+,f:1
@@ -1259,6 +1253,9 @@ p:
 76cd:00c00000:040e:0001:100:0
 
 p:
+76c4:00c00000:040e:0001:1:0
+TEST TXP38
+p:PRISA TV,C:0000,f:1
 7568:00c00000:0412:0001:1:0
 Alquiler X
 p:Movistar+,f:1
@@ -1392,7 +1389,7 @@ p:Movistar+,f:1
 Cosmopolitan TV
 p:Movistar+,f:1
 7731:00c00000:0416:0001:1:0
-Canal de Historia
+BBC History
 p:Movistar+,f:1
 7736:00c00000:0416:0001:1:0
 Movistar Cine Español
@@ -1880,9 +1877,6 @@ p:BetaDigital,f:1
 0047:00c00000:0007:0085:1:0
 TLC Austria
 p:BetaDigital,f:1
-0036:00c00000:0007:0085:22:0
-Zwei Music Television
-p:BetaDigital,f:1
 0300:00c00000:0007:0085:1:0
 .
 p:BetaDigital,f:1
@@ -1928,6 +1922,9 @@ p:
 0fc6:00c00000:0007:0085:100:0
 
 p:
+0036:00c00000:0007:0085:22:0
+Genius Exklusiv
+p:BetaDigital,f:1
 2ee3:00c00000:0441:0001:1:0
 RTL Television
 p:CBC,f:1
@@ -3305,9 +3302,6 @@ p:BetaDigital,f:1
 2776:00c00000:0409:0001:25:0
 Handystar TV HD
 p:BetaDigital,f:1
-2775:00c00000:0409:0001:25:0
-1-2-3.tv HD2
-p:BetaDigital,f:1
 2777:00c00000:0409:0001:25:0
 .
 p:BetaDigital,f:1
@@ -3866,9 +3860,6 @@ p:BMT,f:1
 2007:00c00000:0434:0001:12:0
 DATASYSTEM
 p:CSAT
-22ca:00c00000:0434:0001:25:0
-Disney Junior HD France
-p:CSAT,f:1
 22cd:00c00000:0434:0001:25:0
 Canal+ Promo HD
 p:CSAT,f:1
@@ -4293,10 +4284,10 @@ p:GLOBECAST,f:1
 SportDigital Fussball HD
 p:SES,f:1
 10cd:00c00000:0418:0001:25:0
-Sport1+
+SportDigital1+
 p:SES,f:1
 10ce:00c00000:0418:0001:25:0
-eSports1
+eSportsOne
 p:SES,f:1
 10cf:00c00000:0418:0001:25:0
 SportDigital Edge
@@ -4406,9 +4397,6 @@ p:SES,f:1
 29d1:00c00000:045c:0001:25:4
 Serien+ HD
 p:SES,f:1
-0001:00c02d55:0000:0000:25:0
-24h Nuerburgring
-p:Service Provider,f:1
 788b:00c00000:0414:0001:1:0
 Divinity
 p:DIGITAL+,f:1
@@ -4434,22 +4422,22 @@ p:Movistar+,f:1
 M+ LaLiga TV 4
 p:Movistar+,f:1
 788d:00c00000:0414:0001:1:0
-DAZN LaLiga 5
+M+ Liga Campeones 19
 p:Movistar+,f:1
 7884:00c00000:0414:0001:1:0
-TEST HY 4
+M+ Liga Campeones 18
 p:,f:1
 788c:00c00000:0414:0001:1:0
-TEST HY 5
+M+ Liga Campeones 16
 p:,f:1
 7882:00c00000:0414:0001:1:0
-Test L4
+M+ Liga Campeones 15
 p:,f:1
 7893:00c00000:0414:0001:1:0
 TEST L8
 p:,f:1
 7894:00c00000:0414:0001:1:0
-TEST L9
+M+ Liga Campeones 17
 p:,f:1
 788e:00c00000:0414:0001:100:0
 
@@ -4724,9 +4712,6 @@ p:Live Images,f:1
 0001:00c0ad70:00a0:0000:1:0
 D-381 HANN main
 p:WWW.TVN.DE,f:1
-0001:00c0ad88:0001:ffff:1:0
-SNG
-p:ARD,f:1
 0001:00c0afd6:0000:ffff:25:0
 SVC-1
 p:SES,f:1
@@ -4742,15 +4727,21 @@ p:Television,f:1
 0001:00c0ad8e:0001:ffff:1:0
 D 531_Enc1
 p:SWR,f:1
-0001:00c02c3c:4321:00eb:25:0
-D510feed1
-p:Betamobil,f:1
 0001:00c0ac88:0001:ffff:1:0
 ITA 560 DIRTY - KRANJSKA
 p:LIVESAT,f:1
 0001:00c0ad48:0001:ffff:1:0
 WDR-SNG1-SL1
 p:Service Provider,f:1
+0001:00c02c3c:0001:0001:1:0
+AUT-23-ZDF
+p:AUT23,f:1
+0001:00c02d55:0001:ffff:1:0
+SUI 66
+p:In AriaX,f:1
+0001:00c0ad88:0001:0001:25:0
+D-452
+p:BR_Gottesdienst,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -10715,12 +10706,6 @@ p:SLM,f:1
 19b4:00300000:107b:0055:25:0
 Tviy Serial
 p:SLM,f:1
-0320:00300000:107b:0055:12:0
-
-p:
-0321:00300000:107b:0055:12:0
-
-p:
 19be:00300000:107b:0055:25:0
 Super+
 p:SLM,f:1
@@ -10739,6 +10724,9 @@ p:SES,f:1
 1d88:00300000:107b:0055:22:0
 New Christian
 p:,f:1
+1d9c:00300000:107b:0055:25:0
+Espreso TV HD
+p:,f:1
 0001:0030b0ed:4321:0000:1:0
 SM HIIHTO JUNNU
 p:YLE,f:1
@@ -10750,88 +10738,88 @@ beIN SNG 2 Main
 p:mpt,f:1
 0064:00300000:0004:0064:1:0
 MTN Info
-p:MTNTV,f:1
+p:,f:1
 0065:00300000:0004:0064:1:0
 MTN SE HD
-p:MTNTV,f:1
+p:,f:1
 0066:00300000:0004:0064:1:0
 MSNBC
-p:MTNTV,f:1
+p:,f:1
 0067:00300000:0004:0064:1:0
 FOX News
-p:MTNTV,f:1
+p:,f:1
 0068:00300000:0004:0064:1:0
 CNBC
-p:MTNTV,f:1
+p:,f:1
 0069:00300000:0004:0064:1:0
 Sky News
-p:MTNTV,f:1
+p:,f:1
 006a:00300000:0004:0064:1:0
 BBC World News
-p:MTNTV,f:1
+p:,f:1
 006c:00300000:0004:0064:1:0
 Sky Sports News
-p:MTNTV,f:1
+p:,f:1
 006d:00300000:0004:0064:1:0
-Sport 24 HD
-p:MTNTV,f:1
+Sport 24
+p:,f:1
 006e:00300000:0004:0064:1:0
 Prime One
-p:MTNTV,f:1
+p:,f:1
 006f:00300000:0004:0064:1:0
-Sport 24 Extra HD
-p:MTNTV,f:1
+Sport 24 Extra
+p:,f:1
 0070:00300000:0004:0064:1:0
 RTL
-p:MTNTV,f:1
+p:,f:1
 0072:00300000:0004:0064:1:0
 TV ASIA
-p:MTNTV,f:1
+p:,f:1
 0073:00300000:0004:0064:1:0
 TFC
-p:MTNTV,f:1
+p:,f:1
 0074:00300000:0004:0064:1:0
 Prime Favorite
-p:MTNTV,f:1
+p:,f:1
 0075:00300000:0004:0064:1:0
-BBC Marine HD
-p:MTNTV,f:1
+BBC HD
+p:,f:1
 0076:00300000:0004:0064:1:0
 TVE International
-p:MTNTV,f:1
+p:,f:1
 007c:00300000:0004:0064:1:0
 Food Network
-p:MTNTV,f:1
+p:,f:1
 007d:00300000:0004:0064:1:0
 HGTV
-p:MTNTV,f:1
+p:,f:1
 007e:00300000:0004:0064:1:0
 Travel Channel
-p:MTNTV,f:1
+p:,f:1
 0083:00300000:0004:0064:1:0
 France24
-p:MTNTV,f:1
+p:,f:1
 0084:00300000:0004:0064:1:0
 Mediaset Italia
-p:MTNTV,f:1
+p:,f:1
 0092:00300000:0004:0064:1:0
 Metro TV
 p:,f:1
 00a1:00300000:0004:0064:1:0
 National Geographic
-p:MTNTV,f:1
+p:,f:1
 00c8:00300000:0004:0064:1:0
 MTN SE HD2
-p:MTNTV,f:1
+p:,f:1
 0085:00300000:0004:0064:1:0
 Rai
 p:,f:1
 00a0:00300000:0004:0064:1:0
 Movies Now and Then
-p:MTNTV,f:1
+p:,f:1
 00a2:00300000:0004:0064:1:0
 Family Channel
-p:MTNTV,f:1
+p:,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2025
