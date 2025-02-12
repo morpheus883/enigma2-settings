@@ -423,9 +423,6 @@ fed40000:00c8:0022
 fed42d2d:0001:ffff
 	s 11565000:7200000:0:3:-300:2:0:1:2:0:2
 /
-0ce42d03:0001:ffff
-	s 11523000:7200000:0:3:-300:2:0:1:2:0:2
-/
 0ce4aeef:00a0:0000
 	s 12015000:5000000:1:3:-300:2:0:1:2:0:2
 /
@@ -437,9 +434,6 @@ fed42abb:0002:0000
 /
 fed4aee6:0001:0001
 	s 12006000:7200000:1:3:-300:2:0:1:2:0:2
-/
-0ce4b132:0001:0001
-	s 12594000:4875000:1:3:-300:2:0:1:2:0:2
 /
 0ce4aee9:0001:0001
 	s 12009000:5000000:1:3:-300:2:0:1:2:0:2
@@ -473,6 +467,12 @@ fed4b120:0001:ffff
 /
 0ce42d51:0001:ffff
 	s 11601000:7200000:0:3:-300:2:0:1:2:0:2
+/
+0ce42d03:0001:0001
+	s 11523000:7200000:0:3:-300:2:0:1:2:0:2
+/
+0ce42d08:0001:0001
+	s 11528000:7200000:0:3:-300:2:0:1:2:0:2
 /
 end
 services
@@ -1760,7 +1760,7 @@ p:SkyItalia,f:1
 0590:00820000:19c8:fbff:1:0
 Nick Junior Italia
 p:Sky Italia,f:1
-1006:00820000:19c8:fbff:25:0
+1006:00820000:19c8:fbff:1:0
 Bike Channel
 p:SkyItalia,f:1
 057c:00820000:19c8:fbff:1:0
@@ -1770,10 +1770,7 @@ p:Sky Italia,f:1
 Sky Serie Maratone
 p:SkyItalia,f:1
 109a:00820000:19c8:fbff:25:0
-Sky Arte +1 HD
-p:SkyItalia,f:1
-109b:00820000:19c8:fbff:25:0
-Sky Arte +1 HD
+Classica HD
 p:SkyItalia,f:1
 2e17:00820000:1a2c:fbff:1:0
 IEPG Data
@@ -5081,6 +5078,9 @@ p:ITA_477,f:1
 05dd:00820000:206c:013e:1:0
 DVB-NIP-VV
 p:,f:1
+05de:00820000:206c:013e:25:0
+Arte HD
+p:,f:1
 0259:00820000:2774:013e:1:0
 FX Life HD
 p:NOVA,f:1
@@ -7496,9 +7496,6 @@ p:Hispasat,f:1
 0001:fed42d2d:0001:ffff:1:0
 LN23 8MM Via2
 p:8MM,f:1
-0001:0ce42d03:0001:ffff:1:0
-E336 G18 VIA 1
-p:Service Provider,f:1
 0001:0ce4aeef:00a0:0000:1:0
 TVE ETT4 ENC1
 p:,f:1
@@ -7511,9 +7508,6 @@ p:,f:1
 0001:fed4aee6:0001:0001:25:0
 CM2 VIA1
 p:SAPEC,f:1
-0001:0ce4b132:0001:0001:1:0
-TR2-E316
-p:Net 1,f:1
 0011:0ce4aee9:0001:0001:25:0
 OVERON MONCLOA
 p:TANDBERG Television,f:1
@@ -7556,6 +7550,12 @@ p:TVE,f:1
 0001:0ce42d51:0001:ffff:1:0
 E336 G18 VIA 1
 p:Service Provider,f:1
+0001:0ce42d03:0001:0001:25:0
+VIA 1- MO-03
+p:Adtec Digital,f:1
+0001:0ce42d08:0001:0001:25:0
+VIA 1- MO-03
+p:Adtec Digital,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2025

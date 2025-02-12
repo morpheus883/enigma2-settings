@@ -354,6 +354,12 @@ transponders
 00c0ad88:0001:0001
 	s 11656000:7200000:1:3:192:2:0:1:2:0:2
 /
+00c0aca5:0000:0001
+	s 11429000:9875000:1:3:192:2:0:1:2:0:2
+/
+00c00000:0020:00eb
+	s 11600000:4800000:1:3:192:2:0:1:2:0:2
+/
 00a00000:0001:0040
 	s 11512000:30000000:0:3:160:2:0:1:2:0:2
 /
@@ -1943,9 +1949,6 @@ p:SES,f:1
 6e47:00c00000:0431:0001:1:0
 Serien+
 p:SES,f:1
-003d:00c00000:0007:0085:1:0
-Nick/Comedy Central Austria
-p:MTV Networks,f:1
 0202:00c00000:0007:0085:1:0
 Immer etwas Neues TV
 p:BetaDigital,f:1
@@ -4094,17 +4097,11 @@ p:CSAT,f:1
 2335:00c00000:0442:0001:25:0
 C Star HD
 p:CSAT,f:1
-232a:00c00000:0442:0001:25:0
-National Geographic HD France
-p:CSAT,f:1
 232c:00c00000:0442:0001:25:0
 Paris Première HD
 p:CSAT,f:1
 232e:00c00000:0442:0001:25:0
 Planète+ HD
-p:CSAT,f:1
-232f:00c00000:0442:0001:25:0
-Disney Channel HD France
 p:CSAT,f:1
 2330:00c00000:0442:0001:25:0
 France 5 HD
@@ -4823,6 +4820,12 @@ p:In AriaX,f:1
 0001:00c0ad88:0001:0001:25:0
 D-452
 p:BR_Gottesdienst,f:1
+0001:00c0aca5:0000:0001:25:0
+EST-003 M
+p:Levira,f:1
+0001:00c00000:0020:00eb:1:0
+D233
+p:Betamobil,f:1
 001e:00a00000:0001:0040:22:0
 National Geographic Croatia
 p:Max TV,f:1
@@ -5504,6 +5507,9 @@ p:DigitALB,f:1
 1450:00a00000:4f4c:016e:25:0
 Big Brother VIP Kosova 2
 p:DigitALB,f:1
+1342:00a00000:4f4c:016e:25:0
+Film Komedi HD
+p:DigitALB,f:1
 0a94:00a00000:9dd0:016e:22:0
 FilmBox Arthouse
 p:A1 Broadcasting,f:1
@@ -5599,19 +5605,19 @@ Junior Tv Albania
 p:DigitALB,f:1
 083e:00a00000:5014:016e:1:0
 Cufo TV
-p:Digit Alb,f:1
+p:DigitALB,f:1
 0848:00a00000:5014:016e:1:0
 My Music
-p:Digit Alb,f:1
+p:DigitALB,f:1
 0852:00a00000:5014:016e:1:0
 Explorer natyra
 p:DigitALB,f:1
 085c:00a00000:5014:016e:1:0
 Explorer histori
-p:Digit Alb,f:1
+p:DigitALB,f:1
 0870:00a00000:5014:016e:1:0
 EuroFilm
-p:Digit Alb,f:1
+p:DigitALB,f:1
 087a:00a00000:5014:016e:1:0
 Film Autor
 p:DigitALB,f:1
@@ -5623,10 +5629,10 @@ Film Drame
 p:DigitALB,f:1
 08ac:00a00000:5014:016e:1:0
 Klan News
-p:Digit Alb,f:1
+p:DigitALB,f:1
 08c0:00a00000:5014:016e:1:0
 Melody.TV
-p:Digit Alb,f:1
+p:DigitALB,f:1
 0ce4:00a00000:5014:016e:25:0
 A2 CNN HD
 p:DigitALB,f:1
@@ -5660,11 +5666,11 @@ p:DigitALB,f:1
 13d8:00a00000:5014:016e:25:0
 KTV Kohavision HD
 p:DigitALB,f:1
-1324:00a00000:5014:016e:25:0
-Big Brother VIP Kosova 1
+1216:00a00000:5014:016e:1:0
+TAR
 p:DigitALB,f:1
-1342:00a00000:5014:016e:25:0
-Big Brother VIP Kosova 2
+1324:00a00000:5014:016e:25:0
+Film Autor HD
 p:DigitALB,f:1
 0458:00a00000:526c:016e:25:0
 Epic Drama HD
@@ -8615,7 +8621,7 @@ p:SkyItalia,f:1
 0590:00820000:19c8:fbff:1:0
 Nick Junior Italia
 p:Sky Italia,f:1
-1006:00820000:19c8:fbff:25:0
+1006:00820000:19c8:fbff:1:0
 Bike Channel
 p:SkyItalia,f:1
 057c:00820000:19c8:fbff:1:0
@@ -8625,10 +8631,7 @@ p:Sky Italia,f:1
 Sky Serie Maratone
 p:SkyItalia,f:1
 109a:00820000:19c8:fbff:25:0
-Sky Arte +1 HD
-p:SkyItalia,f:1
-109b:00820000:19c8:fbff:25:0
-Sky Arte +1 HD
+Classica HD
 p:SkyItalia,f:1
 2e17:00820000:1a2c:fbff:1:0
 IEPG Data
@@ -11935,6 +11938,9 @@ GIRO_ITALIA_MAIN
 p:ITA_477,f:1
 05dd:00820000:206c:013e:1:0
 DVB-NIP-VV
+p:,f:1
+05de:00820000:206c:013e:25:0
+Arte HD
 p:,f:1
 0259:00820000:2774:013e:1:0
 FX Life HD

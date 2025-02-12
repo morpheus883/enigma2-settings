@@ -354,6 +354,12 @@ transponders
 00c0ad88:0001:0001
 	s 11656000:7200000:1:3:192:2:0:1:2:0:2
 /
+00c0aca5:0000:0001
+	s 11429000:9875000:1:3:192:2:0:1:2:0:2
+/
+00c00000:0020:00eb
+	s 11600000:4800000:1:3:192:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -777,9 +783,6 @@ fed40000:00c8:0022
 fed42d2d:0001:ffff
 	s 11565000:7200000:0:3:-300:2:0:1:2:0:2
 /
-0ce42d03:0001:ffff
-	s 11523000:7200000:0:3:-300:2:0:1:2:0:2
-/
 0ce4aeef:00a0:0000
 	s 12015000:5000000:1:3:-300:2:0:1:2:0:2
 /
@@ -791,9 +794,6 @@ fed42abb:0002:0000
 /
 fed4aee6:0001:0001
 	s 12006000:7200000:1:3:-300:2:0:1:2:0:2
-/
-0ce4b132:0001:0001
-	s 12594000:4875000:1:3:-300:2:0:1:2:0:2
 /
 0ce4aee9:0001:0001
 	s 12009000:5000000:1:3:-300:2:0:1:2:0:2
@@ -827,6 +827,12 @@ fed4b120:0001:ffff
 /
 0ce42d51:0001:ffff
 	s 11601000:7200000:0:3:-300:2:0:1:2:0:2
+/
+0ce42d03:0001:0001
+	s 11523000:7200000:0:3:-300:2:0:1:2:0:2
+/
+0ce42d08:0001:0001
+	s 11528000:7200000:0:3:-300:2:0:1:2:0:2
 /
 end
 services
@@ -1853,9 +1859,6 @@ p:SES,f:1
 6e47:00c00000:0431:0001:1:0
 Serien+
 p:SES,f:1
-003d:00c00000:0007:0085:1:0
-Nick/Comedy Central Austria
-p:MTV Networks,f:1
 0202:00c00000:0007:0085:1:0
 Immer etwas Neues TV
 p:BetaDigital,f:1
@@ -4004,17 +4007,11 @@ p:CSAT,f:1
 2335:00c00000:0442:0001:25:0
 C Star HD
 p:CSAT,f:1
-232a:00c00000:0442:0001:25:0
-National Geographic HD France
-p:CSAT,f:1
 232c:00c00000:0442:0001:25:0
 Paris Première HD
 p:CSAT,f:1
 232e:00c00000:0442:0001:25:0
 Planète+ HD
-p:CSAT,f:1
-232f:00c00000:0442:0001:25:0
-Disney Channel HD France
 p:CSAT,f:1
 2330:00c00000:0442:0001:25:0
 France 5 HD
@@ -4733,6 +4730,12 @@ p:In AriaX,f:1
 0001:00c0ad88:0001:0001:25:0
 D-452
 p:BR_Gottesdienst,f:1
+0001:00c0aca5:0000:0001:25:0
+EST-003 M
+p:Levira,f:1
+0001:00c00000:0020:00eb:1:0
+D233
+p:Betamobil,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -6017,7 +6020,7 @@ p:SkyItalia,f:1
 0590:00820000:19c8:fbff:1:0
 Nick Junior Italia
 p:Sky Italia,f:1
-1006:00820000:19c8:fbff:25:0
+1006:00820000:19c8:fbff:1:0
 Bike Channel
 p:SkyItalia,f:1
 057c:00820000:19c8:fbff:1:0
@@ -6027,10 +6030,7 @@ p:Sky Italia,f:1
 Sky Serie Maratone
 p:SkyItalia,f:1
 109a:00820000:19c8:fbff:25:0
-Sky Arte +1 HD
-p:SkyItalia,f:1
-109b:00820000:19c8:fbff:25:0
-Sky Arte +1 HD
+Classica HD
 p:SkyItalia,f:1
 2e17:00820000:1a2c:fbff:1:0
 IEPG Data
@@ -9338,6 +9338,9 @@ p:ITA_477,f:1
 05dd:00820000:206c:013e:1:0
 DVB-NIP-VV
 p:,f:1
+05de:00820000:206c:013e:25:0
+Arte HD
+p:,f:1
 0259:00820000:2774:013e:1:0
 FX Life HD
 p:NOVA,f:1
@@ -11753,9 +11756,6 @@ p:Hispasat,f:1
 0001:fed42d2d:0001:ffff:1:0
 LN23 8MM Via2
 p:8MM,f:1
-0001:0ce42d03:0001:ffff:1:0
-E336 G18 VIA 1
-p:Service Provider,f:1
 0001:0ce4aeef:00a0:0000:1:0
 TVE ETT4 ENC1
 p:,f:1
@@ -11768,9 +11768,6 @@ p:,f:1
 0001:fed4aee6:0001:0001:25:0
 CM2 VIA1
 p:SAPEC,f:1
-0001:0ce4b132:0001:0001:1:0
-TR2-E316
-p:Net 1,f:1
 0011:0ce4aee9:0001:0001:25:0
 OVERON MONCLOA
 p:TANDBERG Television,f:1
@@ -11813,6 +11810,12 @@ p:TVE,f:1
 0001:0ce42d51:0001:ffff:1:0
 E336 G18 VIA 1
 p:Service Provider,f:1
+0001:0ce42d03:0001:0001:25:0
+VIA 1- MO-03
+p:Adtec Digital,f:1
+0001:0ce42d08:0001:0001:25:0
+VIA 1- MO-03
+p:Adtec Digital,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2025

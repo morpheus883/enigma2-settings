@@ -618,6 +618,12 @@ transponders
 00c0ad88:0001:0001
 	s 11656000:7200000:1:3:192:2:0:1:2:0:2
 /
+00c0aca5:0000:0001
+	s 11429000:9875000:1:3:192:2:0:1:2:0:2
+/
+00c00000:0020:00eb
+	s 11600000:4800000:1:3:192:2:0:1:2:0:2
+/
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
 /
@@ -1158,20 +1164,20 @@ fff80000:0af7:00bb
 0e08ab58:0001:ffff
 	s 11096000:3200000:1:4:-8:2:0:1:2:0:2
 /
-fff80000:0065:0065
-	s 12534000:4800000:1:3:-8:2:0:1:2:0:2
-/
 0e080000:0065:0065
 	s 12543000:6660000:1:3:-8:2:0:1:2:0:2
 /
 fff83095:004f:0046
 	s 12437000:30000000:0:3:-8:2:0:1:2:1:2
 /
-fff8b0f0:0065:0065
-	s 12528000:6660000:1:3:-8:2:0:1:2:0:2
-/
 fff830bc:0050:0046
 	s 12476000:30000000:0:2:-8:2:0:1:2:1:2
+/
+0e08b0f6:0001:ffff
+	s 12534000:4800000:1:3:-8:2:0:1:2:0:2
+/
+fff8b0f0:0001:ffff
+	s 12528000:6660000:1:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -4448,9 +4454,6 @@ p:SES,f:1
 6e47:00c00000:0431:0001:1:0
 Serien+
 p:SES,f:1
-003d:00c00000:0007:0085:1:0
-Nick/Comedy Central Austria
-p:MTV Networks,f:1
 0202:00c00000:0007:0085:1:0
 Immer etwas Neues TV
 p:BetaDigital,f:1
@@ -6599,17 +6602,11 @@ p:CSAT,f:1
 2335:00c00000:0442:0001:25:0
 C Star HD
 p:CSAT,f:1
-232a:00c00000:0442:0001:25:0
-National Geographic HD France
-p:CSAT,f:1
 232c:00c00000:0442:0001:25:0
 Paris Première HD
 p:CSAT,f:1
 232e:00c00000:0442:0001:25:0
 Planète+ HD
-p:CSAT,f:1
-232f:00c00000:0442:0001:25:0
-Disney Channel HD France
 p:CSAT,f:1
 2330:00c00000:0442:0001:25:0
 France 5 HD
@@ -7328,6 +7325,12 @@ p:In AriaX,f:1
 0001:00c0ad88:0001:0001:25:0
 D-452
 p:BR_Gottesdienst,f:1
+0001:00c0aca5:0000:0001:25:0
+EST-003 M
+p:Levira,f:1
+0001:00c00000:0020:00eb:1:0
+D233
+p:Betamobil,f:1
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -8612,7 +8615,7 @@ p:SkyItalia,f:1
 0590:00820000:19c8:fbff:1:0
 Nick Junior Italia
 p:Sky Italia,f:1
-1006:00820000:19c8:fbff:25:0
+1006:00820000:19c8:fbff:1:0
 Bike Channel
 p:SkyItalia,f:1
 057c:00820000:19c8:fbff:1:0
@@ -8622,10 +8625,7 @@ p:Sky Italia,f:1
 Sky Serie Maratone
 p:SkyItalia,f:1
 109a:00820000:19c8:fbff:25:0
-Sky Arte +1 HD
-p:SkyItalia,f:1
-109b:00820000:19c8:fbff:25:0
-Sky Arte +1 HD
+Classica HD
 p:SkyItalia,f:1
 2e17:00820000:1a2c:fbff:1:0
 IEPG Data
@@ -11932,6 +11932,9 @@ GIRO_ITALIA_MAIN
 p:ITA_477,f:1
 05dd:00820000:206c:013e:1:0
 DVB-NIP-VV
+p:,f:1
+05de:00820000:206c:013e:25:0
+Arte HD
 p:,f:1
 0259:00820000:2774:013e:1:0
 FX Life HD
@@ -15569,18 +15572,21 @@ p:Slovak Telekom,f:1
 0001:0e08ab58:0001:ffff:1:0
 STV NORTH ENC 2
 p:TANDBERG Television,f:1
-0065:fff80000:0065:0065:1:0
-B 101 DGI
-p:RCS-RDS BUCURESTI,f:1
 0065:0e080000:0065:0065:1:0
 B 101 DGI
 p:RCS-RDS BUCURESTI,f:1
 32d4:fff83095:004f:0046:22:0
 Test 13012
 p:Telenor,f:1
-0065:fff8b0f0:0065:0065:1:0
-B 101 DGI
-p:RCS-RDS BUCURESTI,f:1
+fff1:fff83095:004f:0046:25:0
+Test_65521
+p:Telenor,f:1
+fff2:fff83095:004f:0046:25:0
+Test_65522
+p:Telenor,f:1
+fff3:fff83095:004f:0046:25:0
+Test_65523
+p:Telenor,f:1
 1d58:fff830bc:0050:0046:25:0
 Nelonen HD
 p:Telenor,f:1
@@ -15623,6 +15629,12 @@ p:Telenor,f:1
 42ea:fff830bc:0050:0046:25:0
 Yle TV1 HD
 p:Telenor,f:1
+00bf:0e08b0f6:0001:ffff:1:0
+B 191 DGI
+p:DIGI TV,f:1
+0001:fff8b0f0:0001:ffff:1:0
+backup
+p:RCS-RDS,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2025
