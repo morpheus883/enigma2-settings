@@ -69,6 +69,9 @@ transponders
 02ee0000:0195:0064
 	s 11471000:22500000:1:1:750:2:0:1:1:0:2
 /
+02ee2e09:0000:0000
+	s 11785000:20000000:0:3:750:2:0:1:2:0:2
+/
 02e4aae0:0441:0000
 	s 10976000:2000000:1:1:740:2:0:1:2:0:2
 /
@@ -1751,6 +1754,9 @@ transponders
 /
 011a31ad:0000:0000
 	s 12717000:14400000:0:3:282:2:0:1:2:0:2
+/
+011a3134:0001:ffff
+	s 12596000:7200000:0:3:282:2:0:1:2:0:2
 /
 01040000:012d:02be
 	s 11747000:27500000:1:3:260:2:0
@@ -3771,9 +3777,6 @@ transponders
 00462d91:0001:ffff
 	s 11665000:7500000:0:3:70:2:0:1:2:0:2
 /
-0046ab46:4321:00eb
-	s 11078000:7200000:1:3:70:2:0:1:2:0:2
-/
 00462d9d:0001:0001
 	s 11677000:5040000:1:8:70:2:0:1:1:0:2
 /
@@ -3992,9 +3995,6 @@ transponders
 /
 0046aada:0001:0001
 	s 10970000:4936000:1:3:70:2:0:1:2:0:2
-/
-0046aaeb:0001:0001
-	s 10987000:4936000:1:3:70:2:0:1:2:0:2
 /
 00462b39:0001:ffff
 	s 11065000:9876000:0:3:70:2:0:1:2:0:2
@@ -4218,17 +4218,8 @@ transponders
 0046ad16:0000:0000
 	s 11542000:7200000:1:3:70:2:0:1:2:0:2
 /
-00460000:0066:0061
-	s 11459000:7200000:1:3:70:2:0:1:2:0:2
-/
 0046ad22:0001:ffff
 	s 11554000:4800000:1:3:70:2:0:1:2:0:2
-/
-0046b1a0:0005:0001
-	s 12704000:7200000:1:3:70:2:0:1:2:0:2
-/
-0046b1bf:0000:0000
-	s 12735000:7200000:1:3:70:2:0:1:2:0:2
 /
 0046ad2a:0001:ffff
 	s 11562000:7200000:1:3:70:2:0:1:2:0:2
@@ -4236,11 +4227,26 @@ transponders
 0046b197:0000:0000
 	s 12695000:7200000:1:3:70:2:0:1:2:0:2
 /
-0046ada1:0001:ffff
+0046aaeb:0001:0001
+	s 10987000:4936000:1:3:70:2:0:1:2:0:2
+/
+0046b1a0:0000:0000
+	s 12704000:7200000:1:3:70:2:0:1:2:0:2
+/
+0046ada1:0001:0001
 	s 11681000:2500000:1:4:70:2:0:1:2:0:2
 /
-0046ada5:0001:ffff
+0046ada5:0001:0001
 	s 11685000:2500000:1:4:70:2:0:1:2:0:2
+/
+0046b1bf:0000:0000
+	s 12735000:7200000:1:3:70:2:0:1:2:0:2
+/
+0046acc3:0000:0000
+	s 11459000:7200000:1:3:70:2:0:1:2:0:2
+/
+0046ab46:0000:0001
+	s 11078000:7200000:1:3:70:2:0:1:2:0:2
 /
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
@@ -4713,9 +4719,6 @@ fff80000:0af7:00bb
 0e08ab58:0001:ffff
 	s 11096000:3200000:1:4:-8:2:0:1:2:0:2
 /
-0e080000:0065:0065
-	s 12543000:6660000:1:3:-8:2:0:1:2:0:2
-/
 fff83095:004f:0046
 	s 12437000:30000000:0:3:-8:2:0:1:2:1:2
 /
@@ -4727,6 +4730,9 @@ fff830bc:0050:0046
 /
 fff8b0f0:0001:ffff
 	s 12528000:6660000:1:3:-8:2:0:1:2:0:2
+/
+fff8b0ff:0001:ffff
+	s 12543000:6660000:1:3:-8:2:0:1:2:0:2
 /
 ffe22ccb:0001:0001
 	s 11467000:1667000:0:3:-30:2:0
@@ -5550,9 +5556,6 @@ fed4aee6:0001:0001
 0ce42d1f:0001:ffff
 	s 11551000:7200000:0:3:-300:2:0:1:2:0:2
 /
-0ce4b12e:00a0:0000
-	s 12590000:7500000:1:3:-300:2:0:1:2:0:2
-/
 fed42d64:0000:0000
 	s 11620000:7200000:0:3:-300:2:0:1:2:0:2
 /
@@ -5576,6 +5579,9 @@ fed4b120:0001:ffff
 /
 0ce42d08:0001:0001
 	s 11528000:7200000:0:3:-300:2:0:1:2:0:2
+/
+fed4b12e:0001:0001
+	s 12590000:5000000:1:3:-300:2:0:1:2:0:2
 /
 0cd52ffc:0008:0000
 	s 12284000:2200000:1:2:-315:2:0:1:2:0:0
@@ -6848,6 +6854,9 @@ p:MIR Teleport,c:050001,f:1
 06c2:02ee0000:0195:0064:1:0
 Mir 24
 p:MIR Teleport,f:1
+0001:02ee2e09:0000:0000:1:0
+ABS Promo
+p:,c:050001,f:1
 5014:02e4aae0:0441:0000:1:0
 AOL
 p:,f:1
@@ -8861,6 +8870,9 @@ p:WNS,f:1
 0017:02080000:211e:211e:1:0
 MeFood HD
 p:WNS,f:1
+0029:02080000:211e:211e:1:0
+Sima HD
+p:WNS,f:1
 0001:02080000:1d36:1d36:1:0
 Persiana Family
 p:Persiana Cast,f:1
@@ -10390,7 +10402,7 @@ RISALET RADYO
 p:DIB
 c80f:01a40000:a3ae:042e:1:0
 TKGS DATA
-p:Prov,f:1
+p:TURKSAT,f:1
 c802:01a40000:a3ae:042e:1:0
 TURKSAT TEST
 p:TURKSAT,f:1
@@ -10866,7 +10878,7 @@ p:TURKUVAZ,f:1
 TUR-142-B
 p:,f:1
 0001:01a4acd0:0000:0000:25:0
-DIYARBAKIR M
+TUR-146-B
 p:,f:1
 3fac:01a40000:79e1:042e:25:0
 Turksat 8K
@@ -12323,7 +12335,7 @@ p:TRT
 199b:01a4ad06:0001:0001:1:0
 Tarim Orman
 p:TURKSAT,f:1
-0001:01a40000:0000:ff00:1:0
+0001:01a40000:0000:ff00:25:0
 IC YAPIMLAR
 p:Service Provider,f:1
 03e9:01a40000:0000:ff00:1:0
@@ -14807,6 +14819,9 @@ p:Tring TV,f:1
 186a:01862ab2:03fc:039e:1:0
 Sport 7 HD
 p:Tring TV,f:1
+125c:01862ab2:03fc:039e:1:0
+Mediaset Italia
+p:Mediaset,f:1
 0001:01863156:0001:ffff:1:0
 DSNG 1 ROU 13
 p:Antena Group,f:1
@@ -19424,6 +19439,9 @@ p:Digisat,f:1
 0001:011a31ad:0000:0000:25:0
 ITV Snook Main CoC
 p:,f:1
+0001:011a3134:0001:ffff:1:0
+D-361 Koeln 3 Liga
+p:Service Provider,f:1
 0193:01040000:012d:02be:1:0
 Al Kawthar
 p:JMC,f:1
@@ -20141,6 +20159,12 @@ p:,f:1
 070d:01040000:01fa:02be:1:0
 Yemen TV
 p:,f:1
+0744:01040000:01fa:02be:1:0
+KGC Al Janoob Al Ekhbaria
+p:,f:1
+0745:01040000:01fa:02be:1:0
+KGC Fairs TV
+p:,f:1
 0250:01040000:01f6:02be:1:0
 Al Arabiya
 p:JMC,f:1
@@ -20273,11 +20297,11 @@ p:SOREAD 2M,f:1
 0011:01040000:146f:02be:2:0
 Radio 2M
 p:SOREAD 2M
-001e:01040000:146f:02be:1:0
+001d:01040000:146f:02be:1:0
 Tevah TV
 p:IPVideoTrans,f:1
 0015:01040000:146f:02be:1:0
-Endowment TV
+Endownment TV
 p:Henmax,f:1
 0017:01040000:146f:02be:1:0
 Star Plus TV Ghana
@@ -20328,7 +20352,7 @@ p:,f:1
 Akasanoma TV
 p:,f:1
 002c:01040000:146f:02be:1:0
-Hennes TV
+Atuguba TV
 p:,f:1
 002d:01040000:146f:02be:1:0
 Sagani TV
@@ -20339,12 +20363,12 @@ p:ViewMedia,f:1
 0016:01040000:146f:02be:1:0
 Adanse3 Tv
 p:HenMax,f:1
-001d:01040000:146f:02be:1:0
-Ark TV
-p:IPVideoTrans,f:1
 002e:01040000:146f:02be:1:0
 Champion TV
 p:FFmpeg,f:1
+001e:01040000:146f:02be:1:0
+Anidaso TV
+p:IPVideoTrans,f:1
 0001:01042acc:4321:0000:25:0
 Medi 1 TV Rabat
 p:Medi1 TV,f:1
@@ -39758,6 +39782,12 @@ p:,f:1
 01f4:00462c28:765c:007e:1:0
 Manoto HD
 p:Manoto HD,f:1
+0204:00462c28:765c:007e:1:0
+Simaye-Azadi Iran National TV
+p:,f:1
+0205:00462c28:765c:007e:1:0
+Navahang SD
+p:,f:1
 076d:00460000:9fc4:007e:25:0
 MBC Persia HD
 p:MBC,f:1
@@ -39787,9 +39817,6 @@ ZZGVA1 ENC2
 p:EBU Eurovision,f:1
 0001:00462d91:0001:ffff:1:0
 E_363 B
-p:Service Provider,f:1
-0001:0046ab46:4321:00eb:1:0
-DMI SNG 2
 p:Service Provider,f:1
 0001:00462d9d:0001:0001:1:0
 Kurdistan24
@@ -40028,9 +40055,6 @@ p:Net 1,f:1
 0001:0046aada:0001:0001:1:0
 ROUSHDY
 p:Net 1,f:1
-0001:0046aaeb:0001:0001:25:0
-Fi01_GBBBC
-p:CM5000,f:1
 0001:00462b39:0001:ffff:1:0
 SNG E 414 MAIN
 p:OVERON,f:1
@@ -40331,30 +40355,36 @@ p:Kuwait TV,f:1
 0001:0046ad16:0000:0000:1:0
 Service 01
 p:Test2,f:1
-0001:00460000:0066:0061:1:0
-ISMF WORLD CUP 2
-p:IKOMG,f:1
 0001:0046ad22:0001:ffff:1:0
 E386 FEED 3
 p:OVERON,f:1
-0001:0046b1a0:0005:0001:1:0
-EPL NCC-5
-p:SES,f:1
-0001:0046b1bf:0000:0000:25:0
-ENC 5
-p:SES,f:1
 0001:0046ad2a:0001:ffff:1:0
 Feed C SLZ-ATM RP+ENTRENAMIENTO
 p:Service Provider,f:1
 0001:0046b197:0000:0000:25:0
 ENC 5
 p:SES,f:1
-0001:0046ada1:0001:ffff:1:0
-K24_Flayaway_1
-p:Kurdistan 24,f:1
-0001:0046ada5:0001:ffff:1:0
-K24_Flayaway_1
-p:Kurdistan 24,f:1
+0001:0046aaeb:0001:0001:1:0
+ANA-01
+p:Net 1,f:1
+0001:0046b1a0:0000:0000:25:0
+MDN TRACK FEED MAIN
+p:,f:1
+0001:0046ada1:0001:0001:25:0
+K24_Erbil_F
+p:Eutelsat,f:1
+0001:0046ada5:0001:0001:25:0
+K24_Erbil_F
+p:Eutelsat,f:1
+0001:0046b1bf:0000:0000:25:0
+ENC 1
+p:SES,f:1
+0001:0046acc3:0000:0000:25:0
+E-095 MAIN
+p:Mediapro,f:1
+0001:0046ab46:0000:0001:25:0
+SAU-031
+p:,f:1
 0fa0:00300000:0006:0056:1:0
 TVN Chile Nordic
 p:SES ASTRA,f:1
@@ -45335,9 +45365,6 @@ p:Slovak Telekom,f:1
 0001:0e08ab58:0001:ffff:1:0
 STV NORTH ENC 2
 p:TANDBERG Television,f:1
-0065:0e080000:0065:0065:1:0
-B 101 DGI
-p:RCS-RDS BUCURESTI,f:1
 32d4:fff83095:004f:0046:22:0
 Test 13012
 p:Telenor,f:1
@@ -45349,6 +45376,12 @@ Test_65522
 p:Telenor,f:1
 fff3:fff83095:004f:0046:25:0
 Test_65523
+p:Telenor,f:1
+fff4:fff83095:004f:0046:22:0
+Test_65524
+p:Telenor,f:1
+fffa:fff83095:004f:0046:25:0
+Test_65530
 p:Telenor,f:1
 1d58:fff830bc:0050:0046:25:0
 Nelonen HD
@@ -45396,6 +45429,9 @@ p:Telenor,f:1
 B 191 DGI
 p:DIGI TV,f:1
 0001:fff8b0f0:0001:ffff:1:0
+backup
+p:RCS-RDS,f:1
+0001:fff8b0ff:0001:ffff:1:0
 backup
 p:RCS-RDS,f:1
 0001:ffe22ccb:0001:0001:1:0
@@ -48895,40 +48931,40 @@ Fatafeat
 p:OSN,c:050001,f:1
 0004:0dca0000:0003:0003:25:0
 Qatar TV HD
-p:Qatar TV,f:1
+p:QMC,f:1
 000a:0dca0000:0003:0003:2:0
 Sout Alkhaleej 2
-p:Qatar TV
+p:QMC
 000b:0dca0000:0003:0003:2:0
 Sout Alkhaleej 3
-p:Qatar TV
+p:QMC
 000c:0dca0000:0003:0003:2:0
 Sout Alkhaleej 4
-p:Qatar TV
+p:QMC
 000d:0dca0000:0003:0003:2:0
 Sout Alkhaleej Europe
-p:Qatar TV
+p:QMC
 0015:0dca0000:0003:0003:2:0
 Qatar Radio
-p:Qatar TV
+p:QMC
 0016:0dca0000:0003:0003:2:0
 Qatar R Quran
-p:Qatar TV
+p:QMC
 0017:0dca0000:0003:0003:2:0
 Qatar Oryx Radio
-p:Qatar TV
+p:QMC
 0018:0dca0000:0003:0003:2:0
 Qatar QBS Radio
-p:Qatar TV
+p:QMC
 0019:0dca0000:0003:0003:2:0
 Qatar Urdu Radio
-p:Qatar TV
-0001:0dca0000:0003:0003:25:0
+p:QMC
+0002:0dca0000:0003:0003:25:0
 Qatar 2
-p:Qatar TV,f:1
+p:QMC,f:1
 001a:0dca0000:0003:0003:2:0
 Qatar R Quran 2
-p:Qatar Television
+p:QMC
 001b:0dca0000:0003:0003:2:0
 Hola Qatar
 p:QMC
@@ -53645,9 +53681,6 @@ p:
 0001:0ce42d1f:0001:ffff:1:0
 E-411_via 2
 p:Service Provider,f:1
-0001:0ce4b12e:00a0:0000:1:0
-SEMINCI 2
-p:TVE,f:1
 0001:fed42d64:0000:0000:1:0
 
 p:,f:1
@@ -53675,6 +53708,9 @@ p:Adtec Digital,f:1
 0001:0ce42d08:0001:0001:25:0
 VIA 1- MO-03
 p:Adtec Digital,f:1
+0008:fed4b12e:0001:0001:25:0
+APPEAR 8 MONCLOA
+p:Overon,f:1
 0401:0cd52ffc:0008:0000:1:0
 Morpheus883 BlindMarke®
 p:DiviCom Customer,f:1

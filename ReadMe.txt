@@ -9,14 +9,14 @@ Morpheus883's Site: https://morpheus883.altervista.org/
 GitHub Repository: https://github.com/morpheus883/
 and available on the main Sat Sites
 
-Enigma2 Settings 12th February 2025, © by Morpheus883
+Enigma2 Settings 18th February 2025, © by Morpheus883
 
 Settings for Images based on Enigma 2.4:
 
 Statistics:
 # Satellites: 88 (Ku Band)
 # Ordered Provider Lists: 70+
-# Services: 16.417 (TV-Radio-Data)
+# Services: 16.427 (TV-Radio-Data)
 # Packages: 23 (TV-Radio-Data):
 
 MONOFeed (13°E)
@@ -67,7 +67,6 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [5.0 W] ===== EUTELSAT 5 WEST B =====
 [5.0 W] Bis / Orange / Fransat
 [4.0 W] ===== AMOS 3/7 =====
-[4.0 W] Magio TV
 [3.0 W] ===== ABS-3A =====
 [0.8 W] ===== INTELSAT 10-02 THOR 5/6/7 ===M=
 [0.8 W] Canal Digital Nordic
