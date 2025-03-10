@@ -42,9 +42,6 @@ transponders
 00820000:13ef:013e
 	s 11747000:27500000:0:3:130:2:0:1:2:0:2
 /
-00820000:14b4:fbff
-	s 11785000:29900000:0:3:130:2:0:1:2:0:2
-/
 00820000:157c:013e
 	s 11823000:27500000:0:3:130:2:0:1:2:3:0
 /
@@ -299,6 +296,9 @@ transponders
 /
 00822a8c:0c07:0001
 	s 10892000:27500000:0:3:130:2:0:1:2:2:2
+/
+00820000:14b4:013e
+	s 11785000:27500000:0:3:130:2:0:1:2:0:2
 /
 005a0000:14b4:009c
 	s 11785000:27500000:0:2:90:2:0:1:2:0:2
@@ -1268,12 +1268,6 @@ p:DU,f:1
 2530:00820000:13ef:013e:25:0
 Al Mashhad
 p:Du,f:1
-37d3:00820000:14b4:fbff:251:0
-Fusion BGDL 14291
-p:SkyItalia
-37d7:00820000:14b4:fbff:1:1
-IEPG Data
-p:SkyItalia,f:1
 0143:00820000:157c:013e:1:0
 NovaSports 5 HD
 p:NOVA,f:1
@@ -2738,9 +2732,9 @@ p:NOVA,f:1
 4206:00820000:2f44:013e:1:0
 Dorcel TV HD
 p:iKO Media Group,f:1
-421c:00820000:2f44:013e:25:0
+421c:00820000:2f44:013e:22:0
 UA TV
-p:COSMONOVA BROADCAST LLC,f:1
+p:COSMONOVA LLC,f:1
 422d:00820000:2f44:013e:22:0
 Class TV Moda
 p:M-Three Satcom,f:1
@@ -4181,6 +4175,9 @@ p:MuxIP,f:1
 05e5:00820000:0321:013e:1:0
 MVMT Movement of Culture
 p:MuxIP,f:1
+05e6:00820000:0321:013e:1:0
+AWE
+p:MuxIP,f:1
 0065:00820000:2fa8:013e:22:0
 Svoboda
 p:Svoboda Satellite,f:1
@@ -5429,6 +5426,18 @@ p:iKOMG,f:1
 08b5:00820000:01f4:00fc:32:0
 Love Nature 4K
 p:iKOMG
+089d:00820000:01f4:00fc:1:0
+Amazing Facts
+p:iKOMG,f:1
+08a0:00820000:01f4:00fc:1:0
+TeleRadioPace TV
+p:iKOMG,f:1
+089e:00820000:01f4:00fc:22:0
+Firstlight
+p:iKOMG,f:1
+089f:00820000:01f4:00fc:22:0
+KICC TV
+p:iKOMG,f:1
 03eb:00822d06:03eb:0001:12:0
 HVS-3 Bck
 p:Telespazio
@@ -5606,6 +5615,39 @@ p:Eutelsat,f:1
 00c8:00822a8c:0c07:0001:12:0
 SmartLNB
 p:EUTELSAT
+02bd:00820000:14b4:013e:1:0
+World Poker Tour
+p:MuxIP,f:1
+02be:00820000:14b4:013e:1:0
+Outdoor Channel
+p:MuxIP,f:1
+02bf:00820000:14b4:013e:1:0
+Cricket Gold
+p:MuxIP,f:1
+02c0:00820000:14b4:013e:1:0
+Triton Poker Series
+p:MuxIP,f:1
+02c1:00820000:14b4:013e:1:0
+One America News
+p:MuxIP,f:1
+02c2:00820000:14b4:013e:1:0
+AFV Americas Funniest
+p:MuxIP,f:1
+02c3:00820000:14b4:013e:1:0
+Sports First
+p:MuxIP,f:1
+02c4:00820000:14b4:013e:1:0
+Bare Knuckles Fighting Championship
+p:MuxIP,f:1
+02c5:00820000:14b4:013e:1:0
+MVMT Movement of Culture
+p:MuxIP,f:1
+02c6:00820000:14b4:013e:1:0
+AWE
+p:MuxIP,f:1
+02c7:00820000:14b4:013e:1:0
+WildTV
+p:MuxIP,f:1
 00d8:005a0000:14b4:009c:1:0
 Comedy Central
 p:Kabelkiosk,f:1
@@ -6998,6 +7040,9 @@ p:Warner Bros. Discovery,f:1
 17d4:005a0000:c3be:009e:25:0
 Cartoon Network Central Europe HD
 p:,f:1
+189c:005a0000:c3be:009e:25:0
+Discovery Central Europe Clean HD
+p:,f:1
 1518:005a0000:c3aa:009e:25:0
 Animal Planet Europe HD
 p:Warner Bros. Discovery,f:1
@@ -7159,6 +7204,12 @@ TCI
 p:Persidera,f:1
 005c:005ab035:7918:217c:22:0
 CANALE 237
+p:Persidera,f:1
+0066:005ab035:7918:217c:22:0
+PROMO SPORT
+p:Persidera,f:1
+0067:005ab035:7918:217c:22:0
+CANALE 263
 p:Persidera,f:1
 0274:005ab035:0200:001d:1:0
 TV8 News On Demand
@@ -7553,6 +7604,9 @@ p:Canale Italia,f:1
 2669:005a0000:98e1:217c:1:0
 REGGIO TV
 p:REGGIO TV,f:1
+265d:005a0000:98e1:217c:1:0
+DIGITAL TV
+p:TELESPAZIO,f:1
 1b59:005a0000:70e1:217c:1:0
 RETE 8
 p:RETE 8,c:050001,f:1

@@ -651,9 +651,6 @@ transponders
 00c00000:0000:0001
 	s 11485000:9874000:1:3:192:2:0:1:2:0:2
 /
-00c0ad82:0000:ff00
-	s 11650000:9874000:1:3:192:2:0:1:2:0:2
-/
 00c00000:0065:a455
 	s 11627000:26000000:1:6:192:2:0:1:2:0:2
 /
@@ -788,9 +785,6 @@ transponders
 /
 00820000:13ef:013e
 	s 11747000:27500000:0:3:130:2:0:1:2:0:2
-/
-00820000:14b4:fbff
-	s 11785000:29900000:0:3:130:2:0:1:2:0:2
 /
 00820000:157c:013e
 	s 11823000:27500000:0:3:130:2:0:1:2:3:0
@@ -1046,6 +1040,9 @@ transponders
 /
 00822a8c:0c07:0001
 	s 10892000:27500000:0:3:130:2:0:1:2:2:2
+/
+00820000:14b4:013e
+	s 11785000:27500000:0:3:130:2:0:1:2:0:2
 /
 end
 services
@@ -7355,9 +7352,6 @@ p:RR,f:1
 0001:00c00000:0000:0001:0:0
 FEED-1B-TUR139
 p:HDPROTEK
-0001:00c0ad82:0000:ff00:25:0
-Are Dirty Feed
-p:Mobile Linke Europe AB,f:1
 0065:00c00000:0065:a455:1:0
 FWWC-WF-A-R
 p:Telstra Broadcast Services,f:1
@@ -8594,12 +8588,6 @@ p:DU,f:1
 2530:00820000:13ef:013e:25:0
 Al Mashhad
 p:Du,f:1
-37d3:00820000:14b4:fbff:251:0
-Fusion BGDL 14291
-p:SkyItalia
-37d7:00820000:14b4:fbff:1:1
-IEPG Data
-p:SkyItalia,f:1
 0143:00820000:157c:013e:1:0
 NovaSports 5 HD
 p:NOVA,f:1
@@ -10064,9 +10052,9 @@ p:NOVA,f:1
 4206:00820000:2f44:013e:1:0
 Dorcel TV HD
 p:iKO Media Group,f:1
-421c:00820000:2f44:013e:25:0
+421c:00820000:2f44:013e:22:0
 UA TV
-p:COSMONOVA BROADCAST LLC,f:1
+p:COSMONOVA LLC,f:1
 422d:00820000:2f44:013e:22:0
 Class TV Moda
 p:M-Three Satcom,f:1
@@ -11507,6 +11495,9 @@ p:MuxIP,f:1
 05e5:00820000:0321:013e:1:0
 MVMT Movement of Culture
 p:MuxIP,f:1
+05e6:00820000:0321:013e:1:0
+AWE
+p:MuxIP,f:1
 0065:00820000:2fa8:013e:22:0
 Svoboda
 p:Svoboda Satellite,f:1
@@ -12755,6 +12746,18 @@ p:iKOMG,f:1
 08b5:00820000:01f4:00fc:32:0
 Love Nature 4K
 p:iKOMG
+089d:00820000:01f4:00fc:1:0
+Amazing Facts
+p:iKOMG,f:1
+08a0:00820000:01f4:00fc:1:0
+TeleRadioPace TV
+p:iKOMG,f:1
+089e:00820000:01f4:00fc:22:0
+Firstlight
+p:iKOMG,f:1
+089f:00820000:01f4:00fc:22:0
+KICC TV
+p:iKOMG,f:1
 03eb:00822d06:03eb:0001:12:0
 HVS-3 Bck
 p:Telespazio
@@ -12932,6 +12935,39 @@ p:Eutelsat,f:1
 00c8:00822a8c:0c07:0001:12:0
 SmartLNB
 p:EUTELSAT
+02bd:00820000:14b4:013e:1:0
+World Poker Tour
+p:MuxIP,f:1
+02be:00820000:14b4:013e:1:0
+Outdoor Channel
+p:MuxIP,f:1
+02bf:00820000:14b4:013e:1:0
+Cricket Gold
+p:MuxIP,f:1
+02c0:00820000:14b4:013e:1:0
+Triton Poker Series
+p:MuxIP,f:1
+02c1:00820000:14b4:013e:1:0
+One America News
+p:MuxIP,f:1
+02c2:00820000:14b4:013e:1:0
+AFV Americas Funniest
+p:MuxIP,f:1
+02c3:00820000:14b4:013e:1:0
+Sports First
+p:MuxIP,f:1
+02c4:00820000:14b4:013e:1:0
+Bare Knuckles Fighting Championship
+p:MuxIP,f:1
+02c5:00820000:14b4:013e:1:0
+MVMT Movement of Culture
+p:MuxIP,f:1
+02c6:00820000:14b4:013e:1:0
+AWE
+p:MuxIP,f:1
+02c7:00820000:14b4:013e:1:0
+WildTV
+p:MuxIP,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2025
