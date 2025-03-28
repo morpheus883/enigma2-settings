@@ -270,6 +270,9 @@ transponders
 011a3170:0001:ffff
 	s 12656000:7200000:0:3:282:2:0:1:2:0:2
 /
+011a31ac:0001:ffff
+	s 12716000:7500000:0:3:282:2:0:1:2:0:2
+/
 00c00000:041d:0001
 	s 10773000:22000000:0:3:192:2:0:1:2:0:2
 /
@@ -615,9 +618,6 @@ transponders
 00c02d55:0001:ffff
 	s 11605000:9875000:0:3:192:2:0:1:2:0:2
 /
-00c0aca5:0000:0001
-	s 11429000:9875000:1:3:192:2:0:1:2:0:2
-/
 00c00000:0020:00eb
 	s 11600000:4800000:1:3:192:2:0:1:2:0:2
 /
@@ -935,9 +935,6 @@ transponders
 /
 00820000:14b4:013e
 	s 11785000:27500000:0:3:130:2:0:1:2:0:2
-/
-0082ad90:3db8:013e
-	s 11664000:27500000:1:2:130:2:0:1:2:2:2
 /
 end
 services
@@ -1390,6 +1387,12 @@ Colors HD
 p:BSkyB,f:1
 d7eb:011a0000:082c:0002:25:0
 Al Jazeera English HD
+p:BSkyB,f:1
+d7ee:011a0000:082c:0002:1:0
+ATN Bangla UK
+p:BSkyB,f:1
+d7ec:011a0000:082c:0002:1:0
+iON TV
 p:BSkyB,f:1
 d35b:011a0000:0830:0002:1:0
 SAB TV
@@ -2642,9 +2645,6 @@ p:BSkyB,f:1
 1db2:011a0000:082d:0002:25:0
 U&Dave HD
 p:BSkyB,f:1
-1db3:011a0000:082d:0002:1:0
-ATN Bangla UK
-p:BSkyB,f:1
 1db4:011a0000:082d:0002:1:0
 Ahlebait TV
 p:BSkyB,f:1
@@ -2659,9 +2659,6 @@ The Word Network
 p:BSkyB,f:1
 1db9:011a0000:082d:0002:1:0
 Ayozat TV
-p:BSkyB,f:1
-1dbb:011a0000:082d:0002:1:0
-iON TV
 p:BSkyB,f:1
 1dbd:011a0000:082d:0002:2:0
 WRN Europe
@@ -3194,15 +3191,15 @@ p:Net 1,f:1
 0001:011ab0e7:0001:ffff:1:0
 GAA BEO - CORCAIGH
 p:Digisat,f:1
-0001:011a31ad:0000:0000:25:0
-ITV Snook Main CoC
-p:,f:1
 0001:011a3134:0001:ffff:1:0
 D-361 Koeln 3 Liga
 p:Service Provider,f:1
 0001:011a3170:0001:ffff:1:0
 D535_STGT
 p:Television,f:1
+0001:011a31ac:0001:ffff:1:0
+Tinopolis UKI1946 Path 1
+p:Service Provider,f:1
 526c:00c00000:041d:0001:25:0
 Anixe HD
 p:BetaDigital,f:1
@@ -9449,6 +9446,9 @@ p:,f:1
 0001:00820000:2f44:013e:12:0
 FileCasting
 p:Eutelsat
+4237:00820000:2f44:013e:1:0
+Juwelo TV
+p:SCP2100,f:1
 2907:00820000:1edc:0071:1:0
 Nat Geo People PL HD
 p:Cyfrowy Polsat S.A.,f:1
@@ -10499,19 +10499,19 @@ p:KABELIO.CH,f:1
 0085:00820000:3264:013e:25:0
 Kabelio ZDF HD
 p:KABELIO.CH,f:1
-0087:00820000:3264:013e:1:0
+0087:00820000:3264:013e:25:0
 Kabelio n-tv
 p:KABELIO.CH,f:1
 0076:00820000:3264:013e:1:0
 Kabelio ORF Sport+
 p:KABELIO.CH,f:1
-0088:00820000:3264:013e:1:0
+0088:00820000:3264:013e:25:0
 Kabelio Info
 p:KABELIO.CH,f:1
-0075:00820000:3264:013e:1:0
+0075:00820000:3264:013e:25:0
 Kabelio ServusTV
 p:KABELIO.CH,f:1
-008b:00820000:3264:013e:1:0
+008b:00820000:3264:013e:25:0
 Kabelio Spare
 p:KABELIO.CH,f:1
 2503:00820000:170c:fbff:25:0
@@ -10742,6 +10742,12 @@ p:Amagi,f:1
 0bc2:00820000:20d0:013e:22:0
 FashionTV L'Original
 p:Nimbus,f:1
+05dd:00820000:20d0:013e:1:0
+dvb-nip-vv
+p:,f:1
+05de:00820000:20d0:013e:25:0
+legacy-pr
+p:,f:1
 02bd:00820000:02bc:013e:25:0
 Eurosport 1 International HD
 p:Warner Bros. Discovery,f:1
