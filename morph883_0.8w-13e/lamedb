@@ -552,7 +552,7 @@ fff830bc:0050:0046
 fff8b0f0:0001:ffff
 	s 12528000:6660000:1:3:-8:2:0:1:2:0:2
 /
-fff8b0ff:0001:ffff
+0e080000:0065:0065
 	s 12543000:6660000:1:3:-8:2:0:1:2:0:2
 /
 end
@@ -1040,20 +1040,17 @@ p:ECLUTCH,f:1
 0066:00820000:00c8:013e:1:0
 Gametoon
 p:ECLUTCH,f:1
-0067:00820000:00c8:013e:1:0
-ESR24
-p:ECLUTCH,f:1
 0068:00820000:00c8:013e:1:0
 Esports Legend
-p:ECLUTCH,f:1
-0069:00820000:00c8:013e:1:0
-Senemedia
 p:ECLUTCH,f:1
 006a:00820000:00c8:013e:1:0
 eClutch Live
 p:ECLUTCH,f:1
 006b:00820000:00c8:013e:25:0
 Padel TV
+p:ECLUTCH,f:1
+0069:00820000:00c8:013e:1:0
+ESport 24
 p:ECLUTCH,f:1
 32de:00820000:0190:013e:1:0
 Canal+ Sport HD Polska
@@ -1559,6 +1556,9 @@ p:SkyItalia,f:1
 0ded:00820000:1644:fbff:25:0
 Sky Sport Business 3
 p:SkyItalia,f:1
+0df8:00820000:1644:fbff:25:0
+Sky Sport Business 4
+p:SkyItalia,f:1
 0e55:00820000:16a8:fbff:130:0
 Gestione Collegam. Telefonico
 p:SkyItalia,f:1
@@ -1716,7 +1716,7 @@ p:SkyItalia,f:1
 Boomerang +1
 p:SkyItalia,f:1
 104a:00820000:189c:fbff:25:0
-Classica HD
+Sky Classica
 p:SkyItalia,f:1
 1c3f:00820000:189c:fbff:25:0
 Sky Cinema Romance
@@ -1973,12 +1973,6 @@ p:NOVA
 3c9c:00820000:1bbc:013e:1:0
 Euronews Greek
 p:NOVA,f:1
-3c9d:00820000:1bbc:013e:1:0
-Viasat Nature HD
-p:NOVA,f:1
-3c9e:00820000:1bbc:013e:1:0
-Viasat Explore HD
-p:NOVA,f:1
 3c92:00820000:1bbc:013e:1:0
 TLC
 p:NOVA,f:1
@@ -2008,6 +2002,12 @@ NovaSports 3 HD Cy
 p:NOVA,f:1
 3ca0:00820000:1bbc:013e:1:0
 NovaSports 3 HD
+p:NOVA,f:1
+3c9d:00820000:1bbc:013e:1:0
+Cosmote Sport 1 HD
+p:NOVA,f:1
+3c9e:00820000:1bbc:013e:1:1
+ALPHA HD
 p:NOVA,f:1
 1c22:00820000:1c20:013e:1:0
 TTN - Télévision Tunisienne Nationale
@@ -2182,6 +2182,12 @@ Skai (ΣΚΑΪ) HD
 p:NOVA,f:1
 0185:00820000:1c84:013e:1:0
 ERT (EPT) 2 HD
+p:NOVA,f:1
+0178:00820000:1c84:013e:1:0
+NovaSportsExtra3HD Cy
+p:NOVA,f:1
+018a:00820000:1c84:013e:1:0
+NovaSportsExtra1HD Cy
 p:NOVA,f:1
 1c86:00820000:1ce8:0071:1:0
 AXN White Poland
@@ -2844,10 +2850,10 @@ p:NOVA,f:1
 N TEST 2
 p:NOVA,C:0000,f:1
 1bd0:00820000:17d4:013e:1:0
-N TEST 4
+Novasportsextra4HD Cy
 p:NOVA,f:1
 1bd3:00820000:17d4:013e:1:0
-N TEST 1
+COSMOTESport2HD
 p:NOVA,f:1
 4206:00820000:2f44:013e:1:0
 Dorcel TV HD
@@ -2891,6 +2897,9 @@ p:Eutelsat
 4237:00820000:2f44:013e:1:0
 Juwelo TV
 p:SCP2100,f:1
+4230:00820000:2f44:013e:25:0
+Brazzers HD Nova
+p:M7 Group,f:1
 2907:00820000:1edc:0071:1:0
 Nat Geo People PL HD
 p:Cyfrowy Polsat S.A.,f:1
@@ -3863,6 +3872,9 @@ p:Globecast,f:1
 3335:00820000:1388:013e:2:0
 RIK3
 p:GLOBECAST
+3347:00820000:1388:013e:2:0
+BBC World Service Arabic
+p:Globecast
 04b2:00820000:23f0:013e:25:0
 Saudi Ch for Sunnah HD
 p:,f:1
@@ -4073,6 +4085,9 @@ p:NOVA,f:1
 01a7:00820000:1518:013e:1:0
 Smile TV
 p:NOVA,f:1
+01a8:00820000:1518:013e:1:0
+NovaSportsExtra4HD Cy
+p:NOVA,f:1
 012d:00820000:3e1c:013f:1:0
 TF1 HD
 p:Eutelsat,f:1
@@ -4091,9 +4106,6 @@ p:Eutelsat,f:1
 0133:00820000:3e1c:013f:1:0
 Arte HD
 p:Eutelsat,f:1
-0134:00820000:3e1c:013f:1:0
-C8
-p:Eutelsat,f:1
 0135:00820000:3e1c:013f:1:0
 W9
 p:Eutelsat,f:1
@@ -4102,9 +4114,6 @@ TMC (Télé Monte Carlo)
 p:Eutelsat,f:1
 0137:00820000:3e1c:013f:1:0
 TFX
-p:Eutelsat,f:1
-0138:00820000:3e1c:013f:1:0
-NRJ 12
 p:Eutelsat,f:1
 0139:00820000:3e1c:013f:1:0
 LCP - La Chaîne Parlementaire
@@ -4135,6 +4144,12 @@ Cherie 25
 p:Eutelsat,f:1
 0146:00820000:3e1c:013f:1:0
 LCI - La Chaîne Info
+p:Eutelsat,f:1
+0134:00820000:3e1c:013f:1:0
+Arret C8
+p:Eutelsat,f:1
+0138:00820000:3e1c:013f:1:1
+Arret NRJ12
 p:Eutelsat,f:1
 3b65:00820000:012c:013e:22:0
 Frisbee
@@ -5043,7 +5058,7 @@ p:VIVACOM,f:1
 Super Toons
 p:VIVACOM,f:1
 0086:00820000:251c:00d5:1:0
-Ловно-рибарски клуб
+Ловно-рибарски клуб (Lovno Ribarski Klub)
 p:VIVACOM,f:1
 13a7:00820000:2710:00d5:1:0
 B1B Action
@@ -5579,6 +5594,9 @@ p:MyIntProvider,f:1
 0192:0082b12f:0001:ffff:1:0
 Service_MENA_02
 p:GLOBECAST,f:1
+0194:0082b12f:0001:ffff:1:0
+Service_MENA_04
+p:GLOBECAST,f:1
 2344:00820000:2328:013e:1:0
 Towheed TV
 p:STN,f:1
@@ -5597,7 +5615,7 @@ p:STN,f:1
 232f:00820000:2328:013e:1:0
 Kentron TV
 p:STN,f:1
-2330:00820000:2328:013e:1:0
+2330:00820000:2328:013e:25:0
 Jek TV
 p:STN,f:1
 2331:00820000:2328:013e:1:0
@@ -5622,7 +5640,7 @@ p:STN,f:1
 Somaliland National TV
 p:STN,f:1
 233a:00820000:2328:013e:1:0
-Al Malakoot Sat - The Kingdom Sat الملكوت ساتThe Kingdom Sat  الملكوت سات
+Al Malakoot Sat - The Kingdom Sat الملكوت ساتThe K
 p:STN,f:1
 233b:00820000:2328:013e:25:0
 Anewz
@@ -8012,9 +8030,6 @@ p:DIGI HU,f:1
 056e:0e080000:0005:0001:1:0
 Minimax HU
 p:DIGI HU,f:1
-0a6e:0e080000:0005:0001:1:0
-Spektrum TV Hungary
-p:DIGI HU,f:1
 0a8c:0e080000:0005:0001:1:0
 Magyar TV 2
 p:DIGI HU,f:1
@@ -8044,6 +8059,9 @@ ID Investigation Discovery HU
 p:DIGI HU,f:1
 0a1e:0e080000:0005:0001:1:0
 Eurosport 2 HU
+p:DIGI HU,f:1
+0a6e:0e080000:0005:0001:1:0
+Travel Channel
 p:DIGI HU,f:1
 0d16:0e080000:0003:0001:1:0
 Spiler TV
@@ -8294,12 +8312,6 @@ p:,f:1
 0001:fff8accf:0000:0000:1:0
 IRL27 Bup M6
 p:Vitel.tv,f:1
-040f:0e080000:0519:0002:1:0
-Tivi 5 Monde
-p:,f:1
-0410:0e080000:0519:0002:1:0
-TV 5 Monde Afrique
-p:,f:1
 0411:0e080000:0519:0002:1:0
 TV 5 Monde Europe
 p:,f:1
@@ -8954,7 +8966,13 @@ p:DIGI TV,f:1
 0001:fff8b0f0:0001:ffff:1:0
 backup
 p:RCS-RDS,f:1
-0001:fff8b0ff:0001:ffff:1:0
+00bf:fff8b0f0:0001:ffff:1:0
+B 191 DGI
+p:DIGI TV,f:1
+0065:0e080000:0065:0065:1:0
+B 101 DGI
+p:RCS-RDS BUCURESTI,f:1
+0001:0e080000:0065:0065:1:0
 backup
 p:RCS-RDS,f:1
 end

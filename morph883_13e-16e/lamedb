@@ -57,9 +57,6 @@ transponders
 00a00000:9fc4:016e
 	s 11387000:32000000:0:3:160:2:0:1:2:0:2
 /
-00a00000:0001:016e
-	s 12639000:10833000:0:7:160:2:0:1:2:0:2
-/
 00a00000:cb2b:016e
 	s 11178000:27500000:1:7:160:2:0:1:2:2:2
 /
@@ -207,9 +204,6 @@ transponders
 00a030ff:0001:0001
 	s 12543000:3166000:0:2:160:2:0:1:2:0:2
 /
-00a00000:0007:016e
-	s 10721000:30000000:0:7:160:2:0:1:2:0:2
-/
 00a0ada1:0001:0001
 	s 11681000:7200000:1:3:160:2:0:1:2:0:2
 /
@@ -263,6 +257,21 @@ transponders
 /
 00a0314a:0001:0001
 	s 12618000:9600000:0:3:160:2:0:1:2:0:2
+/
+00a00000:9ca4:016e
+	s 11234000:7500000:0:2:160:2:0:1:0:2:2
+/
+00a00000:4e84:016e
+	s 10721000:30000000:0:3:160:2:0:1:2:0:2
+/
+00a00000:9f60:016e
+	s 11366000:30000000:1:3:160:2:0:1:2:2:2
+/
+00a00000:a028:016e
+	s 11429000:28330000:1:7:160:2:0:1:2:2:2
+/
+00a0b0ea:0001:016e
+	s 12522000:10833000:1:7:160:2:0:1:2:0:2
 /
 00820000:2cec:013e
 	s 10815000:27500000:0:4:130:2:0
@@ -760,34 +769,34 @@ p:
 p:
 0022:00a00000:0003:0040:22:0
 Vivid TV
-p:Max TV,f:1
+p:T-HT,f:1
 007a:00a00000:0003:0040:22:0
 Club MTV
-p:Max TV,f:1
+p:T-HT,f:1
 007b:00a00000:0003:0040:22:0
 MTV Hits
-p:Max TV,f:1
+p:T-HT,f:1
 007c:00a00000:0003:0040:22:0
 DJazz.tv
-p:Max TV,f:1
+p:T-HT,f:1
 00d8:00a00000:0003:0040:22:0
 Klasik TV
-p:Max TV,f:1
+p:T-HT,f:1
 019c:00a00000:0003:0040:25:0
 Arena Sport 1 HD
-p:Max TV,f:1
+p:T-HT,f:1
 0123:00a00000:0003:0040:22:0
 RTL Hrvatska
-p:Max TV,f:1
+p:T-HT,f:1
 0125:00a00000:0003:0040:22:0
 RTL 2 Croatia
-p:Max TV,f:1
+p:T-HT,f:1
 0126:00a00000:0003:0040:22:0
 TV Doma
-p:Max TV,f:1
+p:T-HT,f:1
 012d:00a00000:0003:0040:22:0
 Mini TV
-p:Max TV,f:1
+p:T-HT,f:1
 0066:00a00000:0003:0040:1:0
 24 Kitchen
 p:T-HT,f:1
@@ -796,10 +805,10 @@ SPTV
 p:T-HT,f:1
 00bf:00a00000:0003:0040:22:0
 Blue Hustler
-p:Max TV,f:1
+p:T-HT,f:1
 00be:00a00000:0003:0040:25:0
 Arena Sport 5 HD
-p:HT,f:1
+p:T-HT,f:1
 005b:00a00000:0003:0040:22:0
 Vivid Red
 p:T-HT,f:1
@@ -840,14 +849,14 @@ p:T-HT,f:1
 TV Nakupi.
 p:T-HT,f:1
 012a:00a00000:0003:0040:1:0
-
-p:,f:1
+AMC.
+p:T-HT,f:1
 00c6:00a00000:0003:0040:1:0
 
-p:,f:1
+p:T-HT,f:1
 0097:00a00000:0003:0040:100:0
 
-p:
+p:T-HT
 0084:00a00000:0003:0040:22:0
 Adria Music TV.
 p:T-HT,f:1
@@ -1058,9 +1067,6 @@ p:A1 Broadcasting,f:1
 076f:00a00000:c6d4:016e:25:0
 Body in Balance HD
 p:A1 Broadcasting,f:1
-0770:00a00000:c6d4:016e:25:0
-RiC International HD
-p:A1 Broadcasting,f:1
 0782:00a00000:c6d4:016e:22:0
 BabesTV
 p:A1 Broadcasting,f:1
@@ -1073,6 +1079,9 @@ p:A1 HR,f:1
 077b:00a00000:c6d4:016e:22:0
 AXN Adria
 p:A1 Broadcasting,f:1
+0770:00a00000:c6d4:016e:25:0
+RiC.today HD
+p:A1 Broadcasting,C:0000,f:1
 0714:00a00000:c5a8:016e:25:0
 HTV3 HD
 p:A1 HR,f:1
@@ -1193,9 +1202,6 @@ p:Digit Alb,f:1
 0708:00a00000:4f4c:016e:2:0
 Top Albania Radio
 p:Digit Alb
-044c:00a00000:4f4c:016e:1:0
-Film Komedi
-p:DigitALB,f:1
 0488:00a00000:4f4c:016e:1:0
 T
 p:DigitALB,f:1
@@ -1381,9 +1387,6 @@ Explorer histori
 p:DigitALB,f:1
 0870:00a00000:5014:016e:1:0
 EuroFilm
-p:DigitALB,f:1
-087a:00a00000:5014:016e:1:0
-Film Autor
 p:DigitALB,f:1
 088e:00a00000:5014:016e:1:0
 Film Thriller
@@ -1823,60 +1826,6 @@ p:Total TV,f:1
 fffe:00a00000:9fc4:016e:100:0
 
 p:
-00aa:00a00000:0001:016e:2:0
-Radio Tirana 1
-p:RTSH
-00b4:00a00000:0001:016e:2:0
-Radio Tirana 2
-p:RTSH
-00be:00a00000:0001:016e:2:0
-Radio Tirana Internacional
-p:RTSH
-00c8:00a00000:0001:016e:2:0
-Radio Tirana Klasik
-p:RTSH
-0082:00a00000:0001:016e:22:0
-RTSH Plus
-p:RTSH,f:1
-0096:00a00000:0001:016e:22:0
-RTSH Shqip
-p:RTSH,f:1
-00a0:00a00000:0001:016e:22:0
-RTSH Muzike
-p:RTSH,f:1
-006e:00a00000:0001:016e:25:0
-RTSH 1 HD
-p:RTSH,f:1
-0078:00a00000:0001:016e:22:0
-RTSH 3
-p:RTSH,f:1
-008c:00a00000:0001:016e:25:0
-RTSH 24 HD
-p:RTSH,f:1
-00d2:00a00000:0001:016e:2:0
-Radio Kukesi
-p:RTSH
-00dc:00a00000:0001:016e:2:0
-Radio Tirana Jazz
-p:RTSH
-00e6:00a00000:0001:016e:2:0
-Radio Tirana 3
-p:RTSH
-00f0:00a00000:0001:016e:25:0
-RTSH Shkolle HD
-p:RTSH,f:1
-0104:00a00000:0001:016e:2:0
-Radio Gjirokastra
-p:RTSH
-010e:00a00000:0001:016e:2:0
-Radio Shkodra
-p:RTSH
-0118:00a00000:0001:016e:2:0
-Radio Tirana Femiije
-p:RTSH
-00fa:00a00000:0001:016e:2:0
-Radio Korca
-p:RTSH
 0053:00a00000:cb2b:016e:1:0
 Pink Music 2
 p:Pink,f:1
@@ -1947,16 +1896,16 @@ p:Total TV,f:1
 Pink Kids
 p:Pink,f:1
 0042:00a00000:cb2b:016e:1:0
-Zadruga Live 1
+Elita Live 1
 p:Pink,f:1
 0052:00a00000:cb2b:016e:1:0
-Zadruga Live 2
+Elita Live 2
 p:Pink,f:1
 0054:00a00000:cb2b:016e:1:0
-Zadruga Live 3
+Elita Live 3
 p:Pink,f:1
 005d:00a00000:cb2b:016e:1:0
-Zadruga Live 4
+Elita Live 4
 p:Pink,f:1
 0001:00a03103:0001:ffff:1:0
 POL-062
@@ -1993,6 +1942,21 @@ Spark
 p:A1 Broadcasting,C:0000,f:1
 07e0:00a00000:9e98:016e:25:0
 MCM Top HD
+p:A1 Broadcasting,f:1
+07e9:00a00000:9e98:016e:25:0
+Ginx HD
+p:A1 Broadcasting,f:1
+07e4:00a00000:9e98:016e:25:0
+Bigg TV HD
+p:A1 Broadcasting,f:1
+07e7:00a00000:9e98:016e:25:0
+ESport 24 HD
+p:A1 Broadcasting,f:1
+07e8:00a00000:9e98:016e:25:0
+Esports Legend HD
+p:A1 Broadcasting,f:1
+07e5:00a00000:9e98:016e:25:0
+eClutch Live HD
 p:A1 Broadcasting,f:1
 1504:00a00000:d232:d232:2:0
 Radio 538 TNZ
@@ -2042,27 +2006,6 @@ p:OIV
 0d58:00a00000:c738:016e:2:0
 HKR
 p:OIV
-0d6a:00a00000:c738:016e:2:0
-RASLO PRVI
-p:RTV SLOVENIJA
-0d6b:00a00000:c738:016e:2:0
-RASLO VAL 202
-p:RTV SLOVENIJA
-0d6c:00a00000:c738:016e:2:0
-RASLO ARS
-p:RTV SLOVENIJA
-0d6d:00a00000:c738:016e:2:0
-RASLO RADIO SI
-p:RTV SLOVENIJA
-0d67:00a00000:c738:016e:25:0
-SLO1 HD
-p:RTV SLOVENIJA,f:1
-0d68:00a00000:c738:016e:25:0
-SLO2 HD
-p:RTV SLOVENIJA,f:1
-0d69:00a00000:c738:016e:25:0
-SLO3 HD
-p:RTV SLOVENIJA,f:1
 0d4e:00a00000:c738:016e:25:0
 HRT International HD
 p:OIV,f:1
@@ -2318,6 +2261,63 @@ p:H
 0073:00a02bfe:0001:016e:25:0
 Fashion TV HD
 p:TEAM SAT,f:1
+0033:00a02bfe:0001:016e:22:0
+ATV
+p:TEAM SAT,f:1
+0034:00a02bfe:0001:016e:22:0
+BN 2
+p:TEAM SAT,f:1
+0035:00a02bfe:0001:016e:22:0
+Face TV
+p:TEAM SAT,f:1
+0036:00a02bfe:0001:016e:22:0
+Federalna TV
+p:TEAM SAT,f:1
+0037:00a02bfe:0001:016e:22:0
+Hayat 2
+p:TEAM SAT,f:1
+0038:00a02bfe:0001:016e:22:0
+Hayat Folk
+p:TEAM SAT,f:1
+0039:00a02bfe:0001:016e:22:0
+Hayat Music
+p:TEAM SAT,f:1
+003b:00a02bfe:0001:016e:22:0
+V5
+p:TEAM SAT,f:1
+003c:00a02bfe:0001:016e:22:0
+TV Zona Plus
+p:TEAM SAT,f:1
+003d:00a02bfe:0001:016e:22:0
+TV Mreza Most
+p:TEAM SAT,f:1
+003f:00a02bfe:0001:016e:22:0
+TV 5 Uzice
+p:TEAM SAT,f:1
+0040:00a02bfe:0001:016e:22:0
+Telemark
+p:TEAM SAT,f:1
+0041:00a02bfe:0001:016e:22:0
+TV Novi Pazar
+p:TEAM SAT,f:1
+0042:00a02bfe:0001:016e:22:0
+Moj Astrolog
+p:TEAM SAT,f:1
+0043:00a02bfe:0001:016e:22:0
+K3
+p:TEAM SAT,f:1
+0044:00a02bfe:0001:016e:22:0
+Hayatovci
+p:TEAM SAT,f:1
+0045:00a02bfe:0001:016e:22:0
+OBN
+p:TEAM SAT,f:1
+003e:00a02bfe:0001:016e:1:0
+TV Galaksija
+p:TEAM SAT,f:1
+003a:00a02bfe:0001:016e:25:0
+Hayat HD
+p:TEAM SAT,f:1
 0001:00a03130:0000:0000:25:0
 LNR BRIVE VS TOULOUSE
 p:ADVALEM TECHNOLOGIES,f:1
@@ -2335,9 +2335,6 @@ TV Lux HD
 p:A1 Broadcasting,f:1
 04b3:00a0ab56:76c1:016e:31:0
 Nova International HD
-p:A1 Broadcasting,f:1
-04b6:00a0ab56:76c1:016e:31:0
-Arcadia World
 p:A1 Broadcasting,f:1
 04b7:00a0ab56:76c1:016e:31:0
 Minimax
@@ -2414,6 +2411,9 @@ p:A1 Broadcasting,f:1
 04b5:00a0ab56:76c1:016e:31:0
 RTVS 24
 p:A1 Broadcasting,f:1
+04b6:00a0ab56:76c1:016e:22:0
+Óčko
+p:A1 Broadcasting,C:0000,f:1
 0012:00a0acf8:00c8:0001:1:0
 TVR INFO
 p:,f:1
@@ -2543,24 +2543,6 @@ p:Service Provider,f:1
 0001:00a030ff:0001:0001:25:0
 D366_RTL_DIGI_Path1
 p:RTL News GmbH,f:1
-03e9:00a00000:0007:016e:1:0
-Ginx
-p:eClutch,f:1
-03ea:00a00000:0007:016e:1:0
-Bigg TV
-p:eClutch,f:1
-03eb:00a00000:0007:016e:1:0
-Senemedia
-p:eClutch,f:1
-03ec:00a00000:0007:016e:1:0
-ESR24
-p:eClutch,f:1
-03ed:00a00000:0007:016e:1:0
-Esports Legend
-p:eClutch,f:1
-03ee:00a00000:0007:016e:1:0
-eClutch Live
-p:eClutch,f:1
 0001:00a0ada1:0001:0001:1:0
 SLO-008 Tx 1
 p:,f:1
@@ -2696,9 +2678,6 @@ p:Total TV,f:1
 0552:00a0ad4b:75fb:016e:1:0
 Astra TV
 p:Total TV,f:1
-0553:00a0ad4b:75fb:016e:1:0
-Shoppster
-p:Total TV,f:1
 0554:00a0ad4b:75fb:016e:1:0
 CineStar Premiere 1
 p:Total TV,f:1
@@ -2723,23 +2702,20 @@ p:Total TV,f:1
 055b:00a0ad4b:75fb:016e:1:0
 Oto
 p:Total TV,f:1
-055c:00a0ad4b:75fb:016e:1:0
-Nova Sport HD
-p:Total TV,f:1
 055d:00a0ad4b:75fb:016e:1:0
 SK HD
 p:Total TV,f:1
 054b:00a0ad4b:75fb:016e:1:0
 Sky News
 p:Total TV,f:1
-05ab:00a0ad9e:75fc:016e:1:0
-Sport Klub 1 HD
+0553:00a0ad4b:75fb:016e:1:0
+Arena Sport 1 HR
 p:Total TV,f:1
+055c:00a0ad4b:75fb:016e:1:1
+Arena Sport 2 SRB
+p:,f:1
 05ac:00a0ad9e:75fc:016e:1:0
 Sport Klub 2 HD
-p:Total TV,f:1
-05ad:00a0ad9e:75fc:016e:1:0
-Sport Klub 1 Crna Gora HD
 p:Total TV,f:1
 05ae:00a0ad9e:75fc:016e:1:0
 HBO Adria HD
@@ -2774,11 +2750,17 @@ p:Total TV,f:1
 05b7:00a0ad9e:75fc:016e:1:0
 STAR Life HD
 p:Total TV,f:1
-05b8:00a0ad9e:75fc:016e:1:0
-Hema TV
-p:Total TV,f:1
 05b9:00a0ad9e:75fc:016e:1:0
 Sci-Fi Eastern Europe
+p:Total TV,f:1
+05ab:00a0ad9e:75fc:016e:1:0
+Arena Premium 1
+p:Total TV,C:0000,f:1
+05ad:00a0ad9e:75fc:016e:1:1
+Arena Sport 1 SRB
+p:Total TV,C:0000,f:1
+05b8:00a0ad9e:75fc:016e:1:2
+Arena Sport 3 HR
 p:Total TV,f:1
 000a:00a00000:0064:0064:1:0
 National TV
@@ -3104,6 +3086,306 @@ p:HDT,f:1
 0001:00a0314a:0001:0001:25:0
 SNG ABC 1
 p:,f:1
+1131:00a00000:9ca4:016e:1:0
+RTS Klasika
+p:Telekom Srbija,f:1
+1132:00a00000:9ca4:016e:1:0
+RTS Kolo
+p:Telekom Srbija,f:1
+1133:00a00000:9ca4:016e:1:0
+RTS Muzika
+p:Telekom Srbija,f:1
+1134:00a00000:9ca4:016e:1:0
+RTS Poletarac
+p:Telekom Srbija,f:1
+1135:00a00000:9ca4:016e:1:0
+RTS Trezor
+p:Telekom Srbija,f:1
+05dd:00a00000:4e84:016e:1:0
+Arena Premium 3 HD
+p:Telekom Srbija,f:1
+05de:00a00000:4e84:016e:1:0
+Arena Sport SK 3
+p:Telekom Srbija,f:1
+05df:00a00000:4e84:016e:1:0
+Arena Sport 3 HD
+p:Telekom Srbija,f:1
+05e0:00a00000:4e84:016e:1:0
+Arena Sport 6 HD
+p:Telekom Srbija,f:1
+05e1:00a00000:4e84:016e:1:0
+Arena Sport 9 HD
+p:Telekom Srbija,f:1
+05e2:00a00000:4e84:016e:1:0
+Premier League TV HD
+p:Telekom Srbija,f:1
+05e3:00a00000:4e84:016e:1:0
+Blic TV HD
+p:Telekom Srbija,f:1
+05e4:00a00000:4e84:016e:1:0
+RTS Svet HD
+p:Telekom Srbija,f:1
+05e5:00a00000:4e84:016e:1:0
+Arena Fight
+p:Telekom Srbija,f:1
+05e6:00a00000:4e84:016e:1:0
+Euronews Srbija
+p:Telekom Srbija,f:1
+05e7:00a00000:4e84:016e:1:0
+Superstar 3
+p:Telekom Srbija,f:1
+05e8:00a00000:4e84:016e:1:0
+Informer TV
+p:Telekom Srbija,f:1
+05e9:00a00000:4e84:016e:1:0
+TV Kazbuka
+p:Telekom Srbija,f:1
+05ea:00a00000:4e84:016e:1:0
+Dox TV
+p:Telekom Srbija,f:1
+05eb:00a00000:4e84:016e:1:0
+HRT 3
+p:Telekom Srbija,f:1
+05ec:00a00000:4e84:016e:1:0
+RTRS Plus
+p:Telekom Srbija,f:1
+05ed:00a00000:4e84:016e:1:0
+Hype 2 TV
+p:Telekom Srbija,f:1
+05ee:00a00000:4e84:016e:1:0
+Toxic TV
+p:Telekom Srbija,f:1
+05ef:00a00000:4e84:016e:1:0
+Timeles Dizi channel
+p:Telekom Srbija,f:1
+05f0:00a00000:4e84:016e:1:0
+TV Hram
+p:Telekom Srbija,f:1
+05f1:00a00000:4e84:016e:1:0
+Panon TV
+p:Telekom Srbija,f:1
+05f2:00a00000:4e84:016e:1:0
+Pink Action
+p:Telekom Srbija,f:1
+05f3:00a00000:4e84:016e:1:0
+RTS Nauka
+p:Telekom Srbija,f:1
+05f4:00a00000:4e84:016e:1:0
+mSAT Info
+p:Telekom Srbija,f:1
+05f5:00a00000:4e84:016e:1:0
+Fox News
+p:Telekom Srbija,f:1
+05f6:00a00000:4e84:016e:1:0
+RTS Zivot
+p:Telekom Srbija,f:1
+05f7:00a00000:4e84:016e:1:0
+Arena Sport 5 SK HD
+p:Telekom Srbija,f:1
+006b:00a00000:9f60:016e:1:0
+Superstar TV HD
+p:Telekom Srbija,f:1
+0070:00a00000:9f60:016e:1:0
+Tanjug TV
+p:Telekom Srbija,f:1
+0075:00a00000:9f60:016e:1:0
+RTRS
+p:Telekom Srbija,f:1
+0078:00a00000:9f60:016e:1:0
+SOS Kanal Plus
+p:Telekom Srbija,f:1
+0065:00a00000:9f60:016e:1:0
+Arena Premium 1 HD
+p:Telekom Srbija,f:1
+0066:00a00000:9f60:016e:1:0
+Arena Sport SK 1
+p:Telekom Srbija,f:1
+0067:00a00000:9f60:016e:1:0
+Arena Sport 1 HD
+p:Telekom Srbija,f:1
+0068:00a00000:9f60:016e:1:0
+Arena Sport 4 HD
+p:Telekom Srbija,f:1
+0069:00a00000:9f60:016e:1:0
+Arena Sport 7 HD
+p:Telekom Srbija,f:1
+006a:00a00000:9f60:016e:1:0
+Arena Sport 10 HD
+p:Telekom Srbija,f:1
+006c:00a00000:9f60:016e:1:0
+BN HD
+p:Telekom Srbija,f:1
+006d:00a00000:9f60:016e:1:0
+Arena 1x2
+p:Telekom Srbija,f:1
+006e:00a00000:9f60:016e:1:0
+Balkan Trip Srbija
+p:Telekom Srbija,f:1
+006f:00a00000:9f60:016e:1:0
+Eko Vizija
+p:Telekom Srbija,f:1
+0071:00a00000:9f60:016e:1:0
+TV K1
+p:Telekom Srbija,f:1
+0072:00a00000:9f60:016e:1:0
+Kurir TV
+p:Telekom Srbija,f:1
+0073:00a00000:9f60:016e:1:0
+Dexy TV
+p:Telekom Srbija,f:1
+0074:00a00000:9f60:016e:1:0
+HRT 2
+p:Telekom Srbija,f:1
+0076:00a00000:9f60:016e:1:0
+Una TV
+p:Telekom Srbija,f:1
+0077:00a00000:9f60:016e:1:0
+Toxic Folk
+p:Telekom Srbija,f:1
+0079:00a00000:9f60:016e:1:0
+Klasik TV
+p:Telekom Srbija,f:1
+007a:00a00000:9f60:016e:1:0
+Koreni
+p:Telekom Srbija,f:1
+007b:00a00000:9f60:016e:1:0
+RTS Drama
+p:Telekom Srbija,f:1
+007c:00a00000:9f60:016e:1:0
+Novosadska TV
+p:Telekom Srbija,f:1
+007d:00a00000:9f60:016e:1:0
+Dorcel
+p:Telekom Srbija,f:1
+007e:00a00000:9f60:016e:1:0
+Nasa TV
+p:Telekom Srbija,f:1
+007f:00a00000:9f60:016e:1:0
+BN Music
+p:Telekom Srbija,f:1
+11a0:00a00000:a028:016e:1:0
+Superstar 2 TV
+p:Telekom Srbija,f:1
+11a2:00a00000:a028:016e:1:0
+Toxic Rap
+p:Telekom Srbija,f:1
+11a3:00a00000:a028:016e:1:0
+Studio B
+p:Telekom Srbija,f:1
+11a4:00a00000:a028:016e:1:0
+Turizam Plus
+p:Telekom Srbija,f:1
+11a6:00a00000:a028:016e:1:0
+RTL 2 CRO
+p:Telekom Srbija,f:1
+11a7:00a00000:a028:016e:1:0
+RTL Croatia World
+p:Telekom Srbija,f:1
+11a8:00a00000:a028:016e:2:0
+Radio AS FM
+p:Telekom Srbija
+11a9:00a00000:a028:016e:2:0
+Radio BG1
+p:Telekom Srbija
+11aa:00a00000:a028:016e:2:0
+Radio BG2
+p:Telekom Srbija
+11ab:00a00000:a028:016e:2:0
+Radio Beograd 202
+p:Telekom Srbija
+1195:00a00000:a028:016e:1:0
+Arena Premium 2 HD
+p:DVB-S2 8PSK 11429V 16.0Â°E,f:1
+1196:00a00000:a028:016e:1:0
+Arena Sport SK 2
+p:DVB-S2 8PSK 11429V 16.0Â°E,f:1
+1197:00a00000:a028:016e:1:0
+Arena Sport 2 HD
+p:DVB-S2 8PSK 11429V 16.0Â°E,f:1
+1198:00a00000:a028:016e:1:0
+Arena Sport 5 HD
+p:DVB-S2 8PSK 11429V 16.0Â°E,f:1
+1199:00a00000:a028:016e:1:0
+Arena Sport 8 HD
+p:DVB-S2 8PSK 11429V 16.0Â°E,f:1
+119a:00a00000:a028:016e:1:0
+Arena Sport SK 4
+p:DVB-S2 8PSK 11429V 16.0Â°E,f:1
+119b:00a00000:a028:016e:1:0
+Agro TV HD
+p:DVB-S2 8PSK 11429V 16.0Â°E,f:1
+119c:00a00000:a028:016e:1:0
+BBC Earth
+p:DVB-S2 8PSK 11429V 16.0Â°E,f:1
+119d:00a00000:a028:016e:1:0
+Arena Esport SRB
+p:DVB-S2 8PSK 11429V 16.0Â°E,f:1
+119e:00a00000:a028:016e:1:0
+Bloomberg Adria
+p:DVB-S2 8PSK 11429V 16.0Â°E,f:1
+119f:00a00000:a028:016e:1:0
+Newsmax Balkans
+p:DVB-S2 8PSK 11429V 16.0Â°E,f:1
+11a1:00a00000:a028:016e:1:0
+Hype TV
+p:DVB-S2 8PSK 11429V 16.0Â°E,f:1
+11a5:00a00000:a028:016e:1:0
+Prva MAX SD
+p:DVB-S2 8PSK 11429V 16.0Â°E,f:1
+006e:00a0b0ea:0001:016e:25:0
+RTSH 1 HD
+p:RTSH,f:1
+0078:00a0b0ea:0001:016e:22:0
+RTSH 3
+p:RTSH,f:1
+0082:00a0b0ea:0001:016e:22:0
+RTSH Plus
+p:RTSH,f:1
+008c:00a0b0ea:0001:016e:25:0
+RTSH 24 HD
+p:RTSH,f:1
+0096:00a0b0ea:0001:016e:22:0
+RTSH Shqip
+p:RTSH,f:1
+00a0:00a0b0ea:0001:016e:22:0
+RTSH Muzike
+p:RTSH,f:1
+00aa:00a0b0ea:0001:016e:2:0
+Radio Tirana 1
+p:RTSH
+00b4:00a0b0ea:0001:016e:2:0
+Radio Tirana 2
+p:RTSH
+00be:00a0b0ea:0001:016e:2:0
+Radio Tirana Internacional
+p:RTSH
+00c8:00a0b0ea:0001:016e:2:0
+Radio Tirana Klasik
+p:RTSH
+00d2:00a0b0ea:0001:016e:2:0
+Radio Kukesi
+p:RTSH
+00dc:00a0b0ea:0001:016e:2:0
+Radio Tirana Jazz
+p:RTSH
+00e6:00a0b0ea:0001:016e:2:0
+Radio Tirana 3
+p:RTSH
+00f0:00a0b0ea:0001:016e:25:0
+RTSH Shkolle HD
+p:RTSH,f:1
+00fa:00a0b0ea:0001:016e:2:0
+Radio Korca
+p:RTSH
+0104:00a0b0ea:0001:016e:2:0
+Radio Gjirokastra
+p:RTSH
+010e:00a0b0ea:0001:016e:2:0
+Radio Shkodra
+p:RTSH
+0118:00a0b0ea:0001:016e:2:0
+Radio Tirana Femiije
+p:RTSH
 43a0:00820000:2cec:013e:1:0
 GNC
 p:RRsat,f:1
@@ -3587,20 +3869,17 @@ p:ECLUTCH,f:1
 0066:00820000:00c8:013e:1:0
 Gametoon
 p:ECLUTCH,f:1
-0067:00820000:00c8:013e:1:0
-ESR24
-p:ECLUTCH,f:1
 0068:00820000:00c8:013e:1:0
 Esports Legend
-p:ECLUTCH,f:1
-0069:00820000:00c8:013e:1:0
-Senemedia
 p:ECLUTCH,f:1
 006a:00820000:00c8:013e:1:0
 eClutch Live
 p:ECLUTCH,f:1
 006b:00820000:00c8:013e:25:0
 Padel TV
+p:ECLUTCH,f:1
+0069:00820000:00c8:013e:1:0
+ESport 24
 p:ECLUTCH,f:1
 32de:00820000:0190:013e:1:0
 Canal+ Sport HD Polska
@@ -4106,6 +4385,9 @@ p:SkyItalia,f:1
 0ded:00820000:1644:fbff:25:0
 Sky Sport Business 3
 p:SkyItalia,f:1
+0df8:00820000:1644:fbff:25:0
+Sky Sport Business 4
+p:SkyItalia,f:1
 0e55:00820000:16a8:fbff:130:0
 Gestione Collegam. Telefonico
 p:SkyItalia,f:1
@@ -4263,7 +4545,7 @@ p:SkyItalia,f:1
 Boomerang +1
 p:SkyItalia,f:1
 104a:00820000:189c:fbff:25:0
-Classica HD
+Sky Classica
 p:SkyItalia,f:1
 1c3f:00820000:189c:fbff:25:0
 Sky Cinema Romance
@@ -4520,12 +4802,6 @@ p:NOVA
 3c9c:00820000:1bbc:013e:1:0
 Euronews Greek
 p:NOVA,f:1
-3c9d:00820000:1bbc:013e:1:0
-Viasat Nature HD
-p:NOVA,f:1
-3c9e:00820000:1bbc:013e:1:0
-Viasat Explore HD
-p:NOVA,f:1
 3c92:00820000:1bbc:013e:1:0
 TLC
 p:NOVA,f:1
@@ -4555,6 +4831,12 @@ NovaSports 3 HD Cy
 p:NOVA,f:1
 3ca0:00820000:1bbc:013e:1:0
 NovaSports 3 HD
+p:NOVA,f:1
+3c9d:00820000:1bbc:013e:1:0
+Cosmote Sport 1 HD
+p:NOVA,f:1
+3c9e:00820000:1bbc:013e:1:1
+ALPHA HD
 p:NOVA,f:1
 1c22:00820000:1c20:013e:1:0
 TTN - Télévision Tunisienne Nationale
@@ -4729,6 +5011,12 @@ Skai (ΣΚΑΪ) HD
 p:NOVA,f:1
 0185:00820000:1c84:013e:1:0
 ERT (EPT) 2 HD
+p:NOVA,f:1
+0178:00820000:1c84:013e:1:0
+NovaSportsExtra3HD Cy
+p:NOVA,f:1
+018a:00820000:1c84:013e:1:0
+NovaSportsExtra1HD Cy
 p:NOVA,f:1
 1c86:00820000:1ce8:0071:1:0
 AXN White Poland
@@ -5391,10 +5679,10 @@ p:NOVA,f:1
 N TEST 2
 p:NOVA,C:0000,f:1
 1bd0:00820000:17d4:013e:1:0
-N TEST 4
+Novasportsextra4HD Cy
 p:NOVA,f:1
 1bd3:00820000:17d4:013e:1:0
-N TEST 1
+COSMOTESport2HD
 p:NOVA,f:1
 4206:00820000:2f44:013e:1:0
 Dorcel TV HD
@@ -5438,6 +5726,9 @@ p:Eutelsat
 4237:00820000:2f44:013e:1:0
 Juwelo TV
 p:SCP2100,f:1
+4230:00820000:2f44:013e:25:0
+Brazzers HD Nova
+p:M7 Group,f:1
 2907:00820000:1edc:0071:1:0
 Nat Geo People PL HD
 p:Cyfrowy Polsat S.A.,f:1
@@ -6410,6 +6701,9 @@ p:Globecast,f:1
 3335:00820000:1388:013e:2:0
 RIK3
 p:GLOBECAST
+3347:00820000:1388:013e:2:0
+BBC World Service Arabic
+p:Globecast
 04b2:00820000:23f0:013e:25:0
 Saudi Ch for Sunnah HD
 p:,f:1
@@ -6620,6 +6914,9 @@ p:NOVA,f:1
 01a7:00820000:1518:013e:1:0
 Smile TV
 p:NOVA,f:1
+01a8:00820000:1518:013e:1:0
+NovaSportsExtra4HD Cy
+p:NOVA,f:1
 012d:00820000:3e1c:013f:1:0
 TF1 HD
 p:Eutelsat,f:1
@@ -6638,9 +6935,6 @@ p:Eutelsat,f:1
 0133:00820000:3e1c:013f:1:0
 Arte HD
 p:Eutelsat,f:1
-0134:00820000:3e1c:013f:1:0
-C8
-p:Eutelsat,f:1
 0135:00820000:3e1c:013f:1:0
 W9
 p:Eutelsat,f:1
@@ -6649,9 +6943,6 @@ TMC (Télé Monte Carlo)
 p:Eutelsat,f:1
 0137:00820000:3e1c:013f:1:0
 TFX
-p:Eutelsat,f:1
-0138:00820000:3e1c:013f:1:0
-NRJ 12
 p:Eutelsat,f:1
 0139:00820000:3e1c:013f:1:0
 LCP - La Chaîne Parlementaire
@@ -6682,6 +6973,12 @@ Cherie 25
 p:Eutelsat,f:1
 0146:00820000:3e1c:013f:1:0
 LCI - La Chaîne Info
+p:Eutelsat,f:1
+0134:00820000:3e1c:013f:1:0
+Arret C8
+p:Eutelsat,f:1
+0138:00820000:3e1c:013f:1:1
+Arret NRJ12
 p:Eutelsat,f:1
 3b65:00820000:012c:013e:22:0
 Frisbee
@@ -7590,7 +7887,7 @@ p:VIVACOM,f:1
 Super Toons
 p:VIVACOM,f:1
 0086:00820000:251c:00d5:1:0
-Ловно-рибарски клуб
+Ловно-рибарски клуб (Lovno Ribarski Klub)
 p:VIVACOM,f:1
 13a7:00820000:2710:00d5:1:0
 B1B Action
@@ -8126,6 +8423,9 @@ p:MyIntProvider,f:1
 0192:0082b12f:0001:ffff:1:0
 Service_MENA_02
 p:GLOBECAST,f:1
+0194:0082b12f:0001:ffff:1:0
+Service_MENA_04
+p:GLOBECAST,f:1
 2344:00820000:2328:013e:1:0
 Towheed TV
 p:STN,f:1
@@ -8144,7 +8444,7 @@ p:STN,f:1
 232f:00820000:2328:013e:1:0
 Kentron TV
 p:STN,f:1
-2330:00820000:2328:013e:1:0
+2330:00820000:2328:013e:25:0
 Jek TV
 p:STN,f:1
 2331:00820000:2328:013e:1:0
@@ -8169,7 +8469,7 @@ p:STN,f:1
 Somaliland National TV
 p:STN,f:1
 233a:00820000:2328:013e:1:0
-Al Malakoot Sat - The Kingdom Sat الملكوت ساتThe Kingdom Sat  الملكوت سات
+Al Malakoot Sat - The Kingdom Sat الملكوت ساتThe K
 p:STN,f:1
 233b:00820000:2328:013e:25:0
 Anewz
