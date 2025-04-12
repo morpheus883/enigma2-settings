@@ -393,9 +393,6 @@ transponders
 00c00000:045b:0001
 	s 12663000:22000000:0:4:192:2:0
 /
-00c00000:045d:0001
-	s 12692000:22000000:0:4:192:2:0
-/
 00c00000:03eb:0001
 	s 11244000:22000000:0:4:192:2:0
 /
@@ -521,9 +518,6 @@ transponders
 /
 00c00000:042a:0001
 	s 11739000:27500000:1:3:192:2:0
-/
-00c0ad52:4321:00eb
-	s 11602000:9874000:1:3:192:2:0:1:2:0:2
 /
 00c0ad54:0000:0000
 	s 11604000:2200000:1:3:192:2:0
@@ -1111,9 +1105,6 @@ SkyShowcaseHD
 p:BSkyB,f:1
 14a0:011a0000:07e0:0002:25:0
 SkyShowcaseHD
-p:BSkyB,f:1
-1833:011a0000:07e0:0002:25:0
-Sky History 2 HD
 p:BSkyB,f:1
 0f03:011a0000:07e0:0002:25:0
 Sky Sports Football HD
@@ -1823,6 +1814,12 @@ p:BSkyB,f:1
 c528:011a0000:0813:0002:25:0
 SkySp Racing HD
 p:BSkyB,f:1
+c521:011a0000:0813:0002:25:0
+Sky History HD
+p:BSkyB,f:1
+c526:011a0000:0813:0002:25:0
+Crime & Investigation HD
+p:BSkyB,f:1
 0fa3:011a0000:07ed:0002:25:0
 Sky Sports Main Events HD
 p:BSkyB,f:1
@@ -2220,7 +2217,7 @@ p:BSkyB,f:1
 Sky Action HD
 p:BSkyB,f:1
 17ae:011a0000:07ee:0002:25:0
-Sky Crime HD
+Sky Thriller HD
 p:BSkyB,f:1
 1837:011a0000:07ee:0002:25:0
 Sky Animation HD
@@ -2236,12 +2233,6 @@ Sky Hits HD
 p:BSkyB,f:1
 0f2d:011a0000:07eb:0002:25:0
 NatGeoWild HD
-p:BSkyB,f:1
-0f2e:011a0000:07eb:0002:25:0
-Sky History HD
-p:BSkyB,f:1
-0f30:011a0000:07eb:0002:25:0
-Crime & Investigation HD
 p:BSkyB,f:1
 0fbe:011a0000:07eb:0002:25:0
 Sony TV HD
@@ -2598,7 +2589,7 @@ d32c:011a0000:0836:0002:1:0
 Sangat
 p:BSkyB,f:1
 d32d:011a0000:0836:0002:1:0
-London Live
+London TV
 p:BSkyB,f:1
 d32e:011a0000:0836:0002:1:0
 Colors
@@ -2983,9 +2974,6 @@ QTV Religious
 p:BSkyB,f:1
 c4c0:011a2b4a:0811:0002:1:0
 Sky History
-p:BSkyB,f:1
-c4c3:011a2b4a:0811:0002:1:0
-Sky History+1
 p:BSkyB,f:1
 c4c6:011a2b4a:0811:0002:1:0
 Sky History2
@@ -4023,7 +4011,7 @@ p:ProSiebenSat.1,f:1
 Sixx Austria
 p:ProSiebenSat.1,f:1
 14b9:00c00000:0407:0001:25:0
-4mediathek
+4Mediathek
 p:ProSiebenSat.1,f:1
 6dd1:00c00000:044d:0001:25:0
 Astra Caption
@@ -5024,9 +5012,6 @@ p:MB Satellite,f:1
 3159:00c00000:0459:0001:1:0
 MBS Test 3
 p:MB Satellite,f:1
-332d:00c00000:045b:0001:1:0
-ORF III
-p:ORF,f:1
 332e:00c00000:045b:0001:22:0
 RTL Nitro Austria
 p:RTL,f:1
@@ -5038,105 +5023,27 @@ Shop LC
 p:ORS,f:1
 3333:00c00000:045b:0001:1:0
 Visit-X TV
-p:-,f:1
-3337:00c00000:045b:0001:1:0
-ServusTV Oesterreich
-p:ServusTV,f:1
+p:,f:1
 3339:00c00000:045b:0001:22:0
 L-TV
-p:-,f:1
-3341:00c00000:045b:0001:2:0
-OE1
-p:ORF
-3342:00c00000:045b:0001:2:0
-OE1 DD
-p:ORF
-3343:00c00000:045b:0001:2:0
-OE2 W_alt
-p:ORF
-3344:00c00000:045b:0001:2:0
-OE2 N_alt
-p:ORF
-3345:00c00000:045b:0001:2:0
-OE2 B_alt
-p:ORF
-3346:00c00000:045b:0001:2:0
-OE2 O_alt
-p:ORF
-3347:00c00000:045b:0001:2:0
-OE2 S_alt
-p:ORF
-3348:00c00000:045b:0001:2:0
-OE2 T_alt
-p:ORF
-3349:00c00000:045b:0001:2:0
-OE2 V_alt
-p:ORF
-334a:00c00000:045b:0001:2:0
-OE2 St_alt
-p:ORF
-334b:00c00000:045b:0001:2:0
-OE2 K_alt
-p:ORF
-334d:00c00000:045b:0001:2:0
-OE3_alt
-p:ORF
-334e:00c00000:045b:0001:2:0
-FM4_alt
-p:ORF
+p:,f:1
 3354:00c00000:045b:0001:2:0
 RADIO MARIA
 p:Radio Maria Österreich
 3338:00c00000:045b:0001:22:0
-4News
-p:-,f:1
+4Mediathek
+p:MIT-xperts GmbH,f:1
 332f:00c00000:045b:0001:22:0
 Dokusat
-p:-,f:1
+p:,f:1
 3336:00c00000:045b:0001:22:0
 Genius TV
 p:TV2000plus,f:1
 3355:00c00000:045b:0001:25:0
 EWTN katholisches TV HD
 p:FFmpeg,f:1
-32c9:00c00000:045d:0001:1:0
-ORF 1
-p:ORF,f:1
-32ca:00c00000:045d:0001:1:0
-ORF 2
-p:ORF,f:1
-32cb:00c00000:045d:0001:1:0
-ORF 2 Wien (19h-19h15)
-p:ORF,f:1
-32cc:00c00000:045d:0001:1:0
-ORF 2 NiederÖsterreich (19h-19h15)
-p:ORF,f:1
-32cd:00c00000:045d:0001:1:0
-ORF 2 Burgenland (19h-19h15)
-p:ORF,f:1
-32ce:00c00000:045d:0001:1:0
-ORF 2 OberÖsterreich (19h-19h15)
-p:ORF,f:1
-32cf:00c00000:045d:0001:1:0
-ORF 2 Salzburg (19h-19h15)
-p:ORF,f:1
-32d0:00c00000:045d:0001:1:0
-ORF 2 Tirol (19h-19h15)
-p:ORF,f:1
-32d1:00c00000:045d:0001:1:0
-ORF 2 Vorarlberg (19h-19h15)
-p:ORF,f:1
-32d2:00c00000:045d:0001:1:0
-ORF 2 Steiermark (19h-19h15)
-p:ORF,f:1
-32d3:00c00000:045d:0001:1:0
-ORF 2 Kärnten (19h-19h15)
-p:ORF,f:1
-32d5:00c00000:045d:0001:25:0
-Hitradio OE3
-p:ORF,f:1
-32d6:00c00000:045d:0001:1:0
-ORF 2 Europe
+332d:00c00000:045b:0001:22:0
+Service 13101
 p:ORF,f:1
 33ab:00c00000:03eb:0001:25:0
 Hope Channel Deutsch HD
@@ -5708,6 +5615,9 @@ p:ORS,f:1
 33fe:00c00000:03ed:0001:25:0
 ORF 2 Europe HD
 p:ORF,f:1
+3409:00c00000:03ed:0001:12:0
+STRONG OTA 7511
+p:ORF
 1086:00c00000:03ee:0001:31:0
 QVC UHD
 p:MX1,f:1
@@ -6671,9 +6581,6 @@ p:SES ASTRA,f:1
 17df:00c00000:042a:0001:12:0
 SGI_1111
 p:Ses Astra
-0001:00c0ad52:4321:00eb:1:0
-FIS DAVOS
-p:LINE UP MEDIA COMMUNICATION HUNGARY,f:1
 0001:00c0ad54:0000:0000:1:0
 WDR DAB
 p:,f:1
@@ -6735,7 +6642,7 @@ p:SES,f:1
 Divinity
 p:DIGITAL+,f:1
 7885:00c00000:0414:0001:1:0
-M+ Vacaciones
+M+ Los 90
 p:Movistar+,f:1
 7888:00c00000:0414:0001:1:0
 Boing Spain
@@ -6812,9 +6719,6 @@ p:TSA,f:1
 7831:00c00000:0428:0001:1:0
 LaLiga TV Hypermotion 2
 p:Movistar+,f:1
-7827:00c00000:0428:0001:1:0
-M+ La Resistencia
-p:Movistar+,f:1
 7822:00c00000:0428:0001:1:0
 M+ Liga Campeones 7
 p:Movistar+,f:1
@@ -6866,6 +6770,9 @@ p:
 7832:00c00000:0428:0001:1:0
 BAR4HD
 p:,f:1
+7827:00c00000:0428:0001:1:0
+TEST TXP64
+p:Movistar+,f:1
 007a:00c00000:0009:0085:25:0
 DAZN 2 HD
 p:SKY,f:1
@@ -7076,6 +6983,9 @@ p:In AriaX,f:1
 0001:00c00000:0020:00eb:1:0
 D233
 p:Betamobil,f:1
+0001:00c00000:0020:00eb:0:0
+D233
+p:Betamobil
 0001:00c0ad88:0001:0000:1:0
 HOL324 NL-DE TX2
 p:Newslive.nl,f:1
@@ -7234,6 +7144,12 @@ Polsat Sport Premium PPV4
 p:Cyfrowy Polsat S.A.,f:1
 3e30:00820000:2ee0:013e:1:0
 PPV HD
+p:Cyfrowy Polsat S.A.,f:1
+3e27:00820000:2ee0:013e:1:0
+SkyShowtime 1
+p:Cyfrowy Polsat S.A.,f:1
+3e28:00820000:2ee0:013e:1:0
+SkyShowtime 2
 p:Cyfrowy Polsat S.A.,f:1
 4331:00820000:300c:013e:25:0
 SRF 1 HD
@@ -7792,6 +7708,9 @@ Canal+ Extra 4
 p:CANAL+,f:1
 3ad5:00820000:0514:013e:1:0
 Canal+ Extra 4
+p:CANAL+,f:1
+3abf:00820000:0514:013e:1:0
+KANAL TESTOWY
 p:CANAL+,f:1
 0321:00820000:3bc4:013e:1:0
 Euronews English HD
@@ -9395,11 +9314,11 @@ p:NOVA,f:1
 1bbf:00820000:17d4:013e:1:0
 N TEST 2
 p:NOVA,C:0000,f:1
-1bd0:00820000:17d4:013e:1:0
-Novasportsextra4HD Cy
-p:NOVA,f:1
 1bd3:00820000:17d4:013e:1:0
 COSMOTESport2HD
+p:NOVA,f:1
+1bd0:00820000:17d4:013e:1:0
+NovaSportsExtra4HD Cy
 p:NOVA,f:1
 4206:00820000:2f44:013e:1:0
 Dorcel TV HD
@@ -10632,7 +10551,7 @@ p:NOVA,f:1
 Smile TV
 p:NOVA,f:1
 01a8:00820000:1518:013e:1:0
-NovaSportsExtra4HD Cy
+NovaSportsExtra2HD Cy
 p:NOVA,f:1
 012d:00820000:3e1c:013f:1:0
 TF1 HD
