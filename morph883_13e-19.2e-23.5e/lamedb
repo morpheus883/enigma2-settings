@@ -501,8 +501,8 @@ transponders
 00c0ac88:0001:ffff
 	s 11400000:9874000:1:3:192:2:0:1:2:0:2
 /
-00c02c3c:0001:0001
-	s 11324000:9874000:0:3:192:2:0:1:2:0:2
+00c00000:0001:0001
+	s 11327000:9875000:0:3:192:2:0:1:2:0:2
 /
 00c02d55:0001:ffff
 	s 11605000:9875000:0:3:192:2:0:1:2:0:2
@@ -527,6 +527,15 @@ transponders
 /
 00c02bc8:0001:ffff
 	s 11208000:7200000:0:3:192:2:0:1:2:0:2
+/
+00c02c3c:0000:0000
+	s 11324000:7200000:0:3:192:2:0:1:2:0:2
+/
+00c0ad80:0000:0000
+	s 11648000:7200000:1:3:192:2:0:1:2:0:2
+/
+00c0ad88:0000:0000
+	s 11656000:7200000:1:3:192:2:0:1:2:0:2
 /
 00820000:2e18:00b0
 	s 10873000:27500000:1:3:130:2:0:1:2:0:2
@@ -6461,7 +6470,7 @@ p:SES,f:1
 0001:00c0ac88:0001:ffff:1:0
 ITA 560 DIRTY - KRANJSKA
 p:LIVESAT,f:1
-0001:00c02c3c:0001:0001:25:0
+0001:00c00000:0001:0001:25:0
 UKI-1484 Main
 p:ONmedia,f:1
 0001:00c02d55:0001:ffff:1:0
@@ -6503,6 +6512,12 @@ p:Mobile Linke Europe AB,f:1
 0001:00c02bc8:0001:ffff:1:0
 D535_ESGQ-MHG
 p:Television,f:1
+0001:00c02c3c:0000:0000:25:0
+2DF-Ant4-1
+p:ZDF,f:1
+0001:00c0ad80:0000:0000:25:0
+hr D-537
+p:Hessischer Rundfunk,f:1
 0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
 p:SNRT,f:1
@@ -9749,6 +9764,12 @@ p:Globecast,f:1
 3347:00820000:1388:013e:2:0
 BBC World Service Arabic
 p:Globecast
+3330:00820000:1388:013e:1:0
+BBC News Europe
+p:Globecast,f:1
+332f:00820000:1388:013e:25:0
+BBC Persian HD
+p:Globecast,f:1
 04b2:00820000:23f0:013e:25:0
 Saudi Ch for Sunnah HD
 p:,f:1
@@ -11570,6 +11591,12 @@ p:SkyItalia,f:1
 38c9:00820000:2260:fbff:1:0
 Cento x Cento
 p:SkyItalia,f:1
+2b3b:00820000:2260:fbff:1:0
+SDMS Service2
+p:SkyItalia,f:1
+2b39:00820000:2260:fbff:155:0
+SDMS Service1
+p:SkyItalia
 02bd:00820000:14b4:013e:1:0
 World Poker Tour
 p:MuxIP,f:1

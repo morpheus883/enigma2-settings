@@ -2409,8 +2409,8 @@ transponders
 00c0ac88:0001:ffff
 	s 11400000:9874000:1:3:192:2:0:1:2:0:2
 /
-00c02c3c:0001:0001
-	s 11324000:9874000:0:3:192:2:0:1:2:0:2
+00c00000:0001:0001
+	s 11327000:9875000:0:3:192:2:0:1:2:0:2
 /
 00c02d55:0001:ffff
 	s 11605000:9875000:0:3:192:2:0:1:2:0:2
@@ -2435,6 +2435,15 @@ transponders
 /
 00c02bc8:0001:ffff
 	s 11208000:7200000:0:3:192:2:0:1:2:0:2
+/
+00c02c3c:0000:0000
+	s 11324000:7200000:0:3:192:2:0:1:2:0:2
+/
+00c0ad80:0000:0000
+	s 11648000:7200000:1:3:192:2:0:1:2:0:2
+/
+00c0ad88:0000:0000
+	s 11656000:7200000:1:3:192:2:0:1:2:0:2
 /
 00a00000:0001:0040
 	s 11512000:30000000:0:3:160:2:0:1:2:0:2
@@ -3632,6 +3641,9 @@ transponders
 /
 00300000:0004:0064
 	s 12226000:27500000:0:7:48:2:0:1:1:0:2
+/
+00302f28:107b:0055
+	s 12072000:30000000:0:3:48:2:0:1:2:2:2
 /
 001e2d7f:1000:2000
 	s 11647000:1903000:0:3:30:2:0:1:2:0:2
@@ -4892,6 +4904,18 @@ eeee0000:0204:001d
 /
 eeee0000:27fc:217c
 	t 554000000:0:5:5:3:2:4:4:2:0:0:0
+/
+eeee0000:0384:0110
+	t 490000000:0:0:0:3:2:4:4:2:0:0:0
+/
+eeee0000:0384:0110
+	t 490000000:0:0:0:3:2:4:4:2:0:0:0
+/
+eeee0000:0384:0110
+	t 490000000:0:0:0:3:2:4:4:2:0:0:0
+/
+eeee0000:0001:217c
+	t 514000000:0:0:0:3:2:4:4:2:0:0:0
 /
 end
 services
@@ -9710,6 +9734,12 @@ p:HUZUR DIGITAL,f:1
 313c:01a40000:a156:042e:2:0
 TINT
 p:Service Provider
+0003:01a40000:a156:042e:1:0
+TGRT EU
+p:TGRT HABER,f:1
+0004:01a40000:a156:042e:1:0
+TGRT BELGESEL
+p:TGRT HABER,f:1
 c747:01a40000:7789:042e:2:0
 PAL NOSTALJI
 p:TURKSAT
@@ -16199,9 +16229,6 @@ p:BSkyB,f:1
 d387:011a0000:0830:0002:1:0
 That's Dance
 p:BSkyB,f:1
-d390:011a0000:0830:0002:1:0
-NOW 90s & 00s
-p:BSkyB,f:1
 c472:011a0000:0837:0002:25:0
 CNN International HD
 p:BSkyB,f:1
@@ -17707,6 +17734,9 @@ Geo TV
 p:BSkyB,f:1
 c4db:011a2b4a:0811:0002:1:0
 Geo News
+p:BSkyB,f:1
+c4b5:011a2b4a:0811:0002:1:0
+NOW 90s & 00s
 p:BSkyB,f:1
 1581:011a0000:07e7:0002:1:0
 Sky Sci-Fi
@@ -26504,7 +26534,7 @@ p:SES,f:1
 0001:00c0ac88:0001:ffff:1:0
 ITA 560 DIRTY - KRANJSKA
 p:LIVESAT,f:1
-0001:00c02c3c:0001:0001:25:0
+0001:00c00000:0001:0001:25:0
 UKI-1484 Main
 p:ONmedia,f:1
 0001:00c02d55:0001:ffff:1:0
@@ -26546,6 +26576,12 @@ p:Mobile Linke Europe AB,f:1
 0001:00c02bc8:0001:ffff:1:0
 D535_ESGQ-MHG
 p:Television,f:1
+0001:00c02c3c:0000:0000:25:0
+2DF-Ant4-1
+p:ZDF,f:1
+0001:00c0ad80:0000:0000:25:0
+hr D-537
+p:Hessischer Rundfunk,f:1
 001e:00a00000:0001:0040:22:0
 National Geographic Croatia
 p:Max TV,f:1
@@ -32528,6 +32564,12 @@ p:Globecast,f:1
 3347:00820000:1388:013e:2:0
 BBC World Service Arabic
 p:Globecast
+3330:00820000:1388:013e:1:0
+BBC News Europe
+p:Globecast,f:1
+332f:00820000:1388:013e:25:0
+BBC Persian HD
+p:Globecast,f:1
 04b2:00820000:23f0:013e:25:0
 Saudi Ch for Sunnah HD
 p:,f:1
@@ -34349,6 +34391,12 @@ p:SkyItalia,f:1
 38c9:00820000:2260:fbff:1:0
 Cento x Cento
 p:SkyItalia,f:1
+2b3b:00820000:2260:fbff:1:0
+SDMS Service2
+p:SkyItalia,f:1
+2b39:00820000:2260:fbff:155:0
+SDMS Service1
+p:SkyItalia
 02bd:00820000:14b4:013e:1:0
 World Poker Tour
 p:MuxIP,f:1
@@ -36487,6 +36535,15 @@ CUSANO NEWS 7
 p:
 1c03:005a0000:0384:0110:25:0
 CANALE 122
+p:,f:1
+1c24:005a0000:0384:0110:22:0
+Terre Euganee Channel
+p:,f:1
+1c25:005a0000:0384:0110:22:0
+9Novanta
+p:,f:1
+1c26:005a0000:0384:0110:22:0
+Nexum Channel
 p:,f:1
 000b:005a0000:18e2:217c:1:0
 TEST RL AO2
@@ -40064,6 +40121,12 @@ p:M7,f:1
 75b8:0e080000:02bd:0600:1:0
 Kanal D2.
 p:M7,f:1
+75a3:0e080000:02bd:0600:1:0
+Test1
+p:M7,f:1
+75a4:0e080000:02bd:0600:1:0
+Test2
+p:M7,f:1
 75fb:0e080000:02be:0600:1:0
 Film +
 p:M7,f:1
@@ -41590,6 +41653,24 @@ Disney ROM
 p:M7,f:1
 7993:0e080000:02c7:0600:1:0
 Zenebutik.
+p:M7,f:1
+7984:0e080000:02c7:0600:1:0
+Test 1
+p:M7,f:1
+7987:0e080000:02c7:0600:1:0
+Test 2
+p:M7,f:1
+7988:0e080000:02c7:0600:1:0
+Test 3
+p:M7,f:1
+79a3:0e080000:02c7:0600:1:0
+Test 1.
+p:M7,f:1
+79a4:0e080000:02c7:0600:1:0
+Test 2.
+p:M7,f:1
+79a5:0e080000:02c7:0600:1:0
+Test 3.
 p:M7,f:1
 1cf3:0e080000:0019:0046:1:0
 Blue Hustler
@@ -50942,6 +51023,9 @@ p:Rai,f:1
 03f1:eeee0000:0001:217c:22:0
 Rai 4
 p:Rai,f:1
+03ed:eeee0000:0001:217c:22:0
+Rai YoYo
+p:Rai,f:1
 0065:eeee0000:0385:0110:25:0
 R101 TV
 p:Mediaset,f:1
@@ -51221,11 +51305,17 @@ p:,f:1
 1c0a:eeee0000:0384:0110:22:0
 ARTEORA TV
 p:,f:1
-1c13:eeee0000:0384:0110:0:0
-CUSANO NEWS 7
-p:
 1c03:eeee0000:0384:0110:25:0
 CANALE 122
+p:,f:1
+1c24:eeee0000:0384:0110:22:0
+Terre Euganee Channel
+p:,f:1
+1c25:eeee0000:0384:0110:22:0
+9Novanta
+p:,f:1
+1c26:eeee0000:0384:0110:22:0
+Nexum Channel
 p:,f:1
 0015:eeee0000:0389:0110:0:0
 Servizio 21
@@ -51525,7 +51615,7 @@ p:In Aria!,f:1
 CANALE 232
 p:In Aria!,f:1
 0fb5:eeee0000:0107:217c:1:0
-AUTOMOTO
+PREMIO SPORT 2
 p:In Aria!,f:1
 0fb7:eeee0000:0107:217c:1:0
 CANALE 235
@@ -51692,9 +51782,6 @@ p:Persidera
 0068:eeee0000:7918:217c:22:0
 CANALE 227
 p:Persidera,f:1
-006e:eeee0000:7918:217c:0:0
-CANALE 122
-p:Persidera
 0073:eeee0000:7918:217c:22:0
 CUSANO NEWS 7
 p:Persidera,f:1
