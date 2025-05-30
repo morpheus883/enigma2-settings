@@ -294,14 +294,8 @@ transponders
 00c00000:0001:0001
 	s 11327000:9875000:0:3:192:2:0:1:2:0:2
 /
-00c02d55:0001:ffff
-	s 11605000:9875000:0:3:192:2:0:1:2:0:2
-/
 00c00000:0020:00eb
 	s 11600000:4800000:1:3:192:2:0:1:2:0:2
-/
-00c0ae29:0000:0001
-	s 11817000:31428000:1:8:192:2:0:1:2:0:2
 /
 00c0ad34:0001:ffff
 	s 11572000:9874000:1:3:192:2:0:1:2:0:2
@@ -324,8 +318,17 @@ transponders
 00c00000:040c:0001
 	s 11009000:23500000:1:3:192:2:0:1:2:0:2
 /
-00c0ad88:0000:0000
+00c00000:0006:0001
+	s 11817000:31428000:1:8:192:2:0:1:2:0:2
+/
+00c0ad88:0001:ffff
 	s 11656000:7200000:1:3:192:2:0:1:2:0:2
+/
+00c02bd5:0001:ffff
+	s 11221000:7200000:0:3:192:2:0:1:2:0:2
+/
+00c02d55:0000:0000
+	s 11605000:7200000:0:3:192:2:0:1:2:0:2
 /
 00820000:2e18:00b0
 	s 10873000:27500000:1:3:130:2:0:1:2:0:2
@@ -602,6 +605,9 @@ transponders
 /
 0082af29:1a90:fbff
 	s 12073000:29900000:1:3:130:2:0:1:2:0:2
+/
+0082abcb:0001:0001
+	s 11211000:9600000:1:3:130:2:0:1:2:0:2
 /
 005a0000:14b4:009c
 	s 11785000:27500000:0:2:90:2:0:1:2:0:2
@@ -2120,6 +2126,9 @@ p:
 23e5:00c00000:044a:0001:100:0
 
 p:
+23aa:00c00000:044a:0001:1:0
+
+p:,f:1
 0071:00c00000:000b:0085:25:0
 History Channel HD Germany
 p:SKY,f:1
@@ -4397,36 +4406,30 @@ p:SES,f:1
 0003:00c0afd6:0000:ffff:25:0
 SVC-3
 p:SES,f:1
+00cf:00c0afd6:0000:ffff:1:0
+UNI-01-i50
+p:Telstra Broadcast Services,f:1
+00d0:00c0afd6:0000:ffff:1:0
+UNI-02-i50
+p:Telstra Broadcast Services,f:1
+00d1:00c0afd6:0000:ffff:1:0
+UNI-03-i50
+p:Telstra Broadcast Services,f:1
+00d2:00c0afd6:0000:ffff:1:0
+UNI-04-i50
+p:Telstra Broadcast Services,f:1
 0001:00c0ac88:0001:ffff:1:0
 ITA 560 DIRTY - KRANJSKA
 p:LIVESAT,f:1
 0001:00c00000:0001:0001:25:0
 UKI-1484 Main
 p:ONmedia,f:1
-0001:00c02d55:0001:ffff:1:0
-SUI 66
-p:In AriaX,f:1
 0001:00c00000:0020:00eb:1:0
 D233
 p:Betamobil,f:1
 0001:00c00000:0020:00eb:0:0
 D233
 p:Betamobil
-0001:00c0ae29:0000:0001:25:0
-Astra 1 Service 1
-p:MX1,f:1
-0002:00c0ae29:0000:0001:25:0
-Astra 1 Service 2
-p:MX1,f:1
-0003:00c0ae29:0000:0001:25:0
-Astra 1 Service 3
-p:MX1,f:1
-0004:00c0ae29:0000:0001:25:0
-Astra 1 Service 4
-p:MX1,f:1
-0005:00c0ae29:0000:0001:25:0
-Astra 1 Service 5
-p:MX1,f:1
 0001:00c0ad34:0001:ffff:1:0
 i390bk
 p:Service Provider,f:1
@@ -4487,9 +4490,27 @@ p:SES,f:1
 2bf2:00c00000:040c:0001:1:0
 ASTRA TV 4
 p:SES,f:1
-0001:00c0ad88:0000:0000:25:0
-MMG-D185 HD Encoder 2
-p:,f:1
+0001:00c00000:0006:0001:1:0
+Liverpool vs Crystal Palace
+p:SES,f:1
+0002:00c00000:0006:0001:1:0
+Liverpool vs Crystal Palace Player Cam
+p:SES,f:1
+0003:00c00000:0006:0001:1:0
+Nottingham Forest vs Chelsea
+p:SES,f:1
+0004:00c00000:0006:0001:1:0
+Nottingham Forest vs Chelsea Player Cam
+p:SES,f:1
+0001:00c0ad88:0001:ffff:1:0
+SR D-551 Enc I
+p:Service Provider,f:1
+0001:00c02bd5:0001:ffff:1:0
+SWR D-417 MOD 1
+p:Service Provider,f:1
+0001:00c02d55:0000:0000:25:0
+hr D-537
+p:Hessischer Rundfunk,f:1
 0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
 p:SNRT,f:1
@@ -6245,6 +6266,12 @@ p:Cyfrowy Polsat S.A.,f:1
 1cad:00820000:1ce8:0071:1:0
 Polsat Seriale HD
 p:,f:1
+1ccd:00820000:1ce8:0071:1:0
+Polsat Reality
+p:Cyfrowy Polsat S.A.,f:1
+1ccf:00820000:1ce8:0071:1:0
+Polsat Film 2
+p:Cyfrowy Polsat S.A.,f:1
 0c1d:00820000:1e78:0071:1:0
 Polsat Sport 1
 p:Cyfrowy Polsat,f:1
@@ -6413,7 +6440,7 @@ p:Eutelsat,f:1
 01a3:00820000:26ac:013f:1:0
 franceinfo
 p:Eutelsat,f:1
-07d4:00820000:22c4:013e:1:0
+07d4:00820000:22c4:013e:25:0
 Vatican Media Europa
 p:GLOBECAST,f:1
 07e0:00820000:22c4:013e:1:0
@@ -6431,10 +6458,10 @@ p:GLOBECAST,f:1
 07e1:00820000:22c4:013e:1:0
 Euronews Italian
 p:GLOBECAST,f:1
-0830:00820000:22c4:013e:1:0
+0830:00820000:22c4:013e:25:0
 Equidia PRO1 HD
 p:GLOBECAST,f:1
-0831:00820000:22c4:013e:1:0
+0831:00820000:22c4:013e:25:0
 Equidia PRO2 HD
 p:GLOBECAST,f:1
 07d5:00820000:22c4:013e:1:0
@@ -9065,11 +9092,14 @@ p:CANAL+,f:1
 144f:00822ce0:05dc:013e:1:0
 Eleven Sports 2 HD
 p:CANAL+,f:1
-142d:00822ce0:05dc:013e:1:0
-Canal+ Extra 4
+13fd:00822ce0:05dc:013e:1:0
+ViDocTV
 p:CANAL+,f:1
 13fb:00822ce0:05dc:013e:1:0
-Canal+ Extra 4
+StudioMed TV
+p:CANAL+,f:1
+13fc:00822ce0:05dc:013e:1:0
+TeenNick
 p:CANAL+,f:1
 377a:00822c93:044c:013e:1:0
 Canal+ Dokument HD
@@ -9614,6 +9644,9 @@ p:SkyItalia,f:1
 0f4d:0082af29:1a90:fbff:25:0
 Sky Sport 1 HD
 p:SkyItalia,f:1
+0001:0082abcb:0001:0001:1:0
+NLEMG HOL270-1
+p:EMG Connectivity,f:1
 00d8:005a0000:14b4:009c:1:0
 Comedy Central
 p:Kabelkiosk,f:1
@@ -11300,6 +11333,12 @@ p:Persidera
 003f:005a0000:0204:001d:22:0
 AutoMoto
 p:Persidera,f:1
+0040:005a0000:0204:001d:22:0
+TV Moda
+p:Persidera,f:1
+0041:005a0000:0204:001d:22:0
+Class CNBC
+p:Persidera,f:1
 1c12:005a0000:0384:0110:1:0
 ArteInvestimenti
 p:,f:1
@@ -11446,6 +11485,9 @@ p:,f:1
 p:,f:1
 1c26:005a0000:0384:0110:22:0
 Nexum Channel
+p:,f:1
+1c27:005a0000:0384:0110:22:0
+Satisfaction TV
 p:,f:1
 000b:005a0000:18e2:217c:1:0
 TEST RL AO2
