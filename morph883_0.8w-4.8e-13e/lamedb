@@ -363,6 +363,9 @@ transponders
 00300000:0004:0064
 	s 12226000:27500000:0:7:48:2:0:1:1:0:2
 /
+00302fd4:0001:0001
+	s 12244000:1125000:0:7:48:2:0:1:2:0:2
+/
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
 /
@@ -2847,7 +2850,7 @@ p:NOVA,f:1
 Cosmote Sport 6 HD
 p:NOVA,f:1
 1bbf:00820000:17d4:013e:1:0
-N TEST 2
+Viasat True Crime HD
 p:NOVA,C:0000,f:1
 1bd3:00820000:17d4:013e:1:0
 COSMOTESport2HD
@@ -4539,10 +4542,10 @@ p:NURTS
 Radio Magic FM
 p:NURTS
 0040:00820000:2580:00d5:2:54
-N-JOY
+N-JOY Reg 1
 p:NURTS
 0041:00820000:2580:00d5:2:55
-Z-ROCK
+N-JOY Reg 2
 p:NURTS
 0042:00820000:2580:00d5:2:56
 Darik Sofia
@@ -4581,13 +4584,13 @@ p:NURTS
 RNE
 p:NURTS
 0053:00820000:2580:00d5:2:68
-Classic FM
+bTV Radio Sofia
 p:NURTS
 0054:00820000:2580:00d5:2:69
-N-Joy Cable
+N-Joy Sofia
 p:NURTS
 0055:00820000:2580:00d5:2:70
-Z-Rock Cable
+Z-Rock
 p:NURTS
 0056:00820000:2580:00d5:2:71
 Darik Varna
@@ -4902,7 +4905,7 @@ p:VIVACOM,f:1
 Gametoon HD
 p:VIVACOM,f:1
 007e:00820000:251c:00d5:1:16
-TV 1000
+Viasat Kino
 p:VIVACOM,f:1
 007f:00820000:251c:00d5:1:17
 Hustler
@@ -5577,7 +5580,7 @@ p:SkyItalia,f:1
 Sky Crime
 p:SkyItalia,f:1
 106c:00820000:2260:fbff:25:0
-Cinema Christmas
+Sky Cinema Collection HD
 p:SkyItalia,f:1
 37a9:00820000:2260:fbff:25:0
 Sky Crime
@@ -5891,6 +5894,9 @@ p:SOLAR MEDIA,f:1
 1a0e:00300000:0010:0055:1:0
 ' Apostrophe TV
 p:,f:1
+19ff:00300000:0010:0055:2:0
+Emmanuel
+p:Svitle Radio
 00e6:00300000:0002:0055:2:0
 European Radio for Belarus
 p:SES ASTRA
@@ -5966,9 +5972,6 @@ p:,f:1
 1b03:00300000:0011:0055:22:0
 Nadiya
 p:,f:1
-1b08:00300000:0011:0055:1:0
-Sonce (Ukraine)
-p:SOLAR MEDIA,f:1
 1af4:00300000:0011:0055:2:0
 ARMY FM
 p:
@@ -5980,9 +5983,6 @@ Sonata TV
 p:,f:1
 1b4e:00300000:0011:0055:1:0
 Kyiv TV
-p:,f:1
-1b3a:00300000:0011:0055:1:0
-' Apostrophe TV
 p:,f:1
 1afc:00300000:0011:0055:2:0
 Golos Kyiva
@@ -6599,9 +6599,6 @@ p:SIS Limited,f:1
 0009:00300000:00c9:0001:1:0
 SIS EURO
 p:SIS Limited,f:1
-0042:00300000:00c9:0001:1:0
-Ladbrokes_1
-p:SIS,f:1
 005f:00300000:00c9:0001:1:0
 SIS Spanish
 p:SIS Limited,f:1
@@ -6626,6 +6623,9 @@ p:SIS,f:1
 03e7:00300000:00c9:0001:12:0
 OTA
 p:NEP
+0012:00300000:00c9:0001:1:0
+Boyles
+p:SIS Ltd,f:1
 0001:00303142:0001:ffff:1:0
 CNN Lviv Path 3
 p:Service Provider,f:1
@@ -6779,6 +6779,15 @@ p:,f:1
 00c8:00300000:0004:0064:1:0
 MTN SE HD2
 p:,f:1
+0070:00302fd4:0001:0001:1:0
+MSNBC-720p
+p:,f:1
+00cb:00302fd4:0001:0001:1:0
+FOX News HD
+p:MTNTV,f:1
+00d9:00302fd4:0001:0001:1:0
+BBC HD
+p:MTNTV,f:1
 040a:0e080000:0044:0046:25:0
 TV 2 Sport Premium HD
 p:Canal Digital Nordic,f:1
@@ -7237,37 +7246,37 @@ Sverigekanalen
 p:Telenor,f:1
 7595:0e080000:02bd:0600:1:0
 HBO Hungary
-p:UPC Direct,f:1
+p:M7,f:1
 7598:0e080000:02bd:0600:1:0
 Sport 1 Hungary
-p:UPC Direct,f:1
+p:M7,f:1
 759f:0e080000:02bd:0600:1:0
 Spektrum TV Czechia & Slovakia
-p:UPC Direct,f:1
+p:M7,f:1
 75a0:0e080000:02bd:0600:1:0
 TV Paprika
-p:UPC Direct,f:1
+p:M7,f:1
 5013:0e080000:02bd:0600:1:0
 EPG
-p:UPC Direct,f:1
+p:M7,f:1
 5014:0e080000:02bd:0600:1:0
 Guide
-p:UPC Direct,f:1
+p:M7,f:1
 75b0:0e080000:02bd:0600:1:0
 Spiler 2 TV
-p:UPC,f:1
+p:M7,f:1
 75b1:0e080000:02bd:0600:1:0
 Moziverzum
-p:UPC,f:1
+p:M7,f:1
 75b2:0e080000:02bd:0600:1:0
 Jocky TV.
-p:UPC,f:1
+p:M7,f:1
 75b3:0e080000:02bd:0600:1:0
 Moziverzum.
-p:UPC,f:1
+p:M7,f:1
 75aa:0e080000:02bd:0600:1:0
 Jocky TV
-p:UPC,f:1
+p:M7,f:1
 00f0:0e080000:02bd:0600:12:0
 40
 p:
@@ -7297,30 +7306,30 @@ p:
 p:
 7596:0e080000:02bd:0600:1:0
 HirTV
-p:UPC,f:1
+p:M7,f:1
 7597:0e080000:02bd:0600:1:0
 JimJam HU
-p:UPC,f:1
+p:M7,f:1
 75b5:0e080000:02bd:0600:1:0
 JimJam HU.
-p:UPC,f:1
+p:M7,f:1
 7599:0e080000:02bd:0600:1:0
 M1 - Magyar TV
-p:UPC,f:1
+p:M7,f:1
 759a:0e080000:02bd:0600:1:0
 Magyar TV 2 / Petofi
-p:UPC,f:1
+p:M7,f:1
 759c:0e080000:02bd:0600:1:0
-TV 1000 Balkan
-p:UPC,f:1
+Viasat Kino
+p:M7,f:1
 75b4:0e080000:02bd:0600:1:0
 Spiler2.
-p:UPC,f:1
+p:M7,f:1
 759e:0e080000:02bd:0600:1:0
 History Romania
 p:M7,f:1
 75b6:0e080000:02bd:0600:1:0
-TV1000.
+Viasat Kino.
 p:M7,f:1
 75b7:0e080000:02bd:0600:1:0
 History Romania.
@@ -7335,10 +7344,10 @@ p:M7,f:1
 Kanal D2.
 p:M7,f:1
 75a3:0e080000:02bd:0600:1:0
-Test1
+Viasat3
 p:M7,f:1
 75a4:0e080000:02bd:0600:1:0
-Test2
+Viasat6
 p:M7,f:1
 75b9:0e080000:02bd:0600:1:0
 Viasat3.
@@ -7401,7 +7410,7 @@ p:M7,f:1
 Viasat Nature CEE
 p:M7,f:1
 75ff:0e080000:02be:0600:1:0
-ATV Spirit
+ATV Extra
 p:M7,f:1
 760a:0e080000:02be:0600:25:0
 Nat Geo Wild CZ HD
@@ -7416,7 +7425,7 @@ p:M7,f:1
 Kanal D HD
 p:M7,f:1
 7606:0e080000:02be:0600:1:0
-ATV Spirit.
+ATV Extra.
 p:M7,f:1
 0401:0e080000:000c:0001:1:0
 Music Channel
@@ -8234,6 +8243,9 @@ p:Telenor,f:1
 1d5a:0e080000:0048:0046:25:0
 BBC Nordic HD (S)
 p:Telenor,f:1
+42bc:0e080000:0048:0046:25:0
+Kuukauden kanava
+p:Telenor,f:1
 7727:0e080000:02c1:0600:25:0
 Sport 1 HD Hungary
 p:M7,f:1
@@ -8788,70 +8800,70 @@ CNN.
 p:M7,f:1
 797e:0e080000:02c7:0600:1:0
 Cartoon Network Eastern Europe
-p:UPC Direct,f:1
+p:M7,f:1
 7980:0e080000:02c7:0600:1:0
 National Geographic Europe
-p:UPC Direct,f:1
+p:M7,f:1
 7982:0e080000:02c7:0600:1:0
 Viasat History
-p:Focus Sat,f:1
+p:M7,f:1
 7983:0e080000:02c7:0600:1:0
 AMC CE
-p:Focus Sat,f:1
+p:M7,f:1
 7989:0e080000:02c7:0600:1:0
 TV 4 (HU)
-p:Focus Sat,f:1
+p:M7,f:1
 798b:0e080000:02c7:0600:1:0
 Disney Channel Romania, Bulgaria & Ukraine
-p:Focus Sat,f:1
+p:M7,f:1
 798e:0e080000:02c7:0600:1:0
 Zenebutik
-p:UPC Direct,f:1
+p:M7,f:1
 7995:0e080000:02c7:0600:1:0
 TV4 (SVT)
-p:UPC Direct,f:1
+p:M7,f:1
 7981:0e080000:02c7:0600:1:0
 AMC HU
-p:UPC Direct,f:1
+p:M7,f:1
 798d:0e080000:02c7:0600:1:0
 TV2 Comedy
-p:UPC Direct,f:1
+p:M7,f:1
 7992:0e080000:02c7:0600:1:0
 TV2 Comedy.
-p:UPC Direct,f:1
+p:M7,f:1
 7996:0e080000:02c7:0600:1:0
 AMC HU.
-p:UPC Direct,f:1
+p:M7,f:1
 7997:0e080000:02c7:0600:1:0
 Nat Geo.
-p:UPC Direct,f:1
+p:M7,f:1
 7998:0e080000:02c7:0600:1:0
 TV2 Kids
-p:UPC Direct,f:1
+p:M7,f:1
 7999:0e080000:02c7:0600:1:0
 TV2 Kids.
-p:UPC Direct,f:1
+p:M7,f:1
 797f:0e080000:02c7:0600:1:0
 TV2 Sef
-p:UPC Direct,f:1
+p:M7,f:1
 799a:0e080000:02c7:0600:1:0
 TV2 Sef.
-p:UPC Direct,f:1
+p:M7,f:1
 799b:0e080000:02c7:0600:1:0
 Cartoon Network.
-p:UPC Direct,f:1
+p:M7,f:1
 7986:0e080000:02c7:0600:1:0
 Mozi +
-p:UPC Direct,f:1
+p:M7,f:1
 798c:0e080000:02c7:0600:1:0
 M5
-p:UPC Direct,f:1
+p:M7,f:1
 799e:0e080000:02c7:0600:1:0
-m5.
-p:UPC Direct,f:1
+M5.
+p:M7,f:1
 799f:0e080000:02c7:0600:1:0
 TV4.
-p:UPC,f:1
+p:M7,f:1
 7985:0e080000:02c7:0600:1:0
 CBS Reality ROM
 p:M7,f:1
@@ -8863,9 +8875,9 @@ Dizi Channel
 p:M7,f:1
 798f:0e080000:02c7:0600:1:0
 AXN Czech
-p:ESS,f:1
+p:M7,f:1
 79a1:0e080000:02c7:0600:1:0
-m5 (SVT)
+M5 (SVT)
 p:M7,f:1
 79a2:0e080000:02c7:0600:1:0
 TV2 Sef (SVT)
@@ -8877,22 +8889,22 @@ p:M7,f:1
 Zenebutik.
 p:M7,f:1
 7984:0e080000:02c7:0600:1:0
-Test 1
+AXN Romania
 p:M7,f:1
 7987:0e080000:02c7:0600:1:0
-Test 2
+AXN White
 p:M7,f:1
 7988:0e080000:02c7:0600:1:0
-Test 3
+AXN Black
 p:M7,f:1
 79a3:0e080000:02c7:0600:1:0
-Test 1.
+AXN Romania.
 p:M7,f:1
 79a4:0e080000:02c7:0600:1:0
-Test 2.
+AXN White.
 p:M7,f:1
 79a5:0e080000:02c7:0600:1:0
-Test 3.
+AXN Black.
 p:M7,f:1
 1cf3:0e080000:0019:0046:1:0
 Blue Hustler
@@ -9674,17 +9686,11 @@ p:M7,f:1
 7a5a:fff80000:02cb:0600:22:0
 Fightbox
 p:M7,f:1
-7a45:fff80000:02cb:0600:25:0
-Filmbox Premium HD
-p:M7,f:1
 7a57:fff80000:02cb:0600:25:0
 Direct One HD
 p:M7,f:1
 7a61:fff80000:02cb:0600:22:0
 Mezzo
-p:M7,f:1
-7a62:fff80000:02cb:0600:22:0
-Extreme Sports Channel
 p:M7,f:1
 7a46:fff80000:02cb:0600:22:0
 TV8
@@ -9741,7 +9747,7 @@ p:M7,f:1
 Film+ HD
 p:M7,f:1
 7a63:fff80000:02cb:0600:25:0
-Test
+Nat Geo HD HU
 p:M7,f:1
 7aaa:fff80000:02cc:0600:22:0
 Arena Sport 1
