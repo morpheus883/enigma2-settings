@@ -117,9 +117,6 @@ transponders
 011a0000:0835:0002
 	s 11641000:23000000:0:2:282:2:0:1:2:1:2
 /
-011a0000:0833:0002
-	s 11612000:22000000:0:4:282:2:0
-/
 011a30e0:0001:ffff
 	s 12512000:7200000:0:3:282:2:0:1:2:0:2
 /
@@ -184,7 +181,7 @@ transponders
 	s 12631000:15000000:0:4:282:2:0:1:2:0:2
 /
 011a0000:0832:0002
-	s 11597000:22000000:1:4:282:2:0
+	s 11597000:23000000:1:2:282:2:0:1:2:1:2
 /
 011a0000:0831:0002
 	s 11582000:23000000:0:2:282:2:0:1:2:1:2
@@ -1814,6 +1811,21 @@ p:BSkyB,f:1
 d81d:011a0000:0838:0002:1:0
 TNTSports9 HD
 p:BSkyB,f:1
+d822:011a0000:0838:0002:1:0
+TNT Sports 1
+p:BSkyB,f:1
+d827:011a0000:0838:0002:1:0
+TNT Sports 3
+p:BSkyB,f:1
+d823:011a0000:0838:0002:1:0
+TNT Sports 1
+p:BSkyB,f:1
+d828:011a0000:0838:0002:1:1
+TNT Sports 3
+p:BSkyB,f:1
+d82c:011a0000:0838:0002:1:0
+BT Sport Mosaic
+p:BSkyB,f:1
 d048:011a0000:083e:0002:1:0
 GREAT! Romance
 p:BSkyB,f:1
@@ -2233,21 +2245,6 @@ Wion HD
 p:BSkyB,f:1
 1bc1:011a0000:0835:0002:1:0
 Eman Channel
-p:BSkyB,f:1
-d869:011a0000:0833:0002:1:0
-TNT Sports 1
-p:BSkyB,f:1
-d873:011a0000:0833:0002:1:1
-TNT Sports 3
-p:BSkyB,f:1
-d7d2:011a0000:0833:0002:1:0
-TNT Sports 1
-p:BSkyB,f:1
-d7dc:011a0000:0833:0002:1:0
-TNT Sports 3
-p:BSkyB,f:1
-d87c:011a0000:0833:0002:1:0
-BT Sport Mosaic
 p:BSkyB,f:1
 0001:011a30e0:0001:ffff:1:0
 E-351/G-22
@@ -3477,7 +3474,7 @@ p:CANAL+,f:1
 Paramount Channel Spain
 p:PRISA TV,f:1
 757f:00c00000:0412:0001:1:0
-M+ Música
+AXN Movies
 p:,f:1
 7588:00c00000:0412:0001:1:0
 Movistar Plus+
@@ -6762,8 +6759,8 @@ p:Service Provider,f:1
 SWR D-417 MOD 1
 p:Service Provider,f:1
 0001:00c02d55:0000:0000:25:0
-hr D-537
-p:Hessischer Rundfunk,f:1
+USGA US Open WF - Day 4
+p:SES Video,f:1
 0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
 p:SNRT,f:1
@@ -8225,6 +8222,9 @@ p:GLOBECAST,f:1
 2905:00820000:1c20:013e:2:0
 Radio Congo
 p:GLOBECAST
+1c58:00820000:1c20:013e:1:0
+SMTv San Marino HD 2
+p:Harmonic,f:1
 015f:00820000:1c84:013e:1:0
 Discovery HD
 p:NetMed,f:1

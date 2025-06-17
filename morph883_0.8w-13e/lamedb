@@ -354,9 +354,6 @@ fff82a97:0030:0046
 0e080000:0002:0046
 	s 11309000:25000000:1:3:-8:2:0:1:2:0:2
 /
-0e082f3c:000b:1111
-	s 12092000:28000000:0:5:-8:2:0
-/
 0e080000:0af2:00bb
 	s 11977000:30000000:0:3:-8:2:0:1:2:0:2
 /
@@ -428,9 +425,6 @@ fff8accf:0000:0000
 /
 0e080000:0afb:00bb
 	s 12607000:28800000:1:7:-8:2:0:1:1:1:2
-/
-0e080000:0afa:00bb
-	s 12563000:28800000:1:7:-8:2:0:1:1:1:2
 /
 0e080000:0af9:00bb
 	s 12456000:30000000:1:3:-8:2:0:1:2:0:2
@@ -530,6 +524,9 @@ fff830bc:0050:0046
 /
 fff8b0f0:0001:ffff
 	s 12528000:6660000:1:3:-8:2:0:1:2:0:2
+/
+0e08aceb:0001:0001
+	s 11499000:7200000:1:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -1994,6 +1991,9 @@ p:GLOBECAST,f:1
 2905:00820000:1c20:013e:2:0
 Radio Congo
 p:GLOBECAST
+1c58:00820000:1c20:013e:1:0
+SMTv San Marino HD 2
+p:Harmonic,f:1
 015f:00820000:1c84:013e:1:0
 Discovery HD
 p:NetMed,f:1
@@ -7253,45 +7253,6 @@ p:Telenor
 45bf:0e080000:0002:0046:25:0
 TV3+ HD (D)
 p:Telenor,f:1
-2afa:0e082f3c:000b:1111:1:0
-AXN White
-p:ESS,f:1
-2afb:0e082f3c:000b:1111:1:0
-AXN Black
-p:ESS,f:1
-2afd:0e082f3c:000b:1111:1:0
-AXN Romania
-p:ESS,f:1
-2b07:0e082f3c:000b:1111:1:0
-AXN White SVK
-p:ESS,f:1
-2b08:0e082f3c:000b:1111:1:0
-AXN Black SVK
-p:ESS,f:1
-2b09:0e082f3c:000b:1111:1:0
-Viasat 3
-p:ESS,f:1
-2b0a:0e082f3c:000b:1111:1:0
-Viasat 6
-p:ESS,f:1
-2b0d:0e082f3c:000b:1111:1:0
-VIASAT 3 .
-p:SES,f:1
-2b0e:0e082f3c:000b:1111:1:0
-VIASAT 6 .
-p:SES,f:1
-2b0f:0e082f3c:000b:1111:25:0
-Nat Geo HD HU
-p:SES,f:1
-2b10:0e082f3c:000b:1111:25:0
-Nat Geo HD (ROU)
-p:SES,f:1
-2b11:0e082f3c:000b:1111:2:0
-Radio Chisinau
-p:SES
-2b12:0e082f3c:000b:1111:1:0
-Metropola TV
-p:SES,f:1
 07dc:0e080000:0af2:00bb:25:0
 Premier Sport 2 SK HD
 p:Slovak Telekom,f:1
@@ -8285,33 +8246,6 @@ p:Slovak Telekom,f:1
 2b0d:0e080000:0afb:00bb:22:0
 CS Film
 p:Slovak Telekom,f:1
-271d:0e080000:0afa:00bb:22:0
-CS Film
-p:Slovak Telekom,f:1
-2720:0e080000:0afa:00bb:22:0
-Nova Lady
-p:Slovak Telekom,f:1
-2722:0e080000:0afa:00bb:22:0
-Seznam.cz TV
-p:Slovak Telekom,f:1
-2723:0e080000:0afa:00bb:22:0
-TV Barrandov
-p:Slovak Telekom,f:1
-271b:0e080000:0afa:00bb:25:0
-CNN Prima News HD
-p:Slovak Telekom,f:1
-271e:0e080000:0afa:00bb:25:0
-CT D/ CT Art HD
-p:Slovak Telekom,f:1
-271f:0e080000:0afa:00bb:25:0
-JOJ 24 HD
-p:Slovak Telekom,f:1
-2721:0e080000:0afa:00bb:25:0
-Sport HD
-p:Slovak Telekom,f:1
-271c:0e080000:0afa:00bb:25:0
-Test service
-p:Slovak Telekom,C:0000,f:1
 2337:0e080000:0af9:00bb:22:0
 Prima MAX HD
 p:Slovak Telekom,f:1
@@ -8633,6 +8567,12 @@ p:M7,f:1
 7a63:fff80000:02cb:0600:25:0
 Nat Geo HD HU
 p:M7,f:1
+7a64:fff80000:02cb:0600:25:0
+Sport 1 HD CZ
+p:M7,f:1
+7a65:fff80000:02cb:0600:25:0
+Sport 2 HD HU
+p:M7,f:1
 7aaa:fff80000:02cc:0600:22:0
 Arena Sport 1
 p:M7,f:1
@@ -8825,12 +8765,15 @@ p:DIGI TV,f:1
 00bf:0e080000:0065:0065:1:0
 B 191 DGI
 p:DIGI TV,C:0000,f:1
-0001:0e08ad9a:0001:ffff:1:0
+0001:0e08ad9a:0001:ffff:25:0
 UKI1960 AVP P1
 p:Service Provider,f:1
 00bf:fff8b0f0:0001:ffff:1:0
 B 191 DGI
 p:DIGI TV,f:1
+0001:0e08aceb:0001:0001:25:0
+SLQ-002 MAIN
+p:SLQ-002,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2025

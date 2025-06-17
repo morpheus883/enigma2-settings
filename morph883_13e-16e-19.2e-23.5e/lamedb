@@ -765,9 +765,6 @@ transponders
 00a0ab0e:0001:ffff
 	s 11022000:7200000:1:3:160:2:0:1:2:0:2
 /
-00a0318a:0000:0001
-	s 12682000:7425000:0:2:160:2:0:1:2:0:2
-/
 00a03105:0001:0001
 	s 12549000:6332000:0:3:160:2:0:1:2:0:2
 /
@@ -803,6 +800,9 @@ transponders
 /
 00a02add:0001:ffff
 	s 10973000:3000000:0:3:160:2:0:1:2:0:2
+/
+00a0318a:0001:0001
+	s 12682000:7425000:0:2:160:2:0:1:2:0:2
 /
 00820000:2e18:00b0
 	s 10873000:27500000:1:3:130:2:0:1:2:0:2
@@ -1849,6 +1849,9 @@ RTVS Sport HD
 p:M7 Group,f:1
 3c2b:00eb0000:0c90:0003:22:0
 Markiza Klasik
+p:M7 Group,f:1
+3c30:00eb0000:0c90:0003:25:0
+Sport 1 HD CZ
 p:M7 Group,f:1
 0001:00eb30dc:0001:ffff:1:0
 RTSH SNG HD
@@ -3585,7 +3588,7 @@ p:CANAL+,f:1
 Paramount Channel Spain
 p:PRISA TV,f:1
 757f:00c00000:0412:0001:1:0
-M+ Música
+AXN Movies
 p:,f:1
 7588:00c00000:0412:0001:1:0
 Movistar Plus+
@@ -6870,8 +6873,8 @@ p:Service Provider,f:1
 SWR D-417 MOD 1
 p:Service Provider,f:1
 0001:00c02d55:0000:0000:25:0
-hr D-537
-p:Hessischer Rundfunk,f:1
+USGA US Open WF - Day 4
+p:SES Video,f:1
 001e:00a00000:0001:0040:22:0
 National Geographic Croatia
 p:Max TV,f:1
@@ -8933,6 +8936,9 @@ p:Total TV,f:1
 055c:00a0ad4b:75fb:016e:2:0
 Test 1
 p:Total TV
+055c:00a0ad4b:75fb:016e:1:0
+Arena Sport 2 Slovenija
+p:Total TV,f:1
 05ac:00a0ad9e:75fc:016e:1:0
 Sport Klub 2 HD
 p:Total TV,f:1
@@ -9050,228 +9056,6 @@ p:NOVA Broadcasting Group,f:1
 0001:00a0ab0e:0001:ffff:1:0
 Titan 3
 p:IDC,f:1
-0fa0:00a0318a:0000:0001:2:0
-4000 PLUS SES
-p:
-07d0:00a0318a:0000:0001:2:0
-2000 ESKA SES
-p:
-041a:00a0318a:0000:0001:1:0
-1050 Kielce SuperNova
-p:,f:1
-042e:00a0318a:0000:0001:1:0
-1070 Krakow SuperNova
-p:,f:1
-044c:00a0318a:0000:0001:1:0
-1100 Lodz SuperNova
-p:,f:1
-0460:00a0318a:0000:0001:1:0
-1120 Opole SuperNova
-p:,f:1
-047e:00a0318a:0000:0001:1:0
-1150 Torun SuperNova
-p:,f:1
-0492:00a0318a:0000:0001:1:0
-1170 Gdansk SuperNova
-p:,f:1
-049c:00a0318a:0000:0001:1:0
-1180 Wroclaw SuperNova
-p:,f:1
-04d8:00a0318a:0000:0001:1:0
-1240 Rzeszow SuperNova
-p:,f:1
-04ec:00a0318a:0000:0001:1:0
-1260 Szczecin SuperNova
-p:,f:1
-050a:00a0318a:0000:0001:1:0
-1290 Nowy-Sacz SuperNova
-p:,f:1
-055a:00a0318a:0000:0001:1:0
-1370 Stalowa-Wola SuperNova
-p:,f:1
-0564:00a0318a:0000:0001:1:0
-1380 Warszawa SuperNova
-p:,f:1
-056e:00a0318a:0000:0001:1:0
-1390 Biala-Podlaska SuperNova
-p:,f:1
-05c8:00a0318a:0000:0001:1:0
-1480 Jelenia-Gora SuperNova
-p:,f:1
-05e6:00a0318a:0000:0001:1:0
-1510 Trzebnica SuperNova
-p:,f:1
-05fa:00a0318a:0000:0001:1:0
-1530 Paprotnia SuperNova
-p:,f:1
-07da:00a0318a:0000:0001:1:0
-2010 Belchatow ESKA
-p:,f:1
-07e4:00a0318a:0000:0001:1:0
-2020 Bialystok ESKA
-p:,f:1
-07ee:00a0318a:0000:0001:1:0
-2030 Bydgoszcz ESKA
-p:,f:1
-07f8:00a0318a:0000:0001:1:0
-2040 Gorzow ESKA
-p:,f:1
-0802:00a0318a:0000:0001:1:0
-2050 Kielce ESKA
-p:,f:1
-080c:00a0318a:0000:0001:1:0
-2060 Siedlce ESKA
-p:,f:1
-0816:00a0318a:0000:0001:1:0
-2070 Krakow ESKA
-p:,f:1
-0820:00a0318a:0000:0001:1:0
-2080 Leszno ESKA
-p:,f:1
-082a:00a0318a:0000:0001:1:0
-2090 Pila ESKA
-p:,f:1
-0834:00a0318a:0000:0001:1:0
-2100 Lodz ESKA
-p:,f:1
-083e:00a0318a:0000:0001:1:0
-2110 Olsztyn ESKA
-p:,f:1
-0848:00a0318a:0000:0001:1:0
-2120 Opole ESKA
-p:,f:1
-0852:00a0318a:0000:0001:1:0
-2130 Lublin ESKA
-p:,f:1
-085c:00a0318a:0000:0001:1:0
-2140 Poznan ESKA
-p:,f:1
-0866:00a0318a:0000:0001:1:0
-2150 Torun ESKA
-p:,f:1
-0870:00a0318a:0000:0001:1:0
-2160 Tarnow ESKA
-p:,f:1
-087a:00a0318a:0000:0001:1:0
-2170 Trojmiasto ESKA
-p:,f:1
-0884:00a0318a:0000:0001:1:0
-2180 Wroclaw ESKA
-p:,f:1
-088e:00a0318a:0000:0001:1:0
-2190 Zielona-Gora ESKA
-p:,f:1
-0898:00a0318a:0000:0001:1:0
-2200 Ostrow ESKA
-p:,f:1
-08a2:00a0318a:0000:0001:1:0
-2210 Radom ESKA
-p:,f:1
-08ac:00a0318a:0000:0001:1:0
-2220 Slask ESKA
-p:,f:1
-08b6:00a0318a:0000:0001:1:0
-2230 Zamosc ESKA
-p:,f:1
-08c0:00a0318a:0000:0001:1:0
-2240 Rzeszow ESKA
-p:,f:1
-08ca:00a0318a:0000:0001:1:0
-2250 Plock ESKA
-p:,f:1
-08d4:00a0318a:0000:0001:1:0
-2260 Szczecin ESKA
-p:,f:1
-08de:00a0318a:0000:0001:1:0
-2270 Koszalin ESKA
-p:,f:1
-08fc:00a0318a:0000:0001:1:0
-2300 Beskidy/Zywiec ESKA
-p:,f:1
-0906:00a0318a:0000:0001:1:0
-2310 Szczecinek ESKA
-p:,f:1
-0910:00a0318a:0000:0001:1:0
-2320 Przemysl ESKA
-p:,f:1
-091a:00a0318a:0000:0001:1:0
-2330 Malopolska ESKA
-p:,f:1
-0938:00a0318a:0000:0001:1:0
-2360 Krasnik ESKA
-p:,f:1
-0960:00a0318a:0000:0001:1:0
-2400 Starachowice ESKA
-p:,f:1
-0974:00a0318a:0000:0001:1:0
-2420 Zary ESKA
-p:,f:1
-097e:00a0318a:0000:0001:1:0
-2430 Elblag ESKA
-p:,f:1
-0988:00a0318a:0000:0001:1:0
-2440 Ilawa ESKA
-p:,f:1
-0992:00a0318a:0000:0001:1:0
-2450 Grudziadz ESKA
-p:,f:1
-099c:00a0318a:0000:0001:1:0
-2460 Lomza ESKA
-p:,f:1
-09b0:00a0318a:0000:0001:1:0
-2480 JG-Wroclaw ESKA
-p:,f:1
-09c4:00a0318a:0000:0001:1:0
-2500 Ostrzeszow ESKA
-p:,f:1
-09d8:00a0318a:0000:0001:1:0
-2520 Braniewo ESKA
-p:,f:1
-0a0a:00a0318a:0000:0001:1:0
-2570 Poludnie ESKA
-p:,f:1
-0be0:00a0318a:0000:0001:1:0
-3040 Gorzow VOX
-p:,f:1
-0c44:00a0318a:0000:0001:1:0
-3140 Poznan VOX
-p:,f:1
-0c8a:00a0318a:0000:0001:1:0
-3210 Radom VOX
-p:,f:1
-0f96:00a0318a:0000:0001:1:0
-3990 VOX
-p:,f:1
-0fe6:00a0318a:0000:0001:1:0
-4070 Krakow PLUS
-p:,f:1
-100e:00a0318a:0000:0001:1:0
-4110 Olsztyn PLUS
-p:,f:1
-1022:00a0318a:0000:0001:1:0
-4130 Lublin PLUS
-p:,f:1
-10ae:00a0318a:0000:0001:1:0
-4270 Koszalin PLUS
-p:,f:1
-10f4:00a0318a:0000:0001:1:0
-4340 Podhale PLUS
-p:,f:1
-1f4a:00a0318a:0000:0001:1:0
-8010 Radio Rodzina
-p:,f:1
-1f54:00a0318a:0000:0001:1:0
-8020 Emaus
-p:,f:1
-1504:00a0318a:0000:0001:1:0
-5380 Warszawa ERock
-p:,f:1
-094c:00a0318a:0000:0001:1:0
-2380 Warszawa ESKA
-p:,f:1
-09ec:00a0318a:0000:0001:1:0
-2540 Suwalki ESKA
-p:,f:1
 0001:00a03105:0001:0001:25:0
 D366_RTL_DIGI_Path1
 p:RTL News GmbH,f:1
@@ -9620,6 +9404,231 @@ p:EUTELSAT,f:1
 0002:00a02add:0001:ffff:1:0
 PMP-Gaza
 p:DTVi,f:1
+1004:00a0318a:0001:0001:1:0
+4100 Lodz PLUS
+p:,f:1
+041a:00a0318a:0001:0001:1:0
+1050 Kielce SuperNova
+p:,f:1
+042e:00a0318a:0001:0001:1:0
+1070 Krakow SuperNova
+p:,f:1
+044c:00a0318a:0001:0001:1:0
+1100 Lodz SuperNova
+p:,f:1
+0460:00a0318a:0001:0001:1:0
+1120 Opole SuperNova
+p:,f:1
+047e:00a0318a:0001:0001:1:0
+1150 Torun SuperNova
+p:,f:1
+0492:00a0318a:0001:0001:1:0
+1170 Gdansk SuperNova
+p:,f:1
+049c:00a0318a:0001:0001:1:0
+1180 Wroclaw SuperNova
+p:,f:1
+04d8:00a0318a:0001:0001:1:0
+1240 Rzeszow SuperNova
+p:,f:1
+04ec:00a0318a:0001:0001:1:0
+1260 Szczecin SuperNova
+p:,f:1
+050a:00a0318a:0001:0001:1:0
+1290 Nowy-Sacz SuperNova
+p:,f:1
+055a:00a0318a:0001:0001:1:0
+1370 Stalowa-Wola SuperNova
+p:,f:1
+0564:00a0318a:0001:0001:1:0
+1380 Warszawa SuperNova
+p:,f:1
+056e:00a0318a:0001:0001:1:0
+1390 Biala-Podlaska SuperNova
+p:,f:1
+05c8:00a0318a:0001:0001:1:0
+1480 Jelenia-Gora SuperNova
+p:,f:1
+05e6:00a0318a:0001:0001:1:0
+1510 Trzebnica SuperNova
+p:,f:1
+05fa:00a0318a:0001:0001:1:0
+1530 Paprotnia SuperNova
+p:,f:1
+07d0:00a0318a:0001:0001:2:0
+2000 ESKA SES
+p:
+07da:00a0318a:0001:0001:1:0
+2010 Belchatow ESKA
+p:,f:1
+07e4:00a0318a:0001:0001:1:0
+2020 Bialystok ESKA
+p:,f:1
+07ee:00a0318a:0001:0001:1:0
+2030 Bydgoszcz ESKA
+p:,f:1
+07f8:00a0318a:0001:0001:1:0
+2040 Gorzow ESKA
+p:,f:1
+0802:00a0318a:0001:0001:1:0
+2050 Kielce ESKA
+p:,f:1
+080c:00a0318a:0001:0001:1:0
+2060 Siedlce ESKA
+p:,f:1
+0816:00a0318a:0001:0001:1:0
+2070 Krakow ESKA
+p:,f:1
+0820:00a0318a:0001:0001:1:0
+2080 Leszno ESKA
+p:,f:1
+082a:00a0318a:0001:0001:1:0
+2090 Pila ESKA
+p:,f:1
+0834:00a0318a:0001:0001:1:0
+2100 Lodz ESKA
+p:,f:1
+083e:00a0318a:0001:0001:1:0
+2110 Olsztyn ESKA
+p:,f:1
+0848:00a0318a:0001:0001:1:0
+2120 Opole ESKA
+p:,f:1
+0852:00a0318a:0001:0001:1:0
+2130 Lublin ESKA
+p:,f:1
+085c:00a0318a:0001:0001:1:0
+2140 Poznan ESKA
+p:,f:1
+0866:00a0318a:0001:0001:1:0
+2150 Torun ESKA
+p:,f:1
+0870:00a0318a:0001:0001:1:0
+2160 Tarnow ESKA
+p:,f:1
+087a:00a0318a:0001:0001:1:0
+2170 Trojmiasto ESKA
+p:,f:1
+0884:00a0318a:0001:0001:1:0
+2180 Wroclaw ESKA
+p:,f:1
+088e:00a0318a:0001:0001:1:0
+2190 Zielona-Gora ESKA
+p:,f:1
+0898:00a0318a:0001:0001:1:0
+2200 Ostrow ESKA
+p:,f:1
+08a2:00a0318a:0001:0001:1:0
+2210 Radom ESKA
+p:,f:1
+08ac:00a0318a:0001:0001:1:0
+2220 Slask ESKA
+p:,f:1
+08b6:00a0318a:0001:0001:1:0
+2230 Zamosc ESKA
+p:,f:1
+08c0:00a0318a:0001:0001:1:0
+2240 Rzeszow ESKA
+p:,f:1
+08ca:00a0318a:0001:0001:1:0
+2250 Plock ESKA
+p:,f:1
+08d4:00a0318a:0001:0001:1:0
+2260 Szczecin ESKA
+p:,f:1
+08de:00a0318a:0001:0001:1:0
+2270 Koszalin ESKA
+p:,f:1
+08fc:00a0318a:0001:0001:1:0
+2300 Beskidy/Zywiec ESKA
+p:,f:1
+0906:00a0318a:0001:0001:1:0
+2310 Szczecinek ESKA
+p:,f:1
+0910:00a0318a:0001:0001:1:0
+2320 Przemysl ESKA
+p:,f:1
+091a:00a0318a:0001:0001:1:0
+2330 Malopolska ESKA
+p:,f:1
+0938:00a0318a:0001:0001:1:0
+2360 Krasnik ESKA
+p:,f:1
+094c:00a0318a:0001:0001:1:0
+2380 Warszawa ESKA
+p:,f:1
+0960:00a0318a:0001:0001:1:0
+2400 Starachowice ESKA
+p:,f:1
+0974:00a0318a:0001:0001:1:0
+2420 Zary ESKA
+p:,f:1
+097e:00a0318a:0001:0001:1:0
+2430 Elblag ESKA
+p:,f:1
+0988:00a0318a:0001:0001:1:0
+2440 Ilawa ESKA
+p:,f:1
+0992:00a0318a:0001:0001:1:0
+2450 Grudziadz ESKA
+p:,f:1
+099c:00a0318a:0001:0001:1:0
+2460 Lomza ESKA
+p:,f:1
+09b0:00a0318a:0001:0001:1:0
+2480 JG-Wroclaw ESKA
+p:,f:1
+09c4:00a0318a:0001:0001:1:0
+2500 Ostrzeszow ESKA
+p:,f:1
+09d8:00a0318a:0001:0001:1:0
+2520 Braniewo ESKA
+p:,f:1
+09ec:00a0318a:0001:0001:1:0
+2540 Suwalki ESKA
+p:,f:1
+0a0a:00a0318a:0001:0001:1:0
+2570 Poludnie ESKA
+p:,f:1
+0be0:00a0318a:0001:0001:1:0
+3040 Gorzow VOX
+p:,f:1
+0c44:00a0318a:0001:0001:1:0
+3140 Poznan VOX
+p:,f:1
+0c8a:00a0318a:0001:0001:1:0
+3210 Radom VOX
+p:,f:1
+0f96:00a0318a:0001:0001:1:0
+3990 VOX
+p:,f:1
+0fa0:00a0318a:0001:0001:2:0
+4000 PLUS SES
+p:
+0fe6:00a0318a:0001:0001:1:0
+4070 Krakow PLUS
+p:,f:1
+100e:00a0318a:0001:0001:1:0
+4110 Olsztyn PLUS
+p:,f:1
+1022:00a0318a:0001:0001:1:0
+4130 Lublin PLUS
+p:,f:1
+10ae:00a0318a:0001:0001:1:0
+4270 Koszalin PLUS
+p:,f:1
+10f4:00a0318a:0001:0001:1:0
+4340 Podhale PLUS
+p:,f:1
+1504:00a0318a:0001:0001:1:0
+5380 Warszawa ERock
+p:,f:1
+1f4a:00a0318a:0001:0001:1:0
+8010 Radio Rodzina
+p:,f:1
+1f54:00a0318a:0001:0001:1:0
+8020 Emaus
+p:,f:1
 0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
 p:SNRT,f:1
@@ -11081,6 +11090,9 @@ p:GLOBECAST,f:1
 2905:00820000:1c20:013e:2:0
 Radio Congo
 p:GLOBECAST
+1c58:00820000:1c20:013e:1:0
+SMTv San Marino HD 2
+p:Harmonic,f:1
 015f:00820000:1c84:013e:1:0
 Discovery HD
 p:NetMed,f:1
