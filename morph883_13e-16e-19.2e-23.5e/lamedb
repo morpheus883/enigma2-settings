@@ -1053,9 +1053,6 @@ transponders
 00820000:01f4:00fc
 	s 11296000:27500000:0:4:130:2:0
 /
-00822d06:03eb:0001
-	s 11526000:33000000:0:2:130:2:0:1:2:0:2
-/
 0082b12f:0001:ffff
 	s 12591000:7200000:1:3:130:2:0:1:2:0:2
 /
@@ -1079,6 +1076,9 @@ transponders
 /
 0082abcb:0001:0001
 	s 11211000:9600000:1:3:130:2:0:1:2:0:2
+/
+00822d06:07d3:0002
+	s 11526000:33000000:0:2:130:2:0:1:2:0:2
 /
 end
 services
@@ -9629,6 +9629,9 @@ p:,f:1
 1f54:00a0318a:0001:0001:1:0
 8020 Emaus
 p:,f:1
+1766:00a0318a:0001:0001:1:0
+5990 ERock
+p:,f:1
 0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
 p:SNRT,f:1
@@ -14435,12 +14438,6 @@ p:iKOMG,f:1
 08a1:00820000:01f4:00fc:1:0
 KTV
 p:IKOMG,f:1
-03eb:00822d06:03eb:0001:12:0
-HVS-3 Bck
-p:Telespazio
-0320:00822d06:03eb:0001:1:0
-SERVICE IP/MAC NOTIFICATION
-p:MyIntProvider,f:1
 0192:0082b12f:0001:ffff:1:0
 Service_MENA_02
 p:GLOBECAST,f:1
@@ -14771,6 +14768,15 @@ p:SkyItalia,f:1
 0001:0082abcb:0001:0001:1:0
 NLEMG HOL270-1
 p:EMG Connectivity,f:1
+07d3:00822d06:07d3:0002:12:0
+HVS-3 Pry
+p:MyServiceProvider
+03eb:00822d06:07d3:0002:12:0
+HVS-3 Bck
+p:Telespazio
+0320:00822d06:07d3:0002:1:0
+SERVICE IP/MAC NOTIFICATION
+p:MyIntProvider,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2025

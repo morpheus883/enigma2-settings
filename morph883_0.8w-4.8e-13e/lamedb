@@ -258,9 +258,6 @@ transponders
 00820000:01f4:00fc
 	s 11296000:27500000:0:4:130:2:0
 /
-00822d06:03eb:0001
-	s 11526000:33000000:0:2:130:2:0:1:2:0:2
-/
 0082b12f:0001:ffff
 	s 12591000:7200000:1:3:130:2:0:1:2:0:2
 /
@@ -284,6 +281,9 @@ transponders
 /
 0082abcb:0001:0001
 	s 11211000:9600000:1:3:130:2:0:1:2:0:2
+/
+00822d06:07d3:0002
+	s 11526000:33000000:0:2:130:2:0:1:2:0:2
 /
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
@@ -614,6 +614,12 @@ fff8b0f0:0001:ffff
 /
 0e08aceb:0001:0001
 	s 11499000:7200000:1:3:-8:2:0:1:2:0:2
+/
+fff8aadd:0001:0001
+	s 10973000:7200000:1:3:-8:2:0:1:2:0:2
+/
+fff8ad88:0001:0001
+	s 11656000:7200000:1:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -5495,12 +5501,6 @@ p:iKOMG,f:1
 08a1:00820000:01f4:00fc:1:0
 KTV
 p:IKOMG,f:1
-03eb:00822d06:03eb:0001:12:0
-HVS-3 Bck
-p:Telespazio
-0320:00822d06:03eb:0001:1:0
-SERVICE IP/MAC NOTIFICATION
-p:MyIntProvider,f:1
 0192:0082b12f:0001:ffff:1:0
 Service_MENA_02
 p:GLOBECAST,f:1
@@ -5831,6 +5831,15 @@ p:SkyItalia,f:1
 0001:0082abcb:0001:0001:1:0
 NLEMG HOL270-1
 p:EMG Connectivity,f:1
+07d3:00822d06:07d3:0002:12:0
+HVS-3 Pry
+p:MyServiceProvider
+03eb:00822d06:07d3:0002:12:0
+HVS-3 Bck
+p:Telespazio
+0320:00822d06:07d3:0002:1:0
+SERVICE IP/MAC NOTIFICATION
+p:MyIntProvider,f:1
 0fa0:00300000:0006:0056:1:0
 TVN Chile Nordic
 p:SES ASTRA,f:1
@@ -6865,6 +6874,9 @@ TVNorge HD - Tekst
 p:Telenor,f:1
 2b35:0e080000:0043:0046:25:0
 REX HD - Tekst
+p:Telenor,f:1
+46b7:0e080000:0043:0046:25:0
+TVNorge HD Synstolking
 p:Telenor,f:1
 1c1c:fff82a97:0030:0046:25:0
 Eurosport 1 HD (D)
@@ -9554,6 +9566,9 @@ p:Telenor,f:1
 1d56:0e080000:003e:0046:22:0
 Moonbug
 p:Telenor,f:1
+1d6f:0e080000:003e:0046:25:0
+Test 7535
+p:Telenor,f:1
 1d08:0e080000:0045:0046:25:0
 TV3+ HD (N)
 p:Telenor,f:1
@@ -9899,6 +9914,12 @@ p:DIGI TV,f:1
 0001:0e08aceb:0001:0001:25:0
 SLQ-002 MAIN
 p:SLQ-002,f:1
+0001:fff8aadd:0001:0001:1:0
+Boxing Mn
+p:TimelineTV,f:1
+0001:fff8ad88:0001:0001:25:0
+CITRONSHOW
+p:SLQ-004,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2025
