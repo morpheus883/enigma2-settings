@@ -222,17 +222,17 @@ transponders
 011ab126:0001:ffff
 	s 12582000:7200000:1:3:282:2:0:1:2:0:2
 /
-011ab11d:0001:ffff
-	s 12573000:7500000:1:3:282:2:0:1:2:0:2
-/
 011a31ac:0000:0000
 	s 12716000:7500000:0:3:282:2:0:1:2:0:2
 /
-011ab197:0000:0000
+011ab197:0001:ffff
 	s 12695000:7500000:1:2:282:2:0:1:2:0:2
 /
 011ab12c:0000:0000
 	s 12588000:9600000:1:3:282:2:0:1:2:0:2
+/
+011a0000:0070:006f
+	s 12573000:7200000:1:4:282:2:0:1:2:0:2
 /
 00820000:2e18:00b0
 	s 10873000:27500000:1:3:130:2:0:1:2:0:2
@@ -1331,6 +1331,12 @@ p:BSkyB,f:1
 cd5c:011a0000:0844:0002:1:0
 TNTSports10 HD
 p:BSkyB,f:1
+0f5d:011a0000:0844:0002:25:0
+Sky Sports Racing UK HD
+p:BSkyB,f:1
+cd64:011a0000:0844:0002:25:0
+SkySp Racing HD
+p:BSkyB,f:1
 c52b:011a0000:0813:0002:25:0
 Zee TV HD
 p:BSkyB,f:1
@@ -1483,6 +1489,12 @@ TNT Sports 3
 p:BSkyB,f:1
 d82c:011a0000:0838:0002:1:0
 BT Sport Mosaic
+p:BSkyB,f:1
+d836:011a0000:0838:0002:25:0
+Sony TV HD
+p:BSkyB,f:1
+d838:011a0000:0838:0002:25:0
+Sony Max HD
 p:BSkyB,f:1
 d048:011a0000:083e:0002:1:0
 GREAT! Romance
@@ -1667,9 +1679,6 @@ p:BSkyB,f:1
 041a:011a0000:07f0:0002:198:0
 BDL
 p:BSkyB
-179e:011a0000:07f0:0002:25:0
-Sony Max HD
-p:BSkyB,f:1
 03eb:011a0000:07f0:0002:25:0
 Sky Intro (899)
 p:BSkyB,f:1
@@ -1768,9 +1777,6 @@ Sky Hits HD
 p:BSkyB,f:1
 0f2d:011a0000:07eb:0002:25:0
 NatGeoWild HD
-p:BSkyB,f:1
-0fbe:011a0000:07eb:0002:25:0
-Sony TV HD
 p:BSkyB,f:1
 0edb:011a0000:07eb:0002:25:0
 Star Plus HD
@@ -2633,18 +2639,18 @@ p:Globecast Reportages,f:1
 0001:011ab126:0001:ffff:1:0
 D-528 Verl
 p:rt1.tv,f:1
-0001:011ab11d:0001:ffff:1:0
-POL021
-p:TVN,f:1
 0001:011a31ac:0000:0000:25:0
 Satt DR Wembly Playoffs
 p:NEP Connect,f:1
-0001:011ab197:0000:0000:25:0
+0001:011ab197:0001:ffff:25:0
 E393 PATH1 M3 FEEDB P1 MAIN
 p:,f:1
 0001:011ab12c:0000:0000:25:0
 GAA+ Derry v Galway Clean
 p:Digisat,f:1
+0001:011a0000:0070:006f:25:0
+F503/OER/1/TDF FTV FEED1
+p:GLOBECAST,f:1
 0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
 p:SNRT,f:1
@@ -3572,8 +3578,35 @@ p:SkyItalia,f:1
 0ded:00820000:1644:fbff:25:0
 Sky Sport Business 3
 p:SkyItalia,f:1
-0df8:00820000:1644:fbff:25:0
-Sky Sport Business 4
+0e00:00820000:1644:fbff:1:0
+K2
+p:SkyItalia,f:1
+0e01:00820000:1644:fbff:1:0
+Frisbee
+p:SkyItalia,f:1
+0e02:00820000:1644:fbff:25:0
+Motor Trend HD
+p:SkyItalia,f:1
+0e03:00820000:1644:fbff:25:0
+Giallo HD
+p:SkyItalia,f:1
+0e04:00820000:1644:fbff:25:0
+Nove HD
+p:SkyItalia,f:1
+0e05:00820000:1644:fbff:25:0
+HGTV HD
+p:SkyItalia,f:1
+0dfb:00820000:1644:fbff:25:0
+Sky Sport Mix
+p:SkyItalia,f:1
+0dfd:00820000:1644:fbff:25:0
+Real Time HD
+p:SkyItalia,f:1
+0dfe:00820000:1644:fbff:25:0
+DMAX HD
+p:SkyItalia,f:1
+0dff:00820000:1644:fbff:25:0
+Food Network HD
 p:SkyItalia,f:1
 0e55:00820000:16a8:fbff:130:0
 Gestione Collegam. Telefonico
@@ -3754,6 +3787,12 @@ Sky Crime +1
 p:SkyItalia,f:1
 101d:00820000:189c:fbff:25:0
 Sky Crime +1
+p:SkyItalia,f:1
+0f79:00820000:189c:fbff:25:0
+Sky Adventure
+p:SkyItalia,f:1
+0f7a:00820000:189c:fbff:25:0
+Sky Adventure
 p:SkyItalia,f:1
 2bbf:00820000:19c8:fbff:1:0
 IEPG Data
@@ -4103,6 +4142,9 @@ p:GLOBECAST
 1c58:00820000:1c20:013e:1:0
 SMTv San Marino HD 2
 p:Harmonic,f:1
+07f0:00820000:1c20:013e:1:0
+AL24 News
+p:TDA,f:1
 015f:00820000:1c84:013e:1:0
 Discovery HD
 p:NetMed,f:1
@@ -5576,6 +5618,9 @@ p:
 0655:00820000:2454:013e:1:0
 SRS - TV
 p:,f:1
+0656:00820000:2454:013e:1:0
+GNC HD
+p:Encoder,f:1
 0079:00820000:04b0:0110:25:0
 Italia 1 HD
 p:Mediaset,f:1
@@ -7355,7 +7400,7 @@ p:iKOMG,f:1
 089c:00820000:01f4:00fc:1:0
 Yemen TV
 p:iKOMG,f:1
-08a6:00820000:01f4:00fc:1:0
+08a6:00820000:01f4:00fc:25:0
 Medya Haber
 p:iKOMG,f:1
 08b2:00820000:01f4:00fc:2:0
@@ -7613,6 +7658,9 @@ p:SkyItalia,f:1
 2b27:0082b082:2198:fbff:25:0
 Sky Cinema Suspense HD
 p:SkyItalia,f:1
+0dfa:0082b082:2198:fbff:25:0
+Sky Sport Legend
+p:SkyItalia,f:1
 0dec:0082ae43:15e0:fbff:25:0
 Sky Cinema Due HD
 p:Sky Italia,f:1
@@ -7620,7 +7668,7 @@ p:Sky Italia,f:1
 DAZN 1
 p:SkyItalia,f:1
 1e54:0082ae43:15e0:fbff:25:0
-Sky Sport NBA HD
+Sky Sport Basket
 p:SkyItalia,f:1
 1e5f:0082ae43:15e0:fbff:25:0
 Sky Sport 7 HD

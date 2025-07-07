@@ -324,9 +324,6 @@ transponders
 01a4ad4d:0001:ffff
 	s 11597000:6200000:1:3:420:2:0:1:2:0:2
 /
-01a4accd:0000:0001
-	s 11469000:6800000:1:3:420:2:0:1:2:0:2
-/
 01a42ade:0001:ffff
 	s 10974000:2960000:0:4:420:2:0:1:2:0:2
 /
@@ -341,6 +338,12 @@ transponders
 /
 01a4acd6:0000:0002
 	s 11478000:6800000:1:3:420:2:0:1:2:0:2
+/
+01a4accd:0001:ffff
+	s 11469000:6800000:1:3:420:2:0:1:2:0:2
+/
+01a40000:eac5:042e
+	s 11727000:27500000:1:3:420:2:0:1:2:2:2
 /
 00820000:2e18:00b0
 	s 10873000:27500000:1:3:130:2:0:1:2:0:2
@@ -1073,18 +1076,18 @@ p:TURKSAT,f:1
 c86b:01a40000:9ca5:042e:25:0
 Kablo Info HD
 p:TURKSAT,f:1
-c879:01a40000:9ca5:042e:1:0
-TKGS_TEST
-p:TURKSAT,f:1
-c87a:01a40000:9ca5:042e:1:0
-TKGS_TEST2
-p:TURKSAT,f:1
 c870:01a40000:9ca5:042e:25:0
 KRT TV HD
 p:TURKSAT,f:1
 c871:01a40000:9ca5:042e:25:0
 Flash Haber HD
 p:TURKSAT,f:1
+c879:01a40000:9ca5:042e:12:0
+TKGS TEST
+p:TURKSAT
+c87a:01a40000:9ca5:042e:12:0
+TKGS TEST 2
+p:TURKSAT
 0001:01a40000:003d:002a:1:0
 TRT 1 (E)
 p:TRT,f:1
@@ -2987,6 +2990,9 @@ p:TURKSAT,f:1
 c584:01a40000:c6d5:042e:1:0
 ONS TV
 p:TURKSAT,f:1
+c585:01a40000:c6d5:042e:1:0
+BI Kanal
+p:TURKSAT,f:1
 0001:01a4ab68:0001:ffff:1:0
 ANKARA DM 4
 p:ANKARA BURO,f:1
@@ -3062,9 +3068,6 @@ p:Service Provider,f:1
 0001:01a4ad4d:0001:ffff:1:0
 TUR 145-A
 p:TRT,f:1
-0001:01a4accd:0000:0001:1:0
-TKS.TRT.M13
-p:,f:1
 0001:01a42ade:0001:ffff:1:0
 RETINA MEDYA
 p:Service Provider,f:1
@@ -3209,6 +3212,27 @@ p:GUC TELEKOM MEDYA
 0002:01a4acd6:0000:0002:25:0
 TUR 142 B
 p:TRT IST,f:1
+0002:01a4accd:0001:ffff:1:0
+Service Name
+p:Service Provider,f:1
+4394:01a40000:eac5:042e:1:0
+RTR Planeta
+p:TURKSAT,f:1
+4395:01a40000:eac5:042e:1:0
+Russia 24
+p:TURKSAT,f:1
+4396:01a40000:eac5:042e:1:0
+NTV Style
+p:TURKSAT,f:1
+4397:01a40000:eac5:042e:1:0
+NTV Pravo
+p:TURKSAT,f:1
+4398:01a40000:eac5:042e:1:0
+NTV Serial
+p:TURKSAT,f:1
+4399:01a40000:eac5:042e:1:0
+NTV Mir
+p:TURKSAT,f:1
 0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
 p:SNRT,f:1
@@ -4136,8 +4160,35 @@ p:SkyItalia,f:1
 0ded:00820000:1644:fbff:25:0
 Sky Sport Business 3
 p:SkyItalia,f:1
-0df8:00820000:1644:fbff:25:0
-Sky Sport Business 4
+0e00:00820000:1644:fbff:1:0
+K2
+p:SkyItalia,f:1
+0e01:00820000:1644:fbff:1:0
+Frisbee
+p:SkyItalia,f:1
+0e02:00820000:1644:fbff:25:0
+Motor Trend HD
+p:SkyItalia,f:1
+0e03:00820000:1644:fbff:25:0
+Giallo HD
+p:SkyItalia,f:1
+0e04:00820000:1644:fbff:25:0
+Nove HD
+p:SkyItalia,f:1
+0e05:00820000:1644:fbff:25:0
+HGTV HD
+p:SkyItalia,f:1
+0dfb:00820000:1644:fbff:25:0
+Sky Sport Mix
+p:SkyItalia,f:1
+0dfd:00820000:1644:fbff:25:0
+Real Time HD
+p:SkyItalia,f:1
+0dfe:00820000:1644:fbff:25:0
+DMAX HD
+p:SkyItalia,f:1
+0dff:00820000:1644:fbff:25:0
+Food Network HD
 p:SkyItalia,f:1
 0e55:00820000:16a8:fbff:130:0
 Gestione Collegam. Telefonico
@@ -4318,6 +4369,12 @@ Sky Crime +1
 p:SkyItalia,f:1
 101d:00820000:189c:fbff:25:0
 Sky Crime +1
+p:SkyItalia,f:1
+0f79:00820000:189c:fbff:25:0
+Sky Adventure
+p:SkyItalia,f:1
+0f7a:00820000:189c:fbff:25:0
+Sky Adventure
 p:SkyItalia,f:1
 2bbf:00820000:19c8:fbff:1:0
 IEPG Data
@@ -4667,6 +4724,9 @@ p:GLOBECAST
 1c58:00820000:1c20:013e:1:0
 SMTv San Marino HD 2
 p:Harmonic,f:1
+07f0:00820000:1c20:013e:1:0
+AL24 News
+p:TDA,f:1
 015f:00820000:1c84:013e:1:0
 Discovery HD
 p:NetMed,f:1
@@ -6140,6 +6200,9 @@ p:
 0655:00820000:2454:013e:1:0
 SRS - TV
 p:,f:1
+0656:00820000:2454:013e:1:0
+GNC HD
+p:Encoder,f:1
 0079:00820000:04b0:0110:25:0
 Italia 1 HD
 p:Mediaset,f:1
@@ -7919,7 +7982,7 @@ p:iKOMG,f:1
 089c:00820000:01f4:00fc:1:0
 Yemen TV
 p:iKOMG,f:1
-08a6:00820000:01f4:00fc:1:0
+08a6:00820000:01f4:00fc:25:0
 Medya Haber
 p:iKOMG,f:1
 08b2:00820000:01f4:00fc:2:0
@@ -8177,6 +8240,9 @@ p:SkyItalia,f:1
 2b27:0082b082:2198:fbff:25:0
 Sky Cinema Suspense HD
 p:SkyItalia,f:1
+0dfa:0082b082:2198:fbff:25:0
+Sky Sport Legend
+p:SkyItalia,f:1
 0dec:0082ae43:15e0:fbff:25:0
 Sky Cinema Due HD
 p:Sky Italia,f:1
@@ -8184,7 +8250,7 @@ p:Sky Italia,f:1
 DAZN 1
 p:SkyItalia,f:1
 1e54:0082ae43:15e0:fbff:25:0
-Sky Sport NBA HD
+Sky Sport Basket
 p:SkyItalia,f:1
 1e5f:0082ae43:15e0:fbff:25:0
 Sky Sport 7 HD

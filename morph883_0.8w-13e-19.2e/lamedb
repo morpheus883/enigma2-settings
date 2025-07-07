@@ -184,7 +184,7 @@ transponders
 	s 10906000:22000000:1:2:192:2:0:1:2:0:2
 /
 00c00000:0449:0001
-	s 12344000:30000000:0:2:192:2:0:1:2:0:2
+	s 12344000:27500000:0:9:192:2:0:1:1:0:2
 /
 00c00000:0004:0085
 	s 12032000:27500000:0:9:192:2:0:1:1:0:2
@@ -258,9 +258,6 @@ transponders
 00c00000:0428:0001
 	s 10936000:22000000:1:4:192:2:0
 /
-00c00000:0009:0085
-	s 11171000:22000000:0:3:192:2:0:1:2:2:2
-/
 00c00000:041c:0001
 	s 10758000:22000000:1:2:192:2:0:1:2:0:2
 /
@@ -329,6 +326,9 @@ transponders
 /
 00c02d55:0000:0000
 	s 11605000:7200000:0:3:192:2:0:1:2:0:2
+/
+00c0ad45:0000:0000
+	s 11589000:7200000:1:3:192:2:0:1:2:0:2
 /
 00820000:2e18:00b0
 	s 10873000:27500000:1:3:130:2:0:1:2:0:2
@@ -1733,6 +1733,18 @@ p:SKY,f:1
 000d:00c00000:0006:0085:25:0
 Sky Crime HD
 p:SKY,f:1
+0011:00c00000:0006:0085:25:0
+Sky Sport F1 HD
+p:SKY,f:1
+0106:00c00000:0006:0085:25:0
+Sky Sport Austria 8 HD
+p:SKY,f:1
+013d:00c00000:0006:0085:25:0
+Sky Sport Bundesliga 6 HD
+p:SKY,f:1
+013e:00c00000:0006:0085:25:0
+Sky Sport 6 HD
+p:SKY,f:1
 6d66:00c00000:0437:0001:1:0
 ZDF
 p:ZDF Vision,f:1
@@ -2069,6 +2081,15 @@ p:SKY,f:1
 006b:00c00000:000c:0085:25:0
 Sky Cinema Classics HD
 p:SKY,f:1
+0105:00c00000:000c:0085:25:0
+Sky Sport Austria 7 HD
+p:SKY,f:1
+0147:00c00000:000c:0085:25:0
+Sky Sport Bundesliga 7 HD
+p:SKY,f:1
+0148:00c00000:000c:0085:25:0
+Sky Sport 7 HD
+p:SKY,f:1
 23ba:00c00000:044a:0001:192:0
 DOWNLOAD G5 SAMSUNG
 p:CSAT
@@ -2281,6 +2302,12 @@ CNBC HD
 p:SKY,f:1
 0146:00c00000:000b:0085:25:0
 Sky Sport Austria 5 HD
+p:SKY,f:1
+007a:00c00000:000b:0085:25:0
+DAZN 2 HD
+p:SKY,f:1
+0084:00c00000:000b:0085:25:0
+DAZN 1 HD
 p:SKY,f:1
 6e92:00c00000:04b1:0001:1:0
 Astra Demo
@@ -3551,6 +3578,9 @@ p:SKY,f:1
 0075:00c00000:0004:0085:25:0
 RTL Sport 2
 p:SKY,f:1
+0074:00c00000:0004:0085:25:0
+Sky Cinema Action HD
+p:SKY,f:1
 0016:00c00000:0002:0085:22:0
 Heimatkanal
 p:SKY,f:1
@@ -3583,6 +3613,9 @@ Sky Sport Mix HD
 p:SKY,f:1
 0153:00c00000:0002:0085:25:0
 Sky Sport Austria 3 HD
+p:SKY,f:1
+0085:00c00000:0002:0085:25:0
+Beate Uhse HD
 p:SKY,f:1
 2649:00c00000:0460:0001:1:0
 France 3 Basse-Normandie
@@ -4355,39 +4388,6 @@ p:,f:1
 7827:00c00000:0428:0001:1:0
 TEST TXP64
 p:Movistar+,f:1
-007a:00c00000:0009:0085:25:0
-DAZN 2 HD
-p:SKY,f:1
-0084:00c00000:0009:0085:25:0
-DAZN 1 HD
-p:SKY,f:1
-0011:00c00000:0009:0085:25:0
-Sky Sport F1 HD
-p:SKY,f:1
-0074:00c00000:0009:0085:25:0
-Sky Cinema Action HD
-p:SKY,f:1
-0085:00c00000:0009:0085:25:0
-Beate Uhse HD
-p:SKY,f:1
-013d:00c00000:0009:0085:25:0
-Sky Sport Bundesliga 6 HD
-p:SKY,f:1
-013e:00c00000:0009:0085:25:0
-Sky Sport 6 HD
-p:SKY,f:1
-0147:00c00000:0009:0085:25:0
-Sky Sport Bundesliga 7 HD
-p:SKY,f:1
-0148:00c00000:0009:0085:25:0
-Sky Sport 7 HD
-p:SKY,f:1
-0106:00c00000:0009:0085:25:0
-Sky Sport Austria 8 HD
-p:SKY,f:1
-0105:00c00000:0009:0085:25:0
-Sky Sport Austria 7 HD
-p:SKY,f:1
 749c:00c00000:041c:0001:1:0
 TEST BAB.
 p:DIGITAL+,f:1
@@ -4562,47 +4562,47 @@ p:ZDF,f:1
 0001:00c0ad80:0001:ffff:1:0
 RBB D-557 ENC1
 p:Service Provider,f:1
-2c42:00c00000:040c:0001:1:0
-ASTRA TV 5
-p:SES,f:1
-2c56:00c00000:040c:0001:1:0
-ASTRA TV 6
-p:SES,f:1
-2c60:00c00000:040c:0001:1:0
-ASTRA TV 7
-p:SES,f:1
-2c6a:00c00000:040c:0001:1:0
-ASTRA TV 8
-p:SES,f:1
-2c74:00c00000:040c:0001:1:0
-ASTRA TV 9
-p:SES,f:1
-2c7e:00c00000:040c:0001:1:0
-ASTRA TV 10
-p:SES,f:1
-2c88:00c00000:040c:0001:1:0
-ASTRA TV 11
-p:SES,f:1
-2c92:00c00000:040c:0001:1:0
-ASTRA TV 12
-p:SES,f:1
-2c9c:00c00000:040c:0001:1:0
-ASTRA TV 13
-p:SES,f:1
-2ca6:00c00000:040c:0001:1:0
-ASTRA TV 14
-p:SES,f:1
-2bd4:00c00000:040c:0001:1:0
+2bc0:00c00000:040c:0001:1:0
 ASTRA TV 1
 p:SES,f:1
-2bde:00c00000:040c:0001:1:0
+2bc1:00c00000:040c:0001:1:0
 ASTRA TV 2
 p:SES,f:1
-2be8:00c00000:040c:0001:1:0
+2bc2:00c00000:040c:0001:1:0
 ASTRA TV 3
 p:SES,f:1
-2bf2:00c00000:040c:0001:1:0
+2bc3:00c00000:040c:0001:1:0
 ASTRA TV 4
+p:SES,f:1
+2bc4:00c00000:040c:0001:1:0
+ASTRA TV 5
+p:SES,f:1
+2bc5:00c00000:040c:0001:1:0
+ASTRA TV 6
+p:SES,f:1
+2bc6:00c00000:040c:0001:1:0
+ASTRA TV 7
+p:SES,f:1
+2bc7:00c00000:040c:0001:1:0
+ASTRA TV 8
+p:SES,f:1
+2bc8:00c00000:040c:0001:1:0
+ASTRA TV 9
+p:SES,f:1
+2bc9:00c00000:040c:0001:1:0
+ASTRA TV 10
+p:SES,f:1
+2bca:00c00000:040c:0001:1:0
+ASTRA TV 11
+p:SES,f:1
+2bcb:00c00000:040c:0001:1:0
+ASTRA TV 12
+p:SES,f:1
+2bcc:00c00000:040c:0001:1:0
+ASTRA TV 13
+p:SES,f:1
+2bcd:00c00000:040c:0001:1:0
+ASTRA TV 14
 p:SES,f:1
 0001:00c00000:0006:0001:1:0
 Liverpool vs Crystal Palace
@@ -4625,6 +4625,9 @@ p:Service Provider,f:1
 0001:00c02d55:0000:0000:25:0
 US Senior Open Day 2 - Europe
 p:SES USA ENC 24,f:1
+0001:00c0ad45:0000:0000:25:0
+
+p:,f:1
 0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
 p:SNRT,f:1
@@ -5552,8 +5555,35 @@ p:SkyItalia,f:1
 0ded:00820000:1644:fbff:25:0
 Sky Sport Business 3
 p:SkyItalia,f:1
-0df8:00820000:1644:fbff:25:0
-Sky Sport Business 4
+0e00:00820000:1644:fbff:1:0
+K2
+p:SkyItalia,f:1
+0e01:00820000:1644:fbff:1:0
+Frisbee
+p:SkyItalia,f:1
+0e02:00820000:1644:fbff:25:0
+Motor Trend HD
+p:SkyItalia,f:1
+0e03:00820000:1644:fbff:25:0
+Giallo HD
+p:SkyItalia,f:1
+0e04:00820000:1644:fbff:25:0
+Nove HD
+p:SkyItalia,f:1
+0e05:00820000:1644:fbff:25:0
+HGTV HD
+p:SkyItalia,f:1
+0dfb:00820000:1644:fbff:25:0
+Sky Sport Mix
+p:SkyItalia,f:1
+0dfd:00820000:1644:fbff:25:0
+Real Time HD
+p:SkyItalia,f:1
+0dfe:00820000:1644:fbff:25:0
+DMAX HD
+p:SkyItalia,f:1
+0dff:00820000:1644:fbff:25:0
+Food Network HD
 p:SkyItalia,f:1
 0e55:00820000:16a8:fbff:130:0
 Gestione Collegam. Telefonico
@@ -5734,6 +5764,12 @@ Sky Crime +1
 p:SkyItalia,f:1
 101d:00820000:189c:fbff:25:0
 Sky Crime +1
+p:SkyItalia,f:1
+0f79:00820000:189c:fbff:25:0
+Sky Adventure
+p:SkyItalia,f:1
+0f7a:00820000:189c:fbff:25:0
+Sky Adventure
 p:SkyItalia,f:1
 2bbf:00820000:19c8:fbff:1:0
 IEPG Data
@@ -6083,6 +6119,9 @@ p:GLOBECAST
 1c58:00820000:1c20:013e:1:0
 SMTv San Marino HD 2
 p:Harmonic,f:1
+07f0:00820000:1c20:013e:1:0
+AL24 News
+p:TDA,f:1
 015f:00820000:1c84:013e:1:0
 Discovery HD
 p:NetMed,f:1
@@ -7556,6 +7595,9 @@ p:
 0655:00820000:2454:013e:1:0
 SRS - TV
 p:,f:1
+0656:00820000:2454:013e:1:0
+GNC HD
+p:Encoder,f:1
 0079:00820000:04b0:0110:25:0
 Italia 1 HD
 p:Mediaset,f:1
@@ -9335,7 +9377,7 @@ p:iKOMG,f:1
 089c:00820000:01f4:00fc:1:0
 Yemen TV
 p:iKOMG,f:1
-08a6:00820000:01f4:00fc:1:0
+08a6:00820000:01f4:00fc:25:0
 Medya Haber
 p:iKOMG,f:1
 08b2:00820000:01f4:00fc:2:0
@@ -9593,6 +9635,9 @@ p:SkyItalia,f:1
 2b27:0082b082:2198:fbff:25:0
 Sky Cinema Suspense HD
 p:SkyItalia,f:1
+0dfa:0082b082:2198:fbff:25:0
+Sky Sport Legend
+p:SkyItalia,f:1
 0dec:0082ae43:15e0:fbff:25:0
 Sky Cinema Due HD
 p:Sky Italia,f:1
@@ -9600,7 +9645,7 @@ p:Sky Italia,f:1
 DAZN 1
 p:SkyItalia,f:1
 1e54:0082ae43:15e0:fbff:25:0
-Sky Sport NBA HD
+Sky Sport Basket
 p:SkyItalia,f:1
 1e5f:0082ae43:15e0:fbff:25:0
 Sky Sport 7 HD
@@ -12389,6 +12434,12 @@ p:EPQ,f:1
 32d0:fff8306f:004b:0046:22:0
 Test 13008
 p:Telenor,f:1
+36af:fff8306f:004b:0046:1:0
+TEST 13999
+p:,f:1
+36ae:fff8306f:004b:0046:25:0
+TEST 13998
+p:,f:1
 2332:0e080000:0055:0046:25:0
 TS Sports 11
 p:Telenor,f:1
