@@ -516,9 +516,6 @@ fff830bc:0050:0046
 0e08b0f6:0001:ffff
 	s 12534000:4800000:1:3:-8:2:0:1:2:0:2
 /
-0e080000:0065:0065
-	s 12543000:6660000:1:3:-8:2:0:1:2:0:2
-/
 0e08ad9a:0001:ffff
 	s 11674000:7200000:1:3:-8:2:0:1:2:0:2
 /
@@ -533,6 +530,9 @@ fff8aadd:0001:0001
 /
 fff8ad88:0001:0001
 	s 11656000:7200000:1:3:-8:2:0:1:2:0:2
+/
+0e08b0ff:0001:ffff
+	s 12543000:6660000:1:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -4631,20 +4631,8 @@ p:VIVACOM,f:1
 0136:00820000:25e4:00d5:1:46
 DM Sat
 p:VIVACOM,f:1
-012d:00820000:2648:00d5:1:0
-History
-p:VIVACOM,f:1
-012f:00820000:2648:00d5:1:0
-Nicktoons
-p:VIVACOM,f:1
-014b:00820000:2648:00d5:1:0
-Ben Movies Turk
-p:VIVACOM,f:1
-013a:00820000:2648:00d5:25:0
-History HD
-p:VIVACOM,f:1
-00de:00820000:2648:00d5:25:0
-FightKlub HD
+00de:00820000:2648:00d5:22:0
+FightKlub
 p:VIVACOM,c:050001,f:1
 0130:00820000:2648:00d5:25:1
 Diema Sport HD
@@ -8738,9 +8726,6 @@ p:Telenor,f:1
 00bf:0e08b0f6:0001:ffff:1:0
 B 191 DGI
 p:DIGI TV,f:1
-00bf:0e080000:0065:0065:1:0
-B 191 DGI
-p:DIGI TV,C:0000,f:1
 0001:0e08ad9a:0001:ffff:25:0
 UKI1960 AVP P1
 p:Service Provider,f:1
@@ -8756,6 +8741,9 @@ p:TimelineTV,f:1
 0001:fff8ad88:0001:0001:25:0
 CITRONSHOW
 p:SLQ-004,f:1
+0001:0e08b0ff:0001:ffff:1:0
+backup
+p:RCS-RDS,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2025

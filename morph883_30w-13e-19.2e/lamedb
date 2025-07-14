@@ -741,9 +741,6 @@ fed42abb:0002:0000
 0ce42d1f:0001:ffff
 	s 11551000:7200000:0:3:-300:2:0:1:2:0:2
 /
-0ce4ad67:00a0:0000
-	s 11623000:7200000:1:3:-300:2:0:1:2:0:2
-/
 0ce4ada3:0000:0000
 	s 11683000:7200000:1:3:-300:2:0:1:2:0:2
 /
@@ -774,7 +771,10 @@ fed42d6d:0000:0000
 fed42ef7:0001:0001
 	s 12023000:9600000:0:3:-300:2:0:1:2:0:2
 /
-0ce4b131:0000:0000
+0ce4ad67:0001:0001
+	s 11623000:7200000:1:3:-300:2:0:1:2:0:2
+/
+0ce4b131:0001:ffff
 	s 12593000:3750000:1:3:-300:2:0:1:2:0:2
 /
 end
@@ -2510,9 +2510,6 @@ p:SES ASTRA,f:1
 1c20:00c00000:0457:0001:1:0
 Bloomberg Europe TV
 p:Bloomberg TV,f:1
-0378:00c00000:0457:0001:1:0
-DVB-I Service Lists
-p:,f:1
 6f76:00c00000:0457:0001:1:0
 Astra Demo
 p:,f:1
@@ -2525,6 +2522,12 @@ p:,f:1
 6f79:00c00000:0457:0001:1:0
 Astra Demo
 p:,f:1
+0378:00c00000:0457:0001:12:0
+DVB-I
+p:
+0379:00c00000:0457:0001:12:0
+DVB-I Images
+p:
 3139:00c00000:0459:0001:1:0
 alt_K-TV
 p:MB Satellite,f:1
@@ -3437,9 +3440,33 @@ p:Movistar+,f:1
 7538:00c00000:0426:0001:100:0
 
 p:
-07da:00c00000:0449:0001:31:0
-SES Astra 1
-p:SES ASTRA,f:1
+0802:00c00000:0449:0001:25:0
+HGTV HD Deutschland
+p:,f:1
+07d0:00c00000:0449:0001:25:0
+Eurosport 1 HD Deutschland
+p:,f:1
+07d2:00c00000:0449:0001:25:0
+Eurosport 1 HD Austria
+p:,f:1
+07e4:00c00000:0449:0001:25:0
+DMAX HD Deutschland
+p:,f:1
+07e6:00c00000:0449:0001:25:0
+DMAX HD Austria
+p:,f:1
+07ee:00c00000:0449:0001:25:0
+TELE 5 HD Deutschland
+p:,f:1
+07f0:00c00000:0449:0001:25:0
+TELE 5 HD Austria
+p:,f:1
+07f8:00c00000:0449:0001:25:0
+TLC HD Deutschland
+p:,f:1
+07fa:00c00000:0449:0001:25:0
+TLC HD Austria
+p:,f:1
 0017:00c00000:0004:0085:25:0
 Sky Krimi HD
 p:SKY,f:1
@@ -4091,7 +4118,7 @@ p:ARD,f:1
 1644:00c00000:042c:0001:25:0
 DW English HD
 p:,f:1
-1647:00c00000:042c:0001:25:0
+1647:00c00000:042c:0001:1:0
 Cubavision Internacional
 p:Overon,f:1
 164e:00c00000:042c:0001:1:0
@@ -8636,20 +8663,8 @@ p:VIVACOM,f:1
 0136:00820000:25e4:00d5:1:46
 DM Sat
 p:VIVACOM,f:1
-012d:00820000:2648:00d5:1:0
-History
-p:VIVACOM,f:1
-012f:00820000:2648:00d5:1:0
-Nicktoons
-p:VIVACOM,f:1
-014b:00820000:2648:00d5:1:0
-Ben Movies Turk
-p:VIVACOM,f:1
-013a:00820000:2648:00d5:25:0
-History HD
-p:VIVACOM,f:1
-00de:00820000:2648:00d5:25:0
-FightKlub HD
+00de:00820000:2648:00d5:22:0
+FightKlub
 p:VIVACOM,c:050001,f:1
 0130:00820000:2648:00d5:25:1
 Diema Sport HD
@@ -11555,9 +11570,6 @@ p:
 0001:0ce42d1f:0001:ffff:1:0
 E-411_via 2
 p:Service Provider,f:1
-0001:0ce4ad67:00a0:0000:25:0
-CM2 VIA1
-p:SAPEC,f:1
 0001:0ce4ada3:0000:0000:25:0
 
 p:,f:1
@@ -11591,9 +11603,12 @@ p:Service Provider,f:1
 0001:fed42ef7:0001:0001:25:0
 SV_PGM_01
 p:Videe Spa,f:1
-0001:0ce4b131:0000:0000:25:0
-E 268 Via 1
-p:,f:1
+0001:0ce4ad67:0001:0001:1:0
+E-401 V1
+p:Net 1,f:1
+0001:0ce4b131:0001:ffff:1:0
+E-435 VIA 1
+p:OVERON,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2025
