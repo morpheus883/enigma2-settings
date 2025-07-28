@@ -420,9 +420,6 @@ fed4b120:0001:ffff
 0ce42d51:0001:ffff
 	s 11601000:7200000:0:3:-300:2:0:1:2:0:2
 /
-fed4b12e:0001:0001
-	s 12590000:5000000:1:3:-300:2:0:1:2:0:2
-/
 fed42d6d:0000:0000
 	s 11629000:7200000:0:3:-300:2:0:1:2:0:2
 /
@@ -446,6 +443,12 @@ fed42ef7:0001:0001
 /
 0ce4b131:0001:ffff
 	s 12593000:3750000:1:3:-300:2:0:1:2:0:2
+/
+0ce4acfb:0065:0000
+	s 11515000:4000000:1:2:-300:2:0
+/
+0ce4b12e:0001:ffff
+	s 12590000:5000000:1:3:-300:2:0:1:2:0:2
 /
 end
 services
@@ -921,7 +924,7 @@ p:ECLUTCH,f:1
 Gametoon
 p:ECLUTCH,f:1
 0068:00820000:00c8:013e:1:0
-Esports Legend
+eClutch Access
 p:ECLUTCH,f:1
 006a:00820000:00c8:013e:1:0
 eClutch Live
@@ -1001,17 +1004,11 @@ p:CANAL+,f:1
 32e1:00820000:0190:013e:1:0
 Canal+ Extra 1
 p:CANAL+,f:1
-32e2:00820000:0190:013e:1:1
-Canal+ Extra 2
-p:CANAL+,f:1
 32e3:00820000:0190:013e:1:2
 Canal+ Extra 3
 p:CANAL+,f:1
 3313:00820000:0190:013e:1:3
 Canal+ Extra 1
-p:CANAL+,f:1
-3314:00820000:0190:013e:1:4
-Canal+ Extra 2
 p:CANAL+,f:1
 3315:00820000:0190:013e:1:5
 Canal+ Extra 3
@@ -1123,12 +1120,6 @@ Novelas+
 p:CANAL+,f:1
 3ad7:00820000:0514:013e:1:0
 teleTOON+ HD
-p:CANAL+,f:1
-3aa3:00820000:0514:013e:1:0
-Canal+ Extra 4
-p:CANAL+,f:1
-3ad5:00820000:0514:013e:1:0
-Canal+ Extra 4
 p:CANAL+,f:1
 3abf:00820000:0514:013e:1:0
 KANAL TESTOWY
@@ -1547,20 +1538,11 @@ p:SkyItalia,f:1
 1e63:00820000:189c:fbff:25:0
 Sky Cinema Due +24 HD
 p:SkyItalia,f:1
-0f58:00820000:189c:fbff:25:0
-Sky Documentaries +1 HD
-p:SkyItalia,f:1
 0f5d:00820000:189c:fbff:25:0
 Sky Investigation +1 HD
 p:SkyItalia,f:1
-0f5e:00820000:189c:fbff:25:0
-Sky Documentaries +1 HD
-p:SkyItalia,f:1
 0fbf:00820000:189c:fbff:1:0
 DeAKids +1
-p:SkyItalia,f:1
-2c3a:00820000:189c:fbff:1:0
-Discovery Channel Italy +1
 p:SkyItalia,f:1
 2c4f:00820000:189c:fbff:1:0
 Boomerang +1
@@ -1931,18 +1913,9 @@ p:GLOBECAST,f:1
 0e31:00820000:1c20:013e:2:0
 Giornale Radio
 p:M-Three Satcom
-29cd:00820000:1c20:013e:1:0
-TV Congo
-p:GLOBECAST,f:1
-2905:00820000:1c20:013e:2:0
-Radio Congo
-p:GLOBECAST
 1c58:00820000:1c20:013e:1:0
 SMTv San Marino HD 2
 p:Harmonic,f:1
-07f0:00820000:1c20:013e:1:0
-AL24 News
-p:TDA,f:1
 015f:00820000:1c84:013e:1:0
 Discovery HD
 p:NetMed,f:1
@@ -2318,9 +2291,6 @@ p:Cyfrowy Polsat SA,f:1
 39d1:00820000:1fa4:013e:25:0
 BBC Persian HD
 p:BBC World Service,f:1
-39d2:00820000:1fa4:013e:1:0
-Revival TV
-p:UNITED TELEPORTS,f:1
 39d9:00820000:1fa4:013e:1:0
 Sonlife
 p:ARQIVA LTD,f:1
@@ -5213,9 +5183,6 @@ p:
 0604:00820000:01f4:00fc:2:0
 R Radio
 p:iKOMG
-060e:00820000:01f4:00fc:2:0
-Yemen Radio
-p:iKOMG
 0899:00820000:01f4:00fc:25:0
 Freedom TV
 p:iKOMG,f:1
@@ -5224,9 +5191,6 @@ CBC Azerbaycan TV
 p:iKOMG,f:1
 089b:00820000:01f4:00fc:1:0
 Iran e Aryaee
-p:iKOMG,f:1
-089c:00820000:01f4:00fc:1:0
-Yemen TV
 p:iKOMG,f:1
 08a6:00820000:01f4:00fc:25:0
 Medya Haber
@@ -5252,11 +5216,8 @@ p:iKOMG,f:1
 08a0:00820000:01f4:00fc:1:0
 TeleRadioPace TV
 p:iKOMG,f:1
-089e:00820000:01f4:00fc:22:0
-Firstlight
-p:iKOMG,f:1
 089f:00820000:01f4:00fc:22:0
-KICC TV
+God TV
 p:iKOMG,f:1
 08a1:00820000:01f4:00fc:1:0
 KTV
@@ -5275,9 +5236,6 @@ Med Music
 p:STN,f:1
 232d:00820000:2328:013e:1:0
 Orler TV
-p:STN,f:1
-232e:00820000:2328:013e:1:0
-Revelation TV
 p:STN,f:1
 232f:00820000:2328:013e:1:0
 Kentron TV
@@ -5324,9 +5282,6 @@ p:IKOMG,f:1
 2343:00820000:2328:013e:1:0
 redpath
 p:STN,f:1
-1015:00820000:2260:fbff:25:0
-Discovery HD
-p:SkyItalia,f:1
 1020:00820000:2260:fbff:25:0
 Sky Crime
 p:SkyItalia,f:1
@@ -5566,12 +5521,6 @@ Sky Cinema Comedy HD
 p:SkyItalia,f:1
 0dcf:0082af29:1a90:fbff:25:0
 DAZN 2
-p:SkyItalia,f:1
-0f4f:0082af29:1a90:fbff:25:0
-Eurosport HD
-p:SkyItalia,f:1
-1036:0082af29:1a90:fbff:25:0
-Eurosport 2 HD Italy
 p:SkyItalia,f:1
 1089:0082af29:1a90:fbff:25:0
 Sky Sport 3 HD
@@ -6233,9 +6182,6 @@ p:
 13af:0ce40000:0027:0036:1:0
 
 p:,f:1
-0f41:0ce40000:0027:0036:1:0
-DAZN Empresas  Mundial de clubes
-p:DAZN Empresas  Mundial de clubes,f:1
 0f42:0ce40000:0027:0036:1:0
 Canal NOS
 p:Canal NOS,f:1
@@ -7709,9 +7655,6 @@ p:OVERON,f:1
 0001:0ce42d51:0001:ffff:1:0
 E336 G18 VIA 1
 p:Service Provider,f:1
-0008:fed4b12e:0001:0001:25:0
-APPEAR 8 MONCLOA
-p:Overon,f:1
 0001:fed42d6d:0000:0000:25:0
 BAL INT E-065 FEED 2
 p:,f:1
@@ -7736,6 +7679,60 @@ p:Net 1,f:1
 0001:0ce4b131:0001:ffff:1:0
 E-435 VIA 1
 p:OVERON,f:1
+0001:0ce4acfb:0065:0000:2:0
+Onda Cero
+p:Onda Cero
+0002:0ce4acfb:0065:0000:2:0
+Europa FM
+p:Europa FM
+0003:0ce4acfb:0065:0000:2:0
+Melodia FM
+p:Melodia FM
+0004:0ce4acfb:0065:0000:2:0
+esRadio
+p:esRadio
+0008:0ce4acfb:0065:0000:2:0
+RADIO MARIA
+p:RADIO MARIA
+000a:0ce4acfb:0065:0000:2:0
+Cadena 100
+p:Cadena 100
+000b:0ce4acfb:0065:0000:2:0
+ROCK FM
+p:ROCK FM
+0019:0ce4acfb:0065:0000:2:0
+Kiss FM
+p:Kiss FM
+001a:0ce4acfb:0065:0000:2:0
+HIT FM
+p:HIT FM
+001e:0ce4acfb:0065:0000:2:0
+COPE SAT 2
+p:COPE SAT 2
+0025:0ce4acfb:0065:0000:2:0
+COPE
+p:COPE
+0026:0ce4acfb:0065:0000:2:0
+INTERECONOMIA
+p:INTERECONOMIA
+0027:0ce4acfb:0065:0000:2:0
+MegaStar
+p:MegaStar
+003a:0ce4acfb:0065:0000:2:0
+FM ZARAGOZA
+p:FM ZARAGOZA
+003b:0ce4acfb:0065:0000:2:0
+FM HUESCA
+p:FM HUESCA
+003c:0ce4acfb:0065:0000:2:0
+FM TERUEL
+p:FM TERUEL
+0074:0ce4acfb:0065:0000:2:0
+EXTREMADURA FM
+p:EXTREMADURA FM
+0011:0ce4b12e:0001:ffff:1:0
+CANAL MONCLOA
+p:Service Provider,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2025
