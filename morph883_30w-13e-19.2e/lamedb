@@ -330,6 +330,12 @@ transponders
 00c0ad45:0000:0000
 	s 11589000:7200000:1:3:192:2:0:1:2:0:2
 /
+00c00000:03f6:0001
+	s 11406000:23500000:1:3:192:2:0:1:2:2:2
+/
+00c00000:0000:0001
+	s 11817000:31428000:1:8:192:2:0:1:2:0:2
+/
 00820000:2e18:00b0
 	s 10873000:27500000:1:3:130:2:0:1:2:0:2
 /
@@ -518,9 +524,6 @@ transponders
 /
 00820000:1d4c:013e
 	s 12207000:29900000:0:4:130:2:0:1:1:0:2
-/
-00820000:0321:013e
-	s 11355000:27500000:1:3:130:2:0:1:2:0:2
 /
 00820000:2fa8:013e
 	s 10949000:27500000:1:2:130:2:0:1:2:0:2
@@ -4114,7 +4117,7 @@ WDR Mediathek (Internet)
 p:ARD,f:1
 1644:00c00000:042c:0001:25:0
 DW English HD
-p:,f:1
+p:Deutsche Welle,f:1
 1647:00c00000:042c:0001:1:0
 Cubavision Internacional
 p:Overon,f:1
@@ -4565,6 +4568,42 @@ p:SES USA ENC 24,f:1
 0001:00c0ad45:0000:0000:25:0
 
 p:,f:1
+2c24:00c00000:03f6:0001:1:0
+ASTRA TV 15
+p:,f:1
+2c25:00c00000:03f6:0001:1:0
+ASTRA TV 16
+p:,f:1
+2c26:00c00000:03f6:0001:1:0
+ASTRA TV 17
+p:,f:1
+2c27:00c00000:03f6:0001:1:0
+ASTRA TV 18
+p:,f:1
+2c28:00c00000:03f6:0001:1:0
+ASTRA TV 19
+p:,f:1
+2c29:00c00000:03f6:0001:1:0
+ASTRA TV 20
+p:,f:1
+2c2a:00c00000:03f6:0001:1:0
+ASTRA TV 21
+p:,f:1
+0001:00c00000:0000:0001:25:0
+Astra 1 Service 1
+p:MX1,f:1
+0002:00c00000:0000:0001:25:0
+Astra 1 Service 2
+p:MX1,f:1
+0003:00c00000:0000:0001:25:0
+Astra 1 Service 3
+p:MX1,f:1
+0004:00c00000:0000:0001:25:0
+Astra 1 Service 4
+p:MX1,f:1
+0005:00c00000:0000:0001:25:0
+Astra 1 Service 5
+p:MX1,f:1
 0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
 p:SNRT,f:1
@@ -5133,8 +5172,8 @@ p:
 
 p:
 3316:00820000:0190:013e:1:0
-CANAL+ EXTRA 4
-p:,f:1
+Canal+ Extra 4
+p:CANAL+,f:1
 32e4:00820000:0190:013e:1:0
 Canal+ Extra 4
 p:,f:1
@@ -5342,6 +5381,9 @@ p:Telespazio
 425e:00820000:3db8:013e:1:0
 Med TV
 p:Telespazio,f:1
+424b:00820000:3db8:013e:1:0
+Marcopolo Travel TV
+p:M-Three Satcom,f:1
 2526:00820000:13ef:013e:25:0
 Sharqiya HD
 p:DU,f:1
@@ -7184,9 +7226,6 @@ p:GLOBECAST,f:1
 0532:00820000:3d54:013e:2:0
 RVS-Accendi la Speranza
 p:M-Three Satcom Srl
-0534:00820000:3d54:013e:22:0
-Marcopolo Travel TV
-p:M-Three Satcom,f:1
 0539:00820000:3d54:013e:25:0
 WeDoTV Movies
 p:Amtecco,f:1
@@ -7508,9 +7547,6 @@ p:PEOPLETV-RETE7,f:1
 0207:00820000:0384:013e:2:0
 RVS-Accendi la Speranza
 p:M-Three Satcom Srl
-0208:00820000:0384:013e:22:0
-Marcopolo Travel TV
-p:M-Three Satcom,f:1
 0202:00820000:0384:013e:25:0
 RTL 102.5 HD
 p:M-Three Satcom,f:1
@@ -8102,36 +8138,6 @@ p:EUTELSAT,f:1
 000a:00820000:1d4c:013e:12:0
 PoC
 p:EUTELSAT
-05de:00820000:0321:013e:1:0
-Outdoor Channel
-p:MuxIP,f:1
-05df:00820000:0321:013e:1:0
-Cricket Gold
-p:MuxIP,f:1
-05dd:00820000:0321:013e:1:0
-World Poker Tour
-p:MuxIP,f:1
-05e0:00820000:0321:013e:1:0
-Triton Poker Series
-p:MuxIP,f:1
-05e1:00820000:0321:013e:1:0
-One America News
-p:MuxIP,f:1
-05e2:00820000:0321:013e:1:0
-AFV Americas Funniest
-p:MuxIP,f:1
-05e3:00820000:0321:013e:1:0
-Sports First
-p:MuxIP,f:1
-05e4:00820000:0321:013e:1:0
-Bare Knuckles Fighting Championship
-p:MuxIP,f:1
-05e5:00820000:0321:013e:1:0
-MVMT Movement of Culture
-p:MuxIP,f:1
-05e6:00820000:0321:013e:1:0
-AWE
-p:MuxIP,f:1
 0065:00820000:2fa8:013e:22:0
 Svoboda
 p:Svoboda Satellite,f:1
@@ -9243,7 +9249,7 @@ p:
 Canal+ Extra 2
 p:CANAL+,f:1
 37b5:00822c93:044c:013e:1:0
-CANAL+ EXTRA 2
+Canal+ Extra 2
 p:CANAL+,f:1
 0066:0082b128:0001:ffff:1:0
 Service_02
@@ -9927,7 +9933,7 @@ p:,f:1
 CNN
 p:,f:1
 0476:0ce40000:0065:0053:1:0
-Star Comedy
+STAR Comedy
 p:,f:1
 0477:0ce40000:0065:0053:1:0
 STAR Movies
@@ -10110,13 +10116,13 @@ p:AMC Break,f:1
 Baby TV
 p:Baby TV,f:1
 1265:0ce40000:002f:0036:1:0
-Biggs
+Panda Biggs
 p:Biggs,f:1
 1266:0ce40000:002f:0036:1:0
 Canção Nova
 p:Canção Nova,f:1
 1267:0ce40000:002f:0036:1:0
-Disney Junior
+Disney Junior Portugal
 p:Disney Junior,f:1
 1268:0ce40000:002f:0036:1:0
 Canal de Teste
@@ -10134,13 +10140,13 @@ p:,f:1
 Baby TV
 p:,f:1
 09e0:0ce40000:002f:0036:1:0
-Biggs
+Panda Biggs
 p:,f:1
 09e1:0ce40000:002f:0036:1:0
 Canção Nova
 p:,f:1
 09e2:0ce40000:002f:0036:1:0
-Disney Júnior
+Disney Junior Portugal
 p:,f:1
 1269:0ce40000:002f:0036:2:0
 Rádio Amalia
@@ -10302,7 +10308,7 @@ p:Canal NOS,f:1
 ZAP Viva HD
 p:ZAP Viva HD,f:1
 0f44:0ce40000:0027:0036:1:0
-SYFY
+SyFy
 p:SYFY,f:1
 0f45:0ce40000:0027:0036:1:0
 TLC
@@ -11424,13 +11430,13 @@ p:Sport TV 7,f:1
 Sport TV 7
 p:Sport TV 7,f:1
 09d4:0ce40000:0026:0036:1:0
-France 24
+France 24 (in English)
 p:,f:1
 09d5:0ce40000:0026:0036:1:0
-HOT
+Hot
 p:,f:1
 09d6:0ce40000:0026:0036:1:0
-MCM TOP
+MCM Top
 p:,f:1
 09d7:0ce40000:0026:0036:1:0
 Mezzo
@@ -11442,13 +11448,13 @@ p:,f:1
 Panda Kids
 p:,f:1
 09da:0ce40000:0026:0036:1:0
-TVE 24H
+TVE 24H (Canal 24 Horas)
 p:,f:1
 09db:0ce40000:0026:0036:1:0
-TVEi
+TVE International
 p:,f:1
 0ee0:0ce40000:0026:0036:1:0
-France 24 (I)
+France 24 (in English)
 p:France 24 (I),f:1
 0ee1:0ce40000:0026:0036:1:0
 Hot
@@ -11463,7 +11469,7 @@ p:OneToro TV,f:1
 Panda Kids
 p:Panda Kids,f:1
 0ee6:0ce40000:0026:0036:1:0
-TVE 24h
+TVE 24h (Canal 24 Horas)
 p:TVE 24h,f:1
 0ee7:0ce40000:0026:0036:1:0
 TVE Internacional
