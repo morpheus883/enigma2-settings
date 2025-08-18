@@ -315,9 +315,6 @@ transponders
 00c00000:040c:0001
 	s 11009000:23500000:1:3:192:2:0:1:2:0:2
 /
-00c00000:0006:0001
-	s 11817000:31428000:1:8:192:2:0:1:2:0:2
-/
 00c0ad88:0001:ffff
 	s 11656000:7200000:1:3:192:2:0:1:2:0:2
 /
@@ -365,9 +362,6 @@ transponders
 /
 00820000:0514:013e
 	s 11449000:27500000:0:4:130:2:0:1:2:0:2
-/
-00820000:3bc4:013e
-	s 11566000:29900000:0:3:130:2:0:1:2:0:2
 /
 00820000:3db8:013e
 	s 11662000:27500000:1:3:130:2:0:1:2:0:0
@@ -609,6 +603,12 @@ transponders
 00822d06:07d3:0002
 	s 11526000:33000000:0:2:130:2:0:1:2:0:2
 /
+00822d2e:3bc4:0001
+	s 11566000:29900000:0:3:130:2:0:1:2:2:2
+/
+00820000:2c24:013e
+	s 10775000:29900000:0:2:130:2:0:1:2:0:2
+/
 0ce40000:0065:0053
 	s 12130000:27500000:0:3:-300:2:0:1:2:0:2
 /
@@ -747,9 +747,6 @@ fed42abb:0002:0000
 0ce4ada3:0000:0000
 	s 11683000:7200000:1:3:-300:2:0:1:2:0:2
 /
-fed4b120:0001:ffff
-	s 12576000:3751000:1:3:-300:2:0:1:2:0:2
-/
 0ce42d51:0001:ffff
 	s 11601000:7200000:0:3:-300:2:0:1:2:0:2
 /
@@ -782,6 +779,9 @@ fed42ef7:0001:0001
 /
 0ce4b12e:0001:ffff
 	s 12590000:5000000:1:3:-300:2:0:1:2:0:2
+/
+0ce4b120:0000:0001
+	s 12576000:3751000:1:3:-300:2:0:1:2:0:2
 /
 end
 services
@@ -1555,6 +1555,12 @@ Kabel Eins Doku HD
 p:ProSiebenSat.1,f:1
 ef8d:00c00000:03f9:0001:25:0
 Kabel Eins Doku Austria HD
+p:ProSiebenSat.1,f:1
+ef7a:00c00000:03f9:0001:25:0
+SAT.1 Gold HD
+p:ProSiebenSat.1,f:1
+ef8e:00c00000:03f9:0001:25:0
+SAT.1 Gold HD Austria
 p:ProSiebenSat.1,f:1
 1b58:00c00000:03fc:0001:12:0
 DATASYSTEM
@@ -3521,6 +3527,9 @@ p:SKY,f:1
 0074:00c00000:0004:0085:25:0
 Sky Cinema Action HD
 p:SKY,f:1
+0077:00c00000:0004:0085:25:0
+NatGeo Wild
+p:,f:1
 0016:00c00000:0002:0085:22:0
 Heimatkanal
 p:SKY,f:1
@@ -4118,7 +4127,7 @@ p:ARD,f:1
 1644:00c00000:042c:0001:25:0
 DW English HD
 p:Deutsche Welle,f:1
-1647:00c00000:042c:0001:1:0
+1647:00c00000:042c:0001:25:0
 Cubavision Internacional
 p:Overon,f:1
 164e:00c00000:042c:0001:1:0
@@ -4544,18 +4553,12 @@ p:SES,f:1
 2bcd:00c00000:040c:0001:1:0
 ASTRA TV 14
 p:SES,f:1
-0001:00c00000:0006:0001:1:0
-Liverpool vs Crystal Palace
-p:SES,f:1
-0002:00c00000:0006:0001:1:0
-Liverpool vs Crystal Palace Player Cam
-p:SES,f:1
-0003:00c00000:0006:0001:1:0
-Nottingham Forest vs Chelsea
-p:SES,f:1
-0004:00c00000:0006:0001:1:0
-Nottingham Forest vs Chelsea Player Cam
-p:SES,f:1
+2c1a:00c00000:040c:0001:12:0
+DVB-I
+p:
+2c1b:00c00000:040c:0001:12:0
+DVB-I Images
+p:
 0001:00c0ad88:0001:ffff:1:0
 SR D-551 Enc I
 p:Service Provider,f:1
@@ -5276,27 +5279,6 @@ p:CANAL+,f:1
 3abf:00820000:0514:013e:1:0
 KANAL TESTOWY
 p:CANAL+,f:1
-0321:00820000:3bc4:013e:1:0
-Euronews English HD
-p:GLOBECAST,f:1
-0323:00820000:3bc4:013e:1:0
-TRT World HD
-p:GLOBECAST,f:1
-0326:00820000:3bc4:013e:1:0
-Bahrain TV
-p:GLOBECAST,f:1
-0327:00820000:3bc4:013e:1:0
-France 24 HD (en Francais)
-p:GLOBECAST,f:1
-0328:00820000:3bc4:013e:1:0
-France 24 HD (in English)
-p:GLOBECAST,f:1
-031f:00820000:3bc4:013e:1:0
-TRT Arabi HD
-p:GLOBECAST,f:1
-031e:00820000:3bc4:013e:1:0
-Qatar TV HD
-p:GLOBECAST,f:1
 4224:00820000:3db8:013e:1:0
 Redlight HD
 p:Telespazio,f:1
@@ -6071,6 +6053,12 @@ p:M-Three Satcom
 1c58:00820000:1c20:013e:1:0
 SMTv San Marino HD 2
 p:Harmonic,f:1
+2905:00820000:1c20:013e:2:0
+RADIO CONGO
+p:GLOBECAST
+29cd:00820000:1c20:013e:1:0
+Tele Congo
+p:GLOBECAST,f:1
 015f:00820000:1c84:013e:1:0
 Discovery HD
 p:NetMed,f:1
@@ -8205,7 +8193,7 @@ p:KABELIO.CH,f:1
 Kabelio TV SuedOst
 p:KABELIO.CH,f:1
 00f1:00820000:2db4:013e:25:0
-Kabelio TF1
+Kabelio TF1 CH
 p:KABELIO.CH,f:1
 00f2:00820000:2db4:013e:25:0
 Kabelio M6 Music
@@ -8277,7 +8265,7 @@ p:KABELIO.CH,f:1
 Kabelio Wedo Sports
 p:KABELIO.CH,f:1
 0106:00820000:2db4:013e:1:0
-Kabelio Wedo BigStor
+Kabelio Wedo Big Stories
 p:KABELIO.CH,f:1
 0001:00820000:2580:00d5:1:0
 bTV
@@ -9665,6 +9653,129 @@ p:Telespazio
 0320:00822d06:07d3:0002:1:0
 SERVICE IP/MAC NOTIFICATION
 p:MyIntProvider,f:1
+031e:00822d2e:3bc4:0001:25:0
+Qatar TV HD
+p:GLOBECAST,f:1
+031f:00822d2e:3bc4:0001:1:0
+TRT Arabi HD
+p:GLOBECAST,f:1
+0321:00822d2e:3bc4:0001:1:0
+Euronews English HD
+p:GLOBECAST,f:1
+0323:00822d2e:3bc4:0001:1:0
+TRT World HD
+p:GLOBECAST,f:1
+0326:00822d2e:3bc4:0001:25:0
+Bahrain TV
+p:GLOBECAST,f:1
+0327:00822d2e:3bc4:0001:25:0
+France 24 HD (en Francais)
+p:GLOBECAST,f:1
+0328:00822d2e:3bc4:0001:25:0
+France 24 HD (in English)
+p:GLOBECAST,f:1
+00fc:00820000:2c24:013e:22:0
+Kabelio BVN
+p:KABELIO.CH,f:1
+0100:00820000:2c24:013e:25:0
+Kabelio Sky News
+p:KABELIO.CH,f:1
+0101:00820000:2c24:013e:25:0
+Kabelio TV8 Italia
+p:KABELIO.CH,f:1
+0104:00820000:2c24:013e:25:0
+Kabelio Wedo Movies
+p:KABELIO.CH,f:1
+0105:00820000:2c24:013e:25:0
+Kabelio Wedo Sports
+p:KABELIO.CH,f:1
+0106:00820000:2c24:013e:25:0
+Kabelio Wedo Big Stories
+p:KABELIO.CH,f:1
+00c9:00820000:2c24:013e:25:0
+Kabelio Tele Baern
+p:KABELIO.CH,f:1
+00ca:00820000:2c24:013e:25:0
+Kabelio Tele Basel
+p:KABELIO.CH,f:1
+00cb:00820000:2c24:013e:25:0
+Kabelio Tele 1
+p:KABELIO.CH,f:1
+00cc:00820000:2c24:013e:25:0
+Kabelio TVO
+p:KABELIO.CH,f:1
+00cd:00820000:2c24:013e:25:0
+Kabelio TV SuedOst
+p:KABELIO.CH,f:1
+00ce:00820000:2c24:013e:25:0
+Kabelio Tele M1
+p:KABELIO.CH,f:1
+00cf:00820000:2c24:013e:25:0
+Kabelio Leman Bleu
+p:KABELIO.CH,f:1
+00d0:00820000:2c24:013e:25:0
+Kabelio Carac 1
+p:KABELIO.CH,f:1
+00d3:00820000:2c24:013e:25:0
+Kabelio Swiss1
+p:KABELIO.CH,f:1
+00d4:00820000:2c24:013e:25:0
+Kabelio Auftanken.TV
+p:KABELIO.CH,f:1
+00d5:00820000:2c24:013e:25:0
+Kabelio Blue Zoom
+p:KABELIO.CH,f:1
+00dd:00820000:2c24:013e:25:0
+Kabelio BBC1 London
+p:KABELIO.CH,f:1
+00de:00820000:2c24:013e:25:0
+Kabelio BBC2
+p:KABELIO.CH,f:1
+00df:00820000:2c24:013e:25:0
+Kabelio BBC3/CBBC
+p:KABELIO.CH,f:1
+00e0:00820000:2c24:013e:25:0
+Kabelio BBC4/CBBies
+p:KABELIO.CH,f:1
+00e1:00820000:2c24:013e:25:0
+Kabelio ITV1 London
+p:KABELIO.CH,f:1
+00e2:00820000:2c24:013e:25:0
+Kabelio ITV2
+p:KABELIO.CH,f:1
+00e3:00820000:2c24:013e:25:0
+Kabelio ITV3
+p:KABELIO.CH,f:1
+00e4:00820000:2c24:013e:25:0
+Kabelio ITV4
+p:KABELIO.CH,f:1
+00e5:00820000:2c24:013e:25:0
+Kabelio Channel 4
+p:KABELIO.CH,f:1
+00e6:00820000:2c24:013e:25:0
+Kabelio Channel 5
+p:KABELIO.CH,f:1
+00e7:00820000:2c24:013e:25:0
+Kabelio Film 4
+p:KABELIO.CH,f:1
+00f1:00820000:2c24:013e:25:0
+Kabelio TF1 CH
+p:KABELIO.CH,f:1
+00f2:00820000:2c24:013e:25:0
+Kabelio M6 Music
+p:KABELIO.CH,f:1
+00f3:00820000:2c24:013e:25:0
+Kabelio RTL9 CH
+p:KABELIO.CH,f:1
+00fb:00820000:2c24:013e:25:0
+Kabelio Canale 5
+p:KABELIO.CH,f:1
+00fd:00820000:2c24:013e:25:0
+Kabelio S1
+p:KABELIO.CH,f:1
+00fe:00820000:2c24:013e:25:0
+Kabelio TMC CH
+p:KABELIO.CH,f:1
 0065:0ce40000:0065:0053:1:0
 RTP 1
 p:Meo,f:1
@@ -9968,6 +10079,12 @@ p:MTV 00s,f:1
 00c4:0ce40000:0065:0053:1:0
 Sky News
 p:Sky News,f:1
+00a0:0ce40000:0065:0053:1:0
+A Bola TV
+p:A Bola TV,f:1
+00a1:0ce40000:0065:0053:1:0
+Cartoonito
+p:Cartoonito,f:1
 0332:0ce40000:002f:0036:1:0
 Discovery HD Showcase
 p:Nos,f:1
@@ -11474,6 +11591,9 @@ p:TVE 24h,f:1
 0ee7:0ce40000:0026:0036:1:0
 TVE Internacional
 p:TVE Internacional,f:1
+0ee8:0ce40000:0026:0036:1:0
+AMC Crime
+p:,f:1
 0002:0ce40000:0001:22d4:25:0
 Television Castilla - La Mancha HD
 p:CMT,f:1
@@ -11768,9 +11888,6 @@ p:,f:1
 001f:0ce4ada3:0000:0000:1:0
 
 p:,f:1
-0001:fed4b120:0001:ffff:1:0
-E-285 MAIN
-p:OVERON,f:1
 0001:0ce42d51:0001:ffff:1:0
 E336 G18 VIA 1
 p:Service Provider,f:1
@@ -11852,6 +11969,9 @@ p:EXTREMADURA FM
 0011:0ce4b12e:0001:ffff:1:0
 CANAL MONCLOA
 p:Service Provider,f:1
+0001:0ce4b120:0000:0001:25:0
+E393 FEED 1
+p:Overon,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2025
