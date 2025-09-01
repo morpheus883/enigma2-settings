@@ -348,6 +348,9 @@ transponders
 01a4accd:0014:ffff
 	s 11469000:6800000:1:3:420:2:0:1:2:0:2
 /
+01a4aaf8:0000:0001
+	s 11000000:7500000:1:3:420:2:0:1:2:0:2
+/
 00820000:2e18:00b0
 	s 10873000:27500000:1:3:130:2:0:1:2:0:2
 /
@@ -624,6 +627,9 @@ transponders
 00820000:2c24:013e
 	s 10775000:29900000:0:2:130:2:0:1:2:0:2
 /
+00822a8c:2c88:013e
+	s 10892000:27500000:0:3:130:2:0:1:2:2:2
+/
 end
 services
 c80c:01a40000:a3ae:042e:2:0
@@ -638,9 +644,6 @@ p:TURKSAT
 c810:01a40000:a3ae:042e:2:0
 RISALET RADYO
 p:DIB
-c802:01a40000:a3ae:042e:1:0
-TURKSAT TEST
-p:TURKSAT,f:1
 c803:01a40000:a3ae:042e:25:0
 TRT Diyanet HD
 p:TURKSAT,f:1
@@ -3120,7 +3123,7 @@ p:TRT,f:1
 TUR - 047 B
 p:TUR - 047 B,f:1
 0001:01a4ad56:0000:0000:25:0
-TUR 141 - A
+TKS.TRT.M29-B
 p:,f:1
 0001:01a4311d:0000:0000:25:0
 SNG MEDYA 2/A
@@ -3133,9 +3136,6 @@ TUR-22 B
 p:Service Provider,f:1
 0001:01a42ade:0001:ffff:1:0
 RETINA MEDYA
-p:Service Provider,f:1
-0001:01a4aaf8:0001:ffff:1:0
-Tur-22 A
 p:Service Provider,f:1
 3908:01a4afe9:a21d:042e:1:0
 Sun RTV
@@ -3291,8 +3291,8 @@ p:TURKSAT,f:1
 Domashniy International
 p:TURKSAT,f:1
 0001:01a4ad4d:0000:0000:1:0
-TUR-146-B
-p:,f:1
+TRT UPLINK
+p:TRT,f:1
 0001:01a4acd6:0001:ffff:1:0
 IHA-538
 p:IHA,f:1
@@ -3320,12 +3320,12 @@ p:TURKSAT
 c63d:01a4b039:a3ad:042e:1:0
 TKGS DATA
 p:,f:1
+c611:01a4b039:a3ad:042e:1:0
+Neo Haber
+p:TURKSAT,f:1
 3caa:01a4ac51:c5a8:002a:1:0
 TEST
 p:Digital Platform,f:1
-3cac:01a4ac51:c5a8:002a:2:0
-test_i4
-p:Digital Platform
 3cb9:01a4ac51:c5a8:002a:1:0
 Nick Jr.
 p:Digital Platform,f:1
@@ -3401,9 +3401,21 @@ p:Digital Platform
 3cb8:01a4ac51:c5a8:002a:129:0
 DT9502R
 p:Digital Platform
+3cac:01a4ac51:c5a8:002a:1:0
+test_i4
+p:Digital Platform,f:1
+3cba:01a4ac51:c5a8:002a:129:0
+DT 9103
+p:Digital Platform
+3cbb:01a4ac51:c5a8:002a:129:0
+DVBSSU_9104
+p:Digital Platform
 0001:01a4accd:0014:ffff:1:0
 TUR137
 p:TRT,f:1
+0001:01a4aaf8:0000:0001:1:0
+TKS.TRT.M14 A
+p:,f:1
 0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
 p:SNRT,f:1
