@@ -303,9 +303,6 @@ transponders
 01a4ab02:0000:0002
 	s 11010000:7500000:1:3:420:2:0:1:2:0:2
 /
-01a4ad3c:0001:ffff
-	s 11580000:3333000:1:2:420:2:0:1:2:0:2
-/
 01a4ad56:0000:0000
 	s 11606000:6200000:1:3:420:2:0:1:2:0:2
 /
@@ -320,9 +317,6 @@ transponders
 /
 01a42ade:0001:ffff
 	s 10974000:2960000:0:4:420:2:0:1:2:0:2
-/
-01a4aaf8:0001:ffff
-	s 11000000:7500000:1:3:420:2:0:1:2:0:2
 /
 01a4afe9:a21d:042e
 	s 12265000:27500000:1:3:420:2:0:1:2:0:2
@@ -350,6 +344,9 @@ transponders
 /
 01a4aaf8:0000:0001
 	s 11000000:7500000:1:3:420:2:0:1:2:0:2
+/
+01a4ad3c:0000:0000
+	s 11580000:3333000:1:2:420:2:0:1:2:0:2
 /
 00c00000:041d:0001
 	s 10773000:22000000:0:3:192:2:0:1:2:0:2
@@ -669,9 +666,6 @@ transponders
 00c0ad88:0001:ffff
 	s 11656000:7200000:1:3:192:2:0:1:2:0:2
 /
-00c02bd5:0001:ffff
-	s 11221000:7200000:0:3:192:2:0:1:2:0:2
-/
 00c02d55:0000:0000
 	s 11605000:7200000:0:3:192:2:0:1:2:0:2
 /
@@ -683,6 +677,9 @@ transponders
 /
 00c00000:0000:0001
 	s 11817000:31428000:1:8:192:2:0:1:2:0:2
+/
+00c02bd5:0000:0000
+	s 11221000:7200000:0:3:192:2:0:1:2:0:2
 /
 00820000:2e18:00b0
 	s 10873000:27500000:1:3:130:2:0:1:2:0:2
@@ -960,8 +957,11 @@ transponders
 00820000:2c24:013e
 	s 10775000:29900000:0:2:130:2:0:1:2:0:2
 /
-00822a8c:2c88:013e
-	s 10892000:27500000:0:3:130:2:0:1:2:2:2
+00820000:2e7c:013f
+	s 10892000:27500000:0:3:130:2:0:1:2:0:2
+/
+00820000:170c:013f
+	s 11900000:27500000:0:3:130:2:0:1:2:2:2
 /
 end
 services
@@ -1438,6 +1438,9 @@ TGRT Haber SD
 p:TURKSAT,f:1
 c868:01a40000:9ca5:042e:25:0
 TGRT EU HD
+p:TURKSAT,f:1
+c872:01a40000:9ca5:042e:1:0
+Neo Haber
 p:TURKSAT,f:1
 0001:01a40000:003d:002a:1:0
 TRT 1 (E)
@@ -3153,7 +3156,7 @@ p:Digital Platform,f:1
 TUR 126 B
 p:,f:1
 0001:01a4acde:0000:0000:1:0
-TRT UPLINK
+TKS.TRT.M29-B
 p:TRT,f:1
 cbe9:01a40000:a925:042e:25:0
 EkoTürk TV
@@ -3452,9 +3455,6 @@ p:TURKSAT,f:1
 0001:01a4ab02:0000:0002:25:0
 TUR122A
 p:TRT,f:1
-0001:01a4ad3c:0001:ffff:1:0
-TUR - 047 B
-p:TUR - 047 B,f:1
 0001:01a4ad56:0000:0000:25:0
 TKS.TRT.M29-B
 p:,f:1
@@ -3623,6 +3623,9 @@ p:TURKSAT,f:1
 439a:01a40000:eac5:042e:1:0
 Domashniy International
 p:TURKSAT,f:1
+43a0:01a40000:eac5:042e:1:0
+TNT International
+p:TURKSAT,f:1
 0001:01a4ad4d:0000:0000:1:0
 TRT UPLINK
 p:TRT,f:1
@@ -3748,6 +3751,9 @@ TUR137
 p:TRT,f:1
 0001:01a4aaf8:0000:0001:1:0
 TKS.TRT.M14 A
+p:,f:1
+0001:01a4ad3c:0000:0000:1:0
+TUR 061 a
 p:,f:1
 526c:00c00000:041d:0001:25:0
 Anixe HD
@@ -4308,7 +4314,7 @@ p:
 Vamos Bar HD
 p:,f:1
 7584:00c00000:0412:0001:1:0
-TEST TXP42
+1ª FEDERACION
 p:Movistar+,f:1
 7729:00c00000:0416:0001:1:0
 Canal Sur Andalucia
@@ -6539,12 +6545,6 @@ p:SKY,f:1
 0085:00c00000:0002:0085:25:0
 Beate Uhse HD
 p:SKY,f:1
-2649:00c00000:0460:0001:1:0
-France 3 Basse-Normandie
-p:CSAT,f:1
-264a:00c00000:0460:0001:1:0
-France 3 Pays de la Loire
-p:CSAT,f:1
 264b:00c00000:0460:0001:1:0
 France 3 Côte d'Azur
 p:CSAT,f:1
@@ -6563,12 +6563,6 @@ p:CSAT,f:1
 238a:00c00000:0460:0001:100:0
 
 p:
-264f:00c00000:0460:0001:1:0
-
-p:,f:1
-2650:00c00000:0460:0001:1:0
-
-p:,f:1
 2651:00c00000:0460:0001:1:0
 
 p:,f:1
@@ -6578,6 +6572,12 @@ p:,f:1
 2653:00c00000:0460:0001:1:0
 Canal+ Promo
 p:,f:1
+264f:00c00000:0460:0001:25:0
+beIN Sports MAX 8
+p:CSAT,f:1
+2650:00c00000:0460:0001:25:0
+beIN Sports MAX 9
+p:CSAT,f:1
 0228:00c00000:0010:0085:31:0
 Sky Sport Bundesliga UHD
 p:SKY,f:1
@@ -6641,9 +6641,6 @@ p:CSAT,f:1
 21a5:00c00000:0448:0001:1:0
 France 3 Paris Ile-de-France
 p:CSAT,f:1
-219e:00c00000:0448:0001:1:0
-France 3 Picardie
-p:CSAT,f:1
 21a6:00c00000:0448:0001:1:0
 France 3 Poitou-Charentes
 p:CSAT,f:1
@@ -6656,12 +6653,12 @@ p:CSAT,f:1
 219b:00c00000:0448:0001:31:0
 FRANCE 2 UHD HDR
 p:CSAT,f:1
-219c:00c00000:0448:0001:1:0
-
-p:,f:1
-219d:00c00000:0448:0001:1:0
-
-p:,f:1
+219c:00c00000:0448:0001:25:0
+beIN Sports MAX 7
+p:CSAT,f:1
+219d:00c00000:0448:0001:25:0
+Nick Junior France HD
+p:CSAT,f:1
 2456:00c00000:0440:0001:25:0
 OCS
 p:CSAT,f:1
@@ -6746,9 +6743,6 @@ p:CSAT
 22cd:00c00000:0434:0001:25:0
 Canal+ Promo HD
 p:CSAT,f:1
-22d0:00c00000:0434:0001:25:0
-Nick Junior France HD
-p:CSAT,f:1
 22c6:00c00000:0434:0001:25:0
 TV5 Monde FBS HD
 p:CSAT,f:1
@@ -6782,18 +6776,21 @@ p:CSAT,f:1
 22d7:00c00000:0434:0001:25:0
 Canal+ Live 7
 p:CSAT,f:1
-22d8:00c00000:0434:0001:25:0
-DAZN 2
-p:CSAT,f:1
 238a:00c00000:0434:0001:100:0
 
 p:
 22c7:00c00000:0434:0001:25:0
 Canal+
 p:CSAT,f:1
-22c9:00c00000:0434:0001:1:0
+22d0:00c00000:0434:0001:1:0
 
 p:,f:1
+22d8:00c00000:0434:0001:1:0
+
+p:,f:1
+22c9:00c00000:0434:0001:1:0
+France 3 Picardie
+p:CSAT,f:1
 24be:00c00000:043c:0001:25:0
 Eurosport 2 HD
 p:CSAT,f:1
@@ -6824,9 +6821,6 @@ p:CSAT,f:1
 24b9:00c00000:043c:0001:25:0
 Union TV
 p:CSAT,f:1
-24ba:00c00000:043c:0001:25:0
-DAZN 1
-p:CSAT,f:1
 24c4:00c00000:043c:0001:25:0
 Canal+ Live 3
 p:CSAT,C:0000,f:1
@@ -6836,6 +6830,12 @@ p:CSAT,C:0000,f:1
 238a:00c00000:043c:0001:100:0
 
 p:
+24ba:00c00000:043c:0001:1:0
+
+p:,f:1
+24bc:00c00000:043c:0001:25:0
+Novo 19
+p:CSAT,f:1
 21fd:00c00000:044c:0001:25:0
 France 4 HD
 p:CSAT,f:1
@@ -6878,12 +6878,12 @@ p:CSAT,f:1
 220a:00c00000:044c:0001:25:0
 6ter HD
 p:CSAT,f:1
-220f:00c00000:044c:0001:25:0
-DAZN 3
-p:CSAT,f:1
 238a:00c00000:044c:0001:100:0
 
 p:
+220f:00c00000:044c:0001:1:0
+
+p:,f:1
 2336:00c00000:0442:0001:25:0
 C News HD
 p:CSAT,f:1
@@ -6924,11 +6924,11 @@ p:CSAT,f:1
 T18
 p:CSAT,f:1
 232f:00c00000:0442:0001:1:0
-
-p:,f:1
+France 3 Basse-Normandie
+p:CSAT,f:1
 2333:00c00000:0442:0001:1:0
-
-p:,f:1
+France 3 Pays de la Loire
+p:CSAT,f:1
 2261:00c00000:0438:0001:25:0
 Canal+ HD
 p:CSAT,f:1
@@ -6980,6 +6980,9 @@ p:CSAT,f:1
 238a:00c00000:0438:0001:100:0
 
 p:
+226a:00c00000:0438:0001:25:0
+Canal+ Box Office
+p:CSAT,f:1
 2014:00c00000:0430:0001:25:0
 TFX HD
 p:CSAT,f:1
@@ -7013,9 +7016,6 @@ p:CSAT,f:1
 200e:00c00000:0430:0001:25:0
 Cine+ Festival
 p:CSAT,f:1
-200d:00c00000:0430:0001:25:0
-Canal+ Box Office
-p:CSAT,f:1
 200f:00c00000:0430:0001:1:0
 France 3 Bretagne
 p:CSAT,f:1
@@ -7028,6 +7028,9 @@ p:CSAT,f:1
 238a:00c00000:0430:0001:100:0
 
 p:
+200d:00c00000:0430:0001:1:0
+
+p:,f:1
 2076:00c00000:0432:0001:25:0
 L´Equipe HD
 p:CSAT,f:1
@@ -7042,15 +7045,6 @@ BFM Business
 p:CSAT,f:1
 2070:00c00000:0432:0001:25:0
 A La Une HD
-p:CSAT,f:1
-2071:00c00000:0432:0001:25:0
-beIN Sports MAX 7
-p:CSAT,f:1
-2072:00c00000:0432:0001:25:0
-beIN Sports MAX 8
-p:CSAT,f:1
-2073:00c00000:0432:0001:25:0
-beIN Sports MAX 9
 p:CSAT,f:1
 2074:00c00000:0432:0001:25:0
 beIN Sports MAX 10
@@ -7068,7 +7062,7 @@ p:CSAT,f:1
 La Chaîne Météo HD
 p:CSAT,f:1
 2079:00c00000:0432:0001:25:0
-Nickelodeon Teen HD
+Nicktoons France
 p:CSAT,f:1
 207a:00c00000:0432:0001:25:0
 Canal+ Grand Ecran
@@ -7085,6 +7079,15 @@ p:CSAT,f:1
 238a:00c00000:0432:0001:100:0
 
 p:
+2071:00c00000:0432:0001:1:0
+
+p:,f:1
+2072:00c00000:0432:0001:1:0
+
+p:,f:1
+2073:00c00000:0432:0001:1:0
+
+p:,f:1
 6eac:00c00000:03fd:0001:25:0
 WDR HD Köln
 p:ARD,f:1
@@ -7511,59 +7514,56 @@ p:ZDF,f:1
 0001:00c0ad80:0001:ffff:1:0
 RBB D-557 ENC1
 p:Service Provider,f:1
-2bc0:00c00000:040c:0001:1:0
-ASTRA TV 1
-p:SES,f:1
-2bc1:00c00000:040c:0001:1:0
-ASTRA TV 2
-p:SES,f:1
-2bc2:00c00000:040c:0001:1:0
-ASTRA TV 3
-p:SES,f:1
-2bc3:00c00000:040c:0001:1:0
-ASTRA TV 4
-p:SES,f:1
-2bc4:00c00000:040c:0001:1:0
-ASTRA TV 5
-p:SES,f:1
-2bc5:00c00000:040c:0001:1:0
-ASTRA TV 6
-p:SES,f:1
-2bc6:00c00000:040c:0001:1:0
-ASTRA TV 7
-p:SES,f:1
-2bc7:00c00000:040c:0001:1:0
-ASTRA TV 8
-p:SES,f:1
-2bc8:00c00000:040c:0001:1:0
-ASTRA TV 9
-p:SES,f:1
-2bc9:00c00000:040c:0001:1:0
-ASTRA TV 10
-p:SES,f:1
-2bca:00c00000:040c:0001:1:0
-ASTRA TV 11
-p:SES,f:1
-2bcb:00c00000:040c:0001:1:0
-ASTRA TV 12
-p:SES,f:1
-2bcc:00c00000:040c:0001:1:0
-ASTRA TV 13
-p:SES,f:1
-2bcd:00c00000:040c:0001:1:0
-ASTRA TV 14
-p:SES,f:1
 2c1a:00c00000:040c:0001:12:0
 DVB-I
 p:
 2c1b:00c00000:040c:0001:12:0
 DVB-I Images
 p:
+2bc0:00c00000:040c:0001:31:0
+Antena 3
+p:SES,C:1867,C:1887,f:1
+2bc1:00c00000:040c:0001:31:1
+Neox
+p:SES,C:0000,f:1
+2bc2:00c00000:040c:0001:31:2
+Nova
+p:SES,f:1
+2bc3:00c00000:040c:0001:31:3
+Atreseries
+p:SES,f:1
+2bc4:00c00000:040c:0001:31:4
+LaSexta
+p:SES,f:1
+2bc5:00c00000:040c:0001:31:5
+Mega
+p:SES,f:1
+2bc6:00c00000:040c:0001:31:6
+Telecinco
+p:SES,f:1
+2bc7:00c00000:040c:0001:31:7
+FDF
+p:SES,f:1
+2bc8:00c00000:040c:0001:31:8
+Boing
+p:SES,f:1
+2bc9:00c00000:040c:0001:31:9
+Cuatro
+p:SES,f:1
+2bca:00c00000:040c:0001:31:10
+Divinity
+p:SES,f:1
+2bcb:00c00000:040c:0001:31:11
+Energy
+p:SES,f:1
+2bcc:00c00000:040c:0001:31:12
+Be Mad
+p:SES,f:1
+2bcd:00c00000:040c:0001:31:13
+Real Madrid TV
+p:SES,f:1
 0001:00c0ad88:0001:ffff:1:0
 SR D-551 Enc I
-p:Service Provider,f:1
-0001:00c02bd5:0001:ffff:1:0
-SWR D-417 MOD 1
 p:Service Provider,f:1
 0001:00c02d55:0000:0000:25:0
 US Senior Open Day 2 - Europe
@@ -7571,30 +7571,27 @@ p:SES USA ENC 24,f:1
 0001:00c0ad45:0000:0000:25:0
 
 p:,f:1
-2c24:00c00000:03f6:0001:1:0
-ASTRA TV 15
-p:,f:1
-2c25:00c00000:03f6:0001:1:0
-ASTRA TV 16
-p:,f:1
-2c26:00c00000:03f6:0001:1:0
-ASTRA TV 17
-p:,f:1
-2c27:00c00000:03f6:0001:1:0
-ASTRA TV 18
-p:,f:1
-2c28:00c00000:03f6:0001:1:0
-ASTRA TV 19
-p:,f:1
-2c29:00c00000:03f6:0001:1:0
-ASTRA TV 20
-p:,f:1
-2c2a:00c00000:03f6:0001:1:0
-ASTRA TV 21
-p:,f:1
+2c24:00c00000:03f6:0001:31:0
+La 1
+p:SES,f:1
+2c25:00c00000:03f6:0001:31:1
+La 2
+p:SES,f:1
+2c26:00c00000:03f6:0001:31:2
+24h
+p:SES,f:1
+2c27:00c00000:03f6:0001:31:3
+Clan
+p:SES,f:1
+2c28:00c00000:03f6:0001:31:4
+Teledeporte
+p:SES,f:1
+2c2a:00c00000:03f6:0001:31:5
+DKISS
+p:SES,f:1
 0001:00c00000:0000:0001:25:0
 Astra 1 Service 1
-p:MX1,f:1
+p:SES Americom,f:1
 0002:00c00000:0000:0001:25:0
 Astra 1 Service 2
 p:MX1,f:1
@@ -7607,6 +7604,9 @@ p:MX1,f:1
 0005:00c00000:0000:0001:25:0
 Astra 1 Service 5
 p:MX1,f:1
+0001:00c02bd5:0000:0000:1:0
+2DF-Ant4-1
+p:ZDF,f:1
 0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
 p:SNRT,f:1
@@ -7713,10 +7713,10 @@ p:Cyfrowy Polsat S.A.,f:1
 SciFi HD
 p:Cyfrowy Polsat S.A.,f:1
 3e2b:00820000:2ee0:013e:1:0
-Polsat Sport Premium PPV3
+Polsat Sport Extra 3
 p:Cyfrowy Polsat S.A.,f:1
 3e2c:00820000:2ee0:013e:1:0
-Polsat Sport Premium PPV4
+Polsat Sport Extra 4
 p:Cyfrowy Polsat S.A.,f:1
 3e30:00820000:2ee0:013e:1:0
 PPV HD
@@ -8326,9 +8326,6 @@ Radio Number One
 p:Telespazio
 421a:00820000:3db8:013e:1:0
 TRM H24
-p:Telespazio,f:1
-4244:00820000:3db8:013e:1:0
-Arte Atelier
 p:Telespazio,f:1
 4250:00820000:3db8:013e:1:0
 Radio Kiss Kiss Tv
@@ -9423,10 +9420,10 @@ p:Cyfrowy Polsat SA,f:1
 Polsat Sport 1
 p:Cyfrowy Polsat S.A.,f:1
 0c33:00820000:1e78:0071:1:0
-Polsat Sport Premium PPV5
+Polsat Sport Extra 1
 p:Cyfrowy Polsat S.A.,f:1
 0c34:00820000:1e78:0071:1:0
-Polsat Sport Premium PPV6
+Polsat Sport Extra 2
 p:Cyfrowy Polsat S.A.,f:1
 0c29:00820000:1e78:0071:25:0
 Cinemax 2 HD
@@ -9836,6 +9833,9 @@ p:Cyfrowy Polsat S.A.,f:1
 2910:00820000:1edc:0071:1:0
 Vox Music TV HD
 p:,f:1
+2914:00820000:1edc:0071:1:0
+10516
+p:Cyfrowy Polsat S.A.,f:1
 3392:00820000:3390:0071:1:0
 Polsat Play HD
 p:Cyfrowy Polsat S.A.,f:1
@@ -12776,6 +12776,132 @@ p:KABELIO.CH,f:1
 00fe:00820000:2c24:013e:25:0
 Kabelio TMC CH
 p:KABELIO.CH,f:1
+0515:00820000:2e7c:013f:1:0
+TF1
+p:Eutelsat,f:1
+0516:00820000:2e7c:013f:1:0
+France 2 HD
+p:Eutelsat,f:1
+0517:00820000:2e7c:013f:1:0
+France 3
+p:Eutelsat,f:1
+0519:00820000:2e7c:013f:1:0
+France 5
+p:Eutelsat,f:1
+051a:00820000:2e7c:013f:1:0
+M6 HD
+p:Eutelsat,f:1
+051b:00820000:2e7c:013f:1:0
+Arte HD
+p:Eutelsat,f:1
+051c:00820000:2e7c:013f:1:0
+T18
+p:Eutelsat,f:1
+051d:00820000:2e7c:013f:1:0
+W9
+p:Eutelsat,f:1
+051e:00820000:2e7c:013f:1:0
+TMC (Télé Monte Carlo)
+p:Eutelsat,f:1
+051f:00820000:2e7c:013f:1:0
+TFX
+p:Eutelsat,f:1
+0520:00820000:2e7c:013f:1:0
+Novo 19
+p:Eutelsat,f:1
+0521:00820000:2e7c:013f:1:0
+LCP - La Chaîne Parlementaire
+p:Eutelsat,f:1
+0522:00820000:2e7c:013f:1:0
+France 4
+p:Eutelsat,f:1
+0524:00820000:2e7c:013f:1:0
+C News
+p:Eutelsat,f:1
+0528:00820000:2e7c:013f:1:0
+TF1 Series Films
+p:Eutelsat,f:1
+0529:00820000:2e7c:013f:1:0
+L´Equipe
+p:Eutelsat,f:1
+052a:00820000:2e7c:013f:1:0
+6ter
+p:Eutelsat,f:1
+052b:00820000:2e7c:013f:1:0
+RMC Story
+p:Eutelsat,f:1
+052c:00820000:2e7c:013f:1:0
+RMC Découverte
+p:Eutelsat,f:1
+052d:00820000:2e7c:013f:1:0
+Cherie 25
+p:Eutelsat,f:1
+052e:00820000:2e7c:013f:1:0
+LCI - La Chaîne Info
+p:Eutelsat,f:1
+0587:00820000:170c:013f:1:0
+BFM TV
+p:Eutelsat,f:1
+0589:00820000:170c:013f:1:0
+CStar
+p:Eutelsat,f:1
+058a:00820000:170c:013f:1:0
+Gulli
+p:Eutelsat,f:1
+058b:00820000:170c:013f:1:0
+franceinfo
+p:Eutelsat,f:1
+058c:00820000:170c:013f:1:0
+Ushuaia
+p:AB Sat,f:1
+058d:00820000:170c:013f:1:0
+Equidia
+p:AB Sat,f:1
+05ab:00820000:170c:013f:1:0
+RTL 9
+p:AB Sat,f:1
+05ac:00820000:170c:013f:1:0
+AB 1
+p:AB Sat,f:1
+05ad:00820000:170c:013f:1:0
+Automoto La Chaine
+p:AB Sat,f:1
+05ae:00820000:170c:013f:1:0
+Animaux
+p:AB Sat,f:1
+05af:00820000:170c:013f:1:0
+Chasse et Pêche
+p:AB Sat,f:1
+05b0:00820000:170c:013f:1:0
+TV Breizh
+p:AB Sat,f:1
+05b1:00820000:170c:013f:1:0
+Crime District
+p:AB Sat,f:1
+05b2:00820000:170c:013f:1:0
+Trek
+p:AB Sat,f:1
+05b3:00820000:170c:013f:1:0
+Toute l´Histoire
+p:AB Sat,f:1
+05b5:00820000:170c:013f:1:0
+Action
+p:AB Sat,f:1
+05b6:00820000:170c:013f:1:0
+Mangas
+p:AB Sat,f:1
+05b7:00820000:170c:013f:1:0
+Science et Vie
+p:AB Sat,f:1
+05ba:00820000:170c:013f:1:0
+Téva
+p:AB Sat,f:1
+05bc:00820000:170c:013f:1:0
+XXL
+p:AB Sat,f:1
+05be:00820000:170c:013f:1:0
+Padel Time TV
+p:AB Sat,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2025

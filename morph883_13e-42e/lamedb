@@ -303,9 +303,6 @@ transponders
 01a4ab02:0000:0002
 	s 11010000:7500000:1:3:420:2:0:1:2:0:2
 /
-01a4ad3c:0001:ffff
-	s 11580000:3333000:1:2:420:2:0:1:2:0:2
-/
 01a4ad56:0000:0000
 	s 11606000:6200000:1:3:420:2:0:1:2:0:2
 /
@@ -320,9 +317,6 @@ transponders
 /
 01a42ade:0001:ffff
 	s 10974000:2960000:0:4:420:2:0:1:2:0:2
-/
-01a4aaf8:0001:ffff
-	s 11000000:7500000:1:3:420:2:0:1:2:0:2
 /
 01a4afe9:a21d:042e
 	s 12265000:27500000:1:3:420:2:0:1:2:0:2
@@ -350,6 +344,9 @@ transponders
 /
 01a4aaf8:0000:0001
 	s 11000000:7500000:1:3:420:2:0:1:2:0:2
+/
+01a4ad3c:0000:0000
+	s 11580000:3333000:1:2:420:2:0:1:2:0:2
 /
 00820000:2e18:00b0
 	s 10873000:27500000:1:3:130:2:0:1:2:0:2
@@ -627,8 +624,11 @@ transponders
 00820000:2c24:013e
 	s 10775000:29900000:0:2:130:2:0:1:2:0:2
 /
-00822a8c:2c88:013e
-	s 10892000:27500000:0:3:130:2:0:1:2:2:2
+00820000:2e7c:013f
+	s 10892000:27500000:0:3:130:2:0:1:2:0:2
+/
+00820000:170c:013f
+	s 11900000:27500000:0:3:130:2:0:1:2:2:2
 /
 end
 services
@@ -1105,6 +1105,9 @@ TGRT Haber SD
 p:TURKSAT,f:1
 c868:01a40000:9ca5:042e:25:0
 TGRT EU HD
+p:TURKSAT,f:1
+c872:01a40000:9ca5:042e:1:0
+Neo Haber
 p:TURKSAT,f:1
 0001:01a40000:003d:002a:1:0
 TRT 1 (E)
@@ -2820,7 +2823,7 @@ p:Digital Platform,f:1
 TUR 126 B
 p:,f:1
 0001:01a4acde:0000:0000:1:0
-TRT UPLINK
+TKS.TRT.M29-B
 p:TRT,f:1
 cbe9:01a40000:a925:042e:25:0
 EkoTürk TV
@@ -3119,9 +3122,6 @@ p:TURKSAT,f:1
 0001:01a4ab02:0000:0002:25:0
 TUR122A
 p:TRT,f:1
-0001:01a4ad3c:0001:ffff:1:0
-TUR - 047 B
-p:TUR - 047 B,f:1
 0001:01a4ad56:0000:0000:25:0
 TKS.TRT.M29-B
 p:,f:1
@@ -3290,6 +3290,9 @@ p:TURKSAT,f:1
 439a:01a40000:eac5:042e:1:0
 Domashniy International
 p:TURKSAT,f:1
+43a0:01a40000:eac5:042e:1:0
+TNT International
+p:TURKSAT,f:1
 0001:01a4ad4d:0000:0000:1:0
 TRT UPLINK
 p:TRT,f:1
@@ -3416,6 +3419,9 @@ p:TRT,f:1
 0001:01a4aaf8:0000:0001:1:0
 TKS.TRT.M14 A
 p:,f:1
+0001:01a4ad3c:0000:0000:1:0
+TUR 061 a
+p:,f:1
 0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
 p:SNRT,f:1
@@ -3522,10 +3528,10 @@ p:Cyfrowy Polsat S.A.,f:1
 SciFi HD
 p:Cyfrowy Polsat S.A.,f:1
 3e2b:00820000:2ee0:013e:1:0
-Polsat Sport Premium PPV3
+Polsat Sport Extra 3
 p:Cyfrowy Polsat S.A.,f:1
 3e2c:00820000:2ee0:013e:1:0
-Polsat Sport Premium PPV4
+Polsat Sport Extra 4
 p:Cyfrowy Polsat S.A.,f:1
 3e30:00820000:2ee0:013e:1:0
 PPV HD
@@ -4135,9 +4141,6 @@ Radio Number One
 p:Telespazio
 421a:00820000:3db8:013e:1:0
 TRM H24
-p:Telespazio,f:1
-4244:00820000:3db8:013e:1:0
-Arte Atelier
 p:Telespazio,f:1
 4250:00820000:3db8:013e:1:0
 Radio Kiss Kiss Tv
@@ -5232,10 +5235,10 @@ p:Cyfrowy Polsat SA,f:1
 Polsat Sport 1
 p:Cyfrowy Polsat S.A.,f:1
 0c33:00820000:1e78:0071:1:0
-Polsat Sport Premium PPV5
+Polsat Sport Extra 1
 p:Cyfrowy Polsat S.A.,f:1
 0c34:00820000:1e78:0071:1:0
-Polsat Sport Premium PPV6
+Polsat Sport Extra 2
 p:Cyfrowy Polsat S.A.,f:1
 0c29:00820000:1e78:0071:25:0
 Cinemax 2 HD
@@ -5645,6 +5648,9 @@ p:Cyfrowy Polsat S.A.,f:1
 2910:00820000:1edc:0071:1:0
 Vox Music TV HD
 p:,f:1
+2914:00820000:1edc:0071:1:0
+10516
+p:Cyfrowy Polsat S.A.,f:1
 3392:00820000:3390:0071:1:0
 Polsat Play HD
 p:Cyfrowy Polsat S.A.,f:1
@@ -8585,6 +8591,132 @@ p:KABELIO.CH,f:1
 00fe:00820000:2c24:013e:25:0
 Kabelio TMC CH
 p:KABELIO.CH,f:1
+0515:00820000:2e7c:013f:1:0
+TF1
+p:Eutelsat,f:1
+0516:00820000:2e7c:013f:1:0
+France 2 HD
+p:Eutelsat,f:1
+0517:00820000:2e7c:013f:1:0
+France 3
+p:Eutelsat,f:1
+0519:00820000:2e7c:013f:1:0
+France 5
+p:Eutelsat,f:1
+051a:00820000:2e7c:013f:1:0
+M6 HD
+p:Eutelsat,f:1
+051b:00820000:2e7c:013f:1:0
+Arte HD
+p:Eutelsat,f:1
+051c:00820000:2e7c:013f:1:0
+T18
+p:Eutelsat,f:1
+051d:00820000:2e7c:013f:1:0
+W9
+p:Eutelsat,f:1
+051e:00820000:2e7c:013f:1:0
+TMC (Télé Monte Carlo)
+p:Eutelsat,f:1
+051f:00820000:2e7c:013f:1:0
+TFX
+p:Eutelsat,f:1
+0520:00820000:2e7c:013f:1:0
+Novo 19
+p:Eutelsat,f:1
+0521:00820000:2e7c:013f:1:0
+LCP - La Chaîne Parlementaire
+p:Eutelsat,f:1
+0522:00820000:2e7c:013f:1:0
+France 4
+p:Eutelsat,f:1
+0524:00820000:2e7c:013f:1:0
+C News
+p:Eutelsat,f:1
+0528:00820000:2e7c:013f:1:0
+TF1 Series Films
+p:Eutelsat,f:1
+0529:00820000:2e7c:013f:1:0
+L´Equipe
+p:Eutelsat,f:1
+052a:00820000:2e7c:013f:1:0
+6ter
+p:Eutelsat,f:1
+052b:00820000:2e7c:013f:1:0
+RMC Story
+p:Eutelsat,f:1
+052c:00820000:2e7c:013f:1:0
+RMC Découverte
+p:Eutelsat,f:1
+052d:00820000:2e7c:013f:1:0
+Cherie 25
+p:Eutelsat,f:1
+052e:00820000:2e7c:013f:1:0
+LCI - La Chaîne Info
+p:Eutelsat,f:1
+0587:00820000:170c:013f:1:0
+BFM TV
+p:Eutelsat,f:1
+0589:00820000:170c:013f:1:0
+CStar
+p:Eutelsat,f:1
+058a:00820000:170c:013f:1:0
+Gulli
+p:Eutelsat,f:1
+058b:00820000:170c:013f:1:0
+franceinfo
+p:Eutelsat,f:1
+058c:00820000:170c:013f:1:0
+Ushuaia
+p:AB Sat,f:1
+058d:00820000:170c:013f:1:0
+Equidia
+p:AB Sat,f:1
+05ab:00820000:170c:013f:1:0
+RTL 9
+p:AB Sat,f:1
+05ac:00820000:170c:013f:1:0
+AB 1
+p:AB Sat,f:1
+05ad:00820000:170c:013f:1:0
+Automoto La Chaine
+p:AB Sat,f:1
+05ae:00820000:170c:013f:1:0
+Animaux
+p:AB Sat,f:1
+05af:00820000:170c:013f:1:0
+Chasse et Pêche
+p:AB Sat,f:1
+05b0:00820000:170c:013f:1:0
+TV Breizh
+p:AB Sat,f:1
+05b1:00820000:170c:013f:1:0
+Crime District
+p:AB Sat,f:1
+05b2:00820000:170c:013f:1:0
+Trek
+p:AB Sat,f:1
+05b3:00820000:170c:013f:1:0
+Toute l´Histoire
+p:AB Sat,f:1
+05b5:00820000:170c:013f:1:0
+Action
+p:AB Sat,f:1
+05b6:00820000:170c:013f:1:0
+Mangas
+p:AB Sat,f:1
+05b7:00820000:170c:013f:1:0
+Science et Vie
+p:AB Sat,f:1
+05ba:00820000:170c:013f:1:0
+Téva
+p:AB Sat,f:1
+05bc:00820000:170c:013f:1:0
+XXL
+p:AB Sat,f:1
+05be:00820000:170c:013f:1:0
+Padel Time TV
+p:AB Sat,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2025

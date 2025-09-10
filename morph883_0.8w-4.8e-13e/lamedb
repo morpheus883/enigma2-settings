@@ -285,8 +285,11 @@ transponders
 00820000:2c24:013e
 	s 10775000:29900000:0:2:130:2:0:1:2:0:2
 /
-00822a8c:2c88:013e
-	s 10892000:27500000:0:3:130:2:0:1:2:2:2
+00820000:2e7c:013f
+	s 10892000:27500000:0:3:130:2:0:1:2:0:2
+/
+00820000:170c:013f
+	s 11900000:27500000:0:3:130:2:0:1:2:2:2
 /
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
@@ -365,6 +368,9 @@ transponders
 /
 00302fc2:0004:0001
 	s 12226000:27500000:0:7:48:2:0:1:2:0:2
+/
+00302f28:107b:0055
+	s 12072000:30000000:0:3:48:2:0:1:2:2:2
 /
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
@@ -588,9 +594,6 @@ fff8ad00:0001:0001
 fff8315e:0000:0000
 	s 12638000:14500000:0:3:-8:2:0:1:2:0:2
 /
-0e083143:0000:0000
-	s 12611000:14500000:0:3:-8:2:0:1:2:0:2
-/
 fff80000:0af7:00bb
 	s 11747000:30000000:0:3:-8:2:0:1:2:1:2
 /
@@ -609,14 +612,8 @@ fff830bc:0050:0046
 0e08ad9a:0001:ffff
 	s 11674000:7200000:1:3:-8:2:0:1:2:0:2
 /
-fff8b0f0:0001:ffff
-	s 12528000:6660000:1:3:-8:2:0:1:2:0:2
-/
 0e08aceb:0001:0001
 	s 11499000:7200000:1:3:-8:2:0:1:2:0:2
-/
-fff8aadd:0001:0001
-	s 10973000:7200000:1:3:-8:2:0:1:2:0:2
 /
 fff8ad88:0001:0001
 	s 11656000:7200000:1:3:-8:2:0:1:2:0:2
@@ -632,6 +629,12 @@ fff8b0f0:0001:0001
 /
 fff8ace8:00a0:0000
 	s 11496000:15000000:1:2:-8:2:0:1:2:0:2
+/
+0e08aadd:0000:0000
+	s 10973000:7200000:1:3:-8:2:0:1:2:0:2
+/
+0e083143:0001:ffff
+	s 12611000:14500000:0:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -813,10 +816,10 @@ p:Cyfrowy Polsat S.A.,f:1
 SciFi HD
 p:Cyfrowy Polsat S.A.,f:1
 3e2b:00820000:2ee0:013e:1:0
-Polsat Sport Premium PPV3
+Polsat Sport Extra 3
 p:Cyfrowy Polsat S.A.,f:1
 3e2c:00820000:2ee0:013e:1:0
-Polsat Sport Premium PPV4
+Polsat Sport Extra 4
 p:Cyfrowy Polsat S.A.,f:1
 3e30:00820000:2ee0:013e:1:0
 PPV HD
@@ -1426,9 +1429,6 @@ Radio Number One
 p:Telespazio
 421a:00820000:3db8:013e:1:0
 TRM H24
-p:Telespazio,f:1
-4244:00820000:3db8:013e:1:0
-Arte Atelier
 p:Telespazio,f:1
 4250:00820000:3db8:013e:1:0
 Radio Kiss Kiss Tv
@@ -2523,10 +2523,10 @@ p:Cyfrowy Polsat SA,f:1
 Polsat Sport 1
 p:Cyfrowy Polsat S.A.,f:1
 0c33:00820000:1e78:0071:1:0
-Polsat Sport Premium PPV5
+Polsat Sport Extra 1
 p:Cyfrowy Polsat S.A.,f:1
 0c34:00820000:1e78:0071:1:0
-Polsat Sport Premium PPV6
+Polsat Sport Extra 2
 p:Cyfrowy Polsat S.A.,f:1
 0c29:00820000:1e78:0071:25:0
 Cinemax 2 HD
@@ -2936,6 +2936,9 @@ p:Cyfrowy Polsat S.A.,f:1
 2910:00820000:1edc:0071:1:0
 Vox Music TV HD
 p:,f:1
+2914:00820000:1edc:0071:1:0
+10516
+p:Cyfrowy Polsat S.A.,f:1
 3392:00820000:3390:0071:1:0
 Polsat Play HD
 p:Cyfrowy Polsat S.A.,f:1
@@ -5876,6 +5879,132 @@ p:KABELIO.CH,f:1
 00fe:00820000:2c24:013e:25:0
 Kabelio TMC CH
 p:KABELIO.CH,f:1
+0515:00820000:2e7c:013f:1:0
+TF1
+p:Eutelsat,f:1
+0516:00820000:2e7c:013f:1:0
+France 2 HD
+p:Eutelsat,f:1
+0517:00820000:2e7c:013f:1:0
+France 3
+p:Eutelsat,f:1
+0519:00820000:2e7c:013f:1:0
+France 5
+p:Eutelsat,f:1
+051a:00820000:2e7c:013f:1:0
+M6 HD
+p:Eutelsat,f:1
+051b:00820000:2e7c:013f:1:0
+Arte HD
+p:Eutelsat,f:1
+051c:00820000:2e7c:013f:1:0
+T18
+p:Eutelsat,f:1
+051d:00820000:2e7c:013f:1:0
+W9
+p:Eutelsat,f:1
+051e:00820000:2e7c:013f:1:0
+TMC (Télé Monte Carlo)
+p:Eutelsat,f:1
+051f:00820000:2e7c:013f:1:0
+TFX
+p:Eutelsat,f:1
+0520:00820000:2e7c:013f:1:0
+Novo 19
+p:Eutelsat,f:1
+0521:00820000:2e7c:013f:1:0
+LCP - La Chaîne Parlementaire
+p:Eutelsat,f:1
+0522:00820000:2e7c:013f:1:0
+France 4
+p:Eutelsat,f:1
+0524:00820000:2e7c:013f:1:0
+C News
+p:Eutelsat,f:1
+0528:00820000:2e7c:013f:1:0
+TF1 Series Films
+p:Eutelsat,f:1
+0529:00820000:2e7c:013f:1:0
+L´Equipe
+p:Eutelsat,f:1
+052a:00820000:2e7c:013f:1:0
+6ter
+p:Eutelsat,f:1
+052b:00820000:2e7c:013f:1:0
+RMC Story
+p:Eutelsat,f:1
+052c:00820000:2e7c:013f:1:0
+RMC Découverte
+p:Eutelsat,f:1
+052d:00820000:2e7c:013f:1:0
+Cherie 25
+p:Eutelsat,f:1
+052e:00820000:2e7c:013f:1:0
+LCI - La Chaîne Info
+p:Eutelsat,f:1
+0587:00820000:170c:013f:1:0
+BFM TV
+p:Eutelsat,f:1
+0589:00820000:170c:013f:1:0
+CStar
+p:Eutelsat,f:1
+058a:00820000:170c:013f:1:0
+Gulli
+p:Eutelsat,f:1
+058b:00820000:170c:013f:1:0
+franceinfo
+p:Eutelsat,f:1
+058c:00820000:170c:013f:1:0
+Ushuaia
+p:AB Sat,f:1
+058d:00820000:170c:013f:1:0
+Equidia
+p:AB Sat,f:1
+05ab:00820000:170c:013f:1:0
+RTL 9
+p:AB Sat,f:1
+05ac:00820000:170c:013f:1:0
+AB 1
+p:AB Sat,f:1
+05ad:00820000:170c:013f:1:0
+Automoto La Chaine
+p:AB Sat,f:1
+05ae:00820000:170c:013f:1:0
+Animaux
+p:AB Sat,f:1
+05af:00820000:170c:013f:1:0
+Chasse et Pêche
+p:AB Sat,f:1
+05b0:00820000:170c:013f:1:0
+TV Breizh
+p:AB Sat,f:1
+05b1:00820000:170c:013f:1:0
+Crime District
+p:AB Sat,f:1
+05b2:00820000:170c:013f:1:0
+Trek
+p:AB Sat,f:1
+05b3:00820000:170c:013f:1:0
+Toute l´Histoire
+p:AB Sat,f:1
+05b5:00820000:170c:013f:1:0
+Action
+p:AB Sat,f:1
+05b6:00820000:170c:013f:1:0
+Mangas
+p:AB Sat,f:1
+05b7:00820000:170c:013f:1:0
+Science et Vie
+p:AB Sat,f:1
+05ba:00820000:170c:013f:1:0
+Téva
+p:AB Sat,f:1
+05bc:00820000:170c:013f:1:0
+XXL
+p:AB Sat,f:1
+05be:00820000:170c:013f:1:0
+Padel Time TV
+p:AB Sat,f:1
 0fa0:00300000:0006:0056:1:0
 TVN Chile Nordic
 p:SES ASTRA,f:1
@@ -6629,6 +6758,9 @@ p:VIASAT,f:1
 17eb:00300000:000c:0055:22:0
 Svit+
 p:1plus1 Media,f:1
+1805:00300000:000c:0055:22:0
+Karavan TV
+p:1plus1 Media,f:1
 0005:00300000:00c9:0001:1:0
 WHTV1
 p:SIS Limited,f:1
@@ -6833,6 +6965,9 @@ p:,f:1
 00c8:00302fc2:0004:0001:1:0
 MTN SE HD2
 p:,f:1
+1dab:00302f28:107b:0055:2:0
+Golos Kyiva
+p:
 040a:0e080000:0044:0046:25:0
 TV 2 Sport Premium HD
 p:Canal Digital Nordic,f:1
@@ -8238,7 +8373,7 @@ p:Telenor
 NRK Nyheter
 p:Telenor
 1ed0:0e080000:0046:0046:2:0
-NRK P13
+NRK P3 Musikk
 p:Telenor
 1ed1:0e080000:0046:0046:2:0
 NRK Været til sjøs
@@ -8444,11 +8579,8 @@ p:Slovak Telekom,f:1
 07e4:0e080000:0af2:00bb:22:0
 Markiza Klasik
 p:Slovak Telekom,f:1
-07e8:0e080000:0af2:00bb:1:0
-
-p:,f:1
 07e8:0e080000:0af2:00bb:25:0
-CT :D/ CT Art HD
+CT D/CT Art HD
 p:Slovak Telekom,f:1
 07e9:0e080000:0af2:00bb:22:0
 DVTV Extra SK
@@ -8697,7 +8829,7 @@ p:Slovak Telekom,f:1
 Pilot
 p:Slovak Telekom,f:1
 1783:0e080000:0af6:00bb:25:0
-Test service2
+Prima Krimi SK HD
 p:Slovak Telekom,f:1
 79e3:0e080000:02c8:0600:1:0
 CNN International Europe
@@ -9174,7 +9306,7 @@ p:DIGI
 TVR Info
 p:DIGI,f:1
 0fac:0e080000:0af4:00bb:25:0
-Prima Krimi HD
+Prima Krimi SK HD
 p:Slovak Telekom,f:1
 0fae:0e080000:0af4:00bb:1:0
 Barrandov Krimi
@@ -9443,14 +9575,14 @@ p:Slovak Telekom,f:1
 233d:0e080000:0af9:00bb:22:0
 Seznam.cz TV
 p:Slovak Telekom,f:1
-2341:0e080000:0af9:00bb:25:0
-History HD
-p:Slovak Telekom,f:1
 233a:0e080000:0af9:00bb:25:0
 JOJ Sport 2 HD
 p:Slovak Telekom,f:1
 2343:0e080000:0af9:00bb:25:0
 Jojko
+p:Slovak Telekom,f:1
+2341:0e080000:0af9:00bb:25:0
+Test Service
 p:Slovak Telekom,f:1
 000d:fff8acc4:0001:0001:25:0
 Adtec 1
@@ -9806,9 +9938,6 @@ p:alla,f:1
 0001:fff8315e:0000:0000:25:0
 ROH-Live
 p:ROH,f:1
-0001:0e083143:0000:0000:25:0
-ROH-Live
-p:ROH,f:1
 1b64:fff80000:0af7:00bb:22:0
 Disney Junior
 p:Slovak Telekom,f:1
@@ -9869,6 +9998,9 @@ p:Telenor,f:1
 fffa:fff83095:004f:0046:1:0
 
 p:,f:1
+feb2:fff83095:004f:0046:1:0
+
+p:,f:1
 1d58:fff830bc:0050:0046:25:0
 Nelonen HD
 p:Telenor,f:1
@@ -9920,9 +10052,6 @@ p:Service Provider,f:1
 0001:0e08aceb:0001:0001:25:0
 SLQ-002 MAIN
 p:SLQ-002,f:1
-0001:fff8aadd:0001:0001:1:0
-Boxing Mn
-p:TimelineTV,f:1
 0001:fff8ad88:0001:0001:25:0
 CITRONSHOW
 p:SLQ-004,f:1
@@ -9944,6 +10073,12 @@ p:EMG Connectivity,f:1
 0002:fff8ace8:00a0:0000:1:0
 NLEMG HOL
 p:EMG Connectivity,f:1
+0001:0e08aadd:0000:0000:25:0
+
+p:,f:1
+0001:0e083143:0001:ffff:1:0
+INTER ALIA
+p:LINKS BROADCAST,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2025
