@@ -237,6 +237,9 @@ transponders
 011ab11d:0001:ffff
 	s 12573000:7200000:1:4:282:2:0:1:2:0:2
 /
+011a0000:07e1:0002
+	s 12032000:29500000:0:2:282:2:0:1:2:1:2
+/
 00eb0000:0c91:0003
 	s 12032000:27500000:0:9:235:2:0:1:1:0:2
 /
@@ -452,6 +455,9 @@ transponders
 /
 00eb0000:0c9f:0003
 	s 12304000:30000000:0:3:235:2:0:1:2:2:2
+/
+00eb2f4d:0c95:0000
+	s 12109000:29900000:0:3:235:2:0:1:2:2:2
 /
 00c00000:041d:0001
 	s 10773000:22000000:0:3:192:2:0:1:2:0:2
@@ -1412,12 +1418,6 @@ p:BSkyB,f:1
 0f13:011a0000:07dc:0002:1:0
 SkySp+
 p:BSkyB,f:1
-14b5:011a0000:07dc:0002:1:0
-Sky Sports Main Events
-p:BSkyB,f:1
-1078:011a0000:07dc:0002:1:0
-SkySpMainEv
-p:BSkyB,f:1
 132e:011a0000:07dc:0002:1:0
 Sky Sports News
 p:BSkyB,f:1
@@ -1447,9 +1447,6 @@ Sky Sports Premier League
 p:BSkyB,f:1
 1073:011a0000:07dc:0002:1:0
 SkySp News
-p:BSkyB,f:1
-109f:011a0000:07dc:0002:1:0
-SkySpMainEv
 p:BSkyB,f:1
 1089:011a0000:07dc:0002:1:0
 SkySp Golf
@@ -1504,9 +1501,6 @@ Racing TV
 p:BSkyB,f:1
 cb9b:011a0000:083c:0002:1:0
 Islam Channel
-p:BSkyB,f:1
-d7e8:011a0000:082c:0002:25:0
-Racing TV HD
 p:BSkyB,f:1
 d35b:011a0000:0830:0002:1:0
 SAB TV
@@ -1628,9 +1622,6 @@ p:BSkyB
 d797:011a0000:082f:0002:2:0
 Heart 80s
 p:BSkyB
-d773:011a0000:082f:0002:1:0
-Kanshi TV
-p:BSkyB,f:1
 d766:011a0000:082f:0002:1:0
 Channel S TV
 p:BSkyB,f:1
@@ -1891,6 +1882,9 @@ ATN Bangla UK
 p:BSkyB,f:1
 cf9d:011a0000:083a:0002:1:0
 Eman Channel
+p:BSkyB,f:1
+cfa3:011a0000:083a:0002:1:0
+Kanshi TV
 p:BSkyB,f:1
 cd55:011a0000:0844:0002:25:0
 S4C HD
@@ -2699,6 +2693,9 @@ p:BSkyB,f:1
 1dc0:011a0000:082d:0002:1:0
 Channels 24
 p:BSkyB,f:1
+1dc1:011a0000:082d:0002:1:0
+DM News English
+p:BSkyB,f:1
 0001:011ab168:0000:0000:25:0
 VRT Sat Encoder 1
 p:VRT,f:1
@@ -2827,6 +2824,9 @@ Sky Witness Ireland
 p:BSkyB,f:1
 1906:011a0000:07e4:0002:1:0
 Sky News Ireland
+p:BSkyB,f:1
+109f:011a0000:07e4:0002:1:0
+Sky Sports Main Events
 p:BSkyB,f:1
 0001:011a3157:0001:ffff:1:0
 BBC D Day 80 INT
@@ -3224,6 +3224,9 @@ p:Digisat,f:1
 1a2d:011aad6a:0834:0002:25:0
 LoveWorld HD
 p:BSkyB,f:1
+1a2c:011aad6a:0834:0002:25:0
+Racing TV HD
+p:BSkyB,f:1
 0001:011a30e9:0000:0000:25:0
 ITN Touring cars Donnington NEP 82
 p:,f:1
@@ -3236,6 +3239,39 @@ p:rt1.tv,f:1
 0001:011ab11d:0001:ffff:1:0
 D535 Bremen
 p:Television,f:1
+ccb0:011a0000:07e1:0002:1:0
+Investigation Discovery UK
+p:BSkyB,f:1
+ccb5:011a0000:07e1:0002:1:0
+Animal Planet +1
+p:BSkyB,f:1
+ccba:011a0000:07e1:0002:1:0
+Discovery Science +1
+p:BSkyB,f:1
+ccbf:011a0000:07e1:0002:1:0
+Discovery Channel +1
+p:BSkyB,f:1
+ccc4:011a0000:07e1:0002:1:0
+HGTV
+p:BSkyB,f:1
+ccca:011a0000:07e1:0002:1:0
+Investigation Discovery +1
+p:BSkyB,f:1
+ccd3:011a0000:07e1:0002:1:0
+Discovery History +1
+p:BSkyB,f:1
+cce2:011a0000:07e1:0002:1:0
+Quest Red
+p:BSkyB,f:1
+cce7:011a0000:07e1:0002:1:0
+Discovery Turbo +1 UK
+p:BSkyB,f:1
+ccec:011a0000:07e1:0002:1:0
+Discovery Channel Ireland
+p:BSkyB,f:1
+ccf1:011a0000:07e1:0002:1:0
+Investigation Discovery Ireland
+p:BSkyB,f:1
 17d7:00eb0000:0c91:0003:25:0
 AutoMotorSport HD
 p:Canal Digitaal,f:1
@@ -4775,9 +4811,6 @@ p:Telekom Srbija,f:1
 4e3b:00eb0000:0ca7:0003:25:0
 Eurosport 2 HD
 p:Telekom Srbija,f:1
-4e3d:00eb0000:0ca7:0003:1:0
-SOS Kanal Plus
-p:Telekom Srbija,f:1
 4e3e:00eb0000:0ca7:0003:1:0
 Nickelodeon
 p:Telekom Srbija,f:1
@@ -4814,18 +4847,12 @@ p:Telekom Srbija,f:1
 4e4f:00eb0000:0ca7:0003:1:0
 Pink Thriller
 p:Telekom Srbija,f:1
-4e50:00eb0000:0ca7:0003:1:0
-Pink Crime & Mystery
-p:Telekom Srbija,f:1
 4e51:00eb0000:0ca7:0003:1:0
 Pink Comedy
 p:Telekom Srbija,f:1
 4e52:00eb0000:0ca7:0003:1:0
 Arena ESport
 p:,f:1
-4e53:00eb0000:0ca7:0003:1:0
-Pink Western
-p:Telekom Srbija,f:1
 4e55:00eb0000:0ca7:0003:1:0
 Pink Sci-Fi & Fantasy
 p:Telekom Srbija,f:1
@@ -5315,6 +5342,12 @@ p:Telekom Srbija,f:1
 4e42:00eb0000:0c9c:0003:1:0
 Pink Romance
 p:Telekom Srbija,f:1
+4e3d:00eb0000:0c9c:0003:1:0
+SOS Kanal Plus
+p:Telekom Srbija,f:1
+4e50:00eb0000:0c9c:0003:1:0
+Pink Crime & Mystery
+p:Telekom Srbija,f:1
 4f44:00eb0000:0c9f:0003:1:0
 Test service 2
 p:Telekom Srbija,f:1
@@ -5383,6 +5416,9 @@ Prva MAX
 p:Telekom Srbija,f:1
 4e65:00eb0000:0c9f:0003:1:0
 Da Vinci
+p:Telekom Srbija,f:1
+4e53:00eb0000:0c9f:0003:1:0
+Pink Western
 p:Telekom Srbija,f:1
 526c:00c00000:041d:0001:25:0
 Anixe HD
@@ -8417,11 +8453,11 @@ p:CSAT,f:1
 22d0:00c00000:0434:0001:1:0
 
 p:,f:1
-22d8:00c00000:0434:0001:1:0
-
-p:,f:1
 22c9:00c00000:0434:0001:1:0
 France 3 Picardie
+p:CSAT,f:1
+22d8:00c00000:0434:0001:25:0
+PANNEAU ARRET G5
 p:CSAT,f:1
 24be:00c00000:043c:0001:25:0
 Eurosport 2 HD

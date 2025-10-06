@@ -237,6 +237,9 @@ transponders
 011ab11d:0001:ffff
 	s 12573000:7200000:1:4:282:2:0:1:2:0:2
 /
+011a0000:07e1:0002
+	s 12032000:29500000:0:2:282:2:0:1:2:1:2
+/
 00c00000:041d:0001
 	s 10773000:22000000:0:3:192:2:0:1:2:0:2
 /
@@ -1463,12 +1466,6 @@ p:BSkyB,f:1
 0f13:011a0000:07dc:0002:1:0
 SkySp+
 p:BSkyB,f:1
-14b5:011a0000:07dc:0002:1:0
-Sky Sports Main Events
-p:BSkyB,f:1
-1078:011a0000:07dc:0002:1:0
-SkySpMainEv
-p:BSkyB,f:1
 132e:011a0000:07dc:0002:1:0
 Sky Sports News
 p:BSkyB,f:1
@@ -1498,9 +1495,6 @@ Sky Sports Premier League
 p:BSkyB,f:1
 1073:011a0000:07dc:0002:1:0
 SkySp News
-p:BSkyB,f:1
-109f:011a0000:07dc:0002:1:0
-SkySpMainEv
 p:BSkyB,f:1
 1089:011a0000:07dc:0002:1:0
 SkySp Golf
@@ -1555,9 +1549,6 @@ Racing TV
 p:BSkyB,f:1
 cb9b:011a0000:083c:0002:1:0
 Islam Channel
-p:BSkyB,f:1
-d7e8:011a0000:082c:0002:25:0
-Racing TV HD
 p:BSkyB,f:1
 d35b:011a0000:0830:0002:1:0
 SAB TV
@@ -1679,9 +1670,6 @@ p:BSkyB
 d797:011a0000:082f:0002:2:0
 Heart 80s
 p:BSkyB
-d773:011a0000:082f:0002:1:0
-Kanshi TV
-p:BSkyB,f:1
 d766:011a0000:082f:0002:1:0
 Channel S TV
 p:BSkyB,f:1
@@ -1942,6 +1930,9 @@ ATN Bangla UK
 p:BSkyB,f:1
 cf9d:011a0000:083a:0002:1:0
 Eman Channel
+p:BSkyB,f:1
+cfa3:011a0000:083a:0002:1:0
+Kanshi TV
 p:BSkyB,f:1
 cd55:011a0000:0844:0002:25:0
 S4C HD
@@ -2750,6 +2741,9 @@ p:BSkyB,f:1
 1dc0:011a0000:082d:0002:1:0
 Channels 24
 p:BSkyB,f:1
+1dc1:011a0000:082d:0002:1:0
+DM News English
+p:BSkyB,f:1
 0001:011ab168:0000:0000:25:0
 VRT Sat Encoder 1
 p:VRT,f:1
@@ -2878,6 +2872,9 @@ Sky Witness Ireland
 p:BSkyB,f:1
 1906:011a0000:07e4:0002:1:0
 Sky News Ireland
+p:BSkyB,f:1
+109f:011a0000:07e4:0002:1:0
+Sky Sports Main Events
 p:BSkyB,f:1
 0001:011a3157:0001:ffff:1:0
 BBC D Day 80 INT
@@ -3275,6 +3272,9 @@ p:Digisat,f:1
 1a2d:011aad6a:0834:0002:25:0
 LoveWorld HD
 p:BSkyB,f:1
+1a2c:011aad6a:0834:0002:25:0
+Racing TV HD
+p:BSkyB,f:1
 0001:011a30e9:0000:0000:25:0
 ITN Touring cars Donnington NEP 82
 p:,f:1
@@ -3287,6 +3287,39 @@ p:rt1.tv,f:1
 0001:011ab11d:0001:ffff:1:0
 D535 Bremen
 p:Television,f:1
+ccb0:011a0000:07e1:0002:1:0
+Investigation Discovery UK
+p:BSkyB,f:1
+ccb5:011a0000:07e1:0002:1:0
+Animal Planet +1
+p:BSkyB,f:1
+ccba:011a0000:07e1:0002:1:0
+Discovery Science +1
+p:BSkyB,f:1
+ccbf:011a0000:07e1:0002:1:0
+Discovery Channel +1
+p:BSkyB,f:1
+ccc4:011a0000:07e1:0002:1:0
+HGTV
+p:BSkyB,f:1
+ccca:011a0000:07e1:0002:1:0
+Investigation Discovery +1
+p:BSkyB,f:1
+ccd3:011a0000:07e1:0002:1:0
+Discovery History +1
+p:BSkyB,f:1
+cce2:011a0000:07e1:0002:1:0
+Quest Red
+p:BSkyB,f:1
+cce7:011a0000:07e1:0002:1:0
+Discovery Turbo +1 UK
+p:BSkyB,f:1
+ccec:011a0000:07e1:0002:1:0
+Discovery Channel Ireland
+p:BSkyB,f:1
+ccf1:011a0000:07e1:0002:1:0
+Investigation Discovery Ireland
+p:BSkyB,f:1
 526c:00c00000:041d:0001:25:0
 Anixe HD
 p:BetaDigital,f:1
@@ -6320,11 +6353,11 @@ p:CSAT,f:1
 22d0:00c00000:0434:0001:1:0
 
 p:,f:1
-22d8:00c00000:0434:0001:1:0
-
-p:,f:1
 22c9:00c00000:0434:0001:1:0
 France 3 Picardie
+p:CSAT,f:1
+22d8:00c00000:0434:0001:25:0
+PANNEAU ARRET G5
 p:CSAT,f:1
 24be:00c00000:043c:0001:25:0
 Eurosport 2 HD
@@ -13025,6 +13058,24 @@ p:M7,f:1
 75a4:0e080000:02bd:0600:1:0
 Viasat6
 p:M7,f:1
+75b9:0e080000:02bd:0600:1:0
+Viasat Nature
+p:M7,f:1
+75ba:0e080000:02bd:0600:1:0
+FilmBox Family
+p:M7,f:1
+75bb:0e080000:02bd:0600:1:0
+Film Cafe
+p:M7,f:1
+75bc:0e080000:02bd:0600:1:0
+Film+
+p:M7,f:1
+75bd:0e080000:02bd:0600:1:0
+Film Cafe
+p:M7,f:1
+75be:0e080000:02bd:0600:1:0
+Film+.
+p:M7,f:1
 75fb:0e080000:02be:0600:1:0
 Film +
 p:M7,f:1
@@ -13375,6 +13426,9 @@ Film Cafe.
 p:M7,f:1
 76dc:0e080000:02c0:0600:1:0
 TVR Sport
+p:M7,f:1
+76e3:0e080000:02c0:0600:1:0
+RTL
 p:M7,f:1
 77a7:0e080000:02c2:0600:1:0
 Nick Jr Czech
@@ -13970,6 +14024,9 @@ p:M7,f:1
 7737:0e080000:02c1:0600:25:0
 HBO HD HU
 p:M7,f:1
+7741:0e080000:02c1:0600:25:0
+Nat Geo Wild CZ HD
+p:M7,f:1
 1d12:0e080000:0042:0046:25:0
 TV4 Sport Live 2 HD
 p:Telenor,f:1
@@ -14252,6 +14309,9 @@ p:Telenor,f:1
 1c82:0e080000:000a:0046:25:0
 National Geographic HD (S/F)
 p:Telenor,f:1
+42bc:0e080000:000a:0046:25:0
+Kuukauden kanava
+p:Telenor,f:1
 1d09:0e080000:0041:0046:25:0
 V Sport Premier League HD
 p:Telenor,f:1
@@ -14429,6 +14489,27 @@ p:M7,f:1
 79e7:0e080000:02c8:0600:1:0
 CNN.
 p:M7,f:1
+7a06:0e080000:02c8:0600:1:0
+ATV Extra
+p:M7,f:1
+7a07:0e080000:02c8:0600:1:0
+Film+ CZE
+p:M7,f:1
+7a08:0e080000:02c8:0600:1:0
+Minimax HU
+p:M7,f:1
+7a09:0e080000:02c8:0600:1:0
+Magyar ATV
+p:M7,f:1
+7a0a:0e080000:02c8:0600:1:0
+ATV (SVT)
+p:M7,f:1
+7a0b:0e080000:02c8:0600:1:0
+Film+ CZE SVT
+p:M7,f:1
+7a0c:0e080000:02c8:0600:1:0
+ATV Extra.
+p:M7,f:1
 797e:0e080000:02c7:0600:1:0
 Cartoon Network Eastern Europe
 p:M7,f:1
@@ -14536,6 +14617,18 @@ AXN White.
 p:M7,f:1
 79a5:0e080000:02c7:0600:1:0
 AXN Black.
+p:M7,f:1
+79a6:0e080000:02c7:0600:1:0
+Duna World / M4 Sport+
+p:M7,f:1
+79a7:0e080000:02c7:0600:1:0
+FilmBox Stars INT
+p:M7,f:1
+79a8:0e080000:02c7:0600:1:0
+Duna World / M4 Sport+.
+p:M7,f:1
+79a9:0e080000:02c7:0600:1:0
+Duna World / M4 Sport+ SVT
 p:M7,f:1
 1cf3:0e080000:0019:0046:1:0
 Blue Hustler
@@ -15425,6 +15518,9 @@ p:M7,f:1
 7ab1:fff80000:02cc:0600:25:0
 Arena 4 HD
 p:M7,f:1
+7ac0:fff80000:02cc:0600:25:0
+Kanal D HD
+p:M7,f:1
 00bb:fff8b0e6:0001:ffff:1:0
 B 187 DGI
 p:DIGI News,f:1
@@ -15500,12 +15596,24 @@ p:TANDBERG Television,f:1
 32d4:fff83095:004f:0046:22:0
 Test 13012
 p:Telenor,f:1
-fffa:fff83095:004f:0046:1:0
-
-p:,f:1
 feb2:fff83095:004f:0046:1:0
 
 p:,f:1
+feb0:fff83095:004f:0046:2:0
+ 
+p: 
+feb3:fff83095:004f:0046:2:0
+ 
+p: 
+feb4:fff83095:004f:0046:2:0
+ 
+p: 
+feb5:fff83095:004f:0046:2:0
+ 
+p: 
+feb1:fff83095:004f:0046:100:0
+ 
+p: 
 1d58:fff830bc:0050:0046:25:0
 Nelonen HD
 p:Telenor,f:1
