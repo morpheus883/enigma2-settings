@@ -198,9 +198,6 @@ transponders
 00820000:2fa8:013e
 	s 10949000:27500000:1:2:130:2:0:1:2:0:2
 /
-00820000:2db4:013e
-	s 10853000:29900000:0:2:130:2:0:1:2:0:2
-/
 00820000:2580:00d5
 	s 12635000:30000000:1:4:130:2:0:1:2:2:2
 /
@@ -302,6 +299,21 @@ transponders
 /
 0082b138:0014:ffff
 	s 12600000:7200000:1:3:130:2:0:1:2:0:2
+/
+00820000:2db4:013e
+	s 10853000:29900000:0:2:130:2:0:1:2:0:2
+/
+0082aa4d:0001:ff00
+	s 10829000:7200000:1:3:130:2:0:1:2:0:2
+/
+0082b138:0001:0001
+	s 12600000:7200000:1:3:130:2:0:1:2:0:2
+/
+00820000:0000:006f
+	s 10839000:7200000:1:3:130:2:0:1:2:0:2
+/
+0082ac5b:0c07:0001
+	s 11355000:27500000:1:3:130:2:0:1:2:2:2
 /
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
@@ -1550,9 +1562,6 @@ p:NOVA,f:1
 0149:00820000:157c:013e:1:0
 Smile TV
 p:NOVA,f:1
-013e:00820000:157c:013e:1:0
-NovaSportsExtra2HD
-p:NOVA,f:1
 0153:00820000:157c:013e:1:0
 
 p:,f:1
@@ -1594,6 +1603,9 @@ M1_SID327
 p:NOVA,f:1
 014c:00820000:157c:013e:1:0
 M1_SID332 Cy
+p:NOVA,f:1
+013e:00820000:157c:013e:1:0
+Mega HD
 p:NOVA,f:1
 10e7:00820000:1644:fbff:130:0
 SkyTG24 Mosaico
@@ -4146,7 +4158,7 @@ p:Eutelsat,f:1
 RMC Découverte
 p:Eutelsat,f:1
 0145:00820000:3e1c:013f:1:0
-Cherie 25
+RMC Life
 p:Eutelsat,f:1
 0146:00820000:3e1c:013f:1:0
 LCI - La Chaîne Info
@@ -4191,7 +4203,7 @@ p:Warner Bros. Discovery,f:1
 Turbo Xtra Poland HD
 p:Warner Bros. Discovery,f:1
 3b6c:00820000:012c:013e:25:0
-WarnerTV Italy HD
+Discovery Italy HD
 p:Warner Bros. Discovery,f:1
 3b6d:00820000:012c:013e:25:0
 CNNi EMEA HD
@@ -4233,7 +4245,7 @@ p:,f:1
 DAZN 2
 p:,f:1
 0049:0082ae8f:1770:00be:25:0
-La7d HD
+La7 Cinema
 p:,f:1
 004f:0082ae8f:1770:00be:25:0
 La7 HD
@@ -4304,108 +4316,6 @@ p:Svoboda Satellite,f:1
 0069:00820000:2fa8:013e:22:0
 Svoboda+
 p:Svoboda Satellite,f:1
-00d0:00820000:2db4:013e:25:7
-Kabelio Carac 1
-p:KABELIO.CH,f:1
-00ce:00820000:2db4:013e:25:0
-Kabelio Tele M1
-p:KABELIO.CH,f:1
-00c9:00820000:2db4:013e:25:0
-Kabelio Tele Baern
-p:KABELIO.CH,f:1
-00cf:00820000:2db4:013e:25:0
-Kabelio Leman Bleu
-p:KABELIO.CH,f:1
-00fb:00820000:2db4:013e:25:0
-Kabelio Canale 5
-p:KABELIO.CH,f:1
-00ca:00820000:2db4:013e:25:0
-Kabelio Tele Basel
-p:KABELIO.CH,f:1
-00cb:00820000:2db4:013e:25:0
-Kabelio Tele 1
-p:KABELIO.CH,f:1
-00cc:00820000:2db4:013e:25:0
-Kabelio TVO
-p:KABELIO.CH,f:1
-00cd:00820000:2db4:013e:25:0
-Kabelio TV SuedOst
-p:KABELIO.CH,f:1
-00f1:00820000:2db4:013e:25:0
-Kabelio TF1 CH
-p:KABELIO.CH,f:1
-00f2:00820000:2db4:013e:25:0
-Kabelio M6 Music
-p:KABELIO.CH,f:1
-00d5:00820000:2db4:013e:25:0
-Kabelio Blue Zoom
-p:KABELIO.CH,f:1
-00d3:00820000:2db4:013e:25:0
-Kabelio Swiss1
-p:KABELIO.CH,f:1
-00dd:00820000:2db4:013e:25:0
-Kabelio BBC1 London
-p:KABELIO.CH,f:1
-00de:00820000:2db4:013e:25:0
-Kabelio BBC2
-p:KABELIO.CH,f:1
-00e1:00820000:2db4:013e:25:0
-Kabelio ITV1 London
-p:KABELIO.CH,f:1
-00e0:00820000:2db4:013e:25:0
-Kabelio BBC4/CBBCs
-p:KABELIO.CH,f:1
-00e5:00820000:2db4:013e:25:0
-Kabelio Channel 4
-p:KABELIO.CH,f:1
-00e6:00820000:2db4:013e:25:0
-Kabelio Channel 5
-p:KABELIO.CH,f:1
-00e3:00820000:2db4:013e:25:0
-Kabelio ITV3
-p:KABELIO.CH,f:1
-00e4:00820000:2db4:013e:25:0
-Kabelio ITV4
-p:KABELIO.CH,f:1
-00df:00820000:2db4:013e:25:0
-Kabelio BBC3/CBBC
-p:KABELIO.CH,f:1
-00d4:00820000:2db4:013e:25:0
-Kabelio Auftanken.TV
-p:KABELIO.CH,f:1
-00e2:00820000:2db4:013e:25:0
-Kabelio ITV2
-p:KABELIO.CH,f:1
-00e7:00820000:2db4:013e:25:0
-Kabelio Film 4
-p:KABELIO.CH,f:1
-00f3:00820000:2db4:013e:25:0
-Kabelio RTL9 CH
-p:KABELIO.CH,f:1
-00fc:00820000:2db4:013e:22:0
-Kabelio BVN
-p:KABELIO.CH,f:1
-00fd:00820000:2db4:013e:25:0
-Kabelio S1
-p:KABELIO.CH,f:1
-0101:00820000:2db4:013e:25:0
-Kabelio TV8 Italia
-p:KABELIO.CH,f:1
-00fe:00820000:2db4:013e:25:0
-Kabelio TMC CH
-p:KABELIO.CH,f:1
-0100:00820000:2db4:013e:25:0
-Kabelio Sky News
-p:KABELIO.CH,f:1
-0104:00820000:2db4:013e:25:0
-Kabelio Wedo Movies
-p:KABELIO.CH,f:1
-0105:00820000:2db4:013e:25:0
-Kabelio Wedo Sport
-p:KABELIO.CH,f:1
-0106:00820000:2db4:013e:25:0
-Kabelio Wedo Big Stories
-p:KABELIO.CH,f:1
 0001:00820000:2580:00d5:1:0
 bTV
 p:NURTS,f:1
@@ -5976,7 +5886,7 @@ p:Eutelsat,f:1
 RMC Découverte
 p:Eutelsat,f:1
 052d:00820000:2e7c:013f:1:0
-Cherie 25
+RMC Life
 p:Eutelsat,f:1
 052e:00820000:2e7c:013f:1:0
 LCI - La Chaîne Info
@@ -6056,9 +5966,21 @@ p:GLOBECAST,f:1
 7537:00820000:0001:00c8:1:0
 T100 Spain
 p:GlobeCast UK,f:1
-0193:0082b138:0014:ffff:25:0
-Service_MENA_03
-p:Globecast,f:1
+0001:0082aa4d:0001:ff00:25:0
+CZE-012-M_BCL Nymburk
+p:,f:1
+0001:0082b138:0001:0001:25:0
+ITA 795
+p:MOST,f:1
+0001:00820000:0000:006f:25:0
+F32/C1 WF BADMINTON
+p:OE Reportages,f:1
+0320:0082ac5b:0c07:0001:1:0
+INT_OS_PLATFORM
+p:Eutelsat,f:1
+00c8:0082ac5b:0c07:0001:12:0
+SmartLNB
+p:EUTELSAT
 0fa0:00300000:0006:0056:1:0
 TVN Chile Nordic
 p:SES ASTRA,f:1
@@ -6094,12 +6016,6 @@ Voice
 p:
 19d2:00300000:0010:0055:1:0
 2+2
-p:,f:1
-1a13:00300000:0010:0055:1:0
-Army TV
-p:,f:1
-19dc:00300000:0010:0055:1:0
-DIM TV
 p:,f:1
 19e6:00300000:0010:0055:1:0
 STB SD
@@ -6203,27 +6119,12 @@ p:,f:1
 03e7:00300000:0065:0001:0:0
 
 p:
-1b44:00300000:0011:0055:1:0
-Espreso TV
-p:,f:1
 1b03:00300000:0011:0055:22:0
 Nadiya
-p:,f:1
-1af4:00300000:0011:0055:2:0
-ARMY FM
-p:
-1b26:00300000:0011:0055:1:0
-Pryamiy
 p:,f:1
 1b1c:00300000:0011:0055:1:0
 Sonata TV
 p:,f:1
-1b4e:00300000:0011:0055:1:0
-Kyiv TV
-p:,f:1
-1afc:00300000:0011:0055:2:0
-Golos Kyiva
-p:
 1af6:00300000:0011:0055:2:0
 Emmanuel
 p:Svitle Radio
@@ -6815,6 +6716,9 @@ p:1plus1 Media,f:1
 1805:00300000:000c:0055:22:0
 Karavan TV
 p:1plus1 Media,f:1
+1806:00300000:000c:0055:22:0
+Army TV
+p:1plus1 Media,f:1
 0005:00300000:00c9:0001:1:0
 WHTV1
 p:SIS Limited,f:1
@@ -7019,9 +6923,6 @@ p:,f:1
 00c8:00302fc2:0004:0001:1:0
 MTN SE HD2
 p:,f:1
-1dab:00302f28:107b:0055:2:0
-Golos Kyiva
-p:
 040a:0e080000:0044:0046:25:0
 TV 2 Sport Premium HD
 p:Canal Digital Nordic,f:1
@@ -10121,24 +10022,9 @@ p:TANDBERG Television,f:1
 32d4:fff83095:004f:0046:22:0
 Test 13012
 p:Telenor,f:1
-feb2:fff83095:004f:0046:1:0
-
-p:,f:1
-feb0:fff83095:004f:0046:2:0
+feb0:fff83095:004f:0046:1:0
  
-p: 
-feb3:fff83095:004f:0046:2:0
- 
-p: 
-feb4:fff83095:004f:0046:2:0
- 
-p: 
-feb5:fff83095:004f:0046:2:0
- 
-p: 
-feb1:fff83095:004f:0046:100:0
- 
-p: 
+p: ,f:1
 1d58:fff830bc:0050:0046:25:0
 Nelonen HD
 p:Telenor,f:1
