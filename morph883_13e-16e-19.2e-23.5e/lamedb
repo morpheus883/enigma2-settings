@@ -531,12 +531,6 @@ transponders
 00c0ad88:0001:ffff
 	s 11656000:7200000:1:3:192:2:0:1:2:0:2
 /
-00c02d55:0000:0000
-	s 11605000:7200000:0:3:192:2:0:1:2:0:2
-/
-00c0ad45:0000:0000
-	s 11589000:7200000:1:3:192:2:0:1:2:0:2
-/
 00c00000:03f6:0001
 	s 11406000:23500000:1:3:192:2:0:1:2:2:2
 /
@@ -557,6 +551,12 @@ transponders
 /
 00c0ad7f:0000:00eb
 	s 11647000:7200000:1:3:192:2:0:1:2:0:2
+/
+00c02d55:0000:0000
+	s 11605000:7200000:0:3:192:2:0:1:2:0:2
+/
+00c0ad45:0001:ffff
+	s 11589000:7200000:1:3:192:2:0:1:2:0:2
 /
 00a00000:0001:0040
 	s 11512000:30000000:0:3:160:2:0:1:2:0:2
@@ -1083,9 +1083,6 @@ transponders
 00822d06:07d3:0002
 	s 11526000:33000000:0:2:130:2:0:1:2:0:2
 /
-00822d2e:3bc4:0001
-	s 11566000:29900000:0:3:130:2:0:1:2:2:2
-/
 00820000:2c24:013e
 	s 10775000:29900000:0:2:130:2:0:1:2:0:2
 /
@@ -1104,12 +1101,6 @@ transponders
 00820000:0001:00c8
 	s 12604000:14240000:1:3:130:2:0:1:2:0:2
 /
-0082b138:0014:ffff
-	s 12600000:7200000:1:3:130:2:0:1:2:0:2
-/
-00820000:2db4:013e
-	s 10853000:29900000:0:2:130:2:0:1:2:0:2
-/
 0082aa4d:0001:ff00
 	s 10829000:7200000:1:3:130:2:0:1:2:0:2
 /
@@ -1121,6 +1112,12 @@ transponders
 /
 0082ac5b:0c07:0001
 	s 11355000:27500000:1:3:130:2:0:1:2:2:2
+/
+00820000:3bc4:013e
+	s 11566000:29900000:0:3:130:2:0:1:2:2:2
+/
+0082abb6:0013:ffff
+	s 11190000:14400000:1:7:130:2:0:1:2:0:2
 /
 end
 services
@@ -2211,10 +2208,10 @@ p:M7 Group,f:1
 Man-X
 p:M7 Group,f:1
 5286:00ebaf61:0c96:0003:22:0
-Play5
+Play Fictie
 p:M7 Group,f:1
 5287:00ebaf61:0c96:0003:22:0
-Play7
+Play Reality
 p:M7 Group,f:1
 52da:00ebaf61:0c96:0003:2:0
 MNM
@@ -2244,7 +2241,7 @@ p:M7 Group,f:1
 Nova Sport 5 HD (SK)
 p:M7 Group,f:1
 527c:00ebaf61:0c96:0003:22:0
-VTM Life
+VTM XMAS
 p:M7 Group,f:1
 1f50:00eb0000:0ca1:0003:22:0
 Story4 HU
@@ -2484,13 +2481,13 @@ p:M7 Group,f:1
 VTM 2 HD
 p:M7 Group,f:1
 1b91:00ebae50:0c88:0003:25:0
-Play4
+Play
 p:M7 Group,f:1
 1b92:00ebae50:0c88:0003:22:0
 RTL Z
 p:M7 Group,f:1
 1b95:00ebae50:0c88:0003:22:0
-Play6
+Play Actie
 p:M7 Group,f:1
 1b97:00ebae50:0c88:0003:22:0
 Crime+Investigation
@@ -3621,7 +3618,7 @@ p:BetaDigital,f:1
 Factoria de Ficcion
 p:Movistar+,f:1
 77c1:00c00000:040a:0001:1:0
-BBC Drama
+BBC Series
 p:Movistar+,f:1
 77c3:00c00000:040a:0001:1:0
 M+ Liga Campeones 2
@@ -3705,11 +3702,11 @@ p:
 
 p:
 76c4:00c00000:040e:0001:1:0
-TEST TXP38
-p:PRISA TV,C:0000,f:1
+BBC Earth Spain
+p:MOVISTAR+,C:0000,f:1
 76c3:00c00000:040e:0001:1:0
-TEST2 TXP38
-p:DCH,C:0000,f:1
+BBC Lifestyle Spain
+p:MOVISTAR+,C:0000,f:1
 76ca:00c00000:040e:0001:1:0
 M+ Hits
 p:Movistar+,f:1
@@ -4185,16 +4182,16 @@ p:ZDF Vision,f:1
 ZDF_neo
 p:ZDF Vision,f:1
 6d6c:00c00000:0437:0001:2:0
-Dlf Kultur
+Dlf Kultur alt
 p:ZDF Vision
 6d6d:00c00000:0437:0001:2:0
-Dlf
+Dlf alt
 p:ZDF Vision
 6d71:00c00000:0437:0001:2:0
-Dlf Nova
+Dlf Nova alt
 p:ZDF Vision
 6d6f:00c00000:0437:0001:2:0
-DRadio DokDeb
+DRadio DokDeb alt
 p:ZDFvision
 6fff:00c00000:0436:0001:1:0
 MTV
@@ -4962,20 +4959,20 @@ p:SES ASTRA,f:1
 ASTRA SDT
 p:SES ASTRA
 2f6c:00c00000:0454:0001:1:0
-Cherie 25
-p:CSAT,f:1
+RMC Life
+p:SES ASTRA,f:1
 2f6d:00c00000:0454:0001:1:0
-Cherie 25
+RMC LIFE
 p:SES ASTRA,f:1
 2f9a:00c00000:0454:0001:1:0
 SBN International
-p:Harmonic,f:1
+p:SES,f:1
 2f69:00c00000:0454:0001:1:0
 Canal Algerie
-p:TDA,f:1
+p:SES ASTRA,f:1
 2f6a:00c00000:0454:0001:1:0
 Algerie 3
-p:TDA,f:1
+p:SES ASTRA,f:1
 1518:00c00000:0455:0001:25:0
 Sonnenklar.TV HD
 p:BetaDigital,f:1
@@ -5129,9 +5126,6 @@ p:-,f:1
 3332:00c00000:045b:0001:22:0
 Shop LC
 p:ORS,f:1
-3333:00c00000:045b:0001:1:0
-Visit-X TV
-p:,f:1
 3339:00c00000:045b:0001:22:0
 L-TV
 p:,f:1
@@ -5156,6 +5150,9 @@ p:ORF,f:1
 3337:00c00000:045b:0001:1:0
 Service 13111
 p:ServusTV,f:1
+3333:00c00000:045b:0001:22:0
+Service 13107
+p:MIT-xperts GmbH,f:1
 33ab:00c00000:03eb:0001:25:0
 Hope Channel Deutsch HD
 p:-,f:1
@@ -6717,7 +6714,7 @@ p:SES,f:1
 Divinity
 p:DIGITAL+,f:1
 7885:00c00000:0414:0001:1:0
-M+ Los 90
+M+ Terror
 p:Movistar+,f:1
 7888:00c00000:0414:0001:1:0
 Boing Spain
@@ -7067,12 +7064,6 @@ p:SES,f:1
 0001:00c0ad88:0001:ffff:1:0
 SR D-551 Enc I
 p:Service Provider,f:1
-0001:00c02d55:0000:0000:25:0
-US Senior Open Day 2 - Europe
-p:SES USA ENC 24,f:1
-0001:00c0ad45:0000:0000:25:0
-
-p:,f:1
 2c24:00c00000:03f6:0001:31:0
 La 1
 p:SES,f:1
@@ -7080,16 +7071,16 @@ p:SES,f:1
 La 2
 p:SES,f:1
 2c26:00c00000:03f6:0001:31:2
-24h
+Canal 24 Horas
 p:SES,f:1
 2c27:00c00000:03f6:0001:31:3
-Clan
+Clan TVE
 p:SES,f:1
 2c28:00c00000:03f6:0001:31:4
 Teledeporte
 p:SES,f:1
 2c2a:00c00000:03f6:0001:31:5
-DKISS
+Dkiss
 p:SES,f:1
 2c29:00c00000:03f6:0001:31:0
 Trece
@@ -7124,6 +7115,12 @@ p:,f:1
 0001:00c0ad7f:0000:00eb:25:0
 D171 feed1
 p:Betamobil,f:1
+0001:00c02d55:0000:0000:25:0
+NFL SAT RTL Week 8 - San Francisco vs Houston
+p:SES Video,f:1
+0001:00c0ad45:0001:ffff:1:0
+SNG-5 | D-481
+p:Service Provider,f:1
 001e:00a00000:0001:0040:22:0
 National Geographic Croatia
 p:Max TV,f:1
@@ -8007,7 +8004,7 @@ p:A1 Broadcasting,f:1
 Prima Love SK
 p:A1 Broadcasting,f:1
 048c:00a00000:76c0:016e:31:0
-Prima MAX HD
+JOJ Svet HD
 p:A1 Broadcasting,f:1
 0483:00a00000:76c0:016e:31:0
 Prima Krimi
@@ -8774,12 +8771,12 @@ p:TEAM SAT,f:1
 0045:00a02bfe:0001:016e:22:0
 OBN
 p:TEAM SAT,f:1
-003e:00a02bfe:0001:016e:1:0
-TV Galaksija
-p:TEAM SAT,f:1
 003a:00a02bfe:0001:016e:25:0
 Hayat HD
 p:TEAM SAT,f:1
+003e:00a02bfe:0001:016e:23:0
+TV Galaksija
+p:TEAM:SAT
 0001:00a03130:0000:0000:25:0
 LNR BRIVE VS TOULOUSE
 p:ADVALEM TECHNOLOGIES,f:1
@@ -10599,7 +10596,7 @@ p:Telespazio,f:1
 TV Romania International
 p:Telespazio,f:1
 4246:00820000:3db8:013e:1:0
-Radio Italia Trend TV HD
+Radio Italia Live
 p:Telespazio,f:1
 4251:00820000:3db8:013e:1:0
 RDS Social TV
@@ -12045,7 +12042,7 @@ p:NOVA,f:1
 M3_SID7107
 p:NOVA,f:1
 1bc9:00820000:17d4:013e:1:0
-M3_SID7113
+Mega News HD
 p:NOVA,f:1
 1bd1:00820000:17d4:013e:1:0
 M3_SID7121
@@ -12066,7 +12063,7 @@ p:M-Three satcom,f:1
 Eutelsat data 1
 p:MIT-xperts GmbH,f:1
 4234:00820000:2f44:013e:1:0
-ByoBlu
+Value 24
 p:M-Three Satcom,f:1
 4232:00820000:2f44:013e:25:0
 Dlia Ciebie TV
@@ -14691,7 +14688,7 @@ p:MuxIP,f:1
 One America News
 p:MuxIP,f:1
 02c2:00820000:14b4:013e:1:0
-AFV Americas Funniest
+Strongman Champions League
 p:MuxIP,f:1
 02c3:00820000:14b4:013e:1:0
 Sports First
@@ -14864,27 +14861,6 @@ p:Telespazio
 0320:00822d06:07d3:0002:1:0
 SERVICE IP/MAC NOTIFICATION
 p:MyIntProvider,f:1
-031e:00822d2e:3bc4:0001:25:0
-Qatar TV HD
-p:GLOBECAST,f:1
-031f:00822d2e:3bc4:0001:1:0
-TRT Arabi HD
-p:GLOBECAST,f:1
-0321:00822d2e:3bc4:0001:1:0
-Euronews English HD
-p:GLOBECAST,f:1
-0323:00822d2e:3bc4:0001:1:0
-TRT World HD
-p:GLOBECAST,f:1
-0326:00822d2e:3bc4:0001:25:0
-Bahrain TV
-p:GLOBECAST,f:1
-0327:00822d2e:3bc4:0001:25:0
-France 24 HD (en Francais)
-p:GLOBECAST,f:1
-0328:00822d2e:3bc4:0001:25:0
-France 24 HD (in English)
-p:GLOBECAST,f:1
 00fc:00820000:2c24:013e:22:0
 Kabelio BVN
 p:KABELIO.CH,f:1
@@ -15140,6 +15116,36 @@ p:Eutelsat,f:1
 00c8:0082ac5b:0c07:0001:12:0
 SmartLNB
 p:EUTELSAT
+0329:00820000:3bc4:013e:1:0
+EZTV 1
+p:,f:1
+0326:00820000:3bc4:013e:25:0
+Bahrain TV
+p:GLOBECAST,f:1
+0321:00820000:3bc4:013e:1:0
+Euronews English HD
+p:GLOBECAST,f:1
+0327:00820000:3bc4:013e:25:0
+France 24 HD (en Francais)
+p:GLOBECAST,f:1
+0328:00820000:3bc4:013e:25:0
+France 24 HD (in English)
+p:GLOBECAST,f:1
+031e:00820000:3bc4:013e:25:0
+Qatar TV HD
+p:GLOBECAST,f:1
+031f:00820000:3bc4:013e:1:0
+TRT Arabi HD
+p:GLOBECAST,f:1
+0323:00820000:3bc4:013e:1:0
+TRT World HD
+p:GLOBECAST,f:1
+0192:0082abb6:0013:ffff:25:0
+Service_MENA_02
+p:Globecast,f:1
+0193:0082abb6:0013:ffff:25:0
+Service_MENA_03
+p:Globecast,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2025

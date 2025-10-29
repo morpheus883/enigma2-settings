@@ -267,9 +267,6 @@ transponders
 00822d06:07d3:0002
 	s 11526000:33000000:0:2:130:2:0:1:2:0:2
 /
-00822d2e:3bc4:0001
-	s 11566000:29900000:0:3:130:2:0:1:2:2:2
-/
 00820000:2c24:013e
 	s 10775000:29900000:0:2:130:2:0:1:2:0:2
 /
@@ -288,12 +285,6 @@ transponders
 00820000:0001:00c8
 	s 12604000:14240000:1:3:130:2:0:1:2:0:2
 /
-0082b138:0014:ffff
-	s 12600000:7200000:1:3:130:2:0:1:2:0:2
-/
-00820000:2db4:013e
-	s 10853000:29900000:0:2:130:2:0:1:2:0:2
-/
 0082aa4d:0001:ff00
 	s 10829000:7200000:1:3:130:2:0:1:2:0:2
 /
@@ -305,6 +296,12 @@ transponders
 /
 0082ac5b:0c07:0001
 	s 11355000:27500000:1:3:130:2:0:1:2:2:2
+/
+00820000:3bc4:013e
+	s 11566000:29900000:0:3:130:2:0:1:2:2:2
+/
+0082abb6:0013:ffff
+	s 11190000:14400000:1:7:130:2:0:1:2:0:2
 /
 0ce40000:0065:0053
 	s 12130000:27500000:0:3:-300:2:0:1:2:0:2
@@ -1191,7 +1188,7 @@ p:Telespazio,f:1
 TV Romania International
 p:Telespazio,f:1
 4246:00820000:3db8:013e:1:0
-Radio Italia Trend TV HD
+Radio Italia Live
 p:Telespazio,f:1
 4251:00820000:3db8:013e:1:0
 RDS Social TV
@@ -2637,7 +2634,7 @@ p:NOVA,f:1
 M3_SID7107
 p:NOVA,f:1
 1bc9:00820000:17d4:013e:1:0
-M3_SID7113
+Mega News HD
 p:NOVA,f:1
 1bd1:00820000:17d4:013e:1:0
 M3_SID7121
@@ -2658,7 +2655,7 @@ p:M-Three satcom,f:1
 Eutelsat data 1
 p:MIT-xperts GmbH,f:1
 4234:00820000:2f44:013e:1:0
-ByoBlu
+Value 24
 p:M-Three Satcom,f:1
 4232:00820000:2f44:013e:25:0
 Dlia Ciebie TV
@@ -5283,7 +5280,7 @@ p:MuxIP,f:1
 One America News
 p:MuxIP,f:1
 02c2:00820000:14b4:013e:1:0
-AFV Americas Funniest
+Strongman Champions League
 p:MuxIP,f:1
 02c3:00820000:14b4:013e:1:0
 Sports First
@@ -5456,27 +5453,6 @@ p:Telespazio
 0320:00822d06:07d3:0002:1:0
 SERVICE IP/MAC NOTIFICATION
 p:MyIntProvider,f:1
-031e:00822d2e:3bc4:0001:25:0
-Qatar TV HD
-p:GLOBECAST,f:1
-031f:00822d2e:3bc4:0001:1:0
-TRT Arabi HD
-p:GLOBECAST,f:1
-0321:00822d2e:3bc4:0001:1:0
-Euronews English HD
-p:GLOBECAST,f:1
-0323:00822d2e:3bc4:0001:1:0
-TRT World HD
-p:GLOBECAST,f:1
-0326:00822d2e:3bc4:0001:25:0
-Bahrain TV
-p:GLOBECAST,f:1
-0327:00822d2e:3bc4:0001:25:0
-France 24 HD (en Francais)
-p:GLOBECAST,f:1
-0328:00822d2e:3bc4:0001:25:0
-France 24 HD (in English)
-p:GLOBECAST,f:1
 00fc:00820000:2c24:013e:22:0
 Kabelio BVN
 p:KABELIO.CH,f:1
@@ -5732,6 +5708,36 @@ p:Eutelsat,f:1
 00c8:0082ac5b:0c07:0001:12:0
 SmartLNB
 p:EUTELSAT
+0329:00820000:3bc4:013e:1:0
+EZTV 1
+p:,f:1
+0326:00820000:3bc4:013e:25:0
+Bahrain TV
+p:GLOBECAST,f:1
+0321:00820000:3bc4:013e:1:0
+Euronews English HD
+p:GLOBECAST,f:1
+0327:00820000:3bc4:013e:25:0
+France 24 HD (en Francais)
+p:GLOBECAST,f:1
+0328:00820000:3bc4:013e:25:0
+France 24 HD (in English)
+p:GLOBECAST,f:1
+031e:00820000:3bc4:013e:25:0
+Qatar TV HD
+p:GLOBECAST,f:1
+031f:00820000:3bc4:013e:1:0
+TRT Arabi HD
+p:GLOBECAST,f:1
+0323:00820000:3bc4:013e:1:0
+TRT World HD
+p:GLOBECAST,f:1
+0192:0082abb6:0013:ffff:25:0
+Service_MENA_02
+p:Globecast,f:1
+0193:0082abb6:0013:ffff:25:0
+Service_MENA_03
+p:Globecast,f:1
 0065:0ce40000:0065:0053:1:0
 RTP 1
 p:Meo,f:1
