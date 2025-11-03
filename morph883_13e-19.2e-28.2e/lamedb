@@ -231,6 +231,9 @@ transponders
 011aaf61:07e6:0002
 	s 12129000:27500000:1:2:282:2:0:1:2:0:2
 /
+011ab168:4321:00eb
+	s 12648000:5000000:1:4:282:2:0:1:2:0:2
+/
 00c00000:041d:0001
 	s 10773000:22000000:0:3:192:2:0:1:2:0:2
 /
@@ -573,6 +576,12 @@ transponders
 00c0ad45:0001:ffff
 	s 11589000:7200000:1:3:192:2:0:1:2:0:2
 /
+00c02d74:0000:0000
+	s 11636000:7200000:0:3:192:2:0:1:2:0:2
+/
+00c02f26:0001:ffff
+	s 12070000:31429000:0:8:192:2:0:1:2:0:2
+/
 00820000:2e18:00b0
 	s 10873000:27500000:1:3:130:2:0:1:2:0:2
 /
@@ -813,8 +822,8 @@ transponders
 00820000:01f4:00fc
 	s 11296000:27500000:0:4:130:2:0
 /
-0082b12f:0001:ffff
-	s 12591000:7200000:1:3:130:2:0:1:2:0:2
+0082b130:0012:ffff
+	s 12592000:21600000:1:3:130:2:0:1:2:0:2
 /
 00820000:2328:013e
 	s 12520000:27500000:1:2:130:2:0:1:2:0:2
@@ -875,6 +884,9 @@ transponders
 /
 0082abb6:0013:ffff
 	s 11190000:14400000:1:7:130:2:0:1:2:0:2
+/
+00820000:1770:00be
+	s 11919000:29900000:1:3:130:2:0:1:2:2:2
 /
 end
 services
@@ -968,6 +980,9 @@ p:BSkyB,f:1
 105d:011a0000:07d4:0002:1:0
 IEPG data 1
 p:BSkyB,f:1
+041a:011a0000:07d4:0002:198:0
+BDL
+p:BSkyB
 0eda:011a0000:07e0:0002:25:0
 Sky Sports Main Events HD
 p:BSkyB,f:1
@@ -1529,6 +1544,9 @@ p:BSkyB,f:1
 1430:011a0000:07e8:0002:25:0
 STV North HD
 p:BSkyB,f:1
+1aaf:011a0000:07e8:0002:25:0
+Sky Mix HD
+p:BSkyB,f:1
 cf9b:011a0000:083a:0002:25:0
 NHK World HD
 p:BSkyB,f:1
@@ -1990,9 +2008,6 @@ U&Yesterday HD
 p:BSkyB,f:1
 1aa2:011a0000:07eb:0002:25:0
 RTÉ One HD
-p:BSkyB,f:1
-16c7:011a0000:07eb:0002:25:0
-Sky Mix HD
 p:BSkyB,f:1
 1b77:011a0000:07eb:0002:25:0
 National Geographic HD UK
@@ -2960,9 +2975,6 @@ p:BSkyB,f:1
 cd0c:011a0000:07e1:0002:1:0
 Cartoonito
 p:BSkyB,f:1
-0001:011ab168:0001:0000:1:0
-HOL322 TX1
-p:Newslive.nl,f:1
 6223:011aaf61:07e6:0002:25:0
 U&Dave HD
 p:BSkyB,f:1
@@ -3026,6 +3038,9 @@ p:BSkyB,f:1
 6222:011aaf61:07e6:0002:1:0
 U&W Ireland
 p:BSkyB,f:1
+0001:011ab168:4321:00eb:25:0
+BEL119
+p:VRT,f:1
 526c:00c00000:041d:0001:25:0
 Anixe HD
 p:BetaDigital,f:1
@@ -6878,6 +6893,9 @@ p:SES Video,f:1
 0001:00c0ad45:0001:ffff:1:0
 SNG-5 | D-481
 p:Service Provider,f:1
+0001:00c02f26:0001:ffff:25:0
+PGA WF
+p:SES,f:1
 0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
 p:SNRT,f:1
@@ -8057,9 +8075,6 @@ p:SkyItalia,f:1
 1fa7:00820000:19c8:fbff:1:0
 Fox News
 p:SkyItalia,f:1
-2d00:00820000:19c8:fbff:25:0
-Sky Atlantic +1 HD
-p:SkyItalia,f:1
 37b5:00820000:19c8:fbff:25:0
 Milan TV
 p:SkyItalia,f:1
@@ -8071,9 +8086,6 @@ Fox Business
 p:SkyItalia,f:1
 3c07:00820000:19c8:fbff:1:0
 Boomerang
-p:SkyItalia,f:1
-059a:00820000:19c8:fbff:25:0
-Value 24 TV
 p:SkyItalia,f:1
 37ba:00820000:19c8:fbff:25:0
 Sky Uno +1 HD
@@ -8098,6 +8110,9 @@ Sky Arte HD
 p:SkyItalia,f:1
 2b43:00820000:19c8:fbff:25:0
 Sky Arte HD
+p:SkyItalia,f:1
+0597:00820000:19c8:fbff:25:0
+Sky Collection
 p:SkyItalia,f:1
 2e17:00820000:1a2c:fbff:1:0
 IEPG Data
@@ -8618,12 +8633,6 @@ p:Cyfrowy Polsat S.A.,f:1
 1cad:00820000:1ce8:0071:1:0
 Polsat Seriale HD
 p:,f:1
-1ccd:00820000:1ce8:0071:1:0
-Polsat Reality
-p:Cyfrowy Polsat S.A.,f:1
-1ccf:00820000:1ce8:0071:1:0
-Polsat Film 2
-p:Cyfrowy Polsat S.A.,f:1
 1cab:00820000:1ce8:0071:1:0
 PR dla Zagranicy
 p:Cyfrowy Polsat S.A.,f:1
@@ -9833,9 +9842,6 @@ p:M-Three satcom,f:1
 0205:00820000:0384:013e:25:0
 RTL 102.5 Caliente
 p:M-Three satcom,f:1
-0209:00820000:0384:013e:1:0
-Baby TV
-p:SES,f:1
 0641:00820000:2454:013e:25:0
 Al Jazeera HD
 p:EUTELSAT,f:1
@@ -9917,9 +9923,18 @@ p:Cyfrowy Polsat S.A.,f:1
 070f:00820000:32c8:013e:31:0
 Eleven Sports 1 4K
 p:Cyfrowy Polsat S.A.,f:1
-0711:00820000:32c8:013e:1:0
-Karuhaq Ak
+070b:00820000:32c8:013e:1:0
+Test1803
 p:Cyfrowy Polsat S.A.,f:1
+070c:00820000:32c8:013e:1:0
+Test1804
+p:Cyfrowy Polsat S.A.,f:1
+0710:00820000:32c8:013e:1:0
+Test1808
+p:Cyfrowy Polsat S.A.,f:1
+0711:00820000:32c8:013e:1:0
+Test1809
+p:Cyfrowy Polsat S.A.,C:0000,f:1
 030f:00820000:1f40:013e:25:0
 Telesur HD
 p:TSA,f:1
@@ -10379,36 +10394,6 @@ p:Warner Bros Discovery,f:1
 02f2:00820000:02bc:013e:25:0
 Eurosport 2 Greek HD
 p:Warner Bros Discovery,f:1
-0321:0082ae8f:1770:00be:25:0
-DAZN 1
-p:,f:1
-0322:0082ae8f:1770:00be:25:0
-DAZN 2
-p:,f:1
-0049:0082ae8f:1770:00be:25:0
-La7 Cinema
-p:,f:1
-004f:0082ae8f:1770:00be:25:0
-La7 HD
-p:,f:1
-0065:0082ae8f:1770:00be:2:0
-Radio R101
-p:Mediaset
-0066:0082ae8f:1770:00be:2:0
-Radio Monte Carlo
-p:Mediaset
-0068:0082ae8f:1770:00be:2:0
-Virgin radio
-p:
-0069:0082ae8f:1770:00be:2:0
-Radio 105
-p:Mediaset
-006a:0082ae8f:1770:00be:2:0
-RADIO SUBASIO
-p:
-006e:0082ae8f:1770:00be:2:0
-Radiolina
-p:
 012c:00820000:1d4c:013e:1:0
 SERVICE IP/MAC NOTIFICATION
 p:EUTELSAT,f:1
@@ -11522,10 +11507,10 @@ p:IKOMG,f:1
 08a2:00820000:01f4:00fc:25:0
 NU TV (Nûçe TV)
 p:iKOMG,f:1
-0192:0082b12f:0001:ffff:1:0
+0192:0082b130:0012:ffff:1:0
 Service_MENA_02
 p:GLOBECAST,f:1
-0194:0082b12f:0001:ffff:1:0
+0194:0082b130:0012:ffff:1:0
 Service_MENA_04
 p:GLOBECAST,f:1
 232b:00820000:2328:013e:1:0
@@ -12131,6 +12116,45 @@ p:Globecast,f:1
 0193:0082abb6:0013:ffff:25:0
 Service_MENA_03
 p:Globecast,f:1
+005c:00820000:1770:00be:2:0
+inBlu2000
+p:TV2000
+005d:00820000:1770:00be:2:0
+inBlu
+p:TV2000
+005b:00820000:1770:00be:25:0
+TV2000 HD
+p:TV2000,f:1
+0049:00820000:1770:00be:25:0
+La7 Cinema
+p:,f:1
+004f:00820000:1770:00be:25:0
+La7 HD
+p:,f:1
+0065:00820000:1770:00be:2:0
+Radio R101
+p:Mediaset
+0066:00820000:1770:00be:2:0
+Radio Monte Carlo
+p:Mediaset
+0068:00820000:1770:00be:2:0
+Virgin radio
+p:
+0069:00820000:1770:00be:2:0
+Radio 105
+p:Mediaset
+006a:00820000:1770:00be:2:0
+RADIO SUBASIO
+p:
+006e:00820000:1770:00be:2:0
+Radiolina
+p:
+0321:00820000:1770:00be:25:0
+DAZN 1
+p:,f:1
+0322:00820000:1770:00be:25:0
+DAZN 2
+p:,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2025
