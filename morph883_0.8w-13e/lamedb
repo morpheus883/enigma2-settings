@@ -180,9 +180,6 @@ transponders
 00820000:02bc:013e
 	s 11334000:27500000:0:3:130:2:0:1:2:2:2
 /
-0082ae8f:1770:00be
-	s 11919000:29900000:1:2:130:2:0:1:1:2:2
-/
 00820000:1d4c:013e
 	s 12207000:29900000:0:4:130:2:0:1:1:0:2
 /
@@ -552,9 +549,6 @@ fff830bc:0050:0046
 fff8ad88:0001:0001
 	s 11656000:7200000:1:3:-8:2:0:1:2:0:2
 /
-0e08b0ff:0001:ffff
-	s 12543000:6660000:1:3:-8:2:0:1:2:0:2
-/
 0e08acf4:0001:0000
 	s 11508000:9600000:1:3:-8:2:0:1:2:0:2
 /
@@ -577,6 +571,9 @@ fff8b0f0:0001:ffff
 	s 11123000:7500000:1:3:-8:2:0:1:2:0:2
 /
 0e080000:0065:0065
+	s 12543000:6660000:1:3:-8:2:0:1:2:0:2
+/
+0e08b0ff:0001:ffff
 	s 12543000:6660000:1:3:-8:2:0:1:2:0:2
 /
 end
@@ -1043,6 +1040,9 @@ p:Telespazio
 132a:00820000:33f4:013e:1:0
 RIKSat
 p:Telespazio,f:1
+134b:00820000:33f4:013e:1:0
+Hadi TV 3
+p:Telespazio,f:1
 0064:00820000:00c8:013e:1:0
 Ginx
 p:ECLUTCH,f:1
@@ -1154,6 +1154,9 @@ p:CANAL+,f:1
 32e4:00820000:0190:013e:1:0
 Canal+ Extra 4
 p:,f:1
+3327:00820000:0190:013e:2:0
+
+p:
 3ab7:00820000:0514:013e:1:0
 AMC HD Polska
 p:CANAL+,f:1
@@ -7316,6 +7319,9 @@ p:Telenor,f:1
 1d5a:0e080000:0048:0046:25:0
 BBC Nordic HD (S)
 p:Telenor,f:1
+42bc:0e080000:0048:0046:25:0
+Kuukauden kanava
+p:Telenor,f:1
 7727:0e080000:02c1:0600:25:0
 Sport 1 HD Hungary
 p:M7,f:1
@@ -7651,9 +7657,6 @@ National Geographic HD (N)
 p:Telenor,f:1
 1c82:0e080000:000a:0046:25:0
 National Geographic HD (S/F)
-p:Telenor,f:1
-42bc:0e080000:000a:0046:25:0
-Kuukauden kanava
 p:Telenor,f:1
 1d09:0e080000:0041:0046:25:0
 V Sport Premier League HD
@@ -8942,6 +8945,15 @@ p:Telenor,f:1
 feb0:fff83095:004f:0046:1:0
  
 p: ,f:1
+feb1:fff83095:004f:0046:1:0
+
+p:,f:1
+fffe:fff83095:004f:0046:1:0
+
+p:,f:1
+ffff:fff83095:004f:0046:1:0
+
+p:,f:1
 1d58:fff830bc:0050:0046:25:0
 Nelonen HD
 p:Telenor,f:1
@@ -9026,9 +9038,9 @@ p:EPIQA,f:1
 0001:0e08ab73:0001:ffff:1:0
 DAZN MAIN
 p:EMG.BE,f:1
-0065:0e080000:0065:0065:1:0
-B 101 DGI
-p:RCS-RDS BUCURESTI,f:1
+0137:0e08b0ff:0001:ffff:1:0
+B115DGS
+p:Digi B,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2025
