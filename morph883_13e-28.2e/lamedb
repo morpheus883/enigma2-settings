@@ -231,15 +231,6 @@ transponders
 011ab168:4321:00eb
 	s 12648000:5000000:1:4:282:2:0:1:2:0:2
 /
-011a2c50:083f:0000
-	s 11344000:27500000:0:2:282:2:0:1:2:0:2
-/
-011a2b68:0813:0000
-	s 11112000:23000000:0:2:282:2:0:1:2:1:2
-/
-011aaca2:0844:0000
-	s 11426000:29500000:1:6:282:2:0:1:1:0:2
-/
 00820000:2e18:00b0
 	s 10873000:27500000:1:3:130:2:0:1:2:0:2
 /
@@ -543,6 +534,18 @@ transponders
 00820000:1770:00be
 	s 11919000:29900000:1:3:130:2:0:1:2:2:2
 /
+0082abc3:0001:ffff
+	s 11203000:7200000:1:3:130:2:0:1:2:0:2
+/
+00822a3a:00a0:0000
+	s 10810000:7200000:0:3:130:2:0:1:2:0:2
+/
+0082abb9:0001:0001
+	s 11193000:7200000:1:3:130:2:0:1:2:0:2
+/
+00822a4c:0000:0000
+	s 10828000:7200000:0:3:130:2:0:1:2:0:2
+/
 end
 services
 5212:011a0000:083f:0002:25:0
@@ -839,38 +842,14 @@ p:BSkyB,f:1
 1f51:011a0000:07dc:0002:130:0
 Dummy My Sky Service
 p:BSkyB,f:1
-0fff:011a0000:07dc:0002:1:0
-SkySp PL
-p:BSkyB,f:1
 14ca:011a0000:07dc:0002:1:0
 Sky Sports Golf
 p:BSkyB,f:1
 151c:011a0000:07dc:0002:1:0
 SkySp Golf
 p:BSkyB,f:1
-0f08:011a0000:07dc:0002:1:0
-Sky Sports Football
-p:BSkyB,f:1
-1e9e:011a0000:07dc:0002:1:0
-SkySp F'ball
-p:BSkyB,f:1
-189f:011a0000:07dc:0002:1:0
-Sky Sports Premier League
-p:BSkyB,f:1
 1089:011a0000:07dc:0002:1:0
 SkySp Golf
-p:BSkyB,f:1
-052e:011a0000:07dc:0002:1:0
-Sky Sports Premier League
-p:BSkyB,f:1
-0ffd:011a0000:07dc:0002:1:0
-SkySp Mix
-p:BSkyB,f:1
-1bb3:011a0000:07dc:0002:1:0
-Sky Sports Mix
-p:BSkyB,f:1
-1902:011a0000:07dc:0002:1:0
-Sky Max UK
 p:BSkyB,f:1
 14a1:011a0000:07dc:0002:1:0
 Sky Showcase
@@ -1456,6 +1435,9 @@ Sky Sport Tennis HD
 p:BSkyB,f:1
 c5ad:011a0000:07e9:0002:25:0
 Premier 2 HD
+p:BSkyB,f:1
+143f:011a0000:07e9:0002:25:0
+Disney Jr HD
 p:BSkyB,f:1
 1b1c:011a0000:0802:0002:25:0
 BBC Two HD
@@ -2090,7 +2072,7 @@ p:BSkyB,f:1
 1887:011a0000:07e4:0002:1:0
 Sky Showcase
 p:BSkyB,f:1
-1c90:011a0000:07e4:0002:1:0
+0fff:011a0000:07e4:0002:1:0
 Sky Sports Premier League Ireland
 p:BSkyB,f:1
 1901:011a0000:07e4:0002:1:0
@@ -2140,6 +2122,15 @@ SkySp Action
 p:BSkyB,f:1
 1073:011a0000:07e4:0002:1:0
 SkySp News
+p:BSkyB,f:1
+0f08:011a0000:07e4:0002:1:0
+SkySp F'ball
+p:BSkyB,f:1
+1c90:011a0000:07e4:0002:1:0
+SkySp PL
+p:BSkyB,f:1
+0f08:011a0000:07e4:0002:1:0
+Sky Sports Football
 p:BSkyB,f:1
 0001:011a3157:0001:ffff:1:0
 BBC D Day 80 INT
@@ -2479,6 +2470,15 @@ SkySp+
 p:BSkyB,f:1
 1ced:011a0000:07e7:0002:1:0
 Sky News
+p:BSkyB,f:1
+13e3:011a0000:07e7:0002:1:0
+SkySp Mix
+p:BSkyB,f:1
+151a:011a0000:07e7:0002:1:0
+Sky Max UK
+p:BSkyB,f:1
+0ffd:011a0000:07e7:0002:1:0
+Sky Sports Mix
 p:BSkyB,f:1
 5140:011a0000:0842:0002:25:0
 STV West HD
@@ -3005,9 +3005,6 @@ p:GLOBECAST,f:1
 06aa:00820000:3138:013e:1:0
 CGTN News
 p:GLOBECAST,f:1
-06ac:00820000:3138:013e:1:0
-TV Rus Plus
-p:GLOBECAST,f:1
 06af:00820000:3138:013e:2:0
 Chaine 2
 p:GLOBECAST
@@ -3020,9 +3017,6 @@ p:GLOBECAST
 06b6:00820000:3138:013e:1:0
 TV 8 Russia
 p:GLOBECAST,f:1
-06ab:00820000:3138:013e:1:0
-TV Rus
-p:GLOBECAST,f:1
 06d8:00820000:3138:013e:2:0
 Bahai Radio
 p:GLOBECAST
@@ -3030,7 +3024,7 @@ p:GLOBECAST
 Just TV
 p:GLOBECAST,f:1
 06ad:00820000:3138:013e:2:0
-National Prison Radio Network
+Service 1709
 p:GLOBECAST
 06b9:00820000:3138:013e:1:0
 Eko TV
@@ -3062,9 +3056,6 @@ p:GLOBECAST
 06dd:00820000:3138:013e:2:0
 WRN Sawt Al Alam
 p:GLOBECAST
-42ea:00820000:3138:013e:1:0
-BBC News Europe
-p:GLOBECAST,f:1
 06b1:00820000:3138:013e:1:0
 RTVI
 p:GLOBECAST,f:1
@@ -3148,6 +3139,9 @@ RIKSat
 p:Telespazio,f:1
 134b:00820000:33f4:013e:1:0
 Hadi TV 3
+p:Telespazio,f:1
+1326:00820000:33f4:013e:1:0
+CNBC HD
 p:Telespazio,f:1
 0064:00820000:00c8:013e:1:0
 Ginx
@@ -5636,6 +5630,9 @@ p:M-Three satcom,f:1
 0205:00820000:0384:013e:25:0
 RTL 102.5 Caliente
 p:M-Three satcom,f:1
+01f9:00820000:0384:013e:1:0
+MC EU
+p:Itep Pictures,f:1
 0641:00820000:2454:013e:25:0
 Al Jazeera HD
 p:EUTELSAT,f:1
@@ -7949,6 +7946,18 @@ p:,f:1
 0322:00820000:1770:00be:25:0
 DAZN 2
 p:,f:1
+0001:0082abc3:0001:ffff:1:0
+OTE 1
+p:OTE,f:1
+0001:00822a3a:00a0:0000:1:0
+CRO-023/1
+p:Medialink,f:1
+0001:0082abb9:0001:0001:25:0
+ITA 795
+p:MOST,f:1
+0004:00822a4c:0000:0000:25:0
+EHF EL Men SAINT RAPHAEL VS IRUDEK BIDASOA IRUN
+p:3bis,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2025
