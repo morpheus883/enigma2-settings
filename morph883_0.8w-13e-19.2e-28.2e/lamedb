@@ -558,9 +558,6 @@ transponders
 00c02bc8:0000:0000
 	s 11208000:7200000:0:3:192:2:0:1:2:0:2
 /
-00c02d74:0001:ffff
-	s 11636000:7200000:0:3:192:2:0:1:2:0:2
-/
 00c02d7a:0000:0000
 	s 11642000:15000000:0:3:192:2:0:1:2:0:2
 /
@@ -573,14 +570,8 @@ transponders
 00c0ad45:0001:ffff
 	s 11589000:7200000:1:3:192:2:0:1:2:0:2
 /
-00c02f26:0001:ffff
-	s 12070000:31429000:0:8:192:2:0:1:2:0:2
-/
 00c0ad91:0000:0000
 	s 11665000:7200000:1:3:192:2:0:1:2:0:2
-/
-00c00000:03f4:0001
-	s 11376000:22000000:1:2:192:2:0:1:2:0:2
 /
 00c02f26:0000:ffff
 	s 12070000:31429000:0:8:192:2:0:1:2:0:2
@@ -902,6 +893,12 @@ transponders
 /
 00822a4c:0000:0000
 	s 10828000:7200000:0:3:130:2:0:1:2:0:2
+/
+0082ac5b:0c07:0000
+	s 11355000:27500000:1:3:130:2:0:1:2:2:2
+/
+0082aa60:0001:ffff
+	s 10848000:7200000:1:3:130:2:0:1:2:0:2
 /
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
@@ -1469,21 +1466,6 @@ p:BSkyB,f:1
 1f51:011a0000:07dc:0002:130:0
 Dummy My Sky Service
 p:BSkyB,f:1
-14ca:011a0000:07dc:0002:1:0
-Sky Sports Golf
-p:BSkyB,f:1
-151c:011a0000:07dc:0002:1:0
-SkySp Golf
-p:BSkyB,f:1
-1089:011a0000:07dc:0002:1:0
-SkySp Golf
-p:BSkyB,f:1
-14a1:011a0000:07dc:0002:1:0
-Sky Showcase
-p:BSkyB,f:1
-1884:011a0000:07dc:0002:1:0
-Sky Showcase
-p:BSkyB,f:1
 1294:011a0000:07dc:0002:2:0
 SNR IRN
 p:BSkyB
@@ -1511,17 +1493,11 @@ p:BSkyB,f:1
 cb9b:011a0000:083c:0002:1:0
 Islam Channel
 p:BSkyB,f:1
-d360:011a0000:0830:0002:1:0
-Best Direct
-p:BSkyB,f:1
 d39f:011a0000:0830:0002:1:0
 High Street TV 1
 p:BSkyB,f:1
 d39a:011a0000:0830:0002:1:0
 Faith World TV
-p:BSkyB,f:1
-d381:011a0000:0830:0002:1:0
-Takbeer TV
 p:BSkyB,f:1
 d39c:011a0000:0830:0002:1:0
 Sony Max
@@ -1633,6 +1609,12 @@ Sony Max 2
 p:BSkyB,f:1
 d748:011a0000:082f:0002:1:0
 TV Warehouse
+p:BSkyB,f:1
+d74a:011a0000:082f:0002:1:0
+Best Direct
+p:BSkyB,f:1
+d749:011a0000:082f:0002:1:0
+Takbeer TV
 p:BSkyB,f:1
 c6d7:011a0000:0840:0002:1:0
 True Crime X
@@ -1936,6 +1918,9 @@ U&Dave HD
 p:BSkyB,C:0000,f:1
 181a:011a0000:07ed:0002:25:0
 STV East HD
+p:BSkyB,f:1
+13a8:011a0000:07ed:0002:25:0
+Sky Max Ireland HD
 p:BSkyB,f:1
 d809:011a0000:0838:0002:25:0
 Daystar TV HD
@@ -2758,6 +2743,15 @@ SkySp PL
 p:BSkyB,f:1
 0f08:011a0000:07e4:0002:1:0
 Sky Sports Football
+p:BSkyB,f:1
+14a1:011a0000:07e4:0002:1:0
+Sky Showcase
+p:BSkyB,f:1
+149c:011a0000:07e4:0002:1:0
+Sky Showcase
+p:BSkyB,f:1
+1089:011a0000:07e4:0002:1:0
+Sky Sports Golf
 p:BSkyB,f:1
 0001:011a3157:0001:ffff:1:0
 BBC D Day 80 INT
@@ -7157,8 +7151,8 @@ p:Service Provider,f:1
 0001:00c0ad91:0000:0000:25:0
 MMG-D185 HD Encoder 2
 p:,f:1
-0001:00c02f26:0000:ffff:1:0
-ENC 1
+0001:00c02f26:0000:ffff:25:0
+PGA WF
 p:SES,f:1
 0001:00c02d74:0000:ff00:25:0
 Champion of Champions
@@ -7537,6 +7531,12 @@ WRN Sawt Al Alam
 p:GLOBECAST
 06b1:00820000:3138:013e:1:0
 RTVI
+p:GLOBECAST,f:1
+06ab:00820000:3138:013e:1:0
+TV Rus
+p:GLOBECAST,f:1
+06ac:00820000:3138:013e:1:0
+TV Rus Plus
 p:GLOBECAST,f:1
 1c86:00820000:332c:013e:1:0
 Bloomberg European TV
@@ -8147,6 +8147,9 @@ p:SkyItalia
 0f66:00820000:16a8:fbff:0:0
 
 p:
+1fed:00820000:16a8:fbff:252:0
+Fusion FGDL
+p:SkyItalia
 2ab7:00820000:1838:fbff:130:0
 Sports Active 3
 p:SkyItalia,f:1
@@ -12437,6 +12440,9 @@ p:MOST,f:1
 0004:00822a4c:0000:0000:25:0
 EHF EL Men SAINT RAPHAEL VS IRUDEK BIDASOA IRUN
 p:3bis,f:1
+0001:0082aa60:0001:ffff:1:0
+EDS807HD.1
+p:CCMA,f:1
 040a:0e080000:0044:0046:25:0
 TV 2 Sport Premium HD
 p:Canal Digital Nordic,f:1
@@ -15546,6 +15552,9 @@ fffe:fff83095:004f:0046:1:0
 
 p:,f:1
 ffff:fff83095:004f:0046:1:0
+
+p:,f:1
+feb2:fff83095:004f:0046:1:0
 
 p:,f:1
 1d58:fff830bc:0050:0046:25:0

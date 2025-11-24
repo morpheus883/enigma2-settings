@@ -327,9 +327,6 @@ transponders
 00c02bc8:0000:0000
 	s 11208000:7200000:0:3:192:2:0:1:2:0:2
 /
-00c02d74:0001:ffff
-	s 11636000:7200000:0:3:192:2:0:1:2:0:2
-/
 00c02d7a:0000:0000
 	s 11642000:15000000:0:3:192:2:0:1:2:0:2
 /
@@ -342,14 +339,8 @@ transponders
 00c0ad45:0001:ffff
 	s 11589000:7200000:1:3:192:2:0:1:2:0:2
 /
-00c02f26:0001:ffff
-	s 12070000:31429000:0:8:192:2:0:1:2:0:2
-/
 00c0ad91:0000:0000
 	s 11665000:7200000:1:3:192:2:0:1:2:0:2
-/
-00c00000:03f4:0001
-	s 11376000:22000000:1:2:192:2:0:1:2:0:2
 /
 00c02f26:0000:ffff
 	s 12070000:31429000:0:8:192:2:0:1:2:0:2
@@ -929,6 +920,12 @@ transponders
 /
 00822a4c:0000:0000
 	s 10828000:7200000:0:3:130:2:0:1:2:0:2
+/
+0082ac5b:0c07:0000
+	s 11355000:27500000:1:3:130:2:0:1:2:2:2
+/
+0082aa60:0001:ffff
+	s 10848000:7200000:1:3:130:2:0:1:2:0:2
 /
 end
 services
@@ -4778,8 +4775,8 @@ p:Service Provider,f:1
 0001:00c0ad91:0000:0000:25:0
 MMG-D185 HD Encoder 2
 p:,f:1
-0001:00c02f26:0000:ffff:1:0
-ENC 1
+0001:00c02f26:0000:ffff:25:0
+PGA WF
 p:SES,f:1
 0001:00c02d74:0000:ff00:25:0
 Champion of Champions
@@ -5141,14 +5138,14 @@ p:DigitALB,f:1
 0334:00a00000:51a4:016e:1:0
 T7
 p:DigitALB,f:1
-06b8:00a00000:51a4:016e:22:0
-Premium Channel
-p:DigitALB,f:1
 1414:00a00000:51a4:016e:25:0
 BB VIP Kosova 2
 p:DigitALB,f:1
 13f6:00a00000:51a4:016e:25:0
 BB VIP Kosova 1
+p:DigitALB,f:1
+13d8:00a00000:51a4:016e:25:0
+Klan Kosova HD
 p:DigitALB,f:1
 03e9:00a00000:50dc:016e:25:0
 Gold HD
@@ -5189,9 +5186,6 @@ p:DigitALB,f:1
 1108:00a00000:50dc:016e:1:0
 Dukagjini
 p:DigitALB,f:1
-076c:00a00000:50dc:016e:22:0
-Panorama TV
-p:DigitALB,f:1
 03ac:00a00000:50dc:016e:22:0
 PRO 1
 p:DigitALB,f:1
@@ -5206,6 +5200,12 @@ RTV 21
 p:DigitALB,f:1
 029e:00a00000:50dc:016e:22:0
 In-TV
+p:DigitALB,f:1
+0190:00a00000:50dc:016e:22:0
+KTV Kohavision
+p:DigitALB,f:1
+06b8:00a00000:50dc:016e:22:0
+Premium Channel
 p:DigitALB,f:1
 0774:00a00000:c6d4:016e:1:0
 Disney Channel Romania
@@ -5435,9 +5435,6 @@ p:DigitALB,f:1
 0460:00a00000:4f4c:016e:22:0
 Klan Music
 p:DigitALB,f:1
-04b0:00a00000:4f4c:016e:1:0
-Klan Kosova
-p:DigitALB,f:1
 05f0:00a00000:4f4c:016e:25:0
 Top News HD
 p:DIGITALB,f:1
@@ -5449,6 +5446,9 @@ Dorcel TV HD
 p:A1,f:1
 1342:00a00000:4f4c:016e:25:0
 Film Komedi HD
+p:DigitALB,f:1
+02da:00a00000:4f4c:016e:22:0
+CNA TV
 p:DigitALB,f:1
 0a94:00a00000:9dd0:016e:22:0
 FilmBox Arthouse
@@ -5596,9 +5596,6 @@ OTA SMIT MSD
 p:DigitALB
 08ca:00a00000:5014:016e:1:0
 Zjarr TV
-p:DigitALB,f:1
-13d8:00a00000:5014:016e:25:0
-KTV Kohavision HD
 p:DigitALB,f:1
 1324:00a00000:5014:016e:25:0
 Film Autor HD
@@ -7934,6 +7931,12 @@ p:GLOBECAST
 06b1:00820000:3138:013e:1:0
 RTVI
 p:GLOBECAST,f:1
+06ab:00820000:3138:013e:1:0
+TV Rus
+p:GLOBECAST,f:1
+06ac:00820000:3138:013e:1:0
+TV Rus Plus
+p:GLOBECAST,f:1
 1c86:00820000:332c:013e:1:0
 Bloomberg European TV
 p:Arqiva,f:1
@@ -8543,6 +8546,9 @@ p:SkyItalia
 0f66:00820000:16a8:fbff:0:0
 
 p:
+1fed:00820000:16a8:fbff:252:0
+Fusion FGDL
+p:SkyItalia
 2ab7:00820000:1838:fbff:130:0
 Sports Active 3
 p:SkyItalia,f:1
@@ -12833,6 +12839,9 @@ p:MOST,f:1
 0004:00822a4c:0000:0000:25:0
 EHF EL Men SAINT RAPHAEL VS IRUDEK BIDASOA IRUN
 p:3bis,f:1
+0001:0082aa60:0001:ffff:1:0
+EDS807HD.1
+p:CCMA,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2025

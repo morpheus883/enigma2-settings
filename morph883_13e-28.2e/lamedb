@@ -546,6 +546,12 @@ transponders
 00822a4c:0000:0000
 	s 10828000:7200000:0:3:130:2:0:1:2:0:2
 /
+0082ac5b:0c07:0000
+	s 11355000:27500000:1:3:130:2:0:1:2:2:2
+/
+0082aa60:0001:ffff
+	s 10848000:7200000:1:3:130:2:0:1:2:0:2
+/
 end
 services
 5212:011a0000:083f:0002:25:0
@@ -842,21 +848,6 @@ p:BSkyB,f:1
 1f51:011a0000:07dc:0002:130:0
 Dummy My Sky Service
 p:BSkyB,f:1
-14ca:011a0000:07dc:0002:1:0
-Sky Sports Golf
-p:BSkyB,f:1
-151c:011a0000:07dc:0002:1:0
-SkySp Golf
-p:BSkyB,f:1
-1089:011a0000:07dc:0002:1:0
-SkySp Golf
-p:BSkyB,f:1
-14a1:011a0000:07dc:0002:1:0
-Sky Showcase
-p:BSkyB,f:1
-1884:011a0000:07dc:0002:1:0
-Sky Showcase
-p:BSkyB,f:1
 1294:011a0000:07dc:0002:2:0
 SNR IRN
 p:BSkyB
@@ -884,17 +875,11 @@ p:BSkyB,f:1
 cb9b:011a0000:083c:0002:1:0
 Islam Channel
 p:BSkyB,f:1
-d360:011a0000:0830:0002:1:0
-Best Direct
-p:BSkyB,f:1
 d39f:011a0000:0830:0002:1:0
 High Street TV 1
 p:BSkyB,f:1
 d39a:011a0000:0830:0002:1:0
 Faith World TV
-p:BSkyB,f:1
-d381:011a0000:0830:0002:1:0
-Takbeer TV
 p:BSkyB,f:1
 d39c:011a0000:0830:0002:1:0
 Sony Max
@@ -1006,6 +991,12 @@ Sony Max 2
 p:BSkyB,f:1
 d748:011a0000:082f:0002:1:0
 TV Warehouse
+p:BSkyB,f:1
+d74a:011a0000:082f:0002:1:0
+Best Direct
+p:BSkyB,f:1
+d749:011a0000:082f:0002:1:0
+Takbeer TV
 p:BSkyB,f:1
 c6d7:011a0000:0840:0002:1:0
 True Crime X
@@ -1309,6 +1300,9 @@ U&Dave HD
 p:BSkyB,C:0000,f:1
 181a:011a0000:07ed:0002:25:0
 STV East HD
+p:BSkyB,f:1
+13a8:011a0000:07ed:0002:25:0
+Sky Max Ireland HD
 p:BSkyB,f:1
 d809:011a0000:0838:0002:25:0
 Daystar TV HD
@@ -2131,6 +2125,15 @@ SkySp PL
 p:BSkyB,f:1
 0f08:011a0000:07e4:0002:1:0
 Sky Sports Football
+p:BSkyB,f:1
+14a1:011a0000:07e4:0002:1:0
+Sky Showcase
+p:BSkyB,f:1
+149c:011a0000:07e4:0002:1:0
+Sky Showcase
+p:BSkyB,f:1
+1089:011a0000:07e4:0002:1:0
+Sky Sports Golf
 p:BSkyB,f:1
 0001:011a3157:0001:ffff:1:0
 BBC D Day 80 INT
@@ -3059,6 +3062,12 @@ p:GLOBECAST
 06b1:00820000:3138:013e:1:0
 RTVI
 p:GLOBECAST,f:1
+06ab:00820000:3138:013e:1:0
+TV Rus
+p:GLOBECAST,f:1
+06ac:00820000:3138:013e:1:0
+TV Rus Plus
+p:GLOBECAST,f:1
 1c86:00820000:332c:013e:1:0
 Bloomberg European TV
 p:Arqiva,f:1
@@ -3668,6 +3677,9 @@ p:SkyItalia
 0f66:00820000:16a8:fbff:0:0
 
 p:
+1fed:00820000:16a8:fbff:252:0
+Fusion FGDL
+p:SkyItalia
 2ab7:00820000:1838:fbff:130:0
 Sports Active 3
 p:SkyItalia,f:1
@@ -7958,6 +7970,9 @@ p:MOST,f:1
 0004:00822a4c:0000:0000:25:0
 EHF EL Men SAINT RAPHAEL VS IRUDEK BIDASOA IRUN
 p:3bis,f:1
+0001:0082aa60:0001:ffff:1:0
+EDS807HD.1
+p:CCMA,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2025
