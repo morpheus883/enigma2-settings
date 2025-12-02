@@ -564,20 +564,32 @@ transponders
 0082abc3:0001:ffff
 	s 11203000:7200000:1:3:130:2:0:1:2:0:2
 /
-00822a3a:00a0:0000
-	s 10810000:7200000:0:3:130:2:0:1:2:0:2
-/
 0082abb9:0001:0001
 	s 11193000:7200000:1:3:130:2:0:1:2:0:2
 /
 00822a4c:0000:0000
 	s 10828000:7200000:0:3:130:2:0:1:2:0:2
 /
-0082ac5b:0c07:0000
-	s 11355000:27500000:1:3:130:2:0:1:2:2:2
-/
 0082aa60:0001:ffff
 	s 10848000:7200000:1:3:130:2:0:1:2:0:2
+/
+00822f3c:2c88:013e
+	s 12092000:27500000:0:3:130:2:0:1:2:0:2
+/
+0082abc3:0014:ffff
+	s 11203000:7200000:1:3:130:2:0:1:2:0:2
+/
+00822a43:0001:ffff
+	s 10819000:7200000:0:3:130:2:0:1:2:0:2
+/
+0082b138:0002:0002
+	s 12600000:7200000:1:3:130:2:0:1:2:0:2
+/
+00822a3a:0000:0000
+	s 10810000:7200000:0:3:130:2:0:1:2:0:2
+/
+0082ac5b:0c07:0000
+	s 11355000:27500000:1:3:130:2:0:1:2:2:2
 /
 end
 services
@@ -1403,6 +1415,9 @@ p:DigitALB,f:1
 1216:00a00000:5014:016e:25:0
 Top Radio TV
 p:DigitALB,f:1
+1450:00a00000:5014:016e:1:0
+
+p:,f:1
 0458:00a00000:526c:016e:25:0
 Epic Drama HD
 p:A1 Broadcasting,f:1
@@ -4562,9 +4577,6 @@ p:SkyItalia,f:1
 0590:00820000:19c8:fbff:1:0
 Nick Junior Italia
 p:Sky Italia,f:1
-1006:00820000:19c8:fbff:1:0
-Bike Channel
-p:SkyItalia,f:1
 057c:00820000:19c8:fbff:1:0
 Comedy Central Italia
 p:Sky Italia,f:1
@@ -5705,6 +5717,9 @@ p:Cyfrowy Polsat S.A.,f:1
 33ab:00820000:3390:0071:1:0
 Super Polsat HD
 p:Cyfrowy Polsat S.A.,f:1
+33bb:00820000:3390:0071:1:0
+Super Polsat HD
+p:Cyfrowy Polsat S.A.,f:1
 3d59:00820000:2c88:013e:1:0
 TVP Kultura HD
 p:CANAL+,f:1
@@ -5816,9 +5831,9 @@ p:,f:1
 1201:00820000:2b5c:013e:1:0
 Baby TV
 p:SES,f:1
-11fe:00820000:2b5c:013e:1:0
+11fe:00820000:2b5c:013e:25:0
 Simay Azadi HD
-p:GLOBECAST,f:1
+p:M-Three Satcom,f:1
 11ff:00820000:2b5c:013e:1:0
 GEB TV
 p:,f:1
@@ -5969,9 +5984,9 @@ p:M-Three satcom,f:1
 0530:00820000:3d54:013e:22:0
 People TV
 p:People TV-Rete 7,f:1
-051a:00820000:3d54:013e:1:0
+051a:00820000:3d54:013e:25:0
 Simay Azadi HD
-p:GLOBECAST,f:1
+p:M-Three Satcom,f:1
 0532:00820000:3d54:013e:2:0
 RVS-Accendi la Speranza
 p:M-Three Satcom Srl
@@ -7310,6 +7325,9 @@ p:VIVACOM,f:1
 0136:00820000:25e4:00d5:1:46
 DM Sat
 p:VIVACOM,f:1
+00cd:00820000:25e4:00d5:22:0
+TEST 3
+p:VIVACOM,f:1
 00de:00820000:2648:00d5:22:0
 FightKlub
 p:VIVACOM,c:050001,f:1
@@ -7361,6 +7379,12 @@ p:VIVACOM,f:1
 00d5:00820000:2648:00d5:1:13
 Russian Travel Guide Int
 p:VIVACOM,f:1
+0134:00820000:2648:00d5:22:0
+TEST1
+p:VIVACOM,f:1
+0135:00820000:2648:00d5:22:0
+TEST 2
+p:Vivacom,f:1
 006e:00820000:251c:00d5:1:0
 Fen TV
 p:VIVACOM,f:1
@@ -7615,6 +7639,9 @@ Soul & Pepper TV
 p:VIVACOM,f:1
 1388:00820000:2710:00d5:1:0
 Vivacom TV Info
+p:VIVACOM,f:1
+13b5:00820000:2710:00d5:22:0
+VTK
 p:VIVACOM,f:1
 03ea:0082acce:03ea:0001:12:0
 HVS-2 Bck
@@ -8039,6 +8066,9 @@ p:IKOMG,f:1
 2343:00820000:2328:013e:1:0
 redpath
 p:STN,f:1
+232e:00820000:2328:013e:25:0
+Bike Channel
+p:IKOMG,f:1
 1020:00820000:2260:fbff:25:0
 Sky Crime
 p:SkyItalia,f:1
@@ -8546,18 +8576,9 @@ p:GlobeCast UK,f:1
 0001:0082aa4d:0001:ff00:25:0
 CZE-012-M_BCL Nymburk
 p:,f:1
-0001:0082b138:0001:0001:25:0
-ITA 795
-p:MOST,f:1
 0001:00820000:0000:006f:25:0
 F32/C1 WF BADMINTON
 p:OE Reportages,f:1
-0320:0082ac5b:0c07:0001:1:0
-INT_OS_PLATFORM
-p:Eutelsat,f:1
-00c8:0082ac5b:0c07:0001:12:0
-SmartLNB
-p:EUTELSAT
 0329:00820000:3bc4:013e:1:0
 EZTV 1
 p:,f:1
@@ -8627,21 +8648,132 @@ p:,f:1
 0322:00820000:1770:00be:25:0
 DAZN 2
 p:,f:1
-0001:0082abc3:0001:ffff:1:0
-OTE 1
-p:OTE,f:1
-0001:00822a3a:00a0:0000:1:0
-CRO-023/1
-p:Medialink,f:1
 0001:0082abb9:0001:0001:25:0
 ITA 795
 p:MOST,f:1
 0004:00822a4c:0000:0000:25:0
 EHF EL Men SAINT RAPHAEL VS IRUDEK BIDASOA IRUN
 p:3bis,f:1
+0001:00822a4c:0000:0000:25:0
+E-228 Main
+p:,f:1
 0001:0082aa60:0001:ffff:1:0
 EDS807HD.1
 p:CCMA,f:1
+3d56:00822f3c:2c88:013e:1:0
+Motowizja HD
+p:CANAL+,f:1
+3d59:00822f3c:2c88:013e:1:0
+TVP Kultura HD
+p:CANAL+,f:1
+3d5a:00822f3c:2c88:013e:1:0
+WP
+p:CANAL+,f:1
+3d5b:00822f3c:2c88:013e:1:0
+CBS Reality HD
+p:CANAL+,f:1
+3d5c:00822f3c:2c88:013e:1:0
+TVP SERIALE
+p:CANAL+,f:1
+3d5d:00822f3c:2c88:013e:1:0
+Filmbox Premium HD
+p:CANAL+,f:1
+3d5e:00822f3c:2c88:013e:1:0
+Puls 2 HD
+p:CANAL+,f:1
+3d5f:00822f3c:2c88:013e:1:0
+TVP ABC
+p:CANAL+,f:1
+3d60:00822f3c:2c88:013e:1:0
+Kino Polska Muzyka
+p:CANAL+,f:1
+3d61:00822f3c:2c88:013e:1:0
+Kino TV HD
+p:CANAL+,f:1
+3d62:00822f3c:2c88:013e:1:0
+FilmBox Family
+p:CANAL+,f:1
+3d63:00822f3c:2c88:013e:1:0
+Red Carpet TV
+p:CANAL+,f:1
+3d64:00822f3c:2c88:013e:1:0
+KINO POLSKA HD
+p:CANAL+,f:1
+3d65:00822f3c:2c88:013e:1:0
+FilmBox Action
+p:CANAL+,f:1
+3d66:00822f3c:2c88:013e:1:0
+TV PULS HD
+p:CANAL+,f:1
+3d67:00822f3c:2c88:013e:1:0
+TVP Historia
+p:CANAL+,f:1
+3d68:00822f3c:2c88:013e:1:0
+FilmBox Extra HD
+p:CANAL+,f:1
+3d8d:00822f3c:2c88:013e:1:0
+CBS Reality HD
+p:CANAL+,f:1
+3d8e:00822f3c:2c88:013e:1:0
+TVP SERIALE
+p:CANAL+,f:1
+3d8f:00822f3c:2c88:013e:1:0
+Filmbox Premium HD
+p:CANAL+,f:1
+3d92:00822f3c:2c88:013e:1:0
+Kino Polska Muzyka
+p:CANAL+,f:1
+3d93:00822f3c:2c88:013e:1:0
+Kino TV HD
+p:CANAL+,f:1
+3d94:00822f3c:2c88:013e:1:0
+FilmBox Family
+p:CANAL+,f:1
+3d96:00822f3c:2c88:013e:1:0
+KINO POLSKA HD
+p:CANAL+,f:1
+3d97:00822f3c:2c88:013e:1:0
+FilmBox Action
+p:CANAL+,f:1
+3d99:00822f3c:2c88:013e:1:0
+TVP Historia
+p:CANAL+,f:1
+3d9a:00822f3c:2c88:013e:1:0
+FilmBox Extra HD
+p:CANAL+,f:1
+3da4:00822f3c:2c88:013e:1:0
+FilmBox Extra HD
+p:CANAL+,f:1
+3da8:00822f3c:2c88:013e:1:0
+FilmBox Family
+p:CANAL+,f:1
+3dab:00822f3c:2c88:013e:1:0
+FilmBox Action
+p:CANAL+,f:1
+3dad:00822f3c:2c88:013e:1:0
+Filmbox Premium HD
+p:CANAL+,f:1
+3db5:00822f3c:2c88:013e:100:0
+12092H SID 0x3db5
+p:DVB-S2 8PSK 12092H 13.0Â°E
+0194:0082abc3:0014:ffff:25:0
+Service_MENA_04
+p:Globecast,f:1
+0001:00822a43:0001:ffff:1:0
+D-312
+p:.,f:1
+0001:0082b138:0002:0002:1:0
+DMC In Sport 3
+p:Globecast,f:1
+0001:00822a3a:0000:0000:25:0
+EHF EL MEN - PGM MONTPELLIER
+p:,f:1
+00c8:0082ac5b:0c07:0000:12:0
+SmartLNB
+p:EUTELSAT
+0320:0082ac5b:0c07:0000:1:0
+INT_OS_PLATFORM
+p:Eutelsat,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2025
