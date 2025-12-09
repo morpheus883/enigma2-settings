@@ -294,14 +294,8 @@ transponders
 0082aa4d:0001:ff00
 	s 10829000:7200000:1:3:130:2:0:1:2:0:2
 /
-0082b138:0001:0001
-	s 12600000:7200000:1:3:130:2:0:1:2:0:2
-/
 00820000:0000:006f
 	s 10839000:7200000:1:3:130:2:0:1:2:0:2
-/
-0082ac5b:0c07:0001
-	s 11355000:27500000:1:3:130:2:0:1:2:2:2
 /
 00820000:3bc4:013e
 	s 11566000:29900000:0:3:130:2:0:1:2:2:2
@@ -311,9 +305,6 @@ transponders
 /
 00820000:1770:00be
 	s 11919000:29900000:1:3:130:2:0:1:2:2:2
-/
-0082abc3:0001:ffff
-	s 11203000:7200000:1:3:130:2:0:1:2:0:2
 /
 0082abb9:0001:0001
 	s 11193000:7200000:1:3:130:2:0:1:2:0:2
@@ -341,6 +332,9 @@ transponders
 /
 0082ac5b:0c07:0000
 	s 11355000:27500000:1:3:130:2:0:1:2:2:2
+/
+0082ad73:0000:ffff
+	s 11635000:9800000:1:3:130:2:0:1:2:0:2
 /
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
@@ -419,6 +413,9 @@ transponders
 /
 00302fc2:0004:0001
 	s 12226000:27500000:0:7:48:2:0:1:2:0:2
+/
+00302f28:107b:0055
+	s 12072000:30000000:0:3:48:2:0:1:2:2:2
 /
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
@@ -638,9 +635,6 @@ fff80000:00bf:00bf
 /
 fff8ad00:0001:0001
 	s 11520000:7200000:1:3:-8:2:0:1:2:0:2
-/
-fff8315e:0000:0000
-	s 12638000:14500000:0:3:-8:2:0:1:2:0:2
 /
 fff80000:0af7:00bb
 	s 11747000:30000000:0:3:-8:2:0:1:2:1:2
@@ -1991,6 +1985,9 @@ p:SkyItalia,f:1
 0597:00820000:19c8:fbff:25:0
 Sky Collection
 p:SkyItalia,f:1
+0598:00820000:19c8:fbff:25:0
+Sky Uno +
+p:SkyItalia,f:1
 2e17:00820000:1a2c:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
@@ -2021,9 +2018,6 @@ p:SkyItalia
 110e:00820000:1a2c:fbff:2:0
 Radio Vaticana Europa
 p:SkyItalia
-110d:00820000:1a2c:fbff:25:0
-TV2000 HD
-p:SkyItalia,f:1
 02c1:00820000:1b58:013e:1:0
 Al Jazeera Documentary
 p:Telespazio,f:1
@@ -2615,15 +2609,6 @@ p:SkyItalia
 1092:00820000:2008:fbff:25:0
 Calcio Overlay HD
 p:SkyItalia,f:1
-0df0:00820000:2008:fbff:1:0
-Super!
-p:SkyItalia,f:1
-0691:00820000:2008:fbff:25:0
-DAZN 3
-p:SkyItalia,f:1
-0692:00820000:2008:fbff:25:0
-DAZN 4
-p:SkyItalia,f:1
 019f:00820000:26ac:013f:1:0
 BFM TV
 p:Eutelsat,f:1
@@ -2726,6 +2711,9 @@ p:GLOBECAST,f:1
 07e6:00820000:22c4:013e:1:0
 BBC Brit
 p:GLOBECAST,f:1
+07de:00820000:22c4:013e:2:0
+Radio Vaticana Europa
+p:GLOBECAST
 4288:00820000:2bc0:013e:1:0
 TVP Rozrywka
 p:Cyfrowy Polsat S.A.,f:1
@@ -2963,6 +2951,9 @@ p:M7 Group,f:1
 4238:00820000:2f44:013e:25:0
 SAT.TV - Hot Bird
 p:,f:1
+4233:00820000:2f44:013e:22:0
+Super!
+p:M-Three Satcom Srl,f:1
 2907:00820000:1edc:0071:1:0
 Nat Geo People PL HD
 p:Cyfrowy Polsat S.A.,f:1
@@ -4733,8 +4724,8 @@ p:VIVACOM,f:1
 0137:00820000:2648:00d5:25:2
 HGTV HD
 p:Vivacom,f:1
-0138:00820000:2648:00d5:25:3
-БНТ 3 HD
+0138:00820000:2648:00d5:22:0
+БНТ 3
 p:VIVACOM,f:1
 0139:00820000:2648:00d5:25:4
 MAX Sport 3 HD
@@ -4796,8 +4787,8 @@ p:VIVACOM,f:1
 0065:00820000:251c:00d5:1:0
 Travel Channel
 p:VIVACOM,c:050001,f:1
-0067:00820000:251c:00d5:1:1
-БНТ1
+0067:00820000:251c:00d5:25:1
+БНТ1 HD
 p:VIVACOM,f:1
 0068:00820000:251c:00d5:1:2
 dizi
@@ -5486,12 +5477,6 @@ p:SkyItalia,f:1
 2fc5:00820000:2260:fbff:25:0
 Gambero Rosso HD
 p:SkyItalia,f:1
-0def:00820000:2260:fbff:1:0
-History +1
-p:SkyItalia,f:1
-0fd9:00820000:2260:fbff:1:0
-History +1
-p:SkyItalia,f:1
 38c5:00820000:2260:fbff:1:0
 Comedy Central +1 Italia
 p:SkyItalia,f:1
@@ -5540,6 +5525,9 @@ p:SkyItalia,f:1
 2b39:00820000:2260:fbff:155:0
 SDMS Service1
 p:SkyItalia
+0dfd:00820000:2260:fbff:25:0
+Disney Jr.
+p:SkyItalia,f:1
 02bd:00820000:14b4:013e:1:0
 World Poker Tour
 p:MuxIP,f:1
@@ -6152,6 +6140,9 @@ p:CANAL+,f:1
 3db5:00822f3c:2c88:013e:100:0
 12092H SID 0x3db5
 p:DVB-S2 8PSK 12092H 13.0Â°E
+3dae:00822f3c:2c88:013e:2:0
+12092H SID 0x3dae
+p:DVB-S2 8PSK 12092H 13.0Â°E
 0194:0082abc3:0014:ffff:25:0
 Service_MENA_04
 p:Globecast,f:1
@@ -6170,6 +6161,9 @@ p:EUTELSAT
 0320:0082ac5b:0c07:0000:1:0
 INT_OS_PLATFORM
 p:Eutelsat,f:1
+0066:0082ad73:0000:ffff:25:0
+Service_02
+p:Globecast,f:1
 0fa0:00300000:0006:0056:1:0
 TVN Chile Nordic
 p:SES ASTRA,f:1
@@ -6263,6 +6257,12 @@ p:SES,f:1
 0122:00300000:0002:0055:25:0
 English Club HD
 p:English Club,f:1
+0320:00300000:0002:0055:12:0
+MX
+p:SES
+0321:00300000:0002:0055:12:0
+Service 801
+p:SES
 000b:00300000:0065:0001:1:0
 SIS VISION AUDIO & VBI - CISCO 1
 p:,f:1
@@ -6323,9 +6323,6 @@ p:,f:1
 1af8:00300000:0011:0055:2:0
 radio nv
 p:TRK ERA
-1b3f:00300000:0011:0055:1:0
-We-Ukraine+
-p:,f:1
 1e0a:00300000:002b:0055:25:0
 English Club HD
 p:SES ASTRA,f:1
@@ -7019,6 +7016,9 @@ p:SES,f:1
 1d6f:00300000:107b:0055:22:0
 Test3
 p:SES,f:1
+1d97:00300000:107b:0055:22:0
+We-Ukraine+
+p:Streamline Media,f:1
 0001:0030b0ed:4321:0000:1:0
 SM HIIHTO JUNNU
 p:YLE,f:1
@@ -8051,6 +8051,9 @@ p:M7,f:1
 76e3:0e080000:02c0:0600:1:0
 RTL
 p:M7,f:1
+76e4:0e080000:02c0:0600:1:0
+Film Mania RO
+p:M7,f:1
 77a7:0e080000:02c2:0600:1:0
 Nick Jr Czech
 p:UPC Direct,f:1
@@ -8143,63 +8146,75 @@ Paramount Channel Hungary.
 p:M7,f:1
 01f9:0e080000:001b:02c0:1:0
 Nickelodeon Europe
-p:MTV Networks,f:1
+p:Paramount,f:1
 01fa:0e080000:001b:02c0:1:0
 MTV Europe
-p:MTV International,f:1
+p:Paramount,f:1
 01fb:0e080000:001b:02c0:1:0
 MTV 00s
-p:MTV International,f:1
+p:Paramount,f:1
 01fc:0e080000:001b:02c0:1:0
 MTV Hits
-p:MTV Networks,f:1
+p:Paramount,f:1
 01fd:0e080000:001b:02c0:1:0
 Club MTV
-p:MTV Networks,f:1
+p:Paramount,f:1
 01fe:0e080000:001b:02c0:1:0
 MTV 80s
-p:Focus Sat,f:1
+p:Paramount,f:1
 01ff:0e080000:001b:02c0:1:0
 MTV 90s
-p:Focus Sat,f:1
+p:Paramount,f:1
 01f7:0e080000:001b:02c0:1:0
 Comedy Central Hungary
-p:mtv,f:1
+p:Paramount,f:1
 01f8:0e080000:001b:02c0:1:0
 Nicktoons Adria
-p:MTV,f:1
+p:Paramount,f:1
 0205:0e080000:001b:02c0:1:0
 MTV 00s.
-p:MTV Networks,f:1
+p:Paramount,f:1
 0206:0e080000:001b:02c0:1:0
 MTV Hits.
-p:MTV Networks,f:1
+p:Paramount,f:1
 0207:0e080000:001b:02c0:1:0
 Club MTV.
-p:MTV Networks,f:1
+p:Paramount,f:1
 0208:0e080000:001b:02c0:1:0
 MTV 80s.
-p:MTV Networks,f:1
+p:Paramount,f:1
 0209:0e080000:001b:02c0:1:0
 MTV 90s.
-p:MTV Networks,f:1
+p:Paramount,f:1
 0203:0e080000:001b:02c0:1:0
 Nickelodeon Europe.
-p:MTV Networks Europe,f:1
+p:Paramount,f:1
 020a:0e080000:001b:02c0:1:0
 Nick Junior Global.
-p:MTV Networks Europe,f:1
+p:Paramount,f:1
 020b:0e080000:001b:02c0:1:0
 Nick Junior Global..
-p:MTV Networks Europe,f:1
+p:Paramount,f:1
 0200:0e080000:001b:02c0:1:0
 Nick Junior Global
-p:MTV Networks Europe,C:0000,f:1
+p:Paramount,C:0000,f:1
 01f6:0e080000:001b:02c0:1:0
 Comedy Central Romania
 p:Paramount,f:1
 01f5:0e080000:001b:02c0:25:0
 Nickelodeon Global HD
+p:Paramount,f:1
+020c:0e080000:001b:02c0:1:0
+Nick Junior Global_
+p:Paramount,f:1
+020d:0e080000:001b:02c0:1:0
+Nickelodeon Hungary
+p:Paramount,f:1
+020e:0e080000:001b:02c0:1:0
+Nickelodeon Czech
+p:Paramount,f:1
+020f:0e080000:001b:02c0:1:0
+Nickelodeon Romania
 p:Paramount,f:1
 78bc:0e080000:02c5:0600:1:0
 National Geographic RO
@@ -8594,9 +8609,6 @@ p:Telenor,f:1
 1d5a:0e080000:0048:0046:25:0
 BBC Nordic HD (S)
 p:Telenor,f:1
-42bc:0e080000:0048:0046:25:0
-Kuukauden kanava
-p:Telenor,f:1
 7727:0e080000:02c1:0600:25:0
 Sport 1 HD Hungary
 p:M7,f:1
@@ -8957,6 +8969,9 @@ p:Telenor,f:1
 1c04:0e080000:0041:0046:22:0
 Mezzo Live
 p:Telenor,f:1
+42bc:0e080000:0041:0046:22:0
+Kuukauden kanava
+p:Telenor,f:1
 1785:0e080000:0af6:00bb:22:0
 Prima SK
 p:Slovak Telekom,f:1
@@ -9080,9 +9095,6 @@ p:M7,f:1
 79e6:0e080000:02c8:0600:1:0
 JimJam RO.
 p:M7,f:1
-79e8:0e080000:02c8:0600:1:0
-Direct One
-p:M7,f:1
 79fa:0e080000:02c8:0600:1:0
 TV Paprika RO
 p:M7,f:1
@@ -9127,6 +9139,12 @@ Film+ CZE SVT
 p:M7,f:1
 7a0c:0e080000:02c8:0600:1:0
 ATV Extra.
+p:M7,f:1
+79e2:0e080000:02c8:0600:1:0
+CANAL+ Action HU
+p:M7,f:1
+79e8:0e080000:02c8:0600:1:0
+CANAL+ Action.
 p:M7,f:1
 797e:0e080000:02c7:0600:1:0
 Cartoon Network Eastern Europe
@@ -9878,6 +9896,9 @@ p:,f:1
 36ae:fff8306f:004b:0046:25:0
 TEST 13998
 p:,f:1
+32d6:fff8306f:004b:0046:25:0
+Test 13014
+p:Telenor,f:1
 2332:0e080000:0055:0046:25:0
 TS Sports 11
 p:Telenor,f:1
@@ -9898,6 +9919,12 @@ Test 7459
 p:Telenor,f:1
 1c76:0e080000:0055:0046:22:0
 Test 7286
+p:Telenor,f:1
+32d5:0e080000:0055:0046:31:0
+Test 13013
+p:Telenor,f:1
+32d5:0e080000:0055:0046:25:0
+Test 13013
 p:Telenor,f:1
 0001:0e08acf9:0001:0001:25:0
 South Shields Revrse
@@ -9974,6 +10001,15 @@ p:Telenor
 32d1:0e080000:0054:0046:22:0
 Test 13009
 p:Telenor,f:1
+ff65:0e080000:0054:0046:1:0
+
+p:,f:1
+ff66:0e080000:0054:0046:1:0
+
+p:,f:1
+ff67:0e080000:0054:0046:1:0
+
+p:,f:1
 0136:fff8b0f3:0136:ffff:1:0
 digisport
 p:rcs-rds,f:1
