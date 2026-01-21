@@ -297,9 +297,6 @@ transponders
 0082ad73:0000:ffff
 	s 11635000:9800000:1:3:130:2:0:1:2:0:2
 /
-0082aa57:0014:ffff
-	s 10839000:7200000:1:3:130:2:0:1:2:0:2
-/
 0082aa60:0001:ff00
 	s 10848000:7200000:1:3:130:2:0:1:2:0:2
 /
@@ -314,6 +311,12 @@ transponders
 /
 00822d46:0000:0000
 	s 11590000:7200000:0:3:130:2:0:1:2:0:2
+/
+0082abcc:0000:0000
+	s 11212000:7200000:1:3:130:2:0:1:2:0:2
+/
+0082aa57:0000:0000
+	s 10839000:7200000:1:3:130:2:0:1:2:0:2
 /
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
@@ -573,11 +576,11 @@ fff8b0f0:0001:ffff
 0e08b0ff:0001:ffff
 	s 12543000:6660000:1:3:-8:2:0:1:2:0:2
 /
-0e08315e:0001:ffff
-	s 12638000:14500000:0:3:-8:2:0:1:2:0:2
-/
 fff8b0f6:0001:ffff
 	s 12534000:4800000:1:3:-8:2:0:1:2:0:2
+/
+0e08315e:0000:0000
+	s 12638000:14500000:0:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -1484,9 +1487,9 @@ p:
 1fed:00820000:16a8:fbff:252:0
 Fusion FGDL
 p:SkyItalia
-0e70:00820000:16a8:fbff:131:0
+0e70:00820000:16a8:fbff:1:0
 IEPG Data
-p:SkyItalia
+p:SkyItalia,f:1
 2ab7:00820000:1838:fbff:130:0
 Sports Active 3
 p:SkyItalia,f:1
@@ -1529,9 +1532,9 @@ p:Sky Italia,f:1
 2b20:00820000:1838:fbff:25:0
 Sky Sport24 HD
 p:SkyItalia,f:1
-2af7:00820000:1838:fbff:131:0
+2af7:00820000:1838:fbff:1:0
 IEPG Data
-p:SkyItalia
+p:SkyItalia,f:1
 2006:00820000:189c:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
@@ -1640,9 +1643,9 @@ p:SkyItalia,f:1
 10e8:00820000:19c8:fbff:1:0
 SkyTG24 PrimoPiano
 p:Sky Italia,f:1
-2bbf:00820000:19c8:fbff:131:0
+2bbf:00820000:19c8:fbff:1:0
 IEPG Data
-p:SkyItalia
+p:SkyItalia,f:1
 02c1:00820000:1b58:013e:1:0
 Al Jazeera Documentary
 p:Telespazio,f:1
@@ -2282,13 +2285,13 @@ p:GLOBECAST,f:1
 07e0:00820000:22c4:013e:1:0
 BBC Brit Poland HD
 p:GLOBECAST,f:1
-07d6:00820000:22c4:013e:1:0
+07d6:00820000:22c4:013e:25:0
 BBC Brit Poland
 p:GLOBECAST,f:1
 07d9:00820000:22c4:013e:1:0
 BBC CBeebies Poland
 p:GLOBECAST,f:1
-07db:00820000:22c4:013e:1:0
+07db:00820000:22c4:013e:25:0
 BBC Lifestyle Poland HD
 p:GLOBECAST,f:1
 07e1:00820000:22c4:013e:1:0
@@ -2551,6 +2554,9 @@ Super!
 p:M-Three Satcom Srl,f:1
 4235:00820000:2f44:013e:1:0
 BeJoy.kids
+p:M-Three Satcom,f:1
+4234:00820000:2f44:013e:1:0
+Value 24
 p:M-Three Satcom,f:1
 2907:00820000:1edc:0071:1:0
 Nat Geo People PL HD
@@ -3638,9 +3644,9 @@ p:Sky Italia,f:1
 2d6c:00820000:1900:fbff:31:0
 Sky Sport 4K
 p:SkyItalia,f:1
-2b57:00820000:1900:fbff:131:0
+2b57:00820000:1900:fbff:1:0
 IEPG Data
-p:SkyItalia
+p:SkyItalia,f:1
 0191:00820000:1518:013e:1:0
 MTV 00s
 p:NOVA,f:1
@@ -4147,6 +4153,12 @@ Radio Nova K
 p:NURTS
 001d:00820000:2580:00d5:1:0
 Telemedia
+p:VIVACOM,f:1
+0033:00820000:2580:00d5:1:0
+NOVA
+p:VIVACOM,f:1
+0034:00820000:2580:00d5:25:0
+NOVA HD
 p:VIVACOM,f:1
 00f6:00820000:25e4:00d5:22:0
 NTV Mir
@@ -5060,9 +5072,9 @@ p:SkyItalia,f:1
 1e5c:00820000:2260:fbff:1:0
 Sky Sport 8
 p:SkyItalia,f:1
-2db3:00820000:2260:fbff:131:0
+2db3:00820000:2260:fbff:1:0
 IEPG Data
-p:SkyItalia
+p:SkyItalia,f:1
 02bd:00820000:14b4:013e:1:0
 World Poker Tour
 p:MuxIP,f:1
@@ -5147,9 +5159,9 @@ p:Sky Italia,f:1
 2da4:0082ae43:15e0:fbff:25:0
 Sky Serie HD
 p:SkyItalia,f:1
-1e76:0082ae43:15e0:fbff:131:0
+1e76:0082ae43:15e0:fbff:1:0
 IEPG Data
-p:SkyItalia
+p:SkyItalia,f:1
 1018:0082af29:1a90:fbff:25:0
 Cielo HD
 p:SkyItalia,f:1
@@ -5192,9 +5204,9 @@ p:SkyItalia,f:1
 0dfb:0082af29:1a90:fbff:25:0
 Sky Sport Mix
 p:SkyItalia,f:1
-1063:0082af29:1a90:fbff:131:0
+1063:0082af29:1a90:fbff:1:0
 IEPG Data
-p:SkyItalia
+p:SkyItalia,f:1
 0001:0082abcb:0001:0001:1:0
 NLEMG HOL270-1
 p:EMG Connectivity,f:1
@@ -5543,9 +5555,6 @@ p:Eutelsat,f:1
 0066:0082ad73:0000:ffff:25:0
 Service_02
 p:Globecast,f:1
-0001:0082aa57:0014:ffff:1:0
-TKS TRT M20 A
-p:TRT,f:1
 0001:0082aa60:0001:ff00:25:0
 CZE-012-CHL BASKET LEVICE-MAIN
 p:,f:1
@@ -5555,9 +5564,6 @@ p:BS,f:1
 0001:0082b138:0000:0000:25:0
 BWF World Tour C1 BISS-1
 p:GLOBECAST,f:1
-10ca:0082b035:2008:fbff:131:0
-IEPG Data
-p:SkyItalia
 0ded:0082b035:2008:fbff:25:0
 Sky Sport Business 3
 p:SkyItalia,f:1
@@ -5606,7 +5612,16 @@ p:SkyItalia,f:1
 2dbe:0082b035:2008:fbff:25:0
 Sky Nature HD
 p:SkyItalia,f:1
+10ca:0082b035:2008:fbff:1:0
+IEPG Data
+p:SkyItalia,f:1
 0001:00822d46:0000:0000:25:0
+BWF World Tour C1 BISS-1
+p:GLOBECAST,f:1
+0001:0082abcc:0000:0000:25:0
+BWF World Tour C1 BISS-1
+p:GLOBECAST,f:1
+0001:0082aa57:0000:0000:25:0
 BWF World Tour C1 BISS-1
 p:GLOBECAST,f:1
 040a:0e080000:0044:0046:25:0
@@ -6637,6 +6652,9 @@ Nicktoons Czech
 p:Paramount,f:1
 0215:0e080000:001b:02c0:1:0
 Nicktoons Romania
+p:Paramount,f:1
+0216:0e080000:001b:02c0:1:0
+Nickelodeon Hungary.
 p:Paramount,f:1
 78bc:0e080000:02c5:0600:1:0
 National Geographic RO
@@ -8294,12 +8312,9 @@ p:Telenor,f:1
 1c76:0e080000:0055:0046:22:0
 Test 7286
 p:Telenor,f:1
-32d5:0e080000:0055:0046:31:0
-Test 13013
-p:Telenor,f:1
-32d5:0e080000:0055:0046:25:0
-Test 13013
-p:Telenor,f:1
+ff14:0e080000:0055:0046:1:0
+
+p:,f:1
 0001:0e08acf9:0001:0001:25:0
 South Shields Revrse
 p:GBBBC,f:1
@@ -8717,12 +8732,12 @@ p:RCS-RDS,f:1
 00bf:0e08b0ff:0001:ffff:1:0
 B 191 DGI
 p:DIGI TV,f:1
-0001:0e08315e:0001:ffff:1:0
-Seventeen Japan
-p:SES,f:1
 00bf:fff8b0f6:0001:ffff:1:0
 B 191 DGI
 p:DIGI TV,f:1
+0001:0e08315e:0000:0000:25:0
+ROH-Live
+p:ROH,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2026
