@@ -231,14 +231,14 @@ transponders
 011a30e6:0001:0001
 	s 12518000:15000000:0:4:282:2:0:1:2:0:2
 /
-011ab168:0001:ffff
-	s 12648000:5000000:1:4:282:2:0:1:2:0:2
-/
 011a31b5:0001:0001
 	s 12725000:7200000:0:3:282:2:0:1:2:0:2
 /
 011ab19f:0001:ffff
 	s 12703000:7200000:1:3:282:2:0:1:2:0:2
+/
+011ab168:4321:00eb
+	s 12648000:5000000:1:4:282:2:0:1:2:0:2
 /
 00c00000:041d:0001
 	s 10773000:22000000:0:3:192:2:0:1:2:0:2
@@ -2774,9 +2774,6 @@ p:BSkyB,f:1
 cff8:011a0000:0832:0002:1:0
 TNT Sports 7
 p:BSkyB,f:1
-cfe4:011a0000:0832:0002:1:0
-Food Network Ireland
-p:BSkyB,f:1
 cff4:011a0000:0832:0002:1:0
 Really Ireland
 p:BSkyB,f:1
@@ -2828,12 +2825,6 @@ p:BSkyB,f:1
 0b59:011a305e:07f3:0002:1:0
 DMAX UK +1
 p:BSkyB,f:1
-0b5e:011a305e:07f3:0002:1:0
-Food Network
-p:BSkyB,f:1
-0b60:011a305e:07f3:0002:1:0
-Food Network +1
-p:BSkyB,f:1
 0b64:011a305e:07f3:0002:1:0
 DMAX UK
 p:BSkyB,f:1
@@ -2842,15 +2833,6 @@ Discovery Channel
 p:BSkyB,f:1
 183a:011a305e:07f3:0002:1:0
 Animal Planet
-p:BSkyB,f:1
-183e:011a305e:07f3:0002:1:0
-Discovery Science Channel
-p:BSkyB,f:1
-183f:011a305e:07f3:0002:1:0
-Discovery History
-p:BSkyB,f:1
-1841:011a305e:07f3:0002:1:0
-Discovery Turbo UK
 p:BSkyB,f:1
 1843:011a305e:07f3:0002:1:0
 Quest Red+1
@@ -2906,9 +2888,6 @@ p:BSkyB,f:1
 c49f:011a2b4a:0811:0002:1:0
 Sikh Channel
 p:BSkyB,f:1
-c4ab:011a2b4a:0811:0002:1:0
-Gems TV
-p:BSkyB,f:1
 c4ae:011a2b4a:0811:0002:1:0
 Blaze
 p:BSkyB,f:1
@@ -2933,12 +2912,6 @@ p:BSkyB,f:1
 c4d0:011a2b4a:0811:0002:1:0
 Faith UK
 p:BSkyB,f:1
-c4d6:011a2b4a:0811:0002:1:0
-Crime+Inv
-p:BSkyB,f:1
-c4d8:011a2b4a:0811:0002:1:0
-Sky History
-p:BSkyB,f:1
 c4da:011a2b4a:0811:0002:1:0
 Geo TV
 p:BSkyB,f:1
@@ -2949,7 +2922,7 @@ c4b5:011a2b4a:0811:0002:1:0
 NOW 90s & 00s
 p:BSkyB,f:1
 c4b0:011a2b4a:0811:0002:1:0
-NOW Christmas
+Clubland TV
 p:BSkyB,f:1
 c4b3:011a2b4a:0811:0002:1:0
 NOW Rock
@@ -3227,11 +3200,17 @@ p:BSkyB,f:1
 cd0c:011a0000:07e1:0002:1:0
 Cartoonito
 p:BSkyB,f:1
-cd0a:011a0000:07e1:0002:1:0
-Discovery Science
-p:BSkyB,f:1
 cd10:011a0000:07e1:0002:1:0
 Food Network Ireland
+p:BSkyB,f:1
+ccf8:011a0000:07e1:0002:1:0
+Food Network
+p:BSkyB,f:1
+ccfa:011a0000:07e1:0002:1:0
+Food Network +1
+p:BSkyB,f:1
+cd0a:011a0000:07e1:0002:1:0
+Discovery Science Channel
 p:BSkyB,f:1
 cd06:011a0000:07e1:0002:1:0
 Discovery History
@@ -3308,15 +3287,15 @@ p:rt1.tv,f:1
 0001:011a30e6:0001:0001:1:0
 LIHS MAIN
 p:TimelineTV,f:1
-0001:011ab168:0001:ffff:1:0
-HOL322 TX1
-p:Newslive.nl,f:1
 0001:011a31b5:0001:0001:25:0
 1693-MACvC.PAL-EVS
 p:UKI1693,f:1
 0001:011ab19f:0001:ffff:1:0
 D-528
 p:rt1.tv,f:1
+0001:011ab168:4321:00eb:25:0
+BEL119
+p:VRT,f:1
 526c:00c00000:041d:0001:25:0
 Anixe HD
 p:BetaDigital,f:1
@@ -3420,7 +3399,7 @@ p:,f:1
 DAZN Baloncesto 3
 p:TXY,C:0000,f:1
 7696:00c00000:041e:0001:1:0
-M+ BBC Earth
+M+ Cine Bélico
 p:Movistar+,C:0000,f:1
 7509:00c00000:0420:0001:25:0
 Movistar Acción HD
@@ -3785,9 +3764,6 @@ p:DIGITAL+,f:1
 7577:00c00000:0412:0001:1:0
 Classica
 p:CANAL+,f:1
-756b:00c00000:0412:0001:1:0
-Paramount Channel Spain
-p:PRISA TV,f:1
 757f:00c00000:0412:0001:1:0
 AXN Movies
 p:,f:1
@@ -3884,6 +3860,9 @@ p:Movistar+,C:0000,f:1
 7579:00c00000:0412:0001:1:0
 M+ VAMOS 2
 p:Movistar+,f:1
+756b:00c00000:0412:0001:1:0
+TEST TXP 42
+p:PRISA TV,f:1
 7729:00c00000:0416:0001:1:0
 Canal Sur Andalucia
 p:Movistar+,f:1
@@ -5069,14 +5048,8 @@ p:
 0379:00c00000:0457:0001:12:0
 DVB-I Images
 p:
-3148:00c00000:0459:0001:1:0
+3148:00c00000:0459:0001:22:0
 Shop LC
-p:MB Satellite,f:1
-314a:00c00000:0459:0001:1:0
-Dreamgirls24 TV
-p:MB Satellite,f:1
-314b:00c00000:0459:0001:1:0
-ErotikSat24 TV
 p:MB Satellite,f:1
 314e:00c00000:0459:0001:1:0
 Sexy Girls TV
@@ -5092,12 +5065,6 @@ Mobile Sex
 p:MB Satellite,f:1
 3152:00c00000:0459:0001:1:0
 Sex Kontakte
-p:MB Satellite,f:1
-3155:00c00000:0459:0001:1:0
-Traumfrauen TV
-p:MB Satellite,f:1
-3156:00c00000:0459:0001:1:0
-Heiss und Sexy TV
 p:MB Satellite,f:1
 315b:00c00000:0459:0001:1:0
 Babestation24
@@ -5123,9 +5090,6 @@ p:MB Satellite
 3171:00c00000:0459:0001:2:0
 Radio HCJB
 p:MB Satellite
-3144:00c00000:0459:0001:1:0
-GayBoys Live
-p:MB Satellite,f:1
 3145:00c00000:0459:0001:12:0
 RAPS
 p:MB Satellite
@@ -5135,17 +5099,8 @@ p:MB Satellite,f:1
 313f:00c00000:0459:0001:1:0
 Wedo Movies
 p:MB Satellite,f:1
-3138:00c00000:0459:0001:1:0
-MBS - Test2
-p:MB Satellite,f:1
-313c:00c00000:0459:0001:1:0
+313c:00c00000:0459:0001:22:0
 Telegold
-p:MB Satellite,f:1
-3159:00c00000:0459:0001:1:0
-MBS Test 3
-p:MB Satellite,f:1
-3162:00c00000:0459:0001:1:0
-Time of Change.TV
 p:MB Satellite,f:1
 332e:00c00000:045b:0001:22:0
 RTL Nitro Austria
@@ -6440,6 +6395,9 @@ p:CSAT,f:1
 271b:00c00000:044c:0001:25:0
 Pink X HD
 p:CSAT,f:1
+2720:00c00000:044c:0001:25:0
+Europe 1 TV
+p:CSAT,f:1
 2336:00c00000:0442:0001:25:0
 C News HD
 p:CSAT,f:1
@@ -6720,7 +6678,7 @@ p:SES,f:1
 Divinity
 p:DIGITAL+,f:1
 7885:00c00000:0414:0001:1:0
-M+ Navidad
+M+ Tierra Media
 p:Movistar+,f:1
 7888:00c00000:0414:0001:1:0
 Boing Spain
@@ -6740,9 +6698,6 @@ p:Movistar+,f:1
 7892:00c00000:0414:0001:1:0
 M+ LaLiga TV 4
 p:Movistar+,f:1
-7893:00c00000:0414:0001:1:0
-M+ LaLiga TV 5
-p:,f:1
 788e:00c00000:0414:0001:100:0
 
 p:
@@ -6760,6 +6715,9 @@ M+ Liga Campeones 19
 p:Movistar+,C:0000,f:1
 7894:00c00000:0414:0001:1:0
 M+ Liga Campeones 17
+p:,f:1
+7893:00c00000:0414:0001:1:0
+TEST TXP 44
 p:,f:1
 18f4:00c00000:03f4:0003:1:0
 EuroNews German SD
@@ -8301,7 +8259,7 @@ p:NOVA,f:1
 Attica TV
 p:NOVA,f:1
 3c8e:00820000:1bbc:013e:1:0
-NovaChristmasHD
+Nova Stars HD
 p:NOVA,f:1
 3c93:00820000:1bbc:013e:1:0
 Cosmote Sport 7 HD
@@ -8882,6 +8840,9 @@ p:GLOBECAST,f:1
 07de:00820000:22c4:013e:2:0
 Radio Vaticana Europa
 p:GLOBECAST
+07e7:00820000:22c4:013e:25:0
+BBC Persian HD
+p:BBC World Service,f:1
 4288:00820000:2bc0:013e:1:0
 TVP Rozrywka
 p:Cyfrowy Polsat S.A.,f:1
@@ -9853,7 +9814,7 @@ Al Mayadeen
 p:,f:1
 01f7:00820000:0384:013e:25:0
 Al Bayyinat TV
-p:,f:1
+p:Encoder device,f:1
 0201:00820000:0384:013e:1:0
 RadioNorba TV
 p:Telenorba,f:1
@@ -9878,6 +9839,9 @@ p:M-Three satcom,f:1
 01f9:00820000:0384:013e:1:0
 MC EU
 p:Itep Pictures,f:1
+01f6:00820000:0384:013e:1:0
+Setareh TV
+p:,f:1
 0641:00820000:2454:013e:25:0
 Al Jazeera HD
 p:EUTELSAT,f:1
@@ -10719,7 +10683,7 @@ p:NURTS
 Radio Nova K
 p:NURTS
 001d:00820000:2580:00d5:1:0
-Telemedia
+Telenews
 p:VIVACOM,f:1
 0033:00820000:2580:00d5:1:0
 NOVA
@@ -11155,9 +11119,6 @@ Discovery Channel
 p:VIVACOM,f:1
 13b4:00820000:2710:00d5:1:39
 Soul & Pepper TV
-p:VIVACOM,f:1
-13b5:00820000:2710:00d5:22:0
-VTK
 p:VIVACOM,f:1
 03ea:0082acce:03ea:0001:12:0
 HVS-2 Bck
@@ -12191,6 +12152,9 @@ p:GLOBECAST,f:1
 0001:0082aa57:0000:0000:25:0
 BWF World Tour C1 BISS-1
 p:GLOBECAST,f:1
+0008:0082aa57:0000:0000:25:0
+ENC 08
+p:GLOBECAST,f:1
 040a:0e080000:0044:0046:25:0
 TV 2 Sport Premium HD
 p:Canal Digital Nordic,f:1
@@ -13136,41 +13100,8 @@ p:Paramount,f:1
 01fa:0e080000:001b:02c0:1:0
 MTV Europe
 p:Paramount,f:1
-01fb:0e080000:001b:02c0:1:0
-MTV 00s
-p:Paramount,f:1
-01fc:0e080000:001b:02c0:1:0
-MTV Hits
-p:Paramount,f:1
-01fd:0e080000:001b:02c0:1:0
-Club MTV
-p:Paramount,f:1
-01fe:0e080000:001b:02c0:1:0
-MTV 80s
-p:Paramount,f:1
-01ff:0e080000:001b:02c0:1:0
-MTV 90s
-p:Paramount,f:1
-01f7:0e080000:001b:02c0:1:0
-Comedy Central Hungary
-p:Paramount,f:1
 01f8:0e080000:001b:02c0:1:0
 Nicktoons Adria
-p:Paramount,f:1
-0205:0e080000:001b:02c0:1:0
-MTV 00s.
-p:Paramount,f:1
-0206:0e080000:001b:02c0:1:0
-MTV Hits.
-p:Paramount,f:1
-0207:0e080000:001b:02c0:1:0
-Club MTV.
-p:Paramount,f:1
-0208:0e080000:001b:02c0:1:0
-MTV 80s.
-p:Paramount,f:1
-0209:0e080000:001b:02c0:1:0
-MTV 90s.
 p:Paramount,f:1
 0203:0e080000:001b:02c0:1:0
 Nickelodeon Europe.
@@ -13222,6 +13153,12 @@ Nicktoons Romania
 p:Paramount,f:1
 0216:0e080000:001b:02c0:1:0
 Nickelodeon Hungary.
+p:Paramount,f:1
+0217:0e080000:001b:02c0:1:0
+Nick Junior Hungary.
+p:Paramount,f:1
+0218:0e080000:001b:02c0:1:0
+Nicktoons Hungary.
 p:Paramount,f:1
 78bc:0e080000:02c5:0600:1:0
 National Geographic RO

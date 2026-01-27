@@ -231,14 +231,14 @@ transponders
 011a30e6:0001:0001
 	s 12518000:15000000:0:4:282:2:0:1:2:0:2
 /
-011ab168:0001:ffff
-	s 12648000:5000000:1:4:282:2:0:1:2:0:2
-/
 011a31b5:0001:0001
 	s 12725000:7200000:0:3:282:2:0:1:2:0:2
 /
 011ab19f:0001:ffff
 	s 12703000:7200000:1:3:282:2:0:1:2:0:2
+/
+011ab168:4321:00eb
+	s 12648000:5000000:1:4:282:2:0:1:2:0:2
 /
 00820000:2e18:00b0
 	s 10873000:27500000:1:3:130:2:0:1:2:0:2
@@ -2156,9 +2156,6 @@ p:BSkyB,f:1
 cff8:011a0000:0832:0002:1:0
 TNT Sports 7
 p:BSkyB,f:1
-cfe4:011a0000:0832:0002:1:0
-Food Network Ireland
-p:BSkyB,f:1
 cff4:011a0000:0832:0002:1:0
 Really Ireland
 p:BSkyB,f:1
@@ -2210,12 +2207,6 @@ p:BSkyB,f:1
 0b59:011a305e:07f3:0002:1:0
 DMAX UK +1
 p:BSkyB,f:1
-0b5e:011a305e:07f3:0002:1:0
-Food Network
-p:BSkyB,f:1
-0b60:011a305e:07f3:0002:1:0
-Food Network +1
-p:BSkyB,f:1
 0b64:011a305e:07f3:0002:1:0
 DMAX UK
 p:BSkyB,f:1
@@ -2224,15 +2215,6 @@ Discovery Channel
 p:BSkyB,f:1
 183a:011a305e:07f3:0002:1:0
 Animal Planet
-p:BSkyB,f:1
-183e:011a305e:07f3:0002:1:0
-Discovery Science Channel
-p:BSkyB,f:1
-183f:011a305e:07f3:0002:1:0
-Discovery History
-p:BSkyB,f:1
-1841:011a305e:07f3:0002:1:0
-Discovery Turbo UK
 p:BSkyB,f:1
 1843:011a305e:07f3:0002:1:0
 Quest Red+1
@@ -2288,9 +2270,6 @@ p:BSkyB,f:1
 c49f:011a2b4a:0811:0002:1:0
 Sikh Channel
 p:BSkyB,f:1
-c4ab:011a2b4a:0811:0002:1:0
-Gems TV
-p:BSkyB,f:1
 c4ae:011a2b4a:0811:0002:1:0
 Blaze
 p:BSkyB,f:1
@@ -2315,12 +2294,6 @@ p:BSkyB,f:1
 c4d0:011a2b4a:0811:0002:1:0
 Faith UK
 p:BSkyB,f:1
-c4d6:011a2b4a:0811:0002:1:0
-Crime+Inv
-p:BSkyB,f:1
-c4d8:011a2b4a:0811:0002:1:0
-Sky History
-p:BSkyB,f:1
 c4da:011a2b4a:0811:0002:1:0
 Geo TV
 p:BSkyB,f:1
@@ -2331,7 +2304,7 @@ c4b5:011a2b4a:0811:0002:1:0
 NOW 90s & 00s
 p:BSkyB,f:1
 c4b0:011a2b4a:0811:0002:1:0
-NOW Christmas
+Clubland TV
 p:BSkyB,f:1
 c4b3:011a2b4a:0811:0002:1:0
 NOW Rock
@@ -2609,11 +2582,17 @@ p:BSkyB,f:1
 cd0c:011a0000:07e1:0002:1:0
 Cartoonito
 p:BSkyB,f:1
-cd0a:011a0000:07e1:0002:1:0
-Discovery Science
-p:BSkyB,f:1
 cd10:011a0000:07e1:0002:1:0
 Food Network Ireland
+p:BSkyB,f:1
+ccf8:011a0000:07e1:0002:1:0
+Food Network
+p:BSkyB,f:1
+ccfa:011a0000:07e1:0002:1:0
+Food Network +1
+p:BSkyB,f:1
+cd0a:011a0000:07e1:0002:1:0
+Discovery Science Channel
 p:BSkyB,f:1
 cd06:011a0000:07e1:0002:1:0
 Discovery History
@@ -2690,15 +2669,15 @@ p:rt1.tv,f:1
 0001:011a30e6:0001:0001:1:0
 LIHS MAIN
 p:TimelineTV,f:1
-0001:011ab168:0001:ffff:1:0
-HOL322 TX1
-p:Newslive.nl,f:1
 0001:011a31b5:0001:0001:25:0
 1693-MACvC.PAL-EVS
 p:UKI1693,f:1
 0001:011ab19f:0001:ffff:1:0
 D-528
 p:rt1.tv,f:1
+0001:011ab168:4321:00eb:25:0
+BEL119
+p:VRT,f:1
 0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
 p:SNRT,f:1
@@ -3849,7 +3828,7 @@ p:NOVA,f:1
 Attica TV
 p:NOVA,f:1
 3c8e:00820000:1bbc:013e:1:0
-NovaChristmasHD
+Nova Stars HD
 p:NOVA,f:1
 3c93:00820000:1bbc:013e:1:0
 Cosmote Sport 7 HD
@@ -4430,6 +4409,9 @@ p:GLOBECAST,f:1
 07de:00820000:22c4:013e:2:0
 Radio Vaticana Europa
 p:GLOBECAST
+07e7:00820000:22c4:013e:25:0
+BBC Persian HD
+p:BBC World Service,f:1
 4288:00820000:2bc0:013e:1:0
 TVP Rozrywka
 p:Cyfrowy Polsat S.A.,f:1
@@ -5401,7 +5383,7 @@ Al Mayadeen
 p:,f:1
 01f7:00820000:0384:013e:25:0
 Al Bayyinat TV
-p:,f:1
+p:Encoder device,f:1
 0201:00820000:0384:013e:1:0
 RadioNorba TV
 p:Telenorba,f:1
@@ -5426,6 +5408,9 @@ p:M-Three satcom,f:1
 01f9:00820000:0384:013e:1:0
 MC EU
 p:Itep Pictures,f:1
+01f6:00820000:0384:013e:1:0
+Setareh TV
+p:,f:1
 0641:00820000:2454:013e:25:0
 Al Jazeera HD
 p:EUTELSAT,f:1
@@ -6267,7 +6252,7 @@ p:NURTS
 Radio Nova K
 p:NURTS
 001d:00820000:2580:00d5:1:0
-Telemedia
+Telenews
 p:VIVACOM,f:1
 0033:00820000:2580:00d5:1:0
 NOVA
@@ -6703,9 +6688,6 @@ Discovery Channel
 p:VIVACOM,f:1
 13b4:00820000:2710:00d5:1:39
 Soul & Pepper TV
-p:VIVACOM,f:1
-13b5:00820000:2710:00d5:22:0
-VTK
 p:VIVACOM,f:1
 03ea:0082acce:03ea:0001:12:0
 HVS-2 Bck
@@ -7738,6 +7720,9 @@ BWF World Tour C1 BISS-1
 p:GLOBECAST,f:1
 0001:0082aa57:0000:0000:25:0
 BWF World Tour C1 BISS-1
+p:GLOBECAST,f:1
+0008:0082aa57:0000:0000:25:0
+ENC 08
 p:GLOBECAST,f:1
 end
 === Compiled with Morpheus883's scripts ===

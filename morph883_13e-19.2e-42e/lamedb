@@ -129,26 +129,11 @@ transponders
 01a40000:a02d:042e
 	s 12084000:13750000:0:2:420:2:0:1:2:0:2
 /
-01a40000:0001:002a
-	s 11133000:1800000:1:3:420:2:0
-/
-01a40000:0000:ff00
-	s 10968000:7916000:1:4:420:2:0:1:2:0:2
-/
 01a4311a:0001:ffff
 	s 12570000:3300000:0:3:420:2:0:1:2:0:2
 /
-01a4ab78:0001:0000
-	s 11128000:400000:1:4:420:2:0
-/
-01a42ace:0001:ffff
-	s 10958000:6250000:1:4:420:2:0:1:2:0:2
-/
 01a42b93:0001:0001
 	s 11155000:5000000:0:4:420:2:0:1:2:0:2
-/
-01a40000:c5a8:002a
-	s 11180000:29750000:0:4:420:2:0
 /
 01a40000:a415:042e
 	s 12356000:7100000:0:2:420:2:0:1:2:0:2
@@ -186,17 +171,17 @@ transponders
 01a43120:0001:ffff
 	s 12576000:2480000:0:3:420:2:0:1:2:0:2
 /
-01a4acf2:0001:ffff
-	s 11506000:2222000:1:4:420:2:0
-/
 01a4b11c:0001:ffff
 	s 12572000:7500000:1:3:420:2:0:1:2:0:2
 /
-01a40000:0001:0021
-	s 11129000:400000:1:4:420:2:0
+01a4ad05:0001:ffff
+	s 11525000:400000:1:4:420:2:0
+/
+01a40000:0001:0019
+	s 11526000:400000:1:4:420:2:0
 /
 01a40000:0001:003d
-	s 11131000:420000:1:4:420:2:0
+	s 11527000:420000:1:4:420:2:0
 /
 01a4ab16:0000:0002
 	s 11030000:7500000:1:3:420:2:0:1:2:0:2
@@ -354,8 +339,23 @@ transponders
 01a4acc5:0000:0000
 	s 11461000:6800000:1:3:420:2:0
 /
-01a4acfc:0001:ffff
-	s 11516000:7500000:1:3:420:2:0:1:2:0:2
+01a4acfc:0000:ff00
+	s 11516000:8000000:1:4:420:2:0:1:2:0:2
+/
+01a4acf3:0001:ffff
+	s 11507000:6250000:1:4:420:2:0:1:2:0:2
+/
+01a4ad04:0001:0000
+	s 11524000:400000:1:4:420:2:0
+/
+01a4ad02:0001:002a
+	s 11522000:1800000:1:3:420:2:0
+/
+01a4ad08:0001:ffff
+	s 11528000:400000:1:4:420:2:0
+/
+01a4ad56:0001:ffff
+	s 11606000:6200000:1:3:420:2:0:1:2:0:2
 /
 00c00000:041d:0001
 	s 10773000:22000000:0:3:192:2:0:1:2:0:2
@@ -2186,39 +2186,6 @@ p:
 07b6:01a40000:0009:0042:1:0
 YILBAŞI
 p:DEMIROREN MEDYA,f:1
-3725:01a40000:4e85:002a:17:0
-beIN Sports 1 HD Turkey
-p:Digital Platform,f:1
-372b:01a40000:4e85:002a:17:0
-beIN Sports 4 HD Turkey
-p:Digital Platform,f:1
-3739:01a40000:4e85:002a:17:0
-Ticari beIN Sports 4 HD
-p:Digital Platform,f:1
-373e:01a40000:4e85:002a:17:0
-Ticari beIN Sports 1 HD
-p:Digital Platform,f:1
-3715:01a40000:4e85:002a:17:0
-beIN Sports 2 HD Turkey
-p:Digital Platform,f:1
-3717:01a40000:4e85:002a:17:0
-Taraftar 2 HD
-p:Digital Platform,f:1
-3718:01a40000:4e85:002a:17:0
-Ticari beIN Sports 2 HD
-p:Digital Platform,f:1
-371c:01a40000:4e85:002a:17:0
-beIN Sports 3 HD Turkey
-p:Digital Platform,f:1
-371e:01a40000:4e85:002a:17:0
-Taraftar 3 HD
-p:Digital Platform,f:1
-371f:01a40000:4e85:002a:17:0
-Ticari beIN Sports 3 HD
-p:Digital Platform,f:1
-373d:01a40000:4e85:002a:17:0
-Taraftar HD
-p:Digital Platform,f:1
 3748:01a40000:4e85:002a:129:0
 IRDETO-T
 p:Digital Platform
@@ -2231,12 +2198,6 @@ p:Digital Platform,f:1
 3752:01a40000:4e85:002a:1:0
 Bloomberg
 p:Digital Platform,f:1
-3753:01a40000:4e85:002a:1:0
-MTV Hits
-p:Digital Platform,f:1
-3754:01a40000:4e85:002a:1:0
-MTV 00s
-p:Digital Platform,f:1
 3755:01a40000:4e85:002a:17:0
 CNN International HD
 p:Digital Platform,f:1
@@ -2245,9 +2206,6 @@ Fashion TV HD
 p:Digital Platform,f:1
 3757:01a40000:4e85:002a:17:0
 Mezzo HD
-p:Digital Platform,f:1
-3758:01a40000:4e85:002a:17:0
-Tarih TV HD
 p:Digital Platform,f:1
 3759:01a40000:4e85:002a:17:0
 TRT Spor HD
@@ -2822,153 +2780,12 @@ p:,f:1
 cb25:01a40000:a02d:042e:25:0
 TV 100 HD
 p:TURKSAT,f:1
-0003:01a40000:0001:002a:2:0
-RADYO 3
-p:TRT
-0004:01a40000:0001:002a:2:0
-SADA EL FURAT
-p:TRT
-0005:01a40000:0001:002a:2:0
-TRT WORLD
-p:TRT
-0006:01a40000:0001:002a:2:0
-TRT NAGME
-p:TRT
-0007:01a40000:0001:002a:2:0
-TRT TURKU
-p:TRT
-0008:01a40000:0001:002a:2:0
-RADYO HABER
-p:TRT
-0009:01a40000:0001:002a:2:0
-YURT FM
-p:TRT
-000a:01a40000:0001:002a:2:0
-RADYO DELAL
-p:TRT
-000b:01a40000:0001:002a:2:0
-ANK_RAD 1.KANAL
-p:TRT
-000c:01a40000:0001:002a:2:0
-ANK_RAD 2.KANAL
-p:TRT
-0001:01a40000:0001:002a:2:0
-RADYO 1
-p:TRT
-0002:01a40000:0001:002a:2:1
-TRT FM
-p:TRT
-0001:01a40000:0000:ff00:1:0
-IC YAPIMLAR
-p:Service Provider,f:1
-03e9:01a40000:0000:ff00:1:0
-TRT 2 HD
-p:TRT,f:1
-0019:01a40000:0000:ff00:25:0
-TRT Spor HD
-p:TRT,f:1
-001a:01a40000:0000:ff00:25:0
-TRT Haber HD
-p:TRT,f:1
 0001:01a4311a:0001:ffff:1:0
 SHOW TV SEFAKOY 1
 p:SEFAKOY DSNG 1,f:1
-0002:01a4ab78:0001:0000:2:0
-TRT ANTALYA2
-p:TRT
-0001:01a4ab78:0001:0000:2:0
-TRT ANTALYA1
-p:TRT
-0017:01a42ace:0001:ffff:1:0
-TRT Arapça (TRT Al Arabiya)
-p:TRT,f:1
-296d:01a42ace:0001:ffff:1:0
-TRT World
-p:TRT,f:1
 0001:01a42b93:0001:0001:1:0
 ALTUS HD/SD SNG
 p:ALTUS HD/SD SNG,f:1
-3c8f:01a40000:c5a8:002a:17:0
-beIN Sports Max 2 HD Turkey
-p:Digital Platform,f:1
-3c91:01a40000:c5a8:002a:17:0
-beIN Movies Premier 2 HD
-p:Digital Platform,f:1
-3c98:01a40000:c5a8:002a:17:0
-beIN Home & Entertainment HD
-p:Digital Platform,f:1
-3c9d:01a40000:c5a8:002a:17:0
-Eurosport 1 HD
-p:Digital Platform,f:1
-3c9f:01a40000:c5a8:002a:17:0
-National Geographic Turk HD
-p:Digital Platform,f:1
-3ca4:01a40000:c5a8:002a:17:0
-beIN H&E HD
-p:Digital Platform,f:1
-3ca5:01a40000:c5a8:002a:17:0
-National Geographic Wild HD
-p:Digital Platform,f:1
-3ca8:01a40000:c5a8:002a:17:0
-TJK TV HD
-p:Digital Platform,f:1
-3ca9:01a40000:c5a8:002a:129:0
-DT9505R
-p:Digital Platform
-3caa:01a40000:c5a8:002a:1:0
-TEST
-p:Digital Platform,f:1
-3cab:01a40000:c5a8:002a:129:0
-PID_86
-p:Digital Platform
-3cb0:01a40000:c5a8:002a:129:0
-IRDETO-T3
-p:Digital Platform
-3cac:01a40000:c5a8:002a:1:0
-test_i4
-p:Digital Platform,f:1
-3cb1:01a40000:c5a8:002a:129:0
-Sagem4KSSU
-p:Digital Platform
-3cb2:01a40000:c5a8:002a:129:0
-HM9506HD Replacement
-p:Digital Platform
-3cb3:01a40000:c5a8:002a:129:0
-IRDETO-T2
-p:Digital Platform
-3cb4:01a40000:c5a8:002a:129:0
-DVBSSU test 1
-p:Digital Platform
-3c99:01a40000:c5a8:002a:17:0
-beIN Sports 5 HD Turkey
-p:Digital Platform,f:1
-3c9a:01a40000:c5a8:002a:17:0
-Ticari beIN Sports 5 HD
-p:Digital Platform,f:1
-3cb5:01a40000:c5a8:002a:17:0
-DMDU_T
-p:Digital Platform,f:1
-3cb6:01a40000:c5a8:002a:17:0
-DMDU_E
-p:Digital Platform,f:1
-3cb7:01a40000:c5a8:002a:17:0
-BU_T
-p:Digital Platform,f:1
-3caf:01a40000:c5a8:002a:129:0
-HD3501
-p:Digital Platform
-3cad:01a40000:c5a8:002a:129:0
-HM9504R
-p:Digital Platform
-3cae:01a40000:c5a8:002a:129:0
-DT5103
-p:Digital Platform
-3cb8:01a40000:c5a8:002a:129:0
-DT9502R
-p:Digital Platform
-3cb9:01a40000:c5a8:002a:1:0
-Nick Jr.
-p:Digital Platform,f:1
 3bc4:01a40000:a415:042e:1:0
 TV8 HD
 p:TV8,f:1
@@ -3353,15 +3170,24 @@ p:FOX NETWORKS GROUP,f:1
 0001:01a43120:0001:ffff:1:0
 Ankara Buro 2
 p:Ankara Buro 2,f:1
-0001:01a4acf2:0001:ffff:1:0
-GTV SNG
-p:EricssonTV,f:1
 0001:01a4b11c:0001:ffff:1:0
 TUR-161 MAIN
 p:HDPROTEK,f:1
-0003:01a40000:0001:0021:2:0
-CUKUROVA 3
+0003:01a4ad05:0001:ffff:2:0
+Cukurova Radyosu
 p:TRT CUKUROVA
+0002:01a4ad05:0001:ffff:2:0
+Cukurova Radyosu
+p:TRT CUKUROVA
+0001:01a4ad05:0001:ffff:2:0
+Cukurova Radyosu
+p:TRT CUKUROVA
+0001:01a40000:0001:0019:2:0
+Erzurum Radyosu
+p:TRT
+0002:01a40000:0001:0019:2:0
+Erzurum Radyosu
+p:TRT
 0001:01a40000:0001:003d:2:0
 TRT TRABZON1
 p:TRT
@@ -3812,9 +3638,6 @@ p:TRT,f:1
 0001:01a4ab59:0000:0000:1:0
 TUR-062 A
 p:,f:1
-0001:01a4ad56:0000:0000:1:0
-TRT UPLINK
-p:TRT,f:1
 2bc0:01a42b2d:7dc9:042e:1:0
 Haber Turk TV
 p:HABERTURK TV,f:1
@@ -3893,9 +3716,75 @@ p:TRT,f:1
 0001:01a4acc5:0000:0000:25:0
 TUR-143A
 p:,f:1
-0004:01a4acfc:0001:ffff:1:0
-TKS.TRT.M22-A
+0001:01a4acfc:0000:ff00:1:0
+IC YAPIMLAR
+p:Service Provider,f:1
+0019:01a4acfc:0000:ff00:25:0
+TRT Spor HD
 p:TRT,f:1
+001a:01a4acfc:0000:ff00:25:0
+TRT Haber HD
+p:TRT,f:1
+03e9:01a4acfc:0000:ff00:1:0
+TRT 2 HD
+p:TRT,f:1
+0017:01a4acf3:0001:ffff:1:0
+TRT Arapça (TRT Al Arabiya)
+p:TRT,f:1
+296d:01a4acf3:0001:ffff:1:0
+TRT World
+p:TRT,f:1
+0001:01a4ad04:0001:0000:2:0
+TRT ANTALYA1
+p:TRT
+0002:01a4ad04:0001:0000:2:0
+TRT ANTALYA2
+p:TRT
+0001:01a4ad02:0001:002a:2:0
+RADYO 1
+p:TRT
+0002:01a4ad02:0001:002a:2:1
+TRT FM
+p:TRT
+0003:01a4ad02:0001:002a:2:0
+RADYO 3
+p:TRT
+0004:01a4ad02:0001:002a:2:0
+SADA EL FURAT
+p:TRT
+0005:01a4ad02:0001:002a:2:0
+TRT WORLD
+p:TRT
+0006:01a4ad02:0001:002a:2:0
+TRT NAGME
+p:TRT
+0007:01a4ad02:0001:002a:2:0
+TRT TURKU
+p:TRT
+0008:01a4ad02:0001:002a:2:0
+RADYO HABER
+p:TRT
+0009:01a4ad02:0001:002a:2:0
+YURT FM
+p:TRT
+000a:01a4ad02:0001:002a:2:0
+RADYO DELAL
+p:TRT
+000b:01a4ad02:0001:002a:2:0
+ANK_RAD 1.KANAL
+p:TRT
+000c:01a4ad02:0001:002a:2:0
+ANK_RAD 2.KANAL
+p:TRT
+0001:01a4ad08:0001:ffff:2:0
+GAP Rd
+p:TRT RD
+0002:01a4ad08:0001:ffff:2:0
+Servis 2
+p:TRT RD
+0001:01a4ad56:0001:ffff:1:0
+TKS.TRT.M17 - A
+p:Service Provider,f:1
 526c:00c00000:041d:0001:25:0
 Anixe HD
 p:BetaDigital,f:1
@@ -3999,7 +3888,7 @@ p:,f:1
 DAZN Baloncesto 3
 p:TXY,C:0000,f:1
 7696:00c00000:041e:0001:1:0
-M+ BBC Earth
+M+ Cine Bélico
 p:Movistar+,C:0000,f:1
 7509:00c00000:0420:0001:25:0
 Movistar Acción HD
@@ -4364,9 +4253,6 @@ p:DIGITAL+,f:1
 7577:00c00000:0412:0001:1:0
 Classica
 p:CANAL+,f:1
-756b:00c00000:0412:0001:1:0
-Paramount Channel Spain
-p:PRISA TV,f:1
 757f:00c00000:0412:0001:1:0
 AXN Movies
 p:,f:1
@@ -4463,6 +4349,9 @@ p:Movistar+,C:0000,f:1
 7579:00c00000:0412:0001:1:0
 M+ VAMOS 2
 p:Movistar+,f:1
+756b:00c00000:0412:0001:1:0
+TEST TXP 42
+p:PRISA TV,f:1
 7729:00c00000:0416:0001:1:0
 Canal Sur Andalucia
 p:Movistar+,f:1
@@ -5648,14 +5537,8 @@ p:
 0379:00c00000:0457:0001:12:0
 DVB-I Images
 p:
-3148:00c00000:0459:0001:1:0
+3148:00c00000:0459:0001:22:0
 Shop LC
-p:MB Satellite,f:1
-314a:00c00000:0459:0001:1:0
-Dreamgirls24 TV
-p:MB Satellite,f:1
-314b:00c00000:0459:0001:1:0
-ErotikSat24 TV
 p:MB Satellite,f:1
 314e:00c00000:0459:0001:1:0
 Sexy Girls TV
@@ -5671,12 +5554,6 @@ Mobile Sex
 p:MB Satellite,f:1
 3152:00c00000:0459:0001:1:0
 Sex Kontakte
-p:MB Satellite,f:1
-3155:00c00000:0459:0001:1:0
-Traumfrauen TV
-p:MB Satellite,f:1
-3156:00c00000:0459:0001:1:0
-Heiss und Sexy TV
 p:MB Satellite,f:1
 315b:00c00000:0459:0001:1:0
 Babestation24
@@ -5702,9 +5579,6 @@ p:MB Satellite
 3171:00c00000:0459:0001:2:0
 Radio HCJB
 p:MB Satellite
-3144:00c00000:0459:0001:1:0
-GayBoys Live
-p:MB Satellite,f:1
 3145:00c00000:0459:0001:12:0
 RAPS
 p:MB Satellite
@@ -5714,17 +5588,8 @@ p:MB Satellite,f:1
 313f:00c00000:0459:0001:1:0
 Wedo Movies
 p:MB Satellite,f:1
-3138:00c00000:0459:0001:1:0
-MBS - Test2
-p:MB Satellite,f:1
-313c:00c00000:0459:0001:1:0
+313c:00c00000:0459:0001:22:0
 Telegold
-p:MB Satellite,f:1
-3159:00c00000:0459:0001:1:0
-MBS Test 3
-p:MB Satellite,f:1
-3162:00c00000:0459:0001:1:0
-Time of Change.TV
 p:MB Satellite,f:1
 332e:00c00000:045b:0001:22:0
 RTL Nitro Austria
@@ -7019,6 +6884,9 @@ p:CSAT,f:1
 271b:00c00000:044c:0001:25:0
 Pink X HD
 p:CSAT,f:1
+2720:00c00000:044c:0001:25:0
+Europe 1 TV
+p:CSAT,f:1
 2336:00c00000:0442:0001:25:0
 C News HD
 p:CSAT,f:1
@@ -7299,7 +7167,7 @@ p:SES,f:1
 Divinity
 p:DIGITAL+,f:1
 7885:00c00000:0414:0001:1:0
-M+ Navidad
+M+ Tierra Media
 p:Movistar+,f:1
 7888:00c00000:0414:0001:1:0
 Boing Spain
@@ -7319,9 +7187,6 @@ p:Movistar+,f:1
 7892:00c00000:0414:0001:1:0
 M+ LaLiga TV 4
 p:Movistar+,f:1
-7893:00c00000:0414:0001:1:0
-M+ LaLiga TV 5
-p:,f:1
 788e:00c00000:0414:0001:100:0
 
 p:
@@ -7339,6 +7204,9 @@ M+ Liga Campeones 19
 p:Movistar+,C:0000,f:1
 7894:00c00000:0414:0001:1:0
 M+ Liga Campeones 17
+p:,f:1
+7893:00c00000:0414:0001:1:0
+TEST TXP 44
 p:,f:1
 18f4:00c00000:03f4:0003:1:0
 EuroNews German SD
@@ -8880,7 +8748,7 @@ p:NOVA,f:1
 Attica TV
 p:NOVA,f:1
 3c8e:00820000:1bbc:013e:1:0
-NovaChristmasHD
+Nova Stars HD
 p:NOVA,f:1
 3c93:00820000:1bbc:013e:1:0
 Cosmote Sport 7 HD
@@ -9461,6 +9329,9 @@ p:GLOBECAST,f:1
 07de:00820000:22c4:013e:2:0
 Radio Vaticana Europa
 p:GLOBECAST
+07e7:00820000:22c4:013e:25:0
+BBC Persian HD
+p:BBC World Service,f:1
 4288:00820000:2bc0:013e:1:0
 TVP Rozrywka
 p:Cyfrowy Polsat S.A.,f:1
@@ -10432,7 +10303,7 @@ Al Mayadeen
 p:,f:1
 01f7:00820000:0384:013e:25:0
 Al Bayyinat TV
-p:,f:1
+p:Encoder device,f:1
 0201:00820000:0384:013e:1:0
 RadioNorba TV
 p:Telenorba,f:1
@@ -10457,6 +10328,9 @@ p:M-Three satcom,f:1
 01f9:00820000:0384:013e:1:0
 MC EU
 p:Itep Pictures,f:1
+01f6:00820000:0384:013e:1:0
+Setareh TV
+p:,f:1
 0641:00820000:2454:013e:25:0
 Al Jazeera HD
 p:EUTELSAT,f:1
@@ -11298,7 +11172,7 @@ p:NURTS
 Radio Nova K
 p:NURTS
 001d:00820000:2580:00d5:1:0
-Telemedia
+Telenews
 p:VIVACOM,f:1
 0033:00820000:2580:00d5:1:0
 NOVA
@@ -11734,9 +11608,6 @@ Discovery Channel
 p:VIVACOM,f:1
 13b4:00820000:2710:00d5:1:39
 Soul & Pepper TV
-p:VIVACOM,f:1
-13b5:00820000:2710:00d5:22:0
-VTK
 p:VIVACOM,f:1
 03ea:0082acce:03ea:0001:12:0
 HVS-2 Bck
@@ -12769,6 +12640,9 @@ BWF World Tour C1 BISS-1
 p:GLOBECAST,f:1
 0001:0082aa57:0000:0000:25:0
 BWF World Tour C1 BISS-1
+p:GLOBECAST,f:1
+0008:0082aa57:0000:0000:25:0
+ENC 08
 p:GLOBECAST,f:1
 end
 === Compiled with Morpheus883's scripts ===
