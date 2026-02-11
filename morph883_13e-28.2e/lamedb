@@ -237,7 +237,7 @@ transponders
 011ab168:4321:00eb
 	s 12648000:5000000:1:4:282:2:0:1:2:0:2
 /
-011ab19f:0001:0001
+011ab19f:0001:ffff
 	s 12703000:7200000:1:3:282:2:0:1:2:0:2
 /
 00820000:2e18:00b0
@@ -557,6 +557,12 @@ transponders
 /
 00822d70:4321:00eb
 	s 11632000:9875000:0:3:130:2:0:1:2:0:2
+/
+0082b126:03ea:0001
+	s 12582000:7200000:1:3:130:2:0:1:2:0:2
+/
+0082abb9:0010:ffff
+	s 11193000:7200000:1:3:130:2:0:1:2:0:2
 /
 end
 services
@@ -1190,9 +1196,6 @@ p:BSkyB,f:1
 cfa3:011a0000:083a:0002:1:0
 Kanshi TV
 p:BSkyB,f:1
-cf9c:011a0000:083a:0002:1:0
-Great! Action
-p:BSkyB,f:1
 cd55:011a0000:0844:0002:25:0
 S4C HD
 p:BSkyB,f:1
@@ -1373,6 +1376,9 @@ p:BSkyB,f:1
 d039:011a0000:083e:0002:1:0
 GREAT! TV Ireland
 p:BSkyB,f:1
+d071:011a0000:083e:0002:1:0
+Great! Action
+p:BSkyB,f:1
 0f15:011a0000:07e9:0002:25:0
 Sky Max HD
 p:BSkyB,f:1
@@ -1505,12 +1511,6 @@ p:BSkyB,f:1
 03ea:011a0000:07f0:0002:25:0
 Sky Intro HD
 p:BSkyB,f:1
-0669:011a0000:07f0:0002:25:0
-RB
-p:BSkyB,f:1
-041a:011a0000:07f0:0002:198:0
-BDL
-p:BSkyB
 03eb:011a0000:07f0:0002:25:0
 Sky Intro (899)
 p:BSkyB,f:1
@@ -2000,6 +2000,9 @@ p:BSkyB,f:1
 1817:011a0000:07e5:0002:25:0
 STV Tayside HD
 p:BSkyB,f:1
+0669:011a0000:07e5:0002:25:0
+Sky RB
+p:BSkyB,f:1
 0001:011ab109:0000:0001:25:0
 Fairyhouse
 p:NEP Ireland,f:1
@@ -2156,9 +2159,6 @@ p:BSkyB,f:1
 cff8:011a0000:0832:0002:1:0
 TNT Sports 7
 p:BSkyB,f:1
-cff4:011a0000:0832:0002:1:0
-Really Ireland
-p:BSkyB,f:1
 cfee:011a0000:0832:0002:1:0
 HGTV+1
 p:BSkyB,f:1
@@ -2210,15 +2210,6 @@ p:BSkyB,f:1
 0b64:011a305e:07f3:0002:1:0
 DMAX UK
 p:BSkyB,f:1
-1839:011a305e:07f3:0002:1:0
-Discovery Channel
-p:BSkyB,f:1
-183a:011a305e:07f3:0002:1:0
-Animal Planet
-p:BSkyB,f:1
-1843:011a305e:07f3:0002:1:0
-Quest Red+1
-p:BSkyB,f:1
 1845:011a305e:07f3:0002:1:0
 Quest
 p:BSkyB,f:1
@@ -2251,6 +2242,9 @@ TLC HD
 p:BSkyB,f:1
 0b95:011a305e:07f3:0002:1:0
 Really+1
+p:BSkyB,f:1
+0b90:011a305e:07f3:0002:1:0
+Really Ireland
 p:BSkyB,f:1
 c4ba:011a2b4a:0811:0002:1:0
 Zee Punjabi
@@ -2603,6 +2597,15 @@ p:BSkyB,f:1
 ccfe:011a0000:07e1:0002:1:0
 Quest Red UK
 p:BSkyB,f:1
+cd04:011a0000:07e1:0002:1:0
+Discovery Channel
+p:BSkyB,f:1
+cd02:011a0000:07e1:0002:1:0
+Animal Planet
+p:BSkyB,f:1
+cd00:011a0000:07e1:0002:1:0
+Quest Red+1
+p:BSkyB,f:1
 6223:011aaf61:07e6:0002:25:0
 U&Dave HD
 p:BSkyB,f:1
@@ -2678,9 +2681,9 @@ p:UKI1693,f:1
 0001:011ab168:4321:00eb:25:0
 BEL119
 p:VRT,f:1
-0001:011ab19f:0001:0001:25:0
-TSV1860
-p:MTI Teleport MUC,f:1
+0001:011ab19f:0001:ffff:1:0
+DMC D-528 Hoffenheim 3 Liga
+p:Service Provider,f:1
 0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
 p:SNRT,f:1
@@ -3532,6 +3535,9 @@ M1_SID332 Cy
 p:NOVA,f:1
 013e:00820000:157c:013e:1:0
 Mega HD
+p:NOVA,f:1
+0134:00820000:157c:013e:1:0
+ANT1 HD
 p:NOVA,f:1
 112e:00820000:1644:fbff:1:0
 IEPG Data
@@ -5792,6 +5798,9 @@ p:NOVA,f:1
 01a8:00820000:1518:013e:1:0
 NovaSportsExtra2HD Cy
 p:NOVA,f:1
+01a9:00820000:1518:013e:1:0
+P_TEST
+p:NOVA,f:1
 012d:00820000:3e1c:013f:1:0
 TF1 HD
 p:Eutelsat,f:1
@@ -7601,9 +7610,6 @@ p:,f:1
 0051:00820000:1770:00be:25:0
 RadioNorba TV
 p:,f:1
-0001:0082abb9:0001:0001:25:0
-ITA 795
-p:MOST,f:1
 0004:00822a4c:0000:0000:25:0
 EHF EL Men SAINT RAPHAEL VS IRUDEK BIDASOA IRUN
 p:3bis,f:1
@@ -7631,9 +7637,6 @@ p:Globecast,f:1
 0001:0082aa60:0001:ff00:25:0
 CZE-012-CHL BASKET LEVICE-MAIN
 p:,f:1
-0001:0082b126:0001:0001:25:0
-BCL251216
-p:BS,f:1
 0001:0082b138:0000:0000:25:0
 BWF World Tour C1 BISS-1
 p:GLOBECAST,f:1
@@ -7703,6 +7706,15 @@ p:GLOBECAST,f:1
 0001:00822d70:4321:00eb:25:0
 Fi01_WIEN
 p:CM5000,f:1
+03e9:0082b126:03ea:0001:1:0
+Service_01
+p:globecast,f:1
+03ea:0082b126:03ea:0001:1:0
+Service_02
+p:globecast,f:1
+0194:0082abb9:0010:ffff:25:0
+Service_MENA_04
+p:Globecast,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2026
