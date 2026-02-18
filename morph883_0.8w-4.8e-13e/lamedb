@@ -282,9 +282,6 @@ transponders
 00820000:1770:00be
 	s 11919000:29900000:1:3:130:2:0:1:2:2:2
 /
-0082abb9:0001:0001
-	s 11193000:7200000:1:3:130:2:0:1:2:0:2
-/
 00822a4c:0000:0000
 	s 10828000:7200000:0:3:130:2:0:1:2:0:2
 /
@@ -305,9 +302,6 @@ transponders
 /
 0082aa60:0001:ff00
 	s 10848000:7200000:1:3:130:2:0:1:2:0:2
-/
-0082b126:0001:0001
-	s 12582000:7200000:1:3:130:2:0:1:2:0:2
 /
 0082b138:0000:0000
 	s 12600000:7200000:1:3:130:2:0:1:2:0:2
@@ -332,6 +326,9 @@ transponders
 /
 0082abb9:0010:ffff
 	s 11193000:7200000:1:3:130:2:0:1:2:0:2
+/
+0082b142:0013:ffff
+	s 12610000:7200000:1:3:130:2:0:1:2:0:2
 /
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
@@ -674,6 +671,9 @@ fff8b0f6:0001:ffff
 /
 0e08315e:0000:0000
 	s 12638000:14500000:0:3:-8:2:0:1:2:0:2
+/
+0e08acd9:0000:0000
+	s 11481000:7200000:1:3:-8:2:0:1:2:0:2
 /
 end
 services
@@ -1554,7 +1554,7 @@ p:NOVA,f:1
 M1_TEST4
 p:NOVA,f:1
 0149:00820000:157c:013e:1:0
-Smile TV
+Mak TV HD
 p:NOVA,f:1
 0153:00820000:157c:013e:1:0
 
@@ -1941,7 +1941,7 @@ p:NOVA,f:1
 Marquee TV
 p:NOVA,f:1
 3c8f:00820000:1bbc:013e:1:0
-M4_SID15503
+BabyTV HD
 p:NOVA,f:1
 1c22:00820000:1c20:013e:1:0
 TTN - Télévision Tunisienne Nationale
@@ -5780,6 +5780,9 @@ p:globecast,f:1
 0194:0082abb9:0010:ffff:25:0
 Service_MENA_04
 p:Globecast,f:1
+0192:0082b142:0013:ffff:25:0
+Service_MENA_02
+p:Globecast,f:1
 0fa0:00300000:0006:0056:1:0
 TVN Chile Nordic
 p:SES ASTRA,f:1
@@ -5792,9 +5795,6 @@ p:SES ASTRA,f:1
 0ffa:00300000:0006:0056:22:0
 Visjon Sverige
 p:SES ASTRA,f:1
-1a18:00300000:0010:0055:1:0
-1+1 Ukraine
-p:,f:1
 19c8:00300000:0010:0055:2:0
 Ukrayinske Radio
 p:
@@ -5804,26 +5804,14 @@ p:
 19cc:00300000:0010:0055:2:0
 Radio Culture
 p:
-1a27:00300000:0010:0055:2:0
-Tysa FM
-p:
 19ce:00300000:0010:0055:2:0
 RadioTochka
-p:
+p:Suspilne
 19d0:00300000:0010:0055:2:0
 Voice
-p:
-19d2:00300000:0010:0055:1:0
-2+2
-p:,f:1
+p:Suspilne
 19e6:00300000:0010:0055:1:0
-STB SD
-p:SLM,f:1
-19fa:00300000:0010:0055:1:0
-ICTV 2 SD
-p:SLM,f:1
-1a04:00300000:0010:0055:1:0
-We-Ukraine+
+Rozpakuy
 p:,f:1
 1a22:00300000:0010:0055:1:0
 Pryamiy
@@ -5831,9 +5819,6 @@ p:,f:1
 1a09:00300000:0010:0055:1:0
 Rozpakuy
 p:,f:1
-19f0:00300000:0010:0055:1:0
-Sonce (Ukraine)
-p:SOLAR MEDIA,f:1
 1a0e:00300000:0010:0055:1:0
 Sonata TV
 p:,f:1
@@ -5848,7 +5833,7 @@ ARMY FM
 p:
 19f5:00300000:0010:0055:22:0
 Nadiya
-p:,f:1
+p:Hope Media Group,f:1
 00e6:00300000:0002:0055:2:0
 European Radio for Belarus
 p:SES ASTRA
@@ -6629,9 +6614,6 @@ p:,f:1
 1d74:00300000:107b:0055:25:0
 Galychyna HD
 p:SLM,f:1
-1d92:00300000:107b:0055:22:0
-TeleVsesvit
-p:SLM,f:1
 1d65:00300000:107b:0055:22:0
 Test2
 p:SES,f:1
@@ -6644,6 +6626,9 @@ p:Streamline Media,f:1
 1d5b:00300000:107b:0055:22:0
 Test1
 p:Harmonic,f:1
+1d92:00300000:107b:0055:22:0
+Test 4
+p:SES,f:1
 0001:0030b0ed:4321:0000:1:0
 SM HIIHTO JUNNU
 p:YLE,f:1
@@ -9212,9 +9197,6 @@ p:Slovak Telekom,f:1
 2b0e:0e080000:0afb:00bb:22:0
 Ocko
 p:Slovak Telekom,f:1
-2b0f:0e080000:0afb:00bb:22:0
-Paramount Network
-p:Slovak Telekom,f:1
 2b08:0e080000:0afb:00bb:25:0
 Filmbox Extra HD
 p:Slovak Telekom,f:1
@@ -9235,6 +9217,9 @@ TV Barrandov
 p:Slovak Telekom,f:1
 2b0d:0e080000:0afb:00bb:22:0
 CS Film
+p:Slovak Telekom,f:1
+2b0f:0e080000:0afb:00bb:1:0
+Test service 2
 p:Slovak Telekom,f:1
 2337:0e080000:0af9:00bb:22:0
 Prima MAX HD
@@ -9638,6 +9623,18 @@ p:M7,f:1
 7ac0:fff80000:02cc:0600:25:0
 Kanal D HD
 p:M7,f:1
+7ac1:fff80000:02cc:0600:1:0
+Spektrum Home
+p:M7,f:1
+7ac2:fff80000:02cc:0600:1:0
+Minimax Czech
+p:M7,f:1
+7ac3:fff80000:02cc:0600:1:0
+Spektrum Home (SVT)
+p:M7,f:1
+7ac4:fff80000:02cc:0600:1:0
+Minimax (SVT)
+p:M7,f:1
 00bb:fff8b0e6:0001:ffff:1:0
 B 187 DGI
 p:DIGI News,f:1
@@ -9824,6 +9821,9 @@ p:DIGI TV,f:1
 0001:0e08315e:0000:0000:25:0
 ROH-Live
 p:ROH,f:1
+0001:0e08acd9:0000:0000:25:0
+
+p:,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2026

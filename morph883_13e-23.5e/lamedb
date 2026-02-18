@@ -489,9 +489,6 @@ transponders
 00820000:1770:00be
 	s 11919000:29900000:1:3:130:2:0:1:2:2:2
 /
-0082abb9:0001:0001
-	s 11193000:7200000:1:3:130:2:0:1:2:0:2
-/
 00822a4c:0000:0000
 	s 10828000:7200000:0:3:130:2:0:1:2:0:2
 /
@@ -512,9 +509,6 @@ transponders
 /
 0082aa60:0001:ff00
 	s 10848000:7200000:1:3:130:2:0:1:2:0:2
-/
-0082b126:0001:0001
-	s 12582000:7200000:1:3:130:2:0:1:2:0:2
 /
 0082b138:0000:0000
 	s 12600000:7200000:1:3:130:2:0:1:2:0:2
@@ -539,6 +533,9 @@ transponders
 /
 0082abb9:0010:ffff
 	s 11193000:7200000:1:3:130:2:0:1:2:0:2
+/
+0082b142:0013:ffff
+	s 12610000:7200000:1:3:130:2:0:1:2:0:2
 /
 end
 services
@@ -926,9 +923,6 @@ p:M7 Group
 1830:00eb0000:0c82:0003:2:0
 L1Radio
 p:M7 Group
-1831:00eb0000:0c82:0003:2:0
-Veronica Goud van Oud
-p:M7 Group
 17cf:00eb0000:0c82:0003:25:0
 CANAL+ Action
 p:M7 Group,f:1
@@ -956,6 +950,9 @@ p:M7 Group,f:1
 17d0:00eb0000:0c82:0003:25:0
 AutoMotorSport HD
 p:M7 Group,f:1
+1831:00eb0000:0c82:0003:2:0
+Radio Veronica De Beste 80s
+p:M7 Group
 4e83:00eb0000:0c8b:0003:25:0
 RTS Svet HD
 p:Telekom Srbija,f:1
@@ -1992,7 +1989,7 @@ p:M7 Group,f:1
 FilmBox
 p:M7 Group,f:1
 36f3:00ebae9e:0c8c:0003:22:0
-test2
+Viasat True Crime
 p:M7 Group,f:1
 008d:00ebb1bf:0005:ffff:1:0
 UNI-04-i50-X
@@ -3480,7 +3477,7 @@ p:NOVA,f:1
 M1_TEST4
 p:NOVA,f:1
 0149:00820000:157c:013e:1:0
-Smile TV
+Mak TV HD
 p:NOVA,f:1
 0153:00820000:157c:013e:1:0
 
@@ -3867,7 +3864,7 @@ p:NOVA,f:1
 Marquee TV
 p:NOVA,f:1
 3c8f:00820000:1bbc:013e:1:0
-M4_SID15503
+BabyTV HD
 p:NOVA,f:1
 1c22:00820000:1c20:013e:1:0
 TTN - Télévision Tunisienne Nationale
@@ -7705,6 +7702,9 @@ Service_02
 p:globecast,f:1
 0194:0082abb9:0010:ffff:25:0
 Service_MENA_04
+p:Globecast,f:1
+0192:0082b142:0013:ffff:25:0
+Service_MENA_02
 p:Globecast,f:1
 end
 === Compiled with Morpheus883's scripts ===
