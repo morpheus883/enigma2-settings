@@ -9,7 +9,7 @@ Morpheus883's Site: https://morpheus883.altervista.org/
 GitHub Repository: https://github.com/morpheus883/
 and available on the main Sat Sites
 
-Enigma2 Settings 21st March 2026, © by Morpheus883
+Enigma2 Settings 29th March 2026, © by Morpheus883
 
 Settings for Images based on Enigma 2.4:
 

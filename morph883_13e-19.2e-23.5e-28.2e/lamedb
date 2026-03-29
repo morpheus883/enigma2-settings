@@ -246,6 +246,12 @@ transponders
 011a3162:0001:0001
 	s 12642000:7200000:0:3:282:2:0:1:2:0:2:-1:0:3
 /
+011a3178:0000:0000
+	s 12664000:7200000:0:3:282:2:0:1:2:0:2:-1:0:3
+/
+011ab19f:0001:ffff
+	s 12703000:7200000:1:3:282:2:0:1:2:0:2
+/
 00eb0000:0c91:0003
 	s 12032000:27500000:0:9:235:2:0:1:1:0:2
 /
@@ -825,6 +831,12 @@ transponders
 00c0ad64:0001:0001
 	s 11620000:7200000:1:3:192:2:0:1:2:0:2
 /
+00c02bc9:0001:0001
+	s 11209000:9875000:0:3:192:2:0:1:2:0:2:-1:0:3
+/
+00c0ad91:0001:0001
+	s 11665000:7200000:1:3:192:2:0:1:2:0:2
+/
 00820000:2e18:00b0
 	s 10873000:27500000:1:3:130:2:0:1:2:0:2
 /
@@ -1157,6 +1169,12 @@ transponders
 /
 00822bd3:03e8:0002
 	s 11219000:33000000:0:2:130:2:0:1:2:0:2:1:0:3
+/
+00822bd3:03e9:0001
+	s 11219000:33000000:0:2:130:2:0:1:2:0:2:1:0:3
+/
+0082aa2c:2c88:013e
+	s 10796000:27500000:1:4:130:2:0:1:2:2:2
 /
 end
 services
@@ -3296,6 +3314,12 @@ p:SLQ005,f:1
 0001:011a3162:0001:0001:25:0
 DMC
 p:D-436,f:1
+0001:011a3178:0000:0000:25:0
+ITN Racing Doncaster
+p:,f:1
+0001:011ab19f:0001:ffff:1:0
+LN23
+p:8MM Producciones,f:1
 17d7:00eb0000:0c91:0003:25:0
 AutoMotorSport HD
 p:Canal Digitaal,f:1
@@ -6050,6 +6074,9 @@ p:ORF
 1345:00c00000:03ef:0001:12:0
 Neotion OTA
 p:ORF
+1344:00c00000:03ef:0001:22:0
+Service 4932
+p:ORF,f:1
 7469:00c00000:03f0:0001:1:0
 Antena Nova
 p:DIGITAL+,f:1
@@ -9158,9 +9185,6 @@ p:SES Video,f:1
 0001:00c0ad45:0001:ffff:1:0
 SNG-5 | D-481
 p:Service Provider,f:1
-0001:00c0ad91:0001:ffff:25:0
-MMG-D185 HD Encoder 2
-p:,f:1
 0001:00c02d74:0000:ff00:25:0
 Champion of Champions
 p:NEP Connect,f:1
@@ -9200,6 +9224,12 @@ p:ISRUV,f:1
 0001:00c0ad64:0001:0001:25:0
 FIBA - GBR v ITA
 p:UKI1693 - NEWCASTLE,f:1
+0001:00c02bc9:0001:0001:1:0
+AUT23 /ZDF
+p:AUT 23-1,f:1
+0001:00c0ad91:0001:0001:1:0
+MMG Ce-1 Enc1
+p:,f:1
 0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
 p:SNRT,f:1
@@ -9780,7 +9810,7 @@ p:CANAL+,f:1
 Romance TV
 p:CANAL+,f:1
 3a99:00820000:0514:013e:1:0
-Canal+ Dokument HD
+Planete+ HD Polska
 p:CANAL+,f:1
 3adb:00820000:0514:013e:1:0
 TVP 1 HD
@@ -11372,99 +11402,6 @@ p:Cyfrowy Polsat S.A.,f:1
 33bb:00820000:3390:0071:1:0
 Super Polsat HD
 p:Cyfrowy Polsat S.A.,f:1
-3d59:00820000:2c88:013e:1:0
-TVP Kultura HD
-p:CANAL+,f:1
-3d5c:00820000:2c88:013e:1:0
-TVP Seriale
-p:CANAL+,f:1
-3d5e:00820000:2c88:013e:1:0
-Puls 2 HD
-p:CANAL+,f:1
-3d61:00820000:2c88:013e:1:0
-Kino TV HD
-p:CANAL+,f:1
-3d62:00820000:2c88:013e:1:0
-Filmbox Family
-p:CANAL+,f:1
-3d65:00820000:2c88:013e:1:0
-Filmbox Action
-p:CANAL+,f:1
-3d66:00820000:2c88:013e:1:0
-TV Puls HD
-p:CANAL+,f:1
-3d5a:00820000:2c88:013e:1:0
-WP TV
-p:CANAL+,f:1
-3d5f:00820000:2c88:013e:1:0
-TVP ABC
-p:CANAL+,f:1
-3d67:00820000:2c88:013e:1:0
-TVP Historia
-p:CANAL+,f:1
-3d99:00820000:2c88:013e:1:0
-TVP Historia
-p:CANAL+,f:1
-3d68:00820000:2c88:013e:1:0
-FilmBox Extra HD
-p:CANAL+,f:1
-3d60:00820000:2c88:013e:1:0
-Kino Polska Muzyka
-p:CANAL+,f:1
-3d5d:00820000:2c88:013e:1:0
-FilmBox Premium HD
-p:CANAL+,f:1
-3d8e:00820000:2c88:013e:1:0
-TVP Seriale
-p:CANAL+,f:1
-3d8f:00820000:2c88:013e:1:0
-Filmbox Premium HD
-p:CANAL+,f:1
-3d93:00820000:2c88:013e:1:0
-Kino TV HD
-p:CANAL+,f:1
-3d94:00820000:2c88:013e:1:0
-FilmBox Family
-p:CANAL+,f:1
-3d97:00820000:2c88:013e:1:0
-FilmBox Action
-p:CANAL+,f:1
-3d9a:00820000:2c88:013e:1:0
-FilmBox Extra HD
-p:CANAL+,f:1
-3da4:00820000:2c88:013e:1:0
-FilmBox Extra HD
-p:CANAL+,f:1
-3da8:00820000:2c88:013e:1:0
-FilmBox Family
-p:CANAL+,f:1
-3dab:00820000:2c88:013e:1:0
-FilmBox Action
-p:CANAL+,f:1
-3dad:00820000:2c88:013e:1:0
-Filmbox Premium HD
-p:CANAL+,f:1
-3dae:00820000:2c88:013e:2:0
-
-p:
-3d92:00820000:2c88:013e:1:0
-Kino Polska Muzyka
-p:CANAL+,f:1
-3d56:00820000:2c88:013e:1:0
-Motowizja HD
-p:CANAL+,f:1
-3d63:00820000:2c88:013e:1:0
-Red Carpet TV
-p:CANAL+,f:1
-3db5:00820000:2c88:013e:100:0
-
-p:
-3d64:00820000:2c88:013e:1:0
-Kino Polska HD
-p:CANAL+,f:1
-3d96:00820000:2c88:013e:1:0
-Kino Polska HD
-p:CANAL+,f:1
 11fb:00820000:2b5c:013e:1:0
 TravelXP 4K
 p:,f:1
@@ -13052,7 +12989,7 @@ p:VIVACOM,C:0000,f:1
 025a:00820000:251c:00d5:22:1
 Arena Comedy
 p:VIVACOM,C:0000,f:1
-025b:00820000:251c:00d5:22:2
+025b:00820000:251c:00d5:25:2
 Arena Action
 p:VIVACOM,C:0000,f:1
 1389:00820000:2710:00d5:1:0
@@ -14297,12 +14234,123 @@ p:PRO.TV,f:1
 0002:00820000:0069:0061:1:0
 FEED 2
 p:IKOMG,f:1
-07d0:00822bd3:03e8:0002:1:0
-dn2-sgp-BASIC
-p:MyServiceProvider,f:1
-0320:00822bd3:03e8:0002:1:0
+03e9:00822bd3:03e9:0001:1:0
+dn1-sgb-HVS1
+p:Telespazio,f:1
+0320:00822bd3:03e9:0001:1:0
 SERVICE IP/MAC NOTIFICATION
 p:MyIntProvider,f:1
+07d0:00822bd3:03e9:0001:1:0
+dn2-sgp-BASIC
+p:MyServiceProvider,f:1
+3d57:0082aa2c:2c88:013e:1:0
+Canal+ Seriale HD
+p:CANAL+,f:1
+3d58:0082aa2c:2c88:013e:1:0
+Canal+ Dokument HD
+p:CANAL+,f:1
+3d6c:0082aa2c:2c88:013e:1:0
+Eleven Sports 4 HD
+p:CANAL+,f:1
+3d89:0082aa2c:2c88:013e:1:0
+Canal+ Seriale HD
+p:CANAL+,f:1
+3d8a:0082aa2c:2c88:013e:1:0
+Canal+ Dokument HD
+p:CANAL+,f:1
+3d56:0082aa2c:2c88:013e:1:0
+Motowizja HD
+p:CANAL+,f:1
+3d59:0082aa2c:2c88:013e:1:0
+TVP Kultura HD
+p:CANAL+,f:1
+3d5a:0082aa2c:2c88:013e:1:0
+WP TV
+p:CANAL+,f:1
+3d5c:0082aa2c:2c88:013e:1:0
+TVP Seriale
+p:CANAL+,f:1
+3d5d:0082aa2c:2c88:013e:1:0
+FilmBox Premium HD
+p:CANAL+,f:1
+3d5e:0082aa2c:2c88:013e:1:0
+Puls 2 HD
+p:CANAL+,f:1
+3d5f:0082aa2c:2c88:013e:1:0
+TVP ABC
+p:CANAL+,f:1
+3d60:0082aa2c:2c88:013e:1:0
+Kino Polska Muzyka
+p:CANAL+,f:1
+3d61:0082aa2c:2c88:013e:1:0
+Kino TV HD
+p:CANAL+,f:1
+3d62:0082aa2c:2c88:013e:1:0
+Filmbox Family
+p:CANAL+,f:1
+3d63:0082aa2c:2c88:013e:1:0
+Red Carpet TV
+p:CANAL+,f:1
+3d64:0082aa2c:2c88:013e:1:0
+Kino Polska HD
+p:CANAL+,f:1
+3d65:0082aa2c:2c88:013e:1:0
+Filmbox Action
+p:CANAL+,f:1
+3d66:0082aa2c:2c88:013e:1:0
+TV Puls HD
+p:CANAL+,f:1
+3d67:0082aa2c:2c88:013e:1:0
+TVP Historia
+p:CANAL+,f:1
+3d68:0082aa2c:2c88:013e:1:0
+FilmBox Extra HD
+p:CANAL+,f:1
+3d8e:0082aa2c:2c88:013e:1:0
+TVP Seriale
+p:CANAL+,f:1
+3d8f:0082aa2c:2c88:013e:1:0
+Filmbox Premium HD
+p:CANAL+,f:1
+3d92:0082aa2c:2c88:013e:1:0
+Kino Polska Muzyka
+p:CANAL+,f:1
+3d93:0082aa2c:2c88:013e:1:0
+Kino TV HD
+p:CANAL+,f:1
+3d94:0082aa2c:2c88:013e:1:0
+FilmBox Family
+p:CANAL+,f:1
+3d96:0082aa2c:2c88:013e:1:0
+Kino Polska HD
+p:CANAL+,f:1
+3d97:0082aa2c:2c88:013e:1:0
+FilmBox Action
+p:CANAL+,f:1
+3d99:0082aa2c:2c88:013e:1:0
+TVP Historia
+p:CANAL+,f:1
+3d9a:0082aa2c:2c88:013e:1:0
+FilmBox Extra HD
+p:CANAL+,f:1
+3da4:0082aa2c:2c88:013e:1:0
+FilmBox Extra HD
+p:CANAL+,f:1
+3da8:0082aa2c:2c88:013e:1:0
+FilmBox Family
+p:CANAL+,f:1
+3dab:0082aa2c:2c88:013e:1:0
+FilmBox Action
+p:CANAL+,f:1
+3dad:0082aa2c:2c88:013e:1:0
+Filmbox Premium HD
+p:CANAL+,f:1
+3dae:0082aa2c:2c88:013e:2:0
+
+p:
+3db5:0082aa2c:2c88:013e:100:0
+
+p:
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2026
