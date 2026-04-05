@@ -216,6 +216,9 @@ transponders
 00eb0000:0c9f:0003
 	s 12304000:30000000:0:3:235:2:0:1:2:2:2
 /
+00ebb099:0005:0000
+	s 12441000:30000000:1:3:235:2:0:1:2:2:2
+/
 00820000:2e18:00b0
 	s 10873000:27500000:1:3:130:2:0:1:2:0:2
 /
@@ -308,9 +311,6 @@ transponders
 /
 00820000:3390:0071
 	s 11158000:27500000:1:3:130:2:0:1:2:0:2
-/
-00820000:2c88:013e
-	s 10796000:27500000:1:3:130:2:0:1:2:0:2
 /
 00820000:2b5c:013e
 	s 10727000:30000000:0:3:130:2:0:1:2:0:2
@@ -546,14 +546,17 @@ transponders
 00820000:0069:0061
 	s 12437000:27500000:0:3:130:2:0:1:2:0:2:-1:0:3
 /
-00822bd3:03e8:0002
-	s 11219000:33000000:0:2:130:2:0:1:2:0:2:1:0:3
-/
 00822bd3:03e9:0001
 	s 11219000:33000000:0:2:130:2:0:1:2:0:2:1:0:3
 /
 0082aa2c:2c88:013e
 	s 10796000:27500000:1:4:130:2:0:1:2:2:2
+/
+00822bd3:03e8:0002
+	s 11219000:33000000:0:2:130:2:0:1:2:0:2:1:0:3
+/
+00822bd3:03e9:0002
+	s 11219000:33000000:0:2:130:2:0:1:2:0:2:1:0:3
 /
 end
 services
@@ -2471,6 +2474,9 @@ p:Telekom Srbija,f:1
 5157:00eb0000:0ca6:0003:2:0
 BN radio
 p:Telekom Srbija
+4f3e:00eb0000:0ca6:0003:1:0
+Arena Premium 4 HD
+p:DVB-S2 8PSK 12441V 23.5Â°E,f:1
 0001:00ebaced:0001:0001:1:0
 D-331 Main
 p:none,f:1
@@ -2582,6 +2588,9 @@ p:Telekom Srbija,f:1
 4ed6:00eb0000:0c9c:0003:1:0
 TV Lav Plus
 p:Telekom Srbija,f:1
+4f3f:00eb0000:0c9c:0003:1:0
+Arena Premium 5 HD
+p:Telekom Srbija,f:1
 4f0e:00eb0000:0c9f:0003:1:0
 Rai 1
 p:Telekom Srbija,f:1
@@ -2686,6 +2695,9 @@ Digi 24
 p:Telekom Srbija,f:1
 4f3d:00eb0000:0c9f:0003:1:0
 Private TV
+p:Telekom Srbija,f:1
+4f40:00eb0000:0c9f:0003:1:0
+Arena_Sport 7
 p:Telekom Srbija,f:1
 0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
@@ -5372,6 +5384,9 @@ p:,f:1
 0656:00820000:2454:013e:1:0
 GNC HD
 p:Encoder,f:1
+0657:00820000:2454:013e:1:0
+Primaset
+p:PRIMASET,f:1
 0079:00820000:04b0:0110:25:0
 Italia 1 HD
 p:Mediaset,f:1
@@ -5687,12 +5702,6 @@ p:SkyItalia,f:1
 2b57:00820000:1900:fbff:1:0
 IEPG Data
 p:SkyItalia,f:1
-0191:00820000:1518:013e:1:0
-MTV 00s
-p:NOVA,f:1
-0192:00820000:1518:013e:1:0
-MTV Hits
-p:NOVA,f:1
 0194:00820000:1518:013e:1:0
 Travel Channel HD
 p:NOVA,f:1
@@ -6140,6 +6149,12 @@ p:VIVACOM,f:1
 0034:00820000:2580:00d5:25:0
 NOVA HD
 p:VIVACOM,f:1
+0035:00820000:2580:00d5:2:0
+ENERGY 2
+p:VIVACOM
+0036:00820000:2580:00d5:2:0
+ENERGY 3
+p:VIVACOM
 00f6:00820000:25e4:00d5:22:0
 NTV Mir
 p:VIVACOM,f:1
@@ -6280,6 +6295,9 @@ DM Sat
 p:VIVACOM,f:1
 00cd:00820000:25e4:00d5:22:0
 Fantazzy
+p:VIVACOM,f:1
+00fa:00820000:25e4:00d5:22:0
+Kanal 3
 p:VIVACOM,f:1
 00de:00820000:2648:00d5:22:0
 FightKlub
@@ -6568,6 +6586,9 @@ Discovery Channel
 p:VIVACOM,f:1
 13b4:00820000:2710:00d5:1:39
 Soul & Pepper TV
+p:VIVACOM,f:1
+13b5:00820000:2710:00d5:22:0
+Daystar
 p:VIVACOM,f:1
 03ea:0082acce:03ea:0001:12:0
 HVS-2 Bck
@@ -7691,15 +7712,6 @@ p:PRO.TV,f:1
 0002:00820000:0069:0061:1:0
 FEED 2
 p:IKOMG,f:1
-03e9:00822bd3:03e9:0001:1:0
-dn1-sgb-HVS1
-p:Telespazio,f:1
-0320:00822bd3:03e9:0001:1:0
-SERVICE IP/MAC NOTIFICATION
-p:MyIntProvider,f:1
-07d0:00822bd3:03e9:0001:1:0
-dn2-sgp-BASIC
-p:MyServiceProvider,f:1
 3d57:0082aa2c:2c88:013e:1:0
 Canal+ Seriale HD
 p:CANAL+,f:1
@@ -7808,6 +7820,15 @@ p:
 3db5:0082aa2c:2c88:013e:100:0
 
 p:
+0320:00822bd3:03e8:0002:1:0
+SERVICE IP/MAC NOTIFICATION
+p:MyIntProvider,f:1
+03e9:00822bd3:03e8:0002:1:0
+dn1-sgb-HVS1
+p:Telespazio,f:1
+07d0:00822bd3:03e8:0002:1:0
+dn2-sgp-BASIC
+p:MyServiceProvider,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2026
