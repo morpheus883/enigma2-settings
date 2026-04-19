@@ -342,6 +342,18 @@ transponders
 0082b142:0001:0001
 	s 12610000:7200000:1:3:130:2:0:1:2:0:2
 /
+0082b126:0001:0001
+	s 12582000:7200000:1:3:130:2:0:1:2:0:2
+/
+0082b139:0001:ffff
+	s 12601000:7200000:1:3:130:2:0:1:2:0:2
+/
+00822bd3:03e9:0002
+	s 11219000:33000000:0:2:130:2:0:1:2:0:2:1:0:1
+/
+0082b142:001b:ffff
+	s 12610000:7200000:1:3:130:2:0:1:2:0:2
+/
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
 /
@@ -872,9 +884,9 @@ p:GLOBECAST,f:1
 06ac:00820000:3138:013e:1:0
 TV Rus Plus
 p:GLOBECAST,f:1
-06ad:00820000:3138:013e:1:0
-service 1709
-p:GLOBECAST,f:1
+06ad:00820000:3138:013e:2:0
+Service 1709
+p:GLOBECAST
 1c86:00820000:332c:013e:1:0
 Bloomberg European TV
 p:Arqiva,f:1
@@ -1876,6 +1888,12 @@ NovaSportsExtra3HD Cy
 p:NOVA,f:1
 018a:00820000:1c84:013e:1:0
 NovaSportsExtra1HD Cy
+p:NOVA,f:1
+0161:00820000:1c84:013e:1:0
+SID_353
+p:NOVA,f:1
+0164:00820000:1c84:013e:1:0
+SID_356
 p:NOVA,f:1
 1c86:00820000:1ce8:0071:1:0
 AXN White Poland
@@ -3004,58 +3022,58 @@ Canal+ 360
 p:CANAL+,f:1
 0389:00820000:2134:013e:25:0
 Dubai International HD
-p:Etisalat,f:1
+p:DU,f:1
 0388:00820000:2134:013e:2:0
 Noor Dubai Radio
-p:Etisalat
+p:DU
 038b:00820000:2134:013e:1:0
 Sudan TV
-p:Etisalat,f:1
+p:DU,f:1
 0392:00820000:2134:013e:25:0
 Jordan TV
-p:Etisalat,f:1
+p:DU,f:1
 0394:00820000:2134:013e:25:0
 Libya ALWatnieh
-p:Etisalat,f:1
+p:DU,f:1
 038e:00820000:2134:013e:25:0
 ESC
-p:Etisalat,f:1
+p:DU,f:1
 038f:00820000:2134:013e:2:0
 ESC R1
-p:Etisalat
+p:DU
 0393:00820000:2134:013e:2:0
 JORDAN R1
-p:Etisalat
-0398:00820000:2134:013e:1:0
+p:DU
+0398:00820000:2134:013e:25:0
 Oman TV HD
-p:Etisalat,f:1
+p:DU,f:1
 0390:00820000:2134:013e:2:0
 ESC R2
-p:Etisalat
+p:DU
 0391:00820000:2134:013e:2:0
 ESC R3
-p:Etisalat
+p:DU
 0399:00820000:2134:013e:2:0
 Oman General Radio R1
-p:Etisalat
+p:DU
 039a:00820000:2134:013e:2:0
 Oman English Radio R2
-p:Etisalat
+p:DU
 039b:00820000:2134:013e:2:0
 Oman Shabab Radio R3
-p:Etisalat
+p:DU
 039c:00820000:2134:013e:2:0
 OMAN HOLY QURAN
-p:ETISALAT
+p:DU
 0395:00820000:2134:013e:25:0
 Kuwait TV HD
-p:Etisalat,f:1
+p:DU,f:1
 0396:00820000:2134:013e:2:0
 Kuwait Radio 1
-p:Etisalat
+p:DU
 0397:00820000:2134:013e:2:0
 Kuwait Holy Quran
-p:Etisalat
+p:DU
 0001:00820000:1964:013e:1:0
 MTV Live HD
 p:MTV Networks Europe,f:1
@@ -3568,6 +3586,12 @@ NovaSportsExtra2HD Cy
 p:NOVA,f:1
 01a9:00820000:1518:013e:1:0
 P_TEST
+p:NOVA,f:1
+0191:00820000:1518:013e:1:0
+TEST_401
+p:NOVA,f:1
+0192:00820000:1518:013e:1:0
+TEST_402
 p:NOVA,f:1
 3b65:00820000:012c:013e:22:0
 Frisbee
@@ -4472,9 +4496,6 @@ p:CANAL+,f:1
 13f9:00822ce0:05dc:013e:1:0
 HBO3 HD
 p:CANAL+,f:1
-1418:00822ce0:05dc:013e:2:0
-CANAL+ PR
-p:CANAL+
 1419:00822ce0:05dc:013e:2:0
 JASNA GORA
 p:CANAL+
@@ -4539,7 +4560,7 @@ p:CANAL+,f:1
 Eleven Sports 2 HD
 p:CANAL+,f:1
 13fd:00822ce0:05dc:013e:1:0
-ViDocTV
+Viasat True Crime
 p:CANAL+,f:1
 13fb:00822ce0:05dc:013e:1:0
 StudioMed TV
@@ -4552,6 +4573,9 @@ Canal+ Kuchnia
 p:CANAL+,f:1
 13f0:00822ce0:05dc:013e:1:0
 Canal+ Kuchnia
+p:CANAL+,f:1
+1403:00822ce0:05dc:013e:1:0
+TVS
 p:CANAL+,f:1
 377a:00822c93:044c:013e:1:0
 Canal+ Dokument HD
@@ -4660,6 +4684,33 @@ Canal+ Extra 2
 p:CANAL+,f:1
 37bf:00822c93:044c:013e:1:0
 Canal+ Extra 2
+p:CANAL+,f:1
+3784:00822c93:044c:013e:1:0
+Kino Polska HD
+p:CANAL+,f:1
+3785:00822c93:044c:013e:1:0
+Kino Polska Muzyka
+p:CANAL+,f:1
+3786:00822c93:044c:013e:1:0
+FilmBox Action
+p:CANAL+,f:1
+3787:00822c93:044c:013e:1:0
+FilmBox Extra HD
+p:CANAL+,f:1
+3788:00822c93:044c:013e:1:0
+FilmBox Family
+p:CANAL+,f:1
+3789:00822c93:044c:013e:1:0
+FilmBox Premium HD
+p:CANAL+,f:1
+378a:00822c93:044c:013e:1:0
+Kino TV HD
+p:CANAL+,f:1
+37b6:00822c93:044c:013e:1:0
+KINO POLSKA HD
+p:CANAL+,f:1
+37bc:00822c93:044c:013e:1:0
+Kino TV HD
 p:CANAL+,f:1
 0066:0082b128:0001:ffff:1:0
 Service_02
@@ -4772,6 +4823,12 @@ p:IKOMG,f:1
 232c:00820000:2328:013e:1:0
 Jin TV
 p:STN,f:1
+233e:00820000:2328:013e:22:0
+Euronews English
+p:iKOMG,f:1
+233f:00820000:2328:013e:22:0
+Euronews Italian
+p:iKOMG,f:1
 0007:00820000:0003:0003:25:0
 MDS 7
 p:Globecast,f:1
@@ -5396,12 +5453,6 @@ p:GLOBECAST,f:1
 0001:00822d70:4321:00eb:25:0
 ES test 22HD
 p:CM5000,f:1
-03e9:0082b126:03ea:0001:1:0
-Service_01
-p:globecast,f:1
-03ea:0082b126:03ea:0001:1:0
-Service_02
-p:globecast,f:1
 0194:0082abb9:0010:ffff:25:0
 Service_MENA_04
 p:Globecast,f:1
@@ -5612,18 +5663,21 @@ p:
 3db5:0082aa2c:2c88:013e:100:0
 
 p:
-0320:00822bd3:03e8:0002:1:0
+7533:0082b126:0001:0001:1:0
+GCUK Enc 3
+p:GlobeCast UK,f:1
+07d1:00822bd3:03e9:0002:1:0
+dn2-sgp-HVS-1
+p:MyServiceProvider,f:1
+0320:00822bd3:03e9:0002:1:0
 SERVICE IP/MAC NOTIFICATION
 p:MyIntProvider,f:1
-03e9:00822bd3:03e8:0002:1:0
-dn1-sgb-HVS1
-p:Telespazio,f:1
-07d0:00822bd3:03e8:0002:1:0
+07d0:00822bd3:03e9:0002:1:0
 dn2-sgp-BASIC
 p:MyServiceProvider,f:1
-7532:0082b142:0001:0001:1:0
-Faroe Islands - Iceland
-p:GlobeCast UK,f:1
+0191:0082b142:001b:ffff:25:0
+Service_MENA_01
+p:Globecast,f:1
 0fa0:00300000:0006:0056:1:0
 TVN Chile Nordic
 p:SES ASTRA,f:1
@@ -6470,6 +6524,9 @@ p:SES,f:1
 198c:00300000:107b:0055:1:0
 We-Ukraine+
 p:,f:1
+1996:00300000:107b:0055:1:0
+Rozpakuy Hit Line
+p:TMS,f:1
 0001:0030b0ed:4321:0000:1:0
 SM HIIHTO JUNNU
 p:YLE,f:1
