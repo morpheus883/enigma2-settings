@@ -75,9 +75,6 @@ transponders
 011a0000:07f0:0002
 	s 12324000:27500000:1:2:282:2:0:1:2:0:2
 /
-011a0000:083b:0002
-	s 11264000:27500000:0:2:282:2:0
-/
 011a0000:07ee:0002
 	s 12285000:27500000:1:2:282:2:0:1:2:0:2
 /
@@ -579,17 +576,17 @@ transponders
 0082b126:0001:0001
 	s 12582000:7200000:1:3:130:2:0:1:2:0:2
 /
-00822bd3:03e9:0002
-	s 11219000:33000000:0:2:130:2:0:1:2:0:2:1:0:1
-/
-0082b142:001b:ffff
-	s 12610000:7200000:1:3:130:2:0:1:2:0:2
-/
 00822bd3:03e8:0001
 	s 11219000:33000000:0:2:130:2:0:1:2:0:2:1:0:1
 /
 0082b142:0001:0001
 	s 12610000:7200000:1:3:130:2:0:1:2:0:2
+/
+00822bd3:03e9:0001
+	s 11219000:33000000:0:2:130:2:0:1:2:0:2:1:0:1
+/
+0082aa47:0001:0001
+	s 10823000:3674000:1:3:130:2:0:1:2:0:2
 /
 end
 services
@@ -1010,9 +1007,6 @@ p:BSkyB,f:1
 d74a:011a0000:082f:0002:1:0
 Best Direct
 p:BSkyB,f:1
-d749:011a0000:082f:0002:1:0
-Takbeer TV
-p:BSkyB,f:1
 d74f:011a0000:082f:0002:1:0
 Faith World TV
 p:BSkyB,f:1
@@ -1222,6 +1216,9 @@ Eman Channel
 p:BSkyB,f:1
 cfa3:011a0000:083a:0002:1:0
 Kanshi TV
+p:BSkyB,f:1
+cf9c:011a0000:083a:0002:1:0
+Takbeer TV
 p:BSkyB,f:1
 cd55:011a0000:0844:0002:25:0
 S4C HD
@@ -4802,6 +4799,9 @@ p:,f:1
 2914:00820000:1edc:0071:1:0
 Mango
 p:Cyfrowy Polsat S.A.,f:1
+290b:00820000:1edc:0071:25:0
+Serwis 10507
+p:Cyfrowy Polsat S.A.,f:1
 3392:00820000:3390:0071:1:0
 Polsat Play HD
 p:Cyfrowy Polsat S.A.,f:1
@@ -5407,6 +5407,9 @@ MC EU
 p:Itep Pictures,f:1
 01f6:00820000:0384:013e:1:0
 Setareh TV
+p:,f:1
+0216:00820000:0384:013e:25:0
+Bloomberg TV HD
 p:,f:1
 0641:00820000:2454:013e:25:0
 Al Jazeera HD
@@ -7898,12 +7901,24 @@ p:
 7533:0082b126:0001:0001:1:0
 GCUK Enc 3
 p:GlobeCast UK,f:1
-03e8:00822bd3:03e8:0001:1:1
-dn1-sgb-b1
-p:Telespazio,f:1
 7531:0082b142:0001:0001:1:0
 GCUK Enc 1
 p:GlobeCast UK,f:1
+0320:00822bd3:03e9:0001:1:0
+SERVICE IP/MAC NOTIFICATION
+p:MyIntProvider,f:1
+03e9:00822bd3:03e9:0001:1:0
+dn1-sgb-HVS1
+p:Telespazio,f:1
+03e8:00822bd3:03e9:0001:1:1
+dn1-sgb-b1
+p:Telespazio,f:1
+7531:0082aa47:0001:0001:1:0
+GCUK Enc 1
+p:GlobeCast UK,f:1
+f83e:0082aa47:0001:0001:1:0
+RMG Dubai HD
+p:Racing UK,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2026

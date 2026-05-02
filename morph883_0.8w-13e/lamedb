@@ -327,17 +327,17 @@ transponders
 0082b126:0001:0001
 	s 12582000:7200000:1:3:130:2:0:1:2:0:2
 /
-00822bd3:03e9:0002
-	s 11219000:33000000:0:2:130:2:0:1:2:0:2:1:0:1
-/
-0082b142:001b:ffff
-	s 12610000:7200000:1:3:130:2:0:1:2:0:2
-/
 00822bd3:03e8:0001
 	s 11219000:33000000:0:2:130:2:0:1:2:0:2:1:0:1
 /
 0082b142:0001:0001
 	s 12610000:7200000:1:3:130:2:0:1:2:0:2
+/
+00822bd3:03e9:0001
+	s 11219000:33000000:0:2:130:2:0:1:2:0:2:1:0:1
+/
+0082aa47:0001:0001
+	s 10823000:3674000:1:3:130:2:0:1:2:0:2
 /
 0e080000:0044:0046
 	s 10747000:25000000:0:3:-8:2:0:1:2:0:2
@@ -2678,6 +2678,9 @@ p:,f:1
 2914:00820000:1edc:0071:1:0
 Mango
 p:Cyfrowy Polsat S.A.,f:1
+290b:00820000:1edc:0071:25:0
+Serwis 10507
+p:Cyfrowy Polsat S.A.,f:1
 3392:00820000:3390:0071:1:0
 Polsat Play HD
 p:Cyfrowy Polsat S.A.,f:1
@@ -3283,6 +3286,9 @@ MC EU
 p:Itep Pictures,f:1
 01f6:00820000:0384:013e:1:0
 Setareh TV
+p:,f:1
+0216:00820000:0384:013e:25:0
+Bloomberg TV HD
 p:,f:1
 0641:00820000:2454:013e:25:0
 Al Jazeera HD
@@ -5774,12 +5780,24 @@ p:
 7533:0082b126:0001:0001:1:0
 GCUK Enc 3
 p:GlobeCast UK,f:1
-03e8:00822bd3:03e8:0001:1:1
-dn1-sgb-b1
-p:Telespazio,f:1
 7531:0082b142:0001:0001:1:0
 GCUK Enc 1
 p:GlobeCast UK,f:1
+0320:00822bd3:03e9:0001:1:0
+SERVICE IP/MAC NOTIFICATION
+p:MyIntProvider,f:1
+03e9:00822bd3:03e9:0001:1:0
+dn1-sgb-HVS1
+p:Telespazio,f:1
+03e8:00822bd3:03e9:0001:1:1
+dn1-sgb-b1
+p:Telespazio,f:1
+7531:0082aa47:0001:0001:1:0
+GCUK Enc 1
+p:GlobeCast UK,f:1
+f83e:0082aa47:0001:0001:1:0
+RMG Dubai HD
+p:Racing UK,f:1
 040a:0e080000:0044:0046:25:0
 TV 2 Sport Premium HD
 p:Canal Digital Nordic,f:1
@@ -6452,6 +6470,9 @@ p:
 02a1:0e080000:000c:0001:100:0
 
 p:
+100e:0e080000:000c:0001:1:0
+HGTV
+p:DIGI,f:1
 77ef:0e080000:02c3:0600:1:0
 Disney Channel Hungary & Czechia
 p:M7,f:1
@@ -6971,6 +6992,12 @@ p:DigiTV
 03f9:0e08318f:0001:0001:1:0
 Food Network
 p:DigiTV,C:0000,f:1
+044c:0e08318f:0001:0001:1:0
+Cinemax (Hungary)
+p:,f:1
+0456:0e08318f:0001:0001:1:0
+Da Vinci Learning
+p:DIGI,f:1
 03f4:0e080000:0002:0001:1:0
 Cinemaraton
 p:DigiTV,f:1
@@ -7451,6 +7478,12 @@ p:DigiTV,f:1
 0fbe:0e080000:000d:0001:1:0
 TV 2 HD (Hungary)
 p:DigiTV,f:1
+13ec:0e080000:000d:0001:1:0
+TVR Info
+p:DIGI,f:1
+13f6:0e080000:000d:0001:1:0
+TVR Cultural
+p:DIGI,f:1
 1db0:0e080000:002b:0046:25:0
 Discovery+ Extra 1 HD
 p:Telenor,c:050001,f:1
@@ -8111,6 +8144,9 @@ p:DIGI
 0bae:0e080000:0007:0001:1:0
 TVR Info
 p:DIGI,f:1
+0c1c:0e080000:0007:0001:1:0
+SuperOne
+p:DIGI,f:1
 0fac:0e080000:0af4:00bb:25:0
 Prima Krimi SK HD
 p:Slovak Telekom,f:1
@@ -8426,6 +8462,12 @@ p:Telenor,f:1
 32d5:fff8306f:004b:0046:31:0
 Test 13013
 p:Telenor,f:1
+feb0:fff8306f:004b:0046:1:0
+
+p:,f:1
+feb1:fff8306f:004b:0046:1:0
+
+p:,f:1
 2332:0e080000:0055:0046:25:0
 TS Sports 11
 p:Telenor,f:1

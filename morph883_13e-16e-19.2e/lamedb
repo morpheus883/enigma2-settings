@@ -366,6 +366,9 @@ transponders
 00c0ad91:0001:0001
 	s 11665000:7200000:1:3:192:2:0:1:2:0:2
 /
+00c00000:041a:0001
+	s 10729000:23500000:1:3:192:2:0:1:2:0:2
+/
 00a00000:0001:0040
 	s 11512000:30000000:0:3:160:2:0:1:2:0:2
 /
@@ -963,17 +966,17 @@ transponders
 0082b126:0001:0001
 	s 12582000:7200000:1:3:130:2:0:1:2:0:2
 /
-00822bd3:03e9:0002
-	s 11219000:33000000:0:2:130:2:0:1:2:0:2:1:0:1
-/
-0082b142:001b:ffff
-	s 12610000:7200000:1:3:130:2:0:1:2:0:2
-/
 00822bd3:03e8:0001
 	s 11219000:33000000:0:2:130:2:0:1:2:0:2:1:0:1
 /
 0082b142:0001:0001
 	s 12610000:7200000:1:3:130:2:0:1:2:0:2
+/
+00822bd3:03e9:0001
+	s 11219000:33000000:0:2:130:2:0:1:2:0:2:1:0:1
+/
+0082aa47:0001:0001
+	s 10823000:3674000:1:3:130:2:0:1:2:0:2
 /
 end
 services
@@ -2432,6 +2435,12 @@ p:
 0fb9:00c00000:0005:0085:100:0
 
 p:
+1019:00c00000:0005:0085:2:0
+1.BuMux
+p:BetaDigital
+101a:00c00000:0005:0085:2:0
+2.BuMux
+p:BetaDigital
 0020:00c00000:0021:0085:1:0
 Sonnenklar TV
 p:BetaDigital,f:1
@@ -4781,6 +4790,39 @@ p:AUT 23-1,f:1
 0001:00c0ad91:0001:0001:1:0
 MMG Ce-1 Enc1
 p:,f:1
+2c88:00c00000:041a:0001:31:0
+La 1 UHD
+p:SES,f:1
+2c89:00c00000:041a:0001:31:0
+La 2
+p:SES,f:1
+2c8a:00c00000:041a:0001:31:0
+Canal 24 Horas
+p:SES,f:1
+2c8b:00c00000:041a:0001:31:0
+Clan TVE
+p:SES,f:1
+2c8c:00c00000:041a:0001:31:0
+Teledeporte
+p:SES,f:1
+2c8d:00c00000:041a:0001:31:0
+Trece
+p:SES,f:1
+2c8e:00c00000:041a:0001:31:0
+Dkiss
+p:SES,f:1
+2c8f:00c00000:041a:0001:31:0
+A Punt HD
+p:SES,f:1
+2c90:00c00000:041a:0001:31:0
+ETB-1 HD
+p:SES,f:1
+2c91:00c00000:041a:0001:31:0
+TPA Asturias HD
+p:SES,f:1
+2c92:00c00000:041a:0001:31:0
+Canal Sur
+p:SES,f:1
 001e:00a00000:0001:0040:22:0
 National Geographic Croatia
 p:Max TV,f:1
@@ -9677,6 +9719,9 @@ p:,f:1
 2914:00820000:1edc:0071:1:0
 Mango
 p:Cyfrowy Polsat S.A.,f:1
+290b:00820000:1edc:0071:25:0
+Serwis 10507
+p:Cyfrowy Polsat S.A.,f:1
 3392:00820000:3390:0071:1:0
 Polsat Play HD
 p:Cyfrowy Polsat S.A.,f:1
@@ -10282,6 +10327,9 @@ MC EU
 p:Itep Pictures,f:1
 01f6:00820000:0384:013e:1:0
 Setareh TV
+p:,f:1
+0216:00820000:0384:013e:25:0
+Bloomberg TV HD
 p:,f:1
 0641:00820000:2454:013e:25:0
 Al Jazeera HD
@@ -12773,12 +12821,24 @@ p:
 7533:0082b126:0001:0001:1:0
 GCUK Enc 3
 p:GlobeCast UK,f:1
-03e8:00822bd3:03e8:0001:1:1
-dn1-sgb-b1
-p:Telespazio,f:1
 7531:0082b142:0001:0001:1:0
 GCUK Enc 1
 p:GlobeCast UK,f:1
+0320:00822bd3:03e9:0001:1:0
+SERVICE IP/MAC NOTIFICATION
+p:MyIntProvider,f:1
+03e9:00822bd3:03e9:0001:1:0
+dn1-sgb-HVS1
+p:Telespazio,f:1
+03e8:00822bd3:03e9:0001:1:1
+dn1-sgb-b1
+p:Telespazio,f:1
+7531:0082aa47:0001:0001:1:0
+GCUK Enc 1
+p:GlobeCast UK,f:1
+f83e:0082aa47:0001:0001:1:0
+RMG Dubai HD
+p:Racing UK,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2026
