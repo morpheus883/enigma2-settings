@@ -291,11 +291,11 @@ transponders
 00c0aca5:0000:ff00
 	s 11429000:7500000:1:3:192:2:0:1:2:0:2
 /
-00c00000:0001:0001
-	s 11648000:7200000:1:3:192:2:0:1:2:0:2
-/
 00c00000:000e:0001
 	s 12070000:31428000:0:8:192:2:0:1:2:0:2
+/
+00c0ad80:0001:ffff
+	s 11648000:7200000:1:3:192:2:0:1:2:0:2
 /
 00a00000:0001:0040
 	s 11512000:30000000:0:3:160:2:0:1:2:0:2
@@ -780,9 +780,6 @@ transponders
 00822d47:0001:0001
 	s 11591000:9600000:0:3:130:2:0:1:2:0:2
 /
-00822d06:03eb:0001
-	s 11526000:33000000:0:2:130:2:0:1:2:0:2
-/
 00820000:0001:00c8
 	s 10829000:7200000:1:3:130:2:0:1:2:0:2
 /
@@ -806,6 +803,9 @@ transponders
 /
 00822a3f:0001:ff00
 	s 10815000:9700000:0:3:130:2:0:1:2:0:2
+/
+00822d06:03eb:0002
+	s 11526000:33000000:0:2:130:2:0:1:2:0:2
 /
 end
 services
@@ -1889,7 +1889,7 @@ p:
 007e:00c00000:000c:0085:25:0
 Syfy HD Deu
 p:SKY,f:1
-0120:00c00000:000c:0085:25:0
+0121:00c00000:000c:0085:25:0
 Sky Sport 3 HD
 p:SKY,f:1
 011f:00c00000:000c:0085:25:0
@@ -1921,6 +1921,9 @@ Sky Sport Bundesliga 7 HD
 p:SKY,f:1
 0148:00c00000:000c:0085:25:0
 Sky Sport 7 HD
+p:SKY,f:1
+0120:00c00000:000c:0085:25:0
+Fussball.TV 2
 p:SKY,f:1
 23ba:00c00000:044a:0001:192:0
 DOWNLOAD G5 SAMSUNG
@@ -3398,7 +3401,7 @@ p:SKY,f:1
 0129:00c00000:0004:0085:25:0
 Sky Sport Bundesliga 4 HD
 p:SKY,f:1
-012a:00c00000:0004:0085:25:0
+012b:00c00000:0004:0085:25:0
 Sky Sport 4 HD
 p:SKY,f:1
 0155:00c00000:0004:0085:25:0
@@ -3410,6 +3413,9 @@ p:SKY,f:1
 0077:00c00000:0004:0085:25:0
 NatGeo Wild
 p:,f:1
+012a:00c00000:0004:0085:25:0
+Fussball.TV 3
+p:SKY,f:1
 0016:00c00000:0002:0085:22:0
 Heimatkanal
 p:SKY,f:1
@@ -3431,7 +3437,7 @@ p:SKY,f:1
 0115:00c00000:0002:0085:25:0
 Sky Sport Bundesliga 2 HD
 p:SKY,f:1
-0116:00c00000:0002:0085:25:0
+0117:00c00000:0002:0085:25:0
 Sky Sport 2 HD
 p:SKY,f:1
 0192:00c00000:0002:0085:22:0
@@ -3445,6 +3451,9 @@ Sky Sport Austria 3 HD
 p:SKY,f:1
 0085:00c00000:0002:0085:25:0
 Beate Uhse HD
+p:SKY,f:1
+0116:00c00000:0002:0085:25:0
+Fussball.TV 1
 p:SKY,f:1
 0228:00c00000:0010:0085:31:0
 Sky Sport Bundesliga UHD
@@ -4421,9 +4430,6 @@ p:WPA,f:1
 0001:00c0aca5:0000:ff00:25:0
 Matchroom - Premier League Darts - Sheffield
 p:SIDEMEN MAIN CLEAN AUDIO,f:1
-0001:00c00000:0001:0001:25:0
-D556
-p:D556,f:1
 0003:00c00000:000e:0001:25:0
 MM2 SVC3
 p:SES,f:1
@@ -4433,6 +4439,9 @@ p:SES USA,f:1
 0002:00c00000:000e:0001:1:0
 PGA ANC
 p:SES USA,f:1
+0001:00c0ad80:0001:ffff:1:0
+SR D-551 Enc I
+p:Service Provider,f:1
 001e:00a00000:0001:0040:22:0
 National Geographic Croatia
 p:Max TV,f:1
@@ -8981,6 +8990,9 @@ p:M-Three Satcom,f:1
 4239:00820000:2f44:013e:1:0
 TVP Polonia
 p:Telewizja Polska S.A.,f:1
+423a:00820000:2f44:013e:1:0
+TVP World
+p:Telewizja Polska S.A.,f:1
 2907:00820000:1edc:0071:1:0
 Nat Geo People PL HD
 p:Cyfrowy Polsat S.A.,f:1
@@ -9158,6 +9170,9 @@ p:SES,f:1
 1202:00820000:2b5c:013e:2:0
 Radio Payam
 p:M-Three satcom
+1203:00820000:2b5c:013e:1:0
+Greater Love
+p:Encoder,f:1
 4530:00820000:30d4:013e:25:0
 Rai Gulp HD
 p:Rai,f:1
@@ -9568,6 +9583,9 @@ MC EU
 p:Itep Pictures,f:1
 0216:00820000:0384:013e:25:0
 Bloomberg TV HD
+p:,f:1
+01fc:00820000:0384:013e:1:0
+Kurdistan 24 HD
 p:,f:1
 0641:00820000:2454:013e:25:0
 Al Jazeera HD
@@ -10063,6 +10081,9 @@ eQtv
 p:Svoboda Satellite,f:1
 0069:00820000:2fa8:013e:22:0
 Svoboda+
+p:Svoboda Satellite,f:1
+0073:00820000:2fa8:013e:22:0
+Belsat TV
 p:Svoboda Satellite,f:1
 0001:00820000:2580:00d5:1:0
 bTV
@@ -11807,12 +11828,6 @@ p:Globecast Asia,f:1
 0001:00822d47:0001:0001:1:0
 NLEMG HOL270-1
 p:EMG Connectivity,f:1
-0320:00822d06:03eb:0001:1:0
-SERVICE IP/MAC NOTIFICATION
-p:MyIntProvider,f:1
-03eb:00822d06:03eb:0001:1:0
-dn1-sgb-HVS-3
-p:Telespazio,f:1
 7539:00820000:0001:00c8:1:0
 GCUK Enc 9
 p:GlobeCast UK,f:1
@@ -11843,6 +11858,15 @@ p:,f:1
 0001:00822a3f:0001:ff00:25:0
 IIHF2026 - FRI - VO TIP
 p:MobileLinks,f:1
+07d3:00822d06:03eb:0002:1:0
+dn2-sgp-HVS-3
+p:MyServiceProvider,f:1
+0320:00822d06:03eb:0002:1:0
+SERVICE IP/MAC NOTIFICATION
+p:MyIntProvider,f:1
+03eb:00822d06:03eb:0002:1:0
+dn1-sgb-HVS-3
+p:Telespazio,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2026

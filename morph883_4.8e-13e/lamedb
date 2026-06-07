@@ -264,9 +264,6 @@ transponders
 00822d47:0001:0001
 	s 11591000:9600000:0:3:130:2:0:1:2:0:2
 /
-00822d06:03eb:0001
-	s 11526000:33000000:0:2:130:2:0:1:2:0:2
-/
 00820000:0001:00c8
 	s 10829000:7200000:1:3:130:2:0:1:2:0:2
 /
@@ -290,6 +287,9 @@ transponders
 /
 00822a3f:0001:ff00
 	s 10815000:9700000:0:3:130:2:0:1:2:0:2
+/
+00822d06:03eb:0002
+	s 11526000:33000000:0:2:130:2:0:1:2:0:2
 /
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
@@ -2330,6 +2330,9 @@ p:M-Three Satcom,f:1
 4239:00820000:2f44:013e:1:0
 TVP Polonia
 p:Telewizja Polska S.A.,f:1
+423a:00820000:2f44:013e:1:0
+TVP World
+p:Telewizja Polska S.A.,f:1
 2907:00820000:1edc:0071:1:0
 Nat Geo People PL HD
 p:Cyfrowy Polsat S.A.,f:1
@@ -2507,6 +2510,9 @@ p:SES,f:1
 1202:00820000:2b5c:013e:2:0
 Radio Payam
 p:M-Three satcom
+1203:00820000:2b5c:013e:1:0
+Greater Love
+p:Encoder,f:1
 4530:00820000:30d4:013e:25:0
 Rai Gulp HD
 p:Rai,f:1
@@ -2917,6 +2923,9 @@ MC EU
 p:Itep Pictures,f:1
 0216:00820000:0384:013e:25:0
 Bloomberg TV HD
+p:,f:1
+01fc:00820000:0384:013e:1:0
+Kurdistan 24 HD
 p:,f:1
 0641:00820000:2454:013e:25:0
 Al Jazeera HD
@@ -3412,6 +3421,9 @@ eQtv
 p:Svoboda Satellite,f:1
 0069:00820000:2fa8:013e:22:0
 Svoboda+
+p:Svoboda Satellite,f:1
+0073:00820000:2fa8:013e:22:0
+Belsat TV
 p:Svoboda Satellite,f:1
 0001:00820000:2580:00d5:1:0
 bTV
@@ -5156,12 +5168,6 @@ p:Globecast Asia,f:1
 0001:00822d47:0001:0001:1:0
 NLEMG HOL270-1
 p:EMG Connectivity,f:1
-0320:00822d06:03eb:0001:1:0
-SERVICE IP/MAC NOTIFICATION
-p:MyIntProvider,f:1
-03eb:00822d06:03eb:0001:1:0
-dn1-sgb-HVS-3
-p:Telespazio,f:1
 7539:00820000:0001:00c8:1:0
 GCUK Enc 9
 p:GlobeCast UK,f:1
@@ -5192,6 +5198,15 @@ p:,f:1
 0001:00822a3f:0001:ff00:25:0
 IIHF2026 - FRI - VO TIP
 p:MobileLinks,f:1
+07d3:00822d06:03eb:0002:1:0
+dn2-sgp-HVS-3
+p:MyServiceProvider,f:1
+0320:00822d06:03eb:0002:1:0
+SERVICE IP/MAC NOTIFICATION
+p:MyIntProvider,f:1
+03eb:00822d06:03eb:0002:1:0
+dn1-sgb-HVS-3
+p:Telespazio,f:1
 0fa0:00300000:0006:0056:1:0
 TVN Chile Nordic
 p:SES ASTRA,f:1
