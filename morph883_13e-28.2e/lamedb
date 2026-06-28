@@ -471,9 +471,6 @@ transponders
 00820000:1770:00be
 	s 11919000:29900000:1:3:130:2:0:1:2:2:2
 /
-0082b138:0000:0000
-	s 12600000:7200000:1:3:130:2:0:1:2:0:2
-/
 0082b035:2008:fbff
 	s 12341000:29900000:1:3:130:2:0:1:2:0:2
 /
@@ -557,6 +554,9 @@ transponders
 /
 0082abb2:4321:00eb
 	s 11186000:7200000:1:3:130:2:0:1:1:0:2
+/
+00822d58:0000:0001
+	s 11608000:7200000:0:3:130:2:0:1:2:0:2
 /
 end
 services
@@ -3432,7 +3432,7 @@ p:,f:1
 
 p:,f:1
 0139:00820000:157c:013e:1:0
-ERT World Europe
+ERT Cosmos
 p:NOVA,f:1
 013a:00820000:157c:013e:1:0
 Nickelodeon
@@ -3771,7 +3771,7 @@ p:NOVA,f:1
 Attica TV
 p:NOVA,f:1
 3c8e:00820000:1bbc:013e:1:0
-Nova Stars HD
+Nova Summer HD
 p:NOVA,f:1
 3c93:00820000:1bbc:013e:1:0
 Cosmote Sport 7 HD
@@ -4311,7 +4311,7 @@ p:Cyfrowy Polsat S.A.,f:1
 TV Republika
 p:Cyfrowy Polsat S.A.,f:1
 428a:00820000:2bc0:013e:1:0
-Filmbox Arthouse
+Filmbox+ Festival Polska
 p:Cyfrowy Polsat SA,f:1
 428f:00820000:2bc0:013e:1:0
 4Fun Dance
@@ -5424,10 +5424,10 @@ p:NOVA,f:1
 P_TEST
 p:NOVA,f:1
 0191:00820000:1518:013e:1:0
-TEST_401
+MAD VIBES HD
 p:NOVA,f:1
 0192:00820000:1518:013e:1:0
-TEST_402
+MAD REWIND HD
 p:NOVA,f:1
 3b65:00820000:012c:013e:25:0
 Frisbee HD
@@ -5467,6 +5467,9 @@ Discovery Italy HD
 p:Warner Bros. Discovery,f:1
 3b6d:00820000:012c:013e:25:0
 CNNi EMEA HD
+p:Warner Bros. Discovery,f:1
+3b6e:00820000:012c:013e:25:0
+Discovery Italy HD
 p:Warner Bros. Discovery,f:1
 0bea:00820000:20d0:013e:17:0
 Insight TV UHD
@@ -5820,7 +5823,7 @@ p:VIVACOM,f:1
 Cartoon network
 p:VIVACOM,f:1
 00ca:00820000:25e4:00d5:22:0
-FilmBox Stars
+Filmbox+ Love & Crime
 p:VIVACOM,f:1
 00cb:00820000:25e4:00d5:22:0
 Food Network
@@ -6162,7 +6165,7 @@ p:VIVACOM,f:1
 BG Music Channel
 p:VIVACOM,f:1
 139d:00820000:2710:00d5:1:18
-The World
+BBC Earth
 p:VIVACOM,f:1
 139e:00820000:2710:00d5:1:19
 Travel TV
@@ -6180,10 +6183,10 @@ p:VIVACOM,f:1
 Wness TV
 p:VIVACOM,f:1
 13a4:00820000:2710:00d5:1:24
-Filmbox Extra
+Filmbox+ Emotion
 p:VIVACOM,f:1
 13a5:00820000:2710:00d5:1:25
-Filmbox Arthouse
+Love Nature
 p:VIVACOM,f:1
 13a6:00820000:2710:00d5:1:26
 Antena 3
@@ -6192,10 +6195,10 @@ p:VIVACOM,f:1
 Private TV
 p:VIVACOM,f:1
 13a9:00820000:2710:00d5:1:28
-Filmbox
+Filmbox+ One
 p:VIVACOM,f:1
 13aa:00820000:2710:00d5:1:29
-TV 5 Monde
+TV 21
 p:VIVACOM,f:1
 13ab:00820000:2710:00d5:1:30
 RTL
@@ -6225,7 +6228,7 @@ p:VIVACOM,f:1
 Discovery Channel
 p:VIVACOM,f:1
 13b4:00820000:2710:00d5:1:39
-Soul & Pepper TV
+Mate Kitchen
 p:VIVACOM,f:1
 13b5:00820000:2710:00d5:22:0
 Daystar
@@ -6453,25 +6456,25 @@ p:CANAL+,f:1
 Kino Polska Muzyka
 p:CANAL+,f:1
 3786:00822c93:044c:013e:1:0
-FilmBox Action
+Filmbox+ Action Polska
 p:CANAL+,f:1
 3787:00822c93:044c:013e:1:0
-FilmBox Extra HD
+Filmbox+ Emotion Polska
 p:CANAL+,f:1
 3788:00822c93:044c:013e:1:0
-FilmBox Family
+Filmbox+ Comedy Polska
 p:CANAL+,f:1
 3789:00822c93:044c:013e:1:0
-FilmBox Premium HD
+Filmbox+ Hits Polska
 p:CANAL+,f:1
 378a:00822c93:044c:013e:1:0
-Kino TV HD
+Filmbox+ One Polska
 p:CANAL+,f:1
 37b6:00822c93:044c:013e:1:0
 KINO POLSKA HD
 p:CANAL+,f:1
 37bc:00822c93:044c:013e:1:0
-Kino TV HD
+FILMBOX+ one
 p:CANAL+,f:1
 4526:00820000:1db0:013e:12:0
 DVB-NIP IBC
@@ -7146,7 +7149,7 @@ p:KABELIO.CH,f:1
 Kabelio Sat1 Gold CH
 p:KABELIO.CH,f:1
 008b:00820000:1644:013e:1:0
-Kabelio TEST
+Kabelio Vantage TV
 p:KABELIO.CH,f:1
 0064:00820000:1644:013e:25:0
 Kabelio 3+
@@ -7484,6 +7487,9 @@ p:EUROVISION,f:1
 0001:0082abb2:4321:00eb:25:0
 Fi12_GNVE
 p:EBUER,f:1
+0001:00822d58:0000:0001:25:0
+SLQ 008 M
+p:ONmedia,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2026
