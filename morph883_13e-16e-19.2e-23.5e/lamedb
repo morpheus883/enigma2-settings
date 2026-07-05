@@ -747,6 +747,9 @@ transponders
 00a02adc:a1a2:0000
 	s 10972000:376000:0:7:160:2:0:1:1:0:2
 /
+00a0b170:0001:ffff
+	s 12656000:7200000:1:3:160:2:0:1:2:0:2
+/
 00820000:2e18:00b0
 	s 10873000:27500000:1:3:130:2:0:1:2:0:2
 /
@@ -1050,6 +1053,18 @@ transponders
 00822d58:0000:0001
 	s 11608000:7200000:0:3:130:2:0:1:2:0:2
 /
+0082ad59:0001:0001
+	s 11609000:7200000:1:3:130:2:0:1:2:0:2
+/
+0082abb1:0001:ffff
+	s 11185000:7200000:1:3:130:2:0:1:2:0:2
+/
+00822bd3:03e8:0001
+	s 11219000:33000000:0:2:130:2:0:1:2:0:2:1:0:1
+/
+0082abcd:0001:ff00
+	s 11213000:7200000:1:3:130:2:0:1:2:0:2
+/
 end
 services
 17d7:00eb0000:0c91:0003:25:0
@@ -1133,6 +1148,9 @@ p:Media Broadcast
 14a2:00eb0000:0c98:0003:1:0
 LX9SES
 p:SES ASTRA,f:1
+14a6:00eb0000:0c98:0003:1:0
+SBN International
+p:,f:1
 1427:00eb0000:0ca2:0003:2:0
 VLNA ZS
 p:Towercom
@@ -1375,6 +1393,9 @@ RTL Ketto
 p:M7 Group,f:1
 52a1:00eb0000:0c99:0003:22:0
 Sorozat+
+p:M7 Group,f:1
+52b1:00eb0000:0c99:0003:22:0
+Story 4
 p:M7 Group,f:1
 17e0:00eb0000:0c82:0003:1:0
 CD Infokanaal
@@ -4292,6 +4313,9 @@ p:SKY,f:1
 0120:00c00000:000c:0085:25:0
 Fussball.TV 2
 p:SKY,f:1
+07eb:00c00000:000c:0085:25:0
+AXN Black
+p:,f:1
 23ba:00c00000:044a:0001:192:0
 DOWNLOAD G5 SAMSUNG
 p:CSAT
@@ -4508,6 +4532,9 @@ p:SKY,f:1
 0084:00c00000:000b:0085:25:0
 DAZN 1 HD
 p:SKY,f:1
+07ec:00c00000:000b:0085:25:0
+AXN White
+p:,f:1
 6e92:00c00000:04b1:0001:1:0
 Astra Demo
 p:,f:1
@@ -9506,6 +9533,9 @@ p:BP-TNZ
 02a2:00a02adc:a1a2:0000:2:0
 Radio 10
 p:BP-TNZ
+0001:00a0b170:0001:ffff:1:0
+JOR021/MAIN
+p:Service Provider,f:1
 0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
 p:SNRT,f:1
@@ -9959,6 +9989,9 @@ p:Telespazio,f:1
 1326:00820000:33f4:013e:1:0
 CNBC HD
 p:Telespazio,f:1
+1360:00820000:33f4:013e:2:0
+RDS Relax
+p:Telespazio
 32de:00820000:0190:013e:1:0
 Canal+ Sport HD Polska
 p:Cyfra +,f:1
@@ -11906,7 +11939,7 @@ p:Itep Pictures,f:1
 0216:00820000:0384:013e:25:0
 Bloomberg TV HD
 p:,f:1
-01fc:00820000:0384:013e:1:0
+01fc:00820000:0384:013e:25:0
 Kurdistan 24 HD
 p:,f:1
 0641:00820000:2454:013e:25:0
@@ -14183,9 +14216,6 @@ p:NOVA,f:1
 0276:0082b082:2774:013e:1:12
 Cobalt Data
 p:NOVA,f:1
-0001:0082ad59:0005:ffff:25:0
-BWF Malaysia Masters WF-A C1 BISS-1
-p:Globecast Asia,f:1
 0001:00822d47:0001:0001:1:0
 NLEMG HOL270-1
 p:EMG Connectivity,f:1
@@ -14351,12 +14381,18 @@ p:Globecast Asia,f:1
 0001:00822d62:0001:ffff:1:0
 TUR 034 / MAIN
 p:EUROVISION,f:1
-0001:0082abb2:4321:00eb:25:0
-Fi12_GNVE
-p:EBUER,f:1
 0001:00822d58:0000:0001:25:0
 SLQ 008 M
 p:ONmedia,f:1
+0001:0082ad59:0001:0001:1:0
+ANA-1
+p:Net 1,f:1
+0001:0082abb1:0001:ffff:1:0
+EST-010 ENC1 FIBA
+p:WorldFeed OU,f:1
+0001:0082abcd:0001:ff00:25:0
+SWE-054 MAIN
+p:Mobilelinks,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2026

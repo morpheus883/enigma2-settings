@@ -312,6 +312,18 @@ transponders
 00822d58:0000:0001
 	s 11608000:7200000:0:3:130:2:0:1:2:0:2
 /
+0082ad59:0001:0001
+	s 11609000:7200000:1:3:130:2:0:1:2:0:2
+/
+0082abb1:0001:ffff
+	s 11185000:7200000:1:3:130:2:0:1:2:0:2
+/
+00822bd3:03e8:0001
+	s 11219000:33000000:0:2:130:2:0:1:2:0:2:1:0:1
+/
+0082abcd:0001:ff00
+	s 11213000:7200000:1:3:130:2:0:1:2:0:2
+/
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
 /
@@ -528,9 +540,6 @@ fff8acc4:0001:0001
 0e080000:0023:0046
 	s 11372000:25000000:1:3:-8:2:0:1:2:1:2
 /
-fff8306f:004b:0046
-	s 12399000:30000000:0:2:-8:2:0:1:2:1:2
-/
 0e080000:0055:0046
 	s 12322000:30000000:0:3:-8:2:0:1:2:1:2
 /
@@ -539,9 +548,6 @@ fff8306f:004b:0046
 /
 0e080000:0045:0046
 	s 10903000:25000000:1:3:-8:2:0:1:2:1:2
-/
-0e080000:0054:0046
-	s 12360000:30000000:0:3:-8:2:0:1:2:1:2
 /
 0e082b6e:0001:0000
 	s 11118000:1000000:0:1:-8:2:0:1:1:0:2
@@ -570,9 +576,6 @@ fff830bc:0050:0046
 0e08acc7:0001:ffff
 	s 11463000:7500000:1:3:-8:2:0:1:2:0:2
 /
-fff82a97:0030:0000
-	s 10903000:25000000:0:3:-8:2:0:1:2:1:2
-/
 fff83048:0046:0046
 	s 12360000:30000000:0:3:-8:2:0:1:2:1:2
 /
@@ -581,6 +584,12 @@ fff83095:003e:0046
 /
 fff8306f:0043:0046
 	s 12399000:30000000:0:2:-8:2:0:1:2:1:2
+/
+fff8ae43:0045:0046
+	s 11843000:30000000:1:3:-8:2:0:1:2:0:2
+/
+fff82f3c:0007:0001
+	s 12092000:28000000:0:5:-8:2:0
 /
 end
 services
@@ -1109,6 +1118,9 @@ p:Telespazio,f:1
 1326:00820000:33f4:013e:1:0
 CNBC HD
 p:Telespazio,f:1
+1360:00820000:33f4:013e:2:0
+RDS Relax
+p:Telespazio
 32de:00820000:0190:013e:1:0
 Canal+ Sport HD Polska
 p:Cyfra +,f:1
@@ -3056,7 +3068,7 @@ p:Itep Pictures,f:1
 0216:00820000:0384:013e:25:0
 Bloomberg TV HD
 p:,f:1
-01fc:00820000:0384:013e:1:0
+01fc:00820000:0384:013e:25:0
 Kurdistan 24 HD
 p:,f:1
 0641:00820000:2454:013e:25:0
@@ -5333,9 +5345,6 @@ p:NOVA,f:1
 0276:0082b082:2774:013e:1:12
 Cobalt Data
 p:NOVA,f:1
-0001:0082ad59:0005:ffff:25:0
-BWF Malaysia Masters WF-A C1 BISS-1
-p:Globecast Asia,f:1
 0001:00822d47:0001:0001:1:0
 NLEMG HOL270-1
 p:EMG Connectivity,f:1
@@ -5501,12 +5510,18 @@ p:Globecast Asia,f:1
 0001:00822d62:0001:ffff:1:0
 TUR 034 / MAIN
 p:EUROVISION,f:1
-0001:0082abb2:4321:00eb:25:0
-Fi12_GNVE
-p:EBUER,f:1
 0001:00822d58:0000:0001:25:0
 SLQ 008 M
 p:ONmedia,f:1
+0001:0082ad59:0001:0001:1:0
+ANA-1
+p:Net 1,f:1
+0001:0082abb1:0001:ffff:1:0
+EST-010 ENC1 FIBA
+p:WorldFeed OU,f:1
+0001:0082abcd:0001:ff00:25:0
+SWE-054 MAIN
+p:Mobilelinks,f:1
 0fa0:00300000:0006:0056:1:0
 TVN Chile Nordic
 p:SES ASTRA,f:1
@@ -9482,6 +9497,108 @@ p:Telenor,f:1
 1bf8:fff8306f:0043:0046:25:0
 Kanal 9 HD
 p:Telenor,f:1
+2f44:fff8ae43:0045:0046:12:0
+OnePlace Bootload
+p:Telenor
+1d08:fff8ae43:0045:0046:25:0
+TV3+ HD (N)
+p:Telenor,f:1
+4426:fff8ae43:0045:0046:25:0
+TV3 HD (S)
+p:Telenor,f:1
+114d:fff8ae43:0045:0046:25:0
+V Sport Motor HD
+p:Telenor,f:1
+1e4e:fff8ae43:0045:0046:25:0
+V Sport Extra HD
+p:Telenor,f:1
+115e:fff8ae43:0045:0046:25:0
+TV3 HD (S)
+p:Telenor,f:1
+1b75:fff8ae43:0045:0046:25:0
+TV8 HD
+p:Telenor,f:1
+1b77:fff8ae43:0045:0046:25:0
+TV10 HD
+p:Telenor,f:1
+4285:fff8ae43:0045:0046:25:0
+TV8 HD
+p:Telenor,f:1
+4699:fff8ae43:0045:0046:25:0
+TV3 Text hörselskadade
+p:Telenor,f:1
+1cd8:fff8ae43:0045:0046:25:0
+V Sport Premium HD (S)
+p:Telenor,f:1
+42eb:fff8ae43:0045:0046:25:0
+TV10 HD
+p:Telenor,f:1
+040a:fff82f3c:0007:0001:1:0
+Hora TV
+p:DIGI,f:1
+0c1c:fff82f3c:0007:0001:1:0
+SuperOne
+p:DIGI,f:1
+0c26:fff82f3c:0007:0001:1:0
+Pro TV International
+p:DIGI,f:1
+0b50:fff82f3c:0007:0001:1:0
+Romania TV
+p:DigiTV,f:1
+0b54:fff82f3c:0007:0001:1:0
+Pro TV
+p:DigiTV,f:1
+1770:fff82f3c:0007:0001:1:0
+Film Now
+p:DigiTV,f:1
+177a:fff82f3c:0007:0001:1:0
+DIGI Animal World
+p:DigiTV,f:1
+0582:fff82f3c:0007:0001:1:0
+Acasá TV
+p:DIGI,f:1
+0b86:fff82f3c:0007:0001:1:0
+Kanal D RO
+p:DigiTV,f:1
+0b87:fff82f3c:0007:0001:1:0
+Diva Universal Romania
+p:DigiTV,f:1
+058c:fff82f3c:0007:0001:1:0
+ACasá Gold
+p:DIGI,f:1
+0492:fff82f3c:0007:0001:1:0
+Pro Cinema
+p:DigiTV,f:1
+05a0:fff82f3c:0007:0001:1:0
+Cartoon Network Eastern Europe
+p:DIGI,f:1
+03ec:fff82f3c:0007:0001:1:0
+B1 TV
+p:DIGI,f:1
+03f5:fff82f3c:0007:0001:1:0
+Digi Sport 1 RO-HU
+p:DigiTV,f:1
+03f6:fff82f3c:0007:0001:1:0
+Digi 24
+p:DigiTV,f:1
+09d8:fff82f3c:0007:0001:2:0
+Kiss FM
+p:DIGI
+04e2:fff82f3c:0007:0001:2:0
+Radio Vocea Sperantei
+p:DIGI
+1f13:fff82f3c:0007:0001:6:0
+SWDL NA9240
+p:DigiTV
+1f50:fff82f3c:0007:0001:6:0
+SW DL Digi+2
+p:DigiTV
+029d:fff82f3c:0007:0001:6:0
+HDT1169
+p:DigiTV
+1f0a:fff82f3c:0007:0001:12:0
+SW DL JS21
+p:DIGI
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2026
