@@ -945,6 +945,9 @@ transponders
 01a4ac79:4e85:002a
 	s 11385000:30000000:1:3:420:2:0:1:2:0:2
 /
+01a4aad6:0001:ffff
+	s 10966000:7500000:1:3:420:2:0:1:2:0:2
+/
 01902cf6:0001:ffff
 	s 11510000:4444000:0:3:400:2:0:1:2:0:2
 /
@@ -2280,6 +2283,9 @@ transponders
 00ebb1c2:0001:ffff
 	s 12738000:7200000:1:3:235:2:0:1:2:0:0
 /
+00eb0000:0c97:0003
+	s 12149000:30000000:0:2:235:2:0:1:2:0:2
+/
 00d80000:0005:0001
 	s 11678000:2850000:1:5:216:2:0
 /
@@ -3465,6 +3471,9 @@ transponders
 00820000:0070:006f
 	s 11600000:7200000:0:3:130:2:0:1:2:0:2
 /
+00823187:0006:ffff
+	s 12679000:7200000:0:3:130:2:0:1:2:0:2
+/
 006430da:0000:0000
 	s 12506000:255000:0:1:100:2:0
 /
@@ -4220,6 +4229,12 @@ transponders
 /
 0046b1c5:0000:0000
 	s 12741000:7200000:1:3:70:2:0:1:2:0:0
+/
+0046adae:1000:2000
+	s 11694000:3333000:1:4:70:2:0:1:2:0:2
+/
+0046aae2:4321:00eb
+	s 10978000:7200000:1:3:70:2:0:1:2:0:2
 /
 00300000:0006:0056
 	s 11996000:27500000:0:3:48:2:0
@@ -6914,9 +6929,6 @@ p:Intelsat,f:1
 0004:02ad0000:0022:0014:1:0
 GFN Soccer
 p:ViewMedia,f:1
-0002:02ad0000:0022:0014:1:0
-Sunnah TV
-p:ViewMedia,f:1
 0005:02ad0000:0022:0014:1:0
 Saira Movies TV
 p:ViewMedia,f:1
@@ -6929,6 +6941,9 @@ p:ViewMedia,f:1
 0008:02ad0000:0022:0014:1:0
 MTA 4 Africa - Swahili
 p:ViewMedia,f:1
+0002:02ad0000:0022:0014:2:0
+Biafra Radio
+p:ViewMedia
 010f:02ad0000:0002:0049:1:0
 Impact Voice Network
 p:Sentech,f:1
@@ -7828,6 +7843,9 @@ Zagros 24
 p:MENASAT,f:1
 000c:02120000:01f4:03e8:22:0
 Hagere Hamasien TV
+p:MENASAT,f:1
+0015:02120000:01f4:03e8:25:0
+IITV
 p:MENASAT,f:1
 0001:0212b187:0001:ffff:1:0
 Rojava HD
@@ -9013,6 +9031,9 @@ Iran Intl Radio
 p:WNS
 0005:02080000:194e:194e:1:0
 Moj TV
+p:WNS,f:1
+002b:02080000:194e:194e:1:0
+Payam TV
 p:WNS,f:1
 0001:02082aae:0028:0001:1:0
 Uzbekiston
@@ -10902,7 +10923,7 @@ p:DEMIROREN MEDYA,f:1
 iKANALDTrigger
 p:,f:1
 06ac:01a40000:0007:0042:25:0
-NBA TV HD
+Cosmo EN
 p:D-Smart,f:1
 06ad:01a40000:0007:0042:25:0
 Çocuk Smart HD
@@ -11052,11 +11073,8 @@ c8e1:01a40000:a411:042e:17:0
 Sıfır TV
 p:D-Smart,f:1
 3200:01a40000:a413:042e:1:0
-FOX Türkiye
-p:FOX,f:1
-320a:01a40000:a413:042e:2:0
-FIFB
-p:FOX NETWORKS GROUP
+Now
+p:,f:1
 3264:01a40000:a414:042e:1:0
 TV 8 Turkey
 p:MNG TV,f:1
@@ -11067,7 +11085,7 @@ p:MNG TV,f:1
 TV8Ifb
 p:TV8
 319c:01a40000:a412:042e:1:0
-FOX Türkiye HD
+Now
 p:,f:1
 00ac:01a40000:0009:0042:130:0
 iDIZIPREMIUMHDTrigger
@@ -11396,6 +11414,9 @@ p:DEMIROREN MEDYA,f:1
 0775:01a40000:0009:0042:25:0
 TRT 1 HD
 p:DEMIROREN MEDYA,f:1
+07bd:01a40000:0009:0042:25:0
+Smart Spor 2 HD
+p:DEMIROREN MEDYA,f:1
 3748:01a40000:4e85:002a:129:0
 IRDETO-T
 p:Digital Platform
@@ -11483,6 +11504,18 @@ p:TURK MEDYA,f:1
 413e:01a40000:a2e7:042e:1:0
 TV 4 Turkey HD
 p:TURK MEDYA,f:1
+413f:01a40000:a2e7:042e:2:0
+ALEM FM
+p:TURKMEDYA
+4140:01a40000:a2e7:042e:2:0
+LIG RADYO
+p:TURKMEDYA
+4141:01a40000:a2e7:042e:2:0
+24 RADYO
+p:TURKMEDYA
+4142:01a40000:a2e7:042e:2:0
+TEKKOR
+p:TURKMEDYA
 4011:01a40000:9e38:042e:1:0
 A Para HD
 p:TURKUVAZ,f:1
@@ -11616,7 +11649,7 @@ p:TTNET,f:1
 Sinema Yerli 2 HD
 p:TTNET,f:1
 3b00:01a40000:a98a:042e:25:0
-EDGE SPORT HD
+W-Sport HD
 p:TTNET,f:1
 3b1b:01a40000:a98a:042e:25:0
 Tivibu Spor 3 HD
@@ -11625,7 +11658,7 @@ p:TTNET,f:1
 Tivibu Spor 3 HD Ticari
 p:TTNET,f:1
 3afe:01a40000:a98a:042e:25:0
-BBC FIRST HD
+Viasat Epic Drama
 p:TTNET,f:1
 3b14:01a40000:a98a:042e:1:0
 RADYO 90LAR
@@ -11694,7 +11727,7 @@ p:TTNET,f:1
 RADYO YABANCI SLOW
 p:TTNET,f:1
 3aff:01a40000:a98a:042e:25:0
-TİVİBU HD
+Tivibu Spor 4 HD
 p:TTNET,c:050001,f:1
 3b1d:01a40000:a98a:042e:25:0
 Tarih TV HD
@@ -11706,7 +11739,7 @@ p:TTNET,f:1
 FX HD
 p:TTNET,c:050001,f:1
 3b20:01a40000:a98a:042e:25:0
-Viasat History HD
+Nickelodeon HD
 p:TTNET,c:050001,f:1
 2a37:01a40000:9e99:042e:2:0
 NTV RADYO (Turkey B.)
@@ -11865,7 +11898,7 @@ p:TTNET,f:1
 ID HD
 p:TTNET,f:1
 3e84:01a40000:a8c3:042e:25:0
-Epic Drama
+BBC First
 p:TTNET,f:1
 3e90:01a40000:a8c3:042e:25:0
 Disney Junior
@@ -13016,9 +13049,6 @@ p:,f:1
 0001:01a4ad4b:0001:ffff:1:0
 TUR25 A / ANTEP
 p:Service Provider,f:1
-0001:01a4aad5:0000:0000:25:0
-beIN SNG 2 Main
-p:beINSports,f:1
 0001:01a4aae9:0000:0000:25:0
 beINSPORTS TURKEY 3
 p:beINTURKEY,f:1
@@ -13166,6 +13196,9 @@ p:Digital Platform
 375b:01a4ac79:4e85:002a:129:0
 SSU_TSAT_4
 p:Digital Platform
+0001:01a4aad6:0001:ffff:1:0
+tur 141 a
+p:TRT,f:1
 0001:01902cf6:0001:ffff:1:0
 TANDBERG
 p:TANDBERG Television,f:1
@@ -17534,6 +17567,9 @@ p:BSkyB,f:1
 154d:011a0000:07f2:0002:130:0
 Sports Active
 p:BSkyB,f:1
+1acd:011a0000:07f2:0002:25:0
+Cúla4 HD
+p:BSkyB,f:1
 22c5:011a0000:080d:0002:25:0
 BBC One Scotland HD
 p:BSkyB,f:1
@@ -17873,17 +17909,11 @@ p:BSkyB,f:1
 0449:011a0000:07d3:0002:25:0
 TNT Sports Box Office 2 HD
 p:BSkyB,f:1
-145e:011a0000:07d3:0002:25:0
-Sky Crime Ireland HD
-p:BSkyB,f:1
 106f:011a0000:07d3:0002:25:0
 Sky Sports Golf Ireland HD
 p:BSkyB,f:1
 108a:011a0000:07d3:0002:25:0
 SkySp Golf HD
-p:BSkyB,f:1
-16e5:011a0000:07d3:0002:25:0
-Cúla4 HD
 p:BSkyB,f:1
 17a0:011a0000:07d3:0002:25:0
 HDTest2
@@ -18193,6 +18223,9 @@ Disney Jr HD
 p:BSkyB,f:1
 1518:011a0000:07e9:0002:25:0
 Sky One HD
+p:BSkyB,f:1
+1394:011a0000:07e9:0002:25:0
+Sky Crime Ireland HD
 p:BSkyB,f:1
 1b1c:011a0000:0802:0002:25:0
 BBC Two HD
@@ -24710,6 +24743,54 @@ p:NULL,f:1
 0001:00ebb1c2:0001:ffff:1:0
 MMG Ce-1 Enc1
 p:NULL,f:1
+18a4:00eb0000:0c97:0003:1:0
+Test 8
+p:,f:1
+18a5:00eb0000:0c97:0003:1:0
+Test 9
+p:,f:1
+18a6:00eb0000:0c97:0003:1:0
+Test 10
+p:,f:1
+18a7:00eb0000:0c97:0003:1:0
+Test 11
+p:,f:1
+18a8:00eb0000:0c97:0003:1:0
+Test 12
+p:,f:1
+189d:00eb0000:0c97:0003:22:0
+Test 1
+p:,f:1
+189e:00eb0000:0c97:0003:22:0
+Test 2
+p:,f:1
+189f:00eb0000:0c97:0003:22:0
+Test 3
+p:,f:1
+18a1:00eb0000:0c97:0003:22:0
+Test 5
+p:,f:1
+18a2:00eb0000:0c97:0003:22:0
+Test 6
+p:,f:1
+18a3:00eb0000:0c97:0003:22:0
+Test 7
+p:,f:1
+18ab:00eb0000:0c97:0003:22:0
+Test 15
+p:,f:1
+18ac:00eb0000:0c97:0003:22:0
+Test 16
+p:,f:1
+18a0:00eb0000:0c97:0003:25:0
+Test 4
+p:,f:1
+18a9:00eb0000:0c97:0003:25:0
+Test 13
+p:,f:1
+18aa:00eb0000:0c97:0003:25:0
+Test 14
+p:,f:1
 0001:00d80000:0005:0001:1:0
 Alarabiy Alhadath
 p:Samacom,f:1
@@ -25939,13 +26020,13 @@ Arirang HD
 p:GLOBECAST,f:1
 14b4:00c00000:0407:0001:25:0
 Sat 1 HD Austria
-p:Austriasat,f:1
+p:ProSiebenSat.1,f:1
 14b5:00c00000:0407:0001:25:0
 ProSieben HD Austria
-p:Austriasat,f:1
+p:ProSiebenSat.1,f:1
 14b7:00c00000:0407:0001:25:0
 Puls 4 HD Austria
-p:Austriasat,f:1
+p:ProSiebenSat.1,f:1
 14be:00c00000:0407:0001:1:0
 SAT.1 Gold Österreich
 p:ProSiebenSat.1,f:1
@@ -26728,7 +26809,7 @@ SAT 1 Gold
 p:ProSiebenSat.1,f:1
 4461:00c00000:0453:0001:1:0
 ProSieben MAXX
-p:Austriasat,f:1
+p:ProSiebenSat.1,f:1
 4463:00c00000:0453:0001:1:0
 SAT.1 Bayern
 p:ProSiebenSat.1,f:1
@@ -29990,6 +30071,9 @@ p:
 06df:00a00000:c544:016e:1:0
 Arena Premium 5
 p:Total TV,f:1
+06ee:00a00000:c544:016e:1:0
+24Kitchen HD
+p:Total TV,f:1
 025b:00a00000:c418:016e:25:0
 ID Xtra HD
 p:Test,f:1
@@ -32241,7 +32325,7 @@ p:CANAL+,f:1
 AMC HD Polska
 p:CANAL+,f:1
 3ab9:00820000:0514:013e:1:0
-Canal+ Sport 5 HD
+Canal+ Sport 5 HD Polska
 p:CANAL+,f:1
 3abd:00820000:0514:013e:1:0
 TVP 1 HD
@@ -32341,6 +32425,15 @@ Canal+ Sport 2 HD
 p:CANAL+,f:1
 3ae2:00820000:0514:013e:1:0
 CANAL+ SPORT 2 HD
+p:CANAL+,f:1
+3aa6:00820000:0514:013e:1:0
+Canal+ Sport 6 HD Polska
+p:CANAL+,f:1
+3ad8:00820000:0514:013e:1:0
+CANAL+ SPORT 6
+p:CANAL+,f:1
+3aec:00820000:0514:013e:1:0
+CANAL+ SPORT 6
 p:CANAL+,f:1
 4224:00820000:3db8:013e:1:0
 Redlight HD
@@ -34067,6 +34160,12 @@ p:,f:1
 0045:00820000:1964:013e:1:0
 Nicktoons HD
 p:Cyfrowy Polsat S.A.,f:1
+003d:00820000:1964:013e:25:0
+650061
+p:Cyfrowy Polsat S.A.,f:1
+003e:00820000:1964:013e:25:0
+650062
+p:Cyfrowy Polsat S.A.,f:1
 01f5:00820000:0384:013e:1:0
 Iran International HD
 p:ABS,f:1
@@ -34195,6 +34294,9 @@ Polsat Sport Premium 2
 p:Cyfrowy Polsat S.A.,f:1
 070f:00820000:32c8:013e:31:0
 Eleven Sports 1 4K
+p:Cyfrowy Polsat S.A.,f:1
+0711:00820000:32c8:013e:25:0
+1809
 p:Cyfrowy Polsat S.A.,f:1
 030f:00820000:1f40:013e:25:0
 Telesur HD
@@ -36659,6 +36761,9 @@ p:Eurovision Services,f:1
 0001:00820000:0070:006f:25:0
 F563/1/TDFF PRIV FTV
 p:GLOBECAST,f:1
+0001:00823187:0006:ffff:25:0
+P6 FEED1 M
+p:SES,f:1
 0001:006430da:0000:0000:2:0
 Radio Maria Vatican
 p:
@@ -37445,6 +37550,9 @@ p:OTE,f:1
 044f:005a0000:0004:00aa:1:0
 NovaSports 4 HD
 p:OTE,f:1
+0420:005a0000:0004:00aa:1:0
+TEST 11
+p:OTE,f:1
 03ec:005a0000:0005:00aa:1:0
 Sirina TV HD
 p:OTE,f:1
@@ -37616,6 +37724,9 @@ p:ΟΤΕ,f:1
 045c:005a0000:0007:00aa:1:0
 Center TV
 p:ΟΤΕ,C:0000,f:1
+045e:005a0000:0007:00aa:1:0
+TEST 13
+p:ΟΤΕ,f:1
 03f5:005a0000:0001:00aa:1:0
 iConcerts HD
 p:OTE,f:1
@@ -39398,9 +39509,6 @@ p:SpeedyAUT34/1,f:1
 0001:00462b48:0001:ffff:1:0
 Fi09 GBIV
 p:Eurovision,f:1
-0001:0046aae2:0000:0000:25:0
-Studiosat HD F2
-p:Studiosat,f:1
 0001:0046acf6:0000:0001:25:0
 TUR-143A
 p:,f:1
@@ -40178,6 +40286,12 @@ p:NEP Connect,f:1
 0001:0046b1c5:0000:0000:25:0
 SNG2A
 p:TANDBERG Television,f:1
+0001:0046adae:1000:2000:1:0
+First_service
+p:Harmonic,f:1
+0001:0046aae2:4321:00eb:1:0
+FRESHCORNER CUP
+p:,f:1
 0fa0:00300000:0006:0056:1:0
 TVN Chile Nordic
 p:SES ASTRA,f:1
@@ -40853,6 +40967,12 @@ p:,f:1
 19be:00300000:107b:0055:22:0
 TEST5
 p:SLM,f:1
+0320:00300000:107b:0055:12:0
+MX
+p:SES
+0321:00300000:107b:0055:12:0
+Service 801
+p:SES
 0001:0030b10a:0000:0000:25:0
 beIN SNG 2 Main
 p:mpt,f:1

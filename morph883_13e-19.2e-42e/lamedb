@@ -402,6 +402,9 @@ transponders
 01a4ac79:4e85:002a
 	s 11385000:30000000:1:3:420:2:0:1:2:0:2
 /
+01a4aad6:0001:ffff
+	s 10966000:7500000:1:3:420:2:0:1:2:0:2
+/
 00c00000:041d:0001
 	s 10773000:22000000:0:3:192:2:0:1:2:0:2
 /
@@ -1061,6 +1064,9 @@ transponders
 /
 00820000:0070:006f
 	s 11600000:7200000:0:3:130:2:0:1:2:0:2
+/
+00823187:0006:ffff
+	s 12679000:7200000:0:3:130:2:0:1:2:0:2
 /
 end
 services
@@ -1746,7 +1752,7 @@ p:DEMIROREN MEDYA,f:1
 iKANALDTrigger
 p:,f:1
 06ac:01a40000:0007:0042:25:0
-NBA TV HD
+Cosmo EN
 p:D-Smart,f:1
 06ad:01a40000:0007:0042:25:0
 Çocuk Smart HD
@@ -1896,11 +1902,8 @@ c8e1:01a40000:a411:042e:17:0
 Sıfır TV
 p:D-Smart,f:1
 3200:01a40000:a413:042e:1:0
-FOX Türkiye
-p:FOX,f:1
-320a:01a40000:a413:042e:2:0
-FIFB
-p:FOX NETWORKS GROUP
+Now
+p:,f:1
 3264:01a40000:a414:042e:1:0
 TV 8 Turkey
 p:MNG TV,f:1
@@ -1911,7 +1914,7 @@ p:MNG TV,f:1
 TV8Ifb
 p:TV8
 319c:01a40000:a412:042e:1:0
-FOX Türkiye HD
+Now
 p:,f:1
 00ac:01a40000:0009:0042:130:0
 iDIZIPREMIUMHDTrigger
@@ -2240,6 +2243,9 @@ p:DEMIROREN MEDYA,f:1
 0775:01a40000:0009:0042:25:0
 TRT 1 HD
 p:DEMIROREN MEDYA,f:1
+07bd:01a40000:0009:0042:25:0
+Smart Spor 2 HD
+p:DEMIROREN MEDYA,f:1
 3748:01a40000:4e85:002a:129:0
 IRDETO-T
 p:Digital Platform
@@ -2327,6 +2333,18 @@ p:TURK MEDYA,f:1
 413e:01a40000:a2e7:042e:1:0
 TV 4 Turkey HD
 p:TURK MEDYA,f:1
+413f:01a40000:a2e7:042e:2:0
+ALEM FM
+p:TURKMEDYA
+4140:01a40000:a2e7:042e:2:0
+LIG RADYO
+p:TURKMEDYA
+4141:01a40000:a2e7:042e:2:0
+24 RADYO
+p:TURKMEDYA
+4142:01a40000:a2e7:042e:2:0
+TEKKOR
+p:TURKMEDYA
 4011:01a40000:9e38:042e:1:0
 A Para HD
 p:TURKUVAZ,f:1
@@ -2460,7 +2478,7 @@ p:TTNET,f:1
 Sinema Yerli 2 HD
 p:TTNET,f:1
 3b00:01a40000:a98a:042e:25:0
-EDGE SPORT HD
+W-Sport HD
 p:TTNET,f:1
 3b1b:01a40000:a98a:042e:25:0
 Tivibu Spor 3 HD
@@ -2469,7 +2487,7 @@ p:TTNET,f:1
 Tivibu Spor 3 HD Ticari
 p:TTNET,f:1
 3afe:01a40000:a98a:042e:25:0
-BBC FIRST HD
+Viasat Epic Drama
 p:TTNET,f:1
 3b14:01a40000:a98a:042e:1:0
 RADYO 90LAR
@@ -2538,7 +2556,7 @@ p:TTNET,f:1
 RADYO YABANCI SLOW
 p:TTNET,f:1
 3aff:01a40000:a98a:042e:25:0
-TİVİBU HD
+Tivibu Spor 4 HD
 p:TTNET,c:050001,f:1
 3b1d:01a40000:a98a:042e:25:0
 Tarih TV HD
@@ -2550,7 +2568,7 @@ p:TTNET,f:1
 FX HD
 p:TTNET,c:050001,f:1
 3b20:01a40000:a98a:042e:25:0
-Viasat History HD
+Nickelodeon HD
 p:TTNET,c:050001,f:1
 2a37:01a40000:9e99:042e:2:0
 NTV RADYO (Turkey B.)
@@ -2709,7 +2727,7 @@ p:TTNET,f:1
 ID HD
 p:TTNET,f:1
 3e84:01a40000:a8c3:042e:25:0
-Epic Drama
+BBC First
 p:TTNET,f:1
 3e90:01a40000:a8c3:042e:25:0
 Disney Junior
@@ -3860,9 +3878,6 @@ p:,f:1
 0001:01a4ad4b:0001:ffff:1:0
 TUR25 A / ANTEP
 p:Service Provider,f:1
-0001:01a4aad5:0000:0000:25:0
-beIN SNG 2 Main
-p:beINSports,f:1
 0001:01a4aae9:0000:0000:25:0
 beINSPORTS TURKEY 3
 p:beINTURKEY,f:1
@@ -4010,6 +4025,9 @@ p:Digital Platform
 375b:01a4ac79:4e85:002a:129:0
 SSU_TSAT_4
 p:Digital Platform
+0001:01a4aad6:0001:ffff:1:0
+tur 141 a
+p:TRT,f:1
 526c:00c00000:041d:0001:25:0
 Anixe HD
 p:BetaDigital,f:1
@@ -4732,13 +4750,13 @@ Arirang HD
 p:GLOBECAST,f:1
 14b4:00c00000:0407:0001:25:0
 Sat 1 HD Austria
-p:Austriasat,f:1
+p:ProSiebenSat.1,f:1
 14b5:00c00000:0407:0001:25:0
 ProSieben HD Austria
-p:Austriasat,f:1
+p:ProSiebenSat.1,f:1
 14b7:00c00000:0407:0001:25:0
 Puls 4 HD Austria
-p:Austriasat,f:1
+p:ProSiebenSat.1,f:1
 14be:00c00000:0407:0001:1:0
 SAT.1 Gold Österreich
 p:ProSiebenSat.1,f:1
@@ -5521,7 +5539,7 @@ SAT 1 Gold
 p:ProSiebenSat.1,f:1
 4461:00c00000:0453:0001:1:0
 ProSieben MAXX
-p:Austriasat,f:1
+p:ProSiebenSat.1,f:1
 4463:00c00000:0453:0001:1:0
 SAT.1 Bayern
 p:ProSiebenSat.1,f:1
@@ -8286,7 +8304,7 @@ p:CANAL+,f:1
 AMC HD Polska
 p:CANAL+,f:1
 3ab9:00820000:0514:013e:1:0
-Canal+ Sport 5 HD
+Canal+ Sport 5 HD Polska
 p:CANAL+,f:1
 3abd:00820000:0514:013e:1:0
 TVP 1 HD
@@ -8386,6 +8404,15 @@ Canal+ Sport 2 HD
 p:CANAL+,f:1
 3ae2:00820000:0514:013e:1:0
 CANAL+ SPORT 2 HD
+p:CANAL+,f:1
+3aa6:00820000:0514:013e:1:0
+Canal+ Sport 6 HD Polska
+p:CANAL+,f:1
+3ad8:00820000:0514:013e:1:0
+CANAL+ SPORT 6
+p:CANAL+,f:1
+3aec:00820000:0514:013e:1:0
+CANAL+ SPORT 6
 p:CANAL+,f:1
 4224:00820000:3db8:013e:1:0
 Redlight HD
@@ -10112,6 +10139,12 @@ p:,f:1
 0045:00820000:1964:013e:1:0
 Nicktoons HD
 p:Cyfrowy Polsat S.A.,f:1
+003d:00820000:1964:013e:25:0
+650061
+p:Cyfrowy Polsat S.A.,f:1
+003e:00820000:1964:013e:25:0
+650062
+p:Cyfrowy Polsat S.A.,f:1
 01f5:00820000:0384:013e:1:0
 Iran International HD
 p:ABS,f:1
@@ -10240,6 +10273,9 @@ Polsat Sport Premium 2
 p:Cyfrowy Polsat S.A.,f:1
 070f:00820000:32c8:013e:31:0
 Eleven Sports 1 4K
+p:Cyfrowy Polsat S.A.,f:1
+0711:00820000:32c8:013e:25:0
+1809
 p:Cyfrowy Polsat S.A.,f:1
 030f:00820000:1f40:013e:25:0
 Telesur HD
@@ -12704,6 +12740,9 @@ p:Eurovision Services,f:1
 0001:00820000:0070:006f:25:0
 F563/1/TDFF PRIV FTV
 p:GLOBECAST,f:1
+0001:00823187:0006:ffff:25:0
+P6 FEED1 M
+p:SES,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2026

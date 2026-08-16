@@ -930,6 +930,9 @@ transponders
 00820000:0070:006f
 	s 11600000:7200000:0:3:130:2:0:1:2:0:2
 /
+00823187:0006:ffff
+	s 12679000:7200000:0:3:130:2:0:1:2:0:2
+/
 end
 services
 5212:011a0000:083f:0002:25:0
@@ -1108,6 +1111,9 @@ Sky Sci-Fi HD
 p:BSkyB,f:1
 154d:011a0000:07f2:0002:130:0
 Sports Active
+p:BSkyB,f:1
+1acd:011a0000:07f2:0002:25:0
+Cúla4 HD
 p:BSkyB,f:1
 22c5:011a0000:080d:0002:25:0
 BBC One Scotland HD
@@ -1448,17 +1454,11 @@ p:BSkyB,f:1
 0449:011a0000:07d3:0002:25:0
 TNT Sports Box Office 2 HD
 p:BSkyB,f:1
-145e:011a0000:07d3:0002:25:0
-Sky Crime Ireland HD
-p:BSkyB,f:1
 106f:011a0000:07d3:0002:25:0
 Sky Sports Golf Ireland HD
 p:BSkyB,f:1
 108a:011a0000:07d3:0002:25:0
 SkySp Golf HD
-p:BSkyB,f:1
-16e5:011a0000:07d3:0002:25:0
-Cúla4 HD
 p:BSkyB,f:1
 17a0:011a0000:07d3:0002:25:0
 HDTest2
@@ -1768,6 +1768,9 @@ Disney Jr HD
 p:BSkyB,f:1
 1518:011a0000:07e9:0002:25:0
 Sky One HD
+p:BSkyB,f:1
+1394:011a0000:07e9:0002:25:0
+Sky Crime Ireland HD
 p:BSkyB,f:1
 1b1c:011a0000:0802:0002:25:0
 BBC Two HD
@@ -3763,13 +3766,13 @@ Arirang HD
 p:GLOBECAST,f:1
 14b4:00c00000:0407:0001:25:0
 Sat 1 HD Austria
-p:Austriasat,f:1
+p:ProSiebenSat.1,f:1
 14b5:00c00000:0407:0001:25:0
 ProSieben HD Austria
-p:Austriasat,f:1
+p:ProSiebenSat.1,f:1
 14b7:00c00000:0407:0001:25:0
 Puls 4 HD Austria
-p:Austriasat,f:1
+p:ProSiebenSat.1,f:1
 14be:00c00000:0407:0001:1:0
 SAT.1 Gold Österreich
 p:ProSiebenSat.1,f:1
@@ -4552,7 +4555,7 @@ SAT 1 Gold
 p:ProSiebenSat.1,f:1
 4461:00c00000:0453:0001:1:0
 ProSieben MAXX
-p:Austriasat,f:1
+p:ProSiebenSat.1,f:1
 4463:00c00000:0453:0001:1:0
 SAT.1 Bayern
 p:ProSiebenSat.1,f:1
@@ -7317,7 +7320,7 @@ p:CANAL+,f:1
 AMC HD Polska
 p:CANAL+,f:1
 3ab9:00820000:0514:013e:1:0
-Canal+ Sport 5 HD
+Canal+ Sport 5 HD Polska
 p:CANAL+,f:1
 3abd:00820000:0514:013e:1:0
 TVP 1 HD
@@ -7417,6 +7420,15 @@ Canal+ Sport 2 HD
 p:CANAL+,f:1
 3ae2:00820000:0514:013e:1:0
 CANAL+ SPORT 2 HD
+p:CANAL+,f:1
+3aa6:00820000:0514:013e:1:0
+Canal+ Sport 6 HD Polska
+p:CANAL+,f:1
+3ad8:00820000:0514:013e:1:0
+CANAL+ SPORT 6
+p:CANAL+,f:1
+3aec:00820000:0514:013e:1:0
+CANAL+ SPORT 6
 p:CANAL+,f:1
 4224:00820000:3db8:013e:1:0
 Redlight HD
@@ -9143,6 +9155,12 @@ p:,f:1
 0045:00820000:1964:013e:1:0
 Nicktoons HD
 p:Cyfrowy Polsat S.A.,f:1
+003d:00820000:1964:013e:25:0
+650061
+p:Cyfrowy Polsat S.A.,f:1
+003e:00820000:1964:013e:25:0
+650062
+p:Cyfrowy Polsat S.A.,f:1
 01f5:00820000:0384:013e:1:0
 Iran International HD
 p:ABS,f:1
@@ -9271,6 +9289,9 @@ Polsat Sport Premium 2
 p:Cyfrowy Polsat S.A.,f:1
 070f:00820000:32c8:013e:31:0
 Eleven Sports 1 4K
+p:Cyfrowy Polsat S.A.,f:1
+0711:00820000:32c8:013e:25:0
+1809
 p:Cyfrowy Polsat S.A.,f:1
 030f:00820000:1f40:013e:25:0
 Telesur HD
@@ -11735,6 +11756,9 @@ p:Eurovision Services,f:1
 0001:00820000:0070:006f:25:0
 F563/1/TDFF PRIV FTV
 p:GLOBECAST,f:1
+0001:00823187:0006:ffff:25:0
+P6 FEED1 M
+p:SES,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2026
