@@ -834,6 +834,9 @@ transponders
 00a03102:0001:ffff
 	s 12546000:7200000:0:3:160:2:0:1:2:0:2
 /
+00a0b168:0000:0001
+	s 12648000:7200000:1:3:160:2:0:1:2:0:2
+/
 00820000:2e18:00b0
 	s 10873000:27500000:1:3:130:2:0:1:2:0:2
 /
@@ -1116,9 +1119,6 @@ transponders
 0082abb1:4321:0000
 	s 11185000:7200000:1:3:130:2:0:1:2:0:2
 /
-00822bd3:03e8:0001
-	s 11219000:33000000:0:2:130:2:0:1:2:0:2:1:0:1
-/
 00820000:0001:0008
 	s 10802000:7200000:0:3:130:2:0:1:2:0:0
 /
@@ -1164,9 +1164,6 @@ transponders
 00820000:0070:006f
 	s 11600000:7200000:0:3:130:2:0:1:2:0:2
 /
-00823187:0006:ffff
-	s 12679000:7200000:0:3:130:2:0:1:2:0:2
-/
 00822a5c:0000:0001
 	s 10844000:14400000:0:3:130:2:0:1:2:0:2
 /
@@ -1182,9 +1179,6 @@ transponders
 00822dae:0001:0001
 	s 11694000:7200000:0:3:130:2:0:1:2:0:2
 /
-00822d5d:000f:ffff
-	s 11613000:14400000:0:3:130:2:0:1:2:0:2
-/
 0082ac35:07d5:0002
 	s 11317000:33000000:1:2:130:2:0:1:2:0:2
 /
@@ -1193,6 +1187,24 @@ transponders
 /
 00822d9c:0001:0001
 	s 11676000:7200000:0:3:130:2:0:1:2:0:2
+/
+00823187:0001:0001
+	s 12679000:7200000:0:3:130:2:0:1:2:0:2
+/
+0082b142:0001:ffff
+	s 12610000:7200000:1:3:130:2:0:1:2:0:2
+/
+00822bd3:03e8:0002
+	s 11219000:33000000:0:2:130:2:0:1:2:0:2:1:0:1
+/
+00823190:0000:0000
+	s 12688000:7200000:0:3:130:2:0:1:2:0:2
+/
+00822d5d:0001:0001
+	s 11613000:14400000:0:3:130:2:0:1:2:0:2
+/
+00822da5:0001:0001
+	s 11685000:7200000:0:3:130:2:0:1:2:0:2
 /
 end
 services
@@ -1914,7 +1926,7 @@ p:M7 Group,f:1
 Retro Music TV
 p:M7 Group,f:1
 3c29:00eb0000:0c90:0003:25:0
-Arena Sport 1 HD
+Kanal1 Sport
 p:M7 Group,f:1
 3c2c:00eb0000:0c90:0003:25:0
 Cinemax HD
@@ -2177,9 +2189,6 @@ p:M7 Group,f:1
 3723:00ebaec5:0c8e:0003:22:0
 Nova Lady
 p:M7 Group,f:1
-3724:00ebaec5:0c8e:0003:25:0
-Arena Sport 2 HD
-p:M7 Group,f:1
 3725:00ebaec5:0c8e:0003:25:0
 Prima COOL HD SK
 p:M7 Group,f:1
@@ -2215,6 +2224,9 @@ Prima Love HD SK
 p:M7 Group,f:1
 371f:00ebaec5:0c8e:0003:22:0
 Galaxy4
+p:M7 Group,f:1
+3724:00ebaec5:0c8e:0003:25:0
+Kanal1 Xtra
 p:M7 Group,f:1
 52f3:00ebaf61:0c96:0003:22:0
 Muzsika TV
@@ -4547,7 +4559,7 @@ p:
 007e:00c00000:000c:0085:25:0
 Syfy HD Deu
 p:SKY,f:1
-0121:00c00000:000c:0085:25:0
+0120:00c00000:000c:0085:25:0
 Sky Sport 3 HD
 p:SKY,f:1
 011f:00c00000:000c:0085:25:0
@@ -4579,9 +4591,6 @@ Sky Sport Bundesliga 7 HD
 p:SKY,f:1
 0148:00c00000:000c:0085:25:0
 Sky Sport 7 HD
-p:SKY,f:1
-0120:00c00000:000c:0085:25:0
-Fussball.TV 2
 p:SKY,f:1
 07eb:00c00000:000c:0085:25:0
 AXN Black
@@ -5906,6 +5915,9 @@ p:SES,f:1
 183d:00c00000:040b:0001:31:0
 Pro7Sat.1 UHD
 p:SES,f:1
+000a:00c00000:040b:0001:31:0
+.5.
+p:SES,f:1
 30d6:00c00000:0413:0001:25:0
 Eurosport 1 HD
 p:SES ASTRA,f:1
@@ -6050,7 +6062,7 @@ p:SKY,f:1
 0129:00c00000:0004:0085:25:0
 Sky Sport Bundesliga 4 HD
 p:SKY,f:1
-012b:00c00000:0004:0085:25:0
+012a:00c00000:0004:0085:25:0
 Sky Sport 4 HD
 p:SKY,f:1
 0155:00c00000:0004:0085:25:0
@@ -6062,9 +6074,6 @@ p:SKY,f:1
 0077:00c00000:0004:0085:25:0
 NatGeo Wild
 p:,f:1
-012a:00c00000:0004:0085:25:0
-Fussball.TV 3
-p:SKY,f:1
 0016:00c00000:0002:0085:22:0
 Heimatkanal
 p:SKY,f:1
@@ -6086,7 +6095,7 @@ p:SKY,f:1
 0115:00c00000:0002:0085:25:0
 Sky Sport Bundesliga 2 HD
 p:SKY,f:1
-0117:00c00000:0002:0085:25:0
+0116:00c00000:0002:0085:25:0
 Sky Sport 2 HD
 p:SKY,f:1
 0192:00c00000:0002:0085:22:0
@@ -6100,9 +6109,6 @@ Sky Sport Austria 3 HD
 p:SKY,f:1
 0085:00c00000:0002:0085:25:0
 Beate Uhse HD
-p:SKY,f:1
-0116:00c00000:0002:0085:25:0
-Fussball.TV 1
 p:SKY,f:1
 0228:00c00000:0010:0085:31:0
 Sky Sport Bundesliga UHD
@@ -9947,6 +9953,9 @@ p:,f:1
 0001:00a03102:0001:ffff:1:0
 Falces 2026
 p:OVERON,f:1
+0001:00a0b168:0000:0001:25:0
+F-510 NEVERS main
+p:F-510,f:1
 0001:00820000:2e18:00b0:25:0
 Al Maghribia HD
 p:SNRT,f:1
@@ -12345,11 +12354,11 @@ p:,f:1
 Nicktoons HD
 p:Cyfrowy Polsat S.A.,f:1
 003d:00820000:1964:013e:25:0
-650061
-p:Cyfrowy Polsat S.A.,f:1
-003e:00820000:1964:013e:25:0
-650062
-p:Cyfrowy Polsat S.A.,f:1
+Eurosport 3 HD
+p:Cyfrowy Polsat S.A.,C:0000,f:1
+003e:00820000:1964:013e:25:1
+Eurosport 4 HD
+p:Cyfrowy Polsat S.A.,C:0000,f:1
 01f5:00820000:0384:013e:1:0
 Iran International HD
 p:ABS,f:1
@@ -12480,7 +12489,7 @@ p:Cyfrowy Polsat S.A.,f:1
 Eleven Sports 1 4K
 p:Cyfrowy Polsat S.A.,f:1
 0711:00820000:32c8:013e:25:0
-1809
+Eleven Sports 4 HD
 p:Cyfrowy Polsat S.A.,f:1
 030f:00820000:1f40:013e:25:0
 Telesur HD
@@ -13634,32 +13643,14 @@ p:NOVA,f:1
 0276:00820000:2774:013e:1:0
 Cobalt Data
 p:NOVA,f:1
-13ed:00822ce0:05dc:013e:1:0
-Canal+ 1 HD Polska
-p:Cyfra +,f:1
-13ee:00822ce0:05dc:013e:1:0
-Canal+ Sport 2 HD Polska
-p:CANAL+,f:1
-13ef:00822ce0:05dc:013e:1:0
-Canal+ Domo HD
-p:CANAL+,f:1
-13f3:00822ce0:05dc:013e:1:0
-Eleven Sports 1 HD
-p:CANAL+,f:1
 13f4:00822ce0:05dc:013e:1:0
 HBO2 HD
-p:CANAL+,f:1
-13f5:00822ce0:05dc:013e:1:0
-Eleven Sports 2 HD
 p:CANAL+,f:1
 13f6:00822ce0:05dc:013e:1:0
 National Geographic Wild HD
 p:CANAL+,f:1
 13f7:00822ce0:05dc:013e:1:0
 TVP 3
-p:CANAL+,f:1
-13f8:00822ce0:05dc:013e:1:0
-Eleven Sports 3 HD
 p:CANAL+,f:1
 13f9:00822ce0:05dc:013e:1:0
 HBO3 HD
@@ -13670,18 +13661,6 @@ p:CANAL+
 141a:00822ce0:05dc:013e:2:0
 JASNA GORA
 p:CANAL+
-141f:00822ce0:05dc:013e:1:0
-Canal+ 1 HD Polska
-p:CANAL+,f:1
-1420:00822ce0:05dc:013e:1:0
-Canal+ Sport 2 HD
-p:CANAL+,f:1
-1421:00822ce0:05dc:013e:1:0
-CANAL+ Domo HD
-p:CANAL+,f:1
-1434:00822ce0:05dc:013e:1:0
-Canal+ Sport 2 HD Polska
-p:CANAL+,f:1
 13fd:00822ce0:05dc:013e:1:0
 Viasat True Crime
 p:CANAL+,f:1
@@ -13693,12 +13672,6 @@ TeenNick
 p:CANAL+,f:1
 1403:00822ce0:05dc:013e:1:0
 TVS
-p:CANAL+,f:1
-13f0:00822ce0:05dc:013e:1:0
-Canal+ Kuchnia HD
-p:CANAL+,f:1
-1422:00822ce0:05dc:013e:1:0
-Canal+ Kuchnia HD
 p:CANAL+,f:1
 140b:00822ce0:05dc:013e:1:0
 Adventure HD
@@ -14837,15 +14810,6 @@ p:Mobilelinks,f:1
 0001:0082abb1:4321:0000:25:0
 ITA 274 VNL Women - Belgrade Main
 p:Live Images,c:050001,f:1
-03e8:00822bd3:03e8:0001:12:0
-dn1-sgp-BASIC
-p:Telespazio
-0320:00822bd3:03e8:0001:1:0
-SERVICE IP/MAC NOTIFICATION
-p:MyIntProvider,f:1
-03e9:00822bd3:03e8:0001:12:0
-dn1-sgb-HVS1
-p:Telespazio
 271a:00820000:0001:0008:25:0
 GCUK Enc 10
 p:GlobeCast UK,f:1
@@ -14927,9 +14891,6 @@ p:Eurovision Services,f:1
 0001:00820000:0070:006f:25:0
 F563/1/TDFF PRIV FTV
 p:GLOBECAST,f:1
-0001:00823187:0006:ffff:25:0
-P6 FEED1 M
-p:SES,f:1
 0001:00822a5c:0000:0001:1:0
 SAU-033 MAIN
 p:Alamiya,f:1
@@ -14939,9 +14900,9 @@ p:MyIntProvider,f:1
 03eb:00822d06:03eb:0002:12:0
 dn1-sgb-HVS-3
 p:Telespazio
-07d3:00822d06:03eb:0002:1:0
+07d3:00822d06:03eb:0002:12:0
 dn2-sgp-HVS-3
-p:MyServiceProvider,f:1
+p:MyServiceProvider
 0001:00822a4d:0001:ffff:1:0
 TANDBERG
 p:TANDBERG Television,f:1
@@ -14954,12 +14915,9 @@ p:Globecast,f:1
 0001:00822dae:0001:0001:25:0
 GesAdtec6
 p:Encompass Digital,f:1
-0193:00822d5d:000f:ffff:25:0
-Service_MENA_03
-p:Globecast,f:1
-0194:00822d5d:000f:ffff:25:0
-Service_MENA_04
-p:Globecast,f:1
+0003:00822dae:0001:0001:25:0
+GIOCHI MEDITERRANEO
+p:ITA477,f:1
 07d5:0082ac35:07d5:0002:12:0
 HVS-4 Bck DN2 (SGB - H5)
 p:EUMETSATServer2
@@ -14977,6 +14935,45 @@ dn2-sgp-HVS2 (SGP6)
 p:MyServiceProvider
 0003:00822d9c:0001:0001:25:0
 GIOCHI MEDITERRANEO
+p:ITA477,f:1
+0001:00823187:0001:0001:1:0
+LAT-012 M
+p:LAT-012 M,f:1
+0001:0082b142:0001:ffff:1:0
+SWE-043 EUROVOLLEY POOL D
+p:Mobilelinks,f:1
+07d0:00822bd3:03e8:0002:12:0
+dn2-sgp-BASIC
+p:MyServiceProvider
+0320:00822bd3:03e8:0002:1:0
+SERVICE IP/MAC NOTIFICATION
+p:MyIntProvider,f:1
+03e8:00822bd3:03e8:0002:12:0
+dn1-sgp-BASIC
+p:Telespazio
+03e9:00822bd3:03e8:0002:12:0
+dn1-sgb-HVS1
+p:Telespazio
+0001:00823190:0000:0000:25:0
+Medialink CRO-024/1
+p:Media Link,f:1
+0001:00822d5d:0001:0001:25:0
+E414 SUPER FEED C SHOT PUT ZURICH
+p:,f:1
+0002:00822d5d:0001:0001:25:0
+E414 SUPER FEED B ZURICH POLE VAULT
+p:OVERON,f:1
+0003:00822d5d:0001:0001:25:0
+E414 SUPER FEED A ZURICH JAVELIN
+p:OVERON,f:1
+0193:00822d5d:0001:0001:25:0
+Service_MENA_03
+p:Globecast,f:1
+0194:00822d5d:0001:0001:25:0
+Service_MENA_04
+p:Globecast,f:1
+0003:00822da5:0001:0001:25:0
+Giochi Mediterraneo
 p:ITA477,f:1
 end
 === Compiled with Morpheus883's scripts ===
