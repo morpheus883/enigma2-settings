@@ -484,7 +484,7 @@ transponders
 	s 12584000:9700000:1:3:130:2:0:1:2:0:2
 /
 0082aa52:0001:0001
-	s 10834000:10000000:1:3:130:2:0:1:2:0:2
+	s 10834000:9700000:1:3:130:2:0:1:2:0:2
 /
 00822a4a:0000:ff00
 	s 10826000:9700000:0:3:130:2:0:1:2:0:2
@@ -555,9 +555,6 @@ transponders
 0082aa43:0001:0001
 	s 10819000:3674000:1:3:130:2:0:1:2:0:2
 /
-00822b33:4321:00eb
-	s 11059000:7200000:0:3:130:2:0:1:2:0:2
-/
 00822b3c:4321:00eb
 	s 11068000:7200000:0:3:130:2:0:1:2:0:2
 /
@@ -576,9 +573,6 @@ transponders
 0082aa47:0001:0001
 	s 10823000:3674000:1:3:130:2:0:1:2:0:2
 /
-00822dae:0001:0001
-	s 11694000:7200000:0:3:130:2:0:1:2:0:2
-/
 0082ac35:07d5:0002
 	s 11317000:33000000:1:2:130:2:0:1:2:0:2
 /
@@ -587,9 +581,6 @@ transponders
 /
 00822d9c:0001:0001
 	s 11676000:7200000:0:3:130:2:0:1:2:0:2
-/
-00823187:0001:0001
-	s 12679000:7200000:0:3:130:2:0:1:2:0:2
 /
 0082b142:0001:ffff
 	s 12610000:7200000:1:3:130:2:0:1:2:0:2
@@ -617,6 +608,18 @@ transponders
 /
 0082ab51:0000:ff00
 	s 11089000:7120000:1:2:130:2:0:1:2:0:2
+/
+00823187:0000:0000
+	s 12679000:7200000:0:3:130:2:0:1:2:0:2
+/
+00822b33:0001:ffff
+	s 11059000:7200000:0:3:130:2:0:1:2:0:2
+/
+00822dae:0001:ffff
+	s 11694000:7200000:0:3:130:2:0:1:2:0:2
+/
+0082ad75:4321:00eb
+	s 11637000:7200000:1:3:130:2:0:1:2:0:2
 /
 end
 services
@@ -999,7 +1002,7 @@ p:M7 Group
 Mezzo
 p:M7 Group,f:1
 17ce:00eb0000:0c82:0003:25:0
-Filmbox NL HD
+Filmbox+ One
 p:M7 Group,f:1
 182f:00eb0000:0c82:0003:2:0
 FunX
@@ -2000,9 +2003,6 @@ p:M7 Group,f:1
 36f6:00ebae9e:0c8c:0003:22:0
 Spektrum Home
 p:M7 Group,f:1
-36f7:00ebae9e:0c8c:0003:22:0
-Nicktoons CZ
-p:M7 Group,f:1
 36f8:00ebae9e:0c8c:0003:22:0
 Film+ SK
 p:M7 Group,f:1
@@ -2015,32 +2015,20 @@ p:M7 Group,f:1
 36ff:00ebae9e:0c8c:0003:25:0
 CNN Prima News HD
 p:M7 Group,f:1
-36ea:00ebae9e:0c8c:0003:1:0
-CS Film
+36ea:00ebae9e:0c8c:0003:22:0
+CS Film/CS Horror
 p:M7 Group,f:1
-36eb:00ebae9e:0c8c:0003:1:0
+36eb:00ebae9e:0c8c:0003:22:0
 CS Horror
-p:Skylink,f:1
+p:M7 Group,f:1
 36fc:00ebae9e:0c8c:0003:22:0
 Disney CZ
-p:M7 Group,f:1
-36e3:00ebae9e:0c8c:0003:1:0
-DOCUBOX
-p:MEDIA BROADCAST,f:1
-36fd:00ebae9e:0c8c:0003:22:0
-Duck TV
-p:M7 Group,f:1
-36f4:00ebae9e:0c8c:0003:22:0
-Duck TV DUT
 p:M7 Group,f:1
 3700:00ebae9e:0c8c:0003:25:0
 Viasat Epic Drama HD
 p:M7 Group,f:1
 36e9:00ebae9e:0c8c:0003:25:0
 Filmbox+ One HD Czech
-p:CS Link,f:1
-36f0:00ebae9e:0c8c:0003:1:0
-Nick Jr Czech
 p:M7 Group,f:1
 36e6:00ebae9e:0c8c:0003:25:0
 Nova Sport 3 HD
@@ -2065,8 +2053,8 @@ Prima Star
 p:M7 Group,f:1
 36e8:00ebae9e:0c8c:0003:25:0
 Prima ZOOM HD
-p:Skylink,f:1
-36f1:00ebae9e:0c8c:0003:1:0
+p:M7 Group,f:1
+36f1:00ebae9e:0c8c:0003:22:0
 Senzi
 p:M7 Group,f:1
 36fe:00ebae9e:0c8c:0003:22:0
@@ -3743,9 +3731,6 @@ p:,f:1
 0139:00820000:157c:013e:1:0
 ERT Cosmos
 p:NOVA,f:1
-013a:00820000:157c:013e:1:0
-Nickelodeon
-p:NOVA,f:1
 013b:00820000:157c:013e:1:0
 Mad Greekz
 p:NOVA,f:1
@@ -3772,6 +3757,18 @@ Mega HD
 p:NOVA,f:1
 0134:00820000:157c:013e:1:0
 ANT1 HD
+p:NOVA,f:1
+012e:00820000:157c:013e:1:0
+Magenta Sport 3 League
+p:NOVA,f:1
+012f:00820000:157c:013e:1:0
+Magenta Sport 1 League
+p:NOVA,f:1
+0130:00820000:157c:013e:1:0
+Magenta Sport 2 League
+p:NOVA,f:1
+013a:00820000:157c:013e:1:0
+Magenta Sport 4 League
 p:NOVA,f:1
 0e55:00820000:16a8:fbff:130:0
 Gestione Collegam. Telefonico
@@ -4083,13 +4080,13 @@ p:NOVA,f:1
 Nova Summer HD
 p:NOVA,f:1
 3c93:00820000:1bbc:013e:1:0
-Cosmote Sport 7 HD
+Magenta Sport 7
 p:NOVA,f:1
 3c94:00820000:1bbc:013e:1:0
-Cosmote Sport 8 HD
+Magenta Sport 8
 p:NOVA,f:1
 3c96:00820000:1bbc:013e:1:0
-Cosmote Sport 9 HD
+Magenta Sport 9
 p:NOVA,f:1
 3c9b:00820000:1bbc:013e:1:0
 NovaSports 3 HD Cy
@@ -4098,7 +4095,7 @@ p:NOVA,f:1
 NovaSports 3 HD
 p:NOVA,f:1
 3c9d:00820000:1bbc:013e:1:0
-Cosmote Sport 1 HD
+Magenta Sport 1
 p:NOVA,f:1
 3c9e:00820000:1bbc:013e:1:1
 Marquee TV
@@ -4257,7 +4254,7 @@ p:NetMed,f:1
 Da Vinci HD
 p:NetMed,f:1
 0165:00820000:1c84:013e:1:0
-Cosmote Sport 3 HD
+Magenta Sport 3
 p:NOVA,f:1
 016e:00820000:1c84:013e:1:0
 Nova Cinema 4 HD
@@ -4776,19 +4773,19 @@ p:NOVA,f:1
 NovaSportsExtra4HD
 p:NOVA,f:1
 1bcb:00820000:17d4:013e:1:0
-Cosmote Sport 4 HD
+Magenta Sport 4
 p:NOVA,f:1
 1bcc:00820000:17d4:013e:1:0
-Cosmote Sport 5 HD
+Magenta Sport 5
 p:NOVA,f:1
 1bce:00820000:17d4:013e:1:0
-Cosmote Sport 6 HD
+Magenta Sport 6
 p:NOVA,f:1
 1bbf:00820000:17d4:013e:1:0
 Viasat True Crime HD
 p:NOVA,C:0000,f:1
 1bd3:00820000:17d4:013e:1:0
-Cosmote Sport 2 HD
+Magenta Sport 2
 p:NOVA,f:1
 1bd0:00820000:17d4:013e:1:0
 NovaSportsExtra4HD Cy
@@ -5444,6 +5441,15 @@ p:Cyfrowy Polsat S.A.,f:1
 0711:00820000:32c8:013e:25:0
 Eleven Sports 4 HD
 p:Cyfrowy Polsat S.A.,f:1
+070b:00820000:32c8:013e:1:0
+Test1803
+p:Cyfrowy Polsat S.A.,f:1
+070c:00820000:32c8:013e:1:0
+Test1804
+p:Cyfrowy Polsat S.A.,f:1
+0710:00820000:32c8:013e:1:0
+Test1808
+p:Cyfrowy Polsat S.A.,f:1
 030f:00820000:1f40:013e:25:0
 Telesur HD
 p:TSA,f:1
@@ -5476,73 +5482,52 @@ DW English HD
 p:Globecast,f:1
 3341:00820000:1388:013e:2:0
 DW08
-p:GLOBECAST
+p:Globecast
 3342:00820000:1388:013e:2:0
 DW09
-p:GLOBECAST
+p:Globecast
 3343:00820000:1388:013e:2:0
 DW-FM01
-p:GLOBECAST
+p:Globecast
 3344:00820000:1388:013e:2:0
 DW-FM02
-p:GLOBECAST
+p:Globecast
 3345:00820000:1388:013e:2:0
 DW-FEED1
-p:GLOBECAST
+p:Globecast
 332e:00820000:1388:013e:25:0
 BBC Arabic HD
 p:Globecast,f:1
 3346:00820000:1388:013e:2:0
 BBC Horn of Africa
-p:GLOBECAST
+p:Globecast
 3348:00820000:1388:013e:2:0
 BBC English (Europe)
-p:GLOBECAST
+p:Globecast
 3349:00820000:1388:013e:2:0
 BBC English Mid_East
-p:GLOBECAST
+p:Globecast
 334a:00820000:1388:013e:2:0
 RFI Francais
-p:GLOBECAST
+p:Globecast
 334c:00820000:1388:013e:2:0
-RFI Langues Div
-p:GLOBECAST
+RFI DAB+ REGIONS
+p:Globecast
 334d:00820000:1388:013e:2:0
 RFI Afrique
-p:GLOBECAST
+p:Globecast
 334e:00820000:1388:013e:2:0
-RFI Divers 7
-p:GLOBECAST
+RFI DAB+ Paris
+p:Globecast
 334f:00820000:1388:013e:2:0
 RFI RMC MO
-p:GLOBECAST
+p:Globecast
 3350:00820000:1388:013e:2:0
-RFI Germany
-p:GLOBECAST
-3351:00820000:1388:013e:2:0
-RFI Prague
-p:GLOBECAST
-3352:00820000:1388:013e:2:0
-RFI Metropole
-p:GLOBECAST
-3353:00820000:1388:013e:2:0
-RFI Bucarest
-p:GLOBECAST
+RFI Europe
+p:Globecast
 3354:00820000:1388:013e:2:0
 RFI Erevan
-p:GLOBECAST
-3355:00820000:1388:013e:2:0
-RFI Chisinau
-p:GLOBECAST
-3356:00820000:1388:013e:2:0
-RFI Albania
-p:GLOBECAST
-3357:00820000:1388:013e:2:0
-RFI Liban
-p:GLOBECAST
-3358:00820000:1388:013e:2:0
-RFI Test HB
-p:GLOBECAST
+p:Globecast
 3331:00820000:1388:013e:1:0
 TV5 Monde Europe
 p:Globecast,f:1
@@ -5550,7 +5535,7 @@ p:Globecast,f:1
 Arirang HD
 p:Globecast,f:1
 3347:00820000:1388:013e:2:0
-BBC World Service Arabic
+BBC Arabic
 p:Globecast
 3330:00820000:1388:013e:1:0
 BBC News Europe
@@ -5724,7 +5709,7 @@ p:NOVA,f:1
 NovaSports Prime HD Cy
 p:NOVA,f:1
 0193:00820000:1518:013e:1:0
-Cosmote Sport Highlights HD
+Magenta Sport Highlights HD
 p:NOVA,f:1
 0198:00820000:1518:013e:1:0
 NovaSportsExtra2HD
@@ -6129,7 +6114,7 @@ p:VIVACOM
 Radio Melody
 p:VIVACOM
 001a:00820000:2580:00d5:2:0
-Radio Eparhiiski glas
+No Name
 p:Vivacom
 006a:00820000:25e4:00d5:22:0
 DSTV
@@ -6329,8 +6314,8 @@ p:VIVACOM,f:1
 0135:00820000:2648:00d5:22:0
 SkyShowtime 2
 p:VIVACOM,f:1
-014b:00820000:2648:00d5:22:0
-Test
+014b:00820000:2648:00d5:25:0
+MAX One HD
 p:VIVACOM,f:1
 0065:00820000:251c:00d5:1:0
 Travel Channel
@@ -6480,7 +6465,7 @@ p:VIVACOM,f:1
 XY Plus
 p:VIVACOM,f:1
 1398:00820000:2710:00d5:1:13
-Cinemania
+Cine TV Plus
 p:VIVACOM,f:1
 139a:00820000:2710:00d5:1:15
 БГ+ (BG+)
@@ -7170,7 +7155,7 @@ p:KABELIO.CH,f:1
 Kabelio Canale 5
 p:KABELIO.CH,f:1
 00fd:00820000:2c24:013e:25:0
-Kabelio S1
+Kabelio 3+ Focus
 p:KABELIO.CH,f:1
 00fe:00820000:2c24:013e:25:0
 Kabelio TMC CH
@@ -7748,9 +7733,6 @@ p:GlobeCast UK,f:1
 271b:0082aa43:0001:0001:1:0
 GCUK Enc 11
 p:GCUK,f:1
-0001:00822b33:4321:00eb:25:0
-IMG 1 EU
-p:Eurovision Services,f:1
 0001:00822b3c:4321:00eb:25:0
 IMG 2 EU
 p:Eurovision Services,f:1
@@ -7778,12 +7760,6 @@ p:GCUK,f:1
 0001:0082aa47:0001:0001:25:0
 Newmarket Dubai Radiocam
 p:Globecast,f:1
-0001:00822dae:0001:0001:25:0
-GesAdtec6
-p:Encompass Digital,f:1
-0003:00822dae:0001:0001:25:0
-GIOCHI MEDITERRANEO
-p:ITA477,f:1
 07d5:0082ac35:07d5:0002:12:0
 HVS-4 Bck DN2 (SGB - H5)
 p:EUMETSATServer2
@@ -7802,9 +7778,6 @@ p:MyServiceProvider
 0003:00822d9c:0001:0001:25:0
 GIOCHI MEDITERRANEO
 p:ITA477,f:1
-0001:00823187:0001:0001:1:0
-LAT-012 M
-p:LAT-012 M,f:1
 0001:0082b142:0001:ffff:1:0
 SWE-043 EUROVOLLEY POOL D
 p:Mobilelinks,f:1
@@ -7928,6 +7901,18 @@ p:NEP Connect,f:1
 0007:0082ab51:0000:ff00:25:0
 EFL Highlights
 p:NEP Connect,f:1
+0001:00823187:0000:0000:1:0
+HOTBIRD 13F // Cienciano (PER) vs Montevideo City Torque (URU) - INGLES EUROPA
+p:SES Video,f:1
+0001:00822b33:0001:ffff:1:0
+Amgen Irish Open 2026
+p:Digisat,f:1
+0001:00822dae:0001:ffff:1:0
+Solheim Cup
+p:Service Provider,f:1
+0001:0082ad75:4321:00eb:25:0
+Fi18_GNVE
+p:EBUER,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2026
