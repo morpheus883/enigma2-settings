@@ -9,14 +9,14 @@ Morpheus883's Site: https://morpheus883.altervista.org/
 GitHub Repository: https://github.com/morpheus883/
 and available on the main Sat Sites
 
-Enigma2 Settings 28th September 2026, © by Morpheus883
+Enigma2 Settings 8th October 2026, © by Morpheus883
 
 Settings for Images based on Enigma 2.4:
 
 Statistics:
 # Satellites: 88 (Ku Band)
 # Ordered Provider Lists: 70+
-# Services: 16.462 (TV-Radio-Data)
+# Services: 16.502 (TV-Radio-Data)
 # Packages: 23 (TV-Radio-Data):
 
 MONOFeed (13°E)
@@ -31,16 +31,16 @@ EUTELSAT 9 DUALFeed (9°E + 13°E)
 EUTELSAT 9 TRIALFeed (9°E + 13°E + 19.2°E)
 EUTELSAT 16 DUALFeed (13°E + 16°E)
 EUTELSAT 16 TRIALFeed (13°E + 16°E + 19.2°E)
-ASTRA 3B DUALFeed (13°E + 23.5°E)
-ASTRA 3B TRIALFeed (13°E + 19.2°E + 23.5°E)
+ASTRA 3C DUALFeed (13°E + 23.5°E)
+ASTRA 3C TRIALFeed (13°E + 19.2°E + 23.5°E)
 ASTRA 2E/2F/2G DUALFeed (13°E + 28.2°E)
 ASTRA 2E/2F/2G TRIALFeed (13°E + 19.2°E + 28.2°E)
-TURKSAT 3A/4A/5B DUALFeed (13°E + 42°E)
-TURKSAT 3A/4A/5B TRIALFeed (13°E + 19.2°E + 42°E)
+TURKSAT 3A/4A/5B/6A DUALFeed (13°E + 42°E)
+TURKSAT 3A/4A/5B/6A TRIALFeed (13°E + 19.2°E + 42°E)
 THOR 5/6/7 ASTRA 4 TRIALFeed (0.8°W + 4.8°E + 13°E) Special Edition
 THOR 5/6/7 ASTRA 2E/2F/2G QUADFeed (0.8°W + 13°E + 19.2°E + 28.2°E) Special Edition
-EUTELSAT 16 ASTRA 3B QUADFeed (13°E + 16°E + 19.2°E + 23.5°E) Special Edition
-ASTRA 3B/2E/2F/2G QUADFeed (13°E + 19.2°E + 23.5°E + 28.2°E) Special Edition
+EUTELSAT 16 ASTRA 3C QUADFeed (13°E + 16°E + 19.2°E + 23.5°E) Special Edition
+ASTRA 3C/2E/2F/2G QUADFeed (13°E + 19.2°E + 23.5°E + 28.2°E) Special Edition
 Motor - FULLFeed (45.0°W - 76.5°E)
 OTHER PACKAGES AVAILABLE ON REQUEST
  
@@ -74,7 +74,7 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [4.8 E] ===== ASTRA 4A SES 5 ===M=
 [4.8 E] Viasat
 [4.8 E] VisionTV
-[7.0 E] ===== EUTELSAT 7 B/C =====
+[7.0 E] ===== EUTELSAT 7C =====
 [9.0 E] ===== EUTELSAT 9B ===M=
 [9.0 E] Kabelkiosk
 [9.0 E] OTE
@@ -88,7 +88,7 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [13.0 E] RAI/Mediaset/TivùSat
 [13.0 E] Sky Italia
 [13.0 E] Vivacom
-[16.0 E] ===== EUTELSAT 16A ===M=
+[16.0 E] ===== EUTELSAT 16D ===M=
 [16.0 E] A1 Hrvatska
 [16.0 E] Antik Sat
 [16.0 E] Digit Alb
@@ -96,19 +96,19 @@ OTHER PACKAGES AVAILABLE ON REQUEST
 [16.0 E] Orange SK
 [16.0 E] Pink
 [16.0 E] Total TV
-[19.2 E] ===== ASTRA 1 KR/M/N/P ===M=
+[19.2 E] ===== ASTRA 1 N/P ===M=
 [19.2 E] CanalSat
 [19.2 E] Orange FR
 [19.2 E] Movistar+
 [19.2 E] HD +/Sky D/ARD
 [19.2 E] Canal Digitaal/TV Vlaanderen
 [21.6 E] ===== EUTELSAT 21B =====
-[23.5 E] ===== ASTRA 3 B/C ===M=
+[23.5 E] ===== ASTRA 3C ===M=
 [23.5 E] Canal Digitaal/TV Vlaanderen
 [23.5 E] CS Link/SkyLink
 [23.5 E] Telekom Srbija
 [25.5 E] ===== ES'HAIL 1 ===N=
-[26.0 E] ===== BADR 5/7/8 =====
+[26.0 E] ===== BADR 7/8 =====
 [26.0 E] Arabsat
 [26.0 E] JMC - Jordan Media City
 [26.0 E] MBC - Middle East Broadcasting Center

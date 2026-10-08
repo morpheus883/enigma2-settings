@@ -795,9 +795,6 @@ transponders
 0082aa2c:2c88:013e
 	s 10796000:27500000:1:4:130:2:0:1:2:2:2
 /
-0082b082:2774:013e
-	s 12418000:30000000:1:4:130:2:0:1:2:0:2
-/
 00822d47:0001:0001
 	s 11591000:9600000:0:3:130:2:0:1:2:0:2
 /
@@ -840,14 +837,8 @@ transponders
 0082abb1:4321:0000
 	s 11185000:7200000:1:3:130:2:0:1:2:0:2
 /
-00820000:0001:0008
-	s 10802000:7200000:0:3:130:2:0:1:2:0:0
-/
 00822a43:0001:0001
 	s 10819000:7200000:0:3:130:2:0:1:2:0:0
-/
-0082aa4d:0001:0001
-	s 10829000:7200000:1:3:130:2:0:1:2:0:0
 /
 00820000:0000:006f
 	s 10848000:7200000:1:3:130:2:0:1:2:0:0
@@ -912,12 +903,6 @@ transponders
 00822e56:1644:013e
 	s 11862000:29900000:0:2:130:2:0:1:2:0:2
 /
-00822d62:0000:ff00
-	s 11618000:7200000:0:3:130:2:0:1:2:0:2
-/
-0082ab51:0000:ff00
-	s 11089000:7120000:1:2:130:2:0:1:2:0:2
-/
 00823187:0000:0000
 	s 12679000:7200000:0:3:130:2:0:1:2:0:2
 /
@@ -927,17 +912,11 @@ transponders
 0082ad75:4321:00eb
 	s 11637000:7200000:1:3:130:2:0:1:2:0:2
 /
-00823109:0001:ffff
-	s 12553000:7200000:0:3:130:2:0:1:2:0:2
-/
 00822bd3:03e9:0002
 	s 11219000:33000000:0:2:130:2:0:1:2:0:2:1:0:1
 /
 00822da5:0000:0000
 	s 11685000:7200000:0:2:130:2:0:1:2:0:2
-/
-00822b33:4321:00eb
-	s 11059000:7200000:0:3:130:2:0:1:2:0:2
 /
 0082ad63:4321:00eb
 	s 11619000:7200000:1:3:130:2:0:1:2:0:2
@@ -959,6 +938,36 @@ transponders
 /
 00822d93:0001:0001
 	s 11667000:7200000:0:3:130:2:0:1:2:0:2
+/
+00822b33:0001:ffff
+	s 11059000:7200000:0:3:130:2:0:1:2:0:2
+/
+00822d62:0001:0001
+	s 11618000:7200000:0:3:130:2:0:1:2:0:2
+/
+0082aa43:0001:0001
+	s 10819000:3674000:1:3:130:2:0:1:2:0:2
+/
+00822a31:0001:0001
+	s 10801000:7200000:0:3:130:2:0:1:2:0:2
+/
+00820000:2198:fbff
+	s 12418000:29900000:1:3:130:2:0:1:2:0:2
+/
+00822d4b:0000:0000
+	s 11595000:14400000:0:3:130:2:0:1:2:0:2
+/
+0082ad67:0001:0001
+	s 11623000:9875000:1:3:130:2:0:1:2:0:2
+/
+0082aa4e:0001:ffff
+	s 10830000:7200000:1:3:130:2:0:1:2:0:2
+/
+0082ab51:0001:ffff
+	s 11089000:7200000:1:3:130:2:0:1:2:0:2
+/
+00823109:0001:0001
+	s 12553000:7200000:0:3:130:2:0:1:2:0:2
 /
 end
 services
@@ -6311,6 +6320,15 @@ p:SES ASTRA,f:1
 1645:00c00000:042c:0001:1:0
 TVMonaco
 p:EasyTools,f:1
+164f:00c00000:042c:0001:25:0
+CGTN HD
+p:GLOBECAST,f:1
+1650:00c00000:042c:0001:25:0
+CGTN Documentary HD
+p:GLOBECAST,f:1
+1651:00c00000:042c:0001:25:0
+CGTN Français HD
+p:GLOBECAST,f:1
 10cc:00c00000:0418:0001:25:0
 SportDigital Fussball HD
 p:SES,f:1
@@ -11363,45 +11381,6 @@ p:CANAL+,f:1
 3d78:0082aa2c:2c88:013e:1:0
 Power TV
 p:CANAL+,f:1
-0259:0082b082:2774:013e:1:0
-FX Life HD
-p:NOVA,f:1
-025a:0082b082:2774:013e:1:1
-FX HD
-p:NOVA,f:1
-025b:0082b082:2774:013e:1:2
-MyZen TV HD
-p:NOVA,f:1
-025c:0082b082:2774:013e:1:3
-NR1 HD
-p:NOVA,f:1
-025d:0082b082:2774:013e:1:4
-INPLUS
-p:NOVA,f:1
-025e:0082b082:2774:013e:1:5
-Crime+Investigation
-p:NOVA,f:1
-025f:0082b082:2774:013e:1:6
-National Geographic HD
-p:NOVA,f:1
-0260:0082b082:2774:013e:1:7
-Viasat History HD
-p:NOVA,f:1
-0261:0082b082:2774:013e:1:8
-Viasat Nature HD
-p:NOVA,f:1
-0262:0082b082:2774:013e:1:9
-Viasat Explore HD
-p:NOVA,f:1
-0263:0082b082:2774:013e:1:10
-Vivid Red HD
-p:NOVA,f:1
-0264:0082b082:2774:013e:1:11
-TEST SERVICE 12
-p:NOVA,f:1
-0276:0082b082:2774:013e:1:12
-Cobalt Data
-p:NOVA,f:1
 0001:00822d47:0001:0001:1:0
 NLEMG HOL270-1
 p:EMG Connectivity,f:1
@@ -11528,27 +11507,9 @@ p:Mobilelinks,f:1
 0001:0082abb1:4321:0000:25:0
 ITA 274 VNL Women - Belgrade Main
 p:Live Images,c:050001,f:1
-271a:00820000:0001:0008:25:0
-GCUK Enc 10
-p:GlobeCast UK,f:1
-cf09:00820000:0001:0008:25:0
-FA Cup - Chelsea vs Man City
-p:Globecast,f:1
-0001:00820000:0001:0008:25:0
-BWF WF-A C1 BISS-1
-p:Globecast Asia,c:050001,f:1
 7533:00822a43:0001:0001:25:0
 GCUK Enc 3
 p:GlobeCast UK,f:1
-7532:0082aa4d:0001:0001:25:0
-GCUK Enc 2
-p:GlobeCast UK,f:1
-7539:0082aa4d:0001:0001:25:0
-GCUK Enc 9
-p:GlobeCast UK,f:1
-0001:0082aa4d:0001:0001:25:0
-Infront Sports FBK Games Distrib
-p:Globecast UK,f:1
 271b:00820000:0000:006f:25:0
 GCUK Enc 11
 p:GCUK,f:1
@@ -11726,12 +11687,6 @@ p:KABELIO.CH,f:1
 0089:00822e56:1644:013e:1:0
 Kabelio Sat1 Gold CH
 p:KABELIO.CH,f:1
-0001:00822d62:0000:ff00:25:0
-AFL Brisbane Lions vs. GWS GIANTS Brisbane Lions vs. GWS GIANTS
-p:NEP Connect,f:1
-0007:0082ab51:0000:ff00:25:0
-EFL Highlights
-p:NEP Connect,f:1
 0001:00823187:0000:0000:1:0
 HOTBIRD 13F // Cienciano (PER) vs Montevideo City Torque (URU) - INGLES EUROPA
 p:SES Video,f:1
@@ -11741,9 +11696,6 @@ p:Service Provider,f:1
 0001:0082ad75:4321:00eb:25:0
 Fi18_GNVE
 p:EBUER,f:1
-0001:00823109:0001:ffff:1:0
-E-272 MAIN
-p:AVP 1080P,f:1
 07d1:00822bd3:03e9:0002:12:0
 dn2-sgp-HVS-1
 p:MyServiceProvider
@@ -11759,9 +11711,6 @@ p:MyServiceProvider
 0001:00822da5:0000:0000:25:0
 ENC 2
 p:SES,f:1
-0001:00822b33:4321:00eb:25:0
-IMG 1 EU
-p:Eurovision Services,f:1
 0001:0082ad63:4321:00eb:25:0
 Fi01 ACB
 p:CM5000,f:1
@@ -11786,6 +11735,102 @@ p:Service Provider,f:1
 4e20:00822d93:0001:0001:1:0
 ORA - ANA
 p:Net 1,f:1
+0001:00822b33:0001:ffff:1:0
+Dunhill Championship
+p:Service Provider,f:1
+4e20:00822d62:0001:0001:1:0
+ORA - ANA
+p:Net 1,f:1
+0001:00822d62:0001:0001:1:0
+Service 01
+p:Net 1,f:1
+7534:0082aa43:0001:0001:1:0
+GCUK Encoder 04
+p:GlobeCast UK,f:1
+7537:00822a31:0001:0001:1:0
+GCUK Encoder 7
+p:GlobeCast UK,f:1
+271a:00822a31:0001:0001:25:0
+GCUK Enc 10
+p:GlobeCast UK,f:1
+cf09:00822a31:0001:0001:25:0
+FA Cup - Chelsea vs Man City
+p:Globecast,f:1
+0001:00822a31:0001:0001:25:0
+BWF WF-A C1 BISS-1
+p:Globecast Asia,c:050001,f:1
+0f6c:00820000:2198:fbff:1:0
+Sky Sport 9
+p:SkyItalia,f:1
+0f89:00820000:2198:fbff:1:0
+IEPG Data
+p:SkyItalia,f:1
+38f6:00820000:2198:fbff:1:0
+
+p:SkyItalia,f:1
+0f64:00820000:2198:fbff:25:0
+Prime Video Sportsbar
+p:SkyItalia,f:1
+0f65:00820000:2198:fbff:25:0
+Sky Cinema Uno
+p:SkyItalia,f:1
+0f67:00820000:2198:fbff:25:0
+Sky Cinema Uno
+p:SkyItalia,f:1
+0f68:00820000:2198:fbff:25:0
+Sky Atlantic
+p:SkyItalia,f:1
+0f69:00820000:2198:fbff:25:0
+Sky Sport Business 2
+p:SkyItalia,f:1
+0f6a:00820000:2198:fbff:25:0
+Sky Cinema Stories
+p:SkyItalia,f:1
+0f6b:00820000:2198:fbff:25:0
+DAZN 1
+p:SkyItalia,f:1
+0f6d:00820000:2198:fbff:25:0
+Sky Serie
+p:SkyItalia,f:1
+0f6e:00820000:2198:fbff:25:0
+Sky Investigation
+p:SkyItalia,f:1
+0f70:00820000:2198:fbff:25:0
+Sky Sport Basket
+p:SkyItalia,f:1
+0f71:00820000:2198:fbff:25:0
+Sky Sport 7
+p:SkyItalia,f:1
+0f72:00820000:2198:fbff:25:0
+SuperTennis HD
+p:SkyItalia,f:1
+0f96:00820000:2198:fbff:251:0
+Fusion BGDL 3990
+p:SkyItalia
+0001:00822d4b:0000:0000:25:0
+YSM021m M06
+p:,f:1
+0001:0082ad67:0001:0001:25:0
+SNG ABC 1
+p:,f:1
+0001:0082aa4e:0001:ffff:1:0
+Live Broadcasting Line 1
+p:Live Broadcasting,f:1
+7532:0082aa4e:0001:ffff:25:0
+GCUK Enc 2
+p:GlobeCast UK,f:1
+7539:0082aa4e:0001:ffff:25:0
+GCUK Enc 9
+p:GlobeCast UK,f:1
+0001:0082ab51:0001:ffff:1:0
+E115 G19 Via 1 Main
+p:TBS,f:1
+0007:0082ab51:0001:ffff:25:0
+EFL Highlights
+p:NEP Connect,f:1
+0001:00823109:0001:0001:25:0
+Ulm-Botevgrad
+p:MTI Teleport MUC,f:1
 end
 === Compiled with Morpheus883's scripts ===
 Author: Morpheus883, 2026
